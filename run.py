@@ -1,10 +1,22 @@
 #!/usr/bin/env python3
-# usage: python3 run.py --model <key from models.json> --arm bare|mcp [--questions FILE] [--limit N] [--dry-run] [--confirm-spend] [--max-usd X] [--concurrency N] [--tag T]
+# usage: python3 run.py --model <key from models.json> --arm bare|mcp [--self-check] [--questions FILE] [--limit N] [--dry-run] [--confirm-spend] [--max-usd X] [--concurrency N] [--tag T] [--tool-result-chars N] [--db PATH]
 """Run one (model, arm) over the citebench question set and store answers in results/results.db.
 
 bare = one chat call with the prompt.
 mcp  = tool-use loop (max --max-turns model turns) with the Syfert MCP tools; the last turn is
        forced tool-free so every question ends with an answer.
+mcp --self-check = after the final answer the HARNESS sends it to check_brief itself; if check_brief reports a
+       misquote / quote absent from the cited opinion, an unresolved or name-mismatched cite, or a red-flagged
+       case, the model gets ONE more user turn with the findings (SELF_CHECK_PROMPT) and revises with its normal
+       tools (--max-turns covers the whole question; if the draft used every turn, the revision still gets one
+       tool-free turn, logged as over_budget_turn). A clean check leaves the draft as the answer. arm stays 'mcp'
+       in results.db; run_id = <model>:mcp:<tag>+check; config_json.self_check = true. The check is logged in
+       tool_calls_json as a pseudo-call {"name": "_self_check", ...} (draft, findings, revised, revision tokens);
+       the revision's tokens/cost are in the answer's totals. claudecode: sessions are not persisted
+       (--no-session-persistence), so the revision is a FRESH `claude -p` whose prompt carries the question, the
+       draft and the findings, with the turns the draft left over.
+--tool-result-chars N (default: models.json "tool_result_chars" for the model, else 12000) truncates each tool
+       result fed back to the model; recorded in config_json, and a run_id cannot be resumed with a different value.
 Resumable: (run_id, qid) pairs with a stored non-error answer are skipped; errored ones retried.
 """
 import argparse
@@ -13,6 +25,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import re
 import sys
 import threading
 import time
@@ -26,8 +39,108 @@ BARE_SYSTEM = None  # bare arm sends the prompt alone, exactly as written in que
 MCP_SYSTEM = ("You have access to legal research tools backed by a database of U.S. case law and statutes. "
               "Use them to find and verify authority before you answer. When you are done researching, "
               "give your final answer as plain text.")
-TOOL_RESULT_CHARS = 12000   # tool output fed back to the model is truncated to this (recorded per call)
+DEFAULT_TOOL_RESULT_CHARS = 12000   # tool output fed back to the model is truncated to this (recorded per call)
 HTTP_TIMEOUT = 300
+SELF_CHECK_PROMPT = ("Your draft was checked against the case-law database. Findings: {findings}. Revise your "
+                     "answer; replace any misquoted passage with the verbatim text, drop or fix any citation that "
+                     "did not resolve, and note any red-flagged case. Return the full revised answer as plain text.")
+# claudecode revision = a fresh process (no persisted session to --resume), so the prompt carries everything
+CC_REVISE_PROMPT = ("{question}\n\n---\nYou already drafted this answer:\n\n{draft}\n\n---\n" + SELF_CHECK_PROMPT)
+
+
+def strip_md(t):
+    """Mirror of grade.strip_md, so check_brief sees the same text the grader sends."""
+    t = re.sub(r"^[ \t]{0,3}(?:#{1,6}[ \t]+|>[ \t]?|[-*+][ \t]+)", "", t or "", flags=re.M)
+    t = re.sub(r"\*(?!\d)", "", t)
+    t = re.sub(r"(?<![A-Za-z0-9])_{1,3}(?=\S)(.+?)(?<=\S)_{1,3}(?![A-Za-z0-9])", r"\1", t)
+    return t.replace("`", "")
+
+
+def brief_findings(body, cap=20, snip=600):
+    """check_brief body -> the problems the self-check reports back to the model ([] = the draft stands).
+    Case cites only: unresolved, party-name mismatch, quote not verbatim in the cited opinion, red flag."""
+    out, seen = [], set()
+
+    def add(f):
+        k = (f.get("cite"), f["problem"], f.get("quote"))
+        if k not in seen and len(out) < cap:
+            seen.add(k)
+            out.append(f)
+
+    for c in body.get("cites") or []:
+        raw = c.get("raw")
+        pc = c.get("party_check") or {}
+        name = pc.get("resolved_name") or (c.get("case") or {}).get("case_name")
+        if c.get("cluster_id") is None:
+            f = {"cite": raw, "problem": "citation did not resolve to any case"}
+            dym = [f"{d.get('case_name')}, {c.get('volume')} {c.get('reporter')} {d.get('page')} ({d.get('year')})"
+                   for d in (c.get("did_you_mean") or [])[:3]]
+            if dym:
+                f["did_you_mean"] = dym
+            add(f)
+            continue
+        if pc.get("verdict") == "mismatch":
+            cl = pc.get("claimed") or c.get("claimed") or {}
+            add({"cite": raw, "problem": "case name does not match the citation",
+                 "you_wrote": " v. ".join(x for x in (cl.get("lhs"), cl.get("rhs")) if x), "cite_is": name})
+        for qc in c.get("quote_checks") or ([c["quote_check"]] if c.get("quote_check") else []):
+            if qc.get("integrity") == "absent" or qc.get("verdict") in ("misquote", "paraphrase"):
+                bm = qc.get("best_match")
+                add({"cite": raw, "case": name,
+                     "problem": ("quoted words are a paraphrase, not verbatim" if qc.get("verdict") == "paraphrase"
+                                 else "misquote: not verbatim in the cited opinion"),
+                     "quote": (qc.get("brief_quote") or "")[:snip],
+                     "best_match": bm[:snip] if bm else "(no matching passage found in this opinion)",
+                     "match_percent": qc.get("percent")})
+        if (c.get("treatment") or {}).get("flag_color") == "red":
+            ob = c.get("overruled_by") or {}
+            f = {"cite": raw, "case": name, "problem": "red flag: overruled or no longer good law"}
+            if ob.get("overruler_name"):
+                f["overruled_by"] = (f"{ob.get('verb') or 'overruled'} by {ob['overruler_name']} "
+                                     f"({(ob.get('overruler_date') or '')[:4]})")
+            add(f)
+    return out
+
+
+def mock_check_body(q):
+    """--dry-run stand-in for check_brief: odd question numbers get one misquote, even ones come back clean."""
+    digits = "".join(ch for ch in q["id"] if ch.isdigit())
+    if not digits or int(digits) % 2 == 0:
+        return {"mode": "mock", "stats": {"extracted": 1, "resolved": 1, "unresolved": 0}, "cites": []}
+    return {"mode": "mock", "stats": {"extracted": 1, "resolved": 1, "unresolved": 0, "misquote": 1}, "cites": [
+        {"raw": q.get("gold_citation"), "cluster_id": 1, "treatment": {"flag_color": "green"},
+         "party_check": {"verdict": "match", "resolved_name": q.get("gold_case_name")},
+         "quote_checks": [{"brief_quote": "the mock quoted words", "best_match": "the mock verbatim words",
+                           "percent": 71, "verdict": "misquote", "integrity": "absent"}]}]}
+
+
+def run_self_check(text, q, keys, tls, dry):
+    """Harness-side check_brief on a draft answer -> (findings, the _self_check log record)."""
+    t1 = time.time()
+    sent = strip_md(text)
+    info = {"name": "_self_check", "args": {"tool": "check_brief", "text_chars": len(sent)}, "draft": text}
+    try:
+        if dry:
+            body = mock_check_body(q)
+        else:
+            if not hasattr(tls, "mcp"):
+                tls.mcp = MCPClient(keys.get("SYFERT_MCP_TOKEN"))
+            res, is_err, structured = tls.mcp.call_tool("check_brief", {"text": sent})
+            if is_err:
+                raise MCPError(f"check_brief isError: {res[:200]}")
+            body = structured or json.loads(res)
+        findings = brief_findings(body)
+        info.update(is_error=False, stats=body.get("stats"), findings=findings)
+    except Exception as e:  # a failed check never costs the answer: the draft stands
+        findings = []
+        info.update(is_error=True, error=f"{type(e).__name__}: {e}"[:300], findings=[])
+    info["latency_s"] = round(time.time() - t1, 2)
+    info["revised"] = False
+    return findings, info
+
+
+def findings_json(findings):
+    return json.dumps(findings, ensure_ascii=False, separators=(",", ":"))
 
 
 class ProviderError(Exception):
@@ -106,6 +219,9 @@ class OpenAICompat:
         for (cid, name, _), res in zip(calls, results):
             st["messages"].append({"role": "tool", "tool_call_id": cid, "content": res})
 
+    def add_user(self, st, text):
+        st["messages"].append({"role": "user", "content": text})
+
 
 class Anthropic:
     """Claude Messages API over raw HTTP (anthropic SDK is not installed; project is stdlib+requests).
@@ -151,6 +267,13 @@ class Anthropic:
         st["messages"].append({"role": "user", "content": [
             {"type": "tool_result", "tool_use_id": cid, "content": res} for (cid, _, _), res in zip(calls, results)]})
 
+    def add_user(self, st, text):
+        last = st["messages"][-1]
+        if last["role"] == "user" and isinstance(last["content"], list):   # after unanswered tool results
+            last["content"].append({"type": "text", "text": text})
+        else:
+            st["messages"].append({"role": "user", "content": text})
+
 
 class Gemini:
     """generativelanguage.googleapis.com v1beta generateContent."""
@@ -195,6 +318,13 @@ class Gemini:
             {"functionResponse": {"name": name, "response": {"content": res}}}
             for (_, name, _), res in zip(calls, results)]})
 
+    def add_user(self, st, text):
+        last = st["contents"][-1]
+        if last.get("role") == "user":
+            last["parts"].append({"text": text})
+        else:
+            st["contents"].append({"role": "user", "parts": [{"text": text}]})
+
 
 class Mock:
     """Zero-network provider for --dry-run. Deterministic per qid:
@@ -226,10 +356,15 @@ class Mock:
             ans += " Caution: the research tools show this case has been overruled; do not rely on it."
         if self.arm == "bare":
             ans += f" See also {fake} (applying the same rule)."
+        if st.get("revise"):
+            ans += " (revised after self-check)"
         return ans, [], (180 if self.arm == "bare" else 2400, 90), None
 
     def add_results(self, st, calls, results):
         pass
+
+    def add_user(self, st, text):
+        st["revise"] = text
 
 
 class ClaudeCode:
@@ -252,21 +387,54 @@ class ClaudeCode:
         self.mcp = mcp
         self.system = MCP_SYSTEM if arm == "mcp" else self.BARE_SYSTEM
 
-    def argv(self, prompt):
+    def argv(self, prompt, max_turns=None):
         a = ["claude", "-p", prompt, "--model", self.model, "--strict-mcp-config", "--mcp-config", self.mcp,
              "--tools", "", "--setting-sources", "", "--no-session-persistence",
-             "--system-prompt", self.system, "--max-turns", str(self.max_turns),
+             "--system-prompt", self.system, "--max-turns", str(max_turns or self.max_turns),
              "--output-format", "stream-json", "--verbose"]
         if self.arm == "mcp":
             a += ["--allowedTools", "mcp__syfert__*"]
         return a
 
-    def run(self, q):
+    def run(self, q, checker=None):
+        """checker(text) -> (findings, _self_check record) turns on --self-check (see module docstring)."""
+        row, meta = self._invoke(q["prompt"])
+        if checker is None or row["error"] or not (row["raw_answer"] or "").strip():
+            return row, meta
+        findings, info = checker(row["raw_answer"])
+        tools = json.loads(row["tool_calls_json"])
+        info["turn"] = meta.get("num_turns")
+        tools.append(info)
+        row["latency_s"] = round(row["latency_s"] + info["latency_s"], 2)
+        if findings:
+            left = self.max_turns - (meta.get("num_turns") or 0)
+            info.update(revision_mode="fresh claude -p: question + draft + findings (no persisted session to resume)",
+                        revision_turns_budget=max(1, left), over_budget_turn=left < 1)
+            r2, m2 = self._invoke(CC_REVISE_PROMPT.format(question=q["prompt"], draft=row["raw_answer"],
+                                                          findings=findings_json(findings)), max(1, left))
+            for t in json.loads(r2["tool_calls_json"]):
+                t["turn"] = len(tools) + 1
+                tools.append(t)
+            info.update(revision_tokens_in=r2["tokens_in"], revision_tokens_out=r2["tokens_out"])
+            if r2["error"] or not (r2["raw_answer"] or "").strip():
+                info["revision_error"] = (r2["error"] or "empty revised answer") + " (draft kept)"
+            else:
+                row["raw_answer"] = r2["raw_answer"]
+                info["revised"] = True
+            row["tokens_in"] += r2["tokens_in"]
+            row["tokens_out"] += r2["tokens_out"]
+            row["latency_s"] = round(row["latency_s"] + r2["latency_s"], 2)
+            meta = dict(meta, draft_nominal_cost_usd=meta.get("nominal_cost_usd"), revision=m2,
+                        nominal_cost_usd=(meta.get("nominal_cost_usd") or 0) + (m2.get("nominal_cost_usd") or 0))
+        row["tool_calls_json"] = json.dumps(tools)
+        return row, meta
+
+    def _invoke(self, prompt, max_turns=None):
         import subprocess
         env = {k: v for k, v in os.environ.items() if k not in self.SCRUB}
         t0 = time.time()
         try:
-            p = subprocess.run(self.argv(q["prompt"]), cwd=self.CWD, env=env, stdin=subprocess.DEVNULL,
+            p = subprocess.run(self.argv(prompt, max_turns), cwd=self.CWD, env=env, stdin=subprocess.DEVNULL,
                                capture_output=True, text=True, timeout=self.timeout)
         except subprocess.TimeoutExpired:
             return {"raw_answer": None, "tool_calls_json": "[]", "tokens_in": 0, "tokens_out": 0, "cost_usd": 0.0,
@@ -354,29 +522,29 @@ def build_provider(spec, arm, keys, dry):
     raise SystemExit(f"unknown provider {p}")
 
 
-def run_question(q, arm, prov, spec, mcp_tools_raw, tools_fmt, keys, max_turns, dry, tls):
+def run_question(q, arm, prov, spec, mcp_tools_raw, tools_fmt, keys, max_turns, dry, tls,
+                 tool_result_chars=DEFAULT_TOOL_RESULT_CHARS, self_check=False):
     t0 = time.time()
-    tin = tout = 0
-    reported_cost = 0.0
-    have_reported = False
+    acc = {"tin": 0, "tout": 0, "cost": 0.0, "have_cost": False}
     tool_log = []
     system = MCP_SYSTEM if arm == "mcp" else BARE_SYSTEM
     st = prov.new(system, q["prompt"])
     if isinstance(prov, Mock):
         st["q"] = q
-    text = ""
-    try:
-        turns = 1 if arm == "bare" else max_turns
-        for turn in range(1, turns + 1):
-            allow = arm == "mcp" and turn < turns
+
+    def loop(first, last):
+        """Model turns first..last (the last one tool-free); returns (final text, last turn used)."""
+        text = ""
+        for turn in range(first, last + 1):
+            allow = arm == "mcp" and turn < last
             text, calls, (i, o), c = prov.step(st, tools_fmt if arm == "mcp" else None, allow)
-            tin += i or 0
-            tout += o or 0
+            acc["tin"] += i or 0
+            acc["tout"] += o or 0
             if c is not None:
-                reported_cost += float(c)
-                have_reported = True
+                acc["cost"] += float(c)
+                acc["have_cost"] = True
             if not calls or arm != "mcp":
-                break
+                return text, turn
             results = []
             for cid, name, args in calls:
                 t1 = time.time()
@@ -390,21 +558,47 @@ def run_question(q, arm, prov, spec, mcp_tools_raw, tools_fmt, keys, max_turns, 
                     except MCPError as e:
                         res, is_err = f"tool error: {e}", True
                 full = len(res)
-                if full > TOOL_RESULT_CHARS:
-                    res = res[:TOOL_RESULT_CHARS] + f"\n...[truncated {full - TOOL_RESULT_CHARS} chars]"
+                if full > tool_result_chars:
+                    res = res[:tool_result_chars] + f"\n...[truncated {full - tool_result_chars} chars]"
                 tool_log.append({"turn": turn, "name": name, "args": args, "is_error": is_err,
                                  "result_chars": full, "fed_chars": len(res),
                                  "latency_s": round(time.time() - t1, 2)})
                 results.append(res)
             prov.add_results(st, calls, results)
+        return text, last
+
+    text = ""
+    try:
+        text, used = loop(1, 1 if arm == "bare" else max_turns)
         err = None
         if not (text or "").strip():
             err = "empty final answer"
+        elif self_check and arm == "mcp":
+            findings, info = run_self_check(text, q, keys, tls, dry)
+            info["turn"] = used
+            tool_log.append(info)
+            if findings:
+                first = used + 1
+                last = max(max_turns, first)   # the revision always gets at least one (tool-free) turn
+                info.update(revision_turns_budget=last - first + 1, over_budget_turn=first > max_turns)
+                tin0, tout0 = acc["tin"], acc["tout"]
+                prov.add_user(st, SELF_CHECK_PROMPT.format(findings=findings_json(findings)))
+                try:
+                    rev, _ = loop(first, last)
+                    if (rev or "").strip():
+                        text = rev
+                        info["revised"] = True
+                    else:
+                        info["revision_error"] = "empty revised answer (draft kept)"
+                except Exception as e:     # the draft stands; the failure is on the record
+                    info["revision_error"] = f"{type(e).__name__}: {e}"[:300] + " (draft kept)"
+                info.update(revision_tokens_in=acc["tin"] - tin0, revision_tokens_out=acc["tout"] - tout0)
     except ProviderError as e:
         err = str(e)
     except Exception as e:  # keep the run going; recorded per question
         err = f"{type(e).__name__}: {e}"
-    cost = reported_cost if have_reported else (tin * spec["in_per_m"] + tout * spec["out_per_m"]) / 1e6
+    tin, tout = acc["tin"], acc["tout"]
+    cost = acc["cost"] if acc["have_cost"] else (tin * spec["in_per_m"] + tout * spec["out_per_m"]) / 1e6
     return {"raw_answer": text if text else None, "tool_calls_json": json.dumps(tool_log),
             "tokens_in": tin, "tokens_out": tout, "cost_usd": round(cost, 6),
             "latency_s": round(time.time() - t0, 2), "error": err}
@@ -422,8 +616,16 @@ def main():
     ap.add_argument("--concurrency", type=int, default=None, help="default 4 (2 for local); capped at 4")
     ap.add_argument("--max-turns", type=int, default=8)
     ap.add_argument("--tag", default="v1", help="run_id suffix; change it to start a fresh run")
-    ap.add_argument("--db", default=None)
+    ap.add_argument("--db", default=None, help="results db (default results/results.db)")
+    ap.add_argument("--tool-result-chars", type=int, default=None,
+                    help=f"truncate each tool result fed to the model (default: models.json tool_result_chars, "
+                         f"else {DEFAULT_TOOL_RESULT_CHARS})")
+    ap.add_argument("--self-check", action="store_true",
+                    help="mcp only: check_brief the final answer and give the model one revision turn on findings "
+                         "(run_id gets '+check')")
     a = ap.parse_args()
+    if a.self_check and a.arm != "mcp":
+        ap.error("--self-check applies to --arm mcp only")
 
     models = load_models()
     mkey = a.model or ("mock" if a.dry_run else None)
@@ -437,7 +639,8 @@ def main():
     else:
         mkey_run = mkey
     provider = "mock" if a.dry_run else spec["provider"]
-    run_id = f"{mkey_run}:{a.arm}:{a.tag}"
+    run_id = f"{mkey_run}:{a.arm}:{a.tag}" + ("+check" if a.self_check else "")
+    trc = a.tool_result_chars or spec.get("tool_result_chars") or DEFAULT_TOOL_RESULT_CHARS
 
     qpath = a.questions or default_questions_path()
     qs = load_questions(qpath)
@@ -445,6 +648,13 @@ def main():
         qs = qs[:a.limit]
 
     con = open_db(a.db) if a.db else open_db()
+    prev = con.execute("SELECT config_json FROM runs WHERE run_id=?", (run_id,)).fetchone()
+    if prev and prev[0]:
+        pc = json.loads(prev[0])
+        if pc.get("tool_result_chars", DEFAULT_TOOL_RESULT_CHARS) != trc:
+            raise SystemExit(f"{run_id} was started with tool_result_chars={pc.get('tool_result_chars')}; this "
+                             f"invocation would use {trc}. Pass --tool-result-chars {pc.get('tool_result_chars')} "
+                             "to resume it, or --tag to start a fresh run.")
     done = {r[0] for r in con.execute(
         "SELECT qid FROM answers WHERE run_id=? AND error IS NULL", (run_id,))}
     todo = [q for q in qs if q["id"] not in done]
@@ -452,10 +662,13 @@ def main():
     # ---- cost gate (before any network)
     est = models["estimates"][a.arm]
     est_usd = len(todo) * (est["tokens_in"] * spec["in_per_m"] + est["tokens_out"] * spec["out_per_m"]) / 1e6
+    if a.self_check:
+        est_usd *= 2   # upper bound: a revision can re-run the whole tool loop once
     print(f"run_id={run_id} provider={provider} questions={len(qs)} (file {qpath}) "
           f"already_done={len(qs) - len(todo)} to_run={len(todo)}")
     print(f"cost estimate: {len(todo)} q x ({est['tokens_in']} in @ ${spec['in_per_m']}/M + "
-          f"{est['tokens_out']} out @ ${spec['out_per_m']}/M) = ${est_usd:.4f}")
+          f"{est['tokens_out']} out @ ${spec['out_per_m']}/M)" + (" x2 (self-check upper bound)" if a.self_check else "")
+          + f" = ${est_usd:.4f}")
     paid = provider in ("openrouter", "anthropic", "gemini")
     budget = (models.get("budgets_usd") or {}).get(provider)
     if paid and budget is not None:
@@ -486,7 +699,8 @@ def main():
 
     served_model = getattr(prov, "model", spec.get("model"))
     cfg = {"model_key": mkey_run, "model_id": served_model, "arm": a.arm, "questions": qpath,
-           "max_turns": a.max_turns, "tool_result_chars": TOOL_RESULT_CHARS,
+           "max_turns": a.max_turns, "tool_result_chars": trc, "self_check": a.self_check,
+           "self_check_prompt": SELF_CHECK_PROMPT if a.self_check else None,
            "system": MCP_SYSTEM if a.arm == "mcp" else BARE_SYSTEM,
            "max_tokens": getattr(prov, "max_tokens", None), "extra": spec.get("extra"),
            "tools": [t["name"] for t in mcp_tools_raw], "dry_run": a.dry_run,
@@ -495,6 +709,10 @@ def main():
         cfg.update(harness="claude-code", system=prov.system, max_turns=prov.max_turns,
                    argv_template=prov.argv("<prompt>"), cwd=prov.CWD, cc_meta={},
                    note="subscription (claude -p OAuth, no API key); nominal cost = sum of total_cost_usd in cc_meta")
+        if a.self_check:
+            cfg.update(self_check_prompt=CC_REVISE_PROMPT,
+                       self_check_mode="fresh claude -p with question + draft + findings (no --resume: "
+                                       "--no-session-persistence)")
     con.execute("INSERT OR IGNORE INTO runs (run_id, model, provider, arm, started_ts, config_json) "
                 "VALUES (?,?,?,?,?,?)",
                 (run_id, served_model, provider, a.arm, dt.datetime.now().isoformat(timespec="seconds"),
@@ -512,9 +730,10 @@ def main():
             return q["id"], None
         meta = None
         if isinstance(prov, ClaudeCode):
-            r, meta = prov.run(q)
+            r, meta = prov.run(q, (lambda t: run_self_check(t, q, keys, tls, a.dry_run)) if a.self_check else None)
         else:
-            r = run_question(q, a.arm, prov, spec, mcp_tools_raw, tools_fmt, keys, a.max_turns, a.dry_run, tls)
+            r = run_question(q, a.arm, prov, spec, mcp_tools_raw, tools_fmt, keys, a.max_turns, a.dry_run, tls,
+                             trc, a.self_check)
         with lock:
             if meta is not None:
                 row = con.execute("SELECT config_json FROM runs WHERE run_id=?", (run_id,)).fetchone()
@@ -538,10 +757,15 @@ def main():
         for qid, r in ex.map(work, todo):
             if r is None:
                 continue
-            ntc = len(json.loads(r["tool_calls_json"]))
+            tl = json.loads(r["tool_calls_json"])
+            chk = next((t for t in tl if t.get("name") == "_self_check"), None)
+            ntc = len(tl) - (chk is not None)
             n_err += bool(r["error"])
             print(f"  {qid}: {r['latency_s']:6.1f}s in={r['tokens_in']} out={r['tokens_out']} "
-                  f"tools={ntc} ${r['cost_usd']:.4f}" + (f"  ERROR {r['error'][:120]}" if r["error"] else ""))
+                  f"tools={ntc} ${r['cost_usd']:.4f}"
+                  + (f"  check: {len(chk['findings'])} finding(s)" + (" -> revised" if chk.get("revised") else "")
+                     + (" ERROR " + chk["error"][:80] if chk.get("error") else "") if chk else "")
+                  + (f"  ERROR {r['error'][:120]}" if r["error"] else ""))
             sys.stdout.flush()
     print(f"done run_id={run_id}: {len(todo)} attempted, {n_err} errors, spent ${spent[0]:.4f}"
           + ("  (stopped at --max-usd)" if stop.is_set() else ""))

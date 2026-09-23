@@ -30,7 +30,8 @@
       "model": "",
       "in_per_m": 0,
       "out_per_m": 0,
-      "max_tokens": 2048
+      "max_tokens": 2048,
+      "tool_result_chars": 20000
     },
     "claude-opus-5": {
       "provider": "anthropic",
