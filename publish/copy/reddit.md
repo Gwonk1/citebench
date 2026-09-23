@@ -1,4 +1,4 @@
-<!-- Post only after the preliminary label is off the results page. Replace RESULTS_URL with https://syfert.com/mcp/citebench/ and REPO_URL with the public repository once it exists. -->
+<!-- Post only after the preliminary label is off the results page. Replace https://syfert.com/mcp/citebench/ with https://syfert.com/mcp/citebench/ and https://github.com/Gwonk1/citebench with the public repository once it exists. -->
 
 # r/legaltech
 
@@ -21,15 +21,15 @@ I'm a Florida litigator and I run syfert.com, a free case-law site with a citati
 - Claude Sonnet 5: 1.9% misgrounded (5/265 citations, 55 questions), expected case found in 92.7% (51/55).
 - Gemma 4 26B, running locally: 62.0% invented bare (171/276) to 0.7% with tools (2/289).
 
-**One caveat about free databases.** Recent opinions often have no volume and page in free sources until a publisher prints them, so a real 2021 citation and a fake one both return "not found." The grader matches name and year first; for Fable that moved 11 of 755 citations from "not found" to "real." Both numbers are shown. Details: RESULTS_URL/methodology.html#s4
+**One caveat about free databases.** Recent opinions often have no volume and page in free sources until a publisher prints them, so a real 2021 citation and a fake one both return "not found." The grader matches name and year first; for Fable that moved 11 of 755 citations from "not found" to "real." Both numbers are shown. Details: https://syfert.com/mcp/citebench//methodology.html#s4
 
 Not tested: Harvey, Legora, Lexis+ AI, CoCounsel. I could not obtain access on terms allowing a published automated evaluation.
 
 The grader has an error rate. A hand check of its quote verdicts found "absent" right 19 of 21 times.
 
-Results and methodology: RESULTS_URL
+Results and methodology: https://syfert.com/mcp/citebench/
 
-The harness is plain Python and a full run cost $42.69. I'd welcome anyone rerunning it, especially on a model or product I didn't test: REPO_URL
+The harness is plain Python and a full run cost $42.69. I'd welcome anyone rerunning it, especially on a model or product I didn't test: https://github.com/Gwonk1/citebench
 
 ---
 

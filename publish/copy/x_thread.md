@@ -1,4 +1,4 @@
-<!-- Post only after the preliminary label is off the results page. Replace RESULTS_URL before posting. One number per tweet; attach the named chart PNG from publish/charts/. -->
+<!-- Post only after the preliminary label is off the results page. Replace https://syfert.com/mcp/citebench/ before posting. One number per tweet; attach the named chart PNG from publish/charts/. -->
 
 1/8
 I built citebench: every citation from 11 AI models, checked mechanically against 10.7 million U.S. opinions. All answered one shared set of legal research questions. Disclosure: I run syfert.com, and my tools are one arm of the test. Thread.
@@ -26,4 +26,4 @@ Free case law has a blind spot: new decisions lack volume and page numbers until
 [chart: index_gap.png]
 
 8/8
-Not tested: Harvey, Legora, Lexis+ AI, CoCounsel; I could not obtain access on terms allowing a published automated evaluation. The whole study cost $42.69 in API fees. Rerun it: RESULTS_URL
+Not tested: Harvey, Legora, Lexis+ AI, CoCounsel; I could not obtain access on terms allowing a published automated evaluation. The whole study cost $42.69 in API fees. Rerun it: https://syfert.com/mcp/citebench/
