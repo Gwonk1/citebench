@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# usage: python3 grade.py [--run-id RUN_ID] [--regrade [--reuse-check-brief]] [--text-cache FILE] [--questions FILE] [--concurrency N]
+# usage: python3 grade.py [--run-id RUN_ID] [--regrade [--reuse-check-brief [--reuse-quotes]]] [--dry-run] [--text-cache FILE] [--questions FILE] [--concurrency N]
 """Grade every ungraded answer by sending the raw answer text to the Syfert MCP check_brief tool.
 
 Mapping of check_brief output (observed 2026-09-22, server syfert-legal-research 1.1.0) to grades:
@@ -9,6 +9,10 @@ Mapping of check_brief output (observed 2026-09-22, server syfert-legal-research
              case{case_name,...}|absent, treatment{flag_color,...}, claimed{lhs,rhs},
              party_check{verdict: match|partial|mismatch, resolved_name}|null,
              quote_checks[{brief_quote,best_match,percent,verdict}], did_you_mean[] (unresolved only)
+  --reuse-quotes (g8, with --regrade --reuse-check-brief): keep each row's stored g7+ quote verdicts and gold_equivalent,
+  fetch no opinion / rule text: zero MCP calls. Only quote attribution is re-derived (an 'unattributed' quote whose
+  attached cite is now a g8 pin reference goes back to absent, g8_reattached). --dry-run writes nothing and prints
+  each row whose counts differ from its stored grade.
   --regrade --reuse-check-brief (g7 re-grade): each row is re-summarized from its STORED check_brief body and stored
   reconciliation evidence; no check_brief call and no reconcile.py corpus lookup, so only the grader changes.
   Authorities are de-duplicated before counting:
@@ -31,6 +35,22 @@ Mapping of check_brief output (observed 2026-09-22, server syfert-legal-research
     * g6 RETRACTED cites: a cite in a self-correction sentence ("I initially checked a wrong page number
       (81 N.Y.2d 612) ...; the correct starting page is 66", "transcription error", "not X but Y", "mis-cited")
       BEFORE the correction marker is dropped (_citebench.retracted_raw); quoted text never triggers this.
+    * g8 PIN REFERENCES (pin_reference_g8): an UNRESOLVED cite still fabricated after reconciliation whose (volume,
+      reporter) equals a RESOLVED cite's in the same answer and whose page lies after that authority's first page is a
+      bare pinpoint into it ("Reporter Citation: 223 So. 2d 100 ... Pinpoint: 223 So. 2d 102"; "At 256 Mich App 3"):
+      folded into that authority (not a new cite, not fabricated), listed in _citebench.pin_reference (raw,
+      cluster_id, case_name, anchor_raw, delta, route) and counted per row in n_pin_reference. Routes:
+      did_you_mean_same_cluster (check_brief's did_you_mean names the cited case itself, page - first <= 150) or
+      page_within_60 (page - first <= 60 and did_you_mean does NOT place the page inside a different case that
+      begins after the authority's first page, as "776 So. 2d 240" -> Glock v. Moore at 243 does not). A cite with
+      a claimed case name sharing no party word with the authority is never a pin;
+    * g8 NEAR MISSES (near_miss_g8, tag only, still fabricated): _citebench.near_miss lists {raw, kind, cluster_id,
+      case_name, delta, via} per distinct fabricated cite: kind 'reporter_series' when the volume/page is, within 60
+      pages, a cited (or the gold) case's cite in another series of the same reporter ("180 So. 2d 524" for American
+      Bakeries, 180 So. 524); else 'interior_page' when did_you_mean places the page 1-60 pages inside a case the
+      answer does NOT cite ("477 U.S. 248" for Anderson v. Liberty Lobby, 477 U.S. 242). A page before a
+      did_you_mean case's first page (it falls in an earlier case) or no did_you_mean at all gives no near_miss.
+      report.py near_miss_share = near misses / n_fabricated.
   n_cites         = distinct authorities after dedup
   n_fabricated    = unresolved authorities (cluster_id null): the volume/reporter/page does not exist.
                     Includes near misses (right case, wrong page, e.g. "Anderson v. Liberty Lobby, 477 U.S.
@@ -155,7 +175,7 @@ ABSTAIN_RE = re.compile(
     r"no (?:verified|reliable) (?:citation|authority)", re.I)
 # Bump whenever grading logic (here, reconcile.py or the check_brief contract we rely on) changes, so the
 # report can show that every run was graded under the same grader.
-GRADER_VERSION = "g7-quotematch-20260923"
+GRADER_VERSION = "g8-pinref-20260923"
 
 WARN_RE = re.compile(
     r"\b(?:overruled|overruling|abrogated|abrogation|receded from|recede from|disapproved|superseded|"
@@ -834,7 +854,110 @@ def is_official_state(c):
     return bool(OFFICIAL_STATE_RE.match(c.get("reporter") or "")) and not REGIONAL_REPORTERS.match(c.get("reporter") or "")
 
 
-def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=None):
+# --- g8 pin references and near misses (2026-09-23) ------------------------------------------------------------
+# A model that writes the full cite of a case and then, separately, a bare pinpoint "VOL REPORTER PAGE" whose PAGE is
+# an interior page of that same opinion ("223 So. 2d 100 ... Pinpoint: 223 So. 2d 102") has made a citation-FORM slip,
+# not invented a case. check_brief cannot resolve the bare pin (PAGE is not a first page) and offers the case in
+# did_you_mean. g8 folds such a cite into the authority it pins (pin_reference_g8). A still-fabricated cite whose page
+# the index places inside an UNCITED case, or whose volume/page is a cited (or the gold) case's cite in another series
+# of the same reporter ("180 So. 2d 524" for "180 So. 524"), stays fabricated but is tagged near_miss_g8.
+PIN_MAX_DELTA = 60          # heuristic page span of an opinion when did_you_mean does not name the case
+PIN_MAX_DELTA_DYM = 150     # did_you_mean names the cited case itself: its first page is the nearest start to PAGE
+SERIES_SUFFIX_RE = re.compile(r"(?:[2-9]d|\d(?:st|nd|rd|th))$")
+
+
+def _page_int(x):
+    try:
+        return int(str(x).strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def _series_family(rep):
+    """normalised reporter minus its series suffix: 'So. 2d' / 'So.' -> 'so', 'F.3d' -> 'f', 'F. Supp. 2d' -> 'fsupp'."""
+    return SERIES_SUFFIX_RE.sub("", norm_reporter(rep))
+
+
+def _claim_conflicts(c, name):
+    """True when check_brief found a case name claimed for this cite that shares no party token with `name`
+    ("Smith v. Jones, 223 So. 2d 104" next to Weimar at 100 is a different, invented case, not a pin)."""
+    cl = c.get("claimed") or {}
+    lhs, rhs = cl.get("lhs"), cl.get("rhs")
+    if not (lhs or rhs) or not name:
+        return False
+    if lhs and rhs and names_equivalent((lhs, rhs), name):
+        return False
+    return not (set(_name_toks(f"{lhs or ''} {rhs or ''}")) & set(_name_toks(name)))
+
+
+def pin_reference_g8(c, anchors):
+    """c: an unresolved cite. anchors: resolved cites in the same answer. -> evidence dict when c is a bare pinpoint
+    into one of them, else None. Same volume and reporter, PAGE after the anchor's first page, and either
+    did_you_mean names the anchor's cluster (PAGE - first <= PIN_MAX_DELTA_DYM), or PAGE - first <= PIN_MAX_DELTA and
+    did_you_mean does not place PAGE inside a different case beginning after the anchor's first page."""
+    p = _page_int(c.get("page"))
+    if p is None:
+        return None
+    vol, rep = str(c.get("volume")), norm_reporter(c.get("reporter"))
+    cands = []
+    for a in anchors:
+        f = _page_int(a.get("page"))
+        if f is not None and f < p and str(a.get("volume")) == vol and norm_reporter(a.get("reporter")) == rep:
+            cands.append((p - f, a))
+    if not cands:
+        return None
+    cands.sort(key=lambda t: t[0])
+    dym = [(d.get("cluster_id"), _page_int(d.get("page"))) for d in c.get("did_you_mean") or []]
+
+    def ev(delta, a, route):
+        return {"raw": c.get("raw"), "cluster_id": a["cluster_id"], "case_name": (a.get("case") or {}).get("case_name"),
+                "anchor_raw": a.get("raw"), "delta": delta, "route": route}
+
+    for delta, a in cands:
+        if delta <= PIN_MAX_DELTA_DYM and any(dc == a["cluster_id"] for dc, _ in dym) \
+                and not _claim_conflicts(c, (a.get("case") or {}).get("case_name")):
+            return ev(delta, a, "did_you_mean_same_cluster")
+    delta, a = cands[0]
+    if delta > PIN_MAX_DELTA or _claim_conflicts(c, (a.get("case") or {}).get("case_name")):
+        return None
+    if any(dc != a["cluster_id"] and dp is not None and p - delta < dp <= p for dc, dp in dym):
+        return None          # the index says PAGE falls inside a different case that begins after the anchor
+    return ev(delta, a, "page_within_%d" % PIN_MAX_DELTA)
+
+
+def near_miss_g8(c, known_cites, cited_cids):
+    """c: a cite still fabricated after g8 pins. known_cites: [(volume, normalised reporter, page, cluster_id,
+    case_name, via)] of the cases the answer cites (plus gold). -> near_miss dict or None:
+      reporter_series: same volume, a different series of the same reporter, PAGE within PIN_MAX_DELTA at or after
+                       a known cite of a cited / gold case ("180 So. 2d 524" for American Bakeries, 180 So. 524);
+      interior_page:   did_you_mean places PAGE inside a case NOT cited in the answer (its first page < PAGE,
+                       PAGE - first <= PIN_MAX_DELTA): right volume, wrong page, e.g. "477 U.S. 248" for Anderson."""
+    p = _page_int(c.get("page"))
+    if p is None:
+        return None
+    vol, rep = str(c.get("volume")), norm_reporter(c.get("reporter"))
+    fam = _series_family(c.get("reporter"))
+    best = None
+    for kv, krep, kp, kcid, kname, via in known_cites:
+        kp = _page_int(kp)
+        if kp is None or str(kv) != vol or krep == rep or SERIES_SUFFIX_RE.sub("", krep) != fam:
+            continue
+        if 0 <= p - kp <= PIN_MAX_DELTA and (best is None or p - kp < best["delta"]):
+            best = {"raw": c.get("raw"), "kind": "reporter_series", "cluster_id": kcid, "case_name": kname,
+                    "delta": p - kp, "via": via}
+    if best:
+        return best
+    for d in c.get("did_you_mean") or []:
+        dp = _page_int(d.get("page"))
+        if dp is None or d.get("cluster_id") in cited_cids or not (0 < p - dp <= PIN_MAX_DELTA):
+            continue
+        if best is None or p - dp < best["delta"]:
+            best = {"raw": c.get("raw"), "kind": "interior_page", "cluster_id": d.get("cluster_id"),
+                    "case_name": d.get("case_name"), "delta": p - dp, "via": "did_you_mean"}
+    return best
+
+
+def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=None, stored_quotes=None):
     cites = body.get("cites") or []
     all_resolved = [c for c in cites if c.get("cluster_id")]
     # check_brief >= 2026-09-22 19:00 UTC resolves index-gap cites server-side by name + year + court
@@ -943,7 +1066,28 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
         if ev:
             reconciliation.append(ev)
         (unindexed if ev and ev["status"] == "unindexed_real" else still_fab).append((c, ev))
+    # g8: a bare pinpoint into a resolved authority of the same answer is that authority, not a new cite
+    pin_refs, keep = [], []
+    for c, ev in still_fab:
+        pr = pin_reference_g8(c, all_resolved)
+        (pin_refs.append((c, pr)) if pr else keep.append((c, ev)))
+    still_fab = keep
+    pin_keys = {key(c) for c, _ in pin_refs}
     fab_keys = {key(c) for c, _ in still_fab}
+    cited_cids = {c["cluster_id"] for c in all_resolved}
+    known = [(str(c.get("volume")), norm_reporter(c.get("reporter")), c.get("page"), c["cluster_id"],
+              (c.get("case") or {}).get("case_name"), "cited") for c in all_resolved]
+    if q and q.get("gold_cluster_id"):
+        known += [(v, r, pg, q["gold_cluster_id"], q.get("gold_case_name"), "gold")
+                  for v, r, pg in cite_keys(q.get("gold_citation") or "")]
+    near_miss, nm_seen = [], set()
+    for c, _ in still_fab:
+        if key(c) in nm_seen:
+            continue
+        nm = near_miss_g8(c, known, cited_cids)
+        if nm:
+            nm_seen.add(key(c))
+            near_miss.append(nm)
     unindexed_auth = {}          # authority id -> evidence; same case twice counts once
     seen_keys = {}
     for c, ev in unindexed:
@@ -993,66 +1137,89 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
                 v = qc.get("verdict")
                 quote_verdicts[v] = quote_verdicts.get(v, 0) + 1
 
-    skipped_spans, nonquote_spans = [], []
-    quotes = extract_quotes(answer, skipped_spans, nonquote_spans)
-    quote_results = []
-    prepared, prepared7, names = {}, {}, {}
-    if quotes:
-        names = {}
-        for cid, grp in by_cluster.items():
-            names[cid] = next(((g.get("case") or {}).get("case_name") for g in grp if g.get("case")), None)
-        for c, ev in unindexed:
-            h = ev.get("hit") or {}
-            if h.get("cluster_id"):
-                names.setdefault(h["cluster_id"], h.get("case_name"))
-        if len(_PREP) > 300:          # bound memory over a full regrade (thousands of opinions)
-            _PREP.clear()
-            _PREP7.clear()
-            _GRAMS.clear()
-        if fetch_text:
-            # every resolved case the answer cites: the name verdict and the quote verdict are independent
-            for cid in verified + mismatched + unindexed_cids:
-                # g7: local copies -- another worker thread may clear the shared caches between these lines
-                e6, e7 = _PREP.get(cid, False), _PREP7.get(cid, False)
-                if e6 is False or e7 is False:
-                    t = fetch_text(cid)
-                    e6, e7 = (prep_opinion(t), prep_opinion_g7(t)) if t else (None, None)
-                    _PREP[cid], _PREP7[cid] = e6, e7
-                if e6:
-                    prepared[cid] = e6
-                    prepared7[cid] = e7
-        quote_results = [match_quote(qt, prepared, names) for qt in quotes]
-    # g7: the extra passes, only for quotes match_quote() calls absent (every g6 'found' is unchanged)
+    def make_cite_spans():
+        par_ids = {id(c) for c in parallel}
+        unidx_cl = {id(c) for c, ev in unindexed if (ev.get("hit") or {}).get("cluster_id")}
+        unidx_cl |= {id(c) for c, _ in pin_refs}     # g8: a pin reference is attributed to its authority
+        return [(o, o + len(c.get("raw") or ""),
+                 bool(c.get("cluster_id")) or id(c) in par_ids or id(c) in unidx_cl, c.get("raw"))
+                for c in cites for o in char_offsets(answer, c)]
+
     cite_spans = None
-    for r in quote_results:
-        if r["verdict"] != "absent":
-            continue
-        hit = match_quote_g7(r["quote"], prepared7) if prepared7 else None
-        if hit:
-            r.update(verdict="found", kind=hit[0], cluster_id=hit[1], case_name=names.get(hit[1]), g7_rules=hit[2])
-            r.pop("paraphrase_ratio", None)
-            continue
-        rt = rule_text_g7(r["quote"], answer, fetch_rule)
-        if rt:
-            r.update(verdict="rule_text", kind="rule_text", rule_text=rt)
-            continue
-        if not prepared:
-            r.update(verdict="unattributed", kind="unattributed",
-                     unattributed_reason="no resolved cited opinion text to search")
-            continue
-        if cite_spans is None:
-            par_ids = {id(c) for c in parallel}
-            unidx_cl = {id(c) for c, ev in unindexed if (ev.get("hit") or {}).get("cluster_id")}
-            cite_spans = [(o, o + len(c.get("raw") or ""),
-                           bool(c.get("cluster_id")) or id(c) in par_ids or id(c) in unidx_cl, c.get("raw"))
-                          for c in cites for o in char_offsets(answer, c)]
-        att = attached_cite_g7(answer, r["quote"], cite_spans)
-        if att and att[0] is not True:
-            r.update(verdict="unattributed", kind="unattributed",
-                     unattributed_reason=("attached citation has no reporter: " if att[0] == "no_reporter"
-                                          else "attached citation did not resolve to a case: ") + str(att[1]))
-    quote_results += [{"quote": qt, "verdict": "skipped", "kind": "skipped_non_quote", "skipped_reason": why,
-                       "searched": []} for qt, why in nonquote_spans]
+    if stored_quotes is not None:
+        # g8 --reuse-quotes: the stored g7 quote verdicts stand (no opinion / rule text is fetched). The only quote
+        # decision a citation-side change can move is attribution: an 'unattributed' quote whose attached cite now
+        # resolves (a g8 pin reference) goes back to absent with its g5 kind.
+        quotes = list(stored_quotes.get("quotes_extracted") or [])
+        skipped_spans = list(stored_quotes.get("quote_spans_skipped") or [])
+        quote_results = json.loads(json.dumps(stored_quotes.get("quote_results") or []))
+        for r in quote_results:
+            if r.get("verdict") != "unattributed" or not str(r.get("unattributed_reason") or "").startswith(
+                    "attached citation did not resolve"):
+                continue
+            if cite_spans is None:
+                cite_spans = make_cite_spans()
+            att = attached_cite_g7(answer, r["quote"], cite_spans)
+            if att and att[0] is True:
+                r.update(verdict="absent", g8_reattached=att[1],
+                         kind="paraphrase_in_quotes" if (r.get("paraphrase_ratio") or 0) >= 0.6 else "fabricated")
+                r.pop("unattributed_reason", None)
+    else:
+        skipped_spans, nonquote_spans = [], []
+        quotes = extract_quotes(answer, skipped_spans, nonquote_spans)
+        quote_results = []
+        prepared, prepared7, names = {}, {}, {}
+        if quotes:
+            names = {}
+            for cid, grp in by_cluster.items():
+                names[cid] = next(((g.get("case") or {}).get("case_name") for g in grp if g.get("case")), None)
+            for c, ev in unindexed:
+                h = ev.get("hit") or {}
+                if h.get("cluster_id"):
+                    names.setdefault(h["cluster_id"], h.get("case_name"))
+            if len(_PREP) > 300:          # bound memory over a full regrade (thousands of opinions)
+                _PREP.clear()
+                _PREP7.clear()
+                _GRAMS.clear()
+            if fetch_text:
+                # every resolved case the answer cites: the name verdict and the quote verdict are independent
+                for cid in verified + mismatched + unindexed_cids:
+                    # g7: local copies -- another worker thread may clear the shared caches between these lines
+                    e6, e7 = _PREP.get(cid, False), _PREP7.get(cid, False)
+                    if e6 is False or e7 is False:
+                        t = fetch_text(cid)
+                        e6, e7 = (prep_opinion(t), prep_opinion_g7(t)) if t else (None, None)
+                        _PREP[cid], _PREP7[cid] = e6, e7
+                    if e6:
+                        prepared[cid] = e6
+                        prepared7[cid] = e7
+            quote_results = [match_quote(qt, prepared, names) for qt in quotes]
+        # g7: the extra passes, only for quotes match_quote() calls absent (every g6 'found' is unchanged)
+        for r in quote_results:
+            if r["verdict"] != "absent":
+                continue
+            hit = match_quote_g7(r["quote"], prepared7) if prepared7 else None
+            if hit:
+                r.update(verdict="found", kind=hit[0], cluster_id=hit[1], case_name=names.get(hit[1]), g7_rules=hit[2])
+                r.pop("paraphrase_ratio", None)
+                continue
+            rt = rule_text_g7(r["quote"], answer, fetch_rule)
+            if rt:
+                r.update(verdict="rule_text", kind="rule_text", rule_text=rt)
+                continue
+            if not prepared:
+                r.update(verdict="unattributed", kind="unattributed",
+                         unattributed_reason="no resolved cited opinion text to search")
+                continue
+            if cite_spans is None:
+                cite_spans = make_cite_spans()
+            att = attached_cite_g7(answer, r["quote"], cite_spans)
+            if att and att[0] is not True:
+                r.update(verdict="unattributed", kind="unattributed",
+                         unattributed_reason=("attached citation has no reporter: " if att[0] == "no_reporter"
+                                              else "attached citation did not resolve to a case: ") + str(att[1]))
+        quote_results += [{"quote": qt, "verdict": "skipped", "kind": "skipped_non_quote", "skipped_reason": why,
+                           "searched": []} for qt, why in nonquote_spans]
     absent_quotes = [r["quote"] for r in quote_results if r["verdict"] == "absent"]
     n_quote_absent = len(absent_quotes)
     n_quote_unattributed = sum(r["verdict"] == "unattributed" for r in quote_results)
@@ -1080,9 +1247,12 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
     if gold_hit:
         gold_equiv, gold_equiv_ev = 1, {"route": "gold_hit"}
     else:
-        gold_equiv, gold_equiv_ev = gold_equivalent_g7(q, verified + unindexed_cids, fetch_text)
-        if gold_equiv_ev:
-            gold_equiv_ev["route"] = "proposition_run"
+        if stored_quotes is not None and "gold_equivalent" in stored_quotes:   # g8 --reuse-quotes: verified set unchanged
+            gold_equiv, gold_equiv_ev = stored_quotes["gold_equivalent"], stored_quotes.get("gold_equivalent_evidence")
+        else:
+            gold_equiv, gold_equiv_ev = gold_equivalent_g7(q, verified + unindexed_cids, fetch_text)
+            if gold_equiv_ev:
+                gold_equiv_ev["route"] = "proposition_run"
 
     n_cites = len(by_cluster) + len(fab_keys) + len(unindexed_auth)
     abstained = int(n_cites == 0 and bool(ABSTAIN_RE.search(answer or "")))
@@ -1100,6 +1270,7 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
                                          and (ev.get("cite_corroborated_by_courts") or 0) >= 2],
             "n_partial": n_partial,
             "fabricated_near_miss": [c.get("raw") for c, _ in still_fab if c.get("did_you_mean")], "check_brief_quote_verdicts": quote_verdicts,
+            "pin_reference": [pr for _, pr in pin_refs], "n_pin_reference": len(pin_keys), "near_miss": near_miss,
             "quotes_extracted": quotes, "quote_spans_skipped": skipped_spans,
             "name_guard_overrides": name_guard_overrides, "quotes_absent": absent_quotes,
             "quote_results": quote_results,
@@ -1116,11 +1287,21 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
             "n_statutes": ((body.get("statutes") or {}).get("stats") or {}).get("extracted", 0),
             "gold_found_in_question": bool(q)}
     return {"n_cites": n_cites, "n_verified": len(verified), "n_fabricated": len(fab_keys),
-            "n_unindexed": len(unindexed_auth),
+            "n_unindexed": len(unindexed_auth), "n_pin_reference": len(pin_keys),
             "n_name_mismatch": len(mismatched), "n_quote_absent": n_quote_absent,
             "n_quote_unattributed": n_quote_unattributed,
             "n_red": n_red, "n_yellow": n_yellow, "gold_hit": gold_hit, "gold_equivalent": gold_equiv,
             "abstained": abstained, "warned_treatment": warned(answer)}, meta
+
+
+GRADE_COLS = ("n_cites, n_verified, n_fabricated, n_unindexed, n_name_mismatch, n_quote_absent, n_quote_unattributed, "
+              "n_red, n_yellow, gold_hit, gold_equivalent, abstained, warned_treatment, n_pin_reference")
+
+
+class NoMCP:
+    """--reuse-quotes: stands in for the MCP client so that no tool call can leave this process."""
+    def call_tool(self, name, args):
+        raise MCPError(f"--reuse-quotes makes no MCP calls (attempted {name})")
 
 
 def main():
@@ -1131,6 +1312,12 @@ def main():
                     help="with --regrade: re-summarize each row from its STORED check_brief body and stored "
                          "reconciliation evidence (no check_brief call, no reconcile.py corpus lookups), so a grader "
                          "change is measured alone; opinion / rule texts are still fetched with get_case / get_statute")
+    ap.add_argument("--reuse-quotes", action="store_true",
+                    help="with --reuse-check-brief (g8): also keep each row's STORED g7+ quote verdicts and gold_equivalent "
+                         "instead of re-matching quotes, so no get_case / get_statute call is made either (zero MCP "
+                         "calls); only quote attribution is re-derived from the new citation decisions")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="grade but write nothing: print each row whose counts differ from its stored grade")
     ap.add_argument("--text-cache", default=None,
                     help="sqlite file caching get_case / get_statute texts across runs (created if absent)")
     ap.add_argument("--questions", default=None, help="question file(s) holding gold fields, comma-separated")
@@ -1139,6 +1326,8 @@ def main():
     a = ap.parse_args()
     if a.reuse_check_brief and not a.regrade:
         ap.error("--reuse-check-brief needs --regrade")
+    if a.reuse_quotes and not a.reuse_check_brief:
+        ap.error("--reuse-quotes needs --regrade --reuse-check-brief")
 
     con = open_db(a.db) if a.db else open_db()
     gold = load_gold(con, a.questions.split(",") if a.questions else None)
@@ -1146,11 +1335,11 @@ def main():
     if a.reuse_check_brief:
         import reconcile as _rc
         _rc.CBC_DB = _rc.CASES_DB = "/nonexistent/reuse-check-brief"   # never open a corpus DB in this mode
-        sql = ("SELECT a.run_id, a.qid, a.raw_answer, g.check_brief_json FROM answers a JOIN grades g "
+        sql = ("SELECT a.run_id, a.qid, a.raw_answer, g.check_brief_json, " + GRADE_COLS + " FROM answers a JOIN grades g "
                "ON g.run_id=a.run_id AND g.qid=a.qid WHERE a.error IS NULL AND a.raw_answer IS NOT NULL "
                + ("AND a.run_id=? " if a.run_id else "") + "ORDER BY a.run_id, a.qid")
     else:
-        sql = ("SELECT a.run_id, a.qid, a.raw_answer, NULL FROM answers a "
+        sql = ("SELECT a.run_id, a.qid, a.raw_answer, NULL, " + ", ".join("NULL" for _ in GRADE_COLS.split(",")) + " FROM answers a "
                + ("" if a.regrade else "LEFT JOIN grades g ON g.run_id=a.run_id AND g.qid=a.qid ")
                + "WHERE a.error IS NULL AND a.raw_answer IS NOT NULL "
                + ("" if a.regrade else "AND g.qid IS NULL ")
@@ -1166,7 +1355,7 @@ def main():
     text_cache = {}
     recon_cache = {}
     rule_cache = {}
-    counters = {"recon_live": 0, "sent_text_changed": 0}
+    counters = {"recon_live": 0, "sent_text_changed": 0, "changed": 0}
     disk = None
     if a.text_cache:
         disk = sqlite3.connect(a.text_cache, check_same_thread=False, timeout=30)
@@ -1246,11 +1435,11 @@ def main():
         return re.sub(r"[\s.]+", "", raw or "").lower()
 
     def work(row):
-        run_id, qid, ans, stored = row
+        run_id, qid, ans, stored = row[:4]
         if not hasattr(tls, "c"):
-            tls.c = MCPClient(token)
+            tls.c = NoMCP() if a.reuse_quotes else MCPClient(token)
         sent = strip_md(ans)
-        stored_recon = {}
+        stored_recon, stored_quotes = {}, None
         if a.reuse_check_brief:
             try:
                 body = json.loads(stored or "")
@@ -1263,6 +1452,10 @@ def main():
                 with lock:
                     counters["sent_text_changed"] += 1
             stored_recon = {rkey(ev.get("raw")): ev for ev in (old.get("reconciliation") or []) if ev.get("raw")}
+            if a.reuse_quotes:
+                if not str(old.get("grader_version") or "").startswith(("g7", "g8")) or "quote_results" not in old:
+                    return row, None, "--reuse-quotes: stored grade has no g7+ quote verdicts"
+                stored_quotes = old
         else:
             try:
                 text, is_err, structured = tls.c.call_tool("check_brief", {"text": sent})
@@ -1294,38 +1487,55 @@ def main():
             return ev
 
         try:
-            g, meta = summarize(sent, body, qrow or None, fetch_text, reconcile_fn, fetch_rule)
+            if a.reuse_quotes:
+                g, meta = summarize(sent, body, qrow or None, None, reconcile_fn, None, stored_quotes=stored_quotes)
+            else:
+                g, meta = summarize(sent, body, qrow or None, fetch_text, reconcile_fn, fetch_rule)
         except Exception as e:   # one bad row must not abort a 2,000-row regrade; it keeps its old grade
             return row, None, f"summarize failed: {type(e).__name__}: {e}"
         meta["sent_text"] = sent
         if a.reuse_check_brief:
             meta["check_brief_reused"] = True
         body["_citebench"] = meta
+        old_counts = dict(zip([c.strip() for c in GRADE_COLS.split(",")], row[4:]))
+        diff = {k: (old_counts[k], g[k]) for k in old_counts if k in g and old_counts[k] is not None and old_counts[k] != g[k]}
+        if diff:
+            meta["changed_from_stored"] = diff
+        if a.dry_run:
+            return row, (g, meta), None
         with lock:
             con.execute("INSERT OR REPLACE INTO grades (run_id, qid, n_cites, n_verified, n_fabricated, "
                         "n_unindexed, n_name_mismatch, n_quote_absent, n_quote_unattributed, n_red, n_yellow, gold_hit, "
-                        "gold_equivalent, abstained, warned_treatment, grader_version, check_brief_json) "
-                        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                        "gold_equivalent, abstained, warned_treatment, grader_version, check_brief_json, n_pin_reference) "
+                        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                         (run_id, qid, g["n_cites"], g["n_verified"], g["n_fabricated"], g["n_unindexed"],
                          g["n_name_mismatch"], g["n_quote_absent"], g["n_quote_unattributed"], g["n_red"],
                          g["n_yellow"], g["gold_hit"], g["gold_equivalent"], g["abstained"], g["warned_treatment"],
-                         GRADER_VERSION, json.dumps(body)))
+                         GRADER_VERSION, json.dumps(body), g["n_pin_reference"]))
             con.commit()
         return row, (g, meta), None
 
     with cf.ThreadPoolExecutor(max_workers=min(4, a.concurrency)) as ex:
-        for (run_id, qid, _, _), res, err in ex.map(work, todo):
+        for row, res, err in ex.map(work, todo):
+            run_id, qid = row[:2]
             if err:
                 print(f"  {run_id} {qid}: GRADE ERROR {err}")
                 continue
             g, meta = res
             extra = f" TRUNCATED {meta['truncated_bytes']}B" if meta["truncated_bytes"] else ""
+            if meta.get("changed_from_stored"):
+                counters["changed"] += 1
+                extra += " CHANGED " + json.dumps(meta["changed_from_stored"], sort_keys=True)
+            if meta.get("pin_reference") or meta.get("near_miss"):
+                extra += " g8 pin=" + json.dumps([p["raw"] for p in meta["pin_reference"]]) + " near_miss=" + json.dumps(
+                    [[n["raw"], n["kind"], n["cluster_id"], n["delta"]] for n in meta["near_miss"]])
             nogold = "" if meta["gold_found_in_question"] else " (no gold row found)"
             print(f"  {run_id} {qid}: cites={g['n_cites']} ver={g['n_verified']} fab={g['n_fabricated']} "
                   f"unidx={g['n_unindexed']} name_mm={g['n_name_mismatch']} quote_bad={g['n_quote_absent']} "
-                  f"quote_unattr={g['n_quote_unattributed']} red={g['n_red']} "
+                  f"quote_unattr={g['n_quote_unattributed']} pin_ref={g['n_pin_reference']} red={g['n_red']} "
                   f"yel={g['n_yellow']} gold_hit={g['gold_hit']} gold_eq={g['gold_equivalent']} abstain={g['abstained']} "
                   f"warned={g['warned_treatment']}{extra}{nogold}", flush=True)
+    print(f"{counters['changed']} rows' counts differ from their stored grade" + (" (dry run: nothing written)" if a.dry_run else ""))
     if a.reuse_check_brief:
         print(f"reuse mode: {counters['recon_live']} reconciliations not found in the stored evidence (run live, "
               f"no corpus DB); {counters['sent_text_changed']} rows whose stripped text differs from the stored one")
