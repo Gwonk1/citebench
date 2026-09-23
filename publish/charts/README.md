@@ -24,28 +24,35 @@ from n_cites for citation-level rates, from graded questions for gold_recall.
 | `headline_bars.{svg,png}`, `headline_bars_dark.*` | 1. misgrounded_rate per model and arm, fabricated_rate as a diamond |
 | `fab_vs_misgrounded.{svg,png}`, `_dark.*` | 2. bare models: what goes wrong (invented vs misgrounded) |
 | `bare_vs_mcp.{svg,png}`, `_dark.*` | 3. the same model with and without tools, 3 small multiples |
-| `index_gap.{svg,png}`, `_dark.*` | 4. Fable's 755 citations and the reporter-pagination gap |
+| `index_gap.{svg,png}`, `_dark.*` | 4. Fable's 755 citations (first-pass hand audit) and the reporter-pagination gap |
 
 ## Numbers plotted
+
+Grader g6 (`g6-parallel-20260922`). The Claude Code harness rows (`claude-fable-5-1-cc`, `claude-opus-5-5-cc`,
+subscription runs through `claude -p`, q1-60) have no entry in `NAMES`, so charts 1 and 2 label them with the raw
+model key; chart 3 does not include them.
 
 ### Charts 1 and 3 (rate [95% Wilson])
 
 | row | graded q | cites | misgrounded | fabricated | gold_recall |
 |---|---|---|---|---|---|
-| Sonnet 5 + Syfert | 55 | 265 | 1.9% [0.8–4.3] | 0.8% [0.2–2.7] | 92.7% [82.7–97.1] |
-| Gemma 4 26B local + Syfert | 150 | 289 | 2.8% [1.4–5.4] | 0.7% [0.2–2.5] | 70.7% [62.9–77.4] |
-| DeepSeek 4.1 Flash + Syfert | 58 | 278 | 4.0% [2.2–6.9] | 0.0% [0.0–1.4] | 87.9% [77.1–94.0] |
-| Qwen 3.8 Flash + Syfert | 54 | 263 | 5.7% [3.5–9.2] | 3.4% [1.8–6.4] | 87.0% [75.6–93.6] |
-| Claude Opus 5.5 | 150 | 560 | 5.4% [3.8–7.5] | 0.4% [0.1–1.3] | 72.0% [64.3–78.6] |
+| Sonnet 5 + Syfert | 55 | 264 | 1.9% [0.8–4.4] | 0.8% [0.2–2.7] | 92.7% [82.7–97.1] |
+| Gemma 4 26B local + Syfert | 150 | 288 | 2.8% [1.4–5.4] | 0.7% [0.2–2.5] | 70.7% [62.9–77.4] |
+| DeepSeek 4.1 Flash + Syfert | 58 | 277 | 3.2% [1.7–6.1] | 0.0% [0.0–1.4] | 87.9% [77.1–94.0] |
+| claude-fable-5-1-cc + Syfert (Claude Code) | 60 | 387 | 3.4% [2.0–5.7] | 0.3% [0.0–1.4] | 95.0% [86.3–98.3] |
+| claude-opus-5-5-cc + Syfert (Claude Code) | 60 | 258 | 4.7% [2.7–8.0] | 0.4% [0.1–2.2] | 98.3% [91.1–99.7] |
+| Qwen 3.8 Flash + Syfert | 54 | 261 | 5.7% [3.5–9.3] | 3.4% [1.8–6.4] | 87.0% [75.6–93.6] |
+| Claude Opus 5.5 | 150 | 554 | 5.4% [3.8–7.6] | 0.2% [0.0–1.0] | 72.0% [64.3–78.6] |
 | GPT-6 Astra | 150 | 217 | 6.9% [4.2–11.1] | 0.0% [0.0–1.7] | 58.0% [50.0–65.6] |
-| Claude Fable 5.1 | 150 | 755 | 7.4% [5.8–9.5] | 0.4% [0.1–1.2] | 73.3% [65.7–79.8] |
-| DeepSeek 4.1 Flash | 59 | 102 | 15.7% [9.9–24.0] | 3.9% [1.5–9.7] | 32.2% [21.7–44.9] |
-| Qwen 3.8 Max | 150 | 335 | 18.2% [14.4–22.7] | 29.9% [25.2–35.0] | 15.3% [10.4–22.0] |
-| Gemini 3.1 Pro | 150 | 317 | 22.7% [18.4–27.6] | 4.1% [2.4–6.9] | 62.7% [54.7–70.0] |
-| Gemini 3.8 Flash | 39 | 110 | 28.2% [20.6–37.2] | 2.7% [0.9–7.7] | 61.5% [45.9–75.1] |
-| DeepSeek 4 Pro | 150 | 233 | 39.9% [33.8–46.3] | 5.6% [3.3–9.3] | 30.0% [23.2–37.8] |
-| Gemma 4 26B local | 150 | 276 | 49.3% [43.4–55.1] | 62.0% [56.1–67.5] | 3.3% [1.4–7.6] |
-| Qwen 3.8 Flash | 60 | 183 | 54.6% [47.4–61.7] | 55.2% [48.0–62.2] | 8.3% [3.6–18.1] |
+| Claude Fable 5.1 | 150 | 746 | 7.5% [5.8–9.6] | 0.3% [0.1–1.0] | 73.3% [65.7–79.8] |
+| claude-fable-5-1-cc (Claude Code control) | 60 | 294 | 9.9% [7.0–13.8] | 0.3% [0.1–1.9] | 73.3% [61.0–82.9] |
+| DeepSeek 4.1 Flash | 59 | 99 | 16.2% [10.2–24.7] | 2.0% [0.6–7.1] | 32.2% [21.7–44.9] |
+| Qwen 3.8 Max | 150 | 315 | 19.4% [15.4–24.1] | 26.0% [21.5–31.1] | 15.3% [10.4–22.0] |
+| Gemini 3.1 Pro | 150 | 314 | 22.9% [18.6–27.9] | 3.2% [1.7–5.8] | 62.7% [54.7–70.0] |
+| Gemini 3.8 Flash | 39 | 109 | 28.4% [20.8–37.5] | 2.8% [0.9–7.8] | 61.5% [45.9–75.1] |
+| DeepSeek 4 Pro | 150 | 230 | 40.4% [34.3–46.9] | 4.8% [2.7–8.4] | 30.0% [23.2–37.8] |
+| Gemma 4 26B local | 150 | 263 | 51.7% [45.7–57.7] | 60.5% [54.4–66.2] | 3.3% [1.4–7.6] |
+| Qwen 3.8 Flash | 60 | 176 | 56.8% [49.4–63.9] | 51.7% [44.4–59.0] | 8.3% [3.6–18.1] |
 
 Chart 3 uses the full-arm rates above, not the delta table's common-question rates. Its reference
 line is Claude Fable 5.1 bare. Sonnet 5 was run with tools only.
@@ -60,20 +67,21 @@ absent quotes. For Gemma and Qwen Flash, fabricated + misgrounded comes to more 
 | model | cites | fabricated | unindexed | wrong name | quote: wrong wording | quote: paraphrase |
 |---|---|---|---|---|---|---|
 | GPT-6 Astra | 217 | 0 | 1 | 0 | 7 | 8 |
-| Claude Opus 5.5 | 560 | 2 | 6 | 3 | 11 | 16 |
-| Claude Fable 5.1 | 755 | 3 | 11 | 6 | 19 | 31 |
-| Gemini 3.8 Flash | 110 | 3 | 3 | 1 | 15 | 15 |
-| DeepSeek 4.1 Flash | 102 | 4 | 2 | 1 | 10 | 5 |
-| Gemini 3.1 Pro | 317 | 13 | 3 | 1 | 37 | 34 |
-| DeepSeek 4 Pro | 233 | 13 | 10 | 6 | 68 | 19 |
-| Qwen 3.8 Max | 335 | 100 | 17 | 20 | 33 | 8 |
-| Qwen 3.8 Flash | 183 | 101 | 10 | 23 | 71 | 6 |
-| Gemma 4 26B local | 276 | 171 | 34 | 19 | 113 | 4 |
+| Claude Opus 5.5 | 554 | 1 | 6 | 3 | 11 | 16 |
+| Claude Fable 5.1 | 746 | 2 | 11 | 6 | 19 | 31 |
+| claude-fable-5-1-cc (Claude Code control) | 294 | 1 | 5 | 2 | 15 | 12 |
+| DeepSeek 4.1 Flash | 99 | 2 | 1 | 1 | 10 | 5 |
+| Gemini 3.1 Pro | 314 | 10 | 4 | 1 | 37 | 34 |
+| Gemini 3.8 Flash | 109 | 3 | 2 | 1 | 15 | 15 |
+| DeepSeek 4 Pro | 230 | 11 | 9 | 6 | 68 | 19 |
+| Qwen 3.8 Max | 315 | 82 | 16 | 20 | 33 | 8 |
+| Qwen 3.8 Flash | 176 | 91 | 13 | 23 | 71 | 6 |
+| Gemma 4 26B local | 263 | 159 | 33 | 19 | 113 | 4 |
 
 ### Chart 4 (constants in make_charts.py, from docs/METHODOLOGY.md §4)
 
 Fable 5.1 bare: 755 cites. 735 resolved, 18 real but unindexed (2.4%, Wilson 1.5–3.7%), 2 wrong page.
 Annotation: "So. 3d pagination absent from free sources after vol. ~277 (2019)".
-These are the §4 hand-audit numbers. The current g5 grade of the same run is **fabricated 3,
-unindexed 11** (fabricated_strict 1.9%), so chart 4 does not re-render from the report. Update
+These are the §4 hand-audit numbers. The current g6 grade of the same run is **746 cites, fabricated 2,
+unindexed 11** (fabricated_strict 1.7%), so chart 4 does not re-render from the report. Update
 `FABLE_AUDIT` by hand if §4 changes.

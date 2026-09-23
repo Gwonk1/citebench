@@ -41,6 +41,7 @@ NAMES = {
     "gemini-3.8-flash-or": "Gemini 3.8 Flash", "gpt-6-astra": "GPT-6 Astra",
     "local-gemma": "Gemma 4 26B local", "qwen3.8-flash-or": "Qwen 3.8 Flash",
     "qwen3.8-max": "Qwen 3.8 Max",
+    "claude-fable-5-1-cc": "Claude Fable 5.1 (Claude Code)", "claude-opus-5-5-cc": "Claude Opus 5.5 (Claude Code)",
 }
 FRONTIER = {"claude-fable-5-1", "claude-opus-5-5", "gpt-6-astra", "gemini-3.1-pro-or",
             "deepseek-v4-pro", "qwen3.8-max"}

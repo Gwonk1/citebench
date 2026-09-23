@@ -12,16 +12,17 @@ I'm a Florida litigator and I run syfert.com, a free case-law site with a citati
 
 **Results without tools (n = 150 questions each):**
 
-- Claude Fable 5.1, Claude Opus 5.5 and GPT-6 Astra cited a nonexistent case 0.0% to 0.4% of the time (0/217 to 3/755 citations).
-- But 5.4% to 7.4% of their citations were misgrounded: wrong case name or a "quote" not in the opinion. About 60% of those quotes (55/92) are accurate paraphrases inside quotation marks. The rest are words the court never wrote.
-- Gemini 3.1 Pro: 4.1% invented (13/317), 22.7% misgrounded (72/317).
+- Claude Fable 5.1, Claude Opus 5.5 and GPT-6 Astra cited a nonexistent case 0.0% to 0.3% of the time (0/217 to 2/746 citations). None of those 3 citations is a made-up case: two are real cases at the wrong page, and one is a real 2019 Michigan decision my database is missing.
+- But 5.4% to 7.5% of their citations were misgrounded: wrong case name or a "quote" not in the opinion. About 60% of those quotes (55/92) are accurate paraphrases inside quotation marks. The rest are words the court never wrote.
+- Gemini 3.1 Pro: 3.2% invented (10/314), 22.9% misgrounded (72/314).
 
 **With the tools:**
 
-- Claude Sonnet 5: 1.9% misgrounded (5/265 citations, 55 questions), expected case found in 92.7% (51/55).
-- Gemma 4 26B, running locally: 62.0% invented bare (171/276) to 0.7% with tools (2/289).
+- Claude Sonnet 5: 1.9% misgrounded (5/264 citations, 55 questions), expected case found in 92.7% (51/55).
+- Gemma 4 26B, running locally: 60.5% invented bare (159/263) to 0.7% with tools (2/288).
+- Through the Claude Code app (60 questions, subscription): Fable 5.1 misgrounded 9.9% without tools (29/294) and 3.4% with them (13/387).
 
-**One caveat about free databases.** Recent opinions often have no volume and page in free sources until a publisher prints them, so a real 2021 citation and a fake one both return "not found." The grader matches name and year first; for Fable that moved 11 of 755 citations from "not found" to "real." Both numbers are shown. Details: https://syfert.com/mcp/citebench//methodology.html#s4
+**One caveat about free databases.** Recent opinions often have no volume and page in free sources until a publisher prints them, so a real 2021 citation and a fake one both return "not found." The grader matches name and year first; for Fable that moved 11 of 746 citations from "not found" to "real." Both numbers are shown. Details: https://syfert.com/mcp/citebench//methodology.html#s4
 
 Not tested: Harvey, Legora, Lexis+ AI, CoCounsel. I could not obtain access on terms allowing a published automated evaluation.
 
@@ -35,9 +36,9 @@ The harness is plain Python and a full run cost $42.69. I'd welcome anyone rerun
 
 # r/law (title, 2 lines)
 
-AI models have mostly stopped inventing cases. In a 150-question test, the best ones still misquoted or misnamed 5% to 7% of real citations.
+AI models have mostly stopped inventing cases. In a 150-question test, the best ones still misquoted or misnamed 5% to 8% of real citations.
 
 # r/LawFirm (title, 2 lines)
 
-Before you trust an AI's case quote: the best models invented under 0.5% of citations in my 150-question test,
-but 5% to 7% had a quotation that isn't in the opinion or the wrong case name.
+Before you trust an AI's case quote: the best models had 0 to 2 bad case cites each in my 150-question test (none made up),
+but 5% to 8% had a quotation that isn't in the opinion or the wrong case name.
