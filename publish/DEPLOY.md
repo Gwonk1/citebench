@@ -31,7 +31,7 @@ Notes about that vhost:
 2. Confirm the g5 counts used on the page: absent 19/21, found 20/21, name 6/6. The 20/21 and 6/6 were derived
    from 95.2% and 100% (and the 4 name items g4 fixed); `audit/score.py < audit/verdicts_20260922.jsonl` still
    prints the g3 numbers.
-3. docs/METHODOLOGY.md still contains `[Placeholder: ...]` notes (sections 2, 3, 6, 7); section 4 quotes the
+3. DONE 2026-09-22 ~22:50 EDT (placeholders filled, sec. 4 on g5 counts, sec. 5 wording, sec. 7 real run, new sec. 8; html re-rendered, data/ copy refreshed). Was: docs/METHODOLOGY.md still contains `[Placeholder: ...]` notes (sections 2, 3, 6, 7); section 4 quotes the
    first-pass (g3) figures (0.3% / 2.6%, 18 of 20 unresolved were real) that differ from the g5 table (Fable
    0.4% / 1.9%, 11 of 755 unindexed); section 7 has a model/price table and a `citebench run` command that do not
    match the real run; section 5 says the standard terms "do not permit a harness like this one" (stronger than the

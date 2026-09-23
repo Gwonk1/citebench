@@ -31,6 +31,14 @@ blockquote{margin:1em 0;padding:0 1em;border-left:3px solid var(--rule);color:va
 <p class="back"><a href="./">&larr; citebench results</a> &middot; source: <a href="data/METHODOLOGY.md">METHODOLOGY.md</a></p>
 <h1>citebench: methodology</h1>
 <p>citebench measures one thing: when a frontier language model is asked for legal authority, how often are its citations real, correctly named, faithfully quoted and still good law. It is built by Graham Syfert, a Florida plaintiff's litigator who runs syfert.com and the Syfert legal MCP server. That is a conflict of interest: one arm gives models the Syfert tools, and the grader uses the same corpus. Section 6 addresses it.</p>
+<p><strong>Results in brief</strong> (runs of 2026-09-22, grader g5; full tables on the results page and in <code>results/report_150.md</code>):</p>
+<ul>
+<li>With the Syfert tools, every model tested misgrounded 1.9% to 5.7% of its citations. Without tools, the models ranged from 5.4% (Claude Opus 5.5) to 54.6% (Qwen 3.8 Flash).</li>
+<li>Claude Sonnet 5 with the tools misgrounded 1.9% of its citations (5 of 265) and cited the expected case in 92.7% of answers (51 of 55). On the same 55 questions, the best frontier results without tools were 3.6% misgrounded (GPT-6 Astra, 3 of 83) and 78.2% gold recall (Opus 5.5, 43 of 55).</li>
+<li>Gemma 4 26B, a local model on one 12 GB GPU, misgrounded 2.8% of its citations with the tools (8 of 289; 95% interval 1.0 to 4.8), against 5.4% for Opus 5.5 without tools (30 of 560; 3.4 to 7.5). The intervals overlap, so this is not a ranking.</li>
+<li>These results do not show that every tool row beats every bare model. On fabricated citations, the tool rows (0.0% to 3.4%) and the top frontier rows without tools (0.0% to 0.4%) cannot be told apart at this sample size, and Qwen 3.8 Flash with tools (3.4%) is above them. On gold recall, Gemma with the tools (70.7%) is about level with Opus and Fable without them (72.0% and 73.3%).</li>
+</ul>
+<p>All figures are preliminary until eight audit items are re-checked (section 3).</p>
 <h2 id="s1">1. Why this benchmark exists</h2>
 <p>Good research on legal hallucination exists, but there is no number a practitioner can reproduce next month against current frontier models, graded against a full case-law corpus rather than by hand.</p>
 <p><strong>Prior academic work.</strong> Dahl, Magesh, Suzgun and Ho, "Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models," <em>Journal of Legal Analysis</em> 16:64-93 (2024), asked public models verifiable questions about randomly selected federal cases and found that they "hallucinate at least 58% of the time," with GPT-4 at the low end and Llama 2 at up to 88% (<a href="https://academic.oup.com/jla/article/16/1/64/7699227">https://academic.oup.com/jla/article/16/1/64/7699227</a>; preprint <a href="https://arxiv.org/abs/2401.01301">https://arxiv.org/abs/2401.01301</a>; code <a href="https://github.com/reglab/legal_hallucinations">https://github.com/reglab/legal_hallucinations</a>). Those models are several generations old.</p>
@@ -44,27 +52,39 @@ blockquote{margin:1em 0;padding:0 1em;border-left:3px solid var(--rule);color:va
 </ul>
 <p>citebench is narrower. It does not ask whether an answer is good legal work, only whether each citation is real, correctly named, faithfully quoted and still good law, and it grades mechanically so anyone can rerun it.</p>
 <h2 id="s2">2. Task design</h2>
-<p><strong>Questions.</strong> The set has 300 questions. Each is built from one row of a propositions store: a statement of law that later courts have cited a specific opinion for, with that opinion recorded as the gold case. Each question records the state (or "us" for federal), the court, the proposition, the gold case's cluster ID, Bluebook citation, name, decision date and treatment flag, and the source row for provenance. The prompt looks like this:</p>
+<p><strong>Questions.</strong> The set has 300 questions, built by <code>data/build_questions.py</code> with seed 20260922. The build is deterministic: two runs give byte-identical output. Each question comes from one row of a propositions store: a statement of law that later courts have cited a specific opinion for, with that opinion recorded as the gold case. Each question records the state (or "us" for federal), the court, the proposition, the gold case's cluster ID, Bluebook citation, name, decision date and treatment flag, and the source row for provenance. <code>data/README.md</code> has the full build notes.</p>
+<p><strong>Sampling.</strong> The draw is stratified: 150 Florida questions (102 Florida Supreme Court, 48 District Courts of Appeal), 60 federal (20 Supreme Court, 30 circuit, 10 district) and 90 from ten other states (New York, California, Texas, Georgia, Illinois, Pennsylvania, Ohio, New Jersey, Massachusetts and Michigan, 9 each). The steps were:</p>
+<ul>
+<li><em>Candidates.</em> Every proposition cited by at least 5 later opinions (217,021 rows), and down to 2 for yellow or red gold cases, which are scarce.</li>
+<li><em>Text filter.</em> A proposition must be 12 to 60 words, a complete sentence and a self-contained statement of law, with no embedded citations, case-specific words or quoted statute text. 78,358 rows passed; 64% were rejected.</li>
+<li><em>Case checks.</em> The gold case must be published, have a real reporter citation that fits its court, have a usable name, have a volume consistent with its year, and have no party name in the proposition.</li>
+<li><em>Draw.</em> Within each stratum, a seeded random sample from the top 4n rows by citation count. One question per gold case. A near-duplicate check (token Jaccard 0.5 or more) runs across the whole set.</li>
+<li><em>Hand review.</em> 410 rows were read across the build iterations and 24 rejected (5.9%). Each is listed with its reason in <code>MANUAL_REJECT</code> and skipped at draw time, so the rest of the seeded draw does not move. A final random 20 of the delivered file had no bad rows and 1 borderline one.</li>
+</ul>
+<p>Gold decisions run from 1904 to 2023, median 2000. Because the draw favours well-cited propositions, it measures recall of common authority, not obscure authority.</p>
+<p><strong>The headline slice.</strong> The published tables use questions q0001 to q0150, the same questions for every full-length run: 77 Florida, 33 federal and 40 from the ten other states, with 18 bad-law gold cases. Runs that stopped early for budget reasons (every tool row except Gemma's, and three bare rows) cover the first 60 or 40 of those 150 and are marked. <code>results/report.md</code> has every graded answer, including Gemma's 300-question runs, as an appendix; its rows are not on a common question set.</p>
+<p><strong>Prompts.</strong> There are five templates: a direct request, a brief-drafting request, a research question, "opposing counsel asserts", and a memo request. Each names the jurisdiction; federal questions name the circuit, or say "federal" for the Supreme Court. Every template asks for case name, reporter citation, court and year, a pinpoint if possible, and tells the model to say so rather than guess. One of them:</p>
 <blockquote>
 <p>You are assisting a Florida litigator. Cite the controlling authority for this proposition, with a pinpoint if you can: &lt;proposition&gt;. Give the case name, reporter citation, court and year. If you are not certain a citation is real, say so instead of guessing.</p>
 </blockquote>
-<p><strong>Choosing gold cases.</strong> Each gold case is the opinion that later courts cite for the proposition, as recorded in the propositions store, so the answer key reflects how courts use the case. [Placeholder: sampling frame, per-state quotas, court-level mix, date range and deduplication rules, from the question-builder config when the set is frozen. Mix: {n_states} jurisdictions, {pct_federal}% federal.] The gold case is a reference point, not the only right answer. A model that cites a different real case that supports the proposition is not penalized on the integrity metrics; it simply does not score a gold hit.</p>
-<p><strong>Deliberate bad-law gold cases.</strong> About 10% of questions (target 30) use a gold case whose treatment flag is red (overruled or abrogated) or yellow (questioned). These are the questions where a model that remembers a famous case will cite something a careful lawyer would not. They are reported as their own slice. [Design note: the results schema does not yet record whether an answer warned the user about negative treatment. Until that field exists, the bad-law slice is reported with red_rate and gold_recall only, and a gold hit on a red gold case is not counted as a success.]</p>
-<p><strong>Two arms.</strong> Each model answers every question twice.</p>
+<p><strong>Choosing gold cases.</strong> Each gold case is the opinion that later courts cite for the proposition, as recorded in the propositions store, so the answer key reflects how courts use the case. The gold case is a reference point, not the only right answer. A model that cites a different real case that supports the proposition is not penalized on the integrity metrics; it simply does not score a gold hit. The store attributes a proposition to the opinion it was harvested from, which is not always its origin: a line from <em>Celotex</em> harvested from a later circuit opinion has the circuit case as gold. gold_recall is therefore a lower bound.</p>
+<p><strong>Deliberate bad-law gold cases.</strong> 30 of the 300 questions (10%) use a gold case whose treatment flag is red (overruled or abrogated; 26) or yellow (questioned; 4). Florida has 14, because its usable yellow and red pool had only 14 rows. The headline slice holds 18. These are the questions where a model that remembers a famous case will cite something a careful lawyer would not. They are reported as warned_rate: the share of those answers that say a case is overruled, questioned, receded from or no longer good law. The check is a text pattern with a negation guard ("has not been overruled" is not a warning); it does not check which case the warning is about. A red flag can also mean "superseded by statute," so a red gold answer is not always wrong on the proposition asked.</p>
+<p><strong>Two arms.</strong></p>
 <ul>
-<li><em>bare</em>: the prompt alone, no tools, no retrieval.</li>
-<li><em>mcp</em>: the same prompt, with the Syfert MCP tools available (search_cases, get_case, check_citation, check_brief, get_treatment, get_propositions, get_citing_cases, search_quotes, find_issues and related tools). Tool use is up to the model and is logged.</li>
+<li><em>bare</em>: the prompt alone, one call, no system prompt, no tools, no retrieval.</li>
+<li><em>mcp</em>: the same prompt with a short system prompt ("You have access to legal research tools backed by a database of U.S. case law and statutes. Use them to find and verify authority before you answer. When you are done researching, give your final answer as plain text.") and the Syfert MCP tools (search_cases, get_case, check_citation, check_brief, get_treatment, get_propositions, get_citing_cases, search_quotes, find_issues and related tools). The model decides whether to call them. The loop allows 8 model turns, forces the last one tool-free so every question ends with an answer, and truncates each tool result to 12,000 characters. Every call is logged.</li>
 </ul>
-<p>The bare arm measures what a lawyer gets from a chat window. The mcp arm measures whether a corpus-backed citator changes that.</p>
-<p><strong>Why abstention is scored.</strong> The prompt invites the model to say it is not sure. A model that gives no citation cannot give a fabricated one, so the citation-level rates would reward silence if reported alone. abstain_rate is reported next to every other metric so that a low fabricated_rate bought by refusing half the questions is visible. For a lawyer an honest "I don't know" is far cheaper than a confident fake, so abstention is a separate disclosed outcome, not a failure.</p>
+<p>The bare arm measures what a lawyer gets from a chat window. The mcp arm measures whether a corpus-backed citator changes that. Budget did not allow both arms for every model; section 7 lists which runs exist.</p>
+<p><strong>Why abstention is scored.</strong> The prompt invites the model to say it is not sure. A model that gives no citation cannot give a fabricated one, so the citation-level rates would reward silence if reported alone. abstain_rate is reported next to every other metric so that a low fabricated_rate bought by refusing questions is visible. An answer counts as an abstention when it has no citation and contains a hedge phrase from a fixed pattern ("not certain", "cannot verify", "unable to locate", "I don't know", "will not guess", "no verified citation" and similar). An answer with no citation and no hedge is neither a hit nor an abstention. In this run abstention was rare: 0.0% to 2.7% without tools and 0.0% with them. For a lawyer an honest "I don't know" is far cheaper than a confident fake, so abstention is a separate disclosed outcome, not a failure.</p>
 <h2 id="s3">3. Grading</h2>
-<p>Every answer in both arms goes through check_brief, the Syfert MCP tool that extracts each citation, resolves it against the corpus, compares the claimed name to the resolved case, looks for quoted passages in the opinion text, and reports the treatment flag. Raw output is stored with each grade.</p>
+<p>Every answer in both arms goes through check_brief, the Syfert MCP tool that extracts each citation, resolves it against the corpus, compares the claimed name to the resolved case, looks for quoted passages in the opinion text, and reports the treatment flag. Markdown emphasis is stripped first, because check_brief does not read a case name wrapped in asterisks. Authorities are de-duplicated: a case cited twice, or with a parallel cite, counts once, and an unresolved parallel cite or subsequent-history cite ("review denied, ...") is not counted as fabricated. The raw check_brief output and every grading decision are stored with each grade. The rules are in the docstrings of <code>grade.py</code> and <code>reconcile.py</code>.</p>
 <p>Three kinds of bad citation are kept separate:</p>
 <ul>
-<li><strong>Fabricated.</strong> The citation does not resolve to any opinion in the corpus. The case does not exist, or the reporter volume and page point nowhere. A citation the reporter index cannot resolve is first matched by case name and year against the opinions, or found cited at that page by later courts; a match is counted as real but unindexed, not fabricated (section 4).</li>
-<li><strong>Misgrounded.</strong> The citation resolves to a real opinion, but either the claimed name does not match the opinion at that citation (name mismatch), or a passage the answer presents as a quotation is not in that opinion (quote absent). This follows the Magesh et al. concept but is narrower: the grader detects a mismatched name or an invented quote, not a real, correctly named case cited without quotation for a proposition it does not support. That subtler failure is only partly captured, through gold_recall.</li>
+<li><strong>Fabricated.</strong> The citation does not resolve to any opinion in the corpus. The case does not exist, or the reporter volume and page point nowhere. A citation the reporter index cannot resolve is first checked by case name and year (section 4 and section 6); a match is counted as real but unindexed, not fabricated.</li>
+<li><strong>Misgrounded.</strong> The citation resolves to a real opinion, but either the claimed name does not match the opinion at that citation (name mismatch), or a passage the answer presents as a quotation is not in any case the answer cites (quote absent). Initials and short-form names ("P.T. v. M.S.", "Commerce v. Equity") are not mismatches. A quote is matched after star pages, footnote numbers and editorial brackets are removed, one ellipsis-separated segment at a time, verbatim or as a run of at least 80% of its words, and also against a copy of the opinion with its internal citations stripped, so "(citations omitted)" practice still matches. Only spans presented as a case quotation count: a citation or an attribution verb ("held", "explained", "as the court put it") must be next to it. This follows the Magesh et al. concept but is narrower: the grader detects a mismatched name or an invented quote, not a real, correctly named case cited without quotation for a proposition it does not support. That subtler failure is only partly captured, through gold_recall.</li>
 <li><strong>Stale.</strong> The citation is real and correctly named, but the case is flagged red (overruled or abrogated) or yellow (questioned) by Syfertize treatment.</li>
 </ul>
+<p>An absent quote is further labelled, without changing any count: a <em>paraphrase in quotation marks</em> when at least 60% of its words appear in order in a cited opinion, otherwise <em>fabricated wording</em>. A found quote is labelled verbatim or near (an 80% to 99% run).</p>
 <p><strong>Metrics</strong>, per (model, arm). Counts are summed over all questions before dividing, so a question with many citations weighs more than one with few.</p>
 <table>
 <thead>
@@ -76,15 +96,23 @@ blockquote{margin:1em 0;padding:0 1em;border-left:3px solid var(--rule);color:va
 <tbody>
 <tr>
 <td>fabricated_rate</td>
-<td>total fabricated citations / total citations</td>
+<td>fabricated citations / all citations (headline, after the name-and-year check)</td>
+</tr>
+<tr>
+<td>fabricated_strict_rate</td>
+<td>(fabricated + real but unindexed) / all citations: every citation the reporter index cannot resolve</td>
 </tr>
 <tr>
 <td>misgrounded_rate</td>
-<td>(total name mismatches + total absent quotes) / total citations</td>
+<td>(name mismatches + absent quotes) / all citations; absent quotes are counted one by one</td>
+</tr>
+<tr>
+<td>paraphrase_share</td>
+<td>absent quotes that are paraphrases in quotation marks / all absent quotes</td>
 </tr>
 <tr>
 <td>red_rate</td>
-<td>total citations to red-flagged cases / total verified citations</td>
+<td>citations to red-flagged cases / verified citations</td>
 </tr>
 <tr>
 <td>gold_recall</td>
@@ -94,72 +122,179 @@ blockquote{margin:1em 0;padding:0 1em;border-left:3px solid var(--rule);color:va
 <td>abstain_rate</td>
 <td>share of questions answered with no citation and an express statement of uncertainty</td>
 </tr>
+<tr>
+<td>warned_rate</td>
+<td>share of bad-law questions whose answer warns of negative treatment</td>
+</tr>
 </tbody>
 </table>
-<p>Yellow counts are reported beside red_rate but not folded into it, because "questioned" ranges from one critical footnote to a serious split. Name mismatch is classed as misgrounding because the reporter citation is real; some are really fabrications that landed on a real page, and the per-answer records let readers reclassify them.</p>
-<p><strong>The grader has an error rate.</strong> check_brief can fail to parse a citation form, fail to resolve a real citation, or miss a quote because of text differences. [Placeholder: results of a human audit of 50 randomly sampled grader verdicts, stratified across fabricated, misgrounded, stale and clean, reporting the number of verdicts a lawyer reviewer disagreed with and in which direction. Auditor: {auditor}. Agreement: {x}/50.]</p>
+<p>Yellow counts are recorded but not folded into red_rate, because "questioned" ranges from one critical footnote to a serious split. Name mismatch is classed as misgrounding because the reporter citation is real; some are really fabrications that landed on a real page, and the per-answer records let readers reclassify them. Because absent quotes are counted per quote, one citation can carry two, and a fabricated citation can also carry one; fabricated_rate and misgrounded_rate can sum to more than 100%.</p>
+<p><strong>The grader has an error rate, and we measured part of it.</strong> check_brief can fail to parse a citation form, fail to resolve a real citation, or miss a quote because of text differences. We hand-audited the misgrounded column.</p>
+<ul>
+<li><em>Design.</em> 60 grader verdicts were drawn at random (seed 20260922) from the paid runs as graded at 20:39 UTC on 2026-09-22 by grader g3: 35 quotes counted absent, 15 quotes counted found, and 10 name mismatches. Each stratum was split across runs in proportion to their citations. The reviewer saw each answer's sentence, the grader's verdict and the closest passage from the cited opinion on a review page, and marked the grader right, wrong or unsure. The reviewer was Graham Syfert, the author, so the audit is not independent. <code>audit/README.md</code> describes the packet.</li>
+<li><em>Result on g3.</em> Absent-quote verdicts were right 21 of 34 times (61.8%, one unsure), found verdicts 14 of 15 (93.3%), name mismatches 6 of 10 (60%). The wrong verdicts traced to specific grader faults, fixed in g4 and g5 (section 8). Every run was then regraded.</li>
+<li><em>Result on g5.</em> Scored against the same human verdicts, g5 is right on 19 of 21 absent-quote verdicts (90.5%, 95% Wilson interval 71 to 97%), 20 of 21 found verdicts (95.2%, 77 to 99%) and 6 of 6 name mismatches (100%, 61 to 100%). The denominators change because g5 no longer treats some audited spans as case quotations (a citation in quotation marks, the model's own notes to the user) and moves some quotes from absent to found. These are the items that drove the fixes, so the g5 figures are in-sample and probably flatter the grader; a fresh sample is the fair test.</li>
+<li><em>Example of a correct "absent".</em> In one item (Qwen 3.8 Max, question q0017) the model quoted <em>Celotex</em> with "moving" changed to "responding." The grader called the quote absent, which is right: a single changed word is enough.</li>
+<li><em>Still open.</em> The review page showed the wrong source opinion for eight cards (Q06, Q08, Q12, Q16, Q27, Q29, Q37 and Q45), because it paired each quote with the nearest full citation and ignored "Id." The page is fixed and those cards are being re-checked; until then every figure is preliminary. The fabricated and stale columns have not had a hand audit.</li>
+</ul>
 <h2 id="s4">4. Why real citations go unresolved: the reporter pagination moat</h2>
-<p>In the first full run, Claude Fable 5.1 gave 755 citations in 150 answers; the reporter index could not resolve 20. Matched by case name and year to opinions in the corpus, 18 citations (14 distinct cases, 2.4% of all citations) were real. The other 2 were real cases cited at the wrong place: <em>Jaffy v. Jaffy</em> is at 965 So. 2d 825, not 1245, and <em>Wilcoxon v. Moller</em> is 132 So. 3d 281 (Fla. 4th DCA 2014), not 132 So. 2d 5 (Fla. 1961). The 18 include <em>Conage v. United States</em>, 346 So. 3d 594 (Fla. 2022); <em>Advisory Opinion to the Governor re Implementation of Amendment 4</em>, 288 So. 3d 1070 (Fla. 2020); <em>Ham v. Portfolio Recovery Associates</em>, 308 So. 3d 942 (Fla. 2020); <em>Bush v. State</em>, 295 So. 3d 179 (Fla. 2020); <em>In re Caden C.</em>, 11 Cal. 5th 614 (2021); <em>Columbia Memorial Hospital v. Hinds</em>, 38 N.Y.3d 253 (2022); and <em>Berbridge v. Sam's East, Inc.</em>, 728 F. App'x 929 (11th Cir. 2018). The corpus holds each opinion's text, from CourtListener, but not its volume and page. Seventeen of the 18 were decided from 2018 to 2022. The other, <em>Schultz v. Boy Scouts of America, Inc.</em>, 65 N.Y.2d 189 (1985), is an ordinary index gap.</p>
+<p>In the final grading (grader g5), Claude Fable 5.1 gave 755 citations in its 150 answers without tools. The reporter index could not resolve 14 of them (1.9%, the strict rate). Matched by case name and year to opinions in the corpus, 11 of the 14 (1.5% of all citations; 10 distinct cases, one cited in two answers) are real opinions the index had no volume and page for. They include <em>Columbia Memorial Hospital v. Hinds</em>, 38 N.Y.3d 253 (2022); <em>In re Caden C.</em>, 11 Cal. 5th 614 (2021); <em>In re Amendments to Florida Rule of Civil Procedure 1.510</em>, 317 So. 3d 72 (Fla. 2021); <em>Commonwealth v. Alexander</em>, 243 A.3d 177 (Pa. 2020); <em>Residents for a Better Community v. WCI Communities, Inc.</em>, 291 So. 3d 632 (Fla. 2d DCA 2020); <em>Dailey v. State</em>, 283 So. 3d 782 (Fla. 2019); and <em>Berbridge v. Sam's East, Inc.</em>, 728 F. App'x 929 (11th Cir. 2018). The corpus holds each opinion's text, from CourtListener, but not its volume and page. Nine of the 10 were decided from 2018 to 2022. The other, <em>Schultz v. Boy Scouts of America, Inc.</em>, 65 N.Y.2d 189 (1985), is an ordinary index gap.</p>
+<p>The other 3 are graded fabricated (0.4%, the headline rate). None is an invented case. Two are real cases cited at the wrong place: <em>Jaffy v. Jaffy</em> is at 965 So. 2d 825, not 1245, and <em>Wilcoxon v. Moller</em> is 132 So. 3d 281 (Fla. 4th DCA 2014), not 132 So. 2d 5 (Fla. 1961). The third, "mod 450 Mich 1212 (1995)", is the real order modifying <em>People v. Mills</em>, 450 Mich 61 (1995), and later Michigan courts cite it in exactly that form (for example <em>People v. Quinn</em>, 305 Mich. App. 484 (2014)). The grader does not recognise "mod" as subsequent history, so it counts the order as a fabricated authority. That is a grader error; it stays in the published count until the next grader version.</p>
+<p>In the first grading pass (g3) the same answers had 20 unresolved citations, 18 of them real (2.4%) and 2 at the wrong place. The count fell mainly because the reporter index behind check_brief now resolves several of those 18 directly, including <em>Conage v. United States</em>, 346 So. 3d 594 (Fla. 2022), <em>Ham v. Portfolio Recovery Associates</em>, 308 So. 3d 942 (Fla. 2020) and <em>Bush v. State</em>, 295 So. 3d 179 (Fla. 2020), and the grader's rules also changed between passes (section 8). Chart 4 on the results page shows the first-pass counts.</p>
 <p><strong>Who assigns the numbers.</strong> The Southern Reporter and the other regional reporters belong to West's National Reporter System, published by Thomson Reuters (<a href="https://store.legal.thomsonreuters.com/en-us/products/southern-reporter-3d-full-set-40739988">https://store.legal.thomsonreuters.com/en-us/products/southern-reporter-3d-full-set-40739988</a>), as did the Federal Appendix until 2021 (<a href="https://en.wikipedia.org/wiki/Federal_Appendix">https://en.wikipedia.org/wiki/Federal_Appendix</a>). Some official reports are privately published too: California's by LexisNexis (<a href="https://store.lexisnexis.com/en-us/caofficialreports">https://store.lexisnexis.com/en-us/caofficialreports</a>), New York's by Thomson Reuters under state contract (<a href="https://nycourts.gov/reporter/files/annual2021.pdf">https://nycourts.gov/reporter/files/annual2021.pdf</a>) [seen through a search index only; the site refused direct fetch]. As Free Law Project puts it, "until the content is in a book, there's no volume or page to cite to" (<a href="https://free.law/2026/04/16/scanning-americas-case-law/">https://free.law/2026/04/16/scanning-americas-case-law/</a>).</p>
 <p><strong>Florida requires those numbers.</strong> Fla. R. App. P. 9.800 "applies to all legal documents, including court opinions." It cites Florida Supreme Court decisions from 1887 on to the Southern Reporter. Only for a case "not published in Southern Reporter" does it allow Florida Law Weekly, a subscription product (<a href="https://www.floridalawweekly.com/">https://www.floridalawweekly.com/</a>), and then a slip opinion with an optional Westlaw or LEXIS number (<a href="https://flcourts-media.flcourts.gov/content/download/865220/file/Appellate-Court-Rules-10-01-22-1.pdf">https://flcourts-media.flcourts.gov/content/download/865220/file/Appellate-Court-Rules-10-01-22-1.pdf</a>). A June 11, 2026 amendment changed only docket number formats (<a href="https://flcourts-media.flcourts.gov/content/download/2489908/opinion/Opinion_SC2025-0241.pdf">https://flcourts-media.flcourts.gov/content/download/2489908/opinion/Opinion_SC2025-0241.pdf</a>). About 20 states assign public-domain citations themselves (Free Law Project, above). A University of South Carolina guide based on AALL's Universal Citation Guide lists 17, including Wisconsin, Oklahoma, North Dakota, Montana, New Mexico, Ohio and Illinois (<a href="https://guides.law.sc.edu/universalcitation/adoptedby">https://guides.law.sc.edu/universalcitation/adoptedby</a>). Illinois, for one, has assigned the citation and paragraph numbers at filing since July 1, 2011 (<a href="https://www.isba.org/barnews/2011/05/31/illinois-supreme-court-announces-new-public-domain-citation-system-ending-era-of-printed-volumes">https://www.isba.org/barnews/2011/05/31/illinois-supreme-court-announces-new-public-domain-citation-system-ending-era-of-printed-volumes</a>). There an opinion is citable the day it issues; in Florida the preferred citation comes only from a publisher.</p>
 <p><strong>Not copyrighted, still gated.</strong> Affirming a preliminary injunction, <em>West Publishing Co. v. Mead Data Central, Inc.</em>, 799 F.2d 1219, 1223 (8th Cir. 1986), held that "the pagination of West's volumes reflects and expresses West's arrangement" and that LEXIS's planned star pagination infringed. <em>Matthew Bender &amp; Co. v. West Publishing Co.</em>, 158 F.3d 693 (2d Cir. 1998), disagreed: the volume and page numbers "are not original components of West's compilations and are not themselves protected by West's compilation copyright," so star pagination does not infringe; it declined to follow <em>Mead</em> after <em>Feist</em>. But a number anyone may copy must first be published somewhere: for a new decision, in the publisher's products or a later opinion citing the case by page.</p>
-<p><strong>The free sources stop.</strong> The Caselaw Access Project's scanned volumes end at 275 So. 3d (2018 to 2019), 714 F. App'x (2018) and 29 N.Y.3d (2017), per its own metadata (<a href="https://static.case.law/so3d/VolumesMetadata.json">https://static.case.law/so3d/VolumesMetadata.json</a>; same file under f-appx and ny3d). [A Library of Congress guide says "through 2020" (<a href="https://guides.loc.gov/free-case-law/caselaw-access-project">https://guides.loc.gov/free-case-law/caselaw-access-project</a>).] Commercial-use limits from the Ravel/LexisNexis agreement expired in March 2024 (<a href="https://lil.law.harvard.edu/blog/2024/03/26/transitions-for-the-caselaw-access-project/">https://lil.law.harvard.edu/blog/2024/03/26/transitions-for-the-caselaw-access-project/</a>). CourtListener scrapes new opinions from court websites and so "does not get the official pagination or citations for the decisions." In April 2026 Free Law Project began scanning printed reporters to fill "the gap between when the Harvard data ends, in 2018, and today" (post above). Until then, the free route is a later citing opinion; for 12 of the 18, our grader found later courts citing the same volume and page.</p>
-<p><strong>Consequence for citation checking.</strong> CourtListener's citation lookup, like our index, keys on volume and page and answers a miss with "Citation not found" (<a href="https://wiki.free.law/c/courtlistener/help/api/rest/v4/citation-lookup">https://wiki.free.law/c/courtlistener/help/api/rest/v4/citation-lookup</a>). For a decision newer than the free pagination, a real citation and an invented one get the same answer. This window opens where the scanned volumes stop and closes case by case; it has no fixed length. Free data can close it by matching the claimed name and year to an opinion in the corpus. citebench's grader does this, logging the evidence, and so has syfert.com's Brief Check since 2026-09-22. A name match does not confirm the page: a real name with an invented page past the index still passes. The headline fabricated_rate counts only unmatched citations (0.3% here); fabricated_strict_rate counts every citation the index cannot resolve (2.6%).</p>
+<p><strong>The free sources stop.</strong> The Caselaw Access Project's scanned volumes end at 275 So. 3d (2018 to 2019), 714 F. App'x (2018) and 29 N.Y.3d (2017), per its own metadata (<a href="https://static.case.law/so3d/VolumesMetadata.json">https://static.case.law/so3d/VolumesMetadata.json</a>; same file under f-appx and ny3d). [A Library of Congress guide says "through 2020" (<a href="https://guides.loc.gov/free-case-law/caselaw-access-project">https://guides.loc.gov/free-case-law/caselaw-access-project</a>).] At the start of the run, the reporter index behind our grader had no So. 3d pagination past about volume 277 (2019). Commercial-use limits from the Ravel/LexisNexis agreement expired in March 2024 (<a href="https://lil.law.harvard.edu/blog/2024/03/26/transitions-for-the-caselaw-access-project/">https://lil.law.harvard.edu/blog/2024/03/26/transitions-for-the-caselaw-access-project/</a>). CourtListener scrapes new opinions from court websites and so "does not get the official pagination or citations for the decisions." In April 2026 Free Law Project began scanning printed reporters to fill "the gap between when the Harvard data ends, in 2018, and today" (post above). Until then, the free route is a later citing opinion; for 4 of the 11 unindexed citations above, the evidence the grader accepted was later courts citing the same volume and page.</p>
+<p><strong>Consequence for citation checking.</strong> CourtListener's citation lookup, like our index, keys on volume and page and answers a miss with "Citation not found" (<a href="https://wiki.free.law/c/courtlistener/help/api/rest/v4/citation-lookup">https://wiki.free.law/c/courtlistener/help/api/rest/v4/citation-lookup</a>). For a decision newer than the free pagination, a real citation and an invented one get the same answer. This window opens where the scanned volumes stop and closes case by case; it has no fixed length. Free data can close it by matching the claimed name and year to an opinion in the corpus. citebench's grader does this, logging the evidence, and so has syfert.com's Brief Check since 2026-09-22. A name match does not confirm the page: a real name with an invented page past the index still passes. The headline fabricated_rate counts only unmatched citations (0.4% for Fable 5.1); fabricated_strict_rate counts every citation the index cannot resolve (1.9%). Both are published for every row.</p>
 <h2 id="s5">5. What is not tested, and why</h2>
-<p>Harvey, Legora, Lexis+ AI and Westlaw CoCounsel are not in the results. They are enterprise products sold under negotiated agreements, we could not obtain access on terms that allow an automated, published evaluation, and the standard terms we could read do not permit a harness like this one. Harvey's Evaluation Terms of Service (last updated January 9, 2026) say a user may not "attempt automated means to scrape content or Output from the Service" (<a href="https://www.harvey.ai/legal/evaluation-terms-of-service">https://www.harvey.ai/legal/evaluation-terms-of-service</a>). Legora's US General Terms and Conditions bar using "any automated or programmatic method to extract data or Output from the Services other than such methods provided by Legora" and using access "to build a product or service which competes with the Services" (<a href="https://legora.com/legal/us-general-terms-and-conditions">https://legora.com/legal/us-general-terms-and-conditions</a>). Magesh et al. report that the LexisNexis terms in force in 2023 prohibited programmatic access (<a href="https://arxiv.org/abs/2405.20362">https://arxiv.org/abs/2405.20362</a>). [We did not find language in Harvey's or Legora's public terms that expressly prohibits publishing benchmark results, and we do not claim one exists. Negotiated customer agreements may differ and are not public.]</p>
+<p>Harvey, Legora, Lexis+ AI and Westlaw CoCounsel are not in the results. They are enterprise products sold under negotiated agreements, and we could not obtain access on terms that allow an automated, published evaluation. The standard terms we could read restrict automated use. Harvey's Evaluation Terms of Service (last updated January 9, 2026) say a user may not "attempt automated means to scrape content or Output from the Service" (<a href="https://www.harvey.ai/legal/evaluation-terms-of-service">https://www.harvey.ai/legal/evaluation-terms-of-service</a>). Legora's US General Terms and Conditions bar using "any automated or programmatic method to extract data or Output from the Services other than such methods provided by Legora" and using access "to build a product or service which competes with the Services" (<a href="https://legora.com/legal/us-general-terms-and-conditions">https://legora.com/legal/us-general-terms-and-conditions</a>). Magesh et al. report that the LexisNexis terms in force in 2023 prohibited programmatic access (<a href="https://arxiv.org/abs/2405.20362">https://arxiv.org/abs/2405.20362</a>). [We did not find language in Harvey's or Legora's public terms that expressly prohibits publishing benchmark results, and we do not claim one exists. Negotiated customer agreements may differ and are not public.]</p>
 <p>The harness is public. Any vendor, including those four, can run it against its own product and submit results with the raw answers and grades; they will be published marked as vendor-run.</p>
 <p>Also out of scope: statute and rule citations (check_brief checks them; this version reports case citations only), the correctness of the legal analysis, pinpoint accuracy, and non-U.S. law.</p>
 <h2 id="s6">6. Threats to validity</h2>
 <p><strong>Same corpus for gold set and grader.</strong> A systematic corpus error affects both question and answer key. The mcp arm is also partly circular: a model that calls check_citation before answering is using the grader's own tool. A lawyer using the tool gets the same benefit, but the bare-versus-mcp gap is "value of this toolset as graded by this toolset," not a neutral measure.</p>
-<p><strong>Coverage gaps can turn a real cite into a "fabricated" one.</strong> The corpus holds about 10.7 million U.S. opinions, built from CourtListener and Caselaw Access Project data, and no free corpus is complete. Recent opinions often lack reporter pagination; section 4 explains why and how the grader compensates. Decisions cited only by Westlaw or Lexis number may not resolve, and some trial-level and older material is thin. For opinions from 2020 on, most corpus text comes from court PDFs converted to plain text, where hyphenation and encoding artifacts can hide a real quotation. Every citation graded fabricated will be listed so readers can check it elsewhere. [Placeholder: fabricated verdicts manually confirmed against a second source: {n_confirmed}/{n_fabricated}.]</p>
+<p><strong>Coverage gaps can turn a real cite into a "fabricated" one.</strong> The corpus holds about 10.7 million U.S. opinions, built from CourtListener and Caselaw Access Project data, and no free corpus is complete. Recent opinions often lack reporter pagination; section 4 explains why and how the grader compensates. Decisions cited only by Westlaw or Lexis number may not resolve, and some trial-level and older material is thin. For opinions from 2020 on, most corpus text comes from court PDFs converted to plain text, where hyphenation and encoding artifacts can hide a real quotation.</p>
+<p><strong>The second-source check, and its limits.</strong> Before a citation is graded fabricated, <code>reconcile.py</code> tries three routes in order and logs every attempt: check_citation with the claimed case name; search_cases on the distinctive party words, scoped to the court and then unscoped; and a search for the exact citation string in other opinions, accepted when a later court cites that volume and page next to the claimed name (cite corroboration). A hit must pass a name test, a year test (the decision year must fit the years of the reporter volume, and the year the answer gave) and a court test. A real case whose known cite in the same reporter differs stays fabricated, as a miscited real case. On 2026-09-22 at 19:00 UTC, check_brief itself began resolving a cite newer than the index by name, decision date and court (resolution "name_year"); the grader counts those as real but unindexed too. All of this is a second route into the same corpus, not an independent source. Beyond it, no fabricated verdict has been checked by hand against an outside source, except Fable 5.1's three in section 4 (none is an invented case, and one is a grader error). Every citation graded fabricated will be published with the per-citation grades so readers can check it elsewhere.</p>
 <p><strong>Contamination.</strong> syfert.com pages are public and crawlable. Models may have been trained on them, which could help them in both arms. The question prompts are generated from propositions, not copied from page text, but a proposition may appear nearly verbatim on a case page. Published question sets also leak. [Proposal, not yet decided: hold back a private rotating slice and report whether results on it differ.]</p>
-<p><strong>Prompt sensitivity.</strong> Results depend on the template, and the explicit permission to abstain probably lowers fabrication. [Placeholder: sensitivity run on a 50-question subset with two alternative templates, one without the abstention sentence.]</p>
-<p><strong>Sample size.</strong> 300 questions is enough to separate large differences and not small ones. For question-level proportions (gold_recall, abstain_rate) we report Wilson 95% intervals; at n = 300 the half-width is about 5.7 points near 50% and about 3.4 points near 10%. For the citation-level rates, citations within one answer are not independent, so intervals come from a bootstrap that resamples questions (10,000 resamples). Comparisons between arms of the same model are paired by question. With five models and five metrics, readers should expect some nominally significant differences by chance; we will not rank models on differences whose intervals overlap.</p>
+<p><strong>Prompt sensitivity was not tested.</strong> Results depend on the template, and the explicit permission to abstain probably lowers fabrication. The planned check, a 50-question subset run with alternative templates including one without the abstention sentence, was not done. The five templates are mixed across the set, but the sample is too small to compare them. This is a limitation of these results.</p>
+<p><strong>The runs are not set up identically.</strong> Claude Fable 5.1 and Opus 5.5 ran on the Anthropic API; the other hosted models ran through OpenRouter. Output caps and reasoning settings differ by model (section 7), because some models returned empty answers under the defaults. Gemma 4 26B is a community quantized build with a 2,048-token output cap. Empty or errored answers are left out of the graded counts: Sonnet 5 with tools 5 empty; Qwen 3.8 Flash with tools 4 empty and 2 rate-limited; DeepSeek V4.1 Flash 1 empty bare and 2 empty with tools; Gemini 3.8 Flash 1 empty bare. Gemini 3.8 Flash with tools is excluded altogether: 37 of its 40 answers failed when the OpenRouter account ran out of credit mid-run (HTTP 402), so its 3 graded answers say nothing about the model.</p>
+<p><strong>The author audited the grader.</strong> The hand audit in section 3 was done by Graham Syfert, who also built the tools and the grader. An independent reviewer would be better; the audit packet and the verdicts are in the repository (<code>audit/</code>) so anyone can redo it.</p>
+<p><strong>Sample size.</strong> Each full-length row has 150 questions; most tool rows have 55 to 60 graded answers. That is enough to separate large differences and not small ones. For question-level proportions (gold_recall, abstain_rate, warned_rate) we report Wilson 95% intervals. The half-width near 50% is about 8 points at n = 150 and about 13 points at n = 55; Sonnet 5 with tools, for example, has gold recall 92.7% with an interval of 82.7 to 97.1. For the citation-level rates, citations within one answer are not independent, so the results table's intervals come from a bootstrap that resamples questions (10,000 resamples): Fable 5.1 misgrounded 7.4% (5.5 to 9.4), Gemma 4 26B with tools 2.8% (1.0 to 4.8). The charts use Wilson intervals over citations, which are narrower. warned_rate rests on 18 bad-law questions, and 4 or 5 in the shorter rows, so treat it as rough. Bare-versus-tools deltas are computed on the questions graded in both arms; no formal paired test was run. With 14 rows and several metrics, some differences will look significant by chance; we do not rank rows whose intervals overlap.</p>
 <p><strong>Non-determinism and drift.</strong> Hosted models change without notice and sample stochastically. Each run records model ID, date and settings in runs.config_json; a result describes that model on that date.</p>
 <h2 id="s7">7. Reproduction</h2>
-<p><strong>Keys.</strong> API keys go in <code>keys.env</code> at the repository root (gitignored). You need a model-provider key (the reference run uses OpenRouter) and a Syfert MCP token for the mcp arm and grading. [Placeholder: exact variable names once the harness is frozen.]</p>
-<p><strong>One command.</strong> [Placeholder: final command name.]</p>
-<pre><code>citebench run --models models.yaml --arms bare,mcp --confirm-spend
+<p><strong>Keys.</strong> Keys go in <code>keys.env</code> at the repository root (gitignored; copy <code>keys.env.example</code>). <code>OPENROUTER_API_KEY</code> and <code>ANTHROPIC_API_KEY</code> for the hosted models (<code>ANTHROPIC_WORKSPACE_ID</code> if the Anthropic key is organization-scoped; <code>GEMINI_API_KEY</code> for the direct Gemini route, not used in this run). <code>SYFERT_MCP_TOKEN</code> for the tools arm and for grading; a free token from syfert.com/mcp works. <code>LOCAL_OPENAI_BASE</code> for a local llama.cpp model.</p>
+<p><strong>Commands.</strong> The harness is plain Python (standard library plus requests). One model, one arm, the 150 headline questions, then grade and report:</p>
+<pre><code>python3 run.py --model claude-opus-5-5 --arm bare --limit 150 --confirm-spend
+python3 grade.py
+python3 report.py --max-qid q0150 --out results/report_150.md
 </code></pre>
-<p>The harness prints an itemized cost estimate and refuses to make paid API calls without <code>--confirm-spend</code>. Results go to <code>results/results.db</code> (tables runs, answers, grades), from which every published number can be recomputed.</p>
-<p><strong>Cost.</strong> Prices below are OpenRouter list prices per million tokens, retrieved 2026-09-22 from <a href="https://openrouter.ai/api/v1/models">https://openrouter.ai/api/v1/models</a>. The reference model set is a placeholder until the run is frozen.</p>
+<p>The tool rows used <code>--arm mcp --limit 60</code>. <code>run.py</code> prints a cost estimate and refuses paid calls without <code>--confirm-spend</code>; <code>--max-usd</code> caps spend mid-run; runs are resumable, and errored answers are retried on the next invocation. <code>python3 run.py --dry-run --arm bare</code> is a zero-network smoke test. <code>python3 report.py</code> with no <code>--max-qid</code> writes the full appendix, <code>results/report.md</code>. Results go to <code>results/results.db</code> (tables runs, answers, grades), from which every published number can be recomputed. Grading runs through the Syfert MCP and is subject to its rate limits, not per-token billing.</p>
+<p><strong>Models and settings.</strong> Prices are USD per million tokens: OpenRouter list prices retrieved 2026-09-22 from <a href="https://openrouter.ai/api/v1/models">https://openrouter.ai/api/v1/models</a>, and Anthropic's first-party list prices, which matched OpenRouter's anthropic rows that day. The harness records cost per answer from these prices and the reported token counts. Settings are those in <code>models.json</code>.</p>
 <table>
 <thead>
 <tr>
-<th>Model (OpenRouter ID)</th>
-<th>Input $/M</th>
-<th>Output $/M</th>
+<th>Row</th>
+<th>Route</th>
+<th>Model ID</th>
+<th>In $/M</th>
+<th>Out $/M</th>
+<th>Output cap and reasoning</th>
+<th>Runs (questions)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>openai/gpt-5.6-terra</td>
-<td>2.00</td>
-<td>12.00</td>
+<td>Claude Fable 5.1</td>
+<td>Anthropic API</td>
+<td>claude-fable-5-1</td>
+<td>10.00</td>
+<td>50.00</td>
+<td>16,000</td>
+<td>bare 150</td>
 </tr>
 <tr>
-<td>anthropic/claude-opus-5.5</td>
+<td>Claude Opus 5.5</td>
+<td>Anthropic API</td>
+<td>claude-opus-5-5</td>
 <td>4.00</td>
 <td>20.00</td>
+<td>16,000</td>
+<td>bare 150</td>
 </tr>
 <tr>
+<td>Claude Sonnet 5</td>
+<td>OpenRouter</td>
+<td>anthropic/claude-sonnet-5</td>
+<td>2.00</td>
+<td>10.00</td>
+<td>16,000</td>
+<td>tools 60</td>
+</tr>
+<tr>
+<td>GPT-6 Astra</td>
+<td>OpenRouter</td>
+<td>openai/gpt-6-astra</td>
+<td>10.00</td>
+<td>50.00</td>
+<td>4,096</td>
+<td>bare 150</td>
+</tr>
+<tr>
+<td>Gemini 3.1 Pro</td>
+<td>OpenRouter</td>
 <td>google/gemini-3.1-pro-preview</td>
 <td>2.00</td>
 <td>12.00</td>
+<td>16,000</td>
+<td>bare 150</td>
 </tr>
 <tr>
-<td>moonshotai/kimi-k3</td>
-<td>3.00</td>
-<td>15.00</td>
+<td>Gemini 3.8 Flash</td>
+<td>OpenRouter</td>
+<td>google/gemini-3.8-flash</td>
+<td>0.75</td>
+<td>3.75</td>
+<td>16,000</td>
+<td>bare 40; tools 40 (excluded)</td>
 </tr>
 <tr>
+<td>DeepSeek V4 Pro</td>
+<td>OpenRouter</td>
+<td>deepseek/deepseek-v4-pro-0813</td>
+<td>0.66</td>
+<td>1.98</td>
+<td>16,000, reasoning effort low</td>
+<td>bare 150</td>
+</tr>
+<tr>
+<td>DeepSeek V4.1 Flash</td>
+<td>OpenRouter</td>
+<td>deepseek/deepseek-v4.1-flash</td>
+<td>0.15</td>
+<td>0.60</td>
+<td>16,000; reasoning effort low (bare), 1,024-token reasoning cap (tools)</td>
+<td>bare 60; tools 60</td>
+</tr>
+<tr>
+<td>Qwen 3.8 Max</td>
+<td>OpenRouter</td>
 <td>qwen/qwen3.8-max-0902</td>
 <td>2.00</td>
 <td>6.00</td>
+<td>8,192, reasoning off (run v2 as recorded; <code>models.json</code> now holds 16,000 and effort low)</td>
+<td>bare 150</td>
+</tr>
+<tr>
+<td>Qwen 3.8 Flash</td>
+<td>OpenRouter</td>
+<td>qwen/qwen3.8-flash</td>
+<td>0.15</td>
+<td>0.47</td>
+<td>16,000, 1,024-token reasoning cap</td>
+<td>bare 60; tools 60</td>
+</tr>
+<tr>
+<td>Gemma 4 26B</td>
+<td>local llama.cpp, one 12 GB GPU</td>
+<td>gemma-4-26B-A4B-heretic-APEX-I-Compact.gguf</td>
+<td>0</td>
+<td>0</td>
+<td>2,048</td>
+<td>bare 300; tools 300 (headline uses the first 150)</td>
 </tr>
 </tbody>
 </table>
-<p>Five models, two arms and 300 questions is 3,000 conversations. A light run (bare: about 300 input and 600 output tokens per question; mcp: about 6,000 in and 1,000 out, since tool results are re-sent each turn) costs about $56. A heavy run (bare 400/1,500 with reasoning tokens; mcp 15,000/2,000) costs about $128. The mcp arm is 70 to 80 percent of the cost; batch pricing, where offered, roughly halves it. The harness records actual cost per answer, and we will publish the real figure. Grading runs through the Syfert MCP and is subject to its rate limits, not per-token billing.</p>
+<p>The reasoning models (Qwen, DeepSeek and the flash models) needed reasoning effort low or a 1,024-token reasoning cap, with max_tokens 16,000; otherwise they spent the budget on reasoning and returned empty answers. DeepSeek V4 Pro's first pass at 4,096 tokens left 46 answers empty. Sonnet 5, Gemini 3.1 Pro and DeepSeek V4 Pro started at 4,096 tokens (recorded in runs.config_json); their empty or errored answers were retried under the settings shown, so those runs mix the two caps. Kimi K3 was planned and dropped for budget.</p>
+<p><strong>Which comparisons are fair.</strong> The headline table compares rows only on the same questions: q0001 to q0150 for every full-length row. Rows that ran on the first 60 or 40 are marked, and the Sonnet 5 comparison re-scores the frontier rows on the same 55 questions Sonnet answered. Deltas between arms use the questions graded in both.</p>
+<p><strong>Claude Code harness arm (planned).</strong> A separately labelled row will run Claude Fable 5.1 with the Syfert tools through Claude Code in headless mode (<code>claude -p</code>) on a subscription, not the API: a clean working directory, no user or project settings, hooks or memory files, every built-in tool removed, only the Syfert MCP server, the same system prompt as the tools arm and up to 10 turns. It measures the product a lawyer would actually run, not the raw API loop, so it is not comparable one to one with the other tool rows. The run had started but had no graded answers when this document was written; it is not in the published results.</p>
+<p><strong>Cost.</strong> All runs in this study, including the excluded Gemini 3.8 Flash tools run, retries and answers past question 150, cost $42.69 in API fees as recorded per answer by the harness: $17.89 on the Anthropic API (Fable 5.1 $13.61, Opus 5.5 $4.28) and $24.80 through OpenRouter. The OpenRouter account itself showed $29.72 spent. The gap is most likely billed calls whose empty or failed answers were overwritten by retries, which the harness does not keep. The local Gemma runs cost nothing beyond electricity. The single most expensive row was Fable 5.1 without tools; the tools arm costs more per question (56,000 to 75,000 input tokens per question for the hosted tool rows, because tool results are re-sent each turn), which is one reason most tool rows stop at 60 questions.</p>
+<h2 id="s8">8. Grader versions</h2>
+<p>Every published number comes from grader g5 (<code>g5-audit-20260922</code>); all 1,846 stored grades carry that stamp, and <code>report.py</code> flags any mix of versions. The hand audit in section 3 drove the last two versions.</p>
+<ul>
+<li><strong>g3</strong> (<code>g3-nameyear-20260922</code>), the first grader used on the paid runs. It added the name-and-year reconciliation in <code>reconcile.py</code>, so a real case missing from the reporter index is counted as unindexed, not fabricated. The audit sample was drawn from g3 grades.</li>
+<li><strong>g4</strong> (<code>g4-quotefix-20260922</code>), from faults found while building the audit page. A name guard stops initials and short corpus names ("P.T. v. M.S." against "Pt v. Ms") from counting as mismatches. Quotes are searched in every resolved case the answer cites, whatever the name verdict; before, a false name mismatch also made that case's quotes count as absent. The same sentence extracted twice is counted once. Text that is not a case quotation ("quoting Fed. R. Civ. P. 56(c)", a Westlaw topic name, "(internal quotation marks omitted)") is skipped.</li>
+<li><strong>g5</strong> (<code>g5-audit-20260922</code>), from the audit verdicts. Single-quoted text inside a double-quoted passage is part of the outer quote. Star pages ("*277") and footnote numbers are stripped before matching. A quote that omits the opinion's internal citations still matches. A span counts only if it is presented as a case quotation, with a citation or attribution verb next to it, so the model's own notes to the user are not graded as quotes. Each quote records which case it was found in and which cases were searched. Absent quotes are sub-labelled paraphrase in quotation marks or fabricated wording, and found quotes verbatim or near; the counts do not change. g5 also counts check_brief's own name-and-year resolutions as unindexed.</li>
+</ul>
+<p>Known g5 fault: it does not treat "mod" as subsequent history (section 4). Fixing it needs a new version and a full regrade.</p>
 <p class="back"><a href="./">&larr; citebench results</a></p>
 </main>
 </body>
