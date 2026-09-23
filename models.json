@@ -200,14 +200,6 @@
       "out_per_m": 0,
       "max_turns": 10,
       "note": "subscription (Claude Code headless, OAuth); nominal cost recorded in config_json from total_cost_usd"
-    },
-    "claude-opus-5-cc": {
-      "provider": "claudecode",
-      "model": "claude-opus-5",
-      "in_per_m": 0,
-      "out_per_m": 0,
-      "max_turns": 10,
-      "note": "subscription (Claude Code headless, OAuth); nominal cost recorded in config_json from total_cost_usd"
     }
   }
 }

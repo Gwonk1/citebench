@@ -13,13 +13,30 @@ Mapping of check_brief output (observed 2026-09-22, server syfert-legal-research
     * resolved cites collapse by cluster_id (a case cited twice, or with a parallel cite, counts once);
     * an UNRESOLVED cite that sits right after a resolved one with only commas/pincites between
       (i.e. a parallel reporter cite such as "..., 94 S. Ct. 1, 5") is not counted as fabricated;
-    * an UNRESOLVED subsequent-history cite ("review denied, 476 So. 2d 674 (Fla. 1985)", "aff'd, ...") is
-      not counted either (table dispositions are often missing from the reporter index).
+    * g6 PARALLEL CHAINS: reporter cites joined only by commas/semicolons/pincites, up to the year parenthetical
+      or the next case name, are ONE authority ("65 N.Y.2d 189, 198, 491 N.Y.S.2d 90, 480 N.E.2d 679 (1985)",
+      Michigan "450 Mich 61, 75-76; 537 NW2d 909"). Unresolved members of a chain that has a resolved member are
+      parallels; a chain with no resolved member is reconciled once through its first member. A cite whose
+      text also occurs inside a chain (check_brief sometimes swallows it as a pincite and reports only a later
+      mention) is a parallel of that chain (_citebench.parallel_chain_lead);
+    * g6 OFFICIAL STATE REPORTERS: an unresolved official cite ("71 Fla. 177") in the same sentence as a resolved
+      regional cite ("71 So. 42") is its parallel; an unpaired one goes through reconciliation and, failing
+      that, if its year (parenthetical or volume band) is before 1950, counts as unindexed (route
+      old_official_unindexed): the index lacks most old official pagination;
+    * g6 SUBSEQUENT HISTORY, resolved or not ("aff'd", "rev'd", "mod", "modified", "cert. denied", "review
+      denied", "approved", "quashed", ...), is not an authority: dropped from every count
+      (_citebench.subsequent_history_raw);
+    * g6 RETRACTED cites: a cite in a self-correction sentence ("I initially checked a wrong page number
+      (81 N.Y.2d 612) ...; the correct starting page is 66", "transcription error", "not X but Y", "mis-cited")
+      BEFORE the correction marker is dropped (_citebench.retracted_raw); quoted text never triggers this.
   n_cites         = distinct authorities after dedup
   n_fabricated    = unresolved authorities (cluster_id null): the volume/reporter/page does not exist.
                     Includes near misses (right case, wrong page, e.g. "Anderson v. Liberty Lobby, 477 U.S.
                     248" for 242): those have did_you_mean and are listed in _citebench.fabricated_near_miss.
                     Caveat: very recent cases may be corpus coverage gaps.
+                    g6: a miscited real case that >= 2 other courts' opinions ALSO cite with the same wrong
+                    volume/page stays fabricated (standing policy) but is tagged court_propagated_miscite
+                    (_citebench.court_propagated_miscite; report.py column court_propagated).
   n_unindexed     = cites check_brief itself resolved by name + year + court (resolution 'name_year',
                     server-side since 2026-09-22 19:00 UTC) PLUS unresolved authorities that reconcile.py shows are REAL cases the reporter index has
                     not paginated (post-2020 So. 3d, F. App'x, ...): tagged unindexed_real, kept OUT of
@@ -108,7 +125,7 @@ ABSTAIN_RE = re.compile(
     r"no (?:verified|reliable) (?:citation|authority)", re.I)
 # Bump whenever grading logic (here, reconcile.py or the check_brief contract we rely on) changes, so the
 # report can show that every run was graded under the same grader.
-GRADER_VERSION = "g5-audit-20260922"
+GRADER_VERSION = "g6-parallel-20260922"
 
 WARN_RE = re.compile(
     r"\b(?:overruled|overruling|abrogated|abrogation|receded from|recede from|disapproved|superseded|"
@@ -443,6 +460,54 @@ def warned(answer):
     return 0
 
 
+# --- g6 citation-structure rules ----------------------------------------------------------------------------
+REGIONAL_REPORTERS = re.compile(r"^(?:So\.|N\.\s?E\.|N\.\s?W\.|S\.\s?E\.|S\.\s?W\.|A\.|P\.|NE|NW|SE|SW)\s?(?:\d|$)")
+OFFICIAL_STATE_RE = re.compile(r"^(?:Ala|Alaska|Ariz|Ark|Cal|Colo|Conn|Del|Fla|Ga|Haw|Idaho|Ill|Ind|Iowa|Kan|Ky|La|"
+                               r"Me|Md|Mass|Mich|Minn|Miss|Mo|Mont|Neb|Nev|N\.\s?H|N\.\s?J|N\.\s?M|N\.\s?Y|NY|"
+                               r"N\.\s?C|N\.\s?D|Ohio|Okla|Or|Pa|R\.\s?I|S\.\s?C|S\.\s?D|Tenn|Tex|Utah|Vt|Va|Wash|"
+                               r"W\.\s?Va|Wis|Wyo)\b")
+# Triggers are about the CITE itself (never generic legal prose such as "should be construed"), and quoted
+# text is blanked before searching so an opinion quotation cannot trigger them.
+RETRACT_RE = re.compile(r"\b(?:wrong (?:page|cite|citation|volume|number|reporter|pin(?:point)?)|transcription error|"
+                        r"typo|I (?:initially|originally|first|earlier|mistakenly) (?:checked|cited|gave|wrote|listed|"
+                        r"used|typed|said)|mis-?cited|mistyped|miscopied|"
+                        r"(?:cite|citation|page|number|volume|reporter|pin(?:point)?)\s+(?:I gave\s+|above\s+)?"
+                        r"(?:was|is)\s+(?:incorrect|wrong|mistaken|erroneous)|"
+                        r"not\s+\d{1,4}\s+[A-Z][A-Za-z.\s]{0,12}\d{1,5}\s*,?\s*but\b)", re.I)
+KEEP_MARK_RE = re.compile(r"\b(?:correct(?:ed)?|should (?:be|read|have been)|rather|but|actually|instead|right)\b",
+                          re.I)
+SENT_BOUND_RE = re.compile(r"(?:[a-z]{2,}|\)|\d)[.!?]\s+(?=[A-Z*\u201c\"])|\n")
+
+
+def _sentence(answer, pos):
+    """(start, end) of the sentence containing char position pos."""
+    st = 0
+    for m in SENT_BOUND_RE.finditer(answer, 0, pos):
+        st = m.end()
+    m = SENT_BOUND_RE.search(answer, pos)
+    return st, (m.start() + 1 if m else len(answer))
+
+
+def retracted(cite, answer):
+    """True when the cite sits in a self-correction sentence ("I initially checked a wrong page number
+    (81 N.Y.2d 612) ...; the correct ... is 81 N.Y.2d 66") BEFORE the correction marker: the model withdrew it."""
+    for off in char_offsets(answer, cite):
+        a, b = _sentence(answer, off)
+        sent = re.sub(r'"[^"\n]*"|\u201c[^\u201c\u201d]*\u201d', lambda m: " " * len(m.group(0)), answer[a:b])
+        trig = RETRACT_RE.search(sent)
+        if not trig:
+            continue
+        keep = KEEP_MARK_RE.search(sent, trig.start() if not trig.group(0).lower().startswith("not") else trig.end())
+        rel = off - a
+        if keep is None or rel < keep.start():
+            return True
+    return False
+
+
+def is_official_state(c):
+    return bool(OFFICIAL_STATE_RE.match(c.get("reporter") or "")) and not REGIONAL_REPORTERS.match(c.get("reporter") or "")
+
+
 def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
     cites = body.get("cites") or []
     all_resolved = [c for c in cites if c.get("cluster_id")]
@@ -453,24 +518,81 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
     resolved = [c for c in all_resolved if c.get("resolution") != "name_year"]
     unresolved = [c for c in cites if not c.get("cluster_id")]
 
-    # parallel-cite suppression for unresolved cites
-    spans = []
-    for c in all_resolved:
-        for off in char_offsets(answer, c):
-            spans.append(off + len(c.get("raw") or ""))
-    parallel, fabricated, history = [], [], []
-    for c in unresolved:
-        is_par = False
-        for off in char_offsets(answer, c):
-            for end in spans:
-                if 0 <= off - end <= 60 and PARALLEL_GAP_RE.match(answer[end:off] or ""):
-                    is_par = True
-        if is_par:
-            parallel.append(c)
-        elif is_subsequent_history(c, answer):
-            history.append(c)
+    # g6: subsequent history (aff'd / rev'd / mod / cert. denied / review denied ...) and retracted cites are
+    # not authorities the answer relies on: drop them from every count, resolved or not.
+    history = [c for c in cites if is_subsequent_history(c, answer)]
+    retracted_c = [c for c in cites if c not in history and retracted(c, answer)]
+    drop = {id(c) for c in history + retracted_c}
+    all_resolved = [c for c in all_resolved if id(c) not in drop]
+    name_year = [c for c in name_year if id(c) not in drop]
+    resolved = [c for c in resolved if id(c) not in drop]
+    unresolved = [c for c in unresolved if id(c) not in drop]
+
+    # g6 parallel chains: cites joined only by commas/semicolons/pincites (up to the year parenthetical or the
+    # next case name) are ONE authority, e.g. "65 N.Y.2d 189, 198, 491 N.Y.S.2d 90, 480 N.E.2d 679 (1985)".
+    # Unresolved members of a chain with a resolved member are parallels; a chain with no resolved member is
+    # reconciled once, through its first member.
+    pos = []
+    for c in all_resolved + unresolved:
+        offs = char_offsets(answer, c)
+        if offs:
+            pos.append((offs[0], offs[0] + len(c.get("raw") or ""), c))
+    pos.sort(key=lambda t: t[0])
+    chains, cur = [], []
+    for st, en, c in pos:
+        # st < previous end: check_brief swallowed the next volume as a pincite ("491 N.Y.S.2d 90, 480")
+        if cur and (st < cur[-1][1] or (st - cur[-1][1] <= 60 and PARALLEL_GAP_RE.match(answer[cur[-1][1]:st] or ""))):
+            cur.append((st, en, c))
         else:
-            fabricated.append(c)
+            if cur:
+                chains.append(cur)
+            cur = [(st, en, c)]
+    if cur:
+        chains.append(cur)
+    parallel, fabricated, lead_of = [], [], {}
+    unres_ids = {id(c) for c in unresolved}
+    for ch in chains:
+        members = [c for _, _, c in ch]
+        has_res = any(id(c) not in unres_ids for c in members)
+        un = [c for c in members if id(c) in unres_ids]
+        if has_res:
+            parallel.extend(un)
+        elif un:
+            fabricated.append(un[0])
+            parallel.extend(un[1:])
+            for c in un[1:]:
+                lead_of[c.get("raw")] = un[0].get("raw")
+    # a cite that ALSO occurs inside a chain (check_brief swallowed that occurrence as a pincite and only
+    # reported the later mention, e.g. "treat 480 N.E.2d 679 as unverified") is that chain's parallel
+    spans_ch = [(ch[0][0], ch[-1][1] + 40, ch[0][2]) for ch in chains if len(ch) > 1 or True]
+    keep = []
+    for c in fabricated:
+        pat = re.escape(f"{c.get('volume')} ") + r"\s*" + re.escape(str(c.get("reporter") or "")).replace(r"\ ", r"\s*") \
+            + r"\s+" + re.escape(str(c.get("page")))
+        inside = [ (a0, lead) for m in re.finditer(pat, answer) for a0, b0, lead in spans_ch
+                   if a0 < m.start() <= b0 and lead is not c ]
+        if inside:
+            parallel.append(c)
+            lead_of[c.get("raw")] = inside[0][1].get("raw")
+            continue
+        keep.append(c)
+    fabricated = keep
+    # an official state-reporter cite in the same sentence as a resolved REGIONAL cite = its parallel
+    # ("71 So. 42 ... 71 Fla. 177"); the index lacks most old official pagination.
+    res_regional = []
+    for c in all_resolved:
+        if REGIONAL_REPORTERS.match(c.get("reporter") or ""):
+            res_regional.extend(char_offsets(answer, c))
+    keep = []
+    for c in fabricated:
+        offs = char_offsets(answer, c)
+        if is_official_state(c) and offs:
+            a, b = _sentence(answer, offs[0])
+            if any(a <= o < b for o in res_regional):
+                parallel.append(c)
+                continue
+        keep.append(c)
+    fabricated = keep
     key = lambda c: (c.get("volume"), norm_reporter(c.get("reporter")), c.get("page"))
     by_cluster = {}
     for c in resolved:
@@ -486,16 +608,27 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
                                       "note": c.get("note")}}))
     for c in fabricated:
         ev = reconcile_fn(c) if reconcile_fn else None
+        if ev and ev["status"] != "unindexed_real" and not ev.get("miscited_real_case") and is_official_state(c):
+            yr = (ev.get("paren") or [None, None])[1]
+            band = ev.get("year_band") or {}
+            if (yr and yr < 1950) or (band.get("hi") and band["hi"] < 1950):
+                ev = dict(ev, status="unindexed_real", route="old_official_unindexed",
+                          old_official=True, hit={"route": "old_official_unindexed", "cluster_id": None})
         if ev:
             reconciliation.append(ev)
         (unindexed if ev and ev["status"] == "unindexed_real" else still_fab).append((c, ev))
     fab_keys = {key(c) for c, _ in still_fab}
     unindexed_auth = {}          # authority id -> evidence; same case twice counts once
+    seen_keys = {}
     for c, ev in unindexed:
         hid = (ev.get("hit") or {}).get("cluster_id")
         if hid and hid in by_cluster:
             continue             # already cited (and counted) through an indexed parallel cite
-        unindexed_auth.setdefault(hid or key(c), ev)
+        k = key(c)
+        if k in seen_keys:       # same volume/page written two ways ("65 N.Y.2d 189" / "65 NY2d 189")
+            continue
+        seen_keys[k] = True
+        unindexed_auth.setdefault(hid or k, ev)
     unindexed_cids = [k for k in unindexed_auth if isinstance(k, int)]
     verified, mismatched, n_partial, name_guard_overrides = [], [], 0, []
     for cid, group in by_cluster.items():
@@ -587,8 +720,12 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
             "unindexed_real_raw": [c.get("raw") for c, _ in unindexed],
             "unresolved_before_reconciliation": [c.get("raw") for c in fabricated],
             "reconciliation": reconciliation,
-            "parallel_unresolved_raw": [c.get("raw") for c in parallel],
-            "subsequent_history_unresolved_raw": [c.get("raw") for c in history],
+            "parallel_unresolved_raw": [c.get("raw") for c in parallel], "parallel_chain_lead": lead_of,
+            "subsequent_history_raw": [c.get("raw") for c in history],
+            "retracted_raw": [c.get("raw") for c in retracted_c],
+            "court_propagated_miscite": [ev.get("raw") for c, ev in still_fab
+                                         if ev and ev.get("miscited_real_case")
+                                         and (ev.get("cite_corroborated_by_courts") or 0) >= 2],
             "n_partial": n_partial,
             "fabricated_near_miss": [c.get("raw") for c, _ in still_fab if c.get("did_you_mean")], "check_brief_quote_verdicts": quote_verdicts,
             "quotes_extracted": quotes, "quote_spans_skipped": skipped_spans,

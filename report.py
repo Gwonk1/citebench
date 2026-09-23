@@ -22,6 +22,14 @@ def _para(r):
         return 0
 
 
+def _cb(r, k):
+    try:
+        v = (json.loads(r.get("check_brief_json") or "{}").get("_citebench") or {}).get(k)
+    except (ValueError, TypeError):
+        v = None
+    return len(v) if isinstance(v, list) else 0
+
+
 def metrics(rows, gold=None):
     n = len(rows)
     if not n:
@@ -39,6 +47,8 @@ def metrics(rows, gold=None):
         "gold_recall": s("gold_hit") / n,
         "abstain_rate": s("abstained") / n,
         "warned_rate": (sum(r.get("warned_treatment") or 0 for r in bad) / len(bad)) if bad else None,
+        "court_propagated": sum(_cb(r, "court_propagated_miscite") for r in rows),
+        "retracted": sum(_cb(r, "retracted_raw") for r in rows),
         "paraphrase_share": (sum(_para(r) for r in rows) / s("n_quote_absent")) if s("n_quote_absent") else None,
         "n_bad": len(bad),
     }
@@ -90,7 +100,7 @@ def main():
 
     lines = [f"# citebench report", "", f"generated {dt.datetime.now().isoformat(timespec='seconds')} from `{a.db}`"
              + (f" — HEADLINE SLICE: questions <= {a.max_qid} only (same questions for every run)" if a.max_qid else ""), ""]
-    hdr = ("| model | arm | run | answered | errors | graded | cites | fabricated_rate | fabricated_strict_rate | misgrounded_rate | "
+    hdr = ("| model | arm | run | answered | errors | graded | cites | fabricated_rate | fabricated_strict_rate | court_propagated | retracted | misgrounded_rate | "
            "paraphrase_share | red_rate | gold_recall | abstain_rate | warned_rate (bad-law n) | avg tool calls | avg latency s | cost $ |")
     lines += ["## Metrics per (model, arm)", "", hdr, "|" + "---|" * (hdr.count("|") - 1)]
     for rid, p in sorted(per.items(), key=lambda kv: (kv[1]["model"], kv[1]["tag"], kv[1]["arm"])):
@@ -98,9 +108,10 @@ def main():
         if m is None:
             m = {"n": 0, "cites": 0, "fabricated_rate": None, "fabricated_strict_rate": None, "misgrounded_rate": None,
                  "red_rate": None, "gold_recall": None, "abstain_rate": None, "warned_rate": None, "n_bad": 0,
-                 "paraphrase_share": None}
+                 "paraphrase_share": None, "court_propagated": 0, "retracted": 0}
         lines.append(f"| {p['model']} | {p['arm']} | {rid} | {p['answers']} | {p['errors']} | {m['n']} | "
-                     f"{m['cites']} | {pct(m['fabricated_rate'])} | {pct(m['fabricated_strict_rate'])} | {pct(m['misgrounded_rate'])} | "
+                     f"{m['cites']} | {pct(m['fabricated_rate'])} | {pct(m['fabricated_strict_rate'])} | {m.get('court_propagated', 0)} | "
+                     f"{m.get('retracted', 0)} | {pct(m['misgrounded_rate'])} | "
                      f"{pct(m['paraphrase_share'])} | "
                      f"{pct(m['red_rate'])} | {pct(m['gold_recall'])} | {pct(m['abstain_rate'])} | "
                      f"{pct(m['warned_rate'])} ({m['n_bad']}) | "
@@ -138,7 +149,9 @@ def main():
     lines += ["", "Definitions: fabricated_rate = n_fabricated/n_cites (headline: unresolved cites that reconcile.py "
               "could NOT match to a real, not-yet-indexed case); fabricated_strict_rate = (n_fabricated + n_unindexed)/n_cites "
               "(every cite the reporter index cannot resolve, for transparency); misgrounded_rate = (n_name_mismatch + "
-              "n_quote_absent)/n_cites; paraphrase_share = share of absent quotes that are accurate paraphrases "
+              "n_quote_absent)/n_cites; court_propagated = fabricated cites that are real cases "
+              "miscited with a wrong volume/page that >= 2 other courts' opinions repeat (g6); retracted = cites the "
+              "model withdrew in the same answer, excluded from n_cites (g6); paraphrase_share = share of absent quotes that are accurate paraphrases "
               "put in quotation marks (>= 60% of the words in order; the rest are fabricated wording), graded "
               "g5+ only; red_rate = n_red/n_verified; gold_recall = mean(gold_hit); "
               "abstain_rate = mean(abstained); warned_rate = mean(warned_treatment) over questions whose gold_flag "

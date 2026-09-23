@@ -314,7 +314,7 @@ def claimed_name(cite, answer, use_claimed=True):
 SUBSEQ_RE = re.compile(r"(?:\b(?:rev(?:iew)?|cert(?:iorari)?|reh(?:ea)?r?(?:in)?g|appeal|jurisdiction)\.?"
                        r"(?:\s+(?:was|were|has|had|been|later|subsequently|then|also)){0,3}\s+"
                        r"(?:denied|granted|dismissed|declined|accepted)|\baff(?:irme)?'?d|\bapproved|\bquashed|"
-                       r"\bdisapproved|\brev'?d|\breversed|\bvacated|\bmodified)(?:\s+(?:in part|on other grounds))?"
+                       r"\bdisapproved|\brev'?d|\breversed|\bvacated|\bmodified|\bmod\.?)(?:\s+(?:in part|on other grounds))?"
                        r"\s*(?:by)?\s*,?\s*$", re.I)
 
 
