@@ -1,0 +1,15 @@
+keys.env
+keys.env.*
+!keys.env.example
+.ccrun/
+tools/
+results/*.db
+results/*.db-wal
+results/*.db-shm
+__pycache__/
+*.pyc
+*.bak.*
+*.orig.*
+logs/*.log
+audit/verdicts_*.jsonl
+publish/site/charts
