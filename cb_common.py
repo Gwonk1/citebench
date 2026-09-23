@@ -78,6 +78,7 @@ CREATE TABLE IF NOT EXISTS grades(
   run_id TEXT, qid TEXT, n_cites INTEGER, n_verified INTEGER, n_fabricated INTEGER, n_unindexed INTEGER,
   n_name_mismatch INTEGER, n_quote_absent INTEGER, n_red INTEGER, n_yellow INTEGER,
   gold_hit INT, abstained INT, warned_treatment INT, grader_version TEXT, check_brief_json TEXT,
+  n_quote_unattributed INTEGER, gold_equivalent INT,
   PRIMARY KEY(run_id, qid));
 """
 
@@ -88,7 +89,8 @@ def open_db(path=DB_PATH):
     con.execute("PRAGMA journal_mode=WAL")
     con.executescript(SCHEMA_SQL)
     cols = {r[1] for r in con.execute("PRAGMA table_info(grades)")}
-    for col, typ in (("warned_treatment", "INT"), ("n_unindexed", "INTEGER"), ("grader_version", "TEXT")):
+    for col, typ in (("warned_treatment", "INT"), ("n_unindexed", "INTEGER"), ("grader_version", "TEXT"),
+                     ("n_quote_unattributed", "INTEGER"), ("gold_equivalent", "INT")):   # g7 (2026-09-23)
         if col not in cols:  # DBs created before SCHEMA.md added the column
             con.execute(f"ALTER TABLE grades ADD COLUMN {col} {typ}")
             con.commit()

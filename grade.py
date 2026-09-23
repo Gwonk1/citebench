@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# usage: python3 grade.py [--run-id RUN_ID] [--regrade] [--questions FILE] [--concurrency N]
+# usage: python3 grade.py [--run-id RUN_ID] [--regrade [--reuse-check-brief]] [--text-cache FILE] [--questions FILE] [--concurrency N]
 """Grade every ungraded answer by sending the raw answer text to the Syfert MCP check_brief tool.
 
 Mapping of check_brief output (observed 2026-09-22, server syfert-legal-research 1.1.0) to grades:
@@ -9,6 +9,8 @@ Mapping of check_brief output (observed 2026-09-22, server syfert-legal-research
              case{case_name,...}|absent, treatment{flag_color,...}, claimed{lhs,rhs},
              party_check{verdict: match|partial|mismatch, resolved_name}|null,
              quote_checks[{brief_quote,best_match,percent,verdict}], did_you_mean[] (unresolved only)
+  --regrade --reuse-check-brief (g7 re-grade): each row is re-summarized from its STORED check_brief body and stored
+  reconciliation evidence; no check_brief call and no reconcile.py corpus lookup, so only the grader changes.
   Authorities are de-duplicated before counting:
     * resolved cites collapse by cluster_id (a case cited twice, or with a parallel cite, counts once);
     * an UNRESOLVED cite that sits right after a resolved one with only commas/pincites between
@@ -89,9 +91,35 @@ Mapping of check_brief output (observed 2026-09-22, server syfert-legal-research
                     segment verbatim) or 'near' (80-99% run); absent -> quote_absent_kind 'paraphrase_in_quotes'
                     (>= 60% of the quote's words appear in order in some window of a cited opinion, difflib
                     matching blocks) or 'fabricated' (< 60%). n_quote_paraphrase feeds report.py paraphrase_share.
+                    g7 (match_quote_g7 / rule_text_g7 / non_quote_reason_g7 / attached_cite_g7; the same five rules as
+                    the Brief Check lib's BC5_20260923 pass, tools/bc5/APPLY.md), run ONLY on a quote the g5 matcher
+                    calls absent: (a) typography folded and line-wrap hyphens joined on both sides ("dis-\ncretion");
+                    (b) bracketed alterations optional (as written / free-standing [groups] dropped / all dropped);
+                    (c) every citation inside the quote (reporter cites with names, dot-less NY/Mich. cites,
+                    parentheticals holding a cite, Id., a dangling "see") is a split point, like an ellipsis; the parts
+                    (>= 4 words) must appear IN ORDER in one cited opinion, a part after a citation within 250 chars of
+                    the one before, a part under 20 words verbatim -> found (verbatim|near, with g7_rules);
+                    (d) rule text: the lib's fixed list of the most-quoted rule sentences (Fed. R. Civ. P. 56(a)/(c),
+                    12(b)(6), 12(d), 8(a)(2), 15(a)(2); Fed. R. Evid. 401/403 current and old = MRE 403; Fla. Stat.
+                    90.403; Fla. R. Civ. P. 1.510) plus get_statute text of any Fed. R. / MRE / MCR / Fla. R. /
+                    Fla. Stat. cite the answer names within 600 chars of the quote -> verdict/kind 'rule_text';
+                    (e) at extraction, a span that is subsequent history / a treatment phrase ("overruled on other
+                    grounds by ...") or sits inside a docket / WL cite's parenthetical -> verdict 'skipped', kind
+                    'skipped_non_quote' (this can also move a g6 'found' span; no count uses it).
+                    A quote still absent whose attached citation (the next cite within 250 chars in its paragraph, else
+                    a cite ending <= 120 chars before it) has no cluster (fabricated / unindexed without a hit) or is a
+                    docket / WL cite, or an answer with no resolved cited opinion text at all -> verdict/kind
+                    'unattributed', counted in n_quote_unattributed, NOT in n_quote_absent.
+  n_quote_unattributed = g7: quotes not found in any cited opinion whose own citation has no cluster (see above).
   n_red / n_yellow= verified authorities whose treatment.flag_color is red / yellow
   gold_hit        = 1 if a verified authority has cluster_id == gold_cluster_id, or its
                     (volume, reporter, page) equals one parsed from gold_citation
+  gold_equivalent = g7: 1 if gold_hit, or if a verified (or unindexed-with-cluster) cited opinion's text contains a
+                    >= 12-word verbatim run of the question's proposition (the whole proposition when it has 6-11
+                    words; digit tokens dropped, g7 typography applied); evidence in _citebench.gold_equivalent_evidence.
+                    Text rule only: the "cites gold for that passage" arm is NOT used, because get_citing_cases cannot
+                    say which passage a citer cites gold for (and caps at 100 citers); a citer that quotes the
+                    proposition is already caught by the text rule.
   warned_treatment= 1 if the answer text says a case is bad/weakened law: WARN_RE matches (overruled,
                     abrogated, receded from, disapproved, superseded, questioned, called into question,
                     criticized, limited, no longer good law, negative treatment, red/yellow flag) and the
@@ -112,7 +140,9 @@ import argparse
 import concurrent.futures as cf
 import json
 import re
+import sqlite3
 import threading
+import zlib
 
 from reconcile import char_offsets, claimed_name, is_subsequent_history, reconcile
 from cb_common import MCPClient, MCPError, cite_keys, load_gold, load_keys, norm_reporter, open_db
@@ -125,7 +155,7 @@ ABSTAIN_RE = re.compile(
     r"no (?:verified|reliable) (?:citation|authority)", re.I)
 # Bump whenever grading logic (here, reconcile.py or the check_brief contract we rely on) changes, so the
 # report can show that every run was graded under the same grader.
-GRADER_VERSION = "g6-parallel-20260922"
+GRADER_VERSION = "g7-quotematch-20260923"
 
 WARN_RE = re.compile(
     r"\b(?:overruled|overruling|abrogated|abrogation|receded from|recede from|disapproved|superseded|"
@@ -206,9 +236,10 @@ def _match_words(t):
     return [w for w in norm_words(t) if not w.isdigit()]
 
 
-def _strip_cites(t):
+def _strip_cites(t, repl=" ", v_nodot=False):
     """Remove citations: each reporter cite / Id. / citing-parenthetical match, and, for a reporter cite, the
-    'Name v. Name,' in front of it (found by walking tokens backwards, no regex backtracking)."""
+    'Name v. Name,' in front of it (found by walking tokens backwards, no regex backtracking). g7: repl replaces each
+    citation (default one space, as before); v_nodot also accepts a dot-less 'v' (New York style) in the name."""
     t = t or ""
     out, last = [], 0
     for m in CITE_STRIP_RE.finditer(t):
@@ -219,7 +250,7 @@ def _strip_cites(t):
             k, seen_v = len(toks), False
             while k > 0:
                 w = toks[k - 1].group(0).rstrip(",")
-                if w in ("v.", "vs."):
+                if w in ("v.", "vs.") or (v_nodot and w in ("v", "vs")):
                     seen_v = True
                 elif not (w[:1].isupper() or w.lower() in _NAME_CONNECT):
                     break
@@ -227,7 +258,7 @@ def _strip_cites(t):
             if seen_v and k < len(toks):
                 start = max(last, start - 160) + toks[k].start()
         out.append(t[last:start])
-        out.append(" ")
+        out.append(repl)
         last = m.end()
     out.append(t[last:])
     return "".join(out)
@@ -320,8 +351,297 @@ def match_quote(quote, prepared, names):
     return res
 
 
+
+# --- g7 quote-matcher rules (2026-09-23). The same five rules as the Brief Check lib's BC5_20260923 pass
+# (tools/bc5/APPLY.md). (a)-(d) run ONLY for a quote match_quote() calls absent, so no g6 'found' changes there;
+# (e) runs at extraction and can also turn a g6 'found' span into skipped_non_quote (no count uses either).
+#  (a) typography on both sides: soft hyphens / zero-width marks dropped, Unicode hyphens, odd spaces and curly quotes
+#      folded, a word broken by a line-wrap hyphen joined ("dis-\ncretion", "dis- cretion");
+#  (b) bracketed alterations optional: the quote as written, with free-standing [groups] dropped, with every group
+#      dropped ("[t]he first principle gleaned from the [Steelworkers] Trilogy");
+#  (c) citations in the quote become split points (reporter cites with names, dot-less NY/Mich. cites, parentheticals
+#      holding a cite, Id., a dangling "see"), ellipses split as before; the parts (>= 4 words) must appear IN ORDER in
+#      one opinion, a part after a citation within 250 chars of the previous part, a part under 20 words verbatim
+#      (the 80% run allowance only for longer parts);
+#  (d) rule text: a quote still absent is tested against G7_RULE_TEXTS (the lib's fixed list) and against the text of
+#      any Fed. R. / MRE / MCR / Fla. R. / Fla. Stat. cite the answer names within 600 chars of the quote (MCP
+#      get_statute); a match is kind 'rule_text', not absent;
+#  (e) non-quote spans (subsequent history / treatment phrases, text inside a docket or WL cite's parenthetical) are
+#      kind 'skipped_non_quote', not absent.
+# A quote still absent whose attached citation (the next cite within 250 chars in its paragraph, else a cite ending
+# <= 120 chars before it) has no cluster, or is a docket / WL cite, is kind 'unattributed' (n_quote_unattributed), not
+# absent: it could not be checked against its source. With no resolved cited opinion at all every quote is unattributed.
+G7_RULE_TEXTS = [
+    ("Fed. R. Civ. P. 56(a) (2010-); Fla. R. Civ. P. 1.510(a) (2021-)",
+     "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material "
+     "fact and the movant is entitled to judgment as a matter of law."),
+    ("Fed. R. Civ. P. 56(c) (before 2007); Fla. R. Civ. P. 1.510(c) (before 2021)",
+     "The judgment sought shall be rendered forthwith if the pleadings, depositions, answers to interrogatories, and "
+     "admissions on file, together with the affidavits, if any, show that there is no genuine issue as to any material "
+     "fact and that the moving party is entitled to a judgment as a matter of law."),
+    ("Fed. R. Civ. P. 56(c)(2) (2007-2010)",
+     "The judgment sought should be rendered if the pleadings, the discovery and disclosure materials on file, and any "
+     "affidavits show that there is no genuine issue as to any material fact and that the movant is entitled to "
+     "judgment as a matter of law."),
+    ("Fed. R. Civ. P. 12(b)(6)", "failure to state a claim upon which relief can be granted"),
+    ("Fed. R. Civ. P. 12(d)",
+     "If, on a motion under Rule 12(b)(6) or 12(c), matters outside the pleadings are presented to and not excluded by "
+     "the court, the motion must be treated as one for summary judgment under Rule 56."),
+    ("Fed. R. Civ. P. 8(a)(2)", "a short and plain statement of the claim showing that the pleader is entitled to relief"),
+    ("Fed. R. Civ. P. 15(a)(2)", "The court should freely give leave when justice so requires."),
+    ("Fed. R. Evid. 403 (2011-); MRE 403 (2024-)",
+     "The court may exclude relevant evidence if its probative value is substantially outweighed by a danger of one or "
+     "more of the following: unfair prejudice, confusing the issues, misleading the jury, undue delay, wasting time, or "
+     "needlessly presenting cumulative evidence."),
+    ("Fed. R. Evid. 403 (before 2011); MRE 403 (before 2024)",
+     "Although relevant, evidence may be excluded if its probative value is substantially outweighed by the danger of "
+     "unfair prejudice, confusion of the issues, or misleading the jury, or by considerations of undue delay, waste of "
+     "time, or needless presentation of cumulative evidence."),
+    ("Fla. Stat. § 90.403",
+     "Relevant evidence is inadmissible if its probative value is substantially outweighed by the danger of unfair "
+     "prejudice, confusion of issues, misleading the jury, or needless presentation of cumulative evidence."),
+    ("Fed. R. Evid. 401 (2011-)",
+     "Evidence is relevant if: (a) it has any tendency to make a fact more or less probable than it would be without "
+     "the evidence; and (b) the fact is of consequence in determining the action."),
+    ("Fed. R. Evid. 401 (before 2011)",
+     "\"Relevant evidence\" means evidence having any tendency to make the existence of any fact that is of consequence "
+     "to the determination of the action more probable or less probable than it would be without the evidence."),
+]
+G7_NORM = [(re.compile("[­​-‍⁠﻿]"), ""), (re.compile("[‐‑]"), "-"),
+           (re.compile("[  -   　]"), " "), (re.compile("[‘’ʼ]"), "'"),
+           (re.compile("[“”]"), '"'),
+           (re.compile(r"(?<=[a-z])-[ \t]*\r?\n[ \t]*(?=[a-z])"), ""), (re.compile(r"(?<=[a-z])-[ \t]+(?=[a-z])"), "")]
+CITE_MARK = "‥"
+_G7_CORE = re.compile(r"\b\d{1,4}\s+[A-Z][\w.'’]{0,10}(?:\s[\w.'’]{1,10}){0,3}\s+\d{1,5}\b")
+_G7_PAREN = re.compile(r"\((?:[^()]|\([^()]*\))*\)")
+_G7_NAME_TOK = r"[A-Z][\w'’.&-]*"
+_G7_DOTLESS = re.compile(
+    r"(?:\b" + _G7_NAME_TOK + r"(?:\s+(?:" + _G7_NAME_TOK + r"|of|the|&)){0,5}\s+v\.?\s+" + _G7_NAME_TOK
+    + r"(?:\s+(?:" + _G7_NAME_TOK + r"|of|the|&)){0,6},?\s+)?"
+    r"\b\d{1,4}\s+(?:(?:NY|AD|Misc|NYS|NE|NW|SE|SW|So|A|P|F)\s?[2-4]d|NY|US|Mich(?:\s+App)?|Pa|Ill(?:\s+App)?|Ohio\s+St|Wis|Minn)"
+    r"\s+\d{1,5}\b(?:\s*,\s*\d{1,5}\b(?!\s+[A-Z]))*")
+_G7_DANGLING = re.compile("‥[\\s,;:.]*(?:see\\s+also|see|cf\\.|accord|but\\s+see|and)?[\\s,;:.]*(?=[‥…]|$)", re.I)
+_G7_SPLIT = re.compile("(\\.\\s*\\.\\s*\\.|…|\\[\\s*\\.\\.\\.\\s*\\]|‥)")
+_G7_HISTORY = re.compile(
+    r"^\W*(?:(?:overruled|abrogated|superseded|disapproved(?:\s+of)?|receded\s+from|called\s+into\s+(?:doubt|question)|"
+    r"questioned|vacated|modified)(?:\s+in\s+part)?(?:,?\s+on\s+other\s+grounds)?,?\s+(?:by|as\s+stated\s+in|"
+    r"as\s+recognized\s+in)\b|(?:overruled|abrogated|superseded|disapproved|reversed|vacated|modified|questioned)"
+    r"(?:\s+in\s+part)?,?\s+on\s+other\s+grounds\b|(?:aff|rev)['’]?d\b|on\s+other\s+grounds\b|"
+    r"(?:cert\.?|certiorari|reh['’]?g\.?|rehearing|review)\s+(?:denied|granted|dismissed)\b)", re.I)
+_G7_NOREPORTER = re.compile(r"(?:\bNo\.\s*[\w:.\-]{2,}|\b(?:19|20)\d{2}\s+WL\s+\d+|\bLEXIS\s+\d+|\bslip\s+op\.?)"
+                            r"[^()]{0,60}(?:\([^()]{0,80}\))?\s*$")
+_G7_NOREPORTER_ANY = re.compile(r"\bNo\.\s*[\w:.\-]*\d|\b(?:19|20)\d{2}\s+WL\s+\d+|\bLEXIS\s+\d+|\bslip\s+op\b")
+_G7_RULE_CITE = [
+    (re.compile(r"\bFed\.?\s*R\.?\s*Civ\.?\s*P\.?\s*(\d+)|\bFRCP\s*(\d+)", re.I), "fedrule", "Fed. R. Civ. P. {}"),
+    (re.compile(r"\bFed\.?\s*R\.?\s*Evid\.?\s*(\d+)|\bFRE\s*(\d+)"), "fedrule", "Fed. R. Evid. {}"),
+    (re.compile(r"\bFed\.?\s*R\.?\s*Crim\.?\s*P\.?\s*(\d+)", re.I), "fedrule", "Fed. R. Crim. P. {}"),
+    (re.compile(r"\bFed\.?\s*R\.?\s*App\.?\s*P\.?\s*(\d+)", re.I), "fedrule", "Fed. R. App. P. {}"),
+    (re.compile(r"\bMRE\s*(\d+)|\bMich\.?\s*R\.?\s*Evid\.?\s*(\d+)"), "mi", "MRE {}"),
+    (re.compile(r"\bMCR\s*(\d+\.\d+)"), "mi", "MCR {}"),
+    (re.compile(r"\bFla\.?\s*R\.?\s*(?:Civ|Crim|App|Jud|Gen)\.?\s*(?:P\.?|Admin\.?)?\s*(\d\.\d+)"), "fl_rule", "{}"),
+    (re.compile(r"§\s*(\d+\.\d+)[^.;]{0,12}Fla\.\s*Stat|Fla\.\s*Stat\.\s*§\s*(\d+\.\d+)"), "fl_statute", "{}"),
+]
+_G7_BARE_RULE = re.compile(r"\bRule\s+(\d+)\s*\(", re.I)
+
+
+def g7_norm(t):
+    for rx, rep in G7_NORM:
+        t = rx.sub(rep, t)
+    return t
+
+
+def prep_opinion_g7(raw):
+    """-> (plain, cite_stripped) haystacks of the g7-normalised text (same cleaning as prep_opinion)."""
+    t = STAR_PAGE_RE.sub(" ", g7_norm(raw or ""))
+    return " " + " ".join(_match_words(t)) + " ", " " + " ".join(_match_words(_strip_cites(t))) + " "
+
+
+def _bracket_variants(q):
+    if "[" not in q:
+        return []
+    out = []
+    for rx in (r"(?<![A-Za-z0-9])\[[^\[\]]{1,60}\](?![A-Za-z0-9])", r"\[[^\[\]]{0,60}\]"):
+        v = re.sub(rx, " ", q)
+        if v != q and v not in out:
+            out.append(v)
+    return out
+
+
+def _cite_split(q):
+    """(c): every citation in the quote -> a CITE_MARK split point."""
+    m = f" {CITE_MARK} "
+    q = _G7_PAREN.sub(lambda p: m if _G7_CORE.search(p.group(0)) else p.group(0), q)
+    q = _G7_DOTLESS.sub(m, q)
+    q = _strip_cites(q, repl=m, v_nodot=True)
+    return _G7_DANGLING.sub(CITE_MARK + " ", q)
+
+
+def _g7_variants(quote):
+    """-> [(prepared quote, rules)] for the as-written quote and its bracket variants."""
+    out = []
+    for v, rules in [(quote, [])] + [(b, ["brackets_optional"]) for b in _bracket_variants(quote)]:
+        q = g7_norm(EDITORIAL_RE.sub(" ", v))
+        s = _cite_split(q)
+        out.append((s, ["typography"] + rules + (["citations_split"] if CITE_MARK in s else [])))
+    return out
+
+
+def _g7_segments(q):
+    segs, near = [], False
+    for i, part in enumerate(_G7_SPLIT.split(q)):
+        if i % 2:
+            near = near or part == CITE_MARK
+            continue
+        w = _match_words(part)
+        if len(w) >= 4:
+            segs.append((w, near and bool(segs)))
+            near = False
+    return segs
+
+
+def _ordered_found(segs, hay):
+    """-> 'verbatim' | 'near' | None: every part in order, a part after a citation within 250 chars, a part under
+    20 words verbatim (longer: a contiguous run of >= 80% of its words)."""
+    if not segs:
+        return None
+    pos, kinds = 0, []
+    for w, near in segs:
+        n = len(w)
+        need = n if n < 20 else max(4, int(0.8 * n + 0.999))
+        hit = None
+        for size in range(n, need - 1, -1):
+            for i in range(0, n - size + 1):
+                run = " " + " ".join(w[i:i + size]) + " "
+                p = hay.find(run, pos)
+                if p >= 0 and near and p - pos > 250:
+                    p = -1
+                if p >= 0:
+                    hit = (size, p + len(run) - 1)
+                    break
+            if hit:
+                break
+        if not hit:
+            return None
+        kinds.append("verbatim" if hit[0] == n else "near")
+        pos = hit[1]
+    return "verbatim" if all(k == "verbatim" for k in kinds) else "near"
+
+
+def match_quote_g7(quote, prepared7):
+    """(a)(b)(c) extra pass. prepared7: {cluster_id: (plain, cite_stripped)} g7 haystacks. -> (kind, cid, rules)|None."""
+    best = None
+    for q, rules in _g7_variants(quote):
+        segs = _g7_segments(q)
+        for cid, hays in prepared7.items():
+            for lvl, hay in enumerate(hays):
+                k = _ordered_found(segs, hay)
+                if k and (best is None or (k == "verbatim" and best[0] == "near")):
+                    best = (k, cid, rules + (["opinion_citations_stripped"] if lvl else []))
+                if best and best[0] == "verbatim":
+                    return best
+    return best
+
+
+def rule_text_g7(quote, answer, fetch_rule=None):
+    """(d) -> {rule, via, passage?} or None. The fixed list first, then get_statute for rule/statute cites the answer
+    names within 600 chars of the quote (fetch_rule(jurisdiction, citation) -> text or '')."""
+    variants = [_g7_segments(q) for q, _ in _g7_variants(quote)]
+    for label, text in G7_RULE_TEXTS:
+        hay = " " + " ".join(_match_words(g7_norm(text))) + " "
+        if any(_ordered_found(s, hay) for s in variants):
+            return {"rule": label, "via": "fixed_list"}
+    if not fetch_rule:
+        return None
+    p = answer.find(quote)
+    near = answer[max(0, p - 600):p + len(quote) + 600] if p >= 0 else ""
+    wanted = []
+    for rx, jur, fmt in _G7_RULE_CITE:
+        for m in rx.finditer(near):
+            num = next(g for g in m.groups() if g)
+            wanted.append((jur, fmt.format(num)))
+    if not wanted:
+        for m in _G7_BARE_RULE.finditer(near):
+            wanted.append(("fedrule", f"Fed. R. Civ. P. {m.group(1)}"))
+    for jur, cite in list(dict.fromkeys(wanted))[:4]:
+        text = fetch_rule(jur, cite) or ""
+        if not text:
+            continue
+        hay = " " + " ".join(_match_words(g7_norm(text))) + " "
+        if any(_ordered_found(s, hay) for s in variants):
+            return {"rule": cite, "via": "get_statute", "jurisdiction": jur}
+    return None
+
+
+def non_quote_reason_g7(qt, text, start):
+    """(e) why the quoted span is not a quotation at all (None = it may be one)."""
+    if _G7_HISTORY.match(qt):
+        return "subsequent history / treatment phrase, not a quotation"
+    lo = max(0, start - 600)
+    para = text.rfind("\n\n", lo, start)
+    if para >= 0:
+        lo = para + 2
+    depth = 0
+    for j in range(start - 2, lo - 1, -1):
+        ch = text[j]
+        if ch == ")":
+            depth += 1
+        elif ch == "(":
+            if depth:
+                depth -= 1
+                continue
+            if _G7_NOREPORTER.search(text[max(0, j - 200):j]):
+                return "inside the parenthetical of a citation with no reporter (docket / WL / slip opinion)"
+            break
+    return None
+
+
+def attached_cite_g7(answer, quote, cite_spans):
+    """The citation a quote is attributed to: the first cite starting within 250 chars after it in its paragraph,
+    else a cite ending <= 120 chars before it (the "Cite (\"...\")" / "Cite: \"...\"" forms). -> (has_cluster, raw)
+    or ('no_reporter', text) for a docket / WL cite, or None."""
+    a = answer.find(quote)
+    if a < 0:
+        return None
+    b = a + len(quote)
+    para_end = answer.find("\n\n", b)
+    lim = min(b + 250, para_end if para_end >= 0 else len(answer))
+    after = sorted((s, e, has, raw) for s, e, has, raw in cite_spans if b <= s < lim)
+    gap_to = after[0][0] if after else lim
+    nr = _G7_NOREPORTER_ANY.search(answer, b, gap_to)
+    if nr:
+        return ("no_reporter", nr.group(0))
+    if after:
+        return (after[0][2], after[0][3])
+    para_start = answer.rfind("\n\n", 0, a)
+    before = [(e, has, raw) for s, e, has, raw in cite_spans if max(a - 120, para_start) <= e <= a]
+    if before:
+        e, has, raw = max(before)
+        return (has, raw)
+    return None
+
+
+def gold_equivalent_g7(q, cids, fetch_text):
+    """1 + evidence when a cited opinion's text contains a >= 12-word verbatim run of the question's proposition
+    (the whole proposition when it has 6-11 words)."""
+    w = _match_words(g7_norm((q or {}).get("proposition") or ""))
+    if len(w) < 6 or not fetch_text:
+        return 0, None
+    size = min(12, len(w))
+    grams = {" " + " ".join(w[i:i + size]) + " " for i in range(len(w) - size + 1)}
+    for cid in cids:
+        t = fetch_text(cid)
+        if not t:
+            continue
+        for hay in (prep_opinion(t)[0],) + prep_opinion_g7(t):
+            hit = next((g for g in grams if g in hay), None)
+            if hit:
+                return 1, {"cluster_id": cid, "run": hit.strip()}
+    return 0, None
+
+
 _GRAMS = {}
 _PREP = {}
+_PREP7 = {}
 
 
 def _skip_reason(qt, text, start, end, inner=False):
@@ -349,13 +669,14 @@ def _skip_reason(qt, text, start, end, inner=False):
            "to the user (notes, caveats, suggestions), not quoting a case"
 
 
-def extract_quotes(text, skipped=None):
+def extract_quotes(text, skipped=None, nonquote=None):
     """Case quotations in an answer (g5). Double-quoted passages (straight quotes paired strictly in order per
     paragraph, plus curly quotes) of >= 6 words; single-quoted spans inside them are part of the outer quote.
     Single-quoted spans outside any double quote count only if >= 6 words AND a citation follows. Drafted text
     that is skipped (rule/statute cite inside) still contributes its INNER single-quoted passages. Each span
     must look like a case quotation (_skip_reason); de-duplicated by normalised text. `skipped` collects
-    [span, reason] for audit."""
+    [span, reason] for audit. g7: `nonquote` (when given) collects [span, reason] for spans that pass those tests but
+    are subsequent history / a docket cite's parenthetical (non_quote_reason_g7); they are not returned as quotes."""
     text = text or ""
     spans, dbl = [], []   # (start, end, quote, kind)
     off = 0
@@ -403,6 +724,11 @@ def extract_quotes(text, skipped=None):
                 skipped.append([qt, "duplicate of an earlier quote"])
             return
         seen.add(k)
+        if nonquote is not None:
+            nq = non_quote_reason_g7(qt, text, a)
+            if nq:
+                nonquote.append([qt, nq])
+                return
         out.append(qt)
 
     for a, b, qt, kind in sorted(spans):
@@ -508,7 +834,7 @@ def is_official_state(c):
     return bool(OFFICIAL_STATE_RE.match(c.get("reporter") or "")) and not REGIONAL_REPORTERS.match(c.get("reporter") or "")
 
 
-def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
+def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=None):
     cites = body.get("cites") or []
     all_resolved = [c for c in cites if c.get("cluster_id")]
     # check_brief >= 2026-09-22 19:00 UTC resolves index-gap cites server-side by name + year + court
@@ -667,9 +993,10 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
                 v = qc.get("verdict")
                 quote_verdicts[v] = quote_verdicts.get(v, 0) + 1
 
-    skipped_spans = []
-    quotes = extract_quotes(answer, skipped_spans)
+    skipped_spans, nonquote_spans = [], []
+    quotes = extract_quotes(answer, skipped_spans, nonquote_spans)
     quote_results = []
+    prepared, prepared7, names = {}, {}, {}
     if quotes:
         names = {}
         for cid, grp in by_cluster.items():
@@ -678,21 +1005,57 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
             h = ev.get("hit") or {}
             if h.get("cluster_id"):
                 names.setdefault(h["cluster_id"], h.get("case_name"))
-        prepared = {}
         if len(_PREP) > 300:          # bound memory over a full regrade (thousands of opinions)
             _PREP.clear()
+            _PREP7.clear()
             _GRAMS.clear()
         if fetch_text:
             # every resolved case the answer cites: the name verdict and the quote verdict are independent
             for cid in verified + mismatched + unindexed_cids:
-                if cid not in _PREP:
+                # g7: local copies -- another worker thread may clear the shared caches between these lines
+                e6, e7 = _PREP.get(cid, False), _PREP7.get(cid, False)
+                if e6 is False or e7 is False:
                     t = fetch_text(cid)
-                    _PREP[cid] = prep_opinion(t) if t else None
-                if _PREP[cid]:
-                    prepared[cid] = _PREP[cid]
+                    e6, e7 = (prep_opinion(t), prep_opinion_g7(t)) if t else (None, None)
+                    _PREP[cid], _PREP7[cid] = e6, e7
+                if e6:
+                    prepared[cid] = e6
+                    prepared7[cid] = e7
         quote_results = [match_quote(qt, prepared, names) for qt in quotes]
+    # g7: the extra passes, only for quotes match_quote() calls absent (every g6 'found' is unchanged)
+    cite_spans = None
+    for r in quote_results:
+        if r["verdict"] != "absent":
+            continue
+        hit = match_quote_g7(r["quote"], prepared7) if prepared7 else None
+        if hit:
+            r.update(verdict="found", kind=hit[0], cluster_id=hit[1], case_name=names.get(hit[1]), g7_rules=hit[2])
+            r.pop("paraphrase_ratio", None)
+            continue
+        rt = rule_text_g7(r["quote"], answer, fetch_rule)
+        if rt:
+            r.update(verdict="rule_text", kind="rule_text", rule_text=rt)
+            continue
+        if not prepared:
+            r.update(verdict="unattributed", kind="unattributed",
+                     unattributed_reason="no resolved cited opinion text to search")
+            continue
+        if cite_spans is None:
+            par_ids = {id(c) for c in parallel}
+            unidx_cl = {id(c) for c, ev in unindexed if (ev.get("hit") or {}).get("cluster_id")}
+            cite_spans = [(o, o + len(c.get("raw") or ""),
+                           bool(c.get("cluster_id")) or id(c) in par_ids or id(c) in unidx_cl, c.get("raw"))
+                          for c in cites for o in char_offsets(answer, c)]
+        att = attached_cite_g7(answer, r["quote"], cite_spans)
+        if att and att[0] is not True:
+            r.update(verdict="unattributed", kind="unattributed",
+                     unattributed_reason=("attached citation has no reporter: " if att[0] == "no_reporter"
+                                          else "attached citation did not resolve to a case: ") + str(att[1]))
+    quote_results += [{"quote": qt, "verdict": "skipped", "kind": "skipped_non_quote", "skipped_reason": why,
+                       "searched": []} for qt, why in nonquote_spans]
     absent_quotes = [r["quote"] for r in quote_results if r["verdict"] == "absent"]
     n_quote_absent = len(absent_quotes)
+    n_quote_unattributed = sum(r["verdict"] == "unattributed" for r in quote_results)
     kinds = {}
     for r in quote_results:
         kinds[r["kind"]] = kinds.get(r["kind"], 0) + 1
@@ -711,6 +1074,15 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
         hid = (ev.get("hit") or {}).get("cluster_id")
         if (gold_cid and hid and str(hid) == str(gold_cid)) or key(c) in gold_keys:
             gold_hit = 1
+
+    # g7 gold_equivalent: gold_hit, or a verified / unindexed cited opinion holding a >= 12-word verbatim run of the
+    # question's proposition (text rule only; see grade.py docstring)
+    if gold_hit:
+        gold_equiv, gold_equiv_ev = 1, {"route": "gold_hit"}
+    else:
+        gold_equiv, gold_equiv_ev = gold_equivalent_g7(q, verified + unindexed_cids, fetch_text)
+        if gold_equiv_ev:
+            gold_equiv_ev["route"] = "proposition_run"
 
     n_cites = len(by_cluster) + len(fab_keys) + len(unindexed_auth)
     abstained = int(n_cites == 0 and bool(ABSTAIN_RE.search(answer or "")))
@@ -733,6 +1105,9 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
             "quote_results": quote_results,
             "quote_absent_kind": {k: v for k, v in kinds.items() if k in ("paraphrase_in_quotes", "fabricated")},
             "quote_found_kind": {k: v for k, v in kinds.items() if k in ("verbatim", "near")},
+            "quote_other_kind": {k: v for k, v in kinds.items() if k in ("rule_text", "skipped_non_quote", "unattributed")},
+            "n_quote_unattributed": n_quote_unattributed, "gold_equivalent": gold_equiv,
+            "gold_equivalent_evidence": gold_equiv_ev,
             "n_quote_paraphrase": kinds.get("paraphrase_in_quotes", 0),
             "truncated_bytes": stats.get("truncated_bytes", 0),
             "resolved_by_name_server": [c.get("raw") for c in name_year],
@@ -743,28 +1118,45 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None):
     return {"n_cites": n_cites, "n_verified": len(verified), "n_fabricated": len(fab_keys),
             "n_unindexed": len(unindexed_auth),
             "n_name_mismatch": len(mismatched), "n_quote_absent": n_quote_absent,
-            "n_red": n_red, "n_yellow": n_yellow, "gold_hit": gold_hit, "abstained": abstained, "warned_treatment": warned(answer)}, meta
+            "n_quote_unattributed": n_quote_unattributed,
+            "n_red": n_red, "n_yellow": n_yellow, "gold_hit": gold_hit, "gold_equivalent": gold_equiv,
+            "abstained": abstained, "warned_treatment": warned(answer)}, meta
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--run-id", default=None, help="grade only this run (default: all)")
     ap.add_argument("--regrade", action="store_true", help="re-grade answers that already have grades")
+    ap.add_argument("--reuse-check-brief", action="store_true",
+                    help="with --regrade: re-summarize each row from its STORED check_brief body and stored "
+                         "reconciliation evidence (no check_brief call, no reconcile.py corpus lookups), so a grader "
+                         "change is measured alone; opinion / rule texts are still fetched with get_case / get_statute")
+    ap.add_argument("--text-cache", default=None,
+                    help="sqlite file caching get_case / get_statute texts across runs (created if absent)")
     ap.add_argument("--questions", default=None, help="question file(s) holding gold fields, comma-separated")
     ap.add_argument("--concurrency", type=int, default=4)
     ap.add_argument("--db", default=None)
     a = ap.parse_args()
+    if a.reuse_check_brief and not a.regrade:
+        ap.error("--reuse-check-brief needs --regrade")
 
     con = open_db(a.db) if a.db else open_db()
     gold = load_gold(con, a.questions.split(",") if a.questions else None)
 
-    sql = ("SELECT a.run_id, a.qid, a.raw_answer FROM answers a "
-           + ("" if a.regrade else "LEFT JOIN grades g ON g.run_id=a.run_id AND g.qid=a.qid ")
-           + "WHERE a.error IS NULL AND a.raw_answer IS NOT NULL "
-           + ("" if a.regrade else "AND g.qid IS NULL ")
-           + ("AND a.run_id=? " if a.run_id else "") + "ORDER BY a.run_id, a.qid")
+    if a.reuse_check_brief:
+        import reconcile as _rc
+        _rc.CBC_DB = _rc.CASES_DB = "/nonexistent/reuse-check-brief"   # never open a corpus DB in this mode
+        sql = ("SELECT a.run_id, a.qid, a.raw_answer, g.check_brief_json FROM answers a JOIN grades g "
+               "ON g.run_id=a.run_id AND g.qid=a.qid WHERE a.error IS NULL AND a.raw_answer IS NOT NULL "
+               + ("AND a.run_id=? " if a.run_id else "") + "ORDER BY a.run_id, a.qid")
+    else:
+        sql = ("SELECT a.run_id, a.qid, a.raw_answer, NULL FROM answers a "
+               + ("" if a.regrade else "LEFT JOIN grades g ON g.run_id=a.run_id AND g.qid=a.qid ")
+               + "WHERE a.error IS NULL AND a.raw_answer IS NOT NULL "
+               + ("" if a.regrade else "AND g.qid IS NULL ")
+               + ("AND a.run_id=? " if a.run_id else "") + "ORDER BY a.run_id, a.qid")
     todo = con.execute(sql, (a.run_id,) if a.run_id else ()).fetchall()
-    print(f"to grade: {len(todo)}")
+    print(f"to grade: {len(todo)}" + (" (reusing stored check_brief bodies)" if a.reuse_check_brief else ""))
     if not todo:
         return
     token = load_keys().get("SYFERT_MCP_TOKEN")
@@ -773,42 +1165,112 @@ def main():
 
     text_cache = {}
     recon_cache = {}
+    rule_cache = {}
+    counters = {"recon_live": 0, "sent_text_changed": 0}
+    disk = None
+    if a.text_cache:
+        disk = sqlite3.connect(a.text_cache, check_same_thread=False, timeout=30)
+        disk.execute("CREATE TABLE IF NOT EXISTS texts (k TEXT PRIMARY KEY, z BLOB)")
+        disk.commit()
+
+    def disk_get(k):
+        if disk is None:
+            return None
+        with lock:
+            row = disk.execute("SELECT z FROM texts WHERE k=?", (k,)).fetchone()
+        return zlib.decompress(row[0]).decode("utf-8") if row else None
+
+    def disk_put(k, text):
+        if disk is None:
+            return
+        with lock:
+            disk.execute("INSERT OR REPLACE INTO texts VALUES (?,?)", (k, zlib.compress(text.encode("utf-8"), 6)))
+            disk.commit()
 
     def fetch_text(cid):
         """Full opinion text for a cluster via get_case (paged, <= 4 x 150k chars), cached per process."""
-        if cid in text_cache:
-            return text_cache[cid]
+        hit = text_cache.get(cid)   # g7: .get + locals -- another thread may clear the cache at any time
+        if hit is not None:
+            return hit
+        cached = disk_get(f"case:{int(cid)}")
+        if cached is not None:
+            with lock:
+                if len(text_cache) > 300:
+                    text_cache.clear()
+                text_cache[cid] = cached
+            return cached
         if len(text_cache) > 300:
             with lock:
                 text_cache.clear()
-        parts, offset = [], 0
+        parts, offset, ok = [], 0, True
         for _ in range(4):
             try:
                 raw, is_err, _ = tls.c.call_tool("get_case", {"cluster_id": int(cid), "include_text": True,
                                                               "max_chars": 150000, "offset": offset})
                 ot = (json.loads(raw).get("opinion_text") or {}) if not is_err else {}
             except (MCPError, json.JSONDecodeError, ValueError):
+                ok = False
                 break
             parts.append(ot.get("text") or "")
             if not ot.get("truncated") or not ot.get("next_offset"):
                 break
             offset = ot["next_offset"]
+        text = "".join(parts)
         with lock:
-            text_cache[cid] = "".join(parts)
-        return text_cache[cid]
+            text_cache[cid] = text
+        if ok:
+            disk_put(f"case:{int(cid)}", text)
+        return text
+
+    def fetch_rule(jur, cite):
+        """g7 (d): the text of one rule / statute section via get_statute, cached ('' when absent)."""
+        k = f"rule:{jur}|{cite}"
+        with lock:
+            if k in rule_cache:
+                return rule_cache[k]
+        text = disk_get(k)
+        if text is None:
+            try:
+                raw, is_err, _ = tls.c.call_tool("get_statute", {"jurisdiction": jur, "citation": cite})
+                d = json.loads(raw) if not is_err else {}
+                b = d.get("body") or ""
+                text = (b.get("text") or "") if isinstance(b, dict) else str(b)
+                disk_put(k, text)
+            except (MCPError, json.JSONDecodeError, ValueError):
+                text = ""
+        with lock:
+            rule_cache[k] = text
+        return text
+
+    def rkey(raw):
+        return re.sub(r"[\s.]+", "", raw or "").lower()
 
     def work(row):
-        run_id, qid, ans = row
+        run_id, qid, ans, stored = row
         if not hasattr(tls, "c"):
             tls.c = MCPClient(token)
         sent = strip_md(ans)
-        try:
-            text, is_err, structured = tls.c.call_tool("check_brief", {"text": sent})
-            if is_err:
-                return row, None, f"check_brief isError: {text[:200]}"
-            body = structured or json.loads(text)
-        except (MCPError, json.JSONDecodeError) as e:
-            return row, None, str(e)
+        stored_recon = {}
+        if a.reuse_check_brief:
+            try:
+                body = json.loads(stored or "")
+            except (json.JSONDecodeError, TypeError):
+                return row, None, "no stored check_brief body to reuse"
+            old = body.pop("_citebench", None) or {}
+            if not isinstance(body.get("cites"), list):
+                return row, None, "stored check_brief body has no cites list"
+            if old.get("sent_text") is not None and old["sent_text"] != sent:
+                with lock:
+                    counters["sent_text_changed"] += 1
+            stored_recon = {rkey(ev.get("raw")): ev for ev in (old.get("reconciliation") or []) if ev.get("raw")}
+        else:
+            try:
+                text, is_err, structured = tls.c.call_tool("check_brief", {"text": sent})
+                if is_err:
+                    return row, None, f"check_brief isError: {text[:200]}"
+                body = structured or json.loads(text)
+            except (MCPError, json.JSONDecodeError) as e:
+                return row, None, str(e)
         qrow = gold.get(qid) or {}
 
         def call_json(name, args):
@@ -818,31 +1280,41 @@ def main():
             return json.loads(raw)
 
         def reconcile_fn(c):
+            if rkey(c.get("raw")) in stored_recon:   # evidence raw may be spelled "504 Mich 152" for "504 Mich. 152"
+                return stored_recon[rkey(c.get("raw"))]
             ck = (c.get("volume"), c.get("reporter"), c.get("page"), json.dumps(c.get("claimed")), qrow.get("state"))
             with lock:
                 if ck in recon_cache:
                     return recon_cache[ck]
+                if a.reuse_check_brief:
+                    counters["recon_live"] += 1
             ev = reconcile(c, sent, qrow.get("state"), call_json)
             with lock:
                 recon_cache[ck] = ev
             return ev
 
-        g, meta = summarize(sent, body, qrow or None, fetch_text, reconcile_fn)
+        try:
+            g, meta = summarize(sent, body, qrow or None, fetch_text, reconcile_fn, fetch_rule)
+        except Exception as e:   # one bad row must not abort a 2,000-row regrade; it keeps its old grade
+            return row, None, f"summarize failed: {type(e).__name__}: {e}"
         meta["sent_text"] = sent
+        if a.reuse_check_brief:
+            meta["check_brief_reused"] = True
         body["_citebench"] = meta
         with lock:
             con.execute("INSERT OR REPLACE INTO grades (run_id, qid, n_cites, n_verified, n_fabricated, "
-                        "n_unindexed, n_name_mismatch, n_quote_absent, n_red, n_yellow, gold_hit, abstained, "
-                        "warned_treatment, grader_version, check_brief_json) "
-                        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                        "n_unindexed, n_name_mismatch, n_quote_absent, n_quote_unattributed, n_red, n_yellow, gold_hit, "
+                        "gold_equivalent, abstained, warned_treatment, grader_version, check_brief_json) "
+                        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                         (run_id, qid, g["n_cites"], g["n_verified"], g["n_fabricated"], g["n_unindexed"],
-                         g["n_name_mismatch"], g["n_quote_absent"], g["n_red"], g["n_yellow"], g["gold_hit"],
-                         g["abstained"], g["warned_treatment"], GRADER_VERSION, json.dumps(body)))
+                         g["n_name_mismatch"], g["n_quote_absent"], g["n_quote_unattributed"], g["n_red"],
+                         g["n_yellow"], g["gold_hit"], g["gold_equivalent"], g["abstained"], g["warned_treatment"],
+                         GRADER_VERSION, json.dumps(body)))
             con.commit()
         return row, (g, meta), None
 
     with cf.ThreadPoolExecutor(max_workers=min(4, a.concurrency)) as ex:
-        for (run_id, qid, _), res, err in ex.map(work, todo):
+        for (run_id, qid, _, _), res, err in ex.map(work, todo):
             if err:
                 print(f"  {run_id} {qid}: GRADE ERROR {err}")
                 continue
@@ -850,10 +1322,13 @@ def main():
             extra = f" TRUNCATED {meta['truncated_bytes']}B" if meta["truncated_bytes"] else ""
             nogold = "" if meta["gold_found_in_question"] else " (no gold row found)"
             print(f"  {run_id} {qid}: cites={g['n_cites']} ver={g['n_verified']} fab={g['n_fabricated']} "
-                  f"unidx={g['n_unindexed']} name_mm={g['n_name_mismatch']} quote_bad={g['n_quote_absent']} red={g['n_red']} "
-                  f"yel={g['n_yellow']} gold_hit={g['gold_hit']} abstain={g['abstained']} "
-                  f"warned={g['warned_treatment']}{extra}{nogold}")
-
+                  f"unidx={g['n_unindexed']} name_mm={g['n_name_mismatch']} quote_bad={g['n_quote_absent']} "
+                  f"quote_unattr={g['n_quote_unattributed']} red={g['n_red']} "
+                  f"yel={g['n_yellow']} gold_hit={g['gold_hit']} gold_eq={g['gold_equivalent']} abstain={g['abstained']} "
+                  f"warned={g['warned_treatment']}{extra}{nogold}", flush=True)
+    if a.reuse_check_brief:
+        print(f"reuse mode: {counters['recon_live']} reconciliations not found in the stored evidence (run live, "
+              f"no corpus DB); {counters['sent_text_changed']} rows whose stripped text differs from the stored one")
 
 if __name__ == "__main__":
     main()

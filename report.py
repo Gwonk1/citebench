@@ -36,7 +36,7 @@ def metrics(rows, gold=None):
         return None
     gold = gold or {}
     bad = [r for r in rows if (gold.get(r["qid"]) or {}).get("gold_flag") in ("yellow", "red")]
-    s = lambda k: sum(r[k] or 0 for r in rows)
+    s = lambda k: sum(r.get(k) or 0 for r in rows)   # .get: pre-g7 DBs lack the g7 columns
     cites, ver = s("n_cites"), s("n_verified")
     return {
         "n": n, "cites": cites,
@@ -45,6 +45,10 @@ def metrics(rows, gold=None):
         "misgrounded_rate": (s("n_name_mismatch") + s("n_quote_absent")) / cites if cites else None,
         "red_rate": s("n_red") / ver if ver else None,
         "gold_recall": s("gold_hit") / n,
+        # g7: gold_hit OR a cited opinion holding a >= 12-word verbatim run of the proposition (None before g7)
+        "gold_equiv": (sum(r.get("gold_equivalent") or 0 for r in rows) / n)
+                      if all(r.get("gold_equivalent") is not None for r in rows) else None,
+        "quote_unattributed": s("n_quote_unattributed"),
         "abstain_rate": s("abstained") / n,
         "warned_rate": (sum(r.get("warned_treatment") or 0 for r in bad) / len(bad)) if bad else None,
         "court_propagated": sum(_cb(r, "court_propagated_miscite") for r in rows),
@@ -101,19 +105,20 @@ def main():
     lines = [f"# citebench report", "", f"generated {dt.datetime.now().isoformat(timespec='seconds')} from `{a.db}`"
              + (f" — HEADLINE SLICE: questions <= {a.max_qid} only (same questions for every run)" if a.max_qid else ""), ""]
     hdr = ("| model | arm | run | answered | errors | graded | cites | fabricated_rate | fabricated_strict_rate | court_propagated | retracted | misgrounded_rate | "
-           "paraphrase_share | red_rate | gold_recall | abstain_rate | warned_rate (bad-law n) | avg tool calls | avg latency s | cost $ |")
+           "paraphrase_share | quote_unattributed | red_rate | gold_recall | gold_equiv | abstain_rate | warned_rate (bad-law n) | avg tool calls | avg latency s | cost $ |")
     lines += ["## Metrics per (model, arm)", "", hdr, "|" + "---|" * (hdr.count("|") - 1)]
     for rid, p in sorted(per.items(), key=lambda kv: (kv[1]["model"], kv[1]["tag"], kv[1]["arm"])):
         m = metrics(list(p["grades"].values()), gold)
         if m is None:
             m = {"n": 0, "cites": 0, "fabricated_rate": None, "fabricated_strict_rate": None, "misgrounded_rate": None,
                  "red_rate": None, "gold_recall": None, "abstain_rate": None, "warned_rate": None, "n_bad": 0,
-                 "paraphrase_share": None, "court_propagated": 0, "retracted": 0}
+                 "paraphrase_share": None, "court_propagated": 0, "retracted": 0, "gold_equiv": None,
+                 "quote_unattributed": 0}
         lines.append(f"| {p['model']} | {p['arm']} | {rid} | {p['answers']} | {p['errors']} | {m['n']} | "
                      f"{m['cites']} | {pct(m['fabricated_rate'])} | {pct(m['fabricated_strict_rate'])} | {m.get('court_propagated', 0)} | "
                      f"{m.get('retracted', 0)} | {pct(m['misgrounded_rate'])} | "
-                     f"{pct(m['paraphrase_share'])} | "
-                     f"{pct(m['red_rate'])} | {pct(m['gold_recall'])} | {pct(m['abstain_rate'])} | "
+                     f"{pct(m['paraphrase_share'])} | {m.get('quote_unattributed', 0)} | "
+                     f"{pct(m['red_rate'])} | {pct(m['gold_recall'])} | {pct(m.get('gold_equiv'))} | {pct(m['abstain_rate'])} | "
                      f"{pct(m['warned_rate'])} ({m['n_bad']}) | "
                      f"{p['tools']:.1f} | {p['lat']:.1f} | {p['cost']:.4f} |")
 
@@ -153,7 +158,11 @@ def main():
               "miscited with a wrong volume/page that >= 2 other courts' opinions repeat (g6); retracted = cites the "
               "model withdrew in the same answer, excluded from n_cites (g6); paraphrase_share = share of absent quotes that are accurate paraphrases "
               "put in quotation marks (>= 60% of the words in order; the rest are fabricated wording), graded "
-              "g5+ only; red_rate = n_red/n_verified; gold_recall = mean(gold_hit); "
+              "g5+ only; quote_unattributed = quotes not found in any cited opinion whose own citation has no cluster "
+              "(fabricated / unindexed cite, docket or WL cite) or with no resolved cited opinion at all: not counted in "
+              "misgrounded_rate (g7); red_rate = n_red/n_verified; gold_recall = mean(gold_hit) (headline); gold_equiv = "
+              "mean(gold_equivalent): gold_hit, or a cited opinion whose text holds a >= 12-word verbatim run of the "
+              "question's proposition (g7; the paired delta table stays on gold_recall); "
               "abstain_rate = mean(abstained); warned_rate = mean(warned_treatment) over questions whose gold_flag "
               "is yellow/red only (count in parentheses). Rates are pooled over answers. See grade.py docstring for how "
               "check_brief output maps to each count."]
