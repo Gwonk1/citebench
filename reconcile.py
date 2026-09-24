@@ -233,7 +233,7 @@ def char_offsets(text, cite):
 
 
 PAREN_RE = re.compile(r"^[^()]{0,40}?\(([^()]*?)(\d{4})\)")
-SIGNAL_RE = re.compile(r"^(?:see,?(?: also| generally)?,?|e\.g\.,?|cf\.,?|accord,?|but see,?|in|under|citing|"
+SIGNAL_RE = re.compile(r"^(?:see,?(?: also| generally)?,?|e\.g\.,?|cf\.,?|accord,?|but see,?|in(?!\s+re\b)|under|citing|"
                        r"quoting|the court in|as held in|and|also|compare|with)\s+", re.I)
 
 
@@ -277,7 +277,7 @@ def _tidy_name(s):
                 keep.append(w)
             else:
                 break
-        return " ".join(reversed(keep)) or s
+        return " ".join(reversed(keep))      # g9: no capitalised run -> no name (was: the whole clause)
     words = s[:m.start()].split()
     keep = []
     for w in reversed(words):
@@ -291,7 +291,31 @@ def _tidy_name(s):
     while keep and keep[-1].lower() in CONNECT:
         keep.pop()
     lhs = " ".join(reversed(keep)) or s[:m.start()]
-    return f"{lhs} v. {s[m.end():].strip()}"
+    return f"{lhs} v. {_rhs_clause(s[m.end():])}"
+
+
+# g9: lower-case words that may sit inside a party name ("ex rel.", "d/b/a", "de la", "von")
+RHS_LOWER_OK = CONNECT | {"ex", "rel", "rel.", "d/b/a", "a/k/a", "f/k/a", "et", "al", "al.", "von", "van", "der", "den",
+                          "du", "del", "la", "le", "da", "dos", "y", "e", "des", "di", "etc.", "etc"}
+
+
+def _rhs_clause(r):
+    """g9: the right-hand party ends at the first clause boundary: a quote mark, '(', ':', ';', or a lower-case word
+    that cannot be part of a name ("Knight v. State, cites it as \"" -> "State")."""
+    out = []
+    for w in (r or "").split():
+        if w[:1] in "\"\u201c\u201d([:;" or (w[:1] in "'\u2018" and not w[1:2].isalnum()):
+            break
+        core = w.strip(",.;:\"\u201c\u201d")
+        if not core or not (core[:1].isupper() or core[:1].isdigit() or core[:1] in "&'\u2019"
+                            or w.lower().rstrip(",") in RHS_LOWER_OK):
+            break
+        out.append(w)
+        if w.endswith((":", ";")):
+            break
+    while out and out[-1].lower().rstrip(",") in CONNECT:
+        out.pop()
+    return " ".join(out).rstrip(",;:").strip()
 
 
 def claimed_name(cite, answer, use_claimed=True):
@@ -304,6 +328,9 @@ def claimed_name(cite, answer, use_claimed=True):
     if not offs:
         return None
     pre = answer[max(0, offs[0] - 200):offs[0]]
+    lab = re.search(r"([^\n:]{0,40}):\s*$", pre)
+    if lab and not re.search(r"\sv\.?\s|\b(?:In re|Ex parte)\b", lab.group(1), re.I):
+        return None          # g9: a field label ("Citation: 944 So. 2d 1138", "Pinpoint:") is not a case name
     pre = re.sub(r"\s*\((?:[^()]*\s)?\d{4}\)\s*$", " ", pre)   # California style: Name (2021) 11 Cal.5th 614
     pre = _tidy_name(_last_clause(pre))
     if SUBSEQ_RE.search(pre + ","):
@@ -380,6 +407,209 @@ def _court_ok(court_text, hit_court):
         if re.fullmatch(r"Fla\.", ct):
             return ("supreme court of florida" in hc), f"'{ct}' vs '{hit_court}'"
     return True, "not checked"
+
+
+# ------------------------------------------------------------------ g9 hit acceptance (2026-09-23)
+# A name hit may confirm a cite only if (a) the caption keeps its party order ("Hill v. State" is not "State v. Hill")
+# unless the hit already carries this exact cite, and (b) the hit's court can publish in the cite's reporter
+# ("327 Ga. App." is the Court of Appeals of Georgia, never the Supreme Court of Georgia; F.3d is a federal court of
+# appeals; a regional reporter takes any court of the states it covers). A court the corpus does not name passes (b).
+STATE_NAMES = {
+    "alabama": "al", "alaska": "ak", "arizona": "az", "arkansas": "ar", "california": "ca", "colorado": "co",
+    "connecticut": "ct", "delaware": "de", "florida": "fl", "georgia": "ga", "hawaii": "hi", "idaho": "id",
+    "illinois": "il", "indiana": "in", "iowa": "ia", "kansas": "ks", "kentucky": "ky", "louisiana": "la", "maine": "me",
+    "maryland": "md", "massachusetts": "ma", "michigan": "mi", "minnesota": "mn", "mississippi": "ms", "missouri": "mo",
+    "montana": "mt", "nebraska": "ne", "nevada": "nv", "new hampshire": "nh", "new jersey": "nj", "new mexico": "nm",
+    "new york": "ny", "north carolina": "nc", "north dakota": "nd", "ohio": "oh", "oklahoma": "ok", "oregon": "or",
+    "pennsylvania": "pa", "rhode island": "ri", "south carolina": "sc", "south dakota": "sd", "tennessee": "tn",
+    "texas": "tx", "utah": "ut", "vermont": "vt", "west virginia": "wv", "virginia": "va", "washington": "wa",
+    "wisconsin": "wi", "wyoming": "wy", "puerto rico": "pr", "virgin islands": "vi", "district of columbia court": "dc"}
+_STATE_NAME_RE = re.compile(r"\b(" + "|".join(sorted(STATE_NAMES, key=len, reverse=True)) + r")\b", re.I)
+FED_APPEALS_RE = re.compile(r"^(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|d\.c\.|"
+                            r"federal) circuit$", re.I)
+FED_DISTRICT_RE = re.compile(r"^(?:[NSEWMC]\.D\.|D\.)\s|^District of Columbia$|^U\.S\. Circuit Court for", re.I)
+FED_OTHER_RE = re.compile(r"^(?:U\.S\. Tax Court|Federal Claims|Court of Claims|Court of International Trade|Customs and "
+                          r"Patent Appeals|U\.S\. Customs Court|Judicial Panel on Multidistrict Litigation|Court of "
+                          r"Appeals for the Armed Forces|Veterans Claims|United States Court of Military Appeals|"
+                          r"(?:Air Force|Army|Navy-Marine Corps) Court of Criminal Appeals)$", re.I)
+REGIONAL_STATES = {
+    "so": {"al", "fl", "la", "ms"}, "se": {"ga", "nc", "sc", "va", "wv"}, "ne": {"il", "in", "ma", "ny", "oh"},
+    "nw": {"ia", "mi", "mn", "ne", "nd", "sd", "wi"}, "sw": {"ar", "ky", "mo", "tn", "tx"},
+    "p": {"ak", "az", "ca", "co", "hi", "id", "ks", "mt", "nv", "nm", "ok", "or", "ut", "wa", "wy"},
+    "a": {"ct", "de", "dc", "me", "md", "nh", "nj", "pa", "ri", "vt"},
+    "nys": {"ny"}, "misc": {"ny"}, "calrptr": {"ca"}, "illdec": {"il"}}
+OFFICIAL_PREFIX = [("wva", "wv"), ("alaska", "ak"), ("ala", "al"), ("ariz", "az"), ("ark", "ar"), ("cal", "ca"),
+                   ("colo", "co"), ("conn", "ct"), ("del", "de"), ("fla", "fl"), ("ga", "ga"), ("haw", "hi"),
+                   ("idaho", "id"), ("ill", "il"), ("il", "il"), ("ind", "in"), ("iowa", "ia"), ("kan", "ks"),
+                   ("ky", "ky"), ("la", "la"), ("me", "me"), ("md", "md"), ("mass", "ma"), ("mich", "mi"),
+                   ("minn", "mn"), ("miss", "ms"), ("mo", "mo"), ("mont", "mt"), ("neb", "ne"), ("nev", "nv"),
+                   ("nh", "nh"), ("nj", "nj"), ("nm", "nm"), ("ny", "ny"), ("ad", "ny"), ("nc", "nc"), ("nd", "nd"),
+                   ("ohio", "oh"), ("okla", "ok"), ("or", "or"), ("pa", "pa"), ("ri", "ri"), ("sc", "sc"),
+                   ("sd", "sd"), ("tenn", "tn"), ("tex", "tx"), ("utah", "ut"), ("vt", "vt"), ("va", "va"),
+                   ("wash", "wa"), ("wis", "wi"), ("wyo", "wy")]
+# official reports that print intermediate-court decisions too: state check only
+MIXED_LEVEL = {"wi", "az", "hi", "nm", "id", "nv", "sc"}
+
+
+def court_class(hit_court):
+    """-> (kind, state, level): kind scotus|fed_app|fed_dist|fed_other|state|unknown; level sup|app|trial|None."""
+    hc = (hit_court or "").strip()
+    if not hc:
+        return "unknown", None, None
+    if hc == "Supreme Court" or re.search(r"Supreme Court of the United States|U\.S\. Supreme Court", hc):
+        return "scotus", None, None
+    if FED_APPEALS_RE.match(hc):
+        return "fed_app", None, None
+    if FED_DISTRICT_RE.search(hc):
+        return "fed_dist", None, None
+    if FED_OTHER_RE.match(hc):
+        return "fed_other", None, None
+    m = _STATE_NAME_RE.search(hc)
+    st = STATE_NAMES[m.group(1).lower()] if m else None
+    if not st and re.search(r"\bFla\.|\bDCA\b", hc):
+        st = "fl"
+    low = hc.lower()
+    if st == "ny":
+        level = "sup" if "court of appeals" in low else "app" if re.search(r"appellate (?:division|term)", low) else "trial"
+    elif st == "md":
+        level = "sup" if re.search(r"court of appeals of maryland|supreme court of maryland", low) else \
+            "app" if re.search(r"special appeals|appellate court of maryland", low) else "trial"
+    elif re.search(r"supreme court|supreme judicial court", low) and "appellate division" not in low:
+        level = "sup"
+    elif re.search(r"court of criminal appeals of (?:texas|oklahoma)", low):
+        level = "sup"
+    elif re.search(r"appeal|appellate|app division|\bdca\b|superior court of pennsylvania|commonwealth court", low):
+        level = "app"
+    else:
+        level = "trial"
+    return ("state" if st else "unknown"), st, level
+
+
+def reporter_class(reporter):
+    """-> (kind, detail): scotus | fed_app | fed_any | fed_dist | regional {states} | official (state, level|None) |
+    unknown."""
+    n = re.sub(r"[^a-z0-9]", "", (reporter or "").lower())
+    if n in ("us", "sct", "led", "led2d"):
+        return "scotus", None
+    if n in ("f3d", "f4th", "fappx"):
+        return "fed_app", None
+    if n in ("f", "f2d"):
+        return "fed_any", None
+    if n.startswith("fsupp") or n in ("frd", "br"):
+        return "fed_dist", None
+    base = re.sub(r"(?:\d+(?:d|th|st|nd|rd))$", "", n)
+    if base in REGIONAL_STATES:
+        return "regional", REGIONAL_STATES[base]
+    for pre, st in sorted(OFFICIAL_PREFIX, key=lambda t: -len(t[0])):     # "mont" before "mo"
+        if n.startswith(pre):
+            rest = n[len(pre):]
+            if pre == "ad":
+                return "official", ("ny", "app")
+            if re.search(r"app|super|cmwlth", rest):
+                return "official", (st, "app")
+            if re.fullmatch(r"(?:st)?(?:\d+(?:d|th|st|nd|rd))?", rest):
+                return "official", (st, None if st in MIXED_LEVEL else "sup")
+            return "official", (st, None)
+    return "unknown", None
+
+
+def reporter_court_ok(reporter, hit_court):
+    """(b): -> (ok, why). ok is True when the corpus gives no court or the reporter is not classified."""
+    rk, rd = reporter_class(reporter)
+    ck, cst, clev = court_class(hit_court)
+    if rk == "unknown" or not (hit_court or "").strip():
+        return True, "not checked"
+    why = f"'{reporter}' vs '{hit_court}'"
+    if rk == "scotus":
+        return ck == "scotus", why
+    if rk == "fed_app":
+        return ck == "fed_app", why
+    if rk == "fed_any":
+        return ck in ("fed_app", "fed_dist", "fed_other"), why
+    if rk == "fed_dist":
+        return ck in ("fed_dist", "fed_other"), why
+    if ck in ("scotus", "fed_app", "fed_dist", "fed_other"):
+        return False, why
+    if cst is None:
+        return True, why + " (court's state unknown: not checked)"
+    if rk == "regional":
+        return cst in rd, why
+    st, lev = rd
+    if cst != st:
+        return False, why
+    if lev and clev != lev:
+        return False, why
+    return True, why
+
+
+def party_order_ok(claimed, hit_name, hit_carries_cite=False):
+    """(a): "X v. Y" must match the hit as X ~ lhs and Y ~ rhs; a reversed caption matches only when the hit already
+    carries this exact cite (same case). Names without ' v. ' (In re ...) are not checked."""
+    cl, cr = _split_sides(claimed or "")
+    hl, hr = _split_sides(hit_name or "")
+    if cr is None or hr is None:
+        return True, "no two-party caption"
+    if _side_match(cl, hl) and _side_match(cr, hr):
+        return True, "party order kept"
+    if hit_carries_cite:
+        return True, "reversed caption, but the hit carries this cite"
+    return False, f"reversed caption: '{claimed}' vs '{hit_name}'"
+
+
+_ORD = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh"]
+
+
+def circuit_ok(court_text, hit_court):
+    """(b), federal appeals: the parenthetical's circuit ("11th Cir.") must be the hit's ("Eleventh Circuit"); the old
+    _court_ok only asked for 'circuit' in the hit's court. True when either side names no circuit."""
+    ct, hc = (court_text or "").strip(), (hit_court or "").strip().lower()
+    if not FED_APPEALS_RE.match(hit_court or ""):
+        return True, "not checked"
+    m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th|d)\s+Cir\.", ct)
+    if m and 1 <= int(m.group(1)) <= 11:
+        want = _ORD[int(m.group(1)) - 1] + " circuit"
+    elif re.search(r"D\.\s?C\.\s+Cir\.", ct):
+        want = "d.c. circuit"
+    elif re.search(r"Fed\.\s+Cir\.", ct):
+        want = "federal circuit"
+    else:
+        return True, "no circuit in the parenthetical"
+    return hc == want, f"'{ct}' vs '{hit_court}'"
+
+
+def hit_ok_g9(reporter, name, rec, court_text=None):
+    """-> (ok, reasons) for a check_citation / search_cases hit record (see consider() in reconcile)."""
+    reasons = []
+    ok_a, why_a = party_order_ok(name, rec.get("case_name"), rec.get("cite_check") == "hit carries this cite")
+    ok_b, why_b = reporter_court_ok(reporter, rec.get("court"))
+    ok_c, why_c = circuit_ok(court_text, rec.get("court"))
+    if not ok_c:
+        reasons.append("(b) circuit differs from the parenthetical: " + why_c)
+    if not ok_a:
+        reasons.append("(a) " + why_a)
+    if not ok_b:
+        reasons.append("(b) court inconsistent with the reporter: " + why_b)
+    return not reasons, reasons
+
+
+def rejudge_g9(ev, cite):
+    """Apply the g9 hit tests to STORED evidence (grade.py --reuse-check-brief): an unindexed_real outcome reached
+    through check_citation or search_cases whose accepting hit fails (a) or (b) is withdrawn. As in a live run, the
+    cited_by_courts route then accepts the cite when other courts cite it that way (cite_corroborated_by_courts >= 1)
+    and the case was not found under a different volume/page; otherwise it is fabricated. -> ev (a new dict if changed)."""
+    if not ev or ev.get("status") != "unindexed_real" or ev.get("route") not in ("check_citation", "search_cases"):
+        return ev
+    ok, reasons = hit_ok_g9(cite.get("reporter"), ev.get("claimed_name"), ev.get("hit") or {},
+                            (ev.get("paren") or [None])[0])
+    if ok:
+        return ev
+    new = dict(ev, g9_rejected_hit=dict(ev.get("hit") or {}, g9_reasons=reasons))
+    if (ev.get("cite_corroborated_by_courts") or 0) >= 1 and not ev.get("miscited_real_case"):
+        new.update(status="unindexed_real", route="cited_by_courts",
+                   hit={"route": "cited_by_courts", "cluster_id": None, "citers": ev.get("corroborating_citers") or []})
+    else:
+        new.update(status="fabricated", route=None, hit=None)
+    return new
 
 
 def _year(d):
@@ -472,6 +702,10 @@ def reconcile(cite, answer, q_state, call_tool):
         if nm and not pok:
             ev["miscited_real_case"] = rec
         if nm and yok and cok and pok:
+            g9ok, g9why = hit_ok_g9(cite.get("reporter"), name, rec, court_text)   # g9 (a) party order, (b) court
+            if not g9ok:
+                rec["g9_rejected"] = g9why
+                return False
             ev.update(status="unindexed_real", route=route, hit=rec)
             return True
         return False

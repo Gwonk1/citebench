@@ -51,6 +51,27 @@ Mapping of check_brief output (observed 2026-09-22, server syfert-legal-research
       answer does NOT cite ("477 U.S. 248" for Anderson v. Liberty Lobby, 477 U.S. 242). A page before a
       did_you_mean case's first page (it falls in an earlier case) or no did_you_mean at all gives no near_miss.
       report.py near_miss_share = near misses / n_fabricated.
+    * g9 TWINS (2026-09-23): cites with the same (volume, reporter, page) are ONE authority whatever their pins and
+      whichever route resolved each ("412 So. 3d 701" resolved by name + year, "412 So. 3d 701, 709" unresolved a sentence
+      later); the best outcome among them (resolved > unindexed_real > pin_reference > fabricated) holds for all, so a
+      twin never adds a cite (_citebench.twins: raw, twin_of, outcome). reconcile.claimed_name stops at a clause
+      boundary ("Knight v. State, cites it as \"" -> "Knight v. State") and returns no name for a field label ("Citation:");
+    * g9 RETRACTED, unverified (retracted_unverified_g9): "did / does not verify", "could not verify / confirm", "was
+      unable to verify / confirm", "does not appear to exist", "may not exist", "do not / don't rely on", "I could not
+      locate" (contractions too) right next to the cite: after it with only a parenthetical / pin / punctuation / short
+      subject ("it", "the citation", "which", "I") between, possibly across one sentence break when the next sentence
+      starts "It / This / That"; or before it with only "the citation (for)" and/or the case name between. "did/does not
+      verify", "does not appear to exist" and "may not exist" count only AFTER the cite; a phrase whose object is a pin /
+      page / quote / wording does not count. Dropped like a g6 retraction (_citebench.retracted_raw, retracted_g9);
+    * g9 RECONCILIATION HITS (reconcile.hit_ok_g9 / rejudge_g9): a check_citation / search_cases hit confirms a cite only
+      if (a) the party order is kept ("Hill v. State" != "State v. Hill") unless the hit carries this exact cite, and (b)
+      its court can publish in the cite's reporter (reporter_court_ok: Ga. App. / Ga., Mich. App. / Mich., Ill. App. /
+      Ill., Pa. Super. / Pa., N.J. Super. / N.J., Cal. App. / Cal., A.D. / N.Y.; U.S. + S. Ct. = Supreme Court; F.3d /
+      F.4th / F. App'x = a circuit; F. Supp. = district; regional = any court of a covered state) and the parenthetical's
+      circuit is the hit's (circuit_ok). With --reuse-check-brief the STORED accepting hit is re-judged; a withdrawn hit
+      leaves the cite fabricated unless other courts cite it that way (cited_by_courts), and is kept in
+      _citebench.g9_rejected_hits. With --reuse-quotes an 'absent' quote whose attached cite lost its cluster becomes
+      'unattributed' (g9_detached); gold_equivalent resting on a withdrawn cluster is set to 0 (g9_withdrawn).
   n_cites         = distinct authorities after dedup
   n_fabricated    = unresolved authorities (cluster_id null): the volume/reporter/page does not exist.
                     Includes near misses (right case, wrong page, e.g. "Anderson v. Liberty Lobby, 477 U.S.
@@ -164,7 +185,7 @@ import sqlite3
 import threading
 import zlib
 
-from reconcile import char_offsets, claimed_name, is_subsequent_history, reconcile
+from reconcile import char_offsets, claimed_name, is_subsequent_history, reconcile, rejudge_g9
 from cb_common import MCPClient, MCPError, cite_keys, load_gold, load_keys, norm_reporter, open_db
 
 ABSTAIN_RE = re.compile(
@@ -175,7 +196,7 @@ ABSTAIN_RE = re.compile(
     r"no (?:verified|reliable) (?:citation|authority)", re.I)
 # Bump whenever grading logic (here, reconcile.py or the check_brief contract we rely on) changes, so the
 # report can show that every run was graded under the same grader.
-GRADER_VERSION = "g8-pinref-20260923"
+GRADER_VERSION = "g9-twins-20260923"
 
 WARN_RE = re.compile(
     r"\b(?:overruled|overruling|abrogated|abrogation|receded from|recede from|disapproved|superseded|"
@@ -850,6 +871,52 @@ def retracted(cite, answer):
     return False
 
 
+# g9: the model says its OWN cite did not check out ("The citation I checked, 317 So. 3d 72, did not verify, so don't
+# cite it"). The phrase must sit right next to the cite: after it with only a parenthetical / pin / punctuation and a
+# short subject between ("..., 317 So. 3d 72, did not verify"; "... (Fla. 2021). It does not appear to exist"), or
+# before it with only "the citation (for)" and/or the case name between ("I could not verify Smith v. Jones, 1 So. 3d 1";
+# "don't rely on 317 So. 3d 72"). "did / does not verify", "does not appear to exist" and "may not exist" only count
+# AFTER the cite (the cite is their subject: "I did not verify X" says the model did not check, not that X failed).
+# A phrase whose object is a pin / page / quote / wording ("could not confirm the pin page") is not a retraction.
+_G9_NEG = r"(?:\s+not|n['\u2019]t)"
+G9_AFTER_ONLY_RE = re.compile(r"\b(?:(?:did|does|do)" + _G9_NEG + r"\s+verify|does" + _G9_NEG + r"\s+appear\s+to\s+exist|"
+                              r"may\s+not\s+exist)\b", re.I)
+G9_BOTH_RE = re.compile(r"\b(?:(?:could" + _G9_NEG + r"|(?:was|were)\s+(?:unable|not\s+able)\s+to|(?:wasn|weren)['\u2019]t\s+"
+                        r"able\s+to)\s+(?:verify|confirm)|I\s+could" + _G9_NEG + r"\s+locate|do" + _G9_NEG + r"\s+rely\s+on)\b",
+                        re.I)
+G9_AFTER_GAP_RE = re.compile(r"^(?:\s*\([^()\n]{0,80}\))*(?:\s*,\s*\d{1,5}(?:\s*[-\u2013]\s*\d{1,5})?)*[\s,;:\u2014\u2013-]*"
+                             r"(?:(?:[.!?]\s+)?(?:it|this|that)(?:\s+(?:cite|citation|case|one|reporter\s+citation))?\s+"
+                             r"|the\s+(?:reporter\s+)?(?:cite|citation)\s+|(?:which|and|so|but)\s+(?:it\s+|I\s+)?|I\s+)?"
+                             r"(?:also\s+|still\s+|simply\s+)?$", re.I)
+G9_BEFORE_GAP_RE = re.compile(r"^\s*(?:that\s+)?(?:(?:the|this|that)\s+(?:reporter\s+)?(?:cite|citation)(?:\s+(?:for|to|of))?\s*)?"
+                              r"[\s,:]*(?:(?:[A-Z][\w.'\u2019&-]*|v\.|vs\.|of|the|and|&|ex|rel\.|de|in|re)"
+                              r"(?:\s+(?:[A-Z][\w.'\u2019&-]*|v\.|vs\.|of|the|and|&|ex|rel\.|de|in|re))*)?[\s,:]*$")
+G9_OBJECT_SKIP_RE = re.compile(r"^\s+(?:the\s+|a\s+|any\s+|its\s+|that\s+)?(?:exact\s+|reporter\s+|specific\s+|precise\s+)?"
+                               r"(?:pin|pinpoint|page|quot|wording|language|parenthetical|year|date|holding|subsequent|"
+                               r"history|treatment|current|text|rule|dicta|dictum)", re.I)
+
+
+def retracted_unverified_g9(cite, answer):
+    """-> the phrase (str) when the model says, next to this cite, that it did not verify / may not exist / should not
+    be relied on (see G9_* above), else None. Quoted text is blanked first, so an opinion quotation never triggers."""
+    raw = cite.get("raw") or ""
+    blank = re.sub(r'"[^"\n]*"|\u201c[^\u201c\u201d]*\u201d', lambda m: " " * len(m.group(0)), answer or "")
+    for off in char_offsets(answer, cite):
+        end = off + len(raw)
+        win = blank[end:end + 220]
+        for rx in (G9_AFTER_ONLY_RE, G9_BOTH_RE):
+            for m in rx.finditer(win):
+                if m.start() > 140:
+                    break
+                if G9_AFTER_GAP_RE.match(win[:m.start()]) and not G9_OBJECT_SKIP_RE.match(win[m.end():]):
+                    return m.group(0)
+        pre = blank[max(0, off - 160):off]
+        for m in G9_BOTH_RE.finditer(pre):
+            if G9_BEFORE_GAP_RE.match(pre[m.end():]):
+                return m.group(0)
+    return None
+
+
 def is_official_state(c):
     return bool(OFFICIAL_STATE_RE.match(c.get("reporter") or "")) and not REGIONAL_REPORTERS.match(c.get("reporter") or "")
 
@@ -970,7 +1037,17 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
     # g6: subsequent history (aff'd / rev'd / mod / cert. denied / review denied ...) and retracted cites are
     # not authorities the answer relies on: drop them from every count, resolved or not.
     history = [c for c in cites if is_subsequent_history(c, answer)]
-    retracted_c = [c for c in cites if c not in history and retracted(c, answer)]
+    retracted_c, retracted_g9 = [], []
+    for c in cites:
+        if c in history:
+            continue
+        if retracted(c, answer):
+            retracted_c.append(c)
+            continue
+        ph = retracted_unverified_g9(c, answer)          # g9: "did not verify", "don't rely on", ...
+        if ph:
+            retracted_c.append(c)
+            retracted_g9.append({"raw": c.get("raw"), "phrase": ph})
     drop = {id(c) for c in history + retracted_c}
     all_resolved = [c for c in all_resolved if id(c) not in drop]
     name_year = [c for c in name_year if id(c) not in drop]
@@ -1072,6 +1149,47 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
         pr = pin_reference_g8(c, all_resolved)
         (pin_refs.append((c, pr)) if pr else keep.append((c, ev)))
     still_fab = keep
+    # g9 TWINS: cites with the same (volume, reporter, page) are ONE authority whatever their pins and whichever route
+    # resolved each ("412 So. 3d 701" resolved by name + year, "412 So. 3d 701, 709" unresolved a sentence later).
+    # The best outcome among the twins (resolved > unindexed_real > pin_reference > fabricated) holds for all of them;
+    # a twin never adds a cite.
+    tkey = lambda c: (str(c.get("volume")), norm_reporter(c.get("reporter")), str(c.get("page")))
+    best, best_raw, best_cl = {}, {}, {}
+    for rank, grp in ((3, [(c, None) for c in resolved]), (2, unindexed), (1, pin_refs)):
+        for c, ev in grp:
+            if rank > best.get(tkey(c), 0):
+                best[tkey(c)], best_raw[tkey(c)] = rank, c.get("raw")
+                best_cl[tkey(c)] = rank != 2 or bool(((ev or {}).get("hit") or {}).get("cluster_id"))
+    outcome_name = {3: "resolved", 2: "unindexed_real", 1: "pin_reference"}
+    twins, twin_has_cluster = [], set()
+
+    def twin(c, rank):
+        twins.append({"raw": c.get("raw"), "twin_of": best_raw[tkey(c)], "outcome": outcome_name[rank]})
+        if best_cl[tkey(c)]:
+            twin_has_cluster.add(id(c))
+    keep = []
+    for c, ev in still_fab:
+        r = best.get(tkey(c), 0)
+        if r:
+            twin(c, r)
+        else:
+            keep.append((c, ev))
+    still_fab = keep
+    keep = []
+    for c, pr in pin_refs:
+        r = best.get(tkey(c), 0)
+        if r > 1:
+            twin(c, r)
+        else:
+            keep.append((c, pr))
+    pin_refs = keep
+    keep = []
+    for c, ev in unindexed:
+        if best.get(tkey(c), 0) == 3:
+            twin(c, 3)
+        else:
+            keep.append((c, ev))
+    unindexed = keep
     pin_keys = {key(c) for c, _ in pin_refs}
     fab_keys = {key(c) for c, _ in still_fab}
     cited_cids = {c["cluster_id"] for c in all_resolved}
@@ -1141,6 +1259,7 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
         par_ids = {id(c) for c in parallel}
         unidx_cl = {id(c) for c, ev in unindexed if (ev.get("hit") or {}).get("cluster_id")}
         unidx_cl |= {id(c) for c, _ in pin_refs}     # g8: a pin reference is attributed to its authority
+        unidx_cl |= twin_has_cluster                 # g9: a twin is attributed to its authority
         return [(o, o + len(c.get("raw") or ""),
                  bool(c.get("cluster_id")) or id(c) in par_ids or id(c) in unidx_cl, c.get("raw"))
                 for c in cites for o in char_offsets(answer, c)]
@@ -1153,9 +1272,32 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
         quotes = list(stored_quotes.get("quotes_extracted") or [])
         skipped_spans = list(stored_quotes.get("quote_spans_skipped") or [])
         quote_results = json.loads(json.dumps(stored_quotes.get("quote_results") or []))
+        # g9: a cite whose reconciliation hit was withdrawn (g9_rejected_hit) no longer has a cluster, so its opinion is
+        # no longer a searched text: a quote still 'absent' whose attached cite now has no cluster, or in an answer left
+        # with no resolved cited opinion, becomes 'unattributed' (the g7 rule); a quote 'found' ONLY in a withdrawn
+        # hit's opinion cannot be re-matched without fetching text and is flagged g9_found_in_withdrawn_hit.
+        texts_now = set(verified + mismatched + unindexed_cids)
+        withdrawn = {(ev.get("g9_rejected_hit") or {}).get("cluster_id") for ev in reconciliation
+                     if ev.get("g9_rejected_hit")} - {None} - texts_now
+        for r in quote_results:
+            if r.get("verdict") == "found" and r.get("cluster_id") in withdrawn:
+                r["g9_found_in_withdrawn_hit"] = True
+            if r.get("verdict") != "absent" or not withdrawn:
+                continue
+            if not texts_now:
+                r.update(verdict="unattributed", kind="unattributed", g9_detached=True,
+                         unattributed_reason="no resolved cited opinion text to search")
+                continue
+            if cite_spans is None:
+                cite_spans = make_cite_spans()
+            att = attached_cite_g7(answer, r["quote"], cite_spans)
+            if att and att[0] is not True:
+                r.update(verdict="unattributed", kind="unattributed", g9_detached=True,
+                         unattributed_reason=("attached citation has no reporter: " if att[0] == "no_reporter"
+                                              else "attached citation did not resolve to a case: ") + str(att[1]))
         for r in quote_results:
             if r.get("verdict") != "unattributed" or not str(r.get("unattributed_reason") or "").startswith(
-                    "attached citation did not resolve"):
+                    "attached citation did not resolve") or r.get("g9_detached"):
                 continue
             if cite_spans is None:
                 cite_spans = make_cite_spans()
@@ -1249,6 +1391,12 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
     else:
         if stored_quotes is not None and "gold_equivalent" in stored_quotes:   # g8 --reuse-quotes: verified set unchanged
             gold_equiv, gold_equiv_ev = stored_quotes["gold_equivalent"], stored_quotes.get("gold_equivalent_evidence")
+            # g9: evidence resting on a cluster no longer cited (a withdrawn reconciliation hit) or on a gold_hit that
+            # is gone cannot stand; the text rule is not re-run in this mode, so it is 0 and flagged
+            ge = gold_equiv_ev or {}
+            if gold_equiv and ((ge.get("route") == "gold_hit")
+                               or (ge.get("cluster_id") and ge["cluster_id"] not in set(verified + unindexed_cids))):
+                gold_equiv, gold_equiv_ev = 0, {"g9_withdrawn": ge}
         else:
             gold_equiv, gold_equiv_ev = gold_equivalent_g7(q, verified + unindexed_cids, fetch_text)
             if gold_equiv_ev:
@@ -1264,7 +1412,9 @@ def summarize(answer, body, q, fetch_text=None, reconcile_fn=None, fetch_rule=No
             "reconciliation": reconciliation,
             "parallel_unresolved_raw": [c.get("raw") for c in parallel], "parallel_chain_lead": lead_of,
             "subsequent_history_raw": [c.get("raw") for c in history],
-            "retracted_raw": [c.get("raw") for c in retracted_c],
+            "retracted_raw": [c.get("raw") for c in retracted_c], "retracted_g9": retracted_g9, "twins": twins,
+            "g9_rejected_hits": [{"raw": ev.get("raw"), "hit": ev["g9_rejected_hit"]} for ev in reconciliation
+                                 if ev.get("g9_rejected_hit")],
             "court_propagated_miscite": [ev.get("raw") for c, ev in still_fab
                                          if ev and ev.get("miscited_real_case")
                                          and (ev.get("cite_corroborated_by_courts") or 0) >= 2],
@@ -1453,7 +1603,7 @@ def main():
                     counters["sent_text_changed"] += 1
             stored_recon = {rkey(ev.get("raw")): ev for ev in (old.get("reconciliation") or []) if ev.get("raw")}
             if a.reuse_quotes:
-                if not str(old.get("grader_version") or "").startswith(("g7", "g8")) or "quote_results" not in old:
+                if not str(old.get("grader_version") or "").startswith(("g7", "g8", "g9")) or "quote_results" not in old:
                     return row, None, "--reuse-quotes: stored grade has no g7+ quote verdicts"
                 stored_quotes = old
         else:
@@ -1474,13 +1624,14 @@ def main():
 
         def reconcile_fn(c):
             if rkey(c.get("raw")) in stored_recon:   # evidence raw may be spelled "504 Mich 152" for "504 Mich. 152"
-                return stored_recon[rkey(c.get("raw"))]
+                return rejudge_g9(stored_recon[rkey(c.get("raw"))], c)   # g9 (a)/(b) on the stored accepting hit
             ck = (c.get("volume"), c.get("reporter"), c.get("page"), json.dumps(c.get("claimed")), qrow.get("state"))
             with lock:
                 if ck in recon_cache:
                     return recon_cache[ck]
                 if a.reuse_check_brief:
                     counters["recon_live"] += 1
+                    print(f"  {run_id} {qid}: no stored reconciliation for {c.get('raw')!r}, run live", flush=True)
             ev = reconcile(c, sent, qrow.get("state"), call_json)
             with lock:
                 recon_cache[ck] = ev

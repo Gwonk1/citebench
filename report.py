@@ -230,7 +230,7 @@ def main():
               "cited / gold case's cite in the wrong reporter series (g8; still fabricated); misgrounded_rate = (n_name_mismatch + "
               "n_quote_absent)/n_cites; court_propagated = fabricated cites that are real cases "
               "miscited with a wrong volume/page that >= 2 other courts' opinions repeat (g6); retracted = cites the "
-              "model withdrew in the same answer, excluded from n_cites (g6); paraphrase_share = share of absent quotes that are accurate paraphrases "
+              "model withdrew in the same answer, excluded from n_cites (g6; g9 adds 'did not verify' / 'don't rely on' next to the cite); paraphrase_share = share of absent quotes that are accurate paraphrases "
               "put in quotation marks (>= 60% of the words in order; the rest are fabricated wording), graded "
               "g5+ only; quote_unattributed = quotes not found in any cited opinion whose own citation has no cluster "
               "(fabricated / unindexed cite, docket or WL cite) or with no resolved cited opinion at all: not counted in "
