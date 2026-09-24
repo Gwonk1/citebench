@@ -155,9 +155,17 @@ Mapping of check_brief output (observed 2026-09-22, server syfert-legal-research
   n_red / n_yellow= verified authorities whose treatment.flag_color is red / yellow
   gold_hit        = 1 if a verified authority has cluster_id == gold_cluster_id, or its
                     (volume, reporter, page) equals one parsed from gold_citation
-  gold_equivalent = g7: 1 if gold_hit, or if a verified (or unindexed-with-cluster) cited opinion's text contains a
-                    >= 12-word verbatim run of the question's proposition (the whole proposition when it has 6-11
-                    words; digit tokens dropped, g7 typography applied); evidence in _citebench.gold_equivalent_evidence.
+  gold_equivalent = g7: 1 if gold_hit, or if a verified (or unindexed-with-cluster) cited opinion's text contains the
+                    question's proposition (gold_equivalent_g7; evidence in _citebench.gold_equivalent_evidence, with
+                    rule 'run' or 'ellipsis_parts'). g10 (2026-09-23): a proposition with an ellipsis (". . .", "...",
+                    "\u2026", "[...]") is split there and matches when EVERY part of >= 5 words appears verbatim in that
+                    one opinion (parts under 5 words ignored; order not required) OR a >= 12-word verbatim run lies
+                    inside one part (runs never cross the ellipsis). Before g10 only the run rule existed, so a
+                    proposition whose parts are all short never matched (q0018). A proposition without an
+                    ellipsis keeps the >= 12-word verbatim run rule, or the whole proposition when it has 5-11 words.
+                    Both sides get the quote matcher's normalisation (whitespace, curly quotes, line-wrap hyphens,
+                    digit tokens dropped); bracketed alterations in the proposition are optional; a part or run may
+                    sit in the plain or the citation-stripped opinion text.
                     Text rule only: the "cites gold for that passage" arm is NOT used, because get_citing_cases cannot
                     say which passage a citer cites gold for (and caps at 100 citers); a citer that quotes the
                     proposition is already caught by the text rule.
@@ -196,7 +204,7 @@ ABSTAIN_RE = re.compile(
     r"no (?:verified|reliable) (?:citation|authority)", re.I)
 # Bump whenever grading logic (here, reconcile.py or the check_brief contract we rely on) changes, so the
 # report can show that every run was graded under the same grader.
-GRADER_VERSION = "g9-twins-20260923"
+GRADER_VERSION = "g10-goldequiv-20260923"
 
 WARN_RE = re.compile(
     r"\b(?:overruled|overruling|abrogated|abrogation|receded from|recede from|disapproved|superseded|"
@@ -661,22 +669,61 @@ def attached_cite_g7(answer, quote, cite_spans):
     return None
 
 
+_PROP_ELLIPSIS = re.compile(r"\.\s*\.\s*\.|\u2026|\[\s*\.\.\.\s*\]")
+G10_PART_MIN = 5      # an ellipsis part shorter than this is ignored ("; and")
+G10_RUN = 12          # proposition without ellipsis: a 12-word verbatim run (or the whole of a shorter one)
+
+
+def gold_equiv_needles_g10(prop):
+    """g10: -> [(mode, [needle, ...])] per bracket variant (as written / free-standing [groups] dropped / all dropped).
+    mode 'parts': the proposition has an ellipsis; needles = every part of >= 5 words, ALL must appear; it also gets a
+    'run' entry of the 12-word windows inside each part (never across the ellipsis), ANY of which suffices.
+    mode 'run': no ellipsis; needles = its 12-word windows (the whole proposition when it has 5-11 words), ANY."""
+    out, elided = [], bool(_PROP_ELLIPSIS.search(g7_norm(prop)))
+    for v in [prop] + _bracket_variants(prop):
+        v = g7_norm(v)
+        if elided and not _PROP_ELLIPSIS.search(v):   # a dropped "[...]" does not join the parts into one run
+            continue
+        if elided:         # split BEFORE EDITORIAL_RE, which would eat a bracketed "[...]"
+            words = [_match_words(EDITORIAL_RE.sub(" ", x)) for x in _PROP_ELLIPSIS.split(v)]
+            parts = [" " + " ".join(w) + " " for w in words if len(w) >= G10_PART_MIN]
+            if parts:
+                out.append(("parts", parts))
+            # a >= 12-word run inside ONE part still counts (q0057: the proposition's own lead-in "the commissioner
+            # must consider the following ..." is not in the opinions, but the quoted four-factor test is)
+            runs = [" " + " ".join(w[i:i + G10_RUN]) + " " for w in words for i in range(len(w) - G10_RUN + 1)]
+            if runs:
+                out.append(("run", runs))
+            continue
+        w = _match_words(EDITORIAL_RE.sub(" ", v))
+        if len(w) < G10_PART_MIN:
+            continue
+        size = min(G10_RUN, len(w))
+        out.append(("run", [" " + " ".join(w[i:i + size]) + " " for i in range(len(w) - size + 1)]))
+    return out
+
+
 def gold_equivalent_g7(q, cids, fetch_text):
-    """1 + evidence when a cited opinion's text contains a >= 12-word verbatim run of the question's proposition
-    (the whole proposition when it has 6-11 words)."""
-    w = _match_words(g7_norm((q or {}).get("proposition") or ""))
-    if len(w) < 6 or not fetch_text:
+    """g10 (was g7): 1 + evidence when a cited opinion's text contains the question's proposition: for a proposition
+    with an ellipsis (". . .", "...", "\u2026"), EVERY part of >= 5 words verbatim, or a >= 12-word verbatim run inside one
+    part; otherwise a >= 12-word verbatim run (the whole proposition when it is shorter). Both sides g7-normalised (whitespace, curly quotes, line-wrap hyphens,
+    digit tokens dropped); bracketed alterations in the proposition optional. A part / run may sit in the plain or
+    the citation-stripped text of that opinion."""
+    variants = gold_equiv_needles_g10((q or {}).get("proposition") or "")
+    if not variants or not fetch_text:
         return 0, None
-    size = min(12, len(w))
-    grams = {" " + " ".join(w[i:i + size]) + " " for i in range(len(w) - size + 1)}
     for cid in cids:
         t = fetch_text(cid)
         if not t:
             continue
-        for hay in (prep_opinion(t)[0],) + prep_opinion_g7(t):
-            hit = next((g for g in grams if g in hay), None)
-            if hit:
-                return 1, {"cluster_id": cid, "run": hit.strip()}
+        hays = (prep_opinion(t)[0],) + prep_opinion_g7(t)
+        for mode, needles in variants:
+            if mode == "run":
+                hit = next((g for g in needles if any(g in h for h in hays)), None)
+                if hit:
+                    return 1, {"cluster_id": cid, "rule": "run", "run": hit.strip()}
+            elif all(any(p in h for h in hays) for p in needles):
+                return 1, {"cluster_id": cid, "rule": "ellipsis_parts", "parts": [p.strip() for p in needles]}
     return 0, None
 
 

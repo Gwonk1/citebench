@@ -18,6 +18,11 @@ mcp --self-check = after the final answer the HARNESS sends it to check_brief it
 --tool-result-chars N (default: models.json "tool_result_chars" for the model, else 12000) truncates each tool
        result fed back to the model; recorded in config_json, and a run_id cannot be resumed with a different value.
 Resumable: (run_id, qid) pairs with a stored non-error answer are skipped; errored ones retried.
+Tool-call leaks: a final answer that is (or begins with) a tool call written as text ("<|tool_call>call:get_case{...}
+       <tool_call|>", <tool_call>{json}</tool_call>, bare {"name", "arguments"} JSON, ...; tool_call_leak()) is stored
+       as error "tool_call_leak" with raw_answer NULL, so the next invocation retries it. local provider only: when the
+       forced tool-free turn still yields a tool call (text or parsed), that turn is dropped and the model gets ONE more
+       tool-free turn after the user nudge TOOLS_CLOSED_NUDGE; logged as a {"name": "_tool_call_leak"} pseudo-call.
 """
 import argparse
 import concurrent.futures as cf
@@ -145,6 +150,40 @@ def findings_json(findings):
 
 class ProviderError(Exception):
     pass
+
+
+# A final answer that IS (or begins with) a tool call written as text. Gemma 4 on llama.cpp emits
+# "<|tool_call>call:get_case{cluster_id:1354880,...}<tool_call|>" on the forced tool-free turn (tool_choice "none"
+# switches the server's tool-call parser off, so the block arrives as content). Also the other text shapes llama.cpp's
+# parsers read: Hermes/Qwen <tool_call>{json}</tool_call>, Mistral [TOOL_CALLS], Llama 3 <|python_tag|>, functionary
+# <function=...>, and bare JSON {"name", "arguments"|"parameters"} / {"tool_call(s)": ...} / {"function": {...}}.
+TOOL_LEAK_ERROR = "tool_call_leak"
+TOOLS_CLOSED_NUDGE = "Tools are closed. Write your final answer as plain text."
+TOOL_LEAK_RE = re.compile(r"^\s*(?:<\|tool_call\|?>|<tool_call>|\[TOOL_CALLS\]|<\|python_tag\|>|<function[=>]|"
+                          r"call:[A-Za-z_]\w*\s*\{)")
+
+
+def tool_call_leak(text):
+    """True when the answer consists of / begins with a tool-call block instead of prose."""
+    t = (text or "").strip()
+    if not t:
+        return False
+    if TOOL_LEAK_RE.match(t):
+        return True
+    t = re.sub(r"^```(?:json)?\s*", "", t)
+    if t[:1] not in "{[":
+        return False
+    try:
+        obj, _ = json.JSONDecoder().raw_decode(t)
+    except ValueError:
+        return False
+    items = obj if isinstance(obj, list) else [obj]
+
+    def is_call(d):
+        return isinstance(d, dict) and (("name" in d and ("arguments" in d or "parameters" in d))
+                                        or "tool_call" in d or "tool_calls" in d
+                                        or isinstance(d.get("function"), dict))
+    return bool(items) and all(is_call(d) for d in items)
 
 
 def _post(url, headers, body, tries=4):
@@ -532,19 +571,38 @@ def run_question(q, arm, prov, spec, mcp_tools_raw, tools_fmt, keys, max_turns, 
     if isinstance(prov, Mock):
         st["q"] = q
 
+    def step(allow):
+        text, calls, (i, o), c = prov.step(st, tools_fmt if arm == "mcp" else None, allow)
+        acc["tin"] += i or 0
+        acc["tout"] += o or 0
+        if c is not None:
+            acc["cost"] += float(c)
+            acc["have_cost"] = True
+        return text, calls
+
     def loop(first, last):
         """Model turns first..last (the last one tool-free); returns (final text, last turn used)."""
         text = ""
         for turn in range(first, last + 1):
             allow = arm == "mcp" and turn < last
-            text, calls, (i, o), c = prov.step(st, tools_fmt if arm == "mcp" else None, allow)
-            acc["tin"] += i or 0
-            acc["tout"] += o or 0
-            if c is not None:
-                acc["cost"] += float(c)
-                acc["have_cost"] = True
+            text, calls = step(allow)
+            if (arm == "mcp" and not allow and isinstance(prov, OpenAICompat) and prov.name == "local"
+                    and (calls or tool_call_leak(text))):
+                # local llama.cpp: the forced tool-free turn still produced a tool call (as text, or parsed).
+                # Drop that unusable assistant turn and give ONE more tool-free turn with a nudge; a second leak
+                # is stored as error tool_call_leak (raw_answer NULL) so the resumable runner retries it.
+                leak = {"turn": turn, "name": "_tool_call_leak", "leaked_text": (text or "")[:1000],
+                        "leaked_calls": [[n, a] for _, n, a in calls], "nudge": TOOLS_CLOSED_NUDGE}
+                st["messages"].pop()
+                prov.add_user(st, TOOLS_CLOSED_NUDGE)
+                text, calls = step(False)
+                leak["nudged_ok"] = not calls and bool((text or "").strip()) and not tool_call_leak(text)
+                tool_log.append(leak)
+                if not leak["nudged_ok"]:
+                    return (text if tool_call_leak(text) else ""), turn, True
+                return text, turn, False
             if not calls or arm != "mcp":
-                return text, turn
+                return text, turn, False
             results = []
             for cid, name, args in calls:
                 t1 = time.time()
@@ -565,13 +623,15 @@ def run_question(q, arm, prov, spec, mcp_tools_raw, tools_fmt, keys, max_turns, 
                                  "latency_s": round(time.time() - t1, 2)})
                 results.append(res)
             prov.add_results(st, calls, results)
-        return text, last
+        return text, last, False
 
     text = ""
     try:
-        text, used = loop(1, 1 if arm == "bare" else max_turns)
+        text, used, leaked = loop(1, 1 if arm == "bare" else max_turns)
         err = None
-        if not (text or "").strip():
+        if leaked or tool_call_leak(text):
+            err, text = TOOL_LEAK_ERROR, ""
+        elif not (text or "").strip():
             err = "empty final answer"
         elif self_check and arm == "mcp":
             findings, info = run_self_check(text, q, keys, tls, dry)
@@ -584,8 +644,10 @@ def run_question(q, arm, prov, spec, mcp_tools_raw, tools_fmt, keys, max_turns, 
                 tin0, tout0 = acc["tin"], acc["tout"]
                 prov.add_user(st, SELF_CHECK_PROMPT.format(findings=findings_json(findings)))
                 try:
-                    rev, _ = loop(first, last)
-                    if (rev or "").strip():
+                    rev, _, rev_leaked = loop(first, last)
+                    if rev_leaked or tool_call_leak(rev):
+                        info["revision_error"] = "revision was a tool call, not an answer (draft kept)"
+                    elif (rev or "").strip():
                         text = rev
                         info["revised"] = True
                     else:
@@ -734,6 +796,10 @@ def main():
         else:
             r = run_question(q, a.arm, prov, spec, mcp_tools_raw, tools_fmt, keys, a.max_turns, a.dry_run, tls,
                              trc, a.self_check)
+        if r["raw_answer"] and tool_call_leak(r["raw_answer"]):   # any provider: a tool call is not an answer
+            tl = json.loads(r["tool_calls_json"] or "[]")
+            tl.append({"name": "_tool_call_leak", "leaked_text": r["raw_answer"][:1000], "nudged_ok": False})
+            r.update(raw_answer=None, error=TOOL_LEAK_ERROR, tool_calls_json=json.dumps(tl))
         with lock:
             if meta is not None:
                 row = con.execute("SELECT config_json FROM runs WHERE run_id=?", (run_id,)).fetchone()
