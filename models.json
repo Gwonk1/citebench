@@ -201,6 +201,14 @@
       "out_per_m": 0,
       "max_turns": 10,
       "note": "subscription (Claude Code headless, OAuth); nominal cost recorded in config_json from total_cost_usd"
+    },
+    "claude-sonnet-5-cc": {
+      "provider": "claudecode",
+      "model": "claude-sonnet-5",
+      "in_per_m": 0,
+      "out_per_m": 0,
+      "max_turns": 10,
+      "note": "Claude Sonnet 5 via the Claude Code harness (subscription), added 2026-09-23"
     }
   }
 }
