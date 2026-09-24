@@ -16,7 +16,7 @@ def read_report(fname):
             idx = {k: i for i, k in enumerate(c)}; continue
         if idx is None or len(c) != len(idx) or ":" not in c[2]: continue
         p = lambda k: float(c[idx[k]].rstrip("%"))
-        r = dict(n=int(c[idx["answered"]]), cites=int(c[idx["cites"]]), fab=p("fabricated_rate"), misgr=p("misgrounded_rate"), gold=p("gold_equiv"))
+        r = dict(n=int(c[idx["answered"]]), cites=int(c[idx["cites"]]), fab=p("fabricated_rate"), misgr=p("misgrounded_rate"), gold=p("gold_recall"))
         out.setdefault((c[0], c[1]), r); out[c[2]] = r
     return out
 # Every row comes from the current results/report_150.md (grader g10); the last column is gold_equiv.
@@ -43,9 +43,9 @@ plt.rcParams.update({"font.family": ["Inter", "DejaVu Sans"]})
 nrows = sum(sum(1 for k in ks if k) for _, *ks in MODELS)
 H = 4.35 + 0.6 * nrows + 0.25 * len(MODELS)
 fig = plt.figure(figsize=(16, H), dpi=150, facecolor=SURF); ax = fig.add_axes([0, 0, 1, 1]); ax.set_axis_off(); ax.set_xlim(0, 100); ax.set_ylim(0, 100)
-fig.text(0.04, 1 - 0.35 / H, "Do AI models cite real law correctly?", fontsize=24, fontweight="bold", color=INK, va="top")
+fig.text(0.04, 1 - 0.35 / H, "Syfert Case Hallucination Benchmark", fontsize=24, fontweight="bold", color=INK, va="top")
 fig.text(0.04, 1 - 0.85 / H, "150 real legal propositions (Florida, federal, 10 other states). Every citation in every answer checked against 10.7M opinions.", fontsize=13, color=INK2, va="top")
-HEAD = ["", "Questions", "Citations\nchecked", "Invented case\n(per 100 cites)", "Misquotes a real case\n(per 100 cites)", "Cited a case that\nstates the rule"]
+HEAD = ["", "Questions", "Citations\nchecked", "Invented case\n(per 100 cites)", "Misquotes a real case\n(per 100 cites)", "Found the\nright case"]
 cols = [4, 40, 51, 63, 78, 93]
 rh, gap = 100 * 0.6 / H, 100 * 0.25 / H
 y = 100 * (1 - 1.35 / H)
@@ -74,6 +74,6 @@ for name, bkey, tkey, vkey in MODELS:
 ly = y - gap * 1.6
 for i, (c, t) in enumerate(((GOOD, "good"), (WARN, "middling"), (BAD, "poor"))):
     ax.add_patch(FancyBboxPatch((4 + i * 11, ly - 0.9), 2.2, 1.8, boxstyle="round,pad=0,rounding_size=0.4", color=c, lw=0)); ax.text(7 + i * 11, ly, t, va="center", fontsize=12, color=INK2)
-FOOT = ["Lower is better for 'invented' and 'misquotes'; higher is better for 'cited a case that states the rule'. Misquote = the opinion does not contain the quoted words, or the case name is wrong.", "'+ Syfert MCP v7' rows via Claude Code (Opus, Sonnet) or local llama.cpp (Gemma) with only the Syfert tools attached; server upgraded 2026-09-23 (find_authority, verify_quote, cite_as).", "Bare rows via API except Sonnet (Claude Code). GPT-6, Gemini and Fable were not run with the v7 tools. The few 'invented' cites in the Fable, Opus and GPT-6 rows are real cases cited at a wrong page or volume.", "'Cited a case that states the rule' credits any cited opinion that contains the proposition verbatim; the earlier 'found the right case' column credited only the one case each question was drawn from,", "which penalised citing the origin (e.g. Iqbal for Iqbal's own sentence). All rows graded with grader g10 (Sept 23); earlier-column values and every grader version are in the repo.", 'Preliminary, Sept 23 2026. Grader hand-audited at ~90% precision. Harness, questions and raw results: github.com/Gwonk1/citebench  |  citebench by syfert.com (I run both the tool and the grader).']
+FOOT = ["Lower is better for 'invented' and 'misquotes'; higher is better for 'found the right case'. Misquote = the opinion does not contain the quoted words, or the case name is wrong.", "'Found the right case' = cited the case each question was drawn from (a real opinion courts cite for that proposition). Any other cited opinion that states the rule word for word is reported separately in the repo (gold_equiv).", "'+ Syfert MCP v7' rows via Claude Code (Opus, Sonnet) or local llama.cpp (Gemma) with only the Syfert tools attached; server upgraded 2026-09-23 (find_authority, verify_quote, cite_as).", "Bare rows via API except Sonnet (Claude Code). GPT-6, Gemini and Fable were not run with the v7 tools. The few 'invented' cites in the Fable, Opus and GPT-6 rows are real cases cited at a wrong page or volume.", 'All rows graded with grader g10 (Sept 23); every grader version is documented in the repo. Preliminary, Sept 23 2026. Grader hand-audited at ~90% precision.', 'Harness, questions and raw results: github.com/Gwonk1/citebench  |  citebench by syfert.com (I run both the tool and the grader).']
 fig.text(0.04, 0.25 / H, "\n".join(FOOT), fontsize=10.5, color=INK2, va="bottom")
 out = os.path.join(ROOT, "publish", "charts", "reddit_table.png"); fig.savefig(out, facecolor=SURF); print("wrote", out)
