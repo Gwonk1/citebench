@@ -27,9 +27,9 @@ MODELS = [  # (display name, bare run_id, unused, MCP v7 run_id) -- order set by
     ("Claude Fable 5.1", "claude-fable-5-1:bare:v1", None, None),
     ("GPT-6 Astra", "gpt-6-astra:bare:v1", None, None),
     ("Gemini 3.1 Pro", "gemini-3.1-pro-or:bare:v1", None, None),
-    ("Gemma 4 26B, local", "local-gemma:bare:v1", None, "local-gemma:mcp:v3"),
     ("Claude Opus 5.5", "claude-opus-5-5:bare:v1", None, "claude-opus-5-5-cc:mcp:v2"),
     ("Claude Sonnet 5", "claude-sonnet-5-cc:bare:v7", None, "claude-sonnet-5-cc:mcp:v7"),
+    ("Gemma 4 26B, local", "local-gemma:bare:v1", None, "local-gemma:mcp:v3"),
 ]
 GOOD, WARN, BAD = "#d9f0d9", "#fdebc2", "#f6d0d0"
 def tint(kind, v):
