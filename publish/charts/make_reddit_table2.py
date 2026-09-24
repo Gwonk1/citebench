@@ -31,6 +31,7 @@ MODELS = [  # (display name, bare run_id, unused, MCP v7 run_id) -- order set by
     ("Claude Sonnet 5", "claude-sonnet-5-cc:bare:v7", None, "claude-sonnet-5-cc:mcp:v7"),
     ("Gemma 4 26B, local", "local-gemma:bare:v1", None, "local-gemma:mcp:v3"),
 ]
+SUBLABEL = {"Gemma 4 26B, local": "no web access"}
 GOOD, WARN, BAD = "#d9f0d9", "#fdebc2", "#f6d0d0"
 def tint(kind, v):
     if kind == "fab":  return GOOD if v < 1 else WARN if v < 5 else BAD
@@ -56,6 +57,8 @@ for name, bkey, tkey, vkey in MODELS:
     n_lines = sum(1 for k in (bkey, tkey, vkey) if k)
     ax.add_patch(Rectangle((3, y - n_lines * rh), 96, n_lines * rh, color=BAND, lw=0, zorder=0))
     ax.text(cols[0] + 1, y - rh * 0.5, name, ha="left", va="center", fontsize=15, fontweight="bold", color=INK, zorder=2)
+    if name in SUBLABEL and n_lines >= 2:  # second line under the model name
+        ax.text(cols[0] + 1, y - rh * 0.98, SUBLABEL[name], ha="left", va="center", fontsize=12.5, style="italic", color=INK2, zorder=2)
     first = True
     for key, arm, sub in ((bkey, "bare", "on its own"), (vkey, "v7", "+ Syfert MCP v7")):
         if not key: continue
