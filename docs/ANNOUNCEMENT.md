@@ -22,4 +22,9 @@ Limits. The checking tool and the database are mine (I run syfert.com), and the 
 
 Results and methodology are at https://syfert.com/mcp/citebench/. The questions, code and every graded answer are public at https://github.com/Gwonk1/citebench. Any vendor can run the test on its own product and submit the results.
 
+**Update 2026-09-23.** Two rows were added, run against the upgraded Syfert tool server (MCP v7), which adds find_authority and verify_quote, pinpoint pages in cite_as, and corrections in check_brief output.
+Gemma 4 26B with MCP v7 (150 questions): 0.0% fabricated (0 of 171 citations), 1.2% misgrounded (2 of 171), expected case found in 90.0% (135 of 150).
+Claude Opus 5.5 with MCP v7, through Claude Code (60 questions): 0.9% fabricated (2 of 231), 0.4% misgrounded (1 of 231), expected case found in 98.3% (59 of 60).
+These two rows were graded with grader g8; the other published rows are unchanged from 2026-09-22 (grader g6). The g8 re-grade of every row is in the repository.
+
 Graham Syfert
