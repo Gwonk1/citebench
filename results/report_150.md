@@ -1,6 +1,6 @@
 # citebench report
 
-generated 2026-09-23T21:57:12 from `results/results.db` — HEADLINE SLICE: questions <= q0150 only (same questions for every run)
+generated 2026-09-23T22:03:36 from `/home/graham/projects/citebench/results/results.db` — HEADLINE SLICE: questions <= q0150 only (same questions for every run)
 
 ## Metrics per (model, arm)
 
@@ -13,6 +13,8 @@ generated 2026-09-23T21:57:12 from `results/results.db` — HEADLINE SLICE: ques
 | claude-opus-5-5-cc | mcp | claude-opus-5-5-cc:mcp:v1 | 60 | 0 | 60 | 258 | 0.4% | 0 | 0.0% | 1.2% | 1 | 1 | 2.3% | 80.0% | 1 | 2.0% | 98.3% | 100.0% | 0.0% | 80.0% (5) | 4.7 | 21.6 | 0.0000 |
 | claude-opus-5-5-cc | mcp | claude-opus-5-5-cc:mcp:v2 | 60 | 0 | 60 | 229 | 0.0% | 0 | n/a | 0.4% | 0 | 1 | 0.4% | 0.0% | 0 | 2.2% | 98.3% | 100.0% | 0.0% | 60.0% (5) | 4.5 | 20.0 | 0.0000 |
 | claude-opus-5-5-cc | mcp | claude-opus-5-5-cc:mcp:v2+check | 60 | 0 | 60 | 242 | 0.8% | 1 | 0.0% | 1.7% | 0 | 0 | 1.2% | 50.0% | 0 | 2.1% | 100.0% | 100.0% | 0.0% | 100.0% (5) | 6.5 | 27.0 | 0.0000 |
+| claude-sonnet-5-cc | bare | claude-sonnet-5-cc:bare:v7 | 150 | 0 | 150 | 371 | 2.7% | 0 | 40.0% | 3.0% | 0 | 0 | 15.1% | 40.0% | 5 | 3.4% | 46.7% | 55.3% | 6.0% | 27.8% (18) | 0.0 | 11.4 | 0.0000 |
+| claude-sonnet-5-cc | mcp | claude-sonnet-5-cc:mcp:v7 | 60 | 0 | 60 | 177 | 0.6% | 1 | 100.0% | 1.7% | 0 | 0 | 5.6% | 66.7% | 0 | 3.5% | 98.3% | 100.0% | 0.0% | 100.0% (5) | 4.3 | 21.6 | 0.0000 |
 | claude-sonnet-5-or | mcp | claude-sonnet-5-or:mcp:v1 | 60 | 5 | 55 | 264 | 0.8% | 0 | 0.0% | 1.1% | 1 | 0 | 1.1% | n/a | 0 | 1.2% | 92.7% | 94.5% | 0.0% | 80.0% (5) | 4.9 | 32.7 | 8.8240 |
 | deepseek-v4-pro | bare | deepseek-v4-pro:bare:v1 | 150 | 0 | 150 | 230 | 5.7% | 0 | 23.1% | 8.7% | 0 | 0 | 38.7% | 21.7% | 3 | 2.9% | 30.0% | 44.7% | 1.3% | 11.1% (18) | 0.0 | 52.6 | 0.9268 |
 | deepseek-v4.1-flash-or | bare | deepseek-v4.1-flash-or:bare:v1 | 60 | 1 | 59 | 99 | 2.0% | 0 | 50.0% | 3.0% | 0 | 0 | 16.2% | 33.3% | 0 | 1.1% | 32.2% | 49.2% | 0.0% | 40.0% (5) | 0.0 | 105.8 | 0.1629 |
@@ -22,8 +24,8 @@ generated 2026-09-23T21:57:12 from `results/results.db` — HEADLINE SLICE: ques
 | gemini-3.8-flash-or | mcp | gemini-3.8-flash-or:mcp:v1 | 40 | 37 | 3 | 4 | 0.0% | 0 | n/a | 0.0% | 0 | 0 | 0.0% | n/a | 0 | 0.0% | 100.0% | 100.0% | 0.0% | n/a (0) | 1.1 | 4.0 | 0.2120 |
 | gpt-6-astra | bare | gpt-6-astra:bare:v1 | 150 | 0 | 150 | 217 | 0.0% | 0 | n/a | 0.5% | 0 | 0 | 6.0% | 46.2% | 0 | 4.6% | 58.0% | 70.0% | 0.0% | 11.1% (18) | 0.0 | 25.1 | 6.0984 |
 | local-gemma | bare | local-gemma:bare:v1 | 150 | 0 | 150 | 259 | 68.7% | 2 | 36.5% | 72.6% | 0 | 0 | 30.5% | 6.7% | 52 | 1.9% | 3.3% | 3.3% | 0.0% | 0.0% (18) | 0.0 | 54.1 | 0.0000 |
-| local-gemma | mcp | local-gemma:mcp:v1 | 150 | 0 | 150 | 287 | 0.7% | 1 | 0.0% | 1.4% | 0 | 0 | 2.8% | 50.0% | 0 | 3.2% | 70.7% | 90.0% | 0.0% | 22.2% (18) | 2.2 | 120.4 | 0.0000 |
-| local-gemma | mcp | local-gemma:mcp:v2 | 150 | 0 | 150 | 228 | 2.2% | 5 | 20.0% | 2.2% | 0 | 0 | 0.9% | 50.0% | 0 | 4.9% | 88.0% | 97.3% | 0.0% | 22.2% (18) | 2.5 | 142.7 | 0.0000 |
+| local-gemma | mcp | local-gemma:mcp:v1 | 150 | 0 | 150 | 289 | 0.7% | 1 | 0.0% | 1.4% | 0 | 0 | 2.8% | 50.0% | 0 | 3.2% | 72.0% | 91.3% | 0.0% | 22.2% (18) | 2.1 | 119.5 | 0.0000 |
+| local-gemma | mcp | local-gemma:mcp:v2 | 150 | 0 | 150 | 230 | 2.2% | 5 | 20.0% | 2.2% | 0 | 0 | 0.9% | 50.0% | 0 | 4.9% | 89.3% | 98.7% | 0.0% | 22.2% (18) | 2.5 | 139.9 | 0.0000 |
 | local-gemma | mcp | local-gemma:mcp:v2+check | 150 | 0 | 150 | 203 | 0.0% | 1 | n/a | 0.0% | 0 | 0 | 1.5% | 50.0% | 0 | 6.4% | 88.7% | 98.0% | 0.0% | 55.6% (18) | 3.0 | 130.6 | 0.0000 |
 | local-gemma | mcp | local-gemma:mcp:v3 | 150 | 0 | 150 | 172 | 0.6% | 1 | 0.0% | 1.2% | 0 | 0 | 1.2% | 50.0% | 0 | 7.1% | 90.7% | 100.0% | 0.0% | 0.0% (18) | 1.4 | 85.3 | 0.0000 |
 | qwen3.8-flash-or | bare | qwen3.8-flash-or:bare:v1 | 60 | 0 | 60 | 174 | 54.6% | 1 | 26.3% | 58.6% | 0 | 0 | 41.4% | 8.2% | 27 | 0.0% | 8.3% | 16.7% | 0.0% | 20.0% (5) | 0.0 | 28.4 | 0.0470 |
@@ -37,9 +39,10 @@ Grader version(s): `g10-goldequiv-20260923`
 | model | tag | common q | Δ fabricated_rate | Δ misgrounded_rate | Δ red_rate | Δ gold_recall | Δ abstain_rate | Δ warned_rate |
 |---|---|---|---|---|---|---|---|---|
 | claude-fable-5-1-cc | v1 | 60 | +0.3 pp | -6.6 pp | +0.1 pp | +21.7 pp | -1.7 pp | +40.0 pp |
+| claude-sonnet-5-cc | v7 | 60 | -0.8 pp | -10.8 pp | +2.1 pp | +60.0 pp | -8.3 pp | +80.0 pp |
 | deepseek-v4.1-flash-or | v1 | 57 | -2.1 pp | -13.4 pp | -0.0 pp | +57.9 pp | +0.0 pp | +40.0 pp |
 | gemini-3.8-flash-or | v1 | 3 | +0.0 pp | -50.0 pp | +0.0 pp | +0.0 pp | +0.0 pp | n/a |
-| local-gemma | v1 | 150 | -68.0 pp | -27.7 pp | +1.3 pp | +67.3 pp | +0.0 pp | +22.2 pp |
+| local-gemma | v1 | 150 | -68.0 pp | -27.7 pp | +1.3 pp | +68.7 pp | +0.0 pp | +22.2 pp |
 | qwen3.8-flash-or | v1 | 54 | -51.8 pp | -35.0 pp | +1.6 pp | +77.8 pp | +0.0 pp | +75.0 pp |
 
 Definitions: fabricated_rate = n_fabricated/n_cites (headline: unresolved cites that reconcile.py could NOT match to a real, not-yet-indexed case); fabricated_strict_rate = (n_fabricated + n_unindexed)/n_cites (every cite the reporter index cannot resolve, for transparency); pin_refs = bare pinpoints ('223 So. 2d 102' after '223 So. 2d 100') folded into the resolved authority they pin, not counted as cites (g8); near_miss_share = share of fabricated cites tagged near_miss: an interior page of an uncited case per the reporter index, or a cited / gold case's cite in the wrong reporter series (g8; still fabricated); misgrounded_rate = (n_name_mismatch + n_quote_absent)/n_cites; court_propagated = fabricated cites that are real cases miscited with a wrong volume/page that >= 2 other courts' opinions repeat (g6); retracted = cites the model withdrew in the same answer, excluded from n_cites (g6; g9 adds 'did not verify' / 'don't rely on' next to the cite); paraphrase_share = share of absent quotes that are accurate paraphrases put in quotation marks (>= 60% of the words in order; the rest are fabricated wording), graded g5+ only; quote_unattributed = quotes not found in any cited opinion whose own citation has no cluster (fabricated / unindexed cite, docket or WL cite) or with no resolved cited opinion at all: not counted in misgrounded_rate (g7); red_rate = n_red/n_verified; gold_recall = mean(gold_hit) (headline); gold_equiv = mean(gold_equivalent): gold_hit, or a cited opinion whose text holds a >= 12-word verbatim run of the question's proposition (g7; the paired delta table stays on gold_recall); abstain_rate = mean(abstained); warned_rate = mean(warned_treatment) over questions whose gold_flag is yellow/red only (count in parentheses). Rates are pooled over answers. See grade.py docstring for how check_brief output maps to each count.
