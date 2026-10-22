@@ -263,12 +263,26 @@ def from_fixes(con):
     return rows
 
 
+def from_harder():
+    path = os.path.join(ITEMS, "harder.jsonl")
+    if not os.path.exists(path):
+        return []
+    rows = []
+    for raw in load("harder.jsonl"):
+        rows.append(task(raw["id"], raw["class"], raw["text"], raw["gold"]))
+    return rows
+
+
 def from_pilot():
     rows = []
     spec = {
         "p01-control": ("control", {"right": ["Brown", "347 U.S. 483"], "absent": REJECTION, "note": "real cite"}),
         "p02-name-alone": ("caption", {"right": ["Brown"], "note": "the cite is Brown, not Smith v. Jones"}),
-        "p03-name-collapse": ("caption", {"right": ["Brown"], "note": "the second name on the same cite is not a second case"}),
+        "p03-name-collapse": ("caption", {
+            "right": ["Brown"],
+            "any_of": ["does not match", "wrong name", "not the name", "not this case", "different case"],
+            "note": "the second name on the same cite is dropped, with no warning",
+        }),
         "p04-interior": ("pagination", {"right": ["347 U.S. 483"], "note": "347 U.S. 484 is an interior page of Brown"}),
         "p05-treatment": ("treatment", {"any_of": TREATMENT, "note": "overruled"}),
         "p06-fabrication": ("control", {"reject": True, "note": "not a case"}),
@@ -285,7 +299,7 @@ def from_pilot():
 
 def main():
     con = sqlite3.connect("file:" + META + "?mode=ro", uri=True)
-    rows = from_courts() + from_bluebook() + from_fixes(con) + from_pilot()
+    rows = from_courts() + from_bluebook() + from_fixes(con) + from_harder() + from_pilot()
     # Stable order: class, then id.
     rows.sort(key=lambda r: (r["class"], r["id"]))
     with open(OUT, "w") as f:

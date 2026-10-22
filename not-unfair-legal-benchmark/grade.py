@@ -14,6 +14,9 @@ If the case has been overruled, receded from, or abrogated, say so.
 If the opinion is unpublished or nonprecedential, say so.
 If a quotation is garbled or not safe to quote, say so.
 Do not use a Westlaw or LEXIS citation when a reporter citation exists.
+If the citation is a denial of certiorari, an orders page, or a dismissal for want of a substantial federal question, say so. If that citation is not the decision's own reporter citation, give the reporter citation.
+If the case name does not match the citation, say so.
+If the reporter in the passage is the wrong series, give the reporter the decision is actually in.
 """
 
 REJECT = (
@@ -139,8 +142,13 @@ def self_check(task):
         bad_ok, _ = grade(base + " 2016 WL 1", g)
         if bad_ok:
             return False, "a vendor cite was accepted"
-    elif g.get("any_of") and not g.get("right"):
-        bad_ok, _ = grade("Status: FOUND. The case is good law.", g)
+    elif g.get("any_of"):
+        base = []
+        if g.get("right"):
+            base.extend(g["right"])
+        if g.get("any_right"):
+            base.append(g["any_right"][0])
+        bad_ok, _ = grade(" ".join(base) + " Status: FOUND. The case is good law.", g)
         if bad_ok:
-            return False, "silence on treatment was accepted"
+            return False, "silence on the required flag was accepted"
     return True, "ok"

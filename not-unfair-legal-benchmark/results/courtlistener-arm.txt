@@ -1,20 +1,22 @@
 CourtListener arm, graded as answer text against items/tasks.jsonl
-pass 32  miss 125  no saved answer 7
+pass 32  miss 153  no saved answer 6
 
-bluebook         pass   0  miss  62
-caption          pass   8  miss   0
+bluebook         pass   0  miss  66
+caption          pass   8  miss   1
 control          pass   1  miss   0
 coverage         pass   0  miss  16
+history          pass   0  miss   9
 misprint         pass   0  miss   7
 pagination       pass   7  miss   1
 quotation        pass   0  miss   6
-statute          pass   0  miss   1
+series           pass   0  miss  10
+statute          pass   0  miss   5
 treatment        pass   0  miss  16
 twin             pass   8  miss   0
 vendor           pass   0  miss  16
 wrong_cite       pass   8  miss   0
 
-no saved answer: p02-name-alone, p03-name-collapse, p01-control, p04-interior, p09-statute, p05-treatment, p08-twin
+no saved answer: p02-name-alone, p01-control, p04-interior, p09-statute, p05-treatment, p08-twin
 
 miss ct-ard           bluebook     missing D. Ark.
 miss ct-bap1          bluebook     missing B.A.P. 1st Cir.
@@ -30,6 +32,7 @@ miss ct-cal3          bluebook     has cal. ct. app. 3rd
 miss ct-cal4          bluebook     has cal. ct. app. 4th
 miss ct-cal5          bluebook     has cal. ct. app. 5th
 miss ct-cal6          bluebook     has cal. ct. app. 6th
+miss ct-cit           bluebook     missing Ct. Int'l Trade
 miss ct-cob           bluebook     missing Bankr. D. Colo.
 miss ct-dcb           bluebook     missing Bankr. D.D.C.
 miss ct-fla1          bluebook     missing Fla. 1st DCA
@@ -59,7 +62,10 @@ miss ct-okd           bluebook     missing D. Okla.
 miss ct-oknb          bluebook     missing Bankr. N.D. Okla.
 miss ct-pamb          bluebook     missing Bankr. M.D. Pa.
 miss ct-pamd          bluebook     missing M.D. Pa.
+miss ct-scotus        bluebook     missing U.S.
+miss ct-tax           bluebook     missing T.C.
 miss ct-texapp        bluebook     missing Tex. App.—Houston [14th Dist.]
+miss ct-txcca         bluebook     missing Tex. Crim. App.
 miss ct-vacc          bluebook     missing Va. Cir. Ct.
 miss ct-vachan        bluebook     missing Va. Ch. Ct.
 miss ct-wvad          bluebook     missing D. W. Va.
@@ -78,6 +84,7 @@ miss dca-4-2          bluebook     missing Fla. 4th DCA
 miss dca-5-1          bluebook     missing Fla. 5th DCA
 miss dca-5-2          bluebook     missing Fla. 5th DCA
 miss dca-6-3          bluebook     missing Fla. 6th DCA
+miss p03-name-collapse caption      missing does not match / wrong name / not the name / not this case / different case
 miss c1-01            coverage     answer says not found
 miss c1-02            coverage     answer says not found
 miss c1-03            coverage     answer says not found
@@ -94,6 +101,15 @@ miss op-05            coverage     answer says not found
 miss op-06            coverage     answer says not found
 miss op-07            coverage     answer says not found
 miss op-08            coverage     answer says not found
+miss h-102            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-110            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-113            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-114            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-421            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-67             history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-68a            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-68b            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-85             history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
 miss c8-01            misprint     missing 126 S. Ct. 1235
 miss c8-03            misprint     missing 676 N.E.2d 339
 miss c8-04            misprint     missing 983 P.2d 779
@@ -108,7 +124,21 @@ miss c10-03           quotation    missing garbled / ocr / corrupt / not reliabl
 miss c10-04           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
 miss c10-05           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
 miss c10-06           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
+miss flw-01           series       missing Fla. 1st DCA
+miss flw-02           series       missing Fla. 1st DCA
+miss flw-03           series       missing Fla. 2d DCA
+miss flw-04           series       missing Fla. 2d DCA
+miss flw-05           series       missing Fla. 3d DCA
+miss flw-06           series       missing Fla. 3d DCA
+miss flw-07           series       missing Fla. 4th DCA
+miss flw-08           series       missing Fla. 4th DCA
+miss flw-09           series       missing Fla. 5th DCA
+miss flw-10           series       missing Fla. 5th DCA
 miss p10-rule         statute      missing 1.140
+miss st-fake          statute      did not reject the cite
+miss st-frcp          statute      missing 56
+miss st-frcrim        statute      missing 3.850
+miss st-fre           statute      missing 702
 miss c4-01            treatment    missing overruled / receded / abrogated / no longer good law
 miss c4-02            treatment    missing overruled / receded / abrogated / no longer good law
 miss c4-03            treatment    missing overruled / receded / abrogated / no longer good law

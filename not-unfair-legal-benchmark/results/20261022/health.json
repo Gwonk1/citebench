@@ -1,0 +1,13 @@
+{
+  "status": "healthy",
+  "version": "f4266e7",
+  "services": {
+    "mcp": true,
+    "redis": true,
+    "postgres": true
+  },
+  "config": {
+    "oauth_client": true,
+    "oauth_store": true
+  }
+}
