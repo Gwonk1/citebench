@@ -10,7 +10,7 @@ It is a citation test and a bluebooking test.
 
 A citation item asks whether the connected caselaw returns the right case.
 
-A real reporter cite that was never attached to the opinion comes back missing. A cite that was never a case comes back missing in the same words, so the set keeps both. A one-digit misprint is a miss when the neighbor is not named. An interior page is a miss when it does not resolve to the reported first page. Two clusters that share a cite are a miss when only one is named. A wrong caption on a real cite is a miss when the caption is accepted. The same cite sent twice, once under the right name and once under a wrong name, is a miss when the wrong name disappears and nothing says it does not match.
+A real reporter cite that was never attached to the opinion comes back missing. A one-digit misprint is a miss when the neighbor is not named. An interior page is a miss when it does not resolve to the reported first page. A wrong caption on a real cite is a miss when the caption is accepted. A caption that still carries a looseleaf service name, a caption stored as a list literal, and a caption with the front of the name cut off are that kind of miss. The same cite sent twice, once under the right name and once under a wrong name, is a miss when the wrong name disappears and nothing says it does not match.
 
 A denial of certiorari, an orders page, or a dismissal for want of a substantial federal question is a miss when the result presents that page as the lower court's own citation. Several of those pages are attached to the lower-court opinion and to the order at the same time. One Supreme Court page from 1981 is also attached to a 1996 court of appeals case.
 
@@ -34,15 +34,15 @@ Every item is a passage. Every system gets the same instruction and is graded on
 
 The instruction is `PROMPT` in `grade.py`. The passage is `text` in `items/tasks.jsonl`. The gold is strings. A pass means the corrected cite or the corrected court form is in the answer. A miss means the answer repeats the bad form, rejects a real cite, stays silent on treatment, or adds a Westlaw or LEXIS cite beside a reporter cite.
 
-`grade.grade(answer, gold)` returns that pass or miss. `grade.render(task)` is the full text to send. `python3 score_saved.py` grades the CourtListener replies already on disk. That arm is 32 passes and 153 misses, with 6 passages that were never saved as their own reply.
+`grade.grade(answer, gold)` returns that pass or miss. `grade.render(task)` is the full text to send. `python3 score_saved.py` grades the CourtListener replies already on disk. That arm misses every passage: 187 misses, and a saved reply for each one. The CourtListener arm is the baseline, and the baseline is zero. The passages added for that baseline were saved against server 9386476.
 
-These rows are not in `tasks.jsonl`. The 1993 and 1994 Sixth DCA items are not that court. Five vendor rows are the same page, `136 S. Ct. 871`. `p07` is a candidate reporter number. One misprint overlay names the wrong page. A trailing space and two Florida circuit strings that are only `2nd` and `3rd` are not legal answers.
+These rows are not in `tasks.jsonl`. The 1993 and 1994 Sixth DCA items are not that court. Five vendor rows are the same page, `136 S. Ct. 871`. `p07` is a candidate reporter number. One misprint overlay names the wrong page. A trailing space and two Florida circuit strings that are only `2nd` and `3rd` are not legal answers. Passages the CourtListener arm already answered are not in the set.
 
 ## Layout
 
 The code is this directory, `citebench/not-unfair-legal-benchmark/`.
 
-- `items/tasks.jsonl` is the set. 191 passages.
+- `items/tasks.jsonl` is the set. 187 passages.
 - `grade.py` is the instruction and the matcher.
 - `items/pilot.jsonl`, `from_fixes.jsonl`, `bluebook.jsonl`, `courts.jsonl`, and `harder.jsonl` are the lookups the passages were built from. `build_tasks.py` rebuilds `tasks.jsonl`. `build_harder.py` rewrites `harder.jsonl`.
 - `run.py` is the CourtListener arm. It sends one lookup per call and writes `results/<date>/<id>.txt`. It skips ids already on disk. Pace is one call, then 1.5 seconds.

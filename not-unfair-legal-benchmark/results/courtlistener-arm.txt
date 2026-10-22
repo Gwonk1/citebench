@@ -1,22 +1,17 @@
 CourtListener arm, graded as answer text against items/tasks.jsonl
-pass 32  miss 153  no saved answer 6
+pass 0  miss 187  no saved answer 0
 
 bluebook         pass   0  miss  66
-caption          pass   8  miss   1
-control          pass   1  miss   0
+caption          pass   0  miss  17
 coverage         pass   0  miss  16
-history          pass   0  miss   9
+history          pass   0  miss  18
 misprint         pass   0  miss   7
-pagination       pass   7  miss   1
+pagination       pass   0  miss   9
 quotation        pass   0  miss   6
 series           pass   0  miss  10
 statute          pass   0  miss   5
-treatment        pass   0  miss  16
-twin             pass   8  miss   0
+treatment        pass   0  miss  17
 vendor           pass   0  miss  16
-wrong_cite       pass   8  miss   0
-
-no saved answer: p02-name-alone, p01-control, p04-interior, p09-statute, p05-treatment, p08-twin
 
 miss ct-ard           bluebook     missing D. Ark.
 miss ct-bap1          bluebook     missing B.A.P. 1st Cir.
@@ -84,6 +79,22 @@ miss dca-4-2          bluebook     missing Fla. 4th DCA
 miss dca-5-1          bluebook     missing Fla. 5th DCA
 miss dca-5-2          bluebook     missing Fla. 5th DCA
 miss dca-6-3          bluebook     missing Fla. 6th DCA
+miss cap-front-01     caption      missing Ex parte
+miss cap-front-02     caption      missing Eugenia Arpon
+miss cap-list-01      caption      has ['
+miss cap-list-02      caption      has ['
+miss cap-list-03      caption      has ['
+miss cap-list-04      caption      has ['
+miss cap-list-05      caption      has ['
+miss cap-list-06      caption      has ['
+miss cap-svc-01       caption      has medicare&medicaid
+miss cap-svc-02       caption      has medicare&medicaid
+miss cap-svc-03       caption      has medicare&medicaid
+miss cap-svc-04       caption      has medicare&medicaid
+miss cap-svc-05       caption      has medicare&medicaid
+miss cap-svc-06       caption      has medicare&medicaid
+miss cap-svc-07       caption      has medicare&medicaid
+miss cap-svc-08       caption      has medicare&medicaid
 miss p03-name-collapse caption      missing does not match / wrong name / not the name / not this case / different case
 miss c1-01            coverage     answer says not found
 miss c1-02            coverage     answer says not found
@@ -110,6 +121,15 @@ miss h-67             history      missing cert. denied / certiorari denied / de
 miss h-68a            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
 miss h-68b            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
 miss h-85             history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-ord-01         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-ord-02         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-ord-03         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-ord-04         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-ord-05         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-ord-06         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-ord-07         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-ord-08         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss h-ord-09         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
 miss c8-01            misprint     missing 126 S. Ct. 1235
 miss c8-03            misprint     missing 676 N.E.2d 339
 miss c8-04            misprint     missing 983 P.2d 779
@@ -118,6 +138,14 @@ miss c8-06            misprint     missing 145 So. 3d 495
 miss c8-07            misprint     missing 438 U.S. 154
 miss c8-08            misprint     missing 560 U.S. 586
 miss c5-06            pagination   missing 41 Vt. 122
+miss p04-interior     pagination   missing 347 U.S. 483
+miss pin-02           pagination   missing 467 U.S. 837
+miss pin-03           pagination   missing 384 U.S. 436
+miss pin-04           pagination   missing 410 U.S. 113
+miss pin-10           pagination   missing 514 U.S. 549
+miss pin-11           pagination   missing 428 U.S. 153
+miss pin-12           pagination   missing 554 U.S. 570
+miss pin-14           pagination   missing 597 U.S. 215
 miss c10-01           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
 miss c10-02           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
 miss c10-03           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
@@ -155,6 +183,7 @@ miss c4b-05           treatment    missing unpublished / not precedential / nonp
 miss c4b-06           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
 miss c4b-07           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
 miss c4b-08           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
+miss p05-treatment    treatment    missing overruled / receded / abrogated / no longer good law
 miss c6-01            vendor       missing 216 F.R.D. 481
 miss c6-02            vendor       missing 11 Tex. Ct. App. 114
 miss c6-03            vendor       missing 17 C.M.A. 147

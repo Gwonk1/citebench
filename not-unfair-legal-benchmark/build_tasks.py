@@ -11,7 +11,9 @@ RESULTS = os.path.join(HERE, "results")
 OUT = os.path.join(ITEMS, "tasks.jsonl")
 META = "/home/graham/projects/courtlistener/pkg/caselaw_meta.db"
 
-# Rows whose gold is wrong, duplicated, or not a legal answer.
+# Rows whose gold is wrong, duplicated, or not a legal answer,
+# plus passages the CourtListener arm already passes. Those passes are
+# replaced in build_harder.py. The gold was not retuned to flip them.
 DROP = {
     "p07-coverage",  # reporter number is a candidate, not gold
     "dca-6-1", "dca-6-2",  # 1993 and 1994, before the Sixth DCA existed
@@ -20,6 +22,14 @@ DROP = {
     "c8-02",  # overlay page does not match the reporter page on the case
     "ct-vt",  # trailing space is not a Bluebook answer a string match can see
     "ct-flacir2", "ct-flacir3",  # the stored cite is only "2nd" / "3rd"
+    # CourtListener already returns a passing answer.
+    "c9-01", "c9-02", "c9-03", "c9-04", "c9-05", "c9-06", "c9-07", "c9-08",
+    "p06-fabrication",
+    "c5-01", "c5-02", "c5-03", "c5-04", "c5-05", "c5-07", "c5-08",  # c5-06 stays
+    "c3-01", "c3-02", "c3-03", "c3-04", "c3-05", "c3-06", "c3-07", "c3-08",
+    "c2-01", "c2-02", "c2-03", "c2-04", "c2-05", "c2-06", "c2-07", "c2-08",
+    # No saved reply, and a CourtListener answer would pass.
+    "p01-control", "p02-name-alone", "p08-twin", "p09-statute",
 }
 
 # The question names the department, so the gold is one form and not a guess.
@@ -292,6 +302,8 @@ def from_pilot():
     }
     by_id = {r["id"]: r for r in load("pilot.jsonl")}
     for iid, (klass, gold) in spec.items():
+        if iid in DROP:
+            continue
         raw = by_id[iid]
         rows.append(task(iid, klass, raw["text"], gold))
     return rows

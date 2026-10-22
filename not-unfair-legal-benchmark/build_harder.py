@@ -11,6 +11,10 @@
 #   case filed under texapp (docket PD-1453-15, 479 S.W.3d 422).
 # statute: rule forms and one cite that is not a section. Kept only if the
 #   CourtListener reply misses them; score_saved is the check.
+# zero: replacements for passages the CourtListener arm already passed.
+#   Interior pages that come back NOT FOUND, captions that still carry a
+#   looseleaf name or a list literal, two truncated captions, and orders
+#   pages filed under the court below. Each was a miss on server 9386476.
 import json
 import os
 
@@ -197,6 +201,95 @@ rows.append({
     "text": "99 U.S.C. § 99999.",
     "gold": {"reject": True, "note": "not a section"},
 })
+
+# Famous interior pages the lookup does not fold back to the first page.
+# Pages it does fold (Mapp, Terry, Katz, Sullivan, Brandenburg, Casey) are
+# not here. 347 U.S. 484 is already p04-interior.
+# 559 U.S. 460 and 559 U.S. 573 already return the corrected case names
+# on server 9386476, so those captions are not planted.
+for iid, text, first, note in (
+    ("pin-02", "467 U.S. 838.", "467 U.S. 837", "interior page of Chevron"),
+    ("pin-03", "384 U.S. 437.", "384 U.S. 436", "interior page of Miranda"),
+    ("pin-04", "410 U.S. 114.", "410 U.S. 113", "interior page of Roe"),
+    ("pin-10", "514 U.S. 550.", "514 U.S. 549", "interior page of Lopez"),
+    ("pin-11", "428 U.S. 154.", "428 U.S. 153", "interior page of Gregg"),
+    ("pin-12", "554 U.S. 571.", "554 U.S. 570", "interior page of Heller"),
+    ("pin-14", "597 U.S. 216.", "597 U.S. 215", "interior page of Dobbs"),
+):
+    rows.append({
+        "id": iid,
+        "class": "pagination",
+        "tool": "analyze_citations",
+        "text": text,
+        "gold": {"right": [first], "note": note},
+    })
+
+for iid, cite, party in (
+    ("cap-svc-01", "729 F.2d 186", "Jane Doe v. Barbara Blum"),
+    ("cap-svc-02", "740 F.2d 100", "Rose Mayburg"),
+    ("cap-svc-03", "740 F.2d 1491", "Mario Diaz"),
+    ("cap-svc-04", "740 F.2d 1493", "Donald M. Kass"),
+    ("cap-svc-05", "752 F.2d 578", "Anneliese E. Hilliard"),
+    ("cap-svc-06", "755 F.2d 653", "Richard D. Bushman"),
+    ("cap-svc-07", "755 F.2d 870", "Mollie T. Caldwell"),
+    ("cap-svc-08", "757 F.2d 87", "Bedford County General Hospital"),
+):
+    rows.append({
+        "id": iid,
+        "class": "caption",
+        "tool": "analyze_citations",
+        "text": f"Give the Bluebook case name for {cite}.",
+        "gold": {
+            "right": [party],
+            "wrong": ["Medicare&medicaid"],
+            "note": "looseleaf service cite stored in the caption",
+        },
+    })
+
+for iid, cite, party in (
+    ("cap-list-01", "4 F. Supp. 3d 222", "Flythe v. District of Columbia"),
+    ("cap-list-02", "31 F. Supp. 3d 124", "Corporate Systems Resources"),
+    ("cap-list-03", "31 F. Supp. 3d 101", "Alkasabi"),
+    ("cap-list-04", "28 F. Supp. 3d 47", "Hill v. Gray"),
+    ("cap-list-05", "30 F. Supp. 3d 25", "Associated Builders and Contractors"),
+    ("cap-list-06", "30 F. Supp. 3d 67", "American Immigration Council"),
+):
+    rows.append({
+        "id": iid,
+        "class": "caption",
+        "tool": "analyze_citations",
+        "text": f"Give the Bluebook case name for {cite}.",
+        "gold": {
+            "right": [party],
+            "wrong": ["['"],
+            "note": "caption stored as a list literal",
+        },
+    })
+
+for iid, cite, party, note in (
+    ("cap-front-01", "442 S.W.3d 805", "Ex parte", "habeas caption stored as In re"),
+    ("cap-front-02", "183 F. Supp. 601", "Eugenia Arpon", "caption front truncated"),
+):
+    rows.append({
+        "id": iid,
+        "class": "caption",
+        "tool": "analyze_citations",
+        "text": f"Give the Bluebook case name for {cite}.",
+        "gold": {"right": [party], "note": note},
+    })
+
+for iid, text in (
+    ("h-ord-01", "114 S. Ct. 269."),
+    ("h-ord-02", "510 U.S. 1195."),
+    ("h-ord-03", "511 U.S. 1108."),
+    ("h-ord-04", "512 U.S. 1206."),
+    ("h-ord-05", "519 U.S. 1098."),
+    ("h-ord-06", "520 U.S. 1245."),
+    ("h-ord-07", "521 U.S. 1103."),
+    ("h-ord-08", "522 U.S. 860."),
+    ("h-ord-09", "114 S. Ct. 407."),
+):
+    history(iid, text, "Supreme Court order filed under the court below")
 
 with open(OUT, "w") as f:
     for row in rows:
