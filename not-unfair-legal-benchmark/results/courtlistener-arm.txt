@@ -1,0 +1,143 @@
+CourtListener arm, graded as answer text against items/tasks.jsonl
+pass 32  miss 125  no saved answer 7
+
+bluebook         pass   0  miss  62
+caption          pass   8  miss   0
+control          pass   1  miss   0
+coverage         pass   0  miss  16
+misprint         pass   0  miss   7
+pagination       pass   7  miss   1
+quotation        pass   0  miss   6
+statute          pass   0  miss   1
+treatment        pass   0  miss  16
+twin             pass   8  miss   0
+vendor           pass   0  miss  16
+wrong_cite       pass   8  miss   0
+
+no saved answer: p02-name-alone, p03-name-collapse, p01-control, p04-interior, p09-statute, p05-treatment, p08-twin
+
+miss ct-ard           bluebook     missing D. Ark.
+miss ct-bap1          bluebook     missing B.A.P. 1st Cir.
+miss ct-bap10         bluebook     missing B.A.P. 10th Cir.
+miss ct-bap2          bluebook     missing B.A.P. 2d Cir.
+miss ct-bap6          bluebook     missing B.A.P. 6th Cir.
+miss ct-bap8          bluebook     missing B.A.P. 8th Cir.
+miss ct-bap9          bluebook     missing B.A.P. 9th Cir.
+miss ct-ca3           bluebook     missing 3d Cir.
+miss ct-cal1          bluebook     has cal. ct. app. 1st
+miss ct-cal2          bluebook     has cal. ct. app. 2nd
+miss ct-cal3          bluebook     has cal. ct. app. 3rd
+miss ct-cal4          bluebook     has cal. ct. app. 4th
+miss ct-cal5          bluebook     has cal. ct. app. 5th
+miss ct-cal6          bluebook     has cal. ct. app. 6th
+miss ct-cob           bluebook     missing Bankr. D. Colo.
+miss ct-dcb           bluebook     missing Bankr. D.D.C.
+miss ct-fla1          bluebook     missing Fla. 1st DCA
+miss ct-fla2          bluebook     missing Fla. 2d DCA
+miss ct-fla3          bluebook     missing Fla. 3d DCA
+miss ct-fla4          bluebook     missing Fla. 4th DCA
+miss ct-fla5          bluebook     missing Fla. 5th DCA
+miss ct-fla6          bluebook     missing Fla. 6th DCA
+miss ct-flsb          bluebook     missing Bankr. S.D. Fla.
+miss ct-hl            bluebook     missing H.L.
+miss ct-ianb          bluebook     missing Bankr. N.D. Iowa
+miss ct-illappct      bluebook     missing Ill. App. Ct. 1st Dist.
+miss ct-mdd           bluebook     missing D. Md.
+miss ct-mich2         bluebook     missing Mich. Cir. Ct., 2d Cir.
+miss ct-mich3         bluebook     missing Mich. Cir. Ct., 3d Cir.
+miss ct-mnd           bluebook     missing D. Minn.
+miss ct-nmib          bluebook     missing Bankr. D. N. Mar. I.
+miss ct-nmid          bluebook     missing D. N. Mar. I.
+miss ct-ny            bluebook     missing N.Y.
+miss ct-nyappdiv      bluebook     missing N.Y. App. Div. 2d Dep't
+miss ct-nyd           bluebook     missing D.N.Y.
+miss ct-nyed          bluebook     missing E.D.N.Y.
+miss ct-oh2           bluebook     missing Oh. Ct. App. 2d Dist. Champaign
+miss ct-ohioco        bluebook     missing Ohio Cnty. Ct.
+miss ct-ohioctapp     bluebook     missing Ohio Ct. App. 10th Dist.
+miss ct-okd           bluebook     missing D. Okla.
+miss ct-oknb          bluebook     missing Bankr. N.D. Okla.
+miss ct-pamb          bluebook     missing Bankr. M.D. Pa.
+miss ct-pamd          bluebook     missing M.D. Pa.
+miss ct-texapp        bluebook     missing Tex. App.—Houston [14th Dist.]
+miss ct-vacc          bluebook     missing Va. Cir. Ct.
+miss ct-vachan        bluebook     missing Va. Ch. Ct.
+miss ct-wvad          bluebook     missing D. W. Va.
+miss ct-wvnb          bluebook     missing Bankr. N.D. W. Va.
+miss ct-wvnd          bluebook     missing N.D. W. Va.
+miss ct-wvsb          bluebook     missing Bankr. S.D. W. Va.
+miss ct-wvsd          bluebook     missing S.D. W. Va.
+miss dca-1-1          bluebook     missing Fla. 1st DCA
+miss dca-1-2          bluebook     missing Fla. 1st DCA
+miss dca-2-1          bluebook     missing Fla. 2d DCA
+miss dca-2-2          bluebook     missing Fla. 2d DCA
+miss dca-3-1          bluebook     missing Fla. 3d DCA
+miss dca-3-2          bluebook     missing Fla. 3d DCA
+miss dca-4-1          bluebook     missing Fla. 4th DCA
+miss dca-4-2          bluebook     missing Fla. 4th DCA
+miss dca-5-1          bluebook     missing Fla. 5th DCA
+miss dca-5-2          bluebook     missing Fla. 5th DCA
+miss dca-6-3          bluebook     missing Fla. 6th DCA
+miss c1-01            coverage     answer says not found
+miss c1-02            coverage     answer says not found
+miss c1-03            coverage     answer says not found
+miss c1-04            coverage     answer says not found
+miss c1-05            coverage     answer says not found
+miss c1-06            coverage     answer says not found
+miss c1-07            coverage     answer says not found
+miss c1-08            coverage     answer says not found
+miss op-01            coverage     answer says not found
+miss op-02            coverage     answer says not found
+miss op-03            coverage     answer says not found
+miss op-04            coverage     answer says not found
+miss op-05            coverage     answer says not found
+miss op-06            coverage     answer says not found
+miss op-07            coverage     answer says not found
+miss op-08            coverage     answer says not found
+miss c8-01            misprint     missing 126 S. Ct. 1235
+miss c8-03            misprint     missing 676 N.E.2d 339
+miss c8-04            misprint     missing 983 P.2d 779
+miss c8-05            misprint     missing 473 S.E.2d 910
+miss c8-06            misprint     missing 145 So. 3d 495
+miss c8-07            misprint     missing 438 U.S. 154
+miss c8-08            misprint     missing 560 U.S. 586
+miss c5-06            pagination   missing 41 Vt. 122
+miss c10-01           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
+miss c10-02           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
+miss c10-03           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
+miss c10-04           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
+miss c10-05           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
+miss c10-06           quotation    missing garbled / ocr / corrupt / not reliable / unreliable / not safe to quote / do not quote
+miss p10-rule         statute      missing 1.140
+miss c4-01            treatment    missing overruled / receded / abrogated / no longer good law
+miss c4-02            treatment    missing overruled / receded / abrogated / no longer good law
+miss c4-03            treatment    missing overruled / receded / abrogated / no longer good law
+miss c4-04            treatment    missing overruled / receded / abrogated / no longer good law
+miss c4-05            treatment    missing overruled / receded / abrogated / no longer good law
+miss c4-06            treatment    missing overruled / receded / abrogated / no longer good law
+miss c4-07            treatment    missing overruled / receded / abrogated / no longer good law
+miss c4-08            treatment    missing overruled / receded / abrogated / no longer good law
+miss c4b-01           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
+miss c4b-02           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
+miss c4b-03           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
+miss c4b-04           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
+miss c4b-05           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
+miss c4b-06           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
+miss c4b-07           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
+miss c4b-08           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
+miss c6-01            vendor       missing 216 F.R.D. 481
+miss c6-02            vendor       missing 11 Tex. Ct. App. 114
+miss c6-03            vendor       missing 17 C.M.A. 147
+miss c6-04            vendor       missing 316 F. App'x 715
+miss c6-05            vendor       missing 2022 IL App (1st) 211133-U
+miss c6-06            vendor       missing 950 F. Supp. 2d 779
+miss c6-07            vendor       missing Spikes v. All Pro Auto Repair, Inc.
+miss c6-08            vendor       missing Theroux Jr. v. Oceanside Motel-9, LP
+miss c6-09            vendor       missing Martinez-Celis v. Noem
+miss c6-10            vendor       missing Das v. American Airlines, Inc.
+miss c6-11            vendor       missing Campos v. Aegis Realty Management Corp.
+miss c6-12            vendor       missing Coffee v. Google LLC
+miss c6-13            vendor       missing Vape Central Group, LLC v. Food & Drug Administration
+miss vend-01          vendor       vendor cite in the answer
+miss vend-02          vendor       vendor cite in the answer
+miss vend-03          vendor       vendor cite in the answer
