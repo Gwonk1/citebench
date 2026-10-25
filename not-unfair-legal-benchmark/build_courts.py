@@ -10,6 +10,10 @@ OUT = os.path.join(HERE, "items", "courts.jsonl")
 
 # (id, court_id, class, wrong, right, why)
 # wrong is the string CourtListener stores. right is what the builder emits.
+# v1.1: ALSO_RIGHT lists a second accepted form for the rows where the Bluebook
+# itself allows or prefers a form other than the builder's (REVIEW_20261024 A3,
+# A5; Bluebook rule 10.4(b) says not to add the department or district of an
+# intermediate state court unless it matters). ct-hl is dropped in build_tasks.
 ROWS = [
     # $courtFix: spelled-out states, missing periods, missing spaces, closed-up capitals.
     ("ct-ny", "ny", "court_string", "NY", "N.Y.", "New York Court of Appeals stored as NY"),
@@ -52,7 +56,8 @@ ROWS = [
     ("ct-ca3", "ca3", "court_ordinal", "3rd Cir.", "3d Cir.", "3rd where the form is 3d"),
     ("ct-mich2", "micirct2", "court_ordinal", "Mich. Cir. Ct., 2nd Cir.", "Mich. Cir. Ct., 2d Cir.", "2nd"),
     ("ct-mich3", "micirct3", "court_ordinal", "Mich. Cir. Ct., 3rd Cir.", "Mich. Cir. Ct., 3d Cir.", "3rd"),
-    ("ct-oh2", "ohctapp2champai", "court_ordinal", "Oh. Ct. App. 2nd Dist. Champaign", "Oh. Ct. App. 2d Dist. Champaign", "2nd"),
+    # v1.0 gold was "Oh. Ct. App. 2d Dist. Champaign"; "Oh." is not an abbreviation. Bluebook T1 is "Ohio Ct. App.".
+    ("ct-oh2", "ohctapp2champai", "court_ordinal", "Oh. Ct. App. 2nd Dist. Champaign", "Ohio Ct. App. 2d Dist.", "2nd, and Oh. for Ohio"),
     ("ct-flacir2", "flacirct2", "court_ordinal", "2nd", "2d", "Florida circuit stored as 2nd"),
     ("ct-flacir3", "flacirct3", "court_ordinal", "3rd", "3d", "Florida circuit stored as 3rd"),
     # One court id for every department. The string names no department.
@@ -78,20 +83,45 @@ ROWS = [
 ]
 
 
+# A second accepted answer. The first entry is the builder's form, the rest are
+# forms the Bluebook also allows (or prefers) for the same court.
+ALSO_RIGHT = {
+    # 10.4(b): the plain form is the Bluebook answer; the department form is local practice.
+    "ct-nyappdiv": ["N.Y. App. Div."],
+    "ct-illappct": ["Ill. App. Ct."],
+    "ct-ohioctapp": ["Ohio Ct. App."],
+    "ct-texapp": ["Tex. App."],
+    "ct-oh2": ["Ohio Ct. App."],
+    # Both spacings of the Northern Mariana Islands district court are in use.
+    "ct-nmid": ["D.N. Mar. I."],
+    "ct-nmib": ["Bankr. D.N. Mar. I."],
+}
+
+# Extra wrong forms for the ANSWER line (the stored string is always one).
+ALSO_WRONG = {
+    "ct-oh2": ["Oh. Ct. App.", "2nd"],
+}
+
+
 def main():
     with open(OUT, "w") as f:
         for iid, court, klass, wrong, right, why in ROWS:
+            gold = {
+                "wrong": wrong,
+                "right": right,
+                "why": why,
+                "source": "live_xeric_bluebook.php bluebookCourtCite / bluebookCourtCiteForCase",
+            }
+            if iid in ALSO_RIGHT:
+                gold["any_right"] = [right] + ALSO_RIGHT[iid]
+            if iid in ALSO_WRONG:
+                gold["also_wrong"] = ALSO_WRONG[iid]
             row = {
                 "id": iid,
                 "class": klass,
                 "tool": "court",
                 "court_id": court,
-                "gold": {
-                    "wrong": wrong,
-                    "right": right,
-                    "why": why,
-                    "source": "live_xeric_bluebook.php bluebookCourtCite / bluebookCourtCiteForCase",
-                },
+                "gold": gold,
             }
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
     print(f"wrote {len(ROWS)} {OUT}")

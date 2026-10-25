@@ -1,17 +1,21 @@
-CourtListener arm, graded as answer text against items/tasks.jsonl
-pass 0  miss 187  no saved answer 0
+CourtListener arm (raw analyze_citations bodies, server 9386476), graded as answer text against items/tasks.jsonl v1.1
+The saved bodies have no ANSWER: line; each is graded on its last non-empty line.
+pass 24  miss 150  no saved answer 28  no ANSWER line 174
 
-bluebook         pass   0  miss  66
-caption          pass   0  miss  17
-coverage         pass   0  miss  16
+bluebook         pass  10  miss  55
+caption          pass  14  miss   3
+control          pass   0  miss   0
+coverage         pass   0  miss  12
 history          pass   0  miss  18
 misprint         pass   0  miss   7
 pagination       pass   0  miss   9
 quotation        pass   0  miss   6
 series           pass   0  miss  10
 statute          pass   0  miss   5
-treatment        pass   0  miss  17
-vendor           pass   0  miss  16
+treatment        pass   0  miss  11
+vendor           pass   0  miss  14
+
+no saved answer (added in v1.1, never sent to CourtListener): co-01, co-02, co-03, co-04, co-05, co-06, co-07, co-08, co-09, co-10, co-11, co-12, co-13, co-14, co-15, co-16, co-17, co-18, co-19, co-20, co-21, co-22, co-23, co-24, t-abood, t-azzarello, t-bowers, t-quill
 
 miss ct-ard           bluebook     missing D. Ark.
 miss ct-bap1          bluebook     missing B.A.P. 1st Cir.
@@ -21,12 +25,6 @@ miss ct-bap6          bluebook     missing B.A.P. 6th Cir.
 miss ct-bap8          bluebook     missing B.A.P. 8th Cir.
 miss ct-bap9          bluebook     missing B.A.P. 9th Cir.
 miss ct-ca3           bluebook     missing 3d Cir.
-miss ct-cal1          bluebook     has cal. ct. app. 1st
-miss ct-cal2          bluebook     has cal. ct. app. 2nd
-miss ct-cal3          bluebook     has cal. ct. app. 3rd
-miss ct-cal4          bluebook     has cal. ct. app. 4th
-miss ct-cal5          bluebook     has cal. ct. app. 5th
-miss ct-cal6          bluebook     has cal. ct. app. 6th
 miss ct-cit           bluebook     missing Ct. Int'l Trade
 miss ct-cob           bluebook     missing Bankr. D. Colo.
 miss ct-dcb           bluebook     missing Bankr. D.D.C.
@@ -37,29 +35,24 @@ miss ct-fla4          bluebook     missing Fla. 4th DCA
 miss ct-fla5          bluebook     missing Fla. 5th DCA
 miss ct-fla6          bluebook     missing Fla. 6th DCA
 miss ct-flsb          bluebook     missing Bankr. S.D. Fla.
-miss ct-hl            bluebook     missing H.L.
 miss ct-ianb          bluebook     missing Bankr. N.D. Iowa
-miss ct-illappct      bluebook     missing Ill. App. Ct. 1st Dist.
 miss ct-mdd           bluebook     missing D. Md.
 miss ct-mich2         bluebook     missing Mich. Cir. Ct., 2d Cir.
 miss ct-mich3         bluebook     missing Mich. Cir. Ct., 3d Cir.
 miss ct-mnd           bluebook     missing D. Minn.
-miss ct-nmib          bluebook     missing Bankr. D. N. Mar. I.
-miss ct-nmid          bluebook     missing D. N. Mar. I.
+miss ct-nmib          bluebook     missing Bankr. D. N. Mar. I. / Bankr. D.N. Mar. I.
+miss ct-nmid          bluebook     missing D. N. Mar. I. / D.N. Mar. I.
 miss ct-ny            bluebook     missing N.Y.
-miss ct-nyappdiv      bluebook     missing N.Y. App. Div. 2d Dep't
 miss ct-nyd           bluebook     missing D.N.Y.
 miss ct-nyed          bluebook     missing E.D.N.Y.
-miss ct-oh2           bluebook     missing Oh. Ct. App. 2d Dist. Champaign
+miss ct-oh2           bluebook     missing Ohio Ct. App. 2d Dist. / Ohio Ct. App.
 miss ct-ohioco        bluebook     missing Ohio Cnty. Ct.
-miss ct-ohioctapp     bluebook     missing Ohio Ct. App. 10th Dist.
 miss ct-okd           bluebook     missing D. Okla.
 miss ct-oknb          bluebook     missing Bankr. N.D. Okla.
 miss ct-pamb          bluebook     missing Bankr. M.D. Pa.
 miss ct-pamd          bluebook     missing M.D. Pa.
 miss ct-scotus        bluebook     missing U.S.
 miss ct-tax           bluebook     missing T.C.
-miss ct-texapp        bluebook     missing Tex. App.—Houston [14th Dist.]
 miss ct-txcca         bluebook     missing Tex. Crim. App.
 miss ct-vacc          bluebook     missing Va. Cir. Ct.
 miss ct-vachan        bluebook     missing Va. Ch. Ct.
@@ -80,56 +73,38 @@ miss dca-5-1          bluebook     missing Fla. 5th DCA
 miss dca-5-2          bluebook     missing Fla. 5th DCA
 miss dca-6-3          bluebook     missing Fla. 6th DCA
 miss cap-front-01     caption      missing Ex parte
-miss cap-front-02     caption      missing Eugenia Arpon
-miss cap-list-01      caption      has ['
-miss cap-list-02      caption      has ['
-miss cap-list-03      caption      has ['
-miss cap-list-04      caption      has ['
-miss cap-list-05      caption      has ['
-miss cap-list-06      caption      has ['
-miss cap-svc-01       caption      has medicare&medicaid
-miss cap-svc-02       caption      has medicare&medicaid
-miss cap-svc-03       caption      has medicare&medicaid
-miss cap-svc-04       caption      has medicare&medicaid
-miss cap-svc-05       caption      has medicare&medicaid
-miss cap-svc-06       caption      has medicare&medicaid
-miss cap-svc-07       caption      has medicare&medicaid
-miss cap-svc-08       caption      has medicare&medicaid
-miss p03-name-collapse caption      missing does not match / wrong name / not the name / not this case / different case
-miss c1-01            coverage     answer says not found
-miss c1-02            coverage     answer says not found
-miss c1-03            coverage     answer says not found
-miss c1-04            coverage     answer says not found
-miss c1-05            coverage     answer says not found
-miss c1-06            coverage     answer says not found
-miss c1-07            coverage     answer says not found
-miss c1-08            coverage     answer says not found
-miss op-01            coverage     answer says not found
-miss op-02            coverage     answer says not found
-miss op-03            coverage     answer says not found
-miss op-04            coverage     answer says not found
-miss op-05            coverage     answer says not found
-miss op-06            coverage     answer says not found
-miss op-07            coverage     answer says not found
-miss op-08            coverage     answer says not found
-miss h-102            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-110            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-113            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-114            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-421            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-67             history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-68a            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-68b            history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-85             history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-ord-01         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-ord-02         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-ord-03         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-ord-04         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-ord-05         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-ord-06         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-ord-07         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-ord-08         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
-miss h-ord-09         history      missing cert. denied / certiorari denied / denial of certiorari / certiorari / orders page / Supreme Court / substantial federal question
+miss cap-front-02     caption      missing Arpon / Vda de Samala / Vda. de Samala / Viuda de Samala
+miss p03-name-collapse caption      missing does not match / wrong name / not the name / not this case / different case / not Smith / no case named Smith / mismatch
+miss c1-03            coverage     missing 18-3390 / 4D18-3390 / Fla. 4th DCA / 4th DCA / Fourth District / Dec. 5, 2019 / December 5, 2019 / 2019-12-05
+miss c1-05            coverage     missing 79021 / Apr. 16, 2020 / April 16, 2020 / 2020-04-16
+miss c1-06            coverage     missing 77960 / May 29, 2020 / 2020-05-29
+miss c1-08            coverage     missing 19-2720 / 4D19-2720 / Fla. 4th DCA / 4th DCA / Fourth District / Oct. 8, 2020 / October 8, 2020 / 2020-10-08
+miss op-01            coverage     missing App. Term / Appellate Term / 50833 / June 23, 2017 / 2017-06-23
+miss op-02            coverage     missing 18-5055 / 10th Cir. / Tenth Circuit / Nov. 27, 2019 / November 27, 2019 / 2019-11-27
+miss op-03            coverage     missing 18-101 / 2d Cir. / Second Circuit / Dec. 23, 2019 / December 23, 2019 / 2019-12-23
+miss op-04            coverage     missing 19-1439 / 7th Cir. / Seventh Circuit / Mar. 6, 2020 / March 6, 2020 / 2020-03-06
+miss op-05            coverage     missing 19-3382 / 3d Cir. / Third Circuit / Mar. 12, 2020 / March 12, 2020 / 2020-03-12
+miss op-06            coverage     missing 18-16336 / 9th Cir. / Ninth Circuit / Apr. 14, 2020 / April 14, 2020 / 2020-04-14
+miss op-07            coverage     missing 18-1292 / 3d Cir. / Third Circuit / May 27, 2020 / 2020-05-27
+miss op-08            coverage     missing 19-55305 / 9th Cir. / Ninth Circuit / July 10, 2020 / Jul. 10, 2020 / 2020-07-10
+miss h-102            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-110            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-113            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-114            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-421            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-67             history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-68a            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-68b            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-85             history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-01         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-02         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-03         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-04         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-05         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-06         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-07         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-08         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-09         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
 miss c8-01            misprint     missing 126 S. Ct. 1235
 miss c8-03            misprint     missing 676 N.E.2d 339
 miss c8-04            misprint     missing 983 P.2d 779
@@ -167,36 +142,28 @@ miss st-fake          statute      did not reject the cite
 miss st-frcp          statute      missing 56
 miss st-frcrim        statute      missing 3.850
 miss st-fre           statute      missing 702
-miss c4-01            treatment    missing overruled / receded / abrogated / no longer good law
-miss c4-02            treatment    missing overruled / receded / abrogated / no longer good law
-miss c4-03            treatment    missing overruled / receded / abrogated / no longer good law
-miss c4-04            treatment    missing overruled / receded / abrogated / no longer good law
-miss c4-05            treatment    missing overruled / receded / abrogated / no longer good law
-miss c4-06            treatment    missing overruled / receded / abrogated / no longer good law
-miss c4-07            treatment    missing overruled / receded / abrogated / no longer good law
-miss c4-08            treatment    missing overruled / receded / abrogated / no longer good law
-miss c4b-01           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
-miss c4b-02           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
-miss c4b-03           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
-miss c4b-04           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
-miss c4b-05           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
-miss c4b-06           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
-miss c4b-07           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
-miss c4b-08           treatment    missing unpublished / not precedential / nonprecedential / not binding / not citable
-miss p05-treatment    treatment    missing overruled / receded / abrogated / no longer good law
+miss c4-04            treatment    missing overruled / receded / abrogated / no longer good law / superseded / not good law / disapproved on the ANSWER line
+miss c4-06            treatment    missing overruled / receded / abrogated / no longer good law / superseded / not good law / disapproved on the ANSWER line
+miss c4b-01           treatment    missing unpublished / not precedential / nonprecedential / non-precedential / not published / not binding / not citable / persuasive on the ANSWER line
+miss c4b-02           treatment    missing unpublished / not precedential / nonprecedential / non-precedential / not published / not binding / not citable / persuasive on the ANSWER line
+miss c4b-03           treatment    missing unpublished / not precedential / nonprecedential / non-precedential / not published / not binding / not citable / persuasive on the ANSWER line
+miss c4b-04           treatment    missing unpublished / not precedential / nonprecedential / non-precedential / not published / not binding / not citable / persuasive on the ANSWER line
+miss c4b-05           treatment    missing 357 F.3d 1108 / ordered published / later published / subsequently published
+miss c4b-06           treatment    missing 360 F.3d 1155 / ordered published / later published / subsequently published
+miss c4b-07           treatment    missing 367 F.3d 1215 / ordered published / later published / subsequently published
+miss c4b-08           treatment    missing unpublished / not precedential / nonprecedential / non-precedential / not published / not binding / not citable / persuasive on the ANSWER line
+miss p05-treatment    treatment    missing overruled / receded / abrogated / no longer good law / superseded / not good law / disapproved on the ANSWER line
 miss c6-01            vendor       missing 216 F.R.D. 481
-miss c6-02            vendor       missing 11 Tex. Ct. App. 114
-miss c6-03            vendor       missing 17 C.M.A. 147
+miss c6-02            vendor       missing 11 Tex. Ct. App. 114 / 11 Tex. App. 114
+miss c6-03            vendor       missing 17 C.M.A. 147 / 17 USCMA 147 / 17 U.S.C.M.A. 147 / 37 C.M.R. 411
 miss c6-04            vendor       missing 316 F. App'x 715
 miss c6-05            vendor       missing 2022 IL App (1st) 211133-U
 miss c6-06            vendor       missing 950 F. Supp. 2d 779
-miss c6-07            vendor       missing Spikes v. All Pro Auto Repair, Inc.
-miss c6-08            vendor       missing Theroux Jr. v. Oceanside Motel-9, LP
-miss c6-09            vendor       missing Martinez-Celis v. Noem
-miss c6-10            vendor       missing Das v. American Airlines, Inc.
-miss c6-11            vendor       missing Campos v. Aegis Realty Management Corp.
-miss c6-12            vendor       missing Coffee v. Google LLC
-miss c6-13            vendor       missing Vape Central Group, LLC v. Food & Drug Administration
-miss vend-01          vendor       vendor cite in the answer
-miss vend-02          vendor       vendor cite in the answer
-miss vend-03          vendor       vendor cite in the answer
+miss c6-07            vendor       missing Spikes
+miss c6-08            vendor       missing Theroux
+miss c6-09            vendor       missing Martinez-Celis
+miss c6-11            vendor       missing Campos
+miss c6-12            vendor       missing Coffee
+miss vend-01          vendor       vendor cite on the answer line
+miss vend-02          vendor       vendor cite on the answer line
+miss vend-03          vendor       vendor cite on the answer line

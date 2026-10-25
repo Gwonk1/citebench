@@ -1,5 +1,16 @@
 # Turn the CourtListener lookups into passages any model or MCP can answer.
 # usage: python3 build_tasks.py
+#
+# Sources (items/):
+#   courts.jsonl    build_courts.py (no database)
+#   harder.jsonl    build_harder.py (reads the saved CourtListener replies in results/)
+#   controls.jsonl  build_controls.py (no database)           v1.1
+#   bluebook.jsonl, from_fixes.jsonl   sampled 2026-10-21 from local fix ledgers by
+#                   build_bluebook.py / build_from_fixes.py; frozen lookups since.
+#   pilot.jsonl     the 2026-10-21 pilot passages
+#   evidence.jsonl  v1.1 gold decisions: per item, keep or drop, the evidence
+#                   (cluster id on the public corpus, checked 2026-10-25), a gold
+#                   patch, and sometimes a new passage text. Applied last.
 import json
 import os
 import re
@@ -10,6 +21,7 @@ ITEMS = os.path.join(HERE, "items")
 RESULTS = os.path.join(HERE, "results")
 OUT = os.path.join(ITEMS, "tasks.jsonl")
 META = "/home/graham/projects/courtlistener/pkg/caselaw_meta.db"
+VERSION = open(os.path.join(HERE, "VERSION")).read().strip()
 
 # Rows whose gold is wrong, duplicated, or not a legal answer,
 # plus passages the CourtListener arm already passes. Those passes are
@@ -31,8 +43,11 @@ DROP = {
     # No saved reply, and a CourtListener answer would pass.
     "p01-control", "p02-name-alone", "p08-twin", "p09-statute",
 }
+# v1.1 drops are listed in items/evidence.jsonl with the reason (decision: drop).
 
 # The question names the department, so the gold is one form and not a guess.
+# v1.1: for the four intermediate-court items the plain Bluebook form is also
+# accepted (rule 10.4(b)); see build_courts.py ALSO_RIGHT.
 COURT_QUESTION = {
     "ct-nyappdiv": "Give the Bluebook court abbreviation for the New York Appellate Division, Second Department.",
     "ct-illappct": "Give the Bluebook court abbreviation for the Illinois Appellate Court, First District.",
@@ -46,6 +61,18 @@ COURT_QUESTION = {
     "ct-cal6": "Give the Bluebook court abbreviation for the California Court of Appeal. The reporter series does not go in the court name.",
 }
 
+# Evidence for the court-string items is the citation manual itself.
+COURT_RULE = {
+    "court_string": "The Bluebook (21st ed.) T1 and T7 (court names) with T10 (geographic terms); B10.1.3",
+    "court_bap": "The Bluebook (21st ed.) T1: bankruptcy appellate panels are 'B.A.P. [N]th Cir.'",
+    "court_cal": "The Bluebook (21st ed.) T1 (California) and rule 10.4(b): the district is not part of the court name",
+    "court_ordinal": "The Bluebook (21st ed.) rule 6.2(b)(i): 2d and 3d, not 2nd and 3rd",
+    "court_generic": "The Bluebook (21st ed.) T1 and rule 10.4(b): the plain court form; the department or district form is local practice and is also accepted",
+    "court_fl": "Fla. R. App. P. 9.800 (Florida's own citation form for a district court of appeal); the Bluebook T1 form 'Fla. Dist. Ct. App.' is the planted miss",
+    "court_empty": "The Bluebook (21st ed.) T1 and T7",
+    "court_space": "The Bluebook (21st ed.) T1",
+}
+
 REJECTION = [
     "not found",
     "does not exist",
@@ -54,13 +81,17 @@ REJECTION = [
     "cannot find",
 ]
 
-TREATMENT = ["overruled", "receded", "abrogated", "no longer good law"]
-UNPUBLISHED = ["unpublished", "not precedential", "nonprecedential", "not binding", "not citable"]
+TREATMENT = ["overruled", "receded", "abrogated", "no longer good law", "superseded", "not good law", "disapproved"]
+UNPUBLISHED = ["unpublished", "not precedential", "nonprecedential", "non-precedential", "not published", "not binding", "not citable", "persuasive"]
 QUOTE_FLAG = ["garbled", "ocr", "corrupt", "not reliable", "unreliable", "not safe to quote", "do not quote"]
+
+FLORIDA_FORM = "Use the Florida form for a district court of appeal (Fla. R. App. P. 9.800)."
 
 
 def load(name):
     path = os.path.join(ITEMS, name)
+    if not os.path.exists(path):
+        return []
     return [json.loads(line) for line in open(path) if line.strip()]
 
 
@@ -79,6 +110,8 @@ def court_record(iid):
 
 
 def reporter_cites(con, cluster_id):
+    if con is None:
+        return []
     rows = con.execute(
         "select volume, reporter, page from citations where cluster_id=?",
         (cluster_id,),
@@ -134,10 +167,22 @@ def ocr_snippet(iid):
     return text[:240]
 
 
-def task(iid, klass, text, gold):
+def end_sentence(s):
+    """Append a period unless the string already ends in one (no '3rd Cir..')."""
+    s = s.strip()
+    return s if s.endswith(".") else s + "."
+
+
+def task(iid, klass, text, gold, evidence=None, **extra):
     gold = dict(gold)
     gold.setdefault("note", "")
-    return {"id": iid, "class": klass, "text": text.strip(), "gold": gold}
+    row = {"id": iid, "class": klass, "text": text.strip(), "gold": gold}
+    if evidence:
+        row["evidence"] = evidence
+    for k, v in extra.items():
+        if v is not None:
+            row[k] = v
+    return row
 
 
 def from_courts():
@@ -151,16 +196,26 @@ def from_courts():
         if raw["id"] in COURT_QUESTION:
             text = COURT_QUESTION[raw["id"]]
         elif wrong.strip():
-            text = "Correct this court abbreviation to Bluebook form: " + wrong.strip() + "."
+            text = "Correct this court abbreviation to Bluebook form: " + end_sentence(wrong)
         else:
             rec = court_record(raw["id"])
             name = rec.get("full_name") or rec.get("short_name") or raw["court_id"]
-            text = "Give the Bluebook abbreviation for this court: " + name + "."
-        rows.append(task(raw["id"], "bluebook", text, {
-            "right": [right] if right else [],
-            "wrong": [wrong] if wrong.strip() else [],
-            "note": g.get("why") or "",
-        }))
+            text = "Give the Bluebook abbreviation for this court: " + end_sentence(name)
+        gold = {"note": g.get("why") or ""}
+        if g.get("any_right"):
+            gold["any_right"] = list(g["any_right"])
+        elif right:
+            gold["right"] = [right]
+        wrongs = [wrong] if wrong.strip() else []
+        wrongs += g.get("also_wrong") or []
+        # A wrong form that is also an accepted form cannot be a wrong form.
+        accepted = gold.get("any_right") or gold.get("right") or []
+        wrongs = [w for w in wrongs if w not in accepted]
+        gold["wrong"] = wrongs
+        rows.append(task(raw["id"], "bluebook", text, gold,
+                         evidence={"source": COURT_RULE.get(raw["class"], COURT_RULE["court_string"]),
+                                   "courtlistener_court_id": raw["court_id"],
+                                   "stored_citation_string": wrong}))
     return rows
 
 
@@ -174,11 +229,11 @@ def from_bluebook():
             cite = g["cite"]
             name = g.get("case_name") or ""
             # The passage does not hand the system the corrected parenthetical.
-            text = f"Give the Bluebook citation for {name}, {cite}, including the court."
+            text = f"Give the citation for {name}, {cite}, including the court. " + FLORIDA_FORM
             rows.append(task(raw["id"], "bluebook", text, {
                 "right": [g["parenthetical"]],
                 "wrong": ["Fla. Dist. Ct. App."],
-                "note": "numbered Florida DCA form",
+                "note": "numbered Florida DCA form (Fla. R. App. P. 9.800)",
             }))
         elif raw["class"] == "opinion_cite":
             rows.append(task(raw["id"], "coverage", raw["text"], {
@@ -204,7 +259,7 @@ def from_fixes(con):
         klass = raw["class"]
         text = (raw.get("text") or "").strip()
         if klass == "coverage":
-            text = text.replace("Hawai\u00e2\u20ac\u02dci", "Hawai'i")
+            text = text.replace("Hawaiâ€˜i", "Hawai'i")
             rows.append(task(raw["id"], "coverage", text, {
                 "right": [g["cite"]],
                 "absent": REJECTION,
@@ -230,6 +285,7 @@ def from_fixes(con):
                 note = "unpublished, stored as published"
             rows.append(task(raw["id"], "treatment", text, {
                 "any_of": words,
+                "verdict_line": True,
                 "note": note,
             }))
         elif klass == "pagination":
@@ -269,17 +325,32 @@ def from_fixes(con):
             rows.append(task(raw["id"], "quotation", q, {
                 "any_of": QUOTE_FLAG,
                 "note": "opinion text still contains the garble",
-            }))
+            }, evidence={
+                "source": "CourtListener opinion text, saved reply 2026-10-21 (results/)",
+                "cluster_id": raw.get("cluster_id"),
+                "opinion_id": raw.get("opinion_id"),
+            }, bare_model_answerable=True))
     return rows
 
 
 def from_harder():
-    path = os.path.join(ITEMS, "harder.jsonl")
-    if not os.path.exists(path):
-        return []
     rows = []
     for raw in load("harder.jsonl"):
-        rows.append(task(raw["id"], raw["class"], raw["text"], raw["gold"]))
+        if raw["id"] in DROP:
+            continue
+        rows.append(task(raw["id"], raw["class"], raw["text"], raw["gold"],
+                         evidence=raw.get("evidence"),
+                         bare_model_answerable=raw.get("bare_model_answerable")))
+    return rows
+
+
+def from_controls():
+    rows = []
+    for raw in load("controls.jsonl"):
+        rows.append(task(raw["id"], raw["class"], raw["text"], raw["gold"],
+                         evidence=raw.get("evidence"),
+                         kind=raw.get("kind"),
+                         bare_model_answerable=raw.get("bare_model_answerable")))
     return rows
 
 
@@ -290,11 +361,11 @@ def from_pilot():
         "p02-name-alone": ("caption", {"right": ["Brown"], "note": "the cite is Brown, not Smith v. Jones"}),
         "p03-name-collapse": ("caption", {
             "right": ["Brown"],
-            "any_of": ["does not match", "wrong name", "not the name", "not this case", "different case"],
+            "any_of": ["does not match", "wrong name", "not the name", "not this case", "different case", "not Smith", "no case named Smith", "mismatch"],
             "note": "the second name on the same cite is dropped, with no warning",
         }),
         "p04-interior": ("pagination", {"right": ["347 U.S. 483"], "note": "347 U.S. 484 is an interior page of Brown"}),
-        "p05-treatment": ("treatment", {"any_of": TREATMENT, "note": "overruled"}),
+        "p05-treatment": ("treatment", {"any_of": TREATMENT, "verdict_line": True, "note": "overruled"}),
         "p06-fabrication": ("control", {"reject": True, "note": "not a case"}),
         "p08-twin": ("twin", {"right": ["Google LLC v. Oracle America, Inc."], "any_of": ["4871034", "4870762", "two cases", "ambiguous", "another cluster"], "note": "two clusters share 593 U.S. 1"}),
         "p09-statute": ("statute", {"right": ["1983"], "absent": REJECTION + ["no citations found"], "note": "the statute has to be recognized"}),
@@ -309,15 +380,50 @@ def from_pilot():
     return rows
 
 
+def apply_evidence(rows):
+    """Apply items/evidence.jsonl: drop, patch gold, set evidence and text."""
+    decisions = {r["id"]: r for r in load("evidence.jsonl")}
+    out = []
+    dropped = []
+    for row in rows:
+        d = decisions.get(row["id"])
+        if d is None:
+            out.append(row)
+            continue
+        if d["decision"] == "drop":
+            dropped.append(row["id"])
+            continue
+        if d.get("evidence"):
+            row["evidence"] = d["evidence"]
+        for k, v in (d.get("gold_patch") or {}).items():
+            if v is None:
+                row["gold"].pop(k, None)
+            else:
+                row["gold"][k] = v
+        if d.get("text"):
+            row["text"] = d["text"].strip()
+        if d.get("bare_model_answerable"):
+            row["bare_model_answerable"] = True
+        out.append(row)
+    return out, dropped
+
+
 def main():
-    con = sqlite3.connect("file:" + META + "?mode=ro", uri=True)
-    rows = from_courts() + from_bluebook() + from_fixes(con) + from_harder() + from_pilot()
+    con = None
+    if os.path.exists(META):
+        con = sqlite3.connect("file:" + META + "?mode=ro", uri=True)
+    rows = from_courts() + from_bluebook() + from_fixes(con) + from_harder() + from_controls() + from_pilot()
+    rows, dropped = apply_evidence(rows)
+    missing = [r["id"] for r in rows if not r.get("evidence")]
+    if missing:
+        raise SystemExit("items without evidence: " + ", ".join(missing))
     # Stable order: class, then id.
     rows.sort(key=lambda r: (r["class"], r["id"]))
     with open(OUT, "w") as f:
         for row in rows:
+            row["version"] = VERSION
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
-    print(f"wrote {len(rows)} {OUT}")
+    print(f"wrote {len(rows)} {OUT} (v{VERSION}); dropped by evidence.jsonl: {len(dropped)}")
 
 
 if __name__ == "__main__":
