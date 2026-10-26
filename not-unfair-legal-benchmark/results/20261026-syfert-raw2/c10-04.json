@@ -1,0 +1,52 @@
+{
+ "id": "c10-04",
+ "class": "quotation",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Is this a reliable quotation? If it is garbled, say so.\n\n3fn tbe Wniteb ~tate.s Qtourt of \u00a7eberal Qtlaitn.s No. 18-1555C (Filed: January 25, 2019) ******************************************* * * RANDY S. FIELDS, * Plaintiff, * Rule 12(b )( 1) Motion to Dismiss * for Lack of Subject Matter v. * Ju"
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 0,\n        \"resolved\": 0,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 0,
+     "resolved": 0,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  },
+  {
+   "tool": "check_citation",
+   "args": {
+    "citation": "Is this a reliable quotation? If it is garbled, say so.\n\n3fn tbe Wniteb ~tate.s Qtourt of \u00a7eberal Qtlaitn.s No. 18-1555C (Filed: January 25, 2019) ******************************************* * * RANDY S. FIELDS, * Plaintiff, * Rule 12(b )( 1) Motion to Dismiss * for Lack of Subject Matter v. * Ju"
+   },
+   "is_error": true,
+   "text": "{\n    \"found\": false,\n    \"error\": \"Could not parse \\\"Is this a reliable quotation? If it is garbled, say so.\\n\\n3fn tbe Wniteb ~tate.s Qtourt of \u00a7eberal Qtlaitn.s No. 18-1555C (Filed: January 25, 2019) ******************************************* * * RANDY S. FIELDS, * Plaintiff, * Rule 12(b )( 1) Motion to Dismiss * for Lack of Subject Matter v. * Ju\\\" as volume reporter page. Try e.g. \\\"819 So. 2d 732\\\". It is not a recognised statute, regulation or court-rule citation either.\"\n}",
+   "json": {
+    "found": false,
+    "error": "Could not parse \"Is this a reliable quotation? If it is garbled, say so.\n\n3fn tbe Wniteb ~tate.s Qtourt of \u00a7eberal Qtlaitn.s No. 18-1555C (Filed: January 25, 2019) ******************************************* * * RANDY S. FIELDS, * Plaintiff, * Rule 12(b )( 1) Motion to Dismiss * for Lack of Subject Matter v. * Ju\" as volume reporter page. Try e.g. \"819 So. 2d 732\". It is not a recognised statute, regulation or court-rule citation either."
+   }
+  }
+ ]
+}

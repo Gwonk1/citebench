@@ -1,0 +1,279 @@
+{
+ "id": "ct-nyd",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "D. N.Y."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"D. N.Y.\",\n    \"courts\": [\n        {\n            \"id\": \"nysd\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"District Court, S.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D.N.Y.\",\n            \"cases_in_corpus\": 112052,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyed\",\n            \"short_name\": \"E.D. New York\",\n            \"full_name\": \"District Court, E.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D.N.Y\",\n            \"cases_in_corpus\": 31557,\n            \"years\": \"1850-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nywd\",\n            \"short_name\": \"W.D. New York\",\n            \"full_name\": \"District Court, W.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D.N.Y.\",\n            \"cases_in_corpus\": 14283,\n            \"years\": \"1854-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nynd\",\n            \"short_name\": \"N.D. New York\",\n            \"full_name\": \"District Court, N.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D.N.Y.\",\n            \"cases_in_corpus\": 11761,\n            \"years\": \"1814-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysb\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D.N.Y.\",\n            \"cases_in_corpus\": 4402,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyeb\",\n            \"short_name\": \"E.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D.N.Y.\",\n            \"cases_in_corpus\": 1625,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nywb\",\n            \"short_name\": \"W.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D.N.Y.\",\n            \"cases_in_corpus\": 736,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nynb\",\n            \"short_name\": \"N.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D.N.Y.\",\n            \"cases_in_corpus\": 526,\n            \"years\": \"1923-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyd\",\n            \"short_name\": \"D. New York\",\n            \"full_name\": \"District Court, D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. N.Y.\",\n            \"cases_in_corpus\": 99,\n            \"years\": \"1797-2004\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyappdiv\",\n            \"short_name\": \"Appellate Division of the Supreme Court of New York\",\n            \"full_name\": \"Appellate Division of the Supreme Court of the State of New York\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.Y. App. Div.\",\n            \"cases_in_corpus\": 774886,\n            \"years\": \"1714-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupct\",\n            \"short_name\": \"New York Supreme Court\",\n            \"full_name\": \"New York Supreme Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Ct.\",\n            \"cases_in_corpus\": 117110,\n            \"years\": \"1794-2025\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyappterm\",\n            \"short_name\": \"Appellate Terms of the Supreme Court of New York\",\n            \"full_name\": \"Appellate Terms of the Supreme Court of New York\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.Y. App. Term.\",\n            \"cases_in_corpus\": 24317,\n            \"years\": \"1890-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysurct\",\n            \"short_name\": \"New York Surrogate's Court\",\n            \"full_name\": \"New York Surrogate's Court\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"N.Y. Sur. Ct.\",\n            \"cases_in_corpus\": 15140,\n            \"years\": \"1811-2025\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupctnewyork\",\n            \"short_name\": \"New York Supreme Court, New York County\",\n            \"full_name\": \"New York Supreme Court, New York County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Ct., New York Cty.\",\n            \"cases_in_corpus\": 3588,\n            \"years\": \"1894-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nycivct\",\n            \"short_name\": \"Civil Court of the City of New York\",\n            \"full_name\": \"Civil Court of the City of New York\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"N.Y. City Civ. Ct.\",\n            \"cases_in_corpus\": 3502,\n            \"years\": \"1962-2023\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyag\",\n            \"short_name\": \"New York Attorney General Reports\",\n            \"full_name\": \"New York Attorney General Reports\",\n            \"jurisdiction\": \"SAG\",\n            \"citation_string\": \"N.Y. Att'y Gen.\",\n            \"cases_in_corpus\": 2709,\n            \"years\": \"1956-2023\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nycfamct\",\n            \"short_name\": \"NYC Family Court\",\n            \"full_name\": \"New York City Family Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y.C. Fam. Ct.\",\n            \"cases_in_corpus\": 2094,\n            \"years\": \"1962-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nycrimct\",\n            \"short_name\": \"Criminal Court of the City of New York\",\n            \"full_name\": \"Criminal Court of the City of New York\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"N.Y. City Crim. Ct.\",\n            \"cases_in_corpus\": 1749,\n            \"years\": \"1823-2017\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupctkings\",\n            \"short_name\": \"New York Supreme Court, Kings County\",\n            \"full_name\": \"New York Supreme Court, Kings County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Kings\",\n            \"cases_in_corpus\": 1293,\n            \"years\": \"1894-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyfamct\",\n            \"short_name\": \"New York Family Court\",\n            \"full_name\": \"New York Family Court\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"N.Y. Fam. Ct.\",\n            \"cases_in_corpus\": 761,\n            \"years\": \"1912-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupctwster\",\n            \"short_name\": \"New York Supreme Court, Westchester County\",\n            \"full_name\": \"New York Supreme Court, Westchester County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Ct., Westchester Cty.\",\n            \"cases_in_corpus\": 283,\n            \"years\": \"2003-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupctbrnx\",\n            \"short_name\": \"New York Supreme Court, Bronx County\",\n            \"full_name\": \"New York Supreme Court, Bronx County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Ct., Bronx Cty.\",\n            \"cases_in_corpus\": 211,\n            \"years\": \"2003-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupctqueens\",\n            \"short_name\": \"New York Supreme Court, Queens County\",\n            \"full_name\": \"New York Supreme Court, Queens County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Queens\",\n            \"cases_in_corpus\": 132,\n            \"years\": \"2003-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupctnss\",\n            \"short_name\": \"New York Supreme Court, Nassau County\",\n            \"full_name\": \"New York Supreme Court, Nassau County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Ct., Nassau Cty.\",\n            \"cases_in_corpus\": 129,\n            \"years\": \"2001-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysurctnyc\",\n            \"short_name\": \"New York Surrogate's Court\",\n            \"full_name\": \"Surrogate's Court, New York County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Surr. Ct., New York Cty.\",\n            \"cases_in_corpus\": 106,\n            \"years\": \"2012-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"court_groups\": [\n        {\n            \"court\": \"ny-fed-districts\",\n            \"group\": \"States / New York / N.Y. Fed. Dist. Cts.\",\n            \"courts\": 4\n        }\n    ],\n    \"groups_tip\": \"A court value from court_groups filters on every court in that group at once (courts = how many). Use it instead of listing ids.\",\n    \"state_ranking\": \"Courts of New York are listed first.\"\n}",
+   "json": {
+    "query": "D. N.Y.",
+    "courts": [
+     {
+      "id": "nysd",
+      "short_name": "S.D. New York",
+      "full_name": "District Court, S.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "S.D.N.Y.",
+      "cases_in_corpus": 112052,
+      "years": "1801-2026",
+      "active": true
+     },
+     {
+      "id": "nyed",
+      "short_name": "E.D. New York",
+      "full_name": "District Court, E.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "E.D.N.Y",
+      "cases_in_corpus": 31557,
+      "years": "1850-2026",
+      "active": true
+     },
+     {
+      "id": "nywd",
+      "short_name": "W.D. New York",
+      "full_name": "District Court, W.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "W.D.N.Y.",
+      "cases_in_corpus": 14283,
+      "years": "1854-2026",
+      "active": true
+     },
+     {
+      "id": "nynd",
+      "short_name": "N.D. New York",
+      "full_name": "District Court, N.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "N.D.N.Y.",
+      "cases_in_corpus": 11761,
+      "years": "1814-2026",
+      "active": true
+     },
+     {
+      "id": "nysb",
+      "short_name": "S.D. New York",
+      "full_name": "United States Bankruptcy Court, S.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D.N.Y.",
+      "cases_in_corpus": 4402,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nyeb",
+      "short_name": "E.D. New York",
+      "full_name": "United States Bankruptcy Court, E.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D.N.Y.",
+      "cases_in_corpus": 1625,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nywb",
+      "short_name": "W.D. New York",
+      "full_name": "United States Bankruptcy Court, W.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D.N.Y.",
+      "cases_in_corpus": 736,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nynb",
+      "short_name": "N.D. New York",
+      "full_name": "United States Bankruptcy Court, N.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D.N.Y.",
+      "cases_in_corpus": 526,
+      "years": "1923-2026",
+      "active": true
+     },
+     {
+      "id": "nyd",
+      "short_name": "D. New York",
+      "full_name": "District Court, D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "D. N.Y.",
+      "cases_in_corpus": 99,
+      "years": "1797-2004",
+      "active": true
+     },
+     {
+      "id": "nyappdiv",
+      "short_name": "Appellate Division of the Supreme Court of New York",
+      "full_name": "Appellate Division of the Supreme Court of the State of New York",
+      "jurisdiction": "SA",
+      "citation_string": "N.Y. App. Div.",
+      "cases_in_corpus": 774886,
+      "years": "1714-2026",
+      "active": true
+     },
+     {
+      "id": "nysupct",
+      "short_name": "New York Supreme Court",
+      "full_name": "New York Supreme Court",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Ct.",
+      "cases_in_corpus": 117110,
+      "years": "1794-2025",
+      "active": true
+     },
+     {
+      "id": "nyappterm",
+      "short_name": "Appellate Terms of the Supreme Court of New York",
+      "full_name": "Appellate Terms of the Supreme Court of New York",
+      "jurisdiction": "SA",
+      "citation_string": "N.Y. App. Term.",
+      "cases_in_corpus": 24317,
+      "years": "1890-2026",
+      "active": true
+     },
+     {
+      "id": "nysurct",
+      "short_name": "New York Surrogate's Court",
+      "full_name": "New York Surrogate's Court",
+      "jurisdiction": "SS",
+      "citation_string": "N.Y. Sur. Ct.",
+      "cases_in_corpus": 15140,
+      "years": "1811-2025",
+      "active": true
+     },
+     {
+      "id": "nysupctnewyork",
+      "short_name": "New York Supreme Court, New York County",
+      "full_name": "New York Supreme Court, New York County",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Ct., New York Cty.",
+      "cases_in_corpus": 3588,
+      "years": "1894-2026",
+      "active": true
+     },
+     {
+      "id": "nycivct",
+      "short_name": "Civil Court of the City of New York",
+      "full_name": "Civil Court of the City of New York",
+      "jurisdiction": "SS",
+      "citation_string": "N.Y. City Civ. Ct.",
+      "cases_in_corpus": 3502,
+      "years": "1962-2023",
+      "active": true
+     },
+     {
+      "id": "nyag",
+      "short_name": "New York Attorney General Reports",
+      "full_name": "New York Attorney General Reports",
+      "jurisdiction": "SAG",
+      "citation_string": "N.Y. Att'y Gen.",
+      "cases_in_corpus": 2709,
+      "years": "1956-2023",
+      "active": true
+     },
+     {
+      "id": "nycfamct",
+      "short_name": "NYC Family Court",
+      "full_name": "New York City Family Court",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y.C. Fam. Ct.",
+      "cases_in_corpus": 2094,
+      "years": "1962-2026",
+      "active": true
+     },
+     {
+      "id": "nycrimct",
+      "short_name": "Criminal Court of the City of New York",
+      "full_name": "Criminal Court of the City of New York",
+      "jurisdiction": "SS",
+      "citation_string": "N.Y. City Crim. Ct.",
+      "cases_in_corpus": 1749,
+      "years": "1823-2017",
+      "active": true
+     },
+     {
+      "id": "nysupctkings",
+      "short_name": "New York Supreme Court, Kings County",
+      "full_name": "New York Supreme Court, Kings County",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Kings",
+      "cases_in_corpus": 1293,
+      "years": "1894-2026",
+      "active": true
+     },
+     {
+      "id": "nyfamct",
+      "short_name": "New York Family Court",
+      "full_name": "New York Family Court",
+      "jurisdiction": "SS",
+      "citation_string": "N.Y. Fam. Ct.",
+      "cases_in_corpus": 761,
+      "years": "1912-2026",
+      "active": true
+     },
+     {
+      "id": "nysupctwster",
+      "short_name": "New York Supreme Court, Westchester County",
+      "full_name": "New York Supreme Court, Westchester County",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Ct., Westchester Cty.",
+      "cases_in_corpus": 283,
+      "years": "2003-2026",
+      "active": true
+     },
+     {
+      "id": "nysupctbrnx",
+      "short_name": "New York Supreme Court, Bronx County",
+      "full_name": "New York Supreme Court, Bronx County",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Ct., Bronx Cty.",
+      "cases_in_corpus": 211,
+      "years": "2003-2026",
+      "active": true
+     },
+     {
+      "id": "nysupctqueens",
+      "short_name": "New York Supreme Court, Queens County",
+      "full_name": "New York Supreme Court, Queens County",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Queens",
+      "cases_in_corpus": 132,
+      "years": "2003-2026",
+      "active": true
+     },
+     {
+      "id": "nysupctnss",
+      "short_name": "New York Supreme Court, Nassau County",
+      "full_name": "New York Supreme Court, Nassau County",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Ct., Nassau Cty.",
+      "cases_in_corpus": 129,
+      "years": "2001-2026",
+      "active": true
+     },
+     {
+      "id": "nysurctnyc",
+      "short_name": "New York Surrogate's Court",
+      "full_name": "Surrogate's Court, New York County",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Surr. Ct., New York Cty.",
+      "cases_in_corpus": 106,
+      "years": "2012-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "court_groups": [
+     {
+      "court": "ny-fed-districts",
+      "group": "States / New York / N.Y. Fed. Dist. Cts.",
+      "courts": 4
+     }
+    ],
+    "groups_tip": "A court value from court_groups filters on every court in that group at once (courts = how many). Use it instead of listing ids.",
+    "state_ranking": "Courts of New York are listed first."
+   }
+  }
+ ]
+}

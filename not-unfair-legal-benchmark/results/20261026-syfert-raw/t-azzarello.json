@@ -1,0 +1,142 @@
+{
+ "id": "t-azzarello",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "391 A.2d 1020",
+    "compact": true,
+    "case_name": "Azzarello v. Black Bros. Co."
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":1957128,\"case_name\":\"Azzarello v. Black Bros. Co., Inc.\",\"bluebook\":\"Azzarello v. Black Bros. Co., 391 A.2d 1020 (Pa. 1978)\",\"url\":\"https://syfert.com/pennsylvania/cases/480-pa-547/azzarello-v-black-bros-co-inc\",\"link_md\":\"[Azzarello v. Black Bros. Co., 391 A.2d 1020 (Pa. 1978)](https://syfert.com/pennsylvania/cases/480-pa-547/azzarello-v-black-bros-co-inc)\",\"compact\":true,\"treatment\":{\"flag\":\"red\",\"red\":1,\"yellow\":0,\"green\":428,\"procedural\":0,\"strongest_signal\":\"Overruled\",\"strongest_citer\":\"Tincher, T. v. Omega Flex, Inc., Aplt.\",\"strongest_date\":\"2014-11-19\",\"strongest_citer_cluster_id\":2753363,\"scope\":\"Overruled by Tincher, T. v. Omega Flex, Inc., Aplt.: 7 citing opinions say overruled outright and 1 limits it to other grounds.\",\"strongest_citer_source\":\"overruled_by\",\"strongest_citer_published\":true,\"flag_basis\":\"overruled_by\",\"flag_reason\":\"Overruled by Tincher, T. v. Omega Flex, Inc., Aplt.: 7 citing opinions say overruled outright and 1 limits it to other grounds.\",\"flag_evidence\":[\"citing_events\",\"overruled_by\",\"scope\",\"validated_annotations\"],\"proposition_note\":\"Case is red overall (Overruled; 429 citing treatments), but 1 of the propositions it is cited for carry no negative signal of their own: \\\"the jury may find a defect where the product left the supplier's control lacking any element\u2026\\\" (28 citers, 0 in the last 10 years). The case-level flag concerns\u2026\"},\"overruled_by\":{\"kind\":\"case\",\"verb\":\"overruled\",\"case_name\":\"Tincher, T. v. Omega Flex, Inc., Aplt.\",\"cluster_id\":2753363,\"year\":2014,\"url\":\"https://syfert.com/pennsylvania/cases/628-pa-296/tincher-t-v-omega-flex-inc-aplt\",\"consensus\":\"6 of 6 annotating opinions\"},\"scope\":{\"scope_text\":\"Overruled by Tincher, T. v. Omega Flex, Inc., Aplt.: 7 citing opinions say overruled outright and 1 limits it to other grounds.\",\"n_plain\":7,\"n_other_grounds\":1,\"n_in_part\":0,\"n_qualified_other\":0,\"qualifier_top\":\"on other grounds\"},\"still_good_companions\":[{\"case_name\":\"Webb\",\"cluster_id\":2280829,\"year\":1966,\"url\":\"https://syfert.com/pennsylvania/cases/422-pa-424/webb-v-zern\"},{\"case_name\":\"Mallis\",\"cluster_id\":1467741,\"year\":1985,\"url\":\"https://syfert.com/pennsylvania/cases/336-pa-super-22/dambacher-by-dambacher-v-mallis\"},{\"case_name\":\"Lewis\",\"cluster_id\":2258172,\"year\":1987,\"url\":\"https://syfert.com/pennsylvania/cases/515-pa-334/lewis-v-coffing-hoist-div-duff-norton\"}],\"negative_citers\":[{\"case_name\":\"Timmonds, M. v. AGCO Corp.\",\"link_md\":\"[Timmonds v. AGCO Corp., No. 2916 EDA 2019 (Pa. Super. Ct. Apr. 12, 2021)](https://syfert.com/pennsylvania/cases/cl-4872678/timmonds-m-v-agco-corp)\",\"date\":\"2021-04-12\",\"signal\":\"Overruled\",\"context\":\"The Court reasoned that \u201cthe phrases \u2018defective condition\u2019 and \u2018unreasonably dangerous\u2019 as used in the Restatement\u2026\"},{\"case_name\":\"Tincher, T. v. Omega Flex, Inc., Aplt.\",\"link_md\":\"[Tincher v. Omega Flex, Inc., 104 A.3d 328 (Pa. 2014)](https://syfert.com/pennsylvania/cases/628-pa-296/tincher-t-v-omega-flex-inc-aplt)\",\"date\":\"2014-11-19\",\"signal\":\"Questioned (narrative)\",\"signal_phrase\":\"see\",\"context\":\"See 391 A.2d at 1024-25 (\u201cWe must focus upon two requirements set forth in Section 402A for liability (physical\u2026\"}],\"propositions_summary\":[{\"prop_rank\":1,\"proposition\":\"the jury may find a defect where the product left the supplier's control lacking any element necessary to make it safe for its intended use or possessing any feature that renders it unsafe for the in\u2026\",\"n_citers\":28,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":3,\"proposition\":\"it is a judicial function to decide whether, under plaintiff's averment of the facts, recovery would be justified; and only after this judicial determination is made is the cause submitted to the jur\u2026\",\"n_citers\":5,\"flag\":\"red\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":2,\"proposition\":\"unreasonably dangerous' have no independent significance and merely represent a label to be used when it is determined that the risk of loss should be placed upon the supplier.\",\"n_citers\":3,\"flag\":\"red\",\"red\":0,\"yellow\":0,\"top_negative\":null}],\"counts\":{\"citers_shown_in_full_answer\":25,\"negative_citers_shown_in_full_answer\":2,\"red\":1,\"yellow\":0,\"green\":428,\"propositions\":3},\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"narrative_note\":\"1 citing opinion the classifier counted as green support is shown yellow (\\\"Questioned (narrative)\\\") because its own text questions this case; classified_flag_color keeps the classifier's value. The flag and counts are unchanged.\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\"}",
+   "json": {
+    "cluster_id": 1957128,
+    "case_name": "Azzarello v. Black Bros. Co., Inc.",
+    "bluebook": "Azzarello v. Black Bros. Co., 391 A.2d 1020 (Pa. 1978)",
+    "url": "https://syfert.com/pennsylvania/cases/480-pa-547/azzarello-v-black-bros-co-inc",
+    "link_md": "[Azzarello v. Black Bros. Co., 391 A.2d 1020 (Pa. 1978)](https://syfert.com/pennsylvania/cases/480-pa-547/azzarello-v-black-bros-co-inc)",
+    "compact": true,
+    "treatment": {
+     "flag": "red",
+     "red": 1,
+     "yellow": 0,
+     "green": 428,
+     "procedural": 0,
+     "strongest_signal": "Overruled",
+     "strongest_citer": "Tincher, T. v. Omega Flex, Inc., Aplt.",
+     "strongest_date": "2014-11-19",
+     "strongest_citer_cluster_id": 2753363,
+     "scope": "Overruled by Tincher, T. v. Omega Flex, Inc., Aplt.: 7 citing opinions say overruled outright and 1 limits it to other grounds.",
+     "strongest_citer_source": "overruled_by",
+     "strongest_citer_published": true,
+     "flag_basis": "overruled_by",
+     "flag_reason": "Overruled by Tincher, T. v. Omega Flex, Inc., Aplt.: 7 citing opinions say overruled outright and 1 limits it to other grounds.",
+     "flag_evidence": [
+      "citing_events",
+      "overruled_by",
+      "scope",
+      "validated_annotations"
+     ],
+     "proposition_note": "Case is red overall (Overruled; 429 citing treatments), but 1 of the propositions it is cited for carry no negative signal of their own: \"the jury may find a defect where the product left the supplier's control lacking any element\u2026\" (28 citers, 0 in the last 10 years). The case-level flag concerns\u2026"
+    },
+    "overruled_by": {
+     "kind": "case",
+     "verb": "overruled",
+     "case_name": "Tincher, T. v. Omega Flex, Inc., Aplt.",
+     "cluster_id": 2753363,
+     "year": 2014,
+     "url": "https://syfert.com/pennsylvania/cases/628-pa-296/tincher-t-v-omega-flex-inc-aplt",
+     "consensus": "6 of 6 annotating opinions"
+    },
+    "scope": {
+     "scope_text": "Overruled by Tincher, T. v. Omega Flex, Inc., Aplt.: 7 citing opinions say overruled outright and 1 limits it to other grounds.",
+     "n_plain": 7,
+     "n_other_grounds": 1,
+     "n_in_part": 0,
+     "n_qualified_other": 0,
+     "qualifier_top": "on other grounds"
+    },
+    "still_good_companions": [
+     {
+      "case_name": "Webb",
+      "cluster_id": 2280829,
+      "year": 1966,
+      "url": "https://syfert.com/pennsylvania/cases/422-pa-424/webb-v-zern"
+     },
+     {
+      "case_name": "Mallis",
+      "cluster_id": 1467741,
+      "year": 1985,
+      "url": "https://syfert.com/pennsylvania/cases/336-pa-super-22/dambacher-by-dambacher-v-mallis"
+     },
+     {
+      "case_name": "Lewis",
+      "cluster_id": 2258172,
+      "year": 1987,
+      "url": "https://syfert.com/pennsylvania/cases/515-pa-334/lewis-v-coffing-hoist-div-duff-norton"
+     }
+    ],
+    "negative_citers": [
+     {
+      "case_name": "Timmonds, M. v. AGCO Corp.",
+      "link_md": "[Timmonds v. AGCO Corp., No. 2916 EDA 2019 (Pa. Super. Ct. Apr. 12, 2021)](https://syfert.com/pennsylvania/cases/cl-4872678/timmonds-m-v-agco-corp)",
+      "date": "2021-04-12",
+      "signal": "Overruled",
+      "context": "The Court reasoned that \u201cthe phrases \u2018defective condition\u2019 and \u2018unreasonably dangerous\u2019 as used in the Restatement\u2026"
+     },
+     {
+      "case_name": "Tincher, T. v. Omega Flex, Inc., Aplt.",
+      "link_md": "[Tincher v. Omega Flex, Inc., 104 A.3d 328 (Pa. 2014)](https://syfert.com/pennsylvania/cases/628-pa-296/tincher-t-v-omega-flex-inc-aplt)",
+      "date": "2014-11-19",
+      "signal": "Questioned (narrative)",
+      "signal_phrase": "see",
+      "context": "See 391 A.2d at 1024-25 (\u201cWe must focus upon two requirements set forth in Section 402A for liability (physical\u2026"
+     }
+    ],
+    "propositions_summary": [
+     {
+      "prop_rank": 1,
+      "proposition": "the jury may find a defect where the product left the supplier's control lacking any element necessary to make it safe for its intended use or possessing any feature that renders it unsafe for the in\u2026",
+      "n_citers": 28,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 3,
+      "proposition": "it is a judicial function to decide whether, under plaintiff's averment of the facts, recovery would be justified; and only after this judicial determination is made is the cause submitted to the jur\u2026",
+      "n_citers": 5,
+      "flag": "red",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 2,
+      "proposition": "unreasonably dangerous' have no independent significance and merely represent a label to be used when it is determined that the risk of loss should be placed upon the supplier.",
+      "n_citers": 3,
+      "flag": "red",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     }
+    ],
+    "counts": {
+     "citers_shown_in_full_answer": 25,
+     "negative_citers_shown_in_full_answer": 2,
+     "red": 1,
+     "yellow": 0,
+     "green": 428,
+     "propositions": 3
+    },
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "narrative_note": "1 citing opinion the classifier counted as green support is shown yellow (\"Questioned (narrative)\") because its own text questions this case; classified_flag_color keeps the classifier's value. The flag and counts are unchanged.",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context."
+   }
+  }
+ ]
+}

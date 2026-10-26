@@ -1,0 +1,99 @@
+{
+ "id": "cap-front-01",
+ "class": "caption",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Give the Bluebook case name for 442 S.W.3d 805."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"442 S.W.3d 805\",\n            \"volume\": \"442\",\n            \"reporter\": \"S.W.3d\",\n            \"page\": \"805\",\n            \"pin\": null,\n            \"cluster_id\": 3082117,\n            \"case\": {\n                \"case_name\": \"Ex parte Jerry HARTFIELD. in Re Jerry Hartfield\",\n                \"case_name_short\": \"in Re Jerry Hartfield\",\n                \"date_filed\": \"2014-08-14\",\n                \"court_id\": \"texapp\",\n                \"docket_number\": \"13-14-00238-CV, 13-14-00239-CV, 13-14-00240-CR, 13-14-00344-CR\",\n                \"citation_count\": 9,\n                \"case_name_raw\": \"in Re Jerry Hartfield\",\n                \"court_label\": \"Tex. App.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 16.794,\n                \"total_events\": 25,\n                \"distinct_courts\": 3,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"SHEFFIELD, EX PARTE KEVIN DALE v. the State of Texas\",\n                \"top_pos_court\": \"texcrimapp\",\n                \"top_pos_date\": \"2023-06-21\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Ex parte Jerry HARTFIELD. in Re Jerry Hartfield\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/texas/cases/442-s-w-3d-805/in-re-jerry-hartfield\",\n            \"link_md\": \"[Ex parte Jerry HARTFIELD. in Re Jerry Hartfield](https://syfert.com/texas/cases/442-s-w-3d-805/in-re-jerry-hartfield)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "442 S.W.3d 805",
+      "volume": "442",
+      "reporter": "S.W.3d",
+      "page": "805",
+      "pin": null,
+      "cluster_id": 3082117,
+      "case": {
+       "case_name": "Ex parte Jerry HARTFIELD. in Re Jerry Hartfield",
+       "case_name_short": "in Re Jerry Hartfield",
+       "date_filed": "2014-08-14",
+       "court_id": "texapp",
+       "docket_number": "13-14-00238-CV, 13-14-00239-CV, 13-14-00240-CR, 13-14-00344-CR",
+       "citation_count": 9,
+       "case_name_raw": "in Re Jerry Hartfield",
+       "court_label": "Tex. App."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 16.794,
+       "total_events": 25,
+       "distinct_courts": 3,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "SHEFFIELD, EX PARTE KEVIN DALE v. the State of Texas",
+       "top_pos_court": "texcrimapp",
+       "top_pos_date": "2023-06-21",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Ex parte Jerry HARTFIELD. in Re Jerry Hartfield"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/texas/cases/442-s-w-3d-805/in-re-jerry-hartfield",
+      "link_md": "[Ex parte Jerry HARTFIELD. in Re Jerry Hartfield](https://syfert.com/texas/cases/442-s-w-3d-805/in-re-jerry-hartfield)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

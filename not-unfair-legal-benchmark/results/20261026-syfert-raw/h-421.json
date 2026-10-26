@@ -1,0 +1,97 @@
+{
+ "id": "h-421",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "421 U.S. 901."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"421 U.S. 901\",\n            \"volume\": \"421\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"901\",\n            \"pin\": null,\n            \"cluster_id\": 9002658,\n            \"case\": {\n                \"case_name\": \"Wicks v. City of Charlottesville\",\n                \"case_name_short\": \"Wicks\",\n                \"date_filed\": \"1975-04-14\",\n                \"court_id\": \"pawd\",\n                \"docket_number\": \"No. 74-5850\",\n                \"citation_count\": 0,\n                \"court_label\": \"W.D. Pa.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 8.593,\n                \"total_events\": 15,\n                \"distinct_courts\": 6,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Davis v. Davis\",\n                \"top_pos_court\": \"va\",\n                \"top_pos_date\": \"1987-06-12\",\n                \"top_quote_norm\": \"the statute must therefore be read along with the provisions of the common law, and the latter will be read into the statute unless it clearly appears from express language or by necessary implication that the purpose of the statute was to change the common law.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Wicks v. City of Charlottesville\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/district/cases/cl-9002658/wicks-v-city-of-charlottesville\",\n            \"link_md\": \"[Wicks v. City of Charlottesville](https://syfert.com/federal/district/cases/cl-9002658/wicks-v-city-of-charlottesville)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "421 U.S. 901",
+      "volume": "421",
+      "reporter": "U.S.",
+      "page": "901",
+      "pin": null,
+      "cluster_id": 9002658,
+      "case": {
+       "case_name": "Wicks v. City of Charlottesville",
+       "case_name_short": "Wicks",
+       "date_filed": "1975-04-14",
+       "court_id": "pawd",
+       "docket_number": "No. 74-5850",
+       "citation_count": 0,
+       "court_label": "W.D. Pa."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 8.593,
+       "total_events": 15,
+       "distinct_courts": 6,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Davis v. Davis",
+       "top_pos_court": "va",
+       "top_pos_date": "1987-06-12",
+       "top_quote_norm": "the statute must therefore be read along with the provisions of the common law, and the latter will be read into the statute unless it clearly appears from express language or by necessary implication that the purpose of the statute was to change the common law."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Wicks v. City of Charlottesville"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/district/cases/cl-9002658/wicks-v-city-of-charlottesville",
+      "link_md": "[Wicks v. City of Charlottesville](https://syfert.com/federal/district/cases/cl-9002658/wicks-v-city-of-charlottesville)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

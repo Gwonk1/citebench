@@ -1,0 +1,97 @@
+{
+ "id": "h-ord-04",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "512 U.S. 1206."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"512 U.S. 1206\",\n            \"volume\": \"512\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"1206\",\n            \"pin\": null,\n            \"cluster_id\": 9138385,\n            \"case\": {\n                \"case_name\": \"Stevens v. Board of Law Examiners\",\n                \"case_name_short\": \"Stevens\",\n                \"date_filed\": \"1994-06-13\",\n                \"court_id\": \"scotus\",\n                \"docket_number\": \"No. 93-1666\",\n                \"citation_count\": 1,\n                \"court_label\": \"\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 2.57,\n                \"total_events\": 16,\n                \"distinct_courts\": 3,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Texas Department of Public Safety v. Lavender\",\n                \"top_pos_court\": \"texapp\",\n                \"top_pos_date\": \"1997-01-22\",\n                \"top_quote_norm\": \"our duty, like that of the courts below, in reviewing the ble's decision is to determine whether substantial evidence supports it.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Stevens v. Board of Law Examiners\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/scotus/cases/512-u-s-1206/stevens-v-board-of-law-examiners\",\n            \"link_md\": \"[Stevens v. Board of Law Examiners](https://syfert.com/federal/scotus/cases/512-u-s-1206/stevens-v-board-of-law-examiners)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "512 U.S. 1206",
+      "volume": "512",
+      "reporter": "U.S.",
+      "page": "1206",
+      "pin": null,
+      "cluster_id": 9138385,
+      "case": {
+       "case_name": "Stevens v. Board of Law Examiners",
+       "case_name_short": "Stevens",
+       "date_filed": "1994-06-13",
+       "court_id": "scotus",
+       "docket_number": "No. 93-1666",
+       "citation_count": 1,
+       "court_label": ""
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 2.57,
+       "total_events": 16,
+       "distinct_courts": 3,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Texas Department of Public Safety v. Lavender",
+       "top_pos_court": "texapp",
+       "top_pos_date": "1997-01-22",
+       "top_quote_norm": "our duty, like that of the courts below, in reviewing the ble's decision is to determine whether substantial evidence supports it."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Stevens v. Board of Law Examiners"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/scotus/cases/512-u-s-1206/stevens-v-board-of-law-examiners",
+      "link_md": "[Stevens v. Board of Law Examiners](https://syfert.com/federal/scotus/cases/512-u-s-1206/stevens-v-board-of-law-examiners)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

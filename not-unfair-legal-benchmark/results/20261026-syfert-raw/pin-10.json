@@ -1,0 +1,97 @@
+{
+ "id": "pin-10",
+ "class": "pagination",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "514 U.S. 550."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 0,\n        \"unresolved\": 1,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [\n        \"1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"514 U.S. 550\",\n            \"problem\": \"page 550 is inside United States v. Lopez, which begins at 514 U.S. 549; did you mean United States v. Lopez at 550? If not, verify the citation with check_citation (pass expected_case_name) or remove it.\",\n            \"suggested\": null,\n            \"did_you_mean\": \"United States v. Lopez, 514 U.S. 549, 550 (1995)\",\n            \"interior_of\": {\n                \"cluster_id\": 117927,\n                \"case_name\": \"United States v. Lopez\",\n                \"first_page\": 549\n            },\n            \"verdict\": \"interior_pin\",\n            \"verdict_evidence\": \"span_unclaimed\"\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"514 U.S. 550\",\n            \"volume\": \"514\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"550\",\n            \"pin\": null,\n            \"cluster_id\": null,\n            \"interior_of\": {\n                \"cluster_id\": 117927,\n                \"case_name\": \"United States v. Lopez\",\n                \"bluebook\": \"United States v. Lopez, 514 U.S. 549 (1995)\",\n                \"first_page\": 549,\n                \"first_page_citation\": \"514 U.S. 549\",\n                \"span\": {\n                    \"last_page\": 644,\n                    \"via\": \"opinion_text\"\n                },\n                \"cite_as\": \"United States v. Lopez, 514 U.S. 549, 550 (1995)\",\n                \"advice\": \"page 550 is inside United States v. Lopez, which begins at 514 U.S. 549; did you mean United States v. Lopez at 550?\"\n            },\n            \"did_you_mean\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": null,\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"verdict\": \"interior_pin\",\n            \"verdict_evidence\": \"span_unclaimed\",\n            \"unindexed_advice\": \"page 550 is inside United States v. Lopez, which begins at 514 U.S. 549; did you mean United States v. Lopez at 550?\",\n            \"volume_coverage\": {\n                \"first_pages\": 167,\n                \"coverage_pct\": 97,\n                \"year_lo\": 1995,\n                \"year_hi\": 1995\n            },\n            \"corpus_check\": \"ran\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 0,
+     "unresolved": 1,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [
+     "1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps."
+    ],
+    "corrections": [
+     {
+      "raw": "514 U.S. 550",
+      "problem": "page 550 is inside United States v. Lopez, which begins at 514 U.S. 549; did you mean United States v. Lopez at 550? If not, verify the citation with check_citation (pass expected_case_name) or remove it.",
+      "suggested": null,
+      "did_you_mean": "United States v. Lopez, 514 U.S. 549, 550 (1995)",
+      "interior_of": {
+       "cluster_id": 117927,
+       "case_name": "United States v. Lopez",
+       "first_page": 549
+      },
+      "verdict": "interior_pin",
+      "verdict_evidence": "span_unclaimed"
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "514 U.S. 550",
+      "volume": "514",
+      "reporter": "U.S.",
+      "page": "550",
+      "pin": null,
+      "cluster_id": null,
+      "interior_of": {
+       "cluster_id": 117927,
+       "case_name": "United States v. Lopez",
+       "bluebook": "United States v. Lopez, 514 U.S. 549 (1995)",
+       "first_page": 549,
+       "first_page_citation": "514 U.S. 549",
+       "span": {
+        "last_page": 644,
+        "via": "opinion_text"
+       },
+       "cite_as": "United States v. Lopez, 514 U.S. 549, 550 (1995)",
+       "advice": "page 550 is inside United States v. Lopez, which begins at 514 U.S. 549; did you mean United States v. Lopez at 550?"
+      },
+      "did_you_mean": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": null,
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "verdict": "interior_pin",
+      "verdict_evidence": "span_unclaimed",
+      "unindexed_advice": "page 550 is inside United States v. Lopez, which begins at 514 U.S. 549; did you mean United States v. Lopez at 550?",
+      "volume_coverage": {
+       "first_pages": 167,
+       "coverage_pct": 97,
+       "year_lo": 1995,
+       "year_hi": 1995
+      },
+      "corpus_check": "ran"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

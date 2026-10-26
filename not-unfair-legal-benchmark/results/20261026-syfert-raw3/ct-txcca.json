@@ -1,0 +1,98 @@
+{
+ "id": "ct-txcca",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Give the Bluebook citation for 479 S.W.3d 422, docket PD-1453-15, including the court."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"479 S.W.3d 422\",\n            \"volume\": \"479\",\n            \"reporter\": \"S.W.3d\",\n            \"page\": \"422\",\n            \"pin\": null,\n            \"cluster_id\": 4294338,\n            \"case\": {\n                \"case_name\": \"Bullock\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2015-10-20\",\n                \"court_id\": \"texcrimapp\",\n                \"docket_number\": \"PD-1453-15\",\n                \"citation_count\": 4,\n                \"court_label\": \"Tex. Crim. App.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 17.072,\n                \"total_events\": 17,\n                \"distinct_courts\": 2,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Darren James Rush v. the State of Texas\",\n                \"top_pos_court\": \"texapp\",\n                \"top_pos_date\": \"2023-03-09\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Bullock\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/texas/cases/479-s-w-3d-422/bullock-henry-richard-jr-aka-imari-abybakari\",\n            \"link_md\": \"[Bullock](https://syfert.com/texas/cases/479-s-w-3d-422/bullock-henry-richard-jr-aka-imari-abybakari)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "479 S.W.3d 422",
+      "volume": "479",
+      "reporter": "S.W.3d",
+      "page": "422",
+      "pin": null,
+      "cluster_id": 4294338,
+      "case": {
+       "case_name": "Bullock",
+       "case_name_short": null,
+       "date_filed": "2015-10-20",
+       "court_id": "texcrimapp",
+       "docket_number": "PD-1453-15",
+       "citation_count": 4,
+       "court_label": "Tex. Crim. App."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 17.072,
+       "total_events": 17,
+       "distinct_courts": 2,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Darren James Rush v. the State of Texas",
+       "top_pos_court": "texapp",
+       "top_pos_date": "2023-03-09",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Bullock"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/texas/cases/479-s-w-3d-422/bullock-henry-richard-jr-aka-imari-abybakari",
+      "link_md": "[Bullock](https://syfert.com/texas/cases/479-s-w-3d-422/bullock-henry-richard-jr-aka-imari-abybakari)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

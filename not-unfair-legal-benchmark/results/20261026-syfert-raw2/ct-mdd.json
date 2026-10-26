@@ -1,0 +1,294 @@
+{
+ "id": "ct-mdd",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "D. Maryland."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"D. Maryland.\",\n    \"courts\": [\n        {\n            \"id\": \"mdd\",\n            \"short_name\": \"D. Maryland\",\n            \"full_name\": \"District Court, D. Maryland\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. Maryland\",\n            \"bluebook\": \"D. Md.\",\n            \"cases_in_corpus\": 20638,\n            \"years\": \"1796-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mdb\",\n            \"short_name\": \"D. Maryland\",\n            \"full_name\": \"United States Bankruptcy Court, D. Maryland\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D. Md.\",\n            \"bluebook\": \"Bankr. D. Md.\",\n            \"cases_in_corpus\": 773,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"circtdmd\",\n            \"short_name\": \"U.S. Circuit Court for the District of Maryland\",\n            \"full_name\": \"U.S. Circuit Court for the District of Maryland\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 315,\n            \"years\": \"1803-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"md\",\n            \"short_name\": \"Court of Appeals of Maryland\",\n            \"full_name\": \"Court of Appeals of Maryland\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Md.\",\n            \"bluebook\": \"Md.\",\n            \"cases_in_corpus\": 37575,\n            \"years\": \"1658-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mdctspecapp\",\n            \"short_name\": \"Court of Special Appeals of Maryland\",\n            \"full_name\": \"Court of Special Appeals of Maryland\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Md. Ct. Spec. App.\",\n            \"bluebook\": \"Md. Ct. Spec. App.\",\n            \"cases_in_corpus\": 11287,\n            \"years\": \"1967-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mdag\",\n            \"short_name\": \"Maryland Attorney General Reports\",\n            \"full_name\": \"Maryland Attorney General Reports\",\n            \"jurisdiction\": \"SAG\",\n            \"citation_string\": \"Md. Att'y Gen.\",\n            \"bluebook\": \"Md. Att'y Gen.\",\n            \"cases_in_corpus\": 455,\n            \"years\": \"1996-2025\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mdch\",\n            \"short_name\": \"Maryland Chancery Ct\",\n            \"full_name\": \"High Court of Chancery of Maryland\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Md. Ch.\",\n            \"bluebook\": \"Md. Ch.\",\n            \"cases_in_corpus\": 401,\n            \"years\": \"1797-1853\",\n            \"active\": false\n        },\n        {\n            \"id\": \"mdgenct\",\n            \"short_name\": \"General Court of Maryland\",\n            \"full_name\": \"General Court of Maryland\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"Gen. Ct. Md.\",\n            \"bluebook\": \"Gen. Ct. Md.\",\n            \"cases_in_corpus\": 167,\n            \"years\": \"1786-1799\",\n            \"active\": false\n        },\n        {\n            \"id\": \"fladistctapp\",\n            \"short_name\": \"District Court of Appeal of Florida\",\n            \"full_name\": \"District Court of Appeal of Florida\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App.\",\n            \"bluebook\": \"Fla. Dist. Ct. App.\",\n            \"cases_in_corpus\": 362412,\n            \"years\": \"1957-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysd\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"District Court, S.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D.N.Y.\",\n            \"bluebook\": \"S.D.N.Y.\",\n            \"cases_in_corpus\": 112052,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"caed\",\n            \"short_name\": \"E.D. California\",\n            \"full_name\": \"District Court, E.D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Cal.\",\n            \"bluebook\": \"E.D. Cal.\",\n            \"cases_in_corpus\": 59899,\n            \"years\": \"1916-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"dcd\",\n            \"short_name\": \"District of Columbia\",\n            \"full_name\": \"District Court, District of Columbia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.D.C.\",\n            \"bluebook\": \"D.D.C.\",\n            \"cases_in_corpus\": 47129,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cadc\",\n            \"short_name\": \"D.C. Circuit\",\n            \"full_name\": \"Court of Appeals for the D.C. Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"D.C. Cir.\",\n            \"bluebook\": \"D.C. Cir.\",\n            \"cases_in_corpus\": 43355,\n            \"years\": \"1840-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilnd\",\n            \"short_name\": \"N.D. Illinois\",\n            \"full_name\": \"District Court, N.D. Illinois\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Ill.\",\n            \"bluebook\": \"N.D. Ill.\",\n            \"cases_in_corpus\": 36494,\n            \"years\": \"1808-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"paed\",\n            \"short_name\": \"E.D. Pennsylvania\",\n            \"full_name\": \"District Court, E.D. Pennsylvania\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Pa.\",\n            \"bluebook\": \"E.D. Pa.\",\n            \"cases_in_corpus\": 34661,\n            \"years\": \"1813-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cand\",\n            \"short_name\": \"N.D. California\",\n            \"full_name\": \"District Court, N.D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Cal.\",\n            \"bluebook\": \"N.D. Cal.\",\n            \"cases_in_corpus\": 34618,\n            \"years\": \"1851-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyed\",\n            \"short_name\": \"E.D. New York\",\n            \"full_name\": \"District Court, E.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D.N.Y\",\n            \"bluebook\": \"E.D.N.Y.\",\n            \"cases_in_corpus\": 31557,\n            \"years\": \"1850-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"njd\",\n            \"short_name\": \"D. New Jersey\",\n            \"full_name\": \"District Court, D. New Jersey\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.N.J.\",\n            \"bluebook\": \"D.N.J.\",\n            \"cases_in_corpus\": 27673,\n            \"years\": \"1842-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cacd\",\n            \"short_name\": \"C.D. California\",\n            \"full_name\": \"District Court, C.D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"C.D. Cal.\",\n            \"bluebook\": \"C.D. Cal.\",\n            \"cases_in_corpus\": 27434,\n            \"years\": \"1892-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nvd\",\n            \"short_name\": \"D. Nevada\",\n            \"full_name\": \"District Court, D. Nevada\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. Nev.\",\n            \"bluebook\": \"D. Nev.\",\n            \"cases_in_corpus\": 27179,\n            \"years\": \"1869-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flmd\",\n            \"short_name\": \"M.D. Florida\",\n            \"full_name\": \"District Court, M.D. Florida\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D. Fla.\",\n            \"bluebook\": \"M.D. Fla.\",\n            \"cases_in_corpus\": 25385,\n            \"years\": \"1942-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mied\",\n            \"short_name\": \"E.D. Michigan\",\n            \"full_name\": \"District Court, E.D. Michigan\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Mich.\",\n            \"bluebook\": \"E.D. Mich.\",\n            \"cases_in_corpus\": 24374,\n            \"years\": \"1802-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"dc\",\n            \"short_name\": \"District of Columbia Court of Appeals\",\n            \"full_name\": \"District of Columbia Court of Appeals\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"D.C.\",\n            \"bluebook\": \"D.C.\",\n            \"cases_in_corpus\": 22399,\n            \"years\": \"1841-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wawd\",\n            \"short_name\": \"W.D. Washington\",\n            \"full_name\": \"District Court, W.D. Washington\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D. Wash.\",\n            \"bluebook\": \"W.D. Wash.\",\n            \"cases_in_corpus\": 22261,\n            \"years\": \"1899-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mad\",\n            \"short_name\": \"D. Massachusetts\",\n            \"full_name\": \"District Court, D. Massachusetts\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. Mass.\",\n            \"bluebook\": \"D. Mass.\",\n            \"cases_in_corpus\": 22186,\n            \"years\": \"1796-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"state_ranking\": \"Courts of Maryland are listed first.\"\n}",
+   "json": {
+    "query": "D. Maryland.",
+    "courts": [
+     {
+      "id": "mdd",
+      "short_name": "D. Maryland",
+      "full_name": "District Court, D. Maryland",
+      "jurisdiction": "FD",
+      "citation_string": "D. Maryland",
+      "bluebook": "D. Md.",
+      "cases_in_corpus": 20638,
+      "years": "1796-2026",
+      "active": true
+     },
+     {
+      "id": "mdb",
+      "short_name": "D. Maryland",
+      "full_name": "United States Bankruptcy Court, D. Maryland",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D. Md.",
+      "bluebook": "Bankr. D. Md.",
+      "cases_in_corpus": 773,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "circtdmd",
+      "short_name": "U.S. Circuit Court for the District of Maryland",
+      "full_name": "U.S. Circuit Court for the District of Maryland",
+      "jurisdiction": "F",
+      "cases_in_corpus": 315,
+      "years": "1803-1911",
+      "active": false
+     },
+     {
+      "id": "md",
+      "short_name": "Court of Appeals of Maryland",
+      "full_name": "Court of Appeals of Maryland",
+      "jurisdiction": "S",
+      "citation_string": "Md.",
+      "bluebook": "Md.",
+      "cases_in_corpus": 37575,
+      "years": "1658-2026",
+      "active": true
+     },
+     {
+      "id": "mdctspecapp",
+      "short_name": "Court of Special Appeals of Maryland",
+      "full_name": "Court of Special Appeals of Maryland",
+      "jurisdiction": "SA",
+      "citation_string": "Md. Ct. Spec. App.",
+      "bluebook": "Md. Ct. Spec. App.",
+      "cases_in_corpus": 11287,
+      "years": "1967-2026",
+      "active": true
+     },
+     {
+      "id": "mdag",
+      "short_name": "Maryland Attorney General Reports",
+      "full_name": "Maryland Attorney General Reports",
+      "jurisdiction": "SAG",
+      "citation_string": "Md. Att'y Gen.",
+      "bluebook": "Md. Att'y Gen.",
+      "cases_in_corpus": 455,
+      "years": "1996-2025",
+      "active": true
+     },
+     {
+      "id": "mdch",
+      "short_name": "Maryland Chancery Ct",
+      "full_name": "High Court of Chancery of Maryland",
+      "jurisdiction": "SA",
+      "citation_string": "Md. Ch.",
+      "bluebook": "Md. Ch.",
+      "cases_in_corpus": 401,
+      "years": "1797-1853",
+      "active": false
+     },
+     {
+      "id": "mdgenct",
+      "short_name": "General Court of Maryland",
+      "full_name": "General Court of Maryland",
+      "jurisdiction": "SS",
+      "citation_string": "Gen. Ct. Md.",
+      "bluebook": "Gen. Ct. Md.",
+      "cases_in_corpus": 167,
+      "years": "1786-1799",
+      "active": false
+     },
+     {
+      "id": "fladistctapp",
+      "short_name": "District Court of Appeal of Florida",
+      "full_name": "District Court of Appeal of Florida",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App.",
+      "bluebook": "Fla. Dist. Ct. App.",
+      "cases_in_corpus": 362412,
+      "years": "1957-2026",
+      "active": true
+     },
+     {
+      "id": "nysd",
+      "short_name": "S.D. New York",
+      "full_name": "District Court, S.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "S.D.N.Y.",
+      "bluebook": "S.D.N.Y.",
+      "cases_in_corpus": 112052,
+      "years": "1801-2026",
+      "active": true
+     },
+     {
+      "id": "caed",
+      "short_name": "E.D. California",
+      "full_name": "District Court, E.D. California",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Cal.",
+      "bluebook": "E.D. Cal.",
+      "cases_in_corpus": 59899,
+      "years": "1916-2026",
+      "active": true
+     },
+     {
+      "id": "dcd",
+      "short_name": "District of Columbia",
+      "full_name": "District Court, District of Columbia",
+      "jurisdiction": "FD",
+      "citation_string": "D.D.C.",
+      "bluebook": "D.D.C.",
+      "cases_in_corpus": 47129,
+      "years": "1801-2026",
+      "active": true
+     },
+     {
+      "id": "cadc",
+      "short_name": "D.C. Circuit",
+      "full_name": "Court of Appeals for the D.C. Circuit",
+      "jurisdiction": "F",
+      "citation_string": "D.C. Cir.",
+      "bluebook": "D.C. Cir.",
+      "cases_in_corpus": 43355,
+      "years": "1840-2026",
+      "active": true
+     },
+     {
+      "id": "ilnd",
+      "short_name": "N.D. Illinois",
+      "full_name": "District Court, N.D. Illinois",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Ill.",
+      "bluebook": "N.D. Ill.",
+      "cases_in_corpus": 36494,
+      "years": "1808-2026",
+      "active": true
+     },
+     {
+      "id": "paed",
+      "short_name": "E.D. Pennsylvania",
+      "full_name": "District Court, E.D. Pennsylvania",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Pa.",
+      "bluebook": "E.D. Pa.",
+      "cases_in_corpus": 34661,
+      "years": "1813-2026",
+      "active": true
+     },
+     {
+      "id": "cand",
+      "short_name": "N.D. California",
+      "full_name": "District Court, N.D. California",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Cal.",
+      "bluebook": "N.D. Cal.",
+      "cases_in_corpus": 34618,
+      "years": "1851-2026",
+      "active": true
+     },
+     {
+      "id": "nyed",
+      "short_name": "E.D. New York",
+      "full_name": "District Court, E.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "E.D.N.Y",
+      "bluebook": "E.D.N.Y.",
+      "cases_in_corpus": 31557,
+      "years": "1850-2026",
+      "active": true
+     },
+     {
+      "id": "njd",
+      "short_name": "D. New Jersey",
+      "full_name": "District Court, D. New Jersey",
+      "jurisdiction": "FD",
+      "citation_string": "D.N.J.",
+      "bluebook": "D.N.J.",
+      "cases_in_corpus": 27673,
+      "years": "1842-2026",
+      "active": true
+     },
+     {
+      "id": "cacd",
+      "short_name": "C.D. California",
+      "full_name": "District Court, C.D. California",
+      "jurisdiction": "FD",
+      "citation_string": "C.D. Cal.",
+      "bluebook": "C.D. Cal.",
+      "cases_in_corpus": 27434,
+      "years": "1892-2026",
+      "active": true
+     },
+     {
+      "id": "nvd",
+      "short_name": "D. Nevada",
+      "full_name": "District Court, D. Nevada",
+      "jurisdiction": "FD",
+      "citation_string": "D. Nev.",
+      "bluebook": "D. Nev.",
+      "cases_in_corpus": 27179,
+      "years": "1869-2026",
+      "active": true
+     },
+     {
+      "id": "flmd",
+      "short_name": "M.D. Florida",
+      "full_name": "District Court, M.D. Florida",
+      "jurisdiction": "FD",
+      "citation_string": "M.D. Fla.",
+      "bluebook": "M.D. Fla.",
+      "cases_in_corpus": 25385,
+      "years": "1942-2026",
+      "active": true
+     },
+     {
+      "id": "mied",
+      "short_name": "E.D. Michigan",
+      "full_name": "District Court, E.D. Michigan",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Mich.",
+      "bluebook": "E.D. Mich.",
+      "cases_in_corpus": 24374,
+      "years": "1802-2026",
+      "active": true
+     },
+     {
+      "id": "dc",
+      "short_name": "District of Columbia Court of Appeals",
+      "full_name": "District of Columbia Court of Appeals",
+      "jurisdiction": "S",
+      "citation_string": "D.C.",
+      "bluebook": "D.C.",
+      "cases_in_corpus": 22399,
+      "years": "1841-2026",
+      "active": true
+     },
+     {
+      "id": "wawd",
+      "short_name": "W.D. Washington",
+      "full_name": "District Court, W.D. Washington",
+      "jurisdiction": "FD",
+      "citation_string": "W.D. Wash.",
+      "bluebook": "W.D. Wash.",
+      "cases_in_corpus": 22261,
+      "years": "1899-2026",
+      "active": true
+     },
+     {
+      "id": "mad",
+      "short_name": "D. Massachusetts",
+      "full_name": "District Court, D. Massachusetts",
+      "jurisdiction": "FD",
+      "citation_string": "D. Mass.",
+      "bluebook": "D. Mass.",
+      "cases_in_corpus": 22186,
+      "years": "1796-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "state_ranking": "Courts of Maryland are listed first."
+   }
+  }
+ ]
+}

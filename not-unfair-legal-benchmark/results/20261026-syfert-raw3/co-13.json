@@ -1,0 +1,99 @@
+{
+ "id": "co-13",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "In re Norris, 192 B.R. 863."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"192 B.R. 863\",\n            \"volume\": \"192\",\n            \"reporter\": \"B.R.\",\n            \"page\": \"863\",\n            \"pin\": null,\n            \"caption\": \"In re Norris\",\n            \"cluster_id\": 1811601,\n            \"case\": {\n                \"case_name\": \"In re Norris\",\n                \"case_name_short\": \"In Re Norris\",\n                \"date_filed\": \"1995-08-14\",\n                \"court_id\": \"lawb\",\n                \"docket_number\": \"19-50264\",\n                \"citation_count\": 12,\n                \"court_label\": \"Bankr. W.D. La.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 40.536,\n                \"total_events\": 25,\n                \"distinct_courts\": 7,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Urban Commons Queensway, LLC v. EHT Asset Management, LLC\",\n                \"top_pos_court\": \"deb\",\n                \"top_pos_date\": \"2021-11-15\",\n                \"top_quote_norm\": \"this court steadfastly believes that incarceration is the only appropriate sanction to influence norris to turn over the money.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"In re Norris\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/district/cases/192-b-r-863/in-re-norris\",\n            \"link_md\": \"[In re Norris](https://syfert.com/federal/district/cases/192-b-r-863/in-re-norris)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "192 B.R. 863",
+      "volume": "192",
+      "reporter": "B.R.",
+      "page": "863",
+      "pin": null,
+      "caption": "In re Norris",
+      "cluster_id": 1811601,
+      "case": {
+       "case_name": "In re Norris",
+       "case_name_short": "In Re Norris",
+       "date_filed": "1995-08-14",
+       "court_id": "lawb",
+       "docket_number": "19-50264",
+       "citation_count": 12,
+       "court_label": "Bankr. W.D. La."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 40.536,
+       "total_events": 25,
+       "distinct_courts": 7,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Urban Commons Queensway, LLC v. EHT Asset Management, LLC",
+       "top_pos_court": "deb",
+       "top_pos_date": "2021-11-15",
+       "top_quote_norm": "this court steadfastly believes that incarceration is the only appropriate sanction to influence norris to turn over the money.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "In re Norris"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/district/cases/192-b-r-863/in-re-norris",
+      "link_md": "[In re Norris](https://syfert.com/federal/district/cases/192-b-r-863/in-re-norris)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

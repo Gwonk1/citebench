@@ -1,0 +1,98 @@
+{
+ "id": "c1-05",
+ "class": "coverage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Holland (Peter) Vs. State C/W 79022, 460 P.3d 993."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"460 P.3d 993\",\n            \"volume\": \"460\",\n            \"reporter\": \"P.3d\",\n            \"page\": \"993\",\n            \"pin\": null,\n            \"cluster_id\": 4744597,\n            \"case\": {\n                \"case_name\": \"Pelkola Vs. Pelkola (Child Custody)\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2020-04-13\",\n                \"court_id\": \"nev\",\n                \"docket_number\": \"80763\",\n                \"citation_count\": 0,\n                \"court_label\": \"Nev.\"\n            },\n            \"treatment\": {\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Pelkola Vs. Pelkola (Child Custody)\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/nevada/cases/460-p-3d-993/pelkola-vs-pelkola-child-custody\",\n            \"link_md\": \"[Pelkola Vs. Pelkola (Child Custody)](https://syfert.com/nevada/cases/460-p-3d-993/pelkola-vs-pelkola-child-custody)\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"460 P.3d 993\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/460%20P.3d\"\n                }\n            ]\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "460 P.3d 993",
+      "volume": "460",
+      "reporter": "P.3d",
+      "page": "993",
+      "pin": null,
+      "cluster_id": 4744597,
+      "case": {
+       "case_name": "Pelkola Vs. Pelkola (Child Custody)",
+       "case_name_short": null,
+       "date_filed": "2020-04-13",
+       "court_id": "nev",
+       "docket_number": "80763",
+       "citation_count": 0,
+       "court_label": "Nev."
+      },
+      "treatment": {
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Pelkola Vs. Pelkola (Child Custody)"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/nevada/cases/460-p-3d-993/pelkola-vs-pelkola-child-custody",
+      "link_md": "[Pelkola Vs. Pelkola (Child Custody)](https://syfert.com/nevada/cases/460-p-3d-993/pelkola-vs-pelkola-child-custody)",
+      "citation_provenance": [
+       {
+        "citation": "460 P.3d 993",
+        "recovered_from_citing_opinions": 0,
+        "source": "name_year_recovery",
+        "via": "gapfill",
+        "method": "leagle_volume_listing",
+        "confidence": 0.9,
+        "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+        "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/460%20P.3d"
+       }
+      ]
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

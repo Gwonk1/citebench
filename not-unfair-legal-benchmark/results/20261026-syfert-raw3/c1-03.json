@@ -1,0 +1,104 @@
+{
+ "id": "c1-03",
+ "class": "coverage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "JOSHUA SIMPSON v. STATE OF FLORIDA, 287 So. 3d 573."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"287 So. 3d 573\",\n            \"volume\": \"287\",\n            \"reporter\": \"So. 3d\",\n            \"page\": \"573\",\n            \"pin\": null,\n            \"cluster_id\": 4684280,\n            \"case\": {\n                \"case_name\": \"Joshua Simpson v. State of Florida\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2019-12-05\",\n                \"court_id\": \"fladistctapp\",\n                \"docket_number\": \"18-3390\",\n                \"citation_count\": 0,\n                \"court_label\": \"Fla. 4th DCA\"\n            },\n            \"treatment\": {\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"JOSHUA SIMPSON\",\n                \"rhs\": \"STATE OF FLORIDA\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"JOSHUA SIMPSON\",\n                    \"rhs\": \"STATE OF FLORIDA\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Joshua Simpson v. State of Florida\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/florida/cases/287-so-3d-573/joshua-simpson-v-state-of-florida\",\n            \"link_md\": \"[Joshua Simpson v. State of Florida](https://syfert.com/florida/cases/287-so-3d-573/joshua-simpson-v-state-of-florida)\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"287 So. 3d 573\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/287%20So.3d\"\n                }\n            ]\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "287 So. 3d 573",
+      "volume": "287",
+      "reporter": "So. 3d",
+      "page": "573",
+      "pin": null,
+      "cluster_id": 4684280,
+      "case": {
+       "case_name": "Joshua Simpson v. State of Florida",
+       "case_name_short": null,
+       "date_filed": "2019-12-05",
+       "court_id": "fladistctapp",
+       "docket_number": "18-3390",
+       "citation_count": 0,
+       "court_label": "Fla. 4th DCA"
+      },
+      "treatment": {
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "JOSHUA SIMPSON",
+       "rhs": "STATE OF FLORIDA"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "JOSHUA SIMPSON",
+        "rhs": "STATE OF FLORIDA"
+       },
+       "verdict": "match",
+       "resolved_name": "Joshua Simpson v. State of Florida"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/florida/cases/287-so-3d-573/joshua-simpson-v-state-of-florida",
+      "link_md": "[Joshua Simpson v. State of Florida](https://syfert.com/florida/cases/287-so-3d-573/joshua-simpson-v-state-of-florida)",
+      "citation_provenance": [
+       {
+        "citation": "287 So. 3d 573",
+        "recovered_from_citing_opinions": 0,
+        "source": "name_year_recovery",
+        "via": "gapfill",
+        "method": "leagle_volume_listing",
+        "confidence": 0.9,
+        "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+        "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/287%20So.3d"
+       }
+      ]
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

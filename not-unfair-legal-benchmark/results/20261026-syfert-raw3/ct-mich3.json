@@ -1,0 +1,297 @@
+{
+ "id": "ct-mich3",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Mich. Cir. Ct., 3rd Cir."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Mich. Cir. Ct., 3rd Cir.\",\n    \"courts\": [\n        {\n            \"id\": \"micirct3\",\n            \"short_name\": \"Circuit Court of the 3rd Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 3rd Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 3rd Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 3d Cir.\",\n            \"cases_in_corpus\": 22,\n            \"years\": \"1868-1884\",\n            \"active\": false\n        },\n        {\n            \"id\": \"michctapp\",\n            \"short_name\": \"Michigan Court of Appeals\",\n            \"full_name\": \"Michigan Court of Appeals\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Mich. Ct. App.\",\n            \"bluebook\": \"Mich. Ct. App.\",\n            \"cases_in_corpus\": 50118,\n            \"years\": \"1965-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mich\",\n            \"short_name\": \"Michigan Supreme Court\",\n            \"full_name\": \"Michigan Supreme Court\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Mich.\",\n            \"bluebook\": \"Mich.\",\n            \"cases_in_corpus\": 92447,\n            \"years\": \"1805-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mied\",\n            \"short_name\": \"E.D. Michigan\",\n            \"full_name\": \"District Court, E.D. Michigan\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Mich.\",\n            \"bluebook\": \"E.D. Mich.\",\n            \"cases_in_corpus\": 24374,\n            \"years\": \"1802-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"miwd\",\n            \"short_name\": \"W.D. Michigan\",\n            \"full_name\": \"District Court, W.D. Michigan\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D. Mich.\",\n            \"bluebook\": \"W.D. Mich.\",\n            \"cases_in_corpus\": 9044,\n            \"years\": \"1840-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mieb\",\n            \"short_name\": \"E.D. Michigan\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Michigan\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Mich.\",\n            \"bluebook\": \"Bankr. E.D. Mich.\",\n            \"cases_in_corpus\": 1448,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"miwb\",\n            \"short_name\": \"W.D. Michigan\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. Michigan\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D. Mich.\",\n            \"bluebook\": \"Bankr. W.D. Mich.\",\n            \"cases_in_corpus\": 540,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"michd\",\n            \"short_name\": \"D. Michigan\",\n            \"full_name\": \"District Court, D. Michigan\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. Mich.\",\n            \"bluebook\": \"D. Mich.\",\n            \"cases_in_corpus\": 52,\n            \"years\": \"1852-2007\",\n            \"active\": true\n        },\n        {\n            \"id\": \"micirct10\",\n            \"short_name\": \"Circuit Court of the 10th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 10th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 10th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 10th Cir.\",\n            \"cases_in_corpus\": 34,\n            \"years\": \"1864-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct9\",\n            \"short_name\": \"Circuit Court of the 9th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 9th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 9th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 9th Cir.\",\n            \"cases_in_corpus\": 29,\n            \"years\": \"1869-1884\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct48\",\n            \"short_name\": \"Circuit Court of the 48th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 48th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 48th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 48th Cir.\",\n            \"cases_in_corpus\": 14,\n            \"years\": \"1869-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct15\",\n            \"short_name\": \"Circuit Court of the 15th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 15th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 15th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 15th Cir.\",\n            \"cases_in_corpus\": 13,\n            \"years\": \"1869-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct36\",\n            \"short_name\": \"Circuit Court of the 36th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 36th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 36th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 36th Cir.\",\n            \"cases_in_corpus\": 13,\n            \"years\": \"1869-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct2\",\n            \"short_name\": \"Circuit Court of the 2nd Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 2nd Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 2nd Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 2d Cir.\",\n            \"cases_in_corpus\": 9,\n            \"years\": \"1869-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct22\",\n            \"short_name\": \"Circuit Court of the 22nd Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 22nd Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 22nd Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 22d Cir.\",\n            \"cases_in_corpus\": 9,\n            \"years\": \"1870-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct19\",\n            \"short_name\": \"Circuit Court of the 19th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 19th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 19th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 19th Cir.\",\n            \"cases_in_corpus\": 8,\n            \"years\": \"1867-1882\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct26\",\n            \"short_name\": \"Circuit Court of the 26th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 26th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 26th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 26th Cir.\",\n            \"cases_in_corpus\": 8,\n            \"years\": \"1869-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct31\",\n            \"short_name\": \"Circuit Court of the 31st Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 31st Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 31st Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 31st Cir.\",\n            \"cases_in_corpus\": 8,\n            \"years\": \"1870-1876\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct6\",\n            \"short_name\": \"Circuit Court of the 6th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 6th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 6th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 6th Cir.\",\n            \"cases_in_corpus\": 7,\n            \"years\": \"1870-1884\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct45\",\n            \"short_name\": \"Circuit Court of the 45th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 45th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 45th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 45th Cir.\",\n            \"cases_in_corpus\": 7,\n            \"years\": \"1869-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct43\",\n            \"short_name\": \"Circuit Court of the 43rd Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 43rd Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 43rd Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 43d Cir.\",\n            \"cases_in_corpus\": 6,\n            \"years\": \"1870-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct4\",\n            \"short_name\": \"Circuit Court of the 4th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 4th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 4th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 4th Cir.\",\n            \"cases_in_corpus\": 5,\n            \"years\": \"1870-1884\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct16\",\n            \"short_name\": \"Circuit Court of the 16th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 16th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 16th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 16th Cir.\",\n            \"cases_in_corpus\": 4,\n            \"years\": \"1870-1871\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct17\",\n            \"short_name\": \"Circuit Court of the 17th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 17th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 17th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 17th Cir.\",\n            \"cases_in_corpus\": 3,\n            \"years\": \"1881-1884\",\n            \"active\": false\n        },\n        {\n            \"id\": \"micirct39\",\n            \"short_name\": \"Circuit Court of the 39th Circuit of Michigan\",\n            \"full_name\": \"Circuit Court of the 39th Circuit of Michigan\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Mich. Cir. Ct., 39th Cir.\",\n            \"bluebook\": \"Mich. Cir. Ct., 39th Cir.\",\n            \"cases_in_corpus\": 3,\n            \"years\": \"1870-1871\",\n            \"active\": false\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"state_ranking\": \"Courts of Michigan are listed first.\",\n    \"warning\": \"The top match is a historical court. Its opinions in this corpus end at 1868-1884. If you meant the modern court, check the other rows.\"\n}",
+   "json": {
+    "query": "Mich. Cir. Ct., 3rd Cir.",
+    "courts": [
+     {
+      "id": "micirct3",
+      "short_name": "Circuit Court of the 3rd Circuit of Michigan",
+      "full_name": "Circuit Court of the 3rd Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 3rd Cir.",
+      "bluebook": "Mich. Cir. Ct., 3d Cir.",
+      "cases_in_corpus": 22,
+      "years": "1868-1884",
+      "active": false
+     },
+     {
+      "id": "michctapp",
+      "short_name": "Michigan Court of Appeals",
+      "full_name": "Michigan Court of Appeals",
+      "jurisdiction": "SA",
+      "citation_string": "Mich. Ct. App.",
+      "bluebook": "Mich. Ct. App.",
+      "cases_in_corpus": 50118,
+      "years": "1965-2026",
+      "active": true
+     },
+     {
+      "id": "mich",
+      "short_name": "Michigan Supreme Court",
+      "full_name": "Michigan Supreme Court",
+      "jurisdiction": "S",
+      "citation_string": "Mich.",
+      "bluebook": "Mich.",
+      "cases_in_corpus": 92447,
+      "years": "1805-2026",
+      "active": true
+     },
+     {
+      "id": "mied",
+      "short_name": "E.D. Michigan",
+      "full_name": "District Court, E.D. Michigan",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Mich.",
+      "bluebook": "E.D. Mich.",
+      "cases_in_corpus": 24374,
+      "years": "1802-2026",
+      "active": true
+     },
+     {
+      "id": "miwd",
+      "short_name": "W.D. Michigan",
+      "full_name": "District Court, W.D. Michigan",
+      "jurisdiction": "FD",
+      "citation_string": "W.D. Mich.",
+      "bluebook": "W.D. Mich.",
+      "cases_in_corpus": 9044,
+      "years": "1840-2026",
+      "active": true
+     },
+     {
+      "id": "mieb",
+      "short_name": "E.D. Michigan",
+      "full_name": "United States Bankruptcy Court, E.D. Michigan",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Mich.",
+      "bluebook": "Bankr. E.D. Mich.",
+      "cases_in_corpus": 1448,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "miwb",
+      "short_name": "W.D. Michigan",
+      "full_name": "United States Bankruptcy Court, W.D. Michigan",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D. Mich.",
+      "bluebook": "Bankr. W.D. Mich.",
+      "cases_in_corpus": 540,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "michd",
+      "short_name": "D. Michigan",
+      "full_name": "District Court, D. Michigan",
+      "jurisdiction": "FD",
+      "citation_string": "D. Mich.",
+      "bluebook": "D. Mich.",
+      "cases_in_corpus": 52,
+      "years": "1852-2007",
+      "active": true
+     },
+     {
+      "id": "micirct10",
+      "short_name": "Circuit Court of the 10th Circuit of Michigan",
+      "full_name": "Circuit Court of the 10th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 10th Cir.",
+      "bluebook": "Mich. Cir. Ct., 10th Cir.",
+      "cases_in_corpus": 34,
+      "years": "1864-1871",
+      "active": false
+     },
+     {
+      "id": "micirct9",
+      "short_name": "Circuit Court of the 9th Circuit of Michigan",
+      "full_name": "Circuit Court of the 9th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 9th Cir.",
+      "bluebook": "Mich. Cir. Ct., 9th Cir.",
+      "cases_in_corpus": 29,
+      "years": "1869-1884",
+      "active": false
+     },
+     {
+      "id": "micirct48",
+      "short_name": "Circuit Court of the 48th Circuit of Michigan",
+      "full_name": "Circuit Court of the 48th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 48th Cir.",
+      "bluebook": "Mich. Cir. Ct., 48th Cir.",
+      "cases_in_corpus": 14,
+      "years": "1869-1871",
+      "active": false
+     },
+     {
+      "id": "micirct15",
+      "short_name": "Circuit Court of the 15th Circuit of Michigan",
+      "full_name": "Circuit Court of the 15th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 15th Cir.",
+      "bluebook": "Mich. Cir. Ct., 15th Cir.",
+      "cases_in_corpus": 13,
+      "years": "1869-1871",
+      "active": false
+     },
+     {
+      "id": "micirct36",
+      "short_name": "Circuit Court of the 36th Circuit of Michigan",
+      "full_name": "Circuit Court of the 36th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 36th Cir.",
+      "bluebook": "Mich. Cir. Ct., 36th Cir.",
+      "cases_in_corpus": 13,
+      "years": "1869-1871",
+      "active": false
+     },
+     {
+      "id": "micirct2",
+      "short_name": "Circuit Court of the 2nd Circuit of Michigan",
+      "full_name": "Circuit Court of the 2nd Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 2nd Cir.",
+      "bluebook": "Mich. Cir. Ct., 2d Cir.",
+      "cases_in_corpus": 9,
+      "years": "1869-1871",
+      "active": false
+     },
+     {
+      "id": "micirct22",
+      "short_name": "Circuit Court of the 22nd Circuit of Michigan",
+      "full_name": "Circuit Court of the 22nd Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 22nd Cir.",
+      "bluebook": "Mich. Cir. Ct., 22d Cir.",
+      "cases_in_corpus": 9,
+      "years": "1870-1871",
+      "active": false
+     },
+     {
+      "id": "micirct19",
+      "short_name": "Circuit Court of the 19th Circuit of Michigan",
+      "full_name": "Circuit Court of the 19th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 19th Cir.",
+      "bluebook": "Mich. Cir. Ct., 19th Cir.",
+      "cases_in_corpus": 8,
+      "years": "1867-1882",
+      "active": false
+     },
+     {
+      "id": "micirct26",
+      "short_name": "Circuit Court of the 26th Circuit of Michigan",
+      "full_name": "Circuit Court of the 26th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 26th Cir.",
+      "bluebook": "Mich. Cir. Ct., 26th Cir.",
+      "cases_in_corpus": 8,
+      "years": "1869-1871",
+      "active": false
+     },
+     {
+      "id": "micirct31",
+      "short_name": "Circuit Court of the 31st Circuit of Michigan",
+      "full_name": "Circuit Court of the 31st Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 31st Cir.",
+      "bluebook": "Mich. Cir. Ct., 31st Cir.",
+      "cases_in_corpus": 8,
+      "years": "1870-1876",
+      "active": false
+     },
+     {
+      "id": "micirct6",
+      "short_name": "Circuit Court of the 6th Circuit of Michigan",
+      "full_name": "Circuit Court of the 6th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 6th Cir.",
+      "bluebook": "Mich. Cir. Ct., 6th Cir.",
+      "cases_in_corpus": 7,
+      "years": "1870-1884",
+      "active": false
+     },
+     {
+      "id": "micirct45",
+      "short_name": "Circuit Court of the 45th Circuit of Michigan",
+      "full_name": "Circuit Court of the 45th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 45th Cir.",
+      "bluebook": "Mich. Cir. Ct., 45th Cir.",
+      "cases_in_corpus": 7,
+      "years": "1869-1871",
+      "active": false
+     },
+     {
+      "id": "micirct43",
+      "short_name": "Circuit Court of the 43rd Circuit of Michigan",
+      "full_name": "Circuit Court of the 43rd Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 43rd Cir.",
+      "bluebook": "Mich. Cir. Ct., 43d Cir.",
+      "cases_in_corpus": 6,
+      "years": "1870-1871",
+      "active": false
+     },
+     {
+      "id": "micirct4",
+      "short_name": "Circuit Court of the 4th Circuit of Michigan",
+      "full_name": "Circuit Court of the 4th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 4th Cir.",
+      "bluebook": "Mich. Cir. Ct., 4th Cir.",
+      "cases_in_corpus": 5,
+      "years": "1870-1884",
+      "active": false
+     },
+     {
+      "id": "micirct16",
+      "short_name": "Circuit Court of the 16th Circuit of Michigan",
+      "full_name": "Circuit Court of the 16th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 16th Cir.",
+      "bluebook": "Mich. Cir. Ct., 16th Cir.",
+      "cases_in_corpus": 4,
+      "years": "1870-1871",
+      "active": false
+     },
+     {
+      "id": "micirct17",
+      "short_name": "Circuit Court of the 17th Circuit of Michigan",
+      "full_name": "Circuit Court of the 17th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 17th Cir.",
+      "bluebook": "Mich. Cir. Ct., 17th Cir.",
+      "cases_in_corpus": 3,
+      "years": "1881-1884",
+      "active": false
+     },
+     {
+      "id": "micirct39",
+      "short_name": "Circuit Court of the 39th Circuit of Michigan",
+      "full_name": "Circuit Court of the 39th Circuit of Michigan",
+      "jurisdiction": "ST",
+      "citation_string": "Mich. Cir. Ct., 39th Cir.",
+      "bluebook": "Mich. Cir. Ct., 39th Cir.",
+      "cases_in_corpus": 3,
+      "years": "1870-1871",
+      "active": false
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "state_ranking": "Courts of Michigan are listed first.",
+    "warning": "The top match is a historical court. Its opinions in this corpus end at 1868-1884. If you meant the modern court, check the other rows."
+   }
+  }
+ ]
+}

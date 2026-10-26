@@ -1,0 +1,144 @@
+{
+ "id": "op-03",
+ "class": "coverage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "United States v. Swinton, 797 F. App'x 589."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"unpublished_citations\": 1\n    },\n    \"warnings\": [\n        \"1 cited case(s) are UNPUBLISHED opinions (cites[].citability names the issuing court's citation rule). Cite a published case for the point, or keep each as persuasive authority as its rule allows.\"\n    ],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"797 F. App'x 589\",\n            \"volume\": \"797\",\n            \"reporter\": \"F. App'x\",\n            \"page\": \"589\",\n            \"pin\": null,\n            \"cluster_id\": 4689748,\n            \"case\": {\n                \"case_name\": \"United States v. Swinton\",\n                \"case_name_short\": \"Swinton\",\n                \"date_filed\": \"2019-12-23\",\n                \"court_id\": \"ca2\",\n                \"docket_number\": \"18-101\",\n                \"citation_count\": 0,\n                \"court_label\": \"2d Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 16.281,\n                \"total_events\": 12,\n                \"distinct_courts\": 6,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"United States v. Swinton\",\n                \"top_pos_court\": \"ca2\",\n                \"top_pos_date\": \"2023-02-22\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"United States\",\n                \"rhs\": \"Swinton\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"United States\",\n                    \"rhs\": \"Swinton\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"United States v. Swinton\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/797-f-appx-589/united-states-v-swinton\",\n            \"link_md\": \"[United States v. Swinton](https://syfert.com/federal/circuits/cases/797-f-appx-589/united-states-v-swinton)\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"797 F. App'x 589\",\n                    \"recovered_from_citing_opinions\": 6,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"name_year\",\n                    \"confidence\": 0.95,\n                    \"note\": \"Reporter citation recovered from 6 citing opinions that cite this case by name and year (gap-fill, confidence 0.95); CourtListener carries no reporter cite for it\",\n                    \"citing_cluster_ids\": [\n                        4834801,\n                        4834881,\n                        9378363,\n                        9632093,\n                        9838041\n                    ]\n                }\n            ],\n            \"citability\": {\n                \"kind\": \"unpublished_citation\",\n                \"severity\": \"caution\",\n                \"status\": \"Unpublished\",\n                \"status_source\": \"courtlistener\",\n                \"court\": \"ca2\",\n                \"decided\": \"2019-12-23\",\n                \"rule\": \"2d Cir. R. 32.1.1(a), (b)(1), (c)\",\n                \"rule_key\": \"ca2_32.1.1_post2007\",\n                \"may_cite\": \"persuasive\",\n                \"reading\": \"may be cited for persuasive value only; it is not binding precedent\",\n                \"rule_excerpt\": \"(a) Precedential Effect of Summary Orders. Rulings by summary order do not have precedential effect. (b) Citation of Summary Orders. (1) Summary Orders Issued On or After January 1, 2007. In a document filed with this court, a party may cite a summary order issued on or after January 1, 2007. ... (c) Citation Form.\",\n                \"rule_url\": \"https://www.ca2.uscourts.gov/clerk/case_filing/rules/title7/local_rule_32_1_1.html\",\n                \"our_reading\": \"Post-2007 Second Circuit summary orders are citable but have no precedential effect (persuasive only).\",\n                \"message\": \"Under 2d Cir. R. 32.1.1(a), (b)(1), (c), this unpublished 2d Cir. opinion (decided 2019-12-23) is not binding precedent and may be cited for its persuasive value only; mark it as unpublished in the citation, or cite a published case for the point. Rule conditions: Summary orders have no precedential effect; may be cited; must cite Federal Appendix or an electronic database with the notation \\\"summary order\\\"; serve a copy on any pro se party.\",\n                \"fix\": \"Keep it as persuasive authority with the notation the rule requires, or cite a published case for the point.\",\n                \"forum_note\": \"This is the rule of the court that issued the opinion; the court you file in may apply its own.\",\n                \"reviewed\": null\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "unpublished_citations": 1
+    },
+    "warnings": [
+     "1 cited case(s) are UNPUBLISHED opinions (cites[].citability names the issuing court's citation rule). Cite a published case for the point, or keep each as persuasive authority as its rule allows."
+    ],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "797 F. App'x 589",
+      "volume": "797",
+      "reporter": "F. App'x",
+      "page": "589",
+      "pin": null,
+      "cluster_id": 4689748,
+      "case": {
+       "case_name": "United States v. Swinton",
+       "case_name_short": "Swinton",
+       "date_filed": "2019-12-23",
+       "court_id": "ca2",
+       "docket_number": "18-101",
+       "citation_count": 0,
+       "court_label": "2d Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 16.281,
+       "total_events": 12,
+       "distinct_courts": 6,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "United States v. Swinton",
+       "top_pos_court": "ca2",
+       "top_pos_date": "2023-02-22",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "United States",
+       "rhs": "Swinton"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "United States",
+        "rhs": "Swinton"
+       },
+       "verdict": "match",
+       "resolved_name": "United States v. Swinton"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/797-f-appx-589/united-states-v-swinton",
+      "link_md": "[United States v. Swinton](https://syfert.com/federal/circuits/cases/797-f-appx-589/united-states-v-swinton)",
+      "citation_provenance": [
+       {
+        "citation": "797 F. App'x 589",
+        "recovered_from_citing_opinions": 6,
+        "source": "name_year_recovery",
+        "via": "gapfill",
+        "method": "name_year",
+        "confidence": 0.95,
+        "note": "Reporter citation recovered from 6 citing opinions that cite this case by name and year (gap-fill, confidence 0.95); CourtListener carries no reporter cite for it",
+        "citing_cluster_ids": [
+         4834801,
+         4834881,
+         9378363,
+         9632093,
+         9838041
+        ]
+       }
+      ],
+      "citability": {
+       "kind": "unpublished_citation",
+       "severity": "caution",
+       "status": "Unpublished",
+       "status_source": "courtlistener",
+       "court": "ca2",
+       "decided": "2019-12-23",
+       "rule": "2d Cir. R. 32.1.1(a), (b)(1), (c)",
+       "rule_key": "ca2_32.1.1_post2007",
+       "may_cite": "persuasive",
+       "reading": "may be cited for persuasive value only; it is not binding precedent",
+       "rule_excerpt": "(a) Precedential Effect of Summary Orders. Rulings by summary order do not have precedential effect. (b) Citation of Summary Orders. (1) Summary Orders Issued On or After January 1, 2007. In a document filed with this court, a party may cite a summary order issued on or after January 1, 2007. ... (c) Citation Form.",
+       "rule_url": "https://www.ca2.uscourts.gov/clerk/case_filing/rules/title7/local_rule_32_1_1.html",
+       "our_reading": "Post-2007 Second Circuit summary orders are citable but have no precedential effect (persuasive only).",
+       "message": "Under 2d Cir. R. 32.1.1(a), (b)(1), (c), this unpublished 2d Cir. opinion (decided 2019-12-23) is not binding precedent and may be cited for its persuasive value only; mark it as unpublished in the citation, or cite a published case for the point. Rule conditions: Summary orders have no precedential effect; may be cited; must cite Federal Appendix or an electronic database with the notation \"summary order\"; serve a copy on any pro se party.",
+       "fix": "Keep it as persuasive authority with the notation the rule requires, or cite a published case for the point.",
+       "forum_note": "This is the rule of the court that issued the opinion; the court you file in may apply its own.",
+       "reviewed": null
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,287 @@
+{
+ "id": "ct-wvnd",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "N.D.W. Va."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"N.D.W. Va.\",\n    \"courts\": [\n        {\n            \"id\": \"wvnd\",\n            \"short_name\": \"N.D. West Virginia\",\n            \"full_name\": \"District Court, N.D. West Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D.W. Va.\",\n            \"bluebook\": \"N.D. W. Va.\",\n            \"cases_in_corpus\": 3338,\n            \"years\": \"1905-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvnb\",\n            \"short_name\": \"N.D. West Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. West Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D.W. Va.\",\n            \"bluebook\": \"Bankr. N.D. W. Va.\",\n            \"cases_in_corpus\": 181,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvsd\",\n            \"short_name\": \"S.D. West Virginia\",\n            \"full_name\": \"District Court, S.D. West Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D.W. Va\",\n            \"bluebook\": \"S.D. W. Va.\",\n            \"cases_in_corpus\": 8584,\n            \"years\": \"1902-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvsb\",\n            \"short_name\": \"S.D. West Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. West Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D.W. Va.\",\n            \"bluebook\": \"Bankr. S.D. W. Va.\",\n            \"cases_in_corpus\": 162,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvad\",\n            \"short_name\": \"D. West Virginia\",\n            \"full_name\": \"District Court, D. West Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. W.Va.\",\n            \"bluebook\": \"D. W. Va.\",\n            \"cases_in_corpus\": 24,\n            \"years\": \"1867-2013\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wva\",\n            \"short_name\": \"West Virginia Supreme Court\",\n            \"full_name\": \"West Virginia Supreme Court\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"W. Va.\",\n            \"bluebook\": \"W. Va.\",\n            \"cases_in_corpus\": 33035,\n            \"years\": \"1864-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvctcl\",\n            \"short_name\": \"West Virginia Court of Claims\",\n            \"full_name\": \"West Virginia Court of Claims\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"W. Va. Ct. Cl.\",\n            \"bluebook\": \"W. Va. Ct. Cl.\",\n            \"cases_in_corpus\": 5203,\n            \"years\": \"1941-2011\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvactapp\",\n            \"short_name\": \"Int. Ct. of App. of W.Va.\",\n            \"full_name\": \"Intermediate Court of Appeals of West Virginia\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 1441,\n            \"years\": \"2022-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"circtndwv\",\n            \"short_name\": \"U.S. Circuit Court for the District of Northern West Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of Northern West Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 61,\n            \"years\": \"1901-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtdwv\",\n            \"short_name\": \"U.S. Circuit Court for the District of West Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of West Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 97,\n            \"years\": \"1853-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtsdwv\",\n            \"short_name\": \"U.S. Circuit Court for the District of Southern West Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of Southern West Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"ilnd\",\n            \"short_name\": \"N.D. Illinois\",\n            \"full_name\": \"District Court, N.D. Illinois\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Ill.\",\n            \"bluebook\": \"N.D. Ill.\",\n            \"cases_in_corpus\": 36494,\n            \"years\": \"1808-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cand\",\n            \"short_name\": \"N.D. California\",\n            \"full_name\": \"District Court, N.D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Cal.\",\n            \"bluebook\": \"N.D. Cal.\",\n            \"cases_in_corpus\": 34618,\n            \"years\": \"1851-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nd\",\n            \"short_name\": \"North Dakota Supreme Court\",\n            \"full_name\": \"North Dakota Supreme Court\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"N.D.\",\n            \"bluebook\": \"N.D.\",\n            \"cases_in_corpus\": 21448,\n            \"years\": \"1807-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohnd\",\n            \"short_name\": \"N.D. Ohio\",\n            \"full_name\": \"District Court, N.D. Ohio\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Ohio\",\n            \"bluebook\": \"N.D. Ohio\",\n            \"cases_in_corpus\": 15512,\n            \"years\": \"1828-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"innd\",\n            \"short_name\": \"N.D. Indiana\",\n            \"full_name\": \"District Court, N.D. Indiana\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Ind.\",\n            \"bluebook\": \"N.D. Ind.\",\n            \"cases_in_corpus\": 13870,\n            \"years\": \"1928-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txnd\",\n            \"short_name\": \"N.D. Texas\",\n            \"full_name\": \"District Court, N.D. Texas\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Tex.\",\n            \"bluebook\": \"N.D. Tex.\",\n            \"cases_in_corpus\": 13635,\n            \"years\": \"1882-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaed\",\n            \"short_name\": \"E.D. Virginia\",\n            \"full_name\": \"District Court, E.D. Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Va.\",\n            \"bluebook\": \"E.D. Va.\",\n            \"cases_in_corpus\": 12436,\n            \"years\": \"1802-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nynd\",\n            \"short_name\": \"N.D. New York\",\n            \"full_name\": \"District Court, N.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D.N.Y.\",\n            \"bluebook\": \"N.D.N.Y.\",\n            \"cases_in_corpus\": 11761,\n            \"years\": \"1814-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vawd\",\n            \"short_name\": \"W.D. Virginia\",\n            \"full_name\": \"District Court, W.D. Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D. Va.\",\n            \"bluebook\": \"W.D. Va.\",\n            \"cases_in_corpus\": 9076,\n            \"years\": \"1842-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"alnd\",\n            \"short_name\": \"N.D. Alabama\",\n            \"full_name\": \"District Court, N.D. Alabama\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Ala.\",\n            \"bluebook\": \"N.D. Ala.\",\n            \"cases_in_corpus\": 6927,\n            \"years\": \"1846-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"gand\",\n            \"short_name\": \"N.D. Georgia\",\n            \"full_name\": \"District Court, N.D. Georgia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Ga.\",\n            \"bluebook\": \"N.D. Ga.\",\n            \"cases_in_corpus\": 6780,\n            \"years\": \"1830-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"msnd\",\n            \"short_name\": \"N.D. Mississippi\",\n            \"full_name\": \"District Court, N.D. Mississippi\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Miss.\",\n            \"bluebook\": \"N.D. Miss.\",\n            \"cases_in_corpus\": 5120,\n            \"years\": \"1868-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"oknd\",\n            \"short_name\": \"N.D. Oklahoma\",\n            \"full_name\": \"District Court, N.D. Oklahoma\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Okla.\",\n            \"bluebook\": \"N.D. Okla.\",\n            \"cases_in_corpus\": 3087,\n            \"years\": \"1925-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"iand\",\n            \"short_name\": \"N.D. Iowa\",\n            \"full_name\": \"District Court, N.D. Iowa\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Iowa\",\n            \"bluebook\": \"N.D. Iowa\",\n            \"cases_in_corpus\": 2726,\n            \"years\": \"1883-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"state_ranking\": \"Courts of West Virginia are listed first.\"\n}",
+   "json": {
+    "query": "N.D.W. Va.",
+    "courts": [
+     {
+      "id": "wvnd",
+      "short_name": "N.D. West Virginia",
+      "full_name": "District Court, N.D. West Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "N.D.W. Va.",
+      "bluebook": "N.D. W. Va.",
+      "cases_in_corpus": 3338,
+      "years": "1905-2026",
+      "active": true
+     },
+     {
+      "id": "wvnb",
+      "short_name": "N.D. West Virginia",
+      "full_name": "United States Bankruptcy Court, N.D. West Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D.W. Va.",
+      "bluebook": "Bankr. N.D. W. Va.",
+      "cases_in_corpus": 181,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "wvsd",
+      "short_name": "S.D. West Virginia",
+      "full_name": "District Court, S.D. West Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "S.D.W. Va",
+      "bluebook": "S.D. W. Va.",
+      "cases_in_corpus": 8584,
+      "years": "1902-2026",
+      "active": true
+     },
+     {
+      "id": "wvsb",
+      "short_name": "S.D. West Virginia",
+      "full_name": "United States Bankruptcy Court, S.D. West Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D.W. Va.",
+      "bluebook": "Bankr. S.D. W. Va.",
+      "cases_in_corpus": 162,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "wvad",
+      "short_name": "D. West Virginia",
+      "full_name": "District Court, D. West Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "D. W.Va.",
+      "bluebook": "D. W. Va.",
+      "cases_in_corpus": 24,
+      "years": "1867-2013",
+      "active": true
+     },
+     {
+      "id": "wva",
+      "short_name": "West Virginia Supreme Court",
+      "full_name": "West Virginia Supreme Court",
+      "jurisdiction": "S",
+      "citation_string": "W. Va.",
+      "bluebook": "W. Va.",
+      "cases_in_corpus": 33035,
+      "years": "1864-2026",
+      "active": true
+     },
+     {
+      "id": "wvctcl",
+      "short_name": "West Virginia Court of Claims",
+      "full_name": "West Virginia Court of Claims",
+      "jurisdiction": "ST",
+      "citation_string": "W. Va. Ct. Cl.",
+      "bluebook": "W. Va. Ct. Cl.",
+      "cases_in_corpus": 5203,
+      "years": "1941-2011",
+      "active": true
+     },
+     {
+      "id": "wvactapp",
+      "short_name": "Int. Ct. of App. of W.Va.",
+      "full_name": "Intermediate Court of Appeals of West Virginia",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 1441,
+      "years": "2022-2026",
+      "active": true
+     },
+     {
+      "id": "circtndwv",
+      "short_name": "U.S. Circuit Court for the District of Northern West Virginia",
+      "full_name": "U.S. Circuit Court for the District of Northern West Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 61,
+      "years": "1901-1911",
+      "active": false
+     },
+     {
+      "id": "circtdwv",
+      "short_name": "U.S. Circuit Court for the District of West Virginia",
+      "full_name": "U.S. Circuit Court for the District of West Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 97,
+      "years": "1853-1911",
+      "active": false
+     },
+     {
+      "id": "circtsdwv",
+      "short_name": "U.S. Circuit Court for the District of Southern West Virginia",
+      "full_name": "U.S. Circuit Court for the District of Southern West Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "ilnd",
+      "short_name": "N.D. Illinois",
+      "full_name": "District Court, N.D. Illinois",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Ill.",
+      "bluebook": "N.D. Ill.",
+      "cases_in_corpus": 36494,
+      "years": "1808-2026",
+      "active": true
+     },
+     {
+      "id": "cand",
+      "short_name": "N.D. California",
+      "full_name": "District Court, N.D. California",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Cal.",
+      "bluebook": "N.D. Cal.",
+      "cases_in_corpus": 34618,
+      "years": "1851-2026",
+      "active": true
+     },
+     {
+      "id": "nd",
+      "short_name": "North Dakota Supreme Court",
+      "full_name": "North Dakota Supreme Court",
+      "jurisdiction": "S",
+      "citation_string": "N.D.",
+      "bluebook": "N.D.",
+      "cases_in_corpus": 21448,
+      "years": "1807-2026",
+      "active": true
+     },
+     {
+      "id": "ohnd",
+      "short_name": "N.D. Ohio",
+      "full_name": "District Court, N.D. Ohio",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Ohio",
+      "bluebook": "N.D. Ohio",
+      "cases_in_corpus": 15512,
+      "years": "1828-2026",
+      "active": true
+     },
+     {
+      "id": "innd",
+      "short_name": "N.D. Indiana",
+      "full_name": "District Court, N.D. Indiana",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Ind.",
+      "bluebook": "N.D. Ind.",
+      "cases_in_corpus": 13870,
+      "years": "1928-2026",
+      "active": true
+     },
+     {
+      "id": "txnd",
+      "short_name": "N.D. Texas",
+      "full_name": "District Court, N.D. Texas",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Tex.",
+      "bluebook": "N.D. Tex.",
+      "cases_in_corpus": 13635,
+      "years": "1882-2026",
+      "active": true
+     },
+     {
+      "id": "vaed",
+      "short_name": "E.D. Virginia",
+      "full_name": "District Court, E.D. Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Va.",
+      "bluebook": "E.D. Va.",
+      "cases_in_corpus": 12436,
+      "years": "1802-2026",
+      "active": true
+     },
+     {
+      "id": "nynd",
+      "short_name": "N.D. New York",
+      "full_name": "District Court, N.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "N.D.N.Y.",
+      "bluebook": "N.D.N.Y.",
+      "cases_in_corpus": 11761,
+      "years": "1814-2026",
+      "active": true
+     },
+     {
+      "id": "vawd",
+      "short_name": "W.D. Virginia",
+      "full_name": "District Court, W.D. Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "W.D. Va.",
+      "bluebook": "W.D. Va.",
+      "cases_in_corpus": 9076,
+      "years": "1842-2026",
+      "active": true
+     },
+     {
+      "id": "alnd",
+      "short_name": "N.D. Alabama",
+      "full_name": "District Court, N.D. Alabama",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Ala.",
+      "bluebook": "N.D. Ala.",
+      "cases_in_corpus": 6927,
+      "years": "1846-2026",
+      "active": true
+     },
+     {
+      "id": "gand",
+      "short_name": "N.D. Georgia",
+      "full_name": "District Court, N.D. Georgia",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Ga.",
+      "bluebook": "N.D. Ga.",
+      "cases_in_corpus": 6780,
+      "years": "1830-2026",
+      "active": true
+     },
+     {
+      "id": "msnd",
+      "short_name": "N.D. Mississippi",
+      "full_name": "District Court, N.D. Mississippi",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Miss.",
+      "bluebook": "N.D. Miss.",
+      "cases_in_corpus": 5120,
+      "years": "1868-2026",
+      "active": true
+     },
+     {
+      "id": "oknd",
+      "short_name": "N.D. Oklahoma",
+      "full_name": "District Court, N.D. Oklahoma",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Okla.",
+      "bluebook": "N.D. Okla.",
+      "cases_in_corpus": 3087,
+      "years": "1925-2026",
+      "active": true
+     },
+     {
+      "id": "iand",
+      "short_name": "N.D. Iowa",
+      "full_name": "District Court, N.D. Iowa",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Iowa",
+      "bluebook": "N.D. Iowa",
+      "cases_in_corpus": 2726,
+      "years": "1883-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "state_ranking": "Courts of West Virginia are listed first."
+   }
+  }
+ ]
+}

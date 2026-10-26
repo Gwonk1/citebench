@@ -1,0 +1,104 @@
+{
+ "id": "co-08",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Katko v. Briney, 183 N.W.2d 657."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"183 N.W.2d 657\",\n            \"volume\": \"183\",\n            \"reporter\": \"N.W.2d\",\n            \"page\": \"657\",\n            \"pin\": null,\n            \"cluster_id\": 2151117,\n            \"case\": {\n                \"case_name\": \"Katko v. Briney\",\n                \"case_name_short\": \"Katko\",\n                \"date_filed\": \"1971-02-09\",\n                \"court_id\": \"iowa\",\n                \"docket_number\": \"54169\",\n                \"citation_count\": 26,\n                \"court_label\": \"Iowa\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 15.46,\n                \"total_events\": 31,\n                \"distinct_courts\": 9,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Briner v. Hyslop\",\n                \"top_pos_court\": \"iowa\",\n                \"top_pos_date\": \"1983-08-17\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Katko\",\n                \"rhs\": \"Briney\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Katko\",\n                    \"rhs\": \"Briney\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Katko v. Briney\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/iowa/cases/183-n-w-2d-657/katko-v-briney\",\n            \"link_md\": \"[Katko v. Briney](https://syfert.com/iowa/cases/183-n-w-2d-657/katko-v-briney)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "183 N.W.2d 657",
+      "volume": "183",
+      "reporter": "N.W.2d",
+      "page": "657",
+      "pin": null,
+      "cluster_id": 2151117,
+      "case": {
+       "case_name": "Katko v. Briney",
+       "case_name_short": "Katko",
+       "date_filed": "1971-02-09",
+       "court_id": "iowa",
+       "docket_number": "54169",
+       "citation_count": 26,
+       "court_label": "Iowa"
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 15.46,
+       "total_events": 31,
+       "distinct_courts": 9,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Briner v. Hyslop",
+       "top_pos_court": "iowa",
+       "top_pos_date": "1983-08-17",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Katko",
+       "rhs": "Briney"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Katko",
+        "rhs": "Briney"
+       },
+       "verdict": "match",
+       "resolved_name": "Katko v. Briney"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/iowa/cases/183-n-w-2d-657/katko-v-briney",
+      "link_md": "[Katko v. Briney](https://syfert.com/iowa/cases/183-n-w-2d-657/katko-v-briney)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

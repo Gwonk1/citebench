@@ -1,0 +1,270 @@
+{
+ "id": "ct-nmib",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Bankr. N. Mar. I."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Bankr. N. Mar. I.\",\n    \"courts\": [\n        {\n            \"id\": \"nmib\",\n            \"short_name\": \"Northern Mariana Islands\",\n            \"full_name\": \"United States Bankruptcy Court, Northern Mariana Islands\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N. Mar. I.\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"nmid\",\n            \"short_name\": \"Northern Mariana Islands\",\n            \"full_name\": \"District Court, Northern Mariana Islands\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N. Mar. I.\",\n            \"cases_in_corpus\": 321,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysb\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D.N.Y.\",\n            \"cases_in_corpus\": 4402,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyeb\",\n            \"short_name\": \"E.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D.N.Y.\",\n            \"cases_in_corpus\": 1625,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"njb\",\n            \"short_name\": \"D. New Jersey\",\n            \"full_name\": \"United States Bankruptcy Court, D. New Jersey\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D.N.J.\",\n            \"cases_in_corpus\": 1094,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nmb\",\n            \"short_name\": \"D. New Mexico\",\n            \"full_name\": \"United States Bankruptcy Court, D. New Mexico\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D.N.M.\",\n            \"cases_in_corpus\": 802,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nywb\",\n            \"short_name\": \"W.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D.N.Y.\",\n            \"cases_in_corpus\": 736,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nceb\",\n            \"short_name\": \"E.D. North Carolina\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. North Carolina\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D.N.C.\",\n            \"cases_in_corpus\": 557,\n            \"years\": \"1976-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nhb\",\n            \"short_name\": \"D. New Hampshire\",\n            \"full_name\": \"United States Bankruptcy Court, D. New Hampshire\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D.N.H.\",\n            \"cases_in_corpus\": 549,\n            \"years\": \"1981-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"rib\",\n            \"short_name\": \"D. Rhode Island\",\n            \"full_name\": \"United States Bankruptcy Court, D. Rhode Island\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D.R.I.\",\n            \"cases_in_corpus\": 531,\n            \"years\": \"1975-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nynb\",\n            \"short_name\": \"N.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D.N.Y.\",\n            \"cases_in_corpus\": 526,\n            \"years\": \"1923-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncmb\",\n            \"short_name\": \"M.D. North Carolina\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. North Carolina\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D.N.C.\",\n            \"cases_in_corpus\": 288,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncwb\",\n            \"short_name\": \"W.D. North Carolina\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. North Carolina\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D.N.C.\",\n            \"cases_in_corpus\": 196,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vib\",\n            \"short_name\": \"D. Virgin Islands\",\n            \"full_name\": \"United States Bankruptcy Court, D. Virgin Islands\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D.V.I.\",\n            \"cases_in_corpus\": 18,\n            \"years\": \"1979-2024\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyappdiv\",\n            \"short_name\": \"Appellate Division of the Supreme Court of New York\",\n            \"full_name\": \"Appellate Division of the Supreme Court of the State of New York\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.Y. App. Div.\",\n            \"cases_in_corpus\": 774886,\n            \"years\": \"1714-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupct\",\n            \"short_name\": \"New York Supreme Court\",\n            \"full_name\": \"New York Supreme Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Ct.\",\n            \"cases_in_corpus\": 117110,\n            \"years\": \"1794-2025\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysd\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"District Court, S.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D.N.Y.\",\n            \"cases_in_corpus\": 112052,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nc\",\n            \"short_name\": \"Supreme Court of North Carolina\",\n            \"full_name\": \"Supreme Court of North Carolina\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"N.C.\",\n            \"cases_in_corpus\": 91568,\n            \"years\": \"1800-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nj\",\n            \"short_name\": \"Supreme Court of New Jersey\",\n            \"full_name\": \"Supreme Court of New Jersey\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"N.J.\",\n            \"cases_in_corpus\": 79076,\n            \"years\": \"1775-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"njsuperctappdiv\",\n            \"short_name\": \"New Jersey Superior Court App Division\",\n            \"full_name\": \"New Jersey Superior Court Appellate Division\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.J. Super. Ct. App. Div.\",\n            \"cases_in_corpus\": 47846,\n            \"years\": \"1831-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncctapp\",\n            \"short_name\": \"Court of Appeals of North Carolina\",\n            \"full_name\": \"Court of Appeals of North Carolina\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.C. Ct. App.\",\n            \"cases_in_corpus\": 46133,\n            \"years\": \"1777-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyed\",\n            \"short_name\": \"E.D. New York\",\n            \"full_name\": \"District Court, E.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D.N.Y\",\n            \"cases_in_corpus\": 31557,\n            \"years\": \"1850-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"njd\",\n            \"short_name\": \"D. New Jersey\",\n            \"full_name\": \"District Court, D. New Jersey\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.N.J.\",\n            \"cases_in_corpus\": 27673,\n            \"years\": \"1842-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ri\",\n            \"short_name\": \"Supreme Court of Rhode Island\",\n            \"full_name\": \"Supreme Court of Rhode Island\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"R.I.\",\n            \"cases_in_corpus\": 25431,\n            \"years\": \"1828-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyappterm\",\n            \"short_name\": \"Appellate Terms of the Supreme Court of New York\",\n            \"full_name\": \"Appellate Terms of the Supreme Court of New York\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.Y. App. Term.\",\n            \"cases_in_corpus\": 24317,\n            \"years\": \"1890-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"warning\": \"The top match is a historical court. Its opinions in this corpus end at an early date. If you meant the modern court, check the other rows.\"\n}",
+   "json": {
+    "query": "Bankr. N. Mar. I.",
+    "courts": [
+     {
+      "id": "nmib",
+      "short_name": "Northern Mariana Islands",
+      "full_name": "United States Bankruptcy Court, Northern Mariana Islands",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N. Mar. I.",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "nmid",
+      "short_name": "Northern Mariana Islands",
+      "full_name": "District Court, Northern Mariana Islands",
+      "jurisdiction": "FD",
+      "citation_string": "N. Mar. I.",
+      "cases_in_corpus": 321,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nysb",
+      "short_name": "S.D. New York",
+      "full_name": "United States Bankruptcy Court, S.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D.N.Y.",
+      "cases_in_corpus": 4402,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nyeb",
+      "short_name": "E.D. New York",
+      "full_name": "United States Bankruptcy Court, E.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D.N.Y.",
+      "cases_in_corpus": 1625,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "njb",
+      "short_name": "D. New Jersey",
+      "full_name": "United States Bankruptcy Court, D. New Jersey",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D.N.J.",
+      "cases_in_corpus": 1094,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nmb",
+      "short_name": "D. New Mexico",
+      "full_name": "United States Bankruptcy Court, D. New Mexico",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D.N.M.",
+      "cases_in_corpus": 802,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "nywb",
+      "short_name": "W.D. New York",
+      "full_name": "United States Bankruptcy Court, W.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D.N.Y.",
+      "cases_in_corpus": 736,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nceb",
+      "short_name": "E.D. North Carolina",
+      "full_name": "United States Bankruptcy Court, E.D. North Carolina",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D.N.C.",
+      "cases_in_corpus": 557,
+      "years": "1976-2026",
+      "active": true
+     },
+     {
+      "id": "nhb",
+      "short_name": "D. New Hampshire",
+      "full_name": "United States Bankruptcy Court, D. New Hampshire",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D.N.H.",
+      "cases_in_corpus": 549,
+      "years": "1981-2026",
+      "active": true
+     },
+     {
+      "id": "rib",
+      "short_name": "D. Rhode Island",
+      "full_name": "United States Bankruptcy Court, D. Rhode Island",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D.R.I.",
+      "cases_in_corpus": 531,
+      "years": "1975-2026",
+      "active": true
+     },
+     {
+      "id": "nynb",
+      "short_name": "N.D. New York",
+      "full_name": "United States Bankruptcy Court, N.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D.N.Y.",
+      "cases_in_corpus": 526,
+      "years": "1923-2026",
+      "active": true
+     },
+     {
+      "id": "ncmb",
+      "short_name": "M.D. North Carolina",
+      "full_name": "United States Bankruptcy Court, M.D. North Carolina",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D.N.C.",
+      "cases_in_corpus": 288,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ncwb",
+      "short_name": "W.D. North Carolina",
+      "full_name": "United States Bankruptcy Court, W.D. North Carolina",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D.N.C.",
+      "cases_in_corpus": 196,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "vib",
+      "short_name": "D. Virgin Islands",
+      "full_name": "United States Bankruptcy Court, D. Virgin Islands",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D.V.I.",
+      "cases_in_corpus": 18,
+      "years": "1979-2024",
+      "active": true
+     },
+     {
+      "id": "nyappdiv",
+      "short_name": "Appellate Division of the Supreme Court of New York",
+      "full_name": "Appellate Division of the Supreme Court of the State of New York",
+      "jurisdiction": "SA",
+      "citation_string": "N.Y. App. Div.",
+      "cases_in_corpus": 774886,
+      "years": "1714-2026",
+      "active": true
+     },
+     {
+      "id": "nysupct",
+      "short_name": "New York Supreme Court",
+      "full_name": "New York Supreme Court",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Ct.",
+      "cases_in_corpus": 117110,
+      "years": "1794-2025",
+      "active": true
+     },
+     {
+      "id": "nysd",
+      "short_name": "S.D. New York",
+      "full_name": "District Court, S.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "S.D.N.Y.",
+      "cases_in_corpus": 112052,
+      "years": "1801-2026",
+      "active": true
+     },
+     {
+      "id": "nc",
+      "short_name": "Supreme Court of North Carolina",
+      "full_name": "Supreme Court of North Carolina",
+      "jurisdiction": "S",
+      "citation_string": "N.C.",
+      "cases_in_corpus": 91568,
+      "years": "1800-2026",
+      "active": true
+     },
+     {
+      "id": "nj",
+      "short_name": "Supreme Court of New Jersey",
+      "full_name": "Supreme Court of New Jersey",
+      "jurisdiction": "S",
+      "citation_string": "N.J.",
+      "cases_in_corpus": 79076,
+      "years": "1775-2026",
+      "active": true
+     },
+     {
+      "id": "njsuperctappdiv",
+      "short_name": "New Jersey Superior Court App Division",
+      "full_name": "New Jersey Superior Court Appellate Division",
+      "jurisdiction": "SA",
+      "citation_string": "N.J. Super. Ct. App. Div.",
+      "cases_in_corpus": 47846,
+      "years": "1831-2026",
+      "active": true
+     },
+     {
+      "id": "ncctapp",
+      "short_name": "Court of Appeals of North Carolina",
+      "full_name": "Court of Appeals of North Carolina",
+      "jurisdiction": "SA",
+      "citation_string": "N.C. Ct. App.",
+      "cases_in_corpus": 46133,
+      "years": "1777-2026",
+      "active": true
+     },
+     {
+      "id": "nyed",
+      "short_name": "E.D. New York",
+      "full_name": "District Court, E.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "E.D.N.Y",
+      "cases_in_corpus": 31557,
+      "years": "1850-2026",
+      "active": true
+     },
+     {
+      "id": "njd",
+      "short_name": "D. New Jersey",
+      "full_name": "District Court, D. New Jersey",
+      "jurisdiction": "FD",
+      "citation_string": "D.N.J.",
+      "cases_in_corpus": 27673,
+      "years": "1842-2026",
+      "active": true
+     },
+     {
+      "id": "ri",
+      "short_name": "Supreme Court of Rhode Island",
+      "full_name": "Supreme Court of Rhode Island",
+      "jurisdiction": "S",
+      "citation_string": "R.I.",
+      "cases_in_corpus": 25431,
+      "years": "1828-2026",
+      "active": true
+     },
+     {
+      "id": "nyappterm",
+      "short_name": "Appellate Terms of the Supreme Court of New York",
+      "full_name": "Appellate Terms of the Supreme Court of New York",
+      "jurisdiction": "SA",
+      "citation_string": "N.Y. App. Term.",
+      "cases_in_corpus": 24317,
+      "years": "1890-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "warning": "The top match is a historical court. Its opinions in this corpus end at an early date. If you meant the modern court, check the other rows."
+   }
+  }
+ ]
+}

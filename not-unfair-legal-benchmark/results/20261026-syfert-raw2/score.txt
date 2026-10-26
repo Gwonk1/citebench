@@ -1,0 +1,63 @@
+raw Syfert MCP tool arm, grader v1.1, server syfert-legal-research 1.8.0, 202 answers in results/20261026-syfert-raw2
+class         pass  miss     n
+bluebook        63     2    65
+caption          1    16    17
+coverage        11     1    12
+history          0    18    18
+misprint         4     3     7
+pagination       5     4     9
+quotation        6     0     6
+series          10     0    10
+statute          5     0     5
+treatment       14     1    15
+vendor          14     0    14
+traps          133    45   178
+control         24     0    24   (false positives: 0)
+total          157    45   202
+no ANSWER line: 0; no saved answer (not counted above): 0
+
+miss ct-scotus        bluebook     missing U.S.
+miss ct-texapp        bluebook     missing Tex. App.—Houston [14th Dist.] / Tex. App.
+miss cap-front-01     caption      missing Ex parte
+miss cap-front-02     caption      missing Arpon / Vda de Samala / Vda. de Samala / Viuda de Samala
+miss cap-list-01      caption      answer line has ['
+miss cap-list-02      caption      answer line has ['
+miss cap-list-03      caption      answer line has ['
+miss cap-list-04      caption      answer line has ['
+miss cap-list-05      caption      answer line has ['
+miss cap-list-06      caption      answer line has ['
+miss cap-svc-01       caption      answer line has medicare&medicaid
+miss cap-svc-02       caption      answer line has medicare&medicaid
+miss cap-svc-03       caption      answer line has medicare&medicaid
+miss cap-svc-04       caption      answer line has medicare&medicaid
+miss cap-svc-05       caption      answer line has medicare&medicaid
+miss cap-svc-06       caption      answer line has medicare&medicaid
+miss cap-svc-07       caption      answer line has medicare&medicaid
+miss cap-svc-08       caption      answer line has medicare&medicaid
+miss c1-05            coverage     missing 79021 / Apr. 16, 2020 / April 16, 2020 / 2020-04-16
+miss h-102            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-110            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-113            history      missing 991 F.2d 663
+miss h-114            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-421            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-67             history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-68a            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-68b            history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-85             history      missing 30 F. Supp. 466
+miss h-ord-01         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-02         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-03         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-04         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-05         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-06         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-07         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-08         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss h-ord-09         history      missing cert. denied / cert denied / certiorari denied / denial of certiorari / denied certiorari / denying certiorari / petition for certiorari / petition for a writ of certiorari / writ of certiorari / orders page / order list / memorandum decision / summary disposition / substantial federal question / dismissed for want
+miss c8-03            misprint     missing 676 N.E.2d 339
+miss c8-06            misprint     missing 145 So. 3d 495
+miss c8-07            misprint     missing 438 U.S. 154
+miss c5-06            pagination   missing 41 Vt. 122
+miss pin-02           pagination   missing 467 U.S. 837
+miss pin-11           pagination   missing 428 U.S. 153
+miss pin-14           pagination   missing 597 U.S. 215
+miss c4b-08           treatment    missing unpublished / not precedential / nonprecedential / non-precedential / not published / not binding / not citable / persuasive on the ANSWER line

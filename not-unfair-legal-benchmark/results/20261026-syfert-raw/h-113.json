@@ -1,0 +1,97 @@
+{
+ "id": "h-113",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "113 S. Ct. 2049."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"113 S. Ct. 2049\",\n            \"volume\": \"113\",\n            \"reporter\": \"S. Ct.\",\n            \"page\": \"2049\",\n            \"pin\": null,\n            \"cluster_id\": 604932,\n            \"case\": {\n                \"case_name\": \"Larry Joe Johnson v. Harry K. Singletary, Jr.\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1993-05-08\",\n                \"court_id\": \"ca11\",\n                \"docket_number\": \"93-2497\",\n                \"citation_count\": 18,\n                \"court_label\": \"11th Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 14.088,\n                \"total_events\": 22,\n                \"distinct_courts\": 6,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"State v. Scott\",\n                \"top_pos_court\": \"kan\",\n                \"top_pos_date\": \"2008-05-16\",\n                \"top_quote_norm\": null\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Larry Joe Johnson v. Harry K. Singletary, Jr.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/991-f-2d-663/larry-joe-johnson-cross-appellant-v-harry-k-singletary-jr-secretary\",\n            \"link_md\": \"[Larry Joe Johnson v. Harry K. Singletary, Jr.](https://syfert.com/federal/circuits/cases/991-f-2d-663/larry-joe-johnson-cross-appellant-v-harry-k-singletary-jr-secretary)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "113 S. Ct. 2049",
+      "volume": "113",
+      "reporter": "S. Ct.",
+      "page": "2049",
+      "pin": null,
+      "cluster_id": 604932,
+      "case": {
+       "case_name": "Larry Joe Johnson v. Harry K. Singletary, Jr.",
+       "case_name_short": null,
+       "date_filed": "1993-05-08",
+       "court_id": "ca11",
+       "docket_number": "93-2497",
+       "citation_count": 18,
+       "court_label": "11th Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 14.088,
+       "total_events": 22,
+       "distinct_courts": 6,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "State v. Scott",
+       "top_pos_court": "kan",
+       "top_pos_date": "2008-05-16",
+       "top_quote_norm": null
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Larry Joe Johnson v. Harry K. Singletary, Jr."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/991-f-2d-663/larry-joe-johnson-cross-appellant-v-harry-k-singletary-jr-secretary",
+      "link_md": "[Larry Joe Johnson v. Harry K. Singletary, Jr.](https://syfert.com/federal/circuits/cases/991-f-2d-663/larry-joe-johnson-cross-appellant-v-harry-k-singletary-jr-secretary)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

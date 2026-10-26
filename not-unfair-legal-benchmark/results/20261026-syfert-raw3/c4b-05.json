@@ -1,0 +1,53 @@
+{
+ "id": "c4b-05",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "83 F. App'x 274",
+    "compact": true,
+    "case_name": "Umbach v. Commissioner"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":785076,\"case_name\":\"Eric N. Umbach v. Commissioner of Internal Revenue\",\"bluebook\":\"Eric N. Umbach v. Comm'r of Internal Revenue, 357 F.3d 1108 (10th Cir. 2003)\",\"url\":\"https://syfert.com/federal/circuits/cases/357-f-3d-1108/eric-n-umbach-v-commissioner-of-internal-revenue-joseph-d-specking-v\",\"link_md\":\"[Eric N. Umbach v. Comm'r of Internal Revenue, 357 F.3d 1108 (10th Cir. 2003)](https://syfert.com/federal/circuits/cases/357-f-3d-1108/eric-n-umbach-v-commissioner-of-internal-revenue-joseph-d-specking-v)\",\"compact\":true,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0,\"green\":4,\"procedural\":0,\"strongest_signal\":null,\"strongest_citer\":\"\",\"strongest_date\":null},\"negative_citers\":[],\"counts\":{\"citers_shown_in_full_answer\":4,\"negative_citers_shown_in_full_answer\":0,\"red\":0,\"yellow\":0,\"green\":4,\"propositions\":0},\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\",\"appendix_record\":{\"cluster_id\":164129,\"citation\":\"83 F. App'x 274\",\"date_filed\":\"2003-12-11\",\"published_as\":\"357 F.3d 1108\"},\"publication_note\":\"Issued as an unpublished opinion at 83 F. App'x 274 (2003). This appendix cite and 357 F.3d 1108 are the same decision in the corpus (a superseded twin of the 357 F.3d 1108 record); the 357 F.3d 1108 record is marked precedential (Published). The corpus holds no publication order, so whether the court later ordered it published is not stated here. The Federal Appendix printing is not a separate authority: cite 357 F.3d 1108.\"}",
+   "json": {
+    "cluster_id": 785076,
+    "case_name": "Eric N. Umbach v. Commissioner of Internal Revenue",
+    "bluebook": "Eric N. Umbach v. Comm'r of Internal Revenue, 357 F.3d 1108 (10th Cir. 2003)",
+    "url": "https://syfert.com/federal/circuits/cases/357-f-3d-1108/eric-n-umbach-v-commissioner-of-internal-revenue-joseph-d-specking-v",
+    "link_md": "[Eric N. Umbach v. Comm'r of Internal Revenue, 357 F.3d 1108 (10th Cir. 2003)](https://syfert.com/federal/circuits/cases/357-f-3d-1108/eric-n-umbach-v-commissioner-of-internal-revenue-joseph-d-specking-v)",
+    "compact": true,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 4,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "negative_citers": [],
+    "counts": {
+     "citers_shown_in_full_answer": 4,
+     "negative_citers_shown_in_full_answer": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 4,
+     "propositions": 0
+    },
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.",
+    "appendix_record": {
+     "cluster_id": 164129,
+     "citation": "83 F. App'x 274",
+     "date_filed": "2003-12-11",
+     "published_as": "357 F.3d 1108"
+    },
+    "publication_note": "Issued as an unpublished opinion at 83 F. App'x 274 (2003). This appendix cite and 357 F.3d 1108 are the same decision in the corpus (a superseded twin of the 357 F.3d 1108 record); the 357 F.3d 1108 record is marked precedential (Published). The corpus holds no publication order, so whether the court later ordered it published is not stated here. The Federal Appendix printing is not a separate authority: cite 357 F.3d 1108."
+   }
+  }
+ ]
+}

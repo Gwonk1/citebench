@@ -1,0 +1,141 @@
+{
+ "id": "h-ord-01",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "114 S. Ct. 269."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"supreme_court_orders\": 1\n    },\n    \"warnings\": [\n        \"1 Supreme Court reporter citation(s) point at an orders-page entry (a denial of certiorari or another summary order) or at a Supreme Court page the index files on a lower-court opinion (cites[].procedural): cite the opinion, with the order as subsequent history.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"114 S. Ct. 269\",\n            \"verdict\": \"supreme_court_order\",\n            \"problem\": \"114 S. Ct. 269 is not an opinion: it is an orders-page entry, the order denying certiorari (from United States Court' of Appeals for the Federal Circuit), dated 1993-10-04; the record reads \\\"Petition for writ of certiorari to the United States Court' of Appeals for the Federal Circuit denied.\\\". As authority, cite the opinion of the court below, with this order as its subsequent history (\\\"..., cert. denied, 114 S. Ct. 269 (1993)\\\"). When the order itself is the point, cite it as a memorandum order (add \\\"(mem.)\\\"). The index's record at this page is Benjamin v. Brown. An order of this kind decides nothing on the merits. The index holds 7 records at this page (also Gacy v. Welborn, Warden; Donaldson v. United States; George v. United States); name the case you mean. The index files this order under the court \\\"cavc\\\"; it is the Supreme Court's.\",\n            \"procedural\": {\n                \"kind\": \"cert_denied\",\n                \"record\": \"order\",\n                \"order_date\": \"1993-10-04\",\n                \"below\": \"United States Court' of Appeals for the Federal Circuit\"\n            },\n            \"case\": {\n                \"cluster_id\": 7355573,\n                \"case_name\": \"Benjamin v. Brown\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"114 S. Ct. 269\",\n            \"volume\": \"114\",\n            \"reporter\": \"S. Ct.\",\n            \"page\": \"269\",\n            \"pin\": null,\n            \"cluster_id\": 7355573,\n            \"case\": {\n                \"case_name\": \"Benjamin v. Brown\",\n                \"case_name_short\": \"Benjamin\",\n                \"date_filed\": \"1993-10-04\",\n                \"court_id\": \"cavc\",\n                \"docket_number\": \"No. 93-5559\",\n                \"citation_count\": 0,\n                \"court_label\": \"\",\n                \"court_label_record\": \"Vet. App.\"\n            },\n            \"treatment\": null,\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Benjamin v. Brown\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/specialty/cases/cl-7355573/benjamin-v-brown\",\n            \"link_md\": \"[Benjamin v. Brown](https://syfert.com/federal/specialty/cases/cl-7355573/benjamin-v-brown)\",\n            \"procedural\": {\n                \"kind\": \"cert_denied\",\n                \"record\": \"order\",\n                \"order_date\": \"1993-10-04\",\n                \"below\": \"United States Court' of Appeals for the Federal Circuit\",\n                \"page\": \"114 S. Ct. 269\",\n                \"page_records\": 7,\n                \"order_text\": \"Petition for writ of certiorari to the United States Court' of Appeals for the Federal Circuit denied.\",\n                \"filed_under_court\": \"cavc\",\n                \"order_cite_as\": \"Benjamin v. Brown, 114 S. Ct. 269 (1993)\",\n                \"page_orders\": [\n                    {\n                        \"cluster_id\": 114182,\n                        \"case_name\": \"Gacy v. Welborn, Warden\",\n                        \"date_filed\": \"1993-10-04\"\n                    },\n                    {\n                        \"cluster_id\": 114183,\n                        \"case_name\": \"Donaldson v. United States\",\n                        \"date_filed\": \"1993-10-04\"\n                    },\n                    {\n                        \"cluster_id\": 114185,\n                        \"case_name\": \"George v. United States\",\n                        \"date_filed\": \"1993-10-04\"\n                    },\n                    {\n                        \"cluster_id\": 114187,\n                        \"case_name\": \"Estes v. City of Seattle\",\n                        \"date_filed\": \"1993-10-04\"\n                    }\n                ],\n                \"advice\": \"114 S. Ct. 269 is not an opinion: it is an orders-page entry, the order denying certiorari (from United States Court' of Appeals for the Federal Circuit), dated 1993-10-04; the record reads \\\"Petition for writ of certiorari to the United States Court' of Appeals for the Federal Circuit denied.\\\". As authority, cite the opinion of the court below, with this order as its subsequent history (\\\"..., cert. denied, 114 S. Ct. 269 (1993)\\\"). When the order itself is the point, cite it as a memorandum order (add \\\"(mem.)\\\"). The index's record at this page is Benjamin v. Brown. An order of this kind decides nothing on the merits. The index holds 7 records at this page (also Gacy v. Welborn, Warden; Donaldson v. United States; George v. United States); name the case you mean. The index files this order under the court \\\"cavc\\\"; it is the Supreme Court's.\",\n                \"cited_as\": \"citation\",\n                \"name_unknown\": true\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "supreme_court_orders": 1
+    },
+    "warnings": [
+     "1 Supreme Court reporter citation(s) point at an orders-page entry (a denial of certiorari or another summary order) or at a Supreme Court page the index files on a lower-court opinion (cites[].procedural): cite the opinion, with the order as subsequent history."
+    ],
+    "corrections": [
+     {
+      "raw": "114 S. Ct. 269",
+      "verdict": "supreme_court_order",
+      "problem": "114 S. Ct. 269 is not an opinion: it is an orders-page entry, the order denying certiorari (from United States Court' of Appeals for the Federal Circuit), dated 1993-10-04; the record reads \"Petition for writ of certiorari to the United States Court' of Appeals for the Federal Circuit denied.\". As authority, cite the opinion of the court below, with this order as its subsequent history (\"..., cert. denied, 114 S. Ct. 269 (1993)\"). When the order itself is the point, cite it as a memorandum order (add \"(mem.)\"). The index's record at this page is Benjamin v. Brown. An order of this kind decides nothing on the merits. The index holds 7 records at this page (also Gacy v. Welborn, Warden; Donaldson v. United States; George v. United States); name the case you mean. The index files this order under the court \"cavc\"; it is the Supreme Court's.",
+      "procedural": {
+       "kind": "cert_denied",
+       "record": "order",
+       "order_date": "1993-10-04",
+       "below": "United States Court' of Appeals for the Federal Circuit"
+      },
+      "case": {
+       "cluster_id": 7355573,
+       "case_name": "Benjamin v. Brown"
+      }
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "114 S. Ct. 269",
+      "volume": "114",
+      "reporter": "S. Ct.",
+      "page": "269",
+      "pin": null,
+      "cluster_id": 7355573,
+      "case": {
+       "case_name": "Benjamin v. Brown",
+       "case_name_short": "Benjamin",
+       "date_filed": "1993-10-04",
+       "court_id": "cavc",
+       "docket_number": "No. 93-5559",
+       "citation_count": 0,
+       "court_label": "",
+       "court_label_record": "Vet. App."
+      },
+      "treatment": null,
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Benjamin v. Brown"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/specialty/cases/cl-7355573/benjamin-v-brown",
+      "link_md": "[Benjamin v. Brown](https://syfert.com/federal/specialty/cases/cl-7355573/benjamin-v-brown)",
+      "procedural": {
+       "kind": "cert_denied",
+       "record": "order",
+       "order_date": "1993-10-04",
+       "below": "United States Court' of Appeals for the Federal Circuit",
+       "page": "114 S. Ct. 269",
+       "page_records": 7,
+       "order_text": "Petition for writ of certiorari to the United States Court' of Appeals for the Federal Circuit denied.",
+       "filed_under_court": "cavc",
+       "order_cite_as": "Benjamin v. Brown, 114 S. Ct. 269 (1993)",
+       "page_orders": [
+        {
+         "cluster_id": 114182,
+         "case_name": "Gacy v. Welborn, Warden",
+         "date_filed": "1993-10-04"
+        },
+        {
+         "cluster_id": 114183,
+         "case_name": "Donaldson v. United States",
+         "date_filed": "1993-10-04"
+        },
+        {
+         "cluster_id": 114185,
+         "case_name": "George v. United States",
+         "date_filed": "1993-10-04"
+        },
+        {
+         "cluster_id": 114187,
+         "case_name": "Estes v. City of Seattle",
+         "date_filed": "1993-10-04"
+        }
+       ],
+       "advice": "114 S. Ct. 269 is not an opinion: it is an orders-page entry, the order denying certiorari (from United States Court' of Appeals for the Federal Circuit), dated 1993-10-04; the record reads \"Petition for writ of certiorari to the United States Court' of Appeals for the Federal Circuit denied.\". As authority, cite the opinion of the court below, with this order as its subsequent history (\"..., cert. denied, 114 S. Ct. 269 (1993)\"). When the order itself is the point, cite it as a memorandum order (add \"(mem.)\"). The index's record at this page is Benjamin v. Brown. An order of this kind decides nothing on the merits. The index holds 7 records at this page (also Gacy v. Welborn, Warden; Donaldson v. United States; George v. United States); name the case you mean. The index files this order under the court \"cavc\"; it is the Supreme Court's.",
+       "cited_as": "citation",
+       "name_unknown": true
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

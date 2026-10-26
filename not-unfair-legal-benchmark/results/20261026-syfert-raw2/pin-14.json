@@ -1,0 +1,96 @@
+{
+ "id": "pin-14",
+ "class": "pagination",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "597 U.S. 216."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 0,\n        \"unresolved\": 1,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [\n        \"1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"597 U.S. 216\",\n            \"problem\": \"No case is indexed at page 216 of 597 U.S.. No opinion in the corpus prints this citation. Thin volume (decisions of 2022) (we index ~21% of it): a miss is weak evidence; verify by name.\",\n            \"suggested\": null,\n            \"verdict\": \"not_indexed\",\n            \"verdict_evidence\": \"coverage\"\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"597 U.S. 216\",\n            \"volume\": \"597\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"216\",\n            \"pin\": null,\n            \"cluster_id\": null,\n            \"did_you_mean\": [\n                {\n                    \"cluster_id\": 6481357,\n                    \"page\": \"215\",\n                    \"case_name\": \"Dobbs v. Jackson Women's Health Organization\",\n                    \"year\": \"2022\",\n                    \"court_label\": \"\",\n                    \"delta\": 1,\n                    \"namerank\": 0\n                }\n            ],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": null,\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"verdict\": \"not_indexed\",\n            \"verdict_evidence\": \"coverage\",\n            \"unindexed_advice\": \"No case is indexed at page 216 of 597 U.S.. No opinion in the corpus prints this citation. Thin volume (decisions of 2022) (we index ~21% of it): a miss is weak evidence; verify by name.\",\n            \"volume_coverage\": {\n                \"first_pages\": 13,\n                \"coverage_pct\": 21,\n                \"year_lo\": 2022,\n                \"year_hi\": 2022\n            },\n            \"corpus_check\": \"ran\",\n            \"volume_check\": {\n                \"cited\": 597,\n                \"highest_indexed\": 606,\n                \"highest_indexed_year\": 2025,\n                \"volumes_per_year\": 4,\n                \"threshold\": 617,\n                \"verdict\": \"within_range\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 0,
+     "unresolved": 1,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [
+     "1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps."
+    ],
+    "corrections": [
+     {
+      "raw": "597 U.S. 216",
+      "problem": "No case is indexed at page 216 of 597 U.S.. No opinion in the corpus prints this citation. Thin volume (decisions of 2022) (we index ~21% of it): a miss is weak evidence; verify by name.",
+      "suggested": null,
+      "verdict": "not_indexed",
+      "verdict_evidence": "coverage"
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "597 U.S. 216",
+      "volume": "597",
+      "reporter": "U.S.",
+      "page": "216",
+      "pin": null,
+      "cluster_id": null,
+      "did_you_mean": [
+       {
+        "cluster_id": 6481357,
+        "page": "215",
+        "case_name": "Dobbs v. Jackson Women's Health Organization",
+        "year": "2022",
+        "court_label": "",
+        "delta": 1,
+        "namerank": 0
+       }
+      ],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": null,
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "verdict": "not_indexed",
+      "verdict_evidence": "coverage",
+      "unindexed_advice": "No case is indexed at page 216 of 597 U.S.. No opinion in the corpus prints this citation. Thin volume (decisions of 2022) (we index ~21% of it): a miss is weak evidence; verify by name.",
+      "volume_coverage": {
+       "first_pages": 13,
+       "coverage_pct": 21,
+       "year_lo": 2022,
+       "year_hi": 2022
+      },
+      "corpus_check": "ran",
+      "volume_check": {
+       "cited": 597,
+       "highest_indexed": 606,
+       "highest_indexed_year": 2025,
+       "volumes_per_year": 4,
+       "threshold": 617,
+       "verdict": "within_range"
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

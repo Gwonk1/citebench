@@ -1,0 +1,72 @@
+{
+ "id": "p10-rule",
+ "class": "statute",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Fla. R. Civ. P. 1.140 applies."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 0,\n        \"resolved\": 0,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 1,\n            \"verified\": 1,\n            \"not_found\": 0\n        },\n        \"findings\": [\n            {\n                \"type\": \"rule\",\n                \"verified\": true,\n                \"jurisdiction\": \"Florida Rules of Procedure\",\n                \"citation\": \"Fla. R. Civ. P. 1.140\",\n                \"kind\": \"rule\",\n                \"title\": \"DEFENSES\",\n                \"url\": \"https://syfert.com/florida/rules-civil-procedure/rule-1.140/\",\n                \"link_md\": \"[Fla. R. Civ. P. 1.140](https://syfert.com/florida/rules-civil-procedure/rule-1.140/)\",\n                \"get_statute\": {\n                    \"jurisdiction\": \"fl_rule\",\n                    \"citation\": \"1.140\"\n                },\n                \"currency\": {\n                    \"corpus\": \"FL-RULE\",\n                    \"text_last_changed\": \"2026-05-09\",\n                    \"status\": \"current\",\n                    \"section_history_recorded\": false\n                }\n            }\n        ],\n        \"warnings\": [],\n        \"note\": \"Statutes, regulations and court rules found in the document, checked against the corpus that holds each one (kind-scoped: a rule cite is never verified against a statute row). Quoted statutory language attached to a case citation is compared with the sections the document names (quote_checks[].statute_quote); statute text quoted under its own cite is listed as quoted_text and not compared yet.\",\n        \"corpus_currency\": {\n            \"FL-RULE\": {\n                \"edition\": \"Florida court rules as published by floridabar.org: the source's current rules, re-fetched on our daily refresh\",\n                \"current_through\": \"the rules as published by floridabar.org when last checked, 2026-10-01\",\n                \"current_through_basis\": \"source-current-at-retrieval\",\n                \"last_verified\": \"2026-10-01\",\n                \"lag_note\": \"Court rules change by court order, often effective January 1 or July 1: an amendment ordered after 2026-10-01 is not in this text.\",\n                \"temporal_note\": \"Current codification as of Oct. 1, 2026 (the rules as published by floridabar.org), not a historical version. Court rules change by court order, often effective January 1 or July 1: an amendment ordered after 2026-10-01 is not in this text. Each row's currency.last_amended_year / effective_date (when recorded) dates the section; for events before that date the text may have read differently. get_statute with as_of checks one section against the operative date.\"\n            }\n        },\n        \"currency_note\": \"Each verified statute carries currency: the edition held and, where recorded, when the section last changed. A brief about past conduct (an offense, a contract, a limitations period, a procedural step) applies the text in force on that date: a section amended after it may have read differently, and an older offense may be charged under a predecessor section. get_statute or check_citation with as_of checks one section against the operative date.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 0,
+     "resolved": 0,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [],
+    "statutes": {
+     "stats": {
+      "extracted": 1,
+      "verified": 1,
+      "not_found": 0
+     },
+     "findings": [
+      {
+       "type": "rule",
+       "verified": true,
+       "jurisdiction": "Florida Rules of Procedure",
+       "citation": "Fla. R. Civ. P. 1.140",
+       "kind": "rule",
+       "title": "DEFENSES",
+       "url": "https://syfert.com/florida/rules-civil-procedure/rule-1.140/",
+       "link_md": "[Fla. R. Civ. P. 1.140](https://syfert.com/florida/rules-civil-procedure/rule-1.140/)",
+       "get_statute": {
+        "jurisdiction": "fl_rule",
+        "citation": "1.140"
+       },
+       "currency": {
+        "corpus": "FL-RULE",
+        "text_last_changed": "2026-05-09",
+        "status": "current",
+        "section_history_recorded": false
+       }
+      }
+     ],
+     "warnings": [],
+     "note": "Statutes, regulations and court rules found in the document, checked against the corpus that holds each one (kind-scoped: a rule cite is never verified against a statute row). Quoted statutory language attached to a case citation is compared with the sections the document names (quote_checks[].statute_quote); statute text quoted under its own cite is listed as quoted_text and not compared yet.",
+     "corpus_currency": {
+      "FL-RULE": {
+       "edition": "Florida court rules as published by floridabar.org: the source's current rules, re-fetched on our daily refresh",
+       "current_through": "the rules as published by floridabar.org when last checked, 2026-10-01",
+       "current_through_basis": "source-current-at-retrieval",
+       "last_verified": "2026-10-01",
+       "lag_note": "Court rules change by court order, often effective January 1 or July 1: an amendment ordered after 2026-10-01 is not in this text.",
+       "temporal_note": "Current codification as of Oct. 1, 2026 (the rules as published by floridabar.org), not a historical version. Court rules change by court order, often effective January 1 or July 1: an amendment ordered after 2026-10-01 is not in this text. Each row's currency.last_amended_year / effective_date (when recorded) dates the section; for events before that date the text may have read differently. get_statute with as_of checks one section against the operative date."
+      }
+     },
+     "currency_note": "Each verified statute carries currency: the edition held and, where recorded, when the section last changed. A brief about past conduct (an offense, a contract, a limitations period, a procedural step) applies the text in force on that date: a section amended after it may have read differently, and an older offense may be charged under a predecessor section. get_statute or check_citation with as_of checks one section against the operative date."
+    }
+   }
+  }
+ ]
+}

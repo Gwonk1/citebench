@@ -1,0 +1,98 @@
+{
+ "id": "cap-list-04",
+ "class": "caption",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Give the Bluebook case name for 28 F. Supp. 3d 47."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"28 F. Supp. 3d 47\",\n            \"volume\": \"28\",\n            \"reporter\": \"F. Supp. 3d\",\n            \"page\": \"47\",\n            \"pin\": null,\n            \"cluster_id\": 2658352,\n            \"case\": {\n                \"case_name\": \"['Hill v. Gray']\",\n                \"case_name_short\": \"['Hill\",\n                \"date_filed\": \"2014-03-21\",\n                \"court_id\": \"dcd\",\n                \"docket_number\": \"Civil Action No. 2013-0001\",\n                \"citation_count\": 10,\n                \"court_label\": \"D.D.C.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 28.791,\n                \"total_events\": 22,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Stanton v. Whitley\",\n                \"top_pos_court\": \"dcd\",\n                \"top_pos_date\": \"2022-11-14\",\n                \"top_quote_norm\": \"because the office of employee appeals did not address ms. hill's discrimination claim under title vii or the adea, and because the office of employee appeals' final order is 'judicially unreviewed,' there is no preclusive effect on ms. 6 hill's discrimination claims.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"['Hill v. Gray']\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/district/cases/28-f-supp-3d-47/hill-v-gray\",\n            \"link_md\": \"[['Hill v. Gray']](https://syfert.com/federal/district/cases/28-f-supp-3d-47/hill-v-gray)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "28 F. Supp. 3d 47",
+      "volume": "28",
+      "reporter": "F. Supp. 3d",
+      "page": "47",
+      "pin": null,
+      "cluster_id": 2658352,
+      "case": {
+       "case_name": "['Hill v. Gray']",
+       "case_name_short": "['Hill",
+       "date_filed": "2014-03-21",
+       "court_id": "dcd",
+       "docket_number": "Civil Action No. 2013-0001",
+       "citation_count": 10,
+       "court_label": "D.D.C."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 28.791,
+       "total_events": 22,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Stanton v. Whitley",
+       "top_pos_court": "dcd",
+       "top_pos_date": "2022-11-14",
+       "top_quote_norm": "because the office of employee appeals did not address ms. hill's discrimination claim under title vii or the adea, and because the office of employee appeals' final order is 'judicially unreviewed,' there is no preclusive effect on ms. 6 hill's discrimination claims.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "['Hill v. Gray']"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/district/cases/28-f-supp-3d-47/hill-v-gray",
+      "link_md": "[['Hill v. Gray']](https://syfert.com/federal/district/cases/28-f-supp-3d-47/hill-v-gray)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "id": "co-02",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Celotex Corp. v. Catrett, 477 U.S. 317."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"477 U.S. 317\",\n            \"volume\": \"477\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"317\",\n            \"pin\": null,\n            \"cluster_id\": 111722,\n            \"case\": {\n                \"case_name\": \"Celotex Corp. v. Catrett\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1986-06-25\",\n                \"court_id\": \"scotus\",\n                \"docket_number\": \"85-198\",\n                \"citation_count\": 117350,\n                \"court_label\": \"\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 1111.485,\n                \"total_events\": 399111,\n                \"distinct_courts\": 361,\n                \"top_neg_label\": \"Mobius v. Quest Diagnostics Clinical Laboratories, Inc.\",\n                \"top_neg_court\": \"nywd\",\n                \"top_neg_date\": \"2023-08-18\",\n                \"top_pos_label\": \"Eileen Daly v. Triumph Construction, LLC., et al.\",\n                \"top_pos_court\": \"ohsd\",\n                \"top_pos_date\": \"2026-09-28\",\n                \"top_quote_norm\": \"the district court's exclusion of i. necessity of expert testimony safeco contends that expert testimony is required and that the untimely expert disclosures means that the court should grant it summary judgment. plaintiffs respond that the court should excuse their late disclosures or allow their witnesses to offer lay testimony. \\\"a court may require expert testimony where the question at issue is 'not within the common knowledge and experience of ordinary persons.'\\\"59 \\\"the test for determining whether testimony must be provided by an expert is whether the testimony requires that the witness have scientific, technical, or other specialized knowledge; in other words, whether an average bystander would be able to provide the same testimony.\\\"60 the court therefore first analyzes whether experts are needed to prove the claims for breach of contract and breach of the duty of good faith and fair dealing. a. expert testimony is required for the breach of contract claim. \\\"under utah law, to sufficiently plead a breach of contract claim, a plaintiff must allege '(1) a contract, (2) performance by the party seeking recovery, (3) breach of the contract by the other party, and (4) damages.'\\\"61 safeco contends that causation for the alleged breach and damages must be shown with expert testimony due to the \\\"technical issues at the heart of expert testimony left the plaintiffs without a basis to avoid summary judgment.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": 9899802,\n            \"neg_citers\": {\n                \"mobius v. quest diagnostics clinical laboratories, inc.\": {\n                    \"cid\": 9899802,\n                    \"court\": \"nywd\"\n                },\n                \"hayes v. sonabank\": {\n                    \"cid\": 10222741,\n                    \"court\": \"vaed\"\n                },\n                \"western states medical center v. shalala\": {\n                    \"cid\": 2348657,\n                    \"court\": \"nvd\"\n                },\n                \"ucsf-stanford health care v. hawaii management alliance benefits & services, inc.\": {\n                    \"cid\": 2568203,\n                    \"court\": \"hid\"\n                },\n                \"island insurance v. hawaiian foliage & landscape, inc.\": {\n                    \"cid\": 2375454,\n                    \"court\": \"hid\"\n                },\n                \"arizona cattle growers' assoc. v. u.s. fish & wildlife service\": {\n                    \"cid\": 2456599,\n                    \"court\": \"azd\"\n                },\n                \"riordan v. barbosa, no. 395945 (nov. 17, 1998) ct page 13277\": {\n                    \"cid\": 3329216,\n                    \"court\": \"connsuperct\"\n                },\n                \"boston mutual insurance v. murphree\": {\n                    \"cid\": 2577759,\n                    \"court\": \"azd\"\n                },\n                \"tran v. state farm mutual automobile insurance\": {\n                    \"cid\": 2267561,\n                    \"court\": \"hid\"\n                },\n                \"donrey media group v. ikeda\": {\n                    \"cid\": 2367256,\n                    \"court\": \"hid\"\n                },\n                \"vincent c. wiley v. united states of america citizens federal mortgage corporation state of ohio franklin county treasurer and houng thai\": {\n                    \"cid\": 666585,\n                    \"court\": \"ca6\"\n                },\n                \"partington v. bugliosi\": {\n                    \"cid\": 1412685,\n                    \"court\": \"hid\"\n                },\n                \"freitas v. stone\": {\n                    \"cid\": 8717713,\n                    \"court\": \"hid\"\n                },\n                \"chicago insurance v. griffin\": {\n                    \"cid\": 1459409,\n                    \"court\": \"hid\"\n                },\n                \"hawaiian navigable waters preservation society v. hawaii\": {\n                    \"cid\": 2248050,\n                    \"court\": \"hid\"\n                },\n                \"elliot megdal & associates v. hawaii planing mill, ltd.\": {\n                    \"cid\": 1766002,\n                    \"court\": \"hid\"\n                },\n                \"tirona v. state farm mutual automobile insurance\": {\n                    \"cid\": 1761482,\n                    \"court\": \"hid\"\n                },\n                \"schroeder v. mcdonald\": {\n                    \"cid\": 2248394,\n                    \"court\": \"hid\"\n                },\n                \"mujahid v. sumner\": {\n                    \"cid\": 1967951,\n                    \"court\": \"hid\"\n                },\n                \"genovia v. jackson national life insurance\": {\n                    \"cid\": 2596416,\n                    \"court\": \"hid\"\n                },\n                \"onsite/molokai ltd. partnership v. general electric\": {\n                    \"cid\": 2254844,\n                    \"court\": \"hid\"\n                },\n                \"mujahid v. apao\": {\n                    \"cid\": 2596437,\n                    \"court\": \"hid\"\n                },\n                \"exxon shipping co. v. pacific resources, inc.\": {\n                    \"cid\": 1641473,\n                    \"court\": \"hid\"\n                },\n                \"paulson, inc. v. bromar, inc.\": {\n                    \"cid\": 1555187,\n                    \"court\": \"hid\"\n                },\n                \"kjar v. american divers, inc.\": {\n                    \"cid\": 8724506,\n                    \"court\": \"hid\"\n                },\n                \"snider v. crimson enterprises, inc.\": {\n                    \"cid\": 8708960,\n                    \"court\": \"hid\"\n                },\n                \"quiming v. international pacific enterprises, ltd.\": {\n                    \"cid\": 1608497,\n                    \"court\": \"hid\"\n                },\n                \"wade v. united states\": {\n                    \"cid\": 1612672,\n                    \"court\": \"hid\"\n                },\n                \"burdick v. takushi\": {\n                    \"cid\": 1446337,\n                    \"court\": \"hid\"\n                },\n                \"kendall v. american hawaii cruises\": {\n                    \"cid\": 1440778,\n                    \"court\": \"hid\"\n                },\n                \"pagdilao v. maui intercontinental hotel\": {\n                    \"cid\": 1665854,\n                    \"court\": \"hid\"\n                },\n                \"alex john, jr. v. state of louisiana\": {\n                    \"cid\": 494165,\n                    \"court\": \"ca5\"\n                }\n            },\n            \"top_neg_court_label\": \"W.D.N.Y.\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Celotex Corp.\",\n                \"rhs\": \"Catrett\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Celotex Corp.\",\n                    \"rhs\": \"Catrett\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Celotex Corp. v. Catrett\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/scotus/cases/477-u-s-317/celotex-corp-v-catrett-administratrix-of-the-estate-of-catrett\",\n            \"link_md\": \"[Celotex Corp. v. Catrett](https://syfert.com/federal/scotus/cases/477-u-s-317/celotex-corp-v-catrett-administratrix-of-the-estate-of-catrett)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "477 U.S. 317",
+      "volume": "477",
+      "reporter": "U.S.",
+      "page": "317",
+      "pin": null,
+      "cluster_id": 111722,
+      "case": {
+       "case_name": "Celotex Corp. v. Catrett",
+       "case_name_short": null,
+       "date_filed": "1986-06-25",
+       "court_id": "scotus",
+       "docket_number": "85-198",
+       "citation_count": 117350,
+       "court_label": ""
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 1111.485,
+       "total_events": 399111,
+       "distinct_courts": 361,
+       "top_neg_label": "Mobius v. Quest Diagnostics Clinical Laboratories, Inc.",
+       "top_neg_court": "nywd",
+       "top_neg_date": "2023-08-18",
+       "top_pos_label": "Eileen Daly v. Triumph Construction, LLC., et al.",
+       "top_pos_court": "ohsd",
+       "top_pos_date": "2026-09-28",
+       "top_quote_norm": "the district court's exclusion of i. necessity of expert testimony safeco contends that expert testimony is required and that the untimely expert disclosures means that the court should grant it summary judgment. plaintiffs respond that the court should excuse their late disclosures or allow their witnesses to offer lay testimony. \"a court may require expert testimony where the question at issue is 'not within the common knowledge and experience of ordinary persons.'\"59 \"the test for determining whether testimony must be provided by an expert is whether the testimony requires that the witness have scientific, technical, or other specialized knowledge; in other words, whether an average bystander would be able to provide the same testimony.\"60 the court therefore first analyzes whether experts are needed to prove the claims for breach of contract and breach of the duty of good faith and fair dealing. a. expert testimony is required for the breach of contract claim. \"under utah law, to sufficiently plead a breach of contract claim, a plaintiff must allege '(1) a contract, (2) performance by the party seeking recovery, (3) breach of the contract by the other party, and (4) damages.'\"61 safeco contends that causation for the alleged breach and damages must be shown with expert testimony due to the \"technical issues at the heart of expert testimony left the plaintiffs without a basis to avoid summary judgment.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": 9899802,
+      "neg_citers": {
+       "mobius v. quest diagnostics clinical laboratories, inc.": {
+        "cid": 9899802,
+        "court": "nywd"
+       },
+       "hayes v. sonabank": {
+        "cid": 10222741,
+        "court": "vaed"
+       },
+       "western states medical center v. shalala": {
+        "cid": 2348657,
+        "court": "nvd"
+       },
+       "ucsf-stanford health care v. hawaii management alliance benefits & services, inc.": {
+        "cid": 2568203,
+        "court": "hid"
+       },
+       "island insurance v. hawaiian foliage & landscape, inc.": {
+        "cid": 2375454,
+        "court": "hid"
+       },
+       "arizona cattle growers' assoc. v. u.s. fish & wildlife service": {
+        "cid": 2456599,
+        "court": "azd"
+       },
+       "riordan v. barbosa, no. 395945 (nov. 17, 1998) ct page 13277": {
+        "cid": 3329216,
+        "court": "connsuperct"
+       },
+       "boston mutual insurance v. murphree": {
+        "cid": 2577759,
+        "court": "azd"
+       },
+       "tran v. state farm mutual automobile insurance": {
+        "cid": 2267561,
+        "court": "hid"
+       },
+       "donrey media group v. ikeda": {
+        "cid": 2367256,
+        "court": "hid"
+       },
+       "vincent c. wiley v. united states of america citizens federal mortgage corporation state of ohio franklin county treasurer and houng thai": {
+        "cid": 666585,
+        "court": "ca6"
+       },
+       "partington v. bugliosi": {
+        "cid": 1412685,
+        "court": "hid"
+       },
+       "freitas v. stone": {
+        "cid": 8717713,
+        "court": "hid"
+       },
+       "chicago insurance v. griffin": {
+        "cid": 1459409,
+        "court": "hid"
+       },
+       "hawaiian navigable waters preservation society v. hawaii": {
+        "cid": 2248050,
+        "court": "hid"
+       },
+       "elliot megdal & associates v. hawaii planing mill, ltd.": {
+        "cid": 1766002,
+        "court": "hid"
+       },
+       "tirona v. state farm mutual automobile insurance": {
+        "cid": 1761482,
+        "court": "hid"
+       },
+       "schroeder v. mcdonald": {
+        "cid": 2248394,
+        "court": "hid"
+       },
+       "mujahid v. sumner": {
+        "cid": 1967951,
+        "court": "hid"
+       },
+       "genovia v. jackson national life insurance": {
+        "cid": 2596416,
+        "court": "hid"
+       },
+       "onsite/molokai ltd. partnership v. general electric": {
+        "cid": 2254844,
+        "court": "hid"
+       },
+       "mujahid v. apao": {
+        "cid": 2596437,
+        "court": "hid"
+       },
+       "exxon shipping co. v. pacific resources, inc.": {
+        "cid": 1641473,
+        "court": "hid"
+       },
+       "paulson, inc. v. bromar, inc.": {
+        "cid": 1555187,
+        "court": "hid"
+       },
+       "kjar v. american divers, inc.": {
+        "cid": 8724506,
+        "court": "hid"
+       },
+       "snider v. crimson enterprises, inc.": {
+        "cid": 8708960,
+        "court": "hid"
+       },
+       "quiming v. international pacific enterprises, ltd.": {
+        "cid": 1608497,
+        "court": "hid"
+       },
+       "wade v. united states": {
+        "cid": 1612672,
+        "court": "hid"
+       },
+       "burdick v. takushi": {
+        "cid": 1446337,
+        "court": "hid"
+       },
+       "kendall v. american hawaii cruises": {
+        "cid": 1440778,
+        "court": "hid"
+       },
+       "pagdilao v. maui intercontinental hotel": {
+        "cid": 1665854,
+        "court": "hid"
+       },
+       "alex john, jr. v. state of louisiana": {
+        "cid": 494165,
+        "court": "ca5"
+       }
+      },
+      "top_neg_court_label": "W.D.N.Y.",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Celotex Corp.",
+       "rhs": "Catrett"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Celotex Corp.",
+        "rhs": "Catrett"
+       },
+       "verdict": "match",
+       "resolved_name": "Celotex Corp. v. Catrett"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/scotus/cases/477-u-s-317/celotex-corp-v-catrett-administratrix-of-the-estate-of-catrett",
+      "link_md": "[Celotex Corp. v. Catrett](https://syfert.com/federal/scotus/cases/477-u-s-317/celotex-corp-v-catrett-administratrix-of-the-estate-of-catrett)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

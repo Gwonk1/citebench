@@ -1,0 +1,253 @@
+{
+ "id": "ct-vacc",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Virginia Circuit Court"
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Virginia Circuit Court\",\n    \"courts\": [\n        {\n            \"id\": \"vacc\",\n            \"short_name\": \"Virginia Circuit Court\",\n            \"full_name\": \"Virginia Circuit Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Va. Cir. Ct.\",\n            \"cases_in_corpus\": 885,\n            \"years\": \"1825-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaccvabeach\",\n            \"short_name\": \"Virginia Beach County Circuit Court\",\n            \"full_name\": \"Virginia Beach County Circuit Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Virginia Beach Cir. Ct.\",\n            \"cases_in_corpus\": 231,\n            \"years\": \"1956-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"circtedva\",\n            \"short_name\": \"U.S. Circuit Court for the District of Eastern Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of Eastern Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 229,\n            \"years\": \"1821-1909\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtwdva\",\n            \"short_name\": \"U.S. Circuit Court for the District of Western Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of Western Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 144,\n            \"years\": \"1831-1983\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtdva\",\n            \"short_name\": \"U.S. Circuit Court for the District of Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 135,\n            \"years\": \"1793-1983\",\n            \"active\": false\n        },\n        {\n            \"id\": \"va\",\n            \"short_name\": \"Supreme Court of Virginia\",\n            \"full_name\": \"Supreme Court of Virginia\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Va.\",\n            \"cases_in_corpus\": 27332,\n            \"years\": \"1791-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vactapp\",\n            \"short_name\": \"Court of Appeals of Virginia\",\n            \"full_name\": \"Court of Appeals of Virginia\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Va. Ct. App.\",\n            \"cases_in_corpus\": 22360,\n            \"years\": \"1779-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaed\",\n            \"short_name\": \"E.D. Virginia\",\n            \"full_name\": \"District Court, E.D. Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Va.\",\n            \"cases_in_corpus\": 12436,\n            \"years\": \"1802-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vawd\",\n            \"short_name\": \"W.D. Virginia\",\n            \"full_name\": \"District Court, W.D. Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D. Va.\",\n            \"cases_in_corpus\": 9076,\n            \"years\": \"1842-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaeb\",\n            \"short_name\": \"E.D. Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Va.\",\n            \"cases_in_corpus\": 1477,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vawb\",\n            \"short_name\": \"W.D. Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D. Va.\",\n            \"cases_in_corpus\": 552,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vagensess\",\n            \"short_name\": \"General Court of Virginia\",\n            \"full_name\": \"General Court of Virginia\",\n            \"jurisdiction\": \"SS\",\n            \"cases_in_corpus\": 1641,\n            \"years\": \"1729-1852\",\n            \"active\": false\n        },\n        {\n            \"id\": \"vachanct\",\n            \"short_name\": \"Virginia Chancery Court\",\n            \"full_name\": \"Virginia Chancery Court\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 356,\n            \"years\": \"1778-1810\",\n            \"active\": false\n        },\n        {\n            \"id\": \"vachanctnorf\",\n            \"short_name\": \"Norfolk Chancery Court, Virginia\",\n            \"full_name\": \"Norfolk Chancery Court, Virginia\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 38,\n            \"years\": \"1963-1972\",\n            \"active\": false\n        },\n        {\n            \"id\": \"vad\",\n            \"short_name\": \"D. Virginia\",\n            \"full_name\": \"District Court, D. Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. Va.\",\n            \"cases_in_corpus\": 11,\n            \"years\": \"1808-1980\",\n            \"active\": false\n        },\n        {\n            \"id\": \"vachanctrich\",\n            \"short_name\": \"Richmond Chancery Court, Virginia\",\n            \"full_name\": \"Richmond Chancery Court, Virginia\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 2,\n            \"years\": \"1919-1965\",\n            \"active\": false\n        },\n        {\n            \"id\": \"vacorpct\",\n            \"short_name\": \"Virginia Corporation Court\",\n            \"full_name\": \"Virginia Coporation Court\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"vacorpctwinche\",\n            \"short_name\": \"Winchester Corporation Court, Va.\",\n            \"full_name\": \"Winchester Corporation Court, Va.\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 7,\n            \"years\": \"1953-1974\",\n            \"active\": false\n        },\n        {\n            \"id\": \"vacorpctslynch\",\n            \"short_name\": \"Lynchburg Corporation Court, Va.\",\n            \"full_name\": \"Lynchburg Corporation Court, Va.\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 4,\n            \"years\": \"1890-1893\",\n            \"active\": false\n        },\n        {\n            \"id\": \"vacorpctradford\",\n            \"short_name\": \"Radford Corporation Court, Va.\",\n            \"full_name\": \"Radford Corporation Court, Va.\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 2,\n            \"years\": \"1953-1953\",\n            \"active\": false\n        },\n        {\n            \"id\": \"vacorpctsbris\",\n            \"short_name\": \"Bristol Corporation Court, Va.\",\n            \"full_name\": \"Bristol Corporation Court, Va.\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 1,\n            \"years\": \"1909-1909\",\n            \"active\": false\n        },\n        {\n            \"id\": \"vacorpctsnorf\",\n            \"short_name\": \"South Norfolk Corporation Court, Va.\",\n            \"full_name\": \"South Norfolk Corporation Court, Va.\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 1,\n            \"years\": \"1954-1954\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtdwv\",\n            \"short_name\": \"U.S. Circuit Court for the District of West Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of West Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 97,\n            \"years\": \"1853-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtndwv\",\n            \"short_name\": \"U.S. Circuit Court for the District of Northern West Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of Northern West Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 61,\n            \"years\": \"1901-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtsdwv\",\n            \"short_name\": \"U.S. Circuit Court for the District of Southern West Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of Southern West Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"state_ranking\": \"Courts of Virginia are listed first.\"\n}",
+   "json": {
+    "query": "Virginia Circuit Court",
+    "courts": [
+     {
+      "id": "vacc",
+      "short_name": "Virginia Circuit Court",
+      "full_name": "Virginia Circuit Court",
+      "jurisdiction": "ST",
+      "citation_string": "Va. Cir. Ct.",
+      "cases_in_corpus": 885,
+      "years": "1825-2016",
+      "active": true
+     },
+     {
+      "id": "vaccvabeach",
+      "short_name": "Virginia Beach County Circuit Court",
+      "full_name": "Virginia Beach County Circuit Court",
+      "jurisdiction": "ST",
+      "citation_string": "Virginia Beach Cir. Ct.",
+      "cases_in_corpus": 231,
+      "years": "1956-2016",
+      "active": true
+     },
+     {
+      "id": "circtedva",
+      "short_name": "U.S. Circuit Court for the District of Eastern Virginia",
+      "full_name": "U.S. Circuit Court for the District of Eastern Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 229,
+      "years": "1821-1909",
+      "active": false
+     },
+     {
+      "id": "circtwdva",
+      "short_name": "U.S. Circuit Court for the District of Western Virginia",
+      "full_name": "U.S. Circuit Court for the District of Western Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 144,
+      "years": "1831-1983",
+      "active": false
+     },
+     {
+      "id": "circtdva",
+      "short_name": "U.S. Circuit Court for the District of Virginia",
+      "full_name": "U.S. Circuit Court for the District of Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 135,
+      "years": "1793-1983",
+      "active": false
+     },
+     {
+      "id": "va",
+      "short_name": "Supreme Court of Virginia",
+      "full_name": "Supreme Court of Virginia",
+      "jurisdiction": "S",
+      "citation_string": "Va.",
+      "cases_in_corpus": 27332,
+      "years": "1791-2026",
+      "active": true
+     },
+     {
+      "id": "vactapp",
+      "short_name": "Court of Appeals of Virginia",
+      "full_name": "Court of Appeals of Virginia",
+      "jurisdiction": "SA",
+      "citation_string": "Va. Ct. App.",
+      "cases_in_corpus": 22360,
+      "years": "1779-2026",
+      "active": true
+     },
+     {
+      "id": "vaed",
+      "short_name": "E.D. Virginia",
+      "full_name": "District Court, E.D. Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Va.",
+      "cases_in_corpus": 12436,
+      "years": "1802-2026",
+      "active": true
+     },
+     {
+      "id": "vawd",
+      "short_name": "W.D. Virginia",
+      "full_name": "District Court, W.D. Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "W.D. Va.",
+      "cases_in_corpus": 9076,
+      "years": "1842-2026",
+      "active": true
+     },
+     {
+      "id": "vaeb",
+      "short_name": "E.D. Virginia",
+      "full_name": "United States Bankruptcy Court, E.D. Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Va.",
+      "cases_in_corpus": 1477,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "vawb",
+      "short_name": "W.D. Virginia",
+      "full_name": "United States Bankruptcy Court, W.D. Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D. Va.",
+      "cases_in_corpus": 552,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "vagensess",
+      "short_name": "General Court of Virginia",
+      "full_name": "General Court of Virginia",
+      "jurisdiction": "SS",
+      "cases_in_corpus": 1641,
+      "years": "1729-1852",
+      "active": false
+     },
+     {
+      "id": "vachanct",
+      "short_name": "Virginia Chancery Court",
+      "full_name": "Virginia Chancery Court",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 356,
+      "years": "1778-1810",
+      "active": false
+     },
+     {
+      "id": "vachanctnorf",
+      "short_name": "Norfolk Chancery Court, Virginia",
+      "full_name": "Norfolk Chancery Court, Virginia",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 38,
+      "years": "1963-1972",
+      "active": false
+     },
+     {
+      "id": "vad",
+      "short_name": "D. Virginia",
+      "full_name": "District Court, D. Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "D. Va.",
+      "cases_in_corpus": 11,
+      "years": "1808-1980",
+      "active": false
+     },
+     {
+      "id": "vachanctrich",
+      "short_name": "Richmond Chancery Court, Virginia",
+      "full_name": "Richmond Chancery Court, Virginia",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 2,
+      "years": "1919-1965",
+      "active": false
+     },
+     {
+      "id": "vacorpct",
+      "short_name": "Virginia Corporation Court",
+      "full_name": "Virginia Coporation Court",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "vacorpctwinche",
+      "short_name": "Winchester Corporation Court, Va.",
+      "full_name": "Winchester Corporation Court, Va.",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 7,
+      "years": "1953-1974",
+      "active": false
+     },
+     {
+      "id": "vacorpctslynch",
+      "short_name": "Lynchburg Corporation Court, Va.",
+      "full_name": "Lynchburg Corporation Court, Va.",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 4,
+      "years": "1890-1893",
+      "active": false
+     },
+     {
+      "id": "vacorpctradford",
+      "short_name": "Radford Corporation Court, Va.",
+      "full_name": "Radford Corporation Court, Va.",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 2,
+      "years": "1953-1953",
+      "active": false
+     },
+     {
+      "id": "vacorpctsbris",
+      "short_name": "Bristol Corporation Court, Va.",
+      "full_name": "Bristol Corporation Court, Va.",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 1,
+      "years": "1909-1909",
+      "active": false
+     },
+     {
+      "id": "vacorpctsnorf",
+      "short_name": "South Norfolk Corporation Court, Va.",
+      "full_name": "South Norfolk Corporation Court, Va.",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 1,
+      "years": "1954-1954",
+      "active": false
+     },
+     {
+      "id": "circtdwv",
+      "short_name": "U.S. Circuit Court for the District of West Virginia",
+      "full_name": "U.S. Circuit Court for the District of West Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 97,
+      "years": "1853-1911",
+      "active": false
+     },
+     {
+      "id": "circtndwv",
+      "short_name": "U.S. Circuit Court for the District of Northern West Virginia",
+      "full_name": "U.S. Circuit Court for the District of Northern West Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 61,
+      "years": "1901-1911",
+      "active": false
+     },
+     {
+      "id": "circtsdwv",
+      "short_name": "U.S. Circuit Court for the District of Southern West Virginia",
+      "full_name": "U.S. Circuit Court for the District of Southern West Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 0,
+      "active": false
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "state_ranking": "Courts of Virginia are listed first."
+   }
+  }
+ ]
+}

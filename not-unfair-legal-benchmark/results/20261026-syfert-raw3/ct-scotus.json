@@ -1,0 +1,30 @@
+{
+ "id": "ct-scotus",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "SCOTUS."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"SCOTUS.\",\n    \"courts\": [\n        {\n            \"id\": \"scotus\",\n            \"short_name\": \"Supreme Court\",\n            \"full_name\": \"Supreme Court of the United States\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"SCOTUS\",\n            \"cases_in_corpus\": 499483,\n            \"years\": \"1759-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\"\n}",
+   "json": {
+    "query": "SCOTUS.",
+    "courts": [
+     {
+      "id": "scotus",
+      "short_name": "Supreme Court",
+      "full_name": "Supreme Court of the United States",
+      "jurisdiction": "F",
+      "citation_string": "SCOTUS",
+      "cases_in_corpus": 499483,
+      "years": "1759-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp."
+   }
+  }
+ ]
+}

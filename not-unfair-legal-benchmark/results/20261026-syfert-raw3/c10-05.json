@@ -1,0 +1,56 @@
+{
+ "id": "c10-05",
+ "class": "quotation",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Is this a reliable quotation? If it is garbled, say so.\n\nJ-S31044-19 NON-PRECEDENTIAL DECISION - SEE SUPERIOR COURT I.O.P. 65.37 IN THE INTEREST OF: J.A., A MINOR : IN THE SUPERIOR COURT OF : PENNSYLVANIA : APPEAL OF: M.R., NATURAL MOTHER : : : : : : No. 280 WDA 2019 Appeal from the Order Entered"
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 0,\n        \"resolved\": 0,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 0,
+     "resolved": 0,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  },
+  {
+   "tool": "check_citation",
+   "args": {
+    "citation": "280 WDA 2019",
+    "expected_case_name": "Is this a reliable quotation? If it is garbled, say so.\n\nJ-S31044-19 NON-PRECEDENTIAL DECISION - SEE SUPERIOR COURT I.O.P. 65.37 IN THE INTEREST OF: J.A., A MINOR : IN THE SUPERIOR COURT OF : PENNSYLVANIA : APPEAL OF: M.R., NATURAL MOTHER : : : : : : No."
+   },
+   "is_error": false,
+   "text": "{\n    \"citation_checked\": \"280 WDA 2019\",\n    \"found\": false,\n    \"matches\": [],\n    \"note\": \"Not found in the 10.7M-case corpus AND not found on live CourtListener. Both lack some cases, so this is a warning sign, not proof the cite is wrong. For very recent regional-reporter cites (e.g. high So. 3d volumes) both databases lag official pagination, so also run search_cases on the case name before condemning it, and check nearby_in_same_volume for a transposed page number.\",\n    \"verdict\": \"not_indexed\"\n}",
+   "json": {
+    "citation_checked": "280 WDA 2019",
+    "found": false,
+    "matches": [],
+    "note": "Not found in the 10.7M-case corpus AND not found on live CourtListener. Both lack some cases, so this is a warning sign, not proof the cite is wrong. For very recent regional-reporter cites (e.g. high So. 3d volumes) both databases lag official pagination, so also run search_cases on the case name before condemning it, and check nearby_in_same_volume for a transposed page number.",
+    "verdict": "not_indexed"
+   }
+  }
+ ]
+}

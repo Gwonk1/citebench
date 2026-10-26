@@ -1,0 +1,142 @@
+{
+ "id": "c8-06",
+ "class": "misprint",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "State v. Muth, 145 So. 3d 496."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 0,\n        \"unresolved\": 1,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"exists_unindexed\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.\",\n        \"1 of the unresolved citation(s) are real cases our index lacks (verdict exists_unindexed): a citing opinion prints the citation (cited_by_corpus), or the case was found by name (name_candidates). Pin pages are unverified.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"145 So. 3d 496\",\n            \"problem\": \"A court has cited this exact citation (1 opinion, e.g. State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)): the case is real but our index lacks it; reporter cite confirmed by a citing opinion, pin pages unverified. (The index's span data put page 496 inside State v. Muth; the citing opinion outweighs it.) If not, verify the citation with check_citation (pass expected_case_name) or remove it.\",\n            \"suggested\": null,\n            \"did_you_mean\": \"State v. Muth, 145 So. 3d 495, 496 (La. Ct. App. 2014)\",\n            \"interior_of\": {\n                \"cluster_id\": 5002190,\n                \"case_name\": \"State v. Muth\",\n                \"first_page\": 495\n            },\n            \"verdict\": \"exists_unindexed\",\n            \"verdict_evidence\": \"cited_by_corpus\",\n            \"cited_by\": {\n                \"n\": 1,\n                \"cluster_id\": 5012018,\n                \"bluebook\": \"State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"145 So. 3d 496\",\n            \"volume\": \"145\",\n            \"reporter\": \"So. 3d\",\n            \"page\": \"496\",\n            \"pin\": null,\n            \"cluster_id\": null,\n            \"interior_of\": {\n                \"cluster_id\": 5002190,\n                \"case_name\": \"State v. Muth\",\n                \"bluebook\": \"State v. Muth, 145 So. 3d 495 (La. Ct. App. 2014)\",\n                \"first_page\": 495,\n                \"first_page_citation\": \"145 So. 3d 495\",\n                \"span\": {\n                    \"last_page\": 501,\n                    \"via\": \"opinion_text\"\n                },\n                \"cite_as\": \"State v. Muth, 145 So. 3d 495, 496 (La. Ct. App. 2014)\",\n                \"advice\": \"A court has cited this exact citation (1 opinion, e.g. State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)): the case is real but our index lacks it; reporter cite confirmed by a citing opinion, pin pages unverified. (The index's span data put page 496 inside State v. Muth; the citing opinion outweighs it.)\",\n                \"name_check\": \"agrees\"\n            },\n            \"did_you_mean\": [\n                {\n                    \"cluster_id\": 5002190,\n                    \"page\": \"495\",\n                    \"case_name\": \"State v. Muth\",\n                    \"year\": \"2014\",\n                    \"court_label\": \"La. Ct. App.\",\n                    \"delta\": 1,\n                    \"namerank\": 2\n                },\n                {\n                    \"cluster_id\": 5002181,\n                    \"page\": \"436\",\n                    \"case_name\": \"State v. Gerald\",\n                    \"year\": \"2014\",\n                    \"court_label\": \"La. Ct. App.\",\n                    \"delta\": 60,\n                    \"namerank\": 1\n                }\n            ],\n            \"claimed\": {\n                \"lhs\": \"State\",\n                \"rhs\": \"Muth\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": null,\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"verdict\": \"exists_unindexed\",\n            \"verdict_evidence\": \"cited_by_corpus\",\n            \"unindexed_advice\": \"A court has cited this exact citation (1 opinion, e.g. State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)): the case is real but our index lacks it; reporter cite confirmed by a citing opinion, pin pages unverified. (The index's span data put page 496 inside State v. Muth; the citing opinion outweighs it.)\",\n            \"volume_coverage\": {\n                \"first_pages\": 222,\n                \"coverage_pct\": 88,\n                \"year_lo\": 2012,\n                \"year_hi\": 2014\n            },\n            \"cited_by_corpus\": {\n                \"n\": 1,\n                \"more\": false,\n                \"via\": \"exact\",\n                \"query\": \"145 So. 3d 496\",\n                \"examples\": [\n                    {\n                        \"cluster_id\": 5012018,\n                        \"case_name\": \"State v. Jones\",\n                        \"bluebook\": \"State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)\",\n                        \"date\": \"2015-12-23\",\n                        \"snippet\": \"...6/24/14), 145 So.3d 496, which affirmed the defendant\u2019s conviction for failure to register as a sex offender by failing to provide community notification after reviewing the defendant\u2019s sentence for unconstitutional excessiveness.\"\n                    }\n                ]\n            },\n            \"corpus_check\": \"ran\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 0,
+     "unresolved": 1,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0,
+     "exists_unindexed": 1
+    },
+    "warnings": [
+     "1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.",
+     "1 of the unresolved citation(s) are real cases our index lacks (verdict exists_unindexed): a citing opinion prints the citation (cited_by_corpus), or the case was found by name (name_candidates). Pin pages are unverified."
+    ],
+    "corrections": [
+     {
+      "raw": "145 So. 3d 496",
+      "problem": "A court has cited this exact citation (1 opinion, e.g. State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)): the case is real but our index lacks it; reporter cite confirmed by a citing opinion, pin pages unverified. (The index's span data put page 496 inside State v. Muth; the citing opinion outweighs it.) If not, verify the citation with check_citation (pass expected_case_name) or remove it.",
+      "suggested": null,
+      "did_you_mean": "State v. Muth, 145 So. 3d 495, 496 (La. Ct. App. 2014)",
+      "interior_of": {
+       "cluster_id": 5002190,
+       "case_name": "State v. Muth",
+       "first_page": 495
+      },
+      "verdict": "exists_unindexed",
+      "verdict_evidence": "cited_by_corpus",
+      "cited_by": {
+       "n": 1,
+       "cluster_id": 5012018,
+       "bluebook": "State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)"
+      }
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "145 So. 3d 496",
+      "volume": "145",
+      "reporter": "So. 3d",
+      "page": "496",
+      "pin": null,
+      "cluster_id": null,
+      "interior_of": {
+       "cluster_id": 5002190,
+       "case_name": "State v. Muth",
+       "bluebook": "State v. Muth, 145 So. 3d 495 (La. Ct. App. 2014)",
+       "first_page": 495,
+       "first_page_citation": "145 So. 3d 495",
+       "span": {
+        "last_page": 501,
+        "via": "opinion_text"
+       },
+       "cite_as": "State v. Muth, 145 So. 3d 495, 496 (La. Ct. App. 2014)",
+       "advice": "A court has cited this exact citation (1 opinion, e.g. State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)): the case is real but our index lacks it; reporter cite confirmed by a citing opinion, pin pages unverified. (The index's span data put page 496 inside State v. Muth; the citing opinion outweighs it.)",
+       "name_check": "agrees"
+      },
+      "did_you_mean": [
+       {
+        "cluster_id": 5002190,
+        "page": "495",
+        "case_name": "State v. Muth",
+        "year": "2014",
+        "court_label": "La. Ct. App.",
+        "delta": 1,
+        "namerank": 2
+       },
+       {
+        "cluster_id": 5002181,
+        "page": "436",
+        "case_name": "State v. Gerald",
+        "year": "2014",
+        "court_label": "La. Ct. App.",
+        "delta": 60,
+        "namerank": 1
+       }
+      ],
+      "claimed": {
+       "lhs": "State",
+       "rhs": "Muth"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": null,
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "verdict": "exists_unindexed",
+      "verdict_evidence": "cited_by_corpus",
+      "unindexed_advice": "A court has cited this exact citation (1 opinion, e.g. State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)): the case is real but our index lacks it; reporter cite confirmed by a citing opinion, pin pages unverified. (The index's span data put page 496 inside State v. Muth; the citing opinion outweighs it.)",
+      "volume_coverage": {
+       "first_pages": 222,
+       "coverage_pct": 88,
+       "year_lo": 2012,
+       "year_hi": 2014
+      },
+      "cited_by_corpus": {
+       "n": 1,
+       "more": false,
+       "via": "exact",
+       "query": "145 So. 3d 496",
+       "examples": [
+        {
+         "cluster_id": 5012018,
+         "case_name": "State v. Jones",
+         "bluebook": "State v. Jones, 182 So. 3d 1218 (La. Ct. App. 2015)",
+         "date": "2015-12-23",
+         "snippet": "...6/24/14), 145 So.3d 496, which affirmed the defendant\u2019s conviction for failure to register as a sex offender by failing to provide community notification after reviewing the defendant\u2019s sentence for unconstitutional excessiveness."
+        }
+       ]
+      },
+      "corpus_check": "ran"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

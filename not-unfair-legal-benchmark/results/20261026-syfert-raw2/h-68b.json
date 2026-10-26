@@ -1,0 +1,97 @@
+{
+ "id": "h-68b",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "68 S. Ct. 351."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"68 S. Ct. 351\",\n            \"volume\": \"68\",\n            \"reporter\": \"S. Ct.\",\n            \"page\": \"351\",\n            \"pin\": null,\n            \"cluster_id\": 8202277,\n            \"case\": {\n                \"case_name\": \"Root v. Galman\",\n                \"case_name_short\": \"Root\",\n                \"date_filed\": \"1948-01-05\",\n                \"court_id\": \"scotus\",\n                \"docket_number\": \"No. 473\",\n                \"citation_count\": 13,\n                \"court_label\": \"\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 2.681,\n                \"total_events\": 57,\n                \"distinct_courts\": 14,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"In Re Joshua Slocum, Ltd.\",\n                \"top_pos_court\": \"paeb\",\n                \"top_pos_date\": \"1989-04-27\",\n                \"top_quote_norm\": null\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Root v. Galman\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/scotus/cases/332-u-s-847/root-v-galman\",\n            \"link_md\": \"[Root v. Galman](https://syfert.com/federal/scotus/cases/332-u-s-847/root-v-galman)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "68 S. Ct. 351",
+      "volume": "68",
+      "reporter": "S. Ct.",
+      "page": "351",
+      "pin": null,
+      "cluster_id": 8202277,
+      "case": {
+       "case_name": "Root v. Galman",
+       "case_name_short": "Root",
+       "date_filed": "1948-01-05",
+       "court_id": "scotus",
+       "docket_number": "No. 473",
+       "citation_count": 13,
+       "court_label": ""
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 2.681,
+       "total_events": 57,
+       "distinct_courts": 14,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "In Re Joshua Slocum, Ltd.",
+       "top_pos_court": "paeb",
+       "top_pos_date": "1989-04-27",
+       "top_quote_norm": null
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Root v. Galman"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/scotus/cases/332-u-s-847/root-v-galman",
+      "link_md": "[Root v. Galman](https://syfert.com/federal/scotus/cases/332-u-s-847/root-v-galman)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

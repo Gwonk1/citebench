@@ -1,0 +1,110 @@
+{
+ "id": "c4-06",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "598 F.3d 1073",
+    "compact": true,
+    "case_name": "United States v. Antelope"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":240,\"case_name\":\"United States v. Antelope\",\"bluebook\":\"United States v. Antelope, 598 F.3d 1073 (9th Cir. 2010)\",\"url\":\"https://syfert.com/federal/circuits/cases/598-f-3d-1073/united-states-v-antelope\",\"link_md\":\"[United States v. Antelope, 598 F.3d 1073 (9th Cir. 2010)](https://syfert.com/federal/circuits/cases/598-f-3d-1073/united-states-v-antelope)\",\"compact\":true,\"treatment\":{\"flag\":\"red\",\"red\":1,\"yellow\":2,\"green\":36,\"procedural\":0,\"strongest_signal\":\"Overruled (in part, as later courts read it)\",\"strongest_citer\":\"United States v. Damien Zepeda\",\"strongest_date\":\"2015-07-07\",\"strongest_citer_cluster_id\":2814857,\"flag_basis\":\"overruled_by\",\"flag_reason\":\"Overruled (in part, as later courts read it) by United States v. Damien Zepeda, 792 F.3d 1103 (9th Cir. 2015): that opinion says \\\"For the reasons we explain below, we overrule Maggi.\\\"; 2 later opinions cite this case as overruled in part / on other grounds by it.\",\"flag_evidence\":[\"overruled_by\",\"validated_annotations\"]},\"overruled_by\":{\"kind\":\"case\",\"verb\":\"overruled\",\"case_name\":\"United States v. Damien Zepeda\",\"cluster_id\":2814857,\"year\":2015,\"url\":\"https://syfert.com/federal/circuits/cases/792-f-3d-1103/united-states-v-damien-zepeda\",\"in_part\":true,\"bluebook\":\"United States v. Damien Zepeda, 792 F.3d 1103 (9th Cir. 2015)\",\"statement\":\"Overruled (in part, as later courts read it) by United States v. Damien Zepeda, 792 F.3d 1103 (9th Cir. 2015).\",\"evidence\":\"For the reasons we explain below, we overrule Maggi.\",\"consensus\":\"2 later opinions annotate the overruling\"},\"negative_citers\":[{\"case_name\":\"United States v. Damien Zepeda\",\"link_md\":\"[United States v. Zepeda, 792 F.3d 1103 (9th Cir. 2015)](https://syfert.com/federal/circuits/cases/792-f-3d-1103/united-states-v-damien-zepeda)\",\"date\":\"2015-07-07\",\"signal\":\"Overruled\",\"context\":\"For the reasons we explain below, we overrule Maggi.\"},{\"case_name\":\"United States v. Loera\",\"link_md\":\"[United States v. Loera, 190 F. Supp. 3d 873 (D. Ariz. 2016)](https://syfert.com/federal/district/cases/190-f-supp-3d-873/united-states-v-loera)\",\"date\":\"2016-06-07\",\"signal\":\"Notes overruling (in part)\",\"context\":\"Although Zepeda clarified the Bruce factors in the context of 18 U.S.C. \u00a7 1153 , the Bruce factors apply equally to\u2026\"},{\"case_name\":\"United States v. Brandon Pruitt\",\"link_md\":\"[United States v. Pruitt, 839 F. App'x 90 (9th Cir. 2020)](https://syfert.com/federal/circuits/cases/839-f-appx-90/united-states-v-brandon-pruitt)\",\"date\":\"2020-12-16\",\"signal\":\"Notes overruling (on other grounds)\",\"signal_phrase\":\"see\",\"context\":\"See United States v. Maggi, 598 F.3d 1073, 1080 (9th Cir. 2010) overruled on other grounds by United States v. Zapeda\u2026\"}],\"propositions_summary\":[{\"prop_rank\":1,\"proposition\":\"bloodline be derived from a federally recognized tribe.\",\"n_citers\":2,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":2,\"proposition\":\"is an element of the offense that must be alleged in the indictment and proved beyond a reasonable doubt.\",\"n_citers\":2,\"flag\":\"neutral\",\"red\":0,\"yellow\":0,\"top_negative\":null}],\"counts\":{\"citers_shown_in_full_answer\":18,\"negative_citers_shown_in_full_answer\":3,\"red\":1,\"yellow\":2,\"green\":36,\"propositions\":2},\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"treatment_note\":\"The Syfertize classifier had this case green: the overruling opinion names it by its short name (\\\"Maggi\\\"), so the citing-event pass missed it. Served from the overruling opinion's own words and the later annotations (MCP103).\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\"}",
+   "json": {
+    "cluster_id": 240,
+    "case_name": "United States v. Antelope",
+    "bluebook": "United States v. Antelope, 598 F.3d 1073 (9th Cir. 2010)",
+    "url": "https://syfert.com/federal/circuits/cases/598-f-3d-1073/united-states-v-antelope",
+    "link_md": "[United States v. Antelope, 598 F.3d 1073 (9th Cir. 2010)](https://syfert.com/federal/circuits/cases/598-f-3d-1073/united-states-v-antelope)",
+    "compact": true,
+    "treatment": {
+     "flag": "red",
+     "red": 1,
+     "yellow": 2,
+     "green": 36,
+     "procedural": 0,
+     "strongest_signal": "Overruled (in part, as later courts read it)",
+     "strongest_citer": "United States v. Damien Zepeda",
+     "strongest_date": "2015-07-07",
+     "strongest_citer_cluster_id": 2814857,
+     "flag_basis": "overruled_by",
+     "flag_reason": "Overruled (in part, as later courts read it) by United States v. Damien Zepeda, 792 F.3d 1103 (9th Cir. 2015): that opinion says \"For the reasons we explain below, we overrule Maggi.\"; 2 later opinions cite this case as overruled in part / on other grounds by it.",
+     "flag_evidence": [
+      "overruled_by",
+      "validated_annotations"
+     ]
+    },
+    "overruled_by": {
+     "kind": "case",
+     "verb": "overruled",
+     "case_name": "United States v. Damien Zepeda",
+     "cluster_id": 2814857,
+     "year": 2015,
+     "url": "https://syfert.com/federal/circuits/cases/792-f-3d-1103/united-states-v-damien-zepeda",
+     "in_part": true,
+     "bluebook": "United States v. Damien Zepeda, 792 F.3d 1103 (9th Cir. 2015)",
+     "statement": "Overruled (in part, as later courts read it) by United States v. Damien Zepeda, 792 F.3d 1103 (9th Cir. 2015).",
+     "evidence": "For the reasons we explain below, we overrule Maggi.",
+     "consensus": "2 later opinions annotate the overruling"
+    },
+    "negative_citers": [
+     {
+      "case_name": "United States v. Damien Zepeda",
+      "link_md": "[United States v. Zepeda, 792 F.3d 1103 (9th Cir. 2015)](https://syfert.com/federal/circuits/cases/792-f-3d-1103/united-states-v-damien-zepeda)",
+      "date": "2015-07-07",
+      "signal": "Overruled",
+      "context": "For the reasons we explain below, we overrule Maggi."
+     },
+     {
+      "case_name": "United States v. Loera",
+      "link_md": "[United States v. Loera, 190 F. Supp. 3d 873 (D. Ariz. 2016)](https://syfert.com/federal/district/cases/190-f-supp-3d-873/united-states-v-loera)",
+      "date": "2016-06-07",
+      "signal": "Notes overruling (in part)",
+      "context": "Although Zepeda clarified the Bruce factors in the context of 18 U.S.C. \u00a7 1153 , the Bruce factors apply equally to\u2026"
+     },
+     {
+      "case_name": "United States v. Brandon Pruitt",
+      "link_md": "[United States v. Pruitt, 839 F. App'x 90 (9th Cir. 2020)](https://syfert.com/federal/circuits/cases/839-f-appx-90/united-states-v-brandon-pruitt)",
+      "date": "2020-12-16",
+      "signal": "Notes overruling (on other grounds)",
+      "signal_phrase": "see",
+      "context": "See United States v. Maggi, 598 F.3d 1073, 1080 (9th Cir. 2010) overruled on other grounds by United States v. Zapeda\u2026"
+     }
+    ],
+    "propositions_summary": [
+     {
+      "prop_rank": 1,
+      "proposition": "bloodline be derived from a federally recognized tribe.",
+      "n_citers": 2,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 2,
+      "proposition": "is an element of the offense that must be alleged in the indictment and proved beyond a reasonable doubt.",
+      "n_citers": 2,
+      "flag": "neutral",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     }
+    ],
+    "counts": {
+     "citers_shown_in_full_answer": 18,
+     "negative_citers_shown_in_full_answer": 3,
+     "red": 1,
+     "yellow": 2,
+     "green": 36,
+     "propositions": 2
+    },
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "treatment_note": "The Syfertize classifier had this case green: the overruling opinion names it by its short name (\"Maggi\"), so the citing-event pass missed it. Served from the overruling opinion's own words and the later annotations (MCP103).",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context."
+   }
+  }
+ ]
+}

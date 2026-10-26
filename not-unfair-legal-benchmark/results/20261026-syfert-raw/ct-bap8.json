@@ -1,0 +1,270 @@
+{
+ "id": "ct-bap8",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "8th Cir. BAP."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"8th Cir. BAP.\",\n    \"courts\": [\n        {\n            \"id\": \"bap8\",\n            \"short_name\": \"Eighth Circuit\",\n            \"full_name\": \"United States Bankruptcy Appellate Panel for the Eighth Circuit\",\n            \"jurisdiction\": \"FBP\",\n            \"citation_string\": \"8th Cir. BAP\",\n            \"cases_in_corpus\": 1387,\n            \"years\": \"1997-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca8\",\n            \"short_name\": \"Eighth Circuit\",\n            \"full_name\": \"Court of Appeals for the Eighth Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"8th Cir.\",\n            \"cases_in_corpus\": 99671,\n            \"years\": \"1873-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"bap9\",\n            \"short_name\": \"Ninth Circuit\",\n            \"full_name\": \"United States Bankruptcy Appellate Panel for the Ninth Circuit\",\n            \"jurisdiction\": \"FBP\",\n            \"citation_string\": \"9th Cir. BAP\",\n            \"cases_in_corpus\": 3642,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"bap6\",\n            \"short_name\": \"Sixth Circuit\",\n            \"full_name\": \"Bankruptcy Appellate Panel of the Sixth Circuit\",\n            \"jurisdiction\": \"FBP\",\n            \"citation_string\": \"6th Cir. BAP\",\n            \"cases_in_corpus\": 699,\n            \"years\": \"1997-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"bap10\",\n            \"short_name\": \"Tenth Circuit\",\n            \"full_name\": \"Bankruptcy Appellate Panel of the Tenth Circuit\",\n            \"jurisdiction\": \"FBP\",\n            \"citation_string\": \"10th Cir. BAP\",\n            \"cases_in_corpus\": 553,\n            \"years\": \"1996-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"bap1\",\n            \"short_name\": \"First Circuit\",\n            \"full_name\": \"Bankruptcy Appellate Panel of the First Circuit\",\n            \"jurisdiction\": \"FBP\",\n            \"citation_string\": \"1st Cir. BAP\",\n            \"cases_in_corpus\": 496,\n            \"years\": \"1981-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"bap2\",\n            \"short_name\": \"Second Circuit\",\n            \"full_name\": \"Bankruptcy Appellate Panel of the Second Circuit\",\n            \"jurisdiction\": \"FBP\",\n            \"citation_string\": \"2d Cir. BAP\",\n            \"cases_in_corpus\": 28,\n            \"years\": \"1996-2000\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca9\",\n            \"short_name\": \"Ninth Circuit\",\n            \"full_name\": \"Court of Appeals for the Ninth Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"9th Cir.\",\n            \"cases_in_corpus\": 212444,\n            \"years\": \"?-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca5\",\n            \"short_name\": \"Fifth Circuit\",\n            \"full_name\": \"Court of Appeals for the Fifth Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"5th Cir.\",\n            \"cases_in_corpus\": 198917,\n            \"years\": \"1891-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca4\",\n            \"short_name\": \"Fourth Circuit\",\n            \"full_name\": \"Court of Appeals for the Fourth Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"4th Cir.\",\n            \"cases_in_corpus\": 174034,\n            \"years\": \"1822-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca2\",\n            \"short_name\": \"Second Circuit\",\n            \"full_name\": \"Court of Appeals for the Second Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"2d Cir.\",\n            \"cases_in_corpus\": 110023,\n            \"years\": \"1820-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca6\",\n            \"short_name\": \"Sixth Circuit\",\n            \"full_name\": \"Court of Appeals for the Sixth Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"6th Cir.\",\n            \"cases_in_corpus\": 100176,\n            \"years\": \"1868-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca3\",\n            \"short_name\": \"Third Circuit\",\n            \"full_name\": \"Court of Appeals for the Third Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"3rd Cir.\",\n            \"cases_in_corpus\": 95709,\n            \"years\": \"1843-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca11\",\n            \"short_name\": \"Eleventh Circuit\",\n            \"full_name\": \"Court of Appeals for the Eleventh Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"11th Cir.\",\n            \"cases_in_corpus\": 91388,\n            \"years\": \"1981-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca7\",\n            \"short_name\": \"Seventh Circuit\",\n            \"full_name\": \"Court of Appeals for the Seventh Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"7th Cir.\",\n            \"cases_in_corpus\": 86055,\n            \"years\": \"1892-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca10\",\n            \"short_name\": \"Tenth Circuit\",\n            \"full_name\": \"Court of Appeals for the Tenth Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"10th Cir.\",\n            \"cases_in_corpus\": 67923,\n            \"years\": \"1929-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cafc\",\n            \"short_name\": \"Federal Circuit\",\n            \"full_name\": \"Court of Appeals for the Federal Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"Fed. Cir.\",\n            \"cases_in_corpus\": 55001,\n            \"years\": \"1783-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cadc\",\n            \"short_name\": \"D.C. Circuit\",\n            \"full_name\": \"Court of Appeals for the D.C. Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"D.C. Cir.\",\n            \"cases_in_corpus\": 43355,\n            \"years\": \"1840-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ca1\",\n            \"short_name\": \"First Circuit\",\n            \"full_name\": \"Court of Appeals for the First Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"1st Cir.\",\n            \"cases_in_corpus\": 41851,\n            \"years\": \"1878-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"uscirct\",\n            \"short_name\": \"U.S. Circuit Court\",\n            \"full_name\": \"United States Circuit Court\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"U.S. Cir. Ct.\",\n            \"cases_in_corpus\": 2247,\n            \"years\": \"1793-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaccfairfax\",\n            \"short_name\": \"Fairfax County Circuit Court\",\n            \"full_name\": \"Fairfax County Circuit Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fairfax Cir. Ct.\",\n            \"cases_in_corpus\": 1982,\n            \"years\": \"1957-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaccrichmondcty\",\n            \"short_name\": \"Richmond County Circuit Court\",\n            \"full_name\": \"Richmond County Circuit Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Richmond County Cir. Ct.\",\n            \"cases_in_corpus\": 1439,\n            \"years\": \"1856-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vacc\",\n            \"short_name\": \"Virginia Circuit Court\",\n            \"full_name\": \"Virginia Circuit Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Va. Cir. Ct.\",\n            \"cases_in_corpus\": 885,\n            \"years\": \"1825-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaccnorfolk\",\n            \"short_name\": \"Norfolk County Circuit Court\",\n            \"full_name\": \"Norfolk County Circuit Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Norfolk Cir. Ct.\",\n            \"cases_in_corpus\": 721,\n            \"years\": \"1974-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaccloudoun\",\n            \"short_name\": \"Loudoun County Circuit Court\",\n            \"full_name\": \"Loudoun County Circuit Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Loudoun Cir. Ct.\",\n            \"cases_in_corpus\": 569,\n            \"years\": \"1983-2016\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\"\n}",
+   "json": {
+    "query": "8th Cir. BAP.",
+    "courts": [
+     {
+      "id": "bap8",
+      "short_name": "Eighth Circuit",
+      "full_name": "United States Bankruptcy Appellate Panel for the Eighth Circuit",
+      "jurisdiction": "FBP",
+      "citation_string": "8th Cir. BAP",
+      "cases_in_corpus": 1387,
+      "years": "1997-2026",
+      "active": true
+     },
+     {
+      "id": "ca8",
+      "short_name": "Eighth Circuit",
+      "full_name": "Court of Appeals for the Eighth Circuit",
+      "jurisdiction": "F",
+      "citation_string": "8th Cir.",
+      "cases_in_corpus": 99671,
+      "years": "1873-2026",
+      "active": true
+     },
+     {
+      "id": "bap9",
+      "short_name": "Ninth Circuit",
+      "full_name": "United States Bankruptcy Appellate Panel for the Ninth Circuit",
+      "jurisdiction": "FBP",
+      "citation_string": "9th Cir. BAP",
+      "cases_in_corpus": 3642,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "bap6",
+      "short_name": "Sixth Circuit",
+      "full_name": "Bankruptcy Appellate Panel of the Sixth Circuit",
+      "jurisdiction": "FBP",
+      "citation_string": "6th Cir. BAP",
+      "cases_in_corpus": 699,
+      "years": "1997-2026",
+      "active": true
+     },
+     {
+      "id": "bap10",
+      "short_name": "Tenth Circuit",
+      "full_name": "Bankruptcy Appellate Panel of the Tenth Circuit",
+      "jurisdiction": "FBP",
+      "citation_string": "10th Cir. BAP",
+      "cases_in_corpus": 553,
+      "years": "1996-2026",
+      "active": true
+     },
+     {
+      "id": "bap1",
+      "short_name": "First Circuit",
+      "full_name": "Bankruptcy Appellate Panel of the First Circuit",
+      "jurisdiction": "FBP",
+      "citation_string": "1st Cir. BAP",
+      "cases_in_corpus": 496,
+      "years": "1981-2026",
+      "active": true
+     },
+     {
+      "id": "bap2",
+      "short_name": "Second Circuit",
+      "full_name": "Bankruptcy Appellate Panel of the Second Circuit",
+      "jurisdiction": "FBP",
+      "citation_string": "2d Cir. BAP",
+      "cases_in_corpus": 28,
+      "years": "1996-2000",
+      "active": true
+     },
+     {
+      "id": "ca9",
+      "short_name": "Ninth Circuit",
+      "full_name": "Court of Appeals for the Ninth Circuit",
+      "jurisdiction": "F",
+      "citation_string": "9th Cir.",
+      "cases_in_corpus": 212444,
+      "years": "?-2026",
+      "active": true
+     },
+     {
+      "id": "ca5",
+      "short_name": "Fifth Circuit",
+      "full_name": "Court of Appeals for the Fifth Circuit",
+      "jurisdiction": "F",
+      "citation_string": "5th Cir.",
+      "cases_in_corpus": 198917,
+      "years": "1891-2026",
+      "active": true
+     },
+     {
+      "id": "ca4",
+      "short_name": "Fourth Circuit",
+      "full_name": "Court of Appeals for the Fourth Circuit",
+      "jurisdiction": "F",
+      "citation_string": "4th Cir.",
+      "cases_in_corpus": 174034,
+      "years": "1822-2026",
+      "active": true
+     },
+     {
+      "id": "ca2",
+      "short_name": "Second Circuit",
+      "full_name": "Court of Appeals for the Second Circuit",
+      "jurisdiction": "F",
+      "citation_string": "2d Cir.",
+      "cases_in_corpus": 110023,
+      "years": "1820-2026",
+      "active": true
+     },
+     {
+      "id": "ca6",
+      "short_name": "Sixth Circuit",
+      "full_name": "Court of Appeals for the Sixth Circuit",
+      "jurisdiction": "F",
+      "citation_string": "6th Cir.",
+      "cases_in_corpus": 100176,
+      "years": "1868-2026",
+      "active": true
+     },
+     {
+      "id": "ca3",
+      "short_name": "Third Circuit",
+      "full_name": "Court of Appeals for the Third Circuit",
+      "jurisdiction": "F",
+      "citation_string": "3rd Cir.",
+      "cases_in_corpus": 95709,
+      "years": "1843-2026",
+      "active": true
+     },
+     {
+      "id": "ca11",
+      "short_name": "Eleventh Circuit",
+      "full_name": "Court of Appeals for the Eleventh Circuit",
+      "jurisdiction": "F",
+      "citation_string": "11th Cir.",
+      "cases_in_corpus": 91388,
+      "years": "1981-2026",
+      "active": true
+     },
+     {
+      "id": "ca7",
+      "short_name": "Seventh Circuit",
+      "full_name": "Court of Appeals for the Seventh Circuit",
+      "jurisdiction": "F",
+      "citation_string": "7th Cir.",
+      "cases_in_corpus": 86055,
+      "years": "1892-2026",
+      "active": true
+     },
+     {
+      "id": "ca10",
+      "short_name": "Tenth Circuit",
+      "full_name": "Court of Appeals for the Tenth Circuit",
+      "jurisdiction": "F",
+      "citation_string": "10th Cir.",
+      "cases_in_corpus": 67923,
+      "years": "1929-2026",
+      "active": true
+     },
+     {
+      "id": "cafc",
+      "short_name": "Federal Circuit",
+      "full_name": "Court of Appeals for the Federal Circuit",
+      "jurisdiction": "F",
+      "citation_string": "Fed. Cir.",
+      "cases_in_corpus": 55001,
+      "years": "1783-2026",
+      "active": true
+     },
+     {
+      "id": "cadc",
+      "short_name": "D.C. Circuit",
+      "full_name": "Court of Appeals for the D.C. Circuit",
+      "jurisdiction": "F",
+      "citation_string": "D.C. Cir.",
+      "cases_in_corpus": 43355,
+      "years": "1840-2026",
+      "active": true
+     },
+     {
+      "id": "ca1",
+      "short_name": "First Circuit",
+      "full_name": "Court of Appeals for the First Circuit",
+      "jurisdiction": "F",
+      "citation_string": "1st Cir.",
+      "cases_in_corpus": 41851,
+      "years": "1878-2026",
+      "active": true
+     },
+     {
+      "id": "uscirct",
+      "short_name": "U.S. Circuit Court",
+      "full_name": "United States Circuit Court",
+      "jurisdiction": "F",
+      "citation_string": "U.S. Cir. Ct.",
+      "cases_in_corpus": 2247,
+      "years": "1793-2019",
+      "active": true
+     },
+     {
+      "id": "vaccfairfax",
+      "short_name": "Fairfax County Circuit Court",
+      "full_name": "Fairfax County Circuit Court",
+      "jurisdiction": "ST",
+      "citation_string": "Fairfax Cir. Ct.",
+      "cases_in_corpus": 1982,
+      "years": "1957-2016",
+      "active": true
+     },
+     {
+      "id": "vaccrichmondcty",
+      "short_name": "Richmond County Circuit Court",
+      "full_name": "Richmond County Circuit Court",
+      "jurisdiction": "ST",
+      "citation_string": "Richmond County Cir. Ct.",
+      "cases_in_corpus": 1439,
+      "years": "1856-2016",
+      "active": true
+     },
+     {
+      "id": "vacc",
+      "short_name": "Virginia Circuit Court",
+      "full_name": "Virginia Circuit Court",
+      "jurisdiction": "ST",
+      "citation_string": "Va. Cir. Ct.",
+      "cases_in_corpus": 885,
+      "years": "1825-2016",
+      "active": true
+     },
+     {
+      "id": "vaccnorfolk",
+      "short_name": "Norfolk County Circuit Court",
+      "full_name": "Norfolk County Circuit Court",
+      "jurisdiction": "ST",
+      "citation_string": "Norfolk Cir. Ct.",
+      "cases_in_corpus": 721,
+      "years": "1974-2016",
+      "active": true
+     },
+     {
+      "id": "vaccloudoun",
+      "short_name": "Loudoun County Circuit Court",
+      "full_name": "Loudoun County Circuit Court",
+      "jurisdiction": "ST",
+      "citation_string": "Loudoun Cir. Ct.",
+      "cases_in_corpus": 569,
+      "years": "1983-2016",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp."
+   }
+  }
+ ]
+}

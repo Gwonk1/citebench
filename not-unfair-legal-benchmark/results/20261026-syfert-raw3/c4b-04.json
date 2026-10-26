@@ -1,0 +1,47 @@
+{
+ "id": "c4b-04",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "76 F. App'x 244",
+    "compact": true,
+    "case_name": "United States v. Andrews"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":163890,\"case_name\":\"United States v. Andrews\",\"bluebook\":\"United States v. Andrews, 76 F. App'x 244 (10th Cir. 2003)\",\"url\":\"https://syfert.com/federal/circuits/cases/76-f-appx-244/united-states-v-andrews\",\"link_md\":\"[United States v. Andrews, 76 F. App'x 244 (10th Cir. 2003)](https://syfert.com/federal/circuits/cases/76-f-appx-244/united-states-v-andrews)\",\"compact\":true,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0,\"green\":1,\"procedural\":0,\"strongest_signal\":null,\"strongest_citer\":\"\",\"strongest_date\":null},\"negative_citers\":[],\"counts\":{\"citers_shown_in_full_answer\":1,\"negative_citers_shown_in_full_answer\":0,\"red\":0,\"yellow\":0,\"green\":1,\"propositions\":0},\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_text\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not binding precedent | cite: 76 F. App'x 244).\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\"}",
+   "json": {
+    "cluster_id": 163890,
+    "case_name": "United States v. Andrews",
+    "bluebook": "United States v. Andrews, 76 F. App'x 244 (10th Cir. 2003)",
+    "url": "https://syfert.com/federal/circuits/cases/76-f-appx-244/united-states-v-andrews",
+    "link_md": "[United States v. Andrews, 76 F. App'x 244 (10th Cir. 2003)](https://syfert.com/federal/circuits/cases/76-f-appx-244/united-states-v-andrews)",
+    "compact": true,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "negative_citers": [],
+    "counts": {
+     "citers_shown_in_full_answer": 1,
+     "negative_citers_shown_in_full_answer": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "propositions": 0
+    },
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_text",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not binding precedent | cite: 76 F. App'x 244).",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context."
+   }
+  }
+ ]
+}

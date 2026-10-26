@@ -1,0 +1,185 @@
+{
+ "id": "co-03",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"509 U.S. 579\",\n            \"volume\": \"509\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"579\",\n            \"pin\": null,\n            \"cluster_id\": 112903,\n            \"case\": {\n                \"case_name\": \"Daubert v. Merrell Dow Pharmaceuticals, Inc.\",\n                \"case_name_short\": \"Daubert\",\n                \"date_filed\": \"1993-06-28\",\n                \"court_id\": \"scotus\",\n                \"docket_number\": \"92-102\",\n                \"citation_count\": 20890,\n                \"court_label\": \"\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 445.628,\n                \"total_events\": 94457,\n                \"distinct_courts\": 328,\n                \"top_neg_label\": \"Primavera Familienstifung v. Askin\",\n                \"top_neg_court\": \"nysd\",\n                \"top_neg_date\": \"2001-03-01\",\n                \"top_pos_label\": \"Kelly Excellus v. Embraer, S.A., Embraer Customer Services, Inc., and Embraer Aircraft Customer Services, LLC\",\n                \"top_pos_court\": \"mad\",\n                \"top_pos_date\": \"2026-09-23\",\n                \"top_quote_norm\": \"how often, then, does strmix falsely suggest a suspect matches a dna sample? not often, the evidence suggests. when examining 'false inclusions,' one peer-reviewed study 18 existence of standards to guide the use of strmix and other probabilistic genotyping software.49 indeed, recent studies have shown that strmix has become \\\"increasingly reliable, even with dna samples with more than three contributors.\\\"50 we finally look to whether there is general acceptance in the scientific community for strmix. this inquiry focuses on whether the relevant scientific community accepts the software.51 this, too, can be answered in the affirmative.52 strmix is in widespread use in labs at the local, state, federal, and international levels.53 in answering \\\"yes\\\" to d.r.e. 702 and daubert's four inquiries as related to reliability, we conclude that the superior court properly admitted the dna labs report. concluded, based on an analysis of the dna of 300,000 people who were known not to be in a mixture, that strmix had accurately excluded the non-contributors 99.1 of the time. just 1 of the time, in other words, it gave a likelihood ratio suggesting that someone was included in the mixture who was not actually included in it.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": 2418739,\n            \"neg_citers\": {\n                \"primavera familienstifung v. askin\": {\n                    \"cid\": 2418739,\n                    \"court\": \"nysd\"\n                },\n                \"unverferth mfg co inc v. par-kan co., llc\": {\n                    \"cid\": 10654304,\n                    \"court\": \"innd\"\n                },\n                \"arrmaz products inc v. rieth-riley construction co inc\": {\n                    \"cid\": 10547465,\n                    \"court\": \"innd\"\n                },\n                \"o'malley v. diamond resorts management ca4/3\": {\n                    \"cid\": 9437763,\n                    \"court\": \"calctapp\"\n                },\n                \"maureen deal phillip deal, parents, on behalf of zachary deal v. hamilton county board of education\": {\n                    \"cid\": 788676,\n                    \"court\": \"ca6\"\n                },\n                \"deal v. hamilton cnty bd ed\": {\n                    \"cid\": 2971669,\n                    \"court\": \"ca6\"\n                },\n                \"mcgowen v. state\": {\n                    \"cid\": 1696923,\n                    \"court\": \"miss\"\n                },\n                \"state v. smith\": {\n                    \"cid\": 1809575,\n                    \"court\": \"lactapp\"\n                },\n                \"hugh wilton mcgowen, jr. v. state of mississippi\": {\n                    \"cid\": 864372,\n                    \"court\": \"miss\"\n                },\n                \"people v. wernick\": {\n                    \"cid\": 2141092,\n                    \"court\": \"ny\"\n                },\n                \"people v. dalcollo\": {\n                    \"cid\": 2092285,\n                    \"court\": \"illappct\"\n                },\n                \"williams v. state\": {\n                    \"cid\": 2611941,\n                    \"court\": \"alaskactapp\"\n                },\n                \"mattox v. state, department of revenue, child support enforcement division ex rel. neeson\": {\n                    \"cid\": 2612842,\n                    \"court\": \"alaska\"\n                },\n                \"people v. moore\": {\n                    \"cid\": 6097961,\n                    \"court\": \"nyappdiv\"\n                },\n                \"mcglauflin v. state\": {\n                    \"cid\": 1121528,\n                    \"court\": \"alaskactapp\"\n                },\n                \"hawkins v. sea support ventures, llc\": {\n                    \"cid\": 9721032,\n                    \"court\": \"laed\"\n                },\n                \"pride centric resources, inc. v. laporte\": {\n                    \"cid\": 9720490,\n                    \"court\": \"laed\"\n                },\n                \"hof v. laporte\": {\n                    \"cid\": 9719460,\n                    \"court\": \"laed\"\n                },\n                \"adriatic marine, llc v. harrington\": {\n                    \"cid\": 9718633,\n                    \"court\": \"laed\"\n                },\n                \"united states v. charles lvonne smith, jr.\": {\n                    \"cid\": 42471,\n                    \"court\": \"ca11\"\n                }\n            },\n            \"top_neg_court_label\": \"S.D.N.Y.\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Daubert\",\n                \"rhs\": \"Merrell Dow Pharmaceuticals, Inc.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Daubert\",\n                    \"rhs\": \"Merrell Dow Pharmaceuticals, Inc.\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Daubert v. Merrell Dow Pharmaceuticals, Inc.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/scotus/cases/509-u-s-579/daubert-v-merrell-dow-pharmaceuticals-inc\",\n            \"link_md\": \"[Daubert v. Merrell Dow Pharmaceuticals, Inc.](https://syfert.com/federal/scotus/cases/509-u-s-579/daubert-v-merrell-dow-pharmaceuticals-inc)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "509 U.S. 579",
+      "volume": "509",
+      "reporter": "U.S.",
+      "page": "579",
+      "pin": null,
+      "cluster_id": 112903,
+      "case": {
+       "case_name": "Daubert v. Merrell Dow Pharmaceuticals, Inc.",
+       "case_name_short": "Daubert",
+       "date_filed": "1993-06-28",
+       "court_id": "scotus",
+       "docket_number": "92-102",
+       "citation_count": 20890,
+       "court_label": ""
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 445.628,
+       "total_events": 94457,
+       "distinct_courts": 328,
+       "top_neg_label": "Primavera Familienstifung v. Askin",
+       "top_neg_court": "nysd",
+       "top_neg_date": "2001-03-01",
+       "top_pos_label": "Kelly Excellus v. Embraer, S.A., Embraer Customer Services, Inc., and Embraer Aircraft Customer Services, LLC",
+       "top_pos_court": "mad",
+       "top_pos_date": "2026-09-23",
+       "top_quote_norm": "how often, then, does strmix falsely suggest a suspect matches a dna sample? not often, the evidence suggests. when examining 'false inclusions,' one peer-reviewed study 18 existence of standards to guide the use of strmix and other probabilistic genotyping software.49 indeed, recent studies have shown that strmix has become \"increasingly reliable, even with dna samples with more than three contributors.\"50 we finally look to whether there is general acceptance in the scientific community for strmix. this inquiry focuses on whether the relevant scientific community accepts the software.51 this, too, can be answered in the affirmative.52 strmix is in widespread use in labs at the local, state, federal, and international levels.53 in answering \"yes\" to d.r.e. 702 and daubert's four inquiries as related to reliability, we conclude that the superior court properly admitted the dna labs report. concluded, based on an analysis of the dna of 300,000 people who were known not to be in a mixture, that strmix had accurately excluded the non-contributors 99.1 of the time. just 1 of the time, in other words, it gave a likelihood ratio suggesting that someone was included in the mixture who was not actually included in it.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": 2418739,
+      "neg_citers": {
+       "primavera familienstifung v. askin": {
+        "cid": 2418739,
+        "court": "nysd"
+       },
+       "unverferth mfg co inc v. par-kan co., llc": {
+        "cid": 10654304,
+        "court": "innd"
+       },
+       "arrmaz products inc v. rieth-riley construction co inc": {
+        "cid": 10547465,
+        "court": "innd"
+       },
+       "o'malley v. diamond resorts management ca4/3": {
+        "cid": 9437763,
+        "court": "calctapp"
+       },
+       "maureen deal phillip deal, parents, on behalf of zachary deal v. hamilton county board of education": {
+        "cid": 788676,
+        "court": "ca6"
+       },
+       "deal v. hamilton cnty bd ed": {
+        "cid": 2971669,
+        "court": "ca6"
+       },
+       "mcgowen v. state": {
+        "cid": 1696923,
+        "court": "miss"
+       },
+       "state v. smith": {
+        "cid": 1809575,
+        "court": "lactapp"
+       },
+       "hugh wilton mcgowen, jr. v. state of mississippi": {
+        "cid": 864372,
+        "court": "miss"
+       },
+       "people v. wernick": {
+        "cid": 2141092,
+        "court": "ny"
+       },
+       "people v. dalcollo": {
+        "cid": 2092285,
+        "court": "illappct"
+       },
+       "williams v. state": {
+        "cid": 2611941,
+        "court": "alaskactapp"
+       },
+       "mattox v. state, department of revenue, child support enforcement division ex rel. neeson": {
+        "cid": 2612842,
+        "court": "alaska"
+       },
+       "people v. moore": {
+        "cid": 6097961,
+        "court": "nyappdiv"
+       },
+       "mcglauflin v. state": {
+        "cid": 1121528,
+        "court": "alaskactapp"
+       },
+       "hawkins v. sea support ventures, llc": {
+        "cid": 9721032,
+        "court": "laed"
+       },
+       "pride centric resources, inc. v. laporte": {
+        "cid": 9720490,
+        "court": "laed"
+       },
+       "hof v. laporte": {
+        "cid": 9719460,
+        "court": "laed"
+       },
+       "adriatic marine, llc v. harrington": {
+        "cid": 9718633,
+        "court": "laed"
+       },
+       "united states v. charles lvonne smith, jr.": {
+        "cid": 42471,
+        "court": "ca11"
+       }
+      },
+      "top_neg_court_label": "S.D.N.Y.",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Daubert",
+       "rhs": "Merrell Dow Pharmaceuticals, Inc."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Daubert",
+        "rhs": "Merrell Dow Pharmaceuticals, Inc."
+       },
+       "verdict": "match",
+       "resolved_name": "Daubert v. Merrell Dow Pharmaceuticals, Inc."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/scotus/cases/509-u-s-579/daubert-v-merrell-dow-pharmaceuticals-inc",
+      "link_md": "[Daubert v. Merrell Dow Pharmaceuticals, Inc.](https://syfert.com/federal/scotus/cases/509-u-s-579/daubert-v-merrell-dow-pharmaceuticals-inc)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

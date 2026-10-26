@@ -1,0 +1,101 @@
+{
+ "id": "c8-07",
+ "class": "misprint",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Franks v. Delaware, 488 U.S. 154."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 0,\n        \"unresolved\": 1,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [\n        \"1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"488 U.S. 154\",\n            \"problem\": \"page 154 is inside Beech Aircraft Corp. v. Rainey, which begins at 488 U.S. 153; did you mean Beech Aircraft Corp. v. Rainey at 154? The text names Franks v. Delaware here, so if that is the case meant, the volume, reporter series or page is wrong. If not, verify the citation with check_citation (pass expected_case_name) or remove it.\",\n            \"suggested\": null,\n            \"did_you_mean\": \"Beech Aircraft Corp. v. Rainey, 488 U.S. 153, 154 (1988)\",\n            \"interior_of\": {\n                \"cluster_id\": 112161,\n                \"case_name\": \"Beech Aircraft Corp. v. Rainey\",\n                \"first_page\": 153\n            },\n            \"verdict\": \"interior_mismatch\",\n            \"verdict_evidence\": \"span\"\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"488 U.S. 154\",\n            \"volume\": \"488\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"154\",\n            \"pin\": null,\n            \"cluster_id\": null,\n            \"interior_of\": {\n                \"cluster_id\": 112161,\n                \"case_name\": \"Beech Aircraft Corp. v. Rainey\",\n                \"bluebook\": \"Beech Aircraft Corp. v. Rainey, 488 U.S. 153 (1988)\",\n                \"first_page\": 153,\n                \"first_page_citation\": \"488 U.S. 153\",\n                \"span\": {\n                    \"last_page\": 178,\n                    \"via\": \"opinion_text\"\n                },\n                \"cite_as\": \"Beech Aircraft Corp. v. Rainey, 488 U.S. 153, 154 (1988)\",\n                \"advice\": \"page 154 is inside Beech Aircraft Corp. v. Rainey, which begins at 488 U.S. 153; did you mean Beech Aircraft Corp. v. Rainey at 154? The text names Franks v. Delaware here, so if that is the case meant, the volume, reporter series or page is wrong.\"\n            },\n            \"did_you_mean\": [],\n            \"name_search\": \"no_match\",\n            \"claimed\": {\n                \"lhs\": \"Franks\",\n                \"rhs\": \"Delaware\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": null,\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"verdict\": \"interior_mismatch\",\n            \"verdict_evidence\": \"span\",\n            \"unindexed_advice\": \"page 154 is inside Beech Aircraft Corp. v. Rainey, which begins at 488 U.S. 153; did you mean Beech Aircraft Corp. v. Rainey at 154? The text names Franks v. Delaware here, so if that is the case meant, the volume, reporter series or page is wrong.\",\n            \"volume_coverage\": {\n                \"first_pages\": 269,\n                \"coverage_pct\": 100,\n                \"year_lo\": 1987,\n                \"year_hi\": 1989\n            },\n            \"corpus_check\": \"skipped: time budget\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 0,
+     "unresolved": 1,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [
+     "1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps."
+    ],
+    "corrections": [
+     {
+      "raw": "488 U.S. 154",
+      "problem": "page 154 is inside Beech Aircraft Corp. v. Rainey, which begins at 488 U.S. 153; did you mean Beech Aircraft Corp. v. Rainey at 154? The text names Franks v. Delaware here, so if that is the case meant, the volume, reporter series or page is wrong. If not, verify the citation with check_citation (pass expected_case_name) or remove it.",
+      "suggested": null,
+      "did_you_mean": "Beech Aircraft Corp. v. Rainey, 488 U.S. 153, 154 (1988)",
+      "interior_of": {
+       "cluster_id": 112161,
+       "case_name": "Beech Aircraft Corp. v. Rainey",
+       "first_page": 153
+      },
+      "verdict": "interior_mismatch",
+      "verdict_evidence": "span"
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "488 U.S. 154",
+      "volume": "488",
+      "reporter": "U.S.",
+      "page": "154",
+      "pin": null,
+      "cluster_id": null,
+      "interior_of": {
+       "cluster_id": 112161,
+       "case_name": "Beech Aircraft Corp. v. Rainey",
+       "bluebook": "Beech Aircraft Corp. v. Rainey, 488 U.S. 153 (1988)",
+       "first_page": 153,
+       "first_page_citation": "488 U.S. 153",
+       "span": {
+        "last_page": 178,
+        "via": "opinion_text"
+       },
+       "cite_as": "Beech Aircraft Corp. v. Rainey, 488 U.S. 153, 154 (1988)",
+       "advice": "page 154 is inside Beech Aircraft Corp. v. Rainey, which begins at 488 U.S. 153; did you mean Beech Aircraft Corp. v. Rainey at 154? The text names Franks v. Delaware here, so if that is the case meant, the volume, reporter series or page is wrong."
+      },
+      "did_you_mean": [],
+      "name_search": "no_match",
+      "claimed": {
+       "lhs": "Franks",
+       "rhs": "Delaware"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": null,
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "verdict": "interior_mismatch",
+      "verdict_evidence": "span",
+      "unindexed_advice": "page 154 is inside Beech Aircraft Corp. v. Rainey, which begins at 488 U.S. 153; did you mean Beech Aircraft Corp. v. Rainey at 154? The text names Franks v. Delaware here, so if that is the case meant, the volume, reporter series or page is wrong.",
+      "volume_coverage": {
+       "first_pages": 269,
+       "coverage_pct": 100,
+       "year_lo": 1987,
+       "year_hi": 1989
+      },
+      "corpus_check": "skipped: time budget"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

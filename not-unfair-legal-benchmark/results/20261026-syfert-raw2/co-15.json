@@ -1,0 +1,99 @@
+{
+ "id": "co-15",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "In re Christopher J., 505 A.2d 795."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"505 A.2d 795\",\n            \"volume\": \"505\",\n            \"reporter\": \"A.2d\",\n            \"page\": \"795\",\n            \"pin\": null,\n            \"caption\": \"In re Christopher J.\",\n            \"cluster_id\": 2323178,\n            \"case\": {\n                \"case_name\": \"In Re Christopher J.\",\n                \"case_name_short\": \"In Re Christopher J.\",\n                \"date_filed\": \"1986-02-26\",\n                \"court_id\": \"me\",\n                \"docket_number\": null,\n                \"citation_count\": 13,\n                \"court_label\": \"Me.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 17.67,\n                \"total_events\": 16,\n                \"distinct_courts\": 2,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Mariculture Products Ltd. v. Certain Underwriters at Lloyd's of London\",\n                \"top_pos_court\": \"connappct\",\n                \"top_pos_date\": \"2004-08-31\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"In Re Christopher J.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/maine/cases/505-a-2d-795/in-re-christopher-j\",\n            \"link_md\": \"[In Re Christopher J.](https://syfert.com/maine/cases/505-a-2d-795/in-re-christopher-j)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "505 A.2d 795",
+      "volume": "505",
+      "reporter": "A.2d",
+      "page": "795",
+      "pin": null,
+      "caption": "In re Christopher J.",
+      "cluster_id": 2323178,
+      "case": {
+       "case_name": "In Re Christopher J.",
+       "case_name_short": "In Re Christopher J.",
+       "date_filed": "1986-02-26",
+       "court_id": "me",
+       "docket_number": null,
+       "citation_count": 13,
+       "court_label": "Me."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 17.67,
+       "total_events": 16,
+       "distinct_courts": 2,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Mariculture Products Ltd. v. Certain Underwriters at Lloyd's of London",
+       "top_pos_court": "connappct",
+       "top_pos_date": "2004-08-31",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "In Re Christopher J."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/maine/cases/505-a-2d-795/in-re-christopher-j",
+      "link_md": "[In Re Christopher J.](https://syfert.com/maine/cases/505-a-2d-795/in-re-christopher-j)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

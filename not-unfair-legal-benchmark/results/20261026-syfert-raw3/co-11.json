@@ -1,0 +1,104 @@
+{
+ "id": "co-11",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "United States v. Carroll Towing Co., 159 F.2d 169."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"159 F.2d 169\",\n            \"volume\": \"159\",\n            \"reporter\": \"F.2d\",\n            \"page\": \"169\",\n            \"pin\": null,\n            \"cluster_id\": 1565896,\n            \"case\": {\n                \"case_name\": \"United States v. Carroll Towing Co.\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1947-01-09\",\n                \"court_id\": \"ca2\",\n                \"docket_number\": \"96, 97, Dockets 20371, 20372\",\n                \"citation_count\": 308,\n                \"court_label\": \"2d Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 75.198,\n                \"total_events\": 353,\n                \"distinct_courts\": 88,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"In re: Felgate\",\n                \"top_pos_court\": \"ctd\",\n                \"top_pos_date\": \"2020-03-30\",\n                \"top_quote_norm\": \"if the probability be called p; the injury, l; and the burden, b; liability depends upon whether b is less than l multiplied by p: i.e., whether b  is less than pl.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"United States\",\n                \"rhs\": \"Carroll Towing Co.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"United States\",\n                    \"rhs\": \"Carroll Towing Co.\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"United States v. Carroll Towing Co.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/159-f-2d-169/united-states-v-carroll-towing-co\",\n            \"link_md\": \"[United States v. Carroll Towing Co.](https://syfert.com/federal/circuits/cases/159-f-2d-169/united-states-v-carroll-towing-co)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "159 F.2d 169",
+      "volume": "159",
+      "reporter": "F.2d",
+      "page": "169",
+      "pin": null,
+      "cluster_id": 1565896,
+      "case": {
+       "case_name": "United States v. Carroll Towing Co.",
+       "case_name_short": null,
+       "date_filed": "1947-01-09",
+       "court_id": "ca2",
+       "docket_number": "96, 97, Dockets 20371, 20372",
+       "citation_count": 308,
+       "court_label": "2d Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 75.198,
+       "total_events": 353,
+       "distinct_courts": 88,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "In re: Felgate",
+       "top_pos_court": "ctd",
+       "top_pos_date": "2020-03-30",
+       "top_quote_norm": "if the probability be called p; the injury, l; and the burden, b; liability depends upon whether b is less than l multiplied by p: i.e., whether b  is less than pl.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "United States",
+       "rhs": "Carroll Towing Co."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "United States",
+        "rhs": "Carroll Towing Co."
+       },
+       "verdict": "match",
+       "resolved_name": "United States v. Carroll Towing Co."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/159-f-2d-169/united-states-v-carroll-towing-co",
+      "link_md": "[United States v. Carroll Towing Co.](https://syfert.com/federal/circuits/cases/159-f-2d-169/united-states-v-carroll-towing-co)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

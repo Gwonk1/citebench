@@ -1,0 +1,106 @@
+{
+ "id": "c4-04",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "595 F.3d 151",
+    "compact": true,
+    "case_name": "United States v. Shenandoah"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":65,\"case_name\":\"United States v. Shenandoah\",\"bluebook\":\"United States v. Shenandoah, 595 F.3d 151 (3d Cir. 2010)\",\"url\":\"https://syfert.com/federal/circuits/cases/595-f-3d-151/united-states-v-shenandoah\",\"link_md\":\"[United States v. Shenandoah, 595 F.3d 151 (3d Cir. 2010)](https://syfert.com/federal/circuits/cases/595-f-3d-151/united-states-v-shenandoah)\",\"compact\":true,\"treatment\":{\"flag\":\"red\",\"red\":0,\"yellow\":0,\"green\":87,\"procedural\":0,\"strongest_signal\":\"Abrogated (annotation)\",\"strongest_citer\":\"Reynolds v. United States\",\"strongest_date\":\"2012-01-23\",\"flag_note\":\"Flag comes from the annotation layer (citing courts note this case was abrogated by Reynolds v. United States), not from negative citing-sentence counts.\",\"scope\":\"Abrogated by Reynolds v. United States on other grounds: 18 citing opinions limit it to other grounds.\",\"strongest_citer_cluster_id\":621294,\"strongest_citer_source\":\"overruled_by\",\"strongest_citer_published\":true,\"flag_basis\":\"overruled_by\",\"flag_reason\":\"Abrogated by Reynolds v. United States on other grounds: 18 citing opinions limit it to other grounds.\",\"flag_evidence\":[\"overruled_by\",\"scope\",\"validated_annotations\"]},\"overruled_by\":{\"kind\":\"case\",\"verb\":\"abrogated\",\"case_name\":\"Reynolds v. United States\",\"cluster_id\":621294,\"year\":2012,\"url\":\"https://syfert.com/federal/scotus/cases/565-u-s-432/reynolds-v-united-states\",\"consensus\":\"16 of 16 annotating opinions\"},\"scope\":{\"scope_text\":\"Abrogated by Reynolds v. United States on other grounds: 18 citing opinions limit it to other grounds.\",\"n_plain\":0,\"n_other_grounds\":18,\"n_in_part\":0,\"n_qualified_other\":0,\"qualifier_top\":\"on other grounds\"},\"still_good_companions\":[{\"case_name\":\"Reynolds\",\"cluster_id\":621294,\"year\":2012,\"url\":\"https://syfert.com/federal/scotus/cases/565-u-s-432/reynolds-v-united-states\"},{\"case_name\":\"Gould\",\"cluster_id\":1029151,\"year\":2009,\"url\":\"https://syfert.com/federal/circuits/cases/568-f-3d-459/united-states-v-gould\"},{\"case_name\":\"Guzman\",\"cluster_id\":2436,\"year\":2010,\"url\":\"https://syfert.com/federal/circuits/cases/591-f-3d-83/united-states-v-guzman\"}],\"negative_citers\":[],\"propositions_summary\":[{\"prop_rank\":1,\"proposition\":\"the ex post facto clause of the constitution forbids any law that changes the punishment, and inflicts a greater punishment for pre-existing conduct.\",\"n_citers\":2,\"flag\":\"yellow\",\"red\":0,\"yellow\":0,\"top_negative\":null}],\"counts\":{\"citers_shown_in_full_answer\":25,\"negative_citers_shown_in_full_answer\":0,\"red\":0,\"yellow\":0,\"green\":87,\"propositions\":1},\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\"}",
+   "json": {
+    "cluster_id": 65,
+    "case_name": "United States v. Shenandoah",
+    "bluebook": "United States v. Shenandoah, 595 F.3d 151 (3d Cir. 2010)",
+    "url": "https://syfert.com/federal/circuits/cases/595-f-3d-151/united-states-v-shenandoah",
+    "link_md": "[United States v. Shenandoah, 595 F.3d 151 (3d Cir. 2010)](https://syfert.com/federal/circuits/cases/595-f-3d-151/united-states-v-shenandoah)",
+    "compact": true,
+    "treatment": {
+     "flag": "red",
+     "red": 0,
+     "yellow": 0,
+     "green": 87,
+     "procedural": 0,
+     "strongest_signal": "Abrogated (annotation)",
+     "strongest_citer": "Reynolds v. United States",
+     "strongest_date": "2012-01-23",
+     "flag_note": "Flag comes from the annotation layer (citing courts note this case was abrogated by Reynolds v. United States), not from negative citing-sentence counts.",
+     "scope": "Abrogated by Reynolds v. United States on other grounds: 18 citing opinions limit it to other grounds.",
+     "strongest_citer_cluster_id": 621294,
+     "strongest_citer_source": "overruled_by",
+     "strongest_citer_published": true,
+     "flag_basis": "overruled_by",
+     "flag_reason": "Abrogated by Reynolds v. United States on other grounds: 18 citing opinions limit it to other grounds.",
+     "flag_evidence": [
+      "overruled_by",
+      "scope",
+      "validated_annotations"
+     ]
+    },
+    "overruled_by": {
+     "kind": "case",
+     "verb": "abrogated",
+     "case_name": "Reynolds v. United States",
+     "cluster_id": 621294,
+     "year": 2012,
+     "url": "https://syfert.com/federal/scotus/cases/565-u-s-432/reynolds-v-united-states",
+     "consensus": "16 of 16 annotating opinions"
+    },
+    "scope": {
+     "scope_text": "Abrogated by Reynolds v. United States on other grounds: 18 citing opinions limit it to other grounds.",
+     "n_plain": 0,
+     "n_other_grounds": 18,
+     "n_in_part": 0,
+     "n_qualified_other": 0,
+     "qualifier_top": "on other grounds"
+    },
+    "still_good_companions": [
+     {
+      "case_name": "Reynolds",
+      "cluster_id": 621294,
+      "year": 2012,
+      "url": "https://syfert.com/federal/scotus/cases/565-u-s-432/reynolds-v-united-states"
+     },
+     {
+      "case_name": "Gould",
+      "cluster_id": 1029151,
+      "year": 2009,
+      "url": "https://syfert.com/federal/circuits/cases/568-f-3d-459/united-states-v-gould"
+     },
+     {
+      "case_name": "Guzman",
+      "cluster_id": 2436,
+      "year": 2010,
+      "url": "https://syfert.com/federal/circuits/cases/591-f-3d-83/united-states-v-guzman"
+     }
+    ],
+    "negative_citers": [],
+    "propositions_summary": [
+     {
+      "prop_rank": 1,
+      "proposition": "the ex post facto clause of the constitution forbids any law that changes the punishment, and inflicts a greater punishment for pre-existing conduct.",
+      "n_citers": 2,
+      "flag": "yellow",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     }
+    ],
+    "counts": {
+     "citers_shown_in_full_answer": 25,
+     "negative_citers_shown_in_full_answer": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 87,
+     "propositions": 1
+    },
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context."
+   }
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "id": "p05-treatment",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "467 U.S. 837",
+    "compact": true,
+    "case_name": "Chevron U.S.A. Inc. v. Natural Resources Defense Council, Inc."
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":111221,\"case_name\":\"Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc.\",\"bluebook\":\"Chevron U. S. A. Inc. v. Nat. Resources Def. Council, Inc., 467 U.S. 837 (1984)\",\"url\":\"https://syfert.com/federal/scotus/cases/467-u-s-837/chevron-u-s-a-inc-v-natural-resources-defense-council-inc\",\"link_md\":\"[Chevron U. S. A. Inc. v. Nat. Resources Def. Council, Inc., 467 U.S. 837 (1984)](https://syfert.com/federal/scotus/cases/467-u-s-837/chevron-u-s-a-inc-v-natural-resources-defense-council-inc)\",\"compact\":true,\"treatment\":{\"flag\":\"red\",\"red\":21,\"yellow\":2,\"green\":15991,\"procedural\":1,\"strongest_signal\":\"Overruled\",\"strongest_citer\":\"Loper Bright Enterprises v. Raimondo\",\"strongest_date\":\"2024-06-28\",\"strongest_citer_cluster_id\":10600041,\"scope\":\"Overruled by Loper Bright Enterprises v. Raimondo: 62 citing opinions say overruled outright, 4 limit it to other grounds, and 1 says in part.\",\"strongest_citer_source\":\"overruled_by\",\"strongest_citer_published\":true,\"flag_basis\":\"overruled_by\",\"flag_reason\":\"Overruled by Loper Bright Enterprises v. Raimondo: 62 citing opinions say overruled outright, 4 limit it to other grounds, and 1 says in part.\",\"flag_evidence\":[\"citing_events\",\"overruled_by\",\"scope\",\"validated_annotations\"],\"proposition_note\":\"Case is red overall (Overruled; 16015 citing treatments), but 3 of the propositions it is cited for carry no negative signal of their own: \\\"if the statute is silent or ambiguous with respect to the specific issue, the question for the\u2026\\\" (2143 citers, 466 in the last 10 years); \\\"if the intent of con\u2026\"},\"overruled_by\":{\"kind\":\"case\",\"verb\":\"overruled\",\"case_name\":\"Loper Bright Enterprises v. Raimondo\",\"cluster_id\":10600041,\"year\":2024,\"url\":\"https://syfert.com/federal/scotus/cases/603-u-s-369/loper-bright-enterprises-v-raimondo\",\"consensus\":\"56 of 57 annotating opinions\"},\"scope\":{\"scope_text\":\"Overruled by Loper Bright Enterprises v. Raimondo: 62 citing opinions say overruled outright, 4 limit it to other grounds, and 1 says in part.\",\"n_plain\":62,\"n_other_grounds\":4,\"n_in_part\":1,\"n_qualified_other\":0,\"qualifier_top\":\"on other grounds\"},\"risk_signals\":{\"under_fire\":\"Courts with the power to overrule it are questioning it (separate opinions / reconsideration language in the last 10 years).\"},\"still_good_companions\":[{\"case_name\":\"State Farm\",\"cluster_id\":110991,\"year\":1983,\"url\":\"https://syfert.com/federal/scotus/cases/463-u-s-29/motor-vehicle-mfrs-assn-of-united-states-inc-v-state-farm-mut\"},{\"case_name\":\"Mead\",\"cluster_id\":118450,\"year\":2001,\"url\":\"https://syfert.com/federal/scotus/cases/533-u-s-218/united-states-v-mead-corp\"},{\"case_name\":\"Skidmore\",\"cluster_id\":104034,\"year\":1944,\"url\":\"https://syfert.com/federal/scotus/cases/323-u-s-134/skidmore-v-swift-co\"}],\"negative_citers\":[{\"case_name\":\"Jeinmy Heras-Campoverde v. Attorney General United States of America\",\"link_md\":\"[Heras-Campoverde v. Attorney Gen. United States, No. 25-2779 (3d Cir. Sept. 22, 2026)](https://syfert.com/federal/circuits/cases/cl-10979298/jeinmy-heras-campoverde-v-attorney-general-united-states-of-america)\",\"date\":\"2026-09-22\",\"signal\":\"Overruled\",\"context\":\"Pet\u2019rs\u2019 Br. 15 (citing Chevron U.S.A., Inc. v. NRDC, Inc., 467 U.S. 837 (1984), overruled by Loper Bright Enters. v.\u2026\"},{\"case_name\":\"Caleb Josue Toro-Negron v. Warden, F.C.I. Fort Dix\",\"link_md\":\"[Toro-Negron v. Warden, F.C.I. Fort Dix, No. 1:23-cv-06963 (D.N.J. Sept. 2, 2026)](https://syfert.com/federal/district/cases/cl-10966474/caleb-josue-toro-negron-v-warden-fci-fort-dix)\",\"date\":\"2026-09-02\",\"signal\":\"Overruled\",\"context\":\"(Id. at 22 (citing Chevron U.S.A., Inc. v. Natural Resource Defense Council, Inc., 467 U.S. 837 (1984), overruled by\u2026\"},{\"case_name\":\"Kamal Abdalmaagid Abdalla v. Todd Blanche\",\"link_md\":\"[Abdalla v. Blanche, No. 1:25-cv-00195 (M.D. Pa. Aug. 28, 2026)](https://syfert.com/federal/district/cases/cl-10962090/kamal-abdalmaagid-abdalla-v-todd-blanche-et-al)\",\"date\":\"2026-08-28\",\"signal\":\"Overruled\",\"context\":\"Abdalla claims that the court should not invoke deference to agency interpretations of immigration statutes under the\u2026\"},{\"case_name\":\"Montefiore Medical Center v. Kennedy\",\"link_md\":\"[Montefiore Med. Ctr. v. Kennedy, No. 2024-1810 (D.D.C. Aug. 28, 2026)](https://syfert.com/federal/district/cases/cl-10961729/montefiore-medical-center-v-kennedy)\",\"date\":\"2026-08-28\",\"signal\":\"Overruled\",\"context\":\"Northeast Hospital Corp. v. Sebelius: Challenge to Retroactive Application of the 2004 Rule In Northeast Hospital\u2026\"},{\"case_name\":\"Keysight Technologies, Inc. & Subsidiaries v. United States\",\"link_md\":\"[Keysight Tech., Inc. v. United States, No. 25-137 (Fed. Cl. July 2, 2026)](https://syfert.com/federal/specialty/cases/cl-10917147/keysight-technologies-inc-subsidiaries-v-united-states)\",\"date\":\"2026-07-02\",\"signal\":\"Overruled\",\"context\":\"Chevron U.S.A., Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837 (1984), overruled by Loper Bright\u2026\"}],\"propositions_summary\":[{\"prop_rank\":1,\"proposition\":\"if the statute is silent or ambiguous with respect to the specific issue, the question for the court is whether the agency's answer is based on a permissible construction of the statute.\",\"n_citers\":2143,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":2,\"proposition\":\"if the intent of congress is clear, that is the end of the matter; for the court, as well as the agency, must give effect to the unambiguously expressed intent of congress.\",\"n_citers\":1508,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":3,\"proposition\":\"whether congress has directly spoken to the precise question at issue.\",\"n_citers\":1132,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null}],\"counts\":{\"citers_shown_in_full_answer\":25,\"negative_citers_shown_in_full_answer\":17,\"red\":21,\"yellow\":2,\"green\":15991,\"propositions\":3},\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\"}",
+   "json": {
+    "cluster_id": 111221,
+    "case_name": "Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc.",
+    "bluebook": "Chevron U. S. A. Inc. v. Nat. Resources Def. Council, Inc., 467 U.S. 837 (1984)",
+    "url": "https://syfert.com/federal/scotus/cases/467-u-s-837/chevron-u-s-a-inc-v-natural-resources-defense-council-inc",
+    "link_md": "[Chevron U. S. A. Inc. v. Nat. Resources Def. Council, Inc., 467 U.S. 837 (1984)](https://syfert.com/federal/scotus/cases/467-u-s-837/chevron-u-s-a-inc-v-natural-resources-defense-council-inc)",
+    "compact": true,
+    "treatment": {
+     "flag": "red",
+     "red": 21,
+     "yellow": 2,
+     "green": 15991,
+     "procedural": 1,
+     "strongest_signal": "Overruled",
+     "strongest_citer": "Loper Bright Enterprises v. Raimondo",
+     "strongest_date": "2024-06-28",
+     "strongest_citer_cluster_id": 10600041,
+     "scope": "Overruled by Loper Bright Enterprises v. Raimondo: 62 citing opinions say overruled outright, 4 limit it to other grounds, and 1 says in part.",
+     "strongest_citer_source": "overruled_by",
+     "strongest_citer_published": true,
+     "flag_basis": "overruled_by",
+     "flag_reason": "Overruled by Loper Bright Enterprises v. Raimondo: 62 citing opinions say overruled outright, 4 limit it to other grounds, and 1 says in part.",
+     "flag_evidence": [
+      "citing_events",
+      "overruled_by",
+      "scope",
+      "validated_annotations"
+     ],
+     "proposition_note": "Case is red overall (Overruled; 16015 citing treatments), but 3 of the propositions it is cited for carry no negative signal of their own: \"if the statute is silent or ambiguous with respect to the specific issue, the question for the\u2026\" (2143 citers, 466 in the last 10 years); \"if the intent of con\u2026"
+    },
+    "overruled_by": {
+     "kind": "case",
+     "verb": "overruled",
+     "case_name": "Loper Bright Enterprises v. Raimondo",
+     "cluster_id": 10600041,
+     "year": 2024,
+     "url": "https://syfert.com/federal/scotus/cases/603-u-s-369/loper-bright-enterprises-v-raimondo",
+     "consensus": "56 of 57 annotating opinions"
+    },
+    "scope": {
+     "scope_text": "Overruled by Loper Bright Enterprises v. Raimondo: 62 citing opinions say overruled outright, 4 limit it to other grounds, and 1 says in part.",
+     "n_plain": 62,
+     "n_other_grounds": 4,
+     "n_in_part": 1,
+     "n_qualified_other": 0,
+     "qualifier_top": "on other grounds"
+    },
+    "risk_signals": {
+     "under_fire": "Courts with the power to overrule it are questioning it (separate opinions / reconsideration language in the last 10 years)."
+    },
+    "still_good_companions": [
+     {
+      "case_name": "State Farm",
+      "cluster_id": 110991,
+      "year": 1983,
+      "url": "https://syfert.com/federal/scotus/cases/463-u-s-29/motor-vehicle-mfrs-assn-of-united-states-inc-v-state-farm-mut"
+     },
+     {
+      "case_name": "Mead",
+      "cluster_id": 118450,
+      "year": 2001,
+      "url": "https://syfert.com/federal/scotus/cases/533-u-s-218/united-states-v-mead-corp"
+     },
+     {
+      "case_name": "Skidmore",
+      "cluster_id": 104034,
+      "year": 1944,
+      "url": "https://syfert.com/federal/scotus/cases/323-u-s-134/skidmore-v-swift-co"
+     }
+    ],
+    "negative_citers": [
+     {
+      "case_name": "Jeinmy Heras-Campoverde v. Attorney General United States of America",
+      "link_md": "[Heras-Campoverde v. Attorney Gen. United States, No. 25-2779 (3d Cir. Sept. 22, 2026)](https://syfert.com/federal/circuits/cases/cl-10979298/jeinmy-heras-campoverde-v-attorney-general-united-states-of-america)",
+      "date": "2026-09-22",
+      "signal": "Overruled",
+      "context": "Pet\u2019rs\u2019 Br. 15 (citing Chevron U.S.A., Inc. v. NRDC, Inc., 467 U.S. 837 (1984), overruled by Loper Bright Enters. v.\u2026"
+     },
+     {
+      "case_name": "Caleb Josue Toro-Negron v. Warden, F.C.I. Fort Dix",
+      "link_md": "[Toro-Negron v. Warden, F.C.I. Fort Dix, No. 1:23-cv-06963 (D.N.J. Sept. 2, 2026)](https://syfert.com/federal/district/cases/cl-10966474/caleb-josue-toro-negron-v-warden-fci-fort-dix)",
+      "date": "2026-09-02",
+      "signal": "Overruled",
+      "context": "(Id. at 22 (citing Chevron U.S.A., Inc. v. Natural Resource Defense Council, Inc., 467 U.S. 837 (1984), overruled by\u2026"
+     },
+     {
+      "case_name": "Kamal Abdalmaagid Abdalla v. Todd Blanche",
+      "link_md": "[Abdalla v. Blanche, No. 1:25-cv-00195 (M.D. Pa. Aug. 28, 2026)](https://syfert.com/federal/district/cases/cl-10962090/kamal-abdalmaagid-abdalla-v-todd-blanche-et-al)",
+      "date": "2026-08-28",
+      "signal": "Overruled",
+      "context": "Abdalla claims that the court should not invoke deference to agency interpretations of immigration statutes under the\u2026"
+     },
+     {
+      "case_name": "Montefiore Medical Center v. Kennedy",
+      "link_md": "[Montefiore Med. Ctr. v. Kennedy, No. 2024-1810 (D.D.C. Aug. 28, 2026)](https://syfert.com/federal/district/cases/cl-10961729/montefiore-medical-center-v-kennedy)",
+      "date": "2026-08-28",
+      "signal": "Overruled",
+      "context": "Northeast Hospital Corp. v. Sebelius: Challenge to Retroactive Application of the 2004 Rule In Northeast Hospital\u2026"
+     },
+     {
+      "case_name": "Keysight Technologies, Inc. & Subsidiaries v. United States",
+      "link_md": "[Keysight Tech., Inc. v. United States, No. 25-137 (Fed. Cl. July 2, 2026)](https://syfert.com/federal/specialty/cases/cl-10917147/keysight-technologies-inc-subsidiaries-v-united-states)",
+      "date": "2026-07-02",
+      "signal": "Overruled",
+      "context": "Chevron U.S.A., Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837 (1984), overruled by Loper Bright\u2026"
+     }
+    ],
+    "propositions_summary": [
+     {
+      "prop_rank": 1,
+      "proposition": "if the statute is silent or ambiguous with respect to the specific issue, the question for the court is whether the agency's answer is based on a permissible construction of the statute.",
+      "n_citers": 2143,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 2,
+      "proposition": "if the intent of congress is clear, that is the end of the matter; for the court, as well as the agency, must give effect to the unambiguously expressed intent of congress.",
+      "n_citers": 1508,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 3,
+      "proposition": "whether congress has directly spoken to the precise question at issue.",
+      "n_citers": 1132,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     }
+    ],
+    "counts": {
+     "citers_shown_in_full_answer": 25,
+     "negative_citers_shown_in_full_answer": 17,
+     "red": 21,
+     "yellow": 2,
+     "green": 15991,
+     "propositions": 3
+    },
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context."
+   }
+  }
+ ]
+}

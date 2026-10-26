@@ -1,0 +1,170 @@
+{
+ "id": "c8-05",
+ "class": "misprint",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Kopelman and Associates, L.C. v. Collins, 474 S.E.2d 910."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 0,\n        \"unresolved\": 1,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"likely_misprint\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.\",\n        \"1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"474 S.E.2d 910\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_volume\",\n            \"problem\": \"Likely misprint, not a fabricated case: The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910.\",\n            \"replace_with\": \"Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)\",\n            \"fix\": {\n                \"from\": \"474 S.E.2d 910\",\n                \"to\": \"473 S.E.2d 910\"\n            },\n            \"suggested\": \"Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)\",\n            \"did_you_mean\": \"Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)\",\n            \"misprint\": {\n                \"printed\": \"474 S.E.2d 910\",\n                \"real\": \"473 S.E.2d 910\",\n                \"kind\": \"volume\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 1356742,\n                \"case_name\": \"Kopelman and Associates, L.C. v. Collins\",\n                \"bluebook\": \"Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)\",\n                \"cite_as\": \"Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)\",\n                \"date_filed\": \"1996-06-14\",\n                \"url\": \"https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins\",\n                \"link_md\": \"[Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)](https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins)\",\n                \"note\": \"The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910.\",\n                \"via\": [\n                    \"name\",\n                    \"name_candidates\"\n                ]\n            },\n            \"case\": {\n                \"cluster_id\": 1356742,\n                \"case_name\": \"Kopelman and Associates, L.C. v. Collins\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"474 S.E.2d 910\",\n            \"volume\": \"474\",\n            \"reporter\": \"S.E.2d\",\n            \"page\": \"910\",\n            \"pin\": null,\n            \"cluster_id\": null,\n            \"interior_of\": {\n                \"cluster_id\": 1335923,\n                \"case_name\": \"State Ex Rel. Blankenship v. Richardson\",\n                \"bluebook\": \"State Ex Rel. Blankenship v. Richardson, 474 S.E.2d 906 (W. Va. 1996)\",\n                \"first_page\": 906,\n                \"first_page_citation\": \"474 S.E.2d 906\",\n                \"span\": {\n                    \"last_page\": 919,\n                    \"via\": \"pin_citations\"\n                },\n                \"cite_as\": \"State Ex Rel. Blankenship v. Richardson, 474 S.E.2d 906, 910 (W. Va. 1996)\",\n                \"advice\": \"likely misprint: The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910. (Page 910 as printed falls inside State Ex Rel. Blankenship v. Richardson, a different case.)\"\n            },\n            \"did_you_mean\": [],\n            \"name_search\": \"cite_differs: the matched case is 473 S.E.2d 910\",\n            \"name_candidates\": [\n                {\n                    \"cluster_id\": 1356742,\n                    \"case_name\": \"Kopelman and Associates, L.C. v. Collins\",\n                    \"court\": \"W. Va.\",\n                    \"court_id\": \"wva\",\n                    \"date_filed\": \"1996-06-14\",\n                    \"docket\": \"23183\",\n                    \"citations\": [\n                        \"473 S.E.2d 910\",\n                        \"196 W. Va. 489\",\n                        \"1996 W. Va. LEXIS 68\"\n                    ],\n                    \"similarity\": 1,\n                    \"url\": \"https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins\"\n                }\n            ],\n            \"claimed\": {\n                \"lhs\": \"Kopelman and Associates, L.C.\",\n                \"rhs\": \"Collins\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": null,\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_volume\",\n            \"unindexed_advice\": \"Likely misprint: The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910.\",\n            \"volume_coverage\": {\n                \"first_pages\": 226,\n                \"coverage_pct\": 94,\n                \"year_lo\": 1996,\n                \"year_hi\": 1996\n            },\n            \"corpus_check\": \"skipped: time budget\",\n            \"misprint\": {\n                \"printed\": \"474 S.E.2d 910\",\n                \"real\": \"473 S.E.2d 910\",\n                \"kind\": \"volume\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 1356742,\n                \"case_name\": \"Kopelman and Associates, L.C. v. Collins\",\n                \"bluebook\": \"Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)\",\n                \"cite_as\": \"Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)\",\n                \"date_filed\": \"1996-06-14\",\n                \"url\": \"https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins\",\n                \"link_md\": \"[Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)](https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins)\",\n                \"note\": \"The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910.\",\n                \"via\": [\n                    \"name\",\n                    \"name_candidates\"\n                ]\n            },\n            \"suggested_citation\": {\n                \"cluster_id\": 1356742,\n                \"case_name\": \"Kopelman and Associates, L.C. v. Collins\",\n                \"citation\": \"473 S.E.2d 910\",\n                \"bluebook\": \"Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)\",\n                \"cite_as\": \"Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)\",\n                \"date_filed\": \"1996-06-14\",\n                \"url\": \"https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins\",\n                \"link_md\": \"[Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)](https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins)\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 0,
+     "unresolved": 1,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0,
+     "likely_misprint": 1
+    },
+    "warnings": [
+     "1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.",
+     "1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps."
+    ],
+    "corrections": [
+     {
+      "raw": "474 S.E.2d 910",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_volume",
+      "problem": "Likely misprint, not a fabricated case: The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910.",
+      "replace_with": "Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)",
+      "fix": {
+       "from": "474 S.E.2d 910",
+       "to": "473 S.E.2d 910"
+      },
+      "suggested": "Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)",
+      "did_you_mean": "Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)",
+      "misprint": {
+       "printed": "474 S.E.2d 910",
+       "real": "473 S.E.2d 910",
+       "kind": "volume",
+       "edit": "digit",
+       "cluster_id": 1356742,
+       "case_name": "Kopelman and Associates, L.C. v. Collins",
+       "bluebook": "Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)",
+       "cite_as": "Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)",
+       "date_filed": "1996-06-14",
+       "url": "https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins",
+       "link_md": "[Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)](https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins)",
+       "note": "The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910.",
+       "via": [
+        "name",
+        "name_candidates"
+       ]
+      },
+      "case": {
+       "cluster_id": 1356742,
+       "case_name": "Kopelman and Associates, L.C. v. Collins"
+      }
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "474 S.E.2d 910",
+      "volume": "474",
+      "reporter": "S.E.2d",
+      "page": "910",
+      "pin": null,
+      "cluster_id": null,
+      "interior_of": {
+       "cluster_id": 1335923,
+       "case_name": "State Ex Rel. Blankenship v. Richardson",
+       "bluebook": "State Ex Rel. Blankenship v. Richardson, 474 S.E.2d 906 (W. Va. 1996)",
+       "first_page": 906,
+       "first_page_citation": "474 S.E.2d 906",
+       "span": {
+        "last_page": 919,
+        "via": "pin_citations"
+       },
+       "cite_as": "State Ex Rel. Blankenship v. Richardson, 474 S.E.2d 906, 910 (W. Va. 1996)",
+       "advice": "likely misprint: The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910. (Page 910 as printed falls inside State Ex Rel. Blankenship v. Richardson, a different case.)"
+      },
+      "did_you_mean": [],
+      "name_search": "cite_differs: the matched case is 473 S.E.2d 910",
+      "name_candidates": [
+       {
+        "cluster_id": 1356742,
+        "case_name": "Kopelman and Associates, L.C. v. Collins",
+        "court": "W. Va.",
+        "court_id": "wva",
+        "date_filed": "1996-06-14",
+        "docket": "23183",
+        "citations": [
+         "473 S.E.2d 910",
+         "196 W. Va. 489",
+         "1996 W. Va. LEXIS 68"
+        ],
+        "similarity": 1,
+        "url": "https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins"
+       }
+      ],
+      "claimed": {
+       "lhs": "Kopelman and Associates, L.C.",
+       "rhs": "Collins"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": null,
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_volume",
+      "unindexed_advice": "Likely misprint: The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910.",
+      "volume_coverage": {
+       "first_pages": 226,
+       "coverage_pct": 94,
+       "year_lo": 1996,
+       "year_hi": 1996
+      },
+      "corpus_check": "skipped: time budget",
+      "misprint": {
+       "printed": "474 S.E.2d 910",
+       "real": "473 S.E.2d 910",
+       "kind": "volume",
+       "edit": "digit",
+       "cluster_id": 1356742,
+       "case_name": "Kopelman and Associates, L.C. v. Collins",
+       "bluebook": "Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)",
+       "cite_as": "Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)",
+       "date_filed": "1996-06-14",
+       "url": "https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins",
+       "link_md": "[Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)](https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins)",
+       "note": "The volume is off by one digit (the third): the citation prints 474, the case is at 473. Kopelman and Associates, L.C. v. Collins is reported at 473 S.E.2d 910 (same reporter, same page 910). It was decided 1996-06-14, within the years volume 474 of S.E.2d covers (1996-1996), and the name given names that case. The citation as printed (474 S.E.2d 910) is wrong; cite 473 S.E.2d 910.",
+       "via": [
+        "name",
+        "name_candidates"
+       ]
+      },
+      "suggested_citation": {
+       "cluster_id": 1356742,
+       "case_name": "Kopelman and Associates, L.C. v. Collins",
+       "citation": "473 S.E.2d 910",
+       "bluebook": "Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)",
+       "cite_as": "Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)",
+       "date_filed": "1996-06-14",
+       "url": "https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins",
+       "link_md": "[Kopelman and Associates, L.C. v. Collins, 473 S.E.2d 910 (W. Va. 1996)](https://syfert.com/west-virginia/cases/196-w-va-489/kopelman-and-associates-lc-v-collins)"
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

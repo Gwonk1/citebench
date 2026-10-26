@@ -1,0 +1,278 @@
+{
+ "id": "ct-fla3",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Fla. Dist. Ct. App. 3d Dist."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Fla. Dist. Ct. App. 3d Dist.\",\n    \"courts\": [\n        {\n            \"id\": \"fladistctapp3\",\n            \"short_name\": \"Florida Third District Court of Appeal\",\n            \"full_name\": \"Florida Third District Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App. 3d Dist.\",\n            \"cases_in_corpus\": 282,\n            \"years\": \"2017-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fladistctapp\",\n            \"short_name\": \"District Court of Appeal of Florida\",\n            \"full_name\": \"District Court of Appeal of Florida\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App.\",\n            \"cases_in_corpus\": 362412,\n            \"years\": \"1957-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fladistctapp1\",\n            \"short_name\": \"Florida First District Court of Appeal\",\n            \"full_name\": \"Florida First District Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App. 1st Dist.\",\n            \"cases_in_corpus\": 154,\n            \"years\": \"2018-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fladistctapp5\",\n            \"short_name\": \"Florida Fifth District Court of Appeal\",\n            \"full_name\": \"Florida Fifth District Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App. 5th Dist.\",\n            \"cases_in_corpus\": 138,\n            \"years\": \"2018-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fladistctapp4\",\n            \"short_name\": \"Florida Fourth District Court of Appeal\",\n            \"full_name\": \"Florida Fourth District Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App. 4th Dist.\",\n            \"cases_in_corpus\": 110,\n            \"years\": \"2018-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fladistctapp2\",\n            \"short_name\": \"Florida Second District Court of Appeal\",\n            \"full_name\": \"Florida Second District Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App. 2d Dist.\",\n            \"cases_in_corpus\": 96,\n            \"years\": \"2017-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fladistctapp6\",\n            \"short_name\": \"Florida Sixth District Court of Appeal\",\n            \"full_name\": \"Florida Sixth District Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App. 6th Dist.\",\n            \"cases_in_corpus\": 92,\n            \"years\": \"2026-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flactyct39\",\n            \"short_name\": \"Madison County Court\",\n            \"full_name\": \"Madison County Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Madison Cty. Ct.\",\n            \"cases_in_corpus\": 2,\n            \"years\": \"1939-2017\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fla\",\n            \"short_name\": \"Supreme Court of Florida\",\n            \"full_name\": \"Supreme Court of Florida\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Fla.\",\n            \"cases_in_corpus\": 69670,\n            \"years\": \"1825-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flmd\",\n            \"short_name\": \"M.D. Florida\",\n            \"full_name\": \"District Court, M.D. Florida\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D. Fla.\",\n            \"cases_in_corpus\": 25385,\n            \"years\": \"1942-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flsd\",\n            \"short_name\": \"S.D. Florida\",\n            \"full_name\": \"District Court, S.D. Florida\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D. Fla.\",\n            \"cases_in_corpus\": 17180,\n            \"years\": \"1805-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flmb\",\n            \"short_name\": \"M.D. Florida\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. Florida\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D. Fla.\",\n            \"cases_in_corpus\": 4024,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flaag\",\n            \"short_name\": \"Florida Attorney General Reports\",\n            \"full_name\": \"Florida Attorney General Reports\",\n            \"jurisdiction\": \"SAG\",\n            \"citation_string\": \"Fla. Att'y Gen.\",\n            \"cases_in_corpus\": 3983,\n            \"years\": \"1974-2011\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flnd\",\n            \"short_name\": \"N.D. Florida\",\n            \"full_name\": \"District Court, N.D. Florida\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Fla.\",\n            \"cases_in_corpus\": 2611,\n            \"years\": \"1868-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flnb\",\n            \"short_name\": \"N.D. Florida\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Florida\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Fla.\",\n            \"cases_in_corpus\": 360,\n            \"years\": \"1891-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flacirct3col\",\n            \"short_name\": \"Columbia County Circuit Court\",\n            \"full_name\": \"Circuit Court of the 3rd Judicial Circuit of Florida, Columbia County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct., Columbia Cty.\",\n            \"cases_in_corpus\": 2,\n            \"years\": \"1953-1954\",\n            \"active\": false\n        },\n        {\n            \"id\": \"flacirct3ham\",\n            \"short_name\": \"Hamilton County Circuit Court\",\n            \"full_name\": \"Circuit Court of the 3rd Judicial Circuit of Florida, Hamilton County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct., Hamilton Cty.\",\n            \"cases_in_corpus\": 1,\n            \"years\": \"1969-1969\",\n            \"active\": false\n        },\n        {\n            \"id\": \"flacirct3suw\",\n            \"short_name\": \"Suwannee County Circuit Court\",\n            \"full_name\": \"Circuit Court of the 3rd Judicial Circuit of Florida, Suwannee County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct., Suwannee Cty.\",\n            \"cases_in_corpus\": 1,\n            \"years\": \"1960-1960\",\n            \"active\": false\n        },\n        {\n            \"id\": \"flacirct3dix\",\n            \"short_name\": \"Dixie County Circuit Court\",\n            \"full_name\": \"Circuit Court of the 3rd Judicial Circuit of Florida, Dixie County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct., Dixie Cty.\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"flacirct3laf\",\n            \"short_name\": \"Lafayette County Circuit Court\",\n            \"full_name\": \"Circuit Court of the 3rd Judicial Circuit of Florida, Lafayette County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct., Lafayette Cty.\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"flacirct3mad\",\n            \"short_name\": \"Madison County Circuit Court\",\n            \"full_name\": \"Circuit Court of the 3rd Judicial Circuit of Florida, Madison County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct., Madison Cty.\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"flacirct3tay\",\n            \"short_name\": \"Taylor County Circuit Court\",\n            \"full_name\": \"Circuit Court of the 3rd Judicial Circuit of Florida, Taylor County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct., Taylor Cty.\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"flacirct\",\n            \"short_name\": \"Florida Circuit Courts\",\n            \"full_name\": \"Circuit Court for the Judicial Circuits of Florida\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct.\",\n            \"cases_in_corpus\": 2088,\n            \"years\": \"1970-1991\",\n            \"active\": false\n        },\n        {\n            \"id\": \"flacirct11mia\",\n            \"short_name\": \"Miami-Dade County Circuit Court\",\n            \"full_name\": \"Circuit Court of the 11th Judicial Circuit of Florida, Miami-Dade County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct., Miami-Dade Cty.\",\n            \"cases_in_corpus\": 859,\n            \"years\": \"1947-1982\",\n            \"active\": false\n        },\n        {\n            \"id\": \"flacirct15pal\",\n            \"short_name\": \"Palm Beach County Circuit Court\",\n            \"full_name\": \"Circuit Court of the 15th Judicial Circuit of Florida, Palm Beach County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Fla. Cir. Ct., Palm Beach Cty.\",\n            \"cases_in_corpus\": 206,\n            \"years\": \"1953-1982\",\n            \"active\": false\n        }\n    ],\n    \"court_structure\": {\n        \"state\": \"Florida\",\n        \"court\": \"Florida District Courts of Appeal\",\n        \"district\": 3,\n        \"read_from\": \"district\",\n        \"holder_id\": \"fladistctapp\",\n        \"unit_id\": \"fladistctapp3\",\n        \"search_court\": \"fladistctapp3\"\n    },\n    \"coverage_note\": \"Florida DCA opinions are filed under fladistctapp (362,412 opinions, 1957-2026). The ids fladistctapp1..fladistctapp6 DO filter by district in search_cases: they are read through a district table over the whole DCA corpus (1st 80,730, 2nd 73,743, 3rd 72,115, 4th 68,170, 5th 43,976, 6th 2,241 opinions), so their cases_in_corpus (opinions filed under the literal id) undercounts what the filter returns. Read as the 3rd DCA: court=\\\"fladistctapp3\\\".\",\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"note\": \"Resolved by the court structure (court_structure): Florida District Courts of Appeal, district 3. Read coverage_note before filtering a search with a district id.\",\n    \"state_ranking\": \"Courts of Florida are listed first.\"\n}",
+   "json": {
+    "query": "Fla. Dist. Ct. App. 3d Dist.",
+    "courts": [
+     {
+      "id": "fladistctapp3",
+      "short_name": "Florida Third District Court of Appeal",
+      "full_name": "Florida Third District Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App. 3d Dist.",
+      "cases_in_corpus": 282,
+      "years": "2017-2026",
+      "active": true
+     },
+     {
+      "id": "fladistctapp",
+      "short_name": "District Court of Appeal of Florida",
+      "full_name": "District Court of Appeal of Florida",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App.",
+      "cases_in_corpus": 362412,
+      "years": "1957-2026",
+      "active": true
+     },
+     {
+      "id": "fladistctapp1",
+      "short_name": "Florida First District Court of Appeal",
+      "full_name": "Florida First District Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App. 1st Dist.",
+      "cases_in_corpus": 154,
+      "years": "2018-2026",
+      "active": true
+     },
+     {
+      "id": "fladistctapp5",
+      "short_name": "Florida Fifth District Court of Appeal",
+      "full_name": "Florida Fifth District Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App. 5th Dist.",
+      "cases_in_corpus": 138,
+      "years": "2018-2026",
+      "active": true
+     },
+     {
+      "id": "fladistctapp4",
+      "short_name": "Florida Fourth District Court of Appeal",
+      "full_name": "Florida Fourth District Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App. 4th Dist.",
+      "cases_in_corpus": 110,
+      "years": "2018-2026",
+      "active": true
+     },
+     {
+      "id": "fladistctapp2",
+      "short_name": "Florida Second District Court of Appeal",
+      "full_name": "Florida Second District Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App. 2d Dist.",
+      "cases_in_corpus": 96,
+      "years": "2017-2026",
+      "active": true
+     },
+     {
+      "id": "fladistctapp6",
+      "short_name": "Florida Sixth District Court of Appeal",
+      "full_name": "Florida Sixth District Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App. 6th Dist.",
+      "cases_in_corpus": 92,
+      "years": "2026-2026",
+      "active": true
+     },
+     {
+      "id": "flactyct39",
+      "short_name": "Madison County Court",
+      "full_name": "Madison County Court",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Madison Cty. Ct.",
+      "cases_in_corpus": 2,
+      "years": "1939-2017",
+      "active": true
+     },
+     {
+      "id": "fla",
+      "short_name": "Supreme Court of Florida",
+      "full_name": "Supreme Court of Florida",
+      "jurisdiction": "S",
+      "citation_string": "Fla.",
+      "cases_in_corpus": 69670,
+      "years": "1825-2026",
+      "active": true
+     },
+     {
+      "id": "flmd",
+      "short_name": "M.D. Florida",
+      "full_name": "District Court, M.D. Florida",
+      "jurisdiction": "FD",
+      "citation_string": "M.D. Fla.",
+      "cases_in_corpus": 25385,
+      "years": "1942-2026",
+      "active": true
+     },
+     {
+      "id": "flsd",
+      "short_name": "S.D. Florida",
+      "full_name": "District Court, S.D. Florida",
+      "jurisdiction": "FD",
+      "citation_string": "S.D. Fla.",
+      "cases_in_corpus": 17180,
+      "years": "1805-2026",
+      "active": true
+     },
+     {
+      "id": "flmb",
+      "short_name": "M.D. Florida",
+      "full_name": "United States Bankruptcy Court, M.D. Florida",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D. Fla.",
+      "cases_in_corpus": 4024,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "flaag",
+      "short_name": "Florida Attorney General Reports",
+      "full_name": "Florida Attorney General Reports",
+      "jurisdiction": "SAG",
+      "citation_string": "Fla. Att'y Gen.",
+      "cases_in_corpus": 3983,
+      "years": "1974-2011",
+      "active": true
+     },
+     {
+      "id": "flnd",
+      "short_name": "N.D. Florida",
+      "full_name": "District Court, N.D. Florida",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Fla.",
+      "cases_in_corpus": 2611,
+      "years": "1868-2026",
+      "active": true
+     },
+     {
+      "id": "flnb",
+      "short_name": "N.D. Florida",
+      "full_name": "United States Bankruptcy Court, N.D. Florida",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Fla.",
+      "cases_in_corpus": 360,
+      "years": "1891-2026",
+      "active": true
+     },
+     {
+      "id": "flacirct3col",
+      "short_name": "Columbia County Circuit Court",
+      "full_name": "Circuit Court of the 3rd Judicial Circuit of Florida, Columbia County",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct., Columbia Cty.",
+      "cases_in_corpus": 2,
+      "years": "1953-1954",
+      "active": false
+     },
+     {
+      "id": "flacirct3ham",
+      "short_name": "Hamilton County Circuit Court",
+      "full_name": "Circuit Court of the 3rd Judicial Circuit of Florida, Hamilton County",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct., Hamilton Cty.",
+      "cases_in_corpus": 1,
+      "years": "1969-1969",
+      "active": false
+     },
+     {
+      "id": "flacirct3suw",
+      "short_name": "Suwannee County Circuit Court",
+      "full_name": "Circuit Court of the 3rd Judicial Circuit of Florida, Suwannee County",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct., Suwannee Cty.",
+      "cases_in_corpus": 1,
+      "years": "1960-1960",
+      "active": false
+     },
+     {
+      "id": "flacirct3dix",
+      "short_name": "Dixie County Circuit Court",
+      "full_name": "Circuit Court of the 3rd Judicial Circuit of Florida, Dixie County",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct., Dixie Cty.",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "flacirct3laf",
+      "short_name": "Lafayette County Circuit Court",
+      "full_name": "Circuit Court of the 3rd Judicial Circuit of Florida, Lafayette County",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct., Lafayette Cty.",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "flacirct3mad",
+      "short_name": "Madison County Circuit Court",
+      "full_name": "Circuit Court of the 3rd Judicial Circuit of Florida, Madison County",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct., Madison Cty.",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "flacirct3tay",
+      "short_name": "Taylor County Circuit Court",
+      "full_name": "Circuit Court of the 3rd Judicial Circuit of Florida, Taylor County",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct., Taylor Cty.",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "flacirct",
+      "short_name": "Florida Circuit Courts",
+      "full_name": "Circuit Court for the Judicial Circuits of Florida",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct.",
+      "cases_in_corpus": 2088,
+      "years": "1970-1991",
+      "active": false
+     },
+     {
+      "id": "flacirct11mia",
+      "short_name": "Miami-Dade County Circuit Court",
+      "full_name": "Circuit Court of the 11th Judicial Circuit of Florida, Miami-Dade County",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct., Miami-Dade Cty.",
+      "cases_in_corpus": 859,
+      "years": "1947-1982",
+      "active": false
+     },
+     {
+      "id": "flacirct15pal",
+      "short_name": "Palm Beach County Circuit Court",
+      "full_name": "Circuit Court of the 15th Judicial Circuit of Florida, Palm Beach County",
+      "jurisdiction": "ST",
+      "citation_string": "Fla. Cir. Ct., Palm Beach Cty.",
+      "cases_in_corpus": 206,
+      "years": "1953-1982",
+      "active": false
+     }
+    ],
+    "court_structure": {
+     "state": "Florida",
+     "court": "Florida District Courts of Appeal",
+     "district": 3,
+     "read_from": "district",
+     "holder_id": "fladistctapp",
+     "unit_id": "fladistctapp3",
+     "search_court": "fladistctapp3"
+    },
+    "coverage_note": "Florida DCA opinions are filed under fladistctapp (362,412 opinions, 1957-2026). The ids fladistctapp1..fladistctapp6 DO filter by district in search_cases: they are read through a district table over the whole DCA corpus (1st 80,730, 2nd 73,743, 3rd 72,115, 4th 68,170, 5th 43,976, 6th 2,241 opinions), so their cases_in_corpus (opinions filed under the literal id) undercounts what the filter returns. Read as the 3rd DCA: court=\"fladistctapp3\".",
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "note": "Resolved by the court structure (court_structure): Florida District Courts of Appeal, district 3. Read coverage_note before filtering a search with a district id.",
+    "state_ranking": "Courts of Florida are listed first."
+   }
+  }
+ ]
+}

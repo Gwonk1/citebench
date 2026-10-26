@@ -1,0 +1,162 @@
+{
+ "id": "t-bowers",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "478 U.S. 186",
+    "compact": true,
+    "case_name": "Bowers v. Hardwick"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":111738,\"case_name\":\"Bowers v. Hardwick\",\"bluebook\":\"Bowers v. Hardwick, 478 U.S. 186 (1986)\",\"url\":\"https://syfert.com/federal/scotus/cases/478-u-s-186/bowers-v-hardwick\",\"link_md\":\"[Bowers v. Hardwick, 478 U.S. 186 (1986)](https://syfert.com/federal/scotus/cases/478-u-s-186/bowers-v-hardwick)\",\"compact\":true,\"treatment\":{\"flag\":\"red\",\"red\":70,\"yellow\":34,\"green\":858,\"procedural\":0,\"strongest_signal\":\"Overruled\",\"strongest_citer\":\"Lawrence v. Texas\",\"strongest_date\":\"2003-06-26\",\"strongest_citer_cluster_id\":130160,\"scope\":\"Overruled by Lawrence v. Texas: 41 citing opinions say overruled outright, 5 limit it to other grounds, and 1 says in part.\",\"strongest_citer_source\":\"overruled_by\",\"strongest_citer_published\":true,\"flag_basis\":\"overruled_by\",\"flag_reason\":\"Overruled by Lawrence v. Texas: 41 citing opinions say overruled outright, 5 limit it to other grounds, and 1 says in part.\",\"flag_evidence\":[\"citing_events\",\"overruled_by\",\"scope\",\"validated_annotations\"],\"proposition_note\":\"Case is red overall (Overruled; 962 citing treatments), but 3 of the propositions it is cited for carry no negative signal of their own: \\\"the court is most vulnerable and comes nearest to illegitimacy when it deals with judge-made\u2026\\\" (18 citers, 0 in the last 10 years); \\\"it is a well-settled princip\u2026\"},\"overruled_by\":{\"kind\":\"case\",\"verb\":\"overruled\",\"case_name\":\"Lawrence v. Texas\",\"cluster_id\":130160,\"year\":2003,\"url\":\"https://syfert.com/federal/scotus/cases/539-u-s-558/lawrence-v-texas\",\"consensus\":\"37 of 39 annotating opinions\"},\"scope\":{\"scope_text\":\"Overruled by Lawrence v. Texas: 41 citing opinions say overruled outright, 5 limit it to other grounds, and 1 says in part.\",\"n_plain\":41,\"n_other_grounds\":5,\"n_in_part\":1,\"n_qualified_other\":0,\"qualifier_top\":\"on other grounds\"},\"still_good_companions\":[{\"case_name\":\"Griswold\",\"cluster_id\":107082,\"year\":1965,\"url\":\"https://syfert.com/federal/scotus/cases/381-u-s-479/griswold-v-connecticut\"},{\"case_name\":\"Lawrence\",\"cluster_id\":130160,\"year\":2003,\"url\":\"https://syfert.com/federal/scotus/cases/539-u-s-558/lawrence-v-texas\"},{\"case_name\":\"Loving\",\"cluster_id\":107480,\"year\":1967,\"url\":\"https://syfert.com/federal/scotus/cases/388-u-s-1/loving-v-virginia\"}],\"negative_citers\":[{\"case_name\":\"Planned Parenthood v. State\",\"link_md\":\"[Planned Parenthood v. State, 2025 MT 120, 570 P.3d 51](https://syfert.com/montana/cases/422-mont-241/planned-parenthood-v-state)\",\"date\":\"2025-06-09\",\"signal\":\"Overruled\",\"context\":\"This Court rejected the State\u2019s argument that the United States Supreme Court holding in Bowers v. Hardwick, 478 U.S.\u2026\"},{\"case_name\":\"Planned Parenthood of the Heartland, Inc., and Jill Meadows, M.D. v. Kim Reynolds ex rel. State of Iowa and Iowa Board of Medicine\",\"link_md\":\"[Planned Parenthood of the Heartland, Inc. v. Kim Reynolds ex rel. State of Iowa & Iowa Bd. of Med., 975 N.W.2d 710 (Iowa 2022)](https://syfert.com/iowa/cases/975-n-w-2d-710/planned-parenthood-of-the-heartland-inc-and-jill-meadows-md-v-kim)\",\"date\":\"2022-06-17\",\"signal\":\"Overruled\",\"context\":\"It is still more revolting if the grounds upon which it was laid down have vanished long since, and the rule simply\u2026\"},{\"case_name\":\"Woods v. Seattle's Union Gospel Mission\",\"link_md\":\"[Woods v. Seattle's Union Gospel Mission, 481 P.3d 1060 (Wash. 2021)](https://syfert.com/washington/cases/481-p-3d-1060/woods-v-seattles-union-gospel-mission)\",\"date\":\"2021-03-04\",\"signal\":\"Overruled\",\"context\":\"See Lawrence v. Texas, 539 U.S. 558, 577-78 , 123 S. Ct. 2472 , 156 L. Ed. 2d 508 (2003); Bowers v. Hardwick, 478 U.S.\u2026\"},{\"case_name\":\"Karen Cohen Kinnett Versus Jarred Brandon Kinnett\",\"link_md\":\"[Karen Cohen Kinnett Versus Jarred Brandon Kinnett, 302 So. 3d 157 (La. Ct. App. 2020)](https://syfert.com/louisiana/cases/302-so-3d-157/karen-cohen-kinnett-versus-jarred-brandon-kinnett)\",\"date\":\"2020-08-06\",\"signal\":\"Overruled\",\"context\":\"Seventeen years earlier, in a five-to-four decision, the Supreme Court refused to construe the Constitution to confer\u2026\"},{\"case_name\":\"Edward Peruta v. County of San Diego\",\"link_md\":\"[Peruta v. Cnty. of San Diego, 824 F.3d 919 (9th Cir. 2016)](https://syfert.com/federal/circuits/cases/824-f-3d-919/edward-peruta-v-county-of-san-diego)\",\"date\":\"2016-06-09\",\"signal\":\"Overruled\",\"signal_phrase\":\"see, e.g.\",\"context\":\"See, e.g., Bowers v. Hardwick, 478 U.S. 186, 190 (1986) (upholding sodomy law, holding that the Constitution does not\u2026\"}],\"propositions_summary\":[{\"prop_rank\":1,\"proposition\":\"the court is most vulnerable and comes nearest to illegitimacy when it deals with judge-made constitutional law having little or no cognizable roots in the language or design of the constitution.\",\"n_citers\":18,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":3,\"proposition\":\"it is a well-settled principle of law that a complaint should not be dismissed merely because a plaintiffs allegations do not support the particular legal theory he advances, for the court is under a\u2026\",\"n_citers\":12,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":2,\"proposition\":\"the proposition that any kind of private sexual conduct between consenting adults is constitutionally insulated from state proscription.\",\"n_citers\":10,\"flag\":\"neutral\",\"red\":0,\"yellow\":0,\"top_negative\":null}],\"counts\":{\"citers_shown_in_full_answer\":25,\"negative_citers_shown_in_full_answer\":25,\"red\":70,\"yellow\":34,\"green\":858,\"propositions\":3},\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\"}",
+   "json": {
+    "cluster_id": 111738,
+    "case_name": "Bowers v. Hardwick",
+    "bluebook": "Bowers v. Hardwick, 478 U.S. 186 (1986)",
+    "url": "https://syfert.com/federal/scotus/cases/478-u-s-186/bowers-v-hardwick",
+    "link_md": "[Bowers v. Hardwick, 478 U.S. 186 (1986)](https://syfert.com/federal/scotus/cases/478-u-s-186/bowers-v-hardwick)",
+    "compact": true,
+    "treatment": {
+     "flag": "red",
+     "red": 70,
+     "yellow": 34,
+     "green": 858,
+     "procedural": 0,
+     "strongest_signal": "Overruled",
+     "strongest_citer": "Lawrence v. Texas",
+     "strongest_date": "2003-06-26",
+     "strongest_citer_cluster_id": 130160,
+     "scope": "Overruled by Lawrence v. Texas: 41 citing opinions say overruled outright, 5 limit it to other grounds, and 1 says in part.",
+     "strongest_citer_source": "overruled_by",
+     "strongest_citer_published": true,
+     "flag_basis": "overruled_by",
+     "flag_reason": "Overruled by Lawrence v. Texas: 41 citing opinions say overruled outright, 5 limit it to other grounds, and 1 says in part.",
+     "flag_evidence": [
+      "citing_events",
+      "overruled_by",
+      "scope",
+      "validated_annotations"
+     ],
+     "proposition_note": "Case is red overall (Overruled; 962 citing treatments), but 3 of the propositions it is cited for carry no negative signal of their own: \"the court is most vulnerable and comes nearest to illegitimacy when it deals with judge-made\u2026\" (18 citers, 0 in the last 10 years); \"it is a well-settled princip\u2026"
+    },
+    "overruled_by": {
+     "kind": "case",
+     "verb": "overruled",
+     "case_name": "Lawrence v. Texas",
+     "cluster_id": 130160,
+     "year": 2003,
+     "url": "https://syfert.com/federal/scotus/cases/539-u-s-558/lawrence-v-texas",
+     "consensus": "37 of 39 annotating opinions"
+    },
+    "scope": {
+     "scope_text": "Overruled by Lawrence v. Texas: 41 citing opinions say overruled outright, 5 limit it to other grounds, and 1 says in part.",
+     "n_plain": 41,
+     "n_other_grounds": 5,
+     "n_in_part": 1,
+     "n_qualified_other": 0,
+     "qualifier_top": "on other grounds"
+    },
+    "still_good_companions": [
+     {
+      "case_name": "Griswold",
+      "cluster_id": 107082,
+      "year": 1965,
+      "url": "https://syfert.com/federal/scotus/cases/381-u-s-479/griswold-v-connecticut"
+     },
+     {
+      "case_name": "Lawrence",
+      "cluster_id": 130160,
+      "year": 2003,
+      "url": "https://syfert.com/federal/scotus/cases/539-u-s-558/lawrence-v-texas"
+     },
+     {
+      "case_name": "Loving",
+      "cluster_id": 107480,
+      "year": 1967,
+      "url": "https://syfert.com/federal/scotus/cases/388-u-s-1/loving-v-virginia"
+     }
+    ],
+    "negative_citers": [
+     {
+      "case_name": "Planned Parenthood v. State",
+      "link_md": "[Planned Parenthood v. State, 2025 MT 120, 570 P.3d 51](https://syfert.com/montana/cases/422-mont-241/planned-parenthood-v-state)",
+      "date": "2025-06-09",
+      "signal": "Overruled",
+      "context": "This Court rejected the State\u2019s argument that the United States Supreme Court holding in Bowers v. Hardwick, 478 U.S.\u2026"
+     },
+     {
+      "case_name": "Planned Parenthood of the Heartland, Inc., and Jill Meadows, M.D. v. Kim Reynolds ex rel. State of Iowa and Iowa Board of Medicine",
+      "link_md": "[Planned Parenthood of the Heartland, Inc. v. Kim Reynolds ex rel. State of Iowa & Iowa Bd. of Med., 975 N.W.2d 710 (Iowa 2022)](https://syfert.com/iowa/cases/975-n-w-2d-710/planned-parenthood-of-the-heartland-inc-and-jill-meadows-md-v-kim)",
+      "date": "2022-06-17",
+      "signal": "Overruled",
+      "context": "It is still more revolting if the grounds upon which it was laid down have vanished long since, and the rule simply\u2026"
+     },
+     {
+      "case_name": "Woods v. Seattle's Union Gospel Mission",
+      "link_md": "[Woods v. Seattle's Union Gospel Mission, 481 P.3d 1060 (Wash. 2021)](https://syfert.com/washington/cases/481-p-3d-1060/woods-v-seattles-union-gospel-mission)",
+      "date": "2021-03-04",
+      "signal": "Overruled",
+      "context": "See Lawrence v. Texas, 539 U.S. 558, 577-78 , 123 S. Ct. 2472 , 156 L. Ed. 2d 508 (2003); Bowers v. Hardwick, 478 U.S.\u2026"
+     },
+     {
+      "case_name": "Karen Cohen Kinnett Versus Jarred Brandon Kinnett",
+      "link_md": "[Karen Cohen Kinnett Versus Jarred Brandon Kinnett, 302 So. 3d 157 (La. Ct. App. 2020)](https://syfert.com/louisiana/cases/302-so-3d-157/karen-cohen-kinnett-versus-jarred-brandon-kinnett)",
+      "date": "2020-08-06",
+      "signal": "Overruled",
+      "context": "Seventeen years earlier, in a five-to-four decision, the Supreme Court refused to construe the Constitution to confer\u2026"
+     },
+     {
+      "case_name": "Edward Peruta v. County of San Diego",
+      "link_md": "[Peruta v. Cnty. of San Diego, 824 F.3d 919 (9th Cir. 2016)](https://syfert.com/federal/circuits/cases/824-f-3d-919/edward-peruta-v-county-of-san-diego)",
+      "date": "2016-06-09",
+      "signal": "Overruled",
+      "signal_phrase": "see, e.g.",
+      "context": "See, e.g., Bowers v. Hardwick, 478 U.S. 186, 190 (1986) (upholding sodomy law, holding that the Constitution does not\u2026"
+     }
+    ],
+    "propositions_summary": [
+     {
+      "prop_rank": 1,
+      "proposition": "the court is most vulnerable and comes nearest to illegitimacy when it deals with judge-made constitutional law having little or no cognizable roots in the language or design of the constitution.",
+      "n_citers": 18,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 3,
+      "proposition": "it is a well-settled principle of law that a complaint should not be dismissed merely because a plaintiffs allegations do not support the particular legal theory he advances, for the court is under a\u2026",
+      "n_citers": 12,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 2,
+      "proposition": "the proposition that any kind of private sexual conduct between consenting adults is constitutionally insulated from state proscription.",
+      "n_citers": 10,
+      "flag": "neutral",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     }
+    ],
+    "counts": {
+     "citers_shown_in_full_answer": 25,
+     "negative_citers_shown_in_full_answer": 25,
+     "red": 70,
+     "yellow": 34,
+     "green": 858,
+     "propositions": 3
+    },
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context."
+   }
+  }
+ ]
+}

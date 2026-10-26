@@ -1,0 +1,294 @@
+{
+ "id": "ct-nmid",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "N. Mar. I."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"N. Mar. I.\",\n    \"courts\": [\n        {\n            \"id\": \"nmid\",\n            \"short_name\": \"Northern Mariana Islands\",\n            \"full_name\": \"District Court, Northern Mariana Islands\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N. Mar. I.\",\n            \"bluebook\": \"D. N. Mar. I.\",\n            \"cases_in_corpus\": 321,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nmib\",\n            \"short_name\": \"Northern Mariana Islands\",\n            \"full_name\": \"United States Bankruptcy Court, Northern Mariana Islands\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N. Mar. I.\",\n            \"bluebook\": \"Bankr. D. N. Mar. I.\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"nyappdiv\",\n            \"short_name\": \"Appellate Division of the Supreme Court of New York\",\n            \"full_name\": \"Appellate Division of the Supreme Court of the State of New York\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.Y. App. Div.\",\n            \"bluebook\": \"N.Y. App. Div.\",\n            \"cases_in_corpus\": 774886,\n            \"years\": \"1714-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupct\",\n            \"short_name\": \"New York Supreme Court\",\n            \"full_name\": \"New York Supreme Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Ct.\",\n            \"bluebook\": \"N.Y. Sup. Ct.\",\n            \"cases_in_corpus\": 117110,\n            \"years\": \"1794-2025\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysd\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"District Court, S.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D.N.Y.\",\n            \"bluebook\": \"S.D.N.Y.\",\n            \"cases_in_corpus\": 112052,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nc\",\n            \"short_name\": \"Supreme Court of North Carolina\",\n            \"full_name\": \"Supreme Court of North Carolina\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"N.C.\",\n            \"bluebook\": \"N.C.\",\n            \"cases_in_corpus\": 91568,\n            \"years\": \"1800-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nj\",\n            \"short_name\": \"Supreme Court of New Jersey\",\n            \"full_name\": \"Supreme Court of New Jersey\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"N.J.\",\n            \"bluebook\": \"N.J.\",\n            \"cases_in_corpus\": 79076,\n            \"years\": \"1775-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"njsuperctappdiv\",\n            \"short_name\": \"New Jersey Superior Court App Division\",\n            \"full_name\": \"New Jersey Superior Court Appellate Division\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.J. Super. Ct. App. Div.\",\n            \"bluebook\": \"N.J. Super. Ct. App. Div.\",\n            \"cases_in_corpus\": 47846,\n            \"years\": \"1831-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncctapp\",\n            \"short_name\": \"Court of Appeals of North Carolina\",\n            \"full_name\": \"Court of Appeals of North Carolina\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.C. Ct. App.\",\n            \"bluebook\": \"N.C. Ct. App.\",\n            \"cases_in_corpus\": 46133,\n            \"years\": \"1777-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyed\",\n            \"short_name\": \"E.D. New York\",\n            \"full_name\": \"District Court, E.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D.N.Y\",\n            \"bluebook\": \"E.D.N.Y.\",\n            \"cases_in_corpus\": 31557,\n            \"years\": \"1850-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"njd\",\n            \"short_name\": \"D. New Jersey\",\n            \"full_name\": \"District Court, D. New Jersey\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.N.J.\",\n            \"bluebook\": \"D.N.J.\",\n            \"cases_in_corpus\": 27673,\n            \"years\": \"1842-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ri\",\n            \"short_name\": \"Supreme Court of Rhode Island\",\n            \"full_name\": \"Supreme Court of Rhode Island\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"R.I.\",\n            \"bluebook\": \"R.I.\",\n            \"cases_in_corpus\": 25431,\n            \"years\": \"1828-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyappterm\",\n            \"short_name\": \"Appellate Terms of the Supreme Court of New York\",\n            \"full_name\": \"Appellate Terms of the Supreme Court of New York\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.Y. App. Term.\",\n            \"bluebook\": \"N.Y. App. Term.\",\n            \"cases_in_corpus\": 24317,\n            \"years\": \"1890-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nh\",\n            \"short_name\": \"Supreme Court of New Hampshire\",\n            \"full_name\": \"Supreme Court of New Hampshire\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"N.H.\",\n            \"bluebook\": \"N.H.\",\n            \"cases_in_corpus\": 20800,\n            \"years\": \"?-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nmctapp\",\n            \"short_name\": \"New Mexico Court of Appeals\",\n            \"full_name\": \"New Mexico Court of Appeals\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.M. Ct. App.\",\n            \"bluebook\": \"N.M. Ct. App.\",\n            \"cases_in_corpus\": 16342,\n            \"years\": \"1966-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysurct\",\n            \"short_name\": \"New York Surrogate's Court\",\n            \"full_name\": \"New York Surrogate's Court\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"N.Y. Sur. Ct.\",\n            \"bluebook\": \"N.Y. Sur. Ct.\",\n            \"cases_in_corpus\": 15140,\n            \"years\": \"1811-2025\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nm\",\n            \"short_name\": \"New Mexico Supreme Court\",\n            \"full_name\": \"New Mexico Supreme Court\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"N.M.\",\n            \"bluebook\": \"N.M.\",\n            \"cases_in_corpus\": 14439,\n            \"years\": \"1852-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nywd\",\n            \"short_name\": \"W.D. New York\",\n            \"full_name\": \"District Court, W.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D.N.Y.\",\n            \"bluebook\": \"W.D.N.Y.\",\n            \"cases_in_corpus\": 14283,\n            \"years\": \"1854-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nmd\",\n            \"short_name\": \"D. New Mexico\",\n            \"full_name\": \"District Court, D. New Mexico\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.N.M.\",\n            \"bluebook\": \"D.N.M.\",\n            \"cases_in_corpus\": 11802,\n            \"years\": \"1912-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nynd\",\n            \"short_name\": \"N.D. New York\",\n            \"full_name\": \"District Court, N.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D.N.Y.\",\n            \"bluebook\": \"N.D.N.Y.\",\n            \"cases_in_corpus\": 11761,\n            \"years\": \"1814-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncwd\",\n            \"short_name\": \"W.D. North Carolina\",\n            \"full_name\": \"District Court, W.D. North Carolina\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D.N.C.\",\n            \"bluebook\": \"W.D.N.C.\",\n            \"cases_in_corpus\": 9719,\n            \"years\": \"1866-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nhd\",\n            \"short_name\": \"D. New Hampshire\",\n            \"full_name\": \"District Court, D. New Hampshire\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.N.H.\",\n            \"bluebook\": \"D.N.H.\",\n            \"cases_in_corpus\": 8807,\n            \"years\": \"1801-2041\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncworkcompcom\",\n            \"short_name\": \"North Carolina Industrial Commission\",\n            \"full_name\": \"North Carolina Industrial Commission\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"N.C. Indus. Comm.\",\n            \"bluebook\": \"N.C. Indus. Comm.\",\n            \"cases_in_corpus\": 7278,\n            \"years\": \"1993-2011\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nced\",\n            \"short_name\": \"E.D. North Carolina\",\n            \"full_name\": \"District Court, E.D. North Carolina\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D.N.C.\",\n            \"bluebook\": \"E.D.N.C.\",\n            \"cases_in_corpus\": 6586,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"risuperct\",\n            \"short_name\": \"Superior Court of Rhode Island\",\n            \"full_name\": \"Superior Court of Rhode Island\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Sup. Ct. R.I.\",\n            \"bluebook\": \"Sup. Ct. R.I.\",\n            \"cases_in_corpus\": 5401,\n            \"years\": \"1917-2011\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\"\n}",
+   "json": {
+    "query": "N. Mar. I.",
+    "courts": [
+     {
+      "id": "nmid",
+      "short_name": "Northern Mariana Islands",
+      "full_name": "District Court, Northern Mariana Islands",
+      "jurisdiction": "FD",
+      "citation_string": "N. Mar. I.",
+      "bluebook": "D. N. Mar. I.",
+      "cases_in_corpus": 321,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nmib",
+      "short_name": "Northern Mariana Islands",
+      "full_name": "United States Bankruptcy Court, Northern Mariana Islands",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N. Mar. I.",
+      "bluebook": "Bankr. D. N. Mar. I.",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "nyappdiv",
+      "short_name": "Appellate Division of the Supreme Court of New York",
+      "full_name": "Appellate Division of the Supreme Court of the State of New York",
+      "jurisdiction": "SA",
+      "citation_string": "N.Y. App. Div.",
+      "bluebook": "N.Y. App. Div.",
+      "cases_in_corpus": 774886,
+      "years": "1714-2026",
+      "active": true
+     },
+     {
+      "id": "nysupct",
+      "short_name": "New York Supreme Court",
+      "full_name": "New York Supreme Court",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Ct.",
+      "bluebook": "N.Y. Sup. Ct.",
+      "cases_in_corpus": 117110,
+      "years": "1794-2025",
+      "active": true
+     },
+     {
+      "id": "nysd",
+      "short_name": "S.D. New York",
+      "full_name": "District Court, S.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "S.D.N.Y.",
+      "bluebook": "S.D.N.Y.",
+      "cases_in_corpus": 112052,
+      "years": "1801-2026",
+      "active": true
+     },
+     {
+      "id": "nc",
+      "short_name": "Supreme Court of North Carolina",
+      "full_name": "Supreme Court of North Carolina",
+      "jurisdiction": "S",
+      "citation_string": "N.C.",
+      "bluebook": "N.C.",
+      "cases_in_corpus": 91568,
+      "years": "1800-2026",
+      "active": true
+     },
+     {
+      "id": "nj",
+      "short_name": "Supreme Court of New Jersey",
+      "full_name": "Supreme Court of New Jersey",
+      "jurisdiction": "S",
+      "citation_string": "N.J.",
+      "bluebook": "N.J.",
+      "cases_in_corpus": 79076,
+      "years": "1775-2026",
+      "active": true
+     },
+     {
+      "id": "njsuperctappdiv",
+      "short_name": "New Jersey Superior Court App Division",
+      "full_name": "New Jersey Superior Court Appellate Division",
+      "jurisdiction": "SA",
+      "citation_string": "N.J. Super. Ct. App. Div.",
+      "bluebook": "N.J. Super. Ct. App. Div.",
+      "cases_in_corpus": 47846,
+      "years": "1831-2026",
+      "active": true
+     },
+     {
+      "id": "ncctapp",
+      "short_name": "Court of Appeals of North Carolina",
+      "full_name": "Court of Appeals of North Carolina",
+      "jurisdiction": "SA",
+      "citation_string": "N.C. Ct. App.",
+      "bluebook": "N.C. Ct. App.",
+      "cases_in_corpus": 46133,
+      "years": "1777-2026",
+      "active": true
+     },
+     {
+      "id": "nyed",
+      "short_name": "E.D. New York",
+      "full_name": "District Court, E.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "E.D.N.Y",
+      "bluebook": "E.D.N.Y.",
+      "cases_in_corpus": 31557,
+      "years": "1850-2026",
+      "active": true
+     },
+     {
+      "id": "njd",
+      "short_name": "D. New Jersey",
+      "full_name": "District Court, D. New Jersey",
+      "jurisdiction": "FD",
+      "citation_string": "D.N.J.",
+      "bluebook": "D.N.J.",
+      "cases_in_corpus": 27673,
+      "years": "1842-2026",
+      "active": true
+     },
+     {
+      "id": "ri",
+      "short_name": "Supreme Court of Rhode Island",
+      "full_name": "Supreme Court of Rhode Island",
+      "jurisdiction": "S",
+      "citation_string": "R.I.",
+      "bluebook": "R.I.",
+      "cases_in_corpus": 25431,
+      "years": "1828-2026",
+      "active": true
+     },
+     {
+      "id": "nyappterm",
+      "short_name": "Appellate Terms of the Supreme Court of New York",
+      "full_name": "Appellate Terms of the Supreme Court of New York",
+      "jurisdiction": "SA",
+      "citation_string": "N.Y. App. Term.",
+      "bluebook": "N.Y. App. Term.",
+      "cases_in_corpus": 24317,
+      "years": "1890-2026",
+      "active": true
+     },
+     {
+      "id": "nh",
+      "short_name": "Supreme Court of New Hampshire",
+      "full_name": "Supreme Court of New Hampshire",
+      "jurisdiction": "S",
+      "citation_string": "N.H.",
+      "bluebook": "N.H.",
+      "cases_in_corpus": 20800,
+      "years": "?-2026",
+      "active": true
+     },
+     {
+      "id": "nmctapp",
+      "short_name": "New Mexico Court of Appeals",
+      "full_name": "New Mexico Court of Appeals",
+      "jurisdiction": "SA",
+      "citation_string": "N.M. Ct. App.",
+      "bluebook": "N.M. Ct. App.",
+      "cases_in_corpus": 16342,
+      "years": "1966-2026",
+      "active": true
+     },
+     {
+      "id": "nysurct",
+      "short_name": "New York Surrogate's Court",
+      "full_name": "New York Surrogate's Court",
+      "jurisdiction": "SS",
+      "citation_string": "N.Y. Sur. Ct.",
+      "bluebook": "N.Y. Sur. Ct.",
+      "cases_in_corpus": 15140,
+      "years": "1811-2025",
+      "active": true
+     },
+     {
+      "id": "nm",
+      "short_name": "New Mexico Supreme Court",
+      "full_name": "New Mexico Supreme Court",
+      "jurisdiction": "S",
+      "citation_string": "N.M.",
+      "bluebook": "N.M.",
+      "cases_in_corpus": 14439,
+      "years": "1852-2026",
+      "active": true
+     },
+     {
+      "id": "nywd",
+      "short_name": "W.D. New York",
+      "full_name": "District Court, W.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "W.D.N.Y.",
+      "bluebook": "W.D.N.Y.",
+      "cases_in_corpus": 14283,
+      "years": "1854-2026",
+      "active": true
+     },
+     {
+      "id": "nmd",
+      "short_name": "D. New Mexico",
+      "full_name": "District Court, D. New Mexico",
+      "jurisdiction": "FD",
+      "citation_string": "D.N.M.",
+      "bluebook": "D.N.M.",
+      "cases_in_corpus": 11802,
+      "years": "1912-2026",
+      "active": true
+     },
+     {
+      "id": "nynd",
+      "short_name": "N.D. New York",
+      "full_name": "District Court, N.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "N.D.N.Y.",
+      "bluebook": "N.D.N.Y.",
+      "cases_in_corpus": 11761,
+      "years": "1814-2026",
+      "active": true
+     },
+     {
+      "id": "ncwd",
+      "short_name": "W.D. North Carolina",
+      "full_name": "District Court, W.D. North Carolina",
+      "jurisdiction": "FD",
+      "citation_string": "W.D.N.C.",
+      "bluebook": "W.D.N.C.",
+      "cases_in_corpus": 9719,
+      "years": "1866-2026",
+      "active": true
+     },
+     {
+      "id": "nhd",
+      "short_name": "D. New Hampshire",
+      "full_name": "District Court, D. New Hampshire",
+      "jurisdiction": "FD",
+      "citation_string": "D.N.H.",
+      "bluebook": "D.N.H.",
+      "cases_in_corpus": 8807,
+      "years": "1801-2041",
+      "active": true
+     },
+     {
+      "id": "ncworkcompcom",
+      "short_name": "North Carolina Industrial Commission",
+      "full_name": "North Carolina Industrial Commission",
+      "jurisdiction": "SS",
+      "citation_string": "N.C. Indus. Comm.",
+      "bluebook": "N.C. Indus. Comm.",
+      "cases_in_corpus": 7278,
+      "years": "1993-2011",
+      "active": true
+     },
+     {
+      "id": "nced",
+      "short_name": "E.D. North Carolina",
+      "full_name": "District Court, E.D. North Carolina",
+      "jurisdiction": "FD",
+      "citation_string": "E.D.N.C.",
+      "bluebook": "E.D.N.C.",
+      "cases_in_corpus": 6586,
+      "years": "1801-2026",
+      "active": true
+     },
+     {
+      "id": "risuperct",
+      "short_name": "Superior Court of Rhode Island",
+      "full_name": "Superior Court of Rhode Island",
+      "jurisdiction": "SA",
+      "citation_string": "Sup. Ct. R.I.",
+      "bluebook": "Sup. Ct. R.I.",
+      "cases_in_corpus": 5401,
+      "years": "1917-2011",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp."
+   }
+  }
+ ]
+}

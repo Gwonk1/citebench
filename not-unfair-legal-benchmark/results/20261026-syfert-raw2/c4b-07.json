@@ -1,0 +1,64 @@
+{
+ "id": "c4b-07",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "94 F. App'x 774",
+    "compact": true,
+    "case_name": "Ustyan v. Ashcroft"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":786161,\"case_name\":\"Artur Ustyan v. John Ashcroft, Attorney General\",\"bluebook\":\"Artur Ustyan v. John Ashcroft, 367 F.3d 1215 (10th Cir. 2004)\",\"url\":\"https://syfert.com/federal/circuits/cases/367-f-3d-1215/artur-ustyan-v-john-ashcroft-attorney-general\",\"link_md\":\"[Artur Ustyan v. John Ashcroft, 367 F.3d 1215 (10th Cir. 2004)](https://syfert.com/federal/circuits/cases/367-f-3d-1215/artur-ustyan-v-john-ashcroft-attorney-general)\",\"compact\":true,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0,\"green\":19,\"procedural\":0,\"strongest_signal\":null,\"strongest_citer\":\"\",\"strongest_date\":null},\"negative_citers\":[],\"propositions_summary\":[{\"prop_rank\":1,\"proposition\":\"hjaving failed to establish that he is entitled to discretionary consideration for asylum, mr. soewarso-no has perforce failed to establish that he is entitled to mandatory restriction on removal, wh\u2026\",\"n_citers\":2,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null}],\"counts\":{\"citers_shown_in_full_answer\":15,\"negative_citers_shown_in_full_answer\":0,\"red\":0,\"yellow\":0,\"green\":19,\"propositions\":1},\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\",\"appendix_record\":{\"cluster_id\":164512,\"citation\":\"94 F. App'x 774\",\"date_filed\":\"2004-04-08\",\"published_as\":\"367 F.3d 1215\"},\"publication_note\":\"Issued as an unpublished opinion at 94 F. App'x 774 (2004). This appendix cite and 367 F.3d 1215 are the same decision in the corpus (a superseded twin of the 367 F.3d 1215 record); the 367 F.3d 1215 record is marked precedential (Published). The corpus holds no publication order, so whether the court later ordered it published is not stated here. The Federal Appendix printing is not a separate authority: cite 367 F.3d 1215.\"}",
+   "json": {
+    "cluster_id": 786161,
+    "case_name": "Artur Ustyan v. John Ashcroft, Attorney General",
+    "bluebook": "Artur Ustyan v. John Ashcroft, 367 F.3d 1215 (10th Cir. 2004)",
+    "url": "https://syfert.com/federal/circuits/cases/367-f-3d-1215/artur-ustyan-v-john-ashcroft-attorney-general",
+    "link_md": "[Artur Ustyan v. John Ashcroft, 367 F.3d 1215 (10th Cir. 2004)](https://syfert.com/federal/circuits/cases/367-f-3d-1215/artur-ustyan-v-john-ashcroft-attorney-general)",
+    "compact": true,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 19,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "negative_citers": [],
+    "propositions_summary": [
+     {
+      "prop_rank": 1,
+      "proposition": "hjaving failed to establish that he is entitled to discretionary consideration for asylum, mr. soewarso-no has perforce failed to establish that he is entitled to mandatory restriction on removal, wh\u2026",
+      "n_citers": 2,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     }
+    ],
+    "counts": {
+     "citers_shown_in_full_answer": 15,
+     "negative_citers_shown_in_full_answer": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 19,
+     "propositions": 1
+    },
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.",
+    "appendix_record": {
+     "cluster_id": 164512,
+     "citation": "94 F. App'x 774",
+     "date_filed": "2004-04-08",
+     "published_as": "367 F.3d 1215"
+    },
+    "publication_note": "Issued as an unpublished opinion at 94 F. App'x 774 (2004). This appendix cite and 367 F.3d 1215 are the same decision in the corpus (a superseded twin of the 367 F.3d 1215 record); the 367 F.3d 1215 record is marked precedential (Published). The corpus holds no publication order, so whether the court later ordered it published is not stated here. The Federal Appendix printing is not a separate authority: cite 367 F.3d 1215."
+   }
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "id": "co-24",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Meijer, Inc. v. Ferring B.V., 585 F.3d 677."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"585 F.3d 677\",\n            \"volume\": \"585\",\n            \"reporter\": \"F.3d\",\n            \"page\": \"677\",\n            \"pin\": null,\n            \"cluster_id\": 8440519,\n            \"case\": {\n                \"case_name\": \"Meijer, Inc. v. Ferring B.V.\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2009-10-16\",\n                \"court_id\": \"ca2\",\n                \"docket_number\": \"Docket No. 06-5525-cv\",\n                \"citation_count\": 3,\n                \"court_label\": \"2d Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 78.56,\n                \"total_events\": 279,\n                \"distinct_courts\": 26,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Dana Ruth Lixenberg v. Complex Media, Inc., a Delaware Corporation; and Does 1\u201310\",\n                \"top_pos_court\": \"nysd\",\n                \"top_pos_date\": \"2025-10-29\",\n                \"top_quote_norm\": \"we are . . . lenient in allowing scienter issues to withstand summary judgment based on fairly tenuous inferences, because such issues are appropriate for resolution by the trier of fact. the same holds true for allowing such issues to survive motions to dismiss.\",\n                \"twins_merged\": [\n                    2461\n                ],\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Meijer, Inc.\",\n                \"rhs\": \"Ferring B.V.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Meijer, Inc.\",\n                    \"rhs\": \"Ferring B.V.\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Meijer, Inc. v. Ferring B.V.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/585-f-3d-677/meijer-inc-v-ferring-bv\",\n            \"link_md\": \"[Meijer, Inc. v. Ferring B.V.](https://syfert.com/federal/circuits/cases/585-f-3d-677/meijer-inc-v-ferring-bv)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "585 F.3d 677",
+      "volume": "585",
+      "reporter": "F.3d",
+      "page": "677",
+      "pin": null,
+      "cluster_id": 8440519,
+      "case": {
+       "case_name": "Meijer, Inc. v. Ferring B.V.",
+       "case_name_short": null,
+       "date_filed": "2009-10-16",
+       "court_id": "ca2",
+       "docket_number": "Docket No. 06-5525-cv",
+       "citation_count": 3,
+       "court_label": "2d Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 78.56,
+       "total_events": 279,
+       "distinct_courts": 26,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Dana Ruth Lixenberg v. Complex Media, Inc., a Delaware Corporation; and Does 1\u201310",
+       "top_pos_court": "nysd",
+       "top_pos_date": "2025-10-29",
+       "top_quote_norm": "we are . . . lenient in allowing scienter issues to withstand summary judgment based on fairly tenuous inferences, because such issues are appropriate for resolution by the trier of fact. the same holds true for allowing such issues to survive motions to dismiss.",
+       "twins_merged": [
+        2461
+       ],
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Meijer, Inc.",
+       "rhs": "Ferring B.V."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Meijer, Inc.",
+        "rhs": "Ferring B.V."
+       },
+       "verdict": "match",
+       "resolved_name": "Meijer, Inc. v. Ferring B.V."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/585-f-3d-677/meijer-inc-v-ferring-bv",
+      "link_md": "[Meijer, Inc. v. Ferring B.V.](https://syfert.com/federal/circuits/cases/585-f-3d-677/meijer-inc-v-ferring-bv)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

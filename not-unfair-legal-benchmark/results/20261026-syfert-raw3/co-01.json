@@ -1,0 +1,104 @@
+{
+ "id": "co-01",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Erie Railroad Co. v. Tompkins, 304 U.S. 64."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"304 U.S. 64\",\n            \"volume\": \"304\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"64\",\n            \"pin\": null,\n            \"cluster_id\": 103012,\n            \"case\": {\n                \"case_name\": \"Erie Railroad v. Tompkins\",\n                \"case_name_short\": \"Erie R. Co.\",\n                \"date_filed\": \"1938-04-25\",\n                \"court_id\": \"scotus\",\n                \"docket_number\": \"367\",\n                \"citation_count\": 18291,\n                \"court_label\": \"\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 207.39,\n                \"total_events\": 50552,\n                \"distinct_courts\": 304,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Zonia Rodriguez, individually, on behalf of B.R., a minor, and as personal representative for The Estate of Sandra Rodriguez v. Juan C. Zayas-Castro, Neri Logistics, LLC, Brown Integrated Logistics, Inc., Uber Freight US LLC, and Tosca Ltd.\",\n                \"top_pos_court\": \"utd\",\n                \"top_pos_date\": \"2026-09-17\",\n                \"top_quote_norm\": \"except in matters governed by the federal constitution or by acts of congress, the law to be applied in any _____________________ 5 erie grounded its constitutional conclusion in legal positivism, the \\\"mandate that all law-including the common law-'does not exist without some definite authority behind it.'\\\" michael steven green, erie's suppressed premise, 95 minn. l. rev. 1111 , 1113 (2011) (quotation omitted). but \\\"positivism is compatible with the swiftian notion that . . . common-law standards are a . . . question about which . . . courts of other sovereigns, including federal courts, may come to their own judgment.\\\" ibid.; see also jack goldsmith  steven walt, erie and the irrelevance of legal positivism, 84 va. l. rev. 673 , 685 (1998) (\\\"swift supporters . . . believed the general common law applied by federal courts was . . . authorized by the constitution . . . they too were legal positivists.\\\"); craig green, repressing erie's myth, 96 cal. l. rev. 595 , 606 (2008) (\\\"simply put, positivism does not require erie's rule that common-law substantive authority be transferred from federal judges to state judges.\\\"); cf. h.l.a. hart, the concept of law 101 (2d. ed. 1994) (\\\"custom and precedent . . . owe their status of law . . . to the acceptance of a rule of recognition which accords them this independent though subordinate place.\\\"). 17 case is the law of the state.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Erie Railroad Co.\",\n                \"rhs\": \"Tompkins\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Erie Railroad Co.\",\n                    \"rhs\": \"Tompkins\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Erie Railroad v. Tompkins\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/scotus/cases/304-u-s-64/erie-railroad-v-tompkins\",\n            \"link_md\": \"[Erie Railroad v. Tompkins](https://syfert.com/federal/scotus/cases/304-u-s-64/erie-railroad-v-tompkins)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "304 U.S. 64",
+      "volume": "304",
+      "reporter": "U.S.",
+      "page": "64",
+      "pin": null,
+      "cluster_id": 103012,
+      "case": {
+       "case_name": "Erie Railroad v. Tompkins",
+       "case_name_short": "Erie R. Co.",
+       "date_filed": "1938-04-25",
+       "court_id": "scotus",
+       "docket_number": "367",
+       "citation_count": 18291,
+       "court_label": ""
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 207.39,
+       "total_events": 50552,
+       "distinct_courts": 304,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Zonia Rodriguez, individually, on behalf of B.R., a minor, and as personal representative for The Estate of Sandra Rodriguez v. Juan C. Zayas-Castro, Neri Logistics, LLC, Brown Integrated Logistics, Inc., Uber Freight US LLC, and Tosca Ltd.",
+       "top_pos_court": "utd",
+       "top_pos_date": "2026-09-17",
+       "top_quote_norm": "except in matters governed by the federal constitution or by acts of congress, the law to be applied in any _____________________ 5 erie grounded its constitutional conclusion in legal positivism, the \"mandate that all law-including the common law-'does not exist without some definite authority behind it.'\" michael steven green, erie's suppressed premise, 95 minn. l. rev. 1111 , 1113 (2011) (quotation omitted). but \"positivism is compatible with the swiftian notion that . . . common-law standards are a . . . question about which . . . courts of other sovereigns, including federal courts, may come to their own judgment.\" ibid.; see also jack goldsmith  steven walt, erie and the irrelevance of legal positivism, 84 va. l. rev. 673 , 685 (1998) (\"swift supporters . . . believed the general common law applied by federal courts was . . . authorized by the constitution . . . they too were legal positivists.\"); craig green, repressing erie's myth, 96 cal. l. rev. 595 , 606 (2008) (\"simply put, positivism does not require erie's rule that common-law substantive authority be transferred from federal judges to state judges.\"); cf. h.l.a. hart, the concept of law 101 (2d. ed. 1994) (\"custom and precedent . . . owe their status of law . . . to the acceptance of a rule of recognition which accords them this independent though subordinate place.\"). 17 case is the law of the state.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Erie Railroad Co.",
+       "rhs": "Tompkins"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Erie Railroad Co.",
+        "rhs": "Tompkins"
+       },
+       "verdict": "match",
+       "resolved_name": "Erie Railroad v. Tompkins"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/scotus/cases/304-u-s-64/erie-railroad-v-tompkins",
+      "link_md": "[Erie Railroad v. Tompkins](https://syfert.com/federal/scotus/cases/304-u-s-64/erie-railroad-v-tompkins)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "id": "ct-oknb",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Bankr. N.D. Okla."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Bankr. N.D. Okla.\",\n    \"courts\": [\n        {\n            \"id\": \"oknb\",\n            \"short_name\": \"N.D. Oklahoma\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Oklahoma\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Okla\",\n            \"bluebook\": \"Bankr. N.D. Okla.\",\n            \"cases_in_corpus\": 423,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"oknd\",\n            \"short_name\": \"N.D. Oklahoma\",\n            \"full_name\": \"District Court, N.D. Oklahoma\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Okla.\",\n            \"bluebook\": \"N.D. Okla.\",\n            \"cases_in_corpus\": 3087,\n            \"years\": \"1925-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"okwb\",\n            \"short_name\": \"W.D. Oklahoma\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. Oklahoma\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D. Okla.\",\n            \"bluebook\": \"Bankr. W.D. Okla.\",\n            \"cases_in_corpus\": 413,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"okeb\",\n            \"short_name\": \"E.D. Oklahoma\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Oklahoma\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Okla.\",\n            \"bluebook\": \"Bankr. E.D. Okla.\",\n            \"cases_in_corpus\": 186,\n            \"years\": \"1985-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"okwd\",\n            \"short_name\": \"W.D. Oklahoma\",\n            \"full_name\": \"District Court, W.D. Oklahoma\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D. Okla.\",\n            \"bluebook\": \"W.D. Okla.\",\n            \"cases_in_corpus\": 8370,\n            \"years\": \"1910-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"oked\",\n            \"short_name\": \"E.D. Oklahoma\",\n            \"full_name\": \"District Court, E.D. Oklahoma\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Okla.\",\n            \"bluebook\": \"E.D. Okla.\",\n            \"cases_in_corpus\": 2439,\n            \"years\": \"1908-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"okla\",\n            \"short_name\": \"Supreme Court of Oklahoma\",\n            \"full_name\": \"Supreme Court of Oklahoma\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Okla.\",\n            \"bluebook\": \"Okla.\",\n            \"cases_in_corpus\": 43250,\n            \"years\": \"1890-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"oklacrimapp\",\n            \"short_name\": \"Court of Criminal Appeals of Oklahoma\",\n            \"full_name\": \"Court of Criminal Appeals of Oklahoma\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Okla. Crim. App.\",\n            \"bluebook\": \"Okla. Crim. App.\",\n            \"cases_in_corpus\": 20747,\n            \"years\": \"1900-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"oklaag\",\n            \"short_name\": \"Oklahoma Attorney General Reports\",\n            \"full_name\": \"Oklahoma Attorney General Reports\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"Okla. Att\u2019y Gen.\",\n            \"bluebook\": \"Okla. Att\u2019y Gen.\",\n            \"cases_in_corpus\": 11342,\n            \"years\": \"1922-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"oklacivapp\",\n            \"short_name\": \"Court of Civil Appeals of Oklahoma\",\n            \"full_name\": \"Court of Civil Appeals of Oklahoma\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Okla. Civ. App.\",\n            \"bluebook\": \"Okla. Civ. App.\",\n            \"cases_in_corpus\": 5694,\n            \"years\": \"1968-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"oklajeap\",\n            \"short_name\": \"Oklahoma Judicial Ethics Advisory Panel\",\n            \"full_name\": \"Oklahoma Judicial Ethics Advisory Panel\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"Okla. J.E.A.P.\",\n            \"bluebook\": \"Okla. J.E.A.P.\",\n            \"cases_in_corpus\": 108,\n            \"years\": \"1998-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"oklacoj\",\n            \"short_name\": \"Court on the Judiciary of Oklahoma\",\n            \"full_name\": \"Court on the Judiciary of Oklahoma\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"Okla. Ct. Jud.\",\n            \"bluebook\": \"Okla. Ct. Jud.\",\n            \"cases_in_corpus\": 10,\n            \"years\": \"1968-2002\",\n            \"active\": true\n        },\n        {\n            \"id\": \"circtedok\",\n            \"short_name\": \"U.S. Circuit Court for the District of Eastern Oklahoma\",\n            \"full_name\": \"U.S. Circuit Court for the District of Eastern Oklahoma\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 20,\n            \"years\": \"1907-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtwdok\",\n            \"short_name\": \"U.S. Circuit Court for the District of Western Oklahoma\",\n            \"full_name\": \"U.S. Circuit Court for the District of Western Oklahoma\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 6,\n            \"years\": \"1909-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"okd\",\n            \"short_name\": \"United States District Court for the District of Oklahoma\",\n            \"full_name\": \"United States District Court for the District of Oklahoma\",\n            \"jurisdiction\": \"FD\",\n            \"bluebook\": \"D. Okla.\",\n            \"cases_in_corpus\": 2,\n            \"years\": \"1908-1936\",\n            \"active\": false\n        },\n        {\n            \"id\": \"ilnb\",\n            \"short_name\": \"N.D. Illinois\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Illinois\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ill.\",\n            \"bluebook\": \"Bankr. N.D. Ill.\",\n            \"cases_in_corpus\": 2595,\n            \"years\": \"1978-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohnb\",\n            \"short_name\": \"N.D. Ohio\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Ohio\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ohio\",\n            \"bluebook\": \"Bankr. N.D. Ohio\",\n            \"cases_in_corpus\": 2466,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ganb\",\n            \"short_name\": \"N.D. Georgia\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Georgia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ga.\",\n            \"bluebook\": \"Bankr. N.D. Ga.\",\n            \"cases_in_corpus\": 1541,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txnb\",\n            \"short_name\": \"N.D. Texas\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Texas\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Tex.\",\n            \"bluebook\": \"Bankr. N.D. Tex.\",\n            \"cases_in_corpus\": 1362,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"alnb\",\n            \"short_name\": \"N.D. Alabama\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Alabama\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ala.\",\n            \"bluebook\": \"Bankr. N.D. Ala.\",\n            \"cases_in_corpus\": 643,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"canb\",\n            \"short_name\": \"N.D. California\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. California\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Cal.\",\n            \"bluebook\": \"Bankr. N.D. Cal.\",\n            \"cases_in_corpus\": 549,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ianb\",\n            \"short_name\": \"N.D. Iowa\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Iowa\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D. Iowa\",\n            \"bluebook\": \"Bankr. N.D. Iowa\",\n            \"cases_in_corpus\": 539,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nynb\",\n            \"short_name\": \"N.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D.N.Y.\",\n            \"bluebook\": \"Bankr. N.D.N.Y.\",\n            \"cases_in_corpus\": 526,\n            \"years\": \"1923-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"innb\",\n            \"short_name\": \"N.D. Indiana\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Indiana\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ind.\",\n            \"bluebook\": \"Bankr. N.D. Ind.\",\n            \"cases_in_corpus\": 430,\n            \"years\": \"1980-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"msnb\",\n            \"short_name\": \"N.D. Mississippi\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Mississippi\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Miss.\",\n            \"bluebook\": \"Bankr. N.D. Miss.\",\n            \"cases_in_corpus\": 364,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"state_ranking\": \"Courts of Oklahoma are listed first.\"\n}",
+   "json": {
+    "query": "Bankr. N.D. Okla.",
+    "courts": [
+     {
+      "id": "oknb",
+      "short_name": "N.D. Oklahoma",
+      "full_name": "United States Bankruptcy Court, N.D. Oklahoma",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Okla",
+      "bluebook": "Bankr. N.D. Okla.",
+      "cases_in_corpus": 423,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "oknd",
+      "short_name": "N.D. Oklahoma",
+      "full_name": "District Court, N.D. Oklahoma",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Okla.",
+      "bluebook": "N.D. Okla.",
+      "cases_in_corpus": 3087,
+      "years": "1925-2026",
+      "active": true
+     },
+     {
+      "id": "okwb",
+      "short_name": "W.D. Oklahoma",
+      "full_name": "United States Bankruptcy Court, W.D. Oklahoma",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D. Okla.",
+      "bluebook": "Bankr. W.D. Okla.",
+      "cases_in_corpus": 413,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "okeb",
+      "short_name": "E.D. Oklahoma",
+      "full_name": "United States Bankruptcy Court, E.D. Oklahoma",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Okla.",
+      "bluebook": "Bankr. E.D. Okla.",
+      "cases_in_corpus": 186,
+      "years": "1985-2026",
+      "active": true
+     },
+     {
+      "id": "okwd",
+      "short_name": "W.D. Oklahoma",
+      "full_name": "District Court, W.D. Oklahoma",
+      "jurisdiction": "FD",
+      "citation_string": "W.D. Okla.",
+      "bluebook": "W.D. Okla.",
+      "cases_in_corpus": 8370,
+      "years": "1910-2026",
+      "active": true
+     },
+     {
+      "id": "oked",
+      "short_name": "E.D. Oklahoma",
+      "full_name": "District Court, E.D. Oklahoma",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Okla.",
+      "bluebook": "E.D. Okla.",
+      "cases_in_corpus": 2439,
+      "years": "1908-2026",
+      "active": true
+     },
+     {
+      "id": "okla",
+      "short_name": "Supreme Court of Oklahoma",
+      "full_name": "Supreme Court of Oklahoma",
+      "jurisdiction": "S",
+      "citation_string": "Okla.",
+      "bluebook": "Okla.",
+      "cases_in_corpus": 43250,
+      "years": "1890-2026",
+      "active": true
+     },
+     {
+      "id": "oklacrimapp",
+      "short_name": "Court of Criminal Appeals of Oklahoma",
+      "full_name": "Court of Criminal Appeals of Oklahoma",
+      "jurisdiction": "SA",
+      "citation_string": "Okla. Crim. App.",
+      "bluebook": "Okla. Crim. App.",
+      "cases_in_corpus": 20747,
+      "years": "1900-2026",
+      "active": true
+     },
+     {
+      "id": "oklaag",
+      "short_name": "Oklahoma Attorney General Reports",
+      "full_name": "Oklahoma Attorney General Reports",
+      "jurisdiction": "SS",
+      "citation_string": "Okla. Att\u2019y Gen.",
+      "bluebook": "Okla. Att\u2019y Gen.",
+      "cases_in_corpus": 11342,
+      "years": "1922-2026",
+      "active": true
+     },
+     {
+      "id": "oklacivapp",
+      "short_name": "Court of Civil Appeals of Oklahoma",
+      "full_name": "Court of Civil Appeals of Oklahoma",
+      "jurisdiction": "SA",
+      "citation_string": "Okla. Civ. App.",
+      "bluebook": "Okla. Civ. App.",
+      "cases_in_corpus": 5694,
+      "years": "1968-2026",
+      "active": true
+     },
+     {
+      "id": "oklajeap",
+      "short_name": "Oklahoma Judicial Ethics Advisory Panel",
+      "full_name": "Oklahoma Judicial Ethics Advisory Panel",
+      "jurisdiction": "SS",
+      "citation_string": "Okla. J.E.A.P.",
+      "bluebook": "Okla. J.E.A.P.",
+      "cases_in_corpus": 108,
+      "years": "1998-2018",
+      "active": true
+     },
+     {
+      "id": "oklacoj",
+      "short_name": "Court on the Judiciary of Oklahoma",
+      "full_name": "Court on the Judiciary of Oklahoma",
+      "jurisdiction": "SS",
+      "citation_string": "Okla. Ct. Jud.",
+      "bluebook": "Okla. Ct. Jud.",
+      "cases_in_corpus": 10,
+      "years": "1968-2002",
+      "active": true
+     },
+     {
+      "id": "circtedok",
+      "short_name": "U.S. Circuit Court for the District of Eastern Oklahoma",
+      "full_name": "U.S. Circuit Court for the District of Eastern Oklahoma",
+      "jurisdiction": "F",
+      "cases_in_corpus": 20,
+      "years": "1907-1911",
+      "active": false
+     },
+     {
+      "id": "circtwdok",
+      "short_name": "U.S. Circuit Court for the District of Western Oklahoma",
+      "full_name": "U.S. Circuit Court for the District of Western Oklahoma",
+      "jurisdiction": "F",
+      "cases_in_corpus": 6,
+      "years": "1909-1911",
+      "active": false
+     },
+     {
+      "id": "okd",
+      "short_name": "United States District Court for the District of Oklahoma",
+      "full_name": "United States District Court for the District of Oklahoma",
+      "jurisdiction": "FD",
+      "bluebook": "D. Okla.",
+      "cases_in_corpus": 2,
+      "years": "1908-1936",
+      "active": false
+     },
+     {
+      "id": "ilnb",
+      "short_name": "N.D. Illinois",
+      "full_name": "United States Bankruptcy Court, N.D. Illinois",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ill.",
+      "bluebook": "Bankr. N.D. Ill.",
+      "cases_in_corpus": 2595,
+      "years": "1978-2026",
+      "active": true
+     },
+     {
+      "id": "ohnb",
+      "short_name": "N.D. Ohio",
+      "full_name": "United States Bankruptcy Court, N.D. Ohio",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ohio",
+      "bluebook": "Bankr. N.D. Ohio",
+      "cases_in_corpus": 2466,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "ganb",
+      "short_name": "N.D. Georgia",
+      "full_name": "United States Bankruptcy Court, N.D. Georgia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ga.",
+      "bluebook": "Bankr. N.D. Ga.",
+      "cases_in_corpus": 1541,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "txnb",
+      "short_name": "N.D. Texas",
+      "full_name": "United States Bankruptcy Court, N.D. Texas",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Tex.",
+      "bluebook": "Bankr. N.D. Tex.",
+      "cases_in_corpus": 1362,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "alnb",
+      "short_name": "N.D. Alabama",
+      "full_name": "United States Bankruptcy Court, N.D. Alabama",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ala.",
+      "bluebook": "Bankr. N.D. Ala.",
+      "cases_in_corpus": 643,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "canb",
+      "short_name": "N.D. California",
+      "full_name": "United States Bankruptcy Court, N.D. California",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Cal.",
+      "bluebook": "Bankr. N.D. Cal.",
+      "cases_in_corpus": 549,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "ianb",
+      "short_name": "N.D. Iowa",
+      "full_name": "United States Bankruptcy Court, N.D. Iowa",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D. Iowa",
+      "bluebook": "Bankr. N.D. Iowa",
+      "cases_in_corpus": 539,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "nynb",
+      "short_name": "N.D. New York",
+      "full_name": "United States Bankruptcy Court, N.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D.N.Y.",
+      "bluebook": "Bankr. N.D.N.Y.",
+      "cases_in_corpus": 526,
+      "years": "1923-2026",
+      "active": true
+     },
+     {
+      "id": "innb",
+      "short_name": "N.D. Indiana",
+      "full_name": "United States Bankruptcy Court, N.D. Indiana",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ind.",
+      "bluebook": "Bankr. N.D. Ind.",
+      "cases_in_corpus": 430,
+      "years": "1980-2018",
+      "active": true
+     },
+     {
+      "id": "msnb",
+      "short_name": "N.D. Mississippi",
+      "full_name": "United States Bankruptcy Court, N.D. Mississippi",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Miss.",
+      "bluebook": "Bankr. N.D. Miss.",
+      "cases_in_corpus": 364,
+      "years": "1980-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "state_ranking": "Courts of Oklahoma are listed first."
+   }
+  }
+ ]
+}

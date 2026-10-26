@@ -1,0 +1,111 @@
+{
+ "id": "cap-svc-02",
+ "class": "caption",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Give the Bluebook case name for 740 F.2d 100."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"740 F.2d 100\",\n            \"volume\": \"740\",\n            \"reporter\": \"F.2d\",\n            \"page\": \"100\",\n            \"pin\": null,\n            \"cluster_id\": 439212,\n            \"case\": {\n                \"case_name\": \"6 soc.sec.rep.ser. 142, Medicare&medicaid Gu 34,082 Rose Mayburg v. Secretary of Health and Human Services\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1984-08-02\",\n                \"court_id\": \"ca1\",\n                \"docket_number\": \"84-1022\",\n                \"citation_count\": 77,\n                \"court_label\": \"1st Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 36.404,\n                \"total_events\": 102,\n                \"distinct_courts\": 19,\n                \"top_neg_label\": \"51 soc.sec.rep.ser. 131, Medicare & Medicaid Guide P 44,456, 96 Cal. Daily Op. Serv. 4639, 96 Daily Journal D.A.R. 7469 Harold L. Stephenson Marie Lohse Joseph Ventimiglia and Dorothy Petrowicz v. Donna E. Shalala, Secretary, Department of Health and Human Services\",\n                \"top_neg_court\": \"ca9\",\n                \"top_neg_date\": \"1996-06-25\",\n                \"top_pos_label\": \"Navarro Pomares v. Pfizer Corporation\",\n                \"top_pos_court\": \"ca1\",\n                \"top_pos_date\": \"2001-08-20\",\n                \"top_quote_norm\": \"if congress is silent, courts may still infer from the particular statutory circumstances an implicit congressional instruction about the degree of respect or deference they owe the agency on a question of law.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": 720611,\n            \"neg_citers\": {\n                \"51 soc.sec.rep.ser. 131, medicare & medicaid guide p 44,456, 96 cal. daily op. serv. 4639, 96 daily journal d.a.r. 7469 harold l. stephenson marie lohse joseph ventimiglia and dorothy petrowicz v. donna e. shalala, secretary, department of health and human services\": {\n                    \"cid\": 720611,\n                    \"court\": \"ca9\"\n                },\n                \"stephenson v. shalala\": {\n                    \"cid\": 7036848,\n                    \"court\": \"ca9\"\n                },\n                \"cosby v. ward\": {\n                    \"cid\": 2301030,\n                    \"court\": \"ilnd\"\n                }\n            },\n            \"top_neg_court_label\": \"9th Cir.\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"6 soc.sec.rep.ser. 142, Medicare&medicaid Gu 34,082 Rose Mayburg v. Secretary of Health and Human Services\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/740-f-2d-100/rose-mayburg-v-secretary-of-health-and-human-services\",\n            \"link_md\": \"[6 soc.sec.rep.ser. 142, Medicare&medicaid Gu 34,082 Rose Mayburg v. Secretary of Health and Human Services](https://syfert.com/federal/circuits/cases/740-f-2d-100/rose-mayburg-v-secretary-of-health-and-human-services)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "740 F.2d 100",
+      "volume": "740",
+      "reporter": "F.2d",
+      "page": "100",
+      "pin": null,
+      "cluster_id": 439212,
+      "case": {
+       "case_name": "6 soc.sec.rep.ser. 142, Medicare&medicaid Gu 34,082 Rose Mayburg v. Secretary of Health and Human Services",
+       "case_name_short": null,
+       "date_filed": "1984-08-02",
+       "court_id": "ca1",
+       "docket_number": "84-1022",
+       "citation_count": 77,
+       "court_label": "1st Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 36.404,
+       "total_events": 102,
+       "distinct_courts": 19,
+       "top_neg_label": "51 soc.sec.rep.ser. 131, Medicare & Medicaid Guide P 44,456, 96 Cal. Daily Op. Serv. 4639, 96 Daily Journal D.A.R. 7469 Harold L. Stephenson Marie Lohse Joseph Ventimiglia and Dorothy Petrowicz v. Donna E. Shalala, Secretary, Department of Health and Human Services",
+       "top_neg_court": "ca9",
+       "top_neg_date": "1996-06-25",
+       "top_pos_label": "Navarro Pomares v. Pfizer Corporation",
+       "top_pos_court": "ca1",
+       "top_pos_date": "2001-08-20",
+       "top_quote_norm": "if congress is silent, courts may still infer from the particular statutory circumstances an implicit congressional instruction about the degree of respect or deference they owe the agency on a question of law.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": 720611,
+      "neg_citers": {
+       "51 soc.sec.rep.ser. 131, medicare & medicaid guide p 44,456, 96 cal. daily op. serv. 4639, 96 daily journal d.a.r. 7469 harold l. stephenson marie lohse joseph ventimiglia and dorothy petrowicz v. donna e. shalala, secretary, department of health and human services": {
+        "cid": 720611,
+        "court": "ca9"
+       },
+       "stephenson v. shalala": {
+        "cid": 7036848,
+        "court": "ca9"
+       },
+       "cosby v. ward": {
+        "cid": 2301030,
+        "court": "ilnd"
+       }
+      },
+      "top_neg_court_label": "9th Cir.",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "6 soc.sec.rep.ser. 142, Medicare&medicaid Gu 34,082 Rose Mayburg v. Secretary of Health and Human Services"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/740-f-2d-100/rose-mayburg-v-secretary-of-health-and-human-services",
+      "link_md": "[6 soc.sec.rep.ser. 142, Medicare&medicaid Gu 34,082 Rose Mayburg v. Secretary of Health and Human Services](https://syfert.com/federal/circuits/cases/740-f-2d-100/rose-mayburg-v-secretary-of-health-and-human-services)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

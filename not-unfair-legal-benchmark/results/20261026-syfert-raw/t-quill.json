@@ -1,0 +1,128 @@
+{
+ "id": "t-quill",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "504 U.S. 298",
+    "compact": true,
+    "case_name": "Quill Corp. v. North Dakota"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":112739,\"case_name\":\"Quill Corp. v. North Dakota Ex Rel. Heitkamp\",\"bluebook\":\"Quill Corp. v. North Dakota ex rel. Heitkamp, 504 U.S. 298 (1992)\",\"url\":\"https://syfert.com/federal/scotus/cases/504-u-s-298/quill-corp-v-north-dakota-ex-rel-heitkamp\",\"link_md\":\"[Quill Corp. v. North Dakota ex rel. Heitkamp, 504 U.S. 298 (1992)](https://syfert.com/federal/scotus/cases/504-u-s-298/quill-corp-v-north-dakota-ex-rel-heitkamp)\",\"compact\":true,\"treatment\":{\"flag\":\"red\",\"red\":9,\"yellow\":0,\"green\":1036,\"procedural\":0,\"strongest_signal\":\"Overruled\",\"strongest_citer\":\"South Dakota v. Wayfair, Inc.\",\"strongest_date\":\"2018-06-21\",\"strongest_citer_cluster_id\":4509418,\"scope\":\"Overruled by South Dakota v. Wayfair, Inc. on other grounds: 4 citing opinions limit it to other grounds, 1 says in part, and 6 say overruled outright.\",\"strongest_citer_source\":\"overruled_by\",\"strongest_citer_published\":true,\"flag_basis\":\"overruled_by\",\"flag_reason\":\"Overruled by South Dakota v. Wayfair, Inc. on other grounds: 4 citing opinions limit it to other grounds, 1 says in part, and 6 say overruled outright.\",\"flag_evidence\":[\"citing_events\",\"overruled_by\",\"scope\",\"validated_annotations\"],\"proposition_note\":\"Case is red overall (Overruled; 1045 citing treatments), but 2 of the propositions it is cited for carry no negative signal of their own: \\\"structural concerns about the effects of state regulation on the national economy.\\\" (15 citers, 1 in the last 10 years); \\\"limit the reach of state taxing author\u2026\"},\"overruled_by\":{\"kind\":\"case\",\"verb\":\"overruled\",\"case_name\":\"South Dakota v. Wayfair, Inc.\",\"cluster_id\":4509418,\"year\":2018,\"url\":\"https://syfert.com/federal/scotus/cases/585-u-s-162/south-dakota-v-wayfair-inc\",\"consensus\":\"4 of 5 annotating opinions\"},\"scope\":{\"scope_text\":\"Overruled by South Dakota v. Wayfair, Inc. on other grounds: 4 citing opinions limit it to other grounds, 1 says in part, and 6 say overruled outright.\",\"n_plain\":6,\"n_other_grounds\":4,\"n_in_part\":1,\"n_qualified_other\":0,\"qualifier_top\":\"on other grounds\"},\"still_good_companions\":[{\"case_name\":\"Brady\",\"cluster_id\":109615,\"year\":1977,\"url\":\"https://syfert.com/federal/scotus/cases/430-u-s-274/complete-auto-transit-inc-v-brady\"}],\"negative_citers\":[{\"case_name\":\"NBCUniversal Enterprise, Inc. v. Dept. of Rev.\",\"link_md\":\"[NBCUniversal Enter., Inc. v. Dept. of Rev., No. TC-MD 170037R (Or. T.C. Jan. 7, 2026)](https://syfert.com/oregon/cases/cl-10770624/nbcuniversal-enterprise-inc-v-dept-of-rev)\",\"date\":\"2026-01-07\",\"signal\":\"Overruled\",\"context\":\"To support their position, Plaintiffs rely on Quill Corp. v. North Dakota By & Through Heitkamp, 504 US 298 , 112 S Ct\u2026\"},{\"case_name\":\"Vickie Kansler v. Mississippi Department of Revenue\",\"link_md\":\"[Kansler v. Mississippi Dep't of Revenue, 263 So. 3d 641 (Miss. 2018)](https://syfert.com/mississippi/cases/263-so-3d-641/vickie-kansler-v-mississippi-department-of-revenue)\",\"date\":\"2018-11-29\",\"signal\":\"Overruled\",\"context\":\"The challenge to the law was based on Quill Corp. v. North Dakota , 504 U.S. 298 , 112 S.Ct. 1904 , 119 L.Ed.2d 91\u2026\"}],\"propositions_summary\":[{\"prop_rank\":1,\"proposition\":\"structural concerns about the effects of state regulation on the national economy.\",\"n_citers\":15,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":3,\"proposition\":\"limit the reach of state taxing authority so as to ensure that state taxation does not unduly burden interstate commerce.\",\"n_citers\":11,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":2,\"proposition\":\"we have not, in our review of other types of taxes, articulated the same physical-presence requirement that bellas hess established for sales and use taxes.\",\"n_citers\":6,\"flag\":\"yellow\",\"red\":0,\"yellow\":0,\"top_negative\":null}],\"counts\":{\"citers_shown_in_full_answer\":25,\"negative_citers_shown_in_full_answer\":2,\"red\":9,\"yellow\":0,\"green\":1036,\"propositions\":3},\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\"}",
+   "json": {
+    "cluster_id": 112739,
+    "case_name": "Quill Corp. v. North Dakota Ex Rel. Heitkamp",
+    "bluebook": "Quill Corp. v. North Dakota ex rel. Heitkamp, 504 U.S. 298 (1992)",
+    "url": "https://syfert.com/federal/scotus/cases/504-u-s-298/quill-corp-v-north-dakota-ex-rel-heitkamp",
+    "link_md": "[Quill Corp. v. North Dakota ex rel. Heitkamp, 504 U.S. 298 (1992)](https://syfert.com/federal/scotus/cases/504-u-s-298/quill-corp-v-north-dakota-ex-rel-heitkamp)",
+    "compact": true,
+    "treatment": {
+     "flag": "red",
+     "red": 9,
+     "yellow": 0,
+     "green": 1036,
+     "procedural": 0,
+     "strongest_signal": "Overruled",
+     "strongest_citer": "South Dakota v. Wayfair, Inc.",
+     "strongest_date": "2018-06-21",
+     "strongest_citer_cluster_id": 4509418,
+     "scope": "Overruled by South Dakota v. Wayfair, Inc. on other grounds: 4 citing opinions limit it to other grounds, 1 says in part, and 6 say overruled outright.",
+     "strongest_citer_source": "overruled_by",
+     "strongest_citer_published": true,
+     "flag_basis": "overruled_by",
+     "flag_reason": "Overruled by South Dakota v. Wayfair, Inc. on other grounds: 4 citing opinions limit it to other grounds, 1 says in part, and 6 say overruled outright.",
+     "flag_evidence": [
+      "citing_events",
+      "overruled_by",
+      "scope",
+      "validated_annotations"
+     ],
+     "proposition_note": "Case is red overall (Overruled; 1045 citing treatments), but 2 of the propositions it is cited for carry no negative signal of their own: \"structural concerns about the effects of state regulation on the national economy.\" (15 citers, 1 in the last 10 years); \"limit the reach of state taxing author\u2026"
+    },
+    "overruled_by": {
+     "kind": "case",
+     "verb": "overruled",
+     "case_name": "South Dakota v. Wayfair, Inc.",
+     "cluster_id": 4509418,
+     "year": 2018,
+     "url": "https://syfert.com/federal/scotus/cases/585-u-s-162/south-dakota-v-wayfair-inc",
+     "consensus": "4 of 5 annotating opinions"
+    },
+    "scope": {
+     "scope_text": "Overruled by South Dakota v. Wayfair, Inc. on other grounds: 4 citing opinions limit it to other grounds, 1 says in part, and 6 say overruled outright.",
+     "n_plain": 6,
+     "n_other_grounds": 4,
+     "n_in_part": 1,
+     "n_qualified_other": 0,
+     "qualifier_top": "on other grounds"
+    },
+    "still_good_companions": [
+     {
+      "case_name": "Brady",
+      "cluster_id": 109615,
+      "year": 1977,
+      "url": "https://syfert.com/federal/scotus/cases/430-u-s-274/complete-auto-transit-inc-v-brady"
+     }
+    ],
+    "negative_citers": [
+     {
+      "case_name": "NBCUniversal Enterprise, Inc. v. Dept. of Rev.",
+      "link_md": "[NBCUniversal Enter., Inc. v. Dept. of Rev., No. TC-MD 170037R (Or. T.C. Jan. 7, 2026)](https://syfert.com/oregon/cases/cl-10770624/nbcuniversal-enterprise-inc-v-dept-of-rev)",
+      "date": "2026-01-07",
+      "signal": "Overruled",
+      "context": "To support their position, Plaintiffs rely on Quill Corp. v. North Dakota By & Through Heitkamp, 504 US 298 , 112 S Ct\u2026"
+     },
+     {
+      "case_name": "Vickie Kansler v. Mississippi Department of Revenue",
+      "link_md": "[Kansler v. Mississippi Dep't of Revenue, 263 So. 3d 641 (Miss. 2018)](https://syfert.com/mississippi/cases/263-so-3d-641/vickie-kansler-v-mississippi-department-of-revenue)",
+      "date": "2018-11-29",
+      "signal": "Overruled",
+      "context": "The challenge to the law was based on Quill Corp. v. North Dakota , 504 U.S. 298 , 112 S.Ct. 1904 , 119 L.Ed.2d 91\u2026"
+     }
+    ],
+    "propositions_summary": [
+     {
+      "prop_rank": 1,
+      "proposition": "structural concerns about the effects of state regulation on the national economy.",
+      "n_citers": 15,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 3,
+      "proposition": "limit the reach of state taxing authority so as to ensure that state taxation does not unduly burden interstate commerce.",
+      "n_citers": 11,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 2,
+      "proposition": "we have not, in our review of other types of taxes, articulated the same physical-presence requirement that bellas hess established for sales and use taxes.",
+      "n_citers": 6,
+      "flag": "yellow",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     }
+    ],
+    "counts": {
+     "citers_shown_in_full_answer": 25,
+     "negative_citers_shown_in_full_answer": 2,
+     "red": 9,
+     "yellow": 0,
+     "green": 1036,
+     "propositions": 3
+    },
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context."
+   }
+  }
+ ]
+}

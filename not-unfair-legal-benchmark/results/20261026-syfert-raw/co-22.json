@@ -1,0 +1,107 @@
+{
+ "id": "co-22",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "United States v. Denton, 611 F.3d 646."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"611 F.3d 646\",\n            \"volume\": \"611\",\n            \"reporter\": \"F.3d\",\n            \"page\": \"646\",\n            \"pin\": null,\n            \"cluster_id\": 150347,\n            \"case\": {\n                \"case_name\": \"United States v. Denton\",\n                \"case_name_short\": \"Denton\",\n                \"date_filed\": \"2010-07-09\",\n                \"court_id\": \"ca9\",\n                \"docket_number\": \"09-50253\",\n                \"citation_count\": 0,\n                \"court_label\": \"9th Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 28.009,\n                \"total_events\": 16,\n                \"distinct_courts\": 2,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"United States v. Tyrone Davis\",\n                \"top_pos_court\": \"ca9\",\n                \"top_pos_date\": \"2016-06-13\",\n                \"top_quote_norm\": null,\n                \"twins_merged\": [\n                    593\n                ],\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"United States\",\n                \"rhs\": \"Denton\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"United States\",\n                    \"rhs\": \"Denton\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"United States v. Denton\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/611-f-3d-646/united-states-v-denton\",\n            \"link_md\": \"[United States v. Denton](https://syfert.com/federal/circuits/cases/611-f-3d-646/united-states-v-denton)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "611 F.3d 646",
+      "volume": "611",
+      "reporter": "F.3d",
+      "page": "646",
+      "pin": null,
+      "cluster_id": 150347,
+      "case": {
+       "case_name": "United States v. Denton",
+       "case_name_short": "Denton",
+       "date_filed": "2010-07-09",
+       "court_id": "ca9",
+       "docket_number": "09-50253",
+       "citation_count": 0,
+       "court_label": "9th Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 28.009,
+       "total_events": 16,
+       "distinct_courts": 2,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "United States v. Tyrone Davis",
+       "top_pos_court": "ca9",
+       "top_pos_date": "2016-06-13",
+       "top_quote_norm": null,
+       "twins_merged": [
+        593
+       ],
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "United States",
+       "rhs": "Denton"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "United States",
+        "rhs": "Denton"
+       },
+       "verdict": "match",
+       "resolved_name": "United States v. Denton"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/611-f-3d-646/united-states-v-denton",
+      "link_md": "[United States v. Denton](https://syfert.com/federal/circuits/cases/611-f-3d-646/united-states-v-denton)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

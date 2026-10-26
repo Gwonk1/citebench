@@ -1,0 +1,107 @@
+{
+ "id": "pin-12",
+ "class": "pagination",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "554 U.S. 571."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 0,\n        \"unresolved\": 1,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [\n        \"1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"554 U.S. 571\",\n            \"problem\": \"page 571 is inside District of Columbia v. Heller, which begins at 554 U.S. 570; did you mean District of Columbia v. Heller at 571? If not, verify the citation with check_citation (pass expected_case_name) or remove it.\",\n            \"suggested\": null,\n            \"did_you_mean\": \"District of Columbia v. Heller, 554 U.S. 570, 571 (2008)\",\n            \"interior_of\": {\n                \"cluster_id\": 145777,\n                \"case_name\": \"District of Columbia v. Heller\",\n                \"first_page\": 570\n            },\n            \"verdict\": \"interior_pin\",\n            \"verdict_evidence\": \"span_unclaimed\"\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"554 U.S. 571\",\n            \"volume\": \"554\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"571\",\n            \"pin\": null,\n            \"cluster_id\": null,\n            \"interior_of\": {\n                \"cluster_id\": 145777,\n                \"case_name\": \"District of Columbia v. Heller\",\n                \"bluebook\": \"District of Columbia v. Heller, 554 U.S. 570 (2008)\",\n                \"first_page\": 570,\n                \"first_page_citation\": \"554 U.S. 570\",\n                \"span\": {\n                    \"last_page\": 723,\n                    \"via\": \"opinion_text\"\n                },\n                \"cite_as\": \"District of Columbia v. Heller, 554 U.S. 570, 571 (2008)\",\n                \"advice\": \"page 571 is inside District of Columbia v. Heller, which begins at 554 U.S. 570; did you mean District of Columbia v. Heller at 571?\"\n            },\n            \"did_you_mean\": [\n                {\n                    \"cluster_id\": 145777,\n                    \"page\": \"570\",\n                    \"case_name\": \"District of Columbia v. Heller\",\n                    \"year\": \"2008\",\n                    \"court_label\": \"\",\n                    \"delta\": 1,\n                    \"namerank\": 0\n                }\n            ],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": null,\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"verdict\": \"interior_pin\",\n            \"verdict_evidence\": \"span_unclaimed\",\n            \"unindexed_advice\": \"page 571 is inside District of Columbia v. Heller, which begins at 554 U.S. 570; did you mean District of Columbia v. Heller at 571?\",\n            \"volume_coverage\": {\n                \"first_pages\": 25,\n                \"coverage_pct\": 24,\n                \"year_lo\": 2007,\n                \"year_hi\": 2008\n            },\n            \"corpus_check\": \"ran\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 0,
+     "unresolved": 1,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [
+     "1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps."
+    ],
+    "corrections": [
+     {
+      "raw": "554 U.S. 571",
+      "problem": "page 571 is inside District of Columbia v. Heller, which begins at 554 U.S. 570; did you mean District of Columbia v. Heller at 571? If not, verify the citation with check_citation (pass expected_case_name) or remove it.",
+      "suggested": null,
+      "did_you_mean": "District of Columbia v. Heller, 554 U.S. 570, 571 (2008)",
+      "interior_of": {
+       "cluster_id": 145777,
+       "case_name": "District of Columbia v. Heller",
+       "first_page": 570
+      },
+      "verdict": "interior_pin",
+      "verdict_evidence": "span_unclaimed"
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "554 U.S. 571",
+      "volume": "554",
+      "reporter": "U.S.",
+      "page": "571",
+      "pin": null,
+      "cluster_id": null,
+      "interior_of": {
+       "cluster_id": 145777,
+       "case_name": "District of Columbia v. Heller",
+       "bluebook": "District of Columbia v. Heller, 554 U.S. 570 (2008)",
+       "first_page": 570,
+       "first_page_citation": "554 U.S. 570",
+       "span": {
+        "last_page": 723,
+        "via": "opinion_text"
+       },
+       "cite_as": "District of Columbia v. Heller, 554 U.S. 570, 571 (2008)",
+       "advice": "page 571 is inside District of Columbia v. Heller, which begins at 554 U.S. 570; did you mean District of Columbia v. Heller at 571?"
+      },
+      "did_you_mean": [
+       {
+        "cluster_id": 145777,
+        "page": "570",
+        "case_name": "District of Columbia v. Heller",
+        "year": "2008",
+        "court_label": "",
+        "delta": 1,
+        "namerank": 0
+       }
+      ],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": null,
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "verdict": "interior_pin",
+      "verdict_evidence": "span_unclaimed",
+      "unindexed_advice": "page 571 is inside District of Columbia v. Heller, which begins at 554 U.S. 570; did you mean District of Columbia v. Heller at 571?",
+      "volume_coverage": {
+       "first_pages": 25,
+       "coverage_pct": 24,
+       "year_lo": 2007,
+       "year_hi": 2008
+      },
+      "corpus_check": "ran"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

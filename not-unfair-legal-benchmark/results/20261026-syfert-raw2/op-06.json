@@ -1,0 +1,141 @@
+{
+ "id": "op-06",
+ "class": "coverage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Natasha Porteous v. Capital One Services II, LLC, 809 F. App'x 354."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"unpublished_citations\": 1\n    },\n    \"warnings\": [\n        \"1 cited case(s) are UNPUBLISHED opinions (cites[].citability names the issuing court's citation rule). Cite a published case for the point, or keep each as persuasive authority as its rule allows.\"\n    ],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"809 F. App'x 354\",\n            \"volume\": \"809\",\n            \"reporter\": \"F. App'x\",\n            \"page\": \"354\",\n            \"pin\": null,\n            \"cluster_id\": 4744917,\n            \"case\": {\n                \"case_name\": \"Natasha Porteous v. Capital One Services II, LLC\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2020-04-14\",\n                \"court_id\": \"ca9\",\n                \"docket_number\": \"18-16336\",\n                \"citation_count\": 0,\n                \"court_label\": \"9th Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 19.6,\n                \"total_events\": 9,\n                \"distinct_courts\": 3,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Dwight Malloy v. Amazon.com Services, LLC\",\n                \"top_pos_court\": \"nvd\",\n                \"top_pos_date\": \"2026-08-19\",\n                \"top_quote_norm\": \"the mwa uses the language \\\" 9   per hour worked,\\\" nev. const. art. 15,  16, in contrast to the flsa's \\\" an 10  hour,\\\" 29 u.s.c.  206 (a)(1).\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Natasha Porteous\",\n                \"rhs\": \"Capital One Services II, LLC\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Natasha Porteous\",\n                    \"rhs\": \"Capital One Services II, LLC\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Natasha Porteous v. Capital One Services II, LLC\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/809-f-appx-354/natasha-porteous-v-capital-one-services-ii-llc\",\n            \"link_md\": \"[Natasha Porteous v. Capital One Services II, LLC](https://syfert.com/federal/circuits/cases/809-f-appx-354/natasha-porteous-v-capital-one-services-ii-llc)\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"809 F. App'x 354\",\n                    \"recovered_from_citing_opinions\": 2,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"name_year\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation recovered from 2 citing opinions that cite this case by name and year (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"citing_cluster_ids\": [\n                        10735377,\n                        10736122\n                    ]\n                }\n            ],\n            \"citability\": {\n                \"kind\": \"unpublished_citation\",\n                \"severity\": \"caution\",\n                \"status\": \"Unpublished\",\n                \"status_source\": \"courtlistener\",\n                \"court\": \"ca9\",\n                \"decided\": \"2020-04-14\",\n                \"rule\": \"9th Cir. R. 36-3(a), (b)\",\n                \"rule_key\": \"ca9_36-3_post2007\",\n                \"may_cite\": \"persuasive\",\n                \"reading\": \"may be cited for persuasive value only; it is not binding precedent\",\n                \"rule_excerpt\": \"Not Precedent. Unpublished dispositions and orders of this Court are not precedent, except when relevant under the doctrine of law of the case or rules of claim preclusion or issue preclusion. (b) Citation of Unpublished Dispositions and Orders Issued on or after January 1, 2007.\",\n                \"rule_url\": \"https://cdn.ca9.uscourts.gov/datastore/uploads/rules/frap.pdf\",\n                \"our_reading\": \"Post-2007 Ninth Circuit memoranda: citable, non-precedential.\",\n                \"message\": \"Under 9th Cir. R. 36-3(a), (b), this unpublished 9th Cir. opinion (decided 2020-04-14) is not binding precedent and may be cited for its persuasive value only; mark it as unpublished in the citation, or cite a published case for the point. Rule conditions: Not precedent (except law of the case / claim or issue preclusion); citable under FRAP 32.1.\",\n                \"fix\": \"Keep it as persuasive authority with the notation the rule requires, or cite a published case for the point.\",\n                \"forum_note\": \"This is the rule of the court that issued the opinion; the court you file in may apply its own.\",\n                \"reviewed\": null\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "unpublished_citations": 1
+    },
+    "warnings": [
+     "1 cited case(s) are UNPUBLISHED opinions (cites[].citability names the issuing court's citation rule). Cite a published case for the point, or keep each as persuasive authority as its rule allows."
+    ],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "809 F. App'x 354",
+      "volume": "809",
+      "reporter": "F. App'x",
+      "page": "354",
+      "pin": null,
+      "cluster_id": 4744917,
+      "case": {
+       "case_name": "Natasha Porteous v. Capital One Services II, LLC",
+       "case_name_short": null,
+       "date_filed": "2020-04-14",
+       "court_id": "ca9",
+       "docket_number": "18-16336",
+       "citation_count": 0,
+       "court_label": "9th Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 19.6,
+       "total_events": 9,
+       "distinct_courts": 3,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Dwight Malloy v. Amazon.com Services, LLC",
+       "top_pos_court": "nvd",
+       "top_pos_date": "2026-08-19",
+       "top_quote_norm": "the mwa uses the language \" 9   per hour worked,\" nev. const. art. 15,  16, in contrast to the flsa's \" an 10  hour,\" 29 u.s.c.  206 (a)(1).",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Natasha Porteous",
+       "rhs": "Capital One Services II, LLC"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Natasha Porteous",
+        "rhs": "Capital One Services II, LLC"
+       },
+       "verdict": "match",
+       "resolved_name": "Natasha Porteous v. Capital One Services II, LLC"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/809-f-appx-354/natasha-porteous-v-capital-one-services-ii-llc",
+      "link_md": "[Natasha Porteous v. Capital One Services II, LLC](https://syfert.com/federal/circuits/cases/809-f-appx-354/natasha-porteous-v-capital-one-services-ii-llc)",
+      "citation_provenance": [
+       {
+        "citation": "809 F. App'x 354",
+        "recovered_from_citing_opinions": 2,
+        "source": "name_year_recovery",
+        "via": "gapfill",
+        "method": "name_year",
+        "confidence": 0.9,
+        "note": "Reporter citation recovered from 2 citing opinions that cite this case by name and year (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+        "citing_cluster_ids": [
+         10735377,
+         10736122
+        ]
+       }
+      ],
+      "citability": {
+       "kind": "unpublished_citation",
+       "severity": "caution",
+       "status": "Unpublished",
+       "status_source": "courtlistener",
+       "court": "ca9",
+       "decided": "2020-04-14",
+       "rule": "9th Cir. R. 36-3(a), (b)",
+       "rule_key": "ca9_36-3_post2007",
+       "may_cite": "persuasive",
+       "reading": "may be cited for persuasive value only; it is not binding precedent",
+       "rule_excerpt": "Not Precedent. Unpublished dispositions and orders of this Court are not precedent, except when relevant under the doctrine of law of the case or rules of claim preclusion or issue preclusion. (b) Citation of Unpublished Dispositions and Orders Issued on or after January 1, 2007.",
+       "rule_url": "https://cdn.ca9.uscourts.gov/datastore/uploads/rules/frap.pdf",
+       "our_reading": "Post-2007 Ninth Circuit memoranda: citable, non-precedential.",
+       "message": "Under 9th Cir. R. 36-3(a), (b), this unpublished 9th Cir. opinion (decided 2020-04-14) is not binding precedent and may be cited for its persuasive value only; mark it as unpublished in the citation, or cite a published case for the point. Rule conditions: Not precedent (except law of the case / claim or issue preclusion); citable under FRAP 32.1.",
+       "fix": "Keep it as persuasive authority with the notation the rule requires, or cite a published case for the point.",
+       "forum_note": "This is the rule of the court that issued the opinion; the court you file in may apply its own.",
+       "reviewed": null
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "id": "t-abood",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "431 U.S. 209",
+    "compact": true,
+    "case_name": "Abood v. Detroit Board of Education"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":109661,\"case_name\":\"Abood v. Detroit Board of Education\",\"bluebook\":\"Abood v. Detroit Bd. of Educ., 431 U.S. 209 (1977)\",\"url\":\"https://syfert.com/federal/scotus/cases/431-u-s-209/abood-v-detroit-board-of-education\",\"link_md\":\"[Abood v. Detroit Bd. of Educ., 431 U.S. 209 (1977)](https://syfert.com/federal/scotus/cases/431-u-s-209/abood-v-detroit-board-of-education)\",\"compact\":true,\"treatment\":{\"flag\":\"red\",\"red\":10,\"yellow\":13,\"green\":1501,\"procedural\":0,\"strongest_signal\":\"Overruled\",\"strongest_citer\":\"Janus v. State, County, and Municipal Employees\",\"strongest_date\":\"2018-06-27\",\"strongest_citer_cluster_id\":4511640,\"scope\":\"Overruled by Janus v. State, County, and Municipal Employees: 21 citing opinions say overruled.\",\"strongest_citer_source\":\"overruled_by\",\"strongest_citer_published\":true,\"flag_basis\":\"overruled_by\",\"flag_reason\":\"Overruled by Janus v. State, County, and Municipal Employees: 21 citing opinions say overruled.\",\"flag_evidence\":[\"citing_events\",\"overruled_by\",\"scope\",\"validated_annotations\"],\"proposition_note\":\"Case is red overall (Overruled; 1524 citing treatments), but 3 of the propositions it is cited for carry no negative signal of their own: \\\"constitutionally justified by the legislative assessment of the important contribution of the union\u2026\\\" (22 citers, 0 in the last 10 years); \\\"prevent the union's\u2026\"},\"overruled_by\":{\"kind\":\"case\",\"verb\":\"overruled\",\"case_name\":\"Janus v. State, County, and Municipal Employees\",\"cluster_id\":4511640,\"year\":2018,\"url\":\"https://syfert.com/federal/scotus/cases/585-u-s-878/janus-v-state-county-and-municipal-employees\",\"consensus\":\"18 of 18 annotating opinions\"},\"scope\":{\"scope_text\":\"Overruled by Janus v. State, County, and Municipal Employees: 21 citing opinions say overruled.\",\"n_plain\":21,\"n_other_grounds\":0,\"n_in_part\":0,\"n_qualified_other\":0,\"qualifier_top\":null},\"still_good_companions\":[{\"case_name\":\"Teachers\",\"cluster_id\":111609,\"year\":1986,\"url\":\"https://syfert.com/federal/scotus/cases/475-u-s-292/chicago-teachers-union-local-no-1-v-hudson\"},{\"case_name\":\"MacHinists\",\"cluster_id\":106288,\"year\":1961,\"url\":\"https://syfert.com/federal/scotus/cases/367-u-s-740/international-assn-of-machinists-v-street\"},{\"case_name\":\"Ellis\",\"cluster_id\":111161,\"year\":1984,\"url\":\"https://syfert.com/federal/scotus/cases/466-u-s-435/ellis-v-brotherhood-of-railway-airline-steamship-clerks-freight\"}],\"negative_citers\":[{\"case_name\":\"Technical Prof and Officeworkers Assn of Mi v. Daniel Lee Renner\",\"link_md\":\"[Technical Prof & Officeworkers Assn of Mi v. Renner, 15 N.W.3d 524 (Mich. 2024)](https://syfert.com/michigan/cases/513-mich-57/technical-prof-and-officeworkers-assn-of-mi-v-daniel-lee-renner)\",\"date\":\"2024-04-22\",\"signal\":\"Overruled\",\"signal_phrase\":\"see\",\"context\":\"See Abood v Detroit Bd of Ed, 431 US 209, 211 ; 97 S Ct 1782 ; 52 L Ed 2d 261 (1977), overruled by Janus, 585 US 878 .\"},{\"case_name\":\"Bradley Boardman v. Jay Inslee\",\"link_md\":\"[Boardman v. Inslee, 978 F.3d 1092 (9th Cir. 2020)](https://syfert.com/federal/circuits/cases/978-f-3d-1092/bradley-boardman-v-jay-inslee)\",\"date\":\"2020-10-22\",\"signal\":\"Overruled\",\"context\":\"Emps., Council 31, 138 S. Ct. 2448, 2460 (2018) (alteration adopted) (quoting Abood v. Detroit Bd. of Educ., 431 U.S.\u2026\"},{\"case_name\":\"Melissa Belgau v. Jay Inslee\",\"link_md\":\"[Belgau v. Inslee, 975 F.3d 940 (9th Cir. 2020)](https://syfert.com/federal/circuits/cases/975-f-3d-940/melissa-belgau-v-jay-inslee)\",\"date\":\"2020-09-16\",\"signal\":\"Overruled\",\"signal_phrase\":\"see\",\"context\":\"See Abood v. Detroit Bd. of Educ., 431 U.S. 209, 232, 235 (1977), overruled by Janus, 138 S. Ct. 2448 .\"},{\"case_name\":\"Donohue v. Milan Donohue\",\"link_md\":\"[Donohue v. Milan Donohue, No. 17-2832-cv, 17-2833-cv, 17-2834-cv (2d Cir. Nov. 18, 2019)](https://syfert.com/federal/circuits/cases/cl-4679364/donohue-v-milan-donohue-v-milan-nys-thruway-emps-v-nys-thruway)\",\"date\":\"2019-11-18\",\"signal\":\"Overruled\",\"context\":\"In accordance with 3 then\u2010governing law, see Abood v. Detroit Bd. of Educ., 431 U.S. 209 , 235\u201342 4 (1977), overruled\u2026\"},{\"case_name\":\"Gerawan Farming, Inc. v. Agricultural Labor Relations Bd.\",\"link_md\":\"[Gerawan Farming, Inc. v. Agric. Labor Relations Bd., 40 Cal. App. 5th 241 (Cal. Ct. App. 2019)](https://syfert.com/california/cases/40-cal-app-5th-241/gerawan-farming-inc-v-agricultural-labor-relations-bd)\",\"date\":\"2019-09-24\",\"signal\":\"Overruled\",\"context\":\"Moreover, the principle of union exclusivity is not being used to \u201cmuzzle a public employee who, like any other\u2026\"}],\"propositions_summary\":[{\"prop_rank\":1,\"proposition\":\"constitutionally justified by the legislative assessment of the important contribution of the union shop to the system of labor relations established by congress.\",\"n_citers\":22,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":2,\"proposition\":\"prevent the union's spending a part of their required service fees to contribute to political candidates and to express political views unrelated to its duties as exclusive bargaining representative.\",\"n_citers\":21,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null},{\"prop_rank\":3,\"proposition\":\"the objective must be to devise a way of preventing compulsory subsidization of ideological activity by employees who object thereto without restricting the union's ability to require every employee\u2026\",\"n_citers\":13,\"flag\":\"green\",\"red\":0,\"yellow\":0,\"top_negative\":null}],\"counts\":{\"citers_shown_in_full_answer\":25,\"negative_citers_shown_in_full_answer\":11,\"red\":10,\"yellow\":13,\"green\":1501,\"propositions\":3},\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"narrative_note\":\"1 citing opinion the classifier counted as green support is shown yellow (\\\"Questioned (narrative)\\\") because its own text questions this case; classified_flag_color keeps the classifier's value. The flag and counts are unchanged.\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\"}",
+   "json": {
+    "cluster_id": 109661,
+    "case_name": "Abood v. Detroit Board of Education",
+    "bluebook": "Abood v. Detroit Bd. of Educ., 431 U.S. 209 (1977)",
+    "url": "https://syfert.com/federal/scotus/cases/431-u-s-209/abood-v-detroit-board-of-education",
+    "link_md": "[Abood v. Detroit Bd. of Educ., 431 U.S. 209 (1977)](https://syfert.com/federal/scotus/cases/431-u-s-209/abood-v-detroit-board-of-education)",
+    "compact": true,
+    "treatment": {
+     "flag": "red",
+     "red": 10,
+     "yellow": 13,
+     "green": 1501,
+     "procedural": 0,
+     "strongest_signal": "Overruled",
+     "strongest_citer": "Janus v. State, County, and Municipal Employees",
+     "strongest_date": "2018-06-27",
+     "strongest_citer_cluster_id": 4511640,
+     "scope": "Overruled by Janus v. State, County, and Municipal Employees: 21 citing opinions say overruled.",
+     "strongest_citer_source": "overruled_by",
+     "strongest_citer_published": true,
+     "flag_basis": "overruled_by",
+     "flag_reason": "Overruled by Janus v. State, County, and Municipal Employees: 21 citing opinions say overruled.",
+     "flag_evidence": [
+      "citing_events",
+      "overruled_by",
+      "scope",
+      "validated_annotations"
+     ],
+     "proposition_note": "Case is red overall (Overruled; 1524 citing treatments), but 3 of the propositions it is cited for carry no negative signal of their own: \"constitutionally justified by the legislative assessment of the important contribution of the union\u2026\" (22 citers, 0 in the last 10 years); \"prevent the union's\u2026"
+    },
+    "overruled_by": {
+     "kind": "case",
+     "verb": "overruled",
+     "case_name": "Janus v. State, County, and Municipal Employees",
+     "cluster_id": 4511640,
+     "year": 2018,
+     "url": "https://syfert.com/federal/scotus/cases/585-u-s-878/janus-v-state-county-and-municipal-employees",
+     "consensus": "18 of 18 annotating opinions"
+    },
+    "scope": {
+     "scope_text": "Overruled by Janus v. State, County, and Municipal Employees: 21 citing opinions say overruled.",
+     "n_plain": 21,
+     "n_other_grounds": 0,
+     "n_in_part": 0,
+     "n_qualified_other": 0,
+     "qualifier_top": null
+    },
+    "still_good_companions": [
+     {
+      "case_name": "Teachers",
+      "cluster_id": 111609,
+      "year": 1986,
+      "url": "https://syfert.com/federal/scotus/cases/475-u-s-292/chicago-teachers-union-local-no-1-v-hudson"
+     },
+     {
+      "case_name": "MacHinists",
+      "cluster_id": 106288,
+      "year": 1961,
+      "url": "https://syfert.com/federal/scotus/cases/367-u-s-740/international-assn-of-machinists-v-street"
+     },
+     {
+      "case_name": "Ellis",
+      "cluster_id": 111161,
+      "year": 1984,
+      "url": "https://syfert.com/federal/scotus/cases/466-u-s-435/ellis-v-brotherhood-of-railway-airline-steamship-clerks-freight"
+     }
+    ],
+    "negative_citers": [
+     {
+      "case_name": "Technical Prof and Officeworkers Assn of Mi v. Daniel Lee Renner",
+      "link_md": "[Technical Prof & Officeworkers Assn of Mi v. Renner, 15 N.W.3d 524 (Mich. 2024)](https://syfert.com/michigan/cases/513-mich-57/technical-prof-and-officeworkers-assn-of-mi-v-daniel-lee-renner)",
+      "date": "2024-04-22",
+      "signal": "Overruled",
+      "signal_phrase": "see",
+      "context": "See Abood v Detroit Bd of Ed, 431 US 209, 211 ; 97 S Ct 1782 ; 52 L Ed 2d 261 (1977), overruled by Janus, 585 US 878 ."
+     },
+     {
+      "case_name": "Bradley Boardman v. Jay Inslee",
+      "link_md": "[Boardman v. Inslee, 978 F.3d 1092 (9th Cir. 2020)](https://syfert.com/federal/circuits/cases/978-f-3d-1092/bradley-boardman-v-jay-inslee)",
+      "date": "2020-10-22",
+      "signal": "Overruled",
+      "context": "Emps., Council 31, 138 S. Ct. 2448, 2460 (2018) (alteration adopted) (quoting Abood v. Detroit Bd. of Educ., 431 U.S.\u2026"
+     },
+     {
+      "case_name": "Melissa Belgau v. Jay Inslee",
+      "link_md": "[Belgau v. Inslee, 975 F.3d 940 (9th Cir. 2020)](https://syfert.com/federal/circuits/cases/975-f-3d-940/melissa-belgau-v-jay-inslee)",
+      "date": "2020-09-16",
+      "signal": "Overruled",
+      "signal_phrase": "see",
+      "context": "See Abood v. Detroit Bd. of Educ., 431 U.S. 209, 232, 235 (1977), overruled by Janus, 138 S. Ct. 2448 ."
+     },
+     {
+      "case_name": "Donohue v. Milan Donohue",
+      "link_md": "[Donohue v. Milan Donohue, No. 17-2832-cv, 17-2833-cv, 17-2834-cv (2d Cir. Nov. 18, 2019)](https://syfert.com/federal/circuits/cases/cl-4679364/donohue-v-milan-donohue-v-milan-nys-thruway-emps-v-nys-thruway)",
+      "date": "2019-11-18",
+      "signal": "Overruled",
+      "context": "In accordance with 3 then\u2010governing law, see Abood v. Detroit Bd. of Educ., 431 U.S. 209 , 235\u201342 4 (1977), overruled\u2026"
+     },
+     {
+      "case_name": "Gerawan Farming, Inc. v. Agricultural Labor Relations Bd.",
+      "link_md": "[Gerawan Farming, Inc. v. Agric. Labor Relations Bd., 40 Cal. App. 5th 241 (Cal. Ct. App. 2019)](https://syfert.com/california/cases/40-cal-app-5th-241/gerawan-farming-inc-v-agricultural-labor-relations-bd)",
+      "date": "2019-09-24",
+      "signal": "Overruled",
+      "context": "Moreover, the principle of union exclusivity is not being used to \u201cmuzzle a public employee who, like any other\u2026"
+     }
+    ],
+    "propositions_summary": [
+     {
+      "prop_rank": 1,
+      "proposition": "constitutionally justified by the legislative assessment of the important contribution of the union shop to the system of labor relations established by congress.",
+      "n_citers": 22,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 2,
+      "proposition": "prevent the union's spending a part of their required service fees to contribute to political candidates and to express political views unrelated to its duties as exclusive bargaining representative.",
+      "n_citers": 21,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     },
+     {
+      "prop_rank": 3,
+      "proposition": "the objective must be to devise a way of preventing compulsory subsidization of ideological activity by employees who object thereto without restricting the union's ability to require every employee\u2026",
+      "n_citers": 13,
+      "flag": "green",
+      "red": 0,
+      "yellow": 0,
+      "top_negative": null
+     }
+    ],
+    "counts": {
+     "citers_shown_in_full_answer": 25,
+     "negative_citers_shown_in_full_answer": 11,
+     "red": 10,
+     "yellow": 13,
+     "green": 1501,
+     "propositions": 3
+    },
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "narrative_note": "1 citing opinion the classifier counted as green support is shown yellow (\"Questioned (narrative)\") because its own text questions this case; classified_flag_color keeps the classifier's value. The flag and counts are unchanged.",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context."
+   }
+  }
+ ]
+}

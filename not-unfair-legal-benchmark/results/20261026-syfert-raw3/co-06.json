@@ -1,0 +1,104 @@
+{
+ "id": "co-06",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Lucy v. Zehmer, 196 Va. 493."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"196 Va. 493\",\n            \"volume\": \"196\",\n            \"reporter\": \"Va.\",\n            \"page\": \"493\",\n            \"pin\": null,\n            \"cluster_id\": 1305339,\n            \"case\": {\n                \"case_name\": \"Lucy v. Zehmer\",\n                \"case_name_short\": \"Lucy\",\n                \"date_filed\": \"1954-11-22\",\n                \"court_id\": \"va\",\n                \"docket_number\": \"Record 4272\",\n                \"citation_count\": 59,\n                \"court_label\": \"Va.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 46.082,\n                \"total_events\": 139,\n                \"distinct_courts\": 25,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Vermont Information Processing, Inc. v. NLRB\",\n                \"top_pos_court\": \"cadc\",\n                \"top_pos_date\": \"2026-05-26\",\n                \"top_quote_norm\": \"the law imputes to a person an intention corresponding to the reasonable meaning of his words and acts. if his words and acts, judged by a reasonable standard, manifest an intention to agree, it is immaterial what may be the real but unexpressed state of his or her mind.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Lucy\",\n                \"rhs\": \"Zehmer\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Lucy\",\n                    \"rhs\": \"Zehmer\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Lucy v. Zehmer\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/virginia/cases/196-va-493/lucy-v-zehmer\",\n            \"link_md\": \"[Lucy v. Zehmer](https://syfert.com/virginia/cases/196-va-493/lucy-v-zehmer)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "196 Va. 493",
+      "volume": "196",
+      "reporter": "Va.",
+      "page": "493",
+      "pin": null,
+      "cluster_id": 1305339,
+      "case": {
+       "case_name": "Lucy v. Zehmer",
+       "case_name_short": "Lucy",
+       "date_filed": "1954-11-22",
+       "court_id": "va",
+       "docket_number": "Record 4272",
+       "citation_count": 59,
+       "court_label": "Va."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 46.082,
+       "total_events": 139,
+       "distinct_courts": 25,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Vermont Information Processing, Inc. v. NLRB",
+       "top_pos_court": "cadc",
+       "top_pos_date": "2026-05-26",
+       "top_quote_norm": "the law imputes to a person an intention corresponding to the reasonable meaning of his words and acts. if his words and acts, judged by a reasonable standard, manifest an intention to agree, it is immaterial what may be the real but unexpressed state of his or her mind.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Lucy",
+       "rhs": "Zehmer"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Lucy",
+        "rhs": "Zehmer"
+       },
+       "verdict": "match",
+       "resolved_name": "Lucy v. Zehmer"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/virginia/cases/196-va-493/lucy-v-zehmer",
+      "link_md": "[Lucy v. Zehmer](https://syfert.com/virginia/cases/196-va-493/lucy-v-zehmer)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

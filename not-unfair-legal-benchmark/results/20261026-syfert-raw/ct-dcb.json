@@ -1,0 +1,268 @@
+{
+ "id": "ct-dcb",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Bankr. D.C."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Bankr. D.C.\",\n    \"courts\": [\n        {\n            \"id\": \"dcb\",\n            \"short_name\": \"District of Columbia\",\n            \"full_name\": \"United States Bankruptcy Court, District of Columbia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D.C.\",\n            \"cases_in_corpus\": 171,\n            \"years\": \"1997-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"dcd\",\n            \"short_name\": \"District of Columbia\",\n            \"full_name\": \"District Court, District of Columbia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.D.C.\",\n            \"cases_in_corpus\": 47129,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"dc\",\n            \"short_name\": \"District of Columbia Court of Appeals\",\n            \"full_name\": \"District of Columbia Court of Appeals\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"D.C.\",\n            \"cases_in_corpus\": 22399,\n            \"years\": \"1841-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"canalzoned\",\n            \"short_name\": \"District Court, Canal Zone\",\n            \"full_name\": \"District Court, Canal Zone\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.C.Z.\",\n            \"cases_in_corpus\": 105,\n            \"years\": \"1940-1981\",\n            \"active\": false\n        },\n        {\n            \"id\": \"dccrimct\",\n            \"short_name\": \"District of Columbia Criminal Court\",\n            \"full_name\": \"District of Columbia Criminal Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"D.C.\",\n            \"cases_in_corpus\": 9,\n            \"years\": \"1842-1882\",\n            \"active\": false\n        },\n        {\n            \"id\": \"dcorphanct\",\n            \"short_name\": \"District of Columbia Orphans' Court\",\n            \"full_name\": \"District of Columbia Orphans' Court\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"D.C.\",\n            \"cases_in_corpus\": 9,\n            \"years\": \"1841-1863\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtddc\",\n            \"short_name\": \"U.S. Circuit Court for the District of District of Columbia\",\n            \"full_name\": \"U.S. Circuit Court for the District of District of Columbia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 2828,\n            \"years\": \"1801-1882\",\n            \"active\": false\n        },\n        {\n            \"id\": \"judcoundc\",\n            \"short_name\": \"Judicial Council of the District of Columbia Circuit\",\n            \"full_name\": \"Judicial Council of the District of Columbia Circuit\",\n            \"jurisdiction\": \"FS\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"scb\",\n            \"short_name\": \"D. South Carolina\",\n            \"full_name\": \"United States Bankruptcy Court, D. South Carolina\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D.S.C.\",\n            \"cases_in_corpus\": 667,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nceb\",\n            \"short_name\": \"E.D. North Carolina\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. North Carolina\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D.N.C.\",\n            \"cases_in_corpus\": 557,\n            \"years\": \"1976-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncmb\",\n            \"short_name\": \"M.D. North Carolina\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. North Carolina\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D.N.C.\",\n            \"cases_in_corpus\": 288,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncwb\",\n            \"short_name\": \"W.D. North Carolina\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. North Carolina\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D.N.C.\",\n            \"cases_in_corpus\": 196,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cadc\",\n            \"short_name\": \"D.C. Circuit\",\n            \"full_name\": \"Court of Appeals for the D.C. Circuit\",\n            \"jurisdiction\": \"F\",\n            \"citation_string\": \"D.C. Cir.\",\n            \"cases_in_corpus\": 43355,\n            \"years\": \"1840-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"scd\",\n            \"short_name\": \"D. South Carolina\",\n            \"full_name\": \"District Court, D. South Carolina\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.S.C.\",\n            \"cases_in_corpus\": 16145,\n            \"years\": \"1792-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncwd\",\n            \"short_name\": \"W.D. North Carolina\",\n            \"full_name\": \"District Court, W.D. North Carolina\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D.N.C.\",\n            \"cases_in_corpus\": 9719,\n            \"years\": \"1866-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nced\",\n            \"short_name\": \"E.D. North Carolina\",\n            \"full_name\": \"District Court, E.D. North Carolina\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D.N.C.\",\n            \"cases_in_corpus\": 6586,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysb\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D.N.Y.\",\n            \"cases_in_corpus\": 4402,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flmb\",\n            \"short_name\": \"M.D. Florida\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. Florida\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D. Fla.\",\n            \"cases_in_corpus\": 4024,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncmd\",\n            \"short_name\": \"M.D. North Carolina\",\n            \"full_name\": \"District Court, M.D. North Carolina\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D.N.C.\",\n            \"cases_in_corpus\": 3949,\n            \"years\": \"1927-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"paeb\",\n            \"short_name\": \"E.D. Pennsylvania\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Pennsylvania\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Pa.\",\n            \"cases_in_corpus\": 2717,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilnb\",\n            \"short_name\": \"N.D. Illinois\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Illinois\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ill.\",\n            \"cases_in_corpus\": 2595,\n            \"years\": \"1978-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flsb\",\n            \"short_name\": \"S.D. Florida\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Florida.\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Florida\",\n            \"cases_in_corpus\": 2538,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohnb\",\n            \"short_name\": \"N.D. Ohio\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Ohio\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ohio\",\n            \"cases_in_corpus\": 2466,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohsb\",\n            \"short_name\": \"S.D. Ohio\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Ohio\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Ohio\",\n            \"cases_in_corpus\": 2156,\n            \"years\": \"1979-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mab\",\n            \"short_name\": \"D. Massachusetts\",\n            \"full_name\": \"United States Bankruptcy Court, D. Massachusetts\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D. Mass.\",\n            \"cases_in_corpus\": 2022,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"state_ranking\": \"Courts of District Of Columbia are listed first.\"\n}",
+   "json": {
+    "query": "Bankr. D.C.",
+    "courts": [
+     {
+      "id": "dcb",
+      "short_name": "District of Columbia",
+      "full_name": "United States Bankruptcy Court, District of Columbia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D.C.",
+      "cases_in_corpus": 171,
+      "years": "1997-2026",
+      "active": true
+     },
+     {
+      "id": "dcd",
+      "short_name": "District of Columbia",
+      "full_name": "District Court, District of Columbia",
+      "jurisdiction": "FD",
+      "citation_string": "D.D.C.",
+      "cases_in_corpus": 47129,
+      "years": "1801-2026",
+      "active": true
+     },
+     {
+      "id": "dc",
+      "short_name": "District of Columbia Court of Appeals",
+      "full_name": "District of Columbia Court of Appeals",
+      "jurisdiction": "S",
+      "citation_string": "D.C.",
+      "cases_in_corpus": 22399,
+      "years": "1841-2026",
+      "active": true
+     },
+     {
+      "id": "canalzoned",
+      "short_name": "District Court, Canal Zone",
+      "full_name": "District Court, Canal Zone",
+      "jurisdiction": "FD",
+      "citation_string": "D.C.Z.",
+      "cases_in_corpus": 105,
+      "years": "1940-1981",
+      "active": false
+     },
+     {
+      "id": "dccrimct",
+      "short_name": "District of Columbia Criminal Court",
+      "full_name": "District of Columbia Criminal Court",
+      "jurisdiction": "ST",
+      "citation_string": "D.C.",
+      "cases_in_corpus": 9,
+      "years": "1842-1882",
+      "active": false
+     },
+     {
+      "id": "dcorphanct",
+      "short_name": "District of Columbia Orphans' Court",
+      "full_name": "District of Columbia Orphans' Court",
+      "jurisdiction": "SS",
+      "citation_string": "D.C.",
+      "cases_in_corpus": 9,
+      "years": "1841-1863",
+      "active": false
+     },
+     {
+      "id": "circtddc",
+      "short_name": "U.S. Circuit Court for the District of District of Columbia",
+      "full_name": "U.S. Circuit Court for the District of District of Columbia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 2828,
+      "years": "1801-1882",
+      "active": false
+     },
+     {
+      "id": "judcoundc",
+      "short_name": "Judicial Council of the District of Columbia Circuit",
+      "full_name": "Judicial Council of the District of Columbia Circuit",
+      "jurisdiction": "FS",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "scb",
+      "short_name": "D. South Carolina",
+      "full_name": "United States Bankruptcy Court, D. South Carolina",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D.S.C.",
+      "cases_in_corpus": 667,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "nceb",
+      "short_name": "E.D. North Carolina",
+      "full_name": "United States Bankruptcy Court, E.D. North Carolina",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D.N.C.",
+      "cases_in_corpus": 557,
+      "years": "1976-2026",
+      "active": true
+     },
+     {
+      "id": "ncmb",
+      "short_name": "M.D. North Carolina",
+      "full_name": "United States Bankruptcy Court, M.D. North Carolina",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D.N.C.",
+      "cases_in_corpus": 288,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ncwb",
+      "short_name": "W.D. North Carolina",
+      "full_name": "United States Bankruptcy Court, W.D. North Carolina",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D.N.C.",
+      "cases_in_corpus": 196,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "cadc",
+      "short_name": "D.C. Circuit",
+      "full_name": "Court of Appeals for the D.C. Circuit",
+      "jurisdiction": "F",
+      "citation_string": "D.C. Cir.",
+      "cases_in_corpus": 43355,
+      "years": "1840-2026",
+      "active": true
+     },
+     {
+      "id": "scd",
+      "short_name": "D. South Carolina",
+      "full_name": "District Court, D. South Carolina",
+      "jurisdiction": "FD",
+      "citation_string": "D.S.C.",
+      "cases_in_corpus": 16145,
+      "years": "1792-2026",
+      "active": true
+     },
+     {
+      "id": "ncwd",
+      "short_name": "W.D. North Carolina",
+      "full_name": "District Court, W.D. North Carolina",
+      "jurisdiction": "FD",
+      "citation_string": "W.D.N.C.",
+      "cases_in_corpus": 9719,
+      "years": "1866-2026",
+      "active": true
+     },
+     {
+      "id": "nced",
+      "short_name": "E.D. North Carolina",
+      "full_name": "District Court, E.D. North Carolina",
+      "jurisdiction": "FD",
+      "citation_string": "E.D.N.C.",
+      "cases_in_corpus": 6586,
+      "years": "1801-2026",
+      "active": true
+     },
+     {
+      "id": "nysb",
+      "short_name": "S.D. New York",
+      "full_name": "United States Bankruptcy Court, S.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D.N.Y.",
+      "cases_in_corpus": 4402,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "flmb",
+      "short_name": "M.D. Florida",
+      "full_name": "United States Bankruptcy Court, M.D. Florida",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D. Fla.",
+      "cases_in_corpus": 4024,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ncmd",
+      "short_name": "M.D. North Carolina",
+      "full_name": "District Court, M.D. North Carolina",
+      "jurisdiction": "FD",
+      "citation_string": "M.D.N.C.",
+      "cases_in_corpus": 3949,
+      "years": "1927-2026",
+      "active": true
+     },
+     {
+      "id": "paeb",
+      "short_name": "E.D. Pennsylvania",
+      "full_name": "United States Bankruptcy Court, E.D. Pennsylvania",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Pa.",
+      "cases_in_corpus": 2717,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ilnb",
+      "short_name": "N.D. Illinois",
+      "full_name": "United States Bankruptcy Court, N.D. Illinois",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ill.",
+      "cases_in_corpus": 2595,
+      "years": "1978-2026",
+      "active": true
+     },
+     {
+      "id": "flsb",
+      "short_name": "S.D. Florida",
+      "full_name": "United States Bankruptcy Court, S.D. Florida.",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Florida",
+      "cases_in_corpus": 2538,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ohnb",
+      "short_name": "N.D. Ohio",
+      "full_name": "United States Bankruptcy Court, N.D. Ohio",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ohio",
+      "cases_in_corpus": 2466,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "ohsb",
+      "short_name": "S.D. Ohio",
+      "full_name": "United States Bankruptcy Court, S.D. Ohio",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Ohio",
+      "cases_in_corpus": 2156,
+      "years": "1979-2019",
+      "active": true
+     },
+     {
+      "id": "mab",
+      "short_name": "D. Massachusetts",
+      "full_name": "United States Bankruptcy Court, D. Massachusetts",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D. Mass.",
+      "cases_in_corpus": 2022,
+      "years": "1979-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "state_ranking": "Courts of District Of Columbia are listed first."
+   }
+  }
+ ]
+}

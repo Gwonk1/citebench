@@ -1,0 +1,269 @@
+{
+ "id": "ct-cob",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Bankr.D. Colo."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Bankr.D. Colo.\",\n    \"courts\": [\n        {\n            \"id\": \"cob\",\n            \"short_name\": \"D. Colorado\",\n            \"full_name\": \"United States Bankruptcy Court, D. Colorado\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr.D. Colo.\",\n            \"cases_in_corpus\": 1119,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cod\",\n            \"short_name\": \"D. Colorado\",\n            \"full_name\": \"District Court, D. Colorado\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. Colo.\",\n            \"cases_in_corpus\": 13191,\n            \"years\": \"1876-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"colo\",\n            \"short_name\": \"Supreme Court of Colorado\",\n            \"full_name\": \"Supreme Court of Colorado\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Colo.\",\n            \"cases_in_corpus\": 31404,\n            \"years\": \"1864-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"coloctapp\",\n            \"short_name\": \"Colorado Court of Appeals\",\n            \"full_name\": \"Colorado Court of Appeals\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Colo. Ct. App.\",\n            \"cases_in_corpus\": 23130,\n            \"years\": \"1891-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"coloag\",\n            \"short_name\": \"Colorado Attorney General Reports\",\n            \"full_name\": \"Colorado Attorney General Reports\",\n            \"jurisdiction\": \"SAG\",\n            \"citation_string\": \"Colo. Att'y Gen.\",\n            \"cases_in_corpus\": 688,\n            \"years\": \"1975-2011\",\n            \"active\": true\n        },\n        {\n            \"id\": \"circtdco\",\n            \"short_name\": \"U.S. Circuit Court for the District of Colorado\",\n            \"full_name\": \"U.S. Circuit Court for the District of Colorado\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 319,\n            \"years\": \"1870-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"coloworkcompcom\",\n            \"short_name\": \"Colorado Industrial Claim Appeals Office\",\n            \"full_name\": \"Colorado Industrial Claim Appeals Office\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"Colo. Indus. Cl. App.\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"nysb\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D.N.Y.\",\n            \"cases_in_corpus\": 4402,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flmb\",\n            \"short_name\": \"M.D. Florida\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. Florida\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D. Fla.\",\n            \"cases_in_corpus\": 4024,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"paeb\",\n            \"short_name\": \"E.D. Pennsylvania\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Pennsylvania\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Pa.\",\n            \"cases_in_corpus\": 2717,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilnb\",\n            \"short_name\": \"N.D. Illinois\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Illinois\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ill.\",\n            \"cases_in_corpus\": 2595,\n            \"years\": \"1978-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flsb\",\n            \"short_name\": \"S.D. Florida\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Florida.\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Florida\",\n            \"cases_in_corpus\": 2538,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohnb\",\n            \"short_name\": \"N.D. Ohio\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Ohio\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ohio\",\n            \"cases_in_corpus\": 2466,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohsb\",\n            \"short_name\": \"S.D. Ohio\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Ohio\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Ohio\",\n            \"cases_in_corpus\": 2156,\n            \"years\": \"1979-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mab\",\n            \"short_name\": \"D. Massachusetts\",\n            \"full_name\": \"United States Bankruptcy Court, D. Massachusetts\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D. Mass.\",\n            \"cases_in_corpus\": 2022,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"deb\",\n            \"short_name\": \"D. Delaware\",\n            \"full_name\": \"United States Bankruptcy Court, D. Delaware\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D. Del.\",\n            \"cases_in_corpus\": 1785,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyeb\",\n            \"short_name\": \"E.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D.N.Y.\",\n            \"cases_in_corpus\": 1625,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ganb\",\n            \"short_name\": \"N.D. Georgia\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Georgia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ga.\",\n            \"cases_in_corpus\": 1541,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaeb\",\n            \"short_name\": \"E.D. Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Va.\",\n            \"cases_in_corpus\": 1477,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mieb\",\n            \"short_name\": \"E.D. Michigan\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Michigan\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Mich.\",\n            \"cases_in_corpus\": 1448,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"pawb\",\n            \"short_name\": \"W.D. Pennsylvania\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. Pennsylvania\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D. Pa.\",\n            \"cases_in_corpus\": 1395,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txnb\",\n            \"short_name\": \"N.D. Texas\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Texas\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Tex.\",\n            \"cases_in_corpus\": 1362,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ctb\",\n            \"short_name\": \"D. Connecticut\",\n            \"full_name\": \"United States Bankruptcy Court, D. Connecticut\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D. Conn.\",\n            \"cases_in_corpus\": 1335,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mowb\",\n            \"short_name\": \"W.D. Missouri\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. Missouri\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D. Mo.\",\n            \"cases_in_corpus\": 1278,\n            \"years\": \"1891-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txsb\",\n            \"short_name\": \"S.D. Texas\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Texas\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Tex.\",\n            \"cases_in_corpus\": 1254,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"state_ranking\": \"Courts of Colorado are listed first.\"\n}",
+   "json": {
+    "query": "Bankr.D. Colo.",
+    "courts": [
+     {
+      "id": "cob",
+      "short_name": "D. Colorado",
+      "full_name": "United States Bankruptcy Court, D. Colorado",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr.D. Colo.",
+      "cases_in_corpus": 1119,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "cod",
+      "short_name": "D. Colorado",
+      "full_name": "District Court, D. Colorado",
+      "jurisdiction": "FD",
+      "citation_string": "D. Colo.",
+      "cases_in_corpus": 13191,
+      "years": "1876-2026",
+      "active": true
+     },
+     {
+      "id": "colo",
+      "short_name": "Supreme Court of Colorado",
+      "full_name": "Supreme Court of Colorado",
+      "jurisdiction": "S",
+      "citation_string": "Colo.",
+      "cases_in_corpus": 31404,
+      "years": "1864-2026",
+      "active": true
+     },
+     {
+      "id": "coloctapp",
+      "short_name": "Colorado Court of Appeals",
+      "full_name": "Colorado Court of Appeals",
+      "jurisdiction": "SA",
+      "citation_string": "Colo. Ct. App.",
+      "cases_in_corpus": 23130,
+      "years": "1891-2026",
+      "active": true
+     },
+     {
+      "id": "coloag",
+      "short_name": "Colorado Attorney General Reports",
+      "full_name": "Colorado Attorney General Reports",
+      "jurisdiction": "SAG",
+      "citation_string": "Colo. Att'y Gen.",
+      "cases_in_corpus": 688,
+      "years": "1975-2011",
+      "active": true
+     },
+     {
+      "id": "circtdco",
+      "short_name": "U.S. Circuit Court for the District of Colorado",
+      "full_name": "U.S. Circuit Court for the District of Colorado",
+      "jurisdiction": "F",
+      "cases_in_corpus": 319,
+      "years": "1870-1911",
+      "active": false
+     },
+     {
+      "id": "coloworkcompcom",
+      "short_name": "Colorado Industrial Claim Appeals Office",
+      "full_name": "Colorado Industrial Claim Appeals Office",
+      "jurisdiction": "SS",
+      "citation_string": "Colo. Indus. Cl. App.",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "nysb",
+      "short_name": "S.D. New York",
+      "full_name": "United States Bankruptcy Court, S.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D.N.Y.",
+      "cases_in_corpus": 4402,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "flmb",
+      "short_name": "M.D. Florida",
+      "full_name": "United States Bankruptcy Court, M.D. Florida",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D. Fla.",
+      "cases_in_corpus": 4024,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "paeb",
+      "short_name": "E.D. Pennsylvania",
+      "full_name": "United States Bankruptcy Court, E.D. Pennsylvania",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Pa.",
+      "cases_in_corpus": 2717,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ilnb",
+      "short_name": "N.D. Illinois",
+      "full_name": "United States Bankruptcy Court, N.D. Illinois",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ill.",
+      "cases_in_corpus": 2595,
+      "years": "1978-2026",
+      "active": true
+     },
+     {
+      "id": "flsb",
+      "short_name": "S.D. Florida",
+      "full_name": "United States Bankruptcy Court, S.D. Florida.",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Florida",
+      "cases_in_corpus": 2538,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ohnb",
+      "short_name": "N.D. Ohio",
+      "full_name": "United States Bankruptcy Court, N.D. Ohio",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ohio",
+      "cases_in_corpus": 2466,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "ohsb",
+      "short_name": "S.D. Ohio",
+      "full_name": "United States Bankruptcy Court, S.D. Ohio",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Ohio",
+      "cases_in_corpus": 2156,
+      "years": "1979-2019",
+      "active": true
+     },
+     {
+      "id": "mab",
+      "short_name": "D. Massachusetts",
+      "full_name": "United States Bankruptcy Court, D. Massachusetts",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D. Mass.",
+      "cases_in_corpus": 2022,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "deb",
+      "short_name": "D. Delaware",
+      "full_name": "United States Bankruptcy Court, D. Delaware",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D. Del.",
+      "cases_in_corpus": 1785,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nyeb",
+      "short_name": "E.D. New York",
+      "full_name": "United States Bankruptcy Court, E.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D.N.Y.",
+      "cases_in_corpus": 1625,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ganb",
+      "short_name": "N.D. Georgia",
+      "full_name": "United States Bankruptcy Court, N.D. Georgia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ga.",
+      "cases_in_corpus": 1541,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "vaeb",
+      "short_name": "E.D. Virginia",
+      "full_name": "United States Bankruptcy Court, E.D. Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Va.",
+      "cases_in_corpus": 1477,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "mieb",
+      "short_name": "E.D. Michigan",
+      "full_name": "United States Bankruptcy Court, E.D. Michigan",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Mich.",
+      "cases_in_corpus": 1448,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "pawb",
+      "short_name": "W.D. Pennsylvania",
+      "full_name": "United States Bankruptcy Court, W.D. Pennsylvania",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D. Pa.",
+      "cases_in_corpus": 1395,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "txnb",
+      "short_name": "N.D. Texas",
+      "full_name": "United States Bankruptcy Court, N.D. Texas",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Tex.",
+      "cases_in_corpus": 1362,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ctb",
+      "short_name": "D. Connecticut",
+      "full_name": "United States Bankruptcy Court, D. Connecticut",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D. Conn.",
+      "cases_in_corpus": 1335,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "mowb",
+      "short_name": "W.D. Missouri",
+      "full_name": "United States Bankruptcy Court, W.D. Missouri",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D. Mo.",
+      "cases_in_corpus": 1278,
+      "years": "1891-2026",
+      "active": true
+     },
+     {
+      "id": "txsb",
+      "short_name": "S.D. Texas",
+      "full_name": "United States Bankruptcy Court, S.D. Texas",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Tex.",
+      "cases_in_corpus": 1254,
+      "years": "1979-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "state_ranking": "Courts of Colorado are listed first."
+   }
+  }
+ ]
+}

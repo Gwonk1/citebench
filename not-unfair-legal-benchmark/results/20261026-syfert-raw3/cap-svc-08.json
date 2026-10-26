@@ -1,0 +1,99 @@
+{
+ "id": "cap-svc-08",
+ "class": "caption",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Give the Bluebook case name for 757 F.2d 87."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"757 F.2d 87\",\n            \"volume\": \"757\",\n            \"reporter\": \"F.2d\",\n            \"page\": \"87\",\n            \"pin\": null,\n            \"cluster_id\": 449318,\n            \"case\": {\n                \"case_name\": \"Bedford County General Hospital v. Margaret Heckler, Secretary of Health and Human Services\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1985-03-07\",\n                \"court_id\": \"ca6\",\n                \"docket_number\": \"84-5051\",\n                \"citation_count\": 16,\n                \"case_name_raw\": \"9 soc.sec.rep.ser. 114, Medicare&medicaid Gu 34,538 Bedford County General Hospital v. Margaret Heckler, Secretary of Health and Human Services\",\n                \"court_label\": \"6th Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 11.819,\n                \"total_events\": 21,\n                \"distinct_courts\": 7,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Flagstaff Medical Center, Inc. v. Louis W. Sullivan, Secretary, Department of Health and Human Services, Elizabeth Mazon, Leon Salazar, Jack Sabo, Maria Sandoval, Ruth Havatone, Quade Uqualla, and Aurora Petty, Individually and on Behalf of All Other Persons Similarly Situated v. Flagstaff Health Management Corporation Flagstaff Medical Center, Inc. Louis W. Sullivan, Secretary, Department of Health and Human Services\",\n                \"top_pos_court\": \"ca9\",\n                \"top_pos_date\": \"1992-06-02\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Bedford County General Hospital v. Margaret Heckler, Secretary of Health and Human Services\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/757-f-2d-87/bedford-county-general-hospital-v-margaret-heckler-secretary-of-health-and\",\n            \"link_md\": \"[Bedford County General Hospital v. Margaret Heckler, Secretary of Health and Human Services](https://syfert.com/federal/circuits/cases/757-f-2d-87/bedford-county-general-hospital-v-margaret-heckler-secretary-of-health-and)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "757 F.2d 87",
+      "volume": "757",
+      "reporter": "F.2d",
+      "page": "87",
+      "pin": null,
+      "cluster_id": 449318,
+      "case": {
+       "case_name": "Bedford County General Hospital v. Margaret Heckler, Secretary of Health and Human Services",
+       "case_name_short": null,
+       "date_filed": "1985-03-07",
+       "court_id": "ca6",
+       "docket_number": "84-5051",
+       "citation_count": 16,
+       "case_name_raw": "9 soc.sec.rep.ser. 114, Medicare&medicaid Gu 34,538 Bedford County General Hospital v. Margaret Heckler, Secretary of Health and Human Services",
+       "court_label": "6th Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 11.819,
+       "total_events": 21,
+       "distinct_courts": 7,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Flagstaff Medical Center, Inc. v. Louis W. Sullivan, Secretary, Department of Health and Human Services, Elizabeth Mazon, Leon Salazar, Jack Sabo, Maria Sandoval, Ruth Havatone, Quade Uqualla, and Aurora Petty, Individually and on Behalf of All Other Persons Similarly Situated v. Flagstaff Health Management Corporation Flagstaff Medical Center, Inc. Louis W. Sullivan, Secretary, Department of Health and Human Services",
+       "top_pos_court": "ca9",
+       "top_pos_date": "1992-06-02",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Bedford County General Hospital v. Margaret Heckler, Secretary of Health and Human Services"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/757-f-2d-87/bedford-county-general-hospital-v-margaret-heckler-secretary-of-health-and",
+      "link_md": "[Bedford County General Hospital v. Margaret Heckler, Secretary of Health and Human Services](https://syfert.com/federal/circuits/cases/757-f-2d-87/bedford-county-general-hospital-v-margaret-heckler-secretary-of-health-and)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

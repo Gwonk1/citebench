@@ -1,0 +1,296 @@
+{
+ "id": "ct-illappct",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Illinois Appellate Court, First District"
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Illinois Appellate Court, First District\",\n    \"courts\": [\n        {\n            \"id\": \"illappct\",\n            \"short_name\": \"Appellate Court of Illinois\",\n            \"full_name\": \"Appellate Court of Illinois\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Ill. App. Ct.\",\n            \"bluebook\": \"Ill. App. Ct.\",\n            \"cases_in_corpus\": 172832,\n            \"years\": \"1811-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilnd\",\n            \"short_name\": \"N.D. Illinois\",\n            \"full_name\": \"District Court, N.D. Illinois\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Ill.\",\n            \"bluebook\": \"N.D. Ill.\",\n            \"cases_in_corpus\": 36494,\n            \"years\": \"1808-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilsd\",\n            \"short_name\": \"S.D. Illinois\",\n            \"full_name\": \"District Court, S.D. Illinois\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D. Ill.\",\n            \"bluebook\": \"S.D. Ill.\",\n            \"cases_in_corpus\": 11861,\n            \"years\": \"1874-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilcd\",\n            \"short_name\": \"C.D. Illinois\",\n            \"full_name\": \"District Court, C.D. Illinois\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"C.D. Ill.\",\n            \"bluebook\": \"C.D. Ill.\",\n            \"cases_in_corpus\": 5195,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilnb\",\n            \"short_name\": \"N.D. Illinois\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Illinois\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ill.\",\n            \"bluebook\": \"Bankr. N.D. Ill.\",\n            \"cases_in_corpus\": 2595,\n            \"years\": \"1978-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"illinoised\",\n            \"short_name\": \"E.D. Illinois\",\n            \"full_name\": \"District Court, E.D. Illinois\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Ill.\",\n            \"bluebook\": \"E.D. Ill.\",\n            \"cases_in_corpus\": 913,\n            \"years\": \"1881-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilcb\",\n            \"short_name\": \"C.D. Illinois\",\n            \"full_name\": \"United States Bankruptcy Court, C.D. Illinois\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. C.D. Ill.\",\n            \"bluebook\": \"Bankr. C.D. Ill.\",\n            \"cases_in_corpus\": 614,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilsb\",\n            \"short_name\": \"S.D. Illinois\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Illinois\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Ill.\",\n            \"bluebook\": \"Bankr. S.D. Ill.\",\n            \"cases_in_corpus\": 334,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"illinoisd\",\n            \"short_name\": \"D. Illinois\",\n            \"full_name\": \"District Court, D. Illinois\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. Ill.\",\n            \"bluebook\": \"D. Ill.\",\n            \"cases_in_corpus\": 4,\n            \"years\": \"1854-2013\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ill\",\n            \"short_name\": \"Illinois Supreme Court\",\n            \"full_name\": \"Illinois Supreme Court\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Ill.\",\n            \"bluebook\": \"Ill.\",\n            \"cases_in_corpus\": 58875,\n            \"years\": \"1832-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilclaimsct\",\n            \"short_name\": \"Court of Claims of Illinois\",\n            \"full_name\": \"Court of Claims of Illinois\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 9848,\n            \"years\": \"1889-2001\",\n            \"active\": true\n        },\n        {\n            \"id\": \"circtdil\",\n            \"short_name\": \"U.S. Circuit Court for the District of Illinois\",\n            \"full_name\": \"U.S. Circuit Court for the District of Illinois\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 122,\n            \"years\": \"1839-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtedil\",\n            \"short_name\": \"U.S. Circuit Court for the Eastern District of Illinois\",\n            \"full_name\": \"U.S. Circuit Court for the Eastern District of Illinois\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 8,\n            \"years\": \"1868-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"illcirct\",\n            \"short_name\": \"Illinois Circuit Court\",\n            \"full_name\": \"Illinois Circuit Court\",\n            \"jurisdiction\": \"ST\",\n            \"cases_in_corpus\": 201,\n            \"years\": \"1866-1908\",\n            \"active\": false\n        },\n        {\n            \"id\": \"massdistctapp\",\n            \"short_name\": \"Mass. Dist. Ct., App. Div.\",\n            \"full_name\": \"Massachusetts District Court, Appellate Division\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Mass. Dist. Ct., App. Div.\",\n            \"bluebook\": \"Mass. Dist. Ct., App. Div.\",\n            \"cases_in_corpus\": 6341,\n            \"years\": \"1934-2015\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp1\",\n            \"short_name\": \"Tex. App. Ct., 1st Dist. (Houston)\",\n            \"full_name\": \"Texas Court of Appeals, 1st District (Houston)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 933,\n            \"years\": \"1998-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fladistctapp1\",\n            \"short_name\": \"Florida First District Court of Appeal\",\n            \"full_name\": \"Florida First District Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App. 1st Dist.\",\n            \"bluebook\": \"Fla. 1st DCA\",\n            \"cases_in_corpus\": 154,\n            \"years\": \"2018-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp1hamilto\",\n            \"short_name\": \"Court of Appeals of Ohio, First District, Hamilton County\",\n            \"full_name\": \"Court of Appeals of Ohio, First District, Hamilton County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 1st Dist. Hamilton\",\n            \"bluebook\": \"Ohio Ct. App. 1st Dist.\",\n            \"cases_in_corpus\": 32,\n            \"years\": \"1913-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calctapp1d\",\n            \"short_name\": \"California Court of Appeals, 1st District\",\n            \"full_name\": \"California Court of Appeal, 1st District\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. Ct. App. 1st\",\n            \"bluebook\": \"Cal. Ct. App.\",\n            \"cases_in_corpus\": 9,\n            \"years\": \"2015-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyappdiv\",\n            \"short_name\": \"Appellate Division of the Supreme Court of New York\",\n            \"full_name\": \"Appellate Division of the Supreme Court of the State of New York\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.Y. App. Div.\",\n            \"bluebook\": \"N.Y. App. Div.\",\n            \"cases_in_corpus\": 774886,\n            \"years\": \"1714-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fladistctapp\",\n            \"short_name\": \"District Court of Appeal of Florida\",\n            \"full_name\": \"District Court of Appeal of Florida\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App.\",\n            \"bluebook\": \"Fla. Dist. Ct. App.\",\n            \"cases_in_corpus\": 362412,\n            \"years\": \"1957-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysd\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"District Court, S.D. New York\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D.N.Y.\",\n            \"bluebook\": \"S.D.N.Y.\",\n            \"cases_in_corpus\": 112052,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"caed\",\n            \"short_name\": \"E.D. California\",\n            \"full_name\": \"District Court, E.D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Cal.\",\n            \"bluebook\": \"E.D. Cal.\",\n            \"cases_in_corpus\": 59899,\n            \"years\": \"1916-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"njsuperctappdiv\",\n            \"short_name\": \"New Jersey Superior Court App Division\",\n            \"full_name\": \"New Jersey Superior Court Appellate Division\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.J. Super. Ct. App. Div.\",\n            \"bluebook\": \"N.J. Super. Ct. App. Div.\",\n            \"cases_in_corpus\": 47846,\n            \"years\": \"1831-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"dcd\",\n            \"short_name\": \"District of Columbia\",\n            \"full_name\": \"District Court, District of Columbia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D.D.C.\",\n            \"bluebook\": \"D.D.C.\",\n            \"cases_in_corpus\": 47129,\n            \"years\": \"1801-2026\",\n            \"active\": true\n        }\n    ],\n    \"court_structure\": {\n        \"state\": \"Illinois\",\n        \"court\": \"Appellate Court of Illinois\",\n        \"district\": 1,\n        \"read_from\": \"district\",\n        \"holder_id\": \"illappct\",\n        \"search_court\": \"illappct\"\n    },\n    \"coverage_note\": \"All five Illinois Appellate Court districts are filed under ONE id, illappct (172,832 opinions, 1811-2026); there are no district-level ids and search_cases cannot filter by district (the neutral cite names it: \\\"2023 IL App (1st) 220520\\\"). Read as the 1st District.\",\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"note\": \"Resolved by the court structure (court_structure): Appellate Court of Illinois, district 1. Read coverage_note before filtering a search with a district id.\",\n    \"state_ranking\": \"Courts of Illinois are listed first.\"\n}",
+   "json": {
+    "query": "Illinois Appellate Court, First District",
+    "courts": [
+     {
+      "id": "illappct",
+      "short_name": "Appellate Court of Illinois",
+      "full_name": "Appellate Court of Illinois",
+      "jurisdiction": "SA",
+      "citation_string": "Ill. App. Ct.",
+      "bluebook": "Ill. App. Ct.",
+      "cases_in_corpus": 172832,
+      "years": "1811-2026",
+      "active": true
+     },
+     {
+      "id": "ilnd",
+      "short_name": "N.D. Illinois",
+      "full_name": "District Court, N.D. Illinois",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Ill.",
+      "bluebook": "N.D. Ill.",
+      "cases_in_corpus": 36494,
+      "years": "1808-2026",
+      "active": true
+     },
+     {
+      "id": "ilsd",
+      "short_name": "S.D. Illinois",
+      "full_name": "District Court, S.D. Illinois",
+      "jurisdiction": "FD",
+      "citation_string": "S.D. Ill.",
+      "bluebook": "S.D. Ill.",
+      "cases_in_corpus": 11861,
+      "years": "1874-2026",
+      "active": true
+     },
+     {
+      "id": "ilcd",
+      "short_name": "C.D. Illinois",
+      "full_name": "District Court, C.D. Illinois",
+      "jurisdiction": "FD",
+      "citation_string": "C.D. Ill.",
+      "bluebook": "C.D. Ill.",
+      "cases_in_corpus": 5195,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ilnb",
+      "short_name": "N.D. Illinois",
+      "full_name": "United States Bankruptcy Court, N.D. Illinois",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ill.",
+      "bluebook": "Bankr. N.D. Ill.",
+      "cases_in_corpus": 2595,
+      "years": "1978-2026",
+      "active": true
+     },
+     {
+      "id": "illinoised",
+      "short_name": "E.D. Illinois",
+      "full_name": "District Court, E.D. Illinois",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Ill.",
+      "bluebook": "E.D. Ill.",
+      "cases_in_corpus": 913,
+      "years": "1881-2019",
+      "active": true
+     },
+     {
+      "id": "ilcb",
+      "short_name": "C.D. Illinois",
+      "full_name": "United States Bankruptcy Court, C.D. Illinois",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. C.D. Ill.",
+      "bluebook": "Bankr. C.D. Ill.",
+      "cases_in_corpus": 614,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "ilsb",
+      "short_name": "S.D. Illinois",
+      "full_name": "United States Bankruptcy Court, S.D. Illinois",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Ill.",
+      "bluebook": "Bankr. S.D. Ill.",
+      "cases_in_corpus": 334,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "illinoisd",
+      "short_name": "D. Illinois",
+      "full_name": "District Court, D. Illinois",
+      "jurisdiction": "FD",
+      "citation_string": "D. Ill.",
+      "bluebook": "D. Ill.",
+      "cases_in_corpus": 4,
+      "years": "1854-2013",
+      "active": true
+     },
+     {
+      "id": "ill",
+      "short_name": "Illinois Supreme Court",
+      "full_name": "Illinois Supreme Court",
+      "jurisdiction": "S",
+      "citation_string": "Ill.",
+      "bluebook": "Ill.",
+      "cases_in_corpus": 58875,
+      "years": "1832-2026",
+      "active": true
+     },
+     {
+      "id": "ilclaimsct",
+      "short_name": "Court of Claims of Illinois",
+      "full_name": "Court of Claims of Illinois",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 9848,
+      "years": "1889-2001",
+      "active": true
+     },
+     {
+      "id": "circtdil",
+      "short_name": "U.S. Circuit Court for the District of Illinois",
+      "full_name": "U.S. Circuit Court for the District of Illinois",
+      "jurisdiction": "F",
+      "cases_in_corpus": 122,
+      "years": "1839-1911",
+      "active": false
+     },
+     {
+      "id": "circtedil",
+      "short_name": "U.S. Circuit Court for the Eastern District of Illinois",
+      "full_name": "U.S. Circuit Court for the Eastern District of Illinois",
+      "jurisdiction": "F",
+      "cases_in_corpus": 8,
+      "years": "1868-1911",
+      "active": false
+     },
+     {
+      "id": "illcirct",
+      "short_name": "Illinois Circuit Court",
+      "full_name": "Illinois Circuit Court",
+      "jurisdiction": "ST",
+      "cases_in_corpus": 201,
+      "years": "1866-1908",
+      "active": false
+     },
+     {
+      "id": "massdistctapp",
+      "short_name": "Mass. Dist. Ct., App. Div.",
+      "full_name": "Massachusetts District Court, Appellate Division",
+      "jurisdiction": "SA",
+      "citation_string": "Mass. Dist. Ct., App. Div.",
+      "bluebook": "Mass. Dist. Ct., App. Div.",
+      "cases_in_corpus": 6341,
+      "years": "1934-2015",
+      "active": true
+     },
+     {
+      "id": "txctapp1",
+      "short_name": "Tex. App. Ct., 1st Dist. (Houston)",
+      "full_name": "Texas Court of Appeals, 1st District (Houston)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 933,
+      "years": "1998-2026",
+      "active": true
+     },
+     {
+      "id": "fladistctapp1",
+      "short_name": "Florida First District Court of Appeal",
+      "full_name": "Florida First District Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App. 1st Dist.",
+      "bluebook": "Fla. 1st DCA",
+      "cases_in_corpus": 154,
+      "years": "2018-2026",
+      "active": true
+     },
+     {
+      "id": "ohctapp1hamilto",
+      "short_name": "Court of Appeals of Ohio, First District, Hamilton County",
+      "full_name": "Court of Appeals of Ohio, First District, Hamilton County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 1st Dist. Hamilton",
+      "bluebook": "Ohio Ct. App. 1st Dist.",
+      "cases_in_corpus": 32,
+      "years": "1913-2018",
+      "active": true
+     },
+     {
+      "id": "calctapp1d",
+      "short_name": "California Court of Appeals, 1st District",
+      "full_name": "California Court of Appeal, 1st District",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. Ct. App. 1st",
+      "bluebook": "Cal. Ct. App.",
+      "cases_in_corpus": 9,
+      "years": "2015-2016",
+      "active": true
+     },
+     {
+      "id": "nyappdiv",
+      "short_name": "Appellate Division of the Supreme Court of New York",
+      "full_name": "Appellate Division of the Supreme Court of the State of New York",
+      "jurisdiction": "SA",
+      "citation_string": "N.Y. App. Div.",
+      "bluebook": "N.Y. App. Div.",
+      "cases_in_corpus": 774886,
+      "years": "1714-2026",
+      "active": true
+     },
+     {
+      "id": "fladistctapp",
+      "short_name": "District Court of Appeal of Florida",
+      "full_name": "District Court of Appeal of Florida",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App.",
+      "bluebook": "Fla. Dist. Ct. App.",
+      "cases_in_corpus": 362412,
+      "years": "1957-2026",
+      "active": true
+     },
+     {
+      "id": "nysd",
+      "short_name": "S.D. New York",
+      "full_name": "District Court, S.D. New York",
+      "jurisdiction": "FD",
+      "citation_string": "S.D.N.Y.",
+      "bluebook": "S.D.N.Y.",
+      "cases_in_corpus": 112052,
+      "years": "1801-2026",
+      "active": true
+     },
+     {
+      "id": "caed",
+      "short_name": "E.D. California",
+      "full_name": "District Court, E.D. California",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Cal.",
+      "bluebook": "E.D. Cal.",
+      "cases_in_corpus": 59899,
+      "years": "1916-2026",
+      "active": true
+     },
+     {
+      "id": "njsuperctappdiv",
+      "short_name": "New Jersey Superior Court App Division",
+      "full_name": "New Jersey Superior Court Appellate Division",
+      "jurisdiction": "SA",
+      "citation_string": "N.J. Super. Ct. App. Div.",
+      "bluebook": "N.J. Super. Ct. App. Div.",
+      "cases_in_corpus": 47846,
+      "years": "1831-2026",
+      "active": true
+     },
+     {
+      "id": "dcd",
+      "short_name": "District of Columbia",
+      "full_name": "District Court, District of Columbia",
+      "jurisdiction": "FD",
+      "citation_string": "D.D.C.",
+      "bluebook": "D.D.C.",
+      "cases_in_corpus": 47129,
+      "years": "1801-2026",
+      "active": true
+     }
+    ],
+    "court_structure": {
+     "state": "Illinois",
+     "court": "Appellate Court of Illinois",
+     "district": 1,
+     "read_from": "district",
+     "holder_id": "illappct",
+     "search_court": "illappct"
+    },
+    "coverage_note": "All five Illinois Appellate Court districts are filed under ONE id, illappct (172,832 opinions, 1811-2026); there are no district-level ids and search_cases cannot filter by district (the neutral cite names it: \"2023 IL App (1st) 220520\"). Read as the 1st District.",
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "note": "Resolved by the court structure (court_structure): Appellate Court of Illinois, district 1. Read coverage_note before filtering a search with a district id.",
+    "state_ranking": "Courts of Illinois are listed first."
+   }
+  }
+ ]
+}

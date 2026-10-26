@@ -1,0 +1,269 @@
+{
+ "id": "ct-texapp",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Texas Court of Appeals for the Fourteenth District, sitting in Houston"
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Texas Court of Appeals for the Fourteenth District, sitting in Houston\",\n    \"courts\": [\n        {\n            \"id\": \"texapp\",\n            \"short_name\": \"Court of Appeals of Texas\",\n            \"full_name\": \"Court of Appeals of Texas\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Tex. App.\",\n            \"cases_in_corpus\": 487528,\n            \"years\": \"1876-2025\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp14\",\n            \"short_name\": \"Tex. App. Ct., 14th Dist. (Houston)\",\n            \"full_name\": \"Texas Court of Appeals, 14th District (Houston)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 81,\n            \"years\": \"2002-2023\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp1\",\n            \"short_name\": \"Tex. App. Ct., 1st Dist. (Houston)\",\n            \"full_name\": \"Texas Court of Appeals, 1st District (Houston)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 933,\n            \"years\": \"1998-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp4\",\n            \"short_name\": \"Tex. App. Ct., 4th Dist. (San Antonio)\",\n            \"full_name\": \"Texas Court of Appeals, 4th District (San Antonio)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 834,\n            \"years\": \"2001-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp3\",\n            \"short_name\": \"Tex. App. Ct., 3rd Dist. (Austin)\",\n            \"full_name\": \"Texas Court of Appeals, 3rd District (Austin)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 690,\n            \"years\": \"1992-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp2\",\n            \"short_name\": \"Tex. App. Ct., 2nd Dist. (Fort Worth)\",\n            \"full_name\": \"Texas Court of Appeals, 2nd District (Fort Worth)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 663,\n            \"years\": \"2003-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp7\",\n            \"short_name\": \"Tex. App. Ct., 7th Dist. (Amarillo)\",\n            \"full_name\": \"Texas Court of Appeals, 7th District (Amarillo)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 389,\n            \"years\": \"2000-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp8\",\n            \"short_name\": \"Tex. App. Ct., 8th Dist. (El Paso)\",\n            \"full_name\": \"Texas Court of Appeals, 8th District (El Paso)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 372,\n            \"years\": \"1987-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp6\",\n            \"short_name\": \"Tex. App. Ct., 6th Dist. (Texarkana)\",\n            \"full_name\": \"Texas Court of Appeals, 6th District (Texarkana)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 341,\n            \"years\": \"2000-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp9\",\n            \"short_name\": \"Tex. App. Ct., 9th Dist. (Beaumont)\",\n            \"full_name\": \"Texas Court of Appeals, 9th District (Beaumont)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 322,\n            \"years\": \"1989-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp10\",\n            \"short_name\": \"Tex. App. Ct., 10th Dist. (Waco)\",\n            \"full_name\": \"Texas Court of Appeals, 10th District (Waco)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 304,\n            \"years\": \"1992-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp11\",\n            \"short_name\": \"Tex. App. Ct., 11th Dist. (Eastland)\",\n            \"full_name\": \"Texas Court of Appeals, 11th District (Eastland)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 286,\n            \"years\": \"2004-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp5\",\n            \"short_name\": \"Tex. App. Ct., 5th Dist. (Dallas)\",\n            \"full_name\": \"Texas Court of Appeals, 5th District (Dallas)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 90,\n            \"years\": \"1990-2024\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp12\",\n            \"short_name\": \"Tex. App. Ct., 12th Dist. (Tyler)\",\n            \"full_name\": \"Texas Court of Appeals, 12th District (Tyler)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 14,\n            \"years\": \"2002-2020\",\n            \"active\": true\n        },\n        {\n            \"id\": \"texcrimapp\",\n            \"short_name\": \"Court of Criminal Appeals of Texas\",\n            \"full_name\": \"Court of Criminal Appeals of Texas\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Tex. Crim. App.\",\n            \"cases_in_corpus\": 83080,\n            \"years\": \"1892-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txsd\",\n            \"short_name\": \"S.D. Texas\",\n            \"full_name\": \"District Court, S.D. Texas\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D. Tex.\",\n            \"cases_in_corpus\": 14240,\n            \"years\": \"1904-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txnd\",\n            \"short_name\": \"N.D. Texas\",\n            \"full_name\": \"District Court, N.D. Texas\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Tex.\",\n            \"cases_in_corpus\": 13635,\n            \"years\": \"1882-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txed\",\n            \"short_name\": \"E.D. Texas\",\n            \"full_name\": \"District Court, E.D. Texas\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Tex.\",\n            \"cases_in_corpus\": 10294,\n            \"years\": \"1859-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txwd\",\n            \"short_name\": \"W.D. Texas\",\n            \"full_name\": \"District Court, W.D. Texas\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"W.D. Tex.\",\n            \"cases_in_corpus\": 9116,\n            \"years\": \"1796-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txnb\",\n            \"short_name\": \"N.D. Texas\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Texas\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Tex.\",\n            \"cases_in_corpus\": 1362,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txsb\",\n            \"short_name\": \"S.D. Texas\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Texas\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Tex.\",\n            \"cases_in_corpus\": 1254,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txwb\",\n            \"short_name\": \"W.D. Texas\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. Texas\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D. Tex.\",\n            \"cases_in_corpus\": 742,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txeb\",\n            \"short_name\": \"E.D. Texas\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Texas\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Tex.\",\n            \"cases_in_corpus\": 367,\n            \"years\": \"1989-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"tex\",\n            \"short_name\": \"Texas Supreme Court\",\n            \"full_name\": \"Texas Supreme Court\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Tex.\",\n            \"cases_in_corpus\": 32361,\n            \"years\": \"1840-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"texbizct\",\n            \"short_name\": \"Texas Business Court\",\n            \"full_name\": \"Texas Business Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Tex. Bus. Ct.\",\n            \"cases_in_corpus\": 121,\n            \"years\": \"2024-2026\",\n            \"active\": true\n        }\n    ],\n    \"court_structure\": {\n        \"state\": \"Texas\",\n        \"court\": \"Texas Courts of Appeals\",\n        \"court_number\": 14,\n        \"read_from\": \"court number\",\n        \"holder_id\": \"texapp\",\n        \"unit_id\": \"txctapp14\",\n        \"search_court\": \"texapp,txctapp14\"\n    },\n    \"coverage_note\": \"Texas courts of appeals opinions (1st-14th, plus the statewide Fifteenth since 2024) are filed almost all under ONE id, texapp (487,528 opinions, 1876-2025), whatever the court. The per-court ids txctapp1..txctapp14 hold only a separate CourtListener import (5,319 opinions in all; txctapp14: 81 opinions (2002-2023)), so a filter on one of them misses almost every opinion of that court. Use court=\\\"texapp,txctapp14\\\" and read the court from the citation parenthetical (\\\"Tex. App.-Houston [14th Dist.]\\\"). The Court of Criminal Appeals is texcrimapp. Read as the 14th Court of Appeals (Houston).\",\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"note\": \"Resolved by the court structure (court_structure): Texas Courts of Appeals, court number 14. Read coverage_note before filtering a search with a district id.\",\n    \"state_ranking\": \"Courts of Texas are listed first.\"\n}",
+   "json": {
+    "query": "Texas Court of Appeals for the Fourteenth District, sitting in Houston",
+    "courts": [
+     {
+      "id": "texapp",
+      "short_name": "Court of Appeals of Texas",
+      "full_name": "Court of Appeals of Texas",
+      "jurisdiction": "SA",
+      "citation_string": "Tex. App.",
+      "cases_in_corpus": 487528,
+      "years": "1876-2025",
+      "active": true
+     },
+     {
+      "id": "txctapp14",
+      "short_name": "Tex. App. Ct., 14th Dist. (Houston)",
+      "full_name": "Texas Court of Appeals, 14th District (Houston)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 81,
+      "years": "2002-2023",
+      "active": true
+     },
+     {
+      "id": "txctapp1",
+      "short_name": "Tex. App. Ct., 1st Dist. (Houston)",
+      "full_name": "Texas Court of Appeals, 1st District (Houston)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 933,
+      "years": "1998-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp4",
+      "short_name": "Tex. App. Ct., 4th Dist. (San Antonio)",
+      "full_name": "Texas Court of Appeals, 4th District (San Antonio)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 834,
+      "years": "2001-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp3",
+      "short_name": "Tex. App. Ct., 3rd Dist. (Austin)",
+      "full_name": "Texas Court of Appeals, 3rd District (Austin)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 690,
+      "years": "1992-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp2",
+      "short_name": "Tex. App. Ct., 2nd Dist. (Fort Worth)",
+      "full_name": "Texas Court of Appeals, 2nd District (Fort Worth)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 663,
+      "years": "2003-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp7",
+      "short_name": "Tex. App. Ct., 7th Dist. (Amarillo)",
+      "full_name": "Texas Court of Appeals, 7th District (Amarillo)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 389,
+      "years": "2000-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp8",
+      "short_name": "Tex. App. Ct., 8th Dist. (El Paso)",
+      "full_name": "Texas Court of Appeals, 8th District (El Paso)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 372,
+      "years": "1987-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp6",
+      "short_name": "Tex. App. Ct., 6th Dist. (Texarkana)",
+      "full_name": "Texas Court of Appeals, 6th District (Texarkana)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 341,
+      "years": "2000-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp9",
+      "short_name": "Tex. App. Ct., 9th Dist. (Beaumont)",
+      "full_name": "Texas Court of Appeals, 9th District (Beaumont)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 322,
+      "years": "1989-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp10",
+      "short_name": "Tex. App. Ct., 10th Dist. (Waco)",
+      "full_name": "Texas Court of Appeals, 10th District (Waco)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 304,
+      "years": "1992-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp11",
+      "short_name": "Tex. App. Ct., 11th Dist. (Eastland)",
+      "full_name": "Texas Court of Appeals, 11th District (Eastland)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 286,
+      "years": "2004-2026",
+      "active": true
+     },
+     {
+      "id": "txctapp5",
+      "short_name": "Tex. App. Ct., 5th Dist. (Dallas)",
+      "full_name": "Texas Court of Appeals, 5th District (Dallas)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 90,
+      "years": "1990-2024",
+      "active": true
+     },
+     {
+      "id": "txctapp12",
+      "short_name": "Tex. App. Ct., 12th Dist. (Tyler)",
+      "full_name": "Texas Court of Appeals, 12th District (Tyler)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 14,
+      "years": "2002-2020",
+      "active": true
+     },
+     {
+      "id": "texcrimapp",
+      "short_name": "Court of Criminal Appeals of Texas",
+      "full_name": "Court of Criminal Appeals of Texas",
+      "jurisdiction": "S",
+      "citation_string": "Tex. Crim. App.",
+      "cases_in_corpus": 83080,
+      "years": "1892-2026",
+      "active": true
+     },
+     {
+      "id": "txsd",
+      "short_name": "S.D. Texas",
+      "full_name": "District Court, S.D. Texas",
+      "jurisdiction": "FD",
+      "citation_string": "S.D. Tex.",
+      "cases_in_corpus": 14240,
+      "years": "1904-2026",
+      "active": true
+     },
+     {
+      "id": "txnd",
+      "short_name": "N.D. Texas",
+      "full_name": "District Court, N.D. Texas",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Tex.",
+      "cases_in_corpus": 13635,
+      "years": "1882-2026",
+      "active": true
+     },
+     {
+      "id": "txed",
+      "short_name": "E.D. Texas",
+      "full_name": "District Court, E.D. Texas",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Tex.",
+      "cases_in_corpus": 10294,
+      "years": "1859-2026",
+      "active": true
+     },
+     {
+      "id": "txwd",
+      "short_name": "W.D. Texas",
+      "full_name": "District Court, W.D. Texas",
+      "jurisdiction": "FD",
+      "citation_string": "W.D. Tex.",
+      "cases_in_corpus": 9116,
+      "years": "1796-2026",
+      "active": true
+     },
+     {
+      "id": "txnb",
+      "short_name": "N.D. Texas",
+      "full_name": "United States Bankruptcy Court, N.D. Texas",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Tex.",
+      "cases_in_corpus": 1362,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "txsb",
+      "short_name": "S.D. Texas",
+      "full_name": "United States Bankruptcy Court, S.D. Texas",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Tex.",
+      "cases_in_corpus": 1254,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "txwb",
+      "short_name": "W.D. Texas",
+      "full_name": "United States Bankruptcy Court, W.D. Texas",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D. Tex.",
+      "cases_in_corpus": 742,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "txeb",
+      "short_name": "E.D. Texas",
+      "full_name": "United States Bankruptcy Court, E.D. Texas",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Tex.",
+      "cases_in_corpus": 367,
+      "years": "1989-2026",
+      "active": true
+     },
+     {
+      "id": "tex",
+      "short_name": "Texas Supreme Court",
+      "full_name": "Texas Supreme Court",
+      "jurisdiction": "S",
+      "citation_string": "Tex.",
+      "cases_in_corpus": 32361,
+      "years": "1840-2026",
+      "active": true
+     },
+     {
+      "id": "texbizct",
+      "short_name": "Texas Business Court",
+      "full_name": "Texas Business Court",
+      "jurisdiction": "ST",
+      "citation_string": "Tex. Bus. Ct.",
+      "cases_in_corpus": 121,
+      "years": "2024-2026",
+      "active": true
+     }
+    ],
+    "court_structure": {
+     "state": "Texas",
+     "court": "Texas Courts of Appeals",
+     "court_number": 14,
+     "read_from": "court number",
+     "holder_id": "texapp",
+     "unit_id": "txctapp14",
+     "search_court": "texapp,txctapp14"
+    },
+    "coverage_note": "Texas courts of appeals opinions (1st-14th, plus the statewide Fifteenth since 2024) are filed almost all under ONE id, texapp (487,528 opinions, 1876-2025), whatever the court. The per-court ids txctapp1..txctapp14 hold only a separate CourtListener import (5,319 opinions in all; txctapp14: 81 opinions (2002-2023)), so a filter on one of them misses almost every opinion of that court. Use court=\"texapp,txctapp14\" and read the court from the citation parenthetical (\"Tex. App.-Houston [14th Dist.]\"). The Court of Criminal Appeals is texcrimapp. Read as the 14th Court of Appeals (Houston).",
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "note": "Resolved by the court structure (court_structure): Texas Courts of Appeals, court number 14. Read coverage_note before filtering a search with a district id.",
+    "state_ranking": "Courts of Texas are listed first."
+   }
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "id": "c6-03",
+ "class": "vendor",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "United States v. DuBay, 1967 WL 4276."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"database_cites\": 0,\n        \"resolved_by_database_alias\": 1,\n        \"prefer_reporter_cite\": 1\n    },\n    \"warnings\": [\n        \"1 Westlaw / Lexis database citation(s) belong to cases that have a reporter citation: replace them with the reporter cites listed in corrections (kind prefer_reporter_cite).\",\n        \"1 Westlaw / Lexis number(s) the reporter index lacks were resolved through the citation-alias table (cites[].resolved_via).\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"1967 WL 4276\",\n            \"kind\": \"prefer_reporter_cite\",\n            \"problem\": \"Replace 1967 WL 4276 with United States v. DuBay, 17 C.M.A. 147 (1967): the case has a reporter citation, which courts prefer to a Westlaw number.\",\n            \"suggested\": \"United States v. DuBay, 17 C.M.A. 147 (1967)\",\n            \"also_cited_as\": \"1967 WL 4276\"\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"1967 WL 4276\",\n            \"volume\": \"1967\",\n            \"reporter\": \"WL\",\n            \"page\": \"4276\",\n            \"pin\": null,\n            \"database\": \"Westlaw\",\n            \"cluster_id\": 8596708,\n            \"did_you_mean\": [],\n            \"status\": \"resolved\",\n            \"note\": \"Resolved through the westlaw citation confirmed on review (Syfert). Quotations attributed to this cite were not checked against the opinion here: run verify_quote with cluster_id 8596708.\",\n            \"claimed\": {\n                \"lhs\": \"United States\",\n                \"rhs\": \"DuBay\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"United States\",\n                    \"rhs\": \"DuBay\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"United States v. DuBay\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"resolution\": \"database_alias\",\n            \"resolved_via\": \"westlaw citation confirmed on review (Syfert)\",\n            \"alias_evidence\": {\n                \"source\": \"graham\",\n                \"tier\": \"verified\",\n                \"citing_opinions\": 70,\n                \"written_as\": \"United States v. DuBay\",\n                \"first_seen\": \"1994-06-13\"\n            },\n            \"case\": {\n                \"case_name\": \"United States v. DuBay\",\n                \"date_filed\": \"1967-07-21\",\n                \"court\": \"United States Court of Military Appeals\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 162,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"url\": \"https://syfert.com/federal/specialty/cases/17-c-m-a-147/united-states-v-dubay\",\n            \"link_md\": \"[United States v. DuBay](https://syfert.com/federal/specialty/cases/17-c-m-a-147/united-states-v-dubay)\",\n            \"cite_as\": \"United States v. DuBay, 17 C.M.A. 147 (1967)\",\n            \"also_cited_as\": \"1967 WL 4276\",\n            \"citation_note\": \"Cite the reporter: this case has a reporter citation (17 C.M.A. 147), so 1967 WL 4276 should be replaced by it \u2014 courts prefer the official or regional reporter to a Westlaw number.\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "database_cites": 0,
+     "resolved_by_database_alias": 1,
+     "prefer_reporter_cite": 1
+    },
+    "warnings": [
+     "1 Westlaw / Lexis database citation(s) belong to cases that have a reporter citation: replace them with the reporter cites listed in corrections (kind prefer_reporter_cite).",
+     "1 Westlaw / Lexis number(s) the reporter index lacks were resolved through the citation-alias table (cites[].resolved_via)."
+    ],
+    "corrections": [
+     {
+      "raw": "1967 WL 4276",
+      "kind": "prefer_reporter_cite",
+      "problem": "Replace 1967 WL 4276 with United States v. DuBay, 17 C.M.A. 147 (1967): the case has a reporter citation, which courts prefer to a Westlaw number.",
+      "suggested": "United States v. DuBay, 17 C.M.A. 147 (1967)",
+      "also_cited_as": "1967 WL 4276"
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "1967 WL 4276",
+      "volume": "1967",
+      "reporter": "WL",
+      "page": "4276",
+      "pin": null,
+      "database": "Westlaw",
+      "cluster_id": 8596708,
+      "did_you_mean": [],
+      "status": "resolved",
+      "note": "Resolved through the westlaw citation confirmed on review (Syfert). Quotations attributed to this cite were not checked against the opinion here: run verify_quote with cluster_id 8596708.",
+      "claimed": {
+       "lhs": "United States",
+       "rhs": "DuBay"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "United States",
+        "rhs": "DuBay"
+       },
+       "verdict": "match",
+       "resolved_name": "United States v. DuBay"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "resolution": "database_alias",
+      "resolved_via": "westlaw citation confirmed on review (Syfert)",
+      "alias_evidence": {
+       "source": "graham",
+       "tier": "verified",
+       "citing_opinions": 70,
+       "written_as": "United States v. DuBay",
+       "first_seen": "1994-06-13"
+      },
+      "case": {
+       "case_name": "United States v. DuBay",
+       "date_filed": "1967-07-21",
+       "court": "United States Court of Military Appeals"
+      },
+      "treatment": {
+       "flag_color": "green",
+       "flag": "green",
+       "red": 0,
+       "yellow": 0,
+       "green": 162,
+       "procedural": 0,
+       "strongest_signal": null,
+       "strongest_citer": "",
+       "strongest_date": null
+      },
+      "url": "https://syfert.com/federal/specialty/cases/17-c-m-a-147/united-states-v-dubay",
+      "link_md": "[United States v. DuBay](https://syfert.com/federal/specialty/cases/17-c-m-a-147/united-states-v-dubay)",
+      "cite_as": "United States v. DuBay, 17 C.M.A. 147 (1967)",
+      "also_cited_as": "1967 WL 4276",
+      "citation_note": "Cite the reporter: this case has a reporter citation (17 C.M.A. 147), so 1967 WL 4276 should be replaced by it \u2014 courts prefer the official or regional reporter to a Westlaw number."
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+raw Syfert MCP tool arm, grader v1.1, server syfert-legal-research 1.7.0, 202 answers in results/20261026-syfert-raw3
+class         pass  miss     n
+bluebook        63     2    65
+caption         17     0    17
+coverage        11     1    12
+history         18     0    18
+misprint         4     3     7
+pagination       5     4     9
+quotation        6     0     6
+series          10     0    10
+statute          5     0     5
+treatment       14     1    15
+vendor          14     0    14
+traps          167    11   178
+control         24     0    24   (false positives: 0)
+total          191    11   202
+no ANSWER line: 0; no saved answer (not counted above): 0
+
+miss ct-scotus        bluebook     missing U.S.
+miss ct-texapp        bluebook     missing Tex. App.—Houston [14th Dist.] / Tex. App.
+miss c1-05            coverage     missing 79021 / Apr. 16, 2020 / April 16, 2020 / 2020-04-16
+miss c8-03            misprint     missing 676 N.E.2d 339
+miss c8-06            misprint     missing 145 So. 3d 495
+miss c8-07            misprint     missing 438 U.S. 154
+miss c5-06            pagination   missing 41 Vt. 122
+miss pin-02           pagination   missing 467 U.S. 837
+miss pin-11           pagination   missing 428 U.S. 153
+miss pin-14           pagination   missing 597 U.S. 215
+miss c4b-08           treatment    missing unpublished / not precedential / nonprecedential / non-precedential / not published / not binding / not citable / persuasive on the ANSWER line

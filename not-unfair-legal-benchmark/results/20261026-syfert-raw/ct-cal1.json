@@ -1,0 +1,275 @@
+{
+ "id": "ct-cal1",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "California Court of Appeal"
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"California Court of Appeal\",\n    \"courts\": [\n        {\n            \"id\": \"calctapp\",\n            \"short_name\": \"California Court of Appeal\",\n            \"full_name\": \"California Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. Ct. App.\",\n            \"cases_in_corpus\": 177473,\n            \"years\": \"1839-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calctapp1d\",\n            \"short_name\": \"California Court of Appeals, 1st District\",\n            \"full_name\": \"California Court of Appeal, 1st District\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. Ct. App. 1st\",\n            \"cases_in_corpus\": 9,\n            \"years\": \"2015-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calctapp2d\",\n            \"short_name\": \"California Court of Appeals, 2nd District\",\n            \"full_name\": \"California Court of Appeal, 2nd District\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. Ct. App. 2nd\",\n            \"cases_in_corpus\": 19,\n            \"years\": \"2015-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calctapp3d\",\n            \"short_name\": \"California Court of Appeals, 3rd District\",\n            \"full_name\": \"California Court of Appeal, 3rd District\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. Ct. App. 3rd\",\n            \"cases_in_corpus\": 8,\n            \"years\": \"2015-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calctapp4d\",\n            \"short_name\": \"California Court of Appeals, 4th District\",\n            \"full_name\": \"California Court of Appeal, 4th District\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. Ct. App. 4th\",\n            \"cases_in_corpus\": 29,\n            \"years\": \"2015-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calctapp5d\",\n            \"short_name\": \"California Court of Appeals, 5th District\",\n            \"full_name\": \"California Court of Appeal, 5th District\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. Ct. App. 5th\",\n            \"cases_in_corpus\": 95,\n            \"years\": \"2016-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calctapp6d\",\n            \"short_name\": \"California Court of Appeals, 6th District\",\n            \"full_name\": \"California Court of Appeal, 6th District\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. Ct. App. 6th\",\n            \"cases_in_corpus\": 6,\n            \"years\": \"2015-2016\",\n            \"active\": true\n        },\n        {\n            \"id\": \"caed\",\n            \"short_name\": \"E.D. California\",\n            \"full_name\": \"District Court, E.D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"E.D. Cal.\",\n            \"cases_in_corpus\": 59899,\n            \"years\": \"1916-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cal\",\n            \"short_name\": \"California Supreme Court\",\n            \"full_name\": \"California Supreme Court\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"Cal.\",\n            \"cases_in_corpus\": 44661,\n            \"years\": \"1803-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cand\",\n            \"short_name\": \"N.D. California\",\n            \"full_name\": \"District Court, N.D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D. Cal.\",\n            \"cases_in_corpus\": 34618,\n            \"years\": \"1851-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cacd\",\n            \"short_name\": \"C.D. California\",\n            \"full_name\": \"District Court, C.D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"C.D. Cal.\",\n            \"cases_in_corpus\": 27434,\n            \"years\": \"1892-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"casd\",\n            \"short_name\": \"S.D. California\",\n            \"full_name\": \"District Court, S.D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D. Cal.\",\n            \"cases_in_corpus\": 18251,\n            \"years\": \"1808-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calappdeptsuper\",\n            \"short_name\": \"Appellate Division of the Superior Court of California\",\n            \"full_name\": \"Appellate Division of the Superior Court of California\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. App. Dep\u2019t Super. Ct.\",\n            \"cases_in_corpus\": 1415,\n            \"years\": \"1929-2017\",\n            \"active\": true\n        },\n        {\n            \"id\": \"cacb\",\n            \"short_name\": \"C.D. California\",\n            \"full_name\": \"United States Bankruptcy Court, C.D. California\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. C.D. Cal.\",\n            \"cases_in_corpus\": 1037,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"caeb\",\n            \"short_name\": \"E.D. California\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. California\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Cal.\",\n            \"cases_in_corpus\": 558,\n            \"years\": \"1981-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"canb\",\n            \"short_name\": \"N.D. California\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. California\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Cal.\",\n            \"cases_in_corpus\": 549,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"circtndca\",\n            \"short_name\": \"U.S. Circuit Court for the District of Northern California\",\n            \"full_name\": \"U.S. Circuit Court for the District of Northern California\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 502,\n            \"years\": \"1854-2012\",\n            \"active\": true\n        },\n        {\n            \"id\": \"casb\",\n            \"short_name\": \"S.D. California\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. California\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Cal.\",\n            \"cases_in_corpus\": 395,\n            \"years\": \"1979-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"californiad\",\n            \"short_name\": \"D. California\",\n            \"full_name\": \"District Court, D. California\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. Cal.\",\n            \"cases_in_corpus\": 245,\n            \"years\": \"1819-2013\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calsuperct\",\n            \"short_name\": \"California Superior Court\",\n            \"full_name\": \"California Superior Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Cal. Super. Ct.\",\n            \"cases_in_corpus\": 110,\n            \"years\": \"1880-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calag\",\n            \"short_name\": \"California Attorney General Reports\",\n            \"full_name\": \"California Attorney General Reports\",\n            \"jurisdiction\": \"SAG\",\n            \"citation_string\": \"Cal. Att'y Gen.\",\n            \"cases_in_corpus\": 1281,\n            \"years\": \"1986-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"caljp\",\n            \"short_name\": \"State of California Commission On Judicial Performance\",\n            \"full_name\": \"State of California Commission On Judicial Performance\",\n            \"jurisdiction\": \"C\",\n            \"cases_in_corpus\": 30,\n            \"years\": \"1977-2013\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calsuppctsf\",\n            \"short_name\": \"California Superior Court, San Francisco County\",\n            \"full_name\": \"Superior Court of California, County of San Francisco\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Cal. Supp. Ct. (San Francisco)\",\n            \"cases_in_corpus\": 375,\n            \"years\": \"1872-1910\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtsdca\",\n            \"short_name\": \"U.S. Circuit Court for the District of Southern California\",\n            \"full_name\": \"U.S. Circuit Court for the District of Southern California\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 242,\n            \"years\": \"1855-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtdca\",\n            \"short_name\": \"U.S. Circuit Court for the District of California\",\n            \"full_name\": \"U.S. Circuit Court for the District of California\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 153,\n            \"years\": \"1853-1960\",\n            \"active\": false\n        }\n    ],\n    \"court_structure\": {\n        \"state\": \"California\",\n        \"court\": \"California Court of Appeal\",\n        \"holder_id\": \"calctapp\",\n        \"search_court\": \"calctapp*\"\n    },\n    \"coverage_note\": \"California Court of Appeal opinions are filed under ONE id, calctapp (177,473 opinions, 1839-2026), whatever the district or division. There are no division-level ids. The district ids hold only a small CourtListener import (calctapp1d 9 (2015-2016); calctapp2d 19 (2015-2016); calctapp3d 8 (2015-2016); calctapp4d 29 (2015-2016); calctapp5d 95 (2016-2019); calctapp6d 6 (2015-2016)); calctapp5d is the 2016-2019 Cal.App.5th import filed under the reporter SERIES, not the Fifth District. A filter on one district id misses almost every opinion of that district: use court=\\\"calctapp*\\\" (calctapp + the district ids) and read the district from the docket number (get_case docket_number: A = 1st, B = 2nd, C = 3rd, D/E/G = 4th Div. 1/2/3, F = 5th, H = 6th District).\",\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"note\": \"Resolved by the court structure (court_structure): California Court of Appeal. Read coverage_note before filtering a search with a district id.\",\n    \"state_ranking\": \"Courts of California are listed first.\"\n}",
+   "json": {
+    "query": "California Court of Appeal",
+    "courts": [
+     {
+      "id": "calctapp",
+      "short_name": "California Court of Appeal",
+      "full_name": "California Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. Ct. App.",
+      "cases_in_corpus": 177473,
+      "years": "1839-2026",
+      "active": true
+     },
+     {
+      "id": "calctapp1d",
+      "short_name": "California Court of Appeals, 1st District",
+      "full_name": "California Court of Appeal, 1st District",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. Ct. App. 1st",
+      "cases_in_corpus": 9,
+      "years": "2015-2016",
+      "active": true
+     },
+     {
+      "id": "calctapp2d",
+      "short_name": "California Court of Appeals, 2nd District",
+      "full_name": "California Court of Appeal, 2nd District",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. Ct. App. 2nd",
+      "cases_in_corpus": 19,
+      "years": "2015-2016",
+      "active": true
+     },
+     {
+      "id": "calctapp3d",
+      "short_name": "California Court of Appeals, 3rd District",
+      "full_name": "California Court of Appeal, 3rd District",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. Ct. App. 3rd",
+      "cases_in_corpus": 8,
+      "years": "2015-2016",
+      "active": true
+     },
+     {
+      "id": "calctapp4d",
+      "short_name": "California Court of Appeals, 4th District",
+      "full_name": "California Court of Appeal, 4th District",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. Ct. App. 4th",
+      "cases_in_corpus": 29,
+      "years": "2015-2016",
+      "active": true
+     },
+     {
+      "id": "calctapp5d",
+      "short_name": "California Court of Appeals, 5th District",
+      "full_name": "California Court of Appeal, 5th District",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. Ct. App. 5th",
+      "cases_in_corpus": 95,
+      "years": "2016-2019",
+      "active": true
+     },
+     {
+      "id": "calctapp6d",
+      "short_name": "California Court of Appeals, 6th District",
+      "full_name": "California Court of Appeal, 6th District",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. Ct. App. 6th",
+      "cases_in_corpus": 6,
+      "years": "2015-2016",
+      "active": true
+     },
+     {
+      "id": "caed",
+      "short_name": "E.D. California",
+      "full_name": "District Court, E.D. California",
+      "jurisdiction": "FD",
+      "citation_string": "E.D. Cal.",
+      "cases_in_corpus": 59899,
+      "years": "1916-2026",
+      "active": true
+     },
+     {
+      "id": "cal",
+      "short_name": "California Supreme Court",
+      "full_name": "California Supreme Court",
+      "jurisdiction": "S",
+      "citation_string": "Cal.",
+      "cases_in_corpus": 44661,
+      "years": "1803-2026",
+      "active": true
+     },
+     {
+      "id": "cand",
+      "short_name": "N.D. California",
+      "full_name": "District Court, N.D. California",
+      "jurisdiction": "FD",
+      "citation_string": "N.D. Cal.",
+      "cases_in_corpus": 34618,
+      "years": "1851-2026",
+      "active": true
+     },
+     {
+      "id": "cacd",
+      "short_name": "C.D. California",
+      "full_name": "District Court, C.D. California",
+      "jurisdiction": "FD",
+      "citation_string": "C.D. Cal.",
+      "cases_in_corpus": 27434,
+      "years": "1892-2026",
+      "active": true
+     },
+     {
+      "id": "casd",
+      "short_name": "S.D. California",
+      "full_name": "District Court, S.D. California",
+      "jurisdiction": "FD",
+      "citation_string": "S.D. Cal.",
+      "cases_in_corpus": 18251,
+      "years": "1808-2026",
+      "active": true
+     },
+     {
+      "id": "calappdeptsuper",
+      "short_name": "Appellate Division of the Superior Court of California",
+      "full_name": "Appellate Division of the Superior Court of California",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. App. Dep\u2019t Super. Ct.",
+      "cases_in_corpus": 1415,
+      "years": "1929-2017",
+      "active": true
+     },
+     {
+      "id": "cacb",
+      "short_name": "C.D. California",
+      "full_name": "United States Bankruptcy Court, C.D. California",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. C.D. Cal.",
+      "cases_in_corpus": 1037,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "caeb",
+      "short_name": "E.D. California",
+      "full_name": "United States Bankruptcy Court, E.D. California",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Cal.",
+      "cases_in_corpus": 558,
+      "years": "1981-2026",
+      "active": true
+     },
+     {
+      "id": "canb",
+      "short_name": "N.D. California",
+      "full_name": "United States Bankruptcy Court, N.D. California",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Cal.",
+      "cases_in_corpus": 549,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "circtndca",
+      "short_name": "U.S. Circuit Court for the District of Northern California",
+      "full_name": "U.S. Circuit Court for the District of Northern California",
+      "jurisdiction": "F",
+      "cases_in_corpus": 502,
+      "years": "1854-2012",
+      "active": true
+     },
+     {
+      "id": "casb",
+      "short_name": "S.D. California",
+      "full_name": "United States Bankruptcy Court, S.D. California",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Cal.",
+      "cases_in_corpus": 395,
+      "years": "1979-2018",
+      "active": true
+     },
+     {
+      "id": "californiad",
+      "short_name": "D. California",
+      "full_name": "District Court, D. California",
+      "jurisdiction": "FD",
+      "citation_string": "D. Cal.",
+      "cases_in_corpus": 245,
+      "years": "1819-2013",
+      "active": true
+     },
+     {
+      "id": "calsuperct",
+      "short_name": "California Superior Court",
+      "full_name": "California Superior Court",
+      "jurisdiction": "ST",
+      "citation_string": "Cal. Super. Ct.",
+      "cases_in_corpus": 110,
+      "years": "1880-2019",
+      "active": true
+     },
+     {
+      "id": "calag",
+      "short_name": "California Attorney General Reports",
+      "full_name": "California Attorney General Reports",
+      "jurisdiction": "SAG",
+      "citation_string": "Cal. Att'y Gen.",
+      "cases_in_corpus": 1281,
+      "years": "1986-2026",
+      "active": true
+     },
+     {
+      "id": "caljp",
+      "short_name": "State of California Commission On Judicial Performance",
+      "full_name": "State of California Commission On Judicial Performance",
+      "jurisdiction": "C",
+      "cases_in_corpus": 30,
+      "years": "1977-2013",
+      "active": true
+     },
+     {
+      "id": "calsuppctsf",
+      "short_name": "California Superior Court, San Francisco County",
+      "full_name": "Superior Court of California, County of San Francisco",
+      "jurisdiction": "ST",
+      "citation_string": "Cal. Supp. Ct. (San Francisco)",
+      "cases_in_corpus": 375,
+      "years": "1872-1910",
+      "active": false
+     },
+     {
+      "id": "circtsdca",
+      "short_name": "U.S. Circuit Court for the District of Southern California",
+      "full_name": "U.S. Circuit Court for the District of Southern California",
+      "jurisdiction": "F",
+      "cases_in_corpus": 242,
+      "years": "1855-1911",
+      "active": false
+     },
+     {
+      "id": "circtdca",
+      "short_name": "U.S. Circuit Court for the District of California",
+      "full_name": "U.S. Circuit Court for the District of California",
+      "jurisdiction": "F",
+      "cases_in_corpus": 153,
+      "years": "1853-1960",
+      "active": false
+     }
+    ],
+    "court_structure": {
+     "state": "California",
+     "court": "California Court of Appeal",
+     "holder_id": "calctapp",
+     "search_court": "calctapp*"
+    },
+    "coverage_note": "California Court of Appeal opinions are filed under ONE id, calctapp (177,473 opinions, 1839-2026), whatever the district or division. There are no division-level ids. The district ids hold only a small CourtListener import (calctapp1d 9 (2015-2016); calctapp2d 19 (2015-2016); calctapp3d 8 (2015-2016); calctapp4d 29 (2015-2016); calctapp5d 95 (2016-2019); calctapp6d 6 (2015-2016)); calctapp5d is the 2016-2019 Cal.App.5th import filed under the reporter SERIES, not the Fifth District. A filter on one district id misses almost every opinion of that district: use court=\"calctapp*\" (calctapp + the district ids) and read the district from the docket number (get_case docket_number: A = 1st, B = 2nd, C = 3rd, D/E/G = 4th Div. 1/2/3, F = 5th, H = 6th District).",
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "note": "Resolved by the court structure (court_structure): California Court of Appeal. Read coverage_note before filtering a search with a district id.",
+    "state_ranking": "Courts of California are listed first."
+   }
+  }
+ ]
+}

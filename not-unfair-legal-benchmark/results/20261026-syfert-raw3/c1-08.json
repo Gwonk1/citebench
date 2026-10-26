@@ -1,0 +1,110 @@
+{
+ "id": "c1-08",
+ "class": "coverage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "GUILFORT DIEUVIL and MAGDADENE DIEUVIL v. BOYNTON BEACH ASSOCIATES XVI, LLLP, 303 So. 3d 940."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"303 So. 3d 940\",\n            \"volume\": \"303\",\n            \"reporter\": \"So. 3d\",\n            \"page\": \"940\",\n            \"pin\": null,\n            \"cluster_id\": 4793963,\n            \"resolution\": \"page_mate\",\n            \"page_mate\": {\n                \"index_owner\": 4793954,\n                \"index_owner_name\": \"SUN LAND CAPITAL CORPORATION v. OCEAN MARINE PROJECTS, LTD\",\n                \"note\": \"Several cases start on this page. The reporter index lists SUN LAND CAPITAL CORPORATION v. OCEAN MARINE PROJECTS, LTD here; the case the brief names, GUILFORT DIEUVIL and MAGDADENE DIEUVIL v. BOYNTON BEACH ASSOCIATES XVI, LLLP, is also on this page and is the one checked.\"\n            },\n            \"case\": {\n                \"case_name\": \"Guilfort Dieuvil and Magdadene Dieuvil v. Boynton Beach Associates Xvi, LLLP\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2020-10-08\",\n                \"court_id\": \"fladistctapp\",\n                \"docket_number\": \"19-2720\",\n                \"citation_count\": 0,\n                \"court_label\": \"Fla. 4th DCA\"\n            },\n            \"treatment\": {\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"GUILFORT DIEUVIL and MAGDADENE DIEUVIL\",\n                \"rhs\": \"BOYNTON BEACH ASSOCIATES XVI, LLLP\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"GUILFORT DIEUVIL and MAGDADENE DIEUVIL\",\n                    \"rhs\": \"BOYNTON BEACH ASSOCIATES XVI, LLLP\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Guilfort Dieuvil and Magdadene Dieuvil v. Boynton Beach Associates Xvi, LLLP\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/florida/cases/303-so-3d-940/guilfort-dieuvil-and-magdadene-dieuvil-v-boynton-beach-associates-xvi\",\n            \"link_md\": \"[Guilfort Dieuvil and Magdadene Dieuvil v. Boynton Beach Associates Xvi, LLLP](https://syfert.com/florida/cases/303-so-3d-940/guilfort-dieuvil-and-magdadene-dieuvil-v-boynton-beach-associates-xvi)\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"303 So. 3d 940\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/303%20So.3d\"\n                }\n            ]\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "303 So. 3d 940",
+      "volume": "303",
+      "reporter": "So. 3d",
+      "page": "940",
+      "pin": null,
+      "cluster_id": 4793963,
+      "resolution": "page_mate",
+      "page_mate": {
+       "index_owner": 4793954,
+       "index_owner_name": "SUN LAND CAPITAL CORPORATION v. OCEAN MARINE PROJECTS, LTD",
+       "note": "Several cases start on this page. The reporter index lists SUN LAND CAPITAL CORPORATION v. OCEAN MARINE PROJECTS, LTD here; the case the brief names, GUILFORT DIEUVIL and MAGDADENE DIEUVIL v. BOYNTON BEACH ASSOCIATES XVI, LLLP, is also on this page and is the one checked."
+      },
+      "case": {
+       "case_name": "Guilfort Dieuvil and Magdadene Dieuvil v. Boynton Beach Associates Xvi, LLLP",
+       "case_name_short": null,
+       "date_filed": "2020-10-08",
+       "court_id": "fladistctapp",
+       "docket_number": "19-2720",
+       "citation_count": 0,
+       "court_label": "Fla. 4th DCA"
+      },
+      "treatment": {
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "GUILFORT DIEUVIL and MAGDADENE DIEUVIL",
+       "rhs": "BOYNTON BEACH ASSOCIATES XVI, LLLP"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "GUILFORT DIEUVIL and MAGDADENE DIEUVIL",
+        "rhs": "BOYNTON BEACH ASSOCIATES XVI, LLLP"
+       },
+       "verdict": "match",
+       "resolved_name": "Guilfort Dieuvil and Magdadene Dieuvil v. Boynton Beach Associates Xvi, LLLP"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/florida/cases/303-so-3d-940/guilfort-dieuvil-and-magdadene-dieuvil-v-boynton-beach-associates-xvi",
+      "link_md": "[Guilfort Dieuvil and Magdadene Dieuvil v. Boynton Beach Associates Xvi, LLLP](https://syfert.com/florida/cases/303-so-3d-940/guilfort-dieuvil-and-magdadene-dieuvil-v-boynton-beach-associates-xvi)",
+      "citation_provenance": [
+       {
+        "citation": "303 So. 3d 940",
+        "recovered_from_citing_opinions": 0,
+        "source": "name_year_recovery",
+        "via": "gapfill",
+        "method": "leagle_volume_listing",
+        "confidence": 0.9,
+        "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+        "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/303%20So.3d"
+       }
+      ]
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

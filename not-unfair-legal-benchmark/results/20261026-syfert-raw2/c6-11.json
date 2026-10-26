@@ -1,0 +1,94 @@
+{
+ "id": "c6-11",
+ "class": "vendor",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Campos v. Aegis Realty Management Corp., 2020 WL 433356."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"database_cites\": 0,\n        \"resolved_by_database_alias\": 1\n    },\n    \"warnings\": [\n        \"1 Westlaw / Lexis number(s) the reporter index lacks were resolved through the citation-alias table (cites[].resolved_via).\"\n    ],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"2020 WL 433356\",\n            \"volume\": \"2020\",\n            \"reporter\": \"WL\",\n            \"page\": \"433356\",\n            \"pin\": null,\n            \"database\": \"Westlaw\",\n            \"cluster_id\": 9853771,\n            \"did_you_mean\": [],\n            \"status\": \"resolved\",\n            \"note\": \"Resolved through the westlaw citation attributed to this case by 8 citing opinions in the corpus (docket number matching). Quotations attributed to this cite were not checked against the opinion here: run verify_quote with cluster_id 9853771.\",\n            \"claimed\": {\n                \"lhs\": \"Campos\",\n                \"rhs\": \"Aegis Realty Management Corp.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Campos\",\n                    \"rhs\": \"Aegis Realty Management Corp.\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Campos v. Aegis Realty Management Corp.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"resolution\": \"database_alias\",\n            \"resolved_via\": \"westlaw citation attributed to this case by 8 citing opinions in the corpus (docket number matching)\",\n            \"alias_evidence\": {\n                \"source\": \"corpus_citers\",\n                \"tier\": \"verified\",\n                \"citing_opinions\": 4,\n                \"docket_matches\": 2,\n                \"user_claim_days\": 4,\n                \"written_as\": \"Campos v. Aegis Realty Mgmt. Corp.\",\n                \"first_seen\": \"2020-02-19\"\n            },\n            \"case\": {\n                \"case_name\": \"Campos v. Aegis Realty Management Corp.\",\n                \"date_filed\": \"2020-01-28\",\n                \"court\": \"S.D. New York\"\n            },\n            \"url\": \"https://syfert.com/federal/district/cases/cl-9853771/campos-v-aegis-realty-management-corp\",\n            \"link_md\": \"[Campos v. Aegis Realty Management Corp.](https://syfert.com/federal/district/cases/cl-9853771/campos-v-aegis-realty-management-corp)\",\n            \"cite_as\": \"Campos v. Aegis Realty Management Corp., 2020 WL 433356 (S.D.N.Y. Jan. 28, 2020)\",\n            \"citation_note\": \"No reporter citation on record for this case; the Westlaw number is the citation to use (add the docket number and the full date).\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "database_cites": 0,
+     "resolved_by_database_alias": 1
+    },
+    "warnings": [
+     "1 Westlaw / Lexis number(s) the reporter index lacks were resolved through the citation-alias table (cites[].resolved_via)."
+    ],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "2020 WL 433356",
+      "volume": "2020",
+      "reporter": "WL",
+      "page": "433356",
+      "pin": null,
+      "database": "Westlaw",
+      "cluster_id": 9853771,
+      "did_you_mean": [],
+      "status": "resolved",
+      "note": "Resolved through the westlaw citation attributed to this case by 8 citing opinions in the corpus (docket number matching). Quotations attributed to this cite were not checked against the opinion here: run verify_quote with cluster_id 9853771.",
+      "claimed": {
+       "lhs": "Campos",
+       "rhs": "Aegis Realty Management Corp."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Campos",
+        "rhs": "Aegis Realty Management Corp."
+       },
+       "verdict": "match",
+       "resolved_name": "Campos v. Aegis Realty Management Corp."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "resolution": "database_alias",
+      "resolved_via": "westlaw citation attributed to this case by 8 citing opinions in the corpus (docket number matching)",
+      "alias_evidence": {
+       "source": "corpus_citers",
+       "tier": "verified",
+       "citing_opinions": 4,
+       "docket_matches": 2,
+       "user_claim_days": 4,
+       "written_as": "Campos v. Aegis Realty Mgmt. Corp.",
+       "first_seen": "2020-02-19"
+      },
+      "case": {
+       "case_name": "Campos v. Aegis Realty Management Corp.",
+       "date_filed": "2020-01-28",
+       "court": "S.D. New York"
+      },
+      "url": "https://syfert.com/federal/district/cases/cl-9853771/campos-v-aegis-realty-management-corp",
+      "link_md": "[Campos v. Aegis Realty Management Corp.](https://syfert.com/federal/district/cases/cl-9853771/campos-v-aegis-realty-management-corp)",
+      "cite_as": "Campos v. Aegis Realty Management Corp., 2020 WL 433356 (S.D.N.Y. Jan. 28, 2020)",
+      "citation_note": "No reporter citation on record for this case; the Westlaw number is the citation to use (add the docket number and the full date)."
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

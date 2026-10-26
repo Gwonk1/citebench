@@ -1,0 +1,96 @@
+{
+ "id": "h-ord-05",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "519 U.S. 1098."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"519 U.S. 1098\",\n            \"volume\": \"519\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"1098\",\n            \"pin\": null,\n            \"cluster_id\": 9284838,\n            \"case\": {\n                \"case_name\": \"Tucker Bey v. United States\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1997-01-21\",\n                \"court_id\": \"scotus\",\n                \"docket_number\": \"No. 96-6844\",\n                \"citation_count\": 0,\n                \"court_label\": \"\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.283,\n                \"total_events\": 2,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Tucker Bey v. United States\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/scotus/cases/519-u-s-1098/tucker-bey-v-united-states\",\n            \"link_md\": \"[Tucker Bey v. United States](https://syfert.com/federal/scotus/cases/519-u-s-1098/tucker-bey-v-united-states)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "519 U.S. 1098",
+      "volume": "519",
+      "reporter": "U.S.",
+      "page": "1098",
+      "pin": null,
+      "cluster_id": 9284838,
+      "case": {
+       "case_name": "Tucker Bey v. United States",
+       "case_name_short": null,
+       "date_filed": "1997-01-21",
+       "court_id": "scotus",
+       "docket_number": "No. 96-6844",
+       "citation_count": 0,
+       "court_label": ""
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.283,
+       "total_events": 2,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Tucker Bey v. United States"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/scotus/cases/519-u-s-1098/tucker-bey-v-united-states",
+      "link_md": "[Tucker Bey v. United States](https://syfert.com/federal/scotus/cases/519-u-s-1098/tucker-bey-v-united-states)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

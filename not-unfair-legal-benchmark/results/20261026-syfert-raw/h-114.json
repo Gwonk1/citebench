@@ -1,0 +1,84 @@
+{
+ "id": "h-114",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "114 S. Ct. 237."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"114 S. Ct. 237\",\n            \"volume\": \"114\",\n            \"reporter\": \"S. Ct.\",\n            \"page\": \"237\",\n            \"pin\": null,\n            \"cluster_id\": 7355572,\n            \"case\": {\n                \"case_name\": \"Johnson v. Brown\",\n                \"case_name_short\": \"Brown\",\n                \"date_filed\": \"1993-10-04\",\n                \"court_id\": \"cavc\",\n                \"docket_number\": \"No. 93-5297\",\n                \"citation_count\": 0,\n                \"court_label\": \"Vet. App.\"\n            },\n            \"treatment\": null,\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Johnson v. Brown\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/specialty/cases/cl-7355572/johnson-v-brown\",\n            \"link_md\": \"[Johnson v. Brown](https://syfert.com/federal/specialty/cases/cl-7355572/johnson-v-brown)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "114 S. Ct. 237",
+      "volume": "114",
+      "reporter": "S. Ct.",
+      "page": "237",
+      "pin": null,
+      "cluster_id": 7355572,
+      "case": {
+       "case_name": "Johnson v. Brown",
+       "case_name_short": "Brown",
+       "date_filed": "1993-10-04",
+       "court_id": "cavc",
+       "docket_number": "No. 93-5297",
+       "citation_count": 0,
+       "court_label": "Vet. App."
+      },
+      "treatment": null,
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Johnson v. Brown"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/specialty/cases/cl-7355572/johnson-v-brown",
+      "link_md": "[Johnson v. Brown](https://syfert.com/federal/specialty/cases/cl-7355572/johnson-v-brown)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

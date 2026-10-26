@@ -1,0 +1,56 @@
+{
+ "id": "c10-01",
+ "class": "quotation",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Is this a reliable quotation? If it is garbled, say so.\n\nSUPERIOR COURT oFTHE STATE OF DELAWARE E. SCOTT BRADLEY l The Circle, Suite 2 JUDGE GEORGETOWN, DE 19947 TELEPHONE (302) 856-5256 _,1 January 16, 2019 \u00a7 \u00a7\u00a7 Ryan M. Ernst, Esquire John A. Sergovic, Jr., Esquire\u00a7 \u00a7\u00a7 O\u2019Kelly Ernst & Joyce, LLC"
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 0,\n        \"resolved\": 0,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 0,
+     "resolved": 0,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  },
+  {
+   "tool": "check_citation",
+   "args": {
+    "citation": "1 January 16",
+    "expected_case_name": "Is this a reliable quotation? If it is garbled, say so.\n\nSUPERIOR COURT oFTHE STATE OF DELAWARE E. SCOTT BRADLEY l The Circle, Suite 2 JUDGE GEORGETOWN, DE 19947 TELEPHONE (302) 856-5256 _"
+   },
+   "is_error": false,
+   "text": "{\n    \"citation_checked\": \"1 January 16\",\n    \"found\": false,\n    \"matches\": [],\n    \"note\": \"Not found in the 10.7M-case corpus AND not found on live CourtListener. Both lack some cases, so this is a warning sign, not proof the cite is wrong. For very recent regional-reporter cites (e.g. high So. 3d volumes) both databases lag official pagination, so also run search_cases on the case name before condemning it, and check nearby_in_same_volume for a transposed page number.\",\n    \"verdict\": \"not_indexed\"\n}",
+   "json": {
+    "citation_checked": "1 January 16",
+    "found": false,
+    "matches": [],
+    "note": "Not found in the 10.7M-case corpus AND not found on live CourtListener. Both lack some cases, so this is a warning sign, not proof the cite is wrong. For very recent regional-reporter cites (e.g. high So. 3d volumes) both databases lag official pagination, so also run search_cases on the case name before condemning it, and check nearby_in_same_volume for a transposed page number.",
+    "verdict": "not_indexed"
+   }
+  }
+ ]
+}

@@ -1,0 +1,295 @@
+{
+ "id": "ct-pamb",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Bankr. M.D. Penn."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Bankr. M.D. Penn.\",\n    \"courts\": [\n        {\n            \"id\": \"pamb\",\n            \"short_name\": \"M.D. Pennsylvania\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. Pennsylvania\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D. Penn.\",\n            \"bluebook\": \"Bankr. M.D. Pa.\",\n            \"cases_in_corpus\": 662,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"pamd\",\n            \"short_name\": \"M.D. Pennsylvania\",\n            \"full_name\": \"District Court, M.D. Pennsylvania\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D. Penn.\",\n            \"bluebook\": \"M.D. Pa.\",\n            \"cases_in_corpus\": 15665,\n            \"years\": \"1902-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flmb\",\n            \"short_name\": \"M.D. Florida\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. Florida\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D. Fla.\",\n            \"bluebook\": \"Bankr. M.D. Fla.\",\n            \"cases_in_corpus\": 4024,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"gamb\",\n            \"short_name\": \"M.D. Georgia\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. Georgia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D. Ga.\",\n            \"bluebook\": \"Bankr. M.D. Ga.\",\n            \"cases_in_corpus\": 631,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"tnmb\",\n            \"short_name\": \"M.D. Tennessee\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. Tennessee\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D. Tenn.\",\n            \"bluebook\": \"Bankr. M.D. Tenn.\",\n            \"cases_in_corpus\": 499,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"almb\",\n            \"short_name\": \"M.D. Alabama\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. Alabama\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D. Ala.\",\n            \"bluebook\": \"Bankr. M.D. Ala.\",\n            \"cases_in_corpus\": 351,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncmb\",\n            \"short_name\": \"M.D. North Carolina\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. North Carolina\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D.N.C.\",\n            \"bluebook\": \"Bankr. M.D.N.C.\",\n            \"cases_in_corpus\": 288,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"lamb\",\n            \"short_name\": \"M.D. Louisiana\",\n            \"full_name\": \"United States Bankruptcy Court, M.D. Louisiana\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. M.D. La.\",\n            \"bluebook\": \"Bankr. M.D. La.\",\n            \"cases_in_corpus\": 156,\n            \"years\": \"1981-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flmd\",\n            \"short_name\": \"M.D. Florida\",\n            \"full_name\": \"District Court, M.D. Florida\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D. Fla.\",\n            \"bluebook\": \"M.D. Fla.\",\n            \"cases_in_corpus\": 25385,\n            \"years\": \"1942-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"almd\",\n            \"short_name\": \"M.D. Alabama\",\n            \"full_name\": \"District Court, M.D. Alabama\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D. Ala.\",\n            \"bluebook\": \"M.D. Ala.\",\n            \"cases_in_corpus\": 7576,\n            \"years\": \"1882-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"tnmd\",\n            \"short_name\": \"M.D. Tennessee\",\n            \"full_name\": \"District Court, M.D. Tennessee\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D. Tenn.\",\n            \"bluebook\": \"M.D. Tenn.\",\n            \"cases_in_corpus\": 7139,\n            \"years\": \"1874-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"gamd\",\n            \"short_name\": \"M.D. Georgia\",\n            \"full_name\": \"District Court, M.D. Georgia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D. Ga.\",\n            \"bluebook\": \"M.D. Ga.\",\n            \"cases_in_corpus\": 6184,\n            \"years\": \"1928-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysb\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D.N.Y.\",\n            \"bluebook\": \"Bankr. S.D.N.Y.\",\n            \"cases_in_corpus\": 4402,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"lamd\",\n            \"short_name\": \"M.D. Louisiana\",\n            \"full_name\": \"District Court, M.D. Louisiana\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D. La.\",\n            \"bluebook\": \"M.D. La.\",\n            \"cases_in_corpus\": 4025,\n            \"years\": \"1959-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncmd\",\n            \"short_name\": \"M.D. North Carolina\",\n            \"full_name\": \"District Court, M.D. North Carolina\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"M.D.N.C.\",\n            \"bluebook\": \"M.D.N.C.\",\n            \"cases_in_corpus\": 3949,\n            \"years\": \"1927-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"paeb\",\n            \"short_name\": \"E.D. Pennsylvania\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Pennsylvania\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Pa.\",\n            \"bluebook\": \"Bankr. E.D. Pa.\",\n            \"cases_in_corpus\": 2717,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilnb\",\n            \"short_name\": \"N.D. Illinois\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Illinois\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ill.\",\n            \"bluebook\": \"Bankr. N.D. Ill.\",\n            \"cases_in_corpus\": 2595,\n            \"years\": \"1978-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flsb\",\n            \"short_name\": \"S.D. Florida\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Florida.\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Florida\",\n            \"bluebook\": \"Bankr. S.D. Fla.\",\n            \"cases_in_corpus\": 2538,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohnb\",\n            \"short_name\": \"N.D. Ohio\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Ohio\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ohio\",\n            \"bluebook\": \"Bankr. N.D. Ohio\",\n            \"cases_in_corpus\": 2466,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohsb\",\n            \"short_name\": \"S.D. Ohio\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Ohio\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Ohio\",\n            \"bluebook\": \"Bankr. S.D. Ohio\",\n            \"cases_in_corpus\": 2156,\n            \"years\": \"1979-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mab\",\n            \"short_name\": \"D. Massachusetts\",\n            \"full_name\": \"United States Bankruptcy Court, D. Massachusetts\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D. Mass.\",\n            \"bluebook\": \"Bankr. D. Mass.\",\n            \"cases_in_corpus\": 2022,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"deb\",\n            \"short_name\": \"D. Delaware\",\n            \"full_name\": \"United States Bankruptcy Court, D. Delaware\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D. Del.\",\n            \"bluebook\": \"Bankr. D. Del.\",\n            \"cases_in_corpus\": 1785,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nyeb\",\n            \"short_name\": \"E.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D.N.Y.\",\n            \"bluebook\": \"Bankr. E.D.N.Y.\",\n            \"cases_in_corpus\": 1625,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ganb\",\n            \"short_name\": \"N.D. Georgia\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. Georgia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D. Ga.\",\n            \"bluebook\": \"Bankr. N.D. Ga.\",\n            \"cases_in_corpus\": 1541,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaeb\",\n            \"short_name\": \"E.D. Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Va.\",\n            \"bluebook\": \"Bankr. E.D. Va.\",\n            \"cases_in_corpus\": 1477,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\"\n}",
+   "json": {
+    "query": "Bankr. M.D. Penn.",
+    "courts": [
+     {
+      "id": "pamb",
+      "short_name": "M.D. Pennsylvania",
+      "full_name": "United States Bankruptcy Court, M.D. Pennsylvania",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D. Penn.",
+      "bluebook": "Bankr. M.D. Pa.",
+      "cases_in_corpus": 662,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "pamd",
+      "short_name": "M.D. Pennsylvania",
+      "full_name": "District Court, M.D. Pennsylvania",
+      "jurisdiction": "FD",
+      "citation_string": "M.D. Penn.",
+      "bluebook": "M.D. Pa.",
+      "cases_in_corpus": 15665,
+      "years": "1902-2026",
+      "active": true
+     },
+     {
+      "id": "flmb",
+      "short_name": "M.D. Florida",
+      "full_name": "United States Bankruptcy Court, M.D. Florida",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D. Fla.",
+      "bluebook": "Bankr. M.D. Fla.",
+      "cases_in_corpus": 4024,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "gamb",
+      "short_name": "M.D. Georgia",
+      "full_name": "United States Bankruptcy Court, M.D. Georgia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D. Ga.",
+      "bluebook": "Bankr. M.D. Ga.",
+      "cases_in_corpus": 631,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "tnmb",
+      "short_name": "M.D. Tennessee",
+      "full_name": "United States Bankruptcy Court, M.D. Tennessee",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D. Tenn.",
+      "bluebook": "Bankr. M.D. Tenn.",
+      "cases_in_corpus": 499,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "almb",
+      "short_name": "M.D. Alabama",
+      "full_name": "United States Bankruptcy Court, M.D. Alabama",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D. Ala.",
+      "bluebook": "Bankr. M.D. Ala.",
+      "cases_in_corpus": 351,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "ncmb",
+      "short_name": "M.D. North Carolina",
+      "full_name": "United States Bankruptcy Court, M.D. North Carolina",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D.N.C.",
+      "bluebook": "Bankr. M.D.N.C.",
+      "cases_in_corpus": 288,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "lamb",
+      "short_name": "M.D. Louisiana",
+      "full_name": "United States Bankruptcy Court, M.D. Louisiana",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. M.D. La.",
+      "bluebook": "Bankr. M.D. La.",
+      "cases_in_corpus": 156,
+      "years": "1981-2026",
+      "active": true
+     },
+     {
+      "id": "flmd",
+      "short_name": "M.D. Florida",
+      "full_name": "District Court, M.D. Florida",
+      "jurisdiction": "FD",
+      "citation_string": "M.D. Fla.",
+      "bluebook": "M.D. Fla.",
+      "cases_in_corpus": 25385,
+      "years": "1942-2026",
+      "active": true
+     },
+     {
+      "id": "almd",
+      "short_name": "M.D. Alabama",
+      "full_name": "District Court, M.D. Alabama",
+      "jurisdiction": "FD",
+      "citation_string": "M.D. Ala.",
+      "bluebook": "M.D. Ala.",
+      "cases_in_corpus": 7576,
+      "years": "1882-2026",
+      "active": true
+     },
+     {
+      "id": "tnmd",
+      "short_name": "M.D. Tennessee",
+      "full_name": "District Court, M.D. Tennessee",
+      "jurisdiction": "FD",
+      "citation_string": "M.D. Tenn.",
+      "bluebook": "M.D. Tenn.",
+      "cases_in_corpus": 7139,
+      "years": "1874-2026",
+      "active": true
+     },
+     {
+      "id": "gamd",
+      "short_name": "M.D. Georgia",
+      "full_name": "District Court, M.D. Georgia",
+      "jurisdiction": "FD",
+      "citation_string": "M.D. Ga.",
+      "bluebook": "M.D. Ga.",
+      "cases_in_corpus": 6184,
+      "years": "1928-2026",
+      "active": true
+     },
+     {
+      "id": "nysb",
+      "short_name": "S.D. New York",
+      "full_name": "United States Bankruptcy Court, S.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D.N.Y.",
+      "bluebook": "Bankr. S.D.N.Y.",
+      "cases_in_corpus": 4402,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "lamd",
+      "short_name": "M.D. Louisiana",
+      "full_name": "District Court, M.D. Louisiana",
+      "jurisdiction": "FD",
+      "citation_string": "M.D. La.",
+      "bluebook": "M.D. La.",
+      "cases_in_corpus": 4025,
+      "years": "1959-2026",
+      "active": true
+     },
+     {
+      "id": "ncmd",
+      "short_name": "M.D. North Carolina",
+      "full_name": "District Court, M.D. North Carolina",
+      "jurisdiction": "FD",
+      "citation_string": "M.D.N.C.",
+      "bluebook": "M.D.N.C.",
+      "cases_in_corpus": 3949,
+      "years": "1927-2026",
+      "active": true
+     },
+     {
+      "id": "paeb",
+      "short_name": "E.D. Pennsylvania",
+      "full_name": "United States Bankruptcy Court, E.D. Pennsylvania",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Pa.",
+      "bluebook": "Bankr. E.D. Pa.",
+      "cases_in_corpus": 2717,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ilnb",
+      "short_name": "N.D. Illinois",
+      "full_name": "United States Bankruptcy Court, N.D. Illinois",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ill.",
+      "bluebook": "Bankr. N.D. Ill.",
+      "cases_in_corpus": 2595,
+      "years": "1978-2026",
+      "active": true
+     },
+     {
+      "id": "flsb",
+      "short_name": "S.D. Florida",
+      "full_name": "United States Bankruptcy Court, S.D. Florida.",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Florida",
+      "bluebook": "Bankr. S.D. Fla.",
+      "cases_in_corpus": 2538,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ohnb",
+      "short_name": "N.D. Ohio",
+      "full_name": "United States Bankruptcy Court, N.D. Ohio",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ohio",
+      "bluebook": "Bankr. N.D. Ohio",
+      "cases_in_corpus": 2466,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "ohsb",
+      "short_name": "S.D. Ohio",
+      "full_name": "United States Bankruptcy Court, S.D. Ohio",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Ohio",
+      "bluebook": "Bankr. S.D. Ohio",
+      "cases_in_corpus": 2156,
+      "years": "1979-2019",
+      "active": true
+     },
+     {
+      "id": "mab",
+      "short_name": "D. Massachusetts",
+      "full_name": "United States Bankruptcy Court, D. Massachusetts",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D. Mass.",
+      "bluebook": "Bankr. D. Mass.",
+      "cases_in_corpus": 2022,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "deb",
+      "short_name": "D. Delaware",
+      "full_name": "United States Bankruptcy Court, D. Delaware",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D. Del.",
+      "bluebook": "Bankr. D. Del.",
+      "cases_in_corpus": 1785,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "nyeb",
+      "short_name": "E.D. New York",
+      "full_name": "United States Bankruptcy Court, E.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D.N.Y.",
+      "bluebook": "Bankr. E.D.N.Y.",
+      "cases_in_corpus": 1625,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ganb",
+      "short_name": "N.D. Georgia",
+      "full_name": "United States Bankruptcy Court, N.D. Georgia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D. Ga.",
+      "bluebook": "Bankr. N.D. Ga.",
+      "cases_in_corpus": 1541,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "vaeb",
+      "short_name": "E.D. Virginia",
+      "full_name": "United States Bankruptcy Court, E.D. Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Va.",
+      "bluebook": "Bankr. E.D. Va.",
+      "cases_in_corpus": 1477,
+      "years": "1979-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp."
+   }
+  }
+ ]
+}

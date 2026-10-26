@@ -1,0 +1,269 @@
+{
+ "id": "ct-oh2",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Oh. Ct. App. 2nd Dist. Champaign."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Oh. Ct. App. 2nd Dist. Champaign.\",\n    \"courts\": [\n        {\n            \"id\": \"ohctapp2champai\",\n            \"short_name\": \"Court of Appeals of Ohio, Second District, Champaign County\",\n            \"full_name\": \"Court of Appeals of Ohio, Second District, Champaign County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 2nd Dist. Champaign\",\n            \"cases_in_corpus\": 1,\n            \"years\": \"2018-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp2montgom\",\n            \"short_name\": \"Court of Appeals of Ohio, Second District, Montgomery County\",\n            \"full_name\": \"Court of Appeals of Ohio, Second District, Montgomery County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 2nd Dist. Montgomery\",\n            \"cases_in_corpus\": 9,\n            \"years\": \"2017-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp2miami\",\n            \"short_name\": \"Court of Appeals of Ohio, Second District, Miami County\",\n            \"full_name\": \"Court of Appeals of Ohio, Second District, Miami County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 2nd Dist. Miami\",\n            \"cases_in_corpus\": 3,\n            \"years\": \"2018-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp2clark\",\n            \"short_name\": \"Court of Appeals of Ohio, Second District, Clark County\",\n            \"full_name\": \"Court of Appeals of Ohio, Second District, Clark County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 2nd Dist. Clark\",\n            \"cases_in_corpus\": 1,\n            \"years\": \"2017-2017\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txctapp2\",\n            \"short_name\": \"Tex. App. Ct., 2nd Dist. (Fort Worth)\",\n            \"full_name\": \"Texas Court of Appeals, 2nd District (Fort Worth)\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 663,\n            \"years\": \"2003-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp8cuyahog\",\n            \"short_name\": \"Court of Appeals of Ohio, Eighth District, Cuyahoga County\",\n            \"full_name\": \"Court of Appeals of Ohio, Eighth District, Cuyahoga County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 8th Dist. Cuyahoga\",\n            \"cases_in_corpus\": 143,\n            \"years\": \"1913-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp1hamilto\",\n            \"short_name\": \"Court of Appeals of Ohio, First District, Hamilton County\",\n            \"full_name\": \"Court of Appeals of Ohio, First District, Hamilton County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 1st Dist. Hamilton\",\n            \"cases_in_corpus\": 32,\n            \"years\": \"1913-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp7mahonin\",\n            \"short_name\": \"Court of Appeals of Ohio, Seventh District, Mahoning County\",\n            \"full_name\": \"Court of Appeals of Ohio, Seventh District, Mahoning County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 7th Dist. Mahoning\",\n            \"cases_in_corpus\": 20,\n            \"years\": \"1913-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp10frankl\",\n            \"short_name\": \"Court of Appeals of Ohio, Tenth District, Franklin County\",\n            \"full_name\": \"Court of Appeals of Ohio, Tenth District, Franklin County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 10th Dist. Franklin\",\n            \"cases_in_corpus\": 18,\n            \"years\": \"1914-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp5licking\",\n            \"short_name\": \"Court of Appeals of Ohio, Fifth District, Licking County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fifth District, Licking County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 5th Dist. Licking\",\n            \"cases_in_corpus\": 14,\n            \"years\": \"1913-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp6lucas\",\n            \"short_name\": \"Court of Appeals of Ohio, Sixth District, Lucas County\",\n            \"full_name\": \"Court of Appeals of Ohio, Sixth District, Lucas County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 6th Dist. Lucas\",\n            \"cases_in_corpus\": 11,\n            \"years\": \"1913-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp11trumbu\",\n            \"short_name\": \"Court of Appeals of Ohio, Eleventh District, Trumbull County\",\n            \"full_name\": \"Court of Appeals of Ohio, Eleventh District, Trumbull County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 11th Dist. Trumbull\",\n            \"cases_in_corpus\": 10,\n            \"years\": \"2017-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp7belmont\",\n            \"short_name\": \"Court of Appeals of Ohio, Seventh District, Belmont County\",\n            \"full_name\": \"Court of Appeals of Ohio, Seventh District, Belmont County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 7th Dist. Belmont\",\n            \"cases_in_corpus\": 8,\n            \"years\": \"2017-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp4adams\",\n            \"short_name\": \"Court of Appeals of Ohio, Fourth District, Adams County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fourth District, Adams County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 4th Dist. Adams\",\n            \"cases_in_corpus\": 7,\n            \"years\": \"2017-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp5stark\",\n            \"short_name\": \"Court of Appeals of Ohio, Fifth District, Stark County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fifth District, Stark County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 5th Dist. Stark\",\n            \"cases_in_corpus\": 7,\n            \"years\": \"1913-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp7monroe\",\n            \"short_name\": \"Court of Appeals of Ohio, Seventh District, Monroe County\",\n            \"full_name\": \"Court of Appeals of Ohio, Seventh District, Monroe County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 7th Dist. Monroe\",\n            \"cases_in_corpus\": 6,\n            \"years\": \"2017-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp4athens\",\n            \"short_name\": \"Court of Appeals of Ohio, Fourth District, Athens County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fourth District, Athens County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 4th Dist. Athens\",\n            \"cases_in_corpus\": 5,\n            \"years\": \"2017-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp4pickawa\",\n            \"short_name\": \"Court of Appeals of Ohio, Fourth District, Pickaway County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fourth District, Pickaway County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 4th Dist. Pickaway\",\n            \"cases_in_corpus\": 5,\n            \"years\": \"2017-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp4scioto\",\n            \"short_name\": \"Court of Appeals of Ohio, Fourth District, Scioto County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fourth District, Scioto County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 4th Dist. Scioto\",\n            \"cases_in_corpus\": 5,\n            \"years\": \"2017-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp4gallia\",\n            \"short_name\": \"Court of Appeals of Ohio, Fourth District, Gallia County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fourth District, Gallia County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 4th Dist. Gallia\",\n            \"cases_in_corpus\": 4,\n            \"years\": \"2018-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp4hocking\",\n            \"short_name\": \"Court of Appeals of Ohio, Fourth District, Hocking County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fourth District, Hocking County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 4th Dist. Hocking\",\n            \"cases_in_corpus\": 4,\n            \"years\": \"2017-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp4lawrenc\",\n            \"short_name\": \"Court of Appeals of Ohio, Fourth District, Lawrence County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fourth District, Lawrence County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 4th Dist. Lawrence\",\n            \"cases_in_corpus\": 4,\n            \"years\": \"1913-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp5guernse\",\n            \"short_name\": \"Court of Appeals of Ohio, Fifth District, Guernsey County\",\n            \"full_name\": \"Court of Appeals of Ohio, Fifth District, Guernsey County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 5th Dist. Guernsey\",\n            \"cases_in_corpus\": 4,\n            \"years\": \"1913-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp7columbi\",\n            \"short_name\": \"Court of Appeals of Ohio, Seventh District, Columbiana County\",\n            \"full_name\": \"Court of Appeals of Ohio, Seventh District, Columbiana County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 7th Dist. Columbiana\",\n            \"cases_in_corpus\": 4,\n            \"years\": \"2017-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohctapp7jeffers\",\n            \"short_name\": \"Court of Appeals of Ohio, Seventh District, Jefferson County\",\n            \"full_name\": \"Court of Appeals of Ohio, Seventh District, Jefferson County\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"Oh. Ct. App. 7th Dist. Jefferson\",\n            \"cases_in_corpus\": 4,\n            \"years\": \"1914-2018\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\"\n}",
+   "json": {
+    "query": "Oh. Ct. App. 2nd Dist. Champaign.",
+    "courts": [
+     {
+      "id": "ohctapp2champai",
+      "short_name": "Court of Appeals of Ohio, Second District, Champaign County",
+      "full_name": "Court of Appeals of Ohio, Second District, Champaign County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 2nd Dist. Champaign",
+      "cases_in_corpus": 1,
+      "years": "2018-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp2montgom",
+      "short_name": "Court of Appeals of Ohio, Second District, Montgomery County",
+      "full_name": "Court of Appeals of Ohio, Second District, Montgomery County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 2nd Dist. Montgomery",
+      "cases_in_corpus": 9,
+      "years": "2017-2019",
+      "active": true
+     },
+     {
+      "id": "ohctapp2miami",
+      "short_name": "Court of Appeals of Ohio, Second District, Miami County",
+      "full_name": "Court of Appeals of Ohio, Second District, Miami County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 2nd Dist. Miami",
+      "cases_in_corpus": 3,
+      "years": "2018-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp2clark",
+      "short_name": "Court of Appeals of Ohio, Second District, Clark County",
+      "full_name": "Court of Appeals of Ohio, Second District, Clark County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 2nd Dist. Clark",
+      "cases_in_corpus": 1,
+      "years": "2017-2017",
+      "active": true
+     },
+     {
+      "id": "txctapp2",
+      "short_name": "Tex. App. Ct., 2nd Dist. (Fort Worth)",
+      "full_name": "Texas Court of Appeals, 2nd District (Fort Worth)",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 663,
+      "years": "2003-2026",
+      "active": true
+     },
+     {
+      "id": "ohctapp8cuyahog",
+      "short_name": "Court of Appeals of Ohio, Eighth District, Cuyahoga County",
+      "full_name": "Court of Appeals of Ohio, Eighth District, Cuyahoga County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 8th Dist. Cuyahoga",
+      "cases_in_corpus": 143,
+      "years": "1913-2019",
+      "active": true
+     },
+     {
+      "id": "ohctapp1hamilto",
+      "short_name": "Court of Appeals of Ohio, First District, Hamilton County",
+      "full_name": "Court of Appeals of Ohio, First District, Hamilton County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 1st Dist. Hamilton",
+      "cases_in_corpus": 32,
+      "years": "1913-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp7mahonin",
+      "short_name": "Court of Appeals of Ohio, Seventh District, Mahoning County",
+      "full_name": "Court of Appeals of Ohio, Seventh District, Mahoning County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 7th Dist. Mahoning",
+      "cases_in_corpus": 20,
+      "years": "1913-2019",
+      "active": true
+     },
+     {
+      "id": "ohctapp10frankl",
+      "short_name": "Court of Appeals of Ohio, Tenth District, Franklin County",
+      "full_name": "Court of Appeals of Ohio, Tenth District, Franklin County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 10th Dist. Franklin",
+      "cases_in_corpus": 18,
+      "years": "1914-2019",
+      "active": true
+     },
+     {
+      "id": "ohctapp5licking",
+      "short_name": "Court of Appeals of Ohio, Fifth District, Licking County",
+      "full_name": "Court of Appeals of Ohio, Fifth District, Licking County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 5th Dist. Licking",
+      "cases_in_corpus": 14,
+      "years": "1913-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp6lucas",
+      "short_name": "Court of Appeals of Ohio, Sixth District, Lucas County",
+      "full_name": "Court of Appeals of Ohio, Sixth District, Lucas County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 6th Dist. Lucas",
+      "cases_in_corpus": 11,
+      "years": "1913-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp11trumbu",
+      "short_name": "Court of Appeals of Ohio, Eleventh District, Trumbull County",
+      "full_name": "Court of Appeals of Ohio, Eleventh District, Trumbull County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 11th Dist. Trumbull",
+      "cases_in_corpus": 10,
+      "years": "2017-2019",
+      "active": true
+     },
+     {
+      "id": "ohctapp7belmont",
+      "short_name": "Court of Appeals of Ohio, Seventh District, Belmont County",
+      "full_name": "Court of Appeals of Ohio, Seventh District, Belmont County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 7th Dist. Belmont",
+      "cases_in_corpus": 8,
+      "years": "2017-2019",
+      "active": true
+     },
+     {
+      "id": "ohctapp4adams",
+      "short_name": "Court of Appeals of Ohio, Fourth District, Adams County",
+      "full_name": "Court of Appeals of Ohio, Fourth District, Adams County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 4th Dist. Adams",
+      "cases_in_corpus": 7,
+      "years": "2017-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp5stark",
+      "short_name": "Court of Appeals of Ohio, Fifth District, Stark County",
+      "full_name": "Court of Appeals of Ohio, Fifth District, Stark County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 5th Dist. Stark",
+      "cases_in_corpus": 7,
+      "years": "1913-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp7monroe",
+      "short_name": "Court of Appeals of Ohio, Seventh District, Monroe County",
+      "full_name": "Court of Appeals of Ohio, Seventh District, Monroe County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 7th Dist. Monroe",
+      "cases_in_corpus": 6,
+      "years": "2017-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp4athens",
+      "short_name": "Court of Appeals of Ohio, Fourth District, Athens County",
+      "full_name": "Court of Appeals of Ohio, Fourth District, Athens County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 4th Dist. Athens",
+      "cases_in_corpus": 5,
+      "years": "2017-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp4pickawa",
+      "short_name": "Court of Appeals of Ohio, Fourth District, Pickaway County",
+      "full_name": "Court of Appeals of Ohio, Fourth District, Pickaway County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 4th Dist. Pickaway",
+      "cases_in_corpus": 5,
+      "years": "2017-2019",
+      "active": true
+     },
+     {
+      "id": "ohctapp4scioto",
+      "short_name": "Court of Appeals of Ohio, Fourth District, Scioto County",
+      "full_name": "Court of Appeals of Ohio, Fourth District, Scioto County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 4th Dist. Scioto",
+      "cases_in_corpus": 5,
+      "years": "2017-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp4gallia",
+      "short_name": "Court of Appeals of Ohio, Fourth District, Gallia County",
+      "full_name": "Court of Appeals of Ohio, Fourth District, Gallia County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 4th Dist. Gallia",
+      "cases_in_corpus": 4,
+      "years": "2018-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp4hocking",
+      "short_name": "Court of Appeals of Ohio, Fourth District, Hocking County",
+      "full_name": "Court of Appeals of Ohio, Fourth District, Hocking County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 4th Dist. Hocking",
+      "cases_in_corpus": 4,
+      "years": "2017-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp4lawrenc",
+      "short_name": "Court of Appeals of Ohio, Fourth District, Lawrence County",
+      "full_name": "Court of Appeals of Ohio, Fourth District, Lawrence County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 4th Dist. Lawrence",
+      "cases_in_corpus": 4,
+      "years": "1913-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp5guernse",
+      "short_name": "Court of Appeals of Ohio, Fifth District, Guernsey County",
+      "full_name": "Court of Appeals of Ohio, Fifth District, Guernsey County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 5th Dist. Guernsey",
+      "cases_in_corpus": 4,
+      "years": "1913-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp7columbi",
+      "short_name": "Court of Appeals of Ohio, Seventh District, Columbiana County",
+      "full_name": "Court of Appeals of Ohio, Seventh District, Columbiana County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 7th Dist. Columbiana",
+      "cases_in_corpus": 4,
+      "years": "2017-2018",
+      "active": true
+     },
+     {
+      "id": "ohctapp7jeffers",
+      "short_name": "Court of Appeals of Ohio, Seventh District, Jefferson County",
+      "full_name": "Court of Appeals of Ohio, Seventh District, Jefferson County",
+      "jurisdiction": "ST",
+      "citation_string": "Oh. Ct. App. 7th Dist. Jefferson",
+      "cases_in_corpus": 4,
+      "years": "1914-2018",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp."
+   }
+  }
+ ]
+}

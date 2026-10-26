@@ -1,0 +1,139 @@
+{
+ "id": "op-08",
+ "class": "coverage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "David Vatan v. Qtc Medical Services, Inc., 812 F. App'x 485."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"unpublished_citations\": 1\n    },\n    \"warnings\": [\n        \"1 cited case(s) are UNPUBLISHED opinions (cites[].citability names the issuing court's citation rule). Cite a published case for the point, or keep each as persuasive authority as its rule allows.\"\n    ],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"812 F. App'x 485\",\n            \"volume\": \"812\",\n            \"reporter\": \"F. App'x\",\n            \"page\": \"485\",\n            \"pin\": null,\n            \"cluster_id\": 4767252,\n            \"case\": {\n                \"case_name\": \"David Vatan v. Qtc Medical Services, Inc.\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2020-07-10\",\n                \"court_id\": \"ca9\",\n                \"docket_number\": \"19-55305\",\n                \"citation_count\": 0,\n                \"court_label\": \"9th Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.283,\n                \"total_events\": 2,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"David Vatan\",\n                \"rhs\": \"Qtc Medical Services, Inc.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"David Vatan\",\n                    \"rhs\": \"Qtc Medical Services, Inc.\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"David Vatan v. Qtc Medical Services, Inc.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/812-f-appx-485/david-vatan-v-qtc-medical-services-inc\",\n            \"link_md\": \"[David Vatan v. Qtc Medical Services, Inc.](https://syfert.com/federal/circuits/cases/812-f-appx-485/david-vatan-v-qtc-medical-services-inc)\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"812 F. App'x 485\",\n                    \"recovered_from_citing_opinions\": 1,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"name_year\",\n                    \"confidence\": 0.8,\n                    \"note\": \"Reporter citation recovered from 1 citing opinion that cites this case by name and year (gap-fill, confidence 0.80); CourtListener carries no reporter cite for it. One citing court; verify before relying on the page number\",\n                    \"citing_cluster_ids\": [\n                        10167407\n                    ]\n                }\n            ],\n            \"citability\": {\n                \"kind\": \"unpublished_citation\",\n                \"severity\": \"caution\",\n                \"status\": \"Unpublished\",\n                \"status_source\": \"courtlistener\",\n                \"court\": \"ca9\",\n                \"decided\": \"2020-07-10\",\n                \"rule\": \"9th Cir. R. 36-3(a), (b)\",\n                \"rule_key\": \"ca9_36-3_post2007\",\n                \"may_cite\": \"persuasive\",\n                \"reading\": \"may be cited for persuasive value only; it is not binding precedent\",\n                \"rule_excerpt\": \"Not Precedent. Unpublished dispositions and orders of this Court are not precedent, except when relevant under the doctrine of law of the case or rules of claim preclusion or issue preclusion. (b) Citation of Unpublished Dispositions and Orders Issued on or after January 1, 2007.\",\n                \"rule_url\": \"https://cdn.ca9.uscourts.gov/datastore/uploads/rules/frap.pdf\",\n                \"our_reading\": \"Post-2007 Ninth Circuit memoranda: citable, non-precedential.\",\n                \"message\": \"Under 9th Cir. R. 36-3(a), (b), this unpublished 9th Cir. opinion (decided 2020-07-10) is not binding precedent and may be cited for its persuasive value only; mark it as unpublished in the citation, or cite a published case for the point. Rule conditions: Not precedent (except law of the case / claim or issue preclusion); citable under FRAP 32.1.\",\n                \"fix\": \"Keep it as persuasive authority with the notation the rule requires, or cite a published case for the point.\",\n                \"forum_note\": \"This is the rule of the court that issued the opinion; the court you file in may apply its own.\",\n                \"reviewed\": null\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "unpublished_citations": 1
+    },
+    "warnings": [
+     "1 cited case(s) are UNPUBLISHED opinions (cites[].citability names the issuing court's citation rule). Cite a published case for the point, or keep each as persuasive authority as its rule allows."
+    ],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "812 F. App'x 485",
+      "volume": "812",
+      "reporter": "F. App'x",
+      "page": "485",
+      "pin": null,
+      "cluster_id": 4767252,
+      "case": {
+       "case_name": "David Vatan v. Qtc Medical Services, Inc.",
+       "case_name_short": null,
+       "date_filed": "2020-07-10",
+       "court_id": "ca9",
+       "docket_number": "19-55305",
+       "citation_count": 0,
+       "court_label": "9th Cir."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.283,
+       "total_events": 2,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "David Vatan",
+       "rhs": "Qtc Medical Services, Inc."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "David Vatan",
+        "rhs": "Qtc Medical Services, Inc."
+       },
+       "verdict": "match",
+       "resolved_name": "David Vatan v. Qtc Medical Services, Inc."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/812-f-appx-485/david-vatan-v-qtc-medical-services-inc",
+      "link_md": "[David Vatan v. Qtc Medical Services, Inc.](https://syfert.com/federal/circuits/cases/812-f-appx-485/david-vatan-v-qtc-medical-services-inc)",
+      "citation_provenance": [
+       {
+        "citation": "812 F. App'x 485",
+        "recovered_from_citing_opinions": 1,
+        "source": "name_year_recovery",
+        "via": "gapfill",
+        "method": "name_year",
+        "confidence": 0.8,
+        "note": "Reporter citation recovered from 1 citing opinion that cites this case by name and year (gap-fill, confidence 0.80); CourtListener carries no reporter cite for it. One citing court; verify before relying on the page number",
+        "citing_cluster_ids": [
+         10167407
+        ]
+       }
+      ],
+      "citability": {
+       "kind": "unpublished_citation",
+       "severity": "caution",
+       "status": "Unpublished",
+       "status_source": "courtlistener",
+       "court": "ca9",
+       "decided": "2020-07-10",
+       "rule": "9th Cir. R. 36-3(a), (b)",
+       "rule_key": "ca9_36-3_post2007",
+       "may_cite": "persuasive",
+       "reading": "may be cited for persuasive value only; it is not binding precedent",
+       "rule_excerpt": "Not Precedent. Unpublished dispositions and orders of this Court are not precedent, except when relevant under the doctrine of law of the case or rules of claim preclusion or issue preclusion. (b) Citation of Unpublished Dispositions and Orders Issued on or after January 1, 2007.",
+       "rule_url": "https://cdn.ca9.uscourts.gov/datastore/uploads/rules/frap.pdf",
+       "our_reading": "Post-2007 Ninth Circuit memoranda: citable, non-precedential.",
+       "message": "Under 9th Cir. R. 36-3(a), (b), this unpublished 9th Cir. opinion (decided 2020-07-10) is not binding precedent and may be cited for its persuasive value only; mark it as unpublished in the citation, or cite a published case for the point. Rule conditions: Not precedent (except law of the case / claim or issue preclusion); citable under FRAP 32.1.",
+       "fix": "Keep it as persuasive authority with the notation the rule requires, or cite a published case for the point.",
+       "forum_note": "This is the rule of the court that issued the opinion; the court you file in may apply its own.",
+       "reviewed": null
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "c4b-01",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "10 F. App'x 657",
+    "compact": true,
+    "case_name": "Drapeau v. Halter"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":160887,\"case_name\":\"Drapeau v. Halter\",\"bluebook\":\"Drapeau v. Halter, 10 F. App'x 657 (10th Cir. 2001)\",\"url\":\"https://syfert.com/federal/circuits/cases/10-f-appx-657/drapeau-v-halter\",\"link_md\":\"[Drapeau v. Halter, 10 F. App'x 657 (10th Cir. 2001)](https://syfert.com/federal/circuits/cases/10-f-appx-657/drapeau-v-halter)\",\"compact\":true,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0,\"green\":1,\"procedural\":0,\"strongest_signal\":null,\"strongest_citer\":\"\",\"strongest_date\":null},\"negative_citers\":[],\"counts\":{\"citers_shown_in_full_answer\":1,\"negative_citers_shown_in_full_answer\":0,\"red\":0,\"yellow\":0,\"green\":1,\"propositions\":0},\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_text\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not binding precedent | cite: 10 F. App'x 657).\",\"compact_note\":\"Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context.\"}",
+   "json": {
+    "cluster_id": 160887,
+    "case_name": "Drapeau v. Halter",
+    "bluebook": "Drapeau v. Halter, 10 F. App'x 657 (10th Cir. 2001)",
+    "url": "https://syfert.com/federal/circuits/cases/10-f-appx-657/drapeau-v-halter",
+    "link_md": "[Drapeau v. Halter, 10 F. App'x 657 (10th Cir. 2001)](https://syfert.com/federal/circuits/cases/10-f-appx-657/drapeau-v-halter)",
+    "compact": true,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "negative_citers": [],
+    "counts": {
+     "citers_shown_in_full_answer": 1,
+     "negative_citers_shown_in_full_answer": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "propositions": 0
+    },
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_text",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not binding precedent | cite: 10 F. App'x 657).",
+    "compact_note": "Compact answer: flag, scope, overruled_by and the first 5 negative citers (context cut to 120 characters). Call again without compact for every citer row with its full context."
+   }
+  }
+ ]
+}
