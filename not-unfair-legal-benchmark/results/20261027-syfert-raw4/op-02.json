@@ -1,0 +1,141 @@
+{
+ "id": "op-02",
+ "class": "coverage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Meuers Law Firm v. Reasor's, 796 F. App'x 472."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"unpublished_citations\": 1\n    },\n    \"warnings\": [\n        \"1 cited case(s) are UNPUBLISHED opinions (cites[].citability names the issuing court's citation rule). Cite a published case for the point, or keep each as persuasive authority as its rule allows.\"\n    ],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"796 F. App'x 472\",\n            \"volume\": \"796\",\n            \"reporter\": \"F. App'x\",\n            \"page\": \"472\",\n            \"pin\": null,\n            \"cluster_id\": 4682514,\n            \"case\": {\n                \"case_name\": \"Meuers Law Firm v. Reasor's\",\n                \"case_name_short\": \"Reasor's\",\n                \"date_filed\": \"2019-11-27\",\n                \"court_id\": \"ca10\",\n                \"docket_number\": \"18-5055\",\n                \"citation_count\": 0,\n                \"court_label\": \"10th Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 5.4,\n                \"total_events\": 4,\n                \"distinct_courts\": 2,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Meuers Law Firm, P.L. v. Reasor's, LLC\",\n                \"top_pos_court\": \"oknd\",\n                \"top_pos_date\": \"2020-09-25\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Meuers Law Firm\",\n                \"rhs\": \"Reasor's\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Meuers Law Firm\",\n                    \"rhs\": \"Reasor's\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Meuers Law Firm v. Reasor's\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/796-f-appx-472/meuers-law-firm-v-reasors\",\n            \"link_md\": \"[Meuers Law Firm v. Reasor's](https://syfert.com/federal/circuits/cases/796-f-appx-472/meuers-law-firm-v-reasors)\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"796 F. App'x 472\",\n                    \"recovered_from_citing_opinions\": 2,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"name_year\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation recovered from 2 citing opinions that cite this case by name and year (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"citing_cluster_ids\": [\n                        9919834,\n                        9920011\n                    ]\n                }\n            ],\n            \"citability\": {\n                \"kind\": \"unpublished_citation\",\n                \"severity\": \"caution\",\n                \"status\": \"Unpublished\",\n                \"status_source\": \"courtlistener\",\n                \"court\": \"ca10\",\n                \"decided\": \"2019-11-27\",\n                \"rule\": \"10th Cir. R. 32.1(A), (C)\",\n                \"rule_key\": \"ca10_32.1\",\n                \"may_cite\": \"persuasive\",\n                \"reading\": \"may be cited for persuasive value only; it is not binding precedent\",\n                \"rule_excerpt\": \"Precedential value. While citation to published authority is preferred, citation of unpublished decisions is permitted as authorized in Federal Rule of Appellate Procedure 32.1. Unpublished decisions are not precedential but may be cited for their persuasive value. They may also be cited under the doctrines of law of the case, claim preclusion, and issue preclusion.\",\n                \"rule_url\": \"https://www.ca10.uscourts.gov/sites/ca10/files/clerk/2026Rules.pdf\",\n                \"our_reading\": \"Tenth Circuit: all unpublished decisions of any date citable as persuasive. (PDF fetched via WebFetch binary; curl got 404.)\",\n                \"message\": \"Under 10th Cir. R. 32.1(A), (C), this unpublished 10th Cir. opinion (decided 2019-11-27) is not binding precedent and may be cited for its persuasive value only; mark it as unpublished in the citation, or cite a published case for the point. Rule conditions: Not precedential but may be cited for persuasive value (and law of the case / preclusion); published authority preferred; add \\\"(unpublished)\\\" parenthetical when no F. App'x cite; attach copy if not in a public database.\",\n                \"fix\": \"Keep it as persuasive authority with the notation the rule requires, or cite a published case for the point.\",\n                \"forum_note\": \"This is the rule of the court that issued the opinion; the court you file in may apply its own.\",\n                \"reviewed\": null\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "unpublished_citations": 1
+    },
+    "warnings": [
+     "1 cited case(s) are UNPUBLISHED opinions (cites[].citability names the issuing court's citation rule). Cite a published case for the point, or keep each as persuasive authority as its rule allows."
+    ],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "796 F. App'x 472",
+      "volume": "796",
+      "reporter": "F. App'x",
+      "page": "472",
+      "pin": null,
+      "cluster_id": 4682514,
+      "case": {
+       "case_name": "Meuers Law Firm v. Reasor's",
+       "case_name_short": "Reasor's",
+       "date_filed": "2019-11-27",
+       "court_id": "ca10",
+       "docket_number": "18-5055",
+       "citation_count": 0,
+       "court_label": "10th Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 5.4,
+       "total_events": 4,
+       "distinct_courts": 2,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Meuers Law Firm, P.L. v. Reasor's, LLC",
+       "top_pos_court": "oknd",
+       "top_pos_date": "2020-09-25",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Meuers Law Firm",
+       "rhs": "Reasor's"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Meuers Law Firm",
+        "rhs": "Reasor's"
+       },
+       "verdict": "match",
+       "resolved_name": "Meuers Law Firm v. Reasor's"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/796-f-appx-472/meuers-law-firm-v-reasors",
+      "link_md": "[Meuers Law Firm v. Reasor's](https://syfert.com/federal/circuits/cases/796-f-appx-472/meuers-law-firm-v-reasors)",
+      "citation_provenance": [
+       {
+        "citation": "796 F. App'x 472",
+        "recovered_from_citing_opinions": 2,
+        "source": "name_year_recovery",
+        "via": "gapfill",
+        "method": "name_year",
+        "confidence": 0.9,
+        "note": "Reporter citation recovered from 2 citing opinions that cite this case by name and year (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+        "citing_cluster_ids": [
+         9919834,
+         9920011
+        ]
+       }
+      ],
+      "citability": {
+       "kind": "unpublished_citation",
+       "severity": "caution",
+       "status": "Unpublished",
+       "status_source": "courtlistener",
+       "court": "ca10",
+       "decided": "2019-11-27",
+       "rule": "10th Cir. R. 32.1(A), (C)",
+       "rule_key": "ca10_32.1",
+       "may_cite": "persuasive",
+       "reading": "may be cited for persuasive value only; it is not binding precedent",
+       "rule_excerpt": "Precedential value. While citation to published authority is preferred, citation of unpublished decisions is permitted as authorized in Federal Rule of Appellate Procedure 32.1. Unpublished decisions are not precedential but may be cited for their persuasive value. They may also be cited under the doctrines of law of the case, claim preclusion, and issue preclusion.",
+       "rule_url": "https://www.ca10.uscourts.gov/sites/ca10/files/clerk/2026Rules.pdf",
+       "our_reading": "Tenth Circuit: all unpublished decisions of any date citable as persuasive. (PDF fetched via WebFetch binary; curl got 404.)",
+       "message": "Under 10th Cir. R. 32.1(A), (C), this unpublished 10th Cir. opinion (decided 2019-11-27) is not binding precedent and may be cited for its persuasive value only; mark it as unpublished in the citation, or cite a published case for the point. Rule conditions: Not precedential but may be cited for persuasive value (and law of the case / preclusion); published authority preferred; add \"(unpublished)\" parenthetical when no F. App'x cite; attach copy if not in a public database.",
+       "fix": "Keep it as persuasive authority with the notation the rule requires, or cite a published case for the point.",
+       "forum_note": "This is the rule of the court that issued the opinion; the court you file in may apply its own.",
+       "reviewed": null
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

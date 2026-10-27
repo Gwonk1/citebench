@@ -1,0 +1,295 @@
+{
+ "id": "ct-tax",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Tax Ct."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Tax Ct.\",\n    \"courts\": [\n        {\n            \"id\": \"tax\",\n            \"short_name\": \"U.S. Tax Court\",\n            \"full_name\": \"United States Tax Court\",\n            \"jurisdiction\": \"FS\",\n            \"citation_string\": \"Tax Ct.\",\n            \"bluebook\": \"T.C.\",\n            \"cases_in_corpus\": 50026,\n            \"years\": \"1942-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"njtaxct\",\n            \"short_name\": \"New Jersey Tax Court\",\n            \"full_name\": \"New Jersey Tax Court\",\n            \"jurisdiction\": \"SS\",\n            \"citation_string\": \"N.J. Tax Ct.\",\n            \"bluebook\": \"N.J. Tax Ct.\",\n            \"cases_in_corpus\": 1775,\n            \"years\": \"1923-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"fladistctapp\",\n            \"short_name\": \"District Court of Appeal of Florida\",\n            \"full_name\": \"District Court of Appeal of Florida\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Fla. Dist. Ct. App.\",\n            \"bluebook\": \"Fla. Dist. Ct. App.\",\n            \"cases_in_corpus\": 362412,\n            \"years\": \"1957-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"calctapp\",\n            \"short_name\": \"California Court of Appeal\",\n            \"full_name\": \"California Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Cal. Ct. App.\",\n            \"bluebook\": \"Cal. Ct. App.\",\n            \"cases_in_corpus\": 177473,\n            \"years\": \"1839-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"illappct\",\n            \"short_name\": \"Appellate Court of Illinois\",\n            \"full_name\": \"Appellate Court of Illinois\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Ill. App. Ct.\",\n            \"bluebook\": \"Ill. App. Ct.\",\n            \"cases_in_corpus\": 172832,\n            \"years\": \"1811-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohioctapp\",\n            \"short_name\": \"Ohio Court of Appeals\",\n            \"full_name\": \"Ohio Court of Appeals\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Ohio Ct. App.\",\n            \"bluebook\": \"Ohio Ct. App.\",\n            \"cases_in_corpus\": 163928,\n            \"years\": \"1846-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"pasuperct\",\n            \"short_name\": \"Superior Court of Pennsylvania\",\n            \"full_name\": \"Superior Court of Pennsylvania\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Pa. Super. Ct.\",\n            \"bluebook\": \"Pa. Super. Ct.\",\n            \"cases_in_corpus\": 148489,\n            \"years\": \"1840-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"gactapp\",\n            \"short_name\": \"Court of Appeals of Georgia\",\n            \"full_name\": \"Court of Appeals of Georgia\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Ga. Ct. App.\",\n            \"bluebook\": \"Ga. Ct. App.\",\n            \"cases_in_corpus\": 133126,\n            \"years\": \"1906-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"lactapp\",\n            \"short_name\": \"Louisiana Court of Appeal\",\n            \"full_name\": \"Louisiana Court of Appeal\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"La. Ct. App.\",\n            \"bluebook\": \"La. Ct. App.\",\n            \"cases_in_corpus\": 132875,\n            \"years\": \"1881-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"nysupct\",\n            \"short_name\": \"New York Supreme Court\",\n            \"full_name\": \"New York Supreme Court\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"N.Y. Sup. Ct.\",\n            \"bluebook\": \"N.Y. Sup. Ct.\",\n            \"cases_in_corpus\": 117110,\n            \"years\": \"1794-2025\",\n            \"active\": true\n        },\n        {\n            \"id\": \"moctapp\",\n            \"short_name\": \"Missouri Court of Appeals\",\n            \"full_name\": \"Missouri Court of Appeals\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Mo. Ct. App.\",\n            \"bluebook\": \"Mo. Ct. App.\",\n            \"cases_in_corpus\": 104116,\n            \"years\": \"1876-2025\",\n            \"active\": true\n        },\n        {\n            \"id\": \"washctapp\",\n            \"short_name\": \"Court of Appeals of Washington\",\n            \"full_name\": \"Court of Appeals of Washington\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Wash. Ct. App.\",\n            \"bluebook\": \"Wash. Ct. App.\",\n            \"cases_in_corpus\": 87538,\n            \"years\": \"1955-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"indctapp\",\n            \"short_name\": \"Indiana Court of Appeals\",\n            \"full_name\": \"Indiana Court of Appeals\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Ind. Ct. App.\",\n            \"bluebook\": \"Ind. Ct. App.\",\n            \"cases_in_corpus\": 70951,\n            \"years\": \"1885-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"kyctapp\",\n            \"short_name\": \"Court of Appeals of Kentucky\",\n            \"full_name\": \"Court of Appeals of Kentucky\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Ky. Ct. App.\",\n            \"bluebook\": \"Ky. Ct. App.\",\n            \"cases_in_corpus\": 56303,\n            \"years\": \"1718-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"michctapp\",\n            \"short_name\": \"Michigan Court of Appeals\",\n            \"full_name\": \"Michigan Court of Appeals\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Mich. Ct. App.\",\n            \"bluebook\": \"Mich. Ct. App.\",\n            \"cases_in_corpus\": 50118,\n            \"years\": \"1965-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"connsuperct\",\n            \"short_name\": \"Connecticut Superior Court\",\n            \"full_name\": \"Connecticut Superior Court\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Conn. Super. Ct.\",\n            \"bluebook\": \"Conn. Super. Ct.\",\n            \"cases_in_corpus\": 49993,\n            \"years\": \"1764-2014\",\n            \"active\": true\n        },\n        {\n            \"id\": \"njsuperctappdiv\",\n            \"short_name\": \"New Jersey Superior Court App Division\",\n            \"full_name\": \"New Jersey Superior Court Appellate Division\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.J. Super. Ct. App. Div.\",\n            \"bluebook\": \"N.J. Super. Ct. App. Div.\",\n            \"cases_in_corpus\": 47846,\n            \"years\": \"1831-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"orctapp\",\n            \"short_name\": \"Court of Appeals of Oregon\",\n            \"full_name\": \"Court of Appeals of Oregon\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Or. Ct. App.\",\n            \"bluebook\": \"Or. Ct. App.\",\n            \"cases_in_corpus\": 46918,\n            \"years\": \"1883-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ncctapp\",\n            \"short_name\": \"Court of Appeals of North Carolina\",\n            \"full_name\": \"Court of Appeals of North Carolina\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"N.C. Ct. App.\",\n            \"bluebook\": \"N.C. Ct. App.\",\n            \"cases_in_corpus\": 46133,\n            \"years\": \"1777-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"pacommwct\",\n            \"short_name\": \"Commonwealth Court of Pennsylvania\",\n            \"full_name\": \"Commonwealth Court of Pennsylvania\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Pa. Commw. Ct.\",\n            \"bluebook\": \"Pa. Commw. Ct.\",\n            \"cases_in_corpus\": 41887,\n            \"years\": \"1933-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"tennctapp\",\n            \"short_name\": \"Court of Appeals of Tennessee\",\n            \"full_name\": \"Court of Appeals of Tennessee\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Tenn. Ct. App.\",\n            \"bluebook\": \"Tenn. Ct. App.\",\n            \"cases_in_corpus\": 26135,\n            \"years\": \"1872-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"arizctapp\",\n            \"short_name\": \"Court of Appeals of Arizona\",\n            \"full_name\": \"Court of Appeals of Arizona\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Ariz. Ct. App.\",\n            \"bluebook\": \"Ariz. Ct. App.\",\n            \"cases_in_corpus\": 25878,\n            \"years\": \"1965-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"scctapp\",\n            \"short_name\": \"Court of Appeals of South Carolina\",\n            \"full_name\": \"Court of Appeals of South Carolina\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"S.C. Ct. App.\",\n            \"bluebook\": \"S.C. Ct. App.\",\n            \"cases_in_corpus\": 23535,\n            \"years\": \"1796-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"coloctapp\",\n            \"short_name\": \"Colorado Court of Appeals\",\n            \"full_name\": \"Colorado Court of Appeals\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Colo. Ct. App.\",\n            \"bluebook\": \"Colo. Ct. App.\",\n            \"cases_in_corpus\": 23130,\n            \"years\": \"1891-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"iowactapp\",\n            \"short_name\": \"Court of Appeals of Iowa\",\n            \"full_name\": \"Court of Appeals of Iowa\",\n            \"jurisdiction\": \"SA\",\n            \"citation_string\": \"Iowa Ct. App.\",\n            \"bluebook\": \"Iowa Ct. App.\",\n            \"cases_in_corpus\": 22763,\n            \"years\": \"1917-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\"\n}",
+   "json": {
+    "query": "Tax Ct.",
+    "courts": [
+     {
+      "id": "tax",
+      "short_name": "U.S. Tax Court",
+      "full_name": "United States Tax Court",
+      "jurisdiction": "FS",
+      "citation_string": "Tax Ct.",
+      "bluebook": "T.C.",
+      "cases_in_corpus": 50026,
+      "years": "1942-2026",
+      "active": true
+     },
+     {
+      "id": "njtaxct",
+      "short_name": "New Jersey Tax Court",
+      "full_name": "New Jersey Tax Court",
+      "jurisdiction": "SS",
+      "citation_string": "N.J. Tax Ct.",
+      "bluebook": "N.J. Tax Ct.",
+      "cases_in_corpus": 1775,
+      "years": "1923-2026",
+      "active": true
+     },
+     {
+      "id": "fladistctapp",
+      "short_name": "District Court of Appeal of Florida",
+      "full_name": "District Court of Appeal of Florida",
+      "jurisdiction": "SA",
+      "citation_string": "Fla. Dist. Ct. App.",
+      "bluebook": "Fla. Dist. Ct. App.",
+      "cases_in_corpus": 362412,
+      "years": "1957-2026",
+      "active": true
+     },
+     {
+      "id": "calctapp",
+      "short_name": "California Court of Appeal",
+      "full_name": "California Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "Cal. Ct. App.",
+      "bluebook": "Cal. Ct. App.",
+      "cases_in_corpus": 177473,
+      "years": "1839-2026",
+      "active": true
+     },
+     {
+      "id": "illappct",
+      "short_name": "Appellate Court of Illinois",
+      "full_name": "Appellate Court of Illinois",
+      "jurisdiction": "SA",
+      "citation_string": "Ill. App. Ct.",
+      "bluebook": "Ill. App. Ct.",
+      "cases_in_corpus": 172832,
+      "years": "1811-2026",
+      "active": true
+     },
+     {
+      "id": "ohioctapp",
+      "short_name": "Ohio Court of Appeals",
+      "full_name": "Ohio Court of Appeals",
+      "jurisdiction": "SA",
+      "citation_string": "Ohio Ct. App.",
+      "bluebook": "Ohio Ct. App.",
+      "cases_in_corpus": 163928,
+      "years": "1846-2026",
+      "active": true
+     },
+     {
+      "id": "pasuperct",
+      "short_name": "Superior Court of Pennsylvania",
+      "full_name": "Superior Court of Pennsylvania",
+      "jurisdiction": "SA",
+      "citation_string": "Pa. Super. Ct.",
+      "bluebook": "Pa. Super. Ct.",
+      "cases_in_corpus": 148489,
+      "years": "1840-2026",
+      "active": true
+     },
+     {
+      "id": "gactapp",
+      "short_name": "Court of Appeals of Georgia",
+      "full_name": "Court of Appeals of Georgia",
+      "jurisdiction": "SA",
+      "citation_string": "Ga. Ct. App.",
+      "bluebook": "Ga. Ct. App.",
+      "cases_in_corpus": 133126,
+      "years": "1906-2026",
+      "active": true
+     },
+     {
+      "id": "lactapp",
+      "short_name": "Louisiana Court of Appeal",
+      "full_name": "Louisiana Court of Appeal",
+      "jurisdiction": "SA",
+      "citation_string": "La. Ct. App.",
+      "bluebook": "La. Ct. App.",
+      "cases_in_corpus": 132875,
+      "years": "1881-2026",
+      "active": true
+     },
+     {
+      "id": "nysupct",
+      "short_name": "New York Supreme Court",
+      "full_name": "New York Supreme Court",
+      "jurisdiction": "ST",
+      "citation_string": "N.Y. Sup. Ct.",
+      "bluebook": "N.Y. Sup. Ct.",
+      "cases_in_corpus": 117110,
+      "years": "1794-2025",
+      "active": true
+     },
+     {
+      "id": "moctapp",
+      "short_name": "Missouri Court of Appeals",
+      "full_name": "Missouri Court of Appeals",
+      "jurisdiction": "SA",
+      "citation_string": "Mo. Ct. App.",
+      "bluebook": "Mo. Ct. App.",
+      "cases_in_corpus": 104116,
+      "years": "1876-2025",
+      "active": true
+     },
+     {
+      "id": "washctapp",
+      "short_name": "Court of Appeals of Washington",
+      "full_name": "Court of Appeals of Washington",
+      "jurisdiction": "SA",
+      "citation_string": "Wash. Ct. App.",
+      "bluebook": "Wash. Ct. App.",
+      "cases_in_corpus": 87538,
+      "years": "1955-2026",
+      "active": true
+     },
+     {
+      "id": "indctapp",
+      "short_name": "Indiana Court of Appeals",
+      "full_name": "Indiana Court of Appeals",
+      "jurisdiction": "SA",
+      "citation_string": "Ind. Ct. App.",
+      "bluebook": "Ind. Ct. App.",
+      "cases_in_corpus": 70951,
+      "years": "1885-2026",
+      "active": true
+     },
+     {
+      "id": "kyctapp",
+      "short_name": "Court of Appeals of Kentucky",
+      "full_name": "Court of Appeals of Kentucky",
+      "jurisdiction": "SA",
+      "citation_string": "Ky. Ct. App.",
+      "bluebook": "Ky. Ct. App.",
+      "cases_in_corpus": 56303,
+      "years": "1718-2026",
+      "active": true
+     },
+     {
+      "id": "michctapp",
+      "short_name": "Michigan Court of Appeals",
+      "full_name": "Michigan Court of Appeals",
+      "jurisdiction": "SA",
+      "citation_string": "Mich. Ct. App.",
+      "bluebook": "Mich. Ct. App.",
+      "cases_in_corpus": 50118,
+      "years": "1965-2026",
+      "active": true
+     },
+     {
+      "id": "connsuperct",
+      "short_name": "Connecticut Superior Court",
+      "full_name": "Connecticut Superior Court",
+      "jurisdiction": "SA",
+      "citation_string": "Conn. Super. Ct.",
+      "bluebook": "Conn. Super. Ct.",
+      "cases_in_corpus": 49993,
+      "years": "1764-2014",
+      "active": true
+     },
+     {
+      "id": "njsuperctappdiv",
+      "short_name": "New Jersey Superior Court App Division",
+      "full_name": "New Jersey Superior Court Appellate Division",
+      "jurisdiction": "SA",
+      "citation_string": "N.J. Super. Ct. App. Div.",
+      "bluebook": "N.J. Super. Ct. App. Div.",
+      "cases_in_corpus": 47846,
+      "years": "1831-2026",
+      "active": true
+     },
+     {
+      "id": "orctapp",
+      "short_name": "Court of Appeals of Oregon",
+      "full_name": "Court of Appeals of Oregon",
+      "jurisdiction": "SA",
+      "citation_string": "Or. Ct. App.",
+      "bluebook": "Or. Ct. App.",
+      "cases_in_corpus": 46918,
+      "years": "1883-2026",
+      "active": true
+     },
+     {
+      "id": "ncctapp",
+      "short_name": "Court of Appeals of North Carolina",
+      "full_name": "Court of Appeals of North Carolina",
+      "jurisdiction": "SA",
+      "citation_string": "N.C. Ct. App.",
+      "bluebook": "N.C. Ct. App.",
+      "cases_in_corpus": 46133,
+      "years": "1777-2026",
+      "active": true
+     },
+     {
+      "id": "pacommwct",
+      "short_name": "Commonwealth Court of Pennsylvania",
+      "full_name": "Commonwealth Court of Pennsylvania",
+      "jurisdiction": "SA",
+      "citation_string": "Pa. Commw. Ct.",
+      "bluebook": "Pa. Commw. Ct.",
+      "cases_in_corpus": 41887,
+      "years": "1933-2026",
+      "active": true
+     },
+     {
+      "id": "tennctapp",
+      "short_name": "Court of Appeals of Tennessee",
+      "full_name": "Court of Appeals of Tennessee",
+      "jurisdiction": "SA",
+      "citation_string": "Tenn. Ct. App.",
+      "bluebook": "Tenn. Ct. App.",
+      "cases_in_corpus": 26135,
+      "years": "1872-2026",
+      "active": true
+     },
+     {
+      "id": "arizctapp",
+      "short_name": "Court of Appeals of Arizona",
+      "full_name": "Court of Appeals of Arizona",
+      "jurisdiction": "SA",
+      "citation_string": "Ariz. Ct. App.",
+      "bluebook": "Ariz. Ct. App.",
+      "cases_in_corpus": 25878,
+      "years": "1965-2026",
+      "active": true
+     },
+     {
+      "id": "scctapp",
+      "short_name": "Court of Appeals of South Carolina",
+      "full_name": "Court of Appeals of South Carolina",
+      "jurisdiction": "SA",
+      "citation_string": "S.C. Ct. App.",
+      "bluebook": "S.C. Ct. App.",
+      "cases_in_corpus": 23535,
+      "years": "1796-2026",
+      "active": true
+     },
+     {
+      "id": "coloctapp",
+      "short_name": "Colorado Court of Appeals",
+      "full_name": "Colorado Court of Appeals",
+      "jurisdiction": "SA",
+      "citation_string": "Colo. Ct. App.",
+      "bluebook": "Colo. Ct. App.",
+      "cases_in_corpus": 23130,
+      "years": "1891-2026",
+      "active": true
+     },
+     {
+      "id": "iowactapp",
+      "short_name": "Court of Appeals of Iowa",
+      "full_name": "Court of Appeals of Iowa",
+      "jurisdiction": "SA",
+      "citation_string": "Iowa Ct. App.",
+      "bluebook": "Iowa Ct. App.",
+      "cases_in_corpus": 22763,
+      "years": "1917-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp."
+   }
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "id": "h-68a",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "68 S. Ct. 1333."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"supreme_court_orders\": 1\n    },\n    \"warnings\": [\n        \"1 Supreme Court reporter citation(s) point at an orders-page entry (a denial of certiorari or another summary order) or at a Supreme Court page the index files on a lower-court opinion (cites[].procedural): cite the opinion, with the order as subsequent history.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"68 S. Ct. 1333\",\n            \"verdict\": \"supreme_court_order\",\n            \"problem\": \"68 S. Ct. 1333 is a Supreme Court page the index files on a lower-court opinion, Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948): a Supreme Court page attached to a lower-court decision is the Court's later disposition of that case (about May 1948), an orders-page entry, such as an order denying certiorari (the page also holds orders in White v. United States District Court for the Northern District of Illinois). The index holds no record of this order itself, so its terms are not checked. Cite the opinion, Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948), and give the Supreme Court page as its subsequent history in the words of the order (for a denial: \\\"cert. denied, 68 S. Ct. 1333 (1948)\\\").\",\n            \"suggested\": \"Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948)\",\n            \"procedural\": {\n                \"kind\": \"supreme_court_disposition\",\n                \"record\": \"lower_court_opinion\",\n                \"order_date\": \"1948-05-24\",\n                \"of\": {\n                    \"cluster_id\": 4064323,\n                    \"case_name\": \"Ex parte Allen\",\n                    \"cite_as\": \"Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948)\"\n                }\n            },\n            \"case\": {\n                \"cluster_id\": 4064323,\n                \"case_name\": \"Ex parte Allen\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"68 S. Ct. 1333\",\n            \"volume\": \"68\",\n            \"reporter\": \"S. Ct.\",\n            \"page\": \"1333\",\n            \"pin\": null,\n            \"cluster_id\": 4064323,\n            \"case\": {\n                \"case_name\": \"Ex parte Allen\",\n                \"case_name_short\": \"Ex Parte Allen\",\n                \"date_filed\": \"1948-04-07\",\n                \"court_id\": \"oklacrimapp\",\n                \"docket_number\": \"No. A-11019.\",\n                \"citation_count\": 7,\n                \"court_label\": \"\",\n                \"court_label_record\": \"Okla. Crim. App.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.465,\n                \"total_events\": 15,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Ex parte Allen\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/oklahoma/cases/86-okla-crim-48/ex-parte-allen\",\n            \"link_md\": \"[Ex parte Allen](https://syfert.com/oklahoma/cases/86-okla-crim-48/ex-parte-allen)\",\n            \"procedural\": {\n                \"kind\": \"supreme_court_disposition\",\n                \"record\": \"lower_court_opinion\",\n                \"order_date\": \"1948-05-24\",\n                \"of\": {\n                    \"cluster_id\": 4064323,\n                    \"case_name\": \"Ex parte Allen\",\n                    \"cite_as\": \"Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948)\"\n                },\n                \"page\": \"68 S. Ct. 1333\",\n                \"page_records\": 2,\n                \"page_orders\": [\n                    {\n                        \"cluster_id\": 8202773,\n                        \"case_name\": \"White v. United States District Court for the Northern District of Illinois\",\n                        \"date_filed\": \"1948-05-24\"\n                    }\n                ],\n                \"page_order_kind\": \"summary_order\",\n                \"filed_under_court\": \"oklacrimapp\",\n                \"advice\": \"68 S. Ct. 1333 is a Supreme Court page the index files on a lower-court opinion, Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948): a Supreme Court page attached to a lower-court decision is the Court's later disposition of that case (about May 1948), an orders-page entry, such as an order denying certiorari (the page also holds orders in White v. United States District Court for the Northern District of Illinois). The index holds no record of this order itself, so its terms are not checked. Cite the opinion, Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948), and give the Supreme Court page as its subsequent history in the words of the order (for a denial: \\\"cert. denied, 68 S. Ct. 1333 (1948)\\\").\",\n                \"suggested\": \"Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948)\",\n                \"cited_as\": \"citation\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "supreme_court_orders": 1
+    },
+    "warnings": [
+     "1 Supreme Court reporter citation(s) point at an orders-page entry (a denial of certiorari or another summary order) or at a Supreme Court page the index files on a lower-court opinion (cites[].procedural): cite the opinion, with the order as subsequent history."
+    ],
+    "corrections": [
+     {
+      "raw": "68 S. Ct. 1333",
+      "verdict": "supreme_court_order",
+      "problem": "68 S. Ct. 1333 is a Supreme Court page the index files on a lower-court opinion, Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948): a Supreme Court page attached to a lower-court decision is the Court's later disposition of that case (about May 1948), an orders-page entry, such as an order denying certiorari (the page also holds orders in White v. United States District Court for the Northern District of Illinois). The index holds no record of this order itself, so its terms are not checked. Cite the opinion, Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948), and give the Supreme Court page as its subsequent history in the words of the order (for a denial: \"cert. denied, 68 S. Ct. 1333 (1948)\").",
+      "suggested": "Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948)",
+      "procedural": {
+       "kind": "supreme_court_disposition",
+       "record": "lower_court_opinion",
+       "order_date": "1948-05-24",
+       "of": {
+        "cluster_id": 4064323,
+        "case_name": "Ex parte Allen",
+        "cite_as": "Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948)"
+       }
+      },
+      "case": {
+       "cluster_id": 4064323,
+       "case_name": "Ex parte Allen"
+      }
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "68 S. Ct. 1333",
+      "volume": "68",
+      "reporter": "S. Ct.",
+      "page": "1333",
+      "pin": null,
+      "cluster_id": 4064323,
+      "case": {
+       "case_name": "Ex parte Allen",
+       "case_name_short": "Ex Parte Allen",
+       "date_filed": "1948-04-07",
+       "court_id": "oklacrimapp",
+       "docket_number": "No. A-11019.",
+       "citation_count": 7,
+       "court_label": "",
+       "court_label_record": "Okla. Crim. App."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.465,
+       "total_events": 15,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Ex parte Allen"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/oklahoma/cases/86-okla-crim-48/ex-parte-allen",
+      "link_md": "[Ex parte Allen](https://syfert.com/oklahoma/cases/86-okla-crim-48/ex-parte-allen)",
+      "procedural": {
+       "kind": "supreme_court_disposition",
+       "record": "lower_court_opinion",
+       "order_date": "1948-05-24",
+       "of": {
+        "cluster_id": 4064323,
+        "case_name": "Ex parte Allen",
+        "cite_as": "Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948)"
+       },
+       "page": "68 S. Ct. 1333",
+       "page_records": 2,
+       "page_orders": [
+        {
+         "cluster_id": 8202773,
+         "case_name": "White v. United States District Court for the Northern District of Illinois",
+         "date_filed": "1948-05-24"
+        }
+       ],
+       "page_order_kind": "summary_order",
+       "filed_under_court": "oklacrimapp",
+       "advice": "68 S. Ct. 1333 is a Supreme Court page the index files on a lower-court opinion, Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948): a Supreme Court page attached to a lower-court decision is the Court's later disposition of that case (about May 1948), an orders-page entry, such as an order denying certiorari (the page also holds orders in White v. United States District Court for the Northern District of Illinois). The index holds no record of this order itself, so its terms are not checked. Cite the opinion, Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948), and give the Supreme Court page as its subsequent history in the words of the order (for a denial: \"cert. denied, 68 S. Ct. 1333 (1948)\").",
+       "suggested": "Ex parte Allen, 192 P.2d 289 (Okla. Crim. App. 1948)",
+       "cited_as": "citation"
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

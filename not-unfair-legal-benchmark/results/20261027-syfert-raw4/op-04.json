@@ -1,0 +1,110 @@
+{
+ "id": "op-04",
+ "class": "coverage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Ronald Crosby v. City of Chicago, 949 F.3d 358."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"949 F.3d 358\",\n            \"volume\": \"949\",\n            \"reporter\": \"F.3d\",\n            \"page\": \"358\",\n            \"pin\": null,\n            \"cluster_id\": 4733168,\n            \"case\": {\n                \"case_name\": \"Ronald Crosby v. City of Chicago\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2020-03-06\",\n                \"court_id\": \"ca7\",\n                \"docket_number\": \"19-1439\",\n                \"citation_count\": 0,\n                \"court_label\": \"7th Cir.\"\n            },\n            \"treatment\": {\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Ronald Crosby\",\n                \"rhs\": \"City of Chicago\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Ronald Crosby\",\n                    \"rhs\": \"City of Chicago\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Ronald Crosby v. City of Chicago\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/949-f-3d-358/ronald-crosby-v-city-of-chicago\",\n            \"link_md\": \"[Ronald Crosby v. City of Chicago](https://syfert.com/federal/circuits/cases/949-f-3d-358/ronald-crosby-v-city-of-chicago)\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"949 F.3d 358\",\n                    \"recovered_from_citing_opinions\": 10,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"name_year_docketgroup\",\n                    \"confidence\": 0.95,\n                    \"note\": \"Reporter citation recovered from 10 citing opinions that cite this case by name and year (one decision filed as more than one record here; each carries the cite) (gap-fill, confidence 0.95); CourtListener carries no reporter cite for it\",\n                    \"citing_cluster_ids\": [\n                        4860327,\n                        4860620,\n                        4906270,\n                        9676334,\n                        9677571\n                    ]\n                }\n            ]\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "949 F.3d 358",
+      "volume": "949",
+      "reporter": "F.3d",
+      "page": "358",
+      "pin": null,
+      "cluster_id": 4733168,
+      "case": {
+       "case_name": "Ronald Crosby v. City of Chicago",
+       "case_name_short": null,
+       "date_filed": "2020-03-06",
+       "court_id": "ca7",
+       "docket_number": "19-1439",
+       "citation_count": 0,
+       "court_label": "7th Cir."
+      },
+      "treatment": {
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Ronald Crosby",
+       "rhs": "City of Chicago"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Ronald Crosby",
+        "rhs": "City of Chicago"
+       },
+       "verdict": "match",
+       "resolved_name": "Ronald Crosby v. City of Chicago"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/949-f-3d-358/ronald-crosby-v-city-of-chicago",
+      "link_md": "[Ronald Crosby v. City of Chicago](https://syfert.com/federal/circuits/cases/949-f-3d-358/ronald-crosby-v-city-of-chicago)",
+      "citation_provenance": [
+       {
+        "citation": "949 F.3d 358",
+        "recovered_from_citing_opinions": 10,
+        "source": "name_year_recovery",
+        "via": "gapfill",
+        "method": "name_year_docketgroup",
+        "confidence": 0.95,
+        "note": "Reporter citation recovered from 10 citing opinions that cite this case by name and year (one decision filed as more than one record here; each carries the cite) (gap-fill, confidence 0.95); CourtListener carries no reporter cite for it",
+        "citing_cluster_ids": [
+         4860327,
+         4860620,
+         4906270,
+         9676334,
+         9677571
+        ]
+       }
+      ]
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

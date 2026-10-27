@@ -1,0 +1,104 @@
+{
+ "id": "c6-02",
+ "class": "vendor",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Brumley v. State, 1881 WL 9628."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"database_cites\": 0,\n        \"resolved_by_database_alias\": 1,\n        \"prefer_reporter_cite\": 1\n    },\n    \"warnings\": [\n        \"1 Westlaw / Lexis database citation(s) belong to cases that have a reporter citation: replace them with the reporter cites listed in corrections (kind prefer_reporter_cite).\",\n        \"1 Westlaw / Lexis number(s) the reporter index lacks were resolved through the citation-alias table (cites[].resolved_via).\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"1881 WL 9628\",\n            \"kind\": \"prefer_reporter_cite\",\n            \"problem\": \"Replace 1881 WL 9628 with Brumley v. State, 11 Tex. Ct. App. 114 (Tex. App. 1881): the case has a reporter citation, which courts prefer to a Westlaw number.\",\n            \"suggested\": \"Brumley v. State, 11 Tex. Ct. App. 114 (Tex. App. 1881)\",\n            \"also_cited_as\": \"1881 WL 9628\"\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"1881 WL 9628\",\n            \"volume\": \"1881\",\n            \"reporter\": \"WL\",\n            \"page\": \"9628\",\n            \"pin\": null,\n            \"database\": \"Westlaw\",\n            \"cluster_id\": 5088442,\n            \"did_you_mean\": [],\n            \"status\": \"resolved\",\n            \"note\": \"Resolved through the westlaw citation confirmed on review (Syfert). Quotations attributed to this cite were not checked against the opinion here: run verify_quote with cluster_id 5088442.\",\n            \"claimed\": {\n                \"lhs\": \"Brumley\",\n                \"rhs\": \"State\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Brumley\",\n                    \"rhs\": \"State\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Brumley v. State\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"resolution\": \"database_alias\",\n            \"resolved_via\": \"westlaw citation confirmed on review (Syfert)\",\n            \"alias_evidence\": {\n                \"source\": \"graham\",\n                \"tier\": \"verified\",\n                \"citing_opinions\": 81,\n                \"written_as\": \"Brumley v. State\",\n                \"first_seen\": \"2025-08-26\"\n            },\n            \"case\": {\n                \"case_name\": \"Brumley v. State\",\n                \"date_filed\": \"1881-07-01\",\n                \"court\": \"Court of Appeals of Texas\"\n            },\n            \"url\": \"https://syfert.com/texas/cases/cl-5088442/brumley-v-state\",\n            \"link_md\": \"[Brumley v. State](https://syfert.com/texas/cases/cl-5088442/brumley-v-state)\",\n            \"cite_as\": \"Brumley v. State, 11 Tex. Ct. App. 114 (Tex. App. 1881)\",\n            \"also_cited_as\": \"1881 WL 9628\",\n            \"citation_note\": \"Cite the reporter: this case has a reporter citation (11 Tex. Ct. App. 114), so 1881 WL 9628 should be replaced by it \u2014 courts prefer the official or regional reporter to a Westlaw number.\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "database_cites": 0,
+     "resolved_by_database_alias": 1,
+     "prefer_reporter_cite": 1
+    },
+    "warnings": [
+     "1 Westlaw / Lexis database citation(s) belong to cases that have a reporter citation: replace them with the reporter cites listed in corrections (kind prefer_reporter_cite).",
+     "1 Westlaw / Lexis number(s) the reporter index lacks were resolved through the citation-alias table (cites[].resolved_via)."
+    ],
+    "corrections": [
+     {
+      "raw": "1881 WL 9628",
+      "kind": "prefer_reporter_cite",
+      "problem": "Replace 1881 WL 9628 with Brumley v. State, 11 Tex. Ct. App. 114 (Tex. App. 1881): the case has a reporter citation, which courts prefer to a Westlaw number.",
+      "suggested": "Brumley v. State, 11 Tex. Ct. App. 114 (Tex. App. 1881)",
+      "also_cited_as": "1881 WL 9628"
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "1881 WL 9628",
+      "volume": "1881",
+      "reporter": "WL",
+      "page": "9628",
+      "pin": null,
+      "database": "Westlaw",
+      "cluster_id": 5088442,
+      "did_you_mean": [],
+      "status": "resolved",
+      "note": "Resolved through the westlaw citation confirmed on review (Syfert). Quotations attributed to this cite were not checked against the opinion here: run verify_quote with cluster_id 5088442.",
+      "claimed": {
+       "lhs": "Brumley",
+       "rhs": "State"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Brumley",
+        "rhs": "State"
+       },
+       "verdict": "match",
+       "resolved_name": "Brumley v. State"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "resolution": "database_alias",
+      "resolved_via": "westlaw citation confirmed on review (Syfert)",
+      "alias_evidence": {
+       "source": "graham",
+       "tier": "verified",
+       "citing_opinions": 81,
+       "written_as": "Brumley v. State",
+       "first_seen": "2025-08-26"
+      },
+      "case": {
+       "case_name": "Brumley v. State",
+       "date_filed": "1881-07-01",
+       "court": "Court of Appeals of Texas"
+      },
+      "url": "https://syfert.com/texas/cases/cl-5088442/brumley-v-state",
+      "link_md": "[Brumley v. State](https://syfert.com/texas/cases/cl-5088442/brumley-v-state)",
+      "cite_as": "Brumley v. State, 11 Tex. Ct. App. 114 (Tex. App. 1881)",
+      "also_cited_as": "1881 WL 9628",
+      "citation_note": "Cite the reporter: this case has a reporter citation (11 Tex. Ct. App. 114), so 1881 WL 9628 should be replaced by it \u2014 courts prefer the official or regional reporter to a Westlaw number."
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

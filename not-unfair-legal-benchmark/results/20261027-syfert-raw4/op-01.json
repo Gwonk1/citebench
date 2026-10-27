@@ -1,0 +1,118 @@
+{
+ "id": "op-01",
+ "class": "coverage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "90 Elizabeth Apt. LLC v. Eng, 58 Misc. 3d 300."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"58 Misc. 3d 300\",\n            \"volume\": \"58\",\n            \"reporter\": \"Misc. 3d\",\n            \"page\": \"300\",\n            \"pin\": null,\n            \"cluster_id\": 4403446,\n            \"case\": {\n                \"case_name\": \"90 Elizabeth Apt. LLC v. Eng\",\n                \"case_name_short\": \"Eng\",\n                \"date_filed\": \"2017-06-23\",\n                \"court_id\": \"nyappterm\",\n                \"docket_number\": \"2017 NYSlipOp 50833(U)\",\n                \"citation_count\": 0,\n                \"court_label\": \"N.Y. App. Term.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.626,\n                \"total_events\": 5,\n                \"distinct_courts\": 3,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Elizabeth Apt. LLC\",\n                \"rhs\": \"Eng\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Elizabeth Apt. LLC\",\n                    \"rhs\": \"Eng\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"90 Elizabeth Apt. LLC v. Eng\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/new-york/cases/58-misc-3d-300/90-elizabeth-apt-llc-v-eng\",\n            \"link_md\": \"[90 Elizabeth Apt. LLC v. Eng](https://syfert.com/new-york/cases/58-misc-3d-300/90-elizabeth-apt-llc-v-eng)\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"58 Misc. 3d 300\",\n                    \"recovered_from_citing_opinions\": 2,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"name_year\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation recovered from 2 citing opinions that cite this case by name and year (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"citing_cluster_ids\": [\n                        9500910,\n                        9500924\n                    ]\n                }\n            ]\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "58 Misc. 3d 300",
+      "volume": "58",
+      "reporter": "Misc. 3d",
+      "page": "300",
+      "pin": null,
+      "cluster_id": 4403446,
+      "case": {
+       "case_name": "90 Elizabeth Apt. LLC v. Eng",
+       "case_name_short": "Eng",
+       "date_filed": "2017-06-23",
+       "court_id": "nyappterm",
+       "docket_number": "2017 NYSlipOp 50833(U)",
+       "citation_count": 0,
+       "court_label": "N.Y. App. Term."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.626,
+       "total_events": 5,
+       "distinct_courts": 3,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Elizabeth Apt. LLC",
+       "rhs": "Eng"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Elizabeth Apt. LLC",
+        "rhs": "Eng"
+       },
+       "verdict": "match",
+       "resolved_name": "90 Elizabeth Apt. LLC v. Eng"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/new-york/cases/58-misc-3d-300/90-elizabeth-apt-llc-v-eng",
+      "link_md": "[90 Elizabeth Apt. LLC v. Eng](https://syfert.com/new-york/cases/58-misc-3d-300/90-elizabeth-apt-llc-v-eng)",
+      "citation_provenance": [
+       {
+        "citation": "58 Misc. 3d 300",
+        "recovered_from_citing_opinions": 2,
+        "source": "name_year_recovery",
+        "via": "gapfill",
+        "method": "name_year",
+        "confidence": 0.9,
+        "note": "Reporter citation recovered from 2 citing opinions that cite this case by name and year (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+        "citing_cluster_ids": [
+         9500910,
+         9500924
+        ]
+       }
+      ]
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

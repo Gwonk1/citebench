@@ -1,0 +1,159 @@
+{
+ "id": "h-102",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "102 S. Ct. 671."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"supreme_court_orders\": 1\n    },\n    \"warnings\": [\n        \"1 Supreme Court reporter citation(s) point at an orders-page entry (a denial of certiorari or another summary order) or at a Supreme Court page the index files on a lower-court opinion (cites[].procedural): cite the opinion, with the order as subsequent history.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"102 S. Ct. 671\",\n            \"verdict\": \"supreme_court_order\",\n            \"problem\": \"102 S. Ct. 671 is a page of the Supreme Court's orders list of 1981-12-07 (the order denying certiorari per the first order's record): McCausland v. Mason County Board of Education; Vetco Inc. v. United States; Wright v. United States. The index files this Supreme Court page on Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996), decided 1996-12-17, more than a year from the page's orders (1981-12-07): a filing error in the index, not the case this page decides. Name the order you mean, or cite the opinion it disposes of with the order as history.\",\n            \"procedural\": {\n                \"kind\": \"supreme_court_disposition\",\n                \"record\": \"lower_court_opinion\",\n                \"order_date\": \"1981-12-07\",\n                \"filing_error\": {\n                    \"record\": \"Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996)\",\n                    \"cluster_id\": 6801186,\n                    \"note\": \"the index files this Supreme Court page on Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996), decided 1996-12-17, more than a year from the page's orders (1981-12-07): a filing error in the index, not the case this page decides\"\n                }\n            },\n            \"case\": {\n                \"cluster_id\": 6801186,\n                \"case_name\": \"Federal Deposit Insurance v. Niagara Mohawk Power Corp. (In re Megan-Racine Associates, Inc.)\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"102 S. Ct. 671\",\n            \"volume\": \"102\",\n            \"reporter\": \"S. Ct.\",\n            \"page\": \"671\",\n            \"pin\": null,\n            \"cluster_id\": 6801186,\n            \"case\": {\n                \"case_name\": \"Federal Deposit Insurance v. Niagara Mohawk Power Corp. (In re Megan-Racine Associates, Inc.)\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1996-12-17\",\n                \"court_id\": \"ca2\",\n                \"docket_number\": \"Nos. 754, 793, and 794, Dockets 96-5076(L), 96-5084, and 96-5086\",\n                \"citation_count\": 2,\n                \"court_label\": \"\",\n                \"court_label_record\": \"2d Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.358,\n                \"total_events\": 5,\n                \"distinct_courts\": 4,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Federal Deposit Insurance v. Niagara Mohawk Power Corp. (In re Megan-Racine Associates, Inc.)\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/102-f-3d-671/federal-deposit-insurance-v-niagara-mohawk-power-corp-in-re-megan-racine\",\n            \"link_md\": \"[Federal Deposit Insurance v. Niagara Mohawk Power Corp. (In re Megan-Racine Associates, Inc.)](https://syfert.com/federal/circuits/cases/102-f-3d-671/federal-deposit-insurance-v-niagara-mohawk-power-corp-in-re-megan-racine)\",\n            \"procedural\": {\n                \"kind\": \"supreme_court_disposition\",\n                \"record\": \"lower_court_opinion\",\n                \"order_date\": \"1981-12-07\",\n                \"page\": \"102 S. Ct. 671\",\n                \"page_records\": 7,\n                \"page_orders\": [\n                    {\n                        \"cluster_id\": 9036177,\n                        \"case_name\": \"McCausland v. Mason County Board of Education\",\n                        \"date_filed\": \"1981-12-07\"\n                    },\n                    {\n                        \"cluster_id\": 9036178,\n                        \"case_name\": \"Vetco Inc. v. United States\",\n                        \"date_filed\": \"1981-12-07\"\n                    },\n                    {\n                        \"cluster_id\": 9036179,\n                        \"case_name\": \"Wright v. United States\",\n                        \"date_filed\": \"1981-12-07\"\n                    },\n                    {\n                        \"cluster_id\": 9036180,\n                        \"case_name\": \"Vichos v. United States\",\n                        \"date_filed\": \"1981-12-07\"\n                    }\n                ],\n                \"page_order_kind\": \"cert_denied\",\n                \"filing_error\": {\n                    \"record\": \"Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996)\",\n                    \"cluster_id\": 6801186,\n                    \"note\": \"the index files this Supreme Court page on Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996), decided 1996-12-17, more than a year from the page's orders (1981-12-07): a filing error in the index, not the case this page decides\"\n                },\n                \"filed_under_court\": \"ca2\",\n                \"advice\": \"102 S. Ct. 671 is a page of the Supreme Court's orders list of 1981-12-07 (the order denying certiorari per the first order's record): McCausland v. Mason County Board of Education; Vetco Inc. v. United States; Wright v. United States. The index files this Supreme Court page on Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996), decided 1996-12-17, more than a year from the page's orders (1981-12-07): a filing error in the index, not the case this page decides. Name the order you mean, or cite the opinion it disposes of with the order as history.\",\n                \"cited_as\": \"citation\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "supreme_court_orders": 1
+    },
+    "warnings": [
+     "1 Supreme Court reporter citation(s) point at an orders-page entry (a denial of certiorari or another summary order) or at a Supreme Court page the index files on a lower-court opinion (cites[].procedural): cite the opinion, with the order as subsequent history."
+    ],
+    "corrections": [
+     {
+      "raw": "102 S. Ct. 671",
+      "verdict": "supreme_court_order",
+      "problem": "102 S. Ct. 671 is a page of the Supreme Court's orders list of 1981-12-07 (the order denying certiorari per the first order's record): McCausland v. Mason County Board of Education; Vetco Inc. v. United States; Wright v. United States. The index files this Supreme Court page on Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996), decided 1996-12-17, more than a year from the page's orders (1981-12-07): a filing error in the index, not the case this page decides. Name the order you mean, or cite the opinion it disposes of with the order as history.",
+      "procedural": {
+       "kind": "supreme_court_disposition",
+       "record": "lower_court_opinion",
+       "order_date": "1981-12-07",
+       "filing_error": {
+        "record": "Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996)",
+        "cluster_id": 6801186,
+        "note": "the index files this Supreme Court page on Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996), decided 1996-12-17, more than a year from the page's orders (1981-12-07): a filing error in the index, not the case this page decides"
+       }
+      },
+      "case": {
+       "cluster_id": 6801186,
+       "case_name": "Federal Deposit Insurance v. Niagara Mohawk Power Corp. (In re Megan-Racine Associates, Inc.)"
+      }
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "102 S. Ct. 671",
+      "volume": "102",
+      "reporter": "S. Ct.",
+      "page": "671",
+      "pin": null,
+      "cluster_id": 6801186,
+      "case": {
+       "case_name": "Federal Deposit Insurance v. Niagara Mohawk Power Corp. (In re Megan-Racine Associates, Inc.)",
+       "case_name_short": null,
+       "date_filed": "1996-12-17",
+       "court_id": "ca2",
+       "docket_number": "Nos. 754, 793, and 794, Dockets 96-5076(L), 96-5084, and 96-5086",
+       "citation_count": 2,
+       "court_label": "",
+       "court_label_record": "2d Cir."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.358,
+       "total_events": 5,
+       "distinct_courts": 4,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Federal Deposit Insurance v. Niagara Mohawk Power Corp. (In re Megan-Racine Associates, Inc.)"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/102-f-3d-671/federal-deposit-insurance-v-niagara-mohawk-power-corp-in-re-megan-racine",
+      "link_md": "[Federal Deposit Insurance v. Niagara Mohawk Power Corp. (In re Megan-Racine Associates, Inc.)](https://syfert.com/federal/circuits/cases/102-f-3d-671/federal-deposit-insurance-v-niagara-mohawk-power-corp-in-re-megan-racine)",
+      "procedural": {
+       "kind": "supreme_court_disposition",
+       "record": "lower_court_opinion",
+       "order_date": "1981-12-07",
+       "page": "102 S. Ct. 671",
+       "page_records": 7,
+       "page_orders": [
+        {
+         "cluster_id": 9036177,
+         "case_name": "McCausland v. Mason County Board of Education",
+         "date_filed": "1981-12-07"
+        },
+        {
+         "cluster_id": 9036178,
+         "case_name": "Vetco Inc. v. United States",
+         "date_filed": "1981-12-07"
+        },
+        {
+         "cluster_id": 9036179,
+         "case_name": "Wright v. United States",
+         "date_filed": "1981-12-07"
+        },
+        {
+         "cluster_id": 9036180,
+         "case_name": "Vichos v. United States",
+         "date_filed": "1981-12-07"
+        }
+       ],
+       "page_order_kind": "cert_denied",
+       "filing_error": {
+        "record": "Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996)",
+        "cluster_id": 6801186,
+        "note": "the index files this Supreme Court page on Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996), decided 1996-12-17, more than a year from the page's orders (1981-12-07): a filing error in the index, not the case this page decides"
+       },
+       "filed_under_court": "ca2",
+       "advice": "102 S. Ct. 671 is a page of the Supreme Court's orders list of 1981-12-07 (the order denying certiorari per the first order's record): McCausland v. Mason County Board of Education; Vetco Inc. v. United States; Wright v. United States. The index files this Supreme Court page on Fed. Deposit Ins. v. Niagara Mohawk Power Corp. (In re Megan-Racine Assocs., Inc.), 102 F.3d 671 (2d Cir. 1996), decided 1996-12-17, more than a year from the page's orders (1981-12-07): a filing error in the index, not the case this page decides. Name the order you mean, or cite the opinion it disposes of with the order as history.",
+       "cited_as": "citation"
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

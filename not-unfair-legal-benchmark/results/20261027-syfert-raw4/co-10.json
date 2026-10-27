@@ -1,0 +1,104 @@
+{
+ "id": "co-10",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Vokes v. Arthur Murray, Inc., 212 So. 2d 906."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"212 So. 2d 906\",\n            \"volume\": \"212\",\n            \"reporter\": \"So. 2d\",\n            \"page\": \"906\",\n            \"pin\": null,\n            \"cluster_id\": 1101421,\n            \"case\": {\n                \"case_name\": \"Vokes v. Arthur Murray, Inc.\",\n                \"case_name_short\": \"Vokes\",\n                \"date_filed\": \"1968-07-31\",\n                \"court_id\": \"fladistctapp\",\n                \"docket_number\": \"67-476\",\n                \"citation_count\": 31,\n                \"court_label\": \"Fla. 2d DCA\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 23.863,\n                \"total_events\": 43,\n                \"distinct_courts\": 13,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Elite Wheel Distributors, Inc. v. Wheel Pros, LLC\",\n                \"top_pos_court\": \"flmd\",\n                \"top_pos_date\": \"2025-09-23\",\n                \"top_quote_norm\": \"where a party to a transaction owes no duty to agreed to enter into and perform under the settlement agreement (either at all or as drafted), and its resulting conduct undertaken herein, had elite known the truth regarding each of these actually false statements.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Vokes\",\n                \"rhs\": \"Arthur Murray, Inc.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Vokes\",\n                    \"rhs\": \"Arthur Murray, Inc.\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Vokes v. Arthur Murray, Inc.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/florida/cases/212-so-2d-906/vokes-v-arthur-murray-inc\",\n            \"link_md\": \"[Vokes v. Arthur Murray, Inc.](https://syfert.com/florida/cases/212-so-2d-906/vokes-v-arthur-murray-inc)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "212 So. 2d 906",
+      "volume": "212",
+      "reporter": "So. 2d",
+      "page": "906",
+      "pin": null,
+      "cluster_id": 1101421,
+      "case": {
+       "case_name": "Vokes v. Arthur Murray, Inc.",
+       "case_name_short": "Vokes",
+       "date_filed": "1968-07-31",
+       "court_id": "fladistctapp",
+       "docket_number": "67-476",
+       "citation_count": 31,
+       "court_label": "Fla. 2d DCA"
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 23.863,
+       "total_events": 43,
+       "distinct_courts": 13,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Elite Wheel Distributors, Inc. v. Wheel Pros, LLC",
+       "top_pos_court": "flmd",
+       "top_pos_date": "2025-09-23",
+       "top_quote_norm": "where a party to a transaction owes no duty to agreed to enter into and perform under the settlement agreement (either at all or as drafted), and its resulting conduct undertaken herein, had elite known the truth regarding each of these actually false statements.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Vokes",
+       "rhs": "Arthur Murray, Inc."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Vokes",
+        "rhs": "Arthur Murray, Inc."
+       },
+       "verdict": "match",
+       "resolved_name": "Vokes v. Arthur Murray, Inc."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/florida/cases/212-so-2d-906/vokes-v-arthur-murray-inc",
+      "link_md": "[Vokes v. Arthur Murray, Inc.](https://syfert.com/florida/cases/212-so-2d-906/vokes-v-arthur-murray-inc)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

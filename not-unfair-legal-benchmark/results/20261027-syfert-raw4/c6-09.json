@@ -1,0 +1,92 @@
+{
+ "id": "c6-09",
+ "class": "vendor",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Martinez-Celis v. Noem, 2025 WL 2598379."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"database_cites\": 0,\n        \"resolved_by_database_alias\": 1\n    },\n    \"warnings\": [\n        \"1 Westlaw / Lexis number(s) the reporter index lacks were resolved through the citation-alias table (cites[].resolved_via).\"\n    ],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"2025 WL 2598379\",\n            \"volume\": \"2025\",\n            \"reporter\": \"WL\",\n            \"page\": \"2598379\",\n            \"pin\": null,\n            \"database\": \"Westlaw\",\n            \"cluster_id\": 10701522,\n            \"did_you_mean\": [],\n            \"status\": \"resolved\",\n            \"note\": \"Resolved through the westlaw citation confirmed on review (Syfert). Quotations attributed to this cite were not checked against the opinion here: run verify_quote with cluster_id 10701522.\",\n            \"claimed\": {\n                \"lhs\": \"Martinez-Celis\",\n                \"rhs\": \"Noem\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Martinez-Celis\",\n                    \"rhs\": \"Noem\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Martinez-Celis v. Noem\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"resolution\": \"database_alias\",\n            \"resolved_via\": \"westlaw citation confirmed on review (Syfert)\",\n            \"alias_evidence\": {\n                \"source\": \"graham\",\n                \"tier\": \"verified\",\n                \"citing_opinions\": 54,\n                \"written_as\": \"Martinez v. Noem\",\n                \"first_seen\": \"2025-09-19\"\n            },\n            \"case\": {\n                \"case_name\": \"Martinez-Celis v. Noem\",\n                \"date_filed\": \"2025-09-26\",\n                \"court\": \"D. Nevada\"\n            },\n            \"url\": \"https://syfert.com/federal/district/cases/cl-10701522/martinez-celis-v-noem\",\n            \"link_md\": \"[Martinez-Celis v. Noem](https://syfert.com/federal/district/cases/cl-10701522/martinez-celis-v-noem)\",\n            \"cite_as\": \"Martinez-Celis v. Noem, 2025 WL 2598379 (D. Nev. Sept. 26, 2025)\",\n            \"citation_note\": \"No reporter citation on record for this case; the Westlaw number is the citation to use (add the docket number and the full date).\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "database_cites": 0,
+     "resolved_by_database_alias": 1
+    },
+    "warnings": [
+     "1 Westlaw / Lexis number(s) the reporter index lacks were resolved through the citation-alias table (cites[].resolved_via)."
+    ],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "2025 WL 2598379",
+      "volume": "2025",
+      "reporter": "WL",
+      "page": "2598379",
+      "pin": null,
+      "database": "Westlaw",
+      "cluster_id": 10701522,
+      "did_you_mean": [],
+      "status": "resolved",
+      "note": "Resolved through the westlaw citation confirmed on review (Syfert). Quotations attributed to this cite were not checked against the opinion here: run verify_quote with cluster_id 10701522.",
+      "claimed": {
+       "lhs": "Martinez-Celis",
+       "rhs": "Noem"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Martinez-Celis",
+        "rhs": "Noem"
+       },
+       "verdict": "match",
+       "resolved_name": "Martinez-Celis v. Noem"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "resolution": "database_alias",
+      "resolved_via": "westlaw citation confirmed on review (Syfert)",
+      "alias_evidence": {
+       "source": "graham",
+       "tier": "verified",
+       "citing_opinions": 54,
+       "written_as": "Martinez v. Noem",
+       "first_seen": "2025-09-19"
+      },
+      "case": {
+       "case_name": "Martinez-Celis v. Noem",
+       "date_filed": "2025-09-26",
+       "court": "D. Nevada"
+      },
+      "url": "https://syfert.com/federal/district/cases/cl-10701522/martinez-celis-v-noem",
+      "link_md": "[Martinez-Celis v. Noem](https://syfert.com/federal/district/cases/cl-10701522/martinez-celis-v-noem)",
+      "cite_as": "Martinez-Celis v. Noem, 2025 WL 2598379 (D. Nev. Sept. 26, 2025)",
+      "citation_note": "No reporter citation on record for this case; the Westlaw number is the citation to use (add the docket number and the full date)."
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

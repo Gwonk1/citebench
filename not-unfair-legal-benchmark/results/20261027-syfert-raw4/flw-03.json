@@ -1,0 +1,144 @@
+{
+ "id": "flw-03",
+ "class": "series",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Give the citation for Pease v. State, 15 Fla. L. Weekly Fed. D 2949, including the court. Use the Florida form for a district court of appeal (Fla. R. App. P. 9.800)."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"weekly_cites\": 1\n    },\n    \"warnings\": [],\n    \"corrections\": [\n        {\n            \"raw\": \"15 Fla. L. Weekly Fed. D 2949\",\n            \"verdict\": \"weekly_cite\",\n            \"severity\": \"advice\",\n            \"problem\": \"Florida Law Weekly is an advance-sheet service; cite the reporter: Pease v. State, 570 So. 2d 1116 (Fla. 2d DCA 1990) (the weekly cite reads 15 Fla. L. Weekly D2949).\",\n            \"suggested\": \"Pease v. State, 570 So. 2d 1116 (Fla. 2d DCA 1990)\"\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"15 Fla. L. Weekly Fed. D 2949\",\n            \"volume\": \"15\",\n            \"reporter\": \"Fla. L. Weekly Fed. D\",\n            \"page\": \"2949\",\n            \"pin\": null,\n            \"cluster_id\": 7653742,\n            \"case\": {\n                \"case_name\": \"Pease v. State\",\n                \"case_name_short\": \"Pease\",\n                \"date_filed\": \"1990-12-07\",\n                \"court_id\": \"fladistctapp\",\n                \"docket_number\": \"No. 89-03027\",\n                \"citation_count\": 0,\n                \"court_label\": \"Fla. 2d DCA\"\n            },\n            \"treatment\": {\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Pease\",\n                \"rhs\": \"State\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Pease\",\n                    \"rhs\": \"State\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Pease v. State\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/florida/cases/570-so-2d-1116/pease-v-state\",\n            \"link_md\": \"[Pease v. State](https://syfert.com/florida/cases/570-so-2d-1116/pease-v-state)\",\n            \"weekly_cite\": {\n                \"as_given\": \"15 Fla. L. Weekly Fed. D 2949\",\n                \"read_as\": \"15 Fla. L. Weekly D2949\",\n                \"series\": \"Fla. L. Weekly D (Florida District Courts of Appeal); \\\"Fed.\\\" is the federal weekly and does not fit a state decision\",\n                \"cluster_id\": 7653742,\n                \"resolved_via\": \"reporter index (CourtListener records the weekly cite on this case)\",\n                \"reporter_cite\": \"570 So. 2d 1116\",\n                \"cite_as\": \"Pease v. State, 570 So. 2d 1116 (Fla. 2d DCA 1990)\",\n                \"note\": \"Read 15 Fla. L. Weekly Fed. D 2949 as the Florida Law Weekly cite 15 Fla. L. Weekly D2949, a parallel of 570 So. 2d 1116. Florida Law Weekly is an advance-sheet service: cite the Southern Reporter (Pease v. State, 570 So. 2d 1116 (Fla. 2d DCA 1990)), with the weekly cite only as a parallel where a rule asks for it. \\\"Fla. L. Weekly Fed.\\\" is the FEDERAL weekly (federal courts); this is a Florida state decision, so its weekly cite is 15 Fla. L. Weekly D2949 (CourtListener files it under \\\"Fed. D\\\").\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 1,\n            \"verified\": 1,\n            \"not_found\": 0\n        },\n        \"findings\": [\n            {\n                \"type\": \"rule\",\n                \"verified\": true,\n                \"jurisdiction\": \"Florida Rules of Procedure\",\n                \"citation\": \"Fla. R. App. P. 9.800\",\n                \"kind\": \"rule\",\n                \"title\": \"UNIFORM CITATION SYSTEM\",\n                \"url\": \"https://syfert.com/florida/rules-appellate-procedure/rule-9.800/\",\n                \"link_md\": \"[Fla. R. App. P. 9.800](https://syfert.com/florida/rules-appellate-procedure/rule-9.800/)\",\n                \"get_statute\": {\n                    \"jurisdiction\": \"fl_rule\",\n                    \"citation\": \"9.800\"\n                },\n                \"currency\": {\n                    \"corpus\": \"FL-RULE\",\n                    \"text_last_changed\": \"2026-09-02\",\n                    \"status\": \"current\",\n                    \"section_history_recorded\": false\n                }\n            }\n        ],\n        \"warnings\": [],\n        \"note\": \"Statutes, regulations and court rules found in the document, checked against the corpus that holds each one (kind-scoped: a rule cite is never verified against a statute row). Quoted statutory language attached to a case citation is compared with the sections the document names (quote_checks[].statute_quote); statute text quoted under its own cite is listed as quoted_text and not compared yet.\",\n        \"corpus_currency\": {\n            \"FL-RULE\": {\n                \"edition\": \"Florida court rules as published by floridabar.org: the source's current rules, re-fetched on our daily refresh\",\n                \"current_through\": \"the rules as published by floridabar.org when last checked, 2026-10-01\",\n                \"current_through_basis\": \"source-current-at-retrieval\",\n                \"last_verified\": \"2026-10-01\",\n                \"lag_note\": \"Court rules change by court order, often effective January 1 or July 1: an amendment ordered after 2026-10-01 is not in this text.\",\n                \"temporal_note\": \"Current codification as of Oct. 1, 2026 (the rules as published by floridabar.org), not a historical version. Court rules change by court order, often effective January 1 or July 1: an amendment ordered after 2026-10-01 is not in this text. Each row's currency.last_amended_year / effective_date (when recorded) dates the section; for events before that date the text may have read differently. get_statute with as_of checks one section against the operative date.\"\n            }\n        },\n        \"currency_note\": \"Each verified statute carries currency: the edition held and, where recorded, when the section last changed. A brief about past conduct (an offense, a contract, a limitations period, a procedural step) applies the text in force on that date: a section amended after it may have read differently, and an older offense may be charged under a predecessor section. get_statute or check_citation with as_of checks one section against the operative date.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "weekly_cites": 1
+    },
+    "warnings": [],
+    "corrections": [
+     {
+      "raw": "15 Fla. L. Weekly Fed. D 2949",
+      "verdict": "weekly_cite",
+      "severity": "advice",
+      "problem": "Florida Law Weekly is an advance-sheet service; cite the reporter: Pease v. State, 570 So. 2d 1116 (Fla. 2d DCA 1990) (the weekly cite reads 15 Fla. L. Weekly D2949).",
+      "suggested": "Pease v. State, 570 So. 2d 1116 (Fla. 2d DCA 1990)"
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "15 Fla. L. Weekly Fed. D 2949",
+      "volume": "15",
+      "reporter": "Fla. L. Weekly Fed. D",
+      "page": "2949",
+      "pin": null,
+      "cluster_id": 7653742,
+      "case": {
+       "case_name": "Pease v. State",
+       "case_name_short": "Pease",
+       "date_filed": "1990-12-07",
+       "court_id": "fladistctapp",
+       "docket_number": "No. 89-03027",
+       "citation_count": 0,
+       "court_label": "Fla. 2d DCA"
+      },
+      "treatment": {
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Pease",
+       "rhs": "State"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Pease",
+        "rhs": "State"
+       },
+       "verdict": "match",
+       "resolved_name": "Pease v. State"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/florida/cases/570-so-2d-1116/pease-v-state",
+      "link_md": "[Pease v. State](https://syfert.com/florida/cases/570-so-2d-1116/pease-v-state)",
+      "weekly_cite": {
+       "as_given": "15 Fla. L. Weekly Fed. D 2949",
+       "read_as": "15 Fla. L. Weekly D2949",
+       "series": "Fla. L. Weekly D (Florida District Courts of Appeal); \"Fed.\" is the federal weekly and does not fit a state decision",
+       "cluster_id": 7653742,
+       "resolved_via": "reporter index (CourtListener records the weekly cite on this case)",
+       "reporter_cite": "570 So. 2d 1116",
+       "cite_as": "Pease v. State, 570 So. 2d 1116 (Fla. 2d DCA 1990)",
+       "note": "Read 15 Fla. L. Weekly Fed. D 2949 as the Florida Law Weekly cite 15 Fla. L. Weekly D2949, a parallel of 570 So. 2d 1116. Florida Law Weekly is an advance-sheet service: cite the Southern Reporter (Pease v. State, 570 So. 2d 1116 (Fla. 2d DCA 1990)), with the weekly cite only as a parallel where a rule asks for it. \"Fla. L. Weekly Fed.\" is the FEDERAL weekly (federal courts); this is a Florida state decision, so its weekly cite is 15 Fla. L. Weekly D2949 (CourtListener files it under \"Fed. D\")."
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 1,
+      "verified": 1,
+      "not_found": 0
+     },
+     "findings": [
+      {
+       "type": "rule",
+       "verified": true,
+       "jurisdiction": "Florida Rules of Procedure",
+       "citation": "Fla. R. App. P. 9.800",
+       "kind": "rule",
+       "title": "UNIFORM CITATION SYSTEM",
+       "url": "https://syfert.com/florida/rules-appellate-procedure/rule-9.800/",
+       "link_md": "[Fla. R. App. P. 9.800](https://syfert.com/florida/rules-appellate-procedure/rule-9.800/)",
+       "get_statute": {
+        "jurisdiction": "fl_rule",
+        "citation": "9.800"
+       },
+       "currency": {
+        "corpus": "FL-RULE",
+        "text_last_changed": "2026-09-02",
+        "status": "current",
+        "section_history_recorded": false
+       }
+      }
+     ],
+     "warnings": [],
+     "note": "Statutes, regulations and court rules found in the document, checked against the corpus that holds each one (kind-scoped: a rule cite is never verified against a statute row). Quoted statutory language attached to a case citation is compared with the sections the document names (quote_checks[].statute_quote); statute text quoted under its own cite is listed as quoted_text and not compared yet.",
+     "corpus_currency": {
+      "FL-RULE": {
+       "edition": "Florida court rules as published by floridabar.org: the source's current rules, re-fetched on our daily refresh",
+       "current_through": "the rules as published by floridabar.org when last checked, 2026-10-01",
+       "current_through_basis": "source-current-at-retrieval",
+       "last_verified": "2026-10-01",
+       "lag_note": "Court rules change by court order, often effective January 1 or July 1: an amendment ordered after 2026-10-01 is not in this text.",
+       "temporal_note": "Current codification as of Oct. 1, 2026 (the rules as published by floridabar.org), not a historical version. Court rules change by court order, often effective January 1 or July 1: an amendment ordered after 2026-10-01 is not in this text. Each row's currency.last_amended_year / effective_date (when recorded) dates the section; for events before that date the text may have read differently. get_statute with as_of checks one section against the operative date."
+      }
+     },
+     "currency_note": "Each verified statute carries currency: the edition held and, where recorded, when the section last changed. A brief about past conduct (an offense, a contract, a limitations period, a procedural step) applies the text in force on that date: a section amended after it may have read differently, and an older offense may be charged under a predecessor section. get_statute or check_citation with as_of checks one section against the operative date."
+    }
+   }
+  }
+ ]
+}

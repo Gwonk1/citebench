@@ -1,0 +1,104 @@
+{
+ "id": "cap-svc-01",
+ "class": "caption",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Give the Bluebook case name for 729 F.2d 186."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"729 F.2d 186\",\n            \"volume\": \"729\",\n            \"reporter\": \"F.2d\",\n            \"page\": \"186\",\n            \"pin\": null,\n            \"cluster_id\": 432014,\n            \"case\": {\n                \"case_name\": \"Jane Doe v. Barbara Blum\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1984-02-24\",\n                \"court_id\": \"ca2\",\n                \"docket_number\": \"449, Docket 83-6034\",\n                \"citation_count\": 21,\n                \"case_name_raw\": \"Medicare&medicaid Gu 33,639 Jane Doe v. Barbara Blum, Individually and as Commissioner of the New York State Department of Social Services\",\n                \"court_label\": \"2d Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 14.289,\n                \"total_events\": 24,\n                \"distinct_courts\": 6,\n                \"top_neg_label\": \"Wilkinson v. Forst\",\n                \"top_neg_court\": \"ctd\",\n                \"top_neg_date\": \"1984-07-11\",\n                \"top_pos_label\": \"Ciaramella v. Zucker\",\n                \"top_pos_court\": \"nysd\",\n                \"top_pos_date\": \"2019-09-30\",\n                \"top_quote_norm\": \"none of the plaintiffs alleges that she requested and was denied family planning services for want of a medicaid identification card. consequently, none has standing to assert . . . the statutory claim that new york fails to adequately provide those services.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": 2388269,\n            \"neg_citers\": {\n                \"wilkinson v. forst\": {\n                    \"cid\": 2388269,\n                    \"court\": \"ctd\"\n                }\n            },\n            \"top_neg_court_label\": \"D. Conn.\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Jane Doe v. Barbara Blum\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/729-f-2d-186/jane-doe-v-barbara-blum-individually-and-as-commissioner-of-the-new-york-st\",\n            \"link_md\": \"[Jane Doe v. Barbara Blum](https://syfert.com/federal/circuits/cases/729-f-2d-186/jane-doe-v-barbara-blum-individually-and-as-commissioner-of-the-new-york-st)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "729 F.2d 186",
+      "volume": "729",
+      "reporter": "F.2d",
+      "page": "186",
+      "pin": null,
+      "cluster_id": 432014,
+      "case": {
+       "case_name": "Jane Doe v. Barbara Blum",
+       "case_name_short": null,
+       "date_filed": "1984-02-24",
+       "court_id": "ca2",
+       "docket_number": "449, Docket 83-6034",
+       "citation_count": 21,
+       "case_name_raw": "Medicare&medicaid Gu 33,639 Jane Doe v. Barbara Blum, Individually and as Commissioner of the New York State Department of Social Services",
+       "court_label": "2d Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 14.289,
+       "total_events": 24,
+       "distinct_courts": 6,
+       "top_neg_label": "Wilkinson v. Forst",
+       "top_neg_court": "ctd",
+       "top_neg_date": "1984-07-11",
+       "top_pos_label": "Ciaramella v. Zucker",
+       "top_pos_court": "nysd",
+       "top_pos_date": "2019-09-30",
+       "top_quote_norm": "none of the plaintiffs alleges that she requested and was denied family planning services for want of a medicaid identification card. consequently, none has standing to assert . . . the statutory claim that new york fails to adequately provide those services.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": 2388269,
+      "neg_citers": {
+       "wilkinson v. forst": {
+        "cid": 2388269,
+        "court": "ctd"
+       }
+      },
+      "top_neg_court_label": "D. Conn.",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Jane Doe v. Barbara Blum"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/729-f-2d-186/jane-doe-v-barbara-blum-individually-and-as-commissioner-of-the-new-york-st",
+      "link_md": "[Jane Doe v. Barbara Blum](https://syfert.com/federal/circuits/cases/729-f-2d-186/jane-doe-v-barbara-blum-individually-and-as-commissioner-of-the-new-york-st)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": "st-fre",
+ "class": "statute",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Fed. R. Evid. 702."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 0,\n        \"resolved\": 0,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 1,\n            \"verified\": 1,\n            \"not_found\": 0\n        },\n        \"findings\": [\n            {\n                \"type\": \"rule\",\n                \"verified\": true,\n                \"jurisdiction\": \"Federal Rules\",\n                \"citation\": \"Fed. R. Evid. 702\",\n                \"kind\": \"fedrule\",\n                \"title\": \"Testimony by Expert Witnesses\",\n                \"url\": \"https://syfert.com/federal-rules/evidence/rule-702.html\",\n                \"link_md\": \"[Fed. R. Evid. 702](https://syfert.com/federal-rules/evidence/rule-702.html)\",\n                \"get_statute\": {\n                    \"jurisdiction\": \"fedrule\",\n                    \"citation\": \"Fed. R. Evid. 702\"\n                },\n                \"currency\": {\n                    \"corpus\": \"FEDRULE\",\n                    \"text_last_changed\": \"2026-05-14\",\n                    \"section_history_recorded\": false\n                }\n            }\n        ],\n        \"warnings\": [],\n        \"note\": \"Statutes, regulations and court rules found in the document, checked against the corpus that holds each one (kind-scoped: a rule cite is never verified against a statute row). Quoted statutory language attached to a case citation is compared with the sections the document names (quote_checks[].statute_quote); statute text quoted under its own cite is listed as quoted_text and not compared yet.\",\n        \"corpus_currency\": {\n            \"FEDRULE\": {\n                \"edition\": \"Federal Rules (FRCP, FRCrP, FRE, FRAP, FRBP) as published by Cornell LII\",\n                \"current_through\": \"amendments effective December 1, 2025\",\n                \"current_through_basis\": \"measured-from-history\",\n                \"last_verified\": \"2026-09-28\",\n                \"lag_note\": \"Amendments taking effect December 1, 2026 are not in this text.\",\n                \"temporal_note\": \"Current codification as of the Dec. 1, 2025 amendments, not a historical version. Amendments taking effect December 1, 2026 are not in this text. Each row's currency.last_amended_year / effective_date (when recorded) dates the section; for events before that date the text may have read differently. get_statute with as_of checks one section against the operative date.\"\n            }\n        },\n        \"currency_note\": \"Each verified statute carries currency: the edition held and, where recorded, when the section last changed. A brief about past conduct (an offense, a contract, a limitations period, a procedural step) applies the text in force on that date: a section amended after it may have read differently, and an older offense may be charged under a predecessor section. get_statute or check_citation with as_of checks one section against the operative date.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 0,
+     "resolved": 0,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [],
+    "statutes": {
+     "stats": {
+      "extracted": 1,
+      "verified": 1,
+      "not_found": 0
+     },
+     "findings": [
+      {
+       "type": "rule",
+       "verified": true,
+       "jurisdiction": "Federal Rules",
+       "citation": "Fed. R. Evid. 702",
+       "kind": "fedrule",
+       "title": "Testimony by Expert Witnesses",
+       "url": "https://syfert.com/federal-rules/evidence/rule-702.html",
+       "link_md": "[Fed. R. Evid. 702](https://syfert.com/federal-rules/evidence/rule-702.html)",
+       "get_statute": {
+        "jurisdiction": "fedrule",
+        "citation": "Fed. R. Evid. 702"
+       },
+       "currency": {
+        "corpus": "FEDRULE",
+        "text_last_changed": "2026-05-14",
+        "section_history_recorded": false
+       }
+      }
+     ],
+     "warnings": [],
+     "note": "Statutes, regulations and court rules found in the document, checked against the corpus that holds each one (kind-scoped: a rule cite is never verified against a statute row). Quoted statutory language attached to a case citation is compared with the sections the document names (quote_checks[].statute_quote); statute text quoted under its own cite is listed as quoted_text and not compared yet.",
+     "corpus_currency": {
+      "FEDRULE": {
+       "edition": "Federal Rules (FRCP, FRCrP, FRE, FRAP, FRBP) as published by Cornell LII",
+       "current_through": "amendments effective December 1, 2025",
+       "current_through_basis": "measured-from-history",
+       "last_verified": "2026-09-28",
+       "lag_note": "Amendments taking effect December 1, 2026 are not in this text.",
+       "temporal_note": "Current codification as of the Dec. 1, 2025 amendments, not a historical version. Amendments taking effect December 1, 2026 are not in this text. Each row's currency.last_amended_year / effective_date (when recorded) dates the section; for events before that date the text may have read differently. get_statute with as_of checks one section against the operative date."
+      }
+     },
+     "currency_note": "Each verified statute carries currency: the edition held and, where recorded, when the section last changed. A brief about past conduct (an offense, a contract, a limitations period, a procedural step) applies the text in force on that date: a section amended after it may have read differently, and an older offense may be charged under a predecessor section. get_statute or check_citation with as_of checks one section against the operative date."
+    }
+   }
+  }
+ ]
+}

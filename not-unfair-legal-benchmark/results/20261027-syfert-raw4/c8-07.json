@@ -1,0 +1,151 @@
+{
+ "id": "c8-07",
+ "class": "misprint",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Franks v. Delaware, 488 U.S. 154."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 0,\n        \"unresolved\": 1,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"likely_misprint\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.\",\n        \"1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"488 U.S. 154\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_volume\",\n            \"problem\": \"Likely misprint, not a fabricated case: The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154.\",\n            \"replace_with\": \"Franks v. Delaware, 438 U.S. 154 (1978)\",\n            \"fix\": {\n                \"from\": \"488 U.S. 154\",\n                \"to\": \"438 U.S. 154\"\n            },\n            \"suggested\": \"Franks v. Delaware, 438 U.S. 154 (1978)\",\n            \"did_you_mean\": \"Franks v. Delaware, 438 U.S. 154 (1978)\",\n            \"misprint\": {\n                \"printed\": \"488 U.S. 154\",\n                \"real\": \"438 U.S. 154\",\n                \"kind\": \"volume\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 109925,\n                \"case_name\": \"Franks v. Delaware\",\n                \"bluebook\": \"Franks v. Delaware, 438 U.S. 154 (1978)\",\n                \"cite_as\": \"Franks v. Delaware, 438 U.S. 154 (1978)\",\n                \"date_filed\": \"1978-06-26\",\n                \"url\": \"https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware\",\n                \"link_md\": \"[Franks v. Delaware, 438 U.S. 154 (1978)](https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware)\",\n                \"note\": \"The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"case\": {\n                \"cluster_id\": 109925,\n                \"case_name\": \"Franks v. Delaware\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"488 U.S. 154\",\n            \"volume\": \"488\",\n            \"reporter\": \"U.S.\",\n            \"page\": \"154\",\n            \"pin\": null,\n            \"cluster_id\": null,\n            \"interior_of\": {\n                \"cluster_id\": 112161,\n                \"case_name\": \"Beech Aircraft Corp. v. Rainey\",\n                \"bluebook\": \"Beech Aircraft Corp. v. Rainey, 488 U.S. 153 (1988)\",\n                \"first_page\": 153,\n                \"first_page_citation\": \"488 U.S. 153\",\n                \"span\": {\n                    \"last_page\": 178,\n                    \"via\": \"opinion_text\"\n                },\n                \"cite_as\": \"Beech Aircraft Corp. v. Rainey, 488 U.S. 153, 154 (1988)\",\n                \"advice\": \"likely misprint: The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154. (Page 154 as printed falls inside Beech Aircraft Corp. v. Rainey, a different case.)\"\n            },\n            \"did_you_mean\": [],\n            \"name_search\": \"no_match\",\n            \"claimed\": {\n                \"lhs\": \"Franks\",\n                \"rhs\": \"Delaware\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": null,\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_volume\",\n            \"unindexed_advice\": \"Likely misprint: The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154.\",\n            \"volume_coverage\": {\n                \"first_pages\": 269,\n                \"coverage_pct\": 100,\n                \"year_lo\": 1987,\n                \"year_hi\": 1989\n            },\n            \"corpus_check\": \"skipped: time budget\",\n            \"misprint\": {\n                \"printed\": \"488 U.S. 154\",\n                \"real\": \"438 U.S. 154\",\n                \"kind\": \"volume\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 109925,\n                \"case_name\": \"Franks v. Delaware\",\n                \"bluebook\": \"Franks v. Delaware, 438 U.S. 154 (1978)\",\n                \"cite_as\": \"Franks v. Delaware, 438 U.S. 154 (1978)\",\n                \"date_filed\": \"1978-06-26\",\n                \"url\": \"https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware\",\n                \"link_md\": \"[Franks v. Delaware, 438 U.S. 154 (1978)](https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware)\",\n                \"note\": \"The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"suggested_citation\": {\n                \"cluster_id\": 109925,\n                \"case_name\": \"Franks v. Delaware\",\n                \"citation\": \"438 U.S. 154\",\n                \"bluebook\": \"Franks v. Delaware, 438 U.S. 154 (1978)\",\n                \"cite_as\": \"Franks v. Delaware, 438 U.S. 154 (1978)\",\n                \"date_filed\": \"1978-06-26\",\n                \"url\": \"https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware\",\n                \"link_md\": \"[Franks v. Delaware, 438 U.S. 154 (1978)](https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware)\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 0,
+     "unresolved": 1,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0,
+     "likely_misprint": 1
+    },
+    "warnings": [
+     "1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.",
+     "1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps."
+    ],
+    "corrections": [
+     {
+      "raw": "488 U.S. 154",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_volume",
+      "problem": "Likely misprint, not a fabricated case: The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154.",
+      "replace_with": "Franks v. Delaware, 438 U.S. 154 (1978)",
+      "fix": {
+       "from": "488 U.S. 154",
+       "to": "438 U.S. 154"
+      },
+      "suggested": "Franks v. Delaware, 438 U.S. 154 (1978)",
+      "did_you_mean": "Franks v. Delaware, 438 U.S. 154 (1978)",
+      "misprint": {
+       "printed": "488 U.S. 154",
+       "real": "438 U.S. 154",
+       "kind": "volume",
+       "edit": "digit",
+       "cluster_id": 109925,
+       "case_name": "Franks v. Delaware",
+       "bluebook": "Franks v. Delaware, 438 U.S. 154 (1978)",
+       "cite_as": "Franks v. Delaware, 438 U.S. 154 (1978)",
+       "date_filed": "1978-06-26",
+       "url": "https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware",
+       "link_md": "[Franks v. Delaware, 438 U.S. 154 (1978)](https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware)",
+       "note": "The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154.",
+       "via": [
+        "name"
+       ]
+      },
+      "case": {
+       "cluster_id": 109925,
+       "case_name": "Franks v. Delaware"
+      }
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "488 U.S. 154",
+      "volume": "488",
+      "reporter": "U.S.",
+      "page": "154",
+      "pin": null,
+      "cluster_id": null,
+      "interior_of": {
+       "cluster_id": 112161,
+       "case_name": "Beech Aircraft Corp. v. Rainey",
+       "bluebook": "Beech Aircraft Corp. v. Rainey, 488 U.S. 153 (1988)",
+       "first_page": 153,
+       "first_page_citation": "488 U.S. 153",
+       "span": {
+        "last_page": 178,
+        "via": "opinion_text"
+       },
+       "cite_as": "Beech Aircraft Corp. v. Rainey, 488 U.S. 153, 154 (1988)",
+       "advice": "likely misprint: The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154. (Page 154 as printed falls inside Beech Aircraft Corp. v. Rainey, a different case.)"
+      },
+      "did_you_mean": [],
+      "name_search": "no_match",
+      "claimed": {
+       "lhs": "Franks",
+       "rhs": "Delaware"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": null,
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_volume",
+      "unindexed_advice": "Likely misprint: The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154.",
+      "volume_coverage": {
+       "first_pages": 269,
+       "coverage_pct": 100,
+       "year_lo": 1987,
+       "year_hi": 1989
+      },
+      "corpus_check": "skipped: time budget",
+      "misprint": {
+       "printed": "488 U.S. 154",
+       "real": "438 U.S. 154",
+       "kind": "volume",
+       "edit": "digit",
+       "cluster_id": 109925,
+       "case_name": "Franks v. Delaware",
+       "bluebook": "Franks v. Delaware, 438 U.S. 154 (1978)",
+       "cite_as": "Franks v. Delaware, 438 U.S. 154 (1978)",
+       "date_filed": "1978-06-26",
+       "url": "https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware",
+       "link_md": "[Franks v. Delaware, 438 U.S. 154 (1978)](https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware)",
+       "note": "The volume is off by one digit (the second): the citation prints 488, the case is at 438. Franks v. Delaware is reported at 438 U.S. 154 (same reporter, same page 154). It was decided 1978-06-26 (no year is written; page 154 of 488 U.S. lies inside Beech Aircraft Corp. v. Rainey, a different case), and the name given names that case. The citation as printed (488 U.S. 154) is wrong; cite 438 U.S. 154.",
+       "via": [
+        "name"
+       ]
+      },
+      "suggested_citation": {
+       "cluster_id": 109925,
+       "case_name": "Franks v. Delaware",
+       "citation": "438 U.S. 154",
+       "bluebook": "Franks v. Delaware, 438 U.S. 154 (1978)",
+       "cite_as": "Franks v. Delaware, 438 U.S. 154 (1978)",
+       "date_filed": "1978-06-26",
+       "url": "https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware",
+       "link_md": "[Franks v. Delaware, 438 U.S. 154 (1978)](https://syfert.com/federal/scotus/cases/438-u-s-154/franks-v-delaware)"
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

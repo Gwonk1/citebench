@@ -50,15 +50,16 @@ Scores quoted anywhere for this benchmark before 2026-10-25 are v1.0 scores unde
 
 The raw CourtListener arm (the `analyze_citations` tool called by itself, server 9386476) scored 0 of 187 in v1.0 by construction: every passage that arm passed was dropped during selection, so the baseline is zero and says nothing about the tool beyond the planted failure classes. Report model-plus-MCP arms as the comparison. The saved replies are still on disk and `score_saved.py` grades them; under the v1.1 grader their last-line fallback produces a handful of artifact passes, which are not a score.
 
-**Raw Syfert MCP tool arm (no model), 2026-10-26, grader v1.1, 202 items, server `syfert-legal-research` 1.7.0.** `run_syfert.py` routes each item to one tool by its shape (court prompts to `find_court`; citation-shaped Bluebook items to `check_brief`; treatment items to `get_treatment`; everything else to `check_brief`, with `check_citation` as the fallback) and `render_syfert.py` writes the ANSWER line from the tool's fields alone, so the score is the tool's, not a model's. Three runs the same day, each after a server fix the earlier run pointed at:
+**Raw Syfert MCP tool arm (no model), 2026-10-26, grader v1.1, 202 items, server `syfert-legal-research` 1.7.0.** `run_syfert.py` routes each item to one tool by its shape (court prompts to `find_court`; citation-shaped Bluebook items to `check_brief`; treatment items to `get_treatment`; everything else to `check_brief`, with `check_citation` as the fallback) and `render_syfert.py` writes the ANSWER line from the tool's fields alone, so the score is the tool's, not a model's. Four runs in one day, each after a server fix the earlier run pointed at:
 
 | run | server state | traps (178) | controls (24) | total (202) |
 |---|---|---|---|---|
 | `results/20261026-syfert-raw` | morning build | 93 | 24 | 117 |
 | `results/20261026-syfert-raw2` | + Bluebook court string on `find_court` | 133 | 24 | 157 |
 | `results/20261026-syfert-raw3` | + Supreme Court orders-page cites, caption hygiene | 167 | 24 | 191 |
+| `results/20261027-syfert-raw4` | + index-span rule, misprint proposals, court strings, line-number stripping, caption claim reader, publication status on ambiguous treatment | 178 | 24 | 202 |
 
-False positives on the controls: 0 in every run. The 11 remaining misses are listed in `results/20261026-syfert-raw3/score.txt` (two court strings, three misprint items, four pagination items, one coverage, one treatment). This arm is the server's own developers measuring their own tool against a benchmark they wrote; treat it as a floor for model-plus-Syfert arms, not as a comparison with other systems.
+False positives on the controls: 0 in every run. The fourth run passes every item; the 11 misses of the third run were each traced to a tool fix listed in `results/20261027-syfert-raw4/score.txt`'s run and closed the same day. Three runs the same day became four across midnight UTC. This arm is the server's own developers measuring their own tool against a benchmark they wrote; treat it as a floor for model-plus-Syfert arms, not as a comparison with other systems.
 
 ## Evidence
 

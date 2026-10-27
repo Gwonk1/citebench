@@ -1,0 +1,87 @@
+{
+ "id": "vend-02",
+ "class": "vendor",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "In re Foreclosure of Real Prop. Under Deed of Trust from James K. Ballard, 782 S.E.2d 922."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"782 S.E.2d 922\",\n            \"volume\": \"782\",\n            \"reporter\": \"S.E.2d\",\n            \"page\": \"922\",\n            \"pin\": null,\n            \"caption\": \"In re Foreclosure of Real Prop. Under Deed of Trust from James K. Ballard\",\n            \"cluster_id\": 7476652,\n            \"case\": {\n                \"case_name\": \"In re Foreclosure of Real Prop. Under Deed of Trust from James K. Ballard\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2016-03-15\",\n                \"court_id\": \"ncctapp\",\n                \"docket_number\": \"No. COA15\u2013475.\",\n                \"citation_count\": 0,\n                \"court_label\": \"N.C. Ct. App.\"\n            },\n            \"treatment\": {\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"In re Foreclosure of Real Prop. Under Deed of Trust from James K. Ballard\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/north-carolina/cases/246-n-c-app-241/in-re-foreclosure-of-real-prop-under-deed-of-trust-from-james-k-ballard\",\n            \"link_md\": \"[In re Foreclosure of Real Prop. Under Deed of Trust from James K. Ballard](https://syfert.com/north-carolina/cases/246-n-c-app-241/in-re-foreclosure-of-real-prop-under-deed-of-trust-from-james-k-ballard)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "782 S.E.2d 922",
+      "volume": "782",
+      "reporter": "S.E.2d",
+      "page": "922",
+      "pin": null,
+      "caption": "In re Foreclosure of Real Prop. Under Deed of Trust from James K. Ballard",
+      "cluster_id": 7476652,
+      "case": {
+       "case_name": "In re Foreclosure of Real Prop. Under Deed of Trust from James K. Ballard",
+       "case_name_short": null,
+       "date_filed": "2016-03-15",
+       "court_id": "ncctapp",
+       "docket_number": "No. COA15\u2013475.",
+       "citation_count": 0,
+       "court_label": "N.C. Ct. App."
+      },
+      "treatment": {
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "In re Foreclosure of Real Prop. Under Deed of Trust from James K. Ballard"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/north-carolina/cases/246-n-c-app-241/in-re-foreclosure-of-real-prop-under-deed-of-trust-from-james-k-ballard",
+      "link_md": "[In re Foreclosure of Real Prop. Under Deed of Trust from James K. Ballard](https://syfert.com/north-carolina/cases/246-n-c-app-241/in-re-foreclosure-of-real-prop-under-deed-of-trust-from-james-k-ballard)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

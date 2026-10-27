@@ -1,0 +1,99 @@
+{
+ "id": "cap-svc-04",
+ "class": "caption",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Give the Bluebook case name for 740 F.2d 1493."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"740 F.2d 1493\",\n            \"volume\": \"740\",\n            \"reporter\": \"F.2d\",\n            \"page\": \"1493\",\n            \"pin\": null,\n            \"cluster_id\": 439973,\n            \"case\": {\n                \"case_name\": \"United States of America v. Donald M. Kass, M.D.\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1984-09-06\",\n                \"court_id\": \"ca11\",\n                \"docket_number\": \"83-5433\",\n                \"citation_count\": 30,\n                \"case_name_raw\": \"Medicare&medicaid Gu 34,121 United States of America v. Donald M. Kass, M.D.\",\n                \"court_label\": \"11th Cir.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 18.027,\n                \"total_events\": 60,\n                \"distinct_courts\": 19,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"United States v. County of Clark\",\n                \"top_pos_court\": \"nvd\",\n                \"top_pos_date\": \"2021-02-24\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"United States of America v. Donald M. Kass, M.D.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/circuits/cases/740-f-2d-1493/united-states-of-america-v-donald-m-kass-m-d\",\n            \"link_md\": \"[United States of America v. Donald M. Kass, M.D.](https://syfert.com/federal/circuits/cases/740-f-2d-1493/united-states-of-america-v-donald-m-kass-m-d)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "740 F.2d 1493",
+      "volume": "740",
+      "reporter": "F.2d",
+      "page": "1493",
+      "pin": null,
+      "cluster_id": 439973,
+      "case": {
+       "case_name": "United States of America v. Donald M. Kass, M.D.",
+       "case_name_short": null,
+       "date_filed": "1984-09-06",
+       "court_id": "ca11",
+       "docket_number": "83-5433",
+       "citation_count": 30,
+       "case_name_raw": "Medicare&medicaid Gu 34,121 United States of America v. Donald M. Kass, M.D.",
+       "court_label": "11th Cir."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 18.027,
+       "total_events": 60,
+       "distinct_courts": 19,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "United States v. County of Clark",
+       "top_pos_court": "nvd",
+       "top_pos_date": "2021-02-24",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "United States of America v. Donald M. Kass, M.D."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/circuits/cases/740-f-2d-1493/united-states-of-america-v-donald-m-kass-m-d",
+      "link_md": "[United States of America v. Donald M. Kass, M.D.](https://syfert.com/federal/circuits/cases/740-f-2d-1493/united-states-of-america-v-donald-m-kass-m-d)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

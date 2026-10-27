@@ -1,0 +1,99 @@
+{
+ "id": "cap-list-06",
+ "class": "caption",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Give the Bluebook case name for 30 F. Supp. 3d 67."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"30 F. Supp. 3d 67\",\n            \"volume\": \"30\",\n            \"reporter\": \"F. Supp. 3d\",\n            \"page\": \"67\",\n            \"pin\": null,\n            \"cluster_id\": 2658354,\n            \"case\": {\n                \"case_name\": \"American Immigration Council v. United States Department of Homeland Security\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2014-03-21\",\n                \"court_id\": \"dcd\",\n                \"docket_number\": \"Civil Action No. 2011-1972\",\n                \"citation_count\": 7,\n                \"case_name_raw\": \"['AMERICAN IMMIGRATION COUNCIL v. UNITED STATES DEPARTMENT OF HOMELAND SECURITY']\",\n                \"court_label\": \"D.D.C.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 16.985,\n                \"total_events\": 13,\n                \"distinct_courts\": 4,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Children's Health Defense v. National Institutes of Health\",\n                \"top_pos_court\": \"dcd\",\n                \"top_pos_date\": \"2026-08-25\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"American Immigration Council v. United States Department of Homeland Security\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/federal/district/cases/30-f-supp-3d-67/american-immigration-council-v-united-states-department-of-homeland\",\n            \"link_md\": \"[American Immigration Council v. United States Department of Homeland Security](https://syfert.com/federal/district/cases/30-f-supp-3d-67/american-immigration-council-v-united-states-department-of-homeland)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "30 F. Supp. 3d 67",
+      "volume": "30",
+      "reporter": "F. Supp. 3d",
+      "page": "67",
+      "pin": null,
+      "cluster_id": 2658354,
+      "case": {
+       "case_name": "American Immigration Council v. United States Department of Homeland Security",
+       "case_name_short": null,
+       "date_filed": "2014-03-21",
+       "court_id": "dcd",
+       "docket_number": "Civil Action No. 2011-1972",
+       "citation_count": 7,
+       "case_name_raw": "['AMERICAN IMMIGRATION COUNCIL v. UNITED STATES DEPARTMENT OF HOMELAND SECURITY']",
+       "court_label": "D.D.C."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 16.985,
+       "total_events": 13,
+       "distinct_courts": 4,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Children's Health Defense v. National Institutes of Health",
+       "top_pos_court": "dcd",
+       "top_pos_date": "2026-08-25",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "American Immigration Council v. United States Department of Homeland Security"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/federal/district/cases/30-f-supp-3d-67/american-immigration-council-v-united-states-department-of-homeland",
+      "link_md": "[American Immigration Council v. United States Department of Homeland Security](https://syfert.com/federal/district/cases/30-f-supp-3d-67/american-immigration-council-v-united-states-department-of-homeland)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

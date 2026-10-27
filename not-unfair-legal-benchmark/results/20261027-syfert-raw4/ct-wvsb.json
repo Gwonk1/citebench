@@ -1,0 +1,287 @@
+{
+ "id": "ct-wvsb",
+ "class": "bluebook",
+ "calls": [
+  {
+   "tool": "find_court",
+   "args": {
+    "name": "Bankr. S.D.W. Va."
+   },
+   "is_error": false,
+   "text": "{\n    \"query\": \"Bankr. S.D.W. Va.\",\n    \"courts\": [\n        {\n            \"id\": \"wvsb\",\n            \"short_name\": \"S.D. West Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. West Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D.W. Va.\",\n            \"bluebook\": \"Bankr. S.D. W. Va.\",\n            \"cases_in_corpus\": 162,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvsd\",\n            \"short_name\": \"S.D. West Virginia\",\n            \"full_name\": \"District Court, S.D. West Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"S.D.W. Va\",\n            \"bluebook\": \"S.D. W. Va.\",\n            \"cases_in_corpus\": 8584,\n            \"years\": \"1902-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvnb\",\n            \"short_name\": \"N.D. West Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, N.D. West Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. N.D.W. Va.\",\n            \"bluebook\": \"Bankr. N.D. W. Va.\",\n            \"cases_in_corpus\": 181,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvnd\",\n            \"short_name\": \"N.D. West Virginia\",\n            \"full_name\": \"District Court, N.D. West Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"N.D.W. Va.\",\n            \"bluebook\": \"N.D. W. Va.\",\n            \"cases_in_corpus\": 3338,\n            \"years\": \"1905-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvad\",\n            \"short_name\": \"D. West Virginia\",\n            \"full_name\": \"District Court, D. West Virginia\",\n            \"jurisdiction\": \"FD\",\n            \"citation_string\": \"D. W.Va.\",\n            \"bluebook\": \"D. W. Va.\",\n            \"cases_in_corpus\": 24,\n            \"years\": \"1867-2013\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wva\",\n            \"short_name\": \"West Virginia Supreme Court\",\n            \"full_name\": \"West Virginia Supreme Court\",\n            \"jurisdiction\": \"S\",\n            \"citation_string\": \"W. Va.\",\n            \"bluebook\": \"W. Va.\",\n            \"cases_in_corpus\": 33035,\n            \"years\": \"1864-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvctcl\",\n            \"short_name\": \"West Virginia Court of Claims\",\n            \"full_name\": \"West Virginia Court of Claims\",\n            \"jurisdiction\": \"ST\",\n            \"citation_string\": \"W. Va. Ct. Cl.\",\n            \"bluebook\": \"W. Va. Ct. Cl.\",\n            \"cases_in_corpus\": 5203,\n            \"years\": \"1941-2011\",\n            \"active\": true\n        },\n        {\n            \"id\": \"wvactapp\",\n            \"short_name\": \"Int. Ct. of App. of W.Va.\",\n            \"full_name\": \"Intermediate Court of Appeals of West Virginia\",\n            \"jurisdiction\": \"SA\",\n            \"cases_in_corpus\": 1441,\n            \"years\": \"2022-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"circtsdwv\",\n            \"short_name\": \"U.S. Circuit Court for the District of Southern West Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of Southern West Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 0,\n            \"active\": false\n        },\n        {\n            \"id\": \"circtdwv\",\n            \"short_name\": \"U.S. Circuit Court for the District of West Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of West Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 97,\n            \"years\": \"1853-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"circtndwv\",\n            \"short_name\": \"U.S. Circuit Court for the District of Northern West Virginia\",\n            \"full_name\": \"U.S. Circuit Court for the District of Northern West Virginia\",\n            \"jurisdiction\": \"F\",\n            \"cases_in_corpus\": 61,\n            \"years\": \"1901-1911\",\n            \"active\": false\n        },\n        {\n            \"id\": \"nysb\",\n            \"short_name\": \"S.D. New York\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. New York\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D.N.Y.\",\n            \"bluebook\": \"Bankr. S.D.N.Y.\",\n            \"cases_in_corpus\": 4402,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"flsb\",\n            \"short_name\": \"S.D. Florida\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Florida.\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Florida\",\n            \"bluebook\": \"Bankr. S.D. Fla.\",\n            \"cases_in_corpus\": 2538,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ohsb\",\n            \"short_name\": \"S.D. Ohio\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Ohio\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Ohio\",\n            \"bluebook\": \"Bankr. S.D. Ohio\",\n            \"cases_in_corpus\": 2156,\n            \"years\": \"1979-2019\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vaeb\",\n            \"short_name\": \"E.D. Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, E.D. Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. E.D. Va.\",\n            \"bluebook\": \"Bankr. E.D. Va.\",\n            \"cases_in_corpus\": 1477,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"txsb\",\n            \"short_name\": \"S.D. Texas\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Texas\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Tex.\",\n            \"bluebook\": \"Bankr. S.D. Tex.\",\n            \"cases_in_corpus\": 1254,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"vawb\",\n            \"short_name\": \"W.D. Virginia\",\n            \"full_name\": \"United States Bankruptcy Court, W.D. Virginia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. W.D. Va.\",\n            \"bluebook\": \"Bankr. W.D. Va.\",\n            \"cases_in_corpus\": 552,\n            \"years\": \"1979-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"gasb\",\n            \"short_name\": \"S.D. Georgia\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Georgia\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Ga.\",\n            \"bluebook\": \"Bankr. S.D. Ga.\",\n            \"cases_in_corpus\": 519,\n            \"years\": \"1984-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"casb\",\n            \"short_name\": \"S.D. California\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. California\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Cal.\",\n            \"bluebook\": \"Bankr. S.D. Cal.\",\n            \"cases_in_corpus\": 395,\n            \"years\": \"1979-2018\",\n            \"active\": true\n        },\n        {\n            \"id\": \"ilsb\",\n            \"short_name\": \"S.D. Illinois\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Illinois\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Ill.\",\n            \"bluebook\": \"Bankr. S.D. Ill.\",\n            \"cases_in_corpus\": 334,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"sdb\",\n            \"short_name\": \"D. South Dakota\",\n            \"full_name\": \"United States Bankruptcy Court, D. South Dakota\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. D.S.D.\",\n            \"bluebook\": \"Bankr. D.S.D.\",\n            \"cases_in_corpus\": 263,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"insb\",\n            \"short_name\": \"S.D. Indiana\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Indiana\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Ind.\",\n            \"bluebook\": \"Bankr. S.D. Ind.\",\n            \"cases_in_corpus\": 248,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"mssb\",\n            \"short_name\": \"S.D. Mississippi\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Mississippi\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Miss.\",\n            \"bluebook\": \"Bankr. S.D. Miss.\",\n            \"cases_in_corpus\": 235,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"alsb\",\n            \"short_name\": \"S.D. Alabama\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Alabama\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Ala.\",\n            \"bluebook\": \"Bankr. S.D. Ala.\",\n            \"cases_in_corpus\": 226,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        },\n        {\n            \"id\": \"iasb\",\n            \"short_name\": \"S.D. Iowa\",\n            \"full_name\": \"United States Bankruptcy Court, S.D. Iowa\",\n            \"jurisdiction\": \"FB\",\n            \"citation_string\": \"Bankr. S.D. Iowa\",\n            \"bluebook\": \"Bankr. S.D. Iowa\",\n            \"cases_in_corpus\": 173,\n            \"years\": \"1980-2026\",\n            \"active\": true\n        }\n    ],\n    \"tip\": \"Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\\\"fla*\\\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.\",\n    \"state_ranking\": \"Courts of West Virginia are listed first.\"\n}",
+   "json": {
+    "query": "Bankr. S.D.W. Va.",
+    "courts": [
+     {
+      "id": "wvsb",
+      "short_name": "S.D. West Virginia",
+      "full_name": "United States Bankruptcy Court, S.D. West Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D.W. Va.",
+      "bluebook": "Bankr. S.D. W. Va.",
+      "cases_in_corpus": 162,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "wvsd",
+      "short_name": "S.D. West Virginia",
+      "full_name": "District Court, S.D. West Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "S.D.W. Va",
+      "bluebook": "S.D. W. Va.",
+      "cases_in_corpus": 8584,
+      "years": "1902-2026",
+      "active": true
+     },
+     {
+      "id": "wvnb",
+      "short_name": "N.D. West Virginia",
+      "full_name": "United States Bankruptcy Court, N.D. West Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. N.D.W. Va.",
+      "bluebook": "Bankr. N.D. W. Va.",
+      "cases_in_corpus": 181,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "wvnd",
+      "short_name": "N.D. West Virginia",
+      "full_name": "District Court, N.D. West Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "N.D.W. Va.",
+      "bluebook": "N.D. W. Va.",
+      "cases_in_corpus": 3338,
+      "years": "1905-2026",
+      "active": true
+     },
+     {
+      "id": "wvad",
+      "short_name": "D. West Virginia",
+      "full_name": "District Court, D. West Virginia",
+      "jurisdiction": "FD",
+      "citation_string": "D. W.Va.",
+      "bluebook": "D. W. Va.",
+      "cases_in_corpus": 24,
+      "years": "1867-2013",
+      "active": true
+     },
+     {
+      "id": "wva",
+      "short_name": "West Virginia Supreme Court",
+      "full_name": "West Virginia Supreme Court",
+      "jurisdiction": "S",
+      "citation_string": "W. Va.",
+      "bluebook": "W. Va.",
+      "cases_in_corpus": 33035,
+      "years": "1864-2026",
+      "active": true
+     },
+     {
+      "id": "wvctcl",
+      "short_name": "West Virginia Court of Claims",
+      "full_name": "West Virginia Court of Claims",
+      "jurisdiction": "ST",
+      "citation_string": "W. Va. Ct. Cl.",
+      "bluebook": "W. Va. Ct. Cl.",
+      "cases_in_corpus": 5203,
+      "years": "1941-2011",
+      "active": true
+     },
+     {
+      "id": "wvactapp",
+      "short_name": "Int. Ct. of App. of W.Va.",
+      "full_name": "Intermediate Court of Appeals of West Virginia",
+      "jurisdiction": "SA",
+      "cases_in_corpus": 1441,
+      "years": "2022-2026",
+      "active": true
+     },
+     {
+      "id": "circtsdwv",
+      "short_name": "U.S. Circuit Court for the District of Southern West Virginia",
+      "full_name": "U.S. Circuit Court for the District of Southern West Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 0,
+      "active": false
+     },
+     {
+      "id": "circtdwv",
+      "short_name": "U.S. Circuit Court for the District of West Virginia",
+      "full_name": "U.S. Circuit Court for the District of West Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 97,
+      "years": "1853-1911",
+      "active": false
+     },
+     {
+      "id": "circtndwv",
+      "short_name": "U.S. Circuit Court for the District of Northern West Virginia",
+      "full_name": "U.S. Circuit Court for the District of Northern West Virginia",
+      "jurisdiction": "F",
+      "cases_in_corpus": 61,
+      "years": "1901-1911",
+      "active": false
+     },
+     {
+      "id": "nysb",
+      "short_name": "S.D. New York",
+      "full_name": "United States Bankruptcy Court, S.D. New York",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D.N.Y.",
+      "bluebook": "Bankr. S.D.N.Y.",
+      "cases_in_corpus": 4402,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "flsb",
+      "short_name": "S.D. Florida",
+      "full_name": "United States Bankruptcy Court, S.D. Florida.",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Florida",
+      "bluebook": "Bankr. S.D. Fla.",
+      "cases_in_corpus": 2538,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "ohsb",
+      "short_name": "S.D. Ohio",
+      "full_name": "United States Bankruptcy Court, S.D. Ohio",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Ohio",
+      "bluebook": "Bankr. S.D. Ohio",
+      "cases_in_corpus": 2156,
+      "years": "1979-2019",
+      "active": true
+     },
+     {
+      "id": "vaeb",
+      "short_name": "E.D. Virginia",
+      "full_name": "United States Bankruptcy Court, E.D. Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. E.D. Va.",
+      "bluebook": "Bankr. E.D. Va.",
+      "cases_in_corpus": 1477,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "txsb",
+      "short_name": "S.D. Texas",
+      "full_name": "United States Bankruptcy Court, S.D. Texas",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Tex.",
+      "bluebook": "Bankr. S.D. Tex.",
+      "cases_in_corpus": 1254,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "vawb",
+      "short_name": "W.D. Virginia",
+      "full_name": "United States Bankruptcy Court, W.D. Virginia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. W.D. Va.",
+      "bluebook": "Bankr. W.D. Va.",
+      "cases_in_corpus": 552,
+      "years": "1979-2026",
+      "active": true
+     },
+     {
+      "id": "gasb",
+      "short_name": "S.D. Georgia",
+      "full_name": "United States Bankruptcy Court, S.D. Georgia",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Ga.",
+      "bluebook": "Bankr. S.D. Ga.",
+      "cases_in_corpus": 519,
+      "years": "1984-2026",
+      "active": true
+     },
+     {
+      "id": "casb",
+      "short_name": "S.D. California",
+      "full_name": "United States Bankruptcy Court, S.D. California",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Cal.",
+      "bluebook": "Bankr. S.D. Cal.",
+      "cases_in_corpus": 395,
+      "years": "1979-2018",
+      "active": true
+     },
+     {
+      "id": "ilsb",
+      "short_name": "S.D. Illinois",
+      "full_name": "United States Bankruptcy Court, S.D. Illinois",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Ill.",
+      "bluebook": "Bankr. S.D. Ill.",
+      "cases_in_corpus": 334,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "sdb",
+      "short_name": "D. South Dakota",
+      "full_name": "United States Bankruptcy Court, D. South Dakota",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. D.S.D.",
+      "bluebook": "Bankr. D.S.D.",
+      "cases_in_corpus": 263,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "insb",
+      "short_name": "S.D. Indiana",
+      "full_name": "United States Bankruptcy Court, S.D. Indiana",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Ind.",
+      "bluebook": "Bankr. S.D. Ind.",
+      "cases_in_corpus": 248,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "mssb",
+      "short_name": "S.D. Mississippi",
+      "full_name": "United States Bankruptcy Court, S.D. Mississippi",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Miss.",
+      "bluebook": "Bankr. S.D. Miss.",
+      "cases_in_corpus": 235,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "alsb",
+      "short_name": "S.D. Alabama",
+      "full_name": "United States Bankruptcy Court, S.D. Alabama",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Ala.",
+      "bluebook": "Bankr. S.D. Ala.",
+      "cases_in_corpus": 226,
+      "years": "1980-2026",
+      "active": true
+     },
+     {
+      "id": "iasb",
+      "short_name": "S.D. Iowa",
+      "full_name": "United States Bankruptcy Court, S.D. Iowa",
+      "jurisdiction": "FB",
+      "citation_string": "Bankr. S.D. Iowa",
+      "bluebook": "Bankr. S.D. Iowa",
+      "cases_in_corpus": 173,
+      "years": "1980-2026",
+      "active": true
+     }
+    ],
+    "tip": "Use the id value as the court parameter of search_cases. A trailing * matches prefixes: court=\"fla*\" covers all Florida courts. Common ids: scotus, ca1..ca11, cadc, fla (FL Supreme), fladistctapp1..6 (FL DCAs), ga, gactapp.",
+    "state_ranking": "Courts of West Virginia are listed first."
+   }
+  }
+ ]
+}

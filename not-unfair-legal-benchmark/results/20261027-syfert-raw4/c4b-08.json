@@ -1,0 +1,54 @@
+{
+ "id": "c4b-08",
+ "class": "treatment",
+ "calls": [
+  {
+   "tool": "get_treatment",
+   "args": {
+    "citation": "96 F. App'x 654",
+    "compact": true,
+    "case_name": "Safeco Insurance v. Skinner"
+   },
+   "is_error": false,
+   "text": "{\"cluster_id\":164610,\"ambiguous_citation\":true,\"chosen_by\":\"case_name\",\"candidates\":[{\"cluster_id\":164610,\"case_name\":\"Safeco Insurance v. Skinner\",\"court\":\"Tenth Circuit\",\"date_filed\":\"2004-05-10\",\"bluebook\":\"Safeco Ins. v. Skinner, 96 F. App'x 654 (10th Cir. 2004)\",\"url\":\"https://syfert.com/federal/circuits/cases/96-f-appx-654/safeco-insurance-v-skinner\",\"chosen\":true,\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_text\"},{\"cluster_id\":164596,\"case_name\":\"Abbott v. Stewart\",\"court\":\"Tenth Circuit\",\"date_filed\":\"2004-05-03\",\"bluebook\":\"Abbott v. Stewart, 96 F. App'x 654 (10th Cir. 2004)\",\"url\":\"https://syfert.com/federal/circuits/cases/96-f-appx-654/abbott-v-stewart\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\"}],\"case_name\":\"Safeco Insurance v. Skinner\",\"bluebook\":\"Safeco Ins. v. Skinner, 96 F. App'x 654 (10th Cir. 2004)\",\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_text\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not binding precedent | cite: 96 F. App'x 654).\",\"url\":\"https://syfert.com/federal/circuits/cases/96-f-appx-654/safeco-insurance-v-skinner\",\"link_md\":\"[Safeco Ins. v. Skinner, 96 F. App'x 654 (10th Cir. 2004)](https://syfert.com/federal/circuits/cases/96-f-appx-654/safeco-insurance-v-skinner)\",\"note\":\"Citation matched 2 cases; using Safeco Insurance v. Skinner, the one named \\\"Safeco Insurance v. Skinner\\\".\",\"treatment\":null,\"meaning\":\"No treatment signals recorded for this case in Syfertize v4. Absence of a flag is not a guarantee of good law. It means no citing opinion used a treatment phrase we match.\"}",
+   "json": {
+    "cluster_id": 164610,
+    "ambiguous_citation": true,
+    "chosen_by": "case_name",
+    "candidates": [
+     {
+      "cluster_id": 164610,
+      "case_name": "Safeco Insurance v. Skinner",
+      "court": "Tenth Circuit",
+      "date_filed": "2004-05-10",
+      "bluebook": "Safeco Ins. v. Skinner, 96 F. App'x 654 (10th Cir. 2004)",
+      "url": "https://syfert.com/federal/circuits/cases/96-f-appx-654/safeco-insurance-v-skinner",
+      "chosen": true,
+      "precedential_status": "Unpublished",
+      "status_source": "inferred_text"
+     },
+     {
+      "cluster_id": 164596,
+      "case_name": "Abbott v. Stewart",
+      "court": "Tenth Circuit",
+      "date_filed": "2004-05-03",
+      "bluebook": "Abbott v. Stewart, 96 F. App'x 654 (10th Cir. 2004)",
+      "url": "https://syfert.com/federal/circuits/cases/96-f-appx-654/abbott-v-stewart",
+      "precedential_status": "Unpublished",
+      "status_source": "courtlistener"
+     }
+    ],
+    "case_name": "Safeco Insurance v. Skinner",
+    "bluebook": "Safeco Ins. v. Skinner, 96 F. App'x 654 (10th Cir. 2004)",
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_text",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not binding precedent | cite: 96 F. App'x 654).",
+    "url": "https://syfert.com/federal/circuits/cases/96-f-appx-654/safeco-insurance-v-skinner",
+    "link_md": "[Safeco Ins. v. Skinner, 96 F. App'x 654 (10th Cir. 2004)](https://syfert.com/federal/circuits/cases/96-f-appx-654/safeco-insurance-v-skinner)",
+    "note": "Citation matched 2 cases; using Safeco Insurance v. Skinner, the one named \"Safeco Insurance v. Skinner\".",
+    "treatment": null,
+    "meaning": "No treatment signals recorded for this case in Syfertize v4. Absence of a flag is not a guarantee of good law. It means no citing opinion used a treatment phrase we match."
+   }
+  }
+ ]
+}

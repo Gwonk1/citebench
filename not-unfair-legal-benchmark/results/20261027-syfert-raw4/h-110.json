@@ -1,0 +1,152 @@
+{
+ "id": "h-110",
+ "class": "history",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "110 S. Ct. 1128."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"supreme_court_orders\": 1\n    },\n    \"warnings\": [\n        \"1 Supreme Court reporter citation(s) point at an orders-page entry (a denial of certiorari or another summary order) or at a Supreme Court page the index files on a lower-court opinion (cites[].procedural): cite the opinion, with the order as subsequent history.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"110 S. Ct. 1128\",\n            \"verdict\": \"supreme_court_order\",\n            \"problem\": \"110 S. Ct. 1128 is a Supreme Court page the index files on a lower-court opinion, Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990): a Supreme Court page attached to a lower-court decision is the Court's later disposition of that case (about February 1990), an orders-page entry, such as an order denying certiorari (the page also holds orders in Caruso v. City of New York; Martorano v. United States). The index holds no record of this order itself, so its terms are not checked. Cite the opinion, Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990), and give the Supreme Court page as its subsequent history in the words of the order (for a denial: \\\"cert. denied, 110 S. Ct. 1128 (1990)\\\").\",\n            \"suggested\": \"Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990)\",\n            \"procedural\": {\n                \"kind\": \"supreme_court_disposition\",\n                \"record\": \"lower_court_opinion\",\n                \"order_date\": \"1990-02-20\",\n                \"of\": {\n                    \"cluster_id\": 1218410,\n                    \"case_name\": \"Oxley v. City of Tulsa ex rel. Tulsa Airport Auth.\",\n                    \"cite_as\": \"Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990)\"\n                }\n            },\n            \"case\": {\n                \"cluster_id\": 1218410,\n                \"case_name\": \"Oxley v. City of Tulsa Ex Rel. Tulsa Airport Authority\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Apply replace_with verbatim; re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"110 S. Ct. 1128\",\n            \"volume\": \"110\",\n            \"reporter\": \"S. Ct.\",\n            \"page\": \"1128\",\n            \"pin\": null,\n            \"cluster_id\": 1218410,\n            \"case\": {\n                \"case_name\": \"Oxley v. City of Tulsa Ex Rel. Tulsa Airport Authority\",\n                \"case_name_short\": \"Oxley\",\n                \"date_filed\": \"1990-07-03\",\n                \"court_id\": \"okla\",\n                \"docket_number\": \"67016\",\n                \"citation_count\": 28,\n                \"court_label\": \"\",\n                \"court_label_record\": \"Okla.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 14.968,\n                \"total_events\": 71,\n                \"distinct_courts\": 8,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Vaughn v. City of Muskogee\",\n                \"top_pos_court\": \"oklacivapp\",\n                \"top_pos_date\": \"2015-02-10\",\n                \"top_quote_norm\": null\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": null,\n                \"verdict\": \"no_claim\",\n                \"resolved_name\": \"Oxley v. City of Tulsa Ex Rel. Tulsa Airport Authority\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/oklahoma/cases/794-p-2d-742/oxley-v-city-of-tulsa-ex-rel-tulsa-airport-authority\",\n            \"link_md\": \"[Oxley v. City of Tulsa Ex Rel. Tulsa Airport Authority](https://syfert.com/oklahoma/cases/794-p-2d-742/oxley-v-city-of-tulsa-ex-rel-tulsa-airport-authority)\",\n            \"procedural\": {\n                \"kind\": \"supreme_court_disposition\",\n                \"record\": \"lower_court_opinion\",\n                \"order_date\": \"1990-02-20\",\n                \"of\": {\n                    \"cluster_id\": 1218410,\n                    \"case_name\": \"Oxley v. City of Tulsa ex rel. Tulsa Airport Auth.\",\n                    \"cite_as\": \"Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990)\"\n                },\n                \"page\": \"110 S. Ct. 1128\",\n                \"page_records\": 3,\n                \"page_orders\": [\n                    {\n                        \"cluster_id\": 9094822,\n                        \"case_name\": \"Caruso v. City of New York\",\n                        \"date_filed\": \"1990-02-20\"\n                    },\n                    {\n                        \"cluster_id\": 9094823,\n                        \"case_name\": \"Martorano v. United States\",\n                        \"date_filed\": \"1990-02-20\"\n                    }\n                ],\n                \"page_order_kind\": \"cert_denied\",\n                \"filed_under_court\": \"okla\",\n                \"advice\": \"110 S. Ct. 1128 is a Supreme Court page the index files on a lower-court opinion, Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990): a Supreme Court page attached to a lower-court decision is the Court's later disposition of that case (about February 1990), an orders-page entry, such as an order denying certiorari (the page also holds orders in Caruso v. City of New York; Martorano v. United States). The index holds no record of this order itself, so its terms are not checked. Cite the opinion, Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990), and give the Supreme Court page as its subsequent history in the words of the order (for a denial: \\\"cert. denied, 110 S. Ct. 1128 (1990)\\\").\",\n                \"suggested\": \"Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990)\",\n                \"cited_as\": \"citation\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "supreme_court_orders": 1
+    },
+    "warnings": [
+     "1 Supreme Court reporter citation(s) point at an orders-page entry (a denial of certiorari or another summary order) or at a Supreme Court page the index files on a lower-court opinion (cites[].procedural): cite the opinion, with the order as subsequent history."
+    ],
+    "corrections": [
+     {
+      "raw": "110 S. Ct. 1128",
+      "verdict": "supreme_court_order",
+      "problem": "110 S. Ct. 1128 is a Supreme Court page the index files on a lower-court opinion, Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990): a Supreme Court page attached to a lower-court decision is the Court's later disposition of that case (about February 1990), an orders-page entry, such as an order denying certiorari (the page also holds orders in Caruso v. City of New York; Martorano v. United States). The index holds no record of this order itself, so its terms are not checked. Cite the opinion, Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990), and give the Supreme Court page as its subsequent history in the words of the order (for a denial: \"cert. denied, 110 S. Ct. 1128 (1990)\").",
+      "suggested": "Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990)",
+      "procedural": {
+       "kind": "supreme_court_disposition",
+       "record": "lower_court_opinion",
+       "order_date": "1990-02-20",
+       "of": {
+        "cluster_id": 1218410,
+        "case_name": "Oxley v. City of Tulsa ex rel. Tulsa Airport Auth.",
+        "cite_as": "Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990)"
+       }
+      },
+      "case": {
+       "cluster_id": 1218410,
+       "case_name": "Oxley v. City of Tulsa Ex Rel. Tulsa Airport Authority"
+      }
+     }
+    ],
+    "corrections_note": "Apply replace_with verbatim; re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "110 S. Ct. 1128",
+      "volume": "110",
+      "reporter": "S. Ct.",
+      "page": "1128",
+      "pin": null,
+      "cluster_id": 1218410,
+      "case": {
+       "case_name": "Oxley v. City of Tulsa Ex Rel. Tulsa Airport Authority",
+       "case_name_short": "Oxley",
+       "date_filed": "1990-07-03",
+       "court_id": "okla",
+       "docket_number": "67016",
+       "citation_count": 28,
+       "court_label": "",
+       "court_label_record": "Okla."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 14.968,
+       "total_events": 71,
+       "distinct_courts": 8,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Vaughn v. City of Muskogee",
+       "top_pos_court": "oklacivapp",
+       "top_pos_date": "2015-02-10",
+       "top_quote_norm": null
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": null,
+       "verdict": "no_claim",
+       "resolved_name": "Oxley v. City of Tulsa Ex Rel. Tulsa Airport Authority"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/oklahoma/cases/794-p-2d-742/oxley-v-city-of-tulsa-ex-rel-tulsa-airport-authority",
+      "link_md": "[Oxley v. City of Tulsa Ex Rel. Tulsa Airport Authority](https://syfert.com/oklahoma/cases/794-p-2d-742/oxley-v-city-of-tulsa-ex-rel-tulsa-airport-authority)",
+      "procedural": {
+       "kind": "supreme_court_disposition",
+       "record": "lower_court_opinion",
+       "order_date": "1990-02-20",
+       "of": {
+        "cluster_id": 1218410,
+        "case_name": "Oxley v. City of Tulsa ex rel. Tulsa Airport Auth.",
+        "cite_as": "Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990)"
+       },
+       "page": "110 S. Ct. 1128",
+       "page_records": 3,
+       "page_orders": [
+        {
+         "cluster_id": 9094822,
+         "case_name": "Caruso v. City of New York",
+         "date_filed": "1990-02-20"
+        },
+        {
+         "cluster_id": 9094823,
+         "case_name": "Martorano v. United States",
+         "date_filed": "1990-02-20"
+        }
+       ],
+       "page_order_kind": "cert_denied",
+       "filed_under_court": "okla",
+       "advice": "110 S. Ct. 1128 is a Supreme Court page the index files on a lower-court opinion, Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990): a Supreme Court page attached to a lower-court decision is the Court's later disposition of that case (about February 1990), an orders-page entry, such as an order denying certiorari (the page also holds orders in Caruso v. City of New York; Martorano v. United States). The index holds no record of this order itself, so its terms are not checked. Cite the opinion, Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990), and give the Supreme Court page as its subsequent history in the words of the order (for a denial: \"cert. denied, 110 S. Ct. 1128 (1990)\").",
+       "suggested": "Oxley v. City of Tulsa ex rel. Tulsa Airport Auth., 794 P.2d 742 (Okla. 1990)",
+       "cited_as": "citation"
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}
