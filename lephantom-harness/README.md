@@ -1,6 +1,8 @@
-# LePhantomCite harness (Syfert's runs, reusable for any MCP)
+# LePhantomCite harness: run any citation checker through the same arms, prompts and scorer
 
-This is the harness behind the LePhantomCite numbers Syfert has reported (see `results/results_table.md`). It runs the
+This is the harness behind the LePhantomCite numbers Syfert has reported (see `results/results_table.md`), published so that
+anyone comparing legal citation checkers, an MCP server, a vendor tool or a model alone, can run the same benchmark the same way and
+get numbers that are comparable with ours and with each other. It runs the
 benchmark "Who Checks the Citations? Benchmarking Legal Hallucination Detection" (Liu, Stammbach & Henderson, arXiv 2606.21155;
 dataset `ai-law-society-lab/Legal_Phantom_Citation`) on three kinds of arm and scores every arm with the same matcher, so a
 comparison across tools is like for like. Nothing in it is specific to Syfert except `run_syfert.py` (the no-model tool-alone arm)
@@ -25,7 +27,7 @@ and the default tool policy, which `--mcp-profile` replaces.
   seed 20261016), per-type recall, and the "repo-rule" variant that treats optional spans as ordinary gold. `make_report.py` renders the table.
 - `profiles/` — MCP profiles. `syfert.json` reproduces the default arm; `example_other_mcp.json` is the template for another server.
 
-## Running another MCP through the same harness
+## Running your own checker through the same harness
 1. Install Claude Code and sign in (the harness scrubs API keys from the subprocess environment; it runs on the subscription).
 2. Write a Claude Code MCP config holding **only** your server, e.g. `profiles/yourserver_mcp.json`:
    `{"mcpServers":{"yourserver":{"type":"http","url":"https://.../mcp","headers":{"Authorization":"Bearer ..."}}}}`. Keep it out of git
@@ -58,6 +60,11 @@ including the Claude Code Opus 5.5 + Syfert MCP arm (F1 79.2 under v1.0 labels).
 - The paper's "reasoning field" sentence is dropped from the user prompt (it made Opus refuse); the rest of the prompt is verbatim.
 - CIs are percentile bootstrap; the paper does not state its method.
 - Cost figures from Claude Code are nominal (subscription).
+
+## Publishing a comparison
+Please do. Open a pull request adding your `profiles/<name>.json`, your policy text and your `results/` rows (or send the link), state
+the label version, model, Claude Code version and date, and run every arm you compare on the same machine in the same window. We
+will list independent runs here with attribution.
 
 ## Licence
 Code: MIT (this repository's LICENSE). `labels_v1.1/` is the authors' dataset under CC-BY-4.0 — cite the paper.
