@@ -12,6 +12,10 @@ and the default tool policy, which `--mcp-profile` replaces.
 - `labels_v1.1/` — the dataset's **v1.1 test labels** (`eval.jsonl`, 390 excerpts) and `source_brief_errors.jsonl`, the 42
   human typos in the source briefs that the authors accepted as label fixes in October 2026 (CC-BY-4.0; the dataset card is `README.md`
   in that folder). Score against v1.1 and say so; v1.0 scores are not comparable on the misquote and pincite types.
+  `labels_v1.1/source_brief_candidates/` holds the rest of what Syfert found in the source briefs and the dataset does not label:
+  482 rows across 7 lists (verified train quotes and citations, hand-checked model flags, model-judged content leads, and three
+  blind test-split candidate lists nobody here has read) with their review status; see its README before treating any arm's
+  "false positives" as errors.
 - `prep_data.py` — reads `labels_v1.1/eval.jsonl`, writes `data/test.jsonl` with stable ids `t000..t389` (file order). The id
   lists `data/subset130.txt` (a stratified third of the test set), `data/pilot20.txt` and `data/train130.txt` are shipped fixed.
 - `lp_common.py` — the paper's prompts verbatim, the matching rule re-implemented from the paper and its public scorer

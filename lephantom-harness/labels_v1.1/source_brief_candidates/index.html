@@ -1,0 +1,279 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Source-brief misquotes</title>
+<style>:root{--bg:#fff;--fg:#1a1a1a;--mut:#666;--line:#ddd;--hl:#fff3cd}@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#111;--fg:#eee;--mut:#aaa;--line:#333;--hl:#4a3f12}}:root[data-theme=dark]{--bg:#111;--fg:#eee;--mut:#aaa;--line:#333;--hl:#4a3f12}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,sans-serif;max-width:980px;margin:0 auto;padding:16px}h1{font-size:1.4em}h2{font-size:1.1em;margin-top:2em}.row{border-top:1px solid var(--line);padding:12px 0}.q{margin:4px 0 4px 1em}.lab{color:var(--mut);font-size:.85em;text-transform:uppercase;letter-spacing:.04em}mark{background:var(--hl);color:inherit}.meta{color:var(--mut);font-size:.9em}table{border-collapse:collapse;margin:1em 0}td,th{border:1px solid var(--line);padding:4px 10px;text-align:left}</style></head><body>
+<h1>Unmarked quotation errors in the source briefs of LePhantomCite</h1>
+<p class="meta">LePhantomCite is the benchmark in <a href="https://arxiv.org/abs/2606.21155">“Who Checks the Citations? Benchmarking Legal Hallucination Detection”</a> (Liu, Stammbach &amp; Henderson, Princeton, 2026; dataset <a href="https://huggingface.co/datasets/ai-law-society-lab/Legal_Phantom_Citation">ai-law-society-lab/Legal_Phantom_Citation</a>). It plants citation errors into excerpts of real filed briefs and scores a system on the planted errors. The source briefs are treated as clean. We found, while running Syfert’s deterministic <code>check_brief</code> tool over the 910-excerpt train half (the 390-excerpt test half was not read), that the briefs themselves misquote the cases they cite in the rows below. Each quotation is attributed by the brief to the cited case, differs from the opinion without brackets or ellipsis, and sits in no gold span, so a checker that reports it is scored as a false positive. External check: CourtListener v4 search with the phrase restricted to the cited cluster, run with the brief’s wording and with the opinion’s wording (expected 0 and 1 hits). Opinion text as held by syfert.com (CourtListener / Caselaw Access Project copy). Three rows were confirmed by hand; two quotations not found in the opinion at all are listed but not yet reviewed. Prepared 2026-10-19 by Graham Syfert, <a href="https://www.syfert.com/">syfert.com</a>; corrections welcome (syfert@gmail.com). A companion page lists <a href="/lephantomcite/test.html">unreviewed candidates from the test split</a>, generated without anyone here reading them, and a <a href="/lephantomcite/citations.html">train-half list of citation and pincite candidates</a> with its <a href="/lephantomcite/citations-test.html">unreviewed test-split counterpart</a>, and a partial, model-judged list of <a href="/lephantomcite/content.html">content-misrepresentation candidates</a>. Finally, the sentences a frontier model with these tools flagged that the gold does not mark: <a href="/lephantomcite/model.html">train subset, hand-reviewed</a> and <a href="/lephantomcite/model-test.html">test split, unreviewed</a>.</p>
+<p class="meta" style="border:1px solid var(--line);padding:8px 12px"><b>Update, 19 Oct 2026:</b> the authors reviewed this list the same day and released dataset <a href="https://huggingface.co/datasets/ai-law-society-lab/Legal_Phantom_Citation">v1.1</a>: 39 of these quotations are now labelled <code>optional</code> (neither rewarded nor penalized), r076 and r184 were added as scored misquotes, r263 was corrected as an OCR error in the excerpt text, and r160 was not adopted. Every change is listed in the dataset’s <code>updates/source_brief_errors.jsonl</code>. The test half, which they had already audited, carried 22 optional spans since v1.0.</p>
+<table><tr><th>rows</th><td>43</td></tr><tr><th>word-level alterations</th><td>41</td></tr><tr><th>quotation not in the opinion</th><td>2</td></tr><tr><th>38 on CourtListener + 3 by hand = 41</td></tr></table>
+<h2>Word-level alterations</h2>
+<div class="row"><div><b>r015</b> — Better Government Association v. Department of State National Wildlife Federation, 780 F.2d 86 <span class="meta">(star page *93)</span> · <a href="https://www.courtlistener.com/opinion/462581/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“heavily and frequently on FOIA and its fee waiver <mark>provisions</mark> to conduct the investigations that are essential to the performance of certain of [its] primary institutional activities—publicizing governmental choices and highlighting abuses that otherwise might go undisputed and thus unchallenged.”</div>
+<div class="lab">opinion</div><div class="q">“As noted above, both BGA and NWF rely heavily and frequently on FOIA and its fee waiver <mark>provision</mark> to conduct the investigations that are essential to the performance of certain of their primary institutional activities — publicizing governmental choices and highlighting <mark>possible</mark> abuses that otherwise might go undisputed and thus unchallenged.”</div>
+<div class="meta">diff: brief «provisions» → opinion «provision»; brief «∅» → opinion «possible»</div>
+<div class="meta">CL phrase: “and its fee waiver provisions to conduct the investigations” → 0 · “and its fee waiver provision to conduct the investigations” → 1</div>
+<div class="meta">CL phrase: “performance of certain of its primary institutional activities—publicizing governmental” → 0 · “performance of certain of their primary institutional activities —” → 1</div>
+</div>
+<div class="row"><div><b>r021</b> — Casale v. Kelly, 257 F.R.D. 396 <span class="meta">(star page *411)</span> · <a href="https://www.courtlistener.com/opinion/8771629/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“does not demand denial of class certification.”</div>
+<div class="lab">opinion</div><div class="q">“does not demand <mark>the</mark> denial of class certification.”</div>
+<div class="meta">diff: brief «∅» → opinion «the»</div>
+<div class="meta">CL phrase: “does not demand denial of class certification.” → 0 · “does not demand the denial of class certification.” → 1</div>
+</div>
+<div class="row"><div><b>r028</b> — BNSF Railway Co. v. Surface Transportation Board, 453 F.3d 473 <span class="meta">(star page *483)</span> · <a href="https://www.courtlistener.com/opinion/186699/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“the principle that as the density of traffic increases over a stretch of rail, average costs diminish, <mark>at least initially</mark>.”</div>
+<div class="lab">opinion</div><div class="q">“BNSF criticized the MSP approach for its failure to take into account economies of density, that is, the principle that as the density of traffic increases over a stretch of rail, average costs diminish, <mark>see</mark> Coal Rate Guidelines, 11.C.C.2d at 526, at least initially.”</div>
+<div class="meta">diff: brief «at least initially» → opinion «see»</div>
+<div class="meta">CL phrase: “rail, average costs diminish, at least initially.” → 0 · “rail, average costs diminish, see Coal Rate Guidelines, 11.C.C.2d at 526, at least initially.” → 1</div>
+</div>
+<div class="row"><div><b>r055</b> — Reed Elsevier, Inc. v. Muchnick, 559 U.S. 154 <span class="meta">(star page *157)</span> · <a href="https://www.courtlistener.com/opinion/1731/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener (2nd diff is an OCR apostrophe in our copy, not a brief change)</span></div>
+<div class="lab">brief</div><div class="q">“no civil infringement of the copyright in any United States work shall be instituted until preregistration or registration of the copyright claim has been made”</div>
+<div class="lab">opinion</div><div class="q">“Section 411(a) provides, inter alia and with certain exceptions, that “no civil <mark>action for</mark> infringement of the copyright in any United States work shall be instituted until preregistration or registration of the copyright claim’has been made in accordance with this title.””</div>
+<div class="meta">diff: brief «∅» → opinion «action for»</div>
+<div class="meta">CL phrase: “no civil infringement of the copyright” → 0 · “exceptions, that no civil action for infringement of the copyright” → 1</div>
+<div class="meta">CL phrase: “registration of the copyright claim has been made” → 1 · “registration of the copyright claim&#x27;has been made in accordance” → 1</div>
+</div>
+<div class="row"><div><b>r055</b> — Irwin v. Department of Veterans Affairs, 498 U.S. 89 <span class="meta">(star page *94)</span> · <a href="https://www.courtlistener.com/opinion/112510/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“within thirty days of receipt of <mark>official</mark> notice of final action … an employee … may file a civil action,”</div>
+<div class="lab">opinion</div><div class="q">“Title 42 U. S. C. §2000e~16(c) provides in relevant part: “Within thirty days of receipt of notice of final action”</div>
+<div class="meta">diff: brief «official» → opinion «∅»</div>
+<div class="meta">CL phrase: “days of receipt of official notice of final action” → 0 · “days of receipt of notice of final action” → 1</div>
+<div class="meta">CL phrase: “notice of final action an employee may file a civil action,” → 0 · “notice of final action” → 1</div>
+</div>
+<div class="row"><div><b>r061</b> — In Re Coram Healthcare Corp., 315 B.R. 321 <span class="meta">(star page *350)</span> · <a href="https://www.courtlistener.com/opinion/1551599/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“a proper determination of what claims are ‘substantially similar’ focuses on the legal attributes of the <mark>claim</mark>, not who holds them”</div>
+<div class="lab">opinion</div><div class="q">“However, a proper determination of what <mark>claims</mark> are “substantially similar” focuses on the legal attributes of the claims, not who holds them.”</div>
+<div class="meta">diff: brief «claim» → opinion «claims»</div>
+<div class="meta">CL phrase: “legal attributes of the claim, not who holds them” → 0 · “legal attributes of the claims, not who holds them.” → 1</div>
+</div>
+<div class="row"><div><b>r075</b> — Blaine P. Thompson v. United States Department of Labor, 885 F.2d 551 <span class="meta">(star page *556)</span> · <a href="https://www.courtlistener.com/opinion/529367/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“were before the Secretary at the time of <mark>her</mark> decision.”</div>
+<div class="lab">opinion</div><div class="q">“Consequently, <mark>the</mark> critical inquiry is whether these letters were before the Secretary at the time of the decision.”</div>
+<div class="meta">diff: brief «her» → opinion «the»</div>
+<div class="meta">CL phrase: “at the time of her decision.” → 0 · “at the time of the decision.” → 1</div>
+</div>
+<div class="row"><div><b>r076</b> — Coleman v. Holecek, 542 F.2d 532 <span class="meta">(star page *537)</span> · <a href="https://www.courtlistener.com/opinion/8912015/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“The duty to consider the interests of the insured arises not because there has been a settlement offer from the plaintiff but because there has been a claim for damages in excess of the policy limits. <mark>The creation</mark> of the <mark>conflict by</mark> the <mark>excess claim</mark> means that the claim should be evaluated by the insurer without looking to the policy limits and as though it alone would be responsible for the payment of any judgment rendered on the claim.”</div>
+<div class="lab">opinion</div><div class="q">“The duty to consider the interests of the insured arises not because there has been a settlement offer from the plaintiff but because there has been a claim for damages in excess of the policy limits. <mark>This claim creates a conflict</mark> of <mark>interest between</mark> the <mark>insured and</mark> the carrier which requires the carrier to give equal consideration to the interests of the insured. Bollinger v. Nuss, supra. This means that “the claim should be evaluated by the insurer without looking to the policy limits and as though it alone would be responsible for the payment of any judgment rendered on the claim.””</div>
+<div class="meta">diff: brief «the creation» → opinion «this claim creates a conflict»; brief «∅» → opinion «interest between»; brief «conflict by» → opinion «insured and»; brief «excess claim» → opinion «carrier which requires the carrier to give equal consideration to the interests of the insured bollinger v nuss supra this»</div>
+<div class="meta">CL phrase: “of the policy limits. The creation of the” → 0 · “of the policy limits. This claim creates a conflict of interest between the insured and the” → 1</div>
+<div class="meta">CL phrase: “the policy limits. The creation of the conflict by” → 0 · “of interest between the insured and the carrier which requires the carrier to give equal consideration to the interests of the insured. Bollinger” → 1</div>
+</div>
+<div class="row"><div><b>r078</b> — Heckler v. Chaney, 470 U.S. 821 <span class="meta">(star page *831)</span> · <a href="https://www.courtlistener.com/opinion/111383/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“committed to <mark>the</mark> agency’s absolute discretion”</div>
+<div class="lab">opinion</div><div class="q">“This Court has recognized on several occasions over many years that <mark>an</mark> agency’s decision not to prosecute or enforce, whether through civil or criminal process, is a decision generally committed to an agency’s absolute discretion.”</div>
+<div class="meta">diff: brief «the» → opinion «an»</div>
+<div class="meta">CL phrase: “committed to the agency&#x27;s absolute discretion” → 0 · “decision generally committed to an agency&#x27;s absolute discretion.” → 1</div>
+</div>
+<div class="row"><div><b>r078</b> — Heckler v. Chaney, 470 U.S. 821 <span class="meta">(star page *831)</span> · <a href="https://www.courtlistener.com/opinion/111383/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“agency must not only assess whether a violation has occurred, but whether agency resources are best spent on this violation or another, whether the agency is likely to succeed if it acts, whether the particular enforcement action best fits the agency’s overall policies, and indeed, whether the agency has enough resources to undertake the action at all,”</div>
+<div class="lab">opinion</div><div class="q">“Thus, the agency must not only assess whether a violation has occurred, but whether agency resources are best spent on this violation or another, whether the agency is likely to succeed if it acts, whether the particular enforcement action <mark>requested</mark> best fits the agency’s overall policies, and, indeed, whether the agency has enough resources to undertake the action at all.”</div>
+<div class="meta">diff: brief «∅» → opinion «requested»</div>
+<div class="meta">CL phrase: “the particular enforcement action best fits the agency&#x27;s” → 0 · “the particular enforcement action requested best fits the agency&#x27;s” → 1</div>
+</div>
+<div class="row"><div><b>r109</b> — Arnold B. ELKIND v. LIGGETT &amp; MYERS, INC., 635 F.2d 156 <span class="meta">(star page *166)</span> · <a href="https://www.courtlistener.com/opinion/384555/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“<mark>not</mark> reasonably certain to have a substantial effect on the market price”</div>
+<div class="lab">opinion</div><div class="q">“Texas Gulf Sulphur that the disclosed information must <mark>be</mark> “reasonably certain to have a substantial effect on the market price of the security.””</div>
+<div class="meta">diff: brief «not» → opinion «be»</div>
+<div class="meta">CL phrase: “not reasonably certain to have” → 0 · “Texas Gulf Sulphur that the disclosed information must be reasonably certain to have” → 1</div>
+</div>
+<div class="row"><div><b>r122</b> — Bostic v. Ohio River Co. (Ohio DiVision) Basic Pension Plan, 517 F. Supp. 627 <span class="meta">(star page *636)</span> · <a href="https://www.courtlistener.com/opinion/2387009/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“the place where a cause of action for breach of contract arises is generally – almost universally – the place where the contract is <mark>performed</mark>.”</div>
+<div class="lab">opinion</div><div class="q">“It appears that the majority view on the subject of “where the breach took place” in contract actions is as follows: [T]he place where a cause of action for breach of contract arises is generally — almost universally — the place where the contract is <mark>to</mark> be performed.”</div>
+<div class="meta">diff: brief «performed» → opinion «to»</div>
+<div class="meta">CL phrase: “where the contract is performed.” → 0 · “where the contract is to be performed.” → 1</div>
+</div>
+<div class="row"><div><b>r131</b> — McKoy v. North Carolina, 494 U.S. 433 <span class="meta">(star page *452)</span> · <a href="https://www.courtlistener.com/opinion/112388/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“means more than a conclusory agreement that the defendant has violated the statute in question; there is a requirement of substantial agreement as to the <mark>principle</mark> factual elements underlying <mark>the specific</mark> offense.”</div>
+<div class="lab">opinion</div><div class="q">“In federal criminal prosecutions, where a unanimous verdict is required, the Courts of Appeals are in general agreement that “[ujnanimity . . . means more than a conclusory agreement that the defendant has violated the statute in question; there is a requirement of substantial agreement as to the <mark>principal</mark> factual elements underlying <mark>a specified</mark> offense.””</div>
+<div class="meta">diff: brief «principle» → opinion «principal»; brief «the specific» → opinion «a specified»</div>
+<div class="meta">CL phrase: “agreement as to the principle factual elements underlying the” → 0 · “agreement as to the principal factual elements underlying a” → 1</div>
+<div class="meta">CL phrase: “principle factual elements underlying the specific offense.” → 0 · “principal factual elements underlying a specified offense.” → 1</div>
+</div>
+<div class="row"><div><b>r157</b> — In Re Windsor On The River Associates, Ltd., 7 F.3d 127 · <a href="https://www.courtlistener.com/opinion/654678/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“[F]or <mark>the</mark> purposes of 11 U.S.C. 1129(a)(10), a claim is not impaired if the alteration of rights in question arises solely from the debtor’s exercise of discretion.”</div>
+<div class="lab">opinion</div><div class="q">“Accordingly, we hold that, for purposes of 11 U.S.C. § 1129(a)(10), a claim is not impaired if the alteration of rights in question arises solely from the debtor&#x27;s exercise of discretion.”</div>
+<div class="meta">diff: brief «the» → opinion «∅»</div>
+<div class="meta">CL phrase: “For the purposes of 11 U.S.C.” → 0 · “we hold that, for purposes of 11 U.S.C.” → 1</div>
+<div class="meta">CL phrase: “purposes of 11 U.S.C. 1129a10, a claim is” → 0 · “purposes of 11 U.S.C. § 1129a10, a claim is” → 0</div>
+</div>
+<div class="row"><div><b>r160</b> — KSR International Co. v. Teleflex Inc., 550 U.S. 398 <span class="meta">(star page *418)</span> · <a href="https://www.courtlistener.com/opinion/145737/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“need not seek out precise teachings directed to the challenged claim’s specific subject matter, for a court can <mark>consider</mark> the inferences and creative steps a person of ordinary skill in the art would employ.”</div>
+<div class="lab">opinion</div><div class="q">“As our precedents make clear, however, the analysis need not seek out precise teachings directed to the specific subject matter <mark>of the challenged claim</mark>, for a court can <mark>take account of</mark> the inferences and creative steps <mark>that</mark> a person of ordinary skill in the art would employ.”</div>
+<div class="meta">diff: brief «challenged claim s» → opinion «∅»; brief «∅» → opinion «of the challenged claim»; brief «consider» → opinion «take account of»; brief «∅» → opinion «that»</div>
+<div class="meta">CL phrase: “teachings directed to the challenged claim&#x27;s specific subject matter, for” → 0 · “teachings directed to the specific subject matter of” → 1</div>
+<div class="meta">CL phrase: “claim&#x27;s specific subject matter, for a court can” → 0 · “the specific subject matter of the challenged claim, for a court can” → 1</div>
+</div>
+<div class="row"><div><b>r185</b> — Murray v. State Mutual Life Insurance, 48 A. 800 <span class="meta">(star page *527)</span> · <a href="https://www.courtlistener.com/opinion/4108515/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“if the time fixed is such that the information would show that the fraud had been perpetrated could have been, <mark>bar</mark> the exercise of ordinary diligence, obtained”</div>
+<div class="lab">opinion</div><div class="q">“if the time fixed is such that the information <mark>which</mark> would show that the fraud had been perpetrated could have been, <mark>by</mark> the exercise of ordinary diligence, obtained, then the parties are bound by their contract as to time, and, after the lapse of that time, fraud is no longer a defence.”</div>
+<div class="meta">diff: brief «∅» → opinion «which»; brief «bar» → opinion «by»</div>
+<div class="meta">CL phrase: “such that the information would show that the” → 0 · “such that the information which would show that the” → 1</div>
+<div class="meta">CL phrase: “perpetrated could have been, bar the exercise of ordinary” → 0 · “perpetrated could have been, by the exercise of ordinary” → 1</div>
+</div>
+<div class="row"><div><b>r215</b> — Young v. Higbee Co., 324 U.S. 204 <span class="meta">(star page *210)</span> · <a href="https://www.courtlistener.com/opinion/104093/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“historically one of the prime purposes of bankruptcy law has been to bring about a ratable distribution among creditors of a bankrupt’s assets, to protect the creditors from one another”</div>
+<div class="lab">opinion</div><div class="q">“But, historically one of <mark>the</mark> prime purposes of the bankruptcy law has been to bring about a ratable distribution among creditors of a bankrupt’s assets; to protect the creditors from one another.”</div>
+<div class="meta">diff: brief «∅» → opinion «the»</div>
+<div class="meta">CL phrase: “the prime purposes of bankruptcy law has been” → 0 · “the prime purposes of the bankruptcy law has been” → 1</div>
+</div>
+<div class="row"><div><b>r238</b> — Ashcroft v. Iqbal, 129 S. Ct. 1937 <span class="meta">(star page *678)</span> · <a href="https://www.courtlistener.com/opinion/145875/x/">CourtListener</a> · <span class="meta">confirmed by hand against the opinion (Graham Syfert, 2026-10-19)</span></div>
+<div class="lab">brief</div><div class="q">“suffice if it tenders ‘naked assertion[s]’ devoid of <mark>any</mark> ‘further factual enhancement. ’”</div>
+<div class="lab">opinion</div><div class="q">“Nor does a complaint suffice if it tenders “naked assertion[s]” devoid of “further factual enhancement.””</div>
+<div class="meta">diff: brief «any» → opinion «∅»</div>
+<div class="meta">CL phrase: “&#x27;naked assertions&#x27; devoid of any &#x27;further factual enhancement. &#x27;” → 0 · “naked assertions devoid of further factual enhancement.” → 0</div>
+</div>
+<div class="row"><div><b>r255</b> — Mattel, Inc. v. MGA Entertainment, Inc., 616 F.3d 904 · <a href="https://www.courtlistener.com/opinion/177634/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“complete young, hip fashion dolls with exaggerated features.”</div>
+<div class="lab">opinion</div><div class="q">“Unlike the limited range of expression for the sculpt, there’s a wide range of expression for complete young, hip <mark>female</mark> fashion dolls with exaggerated features.”</div>
+<div class="meta">diff: brief «∅» → opinion «female»</div>
+<div class="meta">CL phrase: “complete young, hip fashion dolls with exaggerated” → 0 · “for complete young, hip female fashion dolls with exaggerated” → 1</div>
+</div>
+<div class="row"><div><b>r263</b> — Farmer v. Brennan, 511 U.S. 825 <span class="meta">(star page *847)</span> · <a href="https://www.courtlistener.com/opinion/1087956/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“<mark>is aware</mark> that [a confined individual] <mark>confronts</mark> a <mark>significant</mark> risk of serious harm and <mark>ignores</mark> that risk by failing to take <mark>appropriate</mark> measures to <mark>reduce</mark> it.”</div>
+<div class="lab">opinion</div><div class="q">“Accordingly, we reject petitioner’s arguments and hold that a prison official may be held liable under the Eighth Amendment for denying humane conditions of confinement only if <mark>he knows</mark> that inmates <mark>face</mark> a <mark>substantial</mark> risk of serious harm and <mark>disregards</mark> that risk by failing to take <mark>reasonable</mark> measures to <mark>abate</mark> it.”</div>
+<div class="meta">diff: brief «is aware» → opinion «he knows»; brief «confronts» → opinion «face»; brief «significant» → opinion «substantial»; brief «ignores» → opinion «disregards»; brief «appropriate» → opinion «reasonable»; brief «reduce» → opinion «abate»</div>
+<div class="meta">CL phrase: “is aware that a confined individual” → 0 · “Accordingly, we reject petitioner&#x27;s arguments and hold that a prison official” → 1</div>
+<div class="meta">CL phrase: “is aware that a confined individual confronts a significant risk of” → 0 · “and hold that a prison official may be held liable under the Eighth Amendment for denying humane conditions of confinement only if he knows that inmates face a substantial risk of” → 1</div>
+</div>
+<div class="row"><div><b>r272</b> — National Oilwell Varco, L.P. v. Omron Oilfield &amp; Marine, Inc., 2014 WL 6388402 <span class="meta">(star page *769)</span> · <a href="https://www.courtlistener.com/opinion/7309946/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“simply never explains to the Court <mark>what</mark> specific piece of confidential information could lead to what specific harm.”</div>
+<div class="lab">opinion</div><div class="q">“Omron simply never explains to the Court <mark>which</mark> specific piece of confidential information could lead to what specific harm.”</div>
+<div class="meta">diff: brief «what» → opinion «which»</div>
+<div class="meta">CL phrase: “explains to the Court what specific piece of confidential” → 0 · “explains to the Court which specific piece of confidential” → 1</div>
+</div>
+<div class="row"><div><b>r300</b> — John Doe, Etc. v. A Corporation, 709 F.2d 1043 <span class="meta">(star page *1048)</span> · <a href="https://www.courtlistener.com/opinion/419957/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“availability of a legal forum for the adjudication of <mark>his</mark> rights”</div>
+<div class="lab">opinion</div><div class="q">“The assertion of ethical barriers to Doe’s attempt to vindicate his personal claims creates a conflict with another fundamental policy: the availability of a legal forum for the adjudication of rights.”</div>
+<div class="meta">diff: brief «his» → opinion «∅»</div>
+<div class="meta">CL phrase: “for the adjudication of his rights” → 0 · “for the adjudication of rights.” → 1</div>
+</div>
+<div class="row"><div><b>r303</b> — Lowinger v. Morgan Stanley &amp; Co. LLC, 986 F. Supp. 2d 544 <span class="meta">(star page *550)</span> · <a href="https://www.courtlistener.com/opinion/8730090/x/">CourtListener</a> · <span class="meta">confirmed by hand against the opinion (Graham Syfert, 2026-10-19)</span></div>
+<div class="lab">brief</div><div class="q">“To state a claim for disgorgement of short-swing profits under Section 16(b), a plaintiff must allege: (1) a non-exempt purchase and subsequent non-exempt sale (or a non-exempt sale and subsequent non-exempt purchase) of a class of an issuer’s securities (2) within a six-month period (3) by a statutory insider.”</div>
+<div class="lab">opinion</div><div class="q">“To state a claim for disgorgement of short-swing profits under Section 16(b), a plaintiff must allege: (1) a non-exempt purchase and subsequent non-exempt sale (or a non-exempt sale and subsequent nonexempt purchase) of a class of an issuer’s <mark>equity</mark> securities (2) within a six-month period (3) by a statutory insider.”</div>
+<div class="meta">diff: brief «∅» → opinion «equity»</div>
+<div class="meta">CL phrase: “class of an issuer&#x27;s securities 2 within a” → 0 · “class of an issuer&#x27;s equity securities 2 within a” → 0</div>
+</div>
+<div class="row"><div><b>r330</b> — Caisse Nationale De Credit Agricole v. Cbi Industries, Incorporated, 90 F.3d 1264 <span class="meta">(star page *1269)</span> · <a href="https://www.courtlistener.com/opinion/722576/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“To support a motion for reconsideration, the moving party must show not only that this evidence was newly discovered or unknown to it until after the hearing, but also that it could not with reasonable diligence have discovered and produced such evidence during the pendency of the motion.”</div>
+<div class="lab">opinion</div><div class="q">“Keene Corp., 561 F.Supp. at 665; see also DeBruyne v. Equitable Life Assurance Soc’y, 920 F.2d 457, 471 (7th Cir.1990); Manor Healthcare Corp. v. Guzzo, 894 F.2d 919, 922 n. 4 (7th Cir.1990). To support a motion for reconsideration <mark>based on newly discovered evidence</mark>, the moving party must “show not only that this evidence was newly discovered or unknown to it until after the hearing, but also that it could not with reasonable diligence have discovered and produced such evidence [during the pendency of the motion].””</div>
+<div class="meta">diff: brief «∅» → opinion «based on newly discovered evidence»</div>
+<div class="meta">CL phrase: “a motion for reconsideration, the moving party must” → 0 · “a motion for reconsideration based on newly discovered evidence, the moving party must” → 1</div>
+</div>
+<div class="row"><div><b>r394</b> — Perez v. Mortgage Bankers Assn., 135 S. Ct. 1199 <span class="meta">(star page *1206)</span> · <a href="https://www.courtlistener.com/opinion/2784695/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“[A]gencies [must] use <mark>the</mark> same procedures when the amend or repeal a rule as they used to issue the rule in the first instance.”</div>
+<div class="lab">opinion</div><div class="q">“So, the D.C. Circuit correctly read § 1 of the APA to mandate that agencies use the same procedures when <mark>they</mark> amend or repeal a rule as they used to issue the rule in the first instance.”</div>
+<div class="meta">diff: brief «the» → opinion «they»</div>
+<div class="meta">CL phrase: “Agencies must use the same procedures” → 0 · “to mandate that agencies use the same procedures” → 1</div>
+<div class="meta">CL phrase: “the same procedures when the amend or repeal a” → 0 · “the same procedures when they amend or repeal a” → 1</div>
+</div>
+<div class="row"><div><b>r401</b> — Anr Pipeline Company v. Federal Energy Regulatory Commission, 71 F.3d 897 <span class="meta">(star page *901)</span> · <a href="https://www.courtlistener.com/opinion/709484/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“an agency departs from precedent without a reasoned explanation, its decision will be vacated as arbitrary and capricious.”</div>
+<div class="lab">opinion</div><div class="q">“Indeed, where an agency departs from <mark>established</mark> precedent without a reasoned explanation, its decision will be vacated as arbitrary and capricious.”</div>
+<div class="meta">diff: brief «∅» → opinion «established»</div>
+<div class="meta">CL phrase: “an agency departs from precedent without a reasoned” → 0 · “an agency departs from established precedent without a reasoned” → 1</div>
+</div>
+<div class="row"><div><b>r418</b> — United States v. Raymond J. Patriarca, 948 F.2d 789 <span class="meta">(star page *792)</span> · <a href="https://www.courtlistener.com/opinion/571446/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“although in theory a Mafia Boss was an intimidating and highly dangerous character, the government had not demonstrated that this Boss posed a significant danger, or at least a danger that could not be overcome <mark>by</mark> appropriate conditions.”</div>
+<div class="lab">opinion</div><div class="q">“Essentially, the judge found that although in theory a Mafia Boss was an intimidating and highly dangerous character, the government had <mark>not</mark> demonstrated that this Boss posed a significant danger, or at least not a danger that could not be overcome <mark>given</mark> appropriate conditions.”</div>
+<div class="meta">diff: brief «∅» → opinion «not»; brief «by» → opinion «given»</div>
+<div class="meta">CL phrase: “danger, or at least a danger that could” → 0 · “danger, or at least not a danger that could” → 1</div>
+<div class="meta">CL phrase: “could not be overcome by appropriate conditions.” → 0 · “could not be overcome given appropriate conditions.” → 1</div>
+</div>
+<div class="row"><div><b>r425</b> — Ericsson, Inc. v. D-Link Systems, Inc., 773 F.3d 1201 <span class="meta">(star page *1226)</span> · <a href="https://www.courtlistener.com/opinion/2757602/x/">CourtListener</a> · <span class="meta">confirmed by hand against the opinion (Graham Syfert, 2026-10-19)</span></div>
+<div class="lab">brief</div><div class="q">“the value added by the patented <mark>features</mark>.”</div>
+<div class="lab">opinion</div><div class="q">“Logically, an economist could do this in various ways— by careful selection of the royalty base to reflect the value added by the patented <mark>feature</mark>, where that differentiation is possible; by adjustment of the royalty rate so as to discount the value of a product’s non-patented features; or by a combination thereof.”</div>
+<div class="meta">diff: brief «features» → opinion «feature»</div>
+<div class="meta">CL phrase: “added by the patented features.” → 0 · “added by the patented feature, where that differentiation is possible; by adjustment of the royalty rate so as to discount the value of a product&#x27;s non-patented features; or by a” → 0</div>
+</div>
+<div class="row"><div><b>r439</b> — United States Department of the Treasury Internal Revenue Service Office of Chief Counsel v. Federal Labor Relations Authority, 739 F.3d 13 <span class="meta">(star page *21)</span> · <a href="https://www.courtlistener.com/opinion/2648094/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“set[ting] forth two inconsistent interpretations of the very same term”</div>
+<div class="lab">opinion</div><div class="q">“In applying two different standards in these contexts, the Authority has set forth two inconsistent interpretations of the very same <mark>statutory</mark> term, and thus acted arbitrarily and capriciously.”</div>
+<div class="meta">diff: brief «∅» → opinion «statutory»</div>
+<div class="meta">CL phrase: “setting forth two inconsistent interpretations” → 0 · “In applying two different standards in these contexts, the Authority has set forth two inconsistent interpretations” → 1</div>
+<div class="meta">CL phrase: “of the very same term” → 0 · “of the very same statutory term, and thus acted” → 1</div>
+</div>
+<div class="row"><div><b>r473</b> — Robert A. Buell v. Betty Mitchell, Warden, 274 F.3d 337 <span class="meta">(star page *372)</span> · <a href="https://www.courtlistener.com/opinion/775877/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“States must follow the practice because they believe it is required by international law, not merely because they think it is a good idea, or politically useful, or otherwise desirable.”</div>
+<div class="lab">opinion</div><div class="q">“Id. at § 102, cmt. c. States must follow the practice because they believe it is required by international law, not merely because <mark>that</mark> they think it is a good idea, or politically useful, or otherwise desirable.”</div>
+<div class="meta">diff: brief «∅» → opinion «that»</div>
+<div class="meta">CL phrase: “law, not merely because they think it is” → 0 · “law, not merely because that they think it is” → 1</div>
+</div>
+<div class="row"><div><b>r495</b> — , 825 F.2d 90 <span class="meta">(star page *97)</span> · <a href="https://www.courtlistener.com/opinion/8961666/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“<mark>invoke</mark> a substantive right provided by Title 11.”</div>
+<div class="lab">opinion</div><div class="q">“We hold, therefore, that a proceeding is core under section 157 if it <mark>invokes</mark> a substantive right provided by title 11 or if it is a proceeding that, by its nature, could arise only in the context of a bankruptcy case.”</div>
+<div class="meta">diff: brief «invoke» → opinion «invokes»</div>
+<div class="meta">CL phrase: “invoke a substantive right provided” → 0 · “We hold, therefore, that a proceeding is core under section 157 if it invokes a substantive right provided” → 1</div>
+</div>
+<div class="row"><div><b>r495</b> — , 825 F.2d 90 <span class="meta">(star page *97)</span> · <a href="https://www.courtlistener.com/opinion/8961666/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“could <mark>only</mark> arise in the context of a bankruptcy case.”</div>
+<div class="lab">opinion</div><div class="q">“We hold, therefore, that a proceeding is core under section 157 if it invokes a substantive right provided by title 11 or if it is a proceeding that, by its nature, could arise <mark>only</mark> in the context of a bankruptcy case.”</div>
+<div class="meta">diff: brief «only» → opinion «∅»; brief «∅» → opinion «only»</div>
+<div class="meta">CL phrase: “could only arise in the” → 0 · “by its nature, could arise only in the context” → 1</div>
+<div class="meta">CL phrase: “could only arise in the context of” → 0 · “nature, could arise only in the context of” → 1</div>
+</div>
+<div class="row"><div><b>r528</b> — Commonwealth v. Thompson, 985 A.2d 928 <span class="meta">(star page *209)</span> · <a href="https://www.courtlistener.com/opinion/2056760/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“a police officer&#x27;s experience may fairly be regarded as a relevant <mark>favor</mark> in determining probable cause”</div>
+<div class="lab">opinion</div><div class="q">“Upon review of the various Dunlap expressions, we recognize the logic and soundness of Justice Saylor’s concurring opinion and so hold that “a police officer’s experience may fairly be regarded as a relevant <mark>factor</mark> in determining probable cause.””</div>
+<div class="meta">diff: brief «favor» → opinion «factor»</div>
+<div class="meta">CL phrase: “regarded as a relevant favor in determining probable cause” → 0 · “regarded as a relevant factor in determining probable cause.” → 1</div>
+</div>
+<div class="row"><div><b>r556</b> — Thomas v. Independence Township, 463 F.3d 285 <span class="meta">(star page *296)</span> · <a href="https://www.courtlistener.com/opinion/3019581/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“<mark>that defendants</mark>’ retaliatory action <mark>was</mark> sufficient to deter a person of ordinary firmness from exercising his <mark>or her</mark> constitutional rights.”</div>
+<div class="lab">opinion</div><div class="q">“In order to plead a retaliation claim under the First Amendment, a plaintiff must allege: (1) constitutionally <mark>protected conduct</mark>, (2) retaliatory action sufficient to deter a person of ordinary firmness from exercising his constitutional rights, and (3) a causal link between the constitutionally protected conduct and the retaliatory action.”</div>
+<div class="meta">diff: brief «that defendants» → opinion «protected conduct»; brief «was» → opinion «∅»; brief «or her» → opinion «∅»</div>
+<div class="meta">CL phrase: “that defendants&#x27; retaliatory action was sufficient” → 0 · “In order to plead a retaliation claim under the First Amendment, a plaintiff must allege: 1 constitutionally protected conduct, 2 retaliatory action sufficient to” → 1</div>
+<div class="meta">CL phrase: “that defendants&#x27; retaliatory action was sufficient to deter a” → 0 · “conduct, 2 retaliatory action sufficient to deter a” → 1</div>
+</div>
+<div class="row"><div><b>r585</b> — Sybersound Records, Inc. v. UAV Corp., 517 F.3d 1137 <span class="meta">(star page *1148)</span> · <a href="https://www.courtlistener.com/opinion/1462778/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“to engage in speculative and complicated analysis to determine what percentage of”</div>
+<div class="lab">opinion</div><div class="q">“Similarly in this case, the court would have to engage in <mark>a</mark> speculative and complicated analysis to determine what percentage of Sybersound’s decreased sales, if any, were attributable to the Corporation Defendants’ decision to lower their prices or a Customer’s preference for a competitor’s products over Sybersound’s, instead of to acts of copyright infringement or mail and wire fraud.”</div>
+<div class="meta">diff: brief «∅» → opinion «a»</div>
+<div class="meta">CL phrase: “to engage in speculative and complicated analysis” → 0 · “have to engage in a speculative and complicated analysis” → 1</div>
+</div>
+<div class="row"><div><b>r657</b> — United States v. Timothy Keith Yuknavich, 419 F.3d 1302 <span class="meta">(star page *1310)</span> · <a href="https://www.courtlistener.com/opinion/77067/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“upsets the Knights balancing test so as to require more than <mark>a</mark> reasonable suspicion to justify”</div>
+<div class="lab">opinion</div><div class="q">“We must consider whether, in this case, the lack of a search condition upsets the Knights balancing test so as to require more than reasonable suspicion to justify a search of Yuknavich’s computer.”</div>
+<div class="meta">diff: brief «a» → opinion «∅»</div>
+<div class="meta">CL phrase: “to require more than a reasonable suspicion to justify” → 0 · “to require more than reasonable suspicion to justify” → 1</div>
+</div>
+<div class="row"><div><b>r660</b> — Clark v. Allen, 11 R.I. 439 <span class="meta">(star page *445)</span> · <a href="https://www.courtlistener.com/opinion/4111339/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“not a contrivance to circumvent the law.”</div>
+<div class="lab">opinion</div><div class="q">“not <mark>as</mark> a contrivance to circumvent the law, but as an honest and bond fide business transaction.”</div>
+<div class="meta">diff: brief «∅» → opinion «as»</div>
+<div class="meta">CL phrase: “not a contrivance to circumvent” → 0 · “not as a contrivance to circumvent” → 1</div>
+</div>
+<div class="row"><div><b>r669</b> — United States Ex Rel. Steury v. Cardinal Health, Inc., 625 F.3d 262 <span class="meta">(star page *268)</span> · <a href="https://www.courtlistener.com/opinion/178487/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“crucial distinction between punitive FCA liability and ordinary breaches of <mark>contracts</mark>.”</div>
+<div class="lab">opinion</div><div class="q">“This prerequisite requirement seeks to maintain a “crucial distinction” between punitive FCA liability and ordinary breaches of <mark>contract</mark>.”</div>
+<div class="meta">diff: brief «contracts» → opinion «contract»</div>
+<div class="meta">CL phrase: “and ordinary breaches of contracts.” → 0 · “and ordinary breaches of contract.” → 1</div>
+</div>
+<div class="row"><div><b>r671</b> — F.D.I.C. v. U.S. Fire Ins. Co., 50 F.3d 1304 · <a href="https://www.courtlistener.com/opinion/7033/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“The proper standard of review… is an abuse of discretion standard. But in applying this standard, <mark>this Court should</mark> review fact-findings for clear error, and <mark>it should</mark> perform a ‘careful examination,’ or de novo review, of the district court’s application of the relevant rules of attorney conduct.”</div>
+<div class="lab">opinion</div><div class="q">“The proper standard of review for this appeal, then, is an abuse of discretion standard. But in applying this standard, <mark><mark>we will</mark></mark> review fact-findings for clear error, and we will perform a &quot;careful examination,&quot; or de novo review, of the district court&#x27;s application of the relevant rules of attorney conduct.”</div>
+<div class="meta">diff: brief «this court should» → opinion «we will»; brief «it should» → opinion «we will»</div>
+<div class="meta">CL phrase: “in applying this standard, this Court should review fact-findings for clear” → 0 · “in applying this standard, we will review fact-findings for clear” → 1</div>
+<div class="meta">CL phrase: “for clear error, and it should perform a &#x27;careful examination,&#x27;” → 0 · “for clear error, and we will perform a careful examination,” → 1</div>
+</div>
+<div class="row"><div><b>r673</b> — Arguello v. Conoco, 207 F.3d 803 <span class="meta">(star page *809)</span> · <a href="https://www.courtlistener.com/opinion/20361/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“In disparate impact claims the plaintiff must first establish that there is <mark>a</mark> neutral policy or practice that has had a discriminatory impact on a particular group.”</div>
+<div class="lab">opinion</div><div class="q">“. In disparate impact claims the plaintiff must first establish that there is neutral policy or practice that has had a discriminatory impact on a particular group.”</div>
+<div class="meta">diff: brief «a» → opinion «∅»</div>
+<div class="meta">CL phrase: “establish that there is a neutral policy or practice” → 0 · “establish that there is neutral policy or practice” → 1</div>
+</div>
+<div class="row"><div><b>r687</b> — Fair Housing Coun., San Fernando v. Roommates. Com, 521 F.3d 1157 <span class="meta">(star page *1168)</span> · <a href="https://www.courtlistener.com/opinion/1301306/x/">CourtListener</a> · <span class="meta">confirmed on CourtListener</span></div>
+<div class="lab">brief</div><div class="q">“if it contributes materially to the alleged illegality of the <mark>content</mark>.”</div>
+<div class="lab">opinion</div><div class="q">“In other words, a website helps to develop unlawful content, and thus falls within the exception to section 230, if it contributes materially to the alleged illegality of the <mark>conduct</mark>.”</div>
+<div class="meta">diff: brief «content» → opinion «conduct»</div>
+<div class="meta">CL phrase: “alleged illegality of the content.” → 0 · “alleged illegality of the conduct.” → 1</div>
+</div>
+<h2>Quotation not found in the opinion (not yet reviewed by hand)</h2>
+<div class="row"><div><b>r130</b> — Bell Atlantic Corp. v. Twombly, 550 U.S. 544 · <a href="https://www.courtlistener.com/opinion/145730/x/">CourtListener</a> · <span class="meta">absent</span></div>
+<div class="lab">brief</div><div class="q">“specific times, places[,] or people involved.”</div>
+<div class="lab">opinion</div><div class="q meta">no passage above 50 % similarity anywhere in the opinion</div>
+</div>
+<div class="row"><div><b>r184</b> — Akzo Nobel Salt, Inc. v. Federal Mine Safety &amp; Health Review Commission, 212 F.3d 1301 · <a href="https://www.courtlistener.com/opinion/185144/x/">CourtListener</a> · <span class="meta">absent</span></div>
+<div class="lab">brief</div><div class="q">“An agency’s interpretation of its own regulations is entitled to no deference if it has, under the guise of interpreting a regulation, created de facto a new regulation.”</div>
+<div class="lab">opinion</div><div class="q meta">no passage above 50 % similarity anywhere in the opinion</div>
+</div>
+<h2>Excluded from the first-pass list</h2><ul><li>r450 — 227 Cal. App. 4th 299: the quotation is correct (reviewed by hand); the brief’s real problem is that the quoted sentence restates CitiMortgage’s argument, not the court’s holding — a content issue outside this list</li><li>r646 — 922 F.2d 675: punct only</li></ul></body></html>
