@@ -47,6 +47,12 @@ and the default tool policy, which `--mcp-profile` replaces.
    Run the Syfert arm yourself on the same setup rather than quoting ours: Claude Code adds its own system prompt and harness,
    and model behaviour moves between versions.
 
+## Latest Syfert tool-alone number (for the record)
+`run_syfert.py --split test --mapping v6`, server 1.7.0, 2026-10-27, v1.1 labels, 390 excerpts, 0 errors: strict mapping
+P 64.2 / R 41.1 / **F1 50.1** (CI 44.7–55.5); per-type recall non-existent 96.8 %, misquote 78.3 %, case name 69.1 %, pincite 41.8 %,
+content misrepresentation 0 % (no model reads the holding). The 2026-10-17 table in `results/results_table.md` has the earlier arms,
+including the Claude Code Opus 5.5 + Syfert MCP arm (F1 79.2 under v1.0 labels).
+
 ## Caveats the paper's authors would want stated
 - The model arms run inside Claude Code, not a raw API loop, so they are the paper's "Claude Code" row kind, not its API-agent kind.
 - The paper's "reasoning field" sentence is dropped from the user prompt (it made Opus refuse); the rest of the prompt is verbatim.
