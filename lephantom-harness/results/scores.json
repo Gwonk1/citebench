@@ -1,0 +1,186 @@
+[
+ {
+  "run_id": "syfert:strict:train:pre_mcp100_remap",
+  "n": 910,
+  "n_error": 0,
+  "errors": [],
+  "parse": {
+   "deterministic": 910
+  },
+  "cost_usd": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "paper": {
+   "precision": 0.7783783783783784,
+   "recall": 0.512258064516129,
+   "f1": 0.6178821367775406,
+   "counts": {
+    "found": 397,
+    "gold": 775,
+    "tp": 432,
+    "pred": 555
+   },
+   "ci95": {
+    "p": [
+     0.7422867513611615,
+     0.8123924268502581
+    ],
+    "r": [
+     0.47575360419397117,
+     0.5509641873278237
+    ],
+    "f1": [
+     0.5854022376132125,
+     0.64912203920735
+    ]
+   },
+   "recall_by_type": {
+    "case_name_mismatch": {
+     "found": 100,
+     "gold": 119,
+     "recall": 0.8403361344537815
+    },
+    "content_misrepresentation": {
+     "found": 2,
+     "gold": 285,
+     "recall": 0.007017543859649123
+    },
+    "misquote": {
+     "found": 118,
+     "gold": 128,
+     "recall": 0.921875
+    },
+    "non_existent_citation": {
+     "found": 119,
+     "gold": 119,
+     "recall": 1.0
+    },
+    "wrong_pincite": {
+     "found": 58,
+     "gold": 124,
+     "recall": 0.46774193548387094
+    }
+   },
+   "brief": {
+    "n": 700,
+    "precision": 0.7783783783783784,
+    "recall": 0.6683501683501684,
+    "f1": 0.7191802794044572
+   },
+   "dahl": {
+    "n": 210,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+   },
+   "clean_examples": {
+    "n": 361,
+    "with_any_prediction": 48,
+    "predictions": 56
+   }
+  },
+  "repo": {
+   "precision": 0.7783783783783784,
+   "recall": 0.5331695331695332,
+   "f1": 0.632851660202728,
+   "counts": {
+    "found": 434,
+    "gold": 814,
+    "tp": 432,
+    "pred": 555
+   }
+  }
+ },
+ {
+  "run_id": "syfert:strict:train:post_mcp100",
+  "n": 910,
+  "n_error": 0,
+  "errors": [],
+  "parse": {
+   "deterministic": 910
+  },
+  "cost_usd": 0.0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "paper": {
+   "precision": 0.7791741472172352,
+   "recall": 0.5148387096774194,
+   "f1": 0.6200077695209213,
+   "counts": {
+    "found": 399,
+    "gold": 775,
+    "tp": 434,
+    "pred": 557
+   },
+   "ci95": {
+    "p": [
+     0.7428571428571429,
+     0.8137432188065099
+    ],
+    "r": [
+     0.4777636594663278,
+     0.5536791314837153
+    ],
+    "f1": [
+     0.5872575529701466,
+     0.6511411271541686
+    ]
+   },
+   "recall_by_type": {
+    "case_name_mismatch": {
+     "found": 101,
+     "gold": 119,
+     "recall": 0.8487394957983193
+    },
+    "content_misrepresentation": {
+     "found": 2,
+     "gold": 285,
+     "recall": 0.007017543859649123
+    },
+    "misquote": {
+     "found": 118,
+     "gold": 128,
+     "recall": 0.921875
+    },
+    "non_existent_citation": {
+     "found": 119,
+     "gold": 119,
+     "recall": 1.0
+    },
+    "wrong_pincite": {
+     "found": 59,
+     "gold": 124,
+     "recall": 0.47580645161290325
+    }
+   },
+   "brief": {
+    "n": 700,
+    "precision": 0.7791741472172352,
+    "recall": 0.6717171717171717,
+    "f1": 0.7214663808565553
+   },
+   "dahl": {
+    "n": 210,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+   },
+   "clean_examples": {
+    "n": 361,
+    "with_any_prediction": 49,
+    "predictions": 57
+   }
+  },
+  "repo": {
+   "precision": 0.7791741472172352,
+   "recall": 0.5356265356265356,
+   "f1": 0.6348435235385689,
+   "counts": {
+    "found": 436,
+    "gold": 814,
+    "tp": 434,
+    "pred": 557
+   }
+  }
+ }
+]

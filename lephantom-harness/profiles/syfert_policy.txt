@@ -1,0 +1,4 @@
+- check_brief(text=the whole excerpt) first: it extracts and resolves every reporter citation, checks the case name the excerpt claims against the real case, checks quoted passages word for word, and checks pinpoint pages. An unresolved citation with verdict strong / interior_mismatch is likely fabricated; not_indexed / exists_unindexed means the index may simply lack it, so weigh volume_coverage and confirm by name with find_case or search_cases before calling it hallucinated.
+- check_citation(citation, expected_case_name) for one citation; verify_quote(quote, citation) for one quotation; get_case(citation or id) reads the opinion so you can check pincites and whether the opinion supports the proposition the excerpt attributes to it; search_cases / find_case resolve a case by name.
+- Statutes, regulations and rules are out of scope; only case citations count.
+- When you have verified every citation (or exhausted your turns), give the final answer.

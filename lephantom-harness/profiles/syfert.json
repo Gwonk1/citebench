@@ -1,0 +1,19 @@
+{
+ "name": "syfert",
+ "mcp_config": "../../.ccrun/mcp.json",
+ "tools": [
+  "check_brief",
+  "check_citation",
+  "verify_quote",
+  "get_case",
+  "search_cases",
+  "find_case",
+  "get_propositions",
+  "search_quotes"
+ ],
+ "tools_v4_extra": [
+  "context_detector"
+ ],
+ "tool_policy_file": "syfert_policy.txt",
+ "note": "This profile reproduces the default (no --mcp-profile) Syfert arm exactly; it exists as the worked example. mcp.json holds the server URL/token and is never committed."
+}
