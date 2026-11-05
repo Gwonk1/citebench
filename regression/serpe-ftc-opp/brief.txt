@@ -1,0 +1,1956 @@
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 1 of 38
+
+
+
+                       UNITED STATES DISTRICT COURT
+                       SOUTHERN DISTRICT OF FLORIDA
+                         FORT LAUDERDALE DIVISION
+
+                         Case No. 0:24-cv-61939-LEIBOWITZ
+
+  PHILIP SERPE,
+
+        Plaintiff,
+
+  v.
+
+  FEDERAL TRADE COMMISSION; AND
+  HORSERACING INTEGRITY AND
+  SAFETY AUTHORITY, INC.,
+
+        Defendants.
+  ____________________________________/
+
+        DEFENDANT FEDERAL TRADE COMMISSION’S OPPOSITION TO
+      PLAINTIFF’S EXPEDITED MOTION FOR SUMMARY JUDGMENT AND
+   MEMORANDUM IN SUPPORT OF CROSS-MOTION FOR SUMMARY JUDGMENT
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 2 of 38
+
+
+
+                                                            TABLE OF CONTENTS
+
+  INTRODUCTION ........................................................................................................................................... 1
+
+  BACKGROUND .............................................................................................................................................. 1
+
+  ARGUMENT..................................................................................................................................................... 2
+
+  I.          Plaintiff’s administrative proceedings comport with private nondelegation principles. ............ 2
+
+                  A.       Plaintiff’s proceedings are constitutional. ........................................................................... 2
+
+                  B.      Plaintiff’s arguments fail to show that his adjudication violates the private
+                          nondelegation doctrine. ......................................................................................................... 7
+
+  II.         Plaintiff cannot prevail on his Seventh Amendment claim..........................................................10
+
+                  A.       The Court should not reach the merits of Plaintiff’s Seventh Amendment
+                          claim. .......................................................................................................................................10
+
+                  B.       Plaintiff’s adjudication comports with the Seventh Amendment.................................14
+
+                  C.       The public rights doctrine also applies. ............................................................................22
+
+                  D.       Plaintiffs’ state action arguments have been overcome by events. ..............................24
+
+                  E.       Serpe may have waived his Seventh Amendment jury trial. ..........................................24
+
+  III.        Plaintiff is not entitled to permanent injunctive relief. .................................................................25
+
+                  A.       Plaintiff has not established irreparable harm. ................................................................26
+
+                  B.       An injunction would be contrary to the public interest. ................................................27
+
+  CONCLUSION ...............................................................................................................................................27
+
+
+
+
+                                                                                    i
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 3 of 38
+
+
+
+                                                       TABLE OF AUTHORITIES
+  CASES
+  Alabama v. U.S. Army Corps of Eng’rs,
+     424 F.3d 1117 (11th Cir. 2005) ....................................................................................................... 26, 27
+  Alexander v. Trump,
+     753 F. App’x 201 (5th Cir. 2018) ........................................................................................................... 12
+  Alpine Securities Corp. v. FINRA,
+     121 F.4th 1314 (D.C. Cir. 2024) .............................................................................................................. 9
+  Arnaiz v. Warden,
+     594 F.3d 1326 (11th Cir. 2010) .............................................................................................................. 24
+  AT&T, Inc. v. FCC,
+    149 F.4th 491 (5th Cir. 2025), cert. granted sub nom.,
+    FCC v. ATT&T, Inc., --- S. Ct. ---, 2026 WL 73092 (Jan. 9, 2026) ................................................... 16
+  Atlas Roofing Co. v. Occupational Safety & Health Review Commission,
+     430 U.S. 442 (1977) ................................................................................................................................. 22
+  Axalta Coating Sys. LLC v. FAA,
+    144 F.4th 467 (3d Cir. 2025) .................................................................................................................. 23
+  Axon Enterprises, Inc. v. FTC,
+    598 U.S. 175 (2023) ................................................................................................................................. 13
+  Bakrac, Inc. v. Villager Franchise Sys., Inc.,
+     164 Fed. Appx. 820 (11th Cir. 2006) .................................................................................................... 24
+  Beck v. Lazard Freres & Co., LLC,
+     175 F.3d 913 (11th Cir. 1999) ................................................................................................................ 20
+  Bennett v. Spear,
+     520 U.S. 154 (1997) ................................................................................................................................. 11
+  BFP v. Res. Trust Corp.,
+    511 U.S. 531 (1994) ................................................................................................................................. 19
+  Caley v. Gulfstream Aerospace Corp.,
+     428 F.3d 1359 (11th Cir. 2005) .............................................................................................................. 24
+  Carr v. Saul,
+     593 U.S. 83 (2021) ................................................................................................................................... 10
+  Carter v. Carter Coal Co.,
+     298 U.S. 238 (1936) ................................................................................................................................... 3
+  City of Monterey v. Del Monte Dunes at Monterey, Ltd.,
+      526 U.S. 687 (1991) .......................................................................................................................... 15, 16
+                                                                               ii
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 4 of 38
+
+
+
+  Colo. River Indian Tribes v. Marsh,
+     605 F. Supp. 1425 (C.D. Cal. 1985) ...................................................................................................... 27
+  Cornish v. Dudas,
+     540 F. Supp. 2d 61 (D.D.C. 2008) ......................................................................................................... 27
+  Crowell v. Benson,
+     285 U.S. 22 (1932) ................................................................................................................................... 17
+  DaimlerChrysler Corp. v. Cuno,
+     547 U.S. 332 (2006) ................................................................................................................................. 26
+  Darby v. Cisneros,
+     509 U.S. 137 (1993) ................................................................................................................................. 10
+  Duty Free Ams., Inc. v. Estee Lauder Cos., Inc.,
+     797 F.3d 1248 (11th Cir. 2015) .............................................................................................................. 21
+  Egbert v. Boule,
+     596 U.S. 482 (2022) ................................................................................................................................. 12
+  Eubank v. Richmond,
+     226 U.S. 137 (1912) ................................................................................................................................... 2
+  FCC v. Consumers’ Rsch.,
+    606 U.S. 656 (2025) ........................................................................................................................... passim
+  First Jersey Sec., Inc. v. Bergen,
+      605 F.2d 690 (3d Cir. 1979) ...................................................................................................................... 7
+  Fla. Agency for Health Care Admin. v. Admin. for Ctrs. for Medicare & Medicaid Servs.,
+      161 F.4th 765 (11th Cir. 2025) ............................................................................................................... 10
+  Florida v. Dep’t of Health & Human Servs.,
+      739 F. Supp. 3d 1091 (M.D. Fla. 2024) ................................................................................................ 14
+  Free Enter. Fund v. Pub. Accounting and Oversight Bd.,
+      561 U.S. 477 (2010) ................................................................................................................................. 10
+  Gill v. Whitford,
+      585 U.S. 48 (2018) ................................................................................................................................... 26
+  Godelia v. Doe 1,
+     881 F.3d 1309 (11th Cir. 2018) .............................................................................................................. 21
+  Granfinanciera, S.A. v. Nordberg,
+     492 U.S. 33 (1989) ............................................................................................................................ 15, 17
+  Grise v. State,
+     37 Ark. 456 (1881) ................................................................................................................................... 17
+
+
+                                                                               iii
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 5 of 38
+
+
+
+
+  Harris Cty. v. MERSCORP Inc.,
+     791 F.3d 545 (5th Cir. 2015) .................................................................................................................. 12
+
+  Helvering v. Mitchell,
+     303 U.S. 391 (1938) ................................................................................................................................. 18
+  Huff and Puffers, LLC v. FDA,
+     2025 WL 1092696 (C.D. Cal. Feb. 27, 2025) ....................................................................................... 14
+  Ibarra v. Swacina,
+      628 F.3d 1269 (11th Cir. 2010) .............................................................................................................. 10
+  Irvine v. Rare Feline Breeding Ctr., Inc.,
+      685 N.E. 2d 120 (1997) ........................................................................................................................... 21
+  Johnson & Co. v. SEC,
+      198 F.2d 690 (2d Cir. 1952) ...................................................................................................................... 7
+  Kadylak v. Royal Caribbean Cruise, Ltd.,
+     167 F. Supp. 3d 1301 (S.D. Fla. 2016) .................................................................................................. 20
+  Kaimowitz v. Orlando, Fla.,
+     122 F.3d 41 (11th Cir. 1997) .................................................................................................................. 27
+  Ketcham v. U.S. Nat’l Park Serv.,
+      2016 WL 4268346 (D. Wyo. Mar. 29, 2016) ................................................................................. 12, 13
+  Koster & Wythe v. Massey,
+     293 F.2d 922 (9th Cir. 1961) .................................................................................................................. 21
+  Leachco v. Consumer Prod. Safety Comm’n,
+     103 F.4th 748 (10th Cir. 2024), cert. denied, 145 S. Ct. 1047 (2025) (Mem.) ..................................... 26
+  Lebron v. Fla. Dep’t of Children & Families,
+     710 F.3d 1202 (11th Cir. 2013) .............................................................................................................. 25
+  Liu v. SEC,
+     591 U.S. 71 (2020) ................................................................................................................................... 15
+  Lukezic v. FINRA,
+     2025 WL 2305859 (D.D.C. Aug. 10, 2025) .......................................................................................... 26
+  Manis v. U.S. Dep’t of Agric.,
+    796 F. Supp. 3d 178 (M.D.N.C. 2025), appeal filed,
+    No. 25-2001 (4th Cir. Aug. 28, 2025) ............................................................................................ 19, 23
+  Maryland v. King,
+    567 U.S. 1301 (2012) ............................................................................................................................... 27
+
+
+
+                                                                              iv
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 6 of 38
+
+
+
+  Millenia Hous. Mgmt. v. U.S. Dep’t of Hous. & Urban Dev.,
+     735 F. Supp. 3d. 1051 (N.D. Ohio 2025) ............................................................................................. 14
+  Monsanto Co. v. Geertson Seed Farms,
+    561 U.S. 139 (2010) ................................................................................................................................. 25
+  Moody v. NetChoice, LLC,
+    603 U.S. 707 (2024) ................................................................................................................................... 2
+  Nat’l Horsemen’s Benevolent & Prot. Ass’n v. Black,
+     107 F.4th 415 (5th Cir. 2024) ................................................................................................................... 6
+  Nat’l R.R. Passenger Corp. v. Nat’l Ass’n of R.R. Passengers,
+     414 U.S. 453 (1974) ................................................................................................................................. 12
+  NCRNC, LLC v. Kennedy,
+    786 F. Supp. 3d 496 ................................................................................................................................. 14
+  Nexstar Media, Inc. Grp. v. NLRB,
+     746 F. Supp. 3d 464 (N.D. Ohio 2024) ................................................................................................ 14
+  Nken v. Holder,
+    556 U.S. 418 (2009) ................................................................................................................................. 27
+  Northwest Airlines, Inc. v. Minnesota,
+     322 U.S. 292 (1944) ................................................................................................................................. 23
+  Oceanic Steam Navigation Co. v. Stranahan,
+     214 U.S. 320 (1909) ................................................................................................................................. 18
+  Okeelanta Corp. v. U.S. Army Corps of Eng’rs,
+    132 F.4th 1320 (11th Cir. 2025) ...................................................................................................... 11, 12
+  Oklahoma v. United States,
+     62 F.4th 221 (6th Cir. 2023), vacated 145 S. Ct. 2836 (2025) (Mem.) ............................................... 6, 7
+  Oklahoma v. United States,
+     163 F.4th 294 (6th Cir. 2025) .................................................................................................. 4, 5, 6, 7, 8
+  People v. Brunell,
+     48 How. Pr. 435 (N.Y. Gen. Sess. 1874) .............................................................................................. 17
+  SEC v. Jarkesy,
+    603 U.S. 109 (2024) ........................................................................................................................... passim
+  Serpe v. FTC,
+      2025 WL 2840499 (S.D. Fla. May 29, 2025) ........................................................................................ 26
+  Serpe v. FTC,
+      2025 WL 4098300 (S.D. Fla. Oct. 30, 2025) ........................................................................................ 26
+
+
+                                                                              v
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 7 of 38
+
+
+
+  Sheetz v. Cty. of El Dorado,
+     601 U.S. 267 (2024) ................................................................................................................................. 25
+  Siegel v. LePore,
+      234 F.3d 1163 (11th Cir. 2000) .............................................................................................................. 26
+  Sorrell v. SEC,
+      679 F.2d 1323 (9th Cir. 1982) .................................................................................................................. 7
+  Soul Quest Church of Mother Earth, Inc. v. Att’y Gen., U.S.,
+     92 F.4th 953 (11th Cir. 2023) ................................................................................................................. 12
+  Stieglitz v. IronMountain Sols., Inc.,
+      2024 WL 6895827 (N.D. Ala. Nov. 12, 2024) ..................................................................................... 12
+  Storey v. Rubin,
+      976 F. Supp. 1478 (N.D. Ga. 1997) ...................................................................................................... 12
+
+  Sunshine Anthracite Coal Co. v. Adkins,
+     310 U.S. 381 (1940) ............................................................................................................................... 3, 8
+  Terral v. Burke Constr. Co.,
+      257 U.S. 529 (1922) ................................................................................................................................. 25
+  Thomas Cusack Co. v. City of Chicago,
+     242 U.S. 526 (1917) ................................................................................................................................... 2
+  Todd & Co. v. SEC,
+     557 F.2d 1008 (3d Cir. 1977) ................................................................................................................... 7
+  Trump v. New York,
+     592 U.S. 125 (2020) ................................................................................................................................. 14
+  United States v. Cordoba-Hincapie,
+     825 F. Supp. 485 (E.D.N.Y. 1993) ........................................................................................................ 22
+  United States v. Winstar Corp.,
+     518 U.S. 839 (1996) ................................................................................................................................. 20
+  Vape Cent. Grp. v. FDA,
+    2025 WL 637416 (D.D.C. Feb. 27, 2025) ............................................................................................ 14
+  VHS Acquisition Subsidiary No. 7 v. NLRB,
+    808 F. Supp. 3d 1 (D.D.C. 2024) ........................................................................................................... 14
+  Waffle House, Inc. v. NLRB,
+    2025 WL 602744 (D.S.C. Feb. 10, 2025) .............................................................................................. 14
+  Walker v. Wormuth,
+    2024 WL 4708981 (5th Cir. Nov. 7, 2024) (per curiam) .................................................................... 12
+
+
+                                                                              vi
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 8 of 38
+
+
+
+  Walmsley v. FTC,
+    117 F.4th 1032 (8th Cir. 2024) ................................................................................................................. 6
+  Wash. ex rel. Seattle Title Tr. Co. v. Roberge,
+    278 U.S. 116 (1928) ................................................................................................................................... 2
+  YAPP USA Automotive Sys., Inc. v. NLRB,
+    748 F. Supp. 3d 497 (E.D. Mich. 2024), appeal dismissed,
+     No. 24-1754, 2025 WL 2606098 (6th Cir. Aug. 4, 2025) .................................................................. 14
+
+  STATUTES
+  5 U.S.C. § 702 ................................................................................................................................................. 12
+  5 U.S.C. § 704 ............................................................................................................................. 10, 11, 12, 27
+  15 U.S.C. § 78s ................................................................................................................................................. 9
+  15 U.S.C. § 3051 ............................................................................................................................................... 1
+  15 U.S.C. § 3053 ...................................................................................................................................... 4, 5, 6
+  15 U.S.C. § 3055 ....................................................................................................................................... 17-18
+  15 U.S.C. § 3058 ....................................................................................................................................... passim
+  28 U.S.C. § 1331 ............................................................................................................................................. 12
+
+  CONSTITUTION
+  U.S. Const. amend. VII ................................................................................................................................. 15
+
+  LEGISLATIVE MATERIALS
+  166 Cong. Rec. H4980 (daily ed. Sept. 29, 2020) ....................................................................................... 16
+  166 Cong. Rec. 169 (Sept. 29, 2020) ............................................................................................................ 17
+  Hearing Before the Subcommittee on Consumer Protection and Commerce (Jan. 28, 2020). .......... 16
+  H.R. Rep. No. 116-554 (2020) ...................................................................................................................... 16
+  Memo. Re: Hearing on “Legislation to Promote the Health and Safety of Racehorses,”
+  from Comm. Staff to Subcomm. Staff (Jan. 24, 2020) .............................................................................. 16
+
+  OTHER AUTHORITIES
+  2 William Blackstone, Commentaries on the Laws of England (1766) .................................................. 17
+  FTC, HISA Anti-Doping and Medication Control Rule, 88 Fed. Reg. 5,070 (Jan. 26, 2023) ........................ 7
+  FTC, Order Approving the Anti-Doping and Medication Control Rule Proposed by the Horseracing
+  Integrity and Safety Authority (Mar. 27, 2023),
+  https://perma.cc/H8ZH-N7FP .................................................................................................................... 4
+  HISA, HISA Announcement Regarding Provisional Suspensions (Nov. 4, 2024),
+  https://perma.cc/83UM-H6MS .................................................................................................................... 8
+  HISA Rule 3010(e)............................................................................................................................................ 4
+                                                                                 vii
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 9 of 38
+
+
+
+  HISA Rule 3132(a)..................................................................................................................................... 7, 17
+  HISA Rule 3212 ........................................................................................................................................ passim
+  HISA Rule 3247(a)(1) ................................................................................................................................... 7, 9
+  HISA Rule 3261 ................................................................................................................................................ 7
+  HISA Rule 3323 ................................................................................................................................................ 9
+  HISA Rule 7030 ................................................................................................................................................ 7
+  O. Bump, Fraudulent Conveyances: A Treatise upon Conveyances Made by Debtors
+  to Defraud Creditors (3d ed. 1882) .............................................................................................................. 19
+
+
+
+
+                                                                                viii
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 10 of 38
+
+
+
+
+                                            INTRODUCTION
+
+           Plaintiff Philip Serpe—a professional horse trainer charged with violating one of the Horserac-
+
+   ing Integrity and Safety Authority’s (“Authority”) anti-doping and medication control rules—has sued
+
+   the Authority and the Federal Trade Commission (“FTC”) to challenge his administrative proceedings
+
+   as unconstitutional. Plaintiff contends that the Horseracing Integrity and Safety Act, 15 U.S.C. § 3051,
+
+   et seq. (“Act”) regulatory scheme gives the private Authority too much control over Plaintiff’s pro-
+
+   ceedings in violation of the private nondelegation doctrine, and further, that those proceedings violate
+
+   his Seventh Amendment right to a jury trial.
+           Plaintiff’s claims fail. The Act gives the FTC final say over all substantive and procedural rules
+
+   governing Plaintiff’s administrative proceedings and de novo review over any civil sanctions the Au-
+
+   thority might impose. Accordingly, the Authority functions “subordinately to” and subject to “the
+
+   authority and surveillance” of the FTC, which is all the private nondelegation doctrine requires. FCC
+
+   v. Consumers’ Rsch., 606 U.S. 656, 692 (2025). Moreover, because his proceedings are ongoing, Plaintiff
+
+   has not exhausted his administrative remedies or challenged final agency action that would create a
+
+   cause of action under the Seventh Amendment, and his Seventh Amendment claim is also not ripe.
+
+   Finally, his Seventh Amendment claim fails on the merits because his anti-doping violation is not
+
+   analogous to any common law claim and falls within the public rights doctrine.
+
+           For these reasons, the Court should enter summary judgment for the Defendants and deny
+
+   Plaintiff’s motion for summary judgment.
+
+                                             BACKGROUND
+
+           Because the Court is familiar with the background of this case and the applicable statutory
+
+   framework, and to avoid providing duplicative briefing, the FTC incorporates by reference the back-
+
+   ground section of the Authority’s summary judgment brief, Authority’s Opp. to Pl.’s Mot. for Summ.
+
+   J. and Mem. in Supp. of Cross-Mot. for Summ. J. at 3-11, ECF No. 88 (“Authority Mot.”).
+
+
+
+
+                                                       1
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 11 of 38
+
+
+
+
+                                               ARGUMENT
+
+       I.   Plaintiff’s administrative proceedings comport with private nondelegation principles.
+            A. Plaintiff’s proceedings are constitutional.
+
+            Plaintiff contends that his administrative proceedings violate the private nondelegation doc-
+
+   trine, without fully describing how that doctrine operates. 1 See Pl.’s Mem. in Supp. of Mot. for Summ.
+
+   J. at 10 n.1, ECF No. 83 (“Pl.’s Mot.”). The Court should reject Plaintiff’s argument because the
+
+   Authority “function[s] subordinately” to the FTC and subject to its “authority and surveillance,” and
+
+   thus, the Authority’s relationship with the FTC is “unquestionably valid.” Consumers’ Rsch., 606 U.S. at
+
+   692.
+
+            For context, the private nondelegation doctrine was first applied to ordinances that allowed
+
+   homeowners to set zoning requirements for their own neighborhoods. Wash. ex rel. Seattle Title Tr. Co.
+
+   v. Roberge, 278 U.S. 116, 120-22 (1928); Thomas Cusack Co. v. City of Chicago, 242 U.S. 526, 530 (1917);
+
+   Eubank v. Richmond, 226 U.S. 137, 143-44 (1912). The Supreme Court held that those ordinances were
+
+   unconstitutional because they “conferr[ed] the power on some property holders to virtually control
+
+   and dispose of the property rights of others,” without preventing property owners from making public
+
+   policy “solely for their own interest, or even capriciously.” Eubank, 226 U.S. at 143-44. These ordi-
+
+   nances contained “delegation[s] of power” that were “repugnant to the due process clause of the
+
+   Fourteenth Amendment,” Roberge, 278 U.S. at 122 (citing Eubank, 226 U.S. at 142), because they bound
+
+   government to officials to the decisions of private entities not “bound by any official duty,” id., and
+
+   gave the decisions of private entities “the effect of law,” Thomas Cusack Co., 242 U.S. at 531.
+
+
+
+
+   1
+    Though Plaintiff purports to bring both of his claims as facial and as-applied challenges, see Pl.’s Mot.
+   at 10 n.1, his brief does not even attempt to satisfy the standard for facial challenges for either claim.
+   “[A] plaintiff cannot succeed on a facial challenge unless he establishes that no set of circumstances
+   exist under which the law would be valid[,]” Moody v. NetChoice, LLC, 603 U.S. 707, 723 (2024) (citation
+   omitted), but Plaintiff has argued only the facts of his own case. The choice to litigate a case “as [a]
+   facial challenge[] comes at a cost,” because “[f]or a host of good reasons, courts usually handle con-
+   stitutional claims case by case, not en masse.” Id. Because Plaintiff has not even tried to show that the
+   Act is unconstitutional in the majority of applications, his facial challenges fail.
+                                                        2
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 12 of 38
+
+
+
+
+           The Supreme Court first applied the private nondelegation doctrine to the federal government
+
+   in Carter v. Carter Coal Co., 298 U.S. 238 (1936). There, the Court held unlawful a federal statute that
+
+   allowed the producers of more than two-thirds of the coal in any given district to set wages and hours
+
+   for all the producers in that district, unconstrained by any public agency review. Id. at 281-83. The
+
+   Court held that “obnoxious” delegation “to private persons whose interests may be and often are
+
+   adverse to the interests of others in the same business” was “a denial of rights safeguarded by the due
+
+   process clause[.]” Id. at 311.
+
+           Soon thereafter, however, the Supreme Court clarified that government agencies may still “rely
+
+   on advice and assistance from private actors.” Consumers’ Rsch., 606 U.S. at 692 (citation modified).
+
+   After Carter Coal, Congress enacted a new statute under which local boards of private coal producers
+
+   would “operate as an aid to the [National Bituminous Coal] Commission but subject to its pervasive
+
+   surveillance and authority.” Sunshine Anthracite Coal Co. v. Adkins, 310 U.S. 381, 388 (1940). The new
+
+   statute “specifie[d] in detail the methods of [the boards’] organization and operation, the scope of
+
+   their functions, and the jurisdiction of the Commission over them.” Id. The statute “permitt[ed] boards
+
+   of coal companies to propose minimum coal prices to a Government agency for approval, disapproval,
+
+   or modification.’” Consumers’ Rsch., 606 U.S. at 692 (citation omitted). In reviewing this revised scheme,
+
+   the Court held that no constitutional problem arose merely from private industry involvement. Adkins,
+
+   310 U.S. at 399. The revised scheme was permissible because “members of the code function subor-
+
+   dinately to” the agency and were subject to its “authority and surveillance[.]” Id. Thus, the government
+
+   agency and “not the code authorities, determine[d] the prices,” and “[s]ince lawmaking [was] not en-
+
+   trusted to the industry,” the “scheme [was] unquestionably valid.” Id.
+
+           The Supreme Court’s 2025 decision in Consumers’ Research reaffirmed that these remain the
+
+   principles governing private delegations. See 606 U.S. at 692-95. So long as a private entity functions
+
+   “subordinately to” and subject to “the authority and surveillance of” a government agency, the Con-
+   stitution allows a government agency to rely on the advice and assistance of a private entity. Id. at 692
+
+   (quoting Carter Coal, 310 U.S. at 399).
+
+
+                                                       3
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 13 of 38
+
+
+
+
+           Under this standard, Plaintiff’s private nondelegation claim fails. The Act “gives the FTC su-
+
+   pervision over the rules that govern the horseracing industry.” Oklahoma v. United States, 163 F.4th 294,
+
+   308 (6th Cir. 2025) (“Oklahoma II”). “The Act permits [the Authority] to draft proposed rules on
+
+   racetrack safety and anti-doping matters,” “[b]ut they are just that: proposals.” Id. “No such proposal
+
+   becomes a binding rule until the FTC approves it[.]” Id.; 15 U.S.C. § 3053(b)(2) (“A proposed rule . . .
+
+   of the Authority shall not take effect unless the proposed rule . . . has been approved by the Commis-
+
+   sion.”). This includes all applicable rules governing investigations, charging, adjudication, and sanc-
+
+   tions for anti-doping and medication control rule violations. See Defs.’ Supp. Statement of Material
+
+   Facts ¶ 41, ECF No. 86 (“DSMF”); HISA Rule 3010(e); FTC, Order Approving the Anti-Doping and
+
+   Medication Control Rule Proposed by the Horseracing Integrity and Safety Authority (Mar. 27, 2023),
+
+   https://perma.cc/H8ZH-N7FP. Therefore, no anti-doping violation may be investigated, charged, or
+
+   adjudicated against a covered person unless it is brought under the procedures the FTC has approved,
+
+   and the entire enforcement process is subject to FTC supervision. For instance, the FTC recently
+
+   approved a rule modification that “require[s] the Authority to request and obtain the approval of the
+
+   [FTC] before issuing a subpoena” and “establish[es] a set of standards by which subpoenas are issued.”
+
+   See FTC, Order Approving the Enforcement Rule Modification Proposed by the Horseracing Integrity and Safety
+
+   Authority at 16-19 (Dec. 19, 2025), https://perma.cc/BE5D-7G9S. The FTC explained that this
+
+   change “help[s] safeguard against overreach and ensure[s] that the Authority remains at all times sub-
+
+   ordinate to the Commission, including in the use of investigatory powers.” Id. at 19. The bottom line
+
+   is the Act gives the FTC the power to supervise the Authority however it sees fit. That is all the private
+
+   nondelegation doctrine requires.
+
+           The FTC also has the final say over all sanctions imposed by the Authority. See Oklahoma II,
+
+   163 F.4th at 308 (“No sanction thus goes into final effect without the FTC’s ‘say-so.’” (quoting Con-
+
+   sumers’ Rsch., 606 U.S. at 695)). Under the Act, “[i]f the Authority imposes a final civil sanction for a
+   violation committed by a covered person pursuant to the rules or standards of the Authority, the
+
+   Authority shall promptly submit to the [FTC] notice of the civil sanction.” 15 U.S.C. § 3058(a). And
+
+
+                                                       4
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 14 of 38
+
+
+
+
+   “[w]ith respect to a final civil sanction imposed by the Authority, on application by the Commission
+
+   or a person aggrieved by the civil sanction . . . the civil sanction shall be subject to de novo review by
+
+   an administrative law judge” (“ALJ”), id. § 3058(b)(1), who “may affirm, reverse, modify, set aside, or
+
+   remand for further proceedings, in whole or in part, the final civil sanction of the Authority.” Id.
+
+   § 3058(b)(3)(A)(ii). For its part, the Commission may review “any decision of an [ALJ],” whether on
+
+   its own motion, id. § 3058(c)(1), or upon petition for review by “the Authority or a person aggrieved
+
+   by” the ALJ’s decision, id. § 3058(c)(2). The scope of the Commission’s review is broad: it may “af-
+
+   firm, reverse, modify, set aside, or remand” the ALJ’s decision and “make any finding or conclusion
+
+   that, in the judgment of the Commission, is proper and based on the record[,]” id. § 3058(c)(3)(A); it
+
+   “shall review de novo” the ALJ’s factual findings and conclusions of law, id. § 3058(c)(3)(B); and it
+
+   may consider additional evidence on motion of the Commission or a party, id. § 3058(c)(3)(C).
+
+           Finally, the Act also “gives the FTC authority, as it ‘finds necessary or appropriate,’ to ‘abro-
+
+   gate, add to, and modify’ the rules.” Oklahoma II, 163 F.4th at 308 (quoting 15 U.S.C. § 3053(c)(2)).
+
+   This means the FTC has the power to issue rules addressing any concerns it may have with how the
+
+   Authority is investigating, charging, adjudicating, and sanctioning violations generally or even as to a
+
+   specific covered person. See id. at 310 (“In full, § 5053(e) gives the FTC ultimate discretion over the
+
+   content of the rules that govern the horseracing industry and [the Authority’s] implementation of
+
+   those rules.”). The Sixth Circuit recently described how this authority ensures the FTC’s control over
+
+   the Authority’s enforcement practices, explaining that “Section 3053(e) gives the FTC tools to bring
+
+   an overzealous [Authority] to heel.” Id. at 312. For instance, if the FTC disagreed with the Authority’s
+
+   enforcement practices, it could promulgate “rules constraining the Authority’s investigations and in-
+
+   creasing the procedural rights of suspected rulebreakers,” “abrogate rules that lead to petty violations,”
+
+   or “require that the Authority seek its authority before investigating an incident.” Id. If the FTC had
+
+   more specific concerns, it “could promulgate rules requiring . . . that the Authority drop a misguided
+   investigation into a particular jockey, or conversely, that [it] pursue an enforcement action against a
+
+   recalcitrant rule breaker.” Id. As the Sixth Circuit explained, through § 3053(e), “the FTC’s capacity to
+
+
+                                                       5
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 15 of 38
+
+
+
+
+   control the Authority’s enforcement activities ensures that the FTC, not [the Authority], is the agency
+
+   of ultimate resort that decides how the federal government enforces the Act,” id., and that suffices for
+
+   private nondelegation purposes.
+
+            It is thus no surprise that all three circuits that have considered private nondelegation chal-
+
+   lenges to the Act’s rulemaking structure, and two out of three circuits that have considered challenges
+
+   to its enforcement structure, have found it constitutional. See Oklahoma v. United States, 62 F.4th 221,
+
+   229-33 (6th Cir. 2023) (“Oklahoma I”) (explaining “all told, the Horseracing Authority is subject to the
+
+   FTC’s pervasive surveillance and authority, revealing the Authority operates as an aid to the FTC,
+
+   nothing more,” and rejecting both rulemaking and enforcement challenges to the Act (citation modi-
+
+   fied)), vacated 145 S. Ct. 2836 (2025) (Mem.); Walmsley v. FTC, 117 F.4th 1032, 1039 (8th Cir. 2024)
+
+   (holding that “the Act’s rulemaking structure does not violate the private nondelegation doctrine” and
+
+   that “statute is not unconstitutional on its face because the Commission’s rulemaking and revision
+
+   power gives it pervasive oversight and control of the Authority’s enforcement activities” (citation
+
+   modified)), vacated 145 S. Ct. 2870 (2025) (Mem.); Nat’l Horsemen’s Benevolent & Prot. Ass’n v. Black, 107
+
+   F.4th 415, 424 (5th Cir. 2024) (“NHBPA II”) (holding that “[b]ecause the FTC has ultimate say on
+
+   what the rules are, the Authority’s power to propose horseracing rules does not violate the private
+
+   nondelegation doctrine,” but that the “Authority does not function subordinately to the FTC when
+
+   enforcing HISA”), vacated 145 S. Ct. 2837 (2025) (Mem.). Although the Supreme Court recently
+
+   granted the petitions for certiorari in all three of those cases, vacated the judgments, and remanded
+
+   for further consideration in light of Consumers’ Research, as explained above, Consumers’ Research only
+
+   confirmed that the same principles set forth in Adkins continue to govern the private nondelegation
+
+   doctrine. It is thus no surprise that, on remand, the Sixth Circuit again concluded that both the Act’s
+
+   rulemaking and enforcement provisions comport with those principles (as discussed above). See Ok-
+
+   lahoma II, 163 F.4th 294 (“The Horseracing Authority is subordinate to the agency. The Authority
+   yields to FTC supervision and lacks the final say over rulemaking and enforcement of the law[.]”). 2
+
+
+   2
+       Remand proceedings remain ongoing in Walmsley and NHBPA.
+                                                   6
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 16 of 38
+
+
+
+
+            Further, when reviewing the comparable statutory scheme involving the Securities and Ex-
+
+   change Commission (“SEC”) and private self-regulatory organizations (“SROs”), courts have held
+
+   “[i]n case after case,” that “the SEC’s ultimate control over the rules and their enforcement makes the
+
+   SROs permissible aides and advisors.” Oklahoma, 62 F.4th at 229; see, e.g., Johnson & Co. v. SEC, 198
+
+   F.2d 690, 695 (2d Cir. 1952); Todd & Co. v. SEC, 557 F.2d 1008, 1012-13 (3d Cir. 1977); First Jersey
+
+   Sec., Inc. v. Bergen, 605 F.2d 690, 697 (3d Cir. 1979); Sorrell v. SEC, 679 F.2d 1323, 1325-26 (9th Cir.
+
+   1982).
+
+            B. Plaintiff’s arguments fail to show that his adjudication violates the private nondele-
+               gation doctrine.
+            For all the reasons above, the Act and the FTC and Authority’s application of the Act’s regu-
+
+   latory scheme to Plaintiff do not violate the private nondelegation doctrine. Plaintiff’s arguments to
+
+   the contrary fail to show otherwise.
+
+            First, Plaintiff claims that the Horseracing Integrity and Welfare Unit’s (“HIWU”) 3 collection
+
+   and testing of urine and blood samples, charging of an anti-doping and medication control rules vio-
+
+   lation, and arbitration of that charge violate the private nondelegation doctrine because those actions
+
+   supposedly occurred without FTC involvement. See Pl.’s Mot. at 14-16. But as Plaintiff acknowledges,
+
+   each of those steps occurred under specific procedures provided for in the governing rules. See id.
+
+   (citing HISA Rules 3132(a), (c), 3212, 3247(a)(1), 3261, 7030). And as described above, all of those
+
+   rules—and any others potentially relevant—could not (and did not) go into effect until they were
+
+   reviewed and approved by the FTC. See DSMF ¶ 41; FTC, HISA Anti-Doping and Medication Control
+
+   Rule, 88 Fed. Reg. 5,070 (Jan. 26, 2023). Further, if the FTC had an issue with how the Authority was
+
+   performing these approved enforcement activities, it is empowered under § 3053(e) authority to ab-
+
+   rogate, add to, or modify the existing rules to require the Authority to do things differently. That the
+
+   FTC could be described as having chosen “inaction” here does not change that “the FTC could sub-
+
+   ordinate every aspect of the Authority’s enforcement.” Oklahoma II, 163 F.4th at 312; see also Consumers’
+
+   Research, 606 U.S. at 695 (“[T]he relevant legal question is not how often the FCC revises the
+
+   3
+       HIWU is the Authority’s independent enforcement agency.
+                                                   7
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 17 of 38
+
+
+
+
+   Administrator’s projections, just as in Sunshine Anthracite it was not how often the agency rejected the
+
+   coal companies’ pricing advice. It is sufficient in such schemes that the private party’s recommenda-
+
+   tions (as is true here) cannot go into effect without an agency’s say-so, regardless of how freely given.”).
+
+   And of course, the FTC also maintains the power to review the Authority’s conduct after the fact—
+
+   as it is already doing in this very case. See Joint Statement of Undisputed Material Facts ¶¶ 47-58, ECF
+
+   No. 84 (“JSMF”); FTC, Administrative Law Judge Decision of Application for Review, ECF No. 58-
+
+   1 (“ALJ Decision”); FTC, Order Partially Staying Administrative Law Judge’s Decision, Granting Re-
+
+   view, and Ordering Briefing Schedule, ECF No. 59-1 (“Commission Review Order”). This satisfies
+
+   the private nondelegation doctrine. Plaintiff’s evident preference that the FTC “micromanage every
+
+   particularized decision the Authority makes in an investigation,” does not change that the FTC’s “[s]er-
+
+   ial layers of review of any proposed sanctions, together with [its] rulemaking powers over enforcement
+
+   actions, give it ‘pervasive’ oversight and control of the Authority’s enforcement activities.” Oklahoma
+
+   II, 163 F.4th at 312 (quoting Adkins, 310 U.S. at 388).
+
+           Second, Plaintiff characterizes investigation, charging, and adjudication as executive powers re-
+
+   served to the FTC alone. But in doing so, Plaintiff cites cases outside the private nondelegation con-
+
+   text. See Pl.’s Mot. at 14-16. And the critical question, as endorsed by the Supreme Court in Consumers’
+
+   Research, is whether the government agency retains sufficient control over the private entity. Because
+
+   the FTC has final say over what rules govern these processes and what sanctions are imposed in
+
+   particular cases, it retains sufficient control of these functions— whatever their nature—to satisfy the
+
+   nondelegation doctrine.
+
+           Third, Plaintiff challenges the Authority’s imposition of (1) a provisional suspension and (2) a
+
+   two-year suspension without FTC review. See id. at 15-16. Neither creates a private nondelegation
+
+   issue. As to the provisional suspension, Plaintiff’s claim on this point is now moot: Plaintiff has already
+
+   served (and then was no longer subject) to a provisional suspension. JSMF ¶ 25. And now the Au-
+   thority no longer imposes provisional suspensions in the ordinary course. Id.; HISA, HISA Announce-
+
+   ment Regarding Provisional Suspensions (Nov. 4, 2024), ECF No. 29-1 (also available at
+
+
+                                                        8
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 18 of 38
+
+
+
+
+   https://perma.cc/83UM-H6MS). At any rate, Plaintiff cites the FTC-approved rule providing that
+
+   HIWU would ordinarily impose provisional suspensions for alleged violations of the banned-sub-
+
+   stances rules. See Pl.’s Mot. at 15 (citing HISA Rule 3247(a)(1)).
+
+           Plaintiff’s two-year suspension was also imposed pursuant to an FTC-approved rule. See ALJ
+
+   Decision at 15-16 (citing HISA Rule 3223). And at least as importantly, the FTC—both an FTC ALJ
+
+   and the full Commission—will itself review Plaintiff’s case before that suspension becomes final. In-
+
+   deed, the full Commission immediately stayed the monetary fine imposed by the ALJ, JSMF ¶ 47; that
+
+   it declined to stay Plaintiff’s suspension does not mean that it lacked the authority to do so, just that
+
+   it chose not to exercise its discretion in that way. Taken together, these facts establish that the FTC
+
+   has the final say over the suspension imposed on Plaintiff, and the suspension thus raises no private
+
+   nondelegation concerns.
+
+           Plaintiff cites Alpine Securities Corp. v. FINRA, 121 F.4th 1314 (D.C. Cir. 2024), in support of
+
+   this argument, but that case supports Defendants, not Plaintiff. The plaintiff in that case asserted that
+
+   the private Financial Industry Regulatory Authority (“FINRA”) could not constitutionally expel one
+
+   of its members through its own expedited proceedings—which “effectively amount[ed] to expulsion
+
+   from the securities industry as a whole,” id. at 1326—before the SEC had the opportunity to review
+
+   the decision. Under the regulatory scheme at issue there, however, an expulsion took “effect immedi-
+
+   ately upon the issuance and prompt service of FINRA’s decision,” and federal law specified “that the
+
+   SEC review must wait until after FINRA has issued its final decision and imposed any sanction.” Id.
+
+   (citing 15 U.S.C. § 78s(d)(1)-(2)). “Taken together,” the D.C. Circuit concluded, “those provisions
+
+   mean that SEC review can come only after, and not before, the expulsion takes effect,” id., and this
+
+   created a private nondelegation problem, particularly in light of the gravity and finality of the penalty
+
+   imposed. Here, by contrast, the arbitrator’s suspension decision was not effective immediately: the
+
+   arbitrator’s decision issued July 9, 2025, but the suspension was not effective until July 15, 2025. JSMF
+   ¶¶ 33, 39. Plaintiff could have sought a stay of the suspension from the FTC during that 6-day period,
+
+   see 15 U.S.C. § 3058(d), but did not. Nor did he even challenge his liability for the violation or the
+
+
+                                                       9
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 19 of 38
+
+
+
+
+   imposition of the suspension in his appeal to the ALJ. DSMF ¶¶ 51-55; Notice of Appeal and Appli-
+
+   cation for Review (July 15, 2025), ECF No. 50-6. Plaintiff cannot claim he suffered some sort of
+
+   constitutional harm from lack of FTC review when he had the opportunity to seek such review, but
+
+   opted not to.
+
+           For all these reasons, Plaintiff’s private nondelegation claim fails as a matter of law.
+
+    II.    Plaintiff cannot prevail on his Seventh Amendment claim.
+
+           A. The Court should not reach the merits of Plaintiff’s Seventh Amendment claim.
+
+           As a threshold matter, the Court should not reach the merits of Plaintiff’s Seventh Amend-
+
+   ment claim for several reasons: Plaintiff has not exhausted his administrative remedies, as required by
+
+   the Administrative Procedure Act (“APA”); there is no reviewable final agency action; and he cannot
+
+   satisfy the ripeness doctrine.
+
+           “Generally, when Congress creates procedures designed to permit agency expertise to be
+
+   brought to bear on particular problems, those procedures are to be exclusive.” Free Enter. Fund v. Pub.
+
+   Accounting and Oversight Bd., 561 U.S. 477, 489 (2010); see also Carr v. Saul, 593 U.S. 83, 88 (2021) (“Ad-
+
+   ministrative review schemes commonly require parties to give the agency an opportunity to address
+
+   an issue before seeking review of that question.”). And here, the Act makes clear that Congress con-
+
+   templated that challenges to an adjudication would be subject to APA review after the conclusion of
+
+   administrative proceedings. See 15 U.S.C. § 3058(b)(3)(B); id. § 3058(c)(2)(B) (designating which
+
+   agency decisions are “final”).
+
+           Under the APA, “judicial review is not available until ‘an aggrieved party has exhausted all
+
+   administrative remedies expressly prescribed by statute or agency rule.’” Ibarra v. Swacina, 628 F.3d
+
+   1269 (11th Cir. 2010) (quoting Darby v. Cisneros, 509 U.S. 137, 146 (1993)). “At that point the agency
+
+   action is final . . . and therefore subject to judicial review.” Id. (citation modified) (citing 5 U.S.C.
+
+   § 704). Relatedly, the APA only “authorizes review of ‘final agency actions.’” Fla. Agency for Health Care
+   Admin. v. Admin. for Ctrs. for Medicare & Medicaid Servs., 161 F.4th 765, 776 (11th Cir. 2025) (quoting 5
+
+   U.S.C. § 704). “Two conditions generally must be satisfied for agency action to be final under the
+
+
+                                                       10
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 20 of 38
+
+
+
+
+   APA.” Id. (citation omitted). “The action must (1) ‘mark the consummation of the agency’s deci-
+
+   sionmaking process’ and (2) ‘be one from which rights or obligations have been determined, or from
+
+   which legal consequences will flow.’” Id. (quoting Bennett v. Spear, 520 U.S. 154, 177-78 (1997)) (em-
+
+   phasis added)). “This two-prong framework . . . [is] the black letter standard,” and both of these “two
+
+   conditions must be satisfied for agency action to be final.” Okeelanta Corp. v. U.S. Army Corps of Eng’rs,
+
+   132 F.4th 1320, 1333 (11th Cir. 2025) (citations omitted).
+
+           Plaintiff has not satisfied the APA’s exhaustion and finality requirements. Because Plaintiff’s
+
+   administrative proceedings remain ongoing and the Commission may address the same Seventh
+
+   Amendment claim he raises here, he has neither exhausted his administrative remedies nor challenged
+
+   reviewable final agency action. See JSMF ¶ 49. By statute, the Commission has the authority to “affirm,
+
+   reverse, modify, set aside, or remand” the ALJ’s decision and “make any finding or conclusion that,
+
+   in the judgement of the Commission, is proper and based on the record.” 15 U.S.C. § 3058(c)(3)(A).
+
+   The Commission’s review is de novo, and it may consider additional evidence. Id. § 3058(c)(3)(B), (C).
+
+   Therefore, the Commission could remedy any potential Seventh Amendment injury through the ad-
+
+   ministrative process, obviating any need to seek relief from this Court. And even if the Commission
+
+   did not resolve Plaintiff’s claim in its entirety, its decision would likely affect whatever might remain
+
+   to be judicially reviewed. For instance, the arguments before this Court would change substantially if
+
+   the Commission invalidated the ALJ’s imposition of the monetary fine—as the Commission has al-
+
+   ready signaled it is considering through its order exercising sua sponte review, staying the fine, and
+
+   directing to the parties to brief whether the ALJ was authorized to impose the fine. See JSMF ¶¶ 47,
+
+   49; Commission Review Order.
+
+           For similar reasons, there is no final agency action. Because the Commission has exercised its
+
+   authority to sua sponte review the ALJ’s decision, but has not issued its final decision, there has been
+
+   no consummation of the agency’s decisionmaking process. See JSMF ¶¶ 47-49; 15 U.S.C.
+   § 3058(b)(3)(B) (“A decision by [the ALJ] shall constitute the decision of the Commission without
+
+   further proceedings unless a notice or application for review is timely filed[.]” (emphasis added)). To
+
+
+                                                      11
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 21 of 38
+
+
+
+
+   the extent portions of the arbitrator’s and the ALJ’s decisions remain in effect pending Commission
+
+   review, they are “of a merely tentative or interlocutory nature.” Bennett, 520 U.S. at 178. The Commis-
+
+   sion has not yet had the final word, and for purposes of APA review the result is clear: “No final
+
+   administrative decision, no judicial review.” Okeelanta Corp, 132 F.4th at 1333 (citation omitted).
+
+           Plaintiff cannot circumvent the APA’s requirements simply by invoking 28 U.S.C. § 1331 as a
+
+   basis for jurisdiction. To “raise a claim in federal court,” a plaintiff “must demonstrate both that a
+
+   federal court will have jurisdiction over [its] claim, and also that [the plaintiff] has a right of action to
+
+   initiate that claim.” Harris Cty. v. MERSCORP Inc., 791 F.3d 545, 552 (5th Cir. 2015) (emphasis added).
+
+   “In other words, establishing the court’s jurisdiction and the litigants’ right of action are two require-
+
+   ments that must be satisfied independently.” Id. (citing Nat’l R.R. Passenger Corp. v. Nat’l Ass’n of R.R.
+
+   Passengers, 414 U.S. 453, 455-56 (1974)); see also Soul Quest Church of Mother Earth, Inc. v. Att’y Gen., U.S.,
+
+   92 F.4th 953, 969 (11th Cir. 2023) (same). “Section 1331 does not create an independent pri-
+
+   vate right of action. Instead, when seeking review of an agency action, the APA is a vehicle for federal
+
+   question jurisdiction.” Walker v. Wormuth, 2024 WL 4708981, at *2 n.1 (5th Cir. Nov. 7, 2024) (per
+
+   curiam) (citation modified); Stieglitz v. IronMountain Sols., Inc., 2024 WL 6895827, at *8 (N.D. Ala. Nov.
+
+   12, 2024) (“Federal courts have federal question subject matter jurisdiction under § 1331 only when
+
+   Congress explicitly or implicitly has created a private right of action independent of this section sup-
+
+   porting a given plaintiff’s claim.” (quoting Storey v. Rubin, 976 F. Supp. 1478, 1483 (N.D. Ga. 1997)).
+
+           Plaintiff’s motion points to no other authority that supplies a private right of action to bring
+
+   his Seventh Amendment claim, other than the APA. See Pl.’s Mot. at 11 n.2 (citing 5 U.S.C. § 704); see
+
+   also Compl. at 22 (citing 5 U.S.C. § 702). While Plaintiff’s complaint also invokes an “Implied Equitable
+
+   Cause of Action,” neither it nor Plaintiff’s summary judgment briefing identifies any court decision
+
+   recognizing an implied equitable cause of action for Seventh Amendment claims. See Egbert v. Boule,
+
+   596 U.S. 482, 491-92 (2022) (emphasizing that implied constitutional causes of action are disfavored).
+   Plaintiff therefore must assert this constitutional claim under the APA or not at all. See, e.g., Alexander
+
+   v. Trump, 753 F. App’x 201, 206 (5th Cir. 2018) (dismissing claims challenging an agency action that
+
+
+                                                         12
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 22 of 38
+
+
+
+
+   were asserted “direct[ly]” under the Constitution); Ketcham v. U.S. Nat’l Park Serv., 2016 WL 4268346,
+
+   at *1-2 (D. Wyo. Mar. 29, 2016) (rejecting the notion that a plaintiff can assert a “stand-alone consti-
+
+   tutional challenge” to an agency action separate from APA). And under the APA, Plaintiff must ex-
+
+   haust his administrative remedies and can only challenge final agency action.
+
+           Plaintiff’s citation to Axon Enterprises, Inc. v. FTC, 598 U.S. 175 (2023), does not help him. The
+
+   question decided in Axon was whether special statutory review schemes can strip district courts of
+
+   jurisdiction over structural constitutional challenges, id. at 180, which as explained, is distinct from
+
+   whether a plaintiff has a right of action. And importantly, Plaintiff’s Seventh Amendment claim is
+
+   substantively distinct from the claims in Axon. Those claims challenged the “structure or very exist-
+
+   ence of an agency” on the theory that the agency was “wielding authority unconstitutionally in all or
+
+   a broad swath of its work,” and they were untethered from any “specific substantive decision” in the
+
+   petitioners’ agency proceedings. Id. at 189. Indeed, the petitioners in Axon would have had the “same
+
+   claim” even if they had “won before the agency.” Id. at 191. The same is not true of Plaintiff’s Seventh
+
+   Amendment claim, which is completely intertwined with the specific charges, sanctions, and outcome
+
+   of his administrative proceedings. See, e.g., Pl.’s Mot. at 17-22 (arguing Seventh Amendment claim
+
+   based on (1) the fine “of up to $25,000 or 25% of the total purse (whichever is greater)” that may be
+
+   imposed against him and (2) the “nature” of the “Banned Substances Claim against Serpe”). Plaintiff
+
+   would have no Seventh Amendment claim if he were found not liable for the HISA Rule 3212 viola-
+
+   tion, and at a minimum, his claim would change substantially if no fine were ultimately imposed.
+
+   Unlike the structural constitutional claims raised by the petitioners in Axon, Plaintiff’s Seventh
+
+   Amendment claim does not challenge the FTC’s “power generally” to discipline covered persons; he
+
+   instead challenges something “particular about how that power [i]s wielded”—namely, that some types
+
+   of charges may be brought without the procedural protection of a jury trial. Axon, 598 U.S. at 193,
+
+   189.
+           That Seventh Amendment claims are different in kind from the structural constitutional claims
+
+   at issue in Axon is evident from recent caselaw. Post-Axon, many district courts have held that they
+
+
+                                                      13
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 23 of 38
+
+
+
+
+   still lack jurisdiction to hear collateral Seventh Amendment challenges to ongoing agency proceedings,
+
+   and instead, have recognized that those claims must be channeled through statutory review schemes. 4
+
+   Consequently, there is no reason for this Court to conclude that whatever cause of action was available
+
+   for the claims in Axon is also available to Plaintiff here.
+
+           In addition to Plaintiff’s failure to exhaust his administrative remedies, challenge final agency
+
+   action, or identify a cause of action, Plaintiff’s claim is unripe. Simply put: Plaintiff may, in part, be
+
+   challenging a fine he may never have to pay. The Commission has not yet had the opportunity to
+
+   address Plaintiff’s Seventh Amendment claim, nor has it addressed any Seventh Amendment challenge
+
+   to HISA proceedings after the Supreme Court’s decision in SEC v. Jarkesy, 603 U.S. 109 (2024). Be-
+
+   cause Plaintiff’s arguments are contingent upon whether the Commission affirms, reverses, or modi-
+
+   fies the sanctions originally imposed by the arbitrator as well as the fine imposed by the ALJ, they are
+
+   not ripe. See Trump v. New York, 592 U.S. 125, 131 (2020) (explaining Article III requires that a case
+
+   “must be ripe—not dependent on contingent future events that may not occur as anticipated, or in-
+
+   deed may not occur at all.” (citations omitted)); Florida v. Dep’t of Health & Human Servs., 739 F. Supp.
+
+   3d 1091, 1102 (M.D. Fla. 2024) (explaining that in analyzing ripeness “courts are generally concerned
+
+   with questions of finality, definiteness, and the extent to which resolution of the challenge depends
+
+   upon facts that may not yet be sufficiently developed” (citations omitted)).
+
+           For these reasons, the Court should decline to reach the merits of Plaintiff’s Seventh Amend-
+
+   ment claim.
+
+           C. Plaintiff’s adjudication comports with the Seventh Amendment.
+
+           Even setting threshold issues aside, Plaintiff cannot prevail on his Seventh Amendment claim.
+
+
+   4
+    See, e.g., Millenia Hous. Mgmt. v. U.S. Dep’t of Hous. & Urban Dev., 735 F. Supp. 3d. 1051, 1063, 1066
+   (N.D. Ohio 2025); NCRNC, LLC v. Kennedy, 786 F. Supp. 3d 496, 508(N.D.N.Y. 2025); Vape Cent.
+   Grp. v. FDA, 2025 WL 637416, at *9 (D.D.C. Feb. 27, 2025); Huff and Puffers, LLC v. FDA, 2025 WL
+   1092696, at *6 (C.D. Cal. Feb. 27, 2025); Waffle House, Inc. v. NLRB, 2025 WL 602744, at *9 (D.S.C.
+   Feb. 10, 2025); VHS Acquisition Subsidiary No. 7 v. NLRB, 808 F. Supp. 3d 1, 3, 4(D.D.C. 2024); YAPP
+   USA Automotive Sys., Inc. v. NLRB, 748 F. Supp. 3d 497, 512-14 (E.D. Mich. 2024), appeal dismissed,
+   No. 24-1754, 2025 WL 2606098 (6th Cir. Aug. 4, 2025); Nexstar Media, Inc. Grp. v. NLRB, 746 F. Supp.
+   3d 464, 473 (N.D. Ohio 2024).
+                                                        14
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 24 of 38
+
+
+
+
+   The Seventh Amendment provides that “the right of trial by jury shall be preserved” for “Suits at
+
+   common law, where the value in controversy shall exceed twenty dollars.” U.S. Const. amend. VII.
+
+   The Seventh Amendment thus “preserve[s] the right to jury trial as it existed in 1791” and applies to
+
+   “statutory rights that are analogous to common-law causes of action ordinarily decided in English law
+
+   courts” at the Founding (as opposed to claims in equity and admiralty). Granfinanciera, S.A. v. Nordberg,
+
+   492 U.S. 33, 41-42 (1989) (citation omitted). A claim implicates the Seventh Amendment if it is “legal
+
+   in nature”—an inquiry that turns on “the cause of action” and “remedy” at issue, with the remedy
+
+   being the “more important” factor. Jarkesy, 603 U.S. at 122-23 (citation modified). Even if a claim
+
+   implicates the Seventh Amendment, a jury trial is not required if the matter involves “public rights”
+
+   as opposed to “private rights” that are “the stuff of the traditional actions at common law tried by the
+
+   courts at Westminster in 1789.” Id. at 127-28.
+
+           Relying on the Supreme Court’s decision in Jarkesy, Plaintiff insists he is entitled to a jury trial
+
+   for the anti-doping and medication control rule violation (or “banned substances” or “HISA Rule
+
+   3212” claim) brought against him. Turning to the first inquiry under Jarkesy—remedy—Plaintiff makes
+
+   no attempt to explain how the sanctions imposed by the arbitrator’s decision are the “type[s] of
+
+   remed[ies] at common law that could only be enforced in the courts of law.” Id. at 123-25; see also
+
+   JSMF ¶ 38; Arbitration Decision at 15-16, ECF No. 50-4 (imposing the following sanctions: (1) dis-
+
+   qualification of the results that Fast Kimmie obtained in the horserace at issue, including the forfeiture
+
+   of all purses and other compensation, prizes, trophies, points, and rankings and repayment or surren-
+
+   der (as applicable) to the race organizer; (2) a two-year period of ineligibility for Plaintiff; and (3) public
+
+   disclosure). To the contrary, as Plaintiff has acknowledged, these sanctions are “equitable” in nature.
+
+   See Pl.’s Renewed Mot. for Prelim. Inj. at 1, ECF No. 50-1; see also Liu v. SEC, 591 U.S. 71, 80-81
+
+   (2020) (explaining that disgorgement falls “squarely within the heartland of equity”); City of Monterey v.
+
+   Del Monte Dunes at Monterey, Ltd., 526 U.S. 687, 719 (1991) (“It is settled law that the Seventh Amend-
+   ment does not apply” to “suits seeking only injunctive relief” or other forms of “equitable relief”).
+
+           Plaintiff instead focuses on his comparison of Authority “fines” to the civil monetary penalties
+
+
+                                                         15
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 25 of 38
+
+
+
+
+   at issue in Jarkesy. But the Authority did not seek such a fine against Plaintiff, DSMF ¶ 44, and when
+
+   one was imposed sua sponte by the ALJ, JSMF ¶¶ 43-44, the Commission immediately, on its own
+
+   motion, exercised its authority to review that decision and stay the fine, id. ¶ 47. See also Commission
+
+   Review Order (staying monetary fine and granting Commission review). There is therefore no final
+
+   decision imposing a fine that could support a Seventh Amendment merits decision on that basis. Cf.
+
+   AT&T, Inc. v. FCC, 149 F.4th 491 (5th Cir. 2025) (holding Seventh Amendment was violated when
+
+   the Commission issued a final decision imposing a $57 million penalty and Plaintiff paid that penalty),
+
+   cert. granted sub nom., FCC v. ATT&T, Inc., --- S. Ct. ---, 2026 WL 73092 (Jan. 9, 2026).
+
+           Turning to the second inquiry under Jarkesy, the anti-doping violation with which Plaintiff has
+
+   been charged does not resemble any pre-existing action at common law; rather, it seeks to address an
+
+   issue that the common law did not address. The Act was passed in 2020 primarily to address serious
+
+   health and safety risks to both horses and jockeys. At that time, the sport had been “marred by acci-
+
+   dents,” 166 Cong. Rec. H4980 (daily ed. Sept. 29, 2020) (statement of Rep. Pallone), and Thorough-
+
+   breds were dying from race-related injuries at a rate two-to-five times greater than in Europe or Asia.
+
+   H.R. Rep. No. 116-554, at 17 (2020). “Many factors” contributed to these problems, including the
+
+   “use of performance enhancing drugs (PEDs) and certain therapeutic medications.” Id.; see also Memo.
+
+   Re: Hearing on “Legislation to Promote the Health and Safety of Racehorses,” from Comm. Staff to
+
+   Subcomm. Staff at 1-3 (Jan. 24, 2020) (discussing how PEDs may be contributing to accidents). In-
+
+   deed, these concerns were highlighted during congressional deliberations. For instance, in a subcom-
+
+   mittee hearing, Representative Schakowsky explained that legislation was “vital for the health of eq-
+
+   uine animals, jockeys, and horseracing itself,” because the existing “[p]atchwork oversight, and spotty
+
+   regulation means horses are often treated with drugs designed to enhance their performance without
+
+   concern for their health.” Hearing Before the Subcommittee on Consumer Protection and Commerce
+
+   at 1-2 (Jan. 28, 2020). In turn, “[j]ockeys face real danger as well” “[b]ecause doped horses are more
+   likely to fall and injure themselves.” Id. at 2; see also id. at 6 (Statement of Rep. Pallone) (explaining the
+
+   “success of the sport rides on the health of its star athletes, the horses and the jockeys,” that the
+
+
+                                                        16
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 26 of 38
+
+
+
+
+   committee planned to “explor[e] ways to protect horses from injury and improve the general health
+
+   of horses, from examining the effect of track conditions, reducing the risk of injury, and the best use
+
+   medications,” and emphasizing “the welfare of the racehorses is of the utmost importance and that
+
+   the sport should be safe”); see also 166 Cong. Rec. 169 (Sept. 29, 2020) (Statement of Rep. Tonko)
+
+   (explaining bill “puts the equine athlete at the epicenter of this legislation and concern”).
+
+            This is a substantial departure from common law tradition, in which domestic animals, such
+
+   as horses, were the “absolute” property of man. 2 William Blackstone, Commentaries on the Laws of
+
+   England *389-90 (1766). Accordingly, “at common law, cruelty to an animal merely upon the ground
+
+   that it gave pain to the animal and for the protection or for the sake of the animal was not indictable.”
+
+   People v. Brunell, 48 How. Pr. 435, 43 (N.Y. Gen. Sess. 1874). Indeed, early state statutes to address the
+
+   treatment of animals were promulgated precisely because there was no equivalent “common law of-
+
+   fense.” Id.; see also Grise v. State, 37 Ark. 456, 458 (1881) (explaining that contemporary state laws were
+
+   “of comparatively recent origin” and reflected an “attempt to transcend what had been thought, at
+
+   common law, the practical limits of municipal government”). Thus, “because traditional rights and
+
+   remedies were inadequate to cope with a manifest public problem,” Congress passed in the Act—
+
+   which empowered the FTC and the Authority to adopt the anti-doping and medication control rules—
+
+   “new cause[s] of action, and remedies therefor, unknown to the common law.” Granfinanciera, 492 U.S.
+
+   at 60.
+
+            Further, the Act (and HISA Rule 3212) does not seek to “regulate transactions between private
+
+   individuals,” Jarkesy, 603 U.S. at 135, or to determine “the liability of one individual to another” in a
+
+   manner that would implicate private rights, Crowell v. Benson, 285 U.S. 22, 51 (1932). Liability does not
+
+   turn on whether a doped horse wins a competition, or whether any racing official or member of the
+
+   betting public was deceived into thinking a horse was not medicated. See, e.g., HISA Rule 3132(a) (“The
+
+   Agency has authority to conduct Testing on any Covered Horse both in and out of competition.”).
+   And in enforcing HISA Rule 3212, the Authority does not step into the shoes of a competitor or a
+
+   competition organizer—instead, it merely seeks to enforce the anti-doping and medication control
+
+
+                                                       17
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 27 of 38
+
+
+
+
+   rules that Congress empowered the Authority and the FTC to enact to stop this dangerous practice.
+
+   See 15 U.S.C. § 3055 (“[T]he Authority shall establish a horseracing anti-doping and medication control
+
+   program applicable to all covered horses, covered persons, and covered horseraces[.]”).
+
+           Much of Plaintiff’s brief attempts to analogize his banned substances violation to various ac-
+
+   tions in common law—a change from his previous focus on the imposition of a monetary fine. See
+
+   generally ECF No. 50-1. At any rate, Plaintiff’s attempts are unpersuasive because none of the causes
+
+   of action he cites even come close to “target[ing]] the same basic conduct” at issue here: the presence
+
+   of a banned substance in a Thoroughbred racehorse. Jarkesy, 603 U.S. at 125.
+
+           First, Plaintiff argues that the Authority’s imposition of a monetary fine is analogous to an
+
+   action in debt. But the same could be said for all monetary penalties, yet Congress can constitutionally
+
+   direct the Executive Branch to impose penalties for tax violations, Helvering v. Mitchell, 303 U.S. 391,
+
+   401-02 (1938), or violations of the immigration laws, Oceanic Steam Navigation Co. v. Stranahan, 214 U.S.
+
+   320, 339-40 (1909), without offending the Seventh Amendment. And unlike an action in debt, Rule
+
+   3212 targets specific conduct beyond mere repayment of money—namely, the improper medication
+
+   of racehorses—and further, it imposes a range of potential sanctions, with a monetary fine being only
+
+   one potential option (and one that remains very much not final in Plaintiff’s proceedings).
+
+           Second, Plaintiff attempts to analogize his banned substances violation to a common-law fraud
+
+   claim. See Pl.’s Mot. at 19-20. But a comparison of the elements of a HISA Rule 3212 violation to the
+
+   elements of common-law fraud illustrates that the claims target fundamentally different conduct. Un-
+
+   der Rule 3212, “[t]he general rule is that the presence of any amount of a Banned Substance . . . in a
+
+   Sample collected from a Covered Horse constitutes an Anti-Doping Rule Violation by the Responsible
+
+   Person of that Covered Horse.” HISA Rule 3212(a). The Rule also makes clear that “[i]t is the personal
+
+   and non-delegable duty of the Responsible Person to ensure that no Banned Substance is present in
+
+   the body of their Covered Horse(s),” and when a banned substance is found to be present, the re-
+   sponsible person is “strictly liable.” HISA Rule 3212(c). “Accordingly, it is not necessary to demon-
+
+   strate intent, Fault, negligence, or knowing Use on the part of the Responsible Person in order to
+
+
+                                                      18
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 28 of 38
+
+
+
+
+   establish that the Responsible Person has committed a Rule 3212 Anti-Doping Violation.” Id. By
+
+   contrast, the elements of a common law fraud claim are “(1) a false representation, (2) of a material
+
+   fact, (3) made intentionally and knowingly, (4) with intent to mislead, (5) reliance by the party misled,
+
+   and (6) resulting damage to the party misled.” Manis v. U.S. Dep’t of Agric., 796 F. Supp. 3d 178, 205
+
+   (M.D.N.C. 2025), appeal filed, No. 25-2001 (4th Cir. Aug. 28, 2025). There is almost no overlap between
+
+   the two. The presence of a banned substance is not clearly analogous to a false representation of a
+
+   material fact. And even more importantly, Rule 3212 requires no scienter whatsoever on the part of
+
+   the responsible person, much less intent or knowledge of the presence of a banned substance, or
+
+   intent to mislead anyone else through the presence of a banned substance. Nor does Rule 3212 require
+
+   that anyone—be it a race organizer, an individual connected to the covered horse, or the betting pub-
+
+   lic—relied on or was injured by the presence of the banned substance. Rule 3212 instead reflects a
+
+   “strict liability regime primarily intended to put an end to what Congress recognized as a” dangerous
+
+   practice. Id. at 206. This conduct is distinct from fraud, which focuses on the misleading of another
+
+   to that person’s detriment.
+
+           Plaintiff’s comparison to common law fraudulent conveyance fares no better. See Pl.’s Mot. at
+
+   20. “The modern law of fraudulent transfers had its origin in the Statute of 13 Elizabeth, which inval-
+
+   idated ‘convinous and fraudulent’ transfers designed ‘to delay, hinder or defraud creditors and others.”
+
+   BFP v. Res. Trust Corp., 511 U.S. 531, 540 (1994) (quoting 13 Eliz., ch. 5 (1570)); O. Bump, Fraudulent
+
+   Conveyances: A Treatise upon Conveyances Made by Debtors to Defraud Creditors at 13-14 (3d ed.
+
+   1882) (explaining the elements of a fraudulent conveyance include (1) “the existence of an intent to
+
+   delay, hinder, or defraud,” (2) “the consideration,” and (3) “the bona fides of the transfer.”). Contrary
+
+   to Plaintiff’s suggestion, this cause of action also requires fraudulent intent as well as a conveyance or
+
+   transfer of property at issue. HISA Rule 3212 requires neither, demonstrating that it targets different
+
+   conduct. Plaintiff’s comparison to a money damage claim for cheating during gambling games is also
+   inapt. See Pl.’s Mot. at 20. Rule 3212 imposes liability regardless of whether the doped horse placed
+
+   well or poorly in a covered race, or whether the betting public won or lost money on that race or that
+
+
+                                                      19
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 29 of 38
+
+
+
+
+   horse. Nor does Rule 3212 require money damages. Imposing consequences for the mere presence of
+
+   a banned substance in a covered horse is thus distinct from any cause of action for cheating.
+
+           Third, Plaintiff attempts to analogize Rule 3212 to common law negligence. See Pl.’s Mot. at
+
+   20-21. But again, an analysis of the elements of negligence reveals that negligence targets different
+
+   conduct than Rule 3212. “To establish a claim of negligence, a plaintiff must show (1) that defendant
+
+   owed plaintiff a duty; (2) that defendant breached that duty; (3) that this breach was the proximate
+
+   cause of plaintiff[’]s injury; and (4) that plaintiff suffered damages.” Kadylak v. Royal Caribbean Cruise,
+
+   Ltd., 167 F. Supp. 3d 1301, 1308 (S.D. Fla. 2016). Importantly, the Rule’s strict liability standard is
+
+   distinct from the reasonable duty of care standard imposed for a negligence claim. See id. at 1309
+
+   (distinguishing between a strict liability theory and the applicable “ordinary reasonable case” standard).
+
+   Further, a Rule 3212 violation does not require that the banned substance proximately cause any injury,
+
+   nor that there be resulting damage to the Authority (or anyone else). Thus, Rule 3212 operates very
+
+   differently than common law negligence, and the two claims are not analogous.
+
+           Fourth, a Rule 3212 violation is not analogous to a breach of contract claim. See Pl.’s Mot. at
+
+   21-22. “The elements of a breach of contract action are (1) a valid contract; (2) a material breach; and
+
+   (3) damages.” Beck v. Lazard Freres & Co., LLC, 175 F.3d 913, 914 (11th Cir. 1999). Unlike a breach
+
+   of contract, a Rule 3212 violation does not require any resulting damage from the presence of a banned
+
+   substance. And while “[money] damages are always the default remedy for breach of contract,” United
+
+   States v. Winstar Corp., 518 U.S. 839, 885 (1996), a host of equitable remedies are available when Rule
+
+   3212 has been violated. See HISA Rule 3220. Further, although contract law most obviously promotes
+
+   the ability of parties to contract to do business, as explained, the HISA Rules (and Rule 3212 in par-
+
+   ticular) are animated by a different concern: the prevention of tragedies on the track.
+
+           If more were needed, Plaintiff’s own arguments undermine that the HISA Rules create any-
+
+   thing resembling a contractual relationship between the Authority and covered persons like Plaintiff.
+   Plaintiff contends that the HISA registration process provided “no opportunity for any meaningful
+
+   negotiation,” and the Covered Persons Agreement “is not mutually binding,” and “imposes no
+
+
+                                                       20
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 30 of 38
+
+
+
+
+   obligation at all on the Authority.” Pl.’s Mot. at 35. Given the dynamics Plaintiff identifies in this
+
+   regulatory scheme, Plaintiff cannot also claim that the Rule 3212 violation he is accused of is compa-
+
+   rable to a breach of contract.
+
+           Fifth, a Rule 3212 violation is not analogous to a tortious interference claim. See id. at 22. The
+
+   elements of a tortious interference claim are (1) “the existence of a business relationship”; (2)
+
+   “knowledge of the relationship on the part of the defendant”; (3) “an intentional and unjustified in-
+
+   terference with the relationship by the defendant”; and (4) “damage to the plaintiff as a result of the
+
+   breach of the relationship.” Duty Free Ams., Inc. v. Estee Lauder Cos., Inc., 797 F.3d 1248, 1279 (11th Cir.
+
+   2015). In contrast to Rule 3212, a tortious interference claim imposes scienter requirements as to both
+
+   the business relationship and the interfering conduct, as well as resulting damages. And while Plaintiff
+
+   emphasizes the “race[] integrity,” and his “competitor’s reasonable expectations of fair competition,”
+
+   Pl.’s Mot. at 22, a covered person may be charged with a Rule 3212 violation even if the banned had
+
+   no impact on the outcome of a race, and even if no competitor suffered any injury.
+
+           Lastly, Plaintiff cites “strict liability” as a cause of action. Pl.’s Mot. at 22. But “strict liability,”
+
+   is not itself a cognizable cause of action. Instead, it reflects a legal doctrine that holds a party liable for
+
+   certain types of injuries, regardless of fault, that is incorporated into different contexts such as prod-
+
+   ucts liability, abnormally dangerous activity, and possession of wild animals. See, e.g., Godelia v. Doe 1,
+
+   881 F.3d 1309, 1318 (11th Cir. 2018) (“Florida law recognizes strict liability claims based on a manu-
+
+   facturing defect.”); Koster & Wythe v. Massey, 293 F.2d 922, 922-23 (9th Cir. 1961) (liability for foresee-
+
+   able harm irrespective of exercise of due care for ultrahazardous activity of demilitarizing incendiary
+
+   bombs); Irvine v. Rare Feline Breeding Ctr., Inc., 685 N.E. 2d 120, 123 (1997) (strict liability for possession
+
+   of wild animal cases). Strict liability does not target any type of conduct, much less the presence of a
+
+   banned substance in a Thoroughbred racehorse. And though Plaintiff briefly mentions “public wel-
+
+   fare” offenses, Pl.’s Mot. at 22, he does not explain what those offenses were, or how they target the
+   same conduct at issue here, and the case he cites suggests that this category of offenses post-dates the
+
+   development of the common law, and stems from “regulation of an administrative character”—not
+
+
+                                                          21
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 31 of 38
+
+
+
+
+   the common law. See United States v. Cordoba-Hincapie, 825 F. Supp. 485, 496 (E.D.N.Y. 1993).
+
+           B. The public rights doctrine also applies.
+
+           Even aside from the arguments above, Plaintiff’s Seventh Amendment claim fails for an addi-
+
+   tional and related reason: the anti-doping and medication control program rules fall within the public
+
+   rights exception and may be adjudicated within the Executive Branch.
+
+           As explained previously, see supra pp. 16-21, Rule 3212 does not resemble any pre-existing
+
+   actions at common law; rather, it seeks to eliminate dangerous medication practices that the common
+
+   law did not address. Congress understood that while there were tangible motivations behind medicat-
+
+   ing Thoroughbred racehorses—in many cases, either to enhance their performance, or alleviate pain—
+
+   unregulated medication had multiple negative consequences, including “mask[ing] minor injuries,
+
+   making it more difficult to detect relatively insignificant ailments that could lead to fatal injuries if not
+
+   treated,” as well as “caus[ing] significant health problems, including cardiac issues and overexertion,”
+
+   which in turn, skyrocketed accident and injury rates. See H.R. 116-554 (Sept. 29, 2020). Thus, in com-
+
+   bination, the Act and HISA Rules create an anti-doping and medication control program designed to
+
+   eliminate these negative consequences.
+
+           “In both concept and execution,” then, the anti-doping and medication control program is
+
+   “self-consciously novel.” Jarkesy, 603 U.S. at 137. Rule 3212 does not “employ the same terms of art”
+
+   as any common law claim for fraud, breach of contract, or otherwise, see supra pp. 16-21, and does not
+
+   “operate pursuant to similar legal principles” of such claims. Jarkesy, 603 U.S. at 134. Instead, the
+
+   program’s central concern—the dangerous medication of Thoroughbred racehorses—was foreign to
+
+   common law ethos, see supra pp. 16-18. This conclusion is consistent with Jarkesy’s discussion of an
+
+   earlier Supreme Court decision, Atlas Roofing Co. v. Occupational Safety & Health Review Commission, 430
+
+   U.S. 442 (1977), in which the Court held that the adjudication of workplace safety violations could be
+
+   properly assigned to the Executive Branch because such claims were unknown to the common law.
+   Further, courts evaluating similar regulatory schemes have found that they may be properly adjudi-
+
+   cated within the Executive Branch. See, e.g., Manis, 796 F. Supp. 3d at 206 (“The Horse Protection Act
+
+
+                                                        22
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 32 of 38
+
+
+
+
+   . . . is a novel regime that brings with it ‘no common law soil’ and was enacted ‘not to enable the
+
+   Federal Government to bring or adjudicate claims that traced their ancestry to the common law. Ra-
+
+   ther, Congress, in passing the HPA, permitted USDA to regulate the abuse of horses, a concern for-
+
+   eign to the common law ethos[.]” (quoting Jarkesy, 603 U.S. at 136-37); Axalta Coating Sys. LLC v.
+
+   FAA, 144 F.4th 467, 475-77 (3d Cir. 2025) (upholding constitutionality of Executive Branch adjudi-
+
+   cation of Hazardous Material Transportation safe-shipping violations because the applicable regula-
+
+   tory standards did not “bring common law soil with them” and were “unknown to the common law”).
+
+           Plaintiff’s arguments to the contrary are unavailing. See Pl.’s Mot. at 23-27. Nowhere does
+
+   Jarkesy say that the public rights’ “historic categories of adjudication” are exclusive. 603 U.S. at 129-
+
+   30; see id. at 130 (“Our opinions governing the public rights exception have not always spoken in
+
+   precise terms. This is an area of frequently arcane distinctions and confusing precedents.”). Further,
+
+   that Jarkesy concludes the public rights doctrine does not necessarily apply to all cases concerning
+
+   Congress’s interstate commerce power, see Jarkesy, 603 U.S. at 129 n.1, does not mean that Congress
+
+   can never regulate public rights in the course of regulating commerce. Consider, for instance, matters
+
+   concerning the regulation of passenger airlines or pilots generally regulated by the Federal Aviation
+
+   Administration. See, e.g., Ickes v. FAA, 299, 263 (3d Cir. 2002); Northwest Airlines, Inc. v. Minnesota, 322
+
+   U.S. 292, 303 (1944) (Jackson, J., concurring) (planes “move only by federal permission, subject to
+
+   federal inspection, in the hands of federally certified personnel and under an intricate system of federal
+
+   commands”). Those matters and others do not categorically concern rights between individuals that
+
+   existed at common law simply because they touch upon commerce. And again, though the Act as a
+
+   whole also strives to preserve the integrity of the sport, the Act and Rule 3212 in particular focus
+
+   primarily on curbing dangerous medication practices to make the sport safer, and no provisions of the
+
+   Act regulate betting or create a cause of action or remedy for the betting public. And as explained
+
+   above, this regulatory scheme (and Rule 3212 in particular) is not analogous to a common law contract
+   cause of action, and Rule 3212 is better understood as a “technical” regulation with no common law
+
+   origins. See supra pp. 20.
+
+
+                                                       23
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 33 of 38
+
+
+
+
+           C. Plaintiffs’ state action arguments have been overcome by events.
+
+           Plaintiff’s arguments about whether his arbitration was state action, see Pl.’s Mot. at 28-30,
+
+   have been overcome by events. Plaintiff’s administrative proceeding is now before the full Commis-
+
+   sion. The government does not dispute that the Commission’s proceeding is state action. 5 The Court
+
+   should therefore not unnecessarily decide such constitutional issues. See Arnaiz v. Warden, 594 F.3d
+
+   1326, 1328 n.2 (11th Cir. 2010) (“Constitutional issues should be decided as a last resort.”).
+
+           D. Serpe may have waived his Seventh Amendment jury trial.
+
+           Because the Court has indicated an interest in the issue of whether Plaintiff waived his right
+
+   to a jury trial, the FTC provides its view here. See Order at 27-30, ECF No. 65.
+
+           As the Authority explains, see Authority Mot. at 24, the knowing and voluntary standard for
+
+   waiver of the Seventh Amendment right to a jury trial may not even apply to Plaintiff’s agreement to
+
+   arbitrate here. See id. (citing Caley v. Gulfstream Aerospace Corp., 428 F.3d 1359, 1370-72 (11th Cir. 2005));
+
+   compare Bakrac, Inc. v. Villager Franchise Sys., Inc., 164 Fed. Appx. 820, 823 (11th Cir. 2006) (generally,
+
+   “[a] party may validly waive its Seventh Amendment right to a jury trial so long as the waiver is know-
+
+   ing and voluntary”). But where that standard does apply, “courts consider the conspicuousness of the
+
+   waiver provision, the parties’ relative bargaining power, the sophistication of the party challenging the
+
+   waiver, and whether the terms of the contract were negotiable.” Bakrac, 164 Fed. Appx. at 823-24.
+
+           Even assuming that the knowing and voluntary standard applies to the present case, those
+
+   factors point in both directions. On the one hand, the waiver here was relatively clear. Covered persons
+
+   who wish to participate in horseracing must register with the Authority via a portal on the Authority’s
+
+   website, see JSMF ¶¶ 2-3, registration requires consent to a Covered Persons Agreement, id. ¶ 5, and
+
+   that agreement explains that the covered person agrees to “be subject to and comply with the rules,
+
+   standards, and procedures developed by HISA and approved by the Federal Trade Commission,” id.
+
+   ¶¶ 5-6. As the parties have explained, those procedures provide for arbitration followed by FTC re-
+
+   view. Plaintiff is also a sophisticated party who describes himself as a “longtime, successful
+
+   5
+    Instead, as explained above, the FTC’s position is that Plaintiff has no right of action until the Com-
+   mission issues its final decision.
+                                                    24
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 34 of 38
+
+
+
+
+   thoroughbred horse trainer,” Pl.’s Mot. at 1, and has been represented by counsel throughout all pro-
+
+   ceedings. Admittedly, the terms of the regulatory scheme are not negotiable, and Plaintiff had no
+
+   bargaining power setting those terms. But he did have a choice: he could either opt into the scheme
+
+   and become subject to its rules and procedures, or during the registration process, he could have
+
+   selected “I Don’t Accept,” which would have rendered him ineligible to participate in covered horsera-
+
+   ces. JSMF ¶ 7.
+
+           Additionally, as Plaintiff notes, per the unconstitutional conditions doctrine, “the government
+
+   may not require a person to give up a constitutional right in exchange for a discretionary benefit where
+
+   the benefit sought has little or no relation to the right.” Lebron v. Fla. Dep’t of Children & Families, 710
+
+   F.3d 1202, 1217 (11th Cir. 2013) (citation modified). Plaintiff has not cited, and the government is not
+
+   aware, however, of any court to have recognized the unconstitutional conditions doctrine with respect
+
+   to a Seventh Amendment right to a jury trial where there has been a knowing and voluntary waiver of
+
+   that right. And although Plaintiff cites cases recognizing the doctrine’s application regarding access to
+
+   federal courts, see Pl.’s Mot. at 31 (citing Sheetz v. Cty. of El Dorado, 601 U.S. 267, 279 (2024); Terral v.
+
+   Burke Constr. Co., 257 U.S. 529, 532 (1922)), the Act’s review scheme does not require waiver of the
+
+   right to seek judicial review in an Article III court—as Defendants have maintained throughout this
+
+   lawsuit, Plaintiff may seek judicial review of a final agency decision once the administrative process
+
+   concludes.
+
+   III.    Plaintiff is not entitled to permanent injunctive relief.
+
+           Plaintiff also requests that this Court permanently enjoin his adjudication process. See Pl.’s
+
+   Mot. at 35. To obtain a permanent injunction, a “plaintiff must demonstrate: (1) that it has suffered
+
+   an irreparable injury; (2) that the remedies available at law, such as monetary damages, are inadequate
+
+   to compensate for that injury; (3) that, considering the balance of hardships between the plaintiff and
+
+   defendant, a remedy in equity is warranted; and (4) that the public interest would not be disserved by
+   a permanent injunction.” Monsanto Co. v. Geertson Seed Farms, 561 U.S. 139, 156-57 (2010).
+
+
+
+
+                                                        25
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 35 of 38
+
+
+
+
+           A. Plaintiff has not established irreparable harm.
+
+           To start, Plaintiff has not established irreparable harm. The Eleventh Circuit has made clear
+
+   that “[t]he only areas of constitutional jurisprudence where we have said that an on-going violation
+
+   may be presumed to cause irreparable injury involve the right of privacy and certain First Amendment
+
+   claims establishing an imminent likelihood that pure speech will be chilled or prevented altogether.”
+
+   Siegel v. LePore, 234 F.3d 1163, 1178 (11th Cir. 2000); see also Lukezic v. FINRA, 2025 WL 2305859, at
+
+   *3 (D.D.C. Aug. 10, 2025) (denying preliminary injunction on grounds that private nondelegation and
+
+   Seventh Amendment claims did not establish irreparable harm). So, to the extent that Plaintiff’s argu-
+
+   ments rely on prevailing on his constitutional claims alone, they fall short. And though Axon held that
+
+   being subjected “to an unconstitutionally structured decisionmaking process” subjected the plaintiffs
+
+   in that suit to injury sufficient to establish jurisdiction, as this Court has already recognized, “Axon did
+
+   not address the issue of irreparable harm, or any other issue regarding entitlement to injunctive relief.”
+
+   Serpe v. FTC, 2025 WL 2840499, at *6 n.4 (S.D. Fla. May 29, 2025); see also Leachco v. Consumer Prod.
+
+   Safety Comm’n, 103 F.4th 748, 758 (10th Cir. 2024), cert. denied, 145 S. Ct. 1047 (2025) (Mem.).
+
+           Further, the Commission has stayed Plaintiff’s monetary fine, so he has not been required to
+
+   pay any money at this point, and indeed, may never have to do so. And to the extent Plaintiff’s allega-
+
+   tions of irreparable harm stem from his two-year suspension, as this Court has previously explained,
+
+   the “asserted form of irreparable harm must bear some connection to a party’s claim.” Serpe v. FTC,
+
+   2025 WL 4098300, at *10 (S.D. Fla. Oct. 30, 2025). But were the Court to find that Plaintiff prevailed
+
+   on either his private nondelegation or Seventh Amendment claim in a way that was not connected to
+
+   his suspension, that suspension would not provide a basis for entry of injunctive relief. As the FTC
+
+   has previously argued, “[a] plaintiff’s remedy must be tailored to redress the plaintiff’s particular in-
+
+   jury,” Gill v. Whitford, 585 U.S. 48, 73 (2018) (citation omitted), and even if Plaintiff could “demonstrate
+
+   harm from one particular inadequacy in government administration,” that provides no basis for the
+   Court to enter an injunction “to remedy all inadequacies in that administration,” DaimlerChrysler Corp.
+
+   v. Cuno, 547 U.S. 332, 353 (2006); see also Alabama v. U.S. Army Corps of Eng’rs, 424 F.3d 1117, 1127
+
+
+                                                       26
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 36 of 38
+
+
+
+
+   (11th Cir. 2005) (“[A]ny motion or suit for . . . [a] permanent injunction must be based upon a cause of
+
+   action. . . . There is no such thing as a suit for a traditional injunction in the abstract.” (emphasis added)
+
+   (citation omitted)); Kaimowitz v. Orlando, Fla., 122 F.3d 41, 43 (11th Cir. 1997) (explaining a court
+
+   “should not issue an injunction when the injunction in question is not of the same character, and deals
+
+   with matters lying wholly outside the issues in the suit”); Colo. River Indian Tribes v. Marsh, 605 F. Supp.
+
+   1425, 1440 (C.D. Cal. 1985) (“[I]rreparable injury must be causally connected to the [legal] violation.”).
+
+           B. An injunction would be contrary to the public interest.
+
+           The third and fourth injunction factors “merge” when an injunction is sought against the
+
+   government, see Nken v. Holder, 556 U.S. 418, 435 (2009), and here, an injunction would be against the
+
+   public interest. There is a strong public interest in permitting Plaintiff’s administrative proceedings to
+
+   move forward as contemplated by Congress. See Maryland v. King, 567 U.S. 1301, 1303 (2012) (“Any
+
+   time a [government] is enjoined by a court from effectuating statutes enacted by representatives of its
+
+   people, it suffers a form of irreparable injury.” (citation modified)); Cornish v. Dudas, 540 F. Supp. 2d
+
+   61, 65 (D.D.C. 2008) (“[T]here is inherent harm to the agency in preventing it from enforcing regula-
+
+   tions that Congress found it in the public interest to direct that agency to develop and enforce.”). That
+
+   is particularly the case because Congress adopted the Act’s scheme to address the substantial health
+
+   and safety concerns created by doping. To enjoin Plaintiff’s proceedings at this juncture—before the
+
+   Commission has the chance to issue its final decision—would undermine those important interests by
+
+   undercutting the effectiveness of the Act’s oversight regime. And further, any cognizable harm to
+
+   Plaintiff is counteracted by the fact that Plaintiff can seek judicial review of any FTC final order. See
+
+   15 U.S.C. § 3058; 5 U.S.C. § 704 (“[F]inal agency action for which there is no other adequate remedy
+
+   in a court are subject to judicial review.”).
+
+                                                CONCLUSION
+
+           For the above reasons, the Court should enter summary judgment for the Defendants and
+   deny Plaintiff’s summary judgment motion.
+
+
+
+
+                                                        27
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 37 of 38
+
+
+
+   Dated: March 23, 2026                     Respectfully submitted,
+
+
+                                             BRETT A. SHUMATE
+                                             Assistant Attorney General
+                                             Civil Division
+
+                                             CHRISTOPHER HALL
+                                             Assistant Branch Director
+                                             Civil Division, Federal Programs Branch
+
+                                             /s/ Taylor Pitz
+                                             TAYLOR PITZ
+                                             CA Bar No. 332080
+                                             Trial Attorney
+                                             United States Department of Justice
+                                             Civil Division, Federal Programs Branch
+                                             1100 L Street, N.W.
+                                             Washington, DC 20005
+                                             Phone: (202) 305-5200
+                                             E-mail: taylor.n.pitz@usdoj.gov
+
+                                             Counsel for the FTC
+
+
+
+
+                                        28
+Case 0:24-cv-61939-DSL Document 90 Entered on FLSD Docket 03/23/2026 Page 38 of 38
+
+
+
+
+                                     CERTIFICATE OF SERVICE
+
+          I hereby certify that on March 23, 2026, I caused the foregoing document to be electronically
+
+   filed with the Court using the ECF system, which will send notification of such filing to all attorneys
+
+   of record.
+
+                                                                  /s/ Taylor Pitz
+                                                                  TAYLOR PITZ
+                                                                  Trial Attorney
+                                                                  U.S. Department of Justice
+
+
+
+
+                                                     29
+
