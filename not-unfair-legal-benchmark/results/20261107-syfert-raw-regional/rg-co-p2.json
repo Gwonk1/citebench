@@ -1,0 +1,104 @@
+{
+ "id": "rg-co-p2",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "U. S. Fire Insurance Co. v. Colver, 600 P.2d 1."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"600 P.2d 1\",\n            \"volume\": \"600\",\n            \"reporter\": \"P.2d\",\n            \"page\": \"1\",\n            \"pin\": null,\n            \"cluster_id\": 1181142,\n            \"case\": {\n                \"case_name\": \"U. S. Fire Insurance Co. v. Colver\",\n                \"case_name_short\": \"Colver\",\n                \"date_filed\": \"1979-09-21\",\n                \"court_id\": \"alaska\",\n                \"docket_number\": \"3862\",\n                \"citation_count\": 58,\n                \"court_label\": \"Alaska\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 35.706,\n                \"total_events\": 83,\n                \"distinct_courts\": 18,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Baxter Senior Living, LLC v. Zurich American Insurance Company\",\n                \"top_pos_court\": \"alaska\",\n                \"top_pos_date\": \"2024-09-27\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"U. S. Fire Insurance Co.\",\n                \"rhs\": \"Colver\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"U. S. Fire Insurance Co.\",\n                    \"rhs\": \"Colver\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"U. S. Fire Insurance Co. v. Colver\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/alaska/cases/600-p-2d-1/u-s-fire-insurance-co-v-colver\",\n            \"link_md\": \"[U. S. Fire Insurance Co. v. Colver](https://syfert.com/alaska/cases/600-p-2d-1/u-s-fire-insurance-co-v-colver)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "600 P.2d 1",
+      "volume": "600",
+      "reporter": "P.2d",
+      "page": "1",
+      "pin": null,
+      "cluster_id": 1181142,
+      "case": {
+       "case_name": "U. S. Fire Insurance Co. v. Colver",
+       "case_name_short": "Colver",
+       "date_filed": "1979-09-21",
+       "court_id": "alaska",
+       "docket_number": "3862",
+       "citation_count": 58,
+       "court_label": "Alaska"
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 35.706,
+       "total_events": 83,
+       "distinct_courts": 18,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Baxter Senior Living, LLC v. Zurich American Insurance Company",
+       "top_pos_court": "alaska",
+       "top_pos_date": "2024-09-27",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "U. S. Fire Insurance Co.",
+       "rhs": "Colver"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "U. S. Fire Insurance Co.",
+        "rhs": "Colver"
+       },
+       "verdict": "match",
+       "resolved_name": "U. S. Fire Insurance Co. v. Colver"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/alaska/cases/600-p-2d-1/u-s-fire-insurance-co-v-colver",
+      "link_md": "[U. S. Fire Insurance Co. v. Colver](https://syfert.com/alaska/cases/600-p-2d-1/u-s-fire-insurance-co-v-colver)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

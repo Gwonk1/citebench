@@ -54,6 +54,15 @@ The instruction is `PROMPT` in `grade.py`. The passage is `text` in `items/tasks
 
 **Grader v1.2 (2026-11-07).** The passage is removed from the lines above the ANSWER line before the gold strings are searched, and "no answer from the tool" is a miss. Under v1.1 an echoed tool call could pass an item with no answer (see `CHANGELOG.md`). The tables below are v1.1 runs on the 202 v1.1 passages. Re-graded under v1.2, Syfert raw4 is 199 and kaos-citations 27. No arm has run the full 250 yet; the raw CourtListener arm passed none of the 41 regional traps during selection.
 
+**Raw Syfert MCP arm on the 48 regional items, 2026-11-07, grader v1.2** (`run_syfert.py items/regional.jsonl`):
+
+| run | server state | traps (41) | controls (7) | total (48) |
+|---|---|---|---|---|
+| `results/20261107-syfert-raw-regional` | driver DRV169 | 26 | 7 | 33 |
+| `results/20261107-syfert-raw-regional2` | + DRV170: check_brief corrects a cite that uses a corrected old number | 41 | 7 | 48 |
+
+The first run's 15 misses were 14 old-number items where the old number still resolved as an alias ("correct as written") and one where the old number now belongs to a different case. Both were tool gaps, fixed in DRV170 before the second run. Syfert's own index was corrected from the same evidence the gold rests on, so this arm is not independent of the gold: read it as a check that the corrections reach the tool, not as a comparison.
+
 Scores quoted anywhere for this benchmark before 2026-10-25 are v1.0 scores under the v1.0 grader on the 187-item set. v1.1 scores from fresh runs are pending. The v1.0 transcripts re-graded under the v1.1 grader are in `CHANGELOG.md`, labelled as re-grades.
 
 The raw CourtListener arm (the `analyze_citations` tool called by itself, server 9386476) scored 0 of 187 in v1.0 by construction: every passage that arm passed was dropped during selection, so the baseline is zero and says nothing about the tool beyond the planted failure classes. Report model-plus-MCP arms as the comparison. The saved replies are still on disk and `score_saved.py` grades them; under the v1.1 grader their last-line fallback produces a handful of artifact passes, which are not a score.

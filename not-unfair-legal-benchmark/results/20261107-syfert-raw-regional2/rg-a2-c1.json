@@ -1,0 +1,104 @@
+{
+ "id": "rg-a2-c1",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Gnau v. Kinlein, 141 A.2d 492."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"141 A.2d 492\",\n            \"volume\": \"141\",\n            \"reporter\": \"A.2d\",\n            \"page\": \"492\",\n            \"pin\": null,\n            \"cluster_id\": 1934196,\n            \"case\": {\n                \"case_name\": \"Gnau v. Kinlein\",\n                \"case_name_short\": \"Gnau\",\n                \"date_filed\": \"1958-05-20\",\n                \"court_id\": \"md\",\n                \"docket_number\": \"[No. 230, September Term, 1957.]\",\n                \"citation_count\": 18,\n                \"court_label\": \"Md.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 2.882,\n                \"total_events\": 22,\n                \"distinct_courts\": 5,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Mercantile-Safe Deposit & Trust Co. v. Mayor of Baltimore\",\n                \"top_pos_court\": \"md\",\n                \"top_pos_date\": \"1987-03-03\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Gnau\",\n                \"rhs\": \"Kinlein\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Gnau\",\n                    \"rhs\": \"Kinlein\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Gnau v. Kinlein\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/maryland/cases/217-md-43/gnau-v-kinlein\",\n            \"link_md\": \"[Gnau v. Kinlein](https://syfert.com/maryland/cases/217-md-43/gnau-v-kinlein)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "141 A.2d 492",
+      "volume": "141",
+      "reporter": "A.2d",
+      "page": "492",
+      "pin": null,
+      "cluster_id": 1934196,
+      "case": {
+       "case_name": "Gnau v. Kinlein",
+       "case_name_short": "Gnau",
+       "date_filed": "1958-05-20",
+       "court_id": "md",
+       "docket_number": "[No. 230, September Term, 1957.]",
+       "citation_count": 18,
+       "court_label": "Md."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 2.882,
+       "total_events": 22,
+       "distinct_courts": 5,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Mercantile-Safe Deposit & Trust Co. v. Mayor of Baltimore",
+       "top_pos_court": "md",
+       "top_pos_date": "1987-03-03",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Gnau",
+       "rhs": "Kinlein"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Gnau",
+        "rhs": "Kinlein"
+       },
+       "verdict": "match",
+       "resolved_name": "Gnau v. Kinlein"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/maryland/cases/217-md-43/gnau-v-kinlein",
+      "link_md": "[Gnau v. Kinlein](https://syfert.com/maryland/cases/217-md-43/gnau-v-kinlein)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

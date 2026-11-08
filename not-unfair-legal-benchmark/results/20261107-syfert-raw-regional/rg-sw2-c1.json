@@ -1,0 +1,174 @@
+{
+ "id": "rg-sw2-c1",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Shelton v. Martin, 175 S.W.2d 247."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"party_mismatch\": 1,\n        \"likely_misprint\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.\",\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"175 S.W.2d 247\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_volume\",\n            \"problem\": \"Likely misprint, not a fabricated case: The volume is off by one digit (the third): the citation prints 175, the case is at 176. Shelton v. Martin is reported at 176 S.W.2d 247 (same reporter, same page 247). It was decided 1943-12-17, within the years volume 175 of S.W.2d covers (1943-1943), and the name given names that case. The citation as printed (175 S.W.2d 247) is wrong; cite 176 S.W.2d 247.\",\n            \"replace_with\": \"Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)\",\n            \"fix\": {\n                \"from\": \"175 S.W.2d 247\",\n                \"to\": \"176 S.W.2d 247\"\n            },\n            \"suggested\": \"Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)\",\n            \"did_you_mean\": \"Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)\",\n            \"misprint\": {\n                \"printed\": \"175 S.W.2d 247\",\n                \"real\": \"176 S.W.2d 247\",\n                \"kind\": \"volume\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 4130215,\n                \"case_name\": \"Shelton v. Martin\",\n                \"bluebook\": \"Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)\",\n                \"cite_as\": \"Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)\",\n                \"date_filed\": \"1943-12-17\",\n                \"url\": \"https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin\",\n                \"link_md\": \"[Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)](https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin)\",\n                \"note\": \"The volume is off by one digit (the third): the citation prints 175, the case is at 176. Shelton v. Martin is reported at 176 S.W.2d 247 (same reporter, same page 247). It was decided 1943-12-17, within the years volume 175 of S.W.2d covers (1943-1943), and the name given names that case. The citation as printed (175 S.W.2d 247) is wrong; cite 176 S.W.2d 247.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"case\": {\n                \"cluster_id\": 4130215,\n                \"case_name\": \"Shelton v. Martin\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"175 S.W.2d 247\",\n            \"volume\": \"175\",\n            \"reporter\": \"S.W.2d\",\n            \"page\": \"247\",\n            \"pin\": null,\n            \"cluster_id\": 4182493,\n            \"case\": {\n                \"case_name\": \"Uvalde Construction Co. v. Hill\",\n                \"case_name_short\": \"Hill\",\n                \"date_filed\": \"1943-11-03\",\n                \"court_id\": \"tex\",\n                \"docket_number\": \"No. 8130.\",\n                \"citation_count\": 7,\n                \"court_label\": \"Tex.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.492,\n                \"total_events\": 14,\n                \"distinct_courts\": 3,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Shelton\",\n                \"rhs\": \"Martin\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Shelton\",\n                    \"rhs\": \"Martin\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"Uvalde Construction Co. v. Hill\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/texas/cases/142-tex-19/uvalde-construction-co-v-hill\",\n            \"link_md\": \"[Uvalde Construction Co. v. Hill](https://syfert.com/texas/cases/142-tex-19/uvalde-construction-co-v-hill)\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_volume\",\n            \"misprint\": {\n                \"printed\": \"175 S.W.2d 247\",\n                \"real\": \"176 S.W.2d 247\",\n                \"kind\": \"volume\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 4130215,\n                \"case_name\": \"Shelton v. Martin\",\n                \"bluebook\": \"Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)\",\n                \"cite_as\": \"Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)\",\n                \"date_filed\": \"1943-12-17\",\n                \"url\": \"https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin\",\n                \"link_md\": \"[Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)](https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin)\",\n                \"note\": \"The volume is off by one digit (the third): the citation prints 175, the case is at 176. Shelton v. Martin is reported at 176 S.W.2d 247 (same reporter, same page 247). It was decided 1943-12-17, within the years volume 175 of S.W.2d covers (1943-1943), and the name given names that case. The citation as printed (175 S.W.2d 247) is wrong; cite 176 S.W.2d 247.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"suggested_citation\": {\n                \"cluster_id\": 4130215,\n                \"case_name\": \"Shelton v. Martin\",\n                \"citation\": \"176 S.W.2d 247\",\n                \"bluebook\": \"Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)\",\n                \"cite_as\": \"Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)\",\n                \"date_filed\": \"1943-12-17\",\n                \"url\": \"https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin\",\n                \"link_md\": \"[Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)](https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin)\"\n            },\n            \"unindexed_advice\": \"Likely misprint: The volume is off by one digit (the third): the citation prints 175, the case is at 176. Shelton v. Martin is reported at 176 S.W.2d 247 (same reporter, same page 247). It was decided 1943-12-17, within the years volume 175 of S.W.2d covers (1943-1943), and the name given names that case. The citation as printed (175 S.W.2d 247) is wrong; cite 176 S.W.2d 247.\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "party_mismatch": 1,
+     "likely_misprint": 1
+    },
+    "warnings": [
+     "1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.",
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "175 S.W.2d 247",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_volume",
+      "problem": "Likely misprint, not a fabricated case: The volume is off by one digit (the third): the citation prints 175, the case is at 176. Shelton v. Martin is reported at 176 S.W.2d 247 (same reporter, same page 247). It was decided 1943-12-17, within the years volume 175 of S.W.2d covers (1943-1943), and the name given names that case. The citation as printed (175 S.W.2d 247) is wrong; cite 176 S.W.2d 247.",
+      "replace_with": "Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)",
+      "fix": {
+       "from": "175 S.W.2d 247",
+       "to": "176 S.W.2d 247"
+      },
+      "suggested": "Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)",
+      "did_you_mean": "Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)",
+      "misprint": {
+       "printed": "175 S.W.2d 247",
+       "real": "176 S.W.2d 247",
+       "kind": "volume",
+       "edit": "digit",
+       "cluster_id": 4130215,
+       "case_name": "Shelton v. Martin",
+       "bluebook": "Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)",
+       "cite_as": "Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)",
+       "date_filed": "1943-12-17",
+       "url": "https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin",
+       "link_md": "[Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)](https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin)",
+       "note": "The volume is off by one digit (the third): the citation prints 175, the case is at 176. Shelton v. Martin is reported at 176 S.W.2d 247 (same reporter, same page 247). It was decided 1943-12-17, within the years volume 175 of S.W.2d covers (1943-1943), and the name given names that case. The citation as printed (175 S.W.2d 247) is wrong; cite 176 S.W.2d 247.",
+       "via": [
+        "name"
+       ]
+      },
+      "case": {
+       "cluster_id": 4130215,
+       "case_name": "Shelton v. Martin"
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "175 S.W.2d 247",
+      "volume": "175",
+      "reporter": "S.W.2d",
+      "page": "247",
+      "pin": null,
+      "cluster_id": 4182493,
+      "case": {
+       "case_name": "Uvalde Construction Co. v. Hill",
+       "case_name_short": "Hill",
+       "date_filed": "1943-11-03",
+       "court_id": "tex",
+       "docket_number": "No. 8130.",
+       "citation_count": 7,
+       "court_label": "Tex."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.492,
+       "total_events": 14,
+       "distinct_courts": 3,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Shelton",
+       "rhs": "Martin"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Shelton",
+        "rhs": "Martin"
+       },
+       "verdict": "mismatch",
+       "resolved_name": "Uvalde Construction Co. v. Hill"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/texas/cases/142-tex-19/uvalde-construction-co-v-hill",
+      "link_md": "[Uvalde Construction Co. v. Hill](https://syfert.com/texas/cases/142-tex-19/uvalde-construction-co-v-hill)",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_volume",
+      "misprint": {
+       "printed": "175 S.W.2d 247",
+       "real": "176 S.W.2d 247",
+       "kind": "volume",
+       "edit": "digit",
+       "cluster_id": 4130215,
+       "case_name": "Shelton v. Martin",
+       "bluebook": "Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)",
+       "cite_as": "Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)",
+       "date_filed": "1943-12-17",
+       "url": "https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin",
+       "link_md": "[Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)](https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin)",
+       "note": "The volume is off by one digit (the third): the citation prints 175, the case is at 176. Shelton v. Martin is reported at 176 S.W.2d 247 (same reporter, same page 247). It was decided 1943-12-17, within the years volume 175 of S.W.2d covers (1943-1943), and the name given names that case. The citation as printed (175 S.W.2d 247) is wrong; cite 176 S.W.2d 247.",
+       "via": [
+        "name"
+       ]
+      },
+      "suggested_citation": {
+       "cluster_id": 4130215,
+       "case_name": "Shelton v. Martin",
+       "citation": "176 S.W.2d 247",
+       "bluebook": "Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)",
+       "cite_as": "Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)",
+       "date_filed": "1943-12-17",
+       "url": "https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin",
+       "link_md": "[Shelton v. Martin, 176 S.W.2d 247 (Tenn. 1943)](https://syfert.com/tennessee/cases/180-tenn-454/shelton-v-martin)"
+      },
+      "unindexed_advice": "Likely misprint: The volume is off by one digit (the third): the citation prints 175, the case is at 176. Shelton v. Martin is reported at 176 S.W.2d 247 (same reporter, same page 247). It was decided 1943-12-17, within the years volume 175 of S.W.2d covers (1943-1943), and the name given names that case. The citation as printed (175 S.W.2d 247) is wrong; cite 176 S.W.2d 247."
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

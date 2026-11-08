@@ -1,0 +1,104 @@
+{
+ "id": "rg-so-a2",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Stowers Furniture Co. v. Brake, 48 So. 89."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"48 So. 89\",\n            \"volume\": \"48\",\n            \"reporter\": \"So.\",\n            \"page\": \"89\",\n            \"pin\": null,\n            \"cluster_id\": 7443802,\n            \"case\": {\n                \"case_name\": \"Stowers Furniture Co. v. Brake\",\n                \"case_name_short\": \"Brake\",\n                \"date_filed\": \"1908-12-17\",\n                \"court_id\": \"ala\",\n                \"docket_number\": null,\n                \"citation_count\": 33,\n                \"court_label\": \"Ala.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 1.329,\n                \"total_events\": 31,\n                \"distinct_courts\": 7,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Wicoma Investment Co. v. Pridgeon\",\n                \"top_pos_court\": \"fla\",\n                \"top_pos_date\": \"1939-05-05\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Stowers Furniture Co.\",\n                \"rhs\": \"Brake\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Stowers Furniture Co.\",\n                    \"rhs\": \"Brake\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Stowers Furniture Co. v. Brake\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/alabama/cases/158-ala-639/stowers-furniture-co-v-brake\",\n            \"link_md\": \"[Stowers Furniture Co. v. Brake](https://syfert.com/alabama/cases/158-ala-639/stowers-furniture-co-v-brake)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "48 So. 89",
+      "volume": "48",
+      "reporter": "So.",
+      "page": "89",
+      "pin": null,
+      "cluster_id": 7443802,
+      "case": {
+       "case_name": "Stowers Furniture Co. v. Brake",
+       "case_name_short": "Brake",
+       "date_filed": "1908-12-17",
+       "court_id": "ala",
+       "docket_number": null,
+       "citation_count": 33,
+       "court_label": "Ala."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 1.329,
+       "total_events": 31,
+       "distinct_courts": 7,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Wicoma Investment Co. v. Pridgeon",
+       "top_pos_court": "fla",
+       "top_pos_date": "1939-05-05",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Stowers Furniture Co.",
+       "rhs": "Brake"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Stowers Furniture Co.",
+        "rhs": "Brake"
+       },
+       "verdict": "match",
+       "resolved_name": "Stowers Furniture Co. v. Brake"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/alabama/cases/158-ala-639/stowers-furniture-co-v-brake",
+      "link_md": "[Stowers Furniture Co. v. Brake](https://syfert.com/alabama/cases/158-ala-639/stowers-furniture-co-v-brake)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

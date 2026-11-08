@@ -1,0 +1,103 @@
+{
+ "id": "rg-sw-c1",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "First National Bank of Colorado v. Brown, 23 S.W. 862."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"23 S.W. 862\",\n            \"volume\": \"23\",\n            \"reporter\": \"S.W.\",\n            \"page\": \"862\",\n            \"pin\": null,\n            \"cluster_id\": 4164470,\n            \"case\": {\n                \"case_name\": \"First National Bank of Colorado v. Brown\",\n                \"case_name_short\": \"Brown\",\n                \"date_filed\": \"1892-05-03\",\n                \"court_id\": \"tex\",\n                \"docket_number\": \"No. 7203.\",\n                \"citation_count\": 23,\n                \"court_label\": \"Tex.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.592,\n                \"total_events\": 23,\n                \"distinct_courts\": 2,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"First National Bank of Colorado\",\n                \"rhs\": \"Brown\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"First National Bank of Colorado\",\n                    \"rhs\": \"Brown\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"First National Bank of Colorado v. Brown\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/texas/cases/85-tex-80/first-national-bank-of-colorado-v-brown\",\n            \"link_md\": \"[First National Bank of Colorado v. Brown](https://syfert.com/texas/cases/85-tex-80/first-national-bank-of-colorado-v-brown)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "23 S.W. 862",
+      "volume": "23",
+      "reporter": "S.W.",
+      "page": "862",
+      "pin": null,
+      "cluster_id": 4164470,
+      "case": {
+       "case_name": "First National Bank of Colorado v. Brown",
+       "case_name_short": "Brown",
+       "date_filed": "1892-05-03",
+       "court_id": "tex",
+       "docket_number": "No. 7203.",
+       "citation_count": 23,
+       "court_label": "Tex."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.592,
+       "total_events": 23,
+       "distinct_courts": 2,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "First National Bank of Colorado",
+       "rhs": "Brown"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "First National Bank of Colorado",
+        "rhs": "Brown"
+       },
+       "verdict": "match",
+       "resolved_name": "First National Bank of Colorado v. Brown"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/texas/cases/85-tex-80/first-national-bank-of-colorado-v-brown",
+      "link_md": "[First National Bank of Colorado v. Brown](https://syfert.com/texas/cases/85-tex-80/first-national-bank-of-colorado-v-brown)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

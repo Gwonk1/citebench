@@ -1,0 +1,104 @@
+{
+ "id": "rg-a-a1",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Gaydos v. Domabyl, 152 A. 549."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"152 A. 549\",\n            \"volume\": \"152\",\n            \"reporter\": \"A.\",\n            \"page\": \"549\",\n            \"pin\": null,\n            \"cluster_id\": 4089528,\n            \"case\": {\n                \"case_name\": \"Gaydos v. Domabyl\",\n                \"case_name_short\": \"Gaydos\",\n                \"date_filed\": \"1930-10-06\",\n                \"court_id\": \"pa\",\n                \"docket_number\": \"Appeal, 20\",\n                \"citation_count\": 116,\n                \"court_label\": \"Pa.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 4.942,\n                \"total_events\": 159,\n                \"distinct_courts\": 42,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Saunders v. Consolidated Rail Corp.\",\n                \"top_pos_court\": \"paed\",\n                \"top_pos_date\": \"1986-04-08\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Gaydos\",\n                \"rhs\": \"Domabyl\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Gaydos\",\n                    \"rhs\": \"Domabyl\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Gaydos v. Domabyl\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/pennsylvania/cases/301-pa-523/gaydos-v-domabyl\",\n            \"link_md\": \"[Gaydos v. Domabyl](https://syfert.com/pennsylvania/cases/301-pa-523/gaydos-v-domabyl)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "152 A. 549",
+      "volume": "152",
+      "reporter": "A.",
+      "page": "549",
+      "pin": null,
+      "cluster_id": 4089528,
+      "case": {
+       "case_name": "Gaydos v. Domabyl",
+       "case_name_short": "Gaydos",
+       "date_filed": "1930-10-06",
+       "court_id": "pa",
+       "docket_number": "Appeal, 20",
+       "citation_count": 116,
+       "court_label": "Pa."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 4.942,
+       "total_events": 159,
+       "distinct_courts": 42,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Saunders v. Consolidated Rail Corp.",
+       "top_pos_court": "paed",
+       "top_pos_date": "1986-04-08",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 3 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Gaydos",
+       "rhs": "Domabyl"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Gaydos",
+        "rhs": "Domabyl"
+       },
+       "verdict": "match",
+       "resolved_name": "Gaydos v. Domabyl"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/pennsylvania/cases/301-pa-523/gaydos-v-domabyl",
+      "link_md": "[Gaydos v. Domabyl](https://syfert.com/pennsylvania/cases/301-pa-523/gaydos-v-domabyl)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

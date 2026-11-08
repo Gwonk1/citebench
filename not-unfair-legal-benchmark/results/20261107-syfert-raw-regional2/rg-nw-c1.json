@@ -1,0 +1,193 @@
+{
+ "id": "rg-nw-c1",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Turner v. St. John, 77 N.W. 340."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"party_mismatch\": 1,\n        \"citation_corrected\": 1,\n        \"likely_misprint\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.\",\n        \"1 citation(s) use an older reporter number for the case (corrections verdict citation_corrected): citing courts print a different number, which our index now lists. Use replace_with.\",\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"77 N.W. 340\",\n            \"verdict\": \"citation_corrected\",\n            \"problem\": \"77 N.W. 340 is the first page of Lydick v. Gill, not the case named here. Citing courts print 78 N.W. 340 for Turner v. St. John, 78 N.W. 340 (N.D. 1898) (our index listed it at 77 N.W. 340 until 2026-11-07). Cite 78 N.W. 340.\",\n            \"replace_with\": \"78 N.W. 340\",\n            \"suggested\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n            \"case\": {\n                \"cluster_id\": 6847598,\n                \"case_name\": \"Turner v. St. John\"\n            }\n        },\n        {\n            \"raw\": \"77 N.W. 340\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_volume\",\n            \"problem\": \"Likely misprint, not a fabricated case: The volume is off by one digit (the second): the citation prints 77, the case is at 78. Turner v. St. John is reported at 78 N.W. 340 (same reporter, same page 340). It was decided 1898-12-28, within the years volume 77 of N.W. covers (1898-1899), and the name given names that case. The citation as printed (77 N.W. 340) is wrong; cite 78 N.W. 340.\",\n            \"replace_with\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n            \"fix\": {\n                \"from\": \"77 N.W. 340\",\n                \"to\": \"78 N.W. 340\"\n            },\n            \"suggested\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n            \"did_you_mean\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n            \"misprint\": {\n                \"printed\": \"77 N.W. 340\",\n                \"real\": \"78 N.W. 340\",\n                \"kind\": \"volume\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 6847598,\n                \"case_name\": \"Turner v. St. John\",\n                \"bluebook\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n                \"cite_as\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n                \"date_filed\": \"1898-12-28\",\n                \"url\": \"https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john\",\n                \"link_md\": \"[Turner v. St. John, 78 N.W. 340 (N.D. 1898)](https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john)\",\n                \"note\": \"The volume is off by one digit (the second): the citation prints 77, the case is at 78. Turner v. St. John is reported at 78 N.W. 340 (same reporter, same page 340). It was decided 1898-12-28, within the years volume 77 of N.W. covers (1898-1899), and the name given names that case. The citation as printed (77 N.W. 340) is wrong; cite 78 N.W. 340.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"case\": {\n                \"cluster_id\": 6847598,\n                \"case_name\": \"Turner v. St. John\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"77 N.W. 340\",\n            \"volume\": \"77\",\n            \"reporter\": \"N.W.\",\n            \"page\": \"340\",\n            \"pin\": null,\n            \"cluster_id\": 6769671,\n            \"case\": {\n                \"case_name\": \"Lydick v. Gill\",\n                \"case_name_short\": \"Lydick\",\n                \"date_filed\": \"1898-12-08\",\n                \"court_id\": \"neb\",\n                \"docket_number\": \"No. 8430\",\n                \"citation_count\": 4,\n                \"court_label\": \"Neb.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.358,\n                \"total_events\": 5,\n                \"distinct_courts\": 2,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Turner\",\n                \"rhs\": \"St. John\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Turner\",\n                    \"rhs\": \"St. John\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"Lydick v. Gill\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/nebraska/cases/57-neb-89/lydick-v-gill\",\n            \"link_md\": \"[Lydick v. Gill](https://syfert.com/nebraska/cases/57-neb-89/lydick-v-gill)\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_volume\",\n            \"misprint\": {\n                \"printed\": \"77 N.W. 340\",\n                \"real\": \"78 N.W. 340\",\n                \"kind\": \"volume\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 6847598,\n                \"case_name\": \"Turner v. St. John\",\n                \"bluebook\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n                \"cite_as\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n                \"date_filed\": \"1898-12-28\",\n                \"url\": \"https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john\",\n                \"link_md\": \"[Turner v. St. John, 78 N.W. 340 (N.D. 1898)](https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john)\",\n                \"note\": \"The volume is off by one digit (the second): the citation prints 77, the case is at 78. Turner v. St. John is reported at 78 N.W. 340 (same reporter, same page 340). It was decided 1898-12-28, within the years volume 77 of N.W. covers (1898-1899), and the name given names that case. The citation as printed (77 N.W. 340) is wrong; cite 78 N.W. 340.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"suggested_citation\": {\n                \"cluster_id\": 6847598,\n                \"case_name\": \"Turner v. St. John\",\n                \"citation\": \"78 N.W. 340\",\n                \"bluebook\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n                \"cite_as\": \"Turner v. St. John, 78 N.W. 340 (N.D. 1898)\",\n                \"date_filed\": \"1898-12-28\",\n                \"url\": \"https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john\",\n                \"link_md\": \"[Turner v. St. John, 78 N.W. 340 (N.D. 1898)](https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john)\"\n            },\n            \"unindexed_advice\": \"Likely misprint: The volume is off by one digit (the second): the citation prints 77, the case is at 78. Turner v. St. John is reported at 78 N.W. 340 (same reporter, same page 340). It was decided 1898-12-28, within the years volume 77 of N.W. covers (1898-1899), and the name given names that case. The citation as printed (77 N.W. 340) is wrong; cite 78 N.W. 340.\",\n            \"citation_corrected\": {\n                \"cite\": \"78 N.W. 340\",\n                \"old_listing\": \"77 N.W. 340\",\n                \"cluster_id\": 6847598,\n                \"note\": \"77 N.W. 340 is the first page of Lydick v. Gill, not the case named here. Citing courts print 78 N.W. 340 for Turner v. St. John, 78 N.W. 340 (N.D. 1898) (our index listed it at 77 N.W. 340 until 2026-11-07). Cite 78 N.W. 340.\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "party_mismatch": 1,
+     "citation_corrected": 1,
+     "likely_misprint": 1
+    },
+    "warnings": [
+     "1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.",
+     "1 citation(s) use an older reporter number for the case (corrections verdict citation_corrected): citing courts print a different number, which our index now lists. Use replace_with.",
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "77 N.W. 340",
+      "verdict": "citation_corrected",
+      "problem": "77 N.W. 340 is the first page of Lydick v. Gill, not the case named here. Citing courts print 78 N.W. 340 for Turner v. St. John, 78 N.W. 340 (N.D. 1898) (our index listed it at 77 N.W. 340 until 2026-11-07). Cite 78 N.W. 340.",
+      "replace_with": "78 N.W. 340",
+      "suggested": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+      "case": {
+       "cluster_id": 6847598,
+       "case_name": "Turner v. St. John"
+      }
+     },
+     {
+      "raw": "77 N.W. 340",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_volume",
+      "problem": "Likely misprint, not a fabricated case: The volume is off by one digit (the second): the citation prints 77, the case is at 78. Turner v. St. John is reported at 78 N.W. 340 (same reporter, same page 340). It was decided 1898-12-28, within the years volume 77 of N.W. covers (1898-1899), and the name given names that case. The citation as printed (77 N.W. 340) is wrong; cite 78 N.W. 340.",
+      "replace_with": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+      "fix": {
+       "from": "77 N.W. 340",
+       "to": "78 N.W. 340"
+      },
+      "suggested": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+      "did_you_mean": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+      "misprint": {
+       "printed": "77 N.W. 340",
+       "real": "78 N.W. 340",
+       "kind": "volume",
+       "edit": "digit",
+       "cluster_id": 6847598,
+       "case_name": "Turner v. St. John",
+       "bluebook": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+       "cite_as": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+       "date_filed": "1898-12-28",
+       "url": "https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john",
+       "link_md": "[Turner v. St. John, 78 N.W. 340 (N.D. 1898)](https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john)",
+       "note": "The volume is off by one digit (the second): the citation prints 77, the case is at 78. Turner v. St. John is reported at 78 N.W. 340 (same reporter, same page 340). It was decided 1898-12-28, within the years volume 77 of N.W. covers (1898-1899), and the name given names that case. The citation as printed (77 N.W. 340) is wrong; cite 78 N.W. 340.",
+       "via": [
+        "name"
+       ]
+      },
+      "case": {
+       "cluster_id": 6847598,
+       "case_name": "Turner v. St. John"
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "77 N.W. 340",
+      "volume": "77",
+      "reporter": "N.W.",
+      "page": "340",
+      "pin": null,
+      "cluster_id": 6769671,
+      "case": {
+       "case_name": "Lydick v. Gill",
+       "case_name_short": "Lydick",
+       "date_filed": "1898-12-08",
+       "court_id": "neb",
+       "docket_number": "No. 8430",
+       "citation_count": 4,
+       "court_label": "Neb."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.358,
+       "total_events": 5,
+       "distinct_courts": 2,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Turner",
+       "rhs": "St. John"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Turner",
+        "rhs": "St. John"
+       },
+       "verdict": "mismatch",
+       "resolved_name": "Lydick v. Gill"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/nebraska/cases/57-neb-89/lydick-v-gill",
+      "link_md": "[Lydick v. Gill](https://syfert.com/nebraska/cases/57-neb-89/lydick-v-gill)",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_volume",
+      "misprint": {
+       "printed": "77 N.W. 340",
+       "real": "78 N.W. 340",
+       "kind": "volume",
+       "edit": "digit",
+       "cluster_id": 6847598,
+       "case_name": "Turner v. St. John",
+       "bluebook": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+       "cite_as": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+       "date_filed": "1898-12-28",
+       "url": "https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john",
+       "link_md": "[Turner v. St. John, 78 N.W. 340 (N.D. 1898)](https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john)",
+       "note": "The volume is off by one digit (the second): the citation prints 77, the case is at 78. Turner v. St. John is reported at 78 N.W. 340 (same reporter, same page 340). It was decided 1898-12-28, within the years volume 77 of N.W. covers (1898-1899), and the name given names that case. The citation as printed (77 N.W. 340) is wrong; cite 78 N.W. 340.",
+       "via": [
+        "name"
+       ]
+      },
+      "suggested_citation": {
+       "cluster_id": 6847598,
+       "case_name": "Turner v. St. John",
+       "citation": "78 N.W. 340",
+       "bluebook": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+       "cite_as": "Turner v. St. John, 78 N.W. 340 (N.D. 1898)",
+       "date_filed": "1898-12-28",
+       "url": "https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john",
+       "link_md": "[Turner v. St. John, 78 N.W. 340 (N.D. 1898)](https://syfert.com/north-dakota/cases/8-n-d-245/turner-v-st-john)"
+      },
+      "unindexed_advice": "Likely misprint: The volume is off by one digit (the second): the citation prints 77, the case is at 78. Turner v. St. John is reported at 78 N.W. 340 (same reporter, same page 340). It was decided 1898-12-28, within the years volume 77 of N.W. covers (1898-1899), and the name given names that case. The citation as printed (77 N.W. 340) is wrong; cite 78 N.W. 340.",
+      "citation_corrected": {
+       "cite": "78 N.W. 340",
+       "old_listing": "77 N.W. 340",
+       "cluster_id": 6847598,
+       "note": "77 N.W. 340 is the first page of Lydick v. Gill, not the case named here. Citing courts print 78 N.W. 340 for Turner v. St. John, 78 N.W. 340 (N.D. 1898) (our index listed it at 77 N.W. 340 until 2026-11-07). Cite 78 N.W. 340."
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

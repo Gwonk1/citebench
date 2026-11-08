@@ -1,0 +1,104 @@
+{
+ "id": "rg-se2-a2",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Russo v. Manning, 312 S.E.2d 319."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"312 S.E.2d 319\",\n            \"volume\": \"312\",\n            \"reporter\": \"S.E.2d\",\n            \"page\": \"319\",\n            \"pin\": null,\n            \"cluster_id\": 1337298,\n            \"case\": {\n                \"case_name\": \"Russo v. Manning\",\n                \"case_name_short\": \"Russo\",\n                \"date_filed\": \"1984-02-16\",\n                \"court_id\": \"ga\",\n                \"docket_number\": \"40679\",\n                \"citation_count\": 64,\n                \"court_label\": \"Ga.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 97.668,\n                \"total_events\": 84,\n                \"distinct_courts\": 2,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Tomas E. Espinosa v. Jessica Maldonado Espinosa\",\n                \"top_pos_court\": \"gactapp\",\n                \"top_pos_date\": \"2026-07-17\",\n                \"top_quote_norm\": \"a judgment of contempt regarding a domestic relations decree is appealable only by application for discretionary appeal.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 2 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Russo\",\n                \"rhs\": \"Manning\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Russo\",\n                    \"rhs\": \"Manning\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Russo v. Manning\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/georgia/cases/252-ga-155/russo-v-manning\",\n            \"link_md\": \"[Russo v. Manning](https://syfert.com/georgia/cases/252-ga-155/russo-v-manning)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "312 S.E.2d 319",
+      "volume": "312",
+      "reporter": "S.E.2d",
+      "page": "319",
+      "pin": null,
+      "cluster_id": 1337298,
+      "case": {
+       "case_name": "Russo v. Manning",
+       "case_name_short": "Russo",
+       "date_filed": "1984-02-16",
+       "court_id": "ga",
+       "docket_number": "40679",
+       "citation_count": 64,
+       "court_label": "Ga."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 97.668,
+       "total_events": 84,
+       "distinct_courts": 2,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Tomas E. Espinosa v. Jessica Maldonado Espinosa",
+       "top_pos_court": "gactapp",
+       "top_pos_date": "2026-07-17",
+       "top_quote_norm": "a judgment of contempt regarding a domestic relations decree is appealable only by application for discretionary appeal.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 2 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Russo",
+       "rhs": "Manning"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Russo",
+        "rhs": "Manning"
+       },
+       "verdict": "match",
+       "resolved_name": "Russo v. Manning"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/georgia/cases/252-ga-155/russo-v-manning",
+      "link_md": "[Russo v. Manning](https://syfert.com/georgia/cases/252-ga-155/russo-v-manning)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

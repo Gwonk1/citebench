@@ -1,0 +1,109 @@
+{
+ "id": "rg-a2-a1",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Otis Elevator Co. v. Embert, 85 A.2d 876."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"85 A.2d 876\",\n            \"volume\": \"85\",\n            \"reporter\": \"A.2d\",\n            \"page\": \"876\",\n            \"pin\": null,\n            \"cluster_id\": 2083463,\n            \"case\": {\n                \"case_name\": \"Otis Elevator Co. v. Embert\",\n                \"case_name_short\": \"Embert\",\n                \"date_filed\": \"1951-12-07\",\n                \"court_id\": \"md\",\n                \"docket_number\": \"[No. 46, October Term, 1951.]\",\n                \"citation_count\": 43,\n                \"court_label\": \"Md.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 2.514,\n                \"total_events\": 50,\n                \"distinct_courts\": 13,\n                \"top_neg_label\": \"Murphy v. Montgomery Elevator Co.\",\n                \"top_neg_court\": \"washctapp\",\n                \"top_neg_date\": \"1992-02-20\",\n                \"top_pos_label\": \"Metropolitan Atlanta Rapid Transit Authority v. Rouse\",\n                \"top_pos_court\": \"ga\",\n                \"top_pos_date\": \"2005-04-26\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": 1171450,\n            \"neg_citers\": {\n                \"murphy v. montgomery elevator co.\": {\n                    \"cid\": 1171450,\n                    \"court\": \"washctapp\"\n                }\n            },\n            \"top_neg_court_label\": \"Wash. Ct. App.\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Otis Elevator Co.\",\n                \"rhs\": \"Embert\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Otis Elevator Co.\",\n                    \"rhs\": \"Embert\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Otis Elevator Co. v. Embert\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/maryland/cases/198-md-585/otis-elevator-co-v-embert\",\n            \"link_md\": \"[Otis Elevator Co. v. Embert](https://syfert.com/maryland/cases/198-md-585/otis-elevator-co-v-embert)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "85 A.2d 876",
+      "volume": "85",
+      "reporter": "A.2d",
+      "page": "876",
+      "pin": null,
+      "cluster_id": 2083463,
+      "case": {
+       "case_name": "Otis Elevator Co. v. Embert",
+       "case_name_short": "Embert",
+       "date_filed": "1951-12-07",
+       "court_id": "md",
+       "docket_number": "[No. 46, October Term, 1951.]",
+       "citation_count": 43,
+       "court_label": "Md."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 2.514,
+       "total_events": 50,
+       "distinct_courts": 13,
+       "top_neg_label": "Murphy v. Montgomery Elevator Co.",
+       "top_neg_court": "washctapp",
+       "top_neg_date": "1992-02-20",
+       "top_pos_label": "Metropolitan Atlanta Rapid Transit Authority v. Rouse",
+       "top_pos_court": "ga",
+       "top_pos_date": "2005-04-26",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": 1171450,
+      "neg_citers": {
+       "murphy v. montgomery elevator co.": {
+        "cid": 1171450,
+        "court": "washctapp"
+       }
+      },
+      "top_neg_court_label": "Wash. Ct. App.",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Otis Elevator Co.",
+       "rhs": "Embert"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Otis Elevator Co.",
+        "rhs": "Embert"
+       },
+       "verdict": "match",
+       "resolved_name": "Otis Elevator Co. v. Embert"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/maryland/cases/198-md-585/otis-elevator-co-v-embert",
+      "link_md": "[Otis Elevator Co. v. Embert](https://syfert.com/maryland/cases/198-md-585/otis-elevator-co-v-embert)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

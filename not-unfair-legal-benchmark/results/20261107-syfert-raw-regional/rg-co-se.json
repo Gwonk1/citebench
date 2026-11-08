@@ -1,0 +1,104 @@
+{
+ "id": "rg-co-se",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Breedin v. Smith, 120 S.E. 64."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"120 S.E. 64\",\n            \"volume\": \"120\",\n            \"reporter\": \"S.E.\",\n            \"page\": \"64\",\n            \"pin\": null,\n            \"cluster_id\": 4123244,\n            \"case\": {\n                \"case_name\": \"Breedin v. Smith\",\n                \"case_name_short\": \"Breedin\",\n                \"date_filed\": \"1923-11-16\",\n                \"court_id\": \"sc\",\n                \"docket_number\": \"11346\",\n                \"citation_count\": 25,\n                \"court_label\": \"S.C.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 3.499,\n                \"total_events\": 34,\n                \"distinct_courts\": 4,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Israel Casper, Individually and D/B/A Abby Sales v. Metal Trades, Inc.\",\n                \"top_pos_court\": \"ca4\",\n                \"top_pos_date\": \"1979-08-09\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Breedin\",\n                \"rhs\": \"Smith\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Breedin\",\n                    \"rhs\": \"Smith\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Breedin v. Smith\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/south-carolina/cases/126-s-c-346/breedin-v-smith\",\n            \"link_md\": \"[Breedin v. Smith](https://syfert.com/south-carolina/cases/126-s-c-346/breedin-v-smith)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "120 S.E. 64",
+      "volume": "120",
+      "reporter": "S.E.",
+      "page": "64",
+      "pin": null,
+      "cluster_id": 4123244,
+      "case": {
+       "case_name": "Breedin v. Smith",
+       "case_name_short": "Breedin",
+       "date_filed": "1923-11-16",
+       "court_id": "sc",
+       "docket_number": "11346",
+       "citation_count": 25,
+       "court_label": "S.C."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 3.499,
+       "total_events": 34,
+       "distinct_courts": 4,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Israel Casper, Individually and D/B/A Abby Sales v. Metal Trades, Inc.",
+       "top_pos_court": "ca4",
+       "top_pos_date": "1979-08-09",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Breedin",
+       "rhs": "Smith"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Breedin",
+        "rhs": "Smith"
+       },
+       "verdict": "match",
+       "resolved_name": "Breedin v. Smith"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/south-carolina/cases/126-s-c-346/breedin-v-smith",
+      "link_md": "[Breedin v. Smith](https://syfert.com/south-carolina/cases/126-s-c-346/breedin-v-smith)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

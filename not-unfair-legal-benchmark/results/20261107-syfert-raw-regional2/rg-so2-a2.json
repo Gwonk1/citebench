@@ -1,0 +1,124 @@
+{
+ "id": "rg-so2-a2",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Barnes v. Buckeye Molding Co., 157 So. 2d 62."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"citation_corrected\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) use an older reporter number for the case (corrections verdict citation_corrected): citing courts print a different number, which our index now lists. Use replace_with.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"157 So. 2d 62\",\n            \"verdict\": \"citation_corrected\",\n            \"problem\": \"Our index now lists this case at 157 So. 2d 63, the number citing courts print; 157 So. 2d 62 is an older listing that no opinion in our corpus prints. Cite 157 So. 2d 63.\",\n            \"replace_with\": \"157 So. 2d 63\",\n            \"suggested\": \"Barnes v. Buckeye Molding Co., 157 So. 2d 63 (Miss. 1963)\",\n            \"case\": {\n                \"cluster_id\": 8041303,\n                \"case_name\": \"Barnes v. Buckeye Molding Co.\"\n            }\n        }\n    ],\n    \"cites\": [\n        {\n            \"raw\": \"157 So. 2d 62\",\n            \"volume\": \"157\",\n            \"reporter\": \"So. 2d\",\n            \"page\": \"62\",\n            \"pin\": null,\n            \"cluster_id\": 8041303,\n            \"case\": {\n                \"case_name\": \"Barnes v. Buckeye Molding Co.\",\n                \"case_name_short\": \"Barnes\",\n                \"date_filed\": \"1963-10-28\",\n                \"court_id\": \"miss\",\n                \"docket_number\": \"No. 42763\",\n                \"citation_count\": 6,\n                \"court_label\": \"Miss.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 1.225,\n                \"total_events\": 6,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Penrod Drilling Co. v. Etheridge\",\n                \"top_pos_court\": \"miss\",\n                \"top_pos_date\": \"1986-05-07\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Barnes\",\n                \"rhs\": \"Buckeye Molding Co.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Barnes\",\n                    \"rhs\": \"Buckeye Molding Co.\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Barnes v. Buckeye Molding Co.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/mississippi/cases/247-miss-614/barnes-v-buckeye-molding-co\",\n            \"link_md\": \"[Barnes v. Buckeye Molding Co.](https://syfert.com/mississippi/cases/247-miss-614/barnes-v-buckeye-molding-co)\",\n            \"citation_corrected\": {\n                \"cite\": \"157 So. 2d 63\",\n                \"old_listing\": \"157 So. 2d 62\",\n                \"note\": \"Our index now lists this case at 157 So. 2d 63, the number citing courts print; 157 So. 2d 62 is an older listing that no opinion in our corpus prints. Cite 157 So. 2d 63.\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "citation_corrected": 1
+    },
+    "warnings": [
+     "1 citation(s) use an older reporter number for the case (corrections verdict citation_corrected): citing courts print a different number, which our index now lists. Use replace_with."
+    ],
+    "corrections": [
+     {
+      "raw": "157 So. 2d 62",
+      "verdict": "citation_corrected",
+      "problem": "Our index now lists this case at 157 So. 2d 63, the number citing courts print; 157 So. 2d 62 is an older listing that no opinion in our corpus prints. Cite 157 So. 2d 63.",
+      "replace_with": "157 So. 2d 63",
+      "suggested": "Barnes v. Buckeye Molding Co., 157 So. 2d 63 (Miss. 1963)",
+      "case": {
+       "cluster_id": 8041303,
+       "case_name": "Barnes v. Buckeye Molding Co."
+      }
+     }
+    ],
+    "cites": [
+     {
+      "raw": "157 So. 2d 62",
+      "volume": "157",
+      "reporter": "So. 2d",
+      "page": "62",
+      "pin": null,
+      "cluster_id": 8041303,
+      "case": {
+       "case_name": "Barnes v. Buckeye Molding Co.",
+       "case_name_short": "Barnes",
+       "date_filed": "1963-10-28",
+       "court_id": "miss",
+       "docket_number": "No. 42763",
+       "citation_count": 6,
+       "court_label": "Miss."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 1.225,
+       "total_events": 6,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Penrod Drilling Co. v. Etheridge",
+       "top_pos_court": "miss",
+       "top_pos_date": "1986-05-07",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Barnes",
+       "rhs": "Buckeye Molding Co."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Barnes",
+        "rhs": "Buckeye Molding Co."
+       },
+       "verdict": "match",
+       "resolved_name": "Barnes v. Buckeye Molding Co."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/mississippi/cases/247-miss-614/barnes-v-buckeye-molding-co",
+      "link_md": "[Barnes v. Buckeye Molding Co.](https://syfert.com/mississippi/cases/247-miss-614/barnes-v-buckeye-molding-co)",
+      "citation_corrected": {
+       "cite": "157 So. 2d 63",
+       "old_listing": "157 So. 2d 62",
+       "note": "Our index now lists this case at 157 So. 2d 63, the number citing courts print; 157 So. 2d 62 is an older listing that no opinion in our corpus prints. Cite 157 So. 2d 63."
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

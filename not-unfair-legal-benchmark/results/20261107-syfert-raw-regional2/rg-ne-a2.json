@@ -1,0 +1,123 @@
+{
+ "id": "rg-ne-a2",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Zartman v. First National Bank, 82 N.E. 137."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"citation_corrected\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) use an older reporter number for the case (corrections verdict citation_corrected): citing courts print a different number, which our index now lists. Use replace_with.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"82 N.E. 137\",\n            \"verdict\": \"citation_corrected\",\n            \"problem\": \"Our index now lists this case at 82 N.E. 127, the number citing courts print; 82 N.E. 137 is an older listing that no opinion in our corpus prints. Cite 82 N.E. 127.\",\n            \"replace_with\": \"82 N.E. 127\",\n            \"suggested\": \"Zartman v. First Nat'l Bank, 82 N.E. 127 (N.Y. 1907)\",\n            \"case\": {\n                \"cluster_id\": 3631359,\n                \"case_name\": \"Zartman v. First National Bank\"\n            }\n        }\n    ],\n    \"cites\": [\n        {\n            \"raw\": \"82 N.E. 137\",\n            \"volume\": \"82\",\n            \"reporter\": \"N.E.\",\n            \"page\": \"137\",\n            \"pin\": null,\n            \"cluster_id\": 3631359,\n            \"case\": {\n                \"case_name\": \"Zartman v. First National Bank\",\n                \"case_name_short\": \"Zartman\",\n                \"date_filed\": \"1907-10-08\",\n                \"court_id\": \"ny\",\n                \"docket_number\": null,\n                \"citation_count\": 71,\n                \"court_label\": \"N.Y.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 1.229,\n                \"total_events\": 83,\n                \"distinct_courts\": 20,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Zartman\",\n                \"rhs\": \"First National Bank\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Zartman\",\n                    \"rhs\": \"First National Bank\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Zartman v. First National Bank\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/new-york/cases/189-n-y-267/zartman-v-first-national-bank\",\n            \"link_md\": \"[Zartman v. First National Bank](https://syfert.com/new-york/cases/189-n-y-267/zartman-v-first-national-bank)\",\n            \"citation_corrected\": {\n                \"cite\": \"82 N.E. 127\",\n                \"old_listing\": \"82 N.E. 137\",\n                \"note\": \"Our index now lists this case at 82 N.E. 127, the number citing courts print; 82 N.E. 137 is an older listing that no opinion in our corpus prints. Cite 82 N.E. 127.\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "citation_corrected": 1
+    },
+    "warnings": [
+     "1 citation(s) use an older reporter number for the case (corrections verdict citation_corrected): citing courts print a different number, which our index now lists. Use replace_with."
+    ],
+    "corrections": [
+     {
+      "raw": "82 N.E. 137",
+      "verdict": "citation_corrected",
+      "problem": "Our index now lists this case at 82 N.E. 127, the number citing courts print; 82 N.E. 137 is an older listing that no opinion in our corpus prints. Cite 82 N.E. 127.",
+      "replace_with": "82 N.E. 127",
+      "suggested": "Zartman v. First Nat'l Bank, 82 N.E. 127 (N.Y. 1907)",
+      "case": {
+       "cluster_id": 3631359,
+       "case_name": "Zartman v. First National Bank"
+      }
+     }
+    ],
+    "cites": [
+     {
+      "raw": "82 N.E. 137",
+      "volume": "82",
+      "reporter": "N.E.",
+      "page": "137",
+      "pin": null,
+      "cluster_id": 3631359,
+      "case": {
+       "case_name": "Zartman v. First National Bank",
+       "case_name_short": "Zartman",
+       "date_filed": "1907-10-08",
+       "court_id": "ny",
+       "docket_number": null,
+       "citation_count": 71,
+       "court_label": "N.Y."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 1.229,
+       "total_events": 83,
+       "distinct_courts": 20,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Zartman",
+       "rhs": "First National Bank"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Zartman",
+        "rhs": "First National Bank"
+       },
+       "verdict": "match",
+       "resolved_name": "Zartman v. First National Bank"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/new-york/cases/189-n-y-267/zartman-v-first-national-bank",
+      "link_md": "[Zartman v. First National Bank](https://syfert.com/new-york/cases/189-n-y-267/zartman-v-first-national-bank)",
+      "citation_corrected": {
+       "cite": "82 N.E. 127",
+       "old_listing": "82 N.E. 137",
+       "note": "Our index now lists this case at 82 N.E. 127, the number citing courts print; 82 N.E. 137 is an older listing that no opinion in our corpus prints. Cite 82 N.E. 127."
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "id": "rg-p2-c1",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Douglas v. Douglas, 56 P.2d 362."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"56 P.2d 362\",\n            \"volume\": \"56\",\n            \"reporter\": \"P.2d\",\n            \"page\": \"362\",\n            \"pin\": null,\n            \"cluster_id\": 4043613,\n            \"case\": {\n                \"case_name\": \"Douglas v. Douglas\",\n                \"case_name_short\": \"Douglas\",\n                \"date_filed\": \"1936-03-24\",\n                \"court_id\": \"okla\",\n                \"docket_number\": \"No. 25035.\",\n                \"citation_count\": 50,\n                \"court_label\": \"Okla.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 1.998,\n                \"total_events\": 48,\n                \"distinct_courts\": 5,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Bennie W. Agee, Administrator of the Estate of M. Louise Agee, Deceased v. The Travelers Indemnity Company\",\n                \"top_pos_court\": \"ca10\",\n                \"top_pos_date\": \"1968-05-29\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Douglas\",\n                \"rhs\": \"Douglas\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Douglas\",\n                    \"rhs\": \"Douglas\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Douglas v. Douglas\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/oklahoma/cases/176-okla-378/douglas-v-douglas\",\n            \"link_md\": \"[Douglas v. Douglas](https://syfert.com/oklahoma/cases/176-okla-378/douglas-v-douglas)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "56 P.2d 362",
+      "volume": "56",
+      "reporter": "P.2d",
+      "page": "362",
+      "pin": null,
+      "cluster_id": 4043613,
+      "case": {
+       "case_name": "Douglas v. Douglas",
+       "case_name_short": "Douglas",
+       "date_filed": "1936-03-24",
+       "court_id": "okla",
+       "docket_number": "No. 25035.",
+       "citation_count": 50,
+       "court_label": "Okla."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 1.998,
+       "total_events": 48,
+       "distinct_courts": 5,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Bennie W. Agee, Administrator of the Estate of M. Louise Agee, Deceased v. The Travelers Indemnity Company",
+       "top_pos_court": "ca10",
+       "top_pos_date": "1968-05-29",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Douglas",
+       "rhs": "Douglas"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Douglas",
+        "rhs": "Douglas"
+       },
+       "verdict": "match",
+       "resolved_name": "Douglas v. Douglas"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/oklahoma/cases/176-okla-378/douglas-v-douglas",
+      "link_md": "[Douglas v. Douglas](https://syfert.com/oklahoma/cases/176-okla-378/douglas-v-douglas)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

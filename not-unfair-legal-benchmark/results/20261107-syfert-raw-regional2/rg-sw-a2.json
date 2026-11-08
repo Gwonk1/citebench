@@ -1,0 +1,103 @@
+{
+ "id": "rg-sw-a2",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Evans v. Illinois Central Railroad, 233 S.W. 397."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"233 S.W. 397\",\n            \"volume\": \"233\",\n            \"reporter\": \"S.W.\",\n            \"page\": \"397\",\n            \"pin\": null,\n            \"cluster_id\": 3548113,\n            \"case\": {\n                \"case_name\": \"Evans v. Illinois Central Railroad\",\n                \"case_name_short\": \"Evans\",\n                \"date_filed\": \"1921-07-22\",\n                \"court_id\": \"mo\",\n                \"docket_number\": null,\n                \"citation_count\": 31,\n                \"court_label\": \"Mo.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.878,\n                \"total_events\": 34,\n                \"distinct_courts\": 5,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Evans\",\n                \"rhs\": \"Illinois Central Railroad\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Evans\",\n                    \"rhs\": \"Illinois Central Railroad\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Evans v. Illinois Central Railroad\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/missouri/cases/289-mo-493/evans-v-illinois-central-railroad\",\n            \"link_md\": \"[Evans v. Illinois Central Railroad](https://syfert.com/missouri/cases/289-mo-493/evans-v-illinois-central-railroad)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "233 S.W. 397",
+      "volume": "233",
+      "reporter": "S.W.",
+      "page": "397",
+      "pin": null,
+      "cluster_id": 3548113,
+      "case": {
+       "case_name": "Evans v. Illinois Central Railroad",
+       "case_name_short": "Evans",
+       "date_filed": "1921-07-22",
+       "court_id": "mo",
+       "docket_number": null,
+       "citation_count": 31,
+       "court_label": "Mo."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.878,
+       "total_events": 34,
+       "distinct_courts": 5,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Evans",
+       "rhs": "Illinois Central Railroad"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Evans",
+        "rhs": "Illinois Central Railroad"
+       },
+       "verdict": "match",
+       "resolved_name": "Evans v. Illinois Central Railroad"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/missouri/cases/289-mo-493/evans-v-illinois-central-railroad",
+      "link_md": "[Evans v. Illinois Central Railroad](https://syfert.com/missouri/cases/289-mo-493/evans-v-illinois-central-railroad)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}
