@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Best w/15 \"47 P.2d 456\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Best w/15 \\\"47 P.2d 456\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3416085,\"bluebook\":\"Skelly v. Sunshine Mining Co., 109 P.2d 622 (Idaho 1941)\",\"url\":\"https://syfert.com/idaho/cases/109-p-2d-622/skelly-v-sunshine-mining-co\",\"date_filed\":\"1941-01-16\",\"cited_by\":12,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...239 , 22 P. (2d) 157 ;\\nBest v. London Guaranty & Accident Co.,\\n100 Mont. 332 , 47 P. (2d) 456 .”\\nIn view of the holding of this and other courts, referred to above, it appears that the mental disorder termed traumatic neurosis although…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Best w/15 \"47 P.2d 456\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3416085,
+    "bluebook": "Skelly v. Sunshine Mining Co., 109 P.2d 622 (Idaho 1941)",
+    "url": "https://syfert.com/idaho/cases/109-p-2d-622/skelly-v-sunshine-mining-co",
+    "date_filed": "1941-01-16",
+    "cited_by": 12,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...239 , 22 P. (2d) 157 ;\nBest v. London Guaranty & Accident Co.,\n100 Mont. 332 , 47 P. (2d) 456 .”\nIn view of the holding of this and other courts, referred to above, it appears that the mental disorder termed traumatic neurosis although…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

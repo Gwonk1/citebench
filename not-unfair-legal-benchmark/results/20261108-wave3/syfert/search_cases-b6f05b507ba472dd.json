@@ -1,0 +1,43 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Texas w/15 \"37 S.W. 487\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Texas w/15 \\\"37 S.W. 487\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4164712,\"bluebook\":\"Ramey v. State, 268 S.W. 476 (Tex. Crim. App. 1925)\",\"url\":\"https://syfert.com/texas/cases/99-tex-crim-132/ramey-v-state\",\"date_filed\":\"1925-01-28\",\"cited_by\":0,\"snippet\":\"...C., page 487, Sec. 868, and cases collated. Garrett v. State, 37 Texas Crim. Rep., 198 , 39 S. W. 108x. The indictment contains three assignments of perjury, it is alleged (a) that Ramey swore that on or about the 19th day of February…\"},{\"cluster_id\":4193213,\"bluebook\":\"Missouri v. Hendricks, 108 S.W. 745 (Tex. App. 1908)\",\"url\":\"https://syfert.com/texas/cases/49-tex-civ-app-314/missouri-kansas-texas-railway-co-v-hendricks\",\"date_filed\":\"1908-02-22\",\"cited_by\":43,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"BOOKHOUT, Associate Justice.\\n— Appellee, L. B. Hendricks instituted this suit against appellant, Missouri, Kansas & Texas Bailroad Company, to recover damages in the sum of $50,000 on account of personal injuries received by him near the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Texas w/15 \"37 S.W. 487\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4164712,
+    "bluebook": "Ramey v. State, 268 S.W. 476 (Tex. Crim. App. 1925)",
+    "url": "https://syfert.com/texas/cases/99-tex-crim-132/ramey-v-state",
+    "date_filed": "1925-01-28",
+    "cited_by": 0,
+    "snippet": "...C., page 487, Sec. 868, and cases collated. Garrett v. State, 37 Texas Crim. Rep., 198 , 39 S. W. 108x. The indictment contains three assignments of perjury, it is alleged (a) that Ramey swore that on or about the 19th day of February…"
+   },
+   {
+    "cluster_id": 4193213,
+    "bluebook": "Missouri v. Hendricks, 108 S.W. 745 (Tex. App. 1908)",
+    "url": "https://syfert.com/texas/cases/49-tex-civ-app-314/missouri-kansas-texas-railway-co-v-hendricks",
+    "date_filed": "1908-02-22",
+    "cited_by": 43,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "BOOKHOUT, Associate Justice.\n— Appellee, L. B. Hendricks instituted this suit against appellant, Missouri, Kansas & Texas Bailroad Company, to recover damages in the sum of $50,000 on account of personal injuries received by him near the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

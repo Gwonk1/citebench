@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Federal w/15 \"536 N.E.2d 655\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Federal w/15 \\\"536 N.E.2d 655\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8519571,\"bluebook\":\"In re Burks, 181 B.R. 303 (Bankr. N.D. Ohio 1995)\",\"url\":\"https://syfert.com/federal/district/cases/181-b-r-303/in-re-burks\",\"date_filed\":\"1995-03-02\",\"cited_by\":2,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Regarding § 544, the Debtors argue that under the Ohio Court of Appeals case First Federal S. & L. v. Hayes, 42 Ohio App.3d 89 , 536 N.E.2d 655 (1987), the hens were not properly perfected under Ohio law, and were therefore avoided.\\nDPU…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Federal w/15 \"536 N.E.2d 655\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8519571,
+    "bluebook": "In re Burks, 181 B.R. 303 (Bankr. N.D. Ohio 1995)",
+    "url": "https://syfert.com/federal/district/cases/181-b-r-303/in-re-burks",
+    "date_filed": "1995-03-02",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Regarding § 544, the Debtors argue that under the Ohio Court of Appeals case First Federal S. & L. v. Hayes, 42 Ohio App.3d 89 , 536 N.E.2d 655 (1987), the hens were not properly perfected under Ohio law, and were therefore avoided.\nDPU…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

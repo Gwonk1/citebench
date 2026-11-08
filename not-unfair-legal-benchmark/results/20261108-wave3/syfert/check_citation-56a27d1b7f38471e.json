@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "247 S.W. 396",
+  "expected_case_name": "Leahy v. Mercantile Trust Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"247 S.W. 396\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3553523,\n            \"case_name\": \"Leahy v. Mercantile Trust Co.\",\n            \"citations\": [\n                \"247 S.W. 396\"\n            ],\n            \"court\": \"Supreme Court of Missouri\",\n            \"date_filed\": \"1922-12-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 30,\n            \"url\": \"https://syfert.com/missouri/cases/296-mo-561/leahy-v-mercantile-trust-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Leahy v. Mercantile Trust Co., 247 S.W. 396 (Mo. 1922)\",\n            \"link_md\": \"[Leahy v. Mercantile Trust Co., 247 S.W. 396 (Mo. 1922)](https://syfert.com/missouri/cases/296-mo-561/leahy-v-mercantile-trust-co)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Leahy v. Mercantile Trust Co.\",\n        \"actual\": \"Leahy v. Mercantile Trust Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "247 S.W. 396",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3553523,
+    "case_name": "Leahy v. Mercantile Trust Co.",
+    "citations": [
+     "247 S.W. 396"
+    ],
+    "court": "Supreme Court of Missouri",
+    "date_filed": "1922-12-30",
+    "status": "Published",
+    "cited_by": 30,
+    "url": "https://syfert.com/missouri/cases/296-mo-561/leahy-v-mercantile-trust-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Leahy v. Mercantile Trust Co., 247 S.W. 396 (Mo. 1922)",
+    "link_md": "[Leahy v. Mercantile Trust Co., 247 S.W. 396 (Mo. 1922)](https://syfert.com/missouri/cases/296-mo-561/leahy-v-mercantile-trust-co)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Leahy v. Mercantile Trust Co.",
+   "actual": "Leahy v. Mercantile Trust Co.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

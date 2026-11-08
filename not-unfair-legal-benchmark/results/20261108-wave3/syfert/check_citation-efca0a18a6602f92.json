@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "163 N.W.2d 51",
+  "expected_case_name": "Raymond v. Baehr"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"163 N.W.2d 51\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2011637,\n            \"case_name\": \"Raymond v. Baehr\",\n            \"citations\": [\n                \"163 N.W.2d 51\"\n            ],\n            \"court\": \"Supreme Court of Minnesota\",\n            \"date_filed\": \"1968-12-06\",\n            \"status\": \"Published\",\n            \"cited_by\": 15,\n            \"url\": \"https://syfert.com/minnesota/cases/282-minn-109/raymond-v-baehr\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Raymond v. Baehr, 163 N.W.2d 51 (Minn. 1968)\",\n            \"link_md\": \"[Raymond v. Baehr, 163 N.W.2d 51 (Minn. 1968)](https://syfert.com/minnesota/cases/282-minn-109/raymond-v-baehr)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 13,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Raymond v. Baehr\",\n        \"actual\": \"Raymond v. Baehr\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "163 N.W.2d 51",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2011637,
+    "case_name": "Raymond v. Baehr",
+    "citations": [
+     "163 N.W.2d 51"
+    ],
+    "court": "Supreme Court of Minnesota",
+    "date_filed": "1968-12-06",
+    "status": "Published",
+    "cited_by": 15,
+    "url": "https://syfert.com/minnesota/cases/282-minn-109/raymond-v-baehr",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Raymond v. Baehr, 163 N.W.2d 51 (Minn. 1968)",
+    "link_md": "[Raymond v. Baehr, 163 N.W.2d 51 (Minn. 1968)](https://syfert.com/minnesota/cases/282-minn-109/raymond-v-baehr)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 13,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Raymond v. Baehr",
+   "actual": "Raymond v. Baehr",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

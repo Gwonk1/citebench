@@ -1,0 +1,398 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Palmer w/15 \"137 A2d 119\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Palmer w/15 \\\"137 A2d 119\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":431473,\"case_name\":\"Palmer v. Turner\",\"citations\":[\"727 F.2d 1114\",\"1984 U.S. App. LEXIS 25329\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1984-02-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/727-f-2d-1114/palmer-v-turner\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Turner, 727 F.2d 1114 (11th Cir. 1984)\",\"link_md\":\"[Palmer v. Turner, 727 F.2d 1114 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/727-f-2d-1114/palmer-v-turner)\",\"match_kind\":\"semantic\",\"similarity\":0.7348},{\"cluster_id\":6484077,\"case_name\":\"Com. of Pa. v. Palmer\",\"citations\":[\"182 A.3d 438\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2018-03-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/182-a-3d-438/com-of-pa-v-palmer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. of Pa. v. Palmer, 182 A.3d 438 (Pa. 2018)\",\"link_md\":\"[Com. of Pa. v. Palmer, 182 A.3d 438 (Pa. 2018)](https://syfert.com/pennsylvania/cases/182-a-3d-438/com-of-pa-v-palmer)\",\"match_kind\":\"semantic\",\"similarity\":0.7191},{\"cluster_id\":751332,\"case_name\":\"Palmer v. Jones\",\"citations\":[\"135 F.3d 145\",\"1998 U.S. App. LEXIS 1577\",\"1998 WL 21052\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1998-01-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/135-f-3d-145/palmer-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Jones, 135 F.3d 145 (11th Cir. 1998)\",\"link_md\":\"[Palmer v. Jones, 135 F.3d 145 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/135-f-3d-145/palmer-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.7138},{\"cluster_id\":446313,\"case_name\":\"Palmer v. Metropolitan Bancorp.\",\"citations\":[\"751 F.2d 392\",\"1984 U.S. App. LEXIS 15994\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1984-12-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/751-f-2d-392/palmer-v-metropolitan-bancorp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Metro. Bancorp., 751 F.2d 392 (11th Cir. 1984)\",\"link_md\":\"[Palmer v. Metro. Bancorp., 751 F.2d 392 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/751-f-2d-392/palmer-v-metropolitan-bancorp)\",\"match_kind\":\"semantic\",\"similarity\":0.7136},{\"cluster_id\":498107,\"case_name\":\"Palmer (Gerald L., Jr.) v. Chicago Title & Trust Company, University of Chicago\",\"citations\":[\"834 F.2d 173\",\"1987 U.S. App. LEXIS 15834\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1987-11-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/834-f-2d-173/palmer-gerald-l-jr-v-chicago-title-trust-company-u\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer (Gerald L., Jr.) v. Chicago Title & Trust Co., 834 F.2d 173 (7th Cir. 1987)\",\"link_md\":\"[Palmer (Gerald L., Jr.) v. Chicago Title & Trust Co., 834 F.2d 173 (7th Cir. 1987)](https://syfert.com/federal/circuits/cases/834-f-2d-173/palmer-gerald-l-jr-v-chicago-title-trust-company-u)\",\"match_kind\":\"semantic\",\"similarity\":0.7108},{\"cluster_id\":7582555,\"case_name\":\"Palmer v. Fireman's Fund Insurance Co.\",\"citations\":[\"400 So. 2d 668\",\"1981 La. LEXIS 7934\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1981-05-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/400-so-2d-668/palmer-v-firemans-fund-insurance-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Fireman's Fund Ins. Co., 400 So. 2d 668 (La. 1981)\",\"link_md\":\"[Palmer v. Fireman's Fund Ins. Co., 400 So. 2d 668 (La. 1981)](https://syfert.com/louisiana/cases/400-so-2d-668/palmer-v-firemans-fund-insurance-co)\",\"match_kind\":\"semantic\",\"similarity\":0.7092},{\"cluster_id\":6263629,\"case_name\":\"Palmer v. Pennsylvania Co.\",\"citations\":[\"42 N.Y. Sup. Ct. 369\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1885-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6263629/palmer-v-pennsylvania-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Pennsylvania Co., 42 N.Y. Sup. Ct. 369 (N.Y. Sup. Ct. 1885)\",\"link_md\":\"[Palmer v. Pennsylvania Co., 42 N.Y. Sup. Ct. 369 (N.Y. Sup. Ct. 1885)](https://syfert.com/new-york/cases/cl-6263629/palmer-v-pennsylvania-co)\",\"match_kind\":\"semantic\",\"similarity\":0.705},{\"cluster_id\":6254471,\"case_name\":\"Palmer v. People\",\"citations\":[\"26 N.Y. Sup. Ct. 372\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1879-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6254471/palmer-v-people\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. People, 26 N.Y. Sup. Ct. 372 (N.Y. Sup. Ct. 1879)\",\"link_md\":\"[Palmer v. People, 26 N.Y. Sup. Ct. 372 (N.Y. Sup. Ct. 1879)](https://syfert.com/new-york/cases/cl-6254471/palmer-v-people)\",\"match_kind\":\"semantic\",\"similarity\":0.6995},{\"cluster_id\":6591229,\"case_name\":\"Palmer v. Casey\",\"citations\":[\"2 Rec. Co. Ct. 950\"],\"court\":\"Suffolk County Court\",\"date_filed\":\"1678-10-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6591229/palmer-v-casey\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Casey, 2 Rec. Co. Ct. 950 (N.Y. Cnty. Ct. 1678)\",\"link_md\":\"[Palmer v. Casey, 2 Rec. Co. Ct. 950 (N.Y. Cnty. Ct. 1678)](https://syfert.com/new-york/cases/cl-6591229/palmer-v-casey)\",\"match_kind\":\"semantic\",\"similarity\":0.696},{\"cluster_id\":751316,\"case_name\":\"Palmer v. Fleet Finance, Inc.\",\"citations\":[\"135 F.3d 145\",\"1998 U.S. App. LEXIS 1559\",\"1998 WL 21027\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1998-01-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/135-f-3d-145/palmer-v-fleet-finance-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Fleet Fin., Inc., 135 F.3d 145 (11th Cir. 1998)\",\"link_md\":\"[Palmer v. Fleet Fin., Inc., 135 F.3d 145 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/135-f-3d-145/palmer-v-fleet-finance-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6942},{\"cluster_id\":5420388,\"case_name\":\"In re Palmer\",\"citations\":[\"192 A.D. 920\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1920-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/192-a-d-920/in-re-palmer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Palmer, 192 A.D. 920 (N.Y. App. Div. 1920)\",\"link_md\":\"[In re Palmer, 192 A.D. 920 (N.Y. App. Div. 1920)](https://syfert.com/new-york/cases/192-a-d-920/in-re-palmer)\",\"match_kind\":\"semantic\",\"similarity\":0.6918},{\"cluster_id\":7350827,\"case_name\":\"Palmer v. Buge\",\"citations\":[\"565 U.S. 1151\",\"181 L. Ed. 2d 800\",\"2012 U.S. LEXIS 412\",\"132 S. Ct. 1081\",\"80 U.S.L.W. 3398\",\"2012 WL 33797\"],\"court\":\"Supreme Court\",\"date_filed\":\"2012-01-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/565-u-s-1151/palmer-v-buge\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Buge, 565 U.S. 1151 (2012)\",\"link_md\":\"[Palmer v. Buge, 565 U.S. 1151 (2012)](https://syfert.com/federal/scotus/cases/565-u-s-1151/palmer-v-buge)\",\"match_kind\":\"semantic\",\"similarity\":0.6905},{\"cluster_id\":8448562,\"case_name\":\"Palmer v. Principi\",\"citations\":[\"81 F. App'x 329\"],\"court\":\"Federal Circuit\",\"date_filed\":\"2003-11-05\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/81-f-appx-329/palmer-v-principi\",\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_reporter\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 81 F. App'x 329).\",\"bluebook\":\"Palmer v. Principi, 81 F. App'x 329 (Fed. Cir. 2003)\",\"link_md\":\"[Palmer v. Principi, 81 F. App'x 329 (Fed. Cir. 2003)](https://syfert.com/federal/circuits/cases/81-f-appx-329/palmer-v-principi)\",\"match_kind\":\"semantic\",\"similarity\":0.6846},{\"cluster_id\":436812,\"case_name\":\"U.S. Ex Rel. Palmer v. Derobertis\",\"citations\":[\"735 F.2d 1367\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1984-05-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/735-f-2d-1367/us-ex-rel-palmer-v-derobertis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"U.S. ex rel. Palmer v. Derobertis, 735 F.2d 1367 (7th Cir. 1984)\",\"link_md\":\"[U.S. ex rel. Palmer v. Derobertis, 735 F.2d 1367 (7th Cir. 1984)](https://syfert.com/federal/circuits/cases/735-f-2d-1367/us-ex-rel-palmer-v-derobertis)\",\"match_kind\":\"semantic\",\"similarity\":0.6833},{\"cluster_id\":343006,\"case_name\":\"Palmere v. Borg\",\"citations\":[\"549 F.2d 805\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1977-02-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/549-f-2d-805/palmere-v-borg\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmere v. Borg, 549 F.2d 805 (7th Cir. 1977)\",\"link_md\":\"[Palmere v. Borg, 549 F.2d 805 (7th Cir. 1977)](https://syfert.com/federal/circuits/cases/549-f-2d-805/palmere-v-borg)\",\"match_kind\":\"semantic\",\"similarity\":0.6825},{\"cluster_id\":472965,\"case_name\":\"Palmer v. Berry\",\"citations\":[\"795 F.2d 88\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1986-07-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/795-f-2d-88/palmer-v-berry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Berry, 795 F.2d 88 (11th Cir. 1986)\",\"link_md\":\"[Palmer v. Berry, 795 F.2d 88 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/795-f-2d-88/palmer-v-berry)\",\"match_kind\":\"semantic\",\"similarity\":0.6813},{\"cluster_id\":401514,\"case_name\":\"Palmer v. Johnson\",\"citations\":[\"673 F.2d 1315\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-02-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/673-f-2d-1315/palmer-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Johnson, 673 F.2d 1315 (4th Cir. 1982)\",\"link_md\":\"[Palmer v. Johnson, 673 F.2d 1315 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/673-f-2d-1315/palmer-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.6811},{\"cluster_id\":5464070,\"case_name\":\"Palmer v. Otto\",\"citations\":[\"224 A.D. 808\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1928-09-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/224-a-d-808/palmer-v-otto\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Otto, 224 A.D. 808 (N.Y. App. Div. 1928)\",\"link_md\":\"[Palmer v. Otto, 224 A.D. 808 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/224-a-d-808/palmer-v-otto)\",\"match_kind\":\"semantic\",\"similarity\":0.6751},{\"cluster_id\":489274,\"case_name\":\"Palmer v. Travel Camps, Inc\",\"citations\":[\"819 F.2d 1149\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1987-05-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/819-f-2d-1149/palmer-v-travel-camps-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Travel Camps, Inc, 819 F.2d 1149 (11th Cir. 1987)\",\"link_md\":\"[Palmer v. Travel Camps, Inc, 819 F.2d 1149 (11th Cir. 1987)](https://syfert.com/federal/circuits/cases/819-f-2d-1149/palmer-v-travel-camps-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6718},{\"cluster_id\":6269145,\"case_name\":\"Palmer v. Searing\",\"citations\":[\"53 N.Y. Sup. Ct. 680\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1887-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6269145/palmer-v-searing\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palmer v. Searing, 53 N.Y. Sup. Ct. 680 (N.Y. Sup. Ct. 1887)\",\"link_md\":\"[Palmer v. Searing, 53 N.Y. Sup. Ct. 680 (N.Y. Sup. Ct. 1887)](https://syfert.com/new-york/cases/cl-6269145/palmer-v-searing)\",\"match_kind\":\"semantic\",\"similarity\":0.6715}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Palmer w/15 \"137 A2d 119\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 431473,
+    "case_name": "Palmer v. Turner",
+    "citations": [
+     "727 F.2d 1114",
+     "1984 U.S. App. LEXIS 25329"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1984-02-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/727-f-2d-1114/palmer-v-turner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Turner, 727 F.2d 1114 (11th Cir. 1984)",
+    "link_md": "[Palmer v. Turner, 727 F.2d 1114 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/727-f-2d-1114/palmer-v-turner)",
+    "match_kind": "semantic",
+    "similarity": 0.7348
+   },
+   {
+    "cluster_id": 6484077,
+    "case_name": "Com. of Pa. v. Palmer",
+    "citations": [
+     "182 A.3d 438"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2018-03-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/182-a-3d-438/com-of-pa-v-palmer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. of Pa. v. Palmer, 182 A.3d 438 (Pa. 2018)",
+    "link_md": "[Com. of Pa. v. Palmer, 182 A.3d 438 (Pa. 2018)](https://syfert.com/pennsylvania/cases/182-a-3d-438/com-of-pa-v-palmer)",
+    "match_kind": "semantic",
+    "similarity": 0.7191
+   },
+   {
+    "cluster_id": 751332,
+    "case_name": "Palmer v. Jones",
+    "citations": [
+     "135 F.3d 145",
+     "1998 U.S. App. LEXIS 1577",
+     "1998 WL 21052"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1998-01-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/135-f-3d-145/palmer-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Jones, 135 F.3d 145 (11th Cir. 1998)",
+    "link_md": "[Palmer v. Jones, 135 F.3d 145 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/135-f-3d-145/palmer-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.7138
+   },
+   {
+    "cluster_id": 446313,
+    "case_name": "Palmer v. Metropolitan Bancorp.",
+    "citations": [
+     "751 F.2d 392",
+     "1984 U.S. App. LEXIS 15994"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1984-12-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/751-f-2d-392/palmer-v-metropolitan-bancorp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Metro. Bancorp., 751 F.2d 392 (11th Cir. 1984)",
+    "link_md": "[Palmer v. Metro. Bancorp., 751 F.2d 392 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/751-f-2d-392/palmer-v-metropolitan-bancorp)",
+    "match_kind": "semantic",
+    "similarity": 0.7136
+   },
+   {
+    "cluster_id": 498107,
+    "case_name": "Palmer (Gerald L., Jr.) v. Chicago Title & Trust Company, University of Chicago",
+    "citations": [
+     "834 F.2d 173",
+     "1987 U.S. App. LEXIS 15834"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1987-11-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/834-f-2d-173/palmer-gerald-l-jr-v-chicago-title-trust-company-u",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer (Gerald L., Jr.) v. Chicago Title & Trust Co., 834 F.2d 173 (7th Cir. 1987)",
+    "link_md": "[Palmer (Gerald L., Jr.) v. Chicago Title & Trust Co., 834 F.2d 173 (7th Cir. 1987)](https://syfert.com/federal/circuits/cases/834-f-2d-173/palmer-gerald-l-jr-v-chicago-title-trust-company-u)",
+    "match_kind": "semantic",
+    "similarity": 0.7108
+   },
+   {
+    "cluster_id": 7582555,
+    "case_name": "Palmer v. Fireman's Fund Insurance Co.",
+    "citations": [
+     "400 So. 2d 668",
+     "1981 La. LEXIS 7934"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1981-05-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/400-so-2d-668/palmer-v-firemans-fund-insurance-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Fireman's Fund Ins. Co., 400 So. 2d 668 (La. 1981)",
+    "link_md": "[Palmer v. Fireman's Fund Ins. Co., 400 So. 2d 668 (La. 1981)](https://syfert.com/louisiana/cases/400-so-2d-668/palmer-v-firemans-fund-insurance-co)",
+    "match_kind": "semantic",
+    "similarity": 0.7092
+   },
+   {
+    "cluster_id": 6263629,
+    "case_name": "Palmer v. Pennsylvania Co.",
+    "citations": [
+     "42 N.Y. Sup. Ct. 369"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1885-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6263629/palmer-v-pennsylvania-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Pennsylvania Co., 42 N.Y. Sup. Ct. 369 (N.Y. Sup. Ct. 1885)",
+    "link_md": "[Palmer v. Pennsylvania Co., 42 N.Y. Sup. Ct. 369 (N.Y. Sup. Ct. 1885)](https://syfert.com/new-york/cases/cl-6263629/palmer-v-pennsylvania-co)",
+    "match_kind": "semantic",
+    "similarity": 0.705
+   },
+   {
+    "cluster_id": 6254471,
+    "case_name": "Palmer v. People",
+    "citations": [
+     "26 N.Y. Sup. Ct. 372"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1879-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6254471/palmer-v-people",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. People, 26 N.Y. Sup. Ct. 372 (N.Y. Sup. Ct. 1879)",
+    "link_md": "[Palmer v. People, 26 N.Y. Sup. Ct. 372 (N.Y. Sup. Ct. 1879)](https://syfert.com/new-york/cases/cl-6254471/palmer-v-people)",
+    "match_kind": "semantic",
+    "similarity": 0.6995
+   },
+   {
+    "cluster_id": 6591229,
+    "case_name": "Palmer v. Casey",
+    "citations": [
+     "2 Rec. Co. Ct. 950"
+    ],
+    "court": "Suffolk County Court",
+    "date_filed": "1678-10-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6591229/palmer-v-casey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Casey, 2 Rec. Co. Ct. 950 (N.Y. Cnty. Ct. 1678)",
+    "link_md": "[Palmer v. Casey, 2 Rec. Co. Ct. 950 (N.Y. Cnty. Ct. 1678)](https://syfert.com/new-york/cases/cl-6591229/palmer-v-casey)",
+    "match_kind": "semantic",
+    "similarity": 0.696
+   },
+   {
+    "cluster_id": 751316,
+    "case_name": "Palmer v. Fleet Finance, Inc.",
+    "citations": [
+     "135 F.3d 145",
+     "1998 U.S. App. LEXIS 1559",
+     "1998 WL 21027"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1998-01-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/135-f-3d-145/palmer-v-fleet-finance-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Fleet Fin., Inc., 135 F.3d 145 (11th Cir. 1998)",
+    "link_md": "[Palmer v. Fleet Fin., Inc., 135 F.3d 145 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/135-f-3d-145/palmer-v-fleet-finance-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6942
+   },
+   {
+    "cluster_id": 5420388,
+    "case_name": "In re Palmer",
+    "citations": [
+     "192 A.D. 920"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1920-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/192-a-d-920/in-re-palmer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Palmer, 192 A.D. 920 (N.Y. App. Div. 1920)",
+    "link_md": "[In re Palmer, 192 A.D. 920 (N.Y. App. Div. 1920)](https://syfert.com/new-york/cases/192-a-d-920/in-re-palmer)",
+    "match_kind": "semantic",
+    "similarity": 0.6918
+   },
+   {
+    "cluster_id": 7350827,
+    "case_name": "Palmer v. Buge",
+    "citations": [
+     "565 U.S. 1151",
+     "181 L. Ed. 2d 800",
+     "2012 U.S. LEXIS 412",
+     "132 S. Ct. 1081",
+     "80 U.S.L.W. 3398",
+     "2012 WL 33797"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2012-01-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/565-u-s-1151/palmer-v-buge",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Buge, 565 U.S. 1151 (2012)",
+    "link_md": "[Palmer v. Buge, 565 U.S. 1151 (2012)](https://syfert.com/federal/scotus/cases/565-u-s-1151/palmer-v-buge)",
+    "match_kind": "semantic",
+    "similarity": 0.6905
+   },
+   {
+    "cluster_id": 8448562,
+    "case_name": "Palmer v. Principi",
+    "citations": [
+     "81 F. App'x 329"
+    ],
+    "court": "Federal Circuit",
+    "date_filed": "2003-11-05",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/81-f-appx-329/palmer-v-principi",
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_reporter",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 81 F. App'x 329).",
+    "bluebook": "Palmer v. Principi, 81 F. App'x 329 (Fed. Cir. 2003)",
+    "link_md": "[Palmer v. Principi, 81 F. App'x 329 (Fed. Cir. 2003)](https://syfert.com/federal/circuits/cases/81-f-appx-329/palmer-v-principi)",
+    "match_kind": "semantic",
+    "similarity": 0.6846
+   },
+   {
+    "cluster_id": 436812,
+    "case_name": "U.S. Ex Rel. Palmer v. Derobertis",
+    "citations": [
+     "735 F.2d 1367"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1984-05-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/735-f-2d-1367/us-ex-rel-palmer-v-derobertis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "U.S. ex rel. Palmer v. Derobertis, 735 F.2d 1367 (7th Cir. 1984)",
+    "link_md": "[U.S. ex rel. Palmer v. Derobertis, 735 F.2d 1367 (7th Cir. 1984)](https://syfert.com/federal/circuits/cases/735-f-2d-1367/us-ex-rel-palmer-v-derobertis)",
+    "match_kind": "semantic",
+    "similarity": 0.6833
+   },
+   {
+    "cluster_id": 343006,
+    "case_name": "Palmere v. Borg",
+    "citations": [
+     "549 F.2d 805"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1977-02-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/549-f-2d-805/palmere-v-borg",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmere v. Borg, 549 F.2d 805 (7th Cir. 1977)",
+    "link_md": "[Palmere v. Borg, 549 F.2d 805 (7th Cir. 1977)](https://syfert.com/federal/circuits/cases/549-f-2d-805/palmere-v-borg)",
+    "match_kind": "semantic",
+    "similarity": 0.6825
+   },
+   {
+    "cluster_id": 472965,
+    "case_name": "Palmer v. Berry",
+    "citations": [
+     "795 F.2d 88"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1986-07-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/795-f-2d-88/palmer-v-berry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Berry, 795 F.2d 88 (11th Cir. 1986)",
+    "link_md": "[Palmer v. Berry, 795 F.2d 88 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/795-f-2d-88/palmer-v-berry)",
+    "match_kind": "semantic",
+    "similarity": 0.6813
+   },
+   {
+    "cluster_id": 401514,
+    "case_name": "Palmer v. Johnson",
+    "citations": [
+     "673 F.2d 1315"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-02-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/673-f-2d-1315/palmer-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Johnson, 673 F.2d 1315 (4th Cir. 1982)",
+    "link_md": "[Palmer v. Johnson, 673 F.2d 1315 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/673-f-2d-1315/palmer-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.6811
+   },
+   {
+    "cluster_id": 5464070,
+    "case_name": "Palmer v. Otto",
+    "citations": [
+     "224 A.D. 808"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1928-09-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/224-a-d-808/palmer-v-otto",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Otto, 224 A.D. 808 (N.Y. App. Div. 1928)",
+    "link_md": "[Palmer v. Otto, 224 A.D. 808 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/224-a-d-808/palmer-v-otto)",
+    "match_kind": "semantic",
+    "similarity": 0.6751
+   },
+   {
+    "cluster_id": 489274,
+    "case_name": "Palmer v. Travel Camps, Inc",
+    "citations": [
+     "819 F.2d 1149"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1987-05-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/819-f-2d-1149/palmer-v-travel-camps-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Travel Camps, Inc, 819 F.2d 1149 (11th Cir. 1987)",
+    "link_md": "[Palmer v. Travel Camps, Inc, 819 F.2d 1149 (11th Cir. 1987)](https://syfert.com/federal/circuits/cases/819-f-2d-1149/palmer-v-travel-camps-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6718
+   },
+   {
+    "cluster_id": 6269145,
+    "case_name": "Palmer v. Searing",
+    "citations": [
+     "53 N.Y. Sup. Ct. 680"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1887-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6269145/palmer-v-searing",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. Searing, 53 N.Y. Sup. Ct. 680 (N.Y. Sup. Ct. 1887)",
+    "link_md": "[Palmer v. Searing, 53 N.Y. Sup. Ct. 680 (N.Y. Sup. Ct. 1887)](https://syfert.com/new-york/cases/cl-6269145/palmer-v-searing)",
+    "match_kind": "semantic",
+    "similarity": 0.6715
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

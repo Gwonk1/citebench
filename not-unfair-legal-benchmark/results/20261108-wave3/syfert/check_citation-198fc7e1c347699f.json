@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "18 N.W. 285",
+  "expected_case_name": "Burt v. Winona & St. Peter Railroad"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"18 N.W. 285\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8009597,\n            \"case_name\": \"Burt v. Winona & St. Peter Railroad\",\n            \"citations\": [\n                \"18 N.W. 285\"\n            ],\n            \"court\": \"Supreme Court of Minnesota\",\n            \"date_filed\": \"1884-01-28\",\n            \"status\": \"Published\",\n            \"cited_by\": 45,\n            \"url\": \"https://syfert.com/minnesota/cases/31-minn-472/burt-v-winona-st-peter-railroad\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Burt v. Winona & St. Peter R.R., 18 N.W. 285 (Minn. 1884)\",\n            \"link_md\": \"[Burt v. Winona & St. Peter R.R., 18 N.W. 285 (Minn. 1884)](https://syfert.com/minnesota/cases/31-minn-472/burt-v-winona-st-peter-railroad)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Burt v. Winona & St. Peter Railroad\",\n        \"actual\": \"Burt v. Winona & St. Peter Railroad\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "18 N.W. 285",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8009597,
+    "case_name": "Burt v. Winona & St. Peter Railroad",
+    "citations": [
+     "18 N.W. 285"
+    ],
+    "court": "Supreme Court of Minnesota",
+    "date_filed": "1884-01-28",
+    "status": "Published",
+    "cited_by": 45,
+    "url": "https://syfert.com/minnesota/cases/31-minn-472/burt-v-winona-st-peter-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burt v. Winona & St. Peter R.R., 18 N.W. 285 (Minn. 1884)",
+    "link_md": "[Burt v. Winona & St. Peter R.R., 18 N.W. 285 (Minn. 1884)](https://syfert.com/minnesota/cases/31-minn-472/burt-v-winona-st-peter-railroad)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Burt v. Winona & St. Peter Railroad",
+   "actual": "Burt v. Winona & St. Peter Railroad",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

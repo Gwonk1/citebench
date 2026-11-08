@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "180 P. 336",
+  "expected_case_name": "Campbell v. Genshlea"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"180 P. 336\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3300453,\n            \"case_name\": \"Campbell v. Genshlea\",\n            \"citations\": [\n                \"180 P. 336\"\n            ],\n            \"court\": \"California Supreme Court\",\n            \"date_filed\": \"1919-04-11\",\n            \"status\": \"Published\",\n            \"cited_by\": 56,\n            \"url\": \"https://syfert.com/california/cases/180-cal-213/campbell-v-genshlea\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Campbell v. Genshlea, 180 P. 336 (Cal. 1919)\",\n            \"link_md\": \"[Campbell v. Genshlea, 180 P. 336 (Cal. 1919)](https://syfert.com/california/cases/180-cal-213/campbell-v-genshlea)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 20,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Campbell v. Genshlea\",\n        \"actual\": \"Campbell v. Genshlea\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "180 P. 336",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3300453,
+    "case_name": "Campbell v. Genshlea",
+    "citations": [
+     "180 P. 336"
+    ],
+    "court": "California Supreme Court",
+    "date_filed": "1919-04-11",
+    "status": "Published",
+    "cited_by": 56,
+    "url": "https://syfert.com/california/cases/180-cal-213/campbell-v-genshlea",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Campbell v. Genshlea, 180 P. 336 (Cal. 1919)",
+    "link_md": "[Campbell v. Genshlea, 180 P. 336 (Cal. 1919)](https://syfert.com/california/cases/180-cal-213/campbell-v-genshlea)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 20,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Campbell v. Genshlea",
+   "actual": "Campbell v. Genshlea",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

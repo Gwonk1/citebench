@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "148 N.W. 561",
+  "expected_case_name": "Minnesota Canal & Power Co. v. Fall Lake Boom Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"148 N.W. 561\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8021727,\n            \"case_name\": \"Minnesota Canal & Power Co. v. Fall Lake Boom Co.\",\n            \"citations\": [\n                \"148 N.W. 561\"\n            ],\n            \"court\": \"Supreme Court of Minnesota\",\n            \"date_filed\": \"1914-08-07\",\n            \"status\": \"Published\",\n            \"cited_by\": 18,\n            \"url\": \"https://syfert.com/minnesota/cases/127-minn-23/minnesota-canal-power-co-v-fall-lake-boom-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Minnesota Canal & Power Co. v. Fall Lake Boom Co., 148 N.W. 561 (Minn. 1914)\",\n            \"link_md\": \"[Minnesota Canal & Power Co. v. Fall Lake Boom Co., 148 N.W. 561 (Minn. 1914)](https://syfert.com/minnesota/cases/127-minn-23/minnesota-canal-power-co-v-fall-lake-boom-co)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 10,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Minnesota Canal & Power Co. v. Fall Lake Boom Co.\",\n        \"actual\": \"Minnesota Canal & Power Co. v. Fall Lake Boom Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "148 N.W. 561",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8021727,
+    "case_name": "Minnesota Canal & Power Co. v. Fall Lake Boom Co.",
+    "citations": [
+     "148 N.W. 561"
+    ],
+    "court": "Supreme Court of Minnesota",
+    "date_filed": "1914-08-07",
+    "status": "Published",
+    "cited_by": 18,
+    "url": "https://syfert.com/minnesota/cases/127-minn-23/minnesota-canal-power-co-v-fall-lake-boom-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Minnesota Canal & Power Co. v. Fall Lake Boom Co., 148 N.W. 561 (Minn. 1914)",
+    "link_md": "[Minnesota Canal & Power Co. v. Fall Lake Boom Co., 148 N.W. 561 (Minn. 1914)](https://syfert.com/minnesota/cases/127-minn-23/minnesota-canal-power-co-v-fall-lake-boom-co)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 10,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Minnesota Canal & Power Co. v. Fall Lake Boom Co.",
+   "actual": "Minnesota Canal & Power Co. v. Fall Lake Boom Co.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

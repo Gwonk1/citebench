@@ -1,0 +1,421 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Glendale w/15 \"114 A2d 33\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Glendale w/15 \\\"114 A2d 33\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":442769,\"case_name\":\"Goldmar, Ltd. v. Greeley\",\"citations\":[\"745 F.2d 71\",\"1984 U.S. App. LEXIS 18248\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1984-09-26\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/745-f-2d-71/goldmar-ltd-v-greeley\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Goldmar, Ltd. v. Greeley, 745 F.2d 71 (11th Cir. 1984)\",\"link_md\":\"[Goldmar, Ltd. v. Greeley, 745 F.2d 71 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/745-f-2d-71/goldmar-ltd-v-greeley)\",\"match_kind\":\"semantic\",\"similarity\":0.6982},{\"cluster_id\":478919,\"case_name\":\"Dunbar v. City of Belle Glade\",\"citations\":[\"804 F.2d 679\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1986-10-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/804-f-2d-679/dunbar-v-city-of-belle-glade\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dunbar v. City of Belle Glade, 804 F.2d 679 (11th Cir. 1986)\",\"link_md\":\"[Dunbar v. City of Belle Glade, 804 F.2d 679 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/804-f-2d-679/dunbar-v-city-of-belle-glade)\",\"match_kind\":\"semantic\",\"similarity\":0.6778},{\"cluster_id\":1389312,\"case_name\":\"Pagan v. Village of Glendale, Ohio\",\"citations\":[\"559 F.3d 477\",\"2009 U.S. App. LEXIS 5348\",\"2009 WL 648923\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"2009-03-16\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/circuits/cases/559-f-3d-477/pagan-v-village-of-glendale-ohio\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (1389312 and its twin 2977828).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pagan v. Vill. of Glendale, 559 F.3d 477 (6th Cir. 2009)\",\"link_md\":\"[Pagan v. Vill. of Glendale, 559 F.3d 477 (6th Cir. 2009)](https://syfert.com/federal/circuits/cases/559-f-3d-477/pagan-v-village-of-glendale-ohio)\",\"match_kind\":\"semantic\",\"similarity\":0.6735,\"twin_clusters\":[2977828]},{\"cluster_id\":3310001,\"case_name\":\"Schiller v. City of Glendale\",\"citations\":[\"282 P. 798\",\"208 Cal. 789\"],\"court\":\"California Supreme Court\",\"date_filed\":\"1929-12-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/california/cases/208-cal-789/schiller-v-city-of-glendale\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (3310001 and its twins 5606313, 5794922). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Schiller v. City of Glendale, 282 P. 798 (Cal. 1929)\",\"link_md\":\"[Schiller v. City of Glendale, 282 P. 798 (Cal. 1929)](https://syfert.com/california/cases/208-cal-789/schiller-v-city-of-glendale)\",\"match_kind\":\"semantic\",\"similarity\":0.6682,\"twin_clusters\":[5606313,5794922,3310001]},{\"cluster_id\":678728,\"case_name\":\"Glenn v. Davidson\",\"citations\":[\"36 F.3d 94\",\"1994 WL 523329\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-09-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/36-f-3d-94/glenn-v-davidson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Glenn v. Davidson, 36 F.3d 94 (11th Cir. 1994)\",\"link_md\":\"[Glenn v. Davidson, 36 F.3d 94 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/36-f-3d-94/glenn-v-davidson)\",\"match_kind\":\"semantic\",\"similarity\":0.6678},{\"cluster_id\":607823,\"case_name\":\"Bush v. City of Glencoe, Al\",\"citations\":[\"993 F.2d 1555\",\"1993 WL 186026\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1993-05-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/993-f-2d-1555/bush-v-city-of-glencoe-al\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bush v. City of Glencoe, Al, 993 F.2d 1555 (11th Cir. 1993)\",\"link_md\":\"[Bush v. City of Glencoe, Al, 993 F.2d 1555 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/993-f-2d-1555/bush-v-city-of-glencoe-al)\",\"match_kind\":\"semantic\",\"similarity\":0.6645},{\"cluster_id\":136684,\"case_name\":\"Dallas Glen Hills, Lp v. Corfield\",\"citations\":[\"541 U.S. 1073\",\"124 S. Ct. 2421\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-06-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/541-u-s-1073/dallas-glen-hills-lp-v-corfield\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (136684 and its twins 9225051, 9225052). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dallas Glen Hills, Lp v. Corfield, 541 U.S. 1073 (2004)\",\"link_md\":\"[Dallas Glen Hills, Lp v. Corfield, 541 U.S. 1073 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-1073/dallas-glen-hills-lp-v-corfield)\",\"match_kind\":\"semantic\",\"similarity\":0.662},{\"cluster_id\":733119,\"case_name\":\"Goldberg v. Goldman\",\"citations\":[\"104 F.3d 371\",\"1996 WL 734603\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-12-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/104-f-3d-371/goldberg-v-goldman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Goldberg v. Goldman, 104 F.3d 371 (11th Cir. 1996)\",\"link_md\":\"[Goldberg v. Goldman, 104 F.3d 371 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/104-f-3d-371/goldberg-v-goldman)\",\"match_kind\":\"semantic\",\"similarity\":0.6587},{\"cluster_id\":528157,\"case_name\":\"SEC v. Goldcor, Inc.89-116056\",\"citations\":[\"883 F.2d 77\",\"1989 WL 86332\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1989-07-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/883-f-2d-77/sec-v-goldcor-inc89-116056\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"SEC v. Goldcor, Inc.89-116056, 883 F.2d 77 (11th Cir. 1989)\",\"link_md\":\"[SEC v. Goldcor, Inc.89-116056, 883 F.2d 77 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/883-f-2d-77/sec-v-goldcor-inc89-116056)\",\"match_kind\":\"semantic\",\"similarity\":0.6511},{\"cluster_id\":6819118,\"case_name\":\"Glenn v. Glenn\",\"citations\":[\"299 S.E.2d 221\",\"307 N.C. 468\",\"1983 N.C. LEXIS 1134\"],\"court\":\"Supreme Court of North Carolina\",\"date_filed\":\"1983-01-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/307-n-c-468/glenn-v-glenn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Glenn v. Glenn, 299 S.E.2d 221 (N.C. 1983)\",\"link_md\":\"[Glenn v. Glenn, 299 S.E.2d 221 (N.C. 1983)](https://syfert.com/north-carolina/cases/307-n-c-468/glenn-v-glenn)\",\"match_kind\":\"semantic\",\"similarity\":0.6508},{\"cluster_id\":2434724,\"case_name\":\"SHIBA v. Village of Glendale Heights\",\"citations\":[\"970 N.E.2d 626\",\"386 Ill. App. 3d 1125\",\"361 Ill. Dec. 260\",\"2009 Ill. App. LEXIS 1613\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"2009-01-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/illinois/cases/386-ill-app-3d-1125/shiba-v-village-of-glendale-heights\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"SHIBA v. Vill. of Glendale Heights, 970 N.E.2d 626 (Ill. App. Ct. 2d Dist. 2009)\",\"link_md\":\"[SHIBA v. Vill. of Glendale Heights, 970 N.E.2d 626 (Ill. App. Ct. 2d Dist. 2009)](https://syfert.com/illinois/cases/386-ill-app-3d-1125/shiba-v-village-of-glendale-heights)\",\"match_kind\":\"semantic\",\"similarity\":0.6496},{\"cluster_id\":754699,\"case_name\":\"Gleason v. Fred R. Harris, Inc.\",\"citations\":[\"145 F.3d 363\",\"1998 U.S. App. LEXIS 12772\",\"1998 WL 271641\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1998-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/145-f-3d-363/gleason-v-fred-r-harris-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gleason v. Fred R. Harris, Inc., 145 F.3d 363 (11th Cir. 1998)\",\"link_md\":\"[Gleason v. Fred R. Harris, Inc., 145 F.3d 363 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/145-f-3d-363/gleason-v-fred-r-harris-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6484},{\"cluster_id\":1755612,\"case_name\":\"HSBC REALTY CREDIT CORP. v. City of Glendale\",\"citations\":[\"724 N.W.2d 202\",\"297 Wis. 2d 318\",\"2006 WI 126\",\"2006 Wisc. LEXIS 736\"],\"court\":\"Wisconsin Supreme Court\",\"date_filed\":\"2006-09-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/wisconsin/cases/297-wis-2d-318/hsbc-realty-credit-corp-v-city-of-glendale\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"HSBC Realty Credit Corp. v. City of Glendale, 2006 WI 126, 724 N.W.2d 202\",\"link_md\":\"[HSBC Realty Credit Corp. v. City of Glendale, 2006 WI 126, 724 N.W.2d 202](https://syfert.com/wisconsin/cases/297-wis-2d-318/hsbc-realty-credit-corp-v-city-of-glendale)\",\"match_kind\":\"semantic\",\"similarity\":0.6457},{\"cluster_id\":657126,\"case_name\":\"Hinson v. Glendale Federal Bank\",\"citations\":[\"9 F.3d 120\",\"1993 WL 468617\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1993-11-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/9-f-3d-120/hinson-v-glendale-federal-bank\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hinson v. Glendale Fed. Bank, 9 F.3d 120 (11th Cir. 1993)\",\"link_md\":\"[Hinson v. Glendale Fed. Bank, 9 F.3d 120 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/9-f-3d-120/hinson-v-glendale-federal-bank)\",\"match_kind\":\"semantic\",\"similarity\":0.6452},{\"cluster_id\":444111,\"case_name\":\"Mellott (Phyllis F.) v. Greenlee (Gaylord W.)\",\"citations\":[\"747 F.2d 710\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1984-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/747-f-2d-710/mellott-phyllis-f-v-greenlee-gaylord-w\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mellott (Phyllis F.) v. Greenlee (Gaylord W.), 747 F.2d 710 (11th Cir. 1984)\",\"link_md\":\"[Mellott (Phyllis F.) v. Greenlee (Gaylord W.), 747 F.2d 710 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/747-f-2d-710/mellott-phyllis-f-v-greenlee-gaylord-w)\",\"match_kind\":\"semantic\",\"similarity\":0.6446},{\"cluster_id\":6818588,\"case_name\":\"Glenn v. Glenn\",\"citations\":[\"285 S.E.2d 832\",\"304 N.C. 390\",\"1981 N.C. LEXIS 1491\"],\"court\":\"Supreme Court of North Carolina\",\"date_filed\":\"1981-11-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/304-n-c-390/glenn-v-glenn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Glenn v. Glenn, 285 S.E.2d 832 (N.C. 1981)\",\"link_md\":\"[Glenn v. Glenn, 285 S.E.2d 832 (N.C. 1981)](https://syfert.com/north-carolina/cases/304-n-c-390/glenn-v-glenn)\",\"match_kind\":\"semantic\",\"similarity\":0.6446},{\"cluster_id\":518709,\"case_name\":\"Glass v. Lee\",\"citations\":[\"867 F.2d 1430\",\"1989 WL 7413\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1989-01-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/867-f-2d-1430/glass-v-lee\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Glass v. Lee, 867 F.2d 1430 (11th Cir. 1989)\",\"link_md\":\"[Glass v. Lee, 867 F.2d 1430 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/867-f-2d-1430/glass-v-lee)\",\"match_kind\":\"semantic\",\"similarity\":0.6436},{\"cluster_id\":218566,\"case_name\":\"Richard Glair v. City of Los Angeles\",\"citations\":[\"437 F. App'x 581\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"2011-06-09\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/437-f-appx-581/richard-glair-v-city-of-los-angeles\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Richard Glair v. City of Los Angeles, 437 F. App'x 581 (9th Cir. 2011)\",\"link_md\":\"[Richard Glair v. City of Los Angeles, 437 F. App'x 581 (9th Cir. 2011)](https://syfert.com/federal/circuits/cases/437-f-appx-581/richard-glair-v-city-of-los-angeles)\",\"match_kind\":\"semantic\",\"similarity\":0.6409},{\"cluster_id\":6819292,\"case_name\":\"Glenn v. Glenn\",\"citations\":[\"304 S.E.2d 237\",\"308 N.C. 543\",\"1983 N.C. LEXIS 1360\"],\"court\":\"Supreme Court of North Carolina\",\"date_filed\":\"1983-05-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/308-n-c-543/glenn-v-glenn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Glenn v. Glenn, 304 S.E.2d 237 (N.C. 1983)\",\"link_md\":\"[Glenn v. Glenn, 304 S.E.2d 237 (N.C. 1983)](https://syfert.com/north-carolina/cases/308-n-c-543/glenn-v-glenn)\",\"match_kind\":\"semantic\",\"similarity\":0.6392},{\"cluster_id\":658049,\"case_name\":\"Malm v. Goldin\",\"citations\":[\"9 F.3d 1559\",\"1993 WL 491727\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1993-11-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/9-f-3d-1559/malm-v-goldin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Malm v. Goldin, 9 F.3d 1559 (11th Cir. 1993)\",\"link_md\":\"[Malm v. Goldin, 9 F.3d 1559 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/9-f-3d-1559/malm-v-goldin)\",\"match_kind\":\"semantic\",\"similarity\":0.6379}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Glendale w/15 \"114 A2d 33\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 442769,
+    "case_name": "Goldmar, Ltd. v. Greeley",
+    "citations": [
+     "745 F.2d 71",
+     "1984 U.S. App. LEXIS 18248"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1984-09-26",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/745-f-2d-71/goldmar-ltd-v-greeley",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Goldmar, Ltd. v. Greeley, 745 F.2d 71 (11th Cir. 1984)",
+    "link_md": "[Goldmar, Ltd. v. Greeley, 745 F.2d 71 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/745-f-2d-71/goldmar-ltd-v-greeley)",
+    "match_kind": "semantic",
+    "similarity": 0.6982
+   },
+   {
+    "cluster_id": 478919,
+    "case_name": "Dunbar v. City of Belle Glade",
+    "citations": [
+     "804 F.2d 679"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1986-10-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/804-f-2d-679/dunbar-v-city-of-belle-glade",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dunbar v. City of Belle Glade, 804 F.2d 679 (11th Cir. 1986)",
+    "link_md": "[Dunbar v. City of Belle Glade, 804 F.2d 679 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/804-f-2d-679/dunbar-v-city-of-belle-glade)",
+    "match_kind": "semantic",
+    "similarity": 0.6778
+   },
+   {
+    "cluster_id": 1389312,
+    "case_name": "Pagan v. Village of Glendale, Ohio",
+    "citations": [
+     "559 F.3d 477",
+     "2009 U.S. App. LEXIS 5348",
+     "2009 WL 648923"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "2009-03-16",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/circuits/cases/559-f-3d-477/pagan-v-village-of-glendale-ohio",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (1389312 and its twin 2977828).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pagan v. Vill. of Glendale, 559 F.3d 477 (6th Cir. 2009)",
+    "link_md": "[Pagan v. Vill. of Glendale, 559 F.3d 477 (6th Cir. 2009)](https://syfert.com/federal/circuits/cases/559-f-3d-477/pagan-v-village-of-glendale-ohio)",
+    "match_kind": "semantic",
+    "similarity": 0.6735,
+    "twin_clusters": [
+     2977828
+    ]
+   },
+   {
+    "cluster_id": 3310001,
+    "case_name": "Schiller v. City of Glendale",
+    "citations": [
+     "282 P. 798",
+     "208 Cal. 789"
+    ],
+    "court": "California Supreme Court",
+    "date_filed": "1929-12-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/california/cases/208-cal-789/schiller-v-city-of-glendale",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (3310001 and its twins 5606313, 5794922). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Schiller v. City of Glendale, 282 P. 798 (Cal. 1929)",
+    "link_md": "[Schiller v. City of Glendale, 282 P. 798 (Cal. 1929)](https://syfert.com/california/cases/208-cal-789/schiller-v-city-of-glendale)",
+    "match_kind": "semantic",
+    "similarity": 0.6682,
+    "twin_clusters": [
+     5606313,
+     5794922,
+     3310001
+    ]
+   },
+   {
+    "cluster_id": 678728,
+    "case_name": "Glenn v. Davidson",
+    "citations": [
+     "36 F.3d 94",
+     "1994 WL 523329"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-09-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/36-f-3d-94/glenn-v-davidson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Glenn v. Davidson, 36 F.3d 94 (11th Cir. 1994)",
+    "link_md": "[Glenn v. Davidson, 36 F.3d 94 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/36-f-3d-94/glenn-v-davidson)",
+    "match_kind": "semantic",
+    "similarity": 0.6678
+   },
+   {
+    "cluster_id": 607823,
+    "case_name": "Bush v. City of Glencoe, Al",
+    "citations": [
+     "993 F.2d 1555",
+     "1993 WL 186026"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1993-05-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/993-f-2d-1555/bush-v-city-of-glencoe-al",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bush v. City of Glencoe, Al, 993 F.2d 1555 (11th Cir. 1993)",
+    "link_md": "[Bush v. City of Glencoe, Al, 993 F.2d 1555 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/993-f-2d-1555/bush-v-city-of-glencoe-al)",
+    "match_kind": "semantic",
+    "similarity": 0.6645
+   },
+   {
+    "cluster_id": 136684,
+    "case_name": "Dallas Glen Hills, Lp v. Corfield",
+    "citations": [
+     "541 U.S. 1073",
+     "124 S. Ct. 2421"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-06-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/541-u-s-1073/dallas-glen-hills-lp-v-corfield",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (136684 and its twins 9225051, 9225052). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dallas Glen Hills, Lp v. Corfield, 541 U.S. 1073 (2004)",
+    "link_md": "[Dallas Glen Hills, Lp v. Corfield, 541 U.S. 1073 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-1073/dallas-glen-hills-lp-v-corfield)",
+    "match_kind": "semantic",
+    "similarity": 0.662
+   },
+   {
+    "cluster_id": 733119,
+    "case_name": "Goldberg v. Goldman",
+    "citations": [
+     "104 F.3d 371",
+     "1996 WL 734603"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-12-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/104-f-3d-371/goldberg-v-goldman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Goldberg v. Goldman, 104 F.3d 371 (11th Cir. 1996)",
+    "link_md": "[Goldberg v. Goldman, 104 F.3d 371 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/104-f-3d-371/goldberg-v-goldman)",
+    "match_kind": "semantic",
+    "similarity": 0.6587
+   },
+   {
+    "cluster_id": 528157,
+    "case_name": "SEC v. Goldcor, Inc.89-116056",
+    "citations": [
+     "883 F.2d 77",
+     "1989 WL 86332"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1989-07-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/883-f-2d-77/sec-v-goldcor-inc89-116056",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "SEC v. Goldcor, Inc.89-116056, 883 F.2d 77 (11th Cir. 1989)",
+    "link_md": "[SEC v. Goldcor, Inc.89-116056, 883 F.2d 77 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/883-f-2d-77/sec-v-goldcor-inc89-116056)",
+    "match_kind": "semantic",
+    "similarity": 0.6511
+   },
+   {
+    "cluster_id": 6819118,
+    "case_name": "Glenn v. Glenn",
+    "citations": [
+     "299 S.E.2d 221",
+     "307 N.C. 468",
+     "1983 N.C. LEXIS 1134"
+    ],
+    "court": "Supreme Court of North Carolina",
+    "date_filed": "1983-01-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/307-n-c-468/glenn-v-glenn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Glenn v. Glenn, 299 S.E.2d 221 (N.C. 1983)",
+    "link_md": "[Glenn v. Glenn, 299 S.E.2d 221 (N.C. 1983)](https://syfert.com/north-carolina/cases/307-n-c-468/glenn-v-glenn)",
+    "match_kind": "semantic",
+    "similarity": 0.6508
+   },
+   {
+    "cluster_id": 2434724,
+    "case_name": "SHIBA v. Village of Glendale Heights",
+    "citations": [
+     "970 N.E.2d 626",
+     "386 Ill. App. 3d 1125",
+     "361 Ill. Dec. 260",
+     "2009 Ill. App. LEXIS 1613"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "2009-01-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/illinois/cases/386-ill-app-3d-1125/shiba-v-village-of-glendale-heights",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "SHIBA v. Vill. of Glendale Heights, 970 N.E.2d 626 (Ill. App. Ct. 2d Dist. 2009)",
+    "link_md": "[SHIBA v. Vill. of Glendale Heights, 970 N.E.2d 626 (Ill. App. Ct. 2d Dist. 2009)](https://syfert.com/illinois/cases/386-ill-app-3d-1125/shiba-v-village-of-glendale-heights)",
+    "match_kind": "semantic",
+    "similarity": 0.6496
+   },
+   {
+    "cluster_id": 754699,
+    "case_name": "Gleason v. Fred R. Harris, Inc.",
+    "citations": [
+     "145 F.3d 363",
+     "1998 U.S. App. LEXIS 12772",
+     "1998 WL 271641"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1998-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/145-f-3d-363/gleason-v-fred-r-harris-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gleason v. Fred R. Harris, Inc., 145 F.3d 363 (11th Cir. 1998)",
+    "link_md": "[Gleason v. Fred R. Harris, Inc., 145 F.3d 363 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/145-f-3d-363/gleason-v-fred-r-harris-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6484
+   },
+   {
+    "cluster_id": 1755612,
+    "case_name": "HSBC REALTY CREDIT CORP. v. City of Glendale",
+    "citations": [
+     "724 N.W.2d 202",
+     "297 Wis. 2d 318",
+     "2006 WI 126",
+     "2006 Wisc. LEXIS 736"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "2006-09-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/wisconsin/cases/297-wis-2d-318/hsbc-realty-credit-corp-v-city-of-glendale",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "HSBC Realty Credit Corp. v. City of Glendale, 2006 WI 126, 724 N.W.2d 202",
+    "link_md": "[HSBC Realty Credit Corp. v. City of Glendale, 2006 WI 126, 724 N.W.2d 202](https://syfert.com/wisconsin/cases/297-wis-2d-318/hsbc-realty-credit-corp-v-city-of-glendale)",
+    "match_kind": "semantic",
+    "similarity": 0.6457
+   },
+   {
+    "cluster_id": 657126,
+    "case_name": "Hinson v. Glendale Federal Bank",
+    "citations": [
+     "9 F.3d 120",
+     "1993 WL 468617"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1993-11-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/9-f-3d-120/hinson-v-glendale-federal-bank",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hinson v. Glendale Fed. Bank, 9 F.3d 120 (11th Cir. 1993)",
+    "link_md": "[Hinson v. Glendale Fed. Bank, 9 F.3d 120 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/9-f-3d-120/hinson-v-glendale-federal-bank)",
+    "match_kind": "semantic",
+    "similarity": 0.6452
+   },
+   {
+    "cluster_id": 444111,
+    "case_name": "Mellott (Phyllis F.) v. Greenlee (Gaylord W.)",
+    "citations": [
+     "747 F.2d 710"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1984-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/747-f-2d-710/mellott-phyllis-f-v-greenlee-gaylord-w",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mellott (Phyllis F.) v. Greenlee (Gaylord W.), 747 F.2d 710 (11th Cir. 1984)",
+    "link_md": "[Mellott (Phyllis F.) v. Greenlee (Gaylord W.), 747 F.2d 710 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/747-f-2d-710/mellott-phyllis-f-v-greenlee-gaylord-w)",
+    "match_kind": "semantic",
+    "similarity": 0.6446
+   },
+   {
+    "cluster_id": 6818588,
+    "case_name": "Glenn v. Glenn",
+    "citations": [
+     "285 S.E.2d 832",
+     "304 N.C. 390",
+     "1981 N.C. LEXIS 1491"
+    ],
+    "court": "Supreme Court of North Carolina",
+    "date_filed": "1981-11-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/304-n-c-390/glenn-v-glenn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Glenn v. Glenn, 285 S.E.2d 832 (N.C. 1981)",
+    "link_md": "[Glenn v. Glenn, 285 S.E.2d 832 (N.C. 1981)](https://syfert.com/north-carolina/cases/304-n-c-390/glenn-v-glenn)",
+    "match_kind": "semantic",
+    "similarity": 0.6446
+   },
+   {
+    "cluster_id": 518709,
+    "case_name": "Glass v. Lee",
+    "citations": [
+     "867 F.2d 1430",
+     "1989 WL 7413"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1989-01-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/867-f-2d-1430/glass-v-lee",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Glass v. Lee, 867 F.2d 1430 (11th Cir. 1989)",
+    "link_md": "[Glass v. Lee, 867 F.2d 1430 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/867-f-2d-1430/glass-v-lee)",
+    "match_kind": "semantic",
+    "similarity": 0.6436
+   },
+   {
+    "cluster_id": 218566,
+    "case_name": "Richard Glair v. City of Los Angeles",
+    "citations": [
+     "437 F. App'x 581"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "2011-06-09",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/437-f-appx-581/richard-glair-v-city-of-los-angeles",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Richard Glair v. City of Los Angeles, 437 F. App'x 581 (9th Cir. 2011)",
+    "link_md": "[Richard Glair v. City of Los Angeles, 437 F. App'x 581 (9th Cir. 2011)](https://syfert.com/federal/circuits/cases/437-f-appx-581/richard-glair-v-city-of-los-angeles)",
+    "match_kind": "semantic",
+    "similarity": 0.6409
+   },
+   {
+    "cluster_id": 6819292,
+    "case_name": "Glenn v. Glenn",
+    "citations": [
+     "304 S.E.2d 237",
+     "308 N.C. 543",
+     "1983 N.C. LEXIS 1360"
+    ],
+    "court": "Supreme Court of North Carolina",
+    "date_filed": "1983-05-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/308-n-c-543/glenn-v-glenn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Glenn v. Glenn, 304 S.E.2d 237 (N.C. 1983)",
+    "link_md": "[Glenn v. Glenn, 304 S.E.2d 237 (N.C. 1983)](https://syfert.com/north-carolina/cases/308-n-c-543/glenn-v-glenn)",
+    "match_kind": "semantic",
+    "similarity": 0.6392
+   },
+   {
+    "cluster_id": 658049,
+    "case_name": "Malm v. Goldin",
+    "citations": [
+     "9 F.3d 1559",
+     "1993 WL 491727"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1993-11-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/9-f-3d-1559/malm-v-goldin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Malm v. Goldin, 9 F.3d 1559 (11th Cir. 1993)",
+    "link_md": "[Malm v. Goldin, 9 F.3d 1559 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/9-f-3d-1559/malm-v-goldin)",
+    "match_kind": "semantic",
+    "similarity": 0.6379
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

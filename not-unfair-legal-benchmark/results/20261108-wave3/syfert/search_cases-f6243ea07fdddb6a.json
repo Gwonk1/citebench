@@ -1,0 +1,400 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Jones w/15 \"142 NW 943\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Jones w/15 \\\"142 NW 943\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":660620,\"case_name\":\"United States v. Jones\",\"citations\":[\"14 F.3d 58\",\"1994 WL 18132\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-01-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/14-f-3d-58/united-states-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, 14 F.3d 58 (11th Cir. 1994)\",\"link_md\":\"[United States v. Jones, 14 F.3d 58 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/14-f-3d-58/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6697},{\"cluster_id\":500575,\"case_name\":\"Jones v. Jones\",\"citations\":[\"837 F.2d 1093\",\"1988 WL 2858\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1988-01-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/837-f-2d-1093/jones-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jones v. Jones, 837 F.2d 1093 (11th Cir. 1988)\",\"link_md\":\"[Jones v. Jones, 837 F.2d 1093 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/837-f-2d-1093/jones-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6403},{\"cluster_id\":666505,\"case_name\":\"United States v. Jones\",\"citations\":[\"19 F.3d 1445\",\"1994 WL 110870\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-03-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/19-f-3d-1445/united-states-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, 19 F.3d 1445 (11th Cir. 1994)\",\"link_md\":\"[United States v. Jones, 19 F.3d 1445 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/19-f-3d-1445/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6393},{\"cluster_id\":3341344,\"case_name\":\"Progressive Northwest Insurance v. Jones\",\"citations\":[\"2000 Conn. Super. Ct. 14405\"],\"court\":\"Connecticut Superior Court\",\"date_filed\":\"2000-11-20\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/connecticut/cases/cl-3341344/progressive-northwest-insurance-v-jones-no-cv-99-0590954-nov-20-2000\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Progressive Nw. Ins. v. Jones, 2000 Conn. Super. Ct. 14405 (Conn. Super. Ct. 2000)\",\"link_md\":\"[Progressive Nw. Ins. v. Jones, 2000 Conn. Super. Ct. 14405 (Conn. Super. Ct. 2000)](https://syfert.com/connecticut/cases/cl-3341344/progressive-northwest-insurance-v-jones-no-cv-99-0590954-nov-20-2000)\",\"match_kind\":\"semantic\",\"similarity\":0.6392},{\"cluster_id\":591965,\"case_name\":\"Butler v. Jones\",\"citations\":[\"976 F.2d 743\",\"1992 WL 278776\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1992-10-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/976-f-2d-743/butler-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Butler v. Jones, 976 F.2d 743 (11th Cir. 1992)\",\"link_md\":\"[Butler v. Jones, 976 F.2d 743 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/976-f-2d-743/butler-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6391},{\"cluster_id\":813785,\"case_name\":\"United States v. Jones\",\"citations\":[],\"court\":\"First Circuit\",\"date_filed\":\"2012-12-18\",\"status\":\"Errata\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-813785/united-states-v-jones\",\"precedential_status\":\"Errata\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, No. 11-1764 (1st Cir. Dec. 18, 2012)\",\"link_md\":\"[United States v. Jones, No. 11-1764 (1st Cir. Dec. 18, 2012)](https://syfert.com/federal/circuits/cases/cl-813785/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6369},{\"cluster_id\":585194,\"case_name\":\"Bunn v. Jones\",\"citations\":[\"966 F.2d 1462\",\"1992 WL 145867\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1992-06-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/966-f-2d-1462/bunn-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bunn v. Jones, 966 F.2d 1462 (11th Cir. 1992)\",\"link_md\":\"[Bunn v. Jones, 966 F.2d 1462 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/966-f-2d-1462/bunn-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6368},{\"cluster_id\":683455,\"case_name\":\"United States v. Jones\",\"citations\":[\"41 F.3d 668\",\"1994 WL 667838\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-11-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/41-f-3d-668/united-states-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, 41 F.3d 668 (11th Cir. 1994)\",\"link_md\":\"[United States v. Jones, 41 F.3d 668 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/41-f-3d-668/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6364},{\"cluster_id\":668146,\"case_name\":\"United States v. Jones\",\"citations\":[\"21 F.3d 1124\",\"1994 WL 164137\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-04-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/21-f-3d-1124/united-states-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, 21 F.3d 1124 (11th Cir. 1994)\",\"link_md\":\"[United States v. Jones, 21 F.3d 1124 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/21-f-3d-1124/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6361},{\"cluster_id\":671420,\"case_name\":\"United States v. Jones\",\"citations\":[\"25 F.3d 1060\",\"1994 WL 259350\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-06-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/25-f-3d-1060/united-states-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, 25 F.3d 1060 (11th Cir. 1994)\",\"link_md\":\"[United States v. Jones, 25 F.3d 1060 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/25-f-3d-1060/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6335},{\"cluster_id\":586241,\"case_name\":\"United States v. Jones\",\"citations\":[\"968 F.2d 24\",\"1992 WL 161460\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1992-07-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/968-f-2d-24/united-states-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, 968 F.2d 24 (11th Cir. 1992)\",\"link_md\":\"[United States v. Jones, 968 F.2d 24 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/968-f-2d-24/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6329},{\"cluster_id\":7598811,\"case_name\":\"Jones v. Aetna Casualty & Surety Co.\",\"citations\":[\"438 So. 2d 573\",\"1983 La. LEXIS 11571\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1983-09-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/438-so-2d-573/jones-v-aetna-casualty-surety-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jones v. Aetna Cas. & Sur. Co., 438 So. 2d 573 (La. 1983)\",\"link_md\":\"[Jones v. Aetna Cas. & Sur. Co., 438 So. 2d 573 (La. 1983)](https://syfert.com/louisiana/cases/438-so-2d-573/jones-v-aetna-casualty-surety-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6319},{\"cluster_id\":675675,\"case_name\":\"United States v. Jones\",\"citations\":[\"30 F.3d 1499\",\"1994 WL 416635\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-08-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/30-f-3d-1499/united-states-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, 30 F.3d 1499 (11th Cir. 1994)\",\"link_md\":\"[United States v. Jones, 30 F.3d 1499 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/30-f-3d-1499/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6317},{\"cluster_id\":611512,\"case_name\":\"Johnson v. Jones\",\"citations\":[\"998 F.2d 1022\",\"1993 WL 277172\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1993-07-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/998-f-2d-1022/johnson-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. Jones, 998 F.2d 1022 (11th Cir. 1993)\",\"link_md\":\"[Johnson v. Jones, 998 F.2d 1022 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/998-f-2d-1022/johnson-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6316},{\"cluster_id\":508108,\"case_name\":\"Jordan v. Jones\",\"citations\":[\"849 F.2d 1478\",\"1988 WL 62799\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1988-05-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/849-f-2d-1478/jordan-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jordan v. Jones, 849 F.2d 1478 (11th Cir. 1988)\",\"link_md\":\"[Jordan v. Jones, 849 F.2d 1478 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/849-f-2d-1478/jordan-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6313},{\"cluster_id\":756337,\"case_name\":\"Nissen v. Jones\",\"citations\":[\"149 F.3d 1195\",\"1998 WL 401159\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1998-06-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/149-f-3d-1195/nissen-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Nissen v. Jones, 149 F.3d 1195 (11th Cir. 1998)\",\"link_md\":\"[Nissen v. Jones, 149 F.3d 1195 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/149-f-3d-1195/nissen-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6311},{\"cluster_id\":680917,\"case_name\":\"United States v. Jones\",\"citations\":[\"38 F.3d 573\",\"1994 WL 573970\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-10-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/38-f-3d-573/united-states-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, 38 F.3d 573 (11th Cir. 1994)\",\"link_md\":\"[United States v. Jones, 38 F.3d 573 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/38-f-3d-573/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6301},{\"cluster_id\":591913,\"case_name\":\"United States v. Jones (John Robert)\",\"citations\":[\"976 F.2d 741\",\"1992 WL 278078\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1992-09-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/976-f-2d-741/united-states-v-jones-john-robert\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones (John Robert), 976 F.2d 741 (11th Cir. 1992)\",\"link_md\":\"[United States v. Jones (John Robert), 976 F.2d 741 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/976-f-2d-741/united-states-v-jones-john-robert)\",\"match_kind\":\"semantic\",\"similarity\":0.6295},{\"cluster_id\":494091,\"case_name\":\"Jones v. Jones\",\"citations\":[\"828 F.2d 774\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1987-08-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/828-f-2d-774/jones-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jones v. Jones, 828 F.2d 774 (11th Cir. 1987)\",\"link_md\":\"[Jones v. Jones, 828 F.2d 774 (11th Cir. 1987)](https://syfert.com/federal/circuits/cases/828-f-2d-774/jones-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6292},{\"cluster_id\":750048,\"case_name\":\"United States v. Jones\",\"citations\":[\"132 F.3d 1461\",\"1997 U.S. App. LEXIS 38205\",\"1997 WL 792245\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1997-12-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/132-f-3d-1461/united-states-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Jones, 132 F.3d 1461 (11th Cir. 1997)\",\"link_md\":\"[United States v. Jones, 132 F.3d 1461 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/132-f-3d-1461/united-states-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.6279}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Jones w/15 \"142 NW 943\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 660620,
+    "case_name": "United States v. Jones",
+    "citations": [
+     "14 F.3d 58",
+     "1994 WL 18132"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-01-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/14-f-3d-58/united-states-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, 14 F.3d 58 (11th Cir. 1994)",
+    "link_md": "[United States v. Jones, 14 F.3d 58 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/14-f-3d-58/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6697
+   },
+   {
+    "cluster_id": 500575,
+    "case_name": "Jones v. Jones",
+    "citations": [
+     "837 F.2d 1093",
+     "1988 WL 2858"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1988-01-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/837-f-2d-1093/jones-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jones v. Jones, 837 F.2d 1093 (11th Cir. 1988)",
+    "link_md": "[Jones v. Jones, 837 F.2d 1093 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/837-f-2d-1093/jones-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6403
+   },
+   {
+    "cluster_id": 666505,
+    "case_name": "United States v. Jones",
+    "citations": [
+     "19 F.3d 1445",
+     "1994 WL 110870"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-03-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/19-f-3d-1445/united-states-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, 19 F.3d 1445 (11th Cir. 1994)",
+    "link_md": "[United States v. Jones, 19 F.3d 1445 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/19-f-3d-1445/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6393
+   },
+   {
+    "cluster_id": 3341344,
+    "case_name": "Progressive Northwest Insurance v. Jones",
+    "citations": [
+     "2000 Conn. Super. Ct. 14405"
+    ],
+    "court": "Connecticut Superior Court",
+    "date_filed": "2000-11-20",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/connecticut/cases/cl-3341344/progressive-northwest-insurance-v-jones-no-cv-99-0590954-nov-20-2000",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Progressive Nw. Ins. v. Jones, 2000 Conn. Super. Ct. 14405 (Conn. Super. Ct. 2000)",
+    "link_md": "[Progressive Nw. Ins. v. Jones, 2000 Conn. Super. Ct. 14405 (Conn. Super. Ct. 2000)](https://syfert.com/connecticut/cases/cl-3341344/progressive-northwest-insurance-v-jones-no-cv-99-0590954-nov-20-2000)",
+    "match_kind": "semantic",
+    "similarity": 0.6392
+   },
+   {
+    "cluster_id": 591965,
+    "case_name": "Butler v. Jones",
+    "citations": [
+     "976 F.2d 743",
+     "1992 WL 278776"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1992-10-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/976-f-2d-743/butler-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Butler v. Jones, 976 F.2d 743 (11th Cir. 1992)",
+    "link_md": "[Butler v. Jones, 976 F.2d 743 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/976-f-2d-743/butler-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6391
+   },
+   {
+    "cluster_id": 813785,
+    "case_name": "United States v. Jones",
+    "citations": [],
+    "court": "First Circuit",
+    "date_filed": "2012-12-18",
+    "status": "Errata",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-813785/united-states-v-jones",
+    "precedential_status": "Errata",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, No. 11-1764 (1st Cir. Dec. 18, 2012)",
+    "link_md": "[United States v. Jones, No. 11-1764 (1st Cir. Dec. 18, 2012)](https://syfert.com/federal/circuits/cases/cl-813785/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6369
+   },
+   {
+    "cluster_id": 585194,
+    "case_name": "Bunn v. Jones",
+    "citations": [
+     "966 F.2d 1462",
+     "1992 WL 145867"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1992-06-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/966-f-2d-1462/bunn-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bunn v. Jones, 966 F.2d 1462 (11th Cir. 1992)",
+    "link_md": "[Bunn v. Jones, 966 F.2d 1462 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/966-f-2d-1462/bunn-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6368
+   },
+   {
+    "cluster_id": 683455,
+    "case_name": "United States v. Jones",
+    "citations": [
+     "41 F.3d 668",
+     "1994 WL 667838"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-11-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/41-f-3d-668/united-states-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, 41 F.3d 668 (11th Cir. 1994)",
+    "link_md": "[United States v. Jones, 41 F.3d 668 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/41-f-3d-668/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6364
+   },
+   {
+    "cluster_id": 668146,
+    "case_name": "United States v. Jones",
+    "citations": [
+     "21 F.3d 1124",
+     "1994 WL 164137"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-04-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/21-f-3d-1124/united-states-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, 21 F.3d 1124 (11th Cir. 1994)",
+    "link_md": "[United States v. Jones, 21 F.3d 1124 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/21-f-3d-1124/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6361
+   },
+   {
+    "cluster_id": 671420,
+    "case_name": "United States v. Jones",
+    "citations": [
+     "25 F.3d 1060",
+     "1994 WL 259350"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-06-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/25-f-3d-1060/united-states-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, 25 F.3d 1060 (11th Cir. 1994)",
+    "link_md": "[United States v. Jones, 25 F.3d 1060 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/25-f-3d-1060/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6335
+   },
+   {
+    "cluster_id": 586241,
+    "case_name": "United States v. Jones",
+    "citations": [
+     "968 F.2d 24",
+     "1992 WL 161460"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1992-07-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/968-f-2d-24/united-states-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, 968 F.2d 24 (11th Cir. 1992)",
+    "link_md": "[United States v. Jones, 968 F.2d 24 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/968-f-2d-24/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6329
+   },
+   {
+    "cluster_id": 7598811,
+    "case_name": "Jones v. Aetna Casualty & Surety Co.",
+    "citations": [
+     "438 So. 2d 573",
+     "1983 La. LEXIS 11571"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1983-09-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/438-so-2d-573/jones-v-aetna-casualty-surety-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jones v. Aetna Cas. & Sur. Co., 438 So. 2d 573 (La. 1983)",
+    "link_md": "[Jones v. Aetna Cas. & Sur. Co., 438 So. 2d 573 (La. 1983)](https://syfert.com/louisiana/cases/438-so-2d-573/jones-v-aetna-casualty-surety-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6319
+   },
+   {
+    "cluster_id": 675675,
+    "case_name": "United States v. Jones",
+    "citations": [
+     "30 F.3d 1499",
+     "1994 WL 416635"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-08-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/30-f-3d-1499/united-states-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, 30 F.3d 1499 (11th Cir. 1994)",
+    "link_md": "[United States v. Jones, 30 F.3d 1499 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/30-f-3d-1499/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6317
+   },
+   {
+    "cluster_id": 611512,
+    "case_name": "Johnson v. Jones",
+    "citations": [
+     "998 F.2d 1022",
+     "1993 WL 277172"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1993-07-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/998-f-2d-1022/johnson-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. Jones, 998 F.2d 1022 (11th Cir. 1993)",
+    "link_md": "[Johnson v. Jones, 998 F.2d 1022 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/998-f-2d-1022/johnson-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6316
+   },
+   {
+    "cluster_id": 508108,
+    "case_name": "Jordan v. Jones",
+    "citations": [
+     "849 F.2d 1478",
+     "1988 WL 62799"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1988-05-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/849-f-2d-1478/jordan-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jordan v. Jones, 849 F.2d 1478 (11th Cir. 1988)",
+    "link_md": "[Jordan v. Jones, 849 F.2d 1478 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/849-f-2d-1478/jordan-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6313
+   },
+   {
+    "cluster_id": 756337,
+    "case_name": "Nissen v. Jones",
+    "citations": [
+     "149 F.3d 1195",
+     "1998 WL 401159"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1998-06-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/149-f-3d-1195/nissen-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Nissen v. Jones, 149 F.3d 1195 (11th Cir. 1998)",
+    "link_md": "[Nissen v. Jones, 149 F.3d 1195 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/149-f-3d-1195/nissen-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6311
+   },
+   {
+    "cluster_id": 680917,
+    "case_name": "United States v. Jones",
+    "citations": [
+     "38 F.3d 573",
+     "1994 WL 573970"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-10-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/38-f-3d-573/united-states-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, 38 F.3d 573 (11th Cir. 1994)",
+    "link_md": "[United States v. Jones, 38 F.3d 573 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/38-f-3d-573/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6301
+   },
+   {
+    "cluster_id": 591913,
+    "case_name": "United States v. Jones (John Robert)",
+    "citations": [
+     "976 F.2d 741",
+     "1992 WL 278078"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1992-09-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/976-f-2d-741/united-states-v-jones-john-robert",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones (John Robert), 976 F.2d 741 (11th Cir. 1992)",
+    "link_md": "[United States v. Jones (John Robert), 976 F.2d 741 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/976-f-2d-741/united-states-v-jones-john-robert)",
+    "match_kind": "semantic",
+    "similarity": 0.6295
+   },
+   {
+    "cluster_id": 494091,
+    "case_name": "Jones v. Jones",
+    "citations": [
+     "828 F.2d 774"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1987-08-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/828-f-2d-774/jones-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jones v. Jones, 828 F.2d 774 (11th Cir. 1987)",
+    "link_md": "[Jones v. Jones, 828 F.2d 774 (11th Cir. 1987)](https://syfert.com/federal/circuits/cases/828-f-2d-774/jones-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6292
+   },
+   {
+    "cluster_id": 750048,
+    "case_name": "United States v. Jones",
+    "citations": [
+     "132 F.3d 1461",
+     "1997 U.S. App. LEXIS 38205",
+     "1997 WL 792245"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1997-12-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/132-f-3d-1461/united-states-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Jones, 132 F.3d 1461 (11th Cir. 1997)",
+    "link_md": "[United States v. Jones, 132 F.3d 1461 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/132-f-3d-1461/united-states-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.6279
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "46 So. 78",
+  "expected_case_name": "Butterfield Lumber Co. v. Guy"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"46 So. 78\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8033914,\n            \"case_name\": \"Butterfield Lumber Co. v. Guy\",\n            \"citations\": [\n                \"46 So. 78\"\n            ],\n            \"court\": \"Mississippi Supreme Court\",\n            \"date_filed\": \"1908-03-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 30,\n            \"url\": \"https://syfert.com/mississippi/cases/92-miss-361/butterfield-lumber-co-v-guy\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Butterfield Lumber Co. v. Guy, 46 So. 78 (Miss. 1908)\",\n            \"link_md\": \"[Butterfield Lumber Co. v. Guy, 46 So. 78 (Miss. 1908)](https://syfert.com/mississippi/cases/92-miss-361/butterfield-lumber-co-v-guy)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Butterfield Lumber Co. v. Guy\",\n        \"actual\": \"Butterfield Lumber Co. v. Guy\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "46 So. 78",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8033914,
+    "case_name": "Butterfield Lumber Co. v. Guy",
+    "citations": [
+     "46 So. 78"
+    ],
+    "court": "Mississippi Supreme Court",
+    "date_filed": "1908-03-15",
+    "status": "Published",
+    "cited_by": 30,
+    "url": "https://syfert.com/mississippi/cases/92-miss-361/butterfield-lumber-co-v-guy",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Butterfield Lumber Co. v. Guy, 46 So. 78 (Miss. 1908)",
+    "link_md": "[Butterfield Lumber Co. v. Guy, 46 So. 78 (Miss. 1908)](https://syfert.com/mississippi/cases/92-miss-361/butterfield-lumber-co-v-guy)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Butterfield Lumber Co. v. Guy",
+   "actual": "Butterfield Lumber Co. v. Guy",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

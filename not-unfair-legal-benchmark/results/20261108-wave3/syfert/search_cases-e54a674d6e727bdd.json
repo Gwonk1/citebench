@@ -1,0 +1,407 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Tedder w/15 \"93 S.E. 19\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Tedder w/15 \\\"93 S.E. 19\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":515933,\"case_name\":\"United States v. Tedder\",\"citations\":[\"863 F.2d 888\",\"1988 WL 133184\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1988-12-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/863-f-2d-888/united-states-v-tedder\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Tedder, 863 F.2d 888 (11th Cir. 1988)\",\"link_md\":\"[United States v. Tedder, 863 F.2d 888 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/863-f-2d-888/united-states-v-tedder)\",\"match_kind\":\"semantic\",\"similarity\":0.7457},{\"cluster_id\":420637,\"case_name\":\"Tedder v. Hanners\",\"citations\":[\"709 F.2d 1518\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1983-05-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/709-f-2d-1518/tedder-v-hanners\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tedder v. Hanners, 709 F.2d 1518 (9th Cir. 1983)\",\"link_md\":\"[Tedder v. Hanners, 709 F.2d 1518 (9th Cir. 1983)](https://syfert.com/federal/circuits/cases/709-f-2d-1518/tedder-v-hanners)\",\"match_kind\":\"semantic\",\"similarity\":0.7256},{\"cluster_id\":707994,\"case_name\":\"Tedder v. Pace\",\"citations\":[\"70 F.3d 126\",\"1995 WL 645755\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1995-10-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/70-f-3d-126/tedder-v-pace\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tedder v. Pace, 70 F.3d 126 (11th Cir. 1995)\",\"link_md\":\"[Tedder v. Pace, 70 F.3d 126 (11th Cir. 1995)](https://syfert.com/federal/circuits/cases/70-f-3d-126/tedder-v-pace)\",\"match_kind\":\"semantic\",\"similarity\":0.7227},{\"cluster_id\":2501156,\"case_name\":\"Tedder v. CSX Transp., Inc.\",\"citations\":[\"716 S.E.2d 440\",\"216 N.C. App. 184\",\"2011 N.C. App. LEXIS 2194\"],\"court\":\"Court of Appeals of North Carolina\",\"date_filed\":\"2011-10-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/216-n-c-app-184/tedder-v-csx-transp-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tedder v. CSX Transp., Inc., 716 S.E.2d 440 (N.C. Ct. App. 2011)\",\"link_md\":\"[Tedder v. CSX Transp., Inc., 716 S.E.2d 440 (N.C. Ct. App. 2011)](https://syfert.com/north-carolina/cases/216-n-c-app-184/tedder-v-csx-transp-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6661},{\"cluster_id\":5388254,\"case_name\":\"Thedford v. Herbert\",\"citations\":[\"150 A.D. 930\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1912-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/150-a-d-930/thedford-v-herbert\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thedford v. Herbert, 150 A.D. 930 (N.Y. App. Div. 1912)\",\"link_md\":\"[Thedford v. Herbert, 150 A.D. 930 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/150-a-d-930/thedford-v-herbert)\",\"match_kind\":\"semantic\",\"similarity\":0.648},{\"cluster_id\":7430661,\"case_name\":\"Thedford v. Herbert\",\"citations\":[\"135 N.Y.S. 1146\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1912-05-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/135-n-y-s-1146/thedford-v-herbert\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thedford v. Herbert, 135 N.Y.S. 1146 (N.Y. App. Div. 1912)\",\"link_md\":\"[Thedford v. Herbert, 135 N.Y.S. 1146 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/135-n-y-s-1146/thedford-v-herbert)\",\"match_kind\":\"semantic\",\"similarity\":0.6453},{\"cluster_id\":3609213,\"case_name\":\"Thedford v. . Herbert\",\"citations\":[\"104 N.E. 1142\",\"210 N.Y. 606\",\"1914 N.Y. LEXIS 1360\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1914-03-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/210-n-y-606/thedford-v-herbert\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thedford v. Herbert, 104 N.E. 1142 (N.Y. 1914)\",\"link_md\":\"[Thedford v. Herbert, 104 N.E. 1142 (N.Y. 1914)](https://syfert.com/new-york/cases/210-n-y-606/thedford-v-herbert)\",\"match_kind\":\"semantic\",\"similarity\":0.6415},{\"cluster_id\":678730,\"case_name\":\"Tejada v. Singletary\",\"citations\":[\"36 F.3d 94\",\"1994 WL 523369\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-09-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/36-f-3d-94/tejada-v-singletary\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tejada v. Singletary, 36 F.3d 94 (11th Cir. 1994)\",\"link_md\":\"[Tejada v. Singletary, 36 F.3d 94 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/36-f-3d-94/tejada-v-singletary)\",\"match_kind\":\"semantic\",\"similarity\":0.6362},{\"cluster_id\":5731741,\"case_name\":\"Tedder v. Walker\",\"citations\":[\"95 S.E. 692\",\"148 Ga. 19\",\"1918 Ga. LEXIS 166\"],\"court\":\"Supreme Court of Georgia\",\"date_filed\":\"1918-04-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/georgia/cases/148-ga-19/tedder-v-walker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tedder v. Walker, 95 S.E. 692 (Ga. 1918)\",\"link_md\":\"[Tedder v. Walker, 95 S.E. 692 (Ga. 1918)](https://syfert.com/georgia/cases/148-ga-19/tedder-v-walker)\",\"match_kind\":\"semantic\",\"similarity\":0.6335},{\"cluster_id\":3619651,\"case_name\":\"Decker v. Lehigh and Hudson River Railway Company\",\"citations\":[\"159 N.E. 675\",\"246 N.Y. 619\",\"1927 N.Y. LEXIS 1012\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1927-11-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/246-n-y-619/decker-v-lehigh-and-hudson-river-railway-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Decker v. Lehigh & Hudson River Ry. Co., 159 N.E. 675 (N.Y. 1927)\",\"link_md\":\"[Decker v. Lehigh & Hudson River Ry. Co., 159 N.E. 675 (N.Y. 1927)](https://syfert.com/new-york/cases/246-n-y-619/decker-v-lehigh-and-hudson-river-railway-company)\",\"match_kind\":\"semantic\",\"similarity\":0.6301},{\"cluster_id\":673345,\"case_name\":\"Henderson v. Teledyne Industries\",\"citations\":[\"28 F.3d 116\",\"1994 WL 369981\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-07-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/28-f-3d-116/henderson-v-teledyne-industries\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Henderson v. Teledyne Indus., 28 F.3d 116 (11th Cir. 1994)\",\"link_md\":\"[Henderson v. Teledyne Indus., 28 F.3d 116 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/28-f-3d-116/henderson-v-teledyne-industries)\",\"match_kind\":\"semantic\",\"similarity\":0.6258},{\"cluster_id\":3640039,\"case_name\":\"Thedford v. . Herbert\",\"citations\":[\"96 N.E. 1114\",\"203 N.Y. 575\",\"1911 N.Y. LEXIS 885\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1911-10-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/203-n-y-575/thedford-v-herbert\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thedford v. Herbert, 96 N.E. 1114 (N.Y. 1911)\",\"link_md\":\"[Thedford v. Herbert, 96 N.E. 1114 (N.Y. 1911)](https://syfert.com/new-york/cases/203-n-y-575/thedford-v-herbert)\",\"match_kind\":\"semantic\",\"similarity\":0.6258},{\"cluster_id\":587204,\"case_name\":\"Walker v. Teledyne Continental\",\"citations\":[\"969 F.2d 1048\",\"1992 WL 176647\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1992-07-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/969-f-2d-1048/walker-v-teledyne-continental\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walker v. Teledyne Cont'l, 969 F.2d 1048 (11th Cir. 1992)\",\"link_md\":\"[Walker v. Teledyne Cont'l, 969 F.2d 1048 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/969-f-2d-1048/walker-v-teledyne-continental)\",\"match_kind\":\"semantic\",\"similarity\":0.6244},{\"cluster_id\":5338765,\"case_name\":\"Northern Pacific Railway Co. v. Gifford\",\"citations\":[\"151 P. 909\",\"27 Idaho 667\",\"1915 Ida. LEXIS 87\"],\"court\":\"Idaho Supreme Court\",\"date_filed\":\"1915-09-02\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/idaho/cases/151-p-909/northern-pacific-railway-co-v-gifford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"N. Pac. Ry. Co. v. Gifford, 151 P. 909 (Idaho 1915)\",\"link_md\":\"[N. Pac. Ry. Co. v. Gifford, 151 P. 909 (Idaho 1915)](https://syfert.com/idaho/cases/151-p-909/northern-pacific-railway-co-v-gifford)\",\"match_kind\":\"semantic\",\"similarity\":0.6213},{\"cluster_id\":7430030,\"case_name\":\"Edwards v. New Jersey & H. R. Railway Co.\",\"citations\":[\"134 N.Y.S. 1131\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1912-04-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/134-n-y-s-1131/edwards-v-new-jersey-h-r-railway-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Edwards v. New Jersey & H. R. Ry. Co., 134 N.Y.S. 1131 (N.Y. App. Div. 1912)\",\"link_md\":\"[Edwards v. New Jersey & H. R. Ry. Co., 134 N.Y.S. 1131 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/134-n-y-s-1131/edwards-v-new-jersey-h-r-railway-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6208},{\"cluster_id\":546853,\"case_name\":\"Thames v. Dugger\",\"citations\":[\"911 F.2d 741\",\"1990 WL 109014\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1990-07-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/911-f-2d-741/thames-v-dugger\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thames v. Dugger, 911 F.2d 741 (11th Cir. 1990)\",\"link_md\":\"[Thames v. Dugger, 911 F.2d 741 (11th Cir. 1990)](https://syfert.com/federal/circuits/cases/911-f-2d-741/thames-v-dugger)\",\"match_kind\":\"semantic\",\"similarity\":0.6207},{\"cluster_id\":699337,\"case_name\":\"Peters v. Thedford\",\"citations\":[\"59 F.3d 1240\",\"1995 U.S. App. LEXIS 20061\",\"1995 WL 413016\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1995-06-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/59-f-3d-1240/peters-v-thedford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Peters v. Thedford, 59 F.3d 1240 (5th Cir. 1995)\",\"link_md\":\"[Peters v. Thedford, 59 F.3d 1240 (5th Cir. 1995)](https://syfert.com/federal/circuits/cases/59-f-3d-1240/peters-v-thedford)\",\"match_kind\":\"semantic\",\"similarity\":0.6193},{\"cluster_id\":591671,\"case_name\":\"Baranowski v. Tedford\",\"citations\":[\"976 F.2d 730\",\"1992 U.S. App. LEXIS 27311\",\"1992 WL 295272\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1992-09-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/976-f-2d-730/baranowski-v-tedford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Baranowski v. Tedford, 976 F.2d 730 (5th Cir. 1992)\",\"link_md\":\"[Baranowski v. Tedford, 976 F.2d 730 (5th Cir. 1992)](https://syfert.com/federal/circuits/cases/976-f-2d-730/baranowski-v-tedford)\",\"match_kind\":\"semantic\",\"similarity\":0.6185},{\"cluster_id\":5370406,\"case_name\":\"Thedford v. Herbert\",\"citations\":[\"123 A.D. 923\",\"107 N.Y.S. 1147\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1908-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/123-a-d-923/thedford-v-herbert\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thedford v. Herbert, 123 A.D. 923 (N.Y. App. Div. 1908)\",\"link_md\":\"[Thedford v. Herbert, 123 A.D. 923 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/123-a-d-923/thedford-v-herbert)\",\"match_kind\":\"semantic\",\"similarity\":0.6185},{\"cluster_id\":432641,\"case_name\":\"Gillespie (Teddy) v. Schweiker (Richard S.)\",\"citations\":[\"729 F.2d 1452\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1984-03-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/729-f-2d-1452/gillespie-teddy-v-schweiker-richard-s\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gillespie (Teddy) v. Schweiker (Richard S.), 729 F.2d 1452 (4th Cir. 1984)\",\"link_md\":\"[Gillespie (Teddy) v. Schweiker (Richard S.), 729 F.2d 1452 (4th Cir. 1984)](https://syfert.com/federal/circuits/cases/729-f-2d-1452/gillespie-teddy-v-schweiker-richard-s)\",\"match_kind\":\"semantic\",\"similarity\":0.6145}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Tedder w/15 \"93 S.E. 19\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 515933,
+    "case_name": "United States v. Tedder",
+    "citations": [
+     "863 F.2d 888",
+     "1988 WL 133184"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1988-12-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/863-f-2d-888/united-states-v-tedder",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Tedder, 863 F.2d 888 (11th Cir. 1988)",
+    "link_md": "[United States v. Tedder, 863 F.2d 888 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/863-f-2d-888/united-states-v-tedder)",
+    "match_kind": "semantic",
+    "similarity": 0.7457
+   },
+   {
+    "cluster_id": 420637,
+    "case_name": "Tedder v. Hanners",
+    "citations": [
+     "709 F.2d 1518"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1983-05-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/709-f-2d-1518/tedder-v-hanners",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tedder v. Hanners, 709 F.2d 1518 (9th Cir. 1983)",
+    "link_md": "[Tedder v. Hanners, 709 F.2d 1518 (9th Cir. 1983)](https://syfert.com/federal/circuits/cases/709-f-2d-1518/tedder-v-hanners)",
+    "match_kind": "semantic",
+    "similarity": 0.7256
+   },
+   {
+    "cluster_id": 707994,
+    "case_name": "Tedder v. Pace",
+    "citations": [
+     "70 F.3d 126",
+     "1995 WL 645755"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1995-10-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/70-f-3d-126/tedder-v-pace",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tedder v. Pace, 70 F.3d 126 (11th Cir. 1995)",
+    "link_md": "[Tedder v. Pace, 70 F.3d 126 (11th Cir. 1995)](https://syfert.com/federal/circuits/cases/70-f-3d-126/tedder-v-pace)",
+    "match_kind": "semantic",
+    "similarity": 0.7227
+   },
+   {
+    "cluster_id": 2501156,
+    "case_name": "Tedder v. CSX Transp., Inc.",
+    "citations": [
+     "716 S.E.2d 440",
+     "216 N.C. App. 184",
+     "2011 N.C. App. LEXIS 2194"
+    ],
+    "court": "Court of Appeals of North Carolina",
+    "date_filed": "2011-10-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/216-n-c-app-184/tedder-v-csx-transp-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tedder v. CSX Transp., Inc., 716 S.E.2d 440 (N.C. Ct. App. 2011)",
+    "link_md": "[Tedder v. CSX Transp., Inc., 716 S.E.2d 440 (N.C. Ct. App. 2011)](https://syfert.com/north-carolina/cases/216-n-c-app-184/tedder-v-csx-transp-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6661
+   },
+   {
+    "cluster_id": 5388254,
+    "case_name": "Thedford v. Herbert",
+    "citations": [
+     "150 A.D. 930"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1912-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/150-a-d-930/thedford-v-herbert",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thedford v. Herbert, 150 A.D. 930 (N.Y. App. Div. 1912)",
+    "link_md": "[Thedford v. Herbert, 150 A.D. 930 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/150-a-d-930/thedford-v-herbert)",
+    "match_kind": "semantic",
+    "similarity": 0.648
+   },
+   {
+    "cluster_id": 7430661,
+    "case_name": "Thedford v. Herbert",
+    "citations": [
+     "135 N.Y.S. 1146"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1912-05-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/135-n-y-s-1146/thedford-v-herbert",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thedford v. Herbert, 135 N.Y.S. 1146 (N.Y. App. Div. 1912)",
+    "link_md": "[Thedford v. Herbert, 135 N.Y.S. 1146 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/135-n-y-s-1146/thedford-v-herbert)",
+    "match_kind": "semantic",
+    "similarity": 0.6453
+   },
+   {
+    "cluster_id": 3609213,
+    "case_name": "Thedford v. . Herbert",
+    "citations": [
+     "104 N.E. 1142",
+     "210 N.Y. 606",
+     "1914 N.Y. LEXIS 1360"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1914-03-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/210-n-y-606/thedford-v-herbert",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thedford v. Herbert, 104 N.E. 1142 (N.Y. 1914)",
+    "link_md": "[Thedford v. Herbert, 104 N.E. 1142 (N.Y. 1914)](https://syfert.com/new-york/cases/210-n-y-606/thedford-v-herbert)",
+    "match_kind": "semantic",
+    "similarity": 0.6415
+   },
+   {
+    "cluster_id": 678730,
+    "case_name": "Tejada v. Singletary",
+    "citations": [
+     "36 F.3d 94",
+     "1994 WL 523369"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-09-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/36-f-3d-94/tejada-v-singletary",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tejada v. Singletary, 36 F.3d 94 (11th Cir. 1994)",
+    "link_md": "[Tejada v. Singletary, 36 F.3d 94 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/36-f-3d-94/tejada-v-singletary)",
+    "match_kind": "semantic",
+    "similarity": 0.6362
+   },
+   {
+    "cluster_id": 5731741,
+    "case_name": "Tedder v. Walker",
+    "citations": [
+     "95 S.E. 692",
+     "148 Ga. 19",
+     "1918 Ga. LEXIS 166"
+    ],
+    "court": "Supreme Court of Georgia",
+    "date_filed": "1918-04-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/georgia/cases/148-ga-19/tedder-v-walker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tedder v. Walker, 95 S.E. 692 (Ga. 1918)",
+    "link_md": "[Tedder v. Walker, 95 S.E. 692 (Ga. 1918)](https://syfert.com/georgia/cases/148-ga-19/tedder-v-walker)",
+    "match_kind": "semantic",
+    "similarity": 0.6335
+   },
+   {
+    "cluster_id": 3619651,
+    "case_name": "Decker v. Lehigh and Hudson River Railway Company",
+    "citations": [
+     "159 N.E. 675",
+     "246 N.Y. 619",
+     "1927 N.Y. LEXIS 1012"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1927-11-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/246-n-y-619/decker-v-lehigh-and-hudson-river-railway-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Decker v. Lehigh & Hudson River Ry. Co., 159 N.E. 675 (N.Y. 1927)",
+    "link_md": "[Decker v. Lehigh & Hudson River Ry. Co., 159 N.E. 675 (N.Y. 1927)](https://syfert.com/new-york/cases/246-n-y-619/decker-v-lehigh-and-hudson-river-railway-company)",
+    "match_kind": "semantic",
+    "similarity": 0.6301
+   },
+   {
+    "cluster_id": 673345,
+    "case_name": "Henderson v. Teledyne Industries",
+    "citations": [
+     "28 F.3d 116",
+     "1994 WL 369981"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-07-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/28-f-3d-116/henderson-v-teledyne-industries",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Henderson v. Teledyne Indus., 28 F.3d 116 (11th Cir. 1994)",
+    "link_md": "[Henderson v. Teledyne Indus., 28 F.3d 116 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/28-f-3d-116/henderson-v-teledyne-industries)",
+    "match_kind": "semantic",
+    "similarity": 0.6258
+   },
+   {
+    "cluster_id": 3640039,
+    "case_name": "Thedford v. . Herbert",
+    "citations": [
+     "96 N.E. 1114",
+     "203 N.Y. 575",
+     "1911 N.Y. LEXIS 885"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1911-10-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/203-n-y-575/thedford-v-herbert",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thedford v. Herbert, 96 N.E. 1114 (N.Y. 1911)",
+    "link_md": "[Thedford v. Herbert, 96 N.E. 1114 (N.Y. 1911)](https://syfert.com/new-york/cases/203-n-y-575/thedford-v-herbert)",
+    "match_kind": "semantic",
+    "similarity": 0.6258
+   },
+   {
+    "cluster_id": 587204,
+    "case_name": "Walker v. Teledyne Continental",
+    "citations": [
+     "969 F.2d 1048",
+     "1992 WL 176647"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1992-07-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/969-f-2d-1048/walker-v-teledyne-continental",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walker v. Teledyne Cont'l, 969 F.2d 1048 (11th Cir. 1992)",
+    "link_md": "[Walker v. Teledyne Cont'l, 969 F.2d 1048 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/969-f-2d-1048/walker-v-teledyne-continental)",
+    "match_kind": "semantic",
+    "similarity": 0.6244
+   },
+   {
+    "cluster_id": 5338765,
+    "case_name": "Northern Pacific Railway Co. v. Gifford",
+    "citations": [
+     "151 P. 909",
+     "27 Idaho 667",
+     "1915 Ida. LEXIS 87"
+    ],
+    "court": "Idaho Supreme Court",
+    "date_filed": "1915-09-02",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/idaho/cases/151-p-909/northern-pacific-railway-co-v-gifford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "N. Pac. Ry. Co. v. Gifford, 151 P. 909 (Idaho 1915)",
+    "link_md": "[N. Pac. Ry. Co. v. Gifford, 151 P. 909 (Idaho 1915)](https://syfert.com/idaho/cases/151-p-909/northern-pacific-railway-co-v-gifford)",
+    "match_kind": "semantic",
+    "similarity": 0.6213
+   },
+   {
+    "cluster_id": 7430030,
+    "case_name": "Edwards v. New Jersey & H. R. Railway Co.",
+    "citations": [
+     "134 N.Y.S. 1131"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1912-04-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/134-n-y-s-1131/edwards-v-new-jersey-h-r-railway-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Edwards v. New Jersey & H. R. Ry. Co., 134 N.Y.S. 1131 (N.Y. App. Div. 1912)",
+    "link_md": "[Edwards v. New Jersey & H. R. Ry. Co., 134 N.Y.S. 1131 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/134-n-y-s-1131/edwards-v-new-jersey-h-r-railway-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6208
+   },
+   {
+    "cluster_id": 546853,
+    "case_name": "Thames v. Dugger",
+    "citations": [
+     "911 F.2d 741",
+     "1990 WL 109014"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1990-07-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/911-f-2d-741/thames-v-dugger",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thames v. Dugger, 911 F.2d 741 (11th Cir. 1990)",
+    "link_md": "[Thames v. Dugger, 911 F.2d 741 (11th Cir. 1990)](https://syfert.com/federal/circuits/cases/911-f-2d-741/thames-v-dugger)",
+    "match_kind": "semantic",
+    "similarity": 0.6207
+   },
+   {
+    "cluster_id": 699337,
+    "case_name": "Peters v. Thedford",
+    "citations": [
+     "59 F.3d 1240",
+     "1995 U.S. App. LEXIS 20061",
+     "1995 WL 413016"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1995-06-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/59-f-3d-1240/peters-v-thedford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Peters v. Thedford, 59 F.3d 1240 (5th Cir. 1995)",
+    "link_md": "[Peters v. Thedford, 59 F.3d 1240 (5th Cir. 1995)](https://syfert.com/federal/circuits/cases/59-f-3d-1240/peters-v-thedford)",
+    "match_kind": "semantic",
+    "similarity": 0.6193
+   },
+   {
+    "cluster_id": 591671,
+    "case_name": "Baranowski v. Tedford",
+    "citations": [
+     "976 F.2d 730",
+     "1992 U.S. App. LEXIS 27311",
+     "1992 WL 295272"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1992-09-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/976-f-2d-730/baranowski-v-tedford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Baranowski v. Tedford, 976 F.2d 730 (5th Cir. 1992)",
+    "link_md": "[Baranowski v. Tedford, 976 F.2d 730 (5th Cir. 1992)](https://syfert.com/federal/circuits/cases/976-f-2d-730/baranowski-v-tedford)",
+    "match_kind": "semantic",
+    "similarity": 0.6185
+   },
+   {
+    "cluster_id": 5370406,
+    "case_name": "Thedford v. Herbert",
+    "citations": [
+     "123 A.D. 923",
+     "107 N.Y.S. 1147"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1908-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/123-a-d-923/thedford-v-herbert",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thedford v. Herbert, 123 A.D. 923 (N.Y. App. Div. 1908)",
+    "link_md": "[Thedford v. Herbert, 123 A.D. 923 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/123-a-d-923/thedford-v-herbert)",
+    "match_kind": "semantic",
+    "similarity": 0.6185
+   },
+   {
+    "cluster_id": 432641,
+    "case_name": "Gillespie (Teddy) v. Schweiker (Richard S.)",
+    "citations": [
+     "729 F.2d 1452"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1984-03-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/729-f-2d-1452/gillespie-teddy-v-schweiker-richard-s",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gillespie (Teddy) v. Schweiker (Richard S.), 729 F.2d 1452 (4th Cir. 1984)",
+    "link_md": "[Gillespie (Teddy) v. Schweiker (Richard S.), 729 F.2d 1452 (4th Cir. 1984)](https://syfert.com/federal/circuits/cases/729-f-2d-1452/gillespie-teddy-v-schweiker-richard-s)",
+    "match_kind": "semantic",
+    "similarity": 0.6145
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

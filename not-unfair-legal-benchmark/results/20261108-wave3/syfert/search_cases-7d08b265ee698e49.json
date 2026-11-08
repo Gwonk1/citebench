@@ -1,0 +1,61 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Dusek w/15 \"9 F.R.D. 326\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Dusek w/15 \\\"9 F.R.D. 326\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8794900,\"bluebook\":\"Textrol, Inc. v. D. C. Oviatt Co., 145 U.S.P.Q. (BNA) 607 (N.D. Ohio 1964)\",\"url\":\"https://syfert.com/federal/district/cases/cl-8794900/textrol-inc-v-d-c-oviatt-co\",\"date_filed\":\"1964-10-22\",\"cited_by\":7,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Judge Jones, of this District, stated in Dusek v. United Air Lines, 9 F.R.D. 326, 327 (1949):\\n“It will be conceded that any person answering a question relating to a fact must base his answer upon conclusion, inferences, opinions or…\"},{\"cluster_id\":8794745,\"bluebook\":\"Zinsky v. New York Cent. R.R., 9 Fed. R. Serv. 2d 33 (N.D. Ohio 1964)\",\"url\":\"https://syfert.com/federal/district/cases/cl-8794745/zinsky-v-new-york-central-railroad\",\"date_filed\":\"1964-02-20\",\"cited_by\":5,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Selby, 25 F.R.D. 12 (N.D.Ohio, 1960); Dusek v. United Air Lines, 9 F.R.D. 326 (N.D.Ohio, 1949).\\nIt is the distinction between a. factual conclusion and a legal conclusion that differentiates this interrogatory from the second one…\"},{\"cluster_id\":8794906,\"bluebook\":\"Trabon Eng'g Co. v. Eaton Mfg. Co., 144 U.S.P.Q. (BNA) 469 (N.D. Ohio 1964)\",\"url\":\"https://syfert.com/federal/district/cases/cl-8794906/trabon-engineering-co-v-eaton-manufacturing-co\",\"date_filed\":\"1964-12-09\",\"cited_by\":23,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Judge Jones stated in Dusek v. United Air Lines, D.C., 9 F.R.D. 326, 327 (1949), that:\\n“It will be conceded that any person answering a question relating to a fact must base his answer upon conclusion, inferences, opinions or…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Dusek w/15 \"9 F.R.D. 326\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8794900,
+    "bluebook": "Textrol, Inc. v. D. C. Oviatt Co., 145 U.S.P.Q. (BNA) 607 (N.D. Ohio 1964)",
+    "url": "https://syfert.com/federal/district/cases/cl-8794900/textrol-inc-v-d-c-oviatt-co",
+    "date_filed": "1964-10-22",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Judge Jones, of this District, stated in Dusek v. United Air Lines, 9 F.R.D. 326, 327 (1949):\n“It will be conceded that any person answering a question relating to a fact must base his answer upon conclusion, inferences, opinions or…"
+   },
+   {
+    "cluster_id": 8794745,
+    "bluebook": "Zinsky v. New York Cent. R.R., 9 Fed. R. Serv. 2d 33 (N.D. Ohio 1964)",
+    "url": "https://syfert.com/federal/district/cases/cl-8794745/zinsky-v-new-york-central-railroad",
+    "date_filed": "1964-02-20",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Selby, 25 F.R.D. 12 (N.D.Ohio, 1960); Dusek v. United Air Lines, 9 F.R.D. 326 (N.D.Ohio, 1949).\nIt is the distinction between a. factual conclusion and a legal conclusion that differentiates this interrogatory from the second one…"
+   },
+   {
+    "cluster_id": 8794906,
+    "bluebook": "Trabon Eng'g Co. v. Eaton Mfg. Co., 144 U.S.P.Q. (BNA) 469 (N.D. Ohio 1964)",
+    "url": "https://syfert.com/federal/district/cases/cl-8794906/trabon-engineering-co-v-eaton-manufacturing-co",
+    "date_filed": "1964-12-09",
+    "cited_by": 23,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Judge Jones stated in Dusek v. United Air Lines, D.C., 9 F.R.D. 326, 327 (1949), that:\n“It will be conceded that any person answering a question relating to a fact must base his answer upon conclusion, inferences, opinions or…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

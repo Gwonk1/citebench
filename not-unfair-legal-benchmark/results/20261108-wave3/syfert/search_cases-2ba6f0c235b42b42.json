@@ -1,0 +1,398 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Hodge w/15 \"17 N.E. 835\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Hodge w/15 \\\"17 N.E. 835\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":740345,\"case_name\":\"Hodge v. United States\",\"citations\":[\"112 F.3d 1172\",\"1997 WL 182953\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1997-04-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/112-f-3d-1172/hodge-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. United States, 112 F.3d 1172 (11th Cir. 1997)\",\"link_md\":\"[Hodge v. United States, 112 F.3d 1172 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/112-f-3d-1172/hodge-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7589},{\"cluster_id\":3354461,\"case_name\":\"Hodge v. Stevenson\",\"citations\":[\"1994 Conn. Super. Ct. 10444\"],\"court\":\"Connecticut Superior Court\",\"date_filed\":\"1994-10-12\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/connecticut/cases/1994-conn-super-ct-10444/hodge-v-stevenson-no-117480-oct-12-1994\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. Stevenson, 1994 Conn. Super. Ct. 10444 (Conn. Super. Ct. 1994)\",\"link_md\":\"[Hodge v. Stevenson, 1994 Conn. Super. Ct. 10444 (Conn. Super. Ct. 1994)](https://syfert.com/connecticut/cases/1994-conn-super-ct-10444/hodge-v-stevenson-no-117480-oct-12-1994)\",\"match_kind\":\"semantic\",\"similarity\":0.7212},{\"cluster_id\":2302793,\"case_name\":\"Hodge v. United States\",\"citations\":[\"41 A.3d 1274\",\"2012 WL 1678734\"],\"court\":\"District of Columbia Court of Appeals\",\"date_filed\":\"2012-04-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/district-of-columbia/cases/41-a-3d-1274/hodge-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. United States, 41 A.3d 1274 (D.C. 2012)\",\"link_md\":\"[Hodge v. United States, 41 A.3d 1274 (D.C. 2012)](https://syfert.com/district-of-columbia/cases/41-a-3d-1274/hodge-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7193},{\"cluster_id\":140107,\"case_name\":\"Hodge v. United States\",\"citations\":[\"543 U.S. 983\",\"125 S. Ct. 490\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-11-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-983/hodge-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (140107 and its twin 9279409). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. United States, 543 U.S. 983 (2004)\",\"link_md\":\"[Hodge v. United States, 543 U.S. 983 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-983/hodge-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7157},{\"cluster_id\":376476,\"case_name\":\"United States v. Hodge\",\"citations\":[\"618 F.2d 111\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1980-01-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/618-f-2d-111/united-states-v-hodge\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Hodge, 618 F.2d 111 (7th Cir. 1980)\",\"link_md\":\"[United States v. Hodge, 618 F.2d 111 (7th Cir. 1980)](https://syfert.com/federal/circuits/cases/618-f-2d-111/united-states-v-hodge)\",\"match_kind\":\"semantic\",\"similarity\":0.7122},{\"cluster_id\":359330,\"case_name\":\"United States v. Hodge\",\"citations\":[\"582 F.2d 1282\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1978-06-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/582-f-2d-1282/united-states-v-hodge\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Hodge, 582 F.2d 1282 (7th Cir. 1978)\",\"link_md\":\"[United States v. Hodge, 582 F.2d 1282 (7th Cir. 1978)](https://syfert.com/federal/circuits/cases/582-f-2d-1282/united-states-v-hodge)\",\"match_kind\":\"semantic\",\"similarity\":0.7098},{\"cluster_id\":459549,\"case_name\":\"Hodge v. J.I. Case Co\",\"citations\":[\"774 F.2d 1168\",\"1985 U.S. App. LEXIS 22835\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1985-08-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/774-f-2d-1168/hodge-v-ji-case-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. J.I. Case Co, 774 F.2d 1168 (7th Cir. 1985)\",\"link_md\":\"[Hodge v. J.I. Case Co, 774 F.2d 1168 (7th Cir. 1985)](https://syfert.com/federal/circuits/cases/774-f-2d-1168/hodge-v-ji-case-co)\",\"match_kind\":\"semantic\",\"similarity\":0.7079},{\"cluster_id\":461720,\"case_name\":\"United States v. Hodge\",\"citations\":[\"779 F.2d 36\"],\"court\":\"Second Circuit\",\"date_filed\":\"1985-08-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/779-f-2d-36/united-states-v-hodge\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Hodge, 779 F.2d 36 (2d Cir. 1985)\",\"link_md\":\"[United States v. Hodge, 779 F.2d 36 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/779-f-2d-36/united-states-v-hodge)\",\"match_kind\":\"semantic\",\"similarity\":0.7062},{\"cluster_id\":726045,\"case_name\":\"United States v. Hodge\",\"citations\":[\"95 F.3d 60\",\"1996 WL 459832\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-07-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/95-f-3d-60/united-states-v-hodge\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Hodge, 95 F.3d 60 (11th Cir. 1996)\",\"link_md\":\"[United States v. Hodge, 95 F.3d 60 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/95-f-3d-60/united-states-v-hodge)\",\"match_kind\":\"semantic\",\"similarity\":0.7051},{\"cluster_id\":417438,\"case_name\":\"United States v. Hodge\",\"citations\":[\"705 F.2d 459\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1982-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/705-f-2d-459/united-states-v-hodge\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Hodge, 705 F.2d 459 (6th Cir. 1982)\",\"link_md\":\"[United States v. Hodge, 705 F.2d 459 (6th Cir. 1982)](https://syfert.com/federal/circuits/cases/705-f-2d-459/united-states-v-hodge)\",\"match_kind\":\"semantic\",\"similarity\":0.7031},{\"cluster_id\":665716,\"case_name\":\"Hockman v. Hodge\",\"citations\":[\"19 F.3d 37\",\"1994 WL 91950\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-03-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/19-f-3d-37/hockman-v-hodge\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hockman v. Hodge, 19 F.3d 37 (11th Cir. 1994)\",\"link_md\":\"[Hockman v. Hodge, 19 F.3d 37 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/19-f-3d-37/hockman-v-hodge)\",\"match_kind\":\"semantic\",\"similarity\":0.702},{\"cluster_id\":455183,\"case_name\":\"Hodge, in Re\",\"citations\":[\"767 F.2d 912\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1985-07-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/767-f-2d-912/hodge-in-re\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge, in Re, 767 F.2d 912 (4th Cir. 1985)\",\"link_md\":\"[Hodge, in Re, 767 F.2d 912 (4th Cir. 1985)](https://syfert.com/federal/circuits/cases/767-f-2d-912/hodge-in-re)\",\"match_kind\":\"semantic\",\"similarity\":0.6997},{\"cluster_id\":122976,\"case_name\":\"Hodge v. United States\",\"citations\":[\"537 U.S. 858\",\"123 S. Ct. 229\"],\"court\":\"Supreme Court\",\"date_filed\":\"2002-10-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/537-u-s-858/hodge-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (122976 and its twin 9250967). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. United States, 537 U.S. 858 (2002)\",\"link_md\":\"[Hodge v. United States, 537 U.S. 858 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-858/hodge-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6976},{\"cluster_id\":7425383,\"case_name\":\"Hodge v. Watts\",\"citations\":[\"126 N.Y.S. 1132\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1910-12-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/126-n-y-s-1132/hodge-v-watts\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. Watts, 126 N.Y.S. 1132 (N.Y. App. Div. 1910)\",\"link_md\":\"[Hodge v. Watts, 126 N.Y.S. 1132 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/126-n-y-s-1132/hodge-v-watts)\",\"match_kind\":\"semantic\",\"similarity\":0.6974},{\"cluster_id\":6259678,\"case_name\":\"Hodge v. New York Central & Hudson River Railroad\",\"citations\":[\"34 N.Y. Sup. Ct. 394\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1882-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6259678/hodge-v-new-york-central-hudson-river-railroad\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. New York Cent. & Hudson River R.R., 34 N.Y. Sup. Ct. 394 (N.Y. Sup. Ct. 1882)\",\"link_md\":\"[Hodge v. New York Cent. & Hudson River R.R., 34 N.Y. Sup. Ct. 394 (N.Y. Sup. Ct. 1882)](https://syfert.com/new-york/cases/cl-6259678/hodge-v-new-york-central-hudson-river-railroad)\",\"match_kind\":\"semantic\",\"similarity\":0.697},{\"cluster_id\":580236,\"case_name\":\"Hodge v. Shaw\",\"citations\":[\"959 F.2d 972\",\"1992 WL 73040\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1992-03-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/959-f-2d-972/hodge-v-shaw\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. Shaw, 959 F.2d 972 (11th Cir. 1992)\",\"link_md\":\"[Hodge v. Shaw, 959 F.2d 972 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/959-f-2d-972/hodge-v-shaw)\",\"match_kind\":\"semantic\",\"similarity\":0.6938},{\"cluster_id\":586231,\"case_name\":\"Hodge v. Villages of Homestead\",\"citations\":[\"968 F.2d 24\",\"1992 WL 161432\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1992-07-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/968-f-2d-24/hodge-v-villages-of-homestead\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. Villages of Homestead, 968 F.2d 24 (11th Cir. 1992)\",\"link_md\":\"[Hodge v. Villages of Homestead, 968 F.2d 24 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/968-f-2d-24/hodge-v-villages-of-homestead)\",\"match_kind\":\"semantic\",\"similarity\":0.6907},{\"cluster_id\":581775,\"case_name\":\"Amen-Ra v. Hodge\",\"citations\":[\"961 F.2d 1572\",\"1992 U.S. App. LEXIS 10674\",\"1992 WL 92061\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1992-04-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/961-f-2d-1572/amen-ra-v-hodge\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Amen-Ra v. Hodge, 961 F.2d 1572 (5th Cir. 1992)\",\"link_md\":\"[Amen-Ra v. Hodge, 961 F.2d 1572 (5th Cir. 1992)](https://syfert.com/federal/circuits/cases/961-f-2d-1572/amen-ra-v-hodge)\",\"match_kind\":\"semantic\",\"similarity\":0.6884},{\"cluster_id\":5382616,\"case_name\":\"Hodge v. Watts\",\"citations\":[\"142 A.D. 911\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1910-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/142-a-d-911/hodge-v-watts\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hodge v. Watts, 142 A.D. 911 (N.Y. App. Div. 1910)\",\"link_md\":\"[Hodge v. Watts, 142 A.D. 911 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/142-a-d-911/hodge-v-watts)\",\"match_kind\":\"semantic\",\"similarity\":0.688},{\"cluster_id\":7120986,\"case_name\":\"Hodge v. Principi\",\"citations\":[\"5 F. App'x 898\"],\"court\":\"Federal Circuit\",\"date_filed\":\"2001-03-01\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/5-f-appx-898/hodge-v-principi\",\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_reporter\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 5 F. App'x 898).\",\"bluebook\":\"Hodge v. Principi, 5 F. App'x 898 (Fed. Cir. 2001)\",\"link_md\":\"[Hodge v. Principi, 5 F. App'x 898 (Fed. Cir. 2001)](https://syfert.com/federal/circuits/cases/5-f-appx-898/hodge-v-principi)\",\"match_kind\":\"semantic\",\"similarity\":0.6866}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Hodge w/15 \"17 N.E. 835\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 740345,
+    "case_name": "Hodge v. United States",
+    "citations": [
+     "112 F.3d 1172",
+     "1997 WL 182953"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1997-04-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/112-f-3d-1172/hodge-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. United States, 112 F.3d 1172 (11th Cir. 1997)",
+    "link_md": "[Hodge v. United States, 112 F.3d 1172 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/112-f-3d-1172/hodge-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7589
+   },
+   {
+    "cluster_id": 3354461,
+    "case_name": "Hodge v. Stevenson",
+    "citations": [
+     "1994 Conn. Super. Ct. 10444"
+    ],
+    "court": "Connecticut Superior Court",
+    "date_filed": "1994-10-12",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/connecticut/cases/1994-conn-super-ct-10444/hodge-v-stevenson-no-117480-oct-12-1994",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. Stevenson, 1994 Conn. Super. Ct. 10444 (Conn. Super. Ct. 1994)",
+    "link_md": "[Hodge v. Stevenson, 1994 Conn. Super. Ct. 10444 (Conn. Super. Ct. 1994)](https://syfert.com/connecticut/cases/1994-conn-super-ct-10444/hodge-v-stevenson-no-117480-oct-12-1994)",
+    "match_kind": "semantic",
+    "similarity": 0.7212
+   },
+   {
+    "cluster_id": 2302793,
+    "case_name": "Hodge v. United States",
+    "citations": [
+     "41 A.3d 1274",
+     "2012 WL 1678734"
+    ],
+    "court": "District of Columbia Court of Appeals",
+    "date_filed": "2012-04-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/district-of-columbia/cases/41-a-3d-1274/hodge-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. United States, 41 A.3d 1274 (D.C. 2012)",
+    "link_md": "[Hodge v. United States, 41 A.3d 1274 (D.C. 2012)](https://syfert.com/district-of-columbia/cases/41-a-3d-1274/hodge-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7193
+   },
+   {
+    "cluster_id": 140107,
+    "case_name": "Hodge v. United States",
+    "citations": [
+     "543 U.S. 983",
+     "125 S. Ct. 490"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-11-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-983/hodge-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (140107 and its twin 9279409). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. United States, 543 U.S. 983 (2004)",
+    "link_md": "[Hodge v. United States, 543 U.S. 983 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-983/hodge-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7157
+   },
+   {
+    "cluster_id": 376476,
+    "case_name": "United States v. Hodge",
+    "citations": [
+     "618 F.2d 111"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1980-01-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/618-f-2d-111/united-states-v-hodge",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Hodge, 618 F.2d 111 (7th Cir. 1980)",
+    "link_md": "[United States v. Hodge, 618 F.2d 111 (7th Cir. 1980)](https://syfert.com/federal/circuits/cases/618-f-2d-111/united-states-v-hodge)",
+    "match_kind": "semantic",
+    "similarity": 0.7122
+   },
+   {
+    "cluster_id": 359330,
+    "case_name": "United States v. Hodge",
+    "citations": [
+     "582 F.2d 1282"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1978-06-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/582-f-2d-1282/united-states-v-hodge",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Hodge, 582 F.2d 1282 (7th Cir. 1978)",
+    "link_md": "[United States v. Hodge, 582 F.2d 1282 (7th Cir. 1978)](https://syfert.com/federal/circuits/cases/582-f-2d-1282/united-states-v-hodge)",
+    "match_kind": "semantic",
+    "similarity": 0.7098
+   },
+   {
+    "cluster_id": 459549,
+    "case_name": "Hodge v. J.I. Case Co",
+    "citations": [
+     "774 F.2d 1168",
+     "1985 U.S. App. LEXIS 22835"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1985-08-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/774-f-2d-1168/hodge-v-ji-case-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. J.I. Case Co, 774 F.2d 1168 (7th Cir. 1985)",
+    "link_md": "[Hodge v. J.I. Case Co, 774 F.2d 1168 (7th Cir. 1985)](https://syfert.com/federal/circuits/cases/774-f-2d-1168/hodge-v-ji-case-co)",
+    "match_kind": "semantic",
+    "similarity": 0.7079
+   },
+   {
+    "cluster_id": 461720,
+    "case_name": "United States v. Hodge",
+    "citations": [
+     "779 F.2d 36"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1985-08-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/779-f-2d-36/united-states-v-hodge",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Hodge, 779 F.2d 36 (2d Cir. 1985)",
+    "link_md": "[United States v. Hodge, 779 F.2d 36 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/779-f-2d-36/united-states-v-hodge)",
+    "match_kind": "semantic",
+    "similarity": 0.7062
+   },
+   {
+    "cluster_id": 726045,
+    "case_name": "United States v. Hodge",
+    "citations": [
+     "95 F.3d 60",
+     "1996 WL 459832"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-07-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/95-f-3d-60/united-states-v-hodge",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Hodge, 95 F.3d 60 (11th Cir. 1996)",
+    "link_md": "[United States v. Hodge, 95 F.3d 60 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/95-f-3d-60/united-states-v-hodge)",
+    "match_kind": "semantic",
+    "similarity": 0.7051
+   },
+   {
+    "cluster_id": 417438,
+    "case_name": "United States v. Hodge",
+    "citations": [
+     "705 F.2d 459"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1982-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/705-f-2d-459/united-states-v-hodge",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Hodge, 705 F.2d 459 (6th Cir. 1982)",
+    "link_md": "[United States v. Hodge, 705 F.2d 459 (6th Cir. 1982)](https://syfert.com/federal/circuits/cases/705-f-2d-459/united-states-v-hodge)",
+    "match_kind": "semantic",
+    "similarity": 0.7031
+   },
+   {
+    "cluster_id": 665716,
+    "case_name": "Hockman v. Hodge",
+    "citations": [
+     "19 F.3d 37",
+     "1994 WL 91950"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-03-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/19-f-3d-37/hockman-v-hodge",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hockman v. Hodge, 19 F.3d 37 (11th Cir. 1994)",
+    "link_md": "[Hockman v. Hodge, 19 F.3d 37 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/19-f-3d-37/hockman-v-hodge)",
+    "match_kind": "semantic",
+    "similarity": 0.702
+   },
+   {
+    "cluster_id": 455183,
+    "case_name": "Hodge, in Re",
+    "citations": [
+     "767 F.2d 912"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1985-07-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/767-f-2d-912/hodge-in-re",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge, in Re, 767 F.2d 912 (4th Cir. 1985)",
+    "link_md": "[Hodge, in Re, 767 F.2d 912 (4th Cir. 1985)](https://syfert.com/federal/circuits/cases/767-f-2d-912/hodge-in-re)",
+    "match_kind": "semantic",
+    "similarity": 0.6997
+   },
+   {
+    "cluster_id": 122976,
+    "case_name": "Hodge v. United States",
+    "citations": [
+     "537 U.S. 858",
+     "123 S. Ct. 229"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2002-10-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/537-u-s-858/hodge-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (122976 and its twin 9250967). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. United States, 537 U.S. 858 (2002)",
+    "link_md": "[Hodge v. United States, 537 U.S. 858 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-858/hodge-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6976
+   },
+   {
+    "cluster_id": 7425383,
+    "case_name": "Hodge v. Watts",
+    "citations": [
+     "126 N.Y.S. 1132"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1910-12-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/126-n-y-s-1132/hodge-v-watts",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. Watts, 126 N.Y.S. 1132 (N.Y. App. Div. 1910)",
+    "link_md": "[Hodge v. Watts, 126 N.Y.S. 1132 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/126-n-y-s-1132/hodge-v-watts)",
+    "match_kind": "semantic",
+    "similarity": 0.6974
+   },
+   {
+    "cluster_id": 6259678,
+    "case_name": "Hodge v. New York Central & Hudson River Railroad",
+    "citations": [
+     "34 N.Y. Sup. Ct. 394"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1882-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6259678/hodge-v-new-york-central-hudson-river-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. New York Cent. & Hudson River R.R., 34 N.Y. Sup. Ct. 394 (N.Y. Sup. Ct. 1882)",
+    "link_md": "[Hodge v. New York Cent. & Hudson River R.R., 34 N.Y. Sup. Ct. 394 (N.Y. Sup. Ct. 1882)](https://syfert.com/new-york/cases/cl-6259678/hodge-v-new-york-central-hudson-river-railroad)",
+    "match_kind": "semantic",
+    "similarity": 0.697
+   },
+   {
+    "cluster_id": 580236,
+    "case_name": "Hodge v. Shaw",
+    "citations": [
+     "959 F.2d 972",
+     "1992 WL 73040"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1992-03-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/959-f-2d-972/hodge-v-shaw",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. Shaw, 959 F.2d 972 (11th Cir. 1992)",
+    "link_md": "[Hodge v. Shaw, 959 F.2d 972 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/959-f-2d-972/hodge-v-shaw)",
+    "match_kind": "semantic",
+    "similarity": 0.6938
+   },
+   {
+    "cluster_id": 586231,
+    "case_name": "Hodge v. Villages of Homestead",
+    "citations": [
+     "968 F.2d 24",
+     "1992 WL 161432"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1992-07-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/968-f-2d-24/hodge-v-villages-of-homestead",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. Villages of Homestead, 968 F.2d 24 (11th Cir. 1992)",
+    "link_md": "[Hodge v. Villages of Homestead, 968 F.2d 24 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/968-f-2d-24/hodge-v-villages-of-homestead)",
+    "match_kind": "semantic",
+    "similarity": 0.6907
+   },
+   {
+    "cluster_id": 581775,
+    "case_name": "Amen-Ra v. Hodge",
+    "citations": [
+     "961 F.2d 1572",
+     "1992 U.S. App. LEXIS 10674",
+     "1992 WL 92061"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1992-04-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/961-f-2d-1572/amen-ra-v-hodge",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Amen-Ra v. Hodge, 961 F.2d 1572 (5th Cir. 1992)",
+    "link_md": "[Amen-Ra v. Hodge, 961 F.2d 1572 (5th Cir. 1992)](https://syfert.com/federal/circuits/cases/961-f-2d-1572/amen-ra-v-hodge)",
+    "match_kind": "semantic",
+    "similarity": 0.6884
+   },
+   {
+    "cluster_id": 5382616,
+    "case_name": "Hodge v. Watts",
+    "citations": [
+     "142 A.D. 911"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1910-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/142-a-d-911/hodge-v-watts",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. Watts, 142 A.D. 911 (N.Y. App. Div. 1910)",
+    "link_md": "[Hodge v. Watts, 142 A.D. 911 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/142-a-d-911/hodge-v-watts)",
+    "match_kind": "semantic",
+    "similarity": 0.688
+   },
+   {
+    "cluster_id": 7120986,
+    "case_name": "Hodge v. Principi",
+    "citations": [
+     "5 F. App'x 898"
+    ],
+    "court": "Federal Circuit",
+    "date_filed": "2001-03-01",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/5-f-appx-898/hodge-v-principi",
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_reporter",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 5 F. App'x 898).",
+    "bluebook": "Hodge v. Principi, 5 F. App'x 898 (Fed. Cir. 2001)",
+    "link_md": "[Hodge v. Principi, 5 F. App'x 898 (Fed. Cir. 2001)](https://syfert.com/federal/circuits/cases/5-f-appx-898/hodge-v-principi)",
+    "match_kind": "semantic",
+    "similarity": 0.6866
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

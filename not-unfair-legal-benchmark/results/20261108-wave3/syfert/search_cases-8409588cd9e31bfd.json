@@ -1,0 +1,39 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Schomer w/15 \"255 NE2d 620\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Schomer w/15 \\\"255 NE2d 620\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2195581,\"bluebook\":\"Hale v. Cravens, 263 N.E.2d 593 (Ill. App. Ct. 1970)\",\"url\":\"https://syfert.com/illinois/cases/129-ill-app-2d-466/hale-v-cravens\",\"date_filed\":\"1970-10-26\",\"cited_by\":40,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...We discussed this issue in Schomer v. Madigan, 120 Ill App2d 107, 255 NE2d 620 (4th Dist 1970). In this case, as in Schomer, there was no evidentiary basis for the given instruction. In Schomer, we discussed the case of Mount v.…\",\"holding\":\"A driver on a preferential highway is not contributorily negligent for excessive speed if the sole proximate cause of the collision is the other driver's failure to yield the right-of-way.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Schomer w/15 \"255 NE2d 620\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2195581,
+    "bluebook": "Hale v. Cravens, 263 N.E.2d 593 (Ill. App. Ct. 1970)",
+    "url": "https://syfert.com/illinois/cases/129-ill-app-2d-466/hale-v-cravens",
+    "date_filed": "1970-10-26",
+    "cited_by": 40,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...We discussed this issue in Schomer v. Madigan, 120 Ill App2d 107, 255 NE2d 620 (4th Dist 1970). In this case, as in Schomer, there was no evidentiary basis for the given instruction. In Schomer, we discussed the case of Mount v.…",
+    "holding": "A driver on a preferential highway is not contributorily negligent for excessive speed if the sole proximate cause of the collision is the other driver's failure to yield the right-of-way.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

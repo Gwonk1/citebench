@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Sweeney w/15 \"24 N.W.2d 406\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Sweeney w/15 \\\"24 N.W.2d 406\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2118343,\"bluebook\":\"Est. of Beale, 113 N.W.2d 380 (Wis. 1962)\",\"url\":\"https://syfert.com/wisconsin/cases/15-wis-2d-546/estate-of-beale\",\"date_filed\":\"1962-02-06\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Estate of Sweeney (1946), 248 Wis. 607 , 22 N. W. (2d) 657 , 24 N. W. (2d) 406 .\\nIn contending that Beale intended to revoke the 1959 will, appellant first points to the several alterations requested by Beale and the fact that the date…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Sweeney w/15 \"24 N.W.2d 406\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2118343,
+    "bluebook": "Est. of Beale, 113 N.W.2d 380 (Wis. 1962)",
+    "url": "https://syfert.com/wisconsin/cases/15-wis-2d-546/estate-of-beale",
+    "date_filed": "1962-02-06",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Estate of Sweeney (1946), 248 Wis. 607 , 22 N. W. (2d) 657 , 24 N. W. (2d) 406 .\nIn contending that Beale intended to revoke the 1959 will, appellant first points to the several alterations requested by Beale and the fact that the date…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

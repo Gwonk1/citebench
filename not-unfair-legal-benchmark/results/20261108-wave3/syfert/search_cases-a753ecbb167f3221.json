@@ -1,0 +1,39 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Tarrant w/15 \"27 A. 46\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Tarrant w/15 \\\"27 A. 46\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":894999,\"bluebook\":\"First Am. Title Ins. Co. v. Combs, 258 S.W.3d 627 (Tex. 2008)\",\"url\":\"https://syfert.com/texas/cases/258-s-w-3d-627/first-american-title-insurance-co-v-combs\",\"date_filed\":\"2008-05-16\",\"cited_by\":319,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...21.46, § 1(a).\\n[26] Former TEX. INS.CODE art. 9.59, § 3(c).\\n[27] Tarrant Appraisal Dist., 845 S.W.2d at 823 .\\n[28] Former TEX. INS.CODE art. 21.46, § 1(a).\\n[29] Former TEX. INS.CODE art. 9.59, § 1.\\n[30] § 8(b).\\n[31] § 2.\\n[32] §§ 5...\",\"holding\":\"The administrative burden of acting as a conduit for an agent's tax payments does not constitute a direct imposition for the purpose of calculating retaliatory taxes.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Tarrant w/15 \"27 A. 46\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 894999,
+    "bluebook": "First Am. Title Ins. Co. v. Combs, 258 S.W.3d 627 (Tex. 2008)",
+    "url": "https://syfert.com/texas/cases/258-s-w-3d-627/first-american-title-insurance-co-v-combs",
+    "date_filed": "2008-05-16",
+    "cited_by": 319,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...21.46, § 1(a).\n[26] Former TEX. INS.CODE art. 9.59, § 3(c).\n[27] Tarrant Appraisal Dist., 845 S.W.2d at 823 .\n[28] Former TEX. INS.CODE art. 21.46, § 1(a).\n[29] Former TEX. INS.CODE art. 9.59, § 1.\n[30] § 8(b).\n[31] § 2.\n[32] §§ 5...",
+    "holding": "The administrative burden of acting as a conduit for an agent's tax payments does not constitute a direct imposition for the purpose of calculating retaliatory taxes.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

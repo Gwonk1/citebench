@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "39 S.E.2d 231",
+  "expected_case_name": "Raven Red Ash Coal Co. v. Ball"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"39 S.E.2d 231\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6925487,\n            \"case_name\": \"Raven Red Ash Coal Co. v. Ball\",\n            \"citations\": [\n                \"39 S.E.2d 231\"\n            ],\n            \"court\": \"Supreme Court of Virginia\",\n            \"date_filed\": \"1946-09-11\",\n            \"status\": \"Published\",\n            \"cited_by\": 35,\n            \"url\": \"https://syfert.com/virginia/cases/185-va-534/raven-red-ash-coal-co-v-ball\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Raven Red Ash Coal Co. v. Ball, 39 S.E.2d 231 (Va. 1946)\",\n            \"link_md\": \"[Raven Red Ash Coal Co. v. Ball, 39 S.E.2d 231 (Va. 1946)](https://syfert.com/virginia/cases/185-va-534/raven-red-ash-coal-co-v-ball)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 21,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"affirmed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Raven Red Ash Coal Co. v. Ball\",\n        \"actual\": \"Raven Red Ash Coal Co. v. Ball\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "39 S.E.2d 231",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6925487,
+    "case_name": "Raven Red Ash Coal Co. v. Ball",
+    "citations": [
+     "39 S.E.2d 231"
+    ],
+    "court": "Supreme Court of Virginia",
+    "date_filed": "1946-09-11",
+    "status": "Published",
+    "cited_by": 35,
+    "url": "https://syfert.com/virginia/cases/185-va-534/raven-red-ash-coal-co-v-ball",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Raven Red Ash Coal Co. v. Ball, 39 S.E.2d 231 (Va. 1946)",
+    "link_md": "[Raven Red Ash Coal Co. v. Ball, 39 S.E.2d 231 (Va. 1946)](https://syfert.com/virginia/cases/185-va-534/raven-red-ash-coal-co-v-ball)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 21,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Raven Red Ash Coal Co. v. Ball",
+   "actual": "Raven Red Ash Coal Co. v. Ball",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

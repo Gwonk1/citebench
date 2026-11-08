@@ -1,0 +1,52 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Clopton w/15 \"88 N.W. 652\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Clopton w/15 \\\"88 N.W. 652\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6848976,\"bluebook\":\"Williams v. Fairmount Sch. Dist., 129 N.W. 1027 (N.D. 1911)\",\"url\":\"https://syfert.com/north-dakota/cases/21-n-d-198/williams-v-fairmount-school-district\",\"date_filed\":\"1911-01-20\",\"cited_by\":17,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"Spalding, J.\\nThis is an appeal from an order entered on the llth day of May, 1909, by the district court of Richland county, vacating, and setting aside a judgment of that court in favor of the appellant herein, entered on the 19th day of…\"},{\"cluster_id\":3933179,\"bluebook\":\"Schillerstrom v. Schillerstrom, 32 N.W.2d 106 (N.D. 1948)\",\"url\":\"https://syfert.com/north-dakota/cases/75-n-d-667/schillerstrom-v-schillerstrom\",\"date_filed\":\"1948-04-07\",\"cited_by\":37,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"GeoNNa, District Judge.\\nOn October 6, 1942, the wife, Ruth Schillerstrom, plaintiff and appellant, commenced this divorce action in the District Court of Norton County, against her husband, Duane Schillerstrom, defendant and respondent. On…\",\"holding\":\"Statutory residence requirements for divorce are conditions precedent to granting a decree rather than jurisdictional prerequisites to the court's power to hear the cause of action.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Clopton w/15 \"88 N.W. 652\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6848976,
+    "bluebook": "Williams v. Fairmount Sch. Dist., 129 N.W. 1027 (N.D. 1911)",
+    "url": "https://syfert.com/north-dakota/cases/21-n-d-198/williams-v-fairmount-school-district",
+    "date_filed": "1911-01-20",
+    "cited_by": 17,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "Spalding, J.\nThis is an appeal from an order entered on the llth day of May, 1909, by the district court of Richland county, vacating, and setting aside a judgment of that court in favor of the appellant herein, entered on the 19th day of…"
+   },
+   {
+    "cluster_id": 3933179,
+    "bluebook": "Schillerstrom v. Schillerstrom, 32 N.W.2d 106 (N.D. 1948)",
+    "url": "https://syfert.com/north-dakota/cases/75-n-d-667/schillerstrom-v-schillerstrom",
+    "date_filed": "1948-04-07",
+    "cited_by": 37,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "GeoNNa, District Judge.\nOn October 6, 1942, the wife, Ruth Schillerstrom, plaintiff and appellant, commenced this divorce action in the District Court of Norton County, against her husband, Duane Schillerstrom, defendant and respondent. On…",
+    "holding": "Statutory residence requirements for divorce are conditions precedent to granting a decree rather than jurisdictional prerequisites to the court's power to hear the cause of action.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

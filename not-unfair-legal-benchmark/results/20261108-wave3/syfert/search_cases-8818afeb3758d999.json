@@ -1,0 +1,86 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Craig w/15 \"148 N.E.2d 31\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Craig w/15 \\\"148 N.E.2d 31\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":304486,\"bluebook\":\"W. Virgil Wise v. Westchester Fire Ins. Co., 463 F.2d 386 (10th Cir. 1972)\",\"url\":\"https://syfert.com/federal/circuits/cases/463-f-2d-386/w-virgil-wise-and-anita-wise-v-westchester-fire-insurance-company\",\"date_filed\":\"1972-07-13\",\"cited_by\":8,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...205 , 216 A.2d 342, 346 (1966); Craig v. Central National Life Insurance Co., 16 Ill.App. 2d 344, 148 N.E.2d 31, 36 (1958); 13 Appleman, Insurance Law and Practice, § 7387, p. 42 (1943). It should be emphasized, moreover, that the…\"},{\"cluster_id\":2136540,\"bluebook\":\"Dirgo v. Associated Hospitals Serv., Inc., 210 N.W.2d 647 (Iowa 1973)\",\"url\":\"https://syfert.com/iowa/cases/210-n-w-2d-647/dirgo-v-associated-hospitals-service-inc\",\"date_filed\":\"1973-09-19\",\"cited_by\":12,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...262 , 373 S.W.2d 469, 472 ; Craig v. Central National Life Insurance Company, 16 Ill.App.2d 344 , 148 N.E.2d 31, 36 (1958); Old National Insurance Company v. Johnson (Tex.Civ.App.1958), 312 S.W.2d 715, 717 ; Jackson v. Pacific Mutual…\"},{\"cluster_id\":8923238,\"bluebook\":\"Ins. Co. of North Am. v. Forty-Eight Insulations, Inc., 633 F.2d 1212 (6th Cir. 1980)\",\"url\":\"https://syfert.com/federal/circuits/cases/633-f-2d-1212/insurance-co-of-north-america-v-forty-eight-insulations-inc\",\"date_filed\":\"1980-10-21\",\"cited_by\":93,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Co., 37 Ill.App.2d 493 , 186 N.E.2d 89 (1962); Craig v. Central Nat. Life Ins. Co., 16 Ill.App.2d 344 , 148 N.E.2d 31 (1958); Kissil v. Beneficial Nat. Life Ins. Co., 64 N.J. 555 , 319 A.2d 67 (1974); see generally Annot., 53...\"},{\"cluster_id\":4575815,\"bluebook\":\"People v. Bendovid, No. B288633 (Cal. Ct. App. Dec. 20, 2018)\",\"url\":\"https://syfert.com/california/cases/cl-4575815/people-v-bendovid\",\"date_filed\":\"2018-12-20\",\"cited_by\":0,\"snippet\":\"...1978) 572 S.W.2d 282, 284 [medical treatment\\nmeans treatment “directed toward a known condition”]; Craig v.\\nCentral National Life Insurance Co. (Ill.Ct.App. 1958) 148 N.E.2d\\n31, 36 [“the origin of plaintiff’s sickness was the date upon…\"},{\"cluster_id\":383770,\"bluebook\":\"Ins. Co. Of North Am. v. Forty-Eight Insulations, Inc., 633 F.2d 1212 (6th Cir. 1980)\",\"url\":\"https://syfert.com/federal/circuits/cases/633-f-2d-1212/insurance-co-of-north-america-v-forty-eight-insulations-inc\",\"date_filed\":\"1980-10-21\",\"cited_by\":1,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Co., 37 Ill.App.2d 493 , 186 N.E.2d 89 (1962); Craig v. Central Nat. Life Ins. Co., 16 Ill.App.2d 344 , 148 N.E.2d 31 (1958); Kissil v. Beneficial Nat. Life Ins. Co., 64 N.J. 555 , 319 A.2d 67 (1974); see generally Annot., 53...\",\"holding\":\"Bodily injury occurs at the time of initial tissue damage caused by exposure, triggering coverage for all insurers providing coverage during the period of exposure.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Craig w/15 \"148 N.E.2d 31\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 304486,
+    "bluebook": "W. Virgil Wise v. Westchester Fire Ins. Co., 463 F.2d 386 (10th Cir. 1972)",
+    "url": "https://syfert.com/federal/circuits/cases/463-f-2d-386/w-virgil-wise-and-anita-wise-v-westchester-fire-insurance-company",
+    "date_filed": "1972-07-13",
+    "cited_by": 8,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...205 , 216 A.2d 342, 346 (1966); Craig v. Central National Life Insurance Co., 16 Ill.App. 2d 344, 148 N.E.2d 31, 36 (1958); 13 Appleman, Insurance Law and Practice, § 7387, p. 42 (1943). It should be emphasized, moreover, that the…"
+   },
+   {
+    "cluster_id": 2136540,
+    "bluebook": "Dirgo v. Associated Hospitals Serv., Inc., 210 N.W.2d 647 (Iowa 1973)",
+    "url": "https://syfert.com/iowa/cases/210-n-w-2d-647/dirgo-v-associated-hospitals-service-inc",
+    "date_filed": "1973-09-19",
+    "cited_by": 12,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...262 , 373 S.W.2d 469, 472 ; Craig v. Central National Life Insurance Company, 16 Ill.App.2d 344 , 148 N.E.2d 31, 36 (1958); Old National Insurance Company v. Johnson (Tex.Civ.App.1958), 312 S.W.2d 715, 717 ; Jackson v. Pacific Mutual…"
+   },
+   {
+    "cluster_id": 8923238,
+    "bluebook": "Ins. Co. of North Am. v. Forty-Eight Insulations, Inc., 633 F.2d 1212 (6th Cir. 1980)",
+    "url": "https://syfert.com/federal/circuits/cases/633-f-2d-1212/insurance-co-of-north-america-v-forty-eight-insulations-inc",
+    "date_filed": "1980-10-21",
+    "cited_by": 93,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Co., 37 Ill.App.2d 493 , 186 N.E.2d 89 (1962); Craig v. Central Nat. Life Ins. Co., 16 Ill.App.2d 344 , 148 N.E.2d 31 (1958); Kissil v. Beneficial Nat. Life Ins. Co., 64 N.J. 555 , 319 A.2d 67 (1974); see generally Annot., 53..."
+   },
+   {
+    "cluster_id": 4575815,
+    "bluebook": "People v. Bendovid, No. B288633 (Cal. Ct. App. Dec. 20, 2018)",
+    "url": "https://syfert.com/california/cases/cl-4575815/people-v-bendovid",
+    "date_filed": "2018-12-20",
+    "cited_by": 0,
+    "snippet": "...1978) 572 S.W.2d 282, 284 [medical treatment\nmeans treatment “directed toward a known condition”]; Craig v.\nCentral National Life Insurance Co. (Ill.Ct.App. 1958) 148 N.E.2d\n31, 36 [“the origin of plaintiff’s sickness was the date upon…"
+   },
+   {
+    "cluster_id": 383770,
+    "bluebook": "Ins. Co. Of North Am. v. Forty-Eight Insulations, Inc., 633 F.2d 1212 (6th Cir. 1980)",
+    "url": "https://syfert.com/federal/circuits/cases/633-f-2d-1212/insurance-co-of-north-america-v-forty-eight-insulations-inc",
+    "date_filed": "1980-10-21",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Co., 37 Ill.App.2d 493 , 186 N.E.2d 89 (1962); Craig v. Central Nat. Life Ins. Co., 16 Ill.App.2d 344 , 148 N.E.2d 31 (1958); Kissil v. Beneficial Nat. Life Ins. Co., 64 N.J. 555 , 319 A.2d 67 (1974); see generally Annot., 53...",
+    "holding": "Bodily injury occurs at the time of initial tissue damage caused by exposure, triggering coverage for all insurers providing coverage during the period of exposure.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

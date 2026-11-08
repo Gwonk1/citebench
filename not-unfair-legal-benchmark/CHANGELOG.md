@@ -1,5 +1,67 @@
 # Changelog
 
+## v1.3 — 2026-11-08
+
+292 passages (v1.2 had 250), if wave 3 is accepted as staged.
+
+### Gold: added — decision years (new class `date`, 20 traps)
+
+Built by `build_wave3.py` from the 2026-11-08 decision-year corrections (DATE176). In each, the CourtListener
+corpus stores a year more than five years outside the year span of the reporter volume (a 1950s A.2d volume
+carrying a "2001" decision). Citing courts print the right year, and none print the stored one. Ids
+`dt-<court>-<n>`. Two shapes:
+
+- shape (i): the passage gives the case with the true year. CourtListener returns FOUND with its stored date. The
+  answer is correct as written; the ANSWER line must carry the true year and not the stored one.
+- shape (ii): the passage gives CourtListener's stored year. CourtListener returns FOUND and confirms it. The
+  ANSWER line must carry the true year and not the stored one.
+
+Only the year was corrected. The month and day CourtListener holds are unverified, so no gold string contains
+them. 10 Maryland Court of Appeals cases (A.2d, 1950-1956) and 10 from other courts: Minn. ×2, Mich., Tex., R.I.,
+S.D.N.Y., Pa., Ill. App. Ct., 5th Cir., Ark.; decided 1914-1968.
+
+Evidence: every item quotes two to four citing opinions that name the case and print the year (found with the
+syfert.com MCP search_cases, 2026-11-08). It also records the volume's year span, CourtListener's stored date, and
+how many citing opinions predate the stored year. Nine rows were dropped for thin evidence or a second cluster at
+the cite. The raw CourtListener arm passed one candidate (its LEXIS parallel cite carries the true year), which was
+dropped.
+
+### Gold: added — regional reporter numbers, second batch (16 traps)
+
+Same method as v1.2's `rg-*` items (`build_regional.py` code), from RESCORE166 `fixA2b` and `fixC2`. Ids `rg3-*`.
+12 class A and 4 class C, 9 shape (i) and 7 shape (ii), in 11 reporters. The raw CourtListener arm passed none. One
+row was reviewed out (Sweeney v. Union State Bank: the citers' number may be a separate opinion).
+
+### Controls: added (6)
+
+`dt-co-1..6`: correct cites printed with their correct year, from the same volumes as the date traps (3 Md. A.2d, Pa.
+A.2d, Minn. N.W.2d, U.S.). They are not in any fix ledger or the date-suspect list.
+
+### Grader
+
+No change. Date items use `any_of` + `verdict_line` for the year.
+
+### Limitations
+
+- Half the date class is one court in one decade (Maryland 1950s), because 247 of the 286 fixes are there.
+- Shape (i) date items, like controls, are passed by an answer that repeats the passage.
+- One record-format fix in CourtListener (re-dating these clusters) would flip the date class.
+
+### Review calls (2026-11-08)
+
+- Shape (i) date passages already contain the right year, so repeating the passage passes, as with the controls; kept.
+- The date year is graded on the ANSWER line (the treatment items' mechanism); kept.
+- `dt-pa-1` (Wallace v. Wallace) dropped at the CourtListener step: its reply lists `1952 Pa. LEXIS 433`, which carries the
+  true year. Sweeney v. Union State Bank reviewed out after that step: citers print another volume and page under another
+  caption, possibly a separate opinion.
+- Noted, not graded: CourtListener flags Bluebook-abbreviated case names as possible hallucinations, controls included,
+  which could push a model using it toward a false rejection.
+
+### Scores
+
+No arm has run v1.3 yet. The raw Syfert arm on the 42 new items is pending: syfert.com's server was down for maintenance
+when it was due (2026-11-08).
+
 ## v1.2 — 2026-11-07
 
 250 passages (v1.1 had 202). The 202 v1.1 passages and their gold are unchanged (a rebuild of v1.1 is byte-identical).

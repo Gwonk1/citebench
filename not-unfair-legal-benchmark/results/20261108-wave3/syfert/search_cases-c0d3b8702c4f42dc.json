@@ -1,0 +1,398 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Federal w/15 \"536 NE2d 655\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Federal w/15 \\\"536 NE2d 655\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":331971,\"case_name\":\"United States v. Homero Olivarez\",\"citations\":[\"527 F.2d 1174\",\"37 A.F.T.R.2d (RIA) 991\",\"1976 U.S. App. LEXIS 12651\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1976-02-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/527-f-2d-1174/united-states-v-homero-olivarez\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Homero Olivarez, 527 F.2d 1174 (5th Cir. 1976)\",\"link_md\":\"[United States v. Homero Olivarez, 527 F.2d 1174 (5th Cir. 1976)](https://syfert.com/federal/circuits/cases/527-f-2d-1174/united-states-v-homero-olivarez)\",\"match_kind\":\"semantic\",\"similarity\":0.6231},{\"cluster_id\":269532,\"case_name\":\"Henry Diggs v. United States\",\"citations\":[\"352 F.2d 327\",\"1965 U.S. App. LEXIS 4163\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1965-10-28\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/352-f-2d-327/henry-diggs-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Henry Diggs v. United States, 352 F.2d 327 (5th Cir. 1965)\",\"link_md\":\"[Henry Diggs v. United States, 352 F.2d 327 (5th Cir. 1965)](https://syfert.com/federal/circuits/cases/352-f-2d-327/henry-diggs-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6204},{\"cluster_id\":9445419,\"case_name\":\"Darron O. Woodberry v. State of Florida\",\"citations\":[\"395 So. 3d 555\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2023-04-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/395-so-3d-555/darron-o-woodberry-vs-state-of-florida\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"395 So. 3d 555\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/395%20So.3d\"}],\"bluebook\":\"Darron O. Woodberry Vs State of Florida, 395 So. 3d 555 (Fla. 5th DCA 2023)\",\"link_md\":\"[Darron O. Woodberry Vs State of Florida, 395 So. 3d 555 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/395-so-3d-555/darron-o-woodberry-vs-state-of-florida)\",\"match_kind\":\"semantic\",\"similarity\":0.6176},{\"cluster_id\":10681752,\"case_name\":\"Steven Bennett v. HHS\",\"citations\":[],\"court\":\"Eighth Circuit\",\"date_filed\":\"2025-09-30\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-10681752/steven-bennett-v-hhs\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Steven Bennett v. HHS, No. 25-1628 (8th Cir. Sept. 30, 2025)\",\"link_md\":\"[Steven Bennett v. HHS, No. 25-1628 (8th Cir. Sept. 30, 2025)](https://syfert.com/federal/circuits/cases/cl-10681752/steven-bennett-v-hhs)\",\"match_kind\":\"semantic\",\"similarity\":0.6111},{\"cluster_id\":2364259,\"case_name\":\"Church v. United States\",\"citations\":[\"409 F. Supp. 285\",\"1976 U.S. Dist. LEXIS 16157\"],\"court\":\"D. Delaware\",\"date_filed\":\"1976-03-12\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/district/cases/409-f-supp-285/church-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Church v. United States, 409 F. Supp. 285 (D. Del. 1976)\",\"link_md\":\"[Church v. United States, 409 F. Supp. 285 (D. Del. 1976)](https://syfert.com/federal/district/cases/409-f-supp-285/church-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6082},{\"cluster_id\":615875,\"case_name\":\"Gerald Campbell v. Kuma Deboo\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2011-10-21\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-615875/gerald-campbell-v-kuma-deboo\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gerald Campbell v. Kuma Deboo, No. 11-6782 (4th Cir. Oct. 21, 2011)\",\"link_md\":\"[Gerald Campbell v. Kuma Deboo, No. 11-6782 (4th Cir. Oct. 21, 2011)](https://syfert.com/federal/circuits/cases/cl-615875/gerald-campbell-v-kuma-deboo)\",\"match_kind\":\"semantic\",\"similarity\":0.6081},{\"cluster_id\":8793053,\"case_name\":\"Becote v. South Carolina State Highway Department\",\"citations\":[\"308 F. Supp. 1266\",\"1970 U.S. Dist. LEXIS 12830\"],\"court\":\"D. South Carolina\",\"date_filed\":\"1970-02-16\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/district/cases/308-f-supp-1266/becote-v-south-carolina-state-highway-department\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Becote v. South Carolina State High. Dep't, 308 F. Supp. 1266 (D.S.C. 1970)\",\"link_md\":\"[Becote v. South Carolina State High. Dep't, 308 F. Supp. 1266 (D.S.C. 1970)](https://syfert.com/federal/district/cases/308-f-supp-1266/becote-v-south-carolina-state-highway-department)\",\"match_kind\":\"semantic\",\"similarity\":0.6058},{\"cluster_id\":1033250,\"case_name\":\"United States v. Kenneth Boone\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2013-07-09\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-1033250/united-states-v-kenneth-boone\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Kenneth Boone, No. 13-6720 (4th Cir. July 9, 2013)\",\"link_md\":\"[United States v. Kenneth Boone, No. 13-6720 (4th Cir. July 9, 2013)](https://syfert.com/federal/circuits/cases/cl-1033250/united-states-v-kenneth-boone)\",\"match_kind\":\"semantic\",\"similarity\":0.6051},{\"cluster_id\":725448,\"case_name\":\"United States v. Donald Hudson\",\"citations\":[\"94 F.3d 653\",\"1996 U.S. App. LEXIS 37317\",\"1996 WL 478758\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1996-08-22\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/94-f-3d-653/united-states-v-donald-hudson\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Donald Hudson, 94 F.3d 653 (9th Cir. 1996)\",\"link_md\":\"[United States v. Donald Hudson, 94 F.3d 653 (9th Cir. 1996)](https://syfert.com/federal/circuits/cases/94-f-3d-653/united-states-v-donald-hudson)\",\"match_kind\":\"semantic\",\"similarity\":0.6041},{\"cluster_id\":286816,\"case_name\":\"Roberto A. Lenhardt v. United States\",\"citations\":[\"416 F.2d 1254\",\"1969 U.S. App. LEXIS 10489\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1969-10-09\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/416-f-2d-1254/roberto-a-lenhardt-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Roberto A. Lenhardt v. United States, 416 F.2d 1254 (5th Cir. 1969)\",\"link_md\":\"[Roberto A. Lenhardt v. United States, 416 F.2d 1254 (5th Cir. 1969)](https://syfert.com/federal/circuits/cases/416-f-2d-1254/roberto-a-lenhardt-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5989},{\"cluster_id\":295163,\"case_name\":\"Allen Brown v. United States of America\",\"citations\":[\"438 F.2d 1385\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1971-02-25\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/circuits/cases/438-f-2d-1385/allen-brown-v-united-states-of-america-no-30205-summary-calendar-rule\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Allen Brown v. United States of Am., No. 30205 Summary Calendar. Rule 18, 5th Cir., See Isbell Enter., Inc. v. Citizens Cas. Co. Of New York, 431 F.2d 409, Part I (5th Cir. 1970), 438 F.2d 1385 (5th Cir. 1971)\",\"link_md\":\"[Allen Brown v. United States of Am., No. 30205 Summary Calendar. Rule 18, 5th Cir., See Isbell Enter., Inc. v. Citizens Cas. Co. Of New York, 431 F.2d 409, Part I (5th Cir. 1970), 438 F.2d 1385 (5th Cir. 1971)](https://syfert.com/federal/circuits/cases/438-f-2d-1385/allen-brown-v-united-states-of-america-no-30205-summary-calendar-rule)\",\"match_kind\":\"semantic\",\"similarity\":0.5971},{\"cluster_id\":1030992,\"case_name\":\"Harwood v. United States\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2009-12-17\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-1030992/harwood-v-united-states\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harwood v. United States, No. 09-1918 (4th Cir. Dec. 17, 2009)\",\"link_md\":\"[Harwood v. United States, No. 09-1918 (4th Cir. Dec. 17, 2009)](https://syfert.com/federal/circuits/cases/cl-1030992/harwood-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5968},{\"cluster_id\":732564,\"case_name\":\"United States v. John Dransfield\",\"citations\":[\"104 F.3d 350\",\"1996 U.S. App. LEXIS 38076\",\"1996 WL 537919\"],\"court\":\"Second Circuit\",\"date_filed\":\"1996-09-24\",\"status\":\"Unpublished\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/104-f-3d-350/united-states-v-john-dransfield\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. John Dransfield, 104 F.3d 350 (2d Cir. 1996)\",\"link_md\":\"[United States v. John Dransfield, 104 F.3d 350 (2d Cir. 1996)](https://syfert.com/federal/circuits/cases/104-f-3d-350/united-states-v-john-dransfield)\",\"match_kind\":\"semantic\",\"similarity\":0.5957},{\"cluster_id\":989017,\"case_name\":\"Anderson v. Warden\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"1996-04-19\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-989017/anderson-v-warden\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Anderson v. Warden, No. 94-7119 (4th Cir. Apr. 19, 1996)\",\"link_md\":\"[Anderson v. Warden, No. 94-7119 (4th Cir. Apr. 19, 1996)](https://syfert.com/federal/circuits/cases/cl-989017/anderson-v-warden)\",\"match_kind\":\"semantic\",\"similarity\":0.5955},{\"cluster_id\":7302276,\"case_name\":\"New Jersey Worsted Mills v. United States\",\"citations\":[\"9 F. Supp. 605\",\"80 Ct. Cl. 640\",\"15 A.F.T.R. (P-H) 36\",\"1935 U.S. Ct. Cl. LEXIS 325\"],\"court\":\"Court of Claims\",\"date_filed\":\"1935-02-04\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/specialty/cases/80-ct-cl-640/new-jersey-worsted-mills-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"New Jersey Worsted Mills v. United States, 9 F. Supp. 605 (Ct. Cl. 1935)\",\"link_md\":\"[New Jersey Worsted Mills v. United States, 9 F. Supp. 605 (Ct. Cl. 1935)](https://syfert.com/federal/specialty/cases/80-ct-cl-640/new-jersey-worsted-mills-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5923},{\"cluster_id\":594325,\"case_name\":\"Robert L. Clark v. United States\",\"citations\":[\"978 F.2d 1265\",\"1992 U.S. App. LEXIS 34262\",\"1992 WL 332138\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1992-11-10\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/978-f-2d-1265/robert-l-clark-v-united-states\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Robert L. Clark v. United States, 978 F.2d 1265 (9th Cir. 1992)\",\"link_md\":\"[Robert L. Clark v. United States, 978 F.2d 1265 (9th Cir. 1992)](https://syfert.com/federal/circuits/cases/978-f-2d-1265/robert-l-clark-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5916},{\"cluster_id\":7178512,\"case_name\":\"White v. Palmateer\",\"citations\":[\"22 F. App'x 822\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"2001-11-26\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/22-f-appx-822/white-v-palmateer\",\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_text\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not appropriate for publication | cite: 22 F. App'x 822).\",\"bluebook\":\"White v. Palmateer, 22 F. App'x 822 (9th Cir. 2001)\",\"link_md\":\"[White v. Palmateer, 22 F. App'x 822 (9th Cir. 2001)](https://syfert.com/federal/circuits/cases/22-f-appx-822/white-v-palmateer)\",\"match_kind\":\"semantic\",\"similarity\":0.5907},{\"cluster_id\":247493,\"case_name\":\"Harvey E. Witherspoon v. United States\",\"citations\":[\"264 F.2d 480\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1959-05-25\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/circuits/cases/264-f-2d-480/harvey-e-witherspoon-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harvey E. Witherspoon v. United States, 264 F.2d 480 (4th Cir. 1959)\",\"link_md\":\"[Harvey E. Witherspoon v. United States, 264 F.2d 480 (4th Cir. 1959)](https://syfert.com/federal/circuits/cases/264-f-2d-480/harvey-e-witherspoon-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5905},{\"cluster_id\":9646634,\"case_name\":\"Hussain v. United States\",\"citations\":[],\"court\":\"M.D. Florida\",\"date_filed\":\"2023-06-28\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9646634/hussain-v-united-states\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Hussain v. United States, No. 8:23-cv-01200 (M.D. Fla. June 28, 2023)\",\"link_md\":\"[Hussain v. United States, No. 8:23-cv-01200 (M.D. Fla. June 28, 2023)](https://syfert.com/federal/district/cases/cl-9646634/hussain-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5889},{\"cluster_id\":10375781,\"case_name\":\"Knight v. State of Nebraska\",\"citations\":[],\"court\":\"D. Nebraska\",\"date_filed\":\"2025-04-09\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10375781/knight-v-state-of-nebraska\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Knight v. State of Nebraska, No. 8:24-cv-00333 (D. Neb. Apr. 9, 2025)\",\"link_md\":\"[Knight v. State of Nebraska, No. 8:24-cv-00333 (D. Neb. Apr. 9, 2025)](https://syfert.com/federal/district/cases/cl-10375781/knight-v-state-of-nebraska)\",\"match_kind\":\"semantic\",\"similarity\":0.5884}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Federal w/15 \"536 NE2d 655\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 331971,
+    "case_name": "United States v. Homero Olivarez",
+    "citations": [
+     "527 F.2d 1174",
+     "37 A.F.T.R.2d (RIA) 991",
+     "1976 U.S. App. LEXIS 12651"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1976-02-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/527-f-2d-1174/united-states-v-homero-olivarez",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Homero Olivarez, 527 F.2d 1174 (5th Cir. 1976)",
+    "link_md": "[United States v. Homero Olivarez, 527 F.2d 1174 (5th Cir. 1976)](https://syfert.com/federal/circuits/cases/527-f-2d-1174/united-states-v-homero-olivarez)",
+    "match_kind": "semantic",
+    "similarity": 0.6231
+   },
+   {
+    "cluster_id": 269532,
+    "case_name": "Henry Diggs v. United States",
+    "citations": [
+     "352 F.2d 327",
+     "1965 U.S. App. LEXIS 4163"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1965-10-28",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/352-f-2d-327/henry-diggs-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Henry Diggs v. United States, 352 F.2d 327 (5th Cir. 1965)",
+    "link_md": "[Henry Diggs v. United States, 352 F.2d 327 (5th Cir. 1965)](https://syfert.com/federal/circuits/cases/352-f-2d-327/henry-diggs-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6204
+   },
+   {
+    "cluster_id": 9445419,
+    "case_name": "Darron O. Woodberry v. State of Florida",
+    "citations": [
+     "395 So. 3d 555"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2023-04-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/395-so-3d-555/darron-o-woodberry-vs-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "395 So. 3d 555",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/395%20So.3d"
+     }
+    ],
+    "bluebook": "Darron O. Woodberry Vs State of Florida, 395 So. 3d 555 (Fla. 5th DCA 2023)",
+    "link_md": "[Darron O. Woodberry Vs State of Florida, 395 So. 3d 555 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/395-so-3d-555/darron-o-woodberry-vs-state-of-florida)",
+    "match_kind": "semantic",
+    "similarity": 0.6176
+   },
+   {
+    "cluster_id": 10681752,
+    "case_name": "Steven Bennett v. HHS",
+    "citations": [],
+    "court": "Eighth Circuit",
+    "date_filed": "2025-09-30",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-10681752/steven-bennett-v-hhs",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Steven Bennett v. HHS, No. 25-1628 (8th Cir. Sept. 30, 2025)",
+    "link_md": "[Steven Bennett v. HHS, No. 25-1628 (8th Cir. Sept. 30, 2025)](https://syfert.com/federal/circuits/cases/cl-10681752/steven-bennett-v-hhs)",
+    "match_kind": "semantic",
+    "similarity": 0.6111
+   },
+   {
+    "cluster_id": 2364259,
+    "case_name": "Church v. United States",
+    "citations": [
+     "409 F. Supp. 285",
+     "1976 U.S. Dist. LEXIS 16157"
+    ],
+    "court": "D. Delaware",
+    "date_filed": "1976-03-12",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/district/cases/409-f-supp-285/church-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Church v. United States, 409 F. Supp. 285 (D. Del. 1976)",
+    "link_md": "[Church v. United States, 409 F. Supp. 285 (D. Del. 1976)](https://syfert.com/federal/district/cases/409-f-supp-285/church-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6082
+   },
+   {
+    "cluster_id": 615875,
+    "case_name": "Gerald Campbell v. Kuma Deboo",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2011-10-21",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-615875/gerald-campbell-v-kuma-deboo",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Gerald Campbell v. Kuma Deboo, No. 11-6782 (4th Cir. Oct. 21, 2011)",
+    "link_md": "[Gerald Campbell v. Kuma Deboo, No. 11-6782 (4th Cir. Oct. 21, 2011)](https://syfert.com/federal/circuits/cases/cl-615875/gerald-campbell-v-kuma-deboo)",
+    "match_kind": "semantic",
+    "similarity": 0.6081
+   },
+   {
+    "cluster_id": 8793053,
+    "case_name": "Becote v. South Carolina State Highway Department",
+    "citations": [
+     "308 F. Supp. 1266",
+     "1970 U.S. Dist. LEXIS 12830"
+    ],
+    "court": "D. South Carolina",
+    "date_filed": "1970-02-16",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/district/cases/308-f-supp-1266/becote-v-south-carolina-state-highway-department",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Becote v. South Carolina State High. Dep't, 308 F. Supp. 1266 (D.S.C. 1970)",
+    "link_md": "[Becote v. South Carolina State High. Dep't, 308 F. Supp. 1266 (D.S.C. 1970)](https://syfert.com/federal/district/cases/308-f-supp-1266/becote-v-south-carolina-state-highway-department)",
+    "match_kind": "semantic",
+    "similarity": 0.6058
+   },
+   {
+    "cluster_id": 1033250,
+    "case_name": "United States v. Kenneth Boone",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2013-07-09",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-1033250/united-states-v-kenneth-boone",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Kenneth Boone, No. 13-6720 (4th Cir. July 9, 2013)",
+    "link_md": "[United States v. Kenneth Boone, No. 13-6720 (4th Cir. July 9, 2013)](https://syfert.com/federal/circuits/cases/cl-1033250/united-states-v-kenneth-boone)",
+    "match_kind": "semantic",
+    "similarity": 0.6051
+   },
+   {
+    "cluster_id": 725448,
+    "case_name": "United States v. Donald Hudson",
+    "citations": [
+     "94 F.3d 653",
+     "1996 U.S. App. LEXIS 37317",
+     "1996 WL 478758"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1996-08-22",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/94-f-3d-653/united-states-v-donald-hudson",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Donald Hudson, 94 F.3d 653 (9th Cir. 1996)",
+    "link_md": "[United States v. Donald Hudson, 94 F.3d 653 (9th Cir. 1996)](https://syfert.com/federal/circuits/cases/94-f-3d-653/united-states-v-donald-hudson)",
+    "match_kind": "semantic",
+    "similarity": 0.6041
+   },
+   {
+    "cluster_id": 286816,
+    "case_name": "Roberto A. Lenhardt v. United States",
+    "citations": [
+     "416 F.2d 1254",
+     "1969 U.S. App. LEXIS 10489"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1969-10-09",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/416-f-2d-1254/roberto-a-lenhardt-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Roberto A. Lenhardt v. United States, 416 F.2d 1254 (5th Cir. 1969)",
+    "link_md": "[Roberto A. Lenhardt v. United States, 416 F.2d 1254 (5th Cir. 1969)](https://syfert.com/federal/circuits/cases/416-f-2d-1254/roberto-a-lenhardt-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5989
+   },
+   {
+    "cluster_id": 295163,
+    "case_name": "Allen Brown v. United States of America",
+    "citations": [
+     "438 F.2d 1385"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1971-02-25",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/circuits/cases/438-f-2d-1385/allen-brown-v-united-states-of-america-no-30205-summary-calendar-rule",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Allen Brown v. United States of Am., No. 30205 Summary Calendar. Rule 18, 5th Cir., See Isbell Enter., Inc. v. Citizens Cas. Co. Of New York, 431 F.2d 409, Part I (5th Cir. 1970), 438 F.2d 1385 (5th Cir. 1971)",
+    "link_md": "[Allen Brown v. United States of Am., No. 30205 Summary Calendar. Rule 18, 5th Cir., See Isbell Enter., Inc. v. Citizens Cas. Co. Of New York, 431 F.2d 409, Part I (5th Cir. 1970), 438 F.2d 1385 (5th Cir. 1971)](https://syfert.com/federal/circuits/cases/438-f-2d-1385/allen-brown-v-united-states-of-america-no-30205-summary-calendar-rule)",
+    "match_kind": "semantic",
+    "similarity": 0.5971
+   },
+   {
+    "cluster_id": 1030992,
+    "case_name": "Harwood v. United States",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2009-12-17",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-1030992/harwood-v-united-states",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Harwood v. United States, No. 09-1918 (4th Cir. Dec. 17, 2009)",
+    "link_md": "[Harwood v. United States, No. 09-1918 (4th Cir. Dec. 17, 2009)](https://syfert.com/federal/circuits/cases/cl-1030992/harwood-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5968
+   },
+   {
+    "cluster_id": 732564,
+    "case_name": "United States v. John Dransfield",
+    "citations": [
+     "104 F.3d 350",
+     "1996 U.S. App. LEXIS 38076",
+     "1996 WL 537919"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1996-09-24",
+    "status": "Unpublished",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/104-f-3d-350/united-states-v-john-dransfield",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. John Dransfield, 104 F.3d 350 (2d Cir. 1996)",
+    "link_md": "[United States v. John Dransfield, 104 F.3d 350 (2d Cir. 1996)](https://syfert.com/federal/circuits/cases/104-f-3d-350/united-states-v-john-dransfield)",
+    "match_kind": "semantic",
+    "similarity": 0.5957
+   },
+   {
+    "cluster_id": 989017,
+    "case_name": "Anderson v. Warden",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "1996-04-19",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-989017/anderson-v-warden",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Anderson v. Warden, No. 94-7119 (4th Cir. Apr. 19, 1996)",
+    "link_md": "[Anderson v. Warden, No. 94-7119 (4th Cir. Apr. 19, 1996)](https://syfert.com/federal/circuits/cases/cl-989017/anderson-v-warden)",
+    "match_kind": "semantic",
+    "similarity": 0.5955
+   },
+   {
+    "cluster_id": 7302276,
+    "case_name": "New Jersey Worsted Mills v. United States",
+    "citations": [
+     "9 F. Supp. 605",
+     "80 Ct. Cl. 640",
+     "15 A.F.T.R. (P-H) 36",
+     "1935 U.S. Ct. Cl. LEXIS 325"
+    ],
+    "court": "Court of Claims",
+    "date_filed": "1935-02-04",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/specialty/cases/80-ct-cl-640/new-jersey-worsted-mills-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "New Jersey Worsted Mills v. United States, 9 F. Supp. 605 (Ct. Cl. 1935)",
+    "link_md": "[New Jersey Worsted Mills v. United States, 9 F. Supp. 605 (Ct. Cl. 1935)](https://syfert.com/federal/specialty/cases/80-ct-cl-640/new-jersey-worsted-mills-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5923
+   },
+   {
+    "cluster_id": 594325,
+    "case_name": "Robert L. Clark v. United States",
+    "citations": [
+     "978 F.2d 1265",
+     "1992 U.S. App. LEXIS 34262",
+     "1992 WL 332138"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1992-11-10",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/978-f-2d-1265/robert-l-clark-v-united-states",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Robert L. Clark v. United States, 978 F.2d 1265 (9th Cir. 1992)",
+    "link_md": "[Robert L. Clark v. United States, 978 F.2d 1265 (9th Cir. 1992)](https://syfert.com/federal/circuits/cases/978-f-2d-1265/robert-l-clark-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5916
+   },
+   {
+    "cluster_id": 7178512,
+    "case_name": "White v. Palmateer",
+    "citations": [
+     "22 F. App'x 822"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "2001-11-26",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/22-f-appx-822/white-v-palmateer",
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_text",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not appropriate for publication | cite: 22 F. App'x 822).",
+    "bluebook": "White v. Palmateer, 22 F. App'x 822 (9th Cir. 2001)",
+    "link_md": "[White v. Palmateer, 22 F. App'x 822 (9th Cir. 2001)](https://syfert.com/federal/circuits/cases/22-f-appx-822/white-v-palmateer)",
+    "match_kind": "semantic",
+    "similarity": 0.5907
+   },
+   {
+    "cluster_id": 247493,
+    "case_name": "Harvey E. Witherspoon v. United States",
+    "citations": [
+     "264 F.2d 480"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1959-05-25",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/circuits/cases/264-f-2d-480/harvey-e-witherspoon-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harvey E. Witherspoon v. United States, 264 F.2d 480 (4th Cir. 1959)",
+    "link_md": "[Harvey E. Witherspoon v. United States, 264 F.2d 480 (4th Cir. 1959)](https://syfert.com/federal/circuits/cases/264-f-2d-480/harvey-e-witherspoon-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5905
+   },
+   {
+    "cluster_id": 9646634,
+    "case_name": "Hussain v. United States",
+    "citations": [],
+    "court": "M.D. Florida",
+    "date_filed": "2023-06-28",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9646634/hussain-v-united-states",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Hussain v. United States, No. 8:23-cv-01200 (M.D. Fla. June 28, 2023)",
+    "link_md": "[Hussain v. United States, No. 8:23-cv-01200 (M.D. Fla. June 28, 2023)](https://syfert.com/federal/district/cases/cl-9646634/hussain-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5889
+   },
+   {
+    "cluster_id": 10375781,
+    "case_name": "Knight v. State of Nebraska",
+    "citations": [],
+    "court": "D. Nebraska",
+    "date_filed": "2025-04-09",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10375781/knight-v-state-of-nebraska",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Knight v. State of Nebraska, No. 8:24-cv-00333 (D. Neb. Apr. 9, 2025)",
+    "link_md": "[Knight v. State of Nebraska, No. 8:24-cv-00333 (D. Neb. Apr. 9, 2025)](https://syfert.com/federal/district/cases/cl-10375781/knight-v-state-of-nebraska)",
+    "match_kind": "semantic",
+    "similarity": 0.5884
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

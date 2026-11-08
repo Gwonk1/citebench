@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "156 P.2d 509",
+  "expected_case_name": "Pyle v. Amrine"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"156 P.2d 509\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7964233,\n            \"case_name\": \"Pyle v. Amrine\",\n            \"citations\": [\n                \"156 P.2d 509\"\n            ],\n            \"court\": \"Supreme Court of Kansas\",\n            \"date_filed\": \"1945-03-10\",\n            \"status\": \"Published\",\n            \"cited_by\": 6,\n            \"url\": \"https://syfert.com/kansas/cases/159-kan-458/pyle-v-amrine\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Pyle v. Amrine, 156 P.2d 509 (Kan. 1945)\",\n            \"link_md\": \"[Pyle v. Amrine, 156 P.2d 509 (Kan. 1945)](https://syfert.com/kansas/cases/159-kan-458/pyle-v-amrine)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Pyle v. Amrine\",\n        \"actual\": \"Pyle v. Amrine\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "156 P.2d 509",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7964233,
+    "case_name": "Pyle v. Amrine",
+    "citations": [
+     "156 P.2d 509"
+    ],
+    "court": "Supreme Court of Kansas",
+    "date_filed": "1945-03-10",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/kansas/cases/159-kan-458/pyle-v-amrine",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pyle v. Amrine, 156 P.2d 509 (Kan. 1945)",
+    "link_md": "[Pyle v. Amrine, 156 P.2d 509 (Kan. 1945)](https://syfert.com/kansas/cases/159-kan-458/pyle-v-amrine)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Pyle v. Amrine",
+   "actual": "Pyle v. Amrine",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

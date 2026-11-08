@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "198 S.W.2d 264",
+  "expected_case_name": "Harris v. State"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"198 S.W.2d 264\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4165376,\n            \"case_name\": \"Harris v. State\",\n            \"citations\": [\n                \"198 S.W.2d 264\"\n            ],\n            \"court\": \"Court of Criminal Appeals of Texas\",\n            \"date_filed\": \"1946-10-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 8,\n            \"url\": \"https://syfert.com/texas/cases/150-tex-crim-38/harris-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Harris v. State, 198 S.W.2d 264 (Tex. Crim. App. 1946)\",\n            \"link_md\": \"[Harris v. State, 198 S.W.2d 264 (Tex. Crim. App. 1946)](https://syfert.com/texas/cases/150-tex-crim-38/harris-v-state)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Harris v. State\",\n        \"actual\": \"Harris v. State\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "198 S.W.2d 264",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4165376,
+    "case_name": "Harris v. State",
+    "citations": [
+     "198 S.W.2d 264"
+    ],
+    "court": "Court of Criminal Appeals of Texas",
+    "date_filed": "1946-10-30",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/texas/cases/150-tex-crim-38/harris-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. State, 198 S.W.2d 264 (Tex. Crim. App. 1946)",
+    "link_md": "[Harris v. State, 198 S.W.2d 264 (Tex. Crim. App. 1946)](https://syfert.com/texas/cases/150-tex-crim-38/harris-v-state)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Harris v. State",
+   "actual": "Harris v. State",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

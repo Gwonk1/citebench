@@ -1,0 +1,78 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Fitzhugh w/15 \"97 So. 90\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Fitzhugh w/15 \\\"97 So. 90\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3544646,\"bluebook\":\"Alexander v. Graves, 173 So. 417 (Miss. 1937)\",\"url\":\"https://syfert.com/mississippi/cases/178-miss-583/alexander-v-graves\",\"date_filed\":\"1937-03-22\",\"cited_by\":21,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"Dissenting Opinion.\\nAnderson, J.,\\ndelivered a dissenting opinion.\\nThe question is whether the ordinance was authorized by section 18', and paragraph (b) of section 22 of the act. Section 18! empowers municipalities and counties to make and…\"},{\"cluster_id\":3543198,\"bluebook\":\"Ford v. Easterling, 184 So. 153 (Miss. 1938)\",\"url\":\"https://syfert.com/mississippi/cases/183-miss-575/ford-v-easterling\",\"date_filed\":\"1938-10-24\",\"cited_by\":12,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"Anderson, J.,\\ndelivered dissenting opinion.\\nThe reasonableness of the ordinance is for the Courts to determine. In my opinion, the one involved is manifestly unreasonable and therefore void. The Board could have just as reasonably zoned…\"},{\"cluster_id\":3237799,\"bluebook\":\"Williamson v. City of Anniston, 112 So. 109 (Ala. 1927)\",\"url\":\"https://syfert.com/alabama/cases/215-ala-532/williamson-v-city-of-anniston\",\"date_filed\":\"1927-03-24\",\"cited_by\":3,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"BROWN, J.'\\nThis\\\" is a bill by the appellant to restrain the police authorities of the appellee, the city of Anniston, from interfering with the completion and maintenance of a building on appellant’s lot located in what is designated as…\"},{\"cluster_id\":3546970,\"bluebook\":\"Pace v. State ex rel. Rice, 4 So. 2d 270 (Miss. 1941)\",\"url\":\"https://syfert.com/mississippi/cases/191-miss-780/pace-v-state-ex-rel-rice\",\"date_filed\":\"1941-10-13\",\"cited_by\":40,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"Dissenting Opinion.\\nSmith, O. J.,\\ndelivered a partially dissenting opinion.\\nTwo questions are here presented. (1) Has the state, or persons claiming under it, the right to enter this land over the objection of the lessees thereof, sink…\",\"holding\":\"A lease of surface land does not convey underlying mineral rights, and the state may enter trust lands to develop minerals without prior compensation to surface lessees.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Fitzhugh w/15 \"97 So. 90\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3544646,
+    "bluebook": "Alexander v. Graves, 173 So. 417 (Miss. 1937)",
+    "url": "https://syfert.com/mississippi/cases/178-miss-583/alexander-v-graves",
+    "date_filed": "1937-03-22",
+    "cited_by": 21,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "Dissenting Opinion.\nAnderson, J.,\ndelivered a dissenting opinion.\nThe question is whether the ordinance was authorized by section 18', and paragraph (b) of section 22 of the act. Section 18! empowers municipalities and counties to make and…"
+   },
+   {
+    "cluster_id": 3543198,
+    "bluebook": "Ford v. Easterling, 184 So. 153 (Miss. 1938)",
+    "url": "https://syfert.com/mississippi/cases/183-miss-575/ford-v-easterling",
+    "date_filed": "1938-10-24",
+    "cited_by": 12,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "Anderson, J.,\ndelivered dissenting opinion.\nThe reasonableness of the ordinance is for the Courts to determine. In my opinion, the one involved is manifestly unreasonable and therefore void. The Board could have just as reasonably zoned…"
+   },
+   {
+    "cluster_id": 3237799,
+    "bluebook": "Williamson v. City of Anniston, 112 So. 109 (Ala. 1927)",
+    "url": "https://syfert.com/alabama/cases/215-ala-532/williamson-v-city-of-anniston",
+    "date_filed": "1927-03-24",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "BROWN, J.'\nThis\" is a bill by the appellant to restrain the police authorities of the appellee, the city of Anniston, from interfering with the completion and maintenance of a building on appellant’s lot located in what is designated as…"
+   },
+   {
+    "cluster_id": 3546970,
+    "bluebook": "Pace v. State ex rel. Rice, 4 So. 2d 270 (Miss. 1941)",
+    "url": "https://syfert.com/mississippi/cases/191-miss-780/pace-v-state-ex-rel-rice",
+    "date_filed": "1941-10-13",
+    "cited_by": 40,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "Dissenting Opinion.\nSmith, O. J.,\ndelivered a partially dissenting opinion.\nTwo questions are here presented. (1) Has the state, or persons claiming under it, the right to enter this land over the objection of the lessees thereof, sink…",
+    "holding": "A lease of surface land does not convey underlying mineral rights, and the state may enter trust lands to develop minerals without prior compensation to surface lessees.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

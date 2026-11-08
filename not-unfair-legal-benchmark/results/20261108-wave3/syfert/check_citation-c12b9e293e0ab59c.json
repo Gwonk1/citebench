@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "137 A.2d 139",
+  "expected_case_name": "Zink v. Zink"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"137 A.2d 139\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1933408,\n            \"case_name\": \"Zink v. Zink\",\n            \"citations\": [\n                \"137 A.2d 139\"\n            ],\n            \"court\": \"Court of Appeals of Maryland\",\n            \"date_filed\": \"1957-12-23\",\n            \"status\": \"Published\",\n            \"cited_by\": 15,\n            \"url\": \"https://syfert.com/maryland/cases/215-md-197/zink-v-zink\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Zink v. Zink, 137 A.2d 139 (Md. 1957)\",\n            \"link_md\": \"[Zink v. Zink, 137 A.2d 139 (Md. 1957)](https://syfert.com/maryland/cases/215-md-197/zink-v-zink)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"remanded\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Zink v. Zink\",\n        \"actual\": \"Zink v. Zink\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "137 A.2d 139",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1933408,
+    "case_name": "Zink v. Zink",
+    "citations": [
+     "137 A.2d 139"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "1957-12-23",
+    "status": "Published",
+    "cited_by": 15,
+    "url": "https://syfert.com/maryland/cases/215-md-197/zink-v-zink",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Zink v. Zink, 137 A.2d 139 (Md. 1957)",
+    "link_md": "[Zink v. Zink, 137 A.2d 139 (Md. 1957)](https://syfert.com/maryland/cases/215-md-197/zink-v-zink)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "remanded",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Zink v. Zink",
+   "actual": "Zink v. Zink",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

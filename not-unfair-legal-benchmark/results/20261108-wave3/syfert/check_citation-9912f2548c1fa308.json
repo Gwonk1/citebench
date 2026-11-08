@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "75 N.W. 252",
+  "expected_case_name": "Kirschner v. Kirschner"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"75 N.W. 252\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6847472,\n            \"case_name\": \"Kirschner v. Kirschner\",\n            \"citations\": [\n                \"75 N.W. 252\"\n            ],\n            \"court\": \"North Dakota Supreme Court\",\n            \"date_filed\": \"1898-04-11\",\n            \"status\": \"Published\",\n            \"cited_by\": 6,\n            \"url\": \"https://syfert.com/north-dakota/cases/7-n-d-291/kirschner-v-kirschner\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Kirschner v. Kirschner, 75 N.W. 252 (N.D. 1898)\",\n            \"link_md\": \"[Kirschner v. Kirschner, 75 N.W. 252 (N.D. 1898)](https://syfert.com/north-dakota/cases/7-n-d-291/kirschner-v-kirschner)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Kirschner v. Kirschner\",\n        \"actual\": \"Kirschner v. Kirschner\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "75 N.W. 252",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6847472,
+    "case_name": "Kirschner v. Kirschner",
+    "citations": [
+     "75 N.W. 252"
+    ],
+    "court": "North Dakota Supreme Court",
+    "date_filed": "1898-04-11",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/north-dakota/cases/7-n-d-291/kirschner-v-kirschner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirschner v. Kirschner, 75 N.W. 252 (N.D. 1898)",
+    "link_md": "[Kirschner v. Kirschner, 75 N.W. 252 (N.D. 1898)](https://syfert.com/north-dakota/cases/7-n-d-291/kirschner-v-kirschner)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Kirschner v. Kirschner",
+   "actual": "Kirschner v. Kirschner",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

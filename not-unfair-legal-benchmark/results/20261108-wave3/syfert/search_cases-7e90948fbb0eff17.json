@@ -1,0 +1,406 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Eliza w/15 \"199 US 119\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Eliza w/15 \\\"199 US 119\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":594572,\"case_name\":\"Wilson-El v. United States\",\"citations\":[\"979 F.2d 212\",\"1992 WL 333284\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1992-11-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/979-f-2d-212/wilson-el-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wilson-El v. United States, 979 F.2d 212 (11th Cir. 1992)\",\"link_md\":\"[Wilson-El v. United States, 979 F.2d 212 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/979-f-2d-212/wilson-el-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6822},{\"cluster_id\":739825,\"case_name\":\"United States v. Elias\",\"citations\":[\"111 F.3d 896\",\"1997 WL 154737\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1997-03-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/111-f-3d-896/united-states-v-elias\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Elias, 111 F.3d 896 (11th Cir. 1997)\",\"link_md\":\"[United States v. Elias, 111 F.3d 896 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/111-f-3d-896/united-states-v-elias)\",\"match_kind\":\"semantic\",\"similarity\":0.6692},{\"cluster_id\":114504,\"case_name\":\"Ellis v. United States\",\"citations\":[\"510 U.S. 925\",\"114 S. Ct. 329\"],\"court\":\"Supreme Court\",\"date_filed\":\"1993-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/510-u-s-925/ellis-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (114504 and its twin 9140555). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ellis v. United States, 510 U.S. 925 (1993)\",\"link_md\":\"[Ellis v. United States, 510 U.S. 925 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-925/ellis-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6636},{\"cluster_id\":605955,\"case_name\":\"United States v. Ellis\",\"citations\":[\"992 F.2d 328\",\"1993 WL 140700\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1993-04-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/992-f-2d-328/united-states-v-ellis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ellis, 992 F.2d 328 (11th Cir. 1993)\",\"link_md\":\"[United States v. Ellis, 992 F.2d 328 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/992-f-2d-328/united-states-v-ellis)\",\"match_kind\":\"semantic\",\"similarity\":0.6585},{\"cluster_id\":738493,\"case_name\":\"United States v. Lesa Denise Ezell Harmon\",\"citations\":[\"109 F.3d 773\",\"1997 WL 94010\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1997-02-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/109-f-3d-773/united-states-v-lesa-denise-ezell-harmon\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Lesa Denise Ezell Harmon, 109 F.3d 773 (11th Cir. 1997)\",\"link_md\":\"[United States v. Lesa Denise Ezell Harmon, 109 F.3d 773 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/109-f-3d-773/united-states-v-lesa-denise-ezell-harmon)\",\"match_kind\":\"semantic\",\"similarity\":0.6576},{\"cluster_id\":764252,\"case_name\":\"United States v. Ellis\",\"citations\":[\"177 F.3d 980\",\"1999 U.S. App. LEXIS 14504\",\"1999 WL 215124\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1999-03-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/177-f-3d-980/united-states-v-ellis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ellis, 177 F.3d 980 (11th Cir. 1999)\",\"link_md\":\"[United States v. Ellis, 177 F.3d 980 (11th Cir. 1999)](https://syfert.com/federal/circuits/cases/177-f-3d-980/united-states-v-ellis)\",\"match_kind\":\"semantic\",\"similarity\":0.6561},{\"cluster_id\":404817,\"case_name\":\"Elias v. United States\",\"citations\":[\"679 F.2d 897\",\"10 Fed. R. Serv. 416\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1982-04-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/679-f-2d-897/elias-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Elias v. United States, 679 F.2d 897 (9th Cir. 1982)\",\"link_md\":\"[Elias v. United States, 679 F.2d 897 (9th Cir. 1982)](https://syfert.com/federal/circuits/cases/679-f-2d-897/elias-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6561},{\"cluster_id\":548908,\"case_name\":\"United States v. Ellis\",\"citations\":[\"915 F.2d 697\",\"1990 WL 131131\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1990-09-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/915-f-2d-697/united-states-v-ellis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ellis, 915 F.2d 697 (11th Cir. 1990)\",\"link_md\":\"[United States v. Ellis, 915 F.2d 697 (11th Cir. 1990)](https://syfert.com/federal/circuits/cases/915-f-2d-697/united-states-v-ellis)\",\"match_kind\":\"semantic\",\"similarity\":0.6547},{\"cluster_id\":457496,\"case_name\":\"United States v. Ellis\",\"citations\":[\"770 F.2d 1082\",\"1985 U.S. App. LEXIS 21373\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1985-08-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/770-f-2d-1082/united-states-v-ellis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ellis, 770 F.2d 1082 (11th Cir. 1985)\",\"link_md\":\"[United States v. Ellis, 770 F.2d 1082 (11th Cir. 1985)](https://syfert.com/federal/circuits/cases/770-f-2d-1082/united-states-v-ellis)\",\"match_kind\":\"semantic\",\"similarity\":0.6453},{\"cluster_id\":8614986,\"case_name\":\"Ellis v. United States\",\"citations\":[\"182 Ct. Cl. 916\",\"1968 WL 4034\"],\"court\":\"Court of Claims\",\"date_filed\":\"1968-02-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/182-ct-cl-916/ellis-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ellis v. United States, 182 Ct. Cl. 916 (Ct. Cl. 1968)\",\"link_md\":\"[Ellis v. United States, 182 Ct. Cl. 916 (Ct. Cl. 1968)](https://syfert.com/federal/specialty/cases/182-ct-cl-916/ellis-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6449},{\"cluster_id\":372382,\"case_name\":\"Ezell v. United States\",\"citations\":[\"610 F.2d 821\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1979-12-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/610-f-2d-821/ezell-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ezell v. United States, 610 F.2d 821 (9th Cir. 1979)\",\"link_md\":\"[Ezell v. United States, 610 F.2d 821 (9th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-821/ezell-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6421},{\"cluster_id\":115837,\"case_name\":\"Ellzey v. United States\",\"citations\":[\"510 U.S. 1029\",\"114 S. Ct. 648\"],\"court\":\"Supreme Court\",\"date_filed\":\"1993-12-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/510-u-s-1029/ellzey-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (115837 and its twin 9141661). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ellzey v. United States, 510 U.S. 1029 (1993)\",\"link_md\":\"[Ellzey v. United States, 510 U.S. 1029 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-1029/ellzey-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6417},{\"cluster_id\":546850,\"case_name\":\"Aguilera v. United States\",\"citations\":[\"911 F.2d 741\",\"1990 WL 109023\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1990-07-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/911-f-2d-741/aguilera-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Aguilera v. United States, 911 F.2d 741 (11th Cir. 1990)\",\"link_md\":\"[Aguilera v. United States, 911 F.2d 741 (11th Cir. 1990)](https://syfert.com/federal/circuits/cases/911-f-2d-741/aguilera-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6402},{\"cluster_id\":659262,\"case_name\":\"United States v. Elzaatari\",\"citations\":[\"12 F.3d 218\",\"1993 WL 535097\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1993-12-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/12-f-3d-218/united-states-v-elzaatari\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Elzaatari, 12 F.3d 218 (11th Cir. 1993)\",\"link_md\":\"[United States v. Elzaatari, 12 F.3d 218 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/12-f-3d-218/united-states-v-elzaatari)\",\"match_kind\":\"semantic\",\"similarity\":0.6384},{\"cluster_id\":450164,\"case_name\":\"United States v. Ellis\",\"citations\":[\"758 F.2d 659\",\"1985 U.S. App. LEXIS 28791\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1985-03-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/758-f-2d-659/united-states-v-ellis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ellis, 758 F.2d 659 (11th Cir. 1985)\",\"link_md\":\"[United States v. Ellis, 758 F.2d 659 (11th Cir. 1985)](https://syfert.com/federal/circuits/cases/758-f-2d-659/united-states-v-ellis)\",\"match_kind\":\"semantic\",\"similarity\":0.6382},{\"cluster_id\":706738,\"case_name\":\"United States v. Elie\",\"citations\":[\"68 F.3d 485\",\"1995 WL 579432\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1995-09-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/68-f-3d-485/united-states-v-elie\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Elie, 68 F.3d 485 (11th Cir. 1995)\",\"link_md\":\"[United States v. Elie, 68 F.3d 485 (11th Cir. 1995)](https://syfert.com/federal/circuits/cases/68-f-3d-485/united-states-v-elie)\",\"match_kind\":\"semantic\",\"similarity\":0.6377},{\"cluster_id\":526678,\"case_name\":\"United States v. Ellis\",\"citations\":[\"880 F.2d 418\",\"1989 U.S. App. LEXIS 9426\",\"1989 WL 75004\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1989-06-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/880-f-2d-418/united-states-v-ellis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ellis, 880 F.2d 418 (11th Cir. 1989)\",\"link_md\":\"[United States v. Ellis, 880 F.2d 418 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/880-f-2d-418/united-states-v-ellis)\",\"match_kind\":\"semantic\",\"similarity\":0.6364},{\"cluster_id\":3638228,\"case_name\":\"Ellis v. . Rickett\",\"citations\":[\"134 N.E. 552\",\"232 N.Y. 515\",\"1921 N.Y. LEXIS 537\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1921-10-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/232-n-y-515/ellis-v-rickett\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ellis v. Rickett, 134 N.E. 552 (N.Y. 1921)\",\"link_md\":\"[Ellis v. Rickett, 134 N.E. 552 (N.Y. 1921)](https://syfert.com/new-york/cases/232-n-y-515/ellis-v-rickett)\",\"match_kind\":\"semantic\",\"similarity\":0.6355},{\"cluster_id\":372444,\"case_name\":\"United States v. Ellis\",\"citations\":[\"610 F.2d 823\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1979-12-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/610-f-2d-823/united-states-v-ellis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ellis, 610 F.2d 823 (9th Cir. 1979)\",\"link_md\":\"[United States v. Ellis, 610 F.2d 823 (9th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-823/united-states-v-ellis)\",\"match_kind\":\"semantic\",\"similarity\":0.635},{\"cluster_id\":384307,\"case_name\":\"United States v. Ellis\",\"citations\":[\"634 F.2d 636\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1980-11-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/634-f-2d-636/united-states-v-ellis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ellis, 634 F.2d 636 (9th Cir. 1980)\",\"link_md\":\"[United States v. Ellis, 634 F.2d 636 (9th Cir. 1980)](https://syfert.com/federal/circuits/cases/634-f-2d-636/united-states-v-ellis)\",\"match_kind\":\"semantic\",\"similarity\":0.6342}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Eliza w/15 \"199 US 119\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 594572,
+    "case_name": "Wilson-El v. United States",
+    "citations": [
+     "979 F.2d 212",
+     "1992 WL 333284"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1992-11-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/979-f-2d-212/wilson-el-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wilson-El v. United States, 979 F.2d 212 (11th Cir. 1992)",
+    "link_md": "[Wilson-El v. United States, 979 F.2d 212 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/979-f-2d-212/wilson-el-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6822
+   },
+   {
+    "cluster_id": 739825,
+    "case_name": "United States v. Elias",
+    "citations": [
+     "111 F.3d 896",
+     "1997 WL 154737"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1997-03-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/111-f-3d-896/united-states-v-elias",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Elias, 111 F.3d 896 (11th Cir. 1997)",
+    "link_md": "[United States v. Elias, 111 F.3d 896 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/111-f-3d-896/united-states-v-elias)",
+    "match_kind": "semantic",
+    "similarity": 0.6692
+   },
+   {
+    "cluster_id": 114504,
+    "case_name": "Ellis v. United States",
+    "citations": [
+     "510 U.S. 925",
+     "114 S. Ct. 329"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1993-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/510-u-s-925/ellis-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (114504 and its twin 9140555). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ellis v. United States, 510 U.S. 925 (1993)",
+    "link_md": "[Ellis v. United States, 510 U.S. 925 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-925/ellis-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6636
+   },
+   {
+    "cluster_id": 605955,
+    "case_name": "United States v. Ellis",
+    "citations": [
+     "992 F.2d 328",
+     "1993 WL 140700"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1993-04-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/992-f-2d-328/united-states-v-ellis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ellis, 992 F.2d 328 (11th Cir. 1993)",
+    "link_md": "[United States v. Ellis, 992 F.2d 328 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/992-f-2d-328/united-states-v-ellis)",
+    "match_kind": "semantic",
+    "similarity": 0.6585
+   },
+   {
+    "cluster_id": 738493,
+    "case_name": "United States v. Lesa Denise Ezell Harmon",
+    "citations": [
+     "109 F.3d 773",
+     "1997 WL 94010"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1997-02-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/109-f-3d-773/united-states-v-lesa-denise-ezell-harmon",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Lesa Denise Ezell Harmon, 109 F.3d 773 (11th Cir. 1997)",
+    "link_md": "[United States v. Lesa Denise Ezell Harmon, 109 F.3d 773 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/109-f-3d-773/united-states-v-lesa-denise-ezell-harmon)",
+    "match_kind": "semantic",
+    "similarity": 0.6576
+   },
+   {
+    "cluster_id": 764252,
+    "case_name": "United States v. Ellis",
+    "citations": [
+     "177 F.3d 980",
+     "1999 U.S. App. LEXIS 14504",
+     "1999 WL 215124"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1999-03-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/177-f-3d-980/united-states-v-ellis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ellis, 177 F.3d 980 (11th Cir. 1999)",
+    "link_md": "[United States v. Ellis, 177 F.3d 980 (11th Cir. 1999)](https://syfert.com/federal/circuits/cases/177-f-3d-980/united-states-v-ellis)",
+    "match_kind": "semantic",
+    "similarity": 0.6561
+   },
+   {
+    "cluster_id": 404817,
+    "case_name": "Elias v. United States",
+    "citations": [
+     "679 F.2d 897",
+     "10 Fed. R. Serv. 416"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1982-04-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/679-f-2d-897/elias-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Elias v. United States, 679 F.2d 897 (9th Cir. 1982)",
+    "link_md": "[Elias v. United States, 679 F.2d 897 (9th Cir. 1982)](https://syfert.com/federal/circuits/cases/679-f-2d-897/elias-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6561
+   },
+   {
+    "cluster_id": 548908,
+    "case_name": "United States v. Ellis",
+    "citations": [
+     "915 F.2d 697",
+     "1990 WL 131131"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1990-09-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/915-f-2d-697/united-states-v-ellis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ellis, 915 F.2d 697 (11th Cir. 1990)",
+    "link_md": "[United States v. Ellis, 915 F.2d 697 (11th Cir. 1990)](https://syfert.com/federal/circuits/cases/915-f-2d-697/united-states-v-ellis)",
+    "match_kind": "semantic",
+    "similarity": 0.6547
+   },
+   {
+    "cluster_id": 457496,
+    "case_name": "United States v. Ellis",
+    "citations": [
+     "770 F.2d 1082",
+     "1985 U.S. App. LEXIS 21373"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1985-08-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/770-f-2d-1082/united-states-v-ellis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ellis, 770 F.2d 1082 (11th Cir. 1985)",
+    "link_md": "[United States v. Ellis, 770 F.2d 1082 (11th Cir. 1985)](https://syfert.com/federal/circuits/cases/770-f-2d-1082/united-states-v-ellis)",
+    "match_kind": "semantic",
+    "similarity": 0.6453
+   },
+   {
+    "cluster_id": 8614986,
+    "case_name": "Ellis v. United States",
+    "citations": [
+     "182 Ct. Cl. 916",
+     "1968 WL 4034"
+    ],
+    "court": "Court of Claims",
+    "date_filed": "1968-02-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/182-ct-cl-916/ellis-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ellis v. United States, 182 Ct. Cl. 916 (Ct. Cl. 1968)",
+    "link_md": "[Ellis v. United States, 182 Ct. Cl. 916 (Ct. Cl. 1968)](https://syfert.com/federal/specialty/cases/182-ct-cl-916/ellis-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6449
+   },
+   {
+    "cluster_id": 372382,
+    "case_name": "Ezell v. United States",
+    "citations": [
+     "610 F.2d 821"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1979-12-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/610-f-2d-821/ezell-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ezell v. United States, 610 F.2d 821 (9th Cir. 1979)",
+    "link_md": "[Ezell v. United States, 610 F.2d 821 (9th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-821/ezell-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6421
+   },
+   {
+    "cluster_id": 115837,
+    "case_name": "Ellzey v. United States",
+    "citations": [
+     "510 U.S. 1029",
+     "114 S. Ct. 648"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1993-12-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/510-u-s-1029/ellzey-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (115837 and its twin 9141661). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ellzey v. United States, 510 U.S. 1029 (1993)",
+    "link_md": "[Ellzey v. United States, 510 U.S. 1029 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-1029/ellzey-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6417
+   },
+   {
+    "cluster_id": 546850,
+    "case_name": "Aguilera v. United States",
+    "citations": [
+     "911 F.2d 741",
+     "1990 WL 109023"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1990-07-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/911-f-2d-741/aguilera-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Aguilera v. United States, 911 F.2d 741 (11th Cir. 1990)",
+    "link_md": "[Aguilera v. United States, 911 F.2d 741 (11th Cir. 1990)](https://syfert.com/federal/circuits/cases/911-f-2d-741/aguilera-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6402
+   },
+   {
+    "cluster_id": 659262,
+    "case_name": "United States v. Elzaatari",
+    "citations": [
+     "12 F.3d 218",
+     "1993 WL 535097"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1993-12-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/12-f-3d-218/united-states-v-elzaatari",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Elzaatari, 12 F.3d 218 (11th Cir. 1993)",
+    "link_md": "[United States v. Elzaatari, 12 F.3d 218 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/12-f-3d-218/united-states-v-elzaatari)",
+    "match_kind": "semantic",
+    "similarity": 0.6384
+   },
+   {
+    "cluster_id": 450164,
+    "case_name": "United States v. Ellis",
+    "citations": [
+     "758 F.2d 659",
+     "1985 U.S. App. LEXIS 28791"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1985-03-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/758-f-2d-659/united-states-v-ellis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ellis, 758 F.2d 659 (11th Cir. 1985)",
+    "link_md": "[United States v. Ellis, 758 F.2d 659 (11th Cir. 1985)](https://syfert.com/federal/circuits/cases/758-f-2d-659/united-states-v-ellis)",
+    "match_kind": "semantic",
+    "similarity": 0.6382
+   },
+   {
+    "cluster_id": 706738,
+    "case_name": "United States v. Elie",
+    "citations": [
+     "68 F.3d 485",
+     "1995 WL 579432"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1995-09-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/68-f-3d-485/united-states-v-elie",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Elie, 68 F.3d 485 (11th Cir. 1995)",
+    "link_md": "[United States v. Elie, 68 F.3d 485 (11th Cir. 1995)](https://syfert.com/federal/circuits/cases/68-f-3d-485/united-states-v-elie)",
+    "match_kind": "semantic",
+    "similarity": 0.6377
+   },
+   {
+    "cluster_id": 526678,
+    "case_name": "United States v. Ellis",
+    "citations": [
+     "880 F.2d 418",
+     "1989 U.S. App. LEXIS 9426",
+     "1989 WL 75004"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1989-06-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/880-f-2d-418/united-states-v-ellis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ellis, 880 F.2d 418 (11th Cir. 1989)",
+    "link_md": "[United States v. Ellis, 880 F.2d 418 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/880-f-2d-418/united-states-v-ellis)",
+    "match_kind": "semantic",
+    "similarity": 0.6364
+   },
+   {
+    "cluster_id": 3638228,
+    "case_name": "Ellis v. . Rickett",
+    "citations": [
+     "134 N.E. 552",
+     "232 N.Y. 515",
+     "1921 N.Y. LEXIS 537"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1921-10-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/232-n-y-515/ellis-v-rickett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ellis v. Rickett, 134 N.E. 552 (N.Y. 1921)",
+    "link_md": "[Ellis v. Rickett, 134 N.E. 552 (N.Y. 1921)](https://syfert.com/new-york/cases/232-n-y-515/ellis-v-rickett)",
+    "match_kind": "semantic",
+    "similarity": 0.6355
+   },
+   {
+    "cluster_id": 372444,
+    "case_name": "United States v. Ellis",
+    "citations": [
+     "610 F.2d 823"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1979-12-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/610-f-2d-823/united-states-v-ellis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ellis, 610 F.2d 823 (9th Cir. 1979)",
+    "link_md": "[United States v. Ellis, 610 F.2d 823 (9th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-823/united-states-v-ellis)",
+    "match_kind": "semantic",
+    "similarity": 0.635
+   },
+   {
+    "cluster_id": 384307,
+    "case_name": "United States v. Ellis",
+    "citations": [
+     "634 F.2d 636"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1980-11-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/634-f-2d-636/united-states-v-ellis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ellis, 634 F.2d 636 (9th Cir. 1980)",
+    "link_md": "[United States v. Ellis, 634 F.2d 636 (9th Cir. 1980)](https://syfert.com/federal/circuits/cases/634-f-2d-636/united-states-v-ellis)",
+    "match_kind": "semantic",
+    "similarity": 0.6342
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

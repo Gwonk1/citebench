@@ -1,0 +1,411 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Yost w/15 \"148 NE2d 23\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Yost w/15 \\\"148 NE2d 23\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6374024,\"case_name\":\"Philadelphia ex rel. Yost v. Odd Fellows Hall Ass'n\",\"citations\":[\"31 A. 917\",\"168 Pa. 105\",\"1895 Pa. LEXIS 763\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1895-05-13\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/pennsylvania/cases/168-pa-105/philadelphia-ex-rel-yost-v-odd-fellows-hall-assn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Philadelphia ex rel. Yost v. Odd Fellows Hall Ass'n, 31 A. 917 (Pa. 1895)\",\"link_md\":\"[Philadelphia ex rel. Yost v. Odd Fellows Hall Ass'n, 31 A. 917 (Pa. 1895)](https://syfert.com/pennsylvania/cases/168-pa-105/philadelphia-ex-rel-yost-v-odd-fellows-hall-assn)\",\"match_kind\":\"semantic\",\"similarity\":0.6406},{\"cluster_id\":518576,\"case_name\":\"Stoke v. Wurtsboro\",\"citations\":[\"867 F.2d 1424\",\"1988 U.S. App. LEXIS 18273\",\"1988 WL 146301\"],\"court\":\"Second Circuit\",\"date_filed\":\"1988-11-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/867-f-2d-1424/stoke-v-wurtsboro\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stoke v. Wurtsboro, 867 F.2d 1424 (2d Cir. 1988)\",\"link_md\":\"[Stoke v. Wurtsboro, 867 F.2d 1424 (2d Cir. 1988)](https://syfert.com/federal/circuits/cases/867-f-2d-1424/stoke-v-wurtsboro)\",\"match_kind\":\"semantic\",\"similarity\":0.6325},{\"cluster_id\":7426313,\"case_name\":\"People ex rel. Yost v. Becker\",\"citations\":[\"127 N.Y.S. 1139\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1911-01-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/127-n-y-s-1139/people-ex-rel-yost-v-becker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Yost v. Becker, 127 N.Y.S. 1139 (N.Y. App. Div. 1911)\",\"link_md\":\"[People ex rel. Yost v. Becker, 127 N.Y.S. 1139 (N.Y. App. Div. 1911)](https://syfert.com/new-york/cases/127-n-y-s-1139/people-ex-rel-yost-v-becker)\",\"match_kind\":\"semantic\",\"similarity\":0.6209},{\"cluster_id\":5382747,\"case_name\":\"People ex rel. Yost v. Becker\",\"citations\":[\"142 A.D. 929\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1911-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/142-a-d-929/people-ex-rel-yost-v-becker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Yost v. Becker, 142 A.D. 929 (N.Y. App. Div. 1911)\",\"link_md\":\"[People ex rel. Yost v. Becker, 142 A.D. 929 (N.Y. App. Div. 1911)](https://syfert.com/new-york/cases/142-a-d-929/people-ex-rel-yost-v-becker)\",\"match_kind\":\"semantic\",\"similarity\":0.6179},{\"cluster_id\":5517854,\"case_name\":\"Yochelson v. City of New York\",\"citations\":[\"256 A.D. 916\",\"10 N.Y.S.2d 858\",\"1939 N.Y. App. Div. LEXIS 5426\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1939-02-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/256-a-d-916/yochelson-v-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Yochelson v. City of New York, 256 A.D. 916 (N.Y. App. Div. 1st Dep't 1939)\",\"link_md\":\"[Yochelson v. City of New York, 256 A.D. 916 (N.Y. App. Div. 1st Dep't 1939)](https://syfert.com/new-york/cases/256-a-d-916/yochelson-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6176},{\"cluster_id\":4771522,\"case_name\":\"Good Fortune Rest., Inc. v. Kissena Group, LLC\",\"citations\":[\"185 A.D.3d 1013\",\"2020 NY Slip Op 4294\",\"126 N.Y.S.3d 371\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2020-07-29\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/185-a-d-3d-1013/good-fortune-rest-inc-v-kissena-group-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Good Fortune Rest., Inc. v. Kissena Grp., LLC, 185 A.D.3d 1013 (N.Y. App. Div. 2d Dep't 2020)\",\"link_md\":\"[Good Fortune Rest., Inc. v. Kissena Grp., LLC, 185 A.D.3d 1013 (N.Y. App. Div. 2d Dep't 2020)](https://syfert.com/new-york/cases/185-a-d-3d-1013/good-fortune-rest-inc-v-kissena-group-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.6161},{\"cluster_id\":2263211,\"case_name\":\"Yochum v. NEV. SEC'Y OF STATE\",\"citations\":[\"238 P.3d 868\",\"124 Nev. 1520\",\"2008 Nev. LEXIS 952\"],\"court\":\"Nevada Supreme Court\",\"date_filed\":\"2008-01-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/nevada/cases/124-nev-1520/yochum-v-nev-secy-of-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Yochum v. Nev. Sec'y of State, 238 P.3d 868 (Nev. 2008)\",\"link_md\":\"[Yochum v. Nev. Sec'y of State, 238 P.3d 868 (Nev. 2008)](https://syfert.com/nevada/cases/124-nev-1520/yochum-v-nev-secy-of-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6134},{\"cluster_id\":553507,\"case_name\":\"Landes (Burton R.) v. Yost (Paul)\",\"citations\":[\"922 F.2d 832\",\"1990 WL 251965\"],\"court\":\"Third Circuit\",\"date_filed\":\"1990-12-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/922-f-2d-832/landes-burton-r-v-yost-paul\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Landes (Burton R.) v. Yost (Paul), 922 F.2d 832 (3d Cir. 1990)\",\"link_md\":\"[Landes (Burton R.) v. Yost (Paul), 922 F.2d 832 (3d Cir. 1990)](https://syfert.com/federal/circuits/cases/922-f-2d-832/landes-burton-r-v-yost-paul)\",\"match_kind\":\"semantic\",\"similarity\":0.6127},{\"cluster_id\":519363,\"case_name\":\"Landes (Burton R.) v. Yost (Paul)\",\"citations\":[\"869 F.2d 590\",\"1989 WL 8675\"],\"court\":\"Third Circuit\",\"date_filed\":\"1989-01-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/869-f-2d-590/landes-burton-r-v-yost-paul\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Landes (Burton R.) v. Yost (Paul), 869 F.2d 590 (3d Cir. 1989)\",\"link_md\":\"[Landes (Burton R.) v. Yost (Paul), 869 F.2d 590 (3d Cir. 1989)](https://syfert.com/federal/circuits/cases/869-f-2d-590/landes-burton-r-v-yost-paul)\",\"match_kind\":\"semantic\",\"similarity\":0.6122},{\"cluster_id\":3606361,\"case_name\":\"Mather v. . Yost\",\"citations\":[\"74 N.E. 1126\",\"181 N.Y. 565\",\"1905 N.Y. LEXIS 878\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1905-05-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/181-n-y-565/mather-v-yost\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mather v. Yost, 74 N.E. 1126 (N.Y. 1905)\",\"link_md\":\"[Mather v. Yost, 74 N.E. 1126 (N.Y. 1905)](https://syfert.com/new-york/cases/181-n-y-565/mather-v-yost)\",\"match_kind\":\"semantic\",\"similarity\":0.6094},{\"cluster_id\":4026598,\"case_name\":\"Yost, Admr. v. Schmitt\",\"citations\":[\"190 N.E. 403\",\"128 Ohio St. 48\",\"128 Ohio St. (N.S.) 48\",\"1934 Ohio LEXIS 365\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1934-03-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/128-ohio-st-48/yost-admr-v-schmitt\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Yost, Admr. v. Schmitt, 190 N.E. 403 (Ohio 1934)\",\"link_md\":\"[Yost, Admr. v. Schmitt, 190 N.E. 403 (Ohio 1934)](https://syfert.com/ohio/cases/128-ohio-st-48/yost-admr-v-schmitt)\",\"match_kind\":\"semantic\",\"similarity\":0.6067},{\"cluster_id\":561048,\"case_name\":\"Na-Yuet v. Hueston\",\"citations\":[\"932 F.2d 977\",\"1991 WL 63262\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1991-04-09\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/932-f-2d-977/na-yuet-v-hueston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Na-Yuet v. Hueston, 932 F.2d 977 (11th Cir. 1991)\",\"link_md\":\"[Na-Yuet v. Hueston, 932 F.2d 977 (11th Cir. 1991)](https://syfert.com/federal/circuits/cases/932-f-2d-977/na-yuet-v-hueston)\",\"match_kind\":\"semantic\",\"similarity\":0.6057},{\"cluster_id\":710169,\"case_name\":\"Yatsko v. United States\",\"citations\":[\"72 F.3d 888\",\"1995 WL 744049\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1995-12-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/72-f-3d-888/yatsko-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Yatsko v. United States, 72 F.3d 888 (11th Cir. 1995)\",\"link_md\":\"[Yatsko v. United States, 72 F.3d 888 (11th Cir. 1995)](https://syfert.com/federal/circuits/cases/72-f-3d-888/yatsko-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6016},{\"cluster_id\":8779414,\"case_name\":\"Yost v. Union Pac. R.\",\"citations\":[\"151 F. 1023\",\"81 C.C.A. 683\",\"1906 U.S. App. LEXIS 4575\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1906-12-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/151-f-1023/yost-v-union-pac-r\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Yost v. Union Pac. R., 151 F. 1023 (8th Cir. 1906)\",\"link_md\":\"[Yost v. Union Pac. R., 151 F. 1023 (8th Cir. 1906)](https://syfert.com/federal/circuits/cases/151-f-1023/yost-v-union-pac-r)\",\"match_kind\":\"semantic\",\"similarity\":0.5997},{\"cluster_id\":5697650,\"case_name\":\"Adams v. Burr\",\"citations\":[\"13 Misc. 247\",\"34 N.Y.S. 156\",\"68 N.Y. St. Rep. 203\"],\"court\":\"New York Court of Common Pleas\",\"date_filed\":\"1895-06-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/13-misc-247/adams-v-burr\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Adams v. Burr, 13 Misc. 247 (N.Y. C.P. 1895)\",\"link_md\":\"[Adams v. Burr, 13 Misc. 247 (N.Y. C.P. 1895)](https://syfert.com/new-york/cases/13-misc-247/adams-v-burr)\",\"match_kind\":\"semantic\",\"similarity\":0.5952},{\"cluster_id\":375111,\"case_name\":\"Yoho v. Borg-Warner Corp\",\"citations\":[\"615 F.2d 1358\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1980-02-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/615-f-2d-1358/yoho-v-borg-warner-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Yoho v. Borg-Warner Corp, 615 F.2d 1358 (4th Cir. 1980)\",\"link_md\":\"[Yoho v. Borg-Warner Corp, 615 F.2d 1358 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/615-f-2d-1358/yoho-v-borg-warner-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.5935},{\"cluster_id\":1348182,\"case_name\":\"Watkins v. M & M Clays, Inc.\",\"citations\":[\"404 S.E.2d 141\",\"199 Ga. App. 54\",\"1991 Ga. App. LEXIS 353\"],\"court\":\"Court of Appeals of Georgia\",\"date_filed\":\"1991-02-28\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/georgia/cases/199-ga-app-54/watkins-v-m-m-clays-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Watkins v. M & M Clays, Inc., 404 S.E.2d 141 (Ga. Ct. App. 1991)\",\"link_md\":\"[Watkins v. M & M Clays, Inc., 404 S.E.2d 141 (Ga. Ct. App. 1991)](https://syfert.com/georgia/cases/199-ga-app-54/watkins-v-m-m-clays-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.5932},{\"cluster_id\":5878515,\"case_name\":\"220-2 East 85th St., Inc. v. Fastenberg\",\"citations\":[\"15 A.D.2d 651\",\"1962 N.Y. App. Div. LEXIS 11847\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1962-01-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/15-a-d-2d-651/220-2-east-85th-st-inc-v-fastenberg\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"220-2 East 85th St., Inc. v. Fastenberg, 15 A.D.2d 651 (N.Y. App. Div. 1962)\",\"link_md\":\"[220-2 East 85th St., Inc. v. Fastenberg, 15 A.D.2d 651 (N.Y. App. Div. 1962)](https://syfert.com/new-york/cases/15-a-d-2d-651/220-2-east-85th-st-inc-v-fastenberg)\",\"match_kind\":\"semantic\",\"similarity\":0.5932},{\"cluster_id\":430374,\"case_name\":\"Sato (Joseph Y.) v. Yon (Henry)\",\"citations\":[\"725 F.2d 688\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1983-12-29\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/725-f-2d-688/sato-joseph-y-v-yon-henry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sato (Joseph Y.) v. Yon (Henry), 725 F.2d 688 (7th Cir. 1983)\",\"link_md\":\"[Sato (Joseph Y.) v. Yon (Henry), 725 F.2d 688 (7th Cir. 1983)](https://syfert.com/federal/circuits/cases/725-f-2d-688/sato-joseph-y-v-yon-henry)\",\"match_kind\":\"semantic\",\"similarity\":0.5918},{\"cluster_id\":6117012,\"case_name\":\"Collins v. AA Truck Renting Corp.\",\"citations\":[\"209 A.D.2d 363\",\"618 N.Y.S.2d 801\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1994-11-29\",\"status\":\"Published\",\"cited_by\":26,\"url\":\"https://syfert.com/new-york/cases/209-a-d-2d-363/collins-v-aa-truck-renting-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Collins v. AA Truck Renting Corp., 209 A.D.2d 363 (N.Y. App. Div. 1st Dep't 1994)\",\"link_md\":\"[Collins v. AA Truck Renting Corp., 209 A.D.2d 363 (N.Y. App. Div. 1st Dep't 1994)](https://syfert.com/new-york/cases/209-a-d-2d-363/collins-v-aa-truck-renting-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.5906}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Yost w/15 \"148 NE2d 23\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6374024,
+    "case_name": "Philadelphia ex rel. Yost v. Odd Fellows Hall Ass'n",
+    "citations": [
+     "31 A. 917",
+     "168 Pa. 105",
+     "1895 Pa. LEXIS 763"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1895-05-13",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/pennsylvania/cases/168-pa-105/philadelphia-ex-rel-yost-v-odd-fellows-hall-assn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Philadelphia ex rel. Yost v. Odd Fellows Hall Ass'n, 31 A. 917 (Pa. 1895)",
+    "link_md": "[Philadelphia ex rel. Yost v. Odd Fellows Hall Ass'n, 31 A. 917 (Pa. 1895)](https://syfert.com/pennsylvania/cases/168-pa-105/philadelphia-ex-rel-yost-v-odd-fellows-hall-assn)",
+    "match_kind": "semantic",
+    "similarity": 0.6406
+   },
+   {
+    "cluster_id": 518576,
+    "case_name": "Stoke v. Wurtsboro",
+    "citations": [
+     "867 F.2d 1424",
+     "1988 U.S. App. LEXIS 18273",
+     "1988 WL 146301"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1988-11-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/867-f-2d-1424/stoke-v-wurtsboro",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stoke v. Wurtsboro, 867 F.2d 1424 (2d Cir. 1988)",
+    "link_md": "[Stoke v. Wurtsboro, 867 F.2d 1424 (2d Cir. 1988)](https://syfert.com/federal/circuits/cases/867-f-2d-1424/stoke-v-wurtsboro)",
+    "match_kind": "semantic",
+    "similarity": 0.6325
+   },
+   {
+    "cluster_id": 7426313,
+    "case_name": "People ex rel. Yost v. Becker",
+    "citations": [
+     "127 N.Y.S. 1139"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1911-01-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/127-n-y-s-1139/people-ex-rel-yost-v-becker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Yost v. Becker, 127 N.Y.S. 1139 (N.Y. App. Div. 1911)",
+    "link_md": "[People ex rel. Yost v. Becker, 127 N.Y.S. 1139 (N.Y. App. Div. 1911)](https://syfert.com/new-york/cases/127-n-y-s-1139/people-ex-rel-yost-v-becker)",
+    "match_kind": "semantic",
+    "similarity": 0.6209
+   },
+   {
+    "cluster_id": 5382747,
+    "case_name": "People ex rel. Yost v. Becker",
+    "citations": [
+     "142 A.D. 929"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1911-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/142-a-d-929/people-ex-rel-yost-v-becker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Yost v. Becker, 142 A.D. 929 (N.Y. App. Div. 1911)",
+    "link_md": "[People ex rel. Yost v. Becker, 142 A.D. 929 (N.Y. App. Div. 1911)](https://syfert.com/new-york/cases/142-a-d-929/people-ex-rel-yost-v-becker)",
+    "match_kind": "semantic",
+    "similarity": 0.6179
+   },
+   {
+    "cluster_id": 5517854,
+    "case_name": "Yochelson v. City of New York",
+    "citations": [
+     "256 A.D. 916",
+     "10 N.Y.S.2d 858",
+     "1939 N.Y. App. Div. LEXIS 5426"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1939-02-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/256-a-d-916/yochelson-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yochelson v. City of New York, 256 A.D. 916 (N.Y. App. Div. 1st Dep't 1939)",
+    "link_md": "[Yochelson v. City of New York, 256 A.D. 916 (N.Y. App. Div. 1st Dep't 1939)](https://syfert.com/new-york/cases/256-a-d-916/yochelson-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6176
+   },
+   {
+    "cluster_id": 4771522,
+    "case_name": "Good Fortune Rest., Inc. v. Kissena Group, LLC",
+    "citations": [
+     "185 A.D.3d 1013",
+     "2020 NY Slip Op 4294",
+     "126 N.Y.S.3d 371"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2020-07-29",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/185-a-d-3d-1013/good-fortune-rest-inc-v-kissena-group-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Good Fortune Rest., Inc. v. Kissena Grp., LLC, 185 A.D.3d 1013 (N.Y. App. Div. 2d Dep't 2020)",
+    "link_md": "[Good Fortune Rest., Inc. v. Kissena Grp., LLC, 185 A.D.3d 1013 (N.Y. App. Div. 2d Dep't 2020)](https://syfert.com/new-york/cases/185-a-d-3d-1013/good-fortune-rest-inc-v-kissena-group-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.6161
+   },
+   {
+    "cluster_id": 2263211,
+    "case_name": "Yochum v. NEV. SEC'Y OF STATE",
+    "citations": [
+     "238 P.3d 868",
+     "124 Nev. 1520",
+     "2008 Nev. LEXIS 952"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2008-01-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/124-nev-1520/yochum-v-nev-secy-of-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yochum v. Nev. Sec'y of State, 238 P.3d 868 (Nev. 2008)",
+    "link_md": "[Yochum v. Nev. Sec'y of State, 238 P.3d 868 (Nev. 2008)](https://syfert.com/nevada/cases/124-nev-1520/yochum-v-nev-secy-of-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6134
+   },
+   {
+    "cluster_id": 553507,
+    "case_name": "Landes (Burton R.) v. Yost (Paul)",
+    "citations": [
+     "922 F.2d 832",
+     "1990 WL 251965"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1990-12-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/922-f-2d-832/landes-burton-r-v-yost-paul",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Landes (Burton R.) v. Yost (Paul), 922 F.2d 832 (3d Cir. 1990)",
+    "link_md": "[Landes (Burton R.) v. Yost (Paul), 922 F.2d 832 (3d Cir. 1990)](https://syfert.com/federal/circuits/cases/922-f-2d-832/landes-burton-r-v-yost-paul)",
+    "match_kind": "semantic",
+    "similarity": 0.6127
+   },
+   {
+    "cluster_id": 519363,
+    "case_name": "Landes (Burton R.) v. Yost (Paul)",
+    "citations": [
+     "869 F.2d 590",
+     "1989 WL 8675"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1989-01-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/869-f-2d-590/landes-burton-r-v-yost-paul",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Landes (Burton R.) v. Yost (Paul), 869 F.2d 590 (3d Cir. 1989)",
+    "link_md": "[Landes (Burton R.) v. Yost (Paul), 869 F.2d 590 (3d Cir. 1989)](https://syfert.com/federal/circuits/cases/869-f-2d-590/landes-burton-r-v-yost-paul)",
+    "match_kind": "semantic",
+    "similarity": 0.6122
+   },
+   {
+    "cluster_id": 3606361,
+    "case_name": "Mather v. . Yost",
+    "citations": [
+     "74 N.E. 1126",
+     "181 N.Y. 565",
+     "1905 N.Y. LEXIS 878"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1905-05-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/181-n-y-565/mather-v-yost",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mather v. Yost, 74 N.E. 1126 (N.Y. 1905)",
+    "link_md": "[Mather v. Yost, 74 N.E. 1126 (N.Y. 1905)](https://syfert.com/new-york/cases/181-n-y-565/mather-v-yost)",
+    "match_kind": "semantic",
+    "similarity": 0.6094
+   },
+   {
+    "cluster_id": 4026598,
+    "case_name": "Yost, Admr. v. Schmitt",
+    "citations": [
+     "190 N.E. 403",
+     "128 Ohio St. 48",
+     "128 Ohio St. (N.S.) 48",
+     "1934 Ohio LEXIS 365"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1934-03-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/128-ohio-st-48/yost-admr-v-schmitt",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yost, Admr. v. Schmitt, 190 N.E. 403 (Ohio 1934)",
+    "link_md": "[Yost, Admr. v. Schmitt, 190 N.E. 403 (Ohio 1934)](https://syfert.com/ohio/cases/128-ohio-st-48/yost-admr-v-schmitt)",
+    "match_kind": "semantic",
+    "similarity": 0.6067
+   },
+   {
+    "cluster_id": 561048,
+    "case_name": "Na-Yuet v. Hueston",
+    "citations": [
+     "932 F.2d 977",
+     "1991 WL 63262"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1991-04-09",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/932-f-2d-977/na-yuet-v-hueston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Na-Yuet v. Hueston, 932 F.2d 977 (11th Cir. 1991)",
+    "link_md": "[Na-Yuet v. Hueston, 932 F.2d 977 (11th Cir. 1991)](https://syfert.com/federal/circuits/cases/932-f-2d-977/na-yuet-v-hueston)",
+    "match_kind": "semantic",
+    "similarity": 0.6057
+   },
+   {
+    "cluster_id": 710169,
+    "case_name": "Yatsko v. United States",
+    "citations": [
+     "72 F.3d 888",
+     "1995 WL 744049"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1995-12-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/72-f-3d-888/yatsko-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yatsko v. United States, 72 F.3d 888 (11th Cir. 1995)",
+    "link_md": "[Yatsko v. United States, 72 F.3d 888 (11th Cir. 1995)](https://syfert.com/federal/circuits/cases/72-f-3d-888/yatsko-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6016
+   },
+   {
+    "cluster_id": 8779414,
+    "case_name": "Yost v. Union Pac. R.",
+    "citations": [
+     "151 F. 1023",
+     "81 C.C.A. 683",
+     "1906 U.S. App. LEXIS 4575"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1906-12-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/151-f-1023/yost-v-union-pac-r",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yost v. Union Pac. R., 151 F. 1023 (8th Cir. 1906)",
+    "link_md": "[Yost v. Union Pac. R., 151 F. 1023 (8th Cir. 1906)](https://syfert.com/federal/circuits/cases/151-f-1023/yost-v-union-pac-r)",
+    "match_kind": "semantic",
+    "similarity": 0.5997
+   },
+   {
+    "cluster_id": 5697650,
+    "case_name": "Adams v. Burr",
+    "citations": [
+     "13 Misc. 247",
+     "34 N.Y.S. 156",
+     "68 N.Y. St. Rep. 203"
+    ],
+    "court": "New York Court of Common Pleas",
+    "date_filed": "1895-06-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/13-misc-247/adams-v-burr",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Adams v. Burr, 13 Misc. 247 (N.Y. C.P. 1895)",
+    "link_md": "[Adams v. Burr, 13 Misc. 247 (N.Y. C.P. 1895)](https://syfert.com/new-york/cases/13-misc-247/adams-v-burr)",
+    "match_kind": "semantic",
+    "similarity": 0.5952
+   },
+   {
+    "cluster_id": 375111,
+    "case_name": "Yoho v. Borg-Warner Corp",
+    "citations": [
+     "615 F.2d 1358"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1980-02-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/615-f-2d-1358/yoho-v-borg-warner-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yoho v. Borg-Warner Corp, 615 F.2d 1358 (4th Cir. 1980)",
+    "link_md": "[Yoho v. Borg-Warner Corp, 615 F.2d 1358 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/615-f-2d-1358/yoho-v-borg-warner-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.5935
+   },
+   {
+    "cluster_id": 1348182,
+    "case_name": "Watkins v. M & M Clays, Inc.",
+    "citations": [
+     "404 S.E.2d 141",
+     "199 Ga. App. 54",
+     "1991 Ga. App. LEXIS 353"
+    ],
+    "court": "Court of Appeals of Georgia",
+    "date_filed": "1991-02-28",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/georgia/cases/199-ga-app-54/watkins-v-m-m-clays-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Watkins v. M & M Clays, Inc., 404 S.E.2d 141 (Ga. Ct. App. 1991)",
+    "link_md": "[Watkins v. M & M Clays, Inc., 404 S.E.2d 141 (Ga. Ct. App. 1991)](https://syfert.com/georgia/cases/199-ga-app-54/watkins-v-m-m-clays-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.5932
+   },
+   {
+    "cluster_id": 5878515,
+    "case_name": "220-2 East 85th St., Inc. v. Fastenberg",
+    "citations": [
+     "15 A.D.2d 651",
+     "1962 N.Y. App. Div. LEXIS 11847"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1962-01-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/15-a-d-2d-651/220-2-east-85th-st-inc-v-fastenberg",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "220-2 East 85th St., Inc. v. Fastenberg, 15 A.D.2d 651 (N.Y. App. Div. 1962)",
+    "link_md": "[220-2 East 85th St., Inc. v. Fastenberg, 15 A.D.2d 651 (N.Y. App. Div. 1962)](https://syfert.com/new-york/cases/15-a-d-2d-651/220-2-east-85th-st-inc-v-fastenberg)",
+    "match_kind": "semantic",
+    "similarity": 0.5932
+   },
+   {
+    "cluster_id": 430374,
+    "case_name": "Sato (Joseph Y.) v. Yon (Henry)",
+    "citations": [
+     "725 F.2d 688"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1983-12-29",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/725-f-2d-688/sato-joseph-y-v-yon-henry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sato (Joseph Y.) v. Yon (Henry), 725 F.2d 688 (7th Cir. 1983)",
+    "link_md": "[Sato (Joseph Y.) v. Yon (Henry), 725 F.2d 688 (7th Cir. 1983)](https://syfert.com/federal/circuits/cases/725-f-2d-688/sato-joseph-y-v-yon-henry)",
+    "match_kind": "semantic",
+    "similarity": 0.5918
+   },
+   {
+    "cluster_id": 6117012,
+    "case_name": "Collins v. AA Truck Renting Corp.",
+    "citations": [
+     "209 A.D.2d 363",
+     "618 N.Y.S.2d 801"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1994-11-29",
+    "status": "Published",
+    "cited_by": 26,
+    "url": "https://syfert.com/new-york/cases/209-a-d-2d-363/collins-v-aa-truck-renting-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Collins v. AA Truck Renting Corp., 209 A.D.2d 363 (N.Y. App. Div. 1st Dep't 1994)",
+    "link_md": "[Collins v. AA Truck Renting Corp., 209 A.D.2d 363 (N.Y. App. Div. 1st Dep't 1994)](https://syfert.com/new-york/cases/209-a-d-2d-363/collins-v-aa-truck-renting-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.5906
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

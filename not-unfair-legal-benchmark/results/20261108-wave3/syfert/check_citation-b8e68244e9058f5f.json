@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "47 S.W.2d 1004",
+  "expected_case_name": "Streipe v. Liberty Mutual Life Insurance Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"47 S.W.2d 1004\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3447631,\n            \"case_name\": \"Streipe v. Liberty Mutual Life Insurance Co.\",\n            \"citations\": [\n                \"47 S.W.2d 1004\"\n            ],\n            \"court\": \"Court of Appeals of Kentucky (pre-1976)\",\n            \"date_filed\": \"1932-02-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 21,\n            \"url\": \"https://syfert.com/kentucky/cases/243-ky-15/streipe-v-liberty-mutual-life-insurance-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Streipe v. Liberty Mut. Life Ins. Co., 47 S.W.2d 1004 (Ky. Ct. App. 1932)\",\n            \"link_md\": \"[Streipe v. Liberty Mut. Life Ins. Co., 47 S.W.2d 1004 (Ky. Ct. App. 1932)](https://syfert.com/kentucky/cases/243-ky-15/streipe-v-liberty-mutual-life-insurance-co)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Streipe v. Liberty Mutual Life Insurance Co.\",\n        \"actual\": \"Streipe v. Liberty Mutual Life Insurance Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "47 S.W.2d 1004",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3447631,
+    "case_name": "Streipe v. Liberty Mutual Life Insurance Co.",
+    "citations": [
+     "47 S.W.2d 1004"
+    ],
+    "court": "Court of Appeals of Kentucky (pre-1976)",
+    "date_filed": "1932-02-16",
+    "status": "Published",
+    "cited_by": 21,
+    "url": "https://syfert.com/kentucky/cases/243-ky-15/streipe-v-liberty-mutual-life-insurance-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Streipe v. Liberty Mut. Life Ins. Co., 47 S.W.2d 1004 (Ky. Ct. App. 1932)",
+    "link_md": "[Streipe v. Liberty Mut. Life Ins. Co., 47 S.W.2d 1004 (Ky. Ct. App. 1932)](https://syfert.com/kentucky/cases/243-ky-15/streipe-v-liberty-mutual-life-insurance-co)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Streipe v. Liberty Mutual Life Insurance Co.",
+   "actual": "Streipe v. Liberty Mutual Life Insurance Co.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

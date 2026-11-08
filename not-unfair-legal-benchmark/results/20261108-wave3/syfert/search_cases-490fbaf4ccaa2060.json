@@ -1,0 +1,91 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Sweeney w/15 \"22 N.W.2d 657\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Sweeney w/15 \\\"22 N.W.2d 657\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2118343,\"bluebook\":\"Est. of Beale, 113 N.W.2d 380 (Wis. 1962)\",\"url\":\"https://syfert.com/wisconsin/cases/15-wis-2d-546/estate-of-beale\",\"date_filed\":\"1962-02-06\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Estate of Sweeney (1946), 248 Wis. 607 , 22 N. W. (2d) 657 , 24 N. W. (2d) 406 .\\nIn contending that Beale intended to revoke the 1959 will, appellant first points to the several alterations requested by Beale and the fact that the date…\"},{\"cluster_id\":1161940,\"bluebook\":\"Best v. Tavenner, 218 P.2d 471 (Or. 1950)\",\"url\":\"https://syfert.com/oregon/cases/189-or-46/best-v-tavenner\",\"date_filed\":\"1950-05-09\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":2},\"snippet\":\"...2d 801 ,\\nIn re Sweeney’s Estate,\\n248 Wis. 607 , 22 N. W. 2d 657 , and\\nPeople v. Manchetti,\\n29 Cal. 2d 452 , 175 P. 2d 533 , dealt with situations somewhat similar to the one before us. In the Henderson case, the court, on appeal, held…\"},{\"cluster_id\":6387950,\"bluebook\":\"Simon Will, 113 A.2d 266 (Pa. 1955)\",\"url\":\"https://syfert.com/pennsylvania/cases/381-pa-284/simon-will\",\"date_filed\":\"1955-04-18\",\"cited_by\":5,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...795 ; Sweeney’s Estate, 248 Wis. 607 , 22 N. W. 2d 657 . Ordinarily two issues .devisavit vel non should not be disposed of in one trial. It is only where the issues are closely interrelated and the parties involved are identical, as in…\"},{\"cluster_id\":1628275,\"bluebook\":\"A. F. Conner & Sons, Inc. v. Tri-Cnty. Water Supply Corp., 561 S.W.2d 466 (Tex. 1978)\",\"url\":\"https://syfert.com/texas/cases/561-s-w-2d-466/a-f-conner-sons-inc-v-tri-county-water-supply-corp\",\"date_filed\":\"1978-01-18\",\"cited_by\":7,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...McFarren, 62 Wis.2d 492 , 215 N.W.2d 459 (1974); In re Sweeney’s Estate, 248 Wis. 607, 22 N.W.2d 657 (1940); Madrid v. Scholes, 89 N.M. 15 , 546 P.2d 863 (N.M.Ct.App.1976); N.M.Rule 4-804(a)(4) (1953). See...\"},{\"cluster_id\":286046,\"bluebook\":\"Waterman S.S. Corp. v. Gay Cottons, 414 F.2d 724 (9th Cir. 1969)\",\"url\":\"https://syfert.com/federal/circuits/cases/414-f-2d-724/waterman-steamship-corporation-v-gay-cottons-united-states-of-america-and\",\"date_filed\":\"1969-08-05\",\"cited_by\":61,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...46 , 218 P.2d 471, 474 ; In re Sweeney’s Estate, 1946, 248 Wis. 607 , 22 N.W.2d 657 .\\n6\\n.\\nCf.\\nMacDonnell v. Capital Co., 9 Cir., 1942, 130 F.2d 311, 318 , cert. denied, 317 U.S. 692 , 63 S.Ct. 324 , 87 L.Ed. 554 .\\n7\\n. 46...\",\"holding\":\"A shipowner cannot limit liability for unseaworthiness if it fails to exercise due diligence to ensure navigational equipment is efficient and usable.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Sweeney w/15 \"22 N.W.2d 657\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2118343,
+    "bluebook": "Est. of Beale, 113 N.W.2d 380 (Wis. 1962)",
+    "url": "https://syfert.com/wisconsin/cases/15-wis-2d-546/estate-of-beale",
+    "date_filed": "1962-02-06",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Estate of Sweeney (1946), 248 Wis. 607 , 22 N. W. (2d) 657 , 24 N. W. (2d) 406 .\nIn contending that Beale intended to revoke the 1959 will, appellant first points to the several alterations requested by Beale and the fact that the date…"
+   },
+   {
+    "cluster_id": 1161940,
+    "bluebook": "Best v. Tavenner, 218 P.2d 471 (Or. 1950)",
+    "url": "https://syfert.com/oregon/cases/189-or-46/best-v-tavenner",
+    "date_filed": "1950-05-09",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 2
+    },
+    "snippet": "...2d 801 ,\nIn re Sweeney’s Estate,\n248 Wis. 607 , 22 N. W. 2d 657 , and\nPeople v. Manchetti,\n29 Cal. 2d 452 , 175 P. 2d 533 , dealt with situations somewhat similar to the one before us. In the Henderson case, the court, on appeal, held…"
+   },
+   {
+    "cluster_id": 6387950,
+    "bluebook": "Simon Will, 113 A.2d 266 (Pa. 1955)",
+    "url": "https://syfert.com/pennsylvania/cases/381-pa-284/simon-will",
+    "date_filed": "1955-04-18",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...795 ; Sweeney’s Estate, 248 Wis. 607 , 22 N. W. 2d 657 . Ordinarily two issues .devisavit vel non should not be disposed of in one trial. It is only where the issues are closely interrelated and the parties involved are identical, as in…"
+   },
+   {
+    "cluster_id": 1628275,
+    "bluebook": "A. F. Conner & Sons, Inc. v. Tri-Cnty. Water Supply Corp., 561 S.W.2d 466 (Tex. 1978)",
+    "url": "https://syfert.com/texas/cases/561-s-w-2d-466/a-f-conner-sons-inc-v-tri-county-water-supply-corp",
+    "date_filed": "1978-01-18",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...McFarren, 62 Wis.2d 492 , 215 N.W.2d 459 (1974); In re Sweeney’s Estate, 248 Wis. 607, 22 N.W.2d 657 (1940); Madrid v. Scholes, 89 N.M. 15 , 546 P.2d 863 (N.M.Ct.App.1976); N.M.Rule 4-804(a)(4) (1953). See..."
+   },
+   {
+    "cluster_id": 286046,
+    "bluebook": "Waterman S.S. Corp. v. Gay Cottons, 414 F.2d 724 (9th Cir. 1969)",
+    "url": "https://syfert.com/federal/circuits/cases/414-f-2d-724/waterman-steamship-corporation-v-gay-cottons-united-states-of-america-and",
+    "date_filed": "1969-08-05",
+    "cited_by": 61,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...46 , 218 P.2d 471, 474 ; In re Sweeney’s Estate, 1946, 248 Wis. 607 , 22 N.W.2d 657 .\n6\n.\nCf.\nMacDonnell v. Capital Co., 9 Cir., 1942, 130 F.2d 311, 318 , cert. denied, 317 U.S. 692 , 63 S.Ct. 324 , 87 L.Ed. 554 .\n7\n. 46...",
+    "holding": "A shipowner cannot limit liability for unseaworthiness if it fails to exercise due diligence to ensure navigational equipment is efficient and usable.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

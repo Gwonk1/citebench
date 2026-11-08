@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "39 S.E.2d 299",
+  "expected_case_name": "Turner v. Turner"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"39 S.E.2d 299\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4216201,\n            \"case_name\": \"Turner v. Turner\",\n            \"citations\": [\n                \"39 S.E.2d 299\"\n            ],\n            \"court\": \"Supreme Court of Virginia\",\n            \"date_filed\": \"1946-09-11\",\n            \"status\": \"Published\",\n            \"cited_by\": 7,\n            \"url\": \"https://syfert.com/virginia/cases/185-va-505/turner-v-turner\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Turner v. Turner, 39 S.E.2d 299 (Va. 1946)\",\n            \"link_md\": \"[Turner v. Turner, 39 S.E.2d 299 (Va. 1946)](https://syfert.com/virginia/cases/185-va-505/turner-v-turner)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Turner v. Turner\",\n        \"actual\": \"Turner v. Turner\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "39 S.E.2d 299",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4216201,
+    "case_name": "Turner v. Turner",
+    "citations": [
+     "39 S.E.2d 299"
+    ],
+    "court": "Supreme Court of Virginia",
+    "date_filed": "1946-09-11",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/virginia/cases/185-va-505/turner-v-turner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Turner v. Turner, 39 S.E.2d 299 (Va. 1946)",
+    "link_md": "[Turner v. Turner, 39 S.E.2d 299 (Va. 1946)](https://syfert.com/virginia/cases/185-va-505/turner-v-turner)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Turner v. Turner",
+   "actual": "Turner v. Turner",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

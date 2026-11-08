@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "148 N.E.2d 484",
+  "expected_case_name": "Shea v. LaCost"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"148 N.E.2d 484\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2241004,\n            \"case_name\": \"Shea v. LaCost\",\n            \"citations\": [\n                \"148 N.E.2d 484\"\n            ],\n            \"court\": \"Appellate Court of Illinois\",\n            \"date_filed\": \"1958-11-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 5,\n            \"url\": \"https://syfert.com/illinois/cases/16-ill-app-2d-454/shea-v-lacost\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Shea v. LaCost, 148 N.E.2d 484 (Ill. App. Ct. 3d Dist. 1958)\",\n            \"link_md\": \"[Shea v. LaCost, 148 N.E.2d 484 (Ill. App. Ct. 3d Dist. 1958)](https://syfert.com/illinois/cases/16-ill-app-2d-454/shea-v-lacost)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Shea v. LaCost\",\n        \"actual\": \"Shea v. LaCost\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "148 N.E.2d 484",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2241004,
+    "case_name": "Shea v. LaCost",
+    "citations": [
+     "148 N.E.2d 484"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1958-11-25",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/illinois/cases/16-ill-app-2d-454/shea-v-lacost",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Shea v. LaCost, 148 N.E.2d 484 (Ill. App. Ct. 3d Dist. 1958)",
+    "link_md": "[Shea v. LaCost, 148 N.E.2d 484 (Ill. App. Ct. 3d Dist. 1958)](https://syfert.com/illinois/cases/16-ill-app-2d-454/shea-v-lacost)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Shea v. LaCost",
+   "actual": "Shea v. LaCost",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

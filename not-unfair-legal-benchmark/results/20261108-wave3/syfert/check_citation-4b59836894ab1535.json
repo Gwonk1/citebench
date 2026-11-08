@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "71 A.2d 442",
+  "expected_case_name": "Baltimore Transit Co. v. State Ex Rel. Castranda"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"71 A.2d 442\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2174641,\n            \"case_name\": \"Baltimore Transit Co. v. State Ex Rel. Castranda\",\n            \"citations\": [\n                \"71 A.2d 442\"\n            ],\n            \"court\": \"Court of Appeals of Maryland\",\n            \"date_filed\": \"1950-10-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 82,\n            \"url\": \"https://syfert.com/maryland/cases/194-md-421/baltimore-transit-co-v-state-ex-rel-castranda\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Baltimore Transit Co. v. State ex rel. Castranda, 71 A.2d 442 (Md. 1950)\",\n            \"link_md\": \"[Baltimore Transit Co. v. State ex rel. Castranda, 71 A.2d 442 (Md. 1950)](https://syfert.com/maryland/cases/194-md-421/baltimore-transit-co-v-state-ex-rel-castranda)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 26,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"judgment for plaintiff\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Baltimore Transit Co. v. State Ex Rel. Castranda\",\n        \"actual\": \"Baltimore Transit Co. v. State Ex Rel. Castranda\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "71 A.2d 442",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2174641,
+    "case_name": "Baltimore Transit Co. v. State Ex Rel. Castranda",
+    "citations": [
+     "71 A.2d 442"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "1950-10-01",
+    "status": "Published",
+    "cited_by": 82,
+    "url": "https://syfert.com/maryland/cases/194-md-421/baltimore-transit-co-v-state-ex-rel-castranda",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Baltimore Transit Co. v. State ex rel. Castranda, 71 A.2d 442 (Md. 1950)",
+    "link_md": "[Baltimore Transit Co. v. State ex rel. Castranda, 71 A.2d 442 (Md. 1950)](https://syfert.com/maryland/cases/194-md-421/baltimore-transit-co-v-state-ex-rel-castranda)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 26,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "judgment for plaintiff",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Baltimore Transit Co. v. State Ex Rel. Castranda",
+   "actual": "Baltimore Transit Co. v. State Ex Rel. Castranda",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

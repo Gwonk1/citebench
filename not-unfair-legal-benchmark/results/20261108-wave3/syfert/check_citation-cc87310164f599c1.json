@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "47 P.2d 656",
+  "expected_case_name": "Best v. London Guarantee & Accident Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"47 P.2d 656\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3563411,\n            \"case_name\": \"Best v. London Guarantee & Accident Co.\",\n            \"citations\": [\n                \"47 P.2d 656\"\n            ],\n            \"court\": \"Montana Supreme Court\",\n            \"date_filed\": \"1935-07-05\",\n            \"status\": \"Published\",\n            \"cited_by\": 14,\n            \"url\": \"https://syfert.com/montana/cases/100-mont-332/best-v-london-guarantee-accident-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Best v. London Guarantee & Accident Co., 47 P.2d 656 (Mont. 1935)\",\n            \"link_md\": \"[Best v. London Guarantee & Accident Co., 47 P.2d 656 (Mont. 1935)](https://syfert.com/montana/cases/100-mont-332/best-v-london-guarantee-accident-co)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Best v. London Guarantee & Accident Co.\",\n        \"actual\": \"Best v. London Guarantee & Accident Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "47 P.2d 656",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3563411,
+    "case_name": "Best v. London Guarantee & Accident Co.",
+    "citations": [
+     "47 P.2d 656"
+    ],
+    "court": "Montana Supreme Court",
+    "date_filed": "1935-07-05",
+    "status": "Published",
+    "cited_by": 14,
+    "url": "https://syfert.com/montana/cases/100-mont-332/best-v-london-guarantee-accident-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Best v. London Guarantee & Accident Co., 47 P.2d 656 (Mont. 1935)",
+    "link_md": "[Best v. London Guarantee & Accident Co., 47 P.2d 656 (Mont. 1935)](https://syfert.com/montana/cases/100-mont-332/best-v-london-guarantee-accident-co)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Best v. London Guarantee & Accident Co.",
+   "actual": "Best v. London Guarantee & Accident Co.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

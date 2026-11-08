@@ -1,0 +1,392 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Johnson w/15 \"86 A2d 520\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Johnson w/15 \\\"86 A2d 520\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":397511,\"case_name\":\"Johnson v. Johnson\",\"citations\":[\"665 F.2d 1040\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-09-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/665-f-2d-1040/johnson-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. Johnson, 665 F.2d 1040 (4th Cir. 1981)\",\"link_md\":\"[Johnson v. Johnson, 665 F.2d 1040 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/665-f-2d-1040/johnson-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.7525},{\"cluster_id\":477477,\"case_name\":\"Johnson, in Re\",\"citations\":[\"802 F.2d 464\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1986-08-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/802-f-2d-464/johnson-in-re\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson, in Re, 802 F.2d 464 (8th Cir. 1986)\",\"link_md\":\"[Johnson, in Re, 802 F.2d 464 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/802-f-2d-464/johnson-in-re)\",\"match_kind\":\"semantic\",\"similarity\":0.7321},{\"cluster_id\":477509,\"case_name\":\"Johnson v. United States\",\"citations\":[\"802 F.2d 465\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1986-09-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/802-f-2d-465/johnson-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. United States, 802 F.2d 465 (8th Cir. 1986)\",\"link_md\":\"[Johnson v. United States, 802 F.2d 465 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/802-f-2d-465/johnson-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7176},{\"cluster_id\":413642,\"case_name\":\"Johnson v. Johnson\",\"citations\":[\"698 F.2d 1220\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1982-01-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/698-f-2d-1220/johnson-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. Johnson, 698 F.2d 1220 (6th Cir. 1982)\",\"link_md\":\"[Johnson v. Johnson, 698 F.2d 1220 (6th Cir. 1982)](https://syfert.com/federal/circuits/cases/698-f-2d-1220/johnson-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.7143},{\"cluster_id\":467143,\"case_name\":\"Johnson v. May\",\"citations\":[\"786 F.2d 1170\",\"1986 U.S. App. LEXIS 24184\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1986-02-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/786-f-2d-1170/johnson-v-may\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. May, 786 F.2d 1170 (8th Cir. 1986)\",\"link_md\":\"[Johnson v. May, 786 F.2d 1170 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/786-f-2d-1170/johnson-v-may)\",\"match_kind\":\"semantic\",\"similarity\":0.7124},{\"cluster_id\":404442,\"case_name\":\"Jenkins v. Johnson\",\"citations\":[\"679 F.2d 882\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-05-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/679-f-2d-882/jenkins-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jenkins v. Johnson, 679 F.2d 882 (4th Cir. 1982)\",\"link_md\":\"[Jenkins v. Johnson, 679 F.2d 882 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/679-f-2d-882/jenkins-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.7064},{\"cluster_id\":407131,\"case_name\":\"Johnson v. Johnson\",\"citations\":[\"685 F.2d 430\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-07-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/685-f-2d-430/johnson-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. Johnson, 685 F.2d 430 (4th Cir. 1982)\",\"link_md\":\"[Johnson v. Johnson, 685 F.2d 430 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/685-f-2d-430/johnson-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.7057},{\"cluster_id\":477498,\"case_name\":\"Johnson v. United States\",\"citations\":[\"802 F.2d 465\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1986-09-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/802-f-2d-465/johnson-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. United States, 802 F.2d 465 (8th Cir. 1986)\",\"link_md\":\"[Johnson v. United States, 802 F.2d 465 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/802-f-2d-465/johnson-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7053},{\"cluster_id\":467164,\"case_name\":\"United States v. Johnson\",\"citations\":[\"786 F.2d 1170\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1986-02-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/786-f-2d-1170/united-states-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Johnson, 786 F.2d 1170 (8th Cir. 1986)\",\"link_md\":\"[United States v. Johnson, 786 F.2d 1170 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/786-f-2d-1170/united-states-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.7047},{\"cluster_id\":515839,\"case_name\":\"Daniel v. Johnson\",\"citations\":[\"863 F.2d 880\",\"1988 U.S. App. LEXIS 19201\",\"1988 WL 133352\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1988-12-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/863-f-2d-880/daniel-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Daniel v. Johnson, 863 F.2d 880 (5th Cir. 1988)\",\"link_md\":\"[Daniel v. Johnson, 863 F.2d 880 (5th Cir. 1988)](https://syfert.com/federal/circuits/cases/863-f-2d-880/daniel-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.7031},{\"cluster_id\":398382,\"case_name\":\"Blackmon v. Johnson\",\"citations\":[\"667 F.2d 1025\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1981-10-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/667-f-2d-1025/blackmon-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Blackmon v. Johnson, 667 F.2d 1025 (6th Cir. 1981)\",\"link_md\":\"[Blackmon v. Johnson, 667 F.2d 1025 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/667-f-2d-1025/blackmon-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.7008},{\"cluster_id\":510800,\"case_name\":\"United States v. Johnson\",\"citations\":[\"855 F.2d 856\",\"1988 U.S. App. LEXIS 12440\",\"1988 WL 78081\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1988-04-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/855-f-2d-856/united-states-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Johnson, 855 F.2d 856 (8th Cir. 1988)\",\"link_md\":\"[United States v. Johnson, 855 F.2d 856 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/855-f-2d-856/united-states-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.7004},{\"cluster_id\":411377,\"case_name\":\"Johnson v. Johnson\",\"citations\":[\"694 F.2d 280\",\"224 U.S. App. D.C. 160\"],\"court\":\"D.C. Circuit\",\"date_filed\":\"1982-11-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/694-f-2d-280/johnson-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. Johnson, 694 F.2d 280 (D.C. Cir. 1982)\",\"link_md\":\"[Johnson v. Johnson, 694 F.2d 280 (D.C. Cir. 1982)](https://syfert.com/federal/circuits/cases/694-f-2d-280/johnson-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.6976},{\"cluster_id\":599696,\"case_name\":\"Johnson (Jackie D.) v. Johnson (Billie)\",\"citations\":[\"985 F.2d 564\",\"1991 WL 439253\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1991-10-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/985-f-2d-564/johnson-jackie-d-v-johnson-billie\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson (Jackie D.) v. Johnson (Billie), 985 F.2d 564 (8th Cir. 1991)\",\"link_md\":\"[Johnson (Jackie D.) v. Johnson (Billie), 985 F.2d 564 (8th Cir. 1991)](https://syfert.com/federal/circuits/cases/985-f-2d-564/johnson-jackie-d-v-johnson-billie)\",\"match_kind\":\"semantic\",\"similarity\":0.6974},{\"cluster_id\":435557,\"case_name\":\"Johnson v. Johnson\",\"citations\":[\"734 F.2d 14\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1984-04-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/734-f-2d-14/johnson-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. Johnson, 734 F.2d 14 (6th Cir. 1984)\",\"link_md\":\"[Johnson v. Johnson, 734 F.2d 14 (6th Cir. 1984)](https://syfert.com/federal/circuits/cases/734-f-2d-14/johnson-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.6961},{\"cluster_id\":420316,\"case_name\":\"Johnson v. Johnson\",\"citations\":[\"709 F.2d 1504\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1983-03-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/709-f-2d-1504/johnson-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. Johnson, 709 F.2d 1504 (6th Cir. 1983)\",\"link_md\":\"[Johnson v. Johnson, 709 F.2d 1504 (6th Cir. 1983)](https://syfert.com/federal/circuits/cases/709-f-2d-1504/johnson-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.6932},{\"cluster_id\":396713,\"case_name\":\"Johnson v. Anderson\",\"citations\":[\"663 F.2d 1071\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1981-07-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/663-f-2d-1071/johnson-v-anderson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. Anderson, 663 F.2d 1071 (6th Cir. 1981)\",\"link_md\":\"[Johnson v. Anderson, 663 F.2d 1071 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/663-f-2d-1071/johnson-v-anderson)\",\"match_kind\":\"semantic\",\"similarity\":0.692},{\"cluster_id\":496015,\"case_name\":\"Johnson (Paul Carter) v. United States\",\"citations\":[\"831 F.2d 300\",\"1987 U.S. App. LEXIS 13374\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1987-08-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/831-f-2d-300/johnson-paul-carter-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson (Paul Carter) v. United States, 831 F.2d 300 (8th Cir. 1987)\",\"link_md\":\"[Johnson (Paul Carter) v. United States, 831 F.2d 300 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-300/johnson-paul-carter-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6911},{\"cluster_id\":375146,\"case_name\":\"Jordan v. Johnson\",\"citations\":[\"615 F.2d 1360\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1980-01-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/615-f-2d-1360/jordan-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jordan v. Johnson, 615 F.2d 1360 (6th Cir. 1980)\",\"link_md\":\"[Jordan v. Johnson, 615 F.2d 1360 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/615-f-2d-1360/jordan-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.6904},{\"cluster_id\":353598,\"case_name\":\"Johnson v. United States\",\"citations\":[\"571 F.2d 581\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1978-02-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/571-f-2d-581/johnson-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. United States, 571 F.2d 581 (6th Cir. 1978)\",\"link_md\":\"[Johnson v. United States, 571 F.2d 581 (6th Cir. 1978)](https://syfert.com/federal/circuits/cases/571-f-2d-581/johnson-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6884}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Johnson w/15 \"86 A2d 520\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 397511,
+    "case_name": "Johnson v. Johnson",
+    "citations": [
+     "665 F.2d 1040"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-09-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/665-f-2d-1040/johnson-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. Johnson, 665 F.2d 1040 (4th Cir. 1981)",
+    "link_md": "[Johnson v. Johnson, 665 F.2d 1040 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/665-f-2d-1040/johnson-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.7525
+   },
+   {
+    "cluster_id": 477477,
+    "case_name": "Johnson, in Re",
+    "citations": [
+     "802 F.2d 464"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1986-08-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/802-f-2d-464/johnson-in-re",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson, in Re, 802 F.2d 464 (8th Cir. 1986)",
+    "link_md": "[Johnson, in Re, 802 F.2d 464 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/802-f-2d-464/johnson-in-re)",
+    "match_kind": "semantic",
+    "similarity": 0.7321
+   },
+   {
+    "cluster_id": 477509,
+    "case_name": "Johnson v. United States",
+    "citations": [
+     "802 F.2d 465"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1986-09-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/802-f-2d-465/johnson-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. United States, 802 F.2d 465 (8th Cir. 1986)",
+    "link_md": "[Johnson v. United States, 802 F.2d 465 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/802-f-2d-465/johnson-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7176
+   },
+   {
+    "cluster_id": 413642,
+    "case_name": "Johnson v. Johnson",
+    "citations": [
+     "698 F.2d 1220"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1982-01-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/698-f-2d-1220/johnson-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. Johnson, 698 F.2d 1220 (6th Cir. 1982)",
+    "link_md": "[Johnson v. Johnson, 698 F.2d 1220 (6th Cir. 1982)](https://syfert.com/federal/circuits/cases/698-f-2d-1220/johnson-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.7143
+   },
+   {
+    "cluster_id": 467143,
+    "case_name": "Johnson v. May",
+    "citations": [
+     "786 F.2d 1170",
+     "1986 U.S. App. LEXIS 24184"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1986-02-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/786-f-2d-1170/johnson-v-may",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. May, 786 F.2d 1170 (8th Cir. 1986)",
+    "link_md": "[Johnson v. May, 786 F.2d 1170 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/786-f-2d-1170/johnson-v-may)",
+    "match_kind": "semantic",
+    "similarity": 0.7124
+   },
+   {
+    "cluster_id": 404442,
+    "case_name": "Jenkins v. Johnson",
+    "citations": [
+     "679 F.2d 882"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-05-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/679-f-2d-882/jenkins-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jenkins v. Johnson, 679 F.2d 882 (4th Cir. 1982)",
+    "link_md": "[Jenkins v. Johnson, 679 F.2d 882 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/679-f-2d-882/jenkins-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.7064
+   },
+   {
+    "cluster_id": 407131,
+    "case_name": "Johnson v. Johnson",
+    "citations": [
+     "685 F.2d 430"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-07-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/685-f-2d-430/johnson-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. Johnson, 685 F.2d 430 (4th Cir. 1982)",
+    "link_md": "[Johnson v. Johnson, 685 F.2d 430 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/685-f-2d-430/johnson-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.7057
+   },
+   {
+    "cluster_id": 477498,
+    "case_name": "Johnson v. United States",
+    "citations": [
+     "802 F.2d 465"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1986-09-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/802-f-2d-465/johnson-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. United States, 802 F.2d 465 (8th Cir. 1986)",
+    "link_md": "[Johnson v. United States, 802 F.2d 465 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/802-f-2d-465/johnson-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7053
+   },
+   {
+    "cluster_id": 467164,
+    "case_name": "United States v. Johnson",
+    "citations": [
+     "786 F.2d 1170"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1986-02-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/786-f-2d-1170/united-states-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Johnson, 786 F.2d 1170 (8th Cir. 1986)",
+    "link_md": "[United States v. Johnson, 786 F.2d 1170 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/786-f-2d-1170/united-states-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.7047
+   },
+   {
+    "cluster_id": 515839,
+    "case_name": "Daniel v. Johnson",
+    "citations": [
+     "863 F.2d 880",
+     "1988 U.S. App. LEXIS 19201",
+     "1988 WL 133352"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1988-12-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/863-f-2d-880/daniel-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Daniel v. Johnson, 863 F.2d 880 (5th Cir. 1988)",
+    "link_md": "[Daniel v. Johnson, 863 F.2d 880 (5th Cir. 1988)](https://syfert.com/federal/circuits/cases/863-f-2d-880/daniel-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.7031
+   },
+   {
+    "cluster_id": 398382,
+    "case_name": "Blackmon v. Johnson",
+    "citations": [
+     "667 F.2d 1025"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1981-10-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/667-f-2d-1025/blackmon-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Blackmon v. Johnson, 667 F.2d 1025 (6th Cir. 1981)",
+    "link_md": "[Blackmon v. Johnson, 667 F.2d 1025 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/667-f-2d-1025/blackmon-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.7008
+   },
+   {
+    "cluster_id": 510800,
+    "case_name": "United States v. Johnson",
+    "citations": [
+     "855 F.2d 856",
+     "1988 U.S. App. LEXIS 12440",
+     "1988 WL 78081"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1988-04-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/855-f-2d-856/united-states-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Johnson, 855 F.2d 856 (8th Cir. 1988)",
+    "link_md": "[United States v. Johnson, 855 F.2d 856 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/855-f-2d-856/united-states-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.7004
+   },
+   {
+    "cluster_id": 411377,
+    "case_name": "Johnson v. Johnson",
+    "citations": [
+     "694 F.2d 280",
+     "224 U.S. App. D.C. 160"
+    ],
+    "court": "D.C. Circuit",
+    "date_filed": "1982-11-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/694-f-2d-280/johnson-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. Johnson, 694 F.2d 280 (D.C. Cir. 1982)",
+    "link_md": "[Johnson v. Johnson, 694 F.2d 280 (D.C. Cir. 1982)](https://syfert.com/federal/circuits/cases/694-f-2d-280/johnson-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.6976
+   },
+   {
+    "cluster_id": 599696,
+    "case_name": "Johnson (Jackie D.) v. Johnson (Billie)",
+    "citations": [
+     "985 F.2d 564",
+     "1991 WL 439253"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1991-10-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/985-f-2d-564/johnson-jackie-d-v-johnson-billie",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson (Jackie D.) v. Johnson (Billie), 985 F.2d 564 (8th Cir. 1991)",
+    "link_md": "[Johnson (Jackie D.) v. Johnson (Billie), 985 F.2d 564 (8th Cir. 1991)](https://syfert.com/federal/circuits/cases/985-f-2d-564/johnson-jackie-d-v-johnson-billie)",
+    "match_kind": "semantic",
+    "similarity": 0.6974
+   },
+   {
+    "cluster_id": 435557,
+    "case_name": "Johnson v. Johnson",
+    "citations": [
+     "734 F.2d 14"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1984-04-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/734-f-2d-14/johnson-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. Johnson, 734 F.2d 14 (6th Cir. 1984)",
+    "link_md": "[Johnson v. Johnson, 734 F.2d 14 (6th Cir. 1984)](https://syfert.com/federal/circuits/cases/734-f-2d-14/johnson-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.6961
+   },
+   {
+    "cluster_id": 420316,
+    "case_name": "Johnson v. Johnson",
+    "citations": [
+     "709 F.2d 1504"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1983-03-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/709-f-2d-1504/johnson-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. Johnson, 709 F.2d 1504 (6th Cir. 1983)",
+    "link_md": "[Johnson v. Johnson, 709 F.2d 1504 (6th Cir. 1983)](https://syfert.com/federal/circuits/cases/709-f-2d-1504/johnson-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.6932
+   },
+   {
+    "cluster_id": 396713,
+    "case_name": "Johnson v. Anderson",
+    "citations": [
+     "663 F.2d 1071"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1981-07-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/663-f-2d-1071/johnson-v-anderson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. Anderson, 663 F.2d 1071 (6th Cir. 1981)",
+    "link_md": "[Johnson v. Anderson, 663 F.2d 1071 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/663-f-2d-1071/johnson-v-anderson)",
+    "match_kind": "semantic",
+    "similarity": 0.692
+   },
+   {
+    "cluster_id": 496015,
+    "case_name": "Johnson (Paul Carter) v. United States",
+    "citations": [
+     "831 F.2d 300",
+     "1987 U.S. App. LEXIS 13374"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1987-08-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/831-f-2d-300/johnson-paul-carter-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson (Paul Carter) v. United States, 831 F.2d 300 (8th Cir. 1987)",
+    "link_md": "[Johnson (Paul Carter) v. United States, 831 F.2d 300 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-300/johnson-paul-carter-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6911
+   },
+   {
+    "cluster_id": 375146,
+    "case_name": "Jordan v. Johnson",
+    "citations": [
+     "615 F.2d 1360"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1980-01-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/615-f-2d-1360/jordan-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jordan v. Johnson, 615 F.2d 1360 (6th Cir. 1980)",
+    "link_md": "[Jordan v. Johnson, 615 F.2d 1360 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/615-f-2d-1360/jordan-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.6904
+   },
+   {
+    "cluster_id": 353598,
+    "case_name": "Johnson v. United States",
+    "citations": [
+     "571 F.2d 581"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1978-02-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/571-f-2d-581/johnson-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. United States, 571 F.2d 581 (6th Cir. 1978)",
+    "link_md": "[Johnson v. United States, 571 F.2d 581 (6th Cir. 1978)](https://syfert.com/federal/circuits/cases/571-f-2d-581/johnson-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6884
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

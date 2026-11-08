@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "53 S.W.2d 1005",
+  "expected_case_name": "Gattegno v. Parisian"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"53 S.W.2d 1005\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5182116,\n            \"case_name\": \"Gattegno v. Parisian\",\n            \"citations\": [\n                \"53 S.W.2d 1005\"\n            ],\n            \"court\": \"Texas Commission of Appeals\",\n            \"date_filed\": \"1932-11-09\",\n            \"status\": \"Published\",\n            \"cited_by\": 55,\n            \"url\": \"https://syfert.com/texas/cases/53-s-w-2d-1005/gattegno-v-parisian\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Gattegno v. Parisian, 53 S.W.2d 1005 (Tex. Comm'n App. 1932)\",\n            \"link_md\": \"[Gattegno v. Parisian, 53 S.W.2d 1005 (Tex. Comm'n App. 1932)](https://syfert.com/texas/cases/53-s-w-2d-1005/gattegno-v-parisian)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 10,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Gattegno v. Parisian\",\n        \"actual\": \"Gattegno v. Parisian\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "53 S.W.2d 1005",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5182116,
+    "case_name": "Gattegno v. Parisian",
+    "citations": [
+     "53 S.W.2d 1005"
+    ],
+    "court": "Texas Commission of Appeals",
+    "date_filed": "1932-11-09",
+    "status": "Published",
+    "cited_by": 55,
+    "url": "https://syfert.com/texas/cases/53-s-w-2d-1005/gattegno-v-parisian",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gattegno v. Parisian, 53 S.W.2d 1005 (Tex. Comm'n App. 1932)",
+    "link_md": "[Gattegno v. Parisian, 53 S.W.2d 1005 (Tex. Comm'n App. 1932)](https://syfert.com/texas/cases/53-s-w-2d-1005/gattegno-v-parisian)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 10,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Gattegno v. Parisian",
+   "actual": "Gattegno v. Parisian",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

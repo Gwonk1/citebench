@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "142 N.W. 943",
+  "expected_case_name": "Jones v. Walker"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"142 N.W. 943\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6803275,\n            \"case_name\": \"Jones v. Walker\",\n            \"citations\": [\n                \"142 N.W. 943\"\n            ],\n            \"court\": \"South Dakota Supreme Court\",\n            \"date_filed\": \"1913-08-09\",\n            \"status\": \"Published\",\n            \"cited_by\": 1,\n            \"url\": \"https://syfert.com/south-dakota/cases/32-s-d-247/jones-v-walker\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Jones v. Walker, 142 N.W. 943 (S.D. 1913)\",\n            \"link_md\": \"[Jones v. Walker, 142 N.W. 943 (S.D. 1913)](https://syfert.com/south-dakota/cases/32-s-d-247/jones-v-walker)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Jones v. Walker\",\n        \"actual\": \"Jones v. Walker\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "142 N.W. 943",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6803275,
+    "case_name": "Jones v. Walker",
+    "citations": [
+     "142 N.W. 943"
+    ],
+    "court": "South Dakota Supreme Court",
+    "date_filed": "1913-08-09",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/south-dakota/cases/32-s-d-247/jones-v-walker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jones v. Walker, 142 N.W. 943 (S.D. 1913)",
+    "link_md": "[Jones v. Walker, 142 N.W. 943 (S.D. 1913)](https://syfert.com/south-dakota/cases/32-s-d-247/jones-v-walker)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Jones v. Walker",
+   "actual": "Jones v. Walker",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

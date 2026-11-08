@@ -1,0 +1,52 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Malone w/15 \"50 P. 542\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Malone w/15 \\\"50 P. 542\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1346306,\"bluebook\":\"Garrado v. Collins, 288 P.2d 620 (Cal. Ct. App. 1955)\",\"url\":\"https://syfert.com/california/cases/136-cal-app-2d-323/garrado-v-collins\",\"date_filed\":\"1955-10-17\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Although there was no finding upon the subject defendants are bound by their averment “that said marriage was never terminated by a decree of any court, and that said Paul Adams is still living. ...”\\n(Malone\\nv.\\nRoy,\\n118 Cal. 512, 514 […\"},{\"cluster_id\":1256879,\"bluebook\":\"Joslin v. Marin Mun. Water Dist., 429 P.2d 889 (Cal. 1967)\",\"url\":\"https://syfert.com/california/cases/67-cal-2d-132/joslin-v-marin-municipal-water-district\",\"date_filed\":\"1967-07-28\",\"cited_by\":110,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...143, 149 [ 259 P. 735 ] ;\\nMalone\\nv.\\nRoy\\n(1897) 118 Cal. 512, 514 [ 50 P. 6 , 542]), those allegations are foreclosed to him and, where not put in issue by defendant’s affidavits, present no triable issues at least for purposes of the…\",\"holding\":\"Using stream water solely to transport and deposit sand and gravel constitutes an unreasonable use of water that does not create a compensable property interest.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Malone w/15 \"50 P. 542\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1346306,
+    "bluebook": "Garrado v. Collins, 288 P.2d 620 (Cal. Ct. App. 1955)",
+    "url": "https://syfert.com/california/cases/136-cal-app-2d-323/garrado-v-collins",
+    "date_filed": "1955-10-17",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Although there was no finding upon the subject defendants are bound by their averment “that said marriage was never terminated by a decree of any court, and that said Paul Adams is still living. ...”\n(Malone\nv.\nRoy,\n118 Cal. 512, 514 […"
+   },
+   {
+    "cluster_id": 1256879,
+    "bluebook": "Joslin v. Marin Mun. Water Dist., 429 P.2d 889 (Cal. 1967)",
+    "url": "https://syfert.com/california/cases/67-cal-2d-132/joslin-v-marin-municipal-water-district",
+    "date_filed": "1967-07-28",
+    "cited_by": 110,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...143, 149 [ 259 P. 735 ] ;\nMalone\nv.\nRoy\n(1897) 118 Cal. 512, 514 [ 50 P. 6 , 542]), those allegations are foreclosed to him and, where not put in issue by defendant’s affidavits, present no triable issues at least for purposes of the…",
+    "holding": "Using stream water solely to transport and deposit sand and gravel constitutes an unreasonable use of water that does not create a compensable property interest.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

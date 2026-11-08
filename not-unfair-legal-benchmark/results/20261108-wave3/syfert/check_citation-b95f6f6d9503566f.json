@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "147 A.2d 208",
+  "expected_case_name": "J. F. Johnson Lumber Co. v. Magruder"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"147 A.2d 208\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1438541,\n            \"case_name\": \"J. F. Johnson Lumber Co. v. Magruder\",\n            \"citations\": [\n                \"147 A.2d 208\"\n            ],\n            \"court\": \"Court of Appeals of Maryland\",\n            \"date_filed\": \"1958-09-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 26,\n            \"url\": \"https://syfert.com/maryland/cases/218-md-440/j-f-johnson-lumber-co-v-magruder\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"J. F. Johnson Lumber Co. v. Magruder, 147 A.2d 208 (Md. 1958)\",\n            \"link_md\": \"[J. F. Johnson Lumber Co. v. Magruder, 147 A.2d 208 (Md. 1958)](https://syfert.com/maryland/cases/218-md-440/j-f-johnson-lumber-co-v-magruder)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 14,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"J. F. Johnson Lumber Co. v. Magruder\",\n        \"actual\": \"J. F. Johnson Lumber Co. v. Magruder\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "147 A.2d 208",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1438541,
+    "case_name": "J. F. Johnson Lumber Co. v. Magruder",
+    "citations": [
+     "147 A.2d 208"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "1958-09-01",
+    "status": "Published",
+    "cited_by": 26,
+    "url": "https://syfert.com/maryland/cases/218-md-440/j-f-johnson-lumber-co-v-magruder",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "J. F. Johnson Lumber Co. v. Magruder, 147 A.2d 208 (Md. 1958)",
+    "link_md": "[J. F. Johnson Lumber Co. v. Magruder, 147 A.2d 208 (Md. 1958)](https://syfert.com/maryland/cases/218-md-440/j-f-johnson-lumber-co-v-magruder)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 14,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "J. F. Johnson Lumber Co. v. Magruder",
+   "actual": "J. F. Johnson Lumber Co. v. Magruder",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

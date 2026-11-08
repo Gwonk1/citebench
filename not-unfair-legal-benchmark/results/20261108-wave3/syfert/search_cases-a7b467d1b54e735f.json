@@ -1,0 +1,113 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Laver w/15 \"11 Ill. App. 2d 323\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Laver w/15 \\\"11 Ill. App. 2d 323\\\"\",\"total\":8,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2240829,\"bluebook\":\"Buckner v. Atl. Plant Maint., Inc., 694 N.E.2d 565 (Ill. 1998)\",\"url\":\"https://syfert.com/illinois/cases/182-ill-2d-12/buckner-v-atlantic-plant-maintenance-inc\",\"date_filed\":\"1998-04-16\",\"cited_by\":193,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Meier, 394 Ill. 71, 77 (1946); Laver v. Kingston, 11 Ill. App. 2d 323, 327-28 (1956). The majority states that these general principles of agency law may not “logically” be applied to the tort of retaliatory discharge. The majority…\",\"holding\":\"A state law conspiracy claim requires a combination of two or more persons acting through concerted action for an unlawful purpose or a lawful purpose by unlawful means.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":2254763,\"bluebook\":\"Saichek v. Lupa, 787 N.E.2d 827 (Ill. 2003)\",\"url\":\"https://syfert.com/illinois/cases/204-ill-2d-127/saichek-v-lupa\",\"date_filed\":\"2003-03-20\",\"cited_by\":59,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (2254763 and its twin 3135042).\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...The situation is analogous to the one present in Laver v. Kingston, 11 Ill. App. 2d 323 (1956), where a motorist was struck and injured by a truck owned by Archer-Daniel-Midland Company (ADM). The motorist sued ADM in federal court…\",\"holding\":\"A plaintiff may not recover more than once for a single, indivisible injury.\",\"holding_ai_generated\":true,\"disposition\":\"reversed in part\",\"disposition_source\":\"headnote\"},{\"cluster_id\":278370,\"bluebook\":\"John T. Gudgel v. S. Shippers, Inc., 387 F.2d 723 (7th Cir. 1967)\",\"url\":\"https://syfert.com/federal/circuits/cases/387-f-2d-723/john-t-gudgel-v-southern-shippers-inc\",\"date_filed\":\"1967-10-26\",\"cited_by\":25,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":1},\"snippet\":\"...Co., 14 Ill.App.2d 5, 32-33 , 142 N.E.2d 717 (1957); Laver v. Kingston, 11 Ill.App.2d 323 , 137 N.E.2d 113 (1956). The relationship of master and servant exists if the master has the right to control the servant. Darner v. Colby, supra;…\"},{\"cluster_id\":2219444,\"bluebook\":\"Anderson v. Martzke, 266 N.E.2d 137 (Ill. App. Ct. 1970)\",\"url\":\"https://syfert.com/illinois/cases/131-ill-app-2d-61/anderson-v-martzke\",\"date_filed\":\"1970-11-05\",\"cited_by\":25,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In Laver v. Kingston (1956), 11 Ill.App.2d 323 , 137 N.E.2d 113 , plaintiff attempted to recover damages from an employer of a truck driver for the same injuries and under the same facts for which he had already obtained judgment…\"},{\"cluster_id\":2015173,\"bluebook\":\"Devore v. Peoria Indus. Piping Co., 482 N.E.2d 653 (Ill. App. Ct. 3d Dist. 1985)\",\"url\":\"https://syfert.com/illinois/cases/135-ill-app-3d-966/devore-v-peoria-industrial-piping-co\",\"date_filed\":\"1985-08-14\",\"cited_by\":4,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...For this doctrine to apply, there must be a master-servant relationship and the servant’s wrongful conduct must have been committed within the scope of the employment relationship. (Laver v. Kingston (1956), 11 Ill. App. 2d 323 , 137…\"},{\"cluster_id\":10946415,\"bluebook\":\"Gillette, No. 1:26-cv-01455 (N.D. Ill. July 31, 2026)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10946415/laura-gillette-v-menard-inc-and-carlos-salinas-gallo\",\"date_filed\":\"2026-07-31\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...May 3, 2007), where the court\\nborrowed the phrase from a 1956 Illinois Appellate court case, stating that, in Illinois, an\\n“employee can be found liable as the ‘active tort-feasor [who] committed the act which caused\\nthe injury.’”…\"},{\"cluster_id\":3134495,\"bluebook\":\"Buckner v. Atl. Plant Maint., Inc., No. 83321 (Ill. Apr. 16, 1998)\",\"url\":\"https://syfert.com/illinois/cases/cl-3134495/buckner-v-atlantic-plant-maintenance-inc\",\"date_filed\":\"1998-04-16\",\"cited_by\":0,\"snippet\":\"...Meier\\n, 394 Ill. 71, 77 (1946);\\nLaver v. Kingston\\n, 11 Ill. App. 2d 323, 327-28 (1956).\\nThe majority states that these general principles of agency law may not “[l]ogically” be applied to the tort of retaliatory discharge. The majority…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Laver w/15 \"11 Ill. App. 2d 323\"",
+  "total": 8,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2240829,
+    "bluebook": "Buckner v. Atl. Plant Maint., Inc., 694 N.E.2d 565 (Ill. 1998)",
+    "url": "https://syfert.com/illinois/cases/182-ill-2d-12/buckner-v-atlantic-plant-maintenance-inc",
+    "date_filed": "1998-04-16",
+    "cited_by": 193,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Meier, 394 Ill. 71, 77 (1946); Laver v. Kingston, 11 Ill. App. 2d 323, 327-28 (1956). The majority states that these general principles of agency law may not “logically” be applied to the tort of retaliatory discharge. The majority…",
+    "holding": "A state law conspiracy claim requires a combination of two or more persons acting through concerted action for an unlawful purpose or a lawful purpose by unlawful means.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 2254763,
+    "bluebook": "Saichek v. Lupa, 787 N.E.2d 827 (Ill. 2003)",
+    "url": "https://syfert.com/illinois/cases/204-ill-2d-127/saichek-v-lupa",
+    "date_filed": "2003-03-20",
+    "cited_by": 59,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (2254763 and its twin 3135042).",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The situation is analogous to the one present in Laver v. Kingston, 11 Ill. App. 2d 323 (1956), where a motorist was struck and injured by a truck owned by Archer-Daniel-Midland Company (ADM). The motorist sued ADM in federal court…",
+    "holding": "A plaintiff may not recover more than once for a single, indivisible injury.",
+    "holding_ai_generated": true,
+    "disposition": "reversed in part",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 278370,
+    "bluebook": "John T. Gudgel v. S. Shippers, Inc., 387 F.2d 723 (7th Cir. 1967)",
+    "url": "https://syfert.com/federal/circuits/cases/387-f-2d-723/john-t-gudgel-v-southern-shippers-inc",
+    "date_filed": "1967-10-26",
+    "cited_by": 25,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 1
+    },
+    "snippet": "...Co., 14 Ill.App.2d 5, 32-33 , 142 N.E.2d 717 (1957); Laver v. Kingston, 11 Ill.App.2d 323 , 137 N.E.2d 113 (1956). The relationship of master and servant exists if the master has the right to control the servant. Darner v. Colby, supra;…"
+   },
+   {
+    "cluster_id": 2219444,
+    "bluebook": "Anderson v. Martzke, 266 N.E.2d 137 (Ill. App. Ct. 1970)",
+    "url": "https://syfert.com/illinois/cases/131-ill-app-2d-61/anderson-v-martzke",
+    "date_filed": "1970-11-05",
+    "cited_by": 25,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In Laver v. Kingston (1956), 11 Ill.App.2d 323 , 137 N.E.2d 113 , plaintiff attempted to recover damages from an employer of a truck driver for the same injuries and under the same facts for which he had already obtained judgment…"
+   },
+   {
+    "cluster_id": 2015173,
+    "bluebook": "Devore v. Peoria Indus. Piping Co., 482 N.E.2d 653 (Ill. App. Ct. 3d Dist. 1985)",
+    "url": "https://syfert.com/illinois/cases/135-ill-app-3d-966/devore-v-peoria-industrial-piping-co",
+    "date_filed": "1985-08-14",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...For this doctrine to apply, there must be a master-servant relationship and the servant’s wrongful conduct must have been committed within the scope of the employment relationship. (Laver v. Kingston (1956), 11 Ill. App. 2d 323 , 137…"
+   },
+   {
+    "cluster_id": 10946415,
+    "bluebook": "Gillette, No. 1:26-cv-01455 (N.D. Ill. July 31, 2026)",
+    "url": "https://syfert.com/federal/district/cases/cl-10946415/laura-gillette-v-menard-inc-and-carlos-salinas-gallo",
+    "date_filed": "2026-07-31",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...May 3, 2007), where the court\nborrowed the phrase from a 1956 Illinois Appellate court case, stating that, in Illinois, an\n“employee can be found liable as the ‘active tort-feasor [who] committed the act which caused\nthe injury.’”…"
+   },
+   {
+    "cluster_id": 3134495,
+    "bluebook": "Buckner v. Atl. Plant Maint., Inc., No. 83321 (Ill. Apr. 16, 1998)",
+    "url": "https://syfert.com/illinois/cases/cl-3134495/buckner-v-atlantic-plant-maintenance-inc",
+    "date_filed": "1998-04-16",
+    "cited_by": 0,
+    "snippet": "...Meier\n, 394 Ill. 71, 77 (1946);\nLaver v. Kingston\n, 11 Ill. App. 2d 323, 327-28 (1956).\nThe majority states that these general principles of agency law may not “[l]ogically” be applied to the tort of retaliatory discharge. The majority…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

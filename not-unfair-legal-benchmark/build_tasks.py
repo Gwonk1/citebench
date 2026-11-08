@@ -10,6 +10,7 @@
 #   pilot.jsonl     the 2026-10-21 pilot passages
 #   regional.jsonl  build_regional.py (2026-11-07 regional-reporter corrections, citing-opinion evidence,
 #                   raw CourtListener replies saved in results/20261107-regional-wave/)   v1.2
+#   wave3.jsonl     build_wave3.py (2026-11-08 date corrections + regional wave 2; results/20261108-wave3/)   v1.3
 #   evidence.jsonl  v1.1 gold decisions: per item, keep or drop, the evidence
 #                   (cluster id on the public corpus, checked 2026-10-25), a gold
 #                   patch, and sometimes a new passage text. Applied last.
@@ -416,11 +417,17 @@ def from_regional():
     return [json.loads(line) for line in open(path) if line.strip()] if os.path.exists(path) else []
 
 
+def from_wave3():
+    """v1.3: the date class and regional wave 2, as build_wave3.py wrote them (gold and evidence final)."""
+    path = os.path.join(ITEMS, "wave3.jsonl")
+    return [json.loads(line) for line in open(path) if line.strip()] if os.path.exists(path) else []
+
+
 def main():
     con = None
     if os.path.exists(META):
         con = sqlite3.connect("file:" + META + "?mode=ro", uri=True)
-    rows = from_courts() + from_bluebook() + from_fixes(con) + from_harder() + from_controls() + from_pilot() + from_regional()
+    rows = from_courts() + from_bluebook() + from_fixes(con) + from_harder() + from_controls() + from_pilot() + from_regional() + from_wave3()
     rows, dropped = apply_evidence(rows)
     missing = [r["id"] for r in rows if not r.get("evidence")]
     if missing:

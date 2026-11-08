@@ -1,6 +1,6 @@
 # not-unfair-legal-benchmark
 
-Version 1.2 (2026-11-07). 250 passages. See `CHANGELOG.md` for every change from v1.0.
+Version 1.3 (2026-11-08). 292 passages. See `CHANGELOG.md` for every change from v1.0.
 
 This is the not-unfair legal benchmark. It challenges an agentic system on legal ability when that system is linked to a caselaw MCP.
 
@@ -30,6 +30,10 @@ A regional item (`class: regional`, ids `rg-*`) is a case whose regional reporte
 
 The passage gives either the printed number (`shape: i`), which a CourtListener-only checker calls missing, or the CourtListener number (`shape: ii`), which it confirms. Shape (i) is graded like a coverage item: the printed number plus the decision date or the court. Shape (ii) needs the printed number, and the old number may not be on the ANSWER line, even where the checker names both cases at that page.
 
+## Decision years (v1.3)
+
+A date item (`class: date`, ids `dt-*`) is a case whose decision year in the CourtListener corpus is impossible for the reporter volume it sits in (a 1956 A.2d volume carrying a "2001" decision). The gold is the year citing opinions print for it, quoted from at least two that name the case; none prints the stored year. The passage gives either the true year (`shape: i`), which a CourtListener-only checker calls a mismatch, or the stored year (`shape: ii`), which it confirms. The year is graded on the ANSWER line; the month and day are never required.
+
 ## Bluebooking
 
 A bluebooking item asks whether the court in the citation is the form a brief uses.
@@ -40,7 +44,7 @@ The other courts in the set are held to the Bluebook. A spelled-out state, a mis
 
 ## Controls
 
-Thirty-one items (`kind: control`: 24 `co-*` from v1.1 and 7 regional `rg-co-*` from v1.2) are ordinary, correct citations. The right answer is the citation, correct as written. A checker that calls every cite a misprint, an interior page or a fabrication fails them. They are scored on their own row so an arm's false-positive rate can be read next to its trap score. Half are casebook cases a bare model knows; half are ordinary reported cases nobody memorises, so the two cannot be told apart by fame.
+Thirty-seven items (`kind: control`: 24 `co-*` from v1.1, 7 regional `rg-co-*` from v1.2, 6 `dt-co-*` from v1.3) are ordinary, correct citations. The right answer is the citation, correct as written. A checker that calls every cite a misprint, an interior page or a fabrication fails them. They are scored on their own row so an arm's false-positive rate can be read next to its trap score. Half are casebook cases a bare model knows; half are ordinary reported cases nobody memorises, so the two cannot be told apart by fame.
 
 ## The same task for every system
 
@@ -100,7 +104,7 @@ Every item carries an `evidence` field: for a case, the cluster id of the decisi
 The code is this directory, `citebench/not-unfair-legal-benchmark/`.
 
 - `VERSION` is `1.1`.
-- `items/tasks.jsonl` is the set. 250 passages, each with `id`, `class`, `text`, `gold`, `evidence`, `version`, and where it applies `kind: control` and `bare_model_answerable`.
+- `items/tasks.jsonl` is the set. 292 passages, each with `id`, `class`, `text`, `gold`, `evidence`, `version`, and where it applies `kind: control` and `bare_model_answerable`.
 - `grade.py` is the instruction and the matcher. `test_grade.py` tests it. `grade_answers.py` scores a file of answers.
 - `items/pilot.jsonl`, `from_fixes.jsonl`, `bluebook.jsonl`, `courts.jsonl`, `harder.jsonl`, `controls.jsonl` are the lookups the passages were built from; `items/evidence.jsonl` is the v1.1 review of them. `build_tasks.py` rebuilds `tasks.jsonl` from all of them. `build_courts.py`, `build_harder.py` and `build_controls.py` rewrite their lookups without a database; `build_bluebook.py` and `build_from_fixes.py` describe how the 2026-10-21 samples were drawn from local fix ledgers and are kept for the record.
 - `run.py` is the CourtListener arm. It sends one lookup per call and writes `results/<date>/<id>.txt`. It skips ids already on disk. Pace is one call, then 1.5 seconds.

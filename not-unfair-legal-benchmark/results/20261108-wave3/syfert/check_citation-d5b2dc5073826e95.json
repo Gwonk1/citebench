@@ -1,0 +1,65 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "182 N.E.2d 552",
+  "expected_case_name": "Davis v. City of Willoughby"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"182 N.E.2d 552\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8386203,\n            \"case_name\": \"Davis v. City of Willoughby\",\n            \"citations\": [\n                \"182 N.E.2d 552\"\n            ],\n            \"court\": \"Ohio Supreme Court\",\n            \"date_filed\": \"1962-05-02\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/ohio/cases/173-ohio-st-338/davis-v-city-of-willoughby\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"173 Ohio St. 338\",\n                    \"recovered_from_citing_opinions\": 1,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 0.85,\n                    \"note\": \"Recovered parallel cite: 2 citing opinions confirm this cite (confidence 0.85)\"\n                },\n                {\n                    \"citation\": \"182 N.E.2d 562\",\n                    \"recovered_from_citing_opinions\": 1,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 0.85,\n                    \"note\": \"Recovered parallel cite: 1 citing opinion confirms this cite (confidence 0.85)\"\n                }\n            ],\n            \"bluebook\": \"Davis v. City of Willoughby, 182 N.E.2d 552 (Ohio 1962)\",\n            \"link_md\": \"[Davis v. City of Willoughby, 182 N.E.2d 552 (Ohio 1962)](https://syfert.com/ohio/cases/173-ohio-st-338/davis-v-city-of-willoughby)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Davis v. City of Willoughby\",\n        \"actual\": \"Davis v. City of Willoughby\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "182 N.E.2d 552",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8386203,
+    "case_name": "Davis v. City of Willoughby",
+    "citations": [
+     "182 N.E.2d 552"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1962-05-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/173-ohio-st-338/davis-v-city-of-willoughby",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "173 Ohio St. 338",
+      "recovered_from_citing_opinions": 1,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.85,
+      "note": "Recovered parallel cite: 2 citing opinions confirm this cite (confidence 0.85)"
+     },
+     {
+      "citation": "182 N.E.2d 562",
+      "recovered_from_citing_opinions": 1,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.85,
+      "note": "Recovered parallel cite: 1 citing opinion confirms this cite (confidence 0.85)"
+     }
+    ],
+    "bluebook": "Davis v. City of Willoughby, 182 N.E.2d 552 (Ohio 1962)",
+    "link_md": "[Davis v. City of Willoughby, 182 N.E.2d 552 (Ohio 1962)](https://syfert.com/ohio/cases/173-ohio-st-338/davis-v-city-of-willoughby)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Davis v. City of Willoughby",
+   "actual": "Davis v. City of Willoughby",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

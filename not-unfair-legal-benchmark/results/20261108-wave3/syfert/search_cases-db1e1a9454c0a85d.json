@@ -1,0 +1,48 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Reynard w/15 \"42 P.2d 293\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Reynard w/15 \\\"42 P.2d 293\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":103667,\"bluebook\":\"Mun. Investors Assn. v. Birmingham, 316 U.S. 153 (1942)\",\"url\":\"https://syfert.com/federal/scotus/cases/316-u-s-153/municipal-investors-assn-v-birmingham\",\"date_filed\":\"1942-04-27\",\"cited_by\":16,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...2d 172 ;\\nReynard\\nv.\\nCaldwell,\\n55 Idaho 342 , 42 P. 2d 292 ;\\nHartz\\nv.\\nTruckenmiller,\\n228 Iowa 819 , 293 N. W. 568 ;\\nState ex rel. Johnson\\nv.\\nDayton,\\n200 Wash. 91 , 93 P. 2d 909 . But cf.\\nState ex rel. Frazer\\nv.\\nHolt County Court,\\n135 Mo.…\"},{\"cluster_id\":3414542,\"bluebook\":\"Maguire v. Whillock, 124 P.2d 248 (Idaho 1942)\",\"url\":\"https://syfert.com/idaho/cases/124-p-2d-248/maguire-v-whillock\",\"date_filed\":\"1942-03-27\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"GIVENS, C.J.\\n— In the trial court respondent, trustee for the owner of all the remaining unpaid bonds of the special or local improvement district involved, successfully sued out a writ of mandamus to compel appellant to reassess, under…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Reynard w/15 \"42 P.2d 293\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 103667,
+    "bluebook": "Mun. Investors Assn. v. Birmingham, 316 U.S. 153 (1942)",
+    "url": "https://syfert.com/federal/scotus/cases/316-u-s-153/municipal-investors-assn-v-birmingham",
+    "date_filed": "1942-04-27",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2d 172 ;\nReynard\nv.\nCaldwell,\n55 Idaho 342 , 42 P. 2d 292 ;\nHartz\nv.\nTruckenmiller,\n228 Iowa 819 , 293 N. W. 568 ;\nState ex rel. Johnson\nv.\nDayton,\n200 Wash. 91 , 93 P. 2d 909 . But cf.\nState ex rel. Frazer\nv.\nHolt County Court,\n135 Mo.…"
+   },
+   {
+    "cluster_id": 3414542,
+    "bluebook": "Maguire v. Whillock, 124 P.2d 248 (Idaho 1942)",
+    "url": "https://syfert.com/idaho/cases/124-p-2d-248/maguire-v-whillock",
+    "date_filed": "1942-03-27",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "GIVENS, C.J.\n— In the trial court respondent, trustee for the owner of all the remaining unpaid bonds of the special or local improvement district involved, successfully sued out a writ of mandamus to compel appellant to reassess, under…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

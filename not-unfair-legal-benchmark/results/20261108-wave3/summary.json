@@ -1,0 +1,45 @@
+{
+ "items": 42,
+ "by_class_shape": {
+  "date/i/-": 10,
+  "date/ii/-": 10,
+  "regional/i/A": 7,
+  "regional/ii/A": 5,
+  "regional/i/C": 2,
+  "regional/ii/C": 2,
+  "control/-/-": 6
+ },
+ "date_by_court": {
+  "minn": 2,
+  "mich": 1,
+  "tex": 1,
+  "ri": 1,
+  "nysd": 1,
+  "pa": 1,
+  "illappct": 1,
+  "ca5": 1,
+  "ark": 1,
+  "md": 10
+ },
+ "regional_by_reporter": {
+  "S.E.": 1,
+  "S.E.2d": 2,
+  "N.W.": 2,
+  "N.E.": 1,
+  "P.": 3,
+  "P.2d": 1,
+  "A.": 1,
+  "So.": 2,
+  "S.W.": 1,
+  "S.W.2d": 1,
+  "N.E.2d": 1
+ },
+ "drops_by_stage": {
+  "evidence/date": 9,
+  "evidence/regional": 10,
+  "evidence/control": 4,
+  "cl/": 1,
+  "review/": 1
+ },
+ "self_check_failures": []
+}

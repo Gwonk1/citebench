@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "137 A.2d 119",
+  "expected_case_name": "Palmer v. State"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"137 A.2d 119\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1933376,\n            \"case_name\": \"Palmer v. State\",\n            \"citations\": [\n                \"137 A.2d 119\"\n            ],\n            \"court\": \"Court of Appeals of Maryland\",\n            \"date_filed\": \"1957-12-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 22,\n            \"url\": \"https://syfert.com/maryland/cases/215-md-142/palmer-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Palmer v. State, 137 A.2d 119 (Md. 1957)\",\n            \"link_md\": \"[Palmer v. State, 137 A.2d 119 (Md. 1957)](https://syfert.com/maryland/cases/215-md-142/palmer-v-state)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 9,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Palmer v. State\",\n        \"actual\": \"Palmer v. State\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "137 A.2d 119",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1933376,
+    "case_name": "Palmer v. State",
+    "citations": [
+     "137 A.2d 119"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "1957-12-19",
+    "status": "Published",
+    "cited_by": 22,
+    "url": "https://syfert.com/maryland/cases/215-md-142/palmer-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palmer v. State, 137 A.2d 119 (Md. 1957)",
+    "link_md": "[Palmer v. State, 137 A.2d 119 (Md. 1957)](https://syfert.com/maryland/cases/215-md-142/palmer-v-state)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 9,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Palmer v. State",
+   "actual": "Palmer v. State",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

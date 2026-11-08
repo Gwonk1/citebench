@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "102 N.H. 233",
+  "expected_case_name": "Manchester Federal Savings & Loan Ass'n v. Emery-Waterhouse Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"102 N.H. 233\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8088249,\n            \"case_name\": \"Manchester Federal Savings & Loan Ass'n v. Emery-Waterhouse Co.\",\n            \"citations\": [\n                \"102 N.H. 233\"\n            ],\n            \"court\": \"Supreme Court of New Hampshire\",\n            \"date_filed\": \"1959-08-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 5,\n            \"url\": \"https://syfert.com/new-hampshire/cases/102-n-h-233/manchester-federal-savings-loan-assn-v-emery-waterhouse-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Manchester Fed. Sav. & Loan Ass'n v. Emery-Waterhouse Co., 102 N.H. 233 (1959)\",\n            \"link_md\": \"[Manchester Fed. Sav. & Loan Ass'n v. Emery-Waterhouse Co., 102 N.H. 233 (1959)](https://syfert.com/new-hampshire/cases/102-n-h-233/manchester-federal-savings-loan-assn-v-emery-waterhouse-co)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Manchester Federal Savings & Loan Ass'n v. Emery-Waterhouse Co.\",\n        \"actual\": \"Manchester Federal Savings & Loan Ass'n v. Emery-Waterhouse Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "102 N.H. 233",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8088249,
+    "case_name": "Manchester Federal Savings & Loan Ass'n v. Emery-Waterhouse Co.",
+    "citations": [
+     "102 N.H. 233"
+    ],
+    "court": "Supreme Court of New Hampshire",
+    "date_filed": "1959-08-18",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-hampshire/cases/102-n-h-233/manchester-federal-savings-loan-assn-v-emery-waterhouse-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Manchester Fed. Sav. & Loan Ass'n v. Emery-Waterhouse Co., 102 N.H. 233 (1959)",
+    "link_md": "[Manchester Fed. Sav. & Loan Ass'n v. Emery-Waterhouse Co., 102 N.H. 233 (1959)](https://syfert.com/new-hampshire/cases/102-n-h-233/manchester-federal-savings-loan-assn-v-emery-waterhouse-co)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Manchester Federal Savings & Loan Ass'n v. Emery-Waterhouse Co.",
+   "actual": "Manchester Federal Savings & Loan Ass'n v. Emery-Waterhouse Co.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

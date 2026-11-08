@@ -1,0 +1,407 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Gattegno w/15 \"53 SW2d 1005\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Gattegno w/15 \\\"53 SW2d 1005\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7584573,\"case_name\":\"State v. Gatto\",\"citations\":[\"404 So. 2d 1243\",\"1981 La. LEXIS 10275\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1981-09-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/404-so-2d-1243/state-v-gatto\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Gatto, 404 So. 2d 1243 (La. 1981)\",\"link_md\":\"[State v. Gatto, 404 So. 2d 1243 (La. 1981)](https://syfert.com/louisiana/cases/404-so-2d-1243/state-v-gatto)\",\"match_kind\":\"semantic\",\"similarity\":0.5725},{\"cluster_id\":5477811,\"case_name\":\"Gaeta v. Gargano\",\"citations\":[\"232 A.D. 704\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1931-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/232-a-d-704/gaeta-v-gargano\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gaeta v. Gargano, 232 A.D. 704 (N.Y. App. Div. 1931)\",\"link_md\":\"[Gaeta v. Gargano, 232 A.D. 704 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/232-a-d-704/gaeta-v-gargano)\",\"match_kind\":\"semantic\",\"similarity\":0.5557},{\"cluster_id\":8349887,\"case_name\":\"Taggart v. Annan\",\"citations\":[\"21 Jones & S. 543\"],\"court\":\"The Superior Court of New York City\",\"date_filed\":\"1886-06-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-8349887/taggart-v-annan\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Taggart v. Annan, 21 Jones & S. 543 (N.Y. Super. Ct. 1886)\",\"link_md\":\"[Taggart v. Annan, 21 Jones & S. 543 (N.Y. Super. Ct. 1886)](https://syfert.com/new-york/cases/cl-8349887/taggart-v-annan)\",\"match_kind\":\"semantic\",\"similarity\":0.5547},{\"cluster_id\":5159884,\"case_name\":\"McGarity v. Digiuseppe\",\"citations\":[\"168 A.3d 1244\",\"2017 WL 1275136\",\"2017 Pa. LEXIS 776\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2017-04-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/168-a-3d-1244/mcgarity-v-digiuseppe\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (5159884 and its twins 5159885, 5159886). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGarity v. Digiuseppe, 168 A.3d 1244 (Pa. 2017)\",\"link_md\":\"[McGarity v. Digiuseppe, 168 A.3d 1244 (Pa. 2017)](https://syfert.com/pennsylvania/cases/168-a-3d-1244/mcgarity-v-digiuseppe)\",\"match_kind\":\"semantic\",\"similarity\":0.5513,\"twin_clusters\":[5159886,5159885]},{\"cluster_id\":328349,\"case_name\":\"Saitta v. Genung\",\"citations\":[\"517 F.2d 1401\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1975-08-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/517-f-2d-1401/saitta-v-genung\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Saitta v. Genung, 517 F.2d 1401 (5th Cir. 1975)\",\"link_md\":\"[Saitta v. Genung, 517 F.2d 1401 (5th Cir. 1975)](https://syfert.com/federal/circuits/cases/517-f-2d-1401/saitta-v-genung)\",\"match_kind\":\"semantic\",\"similarity\":0.5493},{\"cluster_id\":5685342,\"case_name\":\"Pattengell v. Welsh\",\"citations\":[\"429 N.E.2d 830\",\"54 N.Y.2d 917\",\"445 N.Y.S.2d 151\",\"1981 N.Y. LEXIS 3113\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1981-10-20\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/new-york/cases/54-n-y-2d-917/pattengell-v-welsh\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pattengell v. Welsh, 429 N.E.2d 830 (N.Y. 1981)\",\"link_md\":\"[Pattengell v. Welsh, 429 N.E.2d 830 (N.Y. 1981)](https://syfert.com/new-york/cases/54-n-y-2d-917/pattengell-v-welsh)\",\"match_kind\":\"semantic\",\"similarity\":0.5489},{\"cluster_id\":5372793,\"case_name\":\"Gatto v. Flannagan\",\"citations\":[\"127 A.D. 929\",\"111 N.Y.S. 1120\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1908-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/127-a-d-929/gatto-v-flannagan\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gatto v. Flannagan, 127 A.D. 929 (N.Y. App. Div. 1908)\",\"link_md\":\"[Gatto v. Flannagan, 127 A.D. 929 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/127-a-d-929/gatto-v-flannagan)\",\"match_kind\":\"semantic\",\"similarity\":0.5465},{\"cluster_id\":3368724,\"case_name\":\"Gattoni v. Zaccaro\",\"citations\":[\"1998 Conn. Super. Ct. 3495\"],\"court\":\"Connecticut Superior Court\",\"date_filed\":\"1998-03-30\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/connecticut/cases/1998-conn-super-ct-3495/gattoni-v-zaccaro-no-542558-mar-30-1998\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gattoni v. Zaccaro, 1998 Conn. Super. Ct. 3495 (Conn. Super. Ct. 1998)\",\"link_md\":\"[Gattoni v. Zaccaro, 1998 Conn. Super. Ct. 3495 (Conn. Super. Ct. 1998)](https://syfert.com/connecticut/cases/1998-conn-super-ct-3495/gattoni-v-zaccaro-no-542558-mar-30-1998)\",\"match_kind\":\"semantic\",\"similarity\":0.544},{\"cluster_id\":5934452,\"case_name\":\"People v. La Gatta\",\"citations\":[\"44 A.D.2d 830\",\"354 N.Y.S.2d 1019\",\"1974 N.Y. App. Div. LEXIS 5106\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1974-05-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/44-a-d-2d-830/people-v-la-gatta\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. La Gatta, 44 A.D.2d 830 (N.Y. App. Div. 2d Dep't 1974)\",\"link_md\":\"[People v. La Gatta, 44 A.D.2d 830 (N.Y. App. Div. 2d Dep't 1974)](https://syfert.com/new-york/cases/44-a-d-2d-830/people-v-la-gatta)\",\"match_kind\":\"semantic\",\"similarity\":0.5437},{\"cluster_id\":5387900,\"case_name\":\"Gannelli v. Saratoga Coal Co.\",\"citations\":[\"150 A.D. 894\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1912-03-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/150-a-d-894/gannelli-v-saratoga-coal-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gannelli v. Saratoga Coal Co., 150 A.D. 894 (N.Y. App. Div. 1912)\",\"link_md\":\"[Gannelli v. Saratoga Coal Co., 150 A.D. 894 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/150-a-d-894/gannelli-v-saratoga-coal-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5428},{\"cluster_id\":725703,\"case_name\":\"Gant v. Cheshire\",\"citations\":[\"95 F.3d 45\",\"1996 U.S. App. LEXIS 19588\",\"1996 WL 405450\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1996-06-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/95-f-3d-45/gant-v-cheshire\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gant v. Cheshire, 95 F.3d 45 (5th Cir. 1996)\",\"link_md\":\"[Gant v. Cheshire, 95 F.3d 45 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/95-f-3d-45/gant-v-cheshire)\",\"match_kind\":\"semantic\",\"similarity\":0.5395},{\"cluster_id\":3612184,\"case_name\":\"Geoghegan v. . Chatterton\",\"citations\":[\"89 N.E. 1100\",\"195 N.Y. 595\",\"1909 N.Y. LEXIS 1204\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1909-06-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/195-n-y-595/geoghegan-v-chatterton\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Geoghegan v. Chatterton, 89 N.E. 1100 (N.Y. 1909)\",\"link_md\":\"[Geoghegan v. Chatterton, 89 N.E. 1100 (N.Y. 1909)](https://syfert.com/new-york/cases/195-n-y-595/geoghegan-v-chatterton)\",\"match_kind\":\"semantic\",\"similarity\":0.5386},{\"cluster_id\":6530075,\"case_name\":\"Sanger v. Stimpson\",\"citations\":[\"8 Mass. 260\"],\"court\":\"Massachusetts Supreme Judicial Court\",\"date_filed\":\"1811-10-15\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/massachusetts/cases/cl-6530075/sanger-v-stimpson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sanger v. Stimpson, 8 Mass. 260 (1811)\",\"link_md\":\"[Sanger v. Stimpson, 8 Mass. 260 (1811)](https://syfert.com/massachusetts/cases/cl-6530075/sanger-v-stimpson)\",\"match_kind\":\"semantic\",\"similarity\":0.5385},{\"cluster_id\":5564953,\"case_name\":\"Giallorenzi v. Caggiano\",\"citations\":[\"31 Misc. 785\",\"65 N.Y.S. 194\"],\"court\":\"Appellate Terms of the Supreme Court of New York\",\"date_filed\":\"1900-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/31-misc-785/giallorenzi-v-caggiano\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Giallorenzi v. Caggiano, 31 Misc. 785 (N.Y. App. Term. 1900)\",\"link_md\":\"[Giallorenzi v. Caggiano, 31 Misc. 785 (N.Y. App. Term. 1900)](https://syfert.com/new-york/cases/31-misc-785/giallorenzi-v-caggiano)\",\"match_kind\":\"semantic\",\"similarity\":0.5375},{\"cluster_id\":5465549,\"case_name\":\"Gaita v. Windsor Bank\",\"citations\":[\"225 A.D. 750\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1928-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/225-a-d-750/gaita-v-windsor-bank\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gaita v. Windsor Bank, 225 A.D. 750 (N.Y. App. Div. 1928)\",\"link_md\":\"[Gaita v. Windsor Bank, 225 A.D. 750 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/225-a-d-750/gaita-v-windsor-bank)\",\"match_kind\":\"semantic\",\"similarity\":0.537},{\"cluster_id\":5510721,\"case_name\":\"Gallopin v. Anglo-South American Trust Co.\",\"citations\":[\"251 A.D. 811\",\"298 N.Y.S. 403\",\"1937 N.Y. App. Div. LEXIS 7720\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1937-06-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/251-a-d-811/gallopin-v-anglo-south-american-trust-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gallopin v. Anglo-South Am. Trust Co., 251 A.D. 811 (N.Y. App. Div. 1st Dep't 1937)\",\"link_md\":\"[Gallopin v. Anglo-South Am. Trust Co., 251 A.D. 811 (N.Y. App. Div. 1st Dep't 1937)](https://syfert.com/new-york/cases/251-a-d-811/gallopin-v-anglo-south-american-trust-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5349},{\"cluster_id\":6590955,\"case_name\":\"Wharton v. Walley\",\"citations\":[\"2 Rec. Co. Ct. 745\"],\"court\":\"Suffolk County Court\",\"date_filed\":\"1676-10-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6590955/wharton-v-walley\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wharton v. Walley, 2 Rec. Co. Ct. 745 (N.Y. Cnty. Ct. 1676)\",\"link_md\":\"[Wharton v. Walley, 2 Rec. Co. Ct. 745 (N.Y. Cnty. Ct. 1676)](https://syfert.com/new-york/cases/cl-6590955/wharton-v-walley)\",\"match_kind\":\"semantic\",\"similarity\":0.534},{\"cluster_id\":5371932,\"case_name\":\"Geoghegan v. Chatterton\",\"citations\":[\"126 A.D. 913\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1908-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/126-a-d-913/geoghegan-v-chatterton\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Geoghegan v. Chatterton, 126 A.D. 913 (N.Y. App. Div. 1908)\",\"link_md\":\"[Geoghegan v. Chatterton, 126 A.D. 913 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/126-a-d-913/geoghegan-v-chatterton)\",\"match_kind\":\"semantic\",\"similarity\":0.5339},{\"cluster_id\":6591435,\"case_name\":\"Brentnall v. Gatchell\",\"citations\":[\"2 Rec. Co. Ct. 1137\"],\"court\":\"Suffolk County Court\",\"date_filed\":\"1680-01-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6591435/brentnall-v-gatchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Brentnall v. Gatchell, 2 Rec. Co. Ct. 1137 (N.Y. Cnty. Ct. 1680)\",\"link_md\":\"[Brentnall v. Gatchell, 2 Rec. Co. Ct. 1137 (N.Y. Cnty. Ct. 1680)](https://syfert.com/new-york/cases/cl-6591435/brentnall-v-gatchell)\",\"match_kind\":\"semantic\",\"similarity\":0.5338},{\"cluster_id\":3610980,\"case_name\":\"De Gaetano v. Merritt & Chapman Derrick & Wrecking Co.\",\"citations\":[\"161 N.E. 188\",\"247 N.Y. 574\",\"1928 N.Y. LEXIS 1170\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1928-02-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/247-n-y-574/de-gaetano-v-merritt-chapman-derrick-wrecking-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"De Gaetano v. Merritt & Chapman Derrick & Wrecking Co., 161 N.E. 188 (N.Y. 1928)\",\"link_md\":\"[De Gaetano v. Merritt & Chapman Derrick & Wrecking Co., 161 N.E. 188 (N.Y. 1928)](https://syfert.com/new-york/cases/247-n-y-574/de-gaetano-v-merritt-chapman-derrick-wrecking-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5335}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Gattegno w/15 \"53 SW2d 1005\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7584573,
+    "case_name": "State v. Gatto",
+    "citations": [
+     "404 So. 2d 1243",
+     "1981 La. LEXIS 10275"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1981-09-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/404-so-2d-1243/state-v-gatto",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Gatto, 404 So. 2d 1243 (La. 1981)",
+    "link_md": "[State v. Gatto, 404 So. 2d 1243 (La. 1981)](https://syfert.com/louisiana/cases/404-so-2d-1243/state-v-gatto)",
+    "match_kind": "semantic",
+    "similarity": 0.5725
+   },
+   {
+    "cluster_id": 5477811,
+    "case_name": "Gaeta v. Gargano",
+    "citations": [
+     "232 A.D. 704"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1931-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/232-a-d-704/gaeta-v-gargano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gaeta v. Gargano, 232 A.D. 704 (N.Y. App. Div. 1931)",
+    "link_md": "[Gaeta v. Gargano, 232 A.D. 704 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/232-a-d-704/gaeta-v-gargano)",
+    "match_kind": "semantic",
+    "similarity": 0.5557
+   },
+   {
+    "cluster_id": 8349887,
+    "case_name": "Taggart v. Annan",
+    "citations": [
+     "21 Jones & S. 543"
+    ],
+    "court": "The Superior Court of New York City",
+    "date_filed": "1886-06-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-8349887/taggart-v-annan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Taggart v. Annan, 21 Jones & S. 543 (N.Y. Super. Ct. 1886)",
+    "link_md": "[Taggart v. Annan, 21 Jones & S. 543 (N.Y. Super. Ct. 1886)](https://syfert.com/new-york/cases/cl-8349887/taggart-v-annan)",
+    "match_kind": "semantic",
+    "similarity": 0.5547
+   },
+   {
+    "cluster_id": 5159884,
+    "case_name": "McGarity v. Digiuseppe",
+    "citations": [
+     "168 A.3d 1244",
+     "2017 WL 1275136",
+     "2017 Pa. LEXIS 776"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2017-04-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/168-a-3d-1244/mcgarity-v-digiuseppe",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (5159884 and its twins 5159885, 5159886). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGarity v. Digiuseppe, 168 A.3d 1244 (Pa. 2017)",
+    "link_md": "[McGarity v. Digiuseppe, 168 A.3d 1244 (Pa. 2017)](https://syfert.com/pennsylvania/cases/168-a-3d-1244/mcgarity-v-digiuseppe)",
+    "match_kind": "semantic",
+    "similarity": 0.5513,
+    "twin_clusters": [
+     5159886,
+     5159885
+    ]
+   },
+   {
+    "cluster_id": 328349,
+    "case_name": "Saitta v. Genung",
+    "citations": [
+     "517 F.2d 1401"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1975-08-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/517-f-2d-1401/saitta-v-genung",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Saitta v. Genung, 517 F.2d 1401 (5th Cir. 1975)",
+    "link_md": "[Saitta v. Genung, 517 F.2d 1401 (5th Cir. 1975)](https://syfert.com/federal/circuits/cases/517-f-2d-1401/saitta-v-genung)",
+    "match_kind": "semantic",
+    "similarity": 0.5493
+   },
+   {
+    "cluster_id": 5685342,
+    "case_name": "Pattengell v. Welsh",
+    "citations": [
+     "429 N.E.2d 830",
+     "54 N.Y.2d 917",
+     "445 N.Y.S.2d 151",
+     "1981 N.Y. LEXIS 3113"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1981-10-20",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/new-york/cases/54-n-y-2d-917/pattengell-v-welsh",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pattengell v. Welsh, 429 N.E.2d 830 (N.Y. 1981)",
+    "link_md": "[Pattengell v. Welsh, 429 N.E.2d 830 (N.Y. 1981)](https://syfert.com/new-york/cases/54-n-y-2d-917/pattengell-v-welsh)",
+    "match_kind": "semantic",
+    "similarity": 0.5489
+   },
+   {
+    "cluster_id": 5372793,
+    "case_name": "Gatto v. Flannagan",
+    "citations": [
+     "127 A.D. 929",
+     "111 N.Y.S. 1120"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1908-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/127-a-d-929/gatto-v-flannagan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gatto v. Flannagan, 127 A.D. 929 (N.Y. App. Div. 1908)",
+    "link_md": "[Gatto v. Flannagan, 127 A.D. 929 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/127-a-d-929/gatto-v-flannagan)",
+    "match_kind": "semantic",
+    "similarity": 0.5465
+   },
+   {
+    "cluster_id": 3368724,
+    "case_name": "Gattoni v. Zaccaro",
+    "citations": [
+     "1998 Conn. Super. Ct. 3495"
+    ],
+    "court": "Connecticut Superior Court",
+    "date_filed": "1998-03-30",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/connecticut/cases/1998-conn-super-ct-3495/gattoni-v-zaccaro-no-542558-mar-30-1998",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Gattoni v. Zaccaro, 1998 Conn. Super. Ct. 3495 (Conn. Super. Ct. 1998)",
+    "link_md": "[Gattoni v. Zaccaro, 1998 Conn. Super. Ct. 3495 (Conn. Super. Ct. 1998)](https://syfert.com/connecticut/cases/1998-conn-super-ct-3495/gattoni-v-zaccaro-no-542558-mar-30-1998)",
+    "match_kind": "semantic",
+    "similarity": 0.544
+   },
+   {
+    "cluster_id": 5934452,
+    "case_name": "People v. La Gatta",
+    "citations": [
+     "44 A.D.2d 830",
+     "354 N.Y.S.2d 1019",
+     "1974 N.Y. App. Div. LEXIS 5106"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1974-05-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/44-a-d-2d-830/people-v-la-gatta",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. La Gatta, 44 A.D.2d 830 (N.Y. App. Div. 2d Dep't 1974)",
+    "link_md": "[People v. La Gatta, 44 A.D.2d 830 (N.Y. App. Div. 2d Dep't 1974)](https://syfert.com/new-york/cases/44-a-d-2d-830/people-v-la-gatta)",
+    "match_kind": "semantic",
+    "similarity": 0.5437
+   },
+   {
+    "cluster_id": 5387900,
+    "case_name": "Gannelli v. Saratoga Coal Co.",
+    "citations": [
+     "150 A.D. 894"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1912-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/150-a-d-894/gannelli-v-saratoga-coal-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gannelli v. Saratoga Coal Co., 150 A.D. 894 (N.Y. App. Div. 1912)",
+    "link_md": "[Gannelli v. Saratoga Coal Co., 150 A.D. 894 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/150-a-d-894/gannelli-v-saratoga-coal-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5428
+   },
+   {
+    "cluster_id": 725703,
+    "case_name": "Gant v. Cheshire",
+    "citations": [
+     "95 F.3d 45",
+     "1996 U.S. App. LEXIS 19588",
+     "1996 WL 405450"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1996-06-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/95-f-3d-45/gant-v-cheshire",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gant v. Cheshire, 95 F.3d 45 (5th Cir. 1996)",
+    "link_md": "[Gant v. Cheshire, 95 F.3d 45 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/95-f-3d-45/gant-v-cheshire)",
+    "match_kind": "semantic",
+    "similarity": 0.5395
+   },
+   {
+    "cluster_id": 3612184,
+    "case_name": "Geoghegan v. . Chatterton",
+    "citations": [
+     "89 N.E. 1100",
+     "195 N.Y. 595",
+     "1909 N.Y. LEXIS 1204"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1909-06-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/195-n-y-595/geoghegan-v-chatterton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Geoghegan v. Chatterton, 89 N.E. 1100 (N.Y. 1909)",
+    "link_md": "[Geoghegan v. Chatterton, 89 N.E. 1100 (N.Y. 1909)](https://syfert.com/new-york/cases/195-n-y-595/geoghegan-v-chatterton)",
+    "match_kind": "semantic",
+    "similarity": 0.5386
+   },
+   {
+    "cluster_id": 6530075,
+    "case_name": "Sanger v. Stimpson",
+    "citations": [
+     "8 Mass. 260"
+    ],
+    "court": "Massachusetts Supreme Judicial Court",
+    "date_filed": "1811-10-15",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/massachusetts/cases/cl-6530075/sanger-v-stimpson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sanger v. Stimpson, 8 Mass. 260 (1811)",
+    "link_md": "[Sanger v. Stimpson, 8 Mass. 260 (1811)](https://syfert.com/massachusetts/cases/cl-6530075/sanger-v-stimpson)",
+    "match_kind": "semantic",
+    "similarity": 0.5385
+   },
+   {
+    "cluster_id": 5564953,
+    "case_name": "Giallorenzi v. Caggiano",
+    "citations": [
+     "31 Misc. 785",
+     "65 N.Y.S. 194"
+    ],
+    "court": "Appellate Terms of the Supreme Court of New York",
+    "date_filed": "1900-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/31-misc-785/giallorenzi-v-caggiano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Giallorenzi v. Caggiano, 31 Misc. 785 (N.Y. App. Term. 1900)",
+    "link_md": "[Giallorenzi v. Caggiano, 31 Misc. 785 (N.Y. App. Term. 1900)](https://syfert.com/new-york/cases/31-misc-785/giallorenzi-v-caggiano)",
+    "match_kind": "semantic",
+    "similarity": 0.5375
+   },
+   {
+    "cluster_id": 5465549,
+    "case_name": "Gaita v. Windsor Bank",
+    "citations": [
+     "225 A.D. 750"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1928-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/225-a-d-750/gaita-v-windsor-bank",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gaita v. Windsor Bank, 225 A.D. 750 (N.Y. App. Div. 1928)",
+    "link_md": "[Gaita v. Windsor Bank, 225 A.D. 750 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/225-a-d-750/gaita-v-windsor-bank)",
+    "match_kind": "semantic",
+    "similarity": 0.537
+   },
+   {
+    "cluster_id": 5510721,
+    "case_name": "Gallopin v. Anglo-South American Trust Co.",
+    "citations": [
+     "251 A.D. 811",
+     "298 N.Y.S. 403",
+     "1937 N.Y. App. Div. LEXIS 7720"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1937-06-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/251-a-d-811/gallopin-v-anglo-south-american-trust-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gallopin v. Anglo-South Am. Trust Co., 251 A.D. 811 (N.Y. App. Div. 1st Dep't 1937)",
+    "link_md": "[Gallopin v. Anglo-South Am. Trust Co., 251 A.D. 811 (N.Y. App. Div. 1st Dep't 1937)](https://syfert.com/new-york/cases/251-a-d-811/gallopin-v-anglo-south-american-trust-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5349
+   },
+   {
+    "cluster_id": 6590955,
+    "case_name": "Wharton v. Walley",
+    "citations": [
+     "2 Rec. Co. Ct. 745"
+    ],
+    "court": "Suffolk County Court",
+    "date_filed": "1676-10-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6590955/wharton-v-walley",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wharton v. Walley, 2 Rec. Co. Ct. 745 (N.Y. Cnty. Ct. 1676)",
+    "link_md": "[Wharton v. Walley, 2 Rec. Co. Ct. 745 (N.Y. Cnty. Ct. 1676)](https://syfert.com/new-york/cases/cl-6590955/wharton-v-walley)",
+    "match_kind": "semantic",
+    "similarity": 0.534
+   },
+   {
+    "cluster_id": 5371932,
+    "case_name": "Geoghegan v. Chatterton",
+    "citations": [
+     "126 A.D. 913"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1908-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/126-a-d-913/geoghegan-v-chatterton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Geoghegan v. Chatterton, 126 A.D. 913 (N.Y. App. Div. 1908)",
+    "link_md": "[Geoghegan v. Chatterton, 126 A.D. 913 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/126-a-d-913/geoghegan-v-chatterton)",
+    "match_kind": "semantic",
+    "similarity": 0.5339
+   },
+   {
+    "cluster_id": 6591435,
+    "case_name": "Brentnall v. Gatchell",
+    "citations": [
+     "2 Rec. Co. Ct. 1137"
+    ],
+    "court": "Suffolk County Court",
+    "date_filed": "1680-01-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6591435/brentnall-v-gatchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Brentnall v. Gatchell, 2 Rec. Co. Ct. 1137 (N.Y. Cnty. Ct. 1680)",
+    "link_md": "[Brentnall v. Gatchell, 2 Rec. Co. Ct. 1137 (N.Y. Cnty. Ct. 1680)](https://syfert.com/new-york/cases/cl-6591435/brentnall-v-gatchell)",
+    "match_kind": "semantic",
+    "similarity": 0.5338
+   },
+   {
+    "cluster_id": 3610980,
+    "case_name": "De Gaetano v. Merritt & Chapman Derrick & Wrecking Co.",
+    "citations": [
+     "161 N.E. 188",
+     "247 N.Y. 574",
+     "1928 N.Y. LEXIS 1170"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1928-02-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/247-n-y-574/de-gaetano-v-merritt-chapman-derrick-wrecking-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "De Gaetano v. Merritt & Chapman Derrick & Wrecking Co., 161 N.E. 188 (N.Y. 1928)",
+    "link_md": "[De Gaetano v. Merritt & Chapman Derrick & Wrecking Co., 161 N.E. 188 (N.Y. 1928)](https://syfert.com/new-york/cases/247-n-y-574/de-gaetano-v-merritt-chapman-derrick-wrecking-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5335
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

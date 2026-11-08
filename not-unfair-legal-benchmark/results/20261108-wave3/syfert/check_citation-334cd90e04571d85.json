@@ -1,0 +1,38 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "256 S.W.2d 716",
+  "expected_case_name": "Townes v. McCollum"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"256 S.W.2d 716\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1778619,\n            \"case_name\": \"Townes v. McCollum\",\n            \"citations\": [\n                \"256 S.W.2d 716\"\n            ],\n            \"court\": \"Supreme Court of Arkansas\",\n            \"date_filed\": \"1953-04-09\",\n            \"status\": \"Unknown\",\n            \"cited_by\": 10,\n            \"url\": \"https://syfert.com/arkansas/cases/221-ark-920/townes-v-mccollum\",\n            \"precedential_status\": \"Unknown\",\n            \"status_source\": null,\n            \"bluebook\": \"Townes v. McCollum, 256 S.W.2d 716 (Ark. 1953)\",\n            \"link_md\": \"[Townes v. McCollum, 256 S.W.2d 716 (Ark. 1953)](https://syfert.com/arkansas/cases/221-ark-920/townes-v-mccollum)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Townes v. McCollum\",\n        \"actual\": \"Townes v. McCollum\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "256 S.W.2d 716",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1778619,
+    "case_name": "Townes v. McCollum",
+    "citations": [
+     "256 S.W.2d 716"
+    ],
+    "court": "Supreme Court of Arkansas",
+    "date_filed": "1953-04-09",
+    "status": "Unknown",
+    "cited_by": 10,
+    "url": "https://syfert.com/arkansas/cases/221-ark-920/townes-v-mccollum",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Townes v. McCollum, 256 S.W.2d 716 (Ark. 1953)",
+    "link_md": "[Townes v. McCollum, 256 S.W.2d 716 (Ark. 1953)](https://syfert.com/arkansas/cases/221-ark-920/townes-v-mccollum)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Townes v. McCollum",
+   "actual": "Townes v. McCollum",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

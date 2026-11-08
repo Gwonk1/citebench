@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "137 N.E.2d 117",
+  "expected_case_name": "Thomas v. Smith"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"137 N.E.2d 117\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2119900,\n            \"case_name\": \"Thomas v. Smith\",\n            \"citations\": [\n                \"137 N.E.2d 117\"\n            ],\n            \"court\": \"Appellate Court of Illinois\",\n            \"date_filed\": \"1956-10-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 17,\n            \"url\": \"https://syfert.com/illinois/cases/11-ill-app-2d-310/thomas-v-smith\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Thomas v. Smith, 137 N.E.2d 117 (Ill. App. Ct. 1956)\",\n            \"link_md\": \"[Thomas v. Smith, 137 N.E.2d 117 (Ill. App. Ct. 1956)](https://syfert.com/illinois/cases/11-ill-app-2d-310/thomas-v-smith)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Thomas v. Smith\",\n        \"actual\": \"Thomas v. Smith\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "137 N.E.2d 117",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2119900,
+    "case_name": "Thomas v. Smith",
+    "citations": [
+     "137 N.E.2d 117"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1956-10-25",
+    "status": "Published",
+    "cited_by": 17,
+    "url": "https://syfert.com/illinois/cases/11-ill-app-2d-310/thomas-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thomas v. Smith, 137 N.E.2d 117 (Ill. App. Ct. 1956)",
+    "link_md": "[Thomas v. Smith, 137 N.E.2d 117 (Ill. App. Ct. 1956)](https://syfert.com/illinois/cases/11-ill-app-2d-310/thomas-v-smith)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Thomas v. Smith",
+   "actual": "Thomas v. Smith",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

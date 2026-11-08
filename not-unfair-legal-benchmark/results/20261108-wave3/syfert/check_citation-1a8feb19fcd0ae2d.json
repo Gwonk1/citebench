@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "221 A.2d 99",
+  "expected_case_name": "CAPITOL BUILDING COMPANY v. Langton"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"221 A.2d 99\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1993035,\n            \"case_name\": \"CAPITOL BUILDING COMPANY v. Langton\",\n            \"citations\": [\n                \"221 A.2d 99\"\n            ],\n            \"court\": \"Supreme Court of Rhode Island\",\n            \"date_filed\": \"1966-01-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 11,\n            \"url\": \"https://syfert.com/rhode-island/cases/101-r-i-131/capitol-building-company-v-langton\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Capitol Bldg. Co. v. Langton, 221 A.2d 99 (R.I. 1966)\",\n            \"link_md\": \"[Capitol Bldg. Co. v. Langton, 221 A.2d 99 (R.I. 1966)](https://syfert.com/rhode-island/cases/101-r-i-131/capitol-building-company-v-langton)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 5,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"CAPITOL BUILDING COMPANY v. Langton\",\n        \"actual\": \"CAPITOL BUILDING COMPANY v. Langton\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "221 A.2d 99",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1993035,
+    "case_name": "CAPITOL BUILDING COMPANY v. Langton",
+    "citations": [
+     "221 A.2d 99"
+    ],
+    "court": "Supreme Court of Rhode Island",
+    "date_filed": "1966-01-25",
+    "status": "Published",
+    "cited_by": 11,
+    "url": "https://syfert.com/rhode-island/cases/101-r-i-131/capitol-building-company-v-langton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Capitol Bldg. Co. v. Langton, 221 A.2d 99 (R.I. 1966)",
+    "link_md": "[Capitol Bldg. Co. v. Langton, 221 A.2d 99 (R.I. 1966)](https://syfert.com/rhode-island/cases/101-r-i-131/capitol-building-company-v-langton)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 5,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "CAPITOL BUILDING COMPANY v. Langton",
+   "actual": "CAPITOL BUILDING COMPANY v. Langton",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

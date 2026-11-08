@@ -1,0 +1,411 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Mueller w/15 \"208 NW 360\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Mueller w/15 \\\"208 NW 360\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2681866,\"case_name\":\"United States v. Veronique Muckle\",\"citations\":[\"755 F.3d 1024\",\"2014 U.S. App. LEXIS 12595\",\"2014 WL 2978553\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"2014-05-27\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/federal/circuits/cases/755-f-3d-1024/united-states-v-veronique-muckle\",\"date_filed_note\":\"Decision date 2014-05-27 is from this decision's twin cluster 2675759; cluster 2681866 records 2014-07-03.\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (2681866 and its twin 2675759).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Veronique Muckle, 755 F.3d 1024 (8th Cir. 2014)\",\"link_md\":\"[United States v. Veronique Muckle, 755 F.3d 1024 (8th Cir. 2014)](https://syfert.com/federal/circuits/cases/755-f-3d-1024/united-states-v-veronique-muckle)\",\"match_kind\":\"semantic\",\"similarity\":0.6155,\"twin_clusters\":[2675759,2681866]},{\"cluster_id\":2972423,\"case_name\":\"Mueller v. Gallina\",\"citations\":[\"137 F. App'x 847\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"2005-06-24\",\"status\":\"Unpublished\",\"cited_by\":15,\"url\":\"https://syfert.com/federal/circuits/cases/137-f-appx-847/mueller-v-gallina\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. Gallina, 137 F. App'x 847 (6th Cir. 2005)\",\"link_md\":\"[Mueller v. Gallina, 137 F. App'x 847 (6th Cir. 2005)](https://syfert.com/federal/circuits/cases/137-f-appx-847/mueller-v-gallina)\",\"match_kind\":\"semantic\",\"similarity\":0.6142},{\"cluster_id\":202240,\"case_name\":\"McCloskey v. Mueller\",\"citations\":[\"446 F.3d 262\"],\"court\":\"First Circuit\",\"date_filed\":\"2006-05-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/446-f-3d-262/mccloskey-v-mueller\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McCloskey v. Mueller, 446 F.3d 262 (1st Cir. 2006)\",\"link_md\":\"[McCloskey v. Mueller, 446 F.3d 262 (1st Cir. 2006)](https://syfert.com/federal/circuits/cases/446-f-3d-262/mccloskey-v-mueller)\",\"match_kind\":\"semantic\",\"similarity\":0.6099},{\"cluster_id\":734,\"case_name\":\"United States v. Gilarime Mueller\",\"citations\":[\"367 F. App'x 736\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"2010-03-29\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/367-f-appx-736/united-states-v-gilarime-mueller\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Gilarime Mueller, 367 F. App'x 736 (8th Cir. 2010)\",\"link_md\":\"[United States v. Gilarime Mueller, 367 F. App'x 736 (8th Cir. 2010)](https://syfert.com/federal/circuits/cases/367-f-appx-736/united-states-v-gilarime-mueller)\",\"match_kind\":\"semantic\",\"similarity\":0.6059},{\"cluster_id\":451326,\"case_name\":\"Mueller v. Heckler\",\"citations\":[\"760 F.2d 273\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1985-03-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/760-f-2d-273/mueller-v-heckler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. Heckler, 760 F.2d 273 (8th Cir. 1985)\",\"link_md\":\"[Mueller v. Heckler, 760 F.2d 273 (8th Cir. 1985)](https://syfert.com/federal/circuits/cases/760-f-2d-273/mueller-v-heckler)\",\"match_kind\":\"semantic\",\"similarity\":0.6051},{\"cluster_id\":2538493,\"case_name\":\"United States v. McNeill\",\"citations\":[\"709 F. Supp. 2d 360\",\"2010 U.S. Dist. LEXIS 39996\",\"2010 WL 1644495\"],\"court\":\"E.D. Pennsylvania\",\"date_filed\":\"2010-04-23\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/district/cases/709-f-supp-2d-360/united-states-v-mcneill\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. McNeill, 709 F. Supp. 2d 360 (E.D. Pa. 2010)\",\"link_md\":\"[United States v. McNeill, 709 F. Supp. 2d 360 (E.D. Pa. 2010)](https://syfert.com/federal/district/cases/709-f-supp-2d-360/united-states-v-mcneill)\",\"match_kind\":\"semantic\",\"similarity\":0.5988},{\"cluster_id\":9729910,\"case_name\":\"Davis v. Murphy\",\"citations\":[],\"court\":\"D. Massachusetts\",\"date_filed\":\"2018-03-28\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9729910/davis-v-murphy\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Davis v. Murphy, No. 1:13-cv-11900 (D. Mass. Mar. 28, 2018)\",\"link_md\":\"[Davis v. Murphy, No. 1:13-cv-11900 (D. Mass. Mar. 28, 2018)](https://syfert.com/federal/district/cases/cl-9729910/davis-v-murphy)\",\"match_kind\":\"semantic\",\"similarity\":0.5967},{\"cluster_id\":9381500,\"case_name\":\"United States v. McHugh\",\"citations\":[],\"court\":\"District of Columbia\",\"date_filed\":\"2023-03-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9381500/united-states-v-mchugh\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. McHugh, No. 2021-0453, 2023 WL 2384444 (D.D.C. Mar. 6, 2023)\",\"link_md\":\"[United States v. McHugh, No. 2021-0453, 2023 WL 2384444 (D.D.C. Mar. 6, 2023)](https://syfert.com/federal/district/cases/cl-9381500/united-states-v-mchugh)\",\"match_kind\":\"semantic\",\"similarity\":0.5961},{\"cluster_id\":709905,\"case_name\":\"United States v. James A. Zimmerman\",\"citations\":[\"72 F.3d 134\",\"1995 U.S. App. LEXIS 39660\",\"1995 WL 739825\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1995-12-15\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/72-f-3d-134/united-states-v-james-a-zimmerman\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. James A. Zimmerman, 72 F.3d 134 (8th Cir. 1995)\",\"link_md\":\"[United States v. James A. Zimmerman, 72 F.3d 134 (8th Cir. 1995)](https://syfert.com/federal/circuits/cases/72-f-3d-134/united-states-v-james-a-zimmerman)\",\"match_kind\":\"semantic\",\"similarity\":0.5931},{\"cluster_id\":5228051,\"case_name\":\"State v. Mueller\",\"citations\":[\"598 S.W.2d 564\",\"1980 Mo. App. LEXIS 3367\"],\"court\":\"Missouri Court of Appeals\",\"date_filed\":\"1980-04-07\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/missouri/cases/598-s-w-2d-564/state-v-mueller\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Mueller, 598 S.W.2d 564 (Mo. Ct. App. 1980)\",\"link_md\":\"[State v. Mueller, 598 S.W.2d 564 (Mo. Ct. App. 1980)](https://syfert.com/missouri/cases/598-s-w-2d-564/state-v-mueller)\",\"match_kind\":\"semantic\",\"similarity\":0.5917},{\"cluster_id\":470960,\"case_name\":\"Mueller v. U.S. Dist. Court for Western Dist. Of Pennsylvania\",\"citations\":[\"791 F.2d 979\",\"253 U.S. App. D.C. 77\"],\"court\":\"D.C. Circuit\",\"date_filed\":\"1986-05-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/791-f-2d-979/mueller-v-us-dist-court-for-western-dist-of-pennsy\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. U.S. Dist. Court for W. Dist. Of Pennsylvania, 791 F.2d 979 (D.C. Cir. 1986)\",\"link_md\":\"[Mueller v. U.S. Dist. Court for W. Dist. Of Pennsylvania, 791 F.2d 979 (D.C. Cir. 1986)](https://syfert.com/federal/circuits/cases/791-f-2d-979/mueller-v-us-dist-court-for-western-dist-of-pennsy)\",\"match_kind\":\"semantic\",\"similarity\":0.5905},{\"cluster_id\":452772,\"case_name\":\"Mueller v. Pevsner\",\"citations\":[\"762 F.2d 1015\",\"1985 U.S. App. LEXIS 27407\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1985-04-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/762-f-2d-1015/mueller-v-pevsner\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. Pevsner, 762 F.2d 1015 (7th Cir. 1985)\",\"link_md\":\"[Mueller v. Pevsner, 762 F.2d 1015 (7th Cir. 1985)](https://syfert.com/federal/circuits/cases/762-f-2d-1015/mueller-v-pevsner)\",\"match_kind\":\"semantic\",\"similarity\":0.59},{\"cluster_id\":753147,\"case_name\":\"Lager v. Lombardi\",\"citations\":[\"141 F.3d 1169\",\"1998 U.S. App. LEXIS 14416\",\"1998 WL 101759\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1998-03-10\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/141-f-3d-1169/lager-v-lombardi\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (753147 and its twin 3020354). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lager v. Lombardi, 141 F.3d 1169 (8th Cir. 1998)\",\"link_md\":\"[Lager v. Lombardi, 141 F.3d 1169 (8th Cir. 1998)](https://syfert.com/federal/circuits/cases/141-f-3d-1169/lager-v-lombardi)\",\"match_kind\":\"semantic\",\"similarity\":0.5895,\"twin_clusters\":[3020354]},{\"cluster_id\":167951,\"case_name\":\"United States v. McCullough\",\"citations\":[\"457 F.3d 1150\",\"2006 U.S. App. LEXIS 20541\",\"2006 WL 2294846\"],\"court\":\"Tenth Circuit\",\"date_filed\":\"2006-08-10\",\"status\":\"Published\",\"cited_by\":108,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/federal/circuits/cases/457-f-3d-1150/united-states-v-mccullough\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. McCullough, 457 F.3d 1150 (10th Cir. 2006)\",\"link_md\":\"[United States v. McCullough, 457 F.3d 1150 (10th Cir. 2006)](https://syfert.com/federal/circuits/cases/457-f-3d-1150/united-states-v-mccullough)\",\"match_kind\":\"semantic\",\"similarity\":0.5894},{\"cluster_id\":8505929,\"case_name\":\"United States v. Mueller\",\"citations\":[\"368 F. App'x 709\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"2010-03-29\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/368-f-appx-709/united-states-v-mueller\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (8505929 and its twin 8505930). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_reporter\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 368 F. App'x 709).\",\"bluebook\":\"United States v. Mueller, 368 F. App'x 709 (8th Cir. 2010)\",\"link_md\":\"[United States v. Mueller, 368 F. App'x 709 (8th Cir. 2010)](https://syfert.com/federal/circuits/cases/368-f-appx-709/united-states-v-mueller)\",\"match_kind\":\"semantic\",\"similarity\":0.5892,\"twin_clusters\":[8505930]},{\"cluster_id\":2377269,\"case_name\":\"Mueller v. PA. STATE POLICE HDQTRS.\",\"citations\":[\"532 A.2d 900\",\"110 Pa. Commw. 265\",\"1987 Pa. Commw. LEXIS 2544\"],\"court\":\"Commonwealth Court of Pennsylvania\",\"date_filed\":\"1987-10-15\",\"status\":\"Published\",\"cited_by\":37,\"disposition\":\"petition denied\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/pennsylvania/cases/110-pa-commw-265/mueller-v-pa-state-police-hdqtrs\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. Pa. State Police Hdqtrs., 532 A.2d 900 (Pa. Commw. Ct. 1987)\",\"link_md\":\"[Mueller v. Pa. State Police Hdqtrs., 532 A.2d 900 (Pa. Commw. Ct. 1987)](https://syfert.com/pennsylvania/cases/110-pa-commw-265/mueller-v-pa-state-police-hdqtrs)\",\"match_kind\":\"semantic\",\"similarity\":0.5871},{\"cluster_id\":343582,\"case_name\":\"United States v. Robert Joseph Muller, Sr.\",\"citations\":[\"550 F.2d 1375\",\"1977 U.S. App. LEXIS 13707\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1977-04-22\",\"status\":\"Published\",\"cited_by\":11,\"url\":\"https://syfert.com/federal/circuits/cases/550-f-2d-1375/united-states-v-robert-joseph-muller-sr\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Robert Joseph Muller, Sr., 550 F.2d 1375 (5th Cir. 1977)\",\"link_md\":\"[United States v. Robert Joseph Muller, Sr., 550 F.2d 1375 (5th Cir. 1977)](https://syfert.com/federal/circuits/cases/550-f-2d-1375/united-states-v-robert-joseph-muller-sr)\",\"match_kind\":\"semantic\",\"similarity\":0.5842},{\"cluster_id\":684,\"case_name\":\"Melanie Briner v. City of Ontario\",\"citations\":[\"370 F. App'x 682\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"2010-03-26\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/370-f-appx-682/melanie-briner-v-city-of-ontario\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Melanie Briner v. City of Ontario, 370 F. App'x 682 (6th Cir. 2010)\",\"link_md\":\"[Melanie Briner v. City of Ontario, 370 F. App'x 682 (6th Cir. 2010)](https://syfert.com/federal/circuits/cases/370-f-appx-682/melanie-briner-v-city-of-ontario)\",\"match_kind\":\"semantic\",\"similarity\":0.5841},{\"cluster_id\":9685216,\"case_name\":\"Armour v. Santos\",\"citations\":[],\"court\":\"S.D. Illinois\",\"date_filed\":\"2020-03-31\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9685216/armour-v-santos\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Armour v. Santos, No. 3:19-cv-00678 (S.D. Ill. Mar. 31, 2020)\",\"link_md\":\"[Armour v. Santos, No. 3:19-cv-00678 (S.D. Ill. Mar. 31, 2020)](https://syfert.com/federal/district/cases/cl-9685216/armour-v-santos)\",\"match_kind\":\"semantic\",\"similarity\":0.5837},{\"cluster_id\":10321303,\"case_name\":\"McCrorey v. City of Philadelphia\",\"citations\":[],\"court\":\"E.D. Pennsylvania\",\"date_filed\":\"2025-01-27\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10321303/mccrorey-v-city-of-philadelphia\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Mccrorey v. City of Philadelphia, No. 2:22-cv-02360 (E.D. Pa. Jan. 27, 2025)\",\"link_md\":\"[Mccrorey v. City of Philadelphia, No. 2:22-cv-02360 (E.D. Pa. Jan. 27, 2025)](https://syfert.com/federal/district/cases/cl-10321303/mccrorey-v-city-of-philadelphia)\",\"match_kind\":\"semantic\",\"similarity\":0.5835}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Mueller w/15 \"208 NW 360\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2681866,
+    "case_name": "United States v. Veronique Muckle",
+    "citations": [
+     "755 F.3d 1024",
+     "2014 U.S. App. LEXIS 12595",
+     "2014 WL 2978553"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "2014-05-27",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/federal/circuits/cases/755-f-3d-1024/united-states-v-veronique-muckle",
+    "date_filed_note": "Decision date 2014-05-27 is from this decision's twin cluster 2675759; cluster 2681866 records 2014-07-03.",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (2681866 and its twin 2675759).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Veronique Muckle, 755 F.3d 1024 (8th Cir. 2014)",
+    "link_md": "[United States v. Veronique Muckle, 755 F.3d 1024 (8th Cir. 2014)](https://syfert.com/federal/circuits/cases/755-f-3d-1024/united-states-v-veronique-muckle)",
+    "match_kind": "semantic",
+    "similarity": 0.6155,
+    "twin_clusters": [
+     2675759,
+     2681866
+    ]
+   },
+   {
+    "cluster_id": 2972423,
+    "case_name": "Mueller v. Gallina",
+    "citations": [
+     "137 F. App'x 847"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "2005-06-24",
+    "status": "Unpublished",
+    "cited_by": 15,
+    "url": "https://syfert.com/federal/circuits/cases/137-f-appx-847/mueller-v-gallina",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. Gallina, 137 F. App'x 847 (6th Cir. 2005)",
+    "link_md": "[Mueller v. Gallina, 137 F. App'x 847 (6th Cir. 2005)](https://syfert.com/federal/circuits/cases/137-f-appx-847/mueller-v-gallina)",
+    "match_kind": "semantic",
+    "similarity": 0.6142
+   },
+   {
+    "cluster_id": 202240,
+    "case_name": "McCloskey v. Mueller",
+    "citations": [
+     "446 F.3d 262"
+    ],
+    "court": "First Circuit",
+    "date_filed": "2006-05-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/446-f-3d-262/mccloskey-v-mueller",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCloskey v. Mueller, 446 F.3d 262 (1st Cir. 2006)",
+    "link_md": "[McCloskey v. Mueller, 446 F.3d 262 (1st Cir. 2006)](https://syfert.com/federal/circuits/cases/446-f-3d-262/mccloskey-v-mueller)",
+    "match_kind": "semantic",
+    "similarity": 0.6099
+   },
+   {
+    "cluster_id": 734,
+    "case_name": "United States v. Gilarime Mueller",
+    "citations": [
+     "367 F. App'x 736"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "2010-03-29",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/367-f-appx-736/united-states-v-gilarime-mueller",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Gilarime Mueller, 367 F. App'x 736 (8th Cir. 2010)",
+    "link_md": "[United States v. Gilarime Mueller, 367 F. App'x 736 (8th Cir. 2010)](https://syfert.com/federal/circuits/cases/367-f-appx-736/united-states-v-gilarime-mueller)",
+    "match_kind": "semantic",
+    "similarity": 0.6059
+   },
+   {
+    "cluster_id": 451326,
+    "case_name": "Mueller v. Heckler",
+    "citations": [
+     "760 F.2d 273"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1985-03-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/760-f-2d-273/mueller-v-heckler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. Heckler, 760 F.2d 273 (8th Cir. 1985)",
+    "link_md": "[Mueller v. Heckler, 760 F.2d 273 (8th Cir. 1985)](https://syfert.com/federal/circuits/cases/760-f-2d-273/mueller-v-heckler)",
+    "match_kind": "semantic",
+    "similarity": 0.6051
+   },
+   {
+    "cluster_id": 2538493,
+    "case_name": "United States v. McNeill",
+    "citations": [
+     "709 F. Supp. 2d 360",
+     "2010 U.S. Dist. LEXIS 39996",
+     "2010 WL 1644495"
+    ],
+    "court": "E.D. Pennsylvania",
+    "date_filed": "2010-04-23",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/district/cases/709-f-supp-2d-360/united-states-v-mcneill",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. McNeill, 709 F. Supp. 2d 360 (E.D. Pa. 2010)",
+    "link_md": "[United States v. McNeill, 709 F. Supp. 2d 360 (E.D. Pa. 2010)](https://syfert.com/federal/district/cases/709-f-supp-2d-360/united-states-v-mcneill)",
+    "match_kind": "semantic",
+    "similarity": 0.5988
+   },
+   {
+    "cluster_id": 9729910,
+    "case_name": "Davis v. Murphy",
+    "citations": [],
+    "court": "D. Massachusetts",
+    "date_filed": "2018-03-28",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9729910/davis-v-murphy",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Davis v. Murphy, No. 1:13-cv-11900 (D. Mass. Mar. 28, 2018)",
+    "link_md": "[Davis v. Murphy, No. 1:13-cv-11900 (D. Mass. Mar. 28, 2018)](https://syfert.com/federal/district/cases/cl-9729910/davis-v-murphy)",
+    "match_kind": "semantic",
+    "similarity": 0.5967
+   },
+   {
+    "cluster_id": 9381500,
+    "case_name": "United States v. McHugh",
+    "citations": [],
+    "court": "District of Columbia",
+    "date_filed": "2023-03-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9381500/united-states-v-mchugh",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. McHugh, No. 2021-0453, 2023 WL 2384444 (D.D.C. Mar. 6, 2023)",
+    "link_md": "[United States v. McHugh, No. 2021-0453, 2023 WL 2384444 (D.D.C. Mar. 6, 2023)](https://syfert.com/federal/district/cases/cl-9381500/united-states-v-mchugh)",
+    "match_kind": "semantic",
+    "similarity": 0.5961
+   },
+   {
+    "cluster_id": 709905,
+    "case_name": "United States v. James A. Zimmerman",
+    "citations": [
+     "72 F.3d 134",
+     "1995 U.S. App. LEXIS 39660",
+     "1995 WL 739825"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1995-12-15",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/72-f-3d-134/united-states-v-james-a-zimmerman",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. James A. Zimmerman, 72 F.3d 134 (8th Cir. 1995)",
+    "link_md": "[United States v. James A. Zimmerman, 72 F.3d 134 (8th Cir. 1995)](https://syfert.com/federal/circuits/cases/72-f-3d-134/united-states-v-james-a-zimmerman)",
+    "match_kind": "semantic",
+    "similarity": 0.5931
+   },
+   {
+    "cluster_id": 5228051,
+    "case_name": "State v. Mueller",
+    "citations": [
+     "598 S.W.2d 564",
+     "1980 Mo. App. LEXIS 3367"
+    ],
+    "court": "Missouri Court of Appeals",
+    "date_filed": "1980-04-07",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/missouri/cases/598-s-w-2d-564/state-v-mueller",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Mueller, 598 S.W.2d 564 (Mo. Ct. App. 1980)",
+    "link_md": "[State v. Mueller, 598 S.W.2d 564 (Mo. Ct. App. 1980)](https://syfert.com/missouri/cases/598-s-w-2d-564/state-v-mueller)",
+    "match_kind": "semantic",
+    "similarity": 0.5917
+   },
+   {
+    "cluster_id": 470960,
+    "case_name": "Mueller v. U.S. Dist. Court for Western Dist. Of Pennsylvania",
+    "citations": [
+     "791 F.2d 979",
+     "253 U.S. App. D.C. 77"
+    ],
+    "court": "D.C. Circuit",
+    "date_filed": "1986-05-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/791-f-2d-979/mueller-v-us-dist-court-for-western-dist-of-pennsy",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. U.S. Dist. Court for W. Dist. Of Pennsylvania, 791 F.2d 979 (D.C. Cir. 1986)",
+    "link_md": "[Mueller v. U.S. Dist. Court for W. Dist. Of Pennsylvania, 791 F.2d 979 (D.C. Cir. 1986)](https://syfert.com/federal/circuits/cases/791-f-2d-979/mueller-v-us-dist-court-for-western-dist-of-pennsy)",
+    "match_kind": "semantic",
+    "similarity": 0.5905
+   },
+   {
+    "cluster_id": 452772,
+    "case_name": "Mueller v. Pevsner",
+    "citations": [
+     "762 F.2d 1015",
+     "1985 U.S. App. LEXIS 27407"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1985-04-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/762-f-2d-1015/mueller-v-pevsner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. Pevsner, 762 F.2d 1015 (7th Cir. 1985)",
+    "link_md": "[Mueller v. Pevsner, 762 F.2d 1015 (7th Cir. 1985)](https://syfert.com/federal/circuits/cases/762-f-2d-1015/mueller-v-pevsner)",
+    "match_kind": "semantic",
+    "similarity": 0.59
+   },
+   {
+    "cluster_id": 753147,
+    "case_name": "Lager v. Lombardi",
+    "citations": [
+     "141 F.3d 1169",
+     "1998 U.S. App. LEXIS 14416",
+     "1998 WL 101759"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1998-03-10",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/141-f-3d-1169/lager-v-lombardi",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (753147 and its twin 3020354). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Lager v. Lombardi, 141 F.3d 1169 (8th Cir. 1998)",
+    "link_md": "[Lager v. Lombardi, 141 F.3d 1169 (8th Cir. 1998)](https://syfert.com/federal/circuits/cases/141-f-3d-1169/lager-v-lombardi)",
+    "match_kind": "semantic",
+    "similarity": 0.5895,
+    "twin_clusters": [
+     3020354
+    ]
+   },
+   {
+    "cluster_id": 167951,
+    "case_name": "United States v. McCullough",
+    "citations": [
+     "457 F.3d 1150",
+     "2006 U.S. App. LEXIS 20541",
+     "2006 WL 2294846"
+    ],
+    "court": "Tenth Circuit",
+    "date_filed": "2006-08-10",
+    "status": "Published",
+    "cited_by": 108,
+    "disposition": "affirmed",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/federal/circuits/cases/457-f-3d-1150/united-states-v-mccullough",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. McCullough, 457 F.3d 1150 (10th Cir. 2006)",
+    "link_md": "[United States v. McCullough, 457 F.3d 1150 (10th Cir. 2006)](https://syfert.com/federal/circuits/cases/457-f-3d-1150/united-states-v-mccullough)",
+    "match_kind": "semantic",
+    "similarity": 0.5894
+   },
+   {
+    "cluster_id": 8505929,
+    "case_name": "United States v. Mueller",
+    "citations": [
+     "368 F. App'x 709"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "2010-03-29",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/368-f-appx-709/united-states-v-mueller",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (8505929 and its twin 8505930). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_reporter",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 368 F. App'x 709).",
+    "bluebook": "United States v. Mueller, 368 F. App'x 709 (8th Cir. 2010)",
+    "link_md": "[United States v. Mueller, 368 F. App'x 709 (8th Cir. 2010)](https://syfert.com/federal/circuits/cases/368-f-appx-709/united-states-v-mueller)",
+    "match_kind": "semantic",
+    "similarity": 0.5892,
+    "twin_clusters": [
+     8505930
+    ]
+   },
+   {
+    "cluster_id": 2377269,
+    "case_name": "Mueller v. PA. STATE POLICE HDQTRS.",
+    "citations": [
+     "532 A.2d 900",
+     "110 Pa. Commw. 265",
+     "1987 Pa. Commw. LEXIS 2544"
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "1987-10-15",
+    "status": "Published",
+    "cited_by": 37,
+    "disposition": "petition denied",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/pennsylvania/cases/110-pa-commw-265/mueller-v-pa-state-police-hdqtrs",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. Pa. State Police Hdqtrs., 532 A.2d 900 (Pa. Commw. Ct. 1987)",
+    "link_md": "[Mueller v. Pa. State Police Hdqtrs., 532 A.2d 900 (Pa. Commw. Ct. 1987)](https://syfert.com/pennsylvania/cases/110-pa-commw-265/mueller-v-pa-state-police-hdqtrs)",
+    "match_kind": "semantic",
+    "similarity": 0.5871
+   },
+   {
+    "cluster_id": 343582,
+    "case_name": "United States v. Robert Joseph Muller, Sr.",
+    "citations": [
+     "550 F.2d 1375",
+     "1977 U.S. App. LEXIS 13707"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1977-04-22",
+    "status": "Published",
+    "cited_by": 11,
+    "url": "https://syfert.com/federal/circuits/cases/550-f-2d-1375/united-states-v-robert-joseph-muller-sr",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Robert Joseph Muller, Sr., 550 F.2d 1375 (5th Cir. 1977)",
+    "link_md": "[United States v. Robert Joseph Muller, Sr., 550 F.2d 1375 (5th Cir. 1977)](https://syfert.com/federal/circuits/cases/550-f-2d-1375/united-states-v-robert-joseph-muller-sr)",
+    "match_kind": "semantic",
+    "similarity": 0.5842
+   },
+   {
+    "cluster_id": 684,
+    "case_name": "Melanie Briner v. City of Ontario",
+    "citations": [
+     "370 F. App'x 682"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "2010-03-26",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/370-f-appx-682/melanie-briner-v-city-of-ontario",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Melanie Briner v. City of Ontario, 370 F. App'x 682 (6th Cir. 2010)",
+    "link_md": "[Melanie Briner v. City of Ontario, 370 F. App'x 682 (6th Cir. 2010)](https://syfert.com/federal/circuits/cases/370-f-appx-682/melanie-briner-v-city-of-ontario)",
+    "match_kind": "semantic",
+    "similarity": 0.5841
+   },
+   {
+    "cluster_id": 9685216,
+    "case_name": "Armour v. Santos",
+    "citations": [],
+    "court": "S.D. Illinois",
+    "date_filed": "2020-03-31",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9685216/armour-v-santos",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Armour v. Santos, No. 3:19-cv-00678 (S.D. Ill. Mar. 31, 2020)",
+    "link_md": "[Armour v. Santos, No. 3:19-cv-00678 (S.D. Ill. Mar. 31, 2020)](https://syfert.com/federal/district/cases/cl-9685216/armour-v-santos)",
+    "match_kind": "semantic",
+    "similarity": 0.5837
+   },
+   {
+    "cluster_id": 10321303,
+    "case_name": "McCrorey v. City of Philadelphia",
+    "citations": [],
+    "court": "E.D. Pennsylvania",
+    "date_filed": "2025-01-27",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10321303/mccrorey-v-city-of-philadelphia",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Mccrorey v. City of Philadelphia, No. 2:22-cv-02360 (E.D. Pa. Jan. 27, 2025)",
+    "link_md": "[Mccrorey v. City of Philadelphia, No. 2:22-cv-02360 (E.D. Pa. Jan. 27, 2025)](https://syfert.com/federal/district/cases/cl-10321303/mccrorey-v-city-of-philadelphia)",
+    "match_kind": "semantic",
+    "similarity": 0.5835
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

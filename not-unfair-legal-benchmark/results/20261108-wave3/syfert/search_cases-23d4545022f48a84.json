@@ -1,0 +1,401 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Ross w/15 \"232 US 110\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Ross w/15 \\\"232 US 110\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":314442,\"case_name\":\"Ross v. United States\",\"citations\":[\"486 F.2d 1396\"],\"court\":\"Second Circuit\",\"date_filed\":\"1973-09-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/486-f-2d-1396/ross-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. United States, 486 F.2d 1396 (2d Cir. 1973)\",\"link_md\":\"[Ross v. United States, 486 F.2d 1396 (2d Cir. 1973)](https://syfert.com/federal/circuits/cases/486-f-2d-1396/ross-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7222},{\"cluster_id\":305893,\"case_name\":\"United States v. Ross\",\"citations\":[\"467 F.2d 943\"],\"court\":\"Second Circuit\",\"date_filed\":\"1972-10-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/467-f-2d-943/united-states-v-ross\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ross, 467 F.2d 943 (2d Cir. 1972)\",\"link_md\":\"[United States v. Ross, 467 F.2d 943 (2d Cir. 1972)](https://syfert.com/federal/circuits/cases/467-f-2d-943/united-states-v-ross)\",\"match_kind\":\"semantic\",\"similarity\":0.7136},{\"cluster_id\":534018,\"case_name\":\"Ross (Arthur W.) v. United States\",\"citations\":[\"892 F.2d 81\",\"1989 U.S. App. LEXIS 18631\",\"1989 WL 149448\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1989-11-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/892-f-2d-81/ross-arthur-w-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross (Arthur W.) v. United States, 892 F.2d 81 (7th Cir. 1989)\",\"link_md\":\"[Ross (Arthur W.) v. United States, 892 F.2d 81 (7th Cir. 1989)](https://syfert.com/federal/circuits/cases/892-f-2d-81/ross-arthur-w-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7049},{\"cluster_id\":422545,\"case_name\":\"United States v. Ross\",\"citations\":[\"714 F.2d 118\"],\"court\":\"Second Circuit\",\"date_filed\":\"1982-10-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/714-f-2d-118/united-states-v-ross\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ross, 714 F.2d 118 (2d Cir. 1982)\",\"link_md\":\"[United States v. Ross, 714 F.2d 118 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/714-f-2d-118/united-states-v-ross)\",\"match_kind\":\"semantic\",\"similarity\":0.698},{\"cluster_id\":515913,\"case_name\":\"Ross (Gail D.) v. United States\",\"citations\":[\"863 F.2d 885\",\"1988 WL 129862\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1988-11-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/863-f-2d-885/ross-gail-d-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross (Gail D.) v. United States, 863 F.2d 885 (7th Cir. 1988)\",\"link_md\":\"[Ross (Gail D.) v. United States, 863 F.2d 885 (7th Cir. 1988)](https://syfert.com/federal/circuits/cases/863-f-2d-885/ross-gail-d-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.698},{\"cluster_id\":408289,\"case_name\":\"Ross v. Saltmarsh\",\"citations\":[\"688 F.2d 816\"],\"court\":\"Second Circuit\",\"date_filed\":\"1982-03-05\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/federal/circuits/cases/688-f-2d-816/ross-v-saltmarsh\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. Saltmarsh, 688 F.2d 816 (2d Cir. 1982)\",\"link_md\":\"[Ross v. Saltmarsh, 688 F.2d 816 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/688-f-2d-816/ross-v-saltmarsh)\",\"match_kind\":\"semantic\",\"similarity\":0.6776},{\"cluster_id\":473143,\"case_name\":\"Ross, in Re\",\"citations\":[\"795 F.2d 1004\",\"1986 U.S. App. LEXIS 28659\"],\"court\":\"Second Circuit\",\"date_filed\":\"1986-06-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/795-f-2d-1004/ross-in-re\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross, in Re, 795 F.2d 1004 (2d Cir. 1986)\",\"link_md\":\"[Ross, in Re, 795 F.2d 1004 (2d Cir. 1986)](https://syfert.com/federal/circuits/cases/795-f-2d-1004/ross-in-re)\",\"match_kind\":\"semantic\",\"similarity\":0.6768},{\"cluster_id\":445782,\"case_name\":\"In re Ross (John)\",\"citations\":[\"751 F.2d 369\"],\"court\":\"Second Circuit\",\"date_filed\":\"1984-07-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/751-f-2d-369/in-re-ross-john\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Ross (John), 751 F.2d 369 (2d Cir. 1984)\",\"link_md\":\"[In re Ross (John), 751 F.2d 369 (2d Cir. 1984)](https://syfert.com/federal/circuits/cases/751-f-2d-369/in-re-ross-john)\",\"match_kind\":\"semantic\",\"similarity\":0.6686},{\"cluster_id\":374516,\"case_name\":\"Ross v. Carey\",\"citations\":[\"614 F.2d 1290\",\"1979 U.S. App. LEXIS 10718\"],\"court\":\"Second Circuit\",\"date_filed\":\"1979-11-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/614-f-2d-1290/ross-v-carey\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. Carey, 614 F.2d 1290 (2d Cir. 1979)\",\"link_md\":\"[Ross v. Carey, 614 F.2d 1290 (2d Cir. 1979)](https://syfert.com/federal/circuits/cases/614-f-2d-1290/ross-v-carey)\",\"match_kind\":\"semantic\",\"similarity\":0.6664},{\"cluster_id\":389668,\"case_name\":\"Ross, in Re\",\"citations\":[\"647 F.2d 162\",\"1981 U.S. App. LEXIS 20609\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-01-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/647-f-2d-162/ross-in-re\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross, in Re, 647 F.2d 162 (2d Cir. 1981)\",\"link_md\":\"[Ross, in Re, 647 F.2d 162 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/647-f-2d-162/ross-in-re)\",\"match_kind\":\"semantic\",\"similarity\":0.6661},{\"cluster_id\":132126,\"case_name\":\"Ross v. Texas\",\"citations\":[\"540 U.S. 875\",\"124 S. Ct. 229\"],\"court\":\"Supreme Court\",\"date_filed\":\"2003-10-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/540-u-s-875/ross-v-texas\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (132126 and its twins 9213787, 9213788). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. Texas, 540 U.S. 875 (2003)\",\"link_md\":\"[Ross v. Texas, 540 U.S. 875 (2003)](https://syfert.com/federal/scotus/cases/540-u-s-875/ross-v-texas)\",\"match_kind\":\"semantic\",\"similarity\":0.665},{\"cluster_id\":5376663,\"case_name\":\"People ex rel. Ross v. Dooling\",\"citations\":[\"133 A.D. 928\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1909-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/133-a-d-928/people-ex-rel-ross-v-dooling\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Ross v. Dooling, 133 A.D. 928 (N.Y. App. Div. 2d Dep't 1909)\",\"link_md\":\"[People ex rel. Ross v. Dooling, 133 A.D. 928 (N.Y. App. Div. 2d Dep't 1909)](https://syfert.com/new-york/cases/133-a-d-928/people-ex-rel-ross-v-dooling)\",\"match_kind\":\"semantic\",\"similarity\":0.6633},{\"cluster_id\":138346,\"case_name\":\"Ross v. Texas\",\"citations\":[\"543 U.S. 846\",\"125 S. Ct. 291\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-10-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-846/ross-v-texas\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (138346 and its twin 9277756). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. Texas, 543 U.S. 846 (2004)\",\"link_md\":\"[Ross v. Texas, 543 U.S. 846 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-846/ross-v-texas)\",\"match_kind\":\"semantic\",\"similarity\":0.6627},{\"cluster_id\":443186,\"case_name\":\"Ross v. Wainwright\",\"citations\":[\"746 F.2d 815\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1984-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/746-f-2d-815/ross-v-wainwright\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. Wainwright, 746 F.2d 815 (11th Cir. 1984)\",\"link_md\":\"[Ross v. Wainwright, 746 F.2d 815 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/746-f-2d-815/ross-v-wainwright)\",\"match_kind\":\"semantic\",\"similarity\":0.6608},{\"cluster_id\":448491,\"case_name\":\"Ross v. Secretary of Treasury of U.S\",\"citations\":[\"755 F.2d 923\"],\"court\":\"Third Circuit\",\"date_filed\":\"1985-01-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/755-f-2d-923/ross-v-secretary-of-treasury-of-us\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. Sec'y of Treasury of U.S, 755 F.2d 923 (3d Cir. 1985)\",\"link_md\":\"[Ross v. Sec'y of Treasury of U.S, 755 F.2d 923 (3d Cir. 1985)](https://syfert.com/federal/circuits/cases/755-f-2d-923/ross-v-secretary-of-treasury-of-us)\",\"match_kind\":\"semantic\",\"similarity\":0.6592},{\"cluster_id\":9540365,\"case_name\":\"Ross v. Rechcigl\",\"citations\":[],\"court\":\"E.D. Arkansas\",\"date_filed\":\"2022-09-12\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9540365/ross-v-rechcigl\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Ross v. Rechcigl, No. 2:20-cv-00235 (E.D. Ark. Sept. 12, 2022)\",\"link_md\":\"[Ross v. Rechcigl, No. 2:20-cv-00235 (E.D. Ark. Sept. 12, 2022)](https://syfert.com/federal/district/cases/cl-9540365/ross-v-rechcigl)\",\"match_kind\":\"semantic\",\"similarity\":0.6585},{\"cluster_id\":412946,\"case_name\":\"Ross v. Henderson\",\"citations\":[\"697 F.2d 296\"],\"court\":\"Second Circuit\",\"date_filed\":\"1982-07-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/697-f-2d-296/ross-v-henderson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. Henderson, 697 F.2d 296 (2d Cir. 1982)\",\"link_md\":\"[Ross v. Henderson, 697 F.2d 296 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/697-f-2d-296/ross-v-henderson)\",\"match_kind\":\"semantic\",\"similarity\":0.6573},{\"cluster_id\":463133,\"case_name\":\"Ross v. Hercules, Inc\",\"citations\":[\"780 F.2d 1031\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1985-12-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/780-f-2d-1031/ross-v-hercules-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. Hercules, Inc, 780 F.2d 1031 (11th Cir. 1985)\",\"link_md\":\"[Ross v. Hercules, Inc, 780 F.2d 1031 (11th Cir. 1985)](https://syfert.com/federal/circuits/cases/780-f-2d-1031/ross-v-hercules-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.657},{\"cluster_id\":10849079,\"case_name\":\"United States v. Ross\",\"citations\":[\"171 F.4th 522\"],\"court\":\"First Circuit\",\"date_filed\":\"2026-04-28\",\"status\":\"Errata\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/171-f-4th-522/united-states-v-ross\",\"precedential_status\":\"Errata\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"171 F.4th 522\",\"recovered_from_citing_opinions\":5,\"source\":\"name_year_recovery\",\"confidence\":0.95,\"note\":\"Reporter citation recovered from 5 citing opinions that cite this case by name and year. CourtListener carries no reporter cite for it (confidence 0.95)\"}],\"bluebook\":\"United States v. Ross, 171 F.4th 522 (1st Cir. 2026)\",\"link_md\":\"[United States v. Ross, 171 F.4th 522 (1st Cir. 2026)](https://syfert.com/federal/circuits/cases/171-f-4th-522/united-states-v-ross)\",\"match_kind\":\"semantic\",\"similarity\":0.6542},{\"cluster_id\":432721,\"case_name\":\"United States v. Ross (Douglas Freeman)\",\"citations\":[\"729 F.2d 1455\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1984-03-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/729-f-2d-1455/united-states-v-ross-douglas-freeman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ross (Douglas Freeman), 729 F.2d 1455 (4th Cir. 1984)\",\"link_md\":\"[United States v. Ross (Douglas Freeman), 729 F.2d 1455 (4th Cir. 1984)](https://syfert.com/federal/circuits/cases/729-f-2d-1455/united-states-v-ross-douglas-freeman)\",\"match_kind\":\"semantic\",\"similarity\":0.6537}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Ross w/15 \"232 US 110\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 314442,
+    "case_name": "Ross v. United States",
+    "citations": [
+     "486 F.2d 1396"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1973-09-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/486-f-2d-1396/ross-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. United States, 486 F.2d 1396 (2d Cir. 1973)",
+    "link_md": "[Ross v. United States, 486 F.2d 1396 (2d Cir. 1973)](https://syfert.com/federal/circuits/cases/486-f-2d-1396/ross-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7222
+   },
+   {
+    "cluster_id": 305893,
+    "case_name": "United States v. Ross",
+    "citations": [
+     "467 F.2d 943"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1972-10-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/467-f-2d-943/united-states-v-ross",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ross, 467 F.2d 943 (2d Cir. 1972)",
+    "link_md": "[United States v. Ross, 467 F.2d 943 (2d Cir. 1972)](https://syfert.com/federal/circuits/cases/467-f-2d-943/united-states-v-ross)",
+    "match_kind": "semantic",
+    "similarity": 0.7136
+   },
+   {
+    "cluster_id": 534018,
+    "case_name": "Ross (Arthur W.) v. United States",
+    "citations": [
+     "892 F.2d 81",
+     "1989 U.S. App. LEXIS 18631",
+     "1989 WL 149448"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1989-11-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/892-f-2d-81/ross-arthur-w-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross (Arthur W.) v. United States, 892 F.2d 81 (7th Cir. 1989)",
+    "link_md": "[Ross (Arthur W.) v. United States, 892 F.2d 81 (7th Cir. 1989)](https://syfert.com/federal/circuits/cases/892-f-2d-81/ross-arthur-w-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7049
+   },
+   {
+    "cluster_id": 422545,
+    "case_name": "United States v. Ross",
+    "citations": [
+     "714 F.2d 118"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1982-10-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/714-f-2d-118/united-states-v-ross",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ross, 714 F.2d 118 (2d Cir. 1982)",
+    "link_md": "[United States v. Ross, 714 F.2d 118 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/714-f-2d-118/united-states-v-ross)",
+    "match_kind": "semantic",
+    "similarity": 0.698
+   },
+   {
+    "cluster_id": 515913,
+    "case_name": "Ross (Gail D.) v. United States",
+    "citations": [
+     "863 F.2d 885",
+     "1988 WL 129862"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1988-11-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/863-f-2d-885/ross-gail-d-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross (Gail D.) v. United States, 863 F.2d 885 (7th Cir. 1988)",
+    "link_md": "[Ross (Gail D.) v. United States, 863 F.2d 885 (7th Cir. 1988)](https://syfert.com/federal/circuits/cases/863-f-2d-885/ross-gail-d-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.698
+   },
+   {
+    "cluster_id": 408289,
+    "case_name": "Ross v. Saltmarsh",
+    "citations": [
+     "688 F.2d 816"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1982-03-05",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/federal/circuits/cases/688-f-2d-816/ross-v-saltmarsh",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. Saltmarsh, 688 F.2d 816 (2d Cir. 1982)",
+    "link_md": "[Ross v. Saltmarsh, 688 F.2d 816 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/688-f-2d-816/ross-v-saltmarsh)",
+    "match_kind": "semantic",
+    "similarity": 0.6776
+   },
+   {
+    "cluster_id": 473143,
+    "case_name": "Ross, in Re",
+    "citations": [
+     "795 F.2d 1004",
+     "1986 U.S. App. LEXIS 28659"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1986-06-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/795-f-2d-1004/ross-in-re",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross, in Re, 795 F.2d 1004 (2d Cir. 1986)",
+    "link_md": "[Ross, in Re, 795 F.2d 1004 (2d Cir. 1986)](https://syfert.com/federal/circuits/cases/795-f-2d-1004/ross-in-re)",
+    "match_kind": "semantic",
+    "similarity": 0.6768
+   },
+   {
+    "cluster_id": 445782,
+    "case_name": "In re Ross (John)",
+    "citations": [
+     "751 F.2d 369"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1984-07-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/751-f-2d-369/in-re-ross-john",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Ross (John), 751 F.2d 369 (2d Cir. 1984)",
+    "link_md": "[In re Ross (John), 751 F.2d 369 (2d Cir. 1984)](https://syfert.com/federal/circuits/cases/751-f-2d-369/in-re-ross-john)",
+    "match_kind": "semantic",
+    "similarity": 0.6686
+   },
+   {
+    "cluster_id": 374516,
+    "case_name": "Ross v. Carey",
+    "citations": [
+     "614 F.2d 1290",
+     "1979 U.S. App. LEXIS 10718"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1979-11-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/614-f-2d-1290/ross-v-carey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. Carey, 614 F.2d 1290 (2d Cir. 1979)",
+    "link_md": "[Ross v. Carey, 614 F.2d 1290 (2d Cir. 1979)](https://syfert.com/federal/circuits/cases/614-f-2d-1290/ross-v-carey)",
+    "match_kind": "semantic",
+    "similarity": 0.6664
+   },
+   {
+    "cluster_id": 389668,
+    "case_name": "Ross, in Re",
+    "citations": [
+     "647 F.2d 162",
+     "1981 U.S. App. LEXIS 20609"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-01-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/647-f-2d-162/ross-in-re",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross, in Re, 647 F.2d 162 (2d Cir. 1981)",
+    "link_md": "[Ross, in Re, 647 F.2d 162 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/647-f-2d-162/ross-in-re)",
+    "match_kind": "semantic",
+    "similarity": 0.6661
+   },
+   {
+    "cluster_id": 132126,
+    "case_name": "Ross v. Texas",
+    "citations": [
+     "540 U.S. 875",
+     "124 S. Ct. 229"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2003-10-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/540-u-s-875/ross-v-texas",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (132126 and its twins 9213787, 9213788). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. Texas, 540 U.S. 875 (2003)",
+    "link_md": "[Ross v. Texas, 540 U.S. 875 (2003)](https://syfert.com/federal/scotus/cases/540-u-s-875/ross-v-texas)",
+    "match_kind": "semantic",
+    "similarity": 0.665
+   },
+   {
+    "cluster_id": 5376663,
+    "case_name": "People ex rel. Ross v. Dooling",
+    "citations": [
+     "133 A.D. 928"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1909-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/133-a-d-928/people-ex-rel-ross-v-dooling",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Ross v. Dooling, 133 A.D. 928 (N.Y. App. Div. 2d Dep't 1909)",
+    "link_md": "[People ex rel. Ross v. Dooling, 133 A.D. 928 (N.Y. App. Div. 2d Dep't 1909)](https://syfert.com/new-york/cases/133-a-d-928/people-ex-rel-ross-v-dooling)",
+    "match_kind": "semantic",
+    "similarity": 0.6633
+   },
+   {
+    "cluster_id": 138346,
+    "case_name": "Ross v. Texas",
+    "citations": [
+     "543 U.S. 846",
+     "125 S. Ct. 291"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-10-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-846/ross-v-texas",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (138346 and its twin 9277756). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. Texas, 543 U.S. 846 (2004)",
+    "link_md": "[Ross v. Texas, 543 U.S. 846 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-846/ross-v-texas)",
+    "match_kind": "semantic",
+    "similarity": 0.6627
+   },
+   {
+    "cluster_id": 443186,
+    "case_name": "Ross v. Wainwright",
+    "citations": [
+     "746 F.2d 815"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1984-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/746-f-2d-815/ross-v-wainwright",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. Wainwright, 746 F.2d 815 (11th Cir. 1984)",
+    "link_md": "[Ross v. Wainwright, 746 F.2d 815 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/746-f-2d-815/ross-v-wainwright)",
+    "match_kind": "semantic",
+    "similarity": 0.6608
+   },
+   {
+    "cluster_id": 448491,
+    "case_name": "Ross v. Secretary of Treasury of U.S",
+    "citations": [
+     "755 F.2d 923"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1985-01-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/755-f-2d-923/ross-v-secretary-of-treasury-of-us",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. Sec'y of Treasury of U.S, 755 F.2d 923 (3d Cir. 1985)",
+    "link_md": "[Ross v. Sec'y of Treasury of U.S, 755 F.2d 923 (3d Cir. 1985)](https://syfert.com/federal/circuits/cases/755-f-2d-923/ross-v-secretary-of-treasury-of-us)",
+    "match_kind": "semantic",
+    "similarity": 0.6592
+   },
+   {
+    "cluster_id": 9540365,
+    "case_name": "Ross v. Rechcigl",
+    "citations": [],
+    "court": "E.D. Arkansas",
+    "date_filed": "2022-09-12",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9540365/ross-v-rechcigl",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Ross v. Rechcigl, No. 2:20-cv-00235 (E.D. Ark. Sept. 12, 2022)",
+    "link_md": "[Ross v. Rechcigl, No. 2:20-cv-00235 (E.D. Ark. Sept. 12, 2022)](https://syfert.com/federal/district/cases/cl-9540365/ross-v-rechcigl)",
+    "match_kind": "semantic",
+    "similarity": 0.6585
+   },
+   {
+    "cluster_id": 412946,
+    "case_name": "Ross v. Henderson",
+    "citations": [
+     "697 F.2d 296"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1982-07-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/697-f-2d-296/ross-v-henderson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. Henderson, 697 F.2d 296 (2d Cir. 1982)",
+    "link_md": "[Ross v. Henderson, 697 F.2d 296 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/697-f-2d-296/ross-v-henderson)",
+    "match_kind": "semantic",
+    "similarity": 0.6573
+   },
+   {
+    "cluster_id": 463133,
+    "case_name": "Ross v. Hercules, Inc",
+    "citations": [
+     "780 F.2d 1031"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1985-12-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/780-f-2d-1031/ross-v-hercules-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. Hercules, Inc, 780 F.2d 1031 (11th Cir. 1985)",
+    "link_md": "[Ross v. Hercules, Inc, 780 F.2d 1031 (11th Cir. 1985)](https://syfert.com/federal/circuits/cases/780-f-2d-1031/ross-v-hercules-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.657
+   },
+   {
+    "cluster_id": 10849079,
+    "case_name": "United States v. Ross",
+    "citations": [
+     "171 F.4th 522"
+    ],
+    "court": "First Circuit",
+    "date_filed": "2026-04-28",
+    "status": "Errata",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/171-f-4th-522/united-states-v-ross",
+    "precedential_status": "Errata",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "171 F.4th 522",
+      "recovered_from_citing_opinions": 5,
+      "source": "name_year_recovery",
+      "confidence": 0.95,
+      "note": "Reporter citation recovered from 5 citing opinions that cite this case by name and year. CourtListener carries no reporter cite for it (confidence 0.95)"
+     }
+    ],
+    "bluebook": "United States v. Ross, 171 F.4th 522 (1st Cir. 2026)",
+    "link_md": "[United States v. Ross, 171 F.4th 522 (1st Cir. 2026)](https://syfert.com/federal/circuits/cases/171-f-4th-522/united-states-v-ross)",
+    "match_kind": "semantic",
+    "similarity": 0.6542
+   },
+   {
+    "cluster_id": 432721,
+    "case_name": "United States v. Ross (Douglas Freeman)",
+    "citations": [
+     "729 F.2d 1455"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1984-03-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/729-f-2d-1455/united-states-v-ross-douglas-freeman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ross (Douglas Freeman), 729 F.2d 1455 (4th Cir. 1984)",
+    "link_md": "[United States v. Ross (Douglas Freeman), 729 F.2d 1455 (4th Cir. 1984)](https://syfert.com/federal/circuits/cases/729-f-2d-1455/united-states-v-ross-douglas-freeman)",
+    "match_kind": "semantic",
+    "similarity": 0.6537
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

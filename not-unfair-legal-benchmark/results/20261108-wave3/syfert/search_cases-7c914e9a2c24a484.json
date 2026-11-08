@@ -1,0 +1,65 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Grady w/15 \"123 S.E. 495\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Grady w/15 \\\"123 S.E. 495\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1263258,\"bluebook\":\"OUTLAW v. Moise, 71 S.E.2d 509 (S.C. 1952)\",\"url\":\"https://syfert.com/south-carolina/cases/222-s-c-24/outlaw-v-moise\",\"date_filed\":\"1952-06-26\",\"cited_by\":25,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...327, 15 S. E. 951 ;\\nGrady v. City of Greenville,\\n129 S. C. 89, 123 S. E. 494 , 495. The great weight of authority elsewhere is to the same effect.\\nSchoenberg v. O’Connor,\\n116.N. J. L. 398, 185 A. 377 ;\\nSteele v. Fowler, Mayor,\\n111 Ind.…\",\"holding\":\"Dedication of a street to the public through a plat is not complete until the public manifests acceptance through action within a reasonable time.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":4118653,\"bluebook\":\"Farrow v. City Council of Charleston, 168 S.E. 852 (S.C. 1933)\",\"url\":\"https://syfert.com/south-carolina/cases/169-s-c-373/farrow-v-city-council-of-charleston\",\"date_filed\":\"1933-04-05\",\"cited_by\":28,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Neither is the case of\\nGrady v. City of Greenville,\\n129 S. C., 89, 123 S. E., 494 , 495, applicable to the case at bar. That case, in which it was held that the city was not estopped to remove a monument from a certain location in a…\"},{\"cluster_id\":1302456,\"bluebook\":\"Sloan v. City of Greenville, 111 S.E.2d 573 (S.C. 1959)\",\"url\":\"https://syfert.com/south-carolina/cases/235-s-c-277/sloan-v-city-of-greenville\",\"date_filed\":\"1959-12-01\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...The City does not own the fee to said streets.” It appears by reference to the case of\\nGrady v. City of Greenville,\\n129 S. C. 89, 123 S. E. 494 , 495, and the case of\\nChapman v. Greenville Chamber of Commerce,\\n127 S. C. 173, 120 S. E.…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Grady w/15 \"123 S.E. 495\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1263258,
+    "bluebook": "OUTLAW v. Moise, 71 S.E.2d 509 (S.C. 1952)",
+    "url": "https://syfert.com/south-carolina/cases/222-s-c-24/outlaw-v-moise",
+    "date_filed": "1952-06-26",
+    "cited_by": 25,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...327, 15 S. E. 951 ;\nGrady v. City of Greenville,\n129 S. C. 89, 123 S. E. 494 , 495. The great weight of authority elsewhere is to the same effect.\nSchoenberg v. O’Connor,\n116.N. J. L. 398, 185 A. 377 ;\nSteele v. Fowler, Mayor,\n111 Ind.…",
+    "holding": "Dedication of a street to the public through a plat is not complete until the public manifests acceptance through action within a reasonable time.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 4118653,
+    "bluebook": "Farrow v. City Council of Charleston, 168 S.E. 852 (S.C. 1933)",
+    "url": "https://syfert.com/south-carolina/cases/169-s-c-373/farrow-v-city-council-of-charleston",
+    "date_filed": "1933-04-05",
+    "cited_by": 28,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Neither is the case of\nGrady v. City of Greenville,\n129 S. C., 89, 123 S. E., 494 , 495, applicable to the case at bar. That case, in which it was held that the city was not estopped to remove a monument from a certain location in a…"
+   },
+   {
+    "cluster_id": 1302456,
+    "bluebook": "Sloan v. City of Greenville, 111 S.E.2d 573 (S.C. 1959)",
+    "url": "https://syfert.com/south-carolina/cases/235-s-c-277/sloan-v-city-of-greenville",
+    "date_filed": "1959-12-01",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The City does not own the fee to said streets.” It appears by reference to the case of\nGrady v. City of Greenville,\n129 S. C. 89, 123 S. E. 494 , 495, and the case of\nChapman v. Greenville Chamber of Commerce,\n127 S. C. 173, 120 S. E.…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

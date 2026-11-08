@@ -1,0 +1,56 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Wheeler w/15 \"900 P2d 1076\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Wheeler w/15 \\\"900 P2d 1076\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2538567,\"bluebook\":\"Ramirez v. Lembcke, 80 P.3d 510 (Or. Ct. App. 2003)\",\"url\":\"https://syfert.com/oregon/cases/191-or-app-70/ramirez-v-lembcke\",\"date_filed\":\"2003-11-26\",\"cited_by\":7,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Wheeler v. Williams,\\n136 Or App 1, 4-6 , 900 P2d 1076 ,\\nrev den,\\n322 Or 362 (1995) (implicitly approving trial court’s predicate decision to dismiss a complaint on the ground that the court lacked jurisdiction because “the complaint…\"},{\"cluster_id\":7050339,\"bluebook\":\"Worthington v. Est. of Davis, 282 P.3d 895 (Or. Ct. App. 2012)\",\"url\":\"https://syfert.com/oregon/cases/250-or-app-755/worthington-v-estate-of-davis\",\"date_filed\":\"2012-06-27\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In advocating for this result, defendants rely on Wheeler v. Williams, 136 Or App 1 , 900 P2d 1076 , rev den, 322 Or 362 (1995), which they claim is controlling. Indeed, Wheeler involved facts very similar to those in this case. Like…\"},{\"cluster_id\":10970457,\"bluebook\":\"Uranga & Gable, 352 Or. App. 789 (Or. Ct. App. 2026)\",\"url\":\"https://syfert.com/oregon/cases/352-or-app-789/uranga-and-gable\",\"date_filed\":\"2026-09-10\",\"cited_by\":0,\"snippet\":\"...See, e.g., Wheeler v. Williams, 136 Or App 1,\\n5 , 900 P2d 1076 , rev den, 322 Or 362 (1995) (where a car accident occurred on\\nApril 3, 1991, and the decedent died on April 26, 1992, the statute of limitations\\nfor claims arising from the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Wheeler w/15 \"900 P2d 1076\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2538567,
+    "bluebook": "Ramirez v. Lembcke, 80 P.3d 510 (Or. Ct. App. 2003)",
+    "url": "https://syfert.com/oregon/cases/191-or-app-70/ramirez-v-lembcke",
+    "date_filed": "2003-11-26",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Wheeler v. Williams,\n136 Or App 1, 4-6 , 900 P2d 1076 ,\nrev den,\n322 Or 362 (1995) (implicitly approving trial court’s predicate decision to dismiss a complaint on the ground that the court lacked jurisdiction because “the complaint…"
+   },
+   {
+    "cluster_id": 7050339,
+    "bluebook": "Worthington v. Est. of Davis, 282 P.3d 895 (Or. Ct. App. 2012)",
+    "url": "https://syfert.com/oregon/cases/250-or-app-755/worthington-v-estate-of-davis",
+    "date_filed": "2012-06-27",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In advocating for this result, defendants rely on Wheeler v. Williams, 136 Or App 1 , 900 P2d 1076 , rev den, 322 Or 362 (1995), which they claim is controlling. Indeed, Wheeler involved facts very similar to those in this case. Like…"
+   },
+   {
+    "cluster_id": 10970457,
+    "bluebook": "Uranga & Gable, 352 Or. App. 789 (Or. Ct. App. 2026)",
+    "url": "https://syfert.com/oregon/cases/352-or-app-789/uranga-and-gable",
+    "date_filed": "2026-09-10",
+    "cited_by": 0,
+    "snippet": "...See, e.g., Wheeler v. Williams, 136 Or App 1,\n5 , 900 P2d 1076 , rev den, 322 Or 362 (1995) (where a car accident occurred on\nApril 3, 1991, and the decedent died on April 26, 1992, the statute of limitations\nfor claims arising from the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

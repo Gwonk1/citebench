@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "89 A.2d 327",
+  "expected_case_name": "Eastern Wood Products Co. v. Metz"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"89 A.2d 327\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1443256,\n            \"case_name\": \"Eastern Wood Products Co. v. Metz\",\n            \"citations\": [\n                \"89 A.2d 327\"\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"1952-05-26\",\n            \"status\": \"Published\",\n            \"cited_by\": 20,\n            \"url\": \"https://syfert.com/pennsylvania/cases/370-pa-636/eastern-wood-products-co-v-metz\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"E. Wood Prods. Co. v. Metz, 89 A.2d 327 (Pa. 1952)\",\n            \"link_md\": \"[E. Wood Prods. Co. v. Metz, 89 A.2d 327 (Pa. 1952)](https://syfert.com/pennsylvania/cases/370-pa-636/eastern-wood-products-co-v-metz)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 13,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Eastern Wood Products Co. v. Metz\",\n        \"actual\": \"Eastern Wood Products Co. v. Metz\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "89 A.2d 327",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1443256,
+    "case_name": "Eastern Wood Products Co. v. Metz",
+    "citations": [
+     "89 A.2d 327"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1952-05-26",
+    "status": "Published",
+    "cited_by": 20,
+    "url": "https://syfert.com/pennsylvania/cases/370-pa-636/eastern-wood-products-co-v-metz",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "E. Wood Prods. Co. v. Metz, 89 A.2d 327 (Pa. 1952)",
+    "link_md": "[E. Wood Prods. Co. v. Metz, 89 A.2d 327 (Pa. 1952)](https://syfert.com/pennsylvania/cases/370-pa-636/eastern-wood-products-co-v-metz)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 13,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Eastern Wood Products Co. v. Metz",
+   "actual": "Eastern Wood Products Co. v. Metz",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "89 A.2d 769",
+  "expected_case_name": "Wallace v. Wallace"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"89 A.2d 769\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4085802,\n            \"case_name\": \"Wallace v. Wallace\",\n            \"citations\": [\n                \"89 A.2d 769\"\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"1952-04-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 25,\n            \"url\": \"https://syfert.com/pennsylvania/cases/cl-4085802/wallace-v-wallace\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Wallace v. Wallace, 89 A.2d 769 (Pa. 1952)\",\n            \"link_md\": \"[Wallace v. Wallace, 89 A.2d 769 (Pa. 1952)](https://syfert.com/pennsylvania/cases/cl-4085802/wallace-v-wallace)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 16,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Wallace v. Wallace\",\n        \"actual\": \"Wallace v. Wallace\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "89 A.2d 769",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4085802,
+    "case_name": "Wallace v. Wallace",
+    "citations": [
+     "89 A.2d 769"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1952-04-18",
+    "status": "Published",
+    "cited_by": 25,
+    "url": "https://syfert.com/pennsylvania/cases/cl-4085802/wallace-v-wallace",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wallace v. Wallace, 89 A.2d 769 (Pa. 1952)",
+    "link_md": "[Wallace v. Wallace, 89 A.2d 769 (Pa. 1952)](https://syfert.com/pennsylvania/cases/cl-4085802/wallace-v-wallace)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 16,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Wallace v. Wallace",
+   "actual": "Wallace v. Wallace",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

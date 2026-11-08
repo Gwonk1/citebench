@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "126 A.2d 846",
+  "expected_case_name": "State Ex Rel. Employment Security Board v. Rucker"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"126 A.2d 846\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2097021,\n            \"case_name\": \"State Ex Rel. Employment Security Board v. Rucker\",\n            \"citations\": [\n                \"126 A.2d 846\"\n            ],\n            \"court\": \"Court of Appeals of Maryland\",\n            \"date_filed\": \"1956-11-07\",\n            \"status\": \"Published\",\n            \"cited_by\": 30,\n            \"url\": \"https://syfert.com/maryland/cases/211-md-153/state-ex-rel-employment-security-board-v-rucker\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State ex rel. Emp. Sec. Bd. v. Rucker, 126 A.2d 846 (Md. 1956)\",\n            \"link_md\": \"[State ex rel. Emp. Sec. Bd. v. Rucker, 126 A.2d 846 (Md. 1956)](https://syfert.com/maryland/cases/211-md-153/state-ex-rel-employment-security-board-v-rucker)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 11,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"affirmed in part\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State Ex Rel. Employment Security Board v. Rucker\",\n        \"actual\": \"State Ex Rel. Employment Security Board v. Rucker\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "126 A.2d 846",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2097021,
+    "case_name": "State Ex Rel. Employment Security Board v. Rucker",
+    "citations": [
+     "126 A.2d 846"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "1956-11-07",
+    "status": "Published",
+    "cited_by": 30,
+    "url": "https://syfert.com/maryland/cases/211-md-153/state-ex-rel-employment-security-board-v-rucker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Emp. Sec. Bd. v. Rucker, 126 A.2d 846 (Md. 1956)",
+    "link_md": "[State ex rel. Emp. Sec. Bd. v. Rucker, 126 A.2d 846 (Md. 1956)](https://syfert.com/maryland/cases/211-md-153/state-ex-rel-employment-security-board-v-rucker)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 11,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State Ex Rel. Employment Security Board v. Rucker",
+   "actual": "State Ex Rel. Employment Security Board v. Rucker",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

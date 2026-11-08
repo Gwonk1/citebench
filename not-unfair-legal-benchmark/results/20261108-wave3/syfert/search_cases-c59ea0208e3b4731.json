@@ -1,0 +1,82 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Malone w/15 \"50 P 6\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Malone w/15 \\\"50 P 6\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1346306,\"bluebook\":\"Garrado v. Collins, 288 P.2d 620 (Cal. Ct. App. 1955)\",\"url\":\"https://syfert.com/california/cases/136-cal-app-2d-323/garrado-v-collins\",\"date_filed\":\"1955-10-17\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Although there was no finding upon the subject defendants are bound by their averment “that said marriage was never terminated by a decree of any court, and that said Paul Adams is still living. ...”\\n(Malone\\nv.\\nRoy,\\n118 Cal. 512, 514 […\"},{\"cluster_id\":1256879,\"bluebook\":\"Joslin v. Marin Mun. Water Dist., 429 P.2d 889 (Cal. 1967)\",\"url\":\"https://syfert.com/california/cases/67-cal-2d-132/joslin-v-marin-municipal-water-district\",\"date_filed\":\"1967-07-28\",\"cited_by\":110,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...143, 149 [ 259 P. 735 ] ;\\nMalone\\nv.\\nRoy\\n(1897) 118 Cal. 512, 514 [ 50 P. 6 , 542]), those allegations are foreclosed to him and, where not put in issue by defendant’s affidavits, present no triable issues at least for purposes of the…\",\"holding\":\"Using stream water solely to transport and deposit sand and gravel constitutes an unreasonable use of water that does not create a compensable property interest.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":3226129,\"bluebook\":\"Blewett v. Stallworth, 27 So. 2d 206 (Ala. 1946)\",\"url\":\"https://syfert.com/alabama/cases/248-ala-242/blewett-v-stallworth\",\"date_filed\":\"1946-08-02\",\"cited_by\":4,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...These appellants were out $50 for a quitclaim deed. They received from George P. Hill over $6,000, and from Malone $1,000. No expense has been made in developing or improving the property. If relief is granted, the loss to appellants…\"},{\"cluster_id\":2154535,\"bluebook\":\"Elec. Equip. Express, Inc. v. Donald H. Seiler & Co., 122 Cal. App. 3d 834 (Cal. Ct. App. 1981)\",\"url\":\"https://syfert.com/california/cases/122-cal-app-3d-834/electronic-equipment-express-inc-v-donald-h-seiler-co\",\"date_filed\":\"1981-08-21\",\"cited_by\":92,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...It is true, as appellants urge, that under the doctrine of conclusiveness of pleadings evidence may not be received to contradict an admission on the pleadings and that findings contrary to such admissions must be disregarded.\\n(Malone…\",\"holding\":\"A fiduciary has a duty to investigate when they have notice of facts sufficient to arouse the suspicions of a reasonable man.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Malone w/15 \"50 P 6\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1346306,
+    "bluebook": "Garrado v. Collins, 288 P.2d 620 (Cal. Ct. App. 1955)",
+    "url": "https://syfert.com/california/cases/136-cal-app-2d-323/garrado-v-collins",
+    "date_filed": "1955-10-17",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Although there was no finding upon the subject defendants are bound by their averment “that said marriage was never terminated by a decree of any court, and that said Paul Adams is still living. ...”\n(Malone\nv.\nRoy,\n118 Cal. 512, 514 […"
+   },
+   {
+    "cluster_id": 1256879,
+    "bluebook": "Joslin v. Marin Mun. Water Dist., 429 P.2d 889 (Cal. 1967)",
+    "url": "https://syfert.com/california/cases/67-cal-2d-132/joslin-v-marin-municipal-water-district",
+    "date_filed": "1967-07-28",
+    "cited_by": 110,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...143, 149 [ 259 P. 735 ] ;\nMalone\nv.\nRoy\n(1897) 118 Cal. 512, 514 [ 50 P. 6 , 542]), those allegations are foreclosed to him and, where not put in issue by defendant’s affidavits, present no triable issues at least for purposes of the…",
+    "holding": "Using stream water solely to transport and deposit sand and gravel constitutes an unreasonable use of water that does not create a compensable property interest.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 3226129,
+    "bluebook": "Blewett v. Stallworth, 27 So. 2d 206 (Ala. 1946)",
+    "url": "https://syfert.com/alabama/cases/248-ala-242/blewett-v-stallworth",
+    "date_filed": "1946-08-02",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...These appellants were out $50 for a quitclaim deed. They received from George P. Hill over $6,000, and from Malone $1,000. No expense has been made in developing or improving the property. If relief is granted, the loss to appellants…"
+   },
+   {
+    "cluster_id": 2154535,
+    "bluebook": "Elec. Equip. Express, Inc. v. Donald H. Seiler & Co., 122 Cal. App. 3d 834 (Cal. Ct. App. 1981)",
+    "url": "https://syfert.com/california/cases/122-cal-app-3d-834/electronic-equipment-express-inc-v-donald-h-seiler-co",
+    "date_filed": "1981-08-21",
+    "cited_by": 92,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...It is true, as appellants urge, that under the doctrine of conclusiveness of pleadings evidence may not be received to contradict an admission on the pleadings and that findings contrary to such admissions must be disregarded.\n(Malone…",
+    "holding": "A fiduciary has a duty to investigate when they have notice of facts sufficient to arouse the suspicions of a reasonable man.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

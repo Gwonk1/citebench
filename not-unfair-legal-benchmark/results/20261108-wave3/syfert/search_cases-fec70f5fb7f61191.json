@@ -1,0 +1,69 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Rodney w/15 \"89 A2d 313\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Rodney w/15 \\\"89 A2d 313\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1392988,\"bluebook\":\"Horton v. Brown, 159 S.E.2d 489 (Ga. Ct. App. 1967)\",\"url\":\"https://syfert.com/georgia/cases/117-ga-app-47/horton-v-brown\",\"date_filed\":\"1967-11-21\",\"cited_by\":29,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...for damages sustained by reason of the unlawful killing of their mother.”\\nAs stated by the Pennsylvania Supreme Court in Rodney v. Staman, 371 Pa. 1 ( 89 A2d 313 ), cited in the Shiver case, supra, “Unquestionably, a wrong has been done…\",\"holding\":\"A wrongful death action is derivative of the decedent's right to sue and is barred if the decedent was legally precluded from suing the tortfeasor during her lifetime.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":1247600,\"bluebook\":\"Welty Est. v. Wolf Est., 76 N.W.2d 52 (Mich. 1956)\",\"url\":\"https://syfert.com/michigan/cases/345-mich-408/welty-estate-v-wolf-estate\",\"date_filed\":\"1956-04-02\",\"cited_by\":12,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...That fact gives rise to a rebuttable presumption that he was driving at the time\\n(Rodney\\nv.\\nStaman,\\n371 Pa 1 [ 89 A2d 313 ] in 32 ALR2d 976, annotating subject “Proof, in absence of direct testimony by survivor or eyewitnesses of who,…\"},{\"cluster_id\":1227468,\"bluebook\":\"Apitz v. Dames, 287 P.2d 585 (Or. 1955)\",\"url\":\"https://syfert.com/oregon/cases/205-or-242/apitz-v-dames\",\"date_filed\":\"1955-09-09\",\"cited_by\":51,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...mother, although the mother would not have been able to maintain an action against her husband if she had lived.\\nRodney v. Staman,\\n371 Pa 1, 89 A2d 313 , 32 ALR2d 976, strongly supports the ruling in\\nDeposit Guaranty\\nBank & Trust Co. v.…\",\"holding\":\"A wife may maintain an action for damages against her husband for intentional personal injury because the marital peace is already destroyed by the harm.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Rodney w/15 \"89 A2d 313\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1392988,
+    "bluebook": "Horton v. Brown, 159 S.E.2d 489 (Ga. Ct. App. 1967)",
+    "url": "https://syfert.com/georgia/cases/117-ga-app-47/horton-v-brown",
+    "date_filed": "1967-11-21",
+    "cited_by": 29,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...for damages sustained by reason of the unlawful killing of their mother.”\nAs stated by the Pennsylvania Supreme Court in Rodney v. Staman, 371 Pa. 1 ( 89 A2d 313 ), cited in the Shiver case, supra, “Unquestionably, a wrong has been done…",
+    "holding": "A wrongful death action is derivative of the decedent's right to sue and is barred if the decedent was legally precluded from suing the tortfeasor during her lifetime.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1247600,
+    "bluebook": "Welty Est. v. Wolf Est., 76 N.W.2d 52 (Mich. 1956)",
+    "url": "https://syfert.com/michigan/cases/345-mich-408/welty-estate-v-wolf-estate",
+    "date_filed": "1956-04-02",
+    "cited_by": 12,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...That fact gives rise to a rebuttable presumption that he was driving at the time\n(Rodney\nv.\nStaman,\n371 Pa 1 [ 89 A2d 313 ] in 32 ALR2d 976, annotating subject “Proof, in absence of direct testimony by survivor or eyewitnesses of who,…"
+   },
+   {
+    "cluster_id": 1227468,
+    "bluebook": "Apitz v. Dames, 287 P.2d 585 (Or. 1955)",
+    "url": "https://syfert.com/oregon/cases/205-or-242/apitz-v-dames",
+    "date_filed": "1955-09-09",
+    "cited_by": 51,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...mother, although the mother would not have been able to maintain an action against her husband if she had lived.\nRodney v. Staman,\n371 Pa 1, 89 A2d 313 , 32 ALR2d 976, strongly supports the ruling in\nDeposit Guaranty\nBank & Trust Co. v.…",
+    "holding": "A wife may maintain an action for damages against her husband for intentional personal injury because the marital peace is already destroyed by the harm.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

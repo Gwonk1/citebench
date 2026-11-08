@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "204 S.E.2d 176",
+  "expected_case_name": "Elrod v. Ault"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"204 S.E.2d 176\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1220872,\n            \"case_name\": \"Elrod v. Ault\",\n            \"citations\": [\n                \"204 S.E.2d 176\"\n            ],\n            \"court\": \"Supreme Court of Georgia\",\n            \"date_filed\": \"1974-02-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 22,\n            \"url\": \"https://syfert.com/georgia/cases/231-ga-750/elrod-v-ault\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Elrod v. Ault, 204 S.E.2d 176 (Ga. 1974)\",\n            \"link_md\": \"[Elrod v. Ault, 204 S.E.2d 176 (Ga. 1974)](https://syfert.com/georgia/cases/231-ga-750/elrod-v-ault)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 5,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Elrod v. Ault\",\n        \"actual\": \"Elrod v. Ault\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "204 S.E.2d 176",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1220872,
+    "case_name": "Elrod v. Ault",
+    "citations": [
+     "204 S.E.2d 176"
+    ],
+    "court": "Supreme Court of Georgia",
+    "date_filed": "1974-02-18",
+    "status": "Published",
+    "cited_by": 22,
+    "url": "https://syfert.com/georgia/cases/231-ga-750/elrod-v-ault",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Elrod v. Ault, 204 S.E.2d 176 (Ga. 1974)",
+    "link_md": "[Elrod v. Ault, 204 S.E.2d 176 (Ga. 1974)](https://syfert.com/georgia/cases/231-ga-750/elrod-v-ault)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 5,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Elrod v. Ault",
+   "actual": "Elrod v. Ault",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

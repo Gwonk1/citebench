@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "92 N.E.2d 88",
+  "expected_case_name": "Berg v. Schreiber"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"92 N.E.2d 88\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2207510,\n            \"case_name\": \"Berg v. Schreiber\",\n            \"citations\": [\n                \"92 N.E.2d 88\"\n            ],\n            \"court\": \"Illinois Supreme Court\",\n            \"date_filed\": \"1950-03-22\",\n            \"status\": \"Published\",\n            \"cited_by\": 3,\n            \"url\": \"https://syfert.com/illinois/cases/405-ill-528/berg-v-schreiber\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Berg v. Schreiber, 92 N.E.2d 88 (Ill. 1950)\",\n            \"link_md\": \"[Berg v. Schreiber, 92 N.E.2d 88 (Ill. 1950)](https://syfert.com/illinois/cases/405-ill-528/berg-v-schreiber)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Berg v. Schreiber\",\n        \"actual\": \"Berg v. Schreiber\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "92 N.E.2d 88",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2207510,
+    "case_name": "Berg v. Schreiber",
+    "citations": [
+     "92 N.E.2d 88"
+    ],
+    "court": "Illinois Supreme Court",
+    "date_filed": "1950-03-22",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/illinois/cases/405-ill-528/berg-v-schreiber",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Berg v. Schreiber, 92 N.E.2d 88 (Ill. 1950)",
+    "link_md": "[Berg v. Schreiber, 92 N.E.2d 88 (Ill. 1950)](https://syfert.com/illinois/cases/405-ill-528/berg-v-schreiber)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Berg v. Schreiber",
+   "actual": "Berg v. Schreiber",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

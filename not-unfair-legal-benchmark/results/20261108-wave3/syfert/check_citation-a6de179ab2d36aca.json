@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "88 N.W. 562",
+  "expected_case_name": "Clopton v. Clopton"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"88 N.W. 562\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6847915,\n            \"case_name\": \"Clopton v. Clopton\",\n            \"citations\": [\n                \"88 N.W. 562\"\n            ],\n            \"court\": \"North Dakota Supreme Court\",\n            \"date_filed\": \"1902-01-03\",\n            \"status\": \"Published\",\n            \"cited_by\": 17,\n            \"url\": \"https://syfert.com/north-dakota/cases/10-n-d-569/clopton-v-clopton\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Clopton v. Clopton, 88 N.W. 562 (N.D. 1902)\",\n            \"link_md\": \"[Clopton v. Clopton, 88 N.W. 562 (N.D. 1902)](https://syfert.com/north-dakota/cases/10-n-d-569/clopton-v-clopton)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Clopton v. Clopton\",\n        \"actual\": \"Clopton v. Clopton\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "88 N.W. 562",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6847915,
+    "case_name": "Clopton v. Clopton",
+    "citations": [
+     "88 N.W. 562"
+    ],
+    "court": "North Dakota Supreme Court",
+    "date_filed": "1902-01-03",
+    "status": "Published",
+    "cited_by": 17,
+    "url": "https://syfert.com/north-dakota/cases/10-n-d-569/clopton-v-clopton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Clopton v. Clopton, 88 N.W. 562 (N.D. 1902)",
+    "link_md": "[Clopton v. Clopton, 88 N.W. 562 (N.D. 1902)](https://syfert.com/north-dakota/cases/10-n-d-569/clopton-v-clopton)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Clopton v. Clopton",
+   "actual": "Clopton v. Clopton",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

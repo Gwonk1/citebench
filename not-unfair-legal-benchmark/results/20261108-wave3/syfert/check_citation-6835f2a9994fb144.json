@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "109 A.2d 96",
+  "expected_case_name": "Madison v. State"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"109 A.2d 96\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2205750,\n            \"case_name\": \"Madison v. State\",\n            \"citations\": [\n                \"109 A.2d 96\"\n            ],\n            \"court\": \"Court of Appeals of Maryland\",\n            \"date_filed\": \"1954-10-23\",\n            \"status\": \"Published\",\n            \"cited_by\": 84,\n            \"url\": \"https://syfert.com/maryland/cases/205-md-425/madison-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Madison v. State, 109 A.2d 96 (Md. 1954)\",\n            \"link_md\": \"[Madison v. State, 109 A.2d 96 (Md. 1954)](https://syfert.com/maryland/cases/205-md-425/madison-v-state)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 48,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"affirmed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Madison v. State\",\n        \"actual\": \"Madison v. State\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "109 A.2d 96",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2205750,
+    "case_name": "Madison v. State",
+    "citations": [
+     "109 A.2d 96"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "1954-10-23",
+    "status": "Published",
+    "cited_by": 84,
+    "url": "https://syfert.com/maryland/cases/205-md-425/madison-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Madison v. State, 109 A.2d 96 (Md. 1954)",
+    "link_md": "[Madison v. State, 109 A.2d 96 (Md. 1954)](https://syfert.com/maryland/cases/205-md-425/madison-v-state)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 48,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Madison v. State",
+   "actual": "Madison v. State",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

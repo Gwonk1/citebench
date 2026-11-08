@@ -1,0 +1,95 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Turner w/15 \"39 S.E.2d 299\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Turner w/15 \\\"39 S.E.2d 299\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1330863,\"bluebook\":\"Funches v. Funches, 413 S.E.2d 44 (Va. 1992)\",\"url\":\"https://syfert.com/virginia/cases/243-va-26/funches-v-funches\",\"date_filed\":\"1992-01-10\",\"cited_by\":5,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...The possession and seizen of one joint tenant is the possession and seizen of the other.”\\nTurner\\nv.\\nTurner,\\n185 Va. 505, 508 , 39 S.E.2d 299, 301 (1946). When the decedent died, the entire estate passed to the survivor, cutting off the…\"},{\"cluster_id\":1458576,\"bluebook\":\"Portsmouth Redevelopment & Hous. Auth. v. BMI Apts. Assocs., 827 F. Supp. 354 (E.D. Va. 1993)\",\"url\":\"https://syfert.com/federal/district/cases/827-f-supp-354/portsmouth-redevelopment-housing-authority-v-bmi-apartments-associates\",\"date_filed\":\"1993-06-21\",\"cited_by\":8,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Under Virginia law, a wife’s right of dower is\\n“merely inchoate;” this right is “consummated and raised to the dignity of an estate in land by the death of the husband.”\\nSee, e.g., Turner v. Turner,\\n185 Va. 505 , 39 S.E.2d 299, 302…\"},{\"cluster_id\":9318764,\"bluebook\":\"Warish v. McGee, 84 Pa. D. & C. 356 (1952)\",\"url\":\"https://syfert.com/pennsylvania/cases/cl-9318764/warish-v-mcgee\",\"date_filed\":\"1952-07-19\",\"cited_by\":0,\"snippet\":\"...is upon so many uncertain factors, including the respective ages, habits and bodily vigor of herself and her husband: Turner v. Turner, 185 Va. 505 , 39 S. E. 2d 299 .\\nWe conclude that the deed in suit is not subject to the tax, and…\"},{\"cluster_id\":8935811,\"bluebook\":\"Devers v. Chateau Corp., 748 F.2d 902 (4th Cir. 1984)\",\"url\":\"https://syfert.com/federal/circuits/cases/748-f-2d-902/devers-v-chateau-corp\",\"date_filed\":\"1984-11-20\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...1060 , 81 S.E.2d 605 (1954); Turner v. Turner, 185 Va. 505 , 39 S.E.2d 299 (1946). Malcolm Devers died in July 1974. This suit was instituted in June 1983, some nine years later. If the 15-year statute of limitations does govern this…\"},{\"cluster_id\":444575,\"bluebook\":\"No. 83-2102, 748 F.2d 902 (4th Cir. 1984)\",\"url\":\"https://syfert.com/federal/circuits/cases/748-f-2d-902/no-83-2102\",\"date_filed\":\"1984-11-20\",\"cited_by\":0,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...1060 , 81 S.E.2d 605 (1954); Turner v. Turner, 185 Va. 505 , 39 S.E.2d 299 (1946). Malcolm Devers died in July 1974. This suit was instituted in June 1983, some nine years later. If the 15-year statute of limitations does govern this…\"},{\"cluster_id\":1208970,\"bluebook\":\"Wilson v. Wilson, 81 S.E.2d 605 (Va. 1954)\",\"url\":\"https://syfert.com/virginia/cases/195-va-1060/wilson-v-wilson\",\"date_filed\":\"1954-05-03\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Porter, 33 Gratt. (74 Va.) 278; Turner v. Turner, 185 Va. 505, 510 , 39 S. E. (2d) 299 . Such a contingent right of dower may be abridged or taken away by statute before the husband’s death. Until then it is subject to the will of the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Turner w/15 \"39 S.E.2d 299\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1330863,
+    "bluebook": "Funches v. Funches, 413 S.E.2d 44 (Va. 1992)",
+    "url": "https://syfert.com/virginia/cases/243-va-26/funches-v-funches",
+    "date_filed": "1992-01-10",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The possession and seizen of one joint tenant is the possession and seizen of the other.”\nTurner\nv.\nTurner,\n185 Va. 505, 508 , 39 S.E.2d 299, 301 (1946). When the decedent died, the entire estate passed to the survivor, cutting off the…"
+   },
+   {
+    "cluster_id": 1458576,
+    "bluebook": "Portsmouth Redevelopment & Hous. Auth. v. BMI Apts. Assocs., 827 F. Supp. 354 (E.D. Va. 1993)",
+    "url": "https://syfert.com/federal/district/cases/827-f-supp-354/portsmouth-redevelopment-housing-authority-v-bmi-apartments-associates",
+    "date_filed": "1993-06-21",
+    "cited_by": 8,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Under Virginia law, a wife’s right of dower is\n“merely inchoate;” this right is “consummated and raised to the dignity of an estate in land by the death of the husband.”\nSee, e.g., Turner v. Turner,\n185 Va. 505 , 39 S.E.2d 299, 302…"
+   },
+   {
+    "cluster_id": 9318764,
+    "bluebook": "Warish v. McGee, 84 Pa. D. & C. 356 (1952)",
+    "url": "https://syfert.com/pennsylvania/cases/cl-9318764/warish-v-mcgee",
+    "date_filed": "1952-07-19",
+    "cited_by": 0,
+    "snippet": "...is upon so many uncertain factors, including the respective ages, habits and bodily vigor of herself and her husband: Turner v. Turner, 185 Va. 505 , 39 S. E. 2d 299 .\nWe conclude that the deed in suit is not subject to the tax, and…"
+   },
+   {
+    "cluster_id": 8935811,
+    "bluebook": "Devers v. Chateau Corp., 748 F.2d 902 (4th Cir. 1984)",
+    "url": "https://syfert.com/federal/circuits/cases/748-f-2d-902/devers-v-chateau-corp",
+    "date_filed": "1984-11-20",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...1060 , 81 S.E.2d 605 (1954); Turner v. Turner, 185 Va. 505 , 39 S.E.2d 299 (1946). Malcolm Devers died in July 1974. This suit was instituted in June 1983, some nine years later. If the 15-year statute of limitations does govern this…"
+   },
+   {
+    "cluster_id": 444575,
+    "bluebook": "No. 83-2102, 748 F.2d 902 (4th Cir. 1984)",
+    "url": "https://syfert.com/federal/circuits/cases/748-f-2d-902/no-83-2102",
+    "date_filed": "1984-11-20",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...1060 , 81 S.E.2d 605 (1954); Turner v. Turner, 185 Va. 505 , 39 S.E.2d 299 (1946). Malcolm Devers died in July 1974. This suit was instituted in June 1983, some nine years later. If the 15-year statute of limitations does govern this…"
+   },
+   {
+    "cluster_id": 1208970,
+    "bluebook": "Wilson v. Wilson, 81 S.E.2d 605 (Va. 1954)",
+    "url": "https://syfert.com/virginia/cases/195-va-1060/wilson-v-wilson",
+    "date_filed": "1954-05-03",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Porter, 33 Gratt. (74 Va.) 278; Turner v. Turner, 185 Va. 505, 510 , 39 S. E. (2d) 299 . Such a contingent right of dower may be abridged or taken away by statute before the husband’s death. Until then it is subject to the will of the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

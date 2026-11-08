@@ -1,0 +1,48 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Barnett w/15 \"27 S.W.2d 767\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Barnett w/15 \\\"27 S.W.2d 767\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5261611,\"bluebook\":\"State v. Kendus, 904 S.W.2d 41 (Mo. Ct. App. 1995)\",\"url\":\"https://syfert.com/missouri/cases/904-s-w-2d-41/state-v-kendus\",\"date_filed\":\"1995-06-14\",\"cited_by\":11,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Rule 27.01(b); State v. Barnett, 767 S.W.2d 38, 39 [1] (Mo. banc 1989); State v. Degraffenreid, 877 S.W.2d 210, 212 [1] (Mo.App.1994). Consequently, we review this case as though a jury had returned a verdict of guilty. Degraffenreid,…\"},{\"cluster_id\":5258945,\"bluebook\":\"State v. Degraffenreid, 877 S.W.2d 210 (Mo. Ct. App. 1994)\",\"url\":\"https://syfert.com/missouri/cases/877-s-w-2d-210/state-v-degraffenreid\",\"date_filed\":\"1994-05-31\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Rule 27.01(b); State v. Barnett, 767 S.W.2d 38, 39 [1] (Mo banc 1989). Consequently, we review this case as though a jury had returned a verdict of guilty. State v. Giffin, 640 S.W.2d 128, 130 [1] (Mo.1982). The standard for appellate…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Barnett w/15 \"27 S.W.2d 767\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5261611,
+    "bluebook": "State v. Kendus, 904 S.W.2d 41 (Mo. Ct. App. 1995)",
+    "url": "https://syfert.com/missouri/cases/904-s-w-2d-41/state-v-kendus",
+    "date_filed": "1995-06-14",
+    "cited_by": 11,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Rule 27.01(b); State v. Barnett, 767 S.W.2d 38, 39 [1] (Mo. banc 1989); State v. Degraffenreid, 877 S.W.2d 210, 212 [1] (Mo.App.1994). Consequently, we review this case as though a jury had returned a verdict of guilty. Degraffenreid,…"
+   },
+   {
+    "cluster_id": 5258945,
+    "bluebook": "State v. Degraffenreid, 877 S.W.2d 210 (Mo. Ct. App. 1994)",
+    "url": "https://syfert.com/missouri/cases/877-s-w-2d-210/state-v-degraffenreid",
+    "date_filed": "1994-05-31",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Rule 27.01(b); State v. Barnett, 767 S.W.2d 38, 39 [1] (Mo banc 1989). Consequently, we review this case as though a jury had returned a verdict of guilty. State v. Giffin, 640 S.W.2d 128, 130 [1] (Mo.1982). The standard for appellate…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

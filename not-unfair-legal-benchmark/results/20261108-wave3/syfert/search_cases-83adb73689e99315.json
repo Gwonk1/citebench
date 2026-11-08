@@ -1,0 +1,100 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "White w/15 \"178 A. 8\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"White w/15 \\\"178 A. 8\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8009488,\"bluebook\":\"Madigan v. Mead, 16 N.W. 539 (Minn. 1883)\",\"url\":\"https://syfert.com/minnesota/cases/31-minn-94/madigan-v-mead\",\"date_filed\":\"1883-09-05\",\"cited_by\":13,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"Vanderburgh, J.\\nIn 1871, the plaintiff, owning the house and lot in controversy, which were heavily incumbered with mortgages and judgment liens, and being otherwise also indebted, entered into an agreement by parol with the defendant…\"},{\"cluster_id\":1206684,\"bluebook\":\"Warren v. Watkins Motor Lines, 130 S.E.2d 896 (S.C. 1963)\",\"url\":\"https://syfert.com/south-carolina/cases/242-s-c-331/warren-v-watkins-motor-lines\",\"date_filed\":\"1963-05-01\",\"cited_by\":13,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...thirty-five mile speed limit sign approximately four or five hundred feet from the intersection; (6) Another black and white sign; (7) A sign indicating junction with Highway 178; (8) A sign indicating cross roads; and (9) A direction…\"},{\"cluster_id\":6543753,\"bluebook\":\"Hayes v. Collins, 114 Mass. 54 (1873)\",\"url\":\"https://syfert.com/massachusetts/cases/114-mass-54/hayes-v-collins\",\"date_filed\":\"1873-11-15\",\"cited_by\":11,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...in. Gen. Sts. c. 120, § 12; c. 129, § 9; c. 156, § 12. Gilbreth v. Brown, 15 Mass. 178 . Coburn v. Whitely, 8 Met. 272 . Such a judgment is no bar to a new suit or petition. Burrell v. Burrell, 10 Mass. 221 . Wade v. Howard, 8 Pick. 353…\"},{\"cluster_id\":4702269,\"bluebook\":\"Modern Life & Acci. Ins. Co. v. Comm'r, 49 T.C. 670 (T.C. 1968)\",\"url\":\"https://syfert.com/federal/specialty/cases/49-t-c-670/modern-life-acci-ins-co-v-commissioner\",\"date_filed\":\"1968-03-25\",\"cited_by\":7,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...White River Burial Ass’n., 178 F. 2d 954 (C.A. 8, 1950), where the Court of Appeals found that the taxpayer, which was an unincorporated burial association whose “sole source of income is from dues and assessments levied quarterly on…\"},{\"cluster_id\":1547211,\"bluebook\":\"Willcuts v. Stoltze, 73 F.2d 868 (8th Cir. 1934)\",\"url\":\"https://syfert.com/federal/circuits/cases/73-f-2d-868/willcuts-v-stoltze\",\"date_filed\":\"1934-11-05\",\"cited_by\":6,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...8); White v. United States (C. C. A.) 48 F.(2d) 178 ; Blair v. United States, 47 F.(2d) 109 (C. C. A. 8); Federal Intermediate Credit Bank of Omaha v. L’Herisson, 33 F.(2d) 841 (C. C. A. 8); Akre v. Liberty State Bank of Minneapolis, 24…\"},{\"cluster_id\":4700424,\"bluebook\":\"Est. of Moyer v. Comm'r, 32 T.C. 515 (T.C. 1959)\",\"url\":\"https://syfert.com/federal/specialty/cases/32-t-c-515/estate-of-moyer-v-commr\",\"date_filed\":\"1959-05-29\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...White River Burial Association, 178 F. 2d 954 (C.A. 8) said: For the purpose of Federal taxation insurance companies are divided into three separate and distinct groups. These groups are (1) life insurance companies presently taxable…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "White w/15 \"178 A. 8\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8009488,
+    "bluebook": "Madigan v. Mead, 16 N.W. 539 (Minn. 1883)",
+    "url": "https://syfert.com/minnesota/cases/31-minn-94/madigan-v-mead",
+    "date_filed": "1883-09-05",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "Vanderburgh, J.\nIn 1871, the plaintiff, owning the house and lot in controversy, which were heavily incumbered with mortgages and judgment liens, and being otherwise also indebted, entered into an agreement by parol with the defendant…"
+   },
+   {
+    "cluster_id": 1206684,
+    "bluebook": "Warren v. Watkins Motor Lines, 130 S.E.2d 896 (S.C. 1963)",
+    "url": "https://syfert.com/south-carolina/cases/242-s-c-331/warren-v-watkins-motor-lines",
+    "date_filed": "1963-05-01",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...thirty-five mile speed limit sign approximately four or five hundred feet from the intersection; (6) Another black and white sign; (7) A sign indicating junction with Highway 178; (8) A sign indicating cross roads; and (9) A direction…"
+   },
+   {
+    "cluster_id": 6543753,
+    "bluebook": "Hayes v. Collins, 114 Mass. 54 (1873)",
+    "url": "https://syfert.com/massachusetts/cases/114-mass-54/hayes-v-collins",
+    "date_filed": "1873-11-15",
+    "cited_by": 11,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...in. Gen. Sts. c. 120, § 12; c. 129, § 9; c. 156, § 12. Gilbreth v. Brown, 15 Mass. 178 . Coburn v. Whitely, 8 Met. 272 . Such a judgment is no bar to a new suit or petition. Burrell v. Burrell, 10 Mass. 221 . Wade v. Howard, 8 Pick. 353…"
+   },
+   {
+    "cluster_id": 4702269,
+    "bluebook": "Modern Life & Acci. Ins. Co. v. Comm'r, 49 T.C. 670 (T.C. 1968)",
+    "url": "https://syfert.com/federal/specialty/cases/49-t-c-670/modern-life-acci-ins-co-v-commissioner",
+    "date_filed": "1968-03-25",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...White River Burial Ass’n., 178 F. 2d 954 (C.A. 8, 1950), where the Court of Appeals found that the taxpayer, which was an unincorporated burial association whose “sole source of income is from dues and assessments levied quarterly on…"
+   },
+   {
+    "cluster_id": 1547211,
+    "bluebook": "Willcuts v. Stoltze, 73 F.2d 868 (8th Cir. 1934)",
+    "url": "https://syfert.com/federal/circuits/cases/73-f-2d-868/willcuts-v-stoltze",
+    "date_filed": "1934-11-05",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...8); White v. United States (C. C. A.) 48 F.(2d) 178 ; Blair v. United States, 47 F.(2d) 109 (C. C. A. 8); Federal Intermediate Credit Bank of Omaha v. L’Herisson, 33 F.(2d) 841 (C. C. A. 8); Akre v. Liberty State Bank of Minneapolis, 24…"
+   },
+   {
+    "cluster_id": 4700424,
+    "bluebook": "Est. of Moyer v. Comm'r, 32 T.C. 515 (T.C. 1959)",
+    "url": "https://syfert.com/federal/specialty/cases/32-t-c-515/estate-of-moyer-v-commr",
+    "date_filed": "1959-05-29",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...White River Burial Association, 178 F. 2d 954 (C.A. 8) said: For the purpose of Federal taxation insurance companies are divided into three separate and distinct groups. These groups are (1) life insurance companies presently taxable…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

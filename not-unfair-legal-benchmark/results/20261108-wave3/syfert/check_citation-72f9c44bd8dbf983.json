@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "45 A.2d 8",
+  "expected_case_name": "Verecchia v. De Siato"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"45 A.2d 8\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4090997,\n            \"case_name\": \"Verecchia v. De Siato\",\n            \"citations\": [\n                \"45 A.2d 8\"\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"1946-11-27\",\n            \"status\": \"Published\",\n            \"cited_by\": 15,\n            \"url\": \"https://syfert.com/pennsylvania/cases/353-pa-292/verecchia-v-de-siato\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Verecchia v. De Siato, 45 A.2d 8 (Pa. 1946)\",\n            \"link_md\": \"[Verecchia v. De Siato, 45 A.2d 8 (Pa. 1946)](https://syfert.com/pennsylvania/cases/353-pa-292/verecchia-v-de-siato)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Verecchia v. De Siato\",\n        \"actual\": \"Verecchia v. De Siato\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "45 A.2d 8",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4090997,
+    "case_name": "Verecchia v. De Siato",
+    "citations": [
+     "45 A.2d 8"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1946-11-27",
+    "status": "Published",
+    "cited_by": 15,
+    "url": "https://syfert.com/pennsylvania/cases/353-pa-292/verecchia-v-de-siato",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Verecchia v. De Siato, 45 A.2d 8 (Pa. 1946)",
+    "link_md": "[Verecchia v. De Siato, 45 A.2d 8 (Pa. 1946)](https://syfert.com/pennsylvania/cases/353-pa-292/verecchia-v-de-siato)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Verecchia v. De Siato",
+   "actual": "Verecchia v. De Siato",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,408 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Pyle w/15 \"156 P2d 509\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Pyle w/15 \\\"156 P2d 509\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7122217,\"case_name\":\"Riley v. Harkness\",\"citations\":[\"2 Blackf. 34\",\"1826 Ind. LEXIS 20\"],\"court\":\"Indiana Supreme Court\",\"date_filed\":\"1826-11-11\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/indiana/cases/cl-7122217/riley-v-harkness\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Riley v. Harkness, 2 Blackf. 34 (Ind. 1826)\",\"link_md\":\"[Riley v. Harkness, 2 Blackf. 34 (Ind. 1826)](https://syfert.com/indiana/cases/cl-7122217/riley-v-harkness)\",\"match_kind\":\"semantic\",\"similarity\":0.6247},{\"cluster_id\":5620581,\"case_name\":\"Waddell v. Elmendorf\",\"citations\":[\"5 Denio 447\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1848-05-15\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/cl-5620581/waddell-v-elmendorf\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Waddell v. Elmendorf, 5 Denio 447 (N.Y. Sup. Ct. 1848)\",\"link_md\":\"[Waddell v. Elmendorf, 5 Denio 447 (N.Y. Sup. Ct. 1848)](https://syfert.com/new-york/cases/cl-5620581/waddell-v-elmendorf)\",\"match_kind\":\"semantic\",\"similarity\":0.6116},{\"cluster_id\":5118402,\"case_name\":\"Poland v. Davis\",\"citations\":[\"68 A. 456\",\"103 Me. 55\",\"1907 Me. LEXIS 9\"],\"court\":\"Supreme Judicial Court of Maine\",\"date_filed\":\"1907-08-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/maine/cases/68-a-456/poland-v-davis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Poland v. Davis, 68 A. 456 (Me. 1907)\",\"link_md\":\"[Poland v. Davis, 68 A. 456 (Me. 1907)](https://syfert.com/maine/cases/68-a-456/poland-v-davis)\",\"match_kind\":\"semantic\",\"similarity\":0.6114},{\"cluster_id\":5629419,\"case_name\":\"Sterling v. Sherwood\",\"citations\":[\"20 Johns. 204\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1822-08-15\",\"status\":\"Published\",\"cited_by\":8,\"url\":\"https://syfert.com/new-york/cases/cl-5629419/sterling-v-sherwood\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sterling v. Sherwood, 20 Johns. 204 (N.Y. Sup. Ct. 1822)\",\"link_md\":\"[Sterling v. Sherwood, 20 Johns. 204 (N.Y. Sup. Ct. 1822)](https://syfert.com/new-york/cases/cl-5629419/sterling-v-sherwood)\",\"match_kind\":\"semantic\",\"similarity\":0.6074},{\"cluster_id\":7725940,\"case_name\":\"Young v. Fentress\",\"citations\":[\"29 Tenn. 151\"],\"court\":\"Tennessee Supreme Court\",\"date_filed\":\"1849-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/tennessee/cases/cl-7725940/young-v-fentress\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (7725940 and its twins 7725941, 7725942). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Young v. Fentress, 29 Tenn. 151 (1849)\",\"link_md\":\"[Young v. Fentress, 29 Tenn. 151 (1849)](https://syfert.com/tennessee/cases/cl-7725940/young-v-fentress)\",\"match_kind\":\"semantic\",\"similarity\":0.6069,\"twin_clusters\":[7725942,7725941,7725940]},{\"cluster_id\":6486714,\"case_name\":\"Thomas v. Pyle\",\"citations\":[\"199 A.3d 518\"],\"court\":\"Commonwealth Court of Pennsylvania\",\"date_filed\":\"2018-11-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/199-a-3d-518/thomas-v-pyle\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thomas v. Pyle, 199 A.3d 518 (Pa. Commw. Ct. 2018)\",\"link_md\":\"[Thomas v. Pyle, 199 A.3d 518 (Pa. Commw. Ct. 2018)](https://syfert.com/pennsylvania/cases/199-a-3d-518/thomas-v-pyle)\",\"match_kind\":\"semantic\",\"similarity\":0.606},{\"cluster_id\":5621336,\"case_name\":\"Boyd v. Weeks\",\"citations\":[\"5 Hill & Den. 393\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1843-07-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-5621336/boyd-v-weeks\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Boyd v. Weeks, 5 Hill & Den. 393 (N.Y. Sup. Ct. 1843)\",\"link_md\":\"[Boyd v. Weeks, 5 Hill & Den. 393 (N.Y. Sup. Ct. 1843)](https://syfert.com/new-york/cases/cl-5621336/boyd-v-weeks)\",\"match_kind\":\"semantic\",\"similarity\":0.6034},{\"cluster_id\":6705843,\"case_name\":\"Lee v. Follensby\",\"citations\":[\"74 A. 327\",\"83 Vt. 35\",\"1909 Vt. LEXIS 224\"],\"court\":\"Supreme Court of Vermont\",\"date_filed\":\"1909-11-12\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/vermont/cases/83-vt-35/lee-v-follensby\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lee v. Follensby, 74 A. 327 (Vt. 1909)\",\"link_md\":\"[Lee v. Follensby, 74 A. 327 (Vt. 1909)](https://syfert.com/vermont/cases/83-vt-35/lee-v-follensby)\",\"match_kind\":\"semantic\",\"similarity\":0.6028},{\"cluster_id\":5667442,\"case_name\":\"Underwood v. Campbell\",\"citations\":[\"13 Wend. 78\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1834-10-15\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/new-york/cases/cl-5667442/underwood-v-campbell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Underwood v. Campbell, 13 Wend. 78 (N.Y. Sup. Ct. 1834)\",\"link_md\":\"[Underwood v. Campbell, 13 Wend. 78 (N.Y. Sup. Ct. 1834)](https://syfert.com/new-york/cases/cl-5667442/underwood-v-campbell)\",\"match_kind\":\"semantic\",\"similarity\":0.6023},{\"cluster_id\":5115576,\"case_name\":\"City of Augusta v. Moulton\",\"citations\":[\"75 Me. 551\",\"1884 Me. LEXIS 128\"],\"court\":\"Supreme Judicial Court of Maine\",\"date_filed\":\"1884-01-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/maine/cases/cl-5115576/city-of-augusta-v-moulton\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of Augusta v. Moulton, 75 Me. 551 (1884)\",\"link_md\":\"[City of Augusta v. Moulton, 75 Me. 551 (1884)](https://syfert.com/maine/cases/cl-5115576/city-of-augusta-v-moulton)\",\"match_kind\":\"semantic\",\"similarity\":0.6021},{\"cluster_id\":6070052,\"case_name\":\"Stampfel v. Stampfel\",\"citations\":[\"170 A.D.2d 595\",\"566 N.Y.S.2d 872\",\"1991 N.Y. App. Div. LEXIS 2240\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1991-02-19\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/new-york/cases/170-a-d-2d-595/stampfel-v-stampfel\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stampfel v. Stampfel, 170 A.D.2d 595 (N.Y. App. Div. 2d Dep't 1991)\",\"link_md\":\"[Stampfel v. Stampfel, 170 A.D.2d 595 (N.Y. App. Div. 2d Dep't 1991)](https://syfert.com/new-york/cases/170-a-d-2d-595/stampfel-v-stampfel)\",\"match_kind\":\"semantic\",\"similarity\":0.6018},{\"cluster_id\":7064860,\"case_name\":\"Ripley v. Leverenz\",\"citations\":[\"56 N.E. 166\",\"183 Ill. 519\"],\"court\":\"Illinois Supreme Court\",\"date_filed\":\"1899-12-18\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/illinois/cases/183-ill-519/ripley-v-leverenz\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ripley v. Leverenz, 56 N.E. 166 (Ill. 1899)\",\"link_md\":\"[Ripley v. Leverenz, 56 N.E. 166 (Ill. 1899)](https://syfert.com/illinois/cases/183-ill-519/ripley-v-leverenz)\",\"match_kind\":\"semantic\",\"similarity\":0.6013},{\"cluster_id\":6704264,\"case_name\":\"Town of Jericho v. Town of Underhill\",\"citations\":[\"67 Vt. 85\"],\"court\":\"Supreme Court of Vermont\",\"date_filed\":\"1894-10-15\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/vermont/cases/67-vt-85/town-of-jericho-v-town-of-underhill\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Town of Jericho v. Town of Underhill, 67 Vt. 85 (1894)\",\"link_md\":\"[Town of Jericho v. Town of Underhill, 67 Vt. 85 (1894)](https://syfert.com/vermont/cases/67-vt-85/town-of-jericho-v-town-of-underhill)\",\"match_kind\":\"semantic\",\"similarity\":0.6006},{\"cluster_id\":7123101,\"case_name\":\"Stewart v. Henry\",\"citations\":[\"5 Blackf. 445\",\"1840 Ind. LEXIS 117\"],\"court\":\"Indiana Supreme Court\",\"date_filed\":\"1840-11-30\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/indiana/cases/cl-7123101/stewart-v-henry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stewart v. Henry, 5 Blackf. 445 (Ind. 1840)\",\"link_md\":\"[Stewart v. Henry, 5 Blackf. 445 (Ind. 1840)](https://syfert.com/indiana/cases/cl-7123101/stewart-v-henry)\",\"match_kind\":\"semantic\",\"similarity\":0.6},{\"cluster_id\":5666236,\"case_name\":\"Haight v. Holley\",\"citations\":[\"3 Wend. 258\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1829-08-15\",\"status\":\"Published\",\"cited_by\":20,\"url\":\"https://syfert.com/new-york/cases/cl-5666236/haight-v-holley\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Haight v. Holley, 3 Wend. 258 (N.Y. Sup. Ct. 1829)\",\"link_md\":\"[Haight v. Holley, 3 Wend. 258 (N.Y. Sup. Ct. 1829)](https://syfert.com/new-york/cases/cl-5666236/haight-v-holley)\",\"match_kind\":\"semantic\",\"similarity\":0.5998},{\"cluster_id\":4109407,\"case_name\":\"Davis v. Burgess\",\"citations\":[\"25 A. 848\",\"18 R.I. 85\",\"1892 R.I. LEXIS 18\"],\"court\":\"Supreme Court of Rhode Island\",\"date_filed\":\"1892-11-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/rhode-island/cases/18-r-i-85/davis-v-burgess\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Davis v. Burgess, 25 A. 848 (R.I. 1892)\",\"link_md\":\"[Davis v. Burgess, 25 A. 848 (R.I. 1892)](https://syfert.com/rhode-island/cases/18-r-i-85/davis-v-burgess)\",\"match_kind\":\"semantic\",\"similarity\":0.5984},{\"cluster_id\":7735335,\"case_name\":\"Waller's Executors v. Ellis\",\"citations\":[\"2 Va. 88\"],\"court\":\"Supreme Court of Virginia\",\"date_filed\":\"1810-06-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/virginia/cases/cl-7735335/wallers-executors-v-ellis\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (7735335 and its twins 7735336, 7735337). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Waller's Executors v. Ellis, 2 Va. 88 (1810)\",\"link_md\":\"[Waller's Executors v. Ellis, 2 Va. 88 (1810)](https://syfert.com/virginia/cases/cl-7735335/wallers-executors-v-ellis)\",\"match_kind\":\"semantic\",\"similarity\":0.5973,\"twin_clusters\":[7735337,7735335]},{\"cluster_id\":6907394,\"case_name\":\"Hord's v. Dishman\",\"citations\":[\"2 Va. 595\"],\"court\":\"Supreme Court of Virginia\",\"date_filed\":\"1808-10-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/virginia/cases/cl-6907394/hords-v-dishman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hord's v. Dishman, 2 Va. 595 (1808)\",\"link_md\":\"[Hord's v. Dishman, 2 Va. 595 (1808)](https://syfert.com/virginia/cases/cl-6907394/hords-v-dishman)\",\"match_kind\":\"semantic\",\"similarity\":0.5971},{\"cluster_id\":7524014,\"case_name\":\"Plymale v. State\",\"citations\":[\"259 So. 2d 721\",\"1972 Fla. LEXIS 3980\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"1972-03-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/259-so-2d-721/plymale-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Plymale v. State, 259 So. 2d 721 (Fla. 1972)\",\"link_md\":\"[Plymale v. State, 259 So. 2d 721 (Fla. 1972)](https://syfert.com/florida/cases/259-so-2d-721/plymale-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5966},{\"cluster_id\":5668035,\"case_name\":\"Shaw v. Butcher & Harris\",\"citations\":[\"19 Wend. 216\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1838-01-15\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/new-york/cases/cl-5668035/shaw-v-butcher-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Shaw v. Butcher & Harris, 19 Wend. 216 (N.Y. Sup. Ct. 1838)\",\"link_md\":\"[Shaw v. Butcher & Harris, 19 Wend. 216 (N.Y. Sup. Ct. 1838)](https://syfert.com/new-york/cases/cl-5668035/shaw-v-butcher-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.5965}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Pyle w/15 \"156 P2d 509\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7122217,
+    "case_name": "Riley v. Harkness",
+    "citations": [
+     "2 Blackf. 34",
+     "1826 Ind. LEXIS 20"
+    ],
+    "court": "Indiana Supreme Court",
+    "date_filed": "1826-11-11",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/indiana/cases/cl-7122217/riley-v-harkness",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Riley v. Harkness, 2 Blackf. 34 (Ind. 1826)",
+    "link_md": "[Riley v. Harkness, 2 Blackf. 34 (Ind. 1826)](https://syfert.com/indiana/cases/cl-7122217/riley-v-harkness)",
+    "match_kind": "semantic",
+    "similarity": 0.6247
+   },
+   {
+    "cluster_id": 5620581,
+    "case_name": "Waddell v. Elmendorf",
+    "citations": [
+     "5 Denio 447"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1848-05-15",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/cl-5620581/waddell-v-elmendorf",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Waddell v. Elmendorf, 5 Denio 447 (N.Y. Sup. Ct. 1848)",
+    "link_md": "[Waddell v. Elmendorf, 5 Denio 447 (N.Y. Sup. Ct. 1848)](https://syfert.com/new-york/cases/cl-5620581/waddell-v-elmendorf)",
+    "match_kind": "semantic",
+    "similarity": 0.6116
+   },
+   {
+    "cluster_id": 5118402,
+    "case_name": "Poland v. Davis",
+    "citations": [
+     "68 A. 456",
+     "103 Me. 55",
+     "1907 Me. LEXIS 9"
+    ],
+    "court": "Supreme Judicial Court of Maine",
+    "date_filed": "1907-08-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/maine/cases/68-a-456/poland-v-davis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Poland v. Davis, 68 A. 456 (Me. 1907)",
+    "link_md": "[Poland v. Davis, 68 A. 456 (Me. 1907)](https://syfert.com/maine/cases/68-a-456/poland-v-davis)",
+    "match_kind": "semantic",
+    "similarity": 0.6114
+   },
+   {
+    "cluster_id": 5629419,
+    "case_name": "Sterling v. Sherwood",
+    "citations": [
+     "20 Johns. 204"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1822-08-15",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/new-york/cases/cl-5629419/sterling-v-sherwood",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sterling v. Sherwood, 20 Johns. 204 (N.Y. Sup. Ct. 1822)",
+    "link_md": "[Sterling v. Sherwood, 20 Johns. 204 (N.Y. Sup. Ct. 1822)](https://syfert.com/new-york/cases/cl-5629419/sterling-v-sherwood)",
+    "match_kind": "semantic",
+    "similarity": 0.6074
+   },
+   {
+    "cluster_id": 7725940,
+    "case_name": "Young v. Fentress",
+    "citations": [
+     "29 Tenn. 151"
+    ],
+    "court": "Tennessee Supreme Court",
+    "date_filed": "1849-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/tennessee/cases/cl-7725940/young-v-fentress",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (7725940 and its twins 7725941, 7725942). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Young v. Fentress, 29 Tenn. 151 (1849)",
+    "link_md": "[Young v. Fentress, 29 Tenn. 151 (1849)](https://syfert.com/tennessee/cases/cl-7725940/young-v-fentress)",
+    "match_kind": "semantic",
+    "similarity": 0.6069,
+    "twin_clusters": [
+     7725942,
+     7725941,
+     7725940
+    ]
+   },
+   {
+    "cluster_id": 6486714,
+    "case_name": "Thomas v. Pyle",
+    "citations": [
+     "199 A.3d 518"
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "2018-11-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/199-a-3d-518/thomas-v-pyle",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thomas v. Pyle, 199 A.3d 518 (Pa. Commw. Ct. 2018)",
+    "link_md": "[Thomas v. Pyle, 199 A.3d 518 (Pa. Commw. Ct. 2018)](https://syfert.com/pennsylvania/cases/199-a-3d-518/thomas-v-pyle)",
+    "match_kind": "semantic",
+    "similarity": 0.606
+   },
+   {
+    "cluster_id": 5621336,
+    "case_name": "Boyd v. Weeks",
+    "citations": [
+     "5 Hill & Den. 393"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1843-07-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-5621336/boyd-v-weeks",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Boyd v. Weeks, 5 Hill & Den. 393 (N.Y. Sup. Ct. 1843)",
+    "link_md": "[Boyd v. Weeks, 5 Hill & Den. 393 (N.Y. Sup. Ct. 1843)](https://syfert.com/new-york/cases/cl-5621336/boyd-v-weeks)",
+    "match_kind": "semantic",
+    "similarity": 0.6034
+   },
+   {
+    "cluster_id": 6705843,
+    "case_name": "Lee v. Follensby",
+    "citations": [
+     "74 A. 327",
+     "83 Vt. 35",
+     "1909 Vt. LEXIS 224"
+    ],
+    "court": "Supreme Court of Vermont",
+    "date_filed": "1909-11-12",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/vermont/cases/83-vt-35/lee-v-follensby",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lee v. Follensby, 74 A. 327 (Vt. 1909)",
+    "link_md": "[Lee v. Follensby, 74 A. 327 (Vt. 1909)](https://syfert.com/vermont/cases/83-vt-35/lee-v-follensby)",
+    "match_kind": "semantic",
+    "similarity": 0.6028
+   },
+   {
+    "cluster_id": 5667442,
+    "case_name": "Underwood v. Campbell",
+    "citations": [
+     "13 Wend. 78"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1834-10-15",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/new-york/cases/cl-5667442/underwood-v-campbell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Underwood v. Campbell, 13 Wend. 78 (N.Y. Sup. Ct. 1834)",
+    "link_md": "[Underwood v. Campbell, 13 Wend. 78 (N.Y. Sup. Ct. 1834)](https://syfert.com/new-york/cases/cl-5667442/underwood-v-campbell)",
+    "match_kind": "semantic",
+    "similarity": 0.6023
+   },
+   {
+    "cluster_id": 5115576,
+    "case_name": "City of Augusta v. Moulton",
+    "citations": [
+     "75 Me. 551",
+     "1884 Me. LEXIS 128"
+    ],
+    "court": "Supreme Judicial Court of Maine",
+    "date_filed": "1884-01-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/maine/cases/cl-5115576/city-of-augusta-v-moulton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Augusta v. Moulton, 75 Me. 551 (1884)",
+    "link_md": "[City of Augusta v. Moulton, 75 Me. 551 (1884)](https://syfert.com/maine/cases/cl-5115576/city-of-augusta-v-moulton)",
+    "match_kind": "semantic",
+    "similarity": 0.6021
+   },
+   {
+    "cluster_id": 6070052,
+    "case_name": "Stampfel v. Stampfel",
+    "citations": [
+     "170 A.D.2d 595",
+     "566 N.Y.S.2d 872",
+     "1991 N.Y. App. Div. LEXIS 2240"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1991-02-19",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/new-york/cases/170-a-d-2d-595/stampfel-v-stampfel",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stampfel v. Stampfel, 170 A.D.2d 595 (N.Y. App. Div. 2d Dep't 1991)",
+    "link_md": "[Stampfel v. Stampfel, 170 A.D.2d 595 (N.Y. App. Div. 2d Dep't 1991)](https://syfert.com/new-york/cases/170-a-d-2d-595/stampfel-v-stampfel)",
+    "match_kind": "semantic",
+    "similarity": 0.6018
+   },
+   {
+    "cluster_id": 7064860,
+    "case_name": "Ripley v. Leverenz",
+    "citations": [
+     "56 N.E. 166",
+     "183 Ill. 519"
+    ],
+    "court": "Illinois Supreme Court",
+    "date_filed": "1899-12-18",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/illinois/cases/183-ill-519/ripley-v-leverenz",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ripley v. Leverenz, 56 N.E. 166 (Ill. 1899)",
+    "link_md": "[Ripley v. Leverenz, 56 N.E. 166 (Ill. 1899)](https://syfert.com/illinois/cases/183-ill-519/ripley-v-leverenz)",
+    "match_kind": "semantic",
+    "similarity": 0.6013
+   },
+   {
+    "cluster_id": 6704264,
+    "case_name": "Town of Jericho v. Town of Underhill",
+    "citations": [
+     "67 Vt. 85"
+    ],
+    "court": "Supreme Court of Vermont",
+    "date_filed": "1894-10-15",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/vermont/cases/67-vt-85/town-of-jericho-v-town-of-underhill",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Town of Jericho v. Town of Underhill, 67 Vt. 85 (1894)",
+    "link_md": "[Town of Jericho v. Town of Underhill, 67 Vt. 85 (1894)](https://syfert.com/vermont/cases/67-vt-85/town-of-jericho-v-town-of-underhill)",
+    "match_kind": "semantic",
+    "similarity": 0.6006
+   },
+   {
+    "cluster_id": 7123101,
+    "case_name": "Stewart v. Henry",
+    "citations": [
+     "5 Blackf. 445",
+     "1840 Ind. LEXIS 117"
+    ],
+    "court": "Indiana Supreme Court",
+    "date_filed": "1840-11-30",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/indiana/cases/cl-7123101/stewart-v-henry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stewart v. Henry, 5 Blackf. 445 (Ind. 1840)",
+    "link_md": "[Stewart v. Henry, 5 Blackf. 445 (Ind. 1840)](https://syfert.com/indiana/cases/cl-7123101/stewart-v-henry)",
+    "match_kind": "semantic",
+    "similarity": 0.6
+   },
+   {
+    "cluster_id": 5666236,
+    "case_name": "Haight v. Holley",
+    "citations": [
+     "3 Wend. 258"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1829-08-15",
+    "status": "Published",
+    "cited_by": 20,
+    "url": "https://syfert.com/new-york/cases/cl-5666236/haight-v-holley",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Haight v. Holley, 3 Wend. 258 (N.Y. Sup. Ct. 1829)",
+    "link_md": "[Haight v. Holley, 3 Wend. 258 (N.Y. Sup. Ct. 1829)](https://syfert.com/new-york/cases/cl-5666236/haight-v-holley)",
+    "match_kind": "semantic",
+    "similarity": 0.5998
+   },
+   {
+    "cluster_id": 4109407,
+    "case_name": "Davis v. Burgess",
+    "citations": [
+     "25 A. 848",
+     "18 R.I. 85",
+     "1892 R.I. LEXIS 18"
+    ],
+    "court": "Supreme Court of Rhode Island",
+    "date_filed": "1892-11-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/rhode-island/cases/18-r-i-85/davis-v-burgess",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Davis v. Burgess, 25 A. 848 (R.I. 1892)",
+    "link_md": "[Davis v. Burgess, 25 A. 848 (R.I. 1892)](https://syfert.com/rhode-island/cases/18-r-i-85/davis-v-burgess)",
+    "match_kind": "semantic",
+    "similarity": 0.5984
+   },
+   {
+    "cluster_id": 7735335,
+    "case_name": "Waller's Executors v. Ellis",
+    "citations": [
+     "2 Va. 88"
+    ],
+    "court": "Supreme Court of Virginia",
+    "date_filed": "1810-06-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/virginia/cases/cl-7735335/wallers-executors-v-ellis",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (7735335 and its twins 7735336, 7735337). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Waller's Executors v. Ellis, 2 Va. 88 (1810)",
+    "link_md": "[Waller's Executors v. Ellis, 2 Va. 88 (1810)](https://syfert.com/virginia/cases/cl-7735335/wallers-executors-v-ellis)",
+    "match_kind": "semantic",
+    "similarity": 0.5973,
+    "twin_clusters": [
+     7735337,
+     7735335
+    ]
+   },
+   {
+    "cluster_id": 6907394,
+    "case_name": "Hord's v. Dishman",
+    "citations": [
+     "2 Va. 595"
+    ],
+    "court": "Supreme Court of Virginia",
+    "date_filed": "1808-10-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/virginia/cases/cl-6907394/hords-v-dishman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hord's v. Dishman, 2 Va. 595 (1808)",
+    "link_md": "[Hord's v. Dishman, 2 Va. 595 (1808)](https://syfert.com/virginia/cases/cl-6907394/hords-v-dishman)",
+    "match_kind": "semantic",
+    "similarity": 0.5971
+   },
+   {
+    "cluster_id": 7524014,
+    "case_name": "Plymale v. State",
+    "citations": [
+     "259 So. 2d 721",
+     "1972 Fla. LEXIS 3980"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "1972-03-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/259-so-2d-721/plymale-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Plymale v. State, 259 So. 2d 721 (Fla. 1972)",
+    "link_md": "[Plymale v. State, 259 So. 2d 721 (Fla. 1972)](https://syfert.com/florida/cases/259-so-2d-721/plymale-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5966
+   },
+   {
+    "cluster_id": 5668035,
+    "case_name": "Shaw v. Butcher & Harris",
+    "citations": [
+     "19 Wend. 216"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1838-01-15",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/new-york/cases/cl-5668035/shaw-v-butcher-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Shaw v. Butcher & Harris, 19 Wend. 216 (N.Y. Sup. Ct. 1838)",
+    "link_md": "[Shaw v. Butcher & Harris, 19 Wend. 216 (N.Y. Sup. Ct. 1838)](https://syfert.com/new-york/cases/cl-5668035/shaw-v-butcher-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.5965
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

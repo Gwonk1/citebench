@@ -1,0 +1,57 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "22 N.E. 160",
+  "expected_case_name": "Stewart v. . Robinson"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"22 N.E. 160\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3620618,\n            \"case_name\": \"Stewart v. . Robinson\",\n            \"citations\": [\n                \"22 N.E. 160\"\n            ],\n            \"court\": \"New York Court of Appeals\",\n            \"date_filed\": \"1889-10-08\",\n            \"status\": \"Published\",\n            \"cited_by\": 20,\n            \"url\": \"https://syfert.com/new-york/cases/115-n-y-328/stewart-v-robinson\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"5 L.R.A. 410\",\n                    \"recovered_from_citing_opinions\": 2,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 0.97,\n                    \"note\": \"Recovered parallel cite: 2 citing opinions confirm this cite (confidence 0.97)\"\n                }\n            ],\n            \"bluebook\": \"Stewart v. Robinson, 22 N.E. 160 (N.Y. 1889)\",\n            \"link_md\": \"[Stewart v. Robinson, 22 N.E. 160 (N.Y. 1889)](https://syfert.com/new-york/cases/115-n-y-328/stewart-v-robinson)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Stewart v. . Robinson\",\n        \"actual\": \"Stewart v. . Robinson\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "22 N.E. 160",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3620618,
+    "case_name": "Stewart v. . Robinson",
+    "citations": [
+     "22 N.E. 160"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1889-10-08",
+    "status": "Published",
+    "cited_by": 20,
+    "url": "https://syfert.com/new-york/cases/115-n-y-328/stewart-v-robinson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "5 L.R.A. 410",
+      "recovered_from_citing_opinions": 2,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.97,
+      "note": "Recovered parallel cite: 2 citing opinions confirm this cite (confidence 0.97)"
+     }
+    ],
+    "bluebook": "Stewart v. Robinson, 22 N.E. 160 (N.Y. 1889)",
+    "link_md": "[Stewart v. Robinson, 22 N.E. 160 (N.Y. 1889)](https://syfert.com/new-york/cases/115-n-y-328/stewart-v-robinson)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Stewart v. . Robinson",
+   "actual": "Stewart v. . Robinson",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

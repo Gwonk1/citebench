@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "137 N.E.2d 113",
+  "expected_case_name": "Laver v. Kingston"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"137 N.E.2d 113\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2120025,\n            \"case_name\": \"Laver v. Kingston\",\n            \"citations\": [\n                \"137 N.E.2d 113\"\n            ],\n            \"court\": \"Appellate Court of Illinois\",\n            \"date_filed\": \"1956-10-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 11,\n            \"url\": \"https://syfert.com/illinois/cases/11-ill-app-2d-323/laver-v-kingston\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Laver v. Kingston, 137 N.E.2d 113 (Ill. App. Ct. 1956)\",\n            \"link_md\": \"[Laver v. Kingston, 137 N.E.2d 113 (Ill. App. Ct. 1956)](https://syfert.com/illinois/cases/11-ill-app-2d-323/laver-v-kingston)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Laver v. Kingston\",\n        \"actual\": \"Laver v. Kingston\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "137 N.E.2d 113",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2120025,
+    "case_name": "Laver v. Kingston",
+    "citations": [
+     "137 N.E.2d 113"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1956-10-25",
+    "status": "Published",
+    "cited_by": 11,
+    "url": "https://syfert.com/illinois/cases/11-ill-app-2d-323/laver-v-kingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Laver v. Kingston, 137 N.E.2d 113 (Ill. App. Ct. 1956)",
+    "link_md": "[Laver v. Kingston, 137 N.E.2d 113 (Ill. App. Ct. 1956)](https://syfert.com/illinois/cases/11-ill-app-2d-323/laver-v-kingston)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Laver v. Kingston",
+   "actual": "Laver v. Kingston",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

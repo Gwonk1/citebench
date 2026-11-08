@@ -1,0 +1,95 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Foster w/15 \"192 P 142\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Foster w/15 \\\"192 P 142\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2211321,\"bluebook\":\"People v. Duckett, 210 Cal. App. 2d 867 (Cal. Ct. App. 1962)\",\"url\":\"https://syfert.com/california/cases/210-cal-app-2d-867/people-v-duckett\",\"date_filed\":\"1962-12-17\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...to allow the investigating officer to remain in\\\" the courtroom to assist the prosecution had been long recognized.\\n(People\\nv.\\nFoster,\\n48 Cal.App. 551, 554 [ 192 P. 142 ] ;\\nPeople\\nv.\\nChapman,\\n93 Cal.App.2d 365, 374 [ 209 P.2d 121 ) •…\"},{\"cluster_id\":2242636,\"bluebook\":\"People v. Prizant, 186 Cal. App. 2d 542 (Cal. Ct. App. 1960)\",\"url\":\"https://syfert.com/california/cases/186-cal-app-2d-542/people-v-prizant\",\"date_filed\":\"1960-11-21\",\"cited_by\":23,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...App.2d 278 [ 253 P.2d 773 ], People v. Foster, 48 Cal. App. 551 [ 192 P. 142 ], People v. Chapman, 93 Cal. App.2d 365 [ 209 P.2d 121 ] and People v. Lem Deo, 132 Cal. 199 [ 64 P. 265 ], it was observed that it is customary for one...\"},{\"cluster_id\":4048504,\"bluebook\":\"Jones Spicer v. McDonnell, 23 P.2d 701 (Okla. 1933)\",\"url\":\"https://syfert.com/oklahoma/cases/164-okla-226/jones-spicer-v-mcdonnell\",\"date_filed\":\"1933-07-05\",\"cited_by\":13,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...295 P. 612 ; Followill v. Marshall, 153 Okla. 120 , 5 P. (2d) 149 ; Brinks Express Co. v. Foster, 154 Okla. 255 , 7 P. (2d) 142 ; Hasty Messenger Service v. McCartney, 155 Okla. 192 , S P. (2d) 716. These cases support the position…\"},{\"cluster_id\":4055654,\"bluebook\":\"Wardway, Inc. v. Garland, 20 P.2d 162 (Okla. 1932)\",\"url\":\"https://syfert.com/oklahoma/cases/162-okla-278/the-wardway-inc-v-garland\",\"date_filed\":\"1932-12-20\",\"cited_by\":1,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...295 P. 612 ; Followwill v. Marshall, 153 Okla. 120 , 5 P. (2d) 149 ; Brinks Express Co. v. Foster, 154 Okla. 255 , 7 P. (2d) 142 ; Hasty Messenger Service v. McCartney, 155 Okla. 192 , 8 P. (2d) 716 . In opposition to the contention of…\"},{\"cluster_id\":8574440,\"bluebook\":\"Pueblo v. Carbonell, 36 P.R. Dec. 761 (1927)\",\"url\":\"https://syfert.com/puerto-rico/cases/36-p-r-dec-761/pueblo-v-carbonell\",\"date_filed\":\"1927-05-17\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Vega 35 D.P.R. 115 . En el caso de People v. Foster (Cal. App.), 192 Pac. 142 , la corte resolvió que señalamientos en que se quejaban de resoluciones de la corte respecto a la admisión de cierta prueba, sin especificar determinadas…\"},{\"cluster_id\":8556979,\"bluebook\":\"People v. Carbonell, 36 P.R. 684 (1927)\",\"url\":\"https://syfert.com/puerto-rico/cases/36-p-r-684/people-v-carbonell\",\"date_filed\":\"1927-05-17\",\"cited_by\":0,\"snippet\":\"...Vega, 35 P.R.R. 106 . In People v. Foster (Cal. App.), 192 Pac. 142 , the court held that assignments complaining of courts’ rulings as to certain evidence without specifying particular rulings or pointing out wherein any rulings were…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Foster w/15 \"192 P 142\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2211321,
+    "bluebook": "People v. Duckett, 210 Cal. App. 2d 867 (Cal. Ct. App. 1962)",
+    "url": "https://syfert.com/california/cases/210-cal-app-2d-867/people-v-duckett",
+    "date_filed": "1962-12-17",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...to allow the investigating officer to remain in\" the courtroom to assist the prosecution had been long recognized.\n(People\nv.\nFoster,\n48 Cal.App. 551, 554 [ 192 P. 142 ] ;\nPeople\nv.\nChapman,\n93 Cal.App.2d 365, 374 [ 209 P.2d 121 ) •…"
+   },
+   {
+    "cluster_id": 2242636,
+    "bluebook": "People v. Prizant, 186 Cal. App. 2d 542 (Cal. Ct. App. 1960)",
+    "url": "https://syfert.com/california/cases/186-cal-app-2d-542/people-v-prizant",
+    "date_filed": "1960-11-21",
+    "cited_by": 23,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...App.2d 278 [ 253 P.2d 773 ], People v. Foster, 48 Cal. App. 551 [ 192 P. 142 ], People v. Chapman, 93 Cal. App.2d 365 [ 209 P.2d 121 ] and People v. Lem Deo, 132 Cal. 199 [ 64 P. 265 ], it was observed that it is customary for one..."
+   },
+   {
+    "cluster_id": 4048504,
+    "bluebook": "Jones Spicer v. McDonnell, 23 P.2d 701 (Okla. 1933)",
+    "url": "https://syfert.com/oklahoma/cases/164-okla-226/jones-spicer-v-mcdonnell",
+    "date_filed": "1933-07-05",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...295 P. 612 ; Followill v. Marshall, 153 Okla. 120 , 5 P. (2d) 149 ; Brinks Express Co. v. Foster, 154 Okla. 255 , 7 P. (2d) 142 ; Hasty Messenger Service v. McCartney, 155 Okla. 192 , S P. (2d) 716. These cases support the position…"
+   },
+   {
+    "cluster_id": 4055654,
+    "bluebook": "Wardway, Inc. v. Garland, 20 P.2d 162 (Okla. 1932)",
+    "url": "https://syfert.com/oklahoma/cases/162-okla-278/the-wardway-inc-v-garland",
+    "date_filed": "1932-12-20",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...295 P. 612 ; Followwill v. Marshall, 153 Okla. 120 , 5 P. (2d) 149 ; Brinks Express Co. v. Foster, 154 Okla. 255 , 7 P. (2d) 142 ; Hasty Messenger Service v. McCartney, 155 Okla. 192 , 8 P. (2d) 716 . In opposition to the contention of…"
+   },
+   {
+    "cluster_id": 8574440,
+    "bluebook": "Pueblo v. Carbonell, 36 P.R. Dec. 761 (1927)",
+    "url": "https://syfert.com/puerto-rico/cases/36-p-r-dec-761/pueblo-v-carbonell",
+    "date_filed": "1927-05-17",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Vega 35 D.P.R. 115 . En el caso de People v. Foster (Cal. App.), 192 Pac. 142 , la corte resolvió que señalamientos en que se quejaban de resoluciones de la corte respecto a la admisión de cierta prueba, sin especificar determinadas…"
+   },
+   {
+    "cluster_id": 8556979,
+    "bluebook": "People v. Carbonell, 36 P.R. 684 (1927)",
+    "url": "https://syfert.com/puerto-rico/cases/36-p-r-684/people-v-carbonell",
+    "date_filed": "1927-05-17",
+    "cited_by": 0,
+    "snippet": "...Vega, 35 P.R.R. 106 . In People v. Foster (Cal. App.), 192 Pac. 142 , the court held that assignments complaining of courts’ rulings as to certain evidence without specifying particular rulings or pointing out wherein any rulings were…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "232 U.S. 51",
+  "expected_case_name": "Swift v. McPherson"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"232 U.S. 51\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 98057,\n            \"case_name\": \"Swift v. McPherson\",\n            \"citations\": [\n                \"232 U.S. 51\"\n            ],\n            \"court\": \"Supreme Court\",\n            \"date_filed\": \"1914-01-05\",\n            \"status\": \"Published\",\n            \"cited_by\": 44,\n            \"url\": \"https://syfert.com/federal/scotus/cases/232-u-s-51/swift-v-mcpherson\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Swift v. McPherson, 232 U.S. 51 (1914)\",\n            \"link_md\": \"[Swift v. McPherson, 232 U.S. 51 (1914)](https://syfert.com/federal/scotus/cases/232-u-s-51/swift-v-mcpherson)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 22,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"affirmed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Swift v. McPherson\",\n        \"actual\": \"Swift v. McPherson\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "232 U.S. 51",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 98057,
+    "case_name": "Swift v. McPherson",
+    "citations": [
+     "232 U.S. 51"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1914-01-05",
+    "status": "Published",
+    "cited_by": 44,
+    "url": "https://syfert.com/federal/scotus/cases/232-u-s-51/swift-v-mcpherson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Swift v. McPherson, 232 U.S. 51 (1914)",
+    "link_md": "[Swift v. McPherson, 232 U.S. 51 (1914)](https://syfert.com/federal/scotus/cases/232-u-s-51/swift-v-mcpherson)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 22,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Swift v. McPherson",
+   "actual": "Swift v. McPherson",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

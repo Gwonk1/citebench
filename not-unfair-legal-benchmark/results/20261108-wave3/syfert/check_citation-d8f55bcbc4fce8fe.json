@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "208 N.W. 360",
+  "expected_case_name": "State v. Mueller"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"208 N.W. 360\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3435084,\n            \"case_name\": \"State v. Mueller\",\n            \"citations\": [\n                \"208 N.W. 360\"\n            ],\n            \"court\": \"Supreme Court of Iowa\",\n            \"date_filed\": \"1926-04-06\",\n            \"status\": \"Published\",\n            \"cited_by\": 4,\n            \"url\": \"https://syfert.com/iowa/cases/202-iowa-1067/state-v-mueller\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Mueller, 208 N.W. 360 (Iowa 1926)\",\n            \"link_md\": \"[State v. Mueller, 208 N.W. 360 (Iowa 1926)](https://syfert.com/iowa/cases/202-iowa-1067/state-v-mueller)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. Mueller\",\n        \"actual\": \"State v. Mueller\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "208 N.W. 360",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3435084,
+    "case_name": "State v. Mueller",
+    "citations": [
+     "208 N.W. 360"
+    ],
+    "court": "Supreme Court of Iowa",
+    "date_filed": "1926-04-06",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/iowa/cases/202-iowa-1067/state-v-mueller",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Mueller, 208 N.W. 360 (Iowa 1926)",
+    "link_md": "[State v. Mueller, 208 N.W. 360 (Iowa 1926)](https://syfert.com/iowa/cases/202-iowa-1067/state-v-mueller)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. Mueller",
+   "actual": "State v. Mueller",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

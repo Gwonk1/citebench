@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "42 P.2d 292",
+  "expected_case_name": "Reynard v. City of Caldwell"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"42 P.2d 292\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3415671,\n            \"case_name\": \"Reynard v. City of Caldwell\",\n            \"citations\": [\n                \"42 P.2d 292\"\n            ],\n            \"court\": \"Idaho Supreme Court\",\n            \"date_filed\": \"1935-03-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 12,\n            \"url\": \"https://syfert.com/idaho/cases/42-p-2d-292/reynard-v-city-of-caldwell\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Reynard v. City of Caldwell, 42 P.2d 292 (Idaho 1935)\",\n            \"link_md\": \"[Reynard v. City of Caldwell, 42 P.2d 292 (Idaho 1935)](https://syfert.com/idaho/cases/42-p-2d-292/reynard-v-city-of-caldwell)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Reynard v. City of Caldwell\",\n        \"actual\": \"Reynard v. City of Caldwell\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "42 P.2d 292",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3415671,
+    "case_name": "Reynard v. City of Caldwell",
+    "citations": [
+     "42 P.2d 292"
+    ],
+    "court": "Idaho Supreme Court",
+    "date_filed": "1935-03-01",
+    "status": "Published",
+    "cited_by": 12,
+    "url": "https://syfert.com/idaho/cases/42-p-2d-292/reynard-v-city-of-caldwell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Reynard v. City of Caldwell, 42 P.2d 292 (Idaho 1935)",
+    "link_md": "[Reynard v. City of Caldwell, 42 P.2d 292 (Idaho 1935)](https://syfert.com/idaho/cases/42-p-2d-292/reynard-v-city-of-caldwell)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Reynard v. City of Caldwell",
+   "actual": "Reynard v. City of Caldwell",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

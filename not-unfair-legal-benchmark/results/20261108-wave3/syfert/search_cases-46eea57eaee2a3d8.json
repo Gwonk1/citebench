@@ -1,0 +1,48 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Fisher w/15 \"241 N.W. 478\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Fisher w/15 \\\"241 N.W. 478\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1724735,\"bluebook\":\"Gordon v. Witthauer, 138 N.W.2d 918 (Iowa 1965)\",\"url\":\"https://syfert.com/iowa/cases/258-iowa-617/gordon-v-witthauer\",\"date_filed\":\"1965-12-14\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Stehn, 200 Iowa 809 , 202 N.W. 530 ; and Fisher v. Nicola, 214 Iowa 801 , 241 N.W. 478 .\\nPlaintiff in support of the trial court relies on Banwart v. Shullenburg, 190 Iowa 418 , 180 N.W. 190 . In Banwart this court held the parol…\"},{\"cluster_id\":1681612,\"bluebook\":\"Smith v. McNew, 381 S.W.2d 369 (Mo. Ct. App. 1964)\",\"url\":\"https://syfert.com/missouri/cases/381-s-w-2d-369/smith-v-mcnew\",\"date_filed\":\"1964-07-30\",\"cited_by\":12,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Cleaver, 4 Houst. (Del.) 453, 459; Fisher v. Nicola, 214 Iowa 801 , 241 N.W. 478 , 479; Hampton v. Struve, 160 Neb. 305 , 70 N.W.2d 74, 79 [14, 15]; Davies v. Baldwin, supra, 66 Mo.App. at 580 ; Moser v. Lower, supra, 48 Mo.App. at 89…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Fisher w/15 \"241 N.W. 478\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1724735,
+    "bluebook": "Gordon v. Witthauer, 138 N.W.2d 918 (Iowa 1965)",
+    "url": "https://syfert.com/iowa/cases/258-iowa-617/gordon-v-witthauer",
+    "date_filed": "1965-12-14",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Stehn, 200 Iowa 809 , 202 N.W. 530 ; and Fisher v. Nicola, 214 Iowa 801 , 241 N.W. 478 .\nPlaintiff in support of the trial court relies on Banwart v. Shullenburg, 190 Iowa 418 , 180 N.W. 190 . In Banwart this court held the parol…"
+   },
+   {
+    "cluster_id": 1681612,
+    "bluebook": "Smith v. McNew, 381 S.W.2d 369 (Mo. Ct. App. 1964)",
+    "url": "https://syfert.com/missouri/cases/381-s-w-2d-369/smith-v-mcnew",
+    "date_filed": "1964-07-30",
+    "cited_by": 12,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Cleaver, 4 Houst. (Del.) 453, 459; Fisher v. Nicola, 214 Iowa 801 , 241 N.W. 478 , 479; Hampton v. Struve, 160 Neb. 305 , 70 N.W.2d 74, 79 [14, 15]; Davies v. Baldwin, supra, 66 Mo.App. at 580 ; Moser v. Lower, supra, 48 Mo.App. at 89…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

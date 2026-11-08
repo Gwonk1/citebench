@@ -1,0 +1,48 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Pilmer w/15 \"91 P. 432\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Pilmer w/15 \\\"91 P. 432\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3416283,\"bluebook\":\"Bryant v. Hill, 264 P. 869 (Idaho 1928)\",\"url\":\"https://syfert.com/idaho/cases/264-p-869/bryant-v-hill\",\"date_filed\":\"1928-03-01\",\"cited_by\":19,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...91 ; Pilmer v. Boise Traction Co., Ltd. , 14 Idaho 327 , 125 Am. St. 161, 94 P. 432 , 15 L.R.A., N.S., 254.) The question of plaintiff's negligence and of defendant's knowledge thereof, and of defendant's reasonable care under the…\"},{\"cluster_id\":1130640,\"bluebook\":\"Kuhn v. Dell, 404 P.2d 357 (Idaho 1965)\",\"url\":\"https://syfert.com/idaho/cases/404-p-2d-357/kuhn-v-dell\",\"date_filed\":\"1965-07-23\",\"cited_by\":18,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Co., 15 Idaho 513 ; 99 P. 91 ; Pilmer v. Boise Traction Co., Ltd., 14 Idaho 327 , 94 P. 432 , 15 L.R.A.,N.S., 254. Also where the plaintiff’s -riegligénee':has.placed him in á position of peril) and the defendant saw or should, have…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Pilmer w/15 \"91 P. 432\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3416283,
+    "bluebook": "Bryant v. Hill, 264 P. 869 (Idaho 1928)",
+    "url": "https://syfert.com/idaho/cases/264-p-869/bryant-v-hill",
+    "date_filed": "1928-03-01",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...91 ; Pilmer v. Boise Traction Co., Ltd. , 14 Idaho 327 , 125 Am. St. 161, 94 P. 432 , 15 L.R.A., N.S., 254.) The question of plaintiff's negligence and of defendant's knowledge thereof, and of defendant's reasonable care under the…"
+   },
+   {
+    "cluster_id": 1130640,
+    "bluebook": "Kuhn v. Dell, 404 P.2d 357 (Idaho 1965)",
+    "url": "https://syfert.com/idaho/cases/404-p-2d-357/kuhn-v-dell",
+    "date_filed": "1965-07-23",
+    "cited_by": 18,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Co., 15 Idaho 513 ; 99 P. 91 ; Pilmer v. Boise Traction Co., Ltd., 14 Idaho 327 , 94 P. 432 , 15 L.R.A.,N.S., 254. Also where the plaintiff’s -riegligénee':has.placed him in á position of peril) and the defendant saw or should, have…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

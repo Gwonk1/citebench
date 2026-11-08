@@ -1,0 +1,259 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Ross w/15 \"232 U.S. 110\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Ross w/15 \\\"232 U.S. 110\\\"\",\"total\":16,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":100729,\"bluebook\":\"Stilz v. United States, 269 U.S. 144 (1925)\",\"url\":\"https://syfert.com/federal/scotus/cases/269-u-s-144/stilz-v-united-states\",\"date_filed\":\"1925-11-16\",\"cited_by\":37,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Omaha Indians,\\n253 U. S. 275, 281 ;\\nRoss v. Day,\\n232 U. S. 110, 116 ;\\nWhitcomb\\nv.\\nWhite,\\n214 U. S. 15, 16 ;\\nMarquez\\nv.\\nFrisbie,\\n101 U. S. 473, 476 . Our consideration of the case is confined to-questions of law.\\nUnion Pacific Railway…\",\"holding\":\"The Supreme Court accepts the Court of Claims' factual finding of no patent infringement as conclusive, precluding review of the underlying facts.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":4738310,\"bluebook\":\"Guerrero-Lasprilla v. Barr, 589 U.S. 221 (2020)\",\"url\":\"https://syfert.com/federal/scotus/cases/589-u-s-221/guerrero-lasprilla-v-barr\",\"date_filed\":\"2020-03-23\",\"cited_by\":327,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...1781\\n(distinguishing between a \\\"question of law,\\\" a \\\"mixed question of law and fact,\\\" and a \\\"pure question of fact\\\");\\nRoss v. Day\\n,\\n232 U.S. 110\\n, 116,\\n34 S.Ct. 233\\n,\\n58 L.Ed. 528\\n(1914) (distinguishing between \\\"a mere question of law\\\"…\",\"holding\":\"The statutory phrase questions of law includes the application of a legal standard to undisputed or established facts.\",\"holding_ai_generated\":true,\"disposition\":\"reversed in part\",\"disposition_source\":\"headnote\"},{\"cluster_id\":1549266,\"bluebook\":\"Fin. & Guar. Co. v. Comm'r, 50 F.2d 1061 (4th Cir. 1931)\",\"url\":\"https://syfert.com/federal/circuits/cases/50-f-2d-1061/finance-guaranty-co-v-commissioner-of-internal-revenue\",\"date_filed\":\"1931-06-17\",\"cited_by\":17,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Co., 249 U. S. 451 , 39 S. Ct. 325 , 63 L. Ed. 703 ; Ross v. Day, 232 U. S. 110 , 34 S. Ct. 233 , 58 L. Ed. 528 . See, also, Williamsport Wire Rope Co. v. United States, 277 U. S. 551 , 48 S. Ct. 587 , 72 L. Ed. 985 .\\nA...\"},{\"cluster_id\":102949,\"bluebook\":\"United States v. Esnault-Pelterie, 303 U.S. 26 (1938)\",\"url\":\"https://syfert.com/federal/scotus/cases/303-u-s-26/united-states-v-esnault-pelterie\",\"date_filed\":\"1938-01-31\",\"cited_by\":51,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Even though the finding determines a mixed question of law and fact, the finding is conclusive unless the court is able “to so separate the question as to see clearly what and where the mistake of law is.”\\nRoss\\nv.\\nDay,\\n232 U. S. 110,…\",\"holding\":\"Review of Court of Claims judgments is limited to questions of law, treating factual findings regarding patent validity and infringement as conclusive unless no substantial dispute of fact exists.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\",\"passage_origin\":{\"case_name\":\"Ross v. Day\",\"cluster_id\":98063,\"year\":1914,\"quoted_by_cases\":2}},{\"cluster_id\":98842,\"bluebook\":\"Harnage v. Martin, 242 U.S. 386 (1917)\",\"url\":\"https://syfert.com/federal/scotus/cases/242-u-s-386/harnage-v-martin\",\"date_filed\":\"1917-01-08\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Stewart,\\n227 U. S. 530, 535 ;\\nRoss\\nv.\\nDay,\\n232 U. S. 110, 117 ;\\nJohnson\\nv.\\nRiddle,\\n240 U. S. 467, 474 .\\n■ Each of the departmental decisions was made in writing, but the findings are somewhat informal, each appeal having resulted in…\"},{\"cluster_id\":99612,\"bluebook\":\"United States v. Omaha Tribe of Indians, 253 U.S. 275 (1920)\",\"url\":\"https://syfert.com/federal/scotus/cases/253-u-s-275/united-states-v-omaha-tribe-of-indians\",\"date_filed\":\"1920-06-01\",\"cited_by\":18,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...question of law is inseparable. In the latter case, as in the former, the finding, on familiar principles, is not reviewable.\\nRoss\\nv.\\nDay,\\n232 U. S. 110, 116-117 , and cases cited. The fact that the building was not used shows that the\\\"…\"},{\"cluster_id\":8613558,\"bluebook\":\"Brownfield v. United States, 148 Ct. Cl. 411 (Ct. Cl. 1960)\",\"url\":\"https://syfert.com/federal/specialty/cases/148-ct-cl-411/brownfield-v-united-states\",\"date_filed\":\"1960-01-20\",\"cited_by\":16,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...United States, 297 U.S. 167, 172 (1936); Ross v. Day, 232 U.S. 110, 116 (1914); Byrne v. United States, 97 C. Cls. 412 (1942); Bofinger v. United States, 18 C. Cls. 148 (1883). The facts of record disclose no such abuse of discretion.…\"},{\"cluster_id\":6978124,\"bluebook\":\"United States v. Corp. of the President of the Church of Jesus Christ of Latter-Day Saints, 101 F.2d 156 (10th Cir. 1939)\",\"url\":\"https://syfert.com/federal/circuits/cases/101-f-2d-156/united-states-v-corporation-of-the-president-of-the-church-of-jesus-christ\",\"date_filed\":\"1939-01-11\",\"cited_by\":16,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Stewart, 227 U.S. 530 , 33 S.Ct. 345 , 57 L.Ed. 626 ; Ross v. Day, 232 U.S. 110 , 34 S.Ct. 233 , 58 L.Ed. 528 . The administrative finding was supported by substantial evidence and is conclusive on the courts.\\nA different situation is…\"},{\"cluster_id\":8231051,\"bluebook\":\"Lemieux v. Agate Land Co., 214 N.W. 454 (Wis. 1927)\",\"url\":\"https://syfert.com/wisconsin/cases/193-wis-462/lemieux-v-agate-land-co\",\"date_filed\":\"1927-06-20\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...252 U. S. 450, 460 , 40 Sup. Ct. 410; Ross v. Day, 232 U. S. 110, 116 , 34 Sup. Ct. 233; Love v. Flahive, 205 U. S. 195, 198, 199 , 27 Sup. Ct. 486; Hawley v. Diller, 178 U. S. 476, 490 , 20 Sup. Ct. 986; Oregon Basin O. & G...\"},{\"cluster_id\":2357604,\"bluebook\":\"Washington v. Sec'y of Health & Human Servs., 693 F. Supp. 569 (N.D. Ohio 1988)\",\"url\":\"https://syfert.com/federal/district/cases/693-f-supp-569/washington-v-secretary-of-health-human-services\",\"date_filed\":\"1988-07-11\",\"cited_by\":2,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...in excess of its jurisdiction, or unless there was such fraud or mistake as would justify the reopening of a judgment.\\nRoss v. Day,\\n232 U.S. 110 , 34 S.Ct. 233 , 58 L.Ed. 528 (1914). No such allegations are made concerning the…\"},{\"cluster_id\":8610012,\"bluebook\":\"Myers v. United States, 88 Ct. Cl. 107 (Ct. Cl. 1938)\",\"url\":\"https://syfert.com/federal/specialty/cases/88-ct-cl-107/myers-v-united-states\",\"date_filed\":\"1938-12-05\",\"cited_by\":0,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Even though the finding determines a mixed question of law and fact, the finding is conclusive unless the court is able “to so separate the question as to see clearly what and where the mistake of law is.” Ross v. Day, 232 U. S. 110,…\",\"passage_origin\":{\"case_name\":\"Ross v. Day\",\"cluster_id\":98063,\"year\":1914,\"quoted_by_cases\":2}},{\"cluster_id\":100787,\"bluebook\":\"United States v. Swift & Co., 270 U.S. 124 (1926)\",\"url\":\"https://syfert.com/federal/scotus/cases/270-u-s-124/united-states-v-swift-co\",\"date_filed\":\"1926-03-01\",\"cited_by\":41,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Omaha Tribe of Indians,\\n253 U. S. 275, 281 ;\\nRoss\\nv.\\nDay,\\n232 U. S. 110, 116, 117 , and cases cited. There is nothing whatever in the other findings which is inconsistent with this. At the time this order was given and accepted by Swift…\"},{\"cluster_id\":98186,\"bluebook\":\"Logan v. Davis, 233 U.S. 613 (1914)\",\"url\":\"https://syfert.com/federal/scotus/cases/233-u-s-613/logan-v-davis\",\"date_filed\":\"1914-05-11\",\"cited_by\":97,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...O’Connor,\\n191 U. S. 237, 240 ;\\nRoss\\nv.\\nDay,\\n232 U. S. 110 , 116\\nThe act of 1887, in its first section, authorized and required the Secretary of the Interior immediately to adjust, in accordance with the decisions of this court, the…\",\"holding\":\"The practical interpretation of an ambiguous statute by the executive department charged with its administration is entitled to the highest respect and will not be disturbed except for very cogent reasons.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":98684,\"bluebook\":\"Johnson v. Riddle, 240 U.S. 467 (1916)\",\"url\":\"https://syfert.com/federal/scotus/cases/240-u-s-467/johnson-v-riddle\",\"date_filed\":\"1916-04-03\",\"cited_by\":18,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...French,\\n164 U. S. 338, 342 ;\\nRoss v. Day,\\n232 U. S. 110, 116 .\\nSince, the findings are to the effect that the improvements upon the lot were owned' by Ellis, and by defendant in error through a purchase from him, the contentions, of…\"},{\"cluster_id\":4071872,\"bluebook\":\"Turner v. Old Homestead Co., 170 P. 904 (Okla. 1918)\",\"url\":\"https://syfert.com/oklahoma/cases/68-okla-10/turner-v-old-homestead-co\",\"date_filed\":\"1918-01-08\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...1095 ; Ross v. Day, 29 Okla. 186 , 116 Pac. 949 , affirmed in 232 U. S. 110 , 34 Sup. Ct. 233, 58 L. Ed. 528 ; Johnson v. Riddle, 41 Okla. 759 , 139 Pac. 1143 , affirmed in 240 U. S. 467 , 36 Sup. Ct. 393, 60 L. Ed. 752 ; Reynolds v.…\"},{\"cluster_id\":1408676,\"bluebook\":\"United States v. Stand. Oil Co. of California, 20 F. Supp. 427 (S.D. Cal. 1937)\",\"url\":\"https://syfert.com/federal/district/cases/20-f-supp-427/united-states-v-standard-oil-company-of-california\",\"date_filed\":\"1937-08-25\",\"cited_by\":23,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...570 (the character of a settlement and the intention with which it was made); Ross v. Day (1914) 232 U.S. 110 , 34 S.Ct. 233 , 58 L.Ed. 528 (whether lands had been improved so as to give a preferential right- of selection). Courts have…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Ross w/15 \"232 U.S. 110\"",
+  "total": 16,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 100729,
+    "bluebook": "Stilz v. United States, 269 U.S. 144 (1925)",
+    "url": "https://syfert.com/federal/scotus/cases/269-u-s-144/stilz-v-united-states",
+    "date_filed": "1925-11-16",
+    "cited_by": 37,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Omaha Indians,\n253 U. S. 275, 281 ;\nRoss v. Day,\n232 U. S. 110, 116 ;\nWhitcomb\nv.\nWhite,\n214 U. S. 15, 16 ;\nMarquez\nv.\nFrisbie,\n101 U. S. 473, 476 . Our consideration of the case is confined to-questions of law.\nUnion Pacific Railway…",
+    "holding": "The Supreme Court accepts the Court of Claims' factual finding of no patent infringement as conclusive, precluding review of the underlying facts.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 4738310,
+    "bluebook": "Guerrero-Lasprilla v. Barr, 589 U.S. 221 (2020)",
+    "url": "https://syfert.com/federal/scotus/cases/589-u-s-221/guerrero-lasprilla-v-barr",
+    "date_filed": "2020-03-23",
+    "cited_by": 327,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...1781\n(distinguishing between a \"question of law,\" a \"mixed question of law and fact,\" and a \"pure question of fact\");\nRoss v. Day\n,\n232 U.S. 110\n, 116,\n34 S.Ct. 233\n,\n58 L.Ed. 528\n(1914) (distinguishing between \"a mere question of law\"…",
+    "holding": "The statutory phrase questions of law includes the application of a legal standard to undisputed or established facts.",
+    "holding_ai_generated": true,
+    "disposition": "reversed in part",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1549266,
+    "bluebook": "Fin. & Guar. Co. v. Comm'r, 50 F.2d 1061 (4th Cir. 1931)",
+    "url": "https://syfert.com/federal/circuits/cases/50-f-2d-1061/finance-guaranty-co-v-commissioner-of-internal-revenue",
+    "date_filed": "1931-06-17",
+    "cited_by": 17,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Co., 249 U. S. 451 , 39 S. Ct. 325 , 63 L. Ed. 703 ; Ross v. Day, 232 U. S. 110 , 34 S. Ct. 233 , 58 L. Ed. 528 . See, also, Williamsport Wire Rope Co. v. United States, 277 U. S. 551 , 48 S. Ct. 587 , 72 L. Ed. 985 .\nA..."
+   },
+   {
+    "cluster_id": 102949,
+    "bluebook": "United States v. Esnault-Pelterie, 303 U.S. 26 (1938)",
+    "url": "https://syfert.com/federal/scotus/cases/303-u-s-26/united-states-v-esnault-pelterie",
+    "date_filed": "1938-01-31",
+    "cited_by": 51,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Even though the finding determines a mixed question of law and fact, the finding is conclusive unless the court is able “to so separate the question as to see clearly what and where the mistake of law is.”\nRoss\nv.\nDay,\n232 U. S. 110,…",
+    "holding": "Review of Court of Claims judgments is limited to questions of law, treating factual findings regarding patent validity and infringement as conclusive unless no substantial dispute of fact exists.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote",
+    "passage_origin": {
+     "case_name": "Ross v. Day",
+     "cluster_id": 98063,
+     "year": 1914,
+     "quoted_by_cases": 2
+    }
+   },
+   {
+    "cluster_id": 98842,
+    "bluebook": "Harnage v. Martin, 242 U.S. 386 (1917)",
+    "url": "https://syfert.com/federal/scotus/cases/242-u-s-386/harnage-v-martin",
+    "date_filed": "1917-01-08",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Stewart,\n227 U. S. 530, 535 ;\nRoss\nv.\nDay,\n232 U. S. 110, 117 ;\nJohnson\nv.\nRiddle,\n240 U. S. 467, 474 .\n■ Each of the departmental decisions was made in writing, but the findings are somewhat informal, each appeal having resulted in…"
+   },
+   {
+    "cluster_id": 99612,
+    "bluebook": "United States v. Omaha Tribe of Indians, 253 U.S. 275 (1920)",
+    "url": "https://syfert.com/federal/scotus/cases/253-u-s-275/united-states-v-omaha-tribe-of-indians",
+    "date_filed": "1920-06-01",
+    "cited_by": 18,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...question of law is inseparable. In the latter case, as in the former, the finding, on familiar principles, is not reviewable.\nRoss\nv.\nDay,\n232 U. S. 110, 116-117 , and cases cited. The fact that the building was not used shows that the\"…"
+   },
+   {
+    "cluster_id": 8613558,
+    "bluebook": "Brownfield v. United States, 148 Ct. Cl. 411 (Ct. Cl. 1960)",
+    "url": "https://syfert.com/federal/specialty/cases/148-ct-cl-411/brownfield-v-united-states",
+    "date_filed": "1960-01-20",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...United States, 297 U.S. 167, 172 (1936); Ross v. Day, 232 U.S. 110, 116 (1914); Byrne v. United States, 97 C. Cls. 412 (1942); Bofinger v. United States, 18 C. Cls. 148 (1883). The facts of record disclose no such abuse of discretion.…"
+   },
+   {
+    "cluster_id": 6978124,
+    "bluebook": "United States v. Corp. of the President of the Church of Jesus Christ of Latter-Day Saints, 101 F.2d 156 (10th Cir. 1939)",
+    "url": "https://syfert.com/federal/circuits/cases/101-f-2d-156/united-states-v-corporation-of-the-president-of-the-church-of-jesus-christ",
+    "date_filed": "1939-01-11",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Stewart, 227 U.S. 530 , 33 S.Ct. 345 , 57 L.Ed. 626 ; Ross v. Day, 232 U.S. 110 , 34 S.Ct. 233 , 58 L.Ed. 528 . The administrative finding was supported by substantial evidence and is conclusive on the courts.\nA different situation is…"
+   },
+   {
+    "cluster_id": 8231051,
+    "bluebook": "Lemieux v. Agate Land Co., 214 N.W. 454 (Wis. 1927)",
+    "url": "https://syfert.com/wisconsin/cases/193-wis-462/lemieux-v-agate-land-co",
+    "date_filed": "1927-06-20",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...252 U. S. 450, 460 , 40 Sup. Ct. 410; Ross v. Day, 232 U. S. 110, 116 , 34 Sup. Ct. 233; Love v. Flahive, 205 U. S. 195, 198, 199 , 27 Sup. Ct. 486; Hawley v. Diller, 178 U. S. 476, 490 , 20 Sup. Ct. 986; Oregon Basin O. & G..."
+   },
+   {
+    "cluster_id": 2357604,
+    "bluebook": "Washington v. Sec'y of Health & Human Servs., 693 F. Supp. 569 (N.D. Ohio 1988)",
+    "url": "https://syfert.com/federal/district/cases/693-f-supp-569/washington-v-secretary-of-health-human-services",
+    "date_filed": "1988-07-11",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...in excess of its jurisdiction, or unless there was such fraud or mistake as would justify the reopening of a judgment.\nRoss v. Day,\n232 U.S. 110 , 34 S.Ct. 233 , 58 L.Ed. 528 (1914). No such allegations are made concerning the…"
+   },
+   {
+    "cluster_id": 8610012,
+    "bluebook": "Myers v. United States, 88 Ct. Cl. 107 (Ct. Cl. 1938)",
+    "url": "https://syfert.com/federal/specialty/cases/88-ct-cl-107/myers-v-united-states",
+    "date_filed": "1938-12-05",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Even though the finding determines a mixed question of law and fact, the finding is conclusive unless the court is able “to so separate the question as to see clearly what and where the mistake of law is.” Ross v. Day, 232 U. S. 110,…",
+    "passage_origin": {
+     "case_name": "Ross v. Day",
+     "cluster_id": 98063,
+     "year": 1914,
+     "quoted_by_cases": 2
+    }
+   },
+   {
+    "cluster_id": 100787,
+    "bluebook": "United States v. Swift & Co., 270 U.S. 124 (1926)",
+    "url": "https://syfert.com/federal/scotus/cases/270-u-s-124/united-states-v-swift-co",
+    "date_filed": "1926-03-01",
+    "cited_by": 41,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Omaha Tribe of Indians,\n253 U. S. 275, 281 ;\nRoss\nv.\nDay,\n232 U. S. 110, 116, 117 , and cases cited. There is nothing whatever in the other findings which is inconsistent with this. At the time this order was given and accepted by Swift…"
+   },
+   {
+    "cluster_id": 98186,
+    "bluebook": "Logan v. Davis, 233 U.S. 613 (1914)",
+    "url": "https://syfert.com/federal/scotus/cases/233-u-s-613/logan-v-davis",
+    "date_filed": "1914-05-11",
+    "cited_by": 97,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...O’Connor,\n191 U. S. 237, 240 ;\nRoss\nv.\nDay,\n232 U. S. 110 , 116\nThe act of 1887, in its first section, authorized and required the Secretary of the Interior immediately to adjust, in accordance with the decisions of this court, the…",
+    "holding": "The practical interpretation of an ambiguous statute by the executive department charged with its administration is entitled to the highest respect and will not be disturbed except for very cogent reasons.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 98684,
+    "bluebook": "Johnson v. Riddle, 240 U.S. 467 (1916)",
+    "url": "https://syfert.com/federal/scotus/cases/240-u-s-467/johnson-v-riddle",
+    "date_filed": "1916-04-03",
+    "cited_by": 18,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...French,\n164 U. S. 338, 342 ;\nRoss v. Day,\n232 U. S. 110, 116 .\nSince, the findings are to the effect that the improvements upon the lot were owned' by Ellis, and by defendant in error through a purchase from him, the contentions, of…"
+   },
+   {
+    "cluster_id": 4071872,
+    "bluebook": "Turner v. Old Homestead Co., 170 P. 904 (Okla. 1918)",
+    "url": "https://syfert.com/oklahoma/cases/68-okla-10/turner-v-old-homestead-co",
+    "date_filed": "1918-01-08",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...1095 ; Ross v. Day, 29 Okla. 186 , 116 Pac. 949 , affirmed in 232 U. S. 110 , 34 Sup. Ct. 233, 58 L. Ed. 528 ; Johnson v. Riddle, 41 Okla. 759 , 139 Pac. 1143 , affirmed in 240 U. S. 467 , 36 Sup. Ct. 393, 60 L. Ed. 752 ; Reynolds v.…"
+   },
+   {
+    "cluster_id": 1408676,
+    "bluebook": "United States v. Stand. Oil Co. of California, 20 F. Supp. 427 (S.D. Cal. 1937)",
+    "url": "https://syfert.com/federal/district/cases/20-f-supp-427/united-states-v-standard-oil-company-of-california",
+    "date_filed": "1937-08-25",
+    "cited_by": 23,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...570 (the character of a settlement and the intention with which it was made); Ross v. Day (1914) 232 U.S. 110 , 34 S.Ct. 233 , 58 L.Ed. 528 (whether lands had been improved so as to give a preferential right- of selection). Courts have…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

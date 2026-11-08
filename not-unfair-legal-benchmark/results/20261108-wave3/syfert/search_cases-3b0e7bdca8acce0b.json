@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Davis w/15 \"182 N.E.2d 562\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Davis w/15 \\\"182 N.E.2d 562\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5130405,\"bluebook\":\"Smith v. Sussex Cnty. Council, 632 A.2d 1387 (Del. Ch. 1993)\",\"url\":\"https://syfert.com/delaware/cases/632-a-2d-1387/smith-v-sussex-county-council\",\"date_filed\":\"1993-07-13\",\"cited_by\":4,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...dissenting) and Davis v. City of Willoughby, 173 Ohio St. 338 , 182 N.E.2d 562 , 556 (1962), discussion below.\\n[[Image here]]\\nThe judicial opinions dealing with the effect of an abstention on the effectiveness of municipal action are,…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Davis w/15 \"182 N.E.2d 562\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5130405,
+    "bluebook": "Smith v. Sussex Cnty. Council, 632 A.2d 1387 (Del. Ch. 1993)",
+    "url": "https://syfert.com/delaware/cases/632-a-2d-1387/smith-v-sussex-county-council",
+    "date_filed": "1993-07-13",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...dissenting) and Davis v. City of Willoughby, 173 Ohio St. 338 , 182 N.E.2d 562 , 556 (1962), discussion below.\n[[Image here]]\nThe judicial opinions dealing with the effect of an abstention on the effectiveness of municipal action are,…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

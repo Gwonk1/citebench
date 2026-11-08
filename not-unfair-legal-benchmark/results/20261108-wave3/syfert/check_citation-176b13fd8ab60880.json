@@ -1,0 +1,75 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "216 S.W.2d 228",
+  "expected_case_name": "Holland v. State"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"216 S.W.2d 228\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4149027,\n            \"case_name\": \"Holland v. State\",\n            \"citations\": [\n                \"216 S.W.2d 228\"\n            ],\n            \"court\": \"Court of Criminal Appeals of Texas\",\n            \"date_filed\": \"1949-01-05\",\n            \"status\": \"Published\",\n            \"cited_by\": 8,\n            \"url\": \"https://syfert.com/texas/cases/152-tex-crim-552/holland-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Holland v. State, 216 S.W.2d 228 (Tex. Crim. App. 1949)\",\n            \"link_md\": \"[Holland v. State, 216 S.W.2d 228 (Tex. Crim. App. 1949)](https://syfert.com/texas/cases/152-tex-crim-552/holland-v-state)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        },\n        {\n            \"cluster_id\": 5190270,\n            \"case_name\": \"Kessler v. State\",\n            \"citations\": [\n                \"216 S.W.2d 228\"\n            ],\n            \"court\": \"Court of Criminal Appeals of Texas\",\n            \"date_filed\": \"1949-01-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 3,\n            \"url\": \"https://syfert.com/texas/cases/216-s-w-2d-228/kessler-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Kessler v. State, 216 S.W.2d 228 (Tex. Crim. App. 1949)\",\n            \"link_md\": \"[Kessler v. State, 216 S.W.2d 228 (Tex. Crim. App. 1949)](https://syfert.com/texas/cases/216-s-w-2d-228/kessler-v-state)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Holland v. State\",\n        \"actual\": \"Holland v. State\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "216 S.W.2d 228",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4149027,
+    "case_name": "Holland v. State",
+    "citations": [
+     "216 S.W.2d 228"
+    ],
+    "court": "Court of Criminal Appeals of Texas",
+    "date_filed": "1949-01-05",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/texas/cases/152-tex-crim-552/holland-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Holland v. State, 216 S.W.2d 228 (Tex. Crim. App. 1949)",
+    "link_md": "[Holland v. State, 216 S.W.2d 228 (Tex. Crim. App. 1949)](https://syfert.com/texas/cases/152-tex-crim-552/holland-v-state)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   },
+   {
+    "cluster_id": 5190270,
+    "case_name": "Kessler v. State",
+    "citations": [
+     "216 S.W.2d 228"
+    ],
+    "court": "Court of Criminal Appeals of Texas",
+    "date_filed": "1949-01-19",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/texas/cases/216-s-w-2d-228/kessler-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kessler v. State, 216 S.W.2d 228 (Tex. Crim. App. 1949)",
+    "link_md": "[Kessler v. State, 216 S.W.2d 228 (Tex. Crim. App. 1949)](https://syfert.com/texas/cases/216-s-w-2d-228/kessler-v-state)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Holland v. State",
+   "actual": "Holland v. State",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

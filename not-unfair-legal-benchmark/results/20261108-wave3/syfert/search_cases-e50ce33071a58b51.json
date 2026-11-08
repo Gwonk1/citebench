@@ -1,0 +1,95 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Harris w/15 \"198 S.W.2d 264\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Harris w/15 \\\"198 S.W.2d 264\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5085931,\"bluebook\":\"Patterson v. State, 293 S.W.2d 656 (Tex. Crim. App. 1956)\",\"url\":\"https://syfert.com/texas/cases/163-tex-crim-482/patterson-v-state\",\"date_filed\":\"1956-06-27\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Appellant insists that the evidence is insufficient to support the conviction because the state failed to prove that he intentionally drove his automobile upon the left-hand side of the highway, and relies upon the case of Harris v.…\"},{\"cluster_id\":1679847,\"bluebook\":\"Bounds v. Caudle, 611 S.W.2d 685 (Tex. Civ. App.—Corpus Christi 1980)\",\"url\":\"https://syfert.com/texas/cases/611-s-w-2d-685/bounds-v-caudle\",\"date_filed\":\"1980-12-29\",\"cited_by\":5,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...opposite of intentional. An accidental killing arises only when the act which causes the death was unintentionally done.\\nHarris v. State,\\n150 Tex.Cr.R. 38 , 198 S.W.2d 264 (1946);\\nEgbert v. State,\\n76 Tex.Cr.R. 663 , 176 S.W. 560…\"},{\"cluster_id\":2413554,\"bluebook\":\"Stiles v. State, 520 S.W.2d 894 (Tex. Crim. App. 1975)\",\"url\":\"https://syfert.com/texas/cases/520-s-w-2d-894/stiles-v-state\",\"date_filed\":\"1975-02-26\",\"cited_by\":68,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Accidental homicide arises only when the act which caused the death was unintentionally done . . .. ’ (emphasis added).”\\nAnd, in Harris v. State, 150 Tex.Cr.R. 38 , 198 S.W.2d 264 (1946), the difference between an accidental killing and…\",\"holding\":\"A trial court must instruct the jury on negligent homicide when the evidence raises that issue, and a charge on accidental death is not a sufficient substitute.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":1761596,\"bluebook\":\"Dockery v. State, 542 S.W.2d 644 (Tex. Crim. App. 1976)\",\"url\":\"https://syfert.com/texas/cases/542-s-w-2d-644/dockery-v-state\",\"date_filed\":\"1976-10-20\",\"cited_by\":77,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...560 , and later in Harris v. State, 150 Tex.Cr.R. 38 , 198 S.W.2d 264 , it was stated, as in Stiies, that negligent homicide and accidental homicide differed according to whether the act that caused death was done intentionally or…\",\"holding\":\"A person commits criminally negligent homicide by voluntarily engaging in conduct and acting with criminal negligence regardless of whether the act was intentional under prior law.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":5241083,\"bluebook\":\"Still v. State, 709 S.W.2d 672 (Tex. App. 1983)\",\"url\":\"https://syfert.com/texas/cases/709-s-w-2d-672/still-v-state\",\"date_filed\":\"1983-09-01\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Accidental homicide arises only when the act which caused the death was unintentionally done ... ’ (emphasis added.)”\\nAnd, in Harris v. State, 150 Tex.Cr.R. 38 , 198 S.W.2d 264 (1946), the difference between an accidental killing and…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Harris w/15 \"198 S.W.2d 264\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5085931,
+    "bluebook": "Patterson v. State, 293 S.W.2d 656 (Tex. Crim. App. 1956)",
+    "url": "https://syfert.com/texas/cases/163-tex-crim-482/patterson-v-state",
+    "date_filed": "1956-06-27",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Appellant insists that the evidence is insufficient to support the conviction because the state failed to prove that he intentionally drove his automobile upon the left-hand side of the highway, and relies upon the case of Harris v.…"
+   },
+   {
+    "cluster_id": 1679847,
+    "bluebook": "Bounds v. Caudle, 611 S.W.2d 685 (Tex. Civ. App.—Corpus Christi 1980)",
+    "url": "https://syfert.com/texas/cases/611-s-w-2d-685/bounds-v-caudle",
+    "date_filed": "1980-12-29",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...opposite of intentional. An accidental killing arises only when the act which causes the death was unintentionally done.\nHarris v. State,\n150 Tex.Cr.R. 38 , 198 S.W.2d 264 (1946);\nEgbert v. State,\n76 Tex.Cr.R. 663 , 176 S.W. 560…"
+   },
+   {
+    "cluster_id": 2413554,
+    "bluebook": "Stiles v. State, 520 S.W.2d 894 (Tex. Crim. App. 1975)",
+    "url": "https://syfert.com/texas/cases/520-s-w-2d-894/stiles-v-state",
+    "date_filed": "1975-02-26",
+    "cited_by": 68,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Accidental homicide arises only when the act which caused the death was unintentionally done . . .. ’ (emphasis added).”\nAnd, in Harris v. State, 150 Tex.Cr.R. 38 , 198 S.W.2d 264 (1946), the difference between an accidental killing and…",
+    "holding": "A trial court must instruct the jury on negligent homicide when the evidence raises that issue, and a charge on accidental death is not a sufficient substitute.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1761596,
+    "bluebook": "Dockery v. State, 542 S.W.2d 644 (Tex. Crim. App. 1976)",
+    "url": "https://syfert.com/texas/cases/542-s-w-2d-644/dockery-v-state",
+    "date_filed": "1976-10-20",
+    "cited_by": 77,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...560 , and later in Harris v. State, 150 Tex.Cr.R. 38 , 198 S.W.2d 264 , it was stated, as in Stiies, that negligent homicide and accidental homicide differed according to whether the act that caused death was done intentionally or…",
+    "holding": "A person commits criminally negligent homicide by voluntarily engaging in conduct and acting with criminal negligence regardless of whether the act was intentional under prior law.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 5241083,
+    "bluebook": "Still v. State, 709 S.W.2d 672 (Tex. App. 1983)",
+    "url": "https://syfert.com/texas/cases/709-s-w-2d-672/still-v-state",
+    "date_filed": "1983-09-01",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Accidental homicide arises only when the act which caused the death was unintentionally done ... ’ (emphasis added.)”\nAnd, in Harris v. State, 150 Tex.Cr.R. 38 , 198 S.W.2d 264 (1946), the difference between an accidental killing and…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

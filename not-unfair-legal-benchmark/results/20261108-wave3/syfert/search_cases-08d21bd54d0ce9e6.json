@@ -1,0 +1,84 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Jones w/15 \"142 N.W. 943\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Jones w/15 \\\"142 N.W. 943\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6726058,\"bluebook\":\"Oliver Corp. v. Kirschmann Motors, Inc., 84 N.W.2d 890 (N.D. 1957)\",\"url\":\"https://syfert.com/north-dakota/cases/84-n-w-2d-890/oliver-corp-v-kirschmann-motors-inc\",\"date_filed\":\"1957-09-12\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Jones v. Walker, 32 S.D. 247 , 142 N.W. 943 .\\nThe order and judgment of the district court are therefore reversed.\\nGRIMSON, C. J., and JOHNSON, SATHRE and MORRIS, JJ., concur.\"},{\"cluster_id\":10650828,\"bluebook\":\"Cruz-Perez, Leia v. Baker, Patricia, No. 3:25-cv-00620 (W.D. Wis. Aug. 8, 2025)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10650828/cruz-perez-leia-v-baker-patricia\",\"date_filed\":\"2025-08-08\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...at 515 ; see also Jones v. Jones, 142 Wis. 2d 943 , 419 N.W.2d 573 (Ct. App.\\n1987) (reviewing a Dane County Court Commissioner’s ex parte order granting custody of a\\nchild and concluding that court hearings concerning the order after it…\"},{\"cluster_id\":6966256,\"bluebook\":\"Layton v. United States, 78 F.2d 499 (8th Cir. 1935)\",\"url\":\"https://syfert.com/federal/circuits/cases/78-f-2d-499/layton-v-united-states\",\"date_filed\":\"1935-06-08\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...546 , 154 N. W, 254; Jones v. Walker, 32 S. D. 247, 142 N. W. 943 .\\nReversed and remanded,\"},{\"cluster_id\":10254596,\"bluebook\":\"McCallum, Shasta v. Dewey, Shannon, No. 3:19-cv-00415 (W.D. Wis. Mar. 11, 2020)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10254596/mccallum-shasta-v-dewey-shannon\",\"date_filed\":\"2020-03-11\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...See, e.g., Jones v. Jones, 142 Wis. 2d 943 , 419\\nN.W.2d 573 (Ct. App. 1987) (reviewing a Dane County Court\\nCommissioner’s ex parte order granting custody of a child and concluding\\nthat court hearings concerning the order after it was…\"},{\"cluster_id\":10625462,\"bluebook\":\"Straskowski, Tyler v. McNamara, Christopher, No. 3:25-cv-00067 (W.D. Wis. July 8, 2025)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10625462/straskowski-tyler-v-mcnamara-christopher\",\"date_filed\":\"2025-07-08\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...See, e.g., Jones\\nv. Jones, 142 Wis. 2d 943 , 419 N.W.2d 573 (Ct. App. 1987) (reviewing a Dane County Court\\nCommissioner’s ex parte order granting custody of a child and concluding that court hearings\\nconcerning the order after it was…\"},{\"cluster_id\":10254091,\"bluebook\":\"McCallum, Shasta v. Dewey, Shannon, No. 3:19-cv-00415 (W.D. Wis. Sept. 12, 2019)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10254091/mccallum-shasta-v-dewey-shannon\",\"date_filed\":\"2019-09-12\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...See, e.g., Jones v. Jones, 142\\nWis. 2d 943 , 419 N.W.2d 573 (Ct. App. 1987) (reviewing a Dane County Court\\nCommissioner’s ex parte order granting custody of a child and concluding that court\\nhearings concerning the order after it was…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Jones w/15 \"142 N.W. 943\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6726058,
+    "bluebook": "Oliver Corp. v. Kirschmann Motors, Inc., 84 N.W.2d 890 (N.D. 1957)",
+    "url": "https://syfert.com/north-dakota/cases/84-n-w-2d-890/oliver-corp-v-kirschmann-motors-inc",
+    "date_filed": "1957-09-12",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Jones v. Walker, 32 S.D. 247 , 142 N.W. 943 .\nThe order and judgment of the district court are therefore reversed.\nGRIMSON, C. J., and JOHNSON, SATHRE and MORRIS, JJ., concur."
+   },
+   {
+    "cluster_id": 10650828,
+    "bluebook": "Cruz-Perez, Leia v. Baker, Patricia, No. 3:25-cv-00620 (W.D. Wis. Aug. 8, 2025)",
+    "url": "https://syfert.com/federal/district/cases/cl-10650828/cruz-perez-leia-v-baker-patricia",
+    "date_filed": "2025-08-08",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...at 515 ; see also Jones v. Jones, 142 Wis. 2d 943 , 419 N.W.2d 573 (Ct. App.\n1987) (reviewing a Dane County Court Commissioner’s ex parte order granting custody of a\nchild and concluding that court hearings concerning the order after it…"
+   },
+   {
+    "cluster_id": 6966256,
+    "bluebook": "Layton v. United States, 78 F.2d 499 (8th Cir. 1935)",
+    "url": "https://syfert.com/federal/circuits/cases/78-f-2d-499/layton-v-united-states",
+    "date_filed": "1935-06-08",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...546 , 154 N. W, 254; Jones v. Walker, 32 S. D. 247, 142 N. W. 943 .\nReversed and remanded,"
+   },
+   {
+    "cluster_id": 10254596,
+    "bluebook": "McCallum, Shasta v. Dewey, Shannon, No. 3:19-cv-00415 (W.D. Wis. Mar. 11, 2020)",
+    "url": "https://syfert.com/federal/district/cases/cl-10254596/mccallum-shasta-v-dewey-shannon",
+    "date_filed": "2020-03-11",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...See, e.g., Jones v. Jones, 142 Wis. 2d 943 , 419\nN.W.2d 573 (Ct. App. 1987) (reviewing a Dane County Court\nCommissioner’s ex parte order granting custody of a child and concluding\nthat court hearings concerning the order after it was…"
+   },
+   {
+    "cluster_id": 10625462,
+    "bluebook": "Straskowski, Tyler v. McNamara, Christopher, No. 3:25-cv-00067 (W.D. Wis. July 8, 2025)",
+    "url": "https://syfert.com/federal/district/cases/cl-10625462/straskowski-tyler-v-mcnamara-christopher",
+    "date_filed": "2025-07-08",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...See, e.g., Jones\nv. Jones, 142 Wis. 2d 943 , 419 N.W.2d 573 (Ct. App. 1987) (reviewing a Dane County Court\nCommissioner’s ex parte order granting custody of a child and concluding that court hearings\nconcerning the order after it was…"
+   },
+   {
+    "cluster_id": 10254091,
+    "bluebook": "McCallum, Shasta v. Dewey, Shannon, No. 3:19-cv-00415 (W.D. Wis. Sept. 12, 2019)",
+    "url": "https://syfert.com/federal/district/cases/cl-10254091/mccallum-shasta-v-dewey-shannon",
+    "date_filed": "2019-09-12",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...See, e.g., Jones v. Jones, 142\nWis. 2d 943 , 419 N.W.2d 573 (Ct. App. 1987) (reviewing a Dane County Court\nCommissioner’s ex parte order granting custody of a child and concluding that court\nhearings concerning the order after it was…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

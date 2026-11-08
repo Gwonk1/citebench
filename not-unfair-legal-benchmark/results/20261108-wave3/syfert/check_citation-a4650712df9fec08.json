@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "269 S.W.2d 314",
+  "expected_case_name": "Bailey v. Commerce Union Bank"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"269 S.W.2d 314\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1531533,\n            \"case_name\": \"Bailey v. Commerce Union Bank\",\n            \"citations\": [\n                \"269 S.W.2d 314\"\n            ],\n            \"court\": \"Supreme Court of Arkansas\",\n            \"date_filed\": \"1954-05-17\",\n            \"status\": \"Published\",\n            \"cited_by\": 7,\n            \"url\": \"https://syfert.com/arkansas/cases/269-s-w-2d-314/bailey-v-commerce-union-bank\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Bailey v. Com. Union Bank, 269 S.W.2d 314 (Ark. 1954)\",\n            \"link_md\": \"[Bailey v. Com. Union Bank, 269 S.W.2d 314 (Ark. 1954)](https://syfert.com/arkansas/cases/269-s-w-2d-314/bailey-v-commerce-union-bank)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 4,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Bailey v. Commerce Union Bank\",\n        \"actual\": \"Bailey v. Commerce Union Bank\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "269 S.W.2d 314",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1531533,
+    "case_name": "Bailey v. Commerce Union Bank",
+    "citations": [
+     "269 S.W.2d 314"
+    ],
+    "court": "Supreme Court of Arkansas",
+    "date_filed": "1954-05-17",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/arkansas/cases/269-s-w-2d-314/bailey-v-commerce-union-bank",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bailey v. Com. Union Bank, 269 S.W.2d 314 (Ark. 1954)",
+    "link_md": "[Bailey v. Com. Union Bank, 269 S.W.2d 314 (Ark. 1954)](https://syfert.com/arkansas/cases/269-s-w-2d-314/bailey-v-commerce-union-bank)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 4,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Bailey v. Commerce Union Bank",
+   "actual": "Bailey v. Commerce Union Bank",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

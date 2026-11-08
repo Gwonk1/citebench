@@ -1,0 +1,95 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Bailey w/15 \"223 Ark. 686\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Bailey w/15 \\\"223 Ark. 686\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2450074,\"bluebook\":\"Perryman v. Hackler, 916 S.W.2d 105 (Ark. 1996)\",\"url\":\"https://syfert.com/arkansas/cases/916-s-w-2d-105/perryman-v-hackler\",\"date_filed\":\"1996-02-19\",\"cited_by\":14,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...and Loan Ass’n, 297 Ark. 183 , 760 S.W.2d 842 (1988). In addition, since Bailey, 223 Ark. 686 , 269 S.W.2d 314 , was based on Act 39 of 1887, later codified in part as section 4-57-107, Bailey is likewise not controlling here. We…\"},{\"cluster_id\":1777535,\"bluebook\":\"Universal CIT Credit Corp. v. Stanley, 279 S.W.2d 556 (Ark. 1955)\",\"url\":\"https://syfert.com/arkansas/cases/279-s-w-2d-556/universal-cit-credit-corporation-v-stanley\",\"date_filed\":\"1955-05-23\",\"cited_by\":6,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...1947, § 68-609; Bailey v. Commerce Union Bank, 223 Ark. 686 , 269 S. W. 2d 314 .\\nAffirmed.\\nSeamster, C. J., not participating.\"},{\"cluster_id\":2440318,\"bluebook\":\"First Nat'l Mortg. Co. v. Arkmo Lumber & Supply Co., 641 S.W.2d 31 (Ark. 1982)\",\"url\":\"https://syfert.com/arkansas/cases/641-s-w-2d-31/first-national-mortgage-co-v-arkmo-lumber-supply-co\",\"date_filed\":\"1982-11-08\",\"cited_by\":5,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...74 (1899), we construed the statute so narrowly that it was practically of no effect, but we overruled the Hiner case in Bailey v. Commerce Union Bank, 223 Ark. 686 , 269 S.W.2d 314 (1954). We adhere to our holding in Bailey, despite…\"},{\"cluster_id\":1534225,\"bluebook\":\"Williams v. Westinghouse Credit Corp., 468 S.W.2d 761 (Ark. 1971)\",\"url\":\"https://syfert.com/arkansas/cases/468-s-w-2d-761/williams-v-westinghouse-credit-corporation\",\"date_filed\":\"1971-06-28\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...261 (1960). Appellant’s answer further pleaded usury, an action cognizable in equity which permits the cancellation of the usurious contract. Bailey v. Commerce Union Bank, 223 Ark. 686 , 269 S. W. 2d 314 (1954). Thus appellant invoked…\"},{\"cluster_id\":5283385,\"bluebook\":\"Bailey v. Benton, 383 S.W.3d 405 (Ark. Ct. App. 2011)\",\"url\":\"https://syfert.com/arkansas/cases/2011-ark-app-230/bailey-v-benton\",\"date_filed\":\"2011-03-30\",\"cited_by\":0,\"snippet\":\"...In Bailey v. Commerce Union Bank, 223 Ark. 686 , 269 S.W.2d 314 (1954), the supreme court noted that it had long ago adopted the common-law rule that the defense of usury was personal to the original borrower, citing Pickett v.…\"},{\"cluster_id\":1754738,\"bluebook\":\"Crawford v. Gen. Contract Corp., 174 F. Supp. 283 (W.D. Ark. 1959)\",\"url\":\"https://syfert.com/federal/district/cases/174-f-supp-283/crawford-v-general-contract-corporation\",\"date_filed\":\"1959-06-02\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Bailey v. Commerce Union Bank, 1954, 223 Ark. 686 , 269 S.W.2d 314 (original opinion). That doctrine allowed lenders to make loans to straw men, and the real borrower would then assume the obligation of the straw man. The rule…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Bailey w/15 \"223 Ark. 686\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2450074,
+    "bluebook": "Perryman v. Hackler, 916 S.W.2d 105 (Ark. 1996)",
+    "url": "https://syfert.com/arkansas/cases/916-s-w-2d-105/perryman-v-hackler",
+    "date_filed": "1996-02-19",
+    "cited_by": 14,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...and Loan Ass’n, 297 Ark. 183 , 760 S.W.2d 842 (1988). In addition, since Bailey, 223 Ark. 686 , 269 S.W.2d 314 , was based on Act 39 of 1887, later codified in part as section 4-57-107, Bailey is likewise not controlling here. We…"
+   },
+   {
+    "cluster_id": 1777535,
+    "bluebook": "Universal CIT Credit Corp. v. Stanley, 279 S.W.2d 556 (Ark. 1955)",
+    "url": "https://syfert.com/arkansas/cases/279-s-w-2d-556/universal-cit-credit-corporation-v-stanley",
+    "date_filed": "1955-05-23",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...1947, § 68-609; Bailey v. Commerce Union Bank, 223 Ark. 686 , 269 S. W. 2d 314 .\nAffirmed.\nSeamster, C. J., not participating."
+   },
+   {
+    "cluster_id": 2440318,
+    "bluebook": "First Nat'l Mortg. Co. v. Arkmo Lumber & Supply Co., 641 S.W.2d 31 (Ark. 1982)",
+    "url": "https://syfert.com/arkansas/cases/641-s-w-2d-31/first-national-mortgage-co-v-arkmo-lumber-supply-co",
+    "date_filed": "1982-11-08",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...74 (1899), we construed the statute so narrowly that it was practically of no effect, but we overruled the Hiner case in Bailey v. Commerce Union Bank, 223 Ark. 686 , 269 S.W.2d 314 (1954). We adhere to our holding in Bailey, despite…"
+   },
+   {
+    "cluster_id": 1534225,
+    "bluebook": "Williams v. Westinghouse Credit Corp., 468 S.W.2d 761 (Ark. 1971)",
+    "url": "https://syfert.com/arkansas/cases/468-s-w-2d-761/williams-v-westinghouse-credit-corporation",
+    "date_filed": "1971-06-28",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...261 (1960). Appellant’s answer further pleaded usury, an action cognizable in equity which permits the cancellation of the usurious contract. Bailey v. Commerce Union Bank, 223 Ark. 686 , 269 S. W. 2d 314 (1954). Thus appellant invoked…"
+   },
+   {
+    "cluster_id": 5283385,
+    "bluebook": "Bailey v. Benton, 383 S.W.3d 405 (Ark. Ct. App. 2011)",
+    "url": "https://syfert.com/arkansas/cases/2011-ark-app-230/bailey-v-benton",
+    "date_filed": "2011-03-30",
+    "cited_by": 0,
+    "snippet": "...In Bailey v. Commerce Union Bank, 223 Ark. 686 , 269 S.W.2d 314 (1954), the supreme court noted that it had long ago adopted the common-law rule that the defense of usury was personal to the original borrower, citing Pickett v.…"
+   },
+   {
+    "cluster_id": 1754738,
+    "bluebook": "Crawford v. Gen. Contract Corp., 174 F. Supp. 283 (W.D. Ark. 1959)",
+    "url": "https://syfert.com/federal/district/cases/174-f-supp-283/crawford-v-general-contract-corporation",
+    "date_filed": "1959-06-02",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Bailey v. Commerce Union Bank, 1954, 223 Ark. 686 , 269 S.W.2d 314 (original opinion). That doctrine allowed lenders to make loans to straw men, and the real borrower would then assume the obligation of the straw man. The rule…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Laver w/15 \"137 NE2d 113\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Laver w/15 \\\"137 NE2d 113\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2060889,\"bluebook\":\"Citizens Sav. & Loan Ass'n v. Fischer, 214 N.E.2d 612 (Ill. App. Ct. 1966)\",\"url\":\"https://syfert.com/illinois/cases/67-ill-app-2d-315/citizens-savings-loan-assn-v-fischer\",\"date_filed\":\"1966-02-04\",\"cited_by\":68,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Fox, 348 Ill App 96, 108 NE2d 139 ; Laver v. Kingston, 11 Ill App2d 323, 137 NE2d 113 .\\nIn B. F. Hirsch, Inc. v. C. T. Gustafson Co., Inc., 315 Ill App 56, 42 NE2d 123 , defendant Broucek, an employee of the corporation, had negligently…\",\"holding\":\"A corporate officer is individually liable for fraud if he participates in or assists with fraudulent acts.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":2099460,\"bluebook\":\"Embree v. DeKalb Forge Co., 199 N.E.2d 250 (Ill. App. Ct. 1964)\",\"url\":\"https://syfert.com/illinois/cases/49-ill-app-2d-85/embree-v-dekalb-forge-co\",\"date_filed\":\"1964-06-01\",\"cited_by\":25,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...urged by Gormley that he and DeKalb Forge are joint tort-feasors and as such have no right of contribution. Laver v. Kingston, 11 Ill App2d 323, 137 NE2d 113 , is cited as authority for the proposition that where an injurious act is…\"},{\"cluster_id\":2142552,\"bluebook\":\"Lipscomb v. Coppage, 195 N.E.2d 222 (Ill. App. Ct. 1st Dist. 1964)\",\"url\":\"https://syfert.com/illinois/cases/44-ill-app-2d-430/lipscomb-v-coppage\",\"date_filed\":\"1964-03-23\",\"cited_by\":13,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...the master is responsible for negligent acts of his servant or agent while acting within the scope of his employment. Laver v. Kingston, 11 Ill App2d 323, 137 NE2d 113 .\\nThe case before us is not well pleaded. However in count three of…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Laver w/15 \"137 NE2d 113\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2060889,
+    "bluebook": "Citizens Sav. & Loan Ass'n v. Fischer, 214 N.E.2d 612 (Ill. App. Ct. 1966)",
+    "url": "https://syfert.com/illinois/cases/67-ill-app-2d-315/citizens-savings-loan-assn-v-fischer",
+    "date_filed": "1966-02-04",
+    "cited_by": 68,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Fox, 348 Ill App 96, 108 NE2d 139 ; Laver v. Kingston, 11 Ill App2d 323, 137 NE2d 113 .\nIn B. F. Hirsch, Inc. v. C. T. Gustafson Co., Inc., 315 Ill App 56, 42 NE2d 123 , defendant Broucek, an employee of the corporation, had negligently…",
+    "holding": "A corporate officer is individually liable for fraud if he participates in or assists with fraudulent acts.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 2099460,
+    "bluebook": "Embree v. DeKalb Forge Co., 199 N.E.2d 250 (Ill. App. Ct. 1964)",
+    "url": "https://syfert.com/illinois/cases/49-ill-app-2d-85/embree-v-dekalb-forge-co",
+    "date_filed": "1964-06-01",
+    "cited_by": 25,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...urged by Gormley that he and DeKalb Forge are joint tort-feasors and as such have no right of contribution. Laver v. Kingston, 11 Ill App2d 323, 137 NE2d 113 , is cited as authority for the proposition that where an injurious act is…"
+   },
+   {
+    "cluster_id": 2142552,
+    "bluebook": "Lipscomb v. Coppage, 195 N.E.2d 222 (Ill. App. Ct. 1st Dist. 1964)",
+    "url": "https://syfert.com/illinois/cases/44-ill-app-2d-430/lipscomb-v-coppage",
+    "date_filed": "1964-03-23",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...the master is responsible for negligent acts of his servant or agent while acting within the scope of his employment. Laver v. Kingston, 11 Ill App2d 323, 137 NE2d 113 .\nThe case before us is not well pleaded. However in count three of…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

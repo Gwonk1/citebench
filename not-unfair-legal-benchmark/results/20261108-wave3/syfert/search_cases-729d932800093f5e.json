@@ -1,0 +1,408 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Mueller w/15 \"208 N.W. 860\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Mueller w/15 \\\"208 N.W. 860\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8195598,\"case_name\":\"Mueller v. Mueller\",\"citations\":[\"316 U.S. 649\",\"62 S. Ct. 1288\"],\"court\":\"Supreme Court\",\"date_filed\":\"1942-06-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/316-u-s-649/mueller-v-mueller\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. Mueller, 316 U.S. 649 (1942)\",\"link_md\":\"[Mueller v. Mueller, 316 U.S. 649 (1942)](https://syfert.com/federal/scotus/cases/316-u-s-649/mueller-v-mueller)\",\"match_kind\":\"semantic\",\"similarity\":0.6749},{\"cluster_id\":451326,\"case_name\":\"Mueller v. Heckler\",\"citations\":[\"760 F.2d 273\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1985-03-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/760-f-2d-273/mueller-v-heckler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. Heckler, 760 F.2d 273 (8th Cir. 1985)\",\"link_md\":\"[Mueller v. Heckler, 760 F.2d 273 (8th Cir. 1985)](https://syfert.com/federal/circuits/cases/760-f-2d-273/mueller-v-heckler)\",\"match_kind\":\"semantic\",\"similarity\":0.6735},{\"cluster_id\":734,\"case_name\":\"United States v. Gilarime Mueller\",\"citations\":[\"367 F. App'x 736\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"2010-03-29\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/367-f-appx-736/united-states-v-gilarime-mueller\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Gilarime Mueller, 367 F. App'x 736 (8th Cir. 2010)\",\"link_md\":\"[United States v. Gilarime Mueller, 367 F. App'x 736 (8th Cir. 2010)](https://syfert.com/federal/circuits/cases/367-f-appx-736/united-states-v-gilarime-mueller)\",\"match_kind\":\"semantic\",\"similarity\":0.6564},{\"cluster_id\":513828,\"case_name\":\"United States v. Mullen\",\"citations\":[\"860 F.2d 1085\",\"1988 U.S. App. LEXIS 17319\",\"1988 WL 110431\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1988-08-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/860-f-2d-1085/united-states-v-mullen\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Mullen, 860 F.2d 1085 (8th Cir. 1988)\",\"link_md\":\"[United States v. Mullen, 860 F.2d 1085 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/860-f-2d-1085/united-states-v-mullen)\",\"match_kind\":\"semantic\",\"similarity\":0.6473},{\"cluster_id\":8505929,\"case_name\":\"United States v. Mueller\",\"citations\":[\"368 F. App'x 709\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"2010-03-29\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/368-f-appx-709/united-states-v-mueller\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (8505929 and its twin 8505930). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_reporter\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 368 F. App'x 709).\",\"bluebook\":\"United States v. Mueller, 368 F. App'x 709 (8th Cir. 2010)\",\"link_md\":\"[United States v. Mueller, 368 F. App'x 709 (8th Cir. 2010)](https://syfert.com/federal/circuits/cases/368-f-appx-709/united-states-v-mueller)\",\"match_kind\":\"semantic\",\"similarity\":0.6421,\"twin_clusters\":[8505930]},{\"cluster_id\":484571,\"case_name\":\"Mueller v. C.I.R\",\"citations\":[\"813 F.2d 408\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1987-03-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/813-f-2d-408/mueller-v-cir\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. C.I.R, 813 F.2d 408 (9th Cir. 1987)\",\"link_md\":\"[Mueller v. C.I.R, 813 F.2d 408 (9th Cir. 1987)](https://syfert.com/federal/circuits/cases/813-f-2d-408/mueller-v-cir)\",\"match_kind\":\"semantic\",\"similarity\":0.6329},{\"cluster_id\":202240,\"case_name\":\"McCloskey v. Mueller\",\"citations\":[\"446 F.3d 262\"],\"court\":\"First Circuit\",\"date_filed\":\"2006-05-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/446-f-3d-262/mccloskey-v-mueller\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McCloskey v. Mueller, 446 F.3d 262 (1st Cir. 2006)\",\"link_md\":\"[McCloskey v. Mueller, 446 F.3d 262 (1st Cir. 2006)](https://syfert.com/federal/circuits/cases/446-f-3d-262/mccloskey-v-mueller)\",\"match_kind\":\"semantic\",\"similarity\":0.6323},{\"cluster_id\":742777,\"case_name\":\"United States v. Keith J. Gatlin\",\"citations\":[\"116 F.3d 1484\",\"1997 U.S. App. LEXIS 21811\",\"1997 WL 345970\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1997-06-25\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/116-f-3d-1484/united-states-v-keith-j-gatlin\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Keith J. Gatlin, 116 F.3d 1484 (8th Cir. 1997)\",\"link_md\":\"[United States v. Keith J. Gatlin, 116 F.3d 1484 (8th Cir. 1997)](https://syfert.com/federal/circuits/cases/116-f-3d-1484/united-states-v-keith-j-gatlin)\",\"match_kind\":\"semantic\",\"similarity\":0.631},{\"cluster_id\":371506,\"case_name\":\"Mueller v. United States\",\"citations\":[\"609 F.2d 502\"],\"court\":\"Third Circuit\",\"date_filed\":\"1979-10-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/609-f-2d-502/mueller-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. United States, 609 F.2d 502 (3d Cir. 1979)\",\"link_md\":\"[Mueller v. United States, 609 F.2d 502 (3d Cir. 1979)](https://syfert.com/federal/circuits/cases/609-f-2d-502/mueller-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6297},{\"cluster_id\":486146,\"case_name\":\"McCulley v. United States\",\"citations\":[\"815 F.2d 710\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1987-01-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/815-f-2d-710/mcculley-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McCulley v. United States, 815 F.2d 710 (8th Cir. 1987)\",\"link_md\":\"[McCulley v. United States, 815 F.2d 710 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/815-f-2d-710/mcculley-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6269},{\"cluster_id\":527717,\"case_name\":\"Maurer (Allen R.) v. United States\",\"citations\":[\"882 F.2d 511\",\"1989 WL 88193\"],\"court\":\"Third Circuit\",\"date_filed\":\"1989-07-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/882-f-2d-511/maurer-allen-r-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Maurer (Allen R.) v. United States, 882 F.2d 511 (3d Cir. 1989)\",\"link_md\":\"[Maurer (Allen R.) v. United States, 882 F.2d 511 (3d Cir. 1989)](https://syfert.com/federal/circuits/cases/882-f-2d-511/maurer-allen-r-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6242},{\"cluster_id\":425735,\"case_name\":\"Holgerson v. Mueller\",\"citations\":[\"718 F.2d 1106\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1983-07-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/718-f-2d-1106/holgerson-v-mueller\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Holgerson v. Mueller, 718 F.2d 1106 (8th Cir. 1983)\",\"link_md\":\"[Holgerson v. Mueller, 718 F.2d 1106 (8th Cir. 1983)](https://syfert.com/federal/circuits/cases/718-f-2d-1106/holgerson-v-mueller)\",\"match_kind\":\"semantic\",\"similarity\":0.6237},{\"cluster_id\":470960,\"case_name\":\"Mueller v. U.S. Dist. Court for Western Dist. Of Pennsylvania\",\"citations\":[\"791 F.2d 979\",\"253 U.S. App. D.C. 77\"],\"court\":\"D.C. Circuit\",\"date_filed\":\"1986-05-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/791-f-2d-979/mueller-v-us-dist-court-for-western-dist-of-pennsy\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. U.S. Dist. Court for W. Dist. Of Pennsylvania, 791 F.2d 979 (D.C. Cir. 1986)\",\"link_md\":\"[Mueller v. U.S. Dist. Court for W. Dist. Of Pennsylvania, 791 F.2d 979 (D.C. Cir. 1986)](https://syfert.com/federal/circuits/cases/791-f-2d-979/mueller-v-us-dist-court-for-western-dist-of-pennsy)\",\"match_kind\":\"semantic\",\"similarity\":0.6232},{\"cluster_id\":2972423,\"case_name\":\"Mueller v. Gallina\",\"citations\":[\"137 F. App'x 847\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"2005-06-24\",\"status\":\"Unpublished\",\"cited_by\":15,\"url\":\"https://syfert.com/federal/circuits/cases/137-f-appx-847/mueller-v-gallina\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mueller v. Gallina, 137 F. App'x 847 (6th Cir. 2005)\",\"link_md\":\"[Mueller v. Gallina, 137 F. App'x 847 (6th Cir. 2005)](https://syfert.com/federal/circuits/cases/137-f-appx-847/mueller-v-gallina)\",\"match_kind\":\"semantic\",\"similarity\":0.6203},{\"cluster_id\":709905,\"case_name\":\"United States v. James A. Zimmerman\",\"citations\":[\"72 F.3d 134\",\"1995 U.S. App. LEXIS 39660\",\"1995 WL 739825\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1995-12-15\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/72-f-3d-134/united-states-v-james-a-zimmerman\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. James A. Zimmerman, 72 F.3d 134 (8th Cir. 1995)\",\"link_md\":\"[United States v. James A. Zimmerman, 72 F.3d 134 (8th Cir. 1995)](https://syfert.com/federal/circuits/cases/72-f-3d-134/united-states-v-james-a-zimmerman)\",\"match_kind\":\"semantic\",\"similarity\":0.6192},{\"cluster_id\":2681866,\"case_name\":\"United States v. Veronique Muckle\",\"citations\":[\"755 F.3d 1024\",\"2014 U.S. App. LEXIS 12595\",\"2014 WL 2978553\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"2014-05-27\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/federal/circuits/cases/755-f-3d-1024/united-states-v-veronique-muckle\",\"date_filed_note\":\"Decision date 2014-05-27 is from this decision's twin cluster 2675759; cluster 2681866 records 2014-07-03.\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (2681866 and its twin 2675759).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Veronique Muckle, 755 F.3d 1024 (8th Cir. 2014)\",\"link_md\":\"[United States v. Veronique Muckle, 755 F.3d 1024 (8th Cir. 2014)](https://syfert.com/federal/circuits/cases/755-f-3d-1024/united-states-v-veronique-muckle)\",\"match_kind\":\"semantic\",\"similarity\":0.6175,\"twin_clusters\":[2675759]},{\"cluster_id\":2323135,\"case_name\":\"Murray v. United States\",\"citations\":[\"28 A.3d 608\",\"2011 WL 4888909\"],\"court\":\"District of Columbia Court of Appeals\",\"date_filed\":\"2011-09-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/district-of-columbia/cases/28-a-3d-608/murray-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Murray v. United States, 28 A.3d 608 (D.C. 2011)\",\"link_md\":\"[Murray v. United States, 28 A.3d 608 (D.C. 2011)](https://syfert.com/district-of-columbia/cases/28-a-3d-608/murray-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6162},{\"cluster_id\":8665518,\"case_name\":\"United States v. Richardson\",\"citations\":[\"21 M.J. 663\"],\"court\":\"U.S. Army Court of Military Review\",\"date_filed\":\"1985-12-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/21-m-j-663/united-states-v-richardson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Richardson, 21 M.J. 663 (A.C.M.R. 1985)\",\"link_md\":\"[United States v. Richardson, 21 M.J. 663 (A.C.M.R. 1985)](https://syfert.com/federal/specialty/cases/21-m-j-663/united-states-v-richardson)\",\"match_kind\":\"semantic\",\"similarity\":0.6157},{\"cluster_id\":250098,\"case_name\":\"United States v. Charles Edward Murphy\",\"citations\":[\"274 F.2d 825\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1960-01-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/274-f-2d-825/united-states-v-charles-edward-murphy\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Charles Edward Murphy, 274 F.2d 825 (8th Cir. 1960)\",\"link_md\":\"[United States v. Charles Edward Murphy, 274 F.2d 825 (8th Cir. 1960)](https://syfert.com/federal/circuits/cases/274-f-2d-825/united-states-v-charles-edward-murphy)\",\"match_kind\":\"semantic\",\"similarity\":0.6131},{\"cluster_id\":500248,\"case_name\":\"Kuhlmeyer (Daniel A.) v. United States\",\"citations\":[\"837 F.2d 479\",\"1987 U.S. App. LEXIS 17264\",\"1987 WL 32264\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1987-12-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/837-f-2d-479/kuhlmeyer-daniel-a-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kuhlmeyer (Daniel A.) v. United States, 837 F.2d 479 (8th Cir. 1987)\",\"link_md\":\"[Kuhlmeyer (Daniel A.) v. United States, 837 F.2d 479 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/837-f-2d-479/kuhlmeyer-daniel-a-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6128}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Mueller w/15 \"208 N.W. 860\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8195598,
+    "case_name": "Mueller v. Mueller",
+    "citations": [
+     "316 U.S. 649",
+     "62 S. Ct. 1288"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1942-06-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/316-u-s-649/mueller-v-mueller",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. Mueller, 316 U.S. 649 (1942)",
+    "link_md": "[Mueller v. Mueller, 316 U.S. 649 (1942)](https://syfert.com/federal/scotus/cases/316-u-s-649/mueller-v-mueller)",
+    "match_kind": "semantic",
+    "similarity": 0.6749
+   },
+   {
+    "cluster_id": 451326,
+    "case_name": "Mueller v. Heckler",
+    "citations": [
+     "760 F.2d 273"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1985-03-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/760-f-2d-273/mueller-v-heckler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. Heckler, 760 F.2d 273 (8th Cir. 1985)",
+    "link_md": "[Mueller v. Heckler, 760 F.2d 273 (8th Cir. 1985)](https://syfert.com/federal/circuits/cases/760-f-2d-273/mueller-v-heckler)",
+    "match_kind": "semantic",
+    "similarity": 0.6735
+   },
+   {
+    "cluster_id": 734,
+    "case_name": "United States v. Gilarime Mueller",
+    "citations": [
+     "367 F. App'x 736"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "2010-03-29",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/367-f-appx-736/united-states-v-gilarime-mueller",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Gilarime Mueller, 367 F. App'x 736 (8th Cir. 2010)",
+    "link_md": "[United States v. Gilarime Mueller, 367 F. App'x 736 (8th Cir. 2010)](https://syfert.com/federal/circuits/cases/367-f-appx-736/united-states-v-gilarime-mueller)",
+    "match_kind": "semantic",
+    "similarity": 0.6564
+   },
+   {
+    "cluster_id": 513828,
+    "case_name": "United States v. Mullen",
+    "citations": [
+     "860 F.2d 1085",
+     "1988 U.S. App. LEXIS 17319",
+     "1988 WL 110431"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1988-08-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/860-f-2d-1085/united-states-v-mullen",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Mullen, 860 F.2d 1085 (8th Cir. 1988)",
+    "link_md": "[United States v. Mullen, 860 F.2d 1085 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/860-f-2d-1085/united-states-v-mullen)",
+    "match_kind": "semantic",
+    "similarity": 0.6473
+   },
+   {
+    "cluster_id": 8505929,
+    "case_name": "United States v. Mueller",
+    "citations": [
+     "368 F. App'x 709"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "2010-03-29",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/368-f-appx-709/united-states-v-mueller",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (8505929 and its twin 8505930). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_reporter",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 368 F. App'x 709).",
+    "bluebook": "United States v. Mueller, 368 F. App'x 709 (8th Cir. 2010)",
+    "link_md": "[United States v. Mueller, 368 F. App'x 709 (8th Cir. 2010)](https://syfert.com/federal/circuits/cases/368-f-appx-709/united-states-v-mueller)",
+    "match_kind": "semantic",
+    "similarity": 0.6421,
+    "twin_clusters": [
+     8505930
+    ]
+   },
+   {
+    "cluster_id": 484571,
+    "case_name": "Mueller v. C.I.R",
+    "citations": [
+     "813 F.2d 408"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1987-03-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/813-f-2d-408/mueller-v-cir",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. C.I.R, 813 F.2d 408 (9th Cir. 1987)",
+    "link_md": "[Mueller v. C.I.R, 813 F.2d 408 (9th Cir. 1987)](https://syfert.com/federal/circuits/cases/813-f-2d-408/mueller-v-cir)",
+    "match_kind": "semantic",
+    "similarity": 0.6329
+   },
+   {
+    "cluster_id": 202240,
+    "case_name": "McCloskey v. Mueller",
+    "citations": [
+     "446 F.3d 262"
+    ],
+    "court": "First Circuit",
+    "date_filed": "2006-05-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/446-f-3d-262/mccloskey-v-mueller",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCloskey v. Mueller, 446 F.3d 262 (1st Cir. 2006)",
+    "link_md": "[McCloskey v. Mueller, 446 F.3d 262 (1st Cir. 2006)](https://syfert.com/federal/circuits/cases/446-f-3d-262/mccloskey-v-mueller)",
+    "match_kind": "semantic",
+    "similarity": 0.6323
+   },
+   {
+    "cluster_id": 742777,
+    "case_name": "United States v. Keith J. Gatlin",
+    "citations": [
+     "116 F.3d 1484",
+     "1997 U.S. App. LEXIS 21811",
+     "1997 WL 345970"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1997-06-25",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/116-f-3d-1484/united-states-v-keith-j-gatlin",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Keith J. Gatlin, 116 F.3d 1484 (8th Cir. 1997)",
+    "link_md": "[United States v. Keith J. Gatlin, 116 F.3d 1484 (8th Cir. 1997)](https://syfert.com/federal/circuits/cases/116-f-3d-1484/united-states-v-keith-j-gatlin)",
+    "match_kind": "semantic",
+    "similarity": 0.631
+   },
+   {
+    "cluster_id": 371506,
+    "case_name": "Mueller v. United States",
+    "citations": [
+     "609 F.2d 502"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1979-10-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/609-f-2d-502/mueller-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. United States, 609 F.2d 502 (3d Cir. 1979)",
+    "link_md": "[Mueller v. United States, 609 F.2d 502 (3d Cir. 1979)](https://syfert.com/federal/circuits/cases/609-f-2d-502/mueller-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6297
+   },
+   {
+    "cluster_id": 486146,
+    "case_name": "McCulley v. United States",
+    "citations": [
+     "815 F.2d 710"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1987-01-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/815-f-2d-710/mcculley-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCulley v. United States, 815 F.2d 710 (8th Cir. 1987)",
+    "link_md": "[McCulley v. United States, 815 F.2d 710 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/815-f-2d-710/mcculley-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6269
+   },
+   {
+    "cluster_id": 527717,
+    "case_name": "Maurer (Allen R.) v. United States",
+    "citations": [
+     "882 F.2d 511",
+     "1989 WL 88193"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1989-07-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/882-f-2d-511/maurer-allen-r-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Maurer (Allen R.) v. United States, 882 F.2d 511 (3d Cir. 1989)",
+    "link_md": "[Maurer (Allen R.) v. United States, 882 F.2d 511 (3d Cir. 1989)](https://syfert.com/federal/circuits/cases/882-f-2d-511/maurer-allen-r-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6242
+   },
+   {
+    "cluster_id": 425735,
+    "case_name": "Holgerson v. Mueller",
+    "citations": [
+     "718 F.2d 1106"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1983-07-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/718-f-2d-1106/holgerson-v-mueller",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Holgerson v. Mueller, 718 F.2d 1106 (8th Cir. 1983)",
+    "link_md": "[Holgerson v. Mueller, 718 F.2d 1106 (8th Cir. 1983)](https://syfert.com/federal/circuits/cases/718-f-2d-1106/holgerson-v-mueller)",
+    "match_kind": "semantic",
+    "similarity": 0.6237
+   },
+   {
+    "cluster_id": 470960,
+    "case_name": "Mueller v. U.S. Dist. Court for Western Dist. Of Pennsylvania",
+    "citations": [
+     "791 F.2d 979",
+     "253 U.S. App. D.C. 77"
+    ],
+    "court": "D.C. Circuit",
+    "date_filed": "1986-05-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/791-f-2d-979/mueller-v-us-dist-court-for-western-dist-of-pennsy",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. U.S. Dist. Court for W. Dist. Of Pennsylvania, 791 F.2d 979 (D.C. Cir. 1986)",
+    "link_md": "[Mueller v. U.S. Dist. Court for W. Dist. Of Pennsylvania, 791 F.2d 979 (D.C. Cir. 1986)](https://syfert.com/federal/circuits/cases/791-f-2d-979/mueller-v-us-dist-court-for-western-dist-of-pennsy)",
+    "match_kind": "semantic",
+    "similarity": 0.6232
+   },
+   {
+    "cluster_id": 2972423,
+    "case_name": "Mueller v. Gallina",
+    "citations": [
+     "137 F. App'x 847"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "2005-06-24",
+    "status": "Unpublished",
+    "cited_by": 15,
+    "url": "https://syfert.com/federal/circuits/cases/137-f-appx-847/mueller-v-gallina",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Mueller v. Gallina, 137 F. App'x 847 (6th Cir. 2005)",
+    "link_md": "[Mueller v. Gallina, 137 F. App'x 847 (6th Cir. 2005)](https://syfert.com/federal/circuits/cases/137-f-appx-847/mueller-v-gallina)",
+    "match_kind": "semantic",
+    "similarity": 0.6203
+   },
+   {
+    "cluster_id": 709905,
+    "case_name": "United States v. James A. Zimmerman",
+    "citations": [
+     "72 F.3d 134",
+     "1995 U.S. App. LEXIS 39660",
+     "1995 WL 739825"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1995-12-15",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/72-f-3d-134/united-states-v-james-a-zimmerman",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. James A. Zimmerman, 72 F.3d 134 (8th Cir. 1995)",
+    "link_md": "[United States v. James A. Zimmerman, 72 F.3d 134 (8th Cir. 1995)](https://syfert.com/federal/circuits/cases/72-f-3d-134/united-states-v-james-a-zimmerman)",
+    "match_kind": "semantic",
+    "similarity": 0.6192
+   },
+   {
+    "cluster_id": 2681866,
+    "case_name": "United States v. Veronique Muckle",
+    "citations": [
+     "755 F.3d 1024",
+     "2014 U.S. App. LEXIS 12595",
+     "2014 WL 2978553"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "2014-05-27",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/federal/circuits/cases/755-f-3d-1024/united-states-v-veronique-muckle",
+    "date_filed_note": "Decision date 2014-05-27 is from this decision's twin cluster 2675759; cluster 2681866 records 2014-07-03.",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (2681866 and its twin 2675759).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Veronique Muckle, 755 F.3d 1024 (8th Cir. 2014)",
+    "link_md": "[United States v. Veronique Muckle, 755 F.3d 1024 (8th Cir. 2014)](https://syfert.com/federal/circuits/cases/755-f-3d-1024/united-states-v-veronique-muckle)",
+    "match_kind": "semantic",
+    "similarity": 0.6175,
+    "twin_clusters": [
+     2675759
+    ]
+   },
+   {
+    "cluster_id": 2323135,
+    "case_name": "Murray v. United States",
+    "citations": [
+     "28 A.3d 608",
+     "2011 WL 4888909"
+    ],
+    "court": "District of Columbia Court of Appeals",
+    "date_filed": "2011-09-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/district-of-columbia/cases/28-a-3d-608/murray-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Murray v. United States, 28 A.3d 608 (D.C. 2011)",
+    "link_md": "[Murray v. United States, 28 A.3d 608 (D.C. 2011)](https://syfert.com/district-of-columbia/cases/28-a-3d-608/murray-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6162
+   },
+   {
+    "cluster_id": 8665518,
+    "case_name": "United States v. Richardson",
+    "citations": [
+     "21 M.J. 663"
+    ],
+    "court": "U.S. Army Court of Military Review",
+    "date_filed": "1985-12-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/21-m-j-663/united-states-v-richardson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Richardson, 21 M.J. 663 (A.C.M.R. 1985)",
+    "link_md": "[United States v. Richardson, 21 M.J. 663 (A.C.M.R. 1985)](https://syfert.com/federal/specialty/cases/21-m-j-663/united-states-v-richardson)",
+    "match_kind": "semantic",
+    "similarity": 0.6157
+   },
+   {
+    "cluster_id": 250098,
+    "case_name": "United States v. Charles Edward Murphy",
+    "citations": [
+     "274 F.2d 825"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1960-01-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/274-f-2d-825/united-states-v-charles-edward-murphy",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Charles Edward Murphy, 274 F.2d 825 (8th Cir. 1960)",
+    "link_md": "[United States v. Charles Edward Murphy, 274 F.2d 825 (8th Cir. 1960)](https://syfert.com/federal/circuits/cases/274-f-2d-825/united-states-v-charles-edward-murphy)",
+    "match_kind": "semantic",
+    "similarity": 0.6131
+   },
+   {
+    "cluster_id": 500248,
+    "case_name": "Kuhlmeyer (Daniel A.) v. United States",
+    "citations": [
+     "837 F.2d 479",
+     "1987 U.S. App. LEXIS 17264",
+     "1987 WL 32264"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1987-12-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/837-f-2d-479/kuhlmeyer-daniel-a-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kuhlmeyer (Daniel A.) v. United States, 837 F.2d 479 (8th Cir. 1987)",
+    "link_md": "[Kuhlmeyer (Daniel A.) v. United States, 837 F.2d 479 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/837-f-2d-479/kuhlmeyer-daniel-a-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6128
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

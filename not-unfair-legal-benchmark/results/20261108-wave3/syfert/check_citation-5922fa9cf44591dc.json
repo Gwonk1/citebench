@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "102 A.2d 248",
+  "expected_case_name": "Board of Medical Examiners v. Steward"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"102 A.2d 248\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1472326,\n            \"case_name\": \"Board of Medical Examiners v. Steward\",\n            \"citations\": [\n                \"102 A.2d 248\"\n            ],\n            \"court\": \"Court of Appeals of Maryland\",\n            \"date_filed\": \"1954-10-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 77,\n            \"url\": \"https://syfert.com/maryland/cases/203-md-574/board-of-medical-examiners-v-steward\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Bd. of Med. Examiners v. Steward, 102 A.2d 248 (Md. 1954)\",\n            \"link_md\": \"[Bd. of Med. Examiners v. Steward, 102 A.2d 248 (Md. 1954)](https://syfert.com/maryland/cases/203-md-574/board-of-medical-examiners-v-steward)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 31,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"dismissed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Board of Medical Examiners v. Steward\",\n        \"actual\": \"Board of Medical Examiners v. Steward\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "102 A.2d 248",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1472326,
+    "case_name": "Board of Medical Examiners v. Steward",
+    "citations": [
+     "102 A.2d 248"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "1954-10-01",
+    "status": "Published",
+    "cited_by": 77,
+    "url": "https://syfert.com/maryland/cases/203-md-574/board-of-medical-examiners-v-steward",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bd. of Med. Examiners v. Steward, 102 A.2d 248 (Md. 1954)",
+    "link_md": "[Bd. of Med. Examiners v. Steward, 102 A.2d 248 (Md. 1954)](https://syfert.com/maryland/cases/203-md-574/board-of-medical-examiners-v-steward)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 31,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "dismissed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Board of Medical Examiners v. Steward",
+   "actual": "Board of Medical Examiners v. Steward",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

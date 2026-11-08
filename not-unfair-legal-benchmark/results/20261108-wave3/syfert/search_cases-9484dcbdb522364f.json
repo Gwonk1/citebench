@@ -1,0 +1,88 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Stewart w/15 \"22 N.E. 163\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Stewart w/15 \\\"22 N.E. 163\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2052641,\"bluebook\":\"Reinneck v. Taco Bell Corp., 696 N.E.2d 839 (Ill. App. Ct. 5th Dist. 1998)\",\"url\":\"https://syfert.com/illinois/cases/297-ill-app-3d-211/reinneck-v-taco-bell-corp\",\"date_filed\":\"1998-06-22\",\"cited_by\":24,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (2052641 and its twin 3137828).\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Enis, 163 Ill. 2d 367 , 645 N.E.2d 856 (1994); People v. Stewart, 105 Ill. 2d 22 , 473 N.E.2d 840 (1984). Such evidence is allowed in criminal cases despite the fear that such evidence will overpersuade a jury to convict a person only…\"},{\"cluster_id\":1511852,\"bluebook\":\"McClennen v. Comm'r, 131 F.2d 165 (1st Cir. 1942)\",\"url\":\"https://syfert.com/federal/circuits/cases/131-f-2d-165/mcclennen-v-commissioner-of-internal-revenue\",\"date_filed\":\"1942-11-04\",\"cited_by\":25,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...s hands liable as a partner for new debts created by B and C in continuing the business. Stewart v. Robinson, 1889, 115 N.Y. 328 , 22 N.E. 160 , 163, 5 L.R.A. 410 . For the remainder of the term, A’s share already embarked in the…\"},{\"cluster_id\":5695218,\"bluebook\":\"Campbell v. Campbell, 16 N.Y.S. 165 (1891)\",\"url\":\"https://syfert.com/new-york/cases/16-n-y-s-165/campbell-v-campbell\",\"date_filed\":\"1891-11-04\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Evans, 9 Paige, 178 ; Stewart v. Robinson, 115 N. Y. 328, 343 , 22 N. E. Rep. 160,163; Beste v. Burger, 17 Abb. N. C. 166,167 . Such an accounting was found to have been had between the parties to this action, and this finding is amply…\"},{\"cluster_id\":7987587,\"bluebook\":\"Porter v. Long, 83 N.W. 601 (Mich. 1900)\",\"url\":\"https://syfert.com/michigan/cases/124-mich-584/porter-v-long\",\"date_filed\":\"1900-09-13\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...493]; Stewart v. Robinson, 115 N. Y. 328 [ 22 N. E. 160 , 163, 5 L. R. A. 410]), and therefore it was the duty of the defendant, as-surviving partner, to wind up the business of the firm (citing Frey v. Eisenhardt, 116 Mich. 160 [ 74 N.…\"},{\"cluster_id\":5654270,\"bluebook\":\"Walker v. Steers, 14 N.Y.S. 398 (N.Y. Sup. Ct. 1891)\",\"url\":\"https://syfert.com/new-york/cases/14-n-y-s-398/walker-v-steers\",\"date_filed\":\"1891-04-15\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...52 , and Stewart v. Robinson, 115 N. Y. 328 , 22 N. E. Rep. 160, 163, are cited on the subject. It is not claimed that either of these cases decides the question. At most they \\\"suggest some doubts. In the Boss-Case the action was…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Stewart w/15 \"22 N.E. 163\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2052641,
+    "bluebook": "Reinneck v. Taco Bell Corp., 696 N.E.2d 839 (Ill. App. Ct. 5th Dist. 1998)",
+    "url": "https://syfert.com/illinois/cases/297-ill-app-3d-211/reinneck-v-taco-bell-corp",
+    "date_filed": "1998-06-22",
+    "cited_by": 24,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (2052641 and its twin 3137828).",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Enis, 163 Ill. 2d 367 , 645 N.E.2d 856 (1994); People v. Stewart, 105 Ill. 2d 22 , 473 N.E.2d 840 (1984). Such evidence is allowed in criminal cases despite the fear that such evidence will overpersuade a jury to convict a person only…"
+   },
+   {
+    "cluster_id": 1511852,
+    "bluebook": "McClennen v. Comm'r, 131 F.2d 165 (1st Cir. 1942)",
+    "url": "https://syfert.com/federal/circuits/cases/131-f-2d-165/mcclennen-v-commissioner-of-internal-revenue",
+    "date_filed": "1942-11-04",
+    "cited_by": 25,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...s hands liable as a partner for new debts created by B and C in continuing the business. Stewart v. Robinson, 1889, 115 N.Y. 328 , 22 N.E. 160 , 163, 5 L.R.A. 410 . For the remainder of the term, A’s share already embarked in the…"
+   },
+   {
+    "cluster_id": 5695218,
+    "bluebook": "Campbell v. Campbell, 16 N.Y.S. 165 (1891)",
+    "url": "https://syfert.com/new-york/cases/16-n-y-s-165/campbell-v-campbell",
+    "date_filed": "1891-11-04",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Evans, 9 Paige, 178 ; Stewart v. Robinson, 115 N. Y. 328, 343 , 22 N. E. Rep. 160,163; Beste v. Burger, 17 Abb. N. C. 166,167 . Such an accounting was found to have been had between the parties to this action, and this finding is amply…"
+   },
+   {
+    "cluster_id": 7987587,
+    "bluebook": "Porter v. Long, 83 N.W. 601 (Mich. 1900)",
+    "url": "https://syfert.com/michigan/cases/124-mich-584/porter-v-long",
+    "date_filed": "1900-09-13",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...493]; Stewart v. Robinson, 115 N. Y. 328 [ 22 N. E. 160 , 163, 5 L. R. A. 410]), and therefore it was the duty of the defendant, as-surviving partner, to wind up the business of the firm (citing Frey v. Eisenhardt, 116 Mich. 160 [ 74 N.…"
+   },
+   {
+    "cluster_id": 5654270,
+    "bluebook": "Walker v. Steers, 14 N.Y.S. 398 (N.Y. Sup. Ct. 1891)",
+    "url": "https://syfert.com/new-york/cases/14-n-y-s-398/walker-v-steers",
+    "date_filed": "1891-04-15",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...52 , and Stewart v. Robinson, 115 N. Y. 328 , 22 N. E. Rep. 160, 163, are cited on the subject. It is not claimed that either of these cases decides the question. At most they \"suggest some doubts. In the Boss-Case the action was…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

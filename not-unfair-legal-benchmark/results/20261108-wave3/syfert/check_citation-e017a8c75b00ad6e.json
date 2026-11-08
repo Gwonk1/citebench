@@ -1,0 +1,95 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "219 U.S. 339",
+  "expected_case_name": "Lawrence E. Sexton v. Leopold Louis Dreyfus"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"219 U.S. 339\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 97355,\n            \"case_name\": \"Lawrence E. Sexton v. Leopold Louis Dreyfus\",\n            \"citations\": [\n                \"219 U.S. 339\"\n            ],\n            \"court\": \"Supreme Court\",\n            \"date_filed\": \"1911-07-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 1,\n            \"url\": \"https://syfert.com/federal/scotus/cases/219-u-s-339/lawrence-e-sexton-v-leopold-louis-dreyfus\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Lawrence E. Sexton v. Leopold Louis Dreyfus, 219 U.S. 339 (1911)\",\n            \"link_md\": \"[Lawrence E. Sexton v. Leopold Louis Dreyfus, 219 U.S. 339 (1911)](https://syfert.com/federal/scotus/cases/219-u-s-339/lawrence-e-sexton-v-leopold-louis-dreyfus)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 38,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        },\n        {\n            \"cluster_id\": 1087974,\n            \"case_name\": \"Sexton v. Dreyfus\",\n            \"citations\": [\n                \"219 U.S. 339\"\n            ],\n            \"court\": \"Supreme Court\",\n            \"date_filed\": \"1911-01-23\",\n            \"status\": \"Published\",\n            \"cited_by\": 224,\n            \"url\": \"https://syfert.com/federal/scotus/cases/219-u-s-339/sexton-v-dreyfus\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"55 L. Ed. 244\",\n                    \"recovered_from_citing_opinions\": 5,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 0.97,\n                    \"note\": \"Recovered parallel cite: 109 citing opinions confirm this cite (confidence 0.97)\"\n                },\n                {\n                    \"citation\": \"31 S. Ct. 256\",\n                    \"recovered_from_citing_opinions\": 5,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 0.97,\n                    \"note\": \"Recovered parallel cite: 107 citing opinions confirm this cite (confidence 0.97)\"\n                }\n            ],\n            \"bluebook\": \"Sexton v. Dreyfus, 219 U.S. 339 (1911)\",\n            \"link_md\": \"[Sexton v. Dreyfus, 219 U.S. 339 (1911)](https://syfert.com/federal/scotus/cases/219-u-s-339/sexton-v-dreyfus)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 27,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Lawrence E. Sexton v. Leopold Louis Dreyfus\",\n        \"actual\": \"Lawrence E. Sexton v. Leopold Louis Dreyfus\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "219 U.S. 339",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 97355,
+    "case_name": "Lawrence E. Sexton v. Leopold Louis Dreyfus",
+    "citations": [
+     "219 U.S. 339"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1911-07-01",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/scotus/cases/219-u-s-339/lawrence-e-sexton-v-leopold-louis-dreyfus",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lawrence E. Sexton v. Leopold Louis Dreyfus, 219 U.S. 339 (1911)",
+    "link_md": "[Lawrence E. Sexton v. Leopold Louis Dreyfus, 219 U.S. 339 (1911)](https://syfert.com/federal/scotus/cases/219-u-s-339/lawrence-e-sexton-v-leopold-louis-dreyfus)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 38,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1087974,
+    "case_name": "Sexton v. Dreyfus",
+    "citations": [
+     "219 U.S. 339"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1911-01-23",
+    "status": "Published",
+    "cited_by": 224,
+    "url": "https://syfert.com/federal/scotus/cases/219-u-s-339/sexton-v-dreyfus",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "55 L. Ed. 244",
+      "recovered_from_citing_opinions": 5,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.97,
+      "note": "Recovered parallel cite: 109 citing opinions confirm this cite (confidence 0.97)"
+     },
+     {
+      "citation": "31 S. Ct. 256",
+      "recovered_from_citing_opinions": 5,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.97,
+      "note": "Recovered parallel cite: 107 citing opinions confirm this cite (confidence 0.97)"
+     }
+    ],
+    "bluebook": "Sexton v. Dreyfus, 219 U.S. 339 (1911)",
+    "link_md": "[Sexton v. Dreyfus, 219 U.S. 339 (1911)](https://syfert.com/federal/scotus/cases/219-u-s-339/sexton-v-dreyfus)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 27,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Lawrence E. Sexton v. Leopold Louis Dreyfus",
+   "actual": "Lawrence E. Sexton v. Leopold Louis Dreyfus",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

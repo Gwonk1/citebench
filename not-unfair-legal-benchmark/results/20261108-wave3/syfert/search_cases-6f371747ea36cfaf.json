@@ -1,0 +1,413 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Kirschner w/15 \"75 N.W. 251\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Kirschner w/15 \\\"75 N.W. 251\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5407705,\"case_name\":\"In re Kirschner\",\"citations\":[\"176 A.D. 913\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1917-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/176-a-d-913/in-re-kirschner\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Kirschner, 176 A.D. 913 (N.Y. App. Div. 1917)\",\"link_md\":\"[In re Kirschner, 176 A.D. 913 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/176-a-d-913/in-re-kirschner)\",\"match_kind\":\"semantic\",\"similarity\":0.7267},{\"cluster_id\":3643093,\"case_name\":\"Kirschbaum v. . Eschmann\",\"citations\":[\"107 N.E. 1085\",\"213 N.Y. 641\",\"1914 N.Y. LEXIS 779\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1914-11-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/213-n-y-641/kirschbaum-v-eschmann\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirschbaum v. Eschmann, 107 N.E. 1085 (N.Y. 1914)\",\"link_md\":\"[Kirschbaum v. Eschmann, 107 N.E. 1085 (N.Y. 1914)](https://syfert.com/new-york/cases/213-n-y-641/kirschbaum-v-eschmann)\",\"match_kind\":\"semantic\",\"similarity\":0.7094},{\"cluster_id\":348082,\"case_name\":\"Kirsh v. United States\",\"citations\":[\"559 F.2d 1219\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1977-07-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/559-f-2d-1219/kirsh-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirsh v. United States, 559 F.2d 1219 (6th Cir. 1977)\",\"link_md\":\"[Kirsh v. United States, 559 F.2d 1219 (6th Cir. 1977)](https://syfert.com/federal/circuits/cases/559-f-2d-1219/kirsh-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.697},{\"cluster_id\":5682673,\"case_name\":\"Kirschner v. Berger\",\"citations\":[\"367 N.E.2d 870\",\"42 N.Y.2d 970\",\"398 N.Y.S.2d 272\",\"1977 N.Y. LEXIS 2303\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1977-07-14\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/42-n-y-2d-970/kirschner-v-berger\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirschner v. Berger, 367 N.E.2d 870 (N.Y. 1977)\",\"link_md\":\"[Kirschner v. Berger, 367 N.E.2d 870 (N.Y. 1977)](https://syfert.com/new-york/cases/42-n-y-2d-970/kirschner-v-berger)\",\"match_kind\":\"semantic\",\"similarity\":0.6895},{\"cluster_id\":412869,\"case_name\":\"Kirsch v. I. R. S\",\"citations\":[\"697 F.2d 292\"],\"court\":\"Second Circuit\",\"date_filed\":\"1982-08-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/697-f-2d-292/kirsch-v-i-r-s\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirsch v. I. R. S, 697 F.2d 292 (2d Cir. 1982)\",\"link_md\":\"[Kirsch v. I. R. S, 697 F.2d 292 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/697-f-2d-292/kirsch-v-i-r-s)\",\"match_kind\":\"semantic\",\"similarity\":0.6895},{\"cluster_id\":3632873,\"case_name\":\"Pritchard v. . Kirsch\",\"citations\":[\"63 N.E. 1121\",\"171 N.Y. 637\",\"1902 N.Y. LEXIS 909\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1902-04-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/171-n-y-637/pritchard-v-kirsch\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pritchard v. Kirsch, 63 N.E. 1121 (N.Y. 1902)\",\"link_md\":\"[Pritchard v. Kirsch, 63 N.E. 1121 (N.Y. 1902)](https://syfert.com/new-york/cases/171-n-y-637/pritchard-v-kirsch)\",\"match_kind\":\"semantic\",\"similarity\":0.6875},{\"cluster_id\":505225,\"case_name\":\"Kirsch (Kevin E.) v. Dickey (Walter)\",\"citations\":[\"845 F.2d 1023\",\"1988 U.S. App. LEXIS 6135\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1988-04-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/845-f-2d-1023/kirsch-kevin-e-v-dickey-walter\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirsch (Kevin E.) v. Dickey (Walter), 845 F.2d 1023 (7th Cir. 1988)\",\"link_md\":\"[Kirsch (Kevin E.) v. Dickey (Walter), 845 F.2d 1023 (7th Cir. 1988)](https://syfert.com/federal/circuits/cases/845-f-2d-1023/kirsch-kevin-e-v-dickey-walter)\",\"match_kind\":\"semantic\",\"similarity\":0.6866},{\"cluster_id\":5462200,\"case_name\":\"Kirsch v. Lubin\",\"citations\":[\"223 A.D. 826\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1928-04-15\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/223-a-d-826/kirsch-v-lubin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirsch v. Lubin, 223 A.D. 826 (N.Y. App. Div. 1928)\",\"link_md\":\"[Kirsch v. Lubin, 223 A.D. 826 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/223-a-d-826/kirsch-v-lubin)\",\"match_kind\":\"semantic\",\"similarity\":0.68},{\"cluster_id\":5469060,\"case_name\":\"Kirsch v. Gertman\",\"citations\":[\"227 A.D. 641\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1929-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/227-a-d-641/kirsch-v-gertman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirsch v. Gertman, 227 A.D. 641 (N.Y. App. Div. 3d Dep't 1929)\",\"link_md\":\"[Kirsch v. Gertman, 227 A.D. 641 (N.Y. App. Div. 3d Dep't 1929)](https://syfert.com/new-york/cases/227-a-d-641/kirsch-v-gertman)\",\"match_kind\":\"semantic\",\"similarity\":0.6777},{\"cluster_id\":467167,\"case_name\":\"Kirsch v. C.I.R\",\"citations\":[\"786 F.2d 1170\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1986-02-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/786-f-2d-1170/kirsch-v-cir\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirsch v. C.I.R, 786 F.2d 1170 (8th Cir. 1986)\",\"link_md\":\"[Kirsch v. C.I.R, 786 F.2d 1170 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/786-f-2d-1170/kirsch-v-cir)\",\"match_kind\":\"semantic\",\"similarity\":0.6761},{\"cluster_id\":3614383,\"case_name\":\"Kirsch v. Richards\",\"citations\":[\"50 N.E.2d 1008\",\"291 N.Y. 585\",\"1943 N.Y. LEXIS 1710\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1943-07-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/291-n-y-585/kirsch-v-richards\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (3614383 and its twin 5635469). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirsch v. Richards, 50 N.E.2d 1008 (N.Y. 1943)\",\"link_md\":\"[Kirsch v. Richards, 50 N.E.2d 1008 (N.Y. 1943)](https://syfert.com/new-york/cases/291-n-y-585/kirsch-v-richards)\",\"match_kind\":\"semantic\",\"similarity\":0.6759,\"twin_clusters\":[5635469]},{\"cluster_id\":3603715,\"case_name\":\"Kirsch v. Lubin\",\"citations\":[\"162 N.E. 559\",\"248 N.Y. 645\",\"1928 N.Y. LEXIS 1476\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1928-07-19\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/new-york/cases/248-n-y-645/kirsch-v-lubin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirsch v. Lubin, 162 N.E. 559 (N.Y. 1928)\",\"link_md\":\"[Kirsch v. Lubin, 162 N.E. 559 (N.Y. 1928)](https://syfert.com/new-york/cases/248-n-y-645/kirsch-v-lubin)\",\"match_kind\":\"semantic\",\"similarity\":0.6748},{\"cluster_id\":5382572,\"case_name\":\"Kirschbaum v. Eschmann\",\"citations\":[\"142 A.D. 906\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1910-12-15\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/142-a-d-906/kirschbaum-v-eschmann\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirschbaum v. Eschmann, 142 A.D. 906 (N.Y. App. Div. 1910)\",\"link_md\":\"[Kirschbaum v. Eschmann, 142 A.D. 906 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/142-a-d-906/kirschbaum-v-eschmann)\",\"match_kind\":\"semantic\",\"similarity\":0.6709},{\"cluster_id\":3648326,\"case_name\":\"Kirschenbaum v. Oschuetz\",\"citations\":[\"185 N.E. 720\",\"261 N.Y. 519\",\"1933 N.Y. LEXIS 1331\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1933-01-10\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/261-n-y-519/kirschenbaum-v-oschuetz\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirschenbaum v. Oschuetz, 185 N.E. 720 (N.Y. 1933)\",\"link_md\":\"[Kirschenbaum v. Oschuetz, 185 N.E. 720 (N.Y. 1933)](https://syfert.com/new-york/cases/261-n-y-519/kirschenbaum-v-oschuetz)\",\"match_kind\":\"semantic\",\"similarity\":0.6677},{\"cluster_id\":4095711,\"case_name\":\"Jordan v. Kirschner\",\"citations\":[\"94 Pa. Super. 252\",\"1928 Pa. Super. LEXIS 171\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"1928-04-10\",\"status\":\"Published\",\"cited_by\":13,\"url\":\"https://syfert.com/pennsylvania/cases/94-pa-super-252/jordan-v-kirschner\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jordan v. Kirschner, 94 Pa. Super. 252 (Pa. Super. Ct. 1928)\",\"link_md\":\"[Jordan v. Kirschner, 94 Pa. Super. 252 (Pa. Super. Ct. 1928)](https://syfert.com/pennsylvania/cases/94-pa-super-252/jordan-v-kirschner)\",\"match_kind\":\"semantic\",\"similarity\":0.6672},{\"cluster_id\":5529408,\"case_name\":\"Hirschberg v. Kern\",\"citations\":[\"263 A.D. 715\",\"32 N.Y.S.2d 112\",\"1941 N.Y. App. Div. LEXIS 4668\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1941-11-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/263-a-d-715/hirschberg-v-kern\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hirschberg v. Kern, 263 A.D. 715 (N.Y. App. Div. 1st Dep't 1941)\",\"link_md\":\"[Hirschberg v. Kern, 263 A.D. 715 (N.Y. App. Div. 1st Dep't 1941)](https://syfert.com/new-york/cases/263-a-d-715/hirschberg-v-kern)\",\"match_kind\":\"semantic\",\"similarity\":0.6626},{\"cluster_id\":5529341,\"case_name\":\"Hirschberg v. Kern\",\"citations\":[\"263 A.D. 705\",\"31 N.Y.S.2d 661\",\"1941 N.Y. App. Div. LEXIS 4592\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1941-11-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/263-a-d-705/hirschberg-v-kern\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hirschberg v. Kern, 263 A.D. 705 (N.Y. App. Div. 1st Dep't 1941)\",\"link_md\":\"[Hirschberg v. Kern, 263 A.D. 705 (N.Y. App. Div. 1st Dep't 1941)](https://syfert.com/new-york/cases/263-a-d-705/hirschberg-v-kern)\",\"match_kind\":\"semantic\",\"similarity\":0.6617},{\"cluster_id\":136465,\"case_name\":\"Hirsch v. United States\",\"citations\":[\"541 U.S. 1056\",\"124 S. Ct. 2195\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-05-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/541-u-s-1056/hirsch-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (136465 and its twins 9224776, 9224777). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hirsch v. United States, 541 U.S. 1056 (2004)\",\"link_md\":\"[Hirsch v. United States, 541 U.S. 1056 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-1056/hirsch-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6597},{\"cluster_id\":5530641,\"case_name\":\"Kirschner v. Center Hotel, Inc.\",\"citations\":[\"263 A.D. 982\",\"34 N.Y.S.2d 394\",\"1942 N.Y. App. Div. LEXIS 7726\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1942-03-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/263-a-d-982/kirschner-v-center-hotel-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kirschner v. Ctr. Hotel, Inc., 263 A.D. 982 (N.Y. App. Div. 1st Dep't 1942)\",\"link_md\":\"[Kirschner v. Ctr. Hotel, Inc., 263 A.D. 982 (N.Y. App. Div. 1st Dep't 1942)](https://syfert.com/new-york/cases/263-a-d-982/kirschner-v-center-hotel-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6582},{\"cluster_id\":138817,\"case_name\":\"Stewart v. Kirshner\",\"citations\":[\"543 U.S. 882\",\"125 S. Ct. 154\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-10-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-882/stewart-v-kirshner\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (138817 and its twin 9278238). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stewart v. Kirshner, 543 U.S. 882 (2004)\",\"link_md\":\"[Stewart v. Kirshner, 543 U.S. 882 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-882/stewart-v-kirshner)\",\"match_kind\":\"semantic\",\"similarity\":0.6571}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Kirschner w/15 \"75 N.W. 251\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5407705,
+    "case_name": "In re Kirschner",
+    "citations": [
+     "176 A.D. 913"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1917-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/176-a-d-913/in-re-kirschner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Kirschner, 176 A.D. 913 (N.Y. App. Div. 1917)",
+    "link_md": "[In re Kirschner, 176 A.D. 913 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/176-a-d-913/in-re-kirschner)",
+    "match_kind": "semantic",
+    "similarity": 0.7267
+   },
+   {
+    "cluster_id": 3643093,
+    "case_name": "Kirschbaum v. . Eschmann",
+    "citations": [
+     "107 N.E. 1085",
+     "213 N.Y. 641",
+     "1914 N.Y. LEXIS 779"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1914-11-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/213-n-y-641/kirschbaum-v-eschmann",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirschbaum v. Eschmann, 107 N.E. 1085 (N.Y. 1914)",
+    "link_md": "[Kirschbaum v. Eschmann, 107 N.E. 1085 (N.Y. 1914)](https://syfert.com/new-york/cases/213-n-y-641/kirschbaum-v-eschmann)",
+    "match_kind": "semantic",
+    "similarity": 0.7094
+   },
+   {
+    "cluster_id": 348082,
+    "case_name": "Kirsh v. United States",
+    "citations": [
+     "559 F.2d 1219"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1977-07-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/559-f-2d-1219/kirsh-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirsh v. United States, 559 F.2d 1219 (6th Cir. 1977)",
+    "link_md": "[Kirsh v. United States, 559 F.2d 1219 (6th Cir. 1977)](https://syfert.com/federal/circuits/cases/559-f-2d-1219/kirsh-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.697
+   },
+   {
+    "cluster_id": 5682673,
+    "case_name": "Kirschner v. Berger",
+    "citations": [
+     "367 N.E.2d 870",
+     "42 N.Y.2d 970",
+     "398 N.Y.S.2d 272",
+     "1977 N.Y. LEXIS 2303"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1977-07-14",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/42-n-y-2d-970/kirschner-v-berger",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirschner v. Berger, 367 N.E.2d 870 (N.Y. 1977)",
+    "link_md": "[Kirschner v. Berger, 367 N.E.2d 870 (N.Y. 1977)](https://syfert.com/new-york/cases/42-n-y-2d-970/kirschner-v-berger)",
+    "match_kind": "semantic",
+    "similarity": 0.6895
+   },
+   {
+    "cluster_id": 412869,
+    "case_name": "Kirsch v. I. R. S",
+    "citations": [
+     "697 F.2d 292"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1982-08-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/697-f-2d-292/kirsch-v-i-r-s",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirsch v. I. R. S, 697 F.2d 292 (2d Cir. 1982)",
+    "link_md": "[Kirsch v. I. R. S, 697 F.2d 292 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/697-f-2d-292/kirsch-v-i-r-s)",
+    "match_kind": "semantic",
+    "similarity": 0.6895
+   },
+   {
+    "cluster_id": 3632873,
+    "case_name": "Pritchard v. . Kirsch",
+    "citations": [
+     "63 N.E. 1121",
+     "171 N.Y. 637",
+     "1902 N.Y. LEXIS 909"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1902-04-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/171-n-y-637/pritchard-v-kirsch",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pritchard v. Kirsch, 63 N.E. 1121 (N.Y. 1902)",
+    "link_md": "[Pritchard v. Kirsch, 63 N.E. 1121 (N.Y. 1902)](https://syfert.com/new-york/cases/171-n-y-637/pritchard-v-kirsch)",
+    "match_kind": "semantic",
+    "similarity": 0.6875
+   },
+   {
+    "cluster_id": 505225,
+    "case_name": "Kirsch (Kevin E.) v. Dickey (Walter)",
+    "citations": [
+     "845 F.2d 1023",
+     "1988 U.S. App. LEXIS 6135"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1988-04-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/845-f-2d-1023/kirsch-kevin-e-v-dickey-walter",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirsch (Kevin E.) v. Dickey (Walter), 845 F.2d 1023 (7th Cir. 1988)",
+    "link_md": "[Kirsch (Kevin E.) v. Dickey (Walter), 845 F.2d 1023 (7th Cir. 1988)](https://syfert.com/federal/circuits/cases/845-f-2d-1023/kirsch-kevin-e-v-dickey-walter)",
+    "match_kind": "semantic",
+    "similarity": 0.6866
+   },
+   {
+    "cluster_id": 5462200,
+    "case_name": "Kirsch v. Lubin",
+    "citations": [
+     "223 A.D. 826"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1928-04-15",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/223-a-d-826/kirsch-v-lubin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirsch v. Lubin, 223 A.D. 826 (N.Y. App. Div. 1928)",
+    "link_md": "[Kirsch v. Lubin, 223 A.D. 826 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/223-a-d-826/kirsch-v-lubin)",
+    "match_kind": "semantic",
+    "similarity": 0.68
+   },
+   {
+    "cluster_id": 5469060,
+    "case_name": "Kirsch v. Gertman",
+    "citations": [
+     "227 A.D. 641"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1929-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/227-a-d-641/kirsch-v-gertman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirsch v. Gertman, 227 A.D. 641 (N.Y. App. Div. 3d Dep't 1929)",
+    "link_md": "[Kirsch v. Gertman, 227 A.D. 641 (N.Y. App. Div. 3d Dep't 1929)](https://syfert.com/new-york/cases/227-a-d-641/kirsch-v-gertman)",
+    "match_kind": "semantic",
+    "similarity": 0.6777
+   },
+   {
+    "cluster_id": 467167,
+    "case_name": "Kirsch v. C.I.R",
+    "citations": [
+     "786 F.2d 1170"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1986-02-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/786-f-2d-1170/kirsch-v-cir",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirsch v. C.I.R, 786 F.2d 1170 (8th Cir. 1986)",
+    "link_md": "[Kirsch v. C.I.R, 786 F.2d 1170 (8th Cir. 1986)](https://syfert.com/federal/circuits/cases/786-f-2d-1170/kirsch-v-cir)",
+    "match_kind": "semantic",
+    "similarity": 0.6761
+   },
+   {
+    "cluster_id": 3614383,
+    "case_name": "Kirsch v. Richards",
+    "citations": [
+     "50 N.E.2d 1008",
+     "291 N.Y. 585",
+     "1943 N.Y. LEXIS 1710"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1943-07-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/291-n-y-585/kirsch-v-richards",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (3614383 and its twin 5635469). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirsch v. Richards, 50 N.E.2d 1008 (N.Y. 1943)",
+    "link_md": "[Kirsch v. Richards, 50 N.E.2d 1008 (N.Y. 1943)](https://syfert.com/new-york/cases/291-n-y-585/kirsch-v-richards)",
+    "match_kind": "semantic",
+    "similarity": 0.6759,
+    "twin_clusters": [
+     5635469
+    ]
+   },
+   {
+    "cluster_id": 3603715,
+    "case_name": "Kirsch v. Lubin",
+    "citations": [
+     "162 N.E. 559",
+     "248 N.Y. 645",
+     "1928 N.Y. LEXIS 1476"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1928-07-19",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/new-york/cases/248-n-y-645/kirsch-v-lubin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirsch v. Lubin, 162 N.E. 559 (N.Y. 1928)",
+    "link_md": "[Kirsch v. Lubin, 162 N.E. 559 (N.Y. 1928)](https://syfert.com/new-york/cases/248-n-y-645/kirsch-v-lubin)",
+    "match_kind": "semantic",
+    "similarity": 0.6748
+   },
+   {
+    "cluster_id": 5382572,
+    "case_name": "Kirschbaum v. Eschmann",
+    "citations": [
+     "142 A.D. 906"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1910-12-15",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/142-a-d-906/kirschbaum-v-eschmann",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirschbaum v. Eschmann, 142 A.D. 906 (N.Y. App. Div. 1910)",
+    "link_md": "[Kirschbaum v. Eschmann, 142 A.D. 906 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/142-a-d-906/kirschbaum-v-eschmann)",
+    "match_kind": "semantic",
+    "similarity": 0.6709
+   },
+   {
+    "cluster_id": 3648326,
+    "case_name": "Kirschenbaum v. Oschuetz",
+    "citations": [
+     "185 N.E. 720",
+     "261 N.Y. 519",
+     "1933 N.Y. LEXIS 1331"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1933-01-10",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/261-n-y-519/kirschenbaum-v-oschuetz",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirschenbaum v. Oschuetz, 185 N.E. 720 (N.Y. 1933)",
+    "link_md": "[Kirschenbaum v. Oschuetz, 185 N.E. 720 (N.Y. 1933)](https://syfert.com/new-york/cases/261-n-y-519/kirschenbaum-v-oschuetz)",
+    "match_kind": "semantic",
+    "similarity": 0.6677
+   },
+   {
+    "cluster_id": 4095711,
+    "case_name": "Jordan v. Kirschner",
+    "citations": [
+     "94 Pa. Super. 252",
+     "1928 Pa. Super. LEXIS 171"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "1928-04-10",
+    "status": "Published",
+    "cited_by": 13,
+    "url": "https://syfert.com/pennsylvania/cases/94-pa-super-252/jordan-v-kirschner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jordan v. Kirschner, 94 Pa. Super. 252 (Pa. Super. Ct. 1928)",
+    "link_md": "[Jordan v. Kirschner, 94 Pa. Super. 252 (Pa. Super. Ct. 1928)](https://syfert.com/pennsylvania/cases/94-pa-super-252/jordan-v-kirschner)",
+    "match_kind": "semantic",
+    "similarity": 0.6672
+   },
+   {
+    "cluster_id": 5529408,
+    "case_name": "Hirschberg v. Kern",
+    "citations": [
+     "263 A.D. 715",
+     "32 N.Y.S.2d 112",
+     "1941 N.Y. App. Div. LEXIS 4668"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1941-11-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/263-a-d-715/hirschberg-v-kern",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hirschberg v. Kern, 263 A.D. 715 (N.Y. App. Div. 1st Dep't 1941)",
+    "link_md": "[Hirschberg v. Kern, 263 A.D. 715 (N.Y. App. Div. 1st Dep't 1941)](https://syfert.com/new-york/cases/263-a-d-715/hirschberg-v-kern)",
+    "match_kind": "semantic",
+    "similarity": 0.6626
+   },
+   {
+    "cluster_id": 5529341,
+    "case_name": "Hirschberg v. Kern",
+    "citations": [
+     "263 A.D. 705",
+     "31 N.Y.S.2d 661",
+     "1941 N.Y. App. Div. LEXIS 4592"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1941-11-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/263-a-d-705/hirschberg-v-kern",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hirschberg v. Kern, 263 A.D. 705 (N.Y. App. Div. 1st Dep't 1941)",
+    "link_md": "[Hirschberg v. Kern, 263 A.D. 705 (N.Y. App. Div. 1st Dep't 1941)](https://syfert.com/new-york/cases/263-a-d-705/hirschberg-v-kern)",
+    "match_kind": "semantic",
+    "similarity": 0.6617
+   },
+   {
+    "cluster_id": 136465,
+    "case_name": "Hirsch v. United States",
+    "citations": [
+     "541 U.S. 1056",
+     "124 S. Ct. 2195"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-05-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/541-u-s-1056/hirsch-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (136465 and its twins 9224776, 9224777). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hirsch v. United States, 541 U.S. 1056 (2004)",
+    "link_md": "[Hirsch v. United States, 541 U.S. 1056 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-1056/hirsch-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6597
+   },
+   {
+    "cluster_id": 5530641,
+    "case_name": "Kirschner v. Center Hotel, Inc.",
+    "citations": [
+     "263 A.D. 982",
+     "34 N.Y.S.2d 394",
+     "1942 N.Y. App. Div. LEXIS 7726"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1942-03-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/263-a-d-982/kirschner-v-center-hotel-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kirschner v. Ctr. Hotel, Inc., 263 A.D. 982 (N.Y. App. Div. 1st Dep't 1942)",
+    "link_md": "[Kirschner v. Ctr. Hotel, Inc., 263 A.D. 982 (N.Y. App. Div. 1st Dep't 1942)](https://syfert.com/new-york/cases/263-a-d-982/kirschner-v-center-hotel-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6582
+   },
+   {
+    "cluster_id": 138817,
+    "case_name": "Stewart v. Kirshner",
+    "citations": [
+     "543 U.S. 882",
+     "125 S. Ct. 154"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-10-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-882/stewart-v-kirshner",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (138817 and its twin 9278238). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stewart v. Kirshner, 543 U.S. 882 (2004)",
+    "link_md": "[Stewart v. Kirshner, 543 U.S. 882 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-882/stewart-v-kirshner)",
+    "match_kind": "semantic",
+    "similarity": 0.6571
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

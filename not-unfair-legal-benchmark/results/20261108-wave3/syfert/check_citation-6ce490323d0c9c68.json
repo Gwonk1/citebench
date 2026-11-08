@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "806 N.E.2d 189",
+  "expected_case_name": "Schumacher v. Amalgamated Leasing, Inc."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"806 N.E.2d 189\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3998852,\n            \"case_name\": \"Schumacher v. Amalgamated Leasing, Inc.\",\n            \"citations\": [\n                \"806 N.E.2d 189\"\n            ],\n            \"court\": \"Ohio Court of Appeals\",\n            \"date_filed\": \"2004-03-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 6,\n            \"url\": \"https://syfert.com/ohio/cases/156-ohio-app-3d-393/schumacher-v-amalgamated-leasing-inc\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Schumacher v. Amalgamated Leasing, Inc., 806 N.E.2d 189 (Ohio Ct. App. 3d Dist. 2004)\",\n            \"link_md\": \"[Schumacher v. Amalgamated Leasing, Inc., 806 N.E.2d 189 (Ohio Ct. App. 3d Dist. 2004)](https://syfert.com/ohio/cases/156-ohio-app-3d-393/schumacher-v-amalgamated-leasing-inc)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Schumacher v. Amalgamated Leasing, Inc.\",\n        \"actual\": \"Schumacher v. Amalgamated Leasing, Inc.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "806 N.E.2d 189",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3998852,
+    "case_name": "Schumacher v. Amalgamated Leasing, Inc.",
+    "citations": [
+     "806 N.E.2d 189"
+    ],
+    "court": "Ohio Court of Appeals",
+    "date_filed": "2004-03-15",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/ohio/cases/156-ohio-app-3d-393/schumacher-v-amalgamated-leasing-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Schumacher v. Amalgamated Leasing, Inc., 806 N.E.2d 189 (Ohio Ct. App. 3d Dist. 2004)",
+    "link_md": "[Schumacher v. Amalgamated Leasing, Inc., 806 N.E.2d 189 (Ohio Ct. App. 3d Dist. 2004)](https://syfert.com/ohio/cases/156-ohio-app-3d-393/schumacher-v-amalgamated-leasing-inc)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Schumacher v. Amalgamated Leasing, Inc.",
+   "actual": "Schumacher v. Amalgamated Leasing, Inc.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

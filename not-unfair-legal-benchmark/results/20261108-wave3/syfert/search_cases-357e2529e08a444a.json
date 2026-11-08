@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Thomas w/15 \"137 N.E.2d 117\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Thomas w/15 \\\"137 N.E.2d 117\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2073296,\"bluebook\":\"Lindsay v. Appleby, 414 N.E.2d 885 (Ill. App. Ct. 2d Dist. 1980)\",\"url\":\"https://syfert.com/illinois/cases/91-ill-app-3d-705/lindsay-v-appleby\",\"date_filed\":\"1980-12-23\",\"cited_by\":22,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...would not negligently fail to reduce his speed as he approached the intersection and obey the stop sign. (Thomas v. Smith (1956), 11 Ill. App. 2d 310 , 137 N.E.2d 117 .) As Mrs. Lindsay did seek to avoid a collision as soon as she…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Thomas w/15 \"137 N.E.2d 117\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2073296,
+    "bluebook": "Lindsay v. Appleby, 414 N.E.2d 885 (Ill. App. Ct. 2d Dist. 1980)",
+    "url": "https://syfert.com/illinois/cases/91-ill-app-3d-705/lindsay-v-appleby",
+    "date_filed": "1980-12-23",
+    "cited_by": 22,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...would not negligently fail to reduce his speed as he approached the intersection and obey the stop sign. (Thomas v. Smith (1956), 11 Ill. App. 2d 310 , 137 N.E.2d 117 .) As Mrs. Lindsay did seek to avoid a collision as soon as she…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

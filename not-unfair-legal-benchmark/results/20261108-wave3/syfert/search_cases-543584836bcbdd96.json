@@ -1,0 +1,100 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Thompson w/15 \"148 N.E.2d 9\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Thompson w/15 \\\"148 N.E.2d 9\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1345463,\"bluebook\":\"Eveready Freight Serv., Inc. v. Pub. Utils. Comm'n, 449 P.2d 642 (Colo. 1969)\",\"url\":\"https://syfert.com/colorado/cases/167-colo-577/eveready-freight-service-inc-v-public-utilities-commission\",\"date_filed\":\"1969-02-10\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...561 ;\\nThompson v. Fidelity and Casualty Co.,\\n16 Ill. App. 2d 159 , 148 N.E.2d 9 ,\\ncert. denied,\\n358 U.S. 837 , 79 S. Ct. 62 , 3 L. Ed. 2d 74 ;\\nMcBride v. Prudential Insurance Co.,\\n147 Ohio St. 461 , 72 N.E. 2d 98 . It is because a...\"},{\"cluster_id\":1993421,\"bluebook\":\"Int'l Ins. Co. v. Florists'mut. Ins. Co., 559 N.E.2d 7 (Ill. App. Ct. 1st Dist. 1990)\",\"url\":\"https://syfert.com/illinois/cases/201-ill-app-3d-428/intl-ins-co-v-floristsmut-ins-co\",\"date_filed\":\"1990-06-29\",\"cited_by\":5,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...App.3d 300 , 282 N.E.2d 204; Thompson v. Fidelity & Casualty Co. (1958), 16 Ill. App.2d 159 , 148 N.E.2d 9 , cert. denied (1958), 358 U.S. 837 , 3 L.Ed.2d 74 , 79 S.Ct. 62 .) Citing to La Rotunda v. Royal Globe Insurance Co...\"},{\"cluster_id\":8791787,\"bluebook\":\"Universal Underwriters Ins. v. Nw. Nat'l Ins., 306 F. Supp. 437 (S.D. Ill. 1969)\",\"url\":\"https://syfert.com/federal/district/cases/306-f-supp-437/universal-underwriters-insurance-v-northwestern-national-insurance\",\"date_filed\":\"1969-12-08\",\"cited_by\":12,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...here, the rule of construction favoring the insured must yield to the requirement of a reasonable construction. Thompson v. Fidelity & Casualty Company, 16 Ill.App.2d 159 , 148 N.E.2d 9 (2d Dist. 1958), cert. denied, 358 U.S. 837 , 79…\"},{\"cluster_id\":7117104,\"bluebook\":\"Int'l Ins. v. Florists' Mut. Ins., 559 N.E.2d 7 (Ill. App. Ct. 1st Dist. 1990)\",\"url\":\"https://syfert.com/illinois/cases/201-ill-app-3d-428/international-insurance-v-florists-mutual-insurance\",\"date_filed\":\"1990-06-29\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...3d 300 , 282 N.E.2d 204 ; Thompson v. Fidelity & Casualty Co. (1958), 16 Ill. App. 2d 159 , 148 N.E.2d 9 , cert. denied (1958), 358 U.S. 837 , 3 L. Ed. 2d 74 , 79 S. Ct. 62 .) Citing to La Rotunda v. Royal Globe Insurance Co. (1980),…\"},{\"cluster_id\":2386320,\"bluebook\":\"Messina v. Mut. Benefit Health & Accident Ass'n, 228 F. Supp. 865 (D.D.C. 1964)\",\"url\":\"https://syfert.com/federal/district/cases/228-f-supp-865/messina-v-mutual-benefit-health-and-accident-assn\",\"date_filed\":\"1964-04-24\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...357 , 118 N.E.2d 555 (1954) (holding the words “scheduled airline” ambiguous enough to extend coverage to the particular flight involved, in an “Airline Trip Insurance” policy purchased from an automatic vending machine) ; Thompson v.…\"},{\"cluster_id\":8755476,\"bluebook\":\"Tamco Corp. v. Fed. Ins., 216 F. Supp. 767 (N.D. Ill. 1963)\",\"url\":\"https://syfert.com/federal/district/cases/216-f-supp-767/tamco-corp-v-federal-insurance\",\"date_filed\":\"1963-04-23\",\"cited_by\":5,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...admission. (Precision Extrusions, Inc. v. Stewart, 36 Ill.App.2d 30 , 183 N.E.2d 547 (1962)).\\n. Thompson v. Fidelity & Casualty Co., 16 Ill.App.2d 159, 167 , 148 N.E.2d 9 (1958); American Ins. Co. v. Rosenberg, 28 Ill. App.2d 357 , 171…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Thompson w/15 \"148 N.E.2d 9\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1345463,
+    "bluebook": "Eveready Freight Serv., Inc. v. Pub. Utils. Comm'n, 449 P.2d 642 (Colo. 1969)",
+    "url": "https://syfert.com/colorado/cases/167-colo-577/eveready-freight-service-inc-v-public-utilities-commission",
+    "date_filed": "1969-02-10",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...561 ;\nThompson v. Fidelity and Casualty Co.,\n16 Ill. App. 2d 159 , 148 N.E.2d 9 ,\ncert. denied,\n358 U.S. 837 , 79 S. Ct. 62 , 3 L. Ed. 2d 74 ;\nMcBride v. Prudential Insurance Co.,\n147 Ohio St. 461 , 72 N.E. 2d 98 . It is because a..."
+   },
+   {
+    "cluster_id": 1993421,
+    "bluebook": "Int'l Ins. Co. v. Florists'mut. Ins. Co., 559 N.E.2d 7 (Ill. App. Ct. 1st Dist. 1990)",
+    "url": "https://syfert.com/illinois/cases/201-ill-app-3d-428/intl-ins-co-v-floristsmut-ins-co",
+    "date_filed": "1990-06-29",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...App.3d 300 , 282 N.E.2d 204; Thompson v. Fidelity & Casualty Co. (1958), 16 Ill. App.2d 159 , 148 N.E.2d 9 , cert. denied (1958), 358 U.S. 837 , 3 L.Ed.2d 74 , 79 S.Ct. 62 .) Citing to La Rotunda v. Royal Globe Insurance Co..."
+   },
+   {
+    "cluster_id": 8791787,
+    "bluebook": "Universal Underwriters Ins. v. Nw. Nat'l Ins., 306 F. Supp. 437 (S.D. Ill. 1969)",
+    "url": "https://syfert.com/federal/district/cases/306-f-supp-437/universal-underwriters-insurance-v-northwestern-national-insurance",
+    "date_filed": "1969-12-08",
+    "cited_by": 12,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...here, the rule of construction favoring the insured must yield to the requirement of a reasonable construction. Thompson v. Fidelity & Casualty Company, 16 Ill.App.2d 159 , 148 N.E.2d 9 (2d Dist. 1958), cert. denied, 358 U.S. 837 , 79…"
+   },
+   {
+    "cluster_id": 7117104,
+    "bluebook": "Int'l Ins. v. Florists' Mut. Ins., 559 N.E.2d 7 (Ill. App. Ct. 1st Dist. 1990)",
+    "url": "https://syfert.com/illinois/cases/201-ill-app-3d-428/international-insurance-v-florists-mutual-insurance",
+    "date_filed": "1990-06-29",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...3d 300 , 282 N.E.2d 204 ; Thompson v. Fidelity & Casualty Co. (1958), 16 Ill. App. 2d 159 , 148 N.E.2d 9 , cert. denied (1958), 358 U.S. 837 , 3 L. Ed. 2d 74 , 79 S. Ct. 62 .) Citing to La Rotunda v. Royal Globe Insurance Co. (1980),…"
+   },
+   {
+    "cluster_id": 2386320,
+    "bluebook": "Messina v. Mut. Benefit Health & Accident Ass'n, 228 F. Supp. 865 (D.D.C. 1964)",
+    "url": "https://syfert.com/federal/district/cases/228-f-supp-865/messina-v-mutual-benefit-health-and-accident-assn",
+    "date_filed": "1964-04-24",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...357 , 118 N.E.2d 555 (1954) (holding the words “scheduled airline” ambiguous enough to extend coverage to the particular flight involved, in an “Airline Trip Insurance” policy purchased from an automatic vending machine) ; Thompson v.…"
+   },
+   {
+    "cluster_id": 8755476,
+    "bluebook": "Tamco Corp. v. Fed. Ins., 216 F. Supp. 767 (N.D. Ill. 1963)",
+    "url": "https://syfert.com/federal/district/cases/216-f-supp-767/tamco-corp-v-federal-insurance",
+    "date_filed": "1963-04-23",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...admission. (Precision Extrusions, Inc. v. Stewart, 36 Ill.App.2d 30 , 183 N.E.2d 547 (1962)).\n. Thompson v. Fidelity & Casualty Co., 16 Ill.App.2d 159, 167 , 148 N.E.2d 9 (1958); American Ins. Co. v. Rosenberg, 28 Ill. App.2d 357 , 171…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Jackson w/15 \"278 S.E.2d 8\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Jackson w/15 \\\"278 S.E.2d 8\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1333329,\"bluebook\":\"Sharpe v. Dep't of Transp., 505 S.E.2d 473 (Ga. 1998)\",\"url\":\"https://syfert.com/georgia/cases/270-ga-101/sharpe-v-department-of-transportation\",\"date_filed\":\"1998-10-05\",\"cited_by\":24,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...It is not important in what format the allegation is cast so long as it is clear to the court the specific error alleged that he may have the opportunity to correct them. [Cit.]\\nJackson v. Meadows, 157 Ga.App. 569, 575 (7), 278 S.E.2d 8…\"},{\"cluster_id\":1304139,\"bluebook\":\"Barnes v. State, 682 S.E.2d 359 (Ga. Ct. App. 2009)\",\"url\":\"https://syfert.com/georgia/cases/299-ga-app-253/barnes-v-state\",\"date_filed\":\"2009-07-17\",\"cited_by\":12,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (1304139 and its twin 7926200).\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...State, 278 Ga. 704, 705 , 606 S.E.2d 269 (2004).\\n[8] (Citation omitted.) Id.\\n[9] See Jackson v. Virginia, supra.\\n[10] Strickland v. Washington, 466 U.S. 668 , 104 S.Ct. 2052 , 80 L.Ed.2d 674 (1984).\\n[11] (Citations and punctuation…\"},{\"cluster_id\":1210822,\"bluebook\":\"Drug Emporium, Inc. v. Peaks, 488 S.E.2d 500 (Ga. Ct. App. 1997)\",\"url\":\"https://syfert.com/georgia/cases/227-ga-app-121/drug-emporium-inc-v-peaks\",\"date_filed\":\"1997-07-03\",\"cited_by\":40,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...216 , 288 S.E.2d 289 (1982); Jackson v. Meadows, 157 Ga.App. 569 , 278 S.E.2d 8 (1981).\",\"holding\":\"A prayer for relief is not an allegation in a complaint that requires an answer and is not part of a plaintiff's cause of action.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Jackson w/15 \"278 S.E.2d 8\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1333329,
+    "bluebook": "Sharpe v. Dep't of Transp., 505 S.E.2d 473 (Ga. 1998)",
+    "url": "https://syfert.com/georgia/cases/270-ga-101/sharpe-v-department-of-transportation",
+    "date_filed": "1998-10-05",
+    "cited_by": 24,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...It is not important in what format the allegation is cast so long as it is clear to the court the specific error alleged that he may have the opportunity to correct them. [Cit.]\nJackson v. Meadows, 157 Ga.App. 569, 575 (7), 278 S.E.2d 8…"
+   },
+   {
+    "cluster_id": 1304139,
+    "bluebook": "Barnes v. State, 682 S.E.2d 359 (Ga. Ct. App. 2009)",
+    "url": "https://syfert.com/georgia/cases/299-ga-app-253/barnes-v-state",
+    "date_filed": "2009-07-17",
+    "cited_by": 12,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (1304139 and its twin 7926200).",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...State, 278 Ga. 704, 705 , 606 S.E.2d 269 (2004).\n[8] (Citation omitted.) Id.\n[9] See Jackson v. Virginia, supra.\n[10] Strickland v. Washington, 466 U.S. 668 , 104 S.Ct. 2052 , 80 L.Ed.2d 674 (1984).\n[11] (Citations and punctuation…"
+   },
+   {
+    "cluster_id": 1210822,
+    "bluebook": "Drug Emporium, Inc. v. Peaks, 488 S.E.2d 500 (Ga. Ct. App. 1997)",
+    "url": "https://syfert.com/georgia/cases/227-ga-app-121/drug-emporium-inc-v-peaks",
+    "date_filed": "1997-07-03",
+    "cited_by": 40,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...216 , 288 S.E.2d 289 (1982); Jackson v. Meadows, 157 Ga.App. 569 , 278 S.E.2d 8 (1981).",
+    "holding": "A prayer for relief is not an allegation in a complaint that requires an answer and is not part of a plaintiff's cause of action.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

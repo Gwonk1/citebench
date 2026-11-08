@@ -1,0 +1,57 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "97 So. 190",
+  "expected_case_name": "Fitzhugh v. City of Jackson"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"97 So. 190\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8038243,\n            \"case_name\": \"Fitzhugh v. City of Jackson\",\n            \"citations\": [\n                \"97 So. 190\"\n            ],\n            \"court\": \"Mississippi Supreme Court\",\n            \"date_filed\": \"1923-07-02\",\n            \"status\": \"Published\",\n            \"cited_by\": 28,\n            \"url\": \"https://syfert.com/mississippi/cases/132-miss-585/fitzhugh-v-city-of-jackson\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"124 ME 501\",\n                    \"recovered_from_citing_opinions\": 1,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Recovered parallel cite: 1 citing opinion confirms this cite (confidence 0.90)\"\n                }\n            ],\n            \"bluebook\": \"Fitzhugh v. City of Jackson, 97 So. 190 (Miss. 1923)\",\n            \"link_md\": \"[Fitzhugh v. City of Jackson, 97 So. 190 (Miss. 1923)](https://syfert.com/mississippi/cases/132-miss-585/fitzhugh-v-city-of-jackson)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Fitzhugh v. City of Jackson\",\n        \"actual\": \"Fitzhugh v. City of Jackson\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "97 So. 190",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8038243,
+    "case_name": "Fitzhugh v. City of Jackson",
+    "citations": [
+     "97 So. 190"
+    ],
+    "court": "Mississippi Supreme Court",
+    "date_filed": "1923-07-02",
+    "status": "Published",
+    "cited_by": 28,
+    "url": "https://syfert.com/mississippi/cases/132-miss-585/fitzhugh-v-city-of-jackson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "124 ME 501",
+      "recovered_from_citing_opinions": 1,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.9,
+      "note": "Recovered parallel cite: 1 citing opinion confirms this cite (confidence 0.90)"
+     }
+    ],
+    "bluebook": "Fitzhugh v. City of Jackson, 97 So. 190 (Miss. 1923)",
+    "link_md": "[Fitzhugh v. City of Jackson, 97 So. 190 (Miss. 1923)](https://syfert.com/mississippi/cases/132-miss-585/fitzhugh-v-city-of-jackson)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Fitzhugh v. City of Jackson",
+   "actual": "Fitzhugh v. City of Jackson",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

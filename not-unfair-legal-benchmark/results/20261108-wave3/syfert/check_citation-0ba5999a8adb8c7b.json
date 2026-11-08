@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "17 N.E. 335",
+  "expected_case_name": "Hodge v. . Sloan"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"17 N.E. 335\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3601783,\n            \"case_name\": \"Hodge v. . Sloan\",\n            \"citations\": [\n                \"17 N.E. 335\"\n            ],\n            \"court\": \"New York Court of Appeals\",\n            \"date_filed\": \"1887-10-28\",\n            \"status\": \"Published\",\n            \"cited_by\": 84,\n            \"url\": \"https://syfert.com/new-york/cases/107-n-y-244/hodge-v-sloan\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Hodge v. Sloan, 17 N.E. 335 (N.Y. 1887)\",\n            \"link_md\": \"[Hodge v. Sloan, 17 N.E. 335 (N.Y. 1887)](https://syfert.com/new-york/cases/107-n-y-244/hodge-v-sloan)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 8,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Hodge v. . Sloan\",\n        \"actual\": \"Hodge v. . Sloan\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "17 N.E. 335",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3601783,
+    "case_name": "Hodge v. . Sloan",
+    "citations": [
+     "17 N.E. 335"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1887-10-28",
+    "status": "Published",
+    "cited_by": 84,
+    "url": "https://syfert.com/new-york/cases/107-n-y-244/hodge-v-sloan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hodge v. Sloan, 17 N.E. 335 (N.Y. 1887)",
+    "link_md": "[Hodge v. Sloan, 17 N.E. 335 (N.Y. 1887)](https://syfert.com/new-york/cases/107-n-y-244/hodge-v-sloan)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 8,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Hodge v. . Sloan",
+   "actual": "Hodge v. . Sloan",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

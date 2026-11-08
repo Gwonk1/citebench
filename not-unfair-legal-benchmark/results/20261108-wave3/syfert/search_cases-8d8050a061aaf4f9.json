@@ -1,0 +1,108 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Tate w/15 \"245 Mo. 186\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Tate w/15 \\\"245 Mo. 186\\\"\",\"total\":7,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1369095,\"bluebook\":\"Title Guar. & Ins. v. Campbell, 742 P.2d 8 (N.M. Ct. App. 1987)\",\"url\":\"https://syfert.com/new-mexico/cases/106-n-m-272/title-guaranty-insurance-v-campbell\",\"date_filed\":\"1987-08-04\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See NMSA 1978, § 38-1-14; Tate v. Sanders, 245 Mo. 186 , 149 S.W. 485 (1912); cf. In re Lafayette Houses, City of New York, 220 N.Y.S.2d 109 (1961). While the object of an attachment is to create a prior lien on the property of the...\"},{\"cluster_id\":5226351,\"bluebook\":\"State ex rel. Leverage Inv. Enter., Ltd. v. Yeaman, 581 S.W.2d 53 (Mo. Ct. App. 1979)\",\"url\":\"https://syfert.com/missouri/cases/581-s-w-2d-53/state-ex-rel-leverage-investment-enterprises-ltd-v-yeaman\",\"date_filed\":\"1979-04-02\",\"cited_by\":4,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...21, 1975 was superfluous as dismissal of the federal court suit from which the notices were generated rendered the notices functus officio. Tate v. Sanders, 245 Mo. 186, 149 S.W.2d 485 , 490 (1912).\\n. DIM’s motion for partial summary…\"},{\"cluster_id\":5243012,\"bluebook\":\"Neal v. Girdner, 725 S.W.2d 924 (Mo. Ct. App. 1987)\",\"url\":\"https://syfert.com/missouri/cases/725-s-w-2d-924/neal-v-girdner\",\"date_filed\":\"1987-03-17\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...the notice of lis pendens referred, the notice lost all legal force and vitality and became, in the Latin phrase, functus officio. Tate v. Sanders, 245 Mo. 186 , 149 S.W. 485, 490 (1912); Bristow v. Thack-ston, 187 Mo. 332 , 86 S.W. 94,…\"},{\"cluster_id\":5448688,\"bluebook\":\"Deutsche Bank Nat'l Trust Co. v. Vaughn, 524 S.W.3d 193 (Mo. Ct. App. 2017)\",\"url\":\"https://syfert.com/missouri/cases/524-s-w-3d-193/deutsche-bank-national-trust-co-v-vaughn\",\"date_filed\":\"2017-07-18\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...owned by Vaughn and he had notice of the obligation under both the Note and Deed of Trust. Tate v. Sanders, 245 Mo. 186 , 149 S.W. 485, 487-88 (Mo. 1912). The interim transfers of the .real property to Wallace Vaughn Investments, LLC…\"},{\"cluster_id\":1635577,\"bluebook\":\"Rubinstein v. Rubinstein, 283 S.W.2d 603 (Mo. 1955)\",\"url\":\"https://syfert.com/missouri/cases/283-s-w-2d-603/rubinstein-v-rubinstein\",\"date_filed\":\"1955-11-14\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...valid as a deed or not. The trial court held that plaintiffs were thereby estopped to claim title, and we agree. See: Tate v. Sanders, 245 Mo. 186 , 149 S.W. 485 ; 26 C.J.S., Deeds, § 33. Estoppel was not pleaded by defendant, Section…\"},{\"cluster_id\":3454015,\"bluebook\":\"Castle v. Allen, 172 S.W.2d 58 (Ky. Ct. App. 1943)\",\"url\":\"https://syfert.com/kentucky/cases/294-ky-416/castle-v-allen\",\"date_filed\":\"1943-05-26\",\"cited_by\":0,\"snippet\":\"...Ark relies primarily upon the case of Tate v. Sanders, 245 Mo. 186 , 149 S. W. 485, 491 ; Ann. Cas. 1914A, 998, wherein it is said:\\n“But in the case of the ordinary plain fraudulent conveyance, where the grantee takes the property…\"},{\"cluster_id\":4224815,\"bluebook\":\"Curtiss v. Crooks, 66 P.2d 1140 (Wash. 1937)\",\"url\":\"https://syfert.com/washington/cases/66-p-2d-1140/curtiss-v-crooks\",\"date_filed\":\"1937-04-09\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In\\nTate v. Sanders,\\n245 Mo. 186 , 149 S. W. 485 , Ann. Cas. 1914A, 998, it was held that, where an alleged fraudulent grantee, taking without any secret trust, claims against both the creditor and the debtor, his liability for rents and…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Tate w/15 \"245 Mo. 186\"",
+  "total": 7,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1369095,
+    "bluebook": "Title Guar. & Ins. v. Campbell, 742 P.2d 8 (N.M. Ct. App. 1987)",
+    "url": "https://syfert.com/new-mexico/cases/106-n-m-272/title-guaranty-insurance-v-campbell",
+    "date_filed": "1987-08-04",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See NMSA 1978, § 38-1-14; Tate v. Sanders, 245 Mo. 186 , 149 S.W. 485 (1912); cf. In re Lafayette Houses, City of New York, 220 N.Y.S.2d 109 (1961). While the object of an attachment is to create a prior lien on the property of the..."
+   },
+   {
+    "cluster_id": 5226351,
+    "bluebook": "State ex rel. Leverage Inv. Enter., Ltd. v. Yeaman, 581 S.W.2d 53 (Mo. Ct. App. 1979)",
+    "url": "https://syfert.com/missouri/cases/581-s-w-2d-53/state-ex-rel-leverage-investment-enterprises-ltd-v-yeaman",
+    "date_filed": "1979-04-02",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...21, 1975 was superfluous as dismissal of the federal court suit from which the notices were generated rendered the notices functus officio. Tate v. Sanders, 245 Mo. 186, 149 S.W.2d 485 , 490 (1912).\n. DIM’s motion for partial summary…"
+   },
+   {
+    "cluster_id": 5243012,
+    "bluebook": "Neal v. Girdner, 725 S.W.2d 924 (Mo. Ct. App. 1987)",
+    "url": "https://syfert.com/missouri/cases/725-s-w-2d-924/neal-v-girdner",
+    "date_filed": "1987-03-17",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...the notice of lis pendens referred, the notice lost all legal force and vitality and became, in the Latin phrase, functus officio. Tate v. Sanders, 245 Mo. 186 , 149 S.W. 485, 490 (1912); Bristow v. Thack-ston, 187 Mo. 332 , 86 S.W. 94,…"
+   },
+   {
+    "cluster_id": 5448688,
+    "bluebook": "Deutsche Bank Nat'l Trust Co. v. Vaughn, 524 S.W.3d 193 (Mo. Ct. App. 2017)",
+    "url": "https://syfert.com/missouri/cases/524-s-w-3d-193/deutsche-bank-national-trust-co-v-vaughn",
+    "date_filed": "2017-07-18",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...owned by Vaughn and he had notice of the obligation under both the Note and Deed of Trust. Tate v. Sanders, 245 Mo. 186 , 149 S.W. 485, 487-88 (Mo. 1912). The interim transfers of the .real property to Wallace Vaughn Investments, LLC…"
+   },
+   {
+    "cluster_id": 1635577,
+    "bluebook": "Rubinstein v. Rubinstein, 283 S.W.2d 603 (Mo. 1955)",
+    "url": "https://syfert.com/missouri/cases/283-s-w-2d-603/rubinstein-v-rubinstein",
+    "date_filed": "1955-11-14",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...valid as a deed or not. The trial court held that plaintiffs were thereby estopped to claim title, and we agree. See: Tate v. Sanders, 245 Mo. 186 , 149 S.W. 485 ; 26 C.J.S., Deeds, § 33. Estoppel was not pleaded by defendant, Section…"
+   },
+   {
+    "cluster_id": 3454015,
+    "bluebook": "Castle v. Allen, 172 S.W.2d 58 (Ky. Ct. App. 1943)",
+    "url": "https://syfert.com/kentucky/cases/294-ky-416/castle-v-allen",
+    "date_filed": "1943-05-26",
+    "cited_by": 0,
+    "snippet": "...Ark relies primarily upon the case of Tate v. Sanders, 245 Mo. 186 , 149 S. W. 485, 491 ; Ann. Cas. 1914A, 998, wherein it is said:\n“But in the case of the ordinary plain fraudulent conveyance, where the grantee takes the property…"
+   },
+   {
+    "cluster_id": 4224815,
+    "bluebook": "Curtiss v. Crooks, 66 P.2d 1140 (Wash. 1937)",
+    "url": "https://syfert.com/washington/cases/66-p-2d-1140/curtiss-v-crooks",
+    "date_filed": "1937-04-09",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In\nTate v. Sanders,\n245 Mo. 186 , 149 S. W. 485 , Ann. Cas. 1914A, 998, it was held that, where an alleged fraudulent grantee, taking without any secret trust, claims against both the creditor and the debtor, his liability for rents and…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

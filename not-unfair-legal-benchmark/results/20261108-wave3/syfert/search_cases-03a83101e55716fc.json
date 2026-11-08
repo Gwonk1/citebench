@@ -1,0 +1,407 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Service w/15 \"307 NW2d 849\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Service w/15 \\\"307 NW2d 849\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3367509,\"case_name\":\"McManus v. the Stop Shop Companies Inc.\",\"citations\":[\"20 Conn. L. Rptr. 401\",\"1997 Conn. Super. Ct. 10557\"],\"court\":\"Connecticut Superior Court\",\"date_filed\":\"1997-10-21\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/connecticut/cases/1997-conn-super-ct-10557/mcmanus-v-the-stop-shop-companies-inc-no-32-33-34-oct-21-1997\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"McManus v. Stop Shop Companies Inc., 20 Conn. L. Rptr. 401 (Conn. Super. Ct. 1997)\",\"link_md\":\"[McManus v. Stop Shop Companies Inc., 20 Conn. L. Rptr. 401 (Conn. Super. Ct. 1997)](https://syfert.com/connecticut/cases/1997-conn-super-ct-10557/mcmanus-v-the-stop-shop-companies-inc-no-32-33-34-oct-21-1997)\",\"match_kind\":\"semantic\",\"similarity\":0.6942},{\"cluster_id\":2296620,\"case_name\":\"Wolfe v. Green\",\"citations\":[\"660 F. Supp. 2d 738\",\"2009 U.S. Dist. LEXIS 30884\",\"2009 WL 1054446\"],\"court\":\"S.D. West Virginia\",\"date_filed\":\"2009-04-09\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/district/cases/660-f-supp-2d-738/wolfe-v-green\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wolfe v. Green, 660 F. Supp. 2d 738 (S.D. W. Va. 2009)\",\"link_md\":\"[Wolfe v. Green, 660 F. Supp. 2d 738 (S.D. W. Va. 2009)](https://syfert.com/federal/district/cases/660-f-supp-2d-738/wolfe-v-green)\",\"match_kind\":\"semantic\",\"similarity\":0.6574},{\"cluster_id\":2162135,\"case_name\":\"IFC Collateral Corp. v. Commercial Units, Inc.\",\"citations\":[\"168 N.W.2d 124\",\"43 Wis. 2d 98\",\"1969 Wisc. LEXIS 957\"],\"court\":\"Wisconsin Supreme Court\",\"date_filed\":\"1969-06-03\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/wisconsin/cases/43-wis-2d-98/ifc-collateral-corp-v-commercial-units-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"IFC Collateral Corp. v. Com. Units, Inc., 168 N.W.2d 124 (Wis. 1969)\",\"link_md\":\"[IFC Collateral Corp. v. Com. Units, Inc., 168 N.W.2d 124 (Wis. 1969)](https://syfert.com/wisconsin/cases/43-wis-2d-98/ifc-collateral-corp-v-commercial-units-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6571},{\"cluster_id\":2356384,\"case_name\":\"City of Philadelphia v. Davis\",\"citations\":[\"373 A.2d 1154\",\"30 Pa. Commw. 34\",\"1977 Pa. Commw. LEXIS 836\"],\"court\":\"Commonwealth Court of Pennsylvania\",\"date_filed\":\"1977-05-03\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/pennsylvania/cases/30-pa-commw-34/city-of-philadelphia-v-davis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of Philadelphia v. Davis, 373 A.2d 1154 (Pa. Commw. Ct. 1977)\",\"link_md\":\"[City of Philadelphia v. Davis, 373 A.2d 1154 (Pa. Commw. Ct. 1977)](https://syfert.com/pennsylvania/cases/30-pa-commw-34/city-of-philadelphia-v-davis)\",\"match_kind\":\"semantic\",\"similarity\":0.6562},{\"cluster_id\":6491347,\"case_name\":\"City of Philadelphia v. Campbell\",\"citations\":[\"378 A.2d 1043\",\"32 Pa. Commw. 166\",\"1977 Pa. Commw. LEXIS 1081\"],\"court\":\"Commonwealth Court of Pennsylvania\",\"date_filed\":\"1977-10-21\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/pennsylvania/cases/32-pa-commw-166/city-of-philadelphia-v-campbell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of Philadelphia v. Campbell, 378 A.2d 1043 (Pa. Commw. Ct. 1977)\",\"link_md\":\"[City of Philadelphia v. Campbell, 378 A.2d 1043 (Pa. Commw. Ct. 1977)](https://syfert.com/pennsylvania/cases/32-pa-commw-166/city-of-philadelphia-v-campbell)\",\"match_kind\":\"semantic\",\"similarity\":0.6549},{\"cluster_id\":9040211,\"case_name\":\"United States v. Rhoades\",\"citations\":[\"14 F.R.D. 373\",\"1953 U.S. Dist. LEXIS 3860\"],\"court\":\"D. Colorado\",\"date_filed\":\"1953-07-03\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/district/cases/cl-9040211/united-states-v-rhoades\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Rhoades, 14 F.R.D. 373 (D. Colo. 1953)\",\"link_md\":\"[United States v. Rhoades, 14 F.R.D. 373 (D. Colo. 1953)](https://syfert.com/federal/district/cases/cl-9040211/united-states-v-rhoades)\",\"match_kind\":\"semantic\",\"similarity\":0.6546},{\"cluster_id\":2358460,\"case_name\":\"SECURITY SERVICES NORTHWEST, INC. v. Jefferson County\",\"citations\":[\"245 P.3d 227\",\"170 Wash. 2d 1006\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"2010-11-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/170-wash-2d-1006/security-services-northwest-inc-v-jefferson-county\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sec. Servs. Nw., Inc. v. Jefferson Cnty., 245 P.3d 227 (Wash. 2010)\",\"link_md\":\"[Sec. Servs. Nw., Inc. v. Jefferson Cnty., 245 P.3d 227 (Wash. 2010)](https://syfert.com/washington/cases/170-wash-2d-1006/security-services-northwest-inc-v-jefferson-county)\",\"match_kind\":\"semantic\",\"similarity\":0.6546},{\"cluster_id\":10981138,\"case_name\":\"Francine Hancock v. Beauty Fashion Sales Group Inc.\",\"citations\":[],\"court\":\"S.D. New York\",\"date_filed\":\"2026-08-28\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10981138/francine-hancock-aka-francine-colloro-v-beauty-fashion-sales-group\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Hancock, No. 1:24-cv-03921 (S.D.N.Y. Aug. 28, 2026)\",\"link_md\":\"[Hancock, No. 1:24-cv-03921 (S.D.N.Y. Aug. 28, 2026)](https://syfert.com/federal/district/cases/cl-10981138/francine-hancock-aka-francine-colloro-v-beauty-fashion-sales-group)\",\"match_kind\":\"semantic\",\"similarity\":0.6545},{\"cluster_id\":8710935,\"case_name\":\"Anderson v. John Royle & Sons\",\"citations\":[\"784 F. Supp. 955\",\"1992 U.S. Dist. LEXIS 2235\",\"1992 WL 37646\"],\"court\":\"N.D. New York\",\"date_filed\":\"1992-02-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/784-f-supp-955/anderson-v-john-royle-sons\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Anderson v. John Royle & Sons, 784 F. Supp. 955 (N.D.N.Y. 1992)\",\"link_md\":\"[Anderson v. John Royle & Sons, 784 F. Supp. 955 (N.D.N.Y. 1992)](https://syfert.com/federal/district/cases/784-f-supp-955/anderson-v-john-royle-sons)\",\"match_kind\":\"semantic\",\"similarity\":0.653},{\"cluster_id\":9772333,\"case_name\":\"Dougherty v. Dormont Manufacturing Company\",\"citations\":[],\"court\":\"E.D. Missouri\",\"date_filed\":\"2023-07-10\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9772333/dougherty-v-dormont-manufacturing-company\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Dougherty v. Dormont Mfg. Co., No. 4:22-cv-00700 (E.D. Mo. July 10, 2023)\",\"link_md\":\"[Dougherty v. Dormont Mfg. Co., No. 4:22-cv-00700 (E.D. Mo. July 10, 2023)](https://syfert.com/federal/district/cases/cl-9772333/dougherty-v-dormont-manufacturing-company)\",\"match_kind\":\"semantic\",\"similarity\":0.6513},{\"cluster_id\":2521112,\"case_name\":\"Manius v. Boyd\",\"citations\":[\"47 P.3d 145\",\"111 Wash. App. 764\"],\"court\":\"Court of Appeals of Washington\",\"date_filed\":\"2002-05-17\",\"status\":\"Published\",\"cited_by\":47,\"disposition\":\"reversed in part\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/washington/cases/47-p-3d-145/manius-v-boyd\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (2521112 and its twin 4933486).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Manius v. Boyd, 47 P.3d 145 (Wash. Ct. App. 2002)\",\"link_md\":\"[Manius v. Boyd, 47 P.3d 145 (Wash. Ct. App. 2002)](https://syfert.com/washington/cases/47-p-3d-145/manius-v-boyd)\",\"match_kind\":\"semantic\",\"similarity\":0.6509,\"twin_clusters\":[4933486]},{\"cluster_id\":9779134,\"case_name\":\"SNH Medical Office Properties Trust v. Southern Neurologic & Spinal Institute, PA\",\"citations\":[],\"court\":\"S.D. Mississippi\",\"date_filed\":\"2019-10-03\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9779134/snh-medical-office-properties-trust-v-southern-neurologic-spinal\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"SNH Med. Off. Props. Trust v. S. Neurologic & Spinal Inst., PA, No. 2:19-cv-00083 (S.D. Miss. Oct. 3, 2019)\",\"link_md\":\"[SNH Med. Off. Props. Trust v. S. Neurologic & Spinal Inst., PA, No. 2:19-cv-00083 (S.D. Miss. Oct. 3, 2019)](https://syfert.com/federal/district/cases/cl-9779134/snh-medical-office-properties-trust-v-southern-neurologic-spinal)\",\"match_kind\":\"semantic\",\"similarity\":0.6504},{\"cluster_id\":7558816,\"case_name\":\"Ward v. Gibson\",\"citations\":[\"349 So. 2d 173\",\"1976 Fla. App. LEXIS 16202\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"1976-06-15\",\"status\":\"Published\",\"cited_by\":2,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/florida/cases/349-so-2d-173/ward-v-gibson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ward v. Gibson, 349 So. 2d 173 (Fla. 3d DCA 1976)\",\"link_md\":\"[Ward v. Gibson, 349 So. 2d 173 (Fla. 3d DCA 1976)](https://syfert.com/florida/cases/349-so-2d-173/ward-v-gibson)\",\"match_kind\":\"semantic\",\"similarity\":0.6496},{\"cluster_id\":9662537,\"case_name\":\"Owners Insurance Company v. Holley\",\"citations\":[],\"court\":\"S.D. Georgia\",\"date_filed\":\"2022-11-03\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9662537/owners-insurance-company-v-holley\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Owners Ins. Co. v. Holley, No. 6:22-cv-00017 (S.D. Ga. Nov. 3, 2022)\",\"link_md\":\"[Owners Ins. Co. v. Holley, No. 6:22-cv-00017 (S.D. Ga. Nov. 3, 2022)](https://syfert.com/federal/district/cases/cl-9662537/owners-insurance-company-v-holley)\",\"match_kind\":\"semantic\",\"similarity\":0.6495},{\"cluster_id\":9351335,\"case_name\":\"Tipton v. Fleet Maintenance Co.\",\"citations\":[\"140 N.E.2d 439\",\"75 Ohio Law. Abs. 204\",\"1957 Ohio Misc. LEXIS 333\"],\"court\":\"Fayette County Court of Common Pleas\",\"date_filed\":\"1957-02-20\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/ohio/cases/140-n-e-2d-439/tipton-v-fleet-maintenance-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tipton v. Fleet Maint. Co., 140 N.E.2d 439 (Ohio Ct. Com. Pl. 1957)\",\"link_md\":\"[Tipton v. Fleet Maint. Co., 140 N.E.2d 439 (Ohio Ct. Com. Pl. 1957)](https://syfert.com/ohio/cases/140-n-e-2d-439/tipton-v-fleet-maintenance-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6493},{\"cluster_id\":1301272,\"case_name\":\"MCC Financial Services, Inc. v. Duffel\",\"citations\":[\"220 S.E.2d 127\",\"265 S.C. 519\",\"1975 S.C. LEXIS 298\"],\"court\":\"Supreme Court of South Carolina\",\"date_filed\":\"1975-11-26\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/south-carolina/cases/265-s-c-519/mcc-financial-services-inc-v-duffel\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"MCC Fin. Servs., Inc. v. Duffel, 220 S.E.2d 127 (S.C. 1975)\",\"link_md\":\"[MCC Fin. Servs., Inc. v. Duffel, 220 S.E.2d 127 (S.C. 1975)](https://syfert.com/south-carolina/cases/265-s-c-519/mcc-financial-services-inc-v-duffel)\",\"match_kind\":\"semantic\",\"similarity\":0.6489},{\"cluster_id\":9927706,\"case_name\":\"Atchley v. Valais Ventures LLC\",\"citations\":[],\"court\":\"D. Oregon\",\"date_filed\":\"2021-12-16\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9927706/atchley-v-valais-ventures-llc\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Atchley v. Valais Ventures LLC, No. 3:21-cv-01301 (D. Or. Dec. 16, 2021)\",\"link_md\":\"[Atchley v. Valais Ventures LLC, No. 3:21-cv-01301 (D. Or. Dec. 16, 2021)](https://syfert.com/federal/district/cases/cl-9927706/atchley-v-valais-ventures-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.6483},{\"cluster_id\":7808559,\"case_name\":\"Ntca Corp. v. Associates Commercial Corp.\",\"citations\":[\"812 So. 2d 506\",\"2002 Fla. App. LEXIS 3558\",\"2002 WL 428868\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2002-03-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/812-so-2d-506/ntca-corp-v-associates-commercial-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ntca Corp. v. Assocs. Com. Corp., 812 So. 2d 506 (Fla. 3d DCA 2002)\",\"link_md\":\"[Ntca Corp. v. Assocs. Com. Corp., 812 So. 2d 506 (Fla. 3d DCA 2002)](https://syfert.com/florida/cases/812-so-2d-506/ntca-corp-v-associates-commercial-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6481},{\"cluster_id\":1244798,\"case_name\":\"State v. Wolff\",\"citations\":[\"512 N.W.2d 670\",\"1994 N.D. LEXIS 54\",\"1994 WL 51941\"],\"court\":\"North Dakota Supreme Court\",\"date_filed\":\"1994-02-23\",\"status\":\"Published\",\"cited_by\":10,\"url\":\"https://syfert.com/north-dakota/cases/512-n-w-2d-670/state-v-wolff\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Wolff, 512 N.W.2d 670 (N.D. 1994)\",\"link_md\":\"[State v. Wolff, 512 N.W.2d 670 (N.D. 1994)](https://syfert.com/north-dakota/cases/512-n-w-2d-670/state-v-wolff)\",\"match_kind\":\"semantic\",\"similarity\":0.6479},{\"cluster_id\":3267438,\"case_name\":\"The Bryant Truck Lines, Inc. v. Nance\",\"citations\":[\"134 S.W.2d 555\",\"199 Ark. 556\",\"1939 Ark. LEXIS 80\"],\"court\":\"Supreme Court of Arkansas\",\"date_filed\":\"1939-12-18\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/arkansas/cases/134-s-w-2d-555/the-bryant-truck-lines-inc-v-nance\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bryant Truck Lines, Inc. v. Nance, 134 S.W.2d 555 (Ark. 1939)\",\"link_md\":\"[Bryant Truck Lines, Inc. v. Nance, 134 S.W.2d 555 (Ark. 1939)](https://syfert.com/arkansas/cases/134-s-w-2d-555/the-bryant-truck-lines-inc-v-nance)\",\"match_kind\":\"semantic\",\"similarity\":0.6475}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Service w/15 \"307 NW2d 849\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3367509,
+    "case_name": "McManus v. the Stop Shop Companies Inc.",
+    "citations": [
+     "20 Conn. L. Rptr. 401",
+     "1997 Conn. Super. Ct. 10557"
+    ],
+    "court": "Connecticut Superior Court",
+    "date_filed": "1997-10-21",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/connecticut/cases/1997-conn-super-ct-10557/mcmanus-v-the-stop-shop-companies-inc-no-32-33-34-oct-21-1997",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "McManus v. Stop Shop Companies Inc., 20 Conn. L. Rptr. 401 (Conn. Super. Ct. 1997)",
+    "link_md": "[McManus v. Stop Shop Companies Inc., 20 Conn. L. Rptr. 401 (Conn. Super. Ct. 1997)](https://syfert.com/connecticut/cases/1997-conn-super-ct-10557/mcmanus-v-the-stop-shop-companies-inc-no-32-33-34-oct-21-1997)",
+    "match_kind": "semantic",
+    "similarity": 0.6942
+   },
+   {
+    "cluster_id": 2296620,
+    "case_name": "Wolfe v. Green",
+    "citations": [
+     "660 F. Supp. 2d 738",
+     "2009 U.S. Dist. LEXIS 30884",
+     "2009 WL 1054446"
+    ],
+    "court": "S.D. West Virginia",
+    "date_filed": "2009-04-09",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/district/cases/660-f-supp-2d-738/wolfe-v-green",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wolfe v. Green, 660 F. Supp. 2d 738 (S.D. W. Va. 2009)",
+    "link_md": "[Wolfe v. Green, 660 F. Supp. 2d 738 (S.D. W. Va. 2009)](https://syfert.com/federal/district/cases/660-f-supp-2d-738/wolfe-v-green)",
+    "match_kind": "semantic",
+    "similarity": 0.6574
+   },
+   {
+    "cluster_id": 2162135,
+    "case_name": "IFC Collateral Corp. v. Commercial Units, Inc.",
+    "citations": [
+     "168 N.W.2d 124",
+     "43 Wis. 2d 98",
+     "1969 Wisc. LEXIS 957"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "1969-06-03",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/wisconsin/cases/43-wis-2d-98/ifc-collateral-corp-v-commercial-units-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "IFC Collateral Corp. v. Com. Units, Inc., 168 N.W.2d 124 (Wis. 1969)",
+    "link_md": "[IFC Collateral Corp. v. Com. Units, Inc., 168 N.W.2d 124 (Wis. 1969)](https://syfert.com/wisconsin/cases/43-wis-2d-98/ifc-collateral-corp-v-commercial-units-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6571
+   },
+   {
+    "cluster_id": 2356384,
+    "case_name": "City of Philadelphia v. Davis",
+    "citations": [
+     "373 A.2d 1154",
+     "30 Pa. Commw. 34",
+     "1977 Pa. Commw. LEXIS 836"
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "1977-05-03",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/pennsylvania/cases/30-pa-commw-34/city-of-philadelphia-v-davis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Philadelphia v. Davis, 373 A.2d 1154 (Pa. Commw. Ct. 1977)",
+    "link_md": "[City of Philadelphia v. Davis, 373 A.2d 1154 (Pa. Commw. Ct. 1977)](https://syfert.com/pennsylvania/cases/30-pa-commw-34/city-of-philadelphia-v-davis)",
+    "match_kind": "semantic",
+    "similarity": 0.6562
+   },
+   {
+    "cluster_id": 6491347,
+    "case_name": "City of Philadelphia v. Campbell",
+    "citations": [
+     "378 A.2d 1043",
+     "32 Pa. Commw. 166",
+     "1977 Pa. Commw. LEXIS 1081"
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "1977-10-21",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/pennsylvania/cases/32-pa-commw-166/city-of-philadelphia-v-campbell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Philadelphia v. Campbell, 378 A.2d 1043 (Pa. Commw. Ct. 1977)",
+    "link_md": "[City of Philadelphia v. Campbell, 378 A.2d 1043 (Pa. Commw. Ct. 1977)](https://syfert.com/pennsylvania/cases/32-pa-commw-166/city-of-philadelphia-v-campbell)",
+    "match_kind": "semantic",
+    "similarity": 0.6549
+   },
+   {
+    "cluster_id": 9040211,
+    "case_name": "United States v. Rhoades",
+    "citations": [
+     "14 F.R.D. 373",
+     "1953 U.S. Dist. LEXIS 3860"
+    ],
+    "court": "D. Colorado",
+    "date_filed": "1953-07-03",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/district/cases/cl-9040211/united-states-v-rhoades",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Rhoades, 14 F.R.D. 373 (D. Colo. 1953)",
+    "link_md": "[United States v. Rhoades, 14 F.R.D. 373 (D. Colo. 1953)](https://syfert.com/federal/district/cases/cl-9040211/united-states-v-rhoades)",
+    "match_kind": "semantic",
+    "similarity": 0.6546
+   },
+   {
+    "cluster_id": 2358460,
+    "case_name": "SECURITY SERVICES NORTHWEST, INC. v. Jefferson County",
+    "citations": [
+     "245 P.3d 227",
+     "170 Wash. 2d 1006"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "2010-11-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/170-wash-2d-1006/security-services-northwest-inc-v-jefferson-county",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sec. Servs. Nw., Inc. v. Jefferson Cnty., 245 P.3d 227 (Wash. 2010)",
+    "link_md": "[Sec. Servs. Nw., Inc. v. Jefferson Cnty., 245 P.3d 227 (Wash. 2010)](https://syfert.com/washington/cases/170-wash-2d-1006/security-services-northwest-inc-v-jefferson-county)",
+    "match_kind": "semantic",
+    "similarity": 0.6546
+   },
+   {
+    "cluster_id": 10981138,
+    "case_name": "Francine Hancock v. Beauty Fashion Sales Group Inc.",
+    "citations": [],
+    "court": "S.D. New York",
+    "date_filed": "2026-08-28",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10981138/francine-hancock-aka-francine-colloro-v-beauty-fashion-sales-group",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Hancock, No. 1:24-cv-03921 (S.D.N.Y. Aug. 28, 2026)",
+    "link_md": "[Hancock, No. 1:24-cv-03921 (S.D.N.Y. Aug. 28, 2026)](https://syfert.com/federal/district/cases/cl-10981138/francine-hancock-aka-francine-colloro-v-beauty-fashion-sales-group)",
+    "match_kind": "semantic",
+    "similarity": 0.6545
+   },
+   {
+    "cluster_id": 8710935,
+    "case_name": "Anderson v. John Royle & Sons",
+    "citations": [
+     "784 F. Supp. 955",
+     "1992 U.S. Dist. LEXIS 2235",
+     "1992 WL 37646"
+    ],
+    "court": "N.D. New York",
+    "date_filed": "1992-02-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/784-f-supp-955/anderson-v-john-royle-sons",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Anderson v. John Royle & Sons, 784 F. Supp. 955 (N.D.N.Y. 1992)",
+    "link_md": "[Anderson v. John Royle & Sons, 784 F. Supp. 955 (N.D.N.Y. 1992)](https://syfert.com/federal/district/cases/784-f-supp-955/anderson-v-john-royle-sons)",
+    "match_kind": "semantic",
+    "similarity": 0.653
+   },
+   {
+    "cluster_id": 9772333,
+    "case_name": "Dougherty v. Dormont Manufacturing Company",
+    "citations": [],
+    "court": "E.D. Missouri",
+    "date_filed": "2023-07-10",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9772333/dougherty-v-dormont-manufacturing-company",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Dougherty v. Dormont Mfg. Co., No. 4:22-cv-00700 (E.D. Mo. July 10, 2023)",
+    "link_md": "[Dougherty v. Dormont Mfg. Co., No. 4:22-cv-00700 (E.D. Mo. July 10, 2023)](https://syfert.com/federal/district/cases/cl-9772333/dougherty-v-dormont-manufacturing-company)",
+    "match_kind": "semantic",
+    "similarity": 0.6513
+   },
+   {
+    "cluster_id": 2521112,
+    "case_name": "Manius v. Boyd",
+    "citations": [
+     "47 P.3d 145",
+     "111 Wash. App. 764"
+    ],
+    "court": "Court of Appeals of Washington",
+    "date_filed": "2002-05-17",
+    "status": "Published",
+    "cited_by": 47,
+    "disposition": "reversed in part",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/washington/cases/47-p-3d-145/manius-v-boyd",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (2521112 and its twin 4933486).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Manius v. Boyd, 47 P.3d 145 (Wash. Ct. App. 2002)",
+    "link_md": "[Manius v. Boyd, 47 P.3d 145 (Wash. Ct. App. 2002)](https://syfert.com/washington/cases/47-p-3d-145/manius-v-boyd)",
+    "match_kind": "semantic",
+    "similarity": 0.6509,
+    "twin_clusters": [
+     4933486
+    ]
+   },
+   {
+    "cluster_id": 9779134,
+    "case_name": "SNH Medical Office Properties Trust v. Southern Neurologic & Spinal Institute, PA",
+    "citations": [],
+    "court": "S.D. Mississippi",
+    "date_filed": "2019-10-03",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9779134/snh-medical-office-properties-trust-v-southern-neurologic-spinal",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "SNH Med. Off. Props. Trust v. S. Neurologic & Spinal Inst., PA, No. 2:19-cv-00083 (S.D. Miss. Oct. 3, 2019)",
+    "link_md": "[SNH Med. Off. Props. Trust v. S. Neurologic & Spinal Inst., PA, No. 2:19-cv-00083 (S.D. Miss. Oct. 3, 2019)](https://syfert.com/federal/district/cases/cl-9779134/snh-medical-office-properties-trust-v-southern-neurologic-spinal)",
+    "match_kind": "semantic",
+    "similarity": 0.6504
+   },
+   {
+    "cluster_id": 7558816,
+    "case_name": "Ward v. Gibson",
+    "citations": [
+     "349 So. 2d 173",
+     "1976 Fla. App. LEXIS 16202"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "1976-06-15",
+    "status": "Published",
+    "cited_by": 2,
+    "disposition": "reversed",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/florida/cases/349-so-2d-173/ward-v-gibson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ward v. Gibson, 349 So. 2d 173 (Fla. 3d DCA 1976)",
+    "link_md": "[Ward v. Gibson, 349 So. 2d 173 (Fla. 3d DCA 1976)](https://syfert.com/florida/cases/349-so-2d-173/ward-v-gibson)",
+    "match_kind": "semantic",
+    "similarity": 0.6496
+   },
+   {
+    "cluster_id": 9662537,
+    "case_name": "Owners Insurance Company v. Holley",
+    "citations": [],
+    "court": "S.D. Georgia",
+    "date_filed": "2022-11-03",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9662537/owners-insurance-company-v-holley",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Owners Ins. Co. v. Holley, No. 6:22-cv-00017 (S.D. Ga. Nov. 3, 2022)",
+    "link_md": "[Owners Ins. Co. v. Holley, No. 6:22-cv-00017 (S.D. Ga. Nov. 3, 2022)](https://syfert.com/federal/district/cases/cl-9662537/owners-insurance-company-v-holley)",
+    "match_kind": "semantic",
+    "similarity": 0.6495
+   },
+   {
+    "cluster_id": 9351335,
+    "case_name": "Tipton v. Fleet Maintenance Co.",
+    "citations": [
+     "140 N.E.2d 439",
+     "75 Ohio Law. Abs. 204",
+     "1957 Ohio Misc. LEXIS 333"
+    ],
+    "court": "Fayette County Court of Common Pleas",
+    "date_filed": "1957-02-20",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/ohio/cases/140-n-e-2d-439/tipton-v-fleet-maintenance-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tipton v. Fleet Maint. Co., 140 N.E.2d 439 (Ohio Ct. Com. Pl. 1957)",
+    "link_md": "[Tipton v. Fleet Maint. Co., 140 N.E.2d 439 (Ohio Ct. Com. Pl. 1957)](https://syfert.com/ohio/cases/140-n-e-2d-439/tipton-v-fleet-maintenance-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6493
+   },
+   {
+    "cluster_id": 1301272,
+    "case_name": "MCC Financial Services, Inc. v. Duffel",
+    "citations": [
+     "220 S.E.2d 127",
+     "265 S.C. 519",
+     "1975 S.C. LEXIS 298"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1975-11-26",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/south-carolina/cases/265-s-c-519/mcc-financial-services-inc-v-duffel",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "MCC Fin. Servs., Inc. v. Duffel, 220 S.E.2d 127 (S.C. 1975)",
+    "link_md": "[MCC Fin. Servs., Inc. v. Duffel, 220 S.E.2d 127 (S.C. 1975)](https://syfert.com/south-carolina/cases/265-s-c-519/mcc-financial-services-inc-v-duffel)",
+    "match_kind": "semantic",
+    "similarity": 0.6489
+   },
+   {
+    "cluster_id": 9927706,
+    "case_name": "Atchley v. Valais Ventures LLC",
+    "citations": [],
+    "court": "D. Oregon",
+    "date_filed": "2021-12-16",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9927706/atchley-v-valais-ventures-llc",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Atchley v. Valais Ventures LLC, No. 3:21-cv-01301 (D. Or. Dec. 16, 2021)",
+    "link_md": "[Atchley v. Valais Ventures LLC, No. 3:21-cv-01301 (D. Or. Dec. 16, 2021)](https://syfert.com/federal/district/cases/cl-9927706/atchley-v-valais-ventures-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.6483
+   },
+   {
+    "cluster_id": 7808559,
+    "case_name": "Ntca Corp. v. Associates Commercial Corp.",
+    "citations": [
+     "812 So. 2d 506",
+     "2002 Fla. App. LEXIS 3558",
+     "2002 WL 428868"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2002-03-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/812-so-2d-506/ntca-corp-v-associates-commercial-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ntca Corp. v. Assocs. Com. Corp., 812 So. 2d 506 (Fla. 3d DCA 2002)",
+    "link_md": "[Ntca Corp. v. Assocs. Com. Corp., 812 So. 2d 506 (Fla. 3d DCA 2002)](https://syfert.com/florida/cases/812-so-2d-506/ntca-corp-v-associates-commercial-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6481
+   },
+   {
+    "cluster_id": 1244798,
+    "case_name": "State v. Wolff",
+    "citations": [
+     "512 N.W.2d 670",
+     "1994 N.D. LEXIS 54",
+     "1994 WL 51941"
+    ],
+    "court": "North Dakota Supreme Court",
+    "date_filed": "1994-02-23",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/north-dakota/cases/512-n-w-2d-670/state-v-wolff",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Wolff, 512 N.W.2d 670 (N.D. 1994)",
+    "link_md": "[State v. Wolff, 512 N.W.2d 670 (N.D. 1994)](https://syfert.com/north-dakota/cases/512-n-w-2d-670/state-v-wolff)",
+    "match_kind": "semantic",
+    "similarity": 0.6479
+   },
+   {
+    "cluster_id": 3267438,
+    "case_name": "The Bryant Truck Lines, Inc. v. Nance",
+    "citations": [
+     "134 S.W.2d 555",
+     "199 Ark. 556",
+     "1939 Ark. LEXIS 80"
+    ],
+    "court": "Supreme Court of Arkansas",
+    "date_filed": "1939-12-18",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/arkansas/cases/134-s-w-2d-555/the-bryant-truck-lines-inc-v-nance",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bryant Truck Lines, Inc. v. Nance, 134 S.W.2d 555 (Ark. 1939)",
+    "link_md": "[Bryant Truck Lines, Inc. v. Nance, 134 S.W.2d 555 (Ark. 1939)](https://syfert.com/arkansas/cases/134-s-w-2d-555/the-bryant-truck-lines-inc-v-nance)",
+    "match_kind": "semantic",
+    "similarity": 0.6475
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

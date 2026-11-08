@@ -1,0 +1,38 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "162 S.E. 94",
+  "expected_case_name": "Moseley v. Southern Railway Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"162 S.E. 94\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4116993,\n            \"case_name\": \"Moseley v. Southern Railway Co.\",\n            \"citations\": [\n                \"162 S.E. 94\"\n            ],\n            \"court\": \"Supreme Court of South Carolina\",\n            \"date_filed\": \"1932-01-07\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/south-carolina/cases/164-s-c-193/moseley-v-southern-railway-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Moseley v. S. Ry. Co., 162 S.E. 94 (S.C. 1932)\",\n            \"link_md\": \"[Moseley v. S. Ry. Co., 162 S.E. 94 (S.C. 1932)](https://syfert.com/south-carolina/cases/164-s-c-193/moseley-v-southern-railway-co)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Moseley v. Southern Railway Co.\",\n        \"actual\": \"Moseley v. Southern Railway Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "162 S.E. 94",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4116993,
+    "case_name": "Moseley v. Southern Railway Co.",
+    "citations": [
+     "162 S.E. 94"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1932-01-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/south-carolina/cases/164-s-c-193/moseley-v-southern-railway-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Moseley v. S. Ry. Co., 162 S.E. 94 (S.C. 1932)",
+    "link_md": "[Moseley v. S. Ry. Co., 162 S.E. 94 (S.C. 1932)](https://syfert.com/south-carolina/cases/164-s-c-193/moseley-v-southern-railway-co)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Moseley v. Southern Railway Co.",
+   "actual": "Moseley v. Southern Railway Co.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

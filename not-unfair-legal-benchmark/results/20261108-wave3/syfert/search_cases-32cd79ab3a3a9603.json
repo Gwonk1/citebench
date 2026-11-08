@@ -1,0 +1,408 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Wheeler w/15 \"136 OrApp 1\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Wheeler w/15 \\\"136 OrApp 1\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2338848,\"case_name\":\"Wheeler v. State\",\"citations\":[\"268 P.3d 162\",\"246 Or. App. 788\"],\"court\":\"Court of Appeals of Oregon\",\"date_filed\":\"2011-12-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/oregon/cases/246-or-app-788/wheeler-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wheeler v. State, 268 P.3d 162 (Or. Ct. App. 2011)\",\"link_md\":\"[Wheeler v. State, 268 P.3d 162 (Or. Ct. App. 2011)](https://syfert.com/oregon/cases/246-or-app-788/wheeler-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7409},{\"cluster_id\":4910552,\"case_name\":\"State v. Wheeler\",\"citations\":[\"380 P.3d 454\",\"186 Wash. 2d 1005\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"2016-08-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/186-wash-2d-1005/state-v-wheeler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Wheeler, 380 P.3d 454 (Wash. 2016)\",\"link_md\":\"[State v. Wheeler, 380 P.3d 454 (Wash. 2016)](https://syfert.com/washington/cases/186-wash-2d-1005/state-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.6958},{\"cluster_id\":381217,\"case_name\":\"Wheeler v. Davis\",\"citations\":[\"627 F.2d 1094\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1980-07-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/627-f-2d-1094/wheeler-v-davis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wheeler v. Davis, 627 F.2d 1094 (6th Cir. 1980)\",\"link_md\":\"[Wheeler v. Davis, 627 F.2d 1094 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/627-f-2d-1094/wheeler-v-davis)\",\"match_kind\":\"semantic\",\"similarity\":0.6886},{\"cluster_id\":2631686,\"case_name\":\"Whiteley v. BELLEQUE\",\"citations\":[\"138 P.3d 62\",\"206 Or. App. 520\"],\"court\":\"Court of Appeals of Oregon\",\"date_filed\":\"2006-06-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/oregon/cases/206-or-app-520/whiteley-v-belleque\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Whiteley v. BELLEQUE, 138 P.3d 62 (Or. Ct. App. 2006)\",\"link_md\":\"[Whiteley v. BELLEQUE, 138 P.3d 62 (Or. Ct. App. 2006)](https://syfert.com/oregon/cases/206-or-app-520/whiteley-v-belleque)\",\"match_kind\":\"semantic\",\"similarity\":0.6869},{\"cluster_id\":2630822,\"case_name\":\"Hewitt v. Hill\",\"citations\":[\"132 P.3d 62\",\"204 Or. App. 780\"],\"court\":\"Court of Appeals of Oregon\",\"date_filed\":\"2006-03-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/oregon/cases/204-or-app-780/hewitt-v-hill\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hewitt v. Hill, 132 P.3d 62 (Or. Ct. App. 2006)\",\"link_md\":\"[Hewitt v. Hill, 132 P.3d 62 (Or. Ct. App. 2006)](https://syfert.com/oregon/cases/204-or-app-780/hewitt-v-hill)\",\"match_kind\":\"semantic\",\"similarity\":0.6855},{\"cluster_id\":2499205,\"case_name\":\"State v. Wheeler\",\"citations\":[\"274 P.3d 894\",\"249 Or. App. 259\",\"2012 WL 1138920\",\"2012 Ore. App. LEXIS 402\"],\"court\":\"Court of Appeals of Oregon\",\"date_filed\":\"2012-04-04\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/oregon/cases/249-or-app-259/state-v-wheeler\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (2499205 and its twin 7049976).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Wheeler, 274 P.3d 894 (Or. Ct. App. 2012)\",\"link_md\":\"[State v. Wheeler, 274 P.3d 894 (Or. Ct. App. 2012)](https://syfert.com/oregon/cases/249-or-app-259/state-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.6831},{\"cluster_id\":2586240,\"case_name\":\"Anderson v. Wheeler\",\"citations\":[\"162 P.3d 988\",\"343 Or. 115\",\"2007 Ore. LEXIS 632\"],\"court\":\"Oregon Supreme Court\",\"date_filed\":\"2007-06-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/oregon/cases/343-or-115/anderson-v-wheeler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Anderson v. Wheeler, 162 P.3d 988 (Or. 2007)\",\"link_md\":\"[Anderson v. Wheeler, 162 P.3d 988 (Or. 2007)](https://syfert.com/oregon/cases/343-or-115/anderson-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.6812},{\"cluster_id\":2636178,\"case_name\":\"State v. Wheeler\",\"citations\":[\"195 P.3d 87\",\"164 Wash. 2d 1017\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"2008-09-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/164-wash-2d-1017/state-v-wheeler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Wheeler, 195 P.3d 87 (Wash. 2008)\",\"link_md\":\"[State v. Wheeler, 195 P.3d 87 (Wash. 2008)](https://syfert.com/washington/cases/164-wash-2d-1017/state-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.6791},{\"cluster_id\":2586194,\"case_name\":\"Anderson v. Wheeler\",\"citations\":[\"156 P.3d 174\",\"211 Or. App. 712\"],\"court\":\"Court of Appeals of Oregon\",\"date_filed\":\"2007-04-04\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/oregon/cases/211-or-app-712/anderson-v-wheeler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Anderson v. Wheeler, 156 P.3d 174 (Or. Ct. App. 2007)\",\"link_md\":\"[Anderson v. Wheeler, 156 P.3d 174 (Or. Ct. App. 2007)](https://syfert.com/oregon/cases/211-or-app-712/anderson-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.6779},{\"cluster_id\":1848021,\"case_name\":\"State v. Wheeler\",\"citations\":[\"775 N.W.2d 101\",\"2009 WI 99\",\"319 Wis. 2d 212\",\"2009 Wisc. LEXIS 457\"],\"court\":\"Wisconsin Supreme Court\",\"date_filed\":\"2009-05-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/wisconsin/cases/319-wis-2d-212/state-v-wheeler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Wheeler, 2009 WI 99, 775 N.W.2d 101\",\"link_md\":\"[State v. Wheeler, 2009 WI 99, 775 N.W.2d 101](https://syfert.com/wisconsin/cases/319-wis-2d-212/state-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.675},{\"cluster_id\":2517129,\"case_name\":\"Werby v. Belleque\",\"citations\":[\"185 P.3d 571\",\"220 Or. App. 131\"],\"court\":\"Court of Appeals of Oregon\",\"date_filed\":\"2008-05-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/oregon/cases/220-or-app-131/werby-v-belleque\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Werby v. Belleque, 185 P.3d 571 (Or. Ct. App. 2008)\",\"link_md\":\"[Werby v. Belleque, 185 P.3d 571 (Or. Ct. App. 2008)](https://syfert.com/oregon/cases/220-or-app-131/werby-v-belleque)\",\"match_kind\":\"semantic\",\"similarity\":0.674},{\"cluster_id\":6967253,\"case_name\":\"United States v. Wheeler\",\"citations\":[\"79 F.2d 1017\",\"1935 U.S. App. LEXIS 4456\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1935-10-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/79-f-2d-1017/united-states-v-wheeler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Wheeler, 79 F.2d 1017 (9th Cir. 1935)\",\"link_md\":\"[United States v. Wheeler, 79 F.2d 1017 (9th Cir. 1935)](https://syfert.com/federal/circuits/cases/79-f-2d-1017/united-states-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.6725},{\"cluster_id\":2575758,\"case_name\":\"Lee v. BLACKETTER\",\"citations\":[\"136 P.3d 757\",\"206 Or. App. 237\"],\"court\":\"Court of Appeals of Oregon\",\"date_filed\":\"2006-05-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/oregon/cases/206-or-app-237/lee-v-blacketter\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lee v. Blacketter, 136 P.3d 757 (Or. Ct. App. 2006)\",\"link_md\":\"[Lee v. Blacketter, 136 P.3d 757 (Or. Ct. App. 2006)](https://syfert.com/oregon/cases/206-or-app-237/lee-v-blacketter)\",\"match_kind\":\"semantic\",\"similarity\":0.6692},{\"cluster_id\":326537,\"case_name\":\"Buchanan v. Wheeler\",\"citations\":[\"513 F.2d 630\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1975-04-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/513-f-2d-630/buchanan-v-wheeler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Buchanan v. Wheeler, 513 F.2d 630 (6th Cir. 1975)\",\"link_md\":\"[Buchanan v. Wheeler, 513 F.2d 630 (6th Cir. 1975)](https://syfert.com/federal/circuits/cases/513-f-2d-630/buchanan-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.669},{\"cluster_id\":411509,\"case_name\":\"Wheeler v. State of N. C\",\"citations\":[\"694 F.2d 718\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-11-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/694-f-2d-718/wheeler-v-state-of-n-c\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wheeler v. State of N. C, 694 F.2d 718 (4th Cir. 1982)\",\"link_md\":\"[Wheeler v. State of N. C, 694 F.2d 718 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/694-f-2d-718/wheeler-v-state-of-n-c)\",\"match_kind\":\"semantic\",\"similarity\":0.6663},{\"cluster_id\":716522,\"case_name\":\"Wheeler v. Dekalb County, Georgia\",\"citations\":[\"81 F.3d 175\",\"1996 WL 125138\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-03-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/81-f-3d-175/wheeler-v-dekalb-county-georgia\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wheeler v. Dekalb Cnty., 81 F.3d 175 (11th Cir. 1996)\",\"link_md\":\"[Wheeler v. Dekalb Cnty., 81 F.3d 175 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/81-f-3d-175/wheeler-v-dekalb-county-georgia)\",\"match_kind\":\"semantic\",\"similarity\":0.666},{\"cluster_id\":1611662,\"case_name\":\"Wheeler v. State\",\"citations\":[\"11 So. 3d 945\",\"2009 WL 1816107\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-06-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/11-so-3d-945/wheeler-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wheeler v. State, 11 So. 3d 945 (Fla. 1st DCA 2009)\",\"link_md\":\"[Wheeler v. State, 11 So. 3d 945 (Fla. 1st DCA 2009)](https://syfert.com/florida/cases/11-so-3d-945/wheeler-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6648},{\"cluster_id\":1587916,\"case_name\":\"Wheeler v. State\",\"citations\":[\"944 So. 2d 356\",\"2006 WL 2738922\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2006-11-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/944-so-2d-356/wheeler-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wheeler v. State, 944 So. 2d 356 (Fla. 1st DCA 2006)\",\"link_md\":\"[Wheeler v. State, 944 So. 2d 356 (Fla. 1st DCA 2006)](https://syfert.com/florida/cases/944-so-2d-356/wheeler-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6644},{\"cluster_id\":2640242,\"case_name\":\"Werby v. Belleque\",\"citations\":[\"190 P.3d 380\",\"345 Or. 159\"],\"court\":\"Oregon Supreme Court\",\"date_filed\":\"2008-07-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/oregon/cases/345-or-159/werby-v-belleque\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Werby v. Belleque, 190 P.3d 380 (Or. 2008)\",\"link_md\":\"[Werby v. Belleque, 190 P.3d 380 (Or. 2008)](https://syfert.com/oregon/cases/345-or-159/werby-v-belleque)\",\"match_kind\":\"semantic\",\"similarity\":0.662},{\"cluster_id\":1870607,\"case_name\":\"State v. Wheeler\",\"citations\":[\"763 N.W.2d 248\",\"2009 WI App 21\",\"316 Wis. 2d 356\"],\"court\":\"Court of Appeals of Wisconsin\",\"date_filed\":\"2008-12-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/wisconsin/cases/316-wis-2d-356/state-v-wheeler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Wheeler, 2009 WI App 21, 763 N.W.2d 248\",\"link_md\":\"[State v. Wheeler, 2009 WI App 21, 763 N.W.2d 248](https://syfert.com/wisconsin/cases/316-wis-2d-356/state-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.6619}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Wheeler w/15 \"136 OrApp 1\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2338848,
+    "case_name": "Wheeler v. State",
+    "citations": [
+     "268 P.3d 162",
+     "246 Or. App. 788"
+    ],
+    "court": "Court of Appeals of Oregon",
+    "date_filed": "2011-12-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/oregon/cases/246-or-app-788/wheeler-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wheeler v. State, 268 P.3d 162 (Or. Ct. App. 2011)",
+    "link_md": "[Wheeler v. State, 268 P.3d 162 (Or. Ct. App. 2011)](https://syfert.com/oregon/cases/246-or-app-788/wheeler-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7409
+   },
+   {
+    "cluster_id": 4910552,
+    "case_name": "State v. Wheeler",
+    "citations": [
+     "380 P.3d 454",
+     "186 Wash. 2d 1005"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "2016-08-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/186-wash-2d-1005/state-v-wheeler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Wheeler, 380 P.3d 454 (Wash. 2016)",
+    "link_md": "[State v. Wheeler, 380 P.3d 454 (Wash. 2016)](https://syfert.com/washington/cases/186-wash-2d-1005/state-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.6958
+   },
+   {
+    "cluster_id": 381217,
+    "case_name": "Wheeler v. Davis",
+    "citations": [
+     "627 F.2d 1094"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1980-07-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/627-f-2d-1094/wheeler-v-davis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wheeler v. Davis, 627 F.2d 1094 (6th Cir. 1980)",
+    "link_md": "[Wheeler v. Davis, 627 F.2d 1094 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/627-f-2d-1094/wheeler-v-davis)",
+    "match_kind": "semantic",
+    "similarity": 0.6886
+   },
+   {
+    "cluster_id": 2631686,
+    "case_name": "Whiteley v. BELLEQUE",
+    "citations": [
+     "138 P.3d 62",
+     "206 Or. App. 520"
+    ],
+    "court": "Court of Appeals of Oregon",
+    "date_filed": "2006-06-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/oregon/cases/206-or-app-520/whiteley-v-belleque",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Whiteley v. BELLEQUE, 138 P.3d 62 (Or. Ct. App. 2006)",
+    "link_md": "[Whiteley v. BELLEQUE, 138 P.3d 62 (Or. Ct. App. 2006)](https://syfert.com/oregon/cases/206-or-app-520/whiteley-v-belleque)",
+    "match_kind": "semantic",
+    "similarity": 0.6869
+   },
+   {
+    "cluster_id": 2630822,
+    "case_name": "Hewitt v. Hill",
+    "citations": [
+     "132 P.3d 62",
+     "204 Or. App. 780"
+    ],
+    "court": "Court of Appeals of Oregon",
+    "date_filed": "2006-03-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/oregon/cases/204-or-app-780/hewitt-v-hill",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hewitt v. Hill, 132 P.3d 62 (Or. Ct. App. 2006)",
+    "link_md": "[Hewitt v. Hill, 132 P.3d 62 (Or. Ct. App. 2006)](https://syfert.com/oregon/cases/204-or-app-780/hewitt-v-hill)",
+    "match_kind": "semantic",
+    "similarity": 0.6855
+   },
+   {
+    "cluster_id": 2499205,
+    "case_name": "State v. Wheeler",
+    "citations": [
+     "274 P.3d 894",
+     "249 Or. App. 259",
+     "2012 WL 1138920",
+     "2012 Ore. App. LEXIS 402"
+    ],
+    "court": "Court of Appeals of Oregon",
+    "date_filed": "2012-04-04",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/oregon/cases/249-or-app-259/state-v-wheeler",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (2499205 and its twin 7049976).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Wheeler, 274 P.3d 894 (Or. Ct. App. 2012)",
+    "link_md": "[State v. Wheeler, 274 P.3d 894 (Or. Ct. App. 2012)](https://syfert.com/oregon/cases/249-or-app-259/state-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.6831
+   },
+   {
+    "cluster_id": 2586240,
+    "case_name": "Anderson v. Wheeler",
+    "citations": [
+     "162 P.3d 988",
+     "343 Or. 115",
+     "2007 Ore. LEXIS 632"
+    ],
+    "court": "Oregon Supreme Court",
+    "date_filed": "2007-06-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/oregon/cases/343-or-115/anderson-v-wheeler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Anderson v. Wheeler, 162 P.3d 988 (Or. 2007)",
+    "link_md": "[Anderson v. Wheeler, 162 P.3d 988 (Or. 2007)](https://syfert.com/oregon/cases/343-or-115/anderson-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.6812
+   },
+   {
+    "cluster_id": 2636178,
+    "case_name": "State v. Wheeler",
+    "citations": [
+     "195 P.3d 87",
+     "164 Wash. 2d 1017"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "2008-09-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/164-wash-2d-1017/state-v-wheeler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Wheeler, 195 P.3d 87 (Wash. 2008)",
+    "link_md": "[State v. Wheeler, 195 P.3d 87 (Wash. 2008)](https://syfert.com/washington/cases/164-wash-2d-1017/state-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.6791
+   },
+   {
+    "cluster_id": 2586194,
+    "case_name": "Anderson v. Wheeler",
+    "citations": [
+     "156 P.3d 174",
+     "211 Or. App. 712"
+    ],
+    "court": "Court of Appeals of Oregon",
+    "date_filed": "2007-04-04",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/oregon/cases/211-or-app-712/anderson-v-wheeler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Anderson v. Wheeler, 156 P.3d 174 (Or. Ct. App. 2007)",
+    "link_md": "[Anderson v. Wheeler, 156 P.3d 174 (Or. Ct. App. 2007)](https://syfert.com/oregon/cases/211-or-app-712/anderson-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.6779
+   },
+   {
+    "cluster_id": 1848021,
+    "case_name": "State v. Wheeler",
+    "citations": [
+     "775 N.W.2d 101",
+     "2009 WI 99",
+     "319 Wis. 2d 212",
+     "2009 Wisc. LEXIS 457"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "2009-05-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/wisconsin/cases/319-wis-2d-212/state-v-wheeler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Wheeler, 2009 WI 99, 775 N.W.2d 101",
+    "link_md": "[State v. Wheeler, 2009 WI 99, 775 N.W.2d 101](https://syfert.com/wisconsin/cases/319-wis-2d-212/state-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.675
+   },
+   {
+    "cluster_id": 2517129,
+    "case_name": "Werby v. Belleque",
+    "citations": [
+     "185 P.3d 571",
+     "220 Or. App. 131"
+    ],
+    "court": "Court of Appeals of Oregon",
+    "date_filed": "2008-05-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/oregon/cases/220-or-app-131/werby-v-belleque",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Werby v. Belleque, 185 P.3d 571 (Or. Ct. App. 2008)",
+    "link_md": "[Werby v. Belleque, 185 P.3d 571 (Or. Ct. App. 2008)](https://syfert.com/oregon/cases/220-or-app-131/werby-v-belleque)",
+    "match_kind": "semantic",
+    "similarity": 0.674
+   },
+   {
+    "cluster_id": 6967253,
+    "case_name": "United States v. Wheeler",
+    "citations": [
+     "79 F.2d 1017",
+     "1935 U.S. App. LEXIS 4456"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1935-10-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/79-f-2d-1017/united-states-v-wheeler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Wheeler, 79 F.2d 1017 (9th Cir. 1935)",
+    "link_md": "[United States v. Wheeler, 79 F.2d 1017 (9th Cir. 1935)](https://syfert.com/federal/circuits/cases/79-f-2d-1017/united-states-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.6725
+   },
+   {
+    "cluster_id": 2575758,
+    "case_name": "Lee v. BLACKETTER",
+    "citations": [
+     "136 P.3d 757",
+     "206 Or. App. 237"
+    ],
+    "court": "Court of Appeals of Oregon",
+    "date_filed": "2006-05-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/oregon/cases/206-or-app-237/lee-v-blacketter",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lee v. Blacketter, 136 P.3d 757 (Or. Ct. App. 2006)",
+    "link_md": "[Lee v. Blacketter, 136 P.3d 757 (Or. Ct. App. 2006)](https://syfert.com/oregon/cases/206-or-app-237/lee-v-blacketter)",
+    "match_kind": "semantic",
+    "similarity": 0.6692
+   },
+   {
+    "cluster_id": 326537,
+    "case_name": "Buchanan v. Wheeler",
+    "citations": [
+     "513 F.2d 630"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1975-04-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/513-f-2d-630/buchanan-v-wheeler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Buchanan v. Wheeler, 513 F.2d 630 (6th Cir. 1975)",
+    "link_md": "[Buchanan v. Wheeler, 513 F.2d 630 (6th Cir. 1975)](https://syfert.com/federal/circuits/cases/513-f-2d-630/buchanan-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.669
+   },
+   {
+    "cluster_id": 411509,
+    "case_name": "Wheeler v. State of N. C",
+    "citations": [
+     "694 F.2d 718"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-11-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/694-f-2d-718/wheeler-v-state-of-n-c",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wheeler v. State of N. C, 694 F.2d 718 (4th Cir. 1982)",
+    "link_md": "[Wheeler v. State of N. C, 694 F.2d 718 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/694-f-2d-718/wheeler-v-state-of-n-c)",
+    "match_kind": "semantic",
+    "similarity": 0.6663
+   },
+   {
+    "cluster_id": 716522,
+    "case_name": "Wheeler v. Dekalb County, Georgia",
+    "citations": [
+     "81 F.3d 175",
+     "1996 WL 125138"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-03-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/81-f-3d-175/wheeler-v-dekalb-county-georgia",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wheeler v. Dekalb Cnty., 81 F.3d 175 (11th Cir. 1996)",
+    "link_md": "[Wheeler v. Dekalb Cnty., 81 F.3d 175 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/81-f-3d-175/wheeler-v-dekalb-county-georgia)",
+    "match_kind": "semantic",
+    "similarity": 0.666
+   },
+   {
+    "cluster_id": 1611662,
+    "case_name": "Wheeler v. State",
+    "citations": [
+     "11 So. 3d 945",
+     "2009 WL 1816107"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-06-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/11-so-3d-945/wheeler-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wheeler v. State, 11 So. 3d 945 (Fla. 1st DCA 2009)",
+    "link_md": "[Wheeler v. State, 11 So. 3d 945 (Fla. 1st DCA 2009)](https://syfert.com/florida/cases/11-so-3d-945/wheeler-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6648
+   },
+   {
+    "cluster_id": 1587916,
+    "case_name": "Wheeler v. State",
+    "citations": [
+     "944 So. 2d 356",
+     "2006 WL 2738922"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2006-11-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/944-so-2d-356/wheeler-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wheeler v. State, 944 So. 2d 356 (Fla. 1st DCA 2006)",
+    "link_md": "[Wheeler v. State, 944 So. 2d 356 (Fla. 1st DCA 2006)](https://syfert.com/florida/cases/944-so-2d-356/wheeler-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6644
+   },
+   {
+    "cluster_id": 2640242,
+    "case_name": "Werby v. Belleque",
+    "citations": [
+     "190 P.3d 380",
+     "345 Or. 159"
+    ],
+    "court": "Oregon Supreme Court",
+    "date_filed": "2008-07-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/oregon/cases/345-or-159/werby-v-belleque",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Werby v. Belleque, 190 P.3d 380 (Or. 2008)",
+    "link_md": "[Werby v. Belleque, 190 P.3d 380 (Or. 2008)](https://syfert.com/oregon/cases/345-or-159/werby-v-belleque)",
+    "match_kind": "semantic",
+    "similarity": 0.662
+   },
+   {
+    "cluster_id": 1870607,
+    "case_name": "State v. Wheeler",
+    "citations": [
+     "763 N.W.2d 248",
+     "2009 WI App 21",
+     "316 Wis. 2d 356"
+    ],
+    "court": "Court of Appeals of Wisconsin",
+    "date_filed": "2008-12-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/wisconsin/cases/316-wis-2d-356/state-v-wheeler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Wheeler, 2009 WI App 21, 763 N.W.2d 248",
+    "link_md": "[State v. Wheeler, 2009 WI App 21, 763 N.W.2d 248](https://syfert.com/wisconsin/cases/316-wis-2d-356/state-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.6619
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

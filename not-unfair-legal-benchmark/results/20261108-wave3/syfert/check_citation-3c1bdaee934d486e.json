@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "307 N.W.2d 849",
+  "expected_case_name": "City of Casselton v. North Dakota Public Service Commission"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"307 N.W.2d 849\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1674366,\n            \"case_name\": \"City of Casselton v. North Dakota Public Service Commission\",\n            \"citations\": [\n                \"307 N.W.2d 849\"\n            ],\n            \"court\": \"North Dakota Supreme Court\",\n            \"date_filed\": \"1981-10-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 16,\n            \"url\": \"https://syfert.com/north-dakota/cases/307-n-w-2d-849/city-of-casselton-v-north-dakota-public-service-commission\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"City of Casselton v. North Dakota Pub. Serv. Comm'n, 307 N.W.2d 849 (N.D. 1981)\",\n            \"link_md\": \"[City of Casselton v. North Dakota Pub. Serv. Comm'n, 307 N.W.2d 849 (N.D. 1981)](https://syfert.com/north-dakota/cases/307-n-w-2d-849/city-of-casselton-v-north-dakota-public-service-commission)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 9,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"City of Casselton v. North Dakota Public Service Commission\",\n        \"actual\": \"City of Casselton v. North Dakota Public Service Commission\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "307 N.W.2d 849",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1674366,
+    "case_name": "City of Casselton v. North Dakota Public Service Commission",
+    "citations": [
+     "307 N.W.2d 849"
+    ],
+    "court": "North Dakota Supreme Court",
+    "date_filed": "1981-10-25",
+    "status": "Published",
+    "cited_by": 16,
+    "url": "https://syfert.com/north-dakota/cases/307-n-w-2d-849/city-of-casselton-v-north-dakota-public-service-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Casselton v. North Dakota Pub. Serv. Comm'n, 307 N.W.2d 849 (N.D. 1981)",
+    "link_md": "[City of Casselton v. North Dakota Pub. Serv. Comm'n, 307 N.W.2d 849 (N.D. 1981)](https://syfert.com/north-dakota/cases/307-n-w-2d-849/city-of-casselton-v-north-dakota-public-service-commission)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 9,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "City of Casselton v. North Dakota Public Service Commission",
+   "actual": "City of Casselton v. North Dakota Public Service Commission",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

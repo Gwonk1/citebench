@@ -1,0 +1,40 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Pittman w/15 \"118 S.W. 102\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Pittman w/15 \\\"118 S.W. 102\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6478911,\"bluebook\":\"in the Matter of Troy S. Poe Trust, 646 S.W.3d 771 (Tex. 2022)\",\"url\":\"https://syfert.com/texas/cases/646-s-w-3d-771/in-the-matter-of-troy-s-poe-trust\",\"date_filed\":\"2022-06-17\",\"cited_by\":0,\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (6478911 and its twins 6478912, 10018457). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...24\\n1928); Pittman, 112 S.W. at 102).\\n25 Id. (citing Davis v. State, 35 Tex. 118 (1871)).\\nId. (citing State v. De Silva, 145 S.W. 330 (Tex. 1912); Tex. Liquor\\n26\\nControl Bd. v. Jones, 112 S.W.2d 227 (Tex. App.—Texarkana 1937, no writ)).…\",\"holding\":\"The right to a jury trial in all causes is a fundamental constitutional guarantee that cannot be abrogated by statute or limited by ad hoc exceptions based on special circumstances.\",\"holding_ai_generated\":true,\"disposition\":\"remanded\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Pittman w/15 \"118 S.W. 102\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6478911,
+    "bluebook": "in the Matter of Troy S. Poe Trust, 646 S.W.3d 771 (Tex. 2022)",
+    "url": "https://syfert.com/texas/cases/646-s-w-3d-771/in-the-matter-of-troy-s-poe-trust",
+    "date_filed": "2022-06-17",
+    "cited_by": 0,
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (6478911 and its twins 6478912, 10018457). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...24\n1928); Pittman, 112 S.W. at 102).\n25 Id. (citing Davis v. State, 35 Tex. 118 (1871)).\nId. (citing State v. De Silva, 145 S.W. 330 (Tex. 1912); Tex. Liquor\n26\nControl Bd. v. Jones, 112 S.W.2d 227 (Tex. App.—Texarkana 1937, no writ)).…",
+    "holding": "The right to a jury trial in all causes is a fundamental constitutional guarantee that cannot be abrogated by statute or limited by ad hoc exceptions based on special circumstances.",
+    "holding_ai_generated": true,
+    "disposition": "remanded",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

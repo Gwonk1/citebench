@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "283 F. Supp. 14",
+  "expected_case_name": "Traveler's Insurance Company v. United States"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"283 F. Supp. 14\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1906004,\n            \"case_name\": \"Traveler's Insurance Company v. United States\",\n            \"citations\": [\n                \"283 F. Supp. 14\"\n            ],\n            \"court\": \"S.D. Texas\",\n            \"date_filed\": \"1968-05-29\",\n            \"status\": \"Published\",\n            \"cited_by\": 21,\n            \"url\": \"https://syfert.com/federal/district/cases/283-f-supp-14/travelers-insurance-company-v-united-states\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Traveler's Ins. Co. v. United States, 283 F. Supp. 14 (S.D. Tex. 1968)\",\n            \"link_md\": \"[Traveler's Ins. Co. v. United States, 283 F. Supp. 14 (S.D. Tex. 1968)](https://syfert.com/federal/district/cases/283-f-supp-14/travelers-insurance-company-v-united-states)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 16,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Traveler's Insurance Company v. United States\",\n        \"actual\": \"Traveler's Insurance Company v. United States\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "283 F. Supp. 14",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1906004,
+    "case_name": "Traveler's Insurance Company v. United States",
+    "citations": [
+     "283 F. Supp. 14"
+    ],
+    "court": "S.D. Texas",
+    "date_filed": "1968-05-29",
+    "status": "Published",
+    "cited_by": 21,
+    "url": "https://syfert.com/federal/district/cases/283-f-supp-14/travelers-insurance-company-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Traveler's Ins. Co. v. United States, 283 F. Supp. 14 (S.D. Tex. 1968)",
+    "link_md": "[Traveler's Ins. Co. v. United States, 283 F. Supp. 14 (S.D. Tex. 1968)](https://syfert.com/federal/district/cases/283-f-supp-14/travelers-insurance-company-v-united-states)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 16,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Traveler's Insurance Company v. United States",
+   "actual": "Traveler's Insurance Company v. United States",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

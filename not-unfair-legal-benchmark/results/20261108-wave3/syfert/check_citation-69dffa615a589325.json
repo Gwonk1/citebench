@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "192 P. 142",
+  "expected_case_name": "People v. Foster"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"192 P. 142\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3287012,\n            \"case_name\": \"People v. Foster\",\n            \"citations\": [\n                \"192 P. 142\"\n            ],\n            \"court\": \"California Court of Appeal\",\n            \"date_filed\": \"1920-07-17\",\n            \"status\": \"Published\",\n            \"cited_by\": 4,\n            \"url\": \"https://syfert.com/california/cases/48-cal-app-551/people-v-foster\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Foster, 192 P. 142 (Cal. Ct. App. 1920)\",\n            \"link_md\": \"[People v. Foster, 192 P. 142 (Cal. Ct. App. 1920)](https://syfert.com/california/cases/48-cal-app-551/people-v-foster)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Foster\",\n        \"actual\": \"People v. Foster\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "192 P. 142",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3287012,
+    "case_name": "People v. Foster",
+    "citations": [
+     "192 P. 142"
+    ],
+    "court": "California Court of Appeal",
+    "date_filed": "1920-07-17",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/california/cases/48-cal-app-551/people-v-foster",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Foster, 192 P. 142 (Cal. Ct. App. 1920)",
+    "link_md": "[People v. Foster, 192 P. 142 (Cal. Ct. App. 1920)](https://syfert.com/california/cases/48-cal-app-551/people-v-foster)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Foster",
+   "actual": "People v. Foster",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

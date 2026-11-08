@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Talcott w/15 \"228 US 27\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Talcott w/15 \\\"228 US 27\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6565395,\"bluebook\":\"Quirk v. Smith, 168 N.E. 174 (Mass. 1929)\",\"url\":\"https://syfert.com/massachusetts/cases/268-mass-536/quirk-v-smith\",\"date_filed\":\"1929-10-02\",\"cited_by\":16,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Talcott, 228 U. S. 27 . That principle seems to us inapplicable to the facts here disclosed because the plaintiff did not merely prove his claim in bankruptcy but retained that proof for its original face and collected dividends…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Talcott w/15 \"228 US 27\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6565395,
+    "bluebook": "Quirk v. Smith, 168 N.E. 174 (Mass. 1929)",
+    "url": "https://syfert.com/massachusetts/cases/268-mass-536/quirk-v-smith",
+    "date_filed": "1929-10-02",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Talcott, 228 U. S. 27 . That principle seems to us inapplicable to the facts here disclosed because the plaintiff did not merely prove his claim in bankruptcy but retained that proof for its original face and collected dividends…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

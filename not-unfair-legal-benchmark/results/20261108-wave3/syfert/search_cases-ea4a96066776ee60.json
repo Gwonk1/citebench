@@ -1,0 +1,401 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Townes w/15 \"256 SW2d 716\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Townes w/15 \\\"256 SW2d 716\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5661181,\"case_name\":\"Titus v. Town of New Scotland\",\"citations\":[\"64 N.Y. St. Rep. 882\",\"31 N.Y.S. 1134\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1894-12-04\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/31-n-y-s-1134/titus-v-town-of-new-scotland\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Titus v. Town of New Scotland, 64 N.Y. St. Rep. 882 (N.Y. Sup. Ct. 1894)\",\"link_md\":\"[Titus v. Town of New Scotland, 64 N.Y. St. Rep. 882 (N.Y. Sup. Ct. 1894)](https://syfert.com/new-york/cases/31-n-y-s-1134/titus-v-town-of-new-scotland)\",\"match_kind\":\"semantic\",\"similarity\":0.6215},{\"cluster_id\":461853,\"case_name\":\"Viens v. Town of Colchester\",\"citations\":[\"779 F.2d 40\",\"1985 U.S. App. LEXIS 26804\"],\"court\":\"Second Circuit\",\"date_filed\":\"1985-10-16\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/779-f-2d-40/viens-v-town-of-colchester\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Viens v. Town of Colchester, 779 F.2d 40 (2d Cir. 1985)\",\"link_md\":\"[Viens v. Town of Colchester, 779 F.2d 40 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/779-f-2d-40/viens-v-town-of-colchester)\",\"match_kind\":\"semantic\",\"similarity\":0.6188},{\"cluster_id\":5512992,\"case_name\":\"Sherman v. Towne\",\"citations\":[\"253 A.D. 795\",\"1 N.Y.S.2d 1016\",\"1938 N.Y. App. Div. LEXIS 8567\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1938-01-14\",\"status\":\"Unknown\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/253-a-d-795/sherman-v-towne\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Sherman v. Towne, 253 A.D. 795 (N.Y. App. Div. 1938)\",\"link_md\":\"[Sherman v. Towne, 253 A.D. 795 (N.Y. App. Div. 1938)](https://syfert.com/new-york/cases/253-a-d-795/sherman-v-towne)\",\"match_kind\":\"semantic\",\"similarity\":0.6123},{\"cluster_id\":6573202,\"case_name\":\"Thomas W. Watkins & Son, Inc. v. Town of Amesbury\",\"citations\":[\"156 N.E.2d 422\",\"338 Mass. 796\",\"1959 Mass. LEXIS 899\"],\"court\":\"Massachusetts Supreme Judicial Court\",\"date_filed\":\"1959-02-27\",\"status\":\"Unknown\",\"cited_by\":1,\"url\":\"https://syfert.com/massachusetts/cases/338-mass-796/thomas-w-watkins-son-inc-v-town-of-amesbury\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Thomas W. Watkins & Son, Inc. v. Town of Amesbury, 156 N.E.2d 422 (Mass. 1959)\",\"link_md\":\"[Thomas W. Watkins & Son, Inc. v. Town of Amesbury, 156 N.E.2d 422 (Mass. 1959)](https://syfert.com/massachusetts/cases/338-mass-796/thomas-w-watkins-son-inc-v-town-of-amesbury)\",\"match_kind\":\"semantic\",\"similarity\":0.6099},{\"cluster_id\":6911240,\"case_name\":\"Taylor v. Commonwealth\",\"citations\":[\"70 Va. 780\"],\"court\":\"Supreme Court of Virginia\",\"date_filed\":\"1878-12-19\",\"status\":\"Unknown\",\"cited_by\":5,\"url\":\"https://syfert.com/virginia/cases/70-va-780/taylor-v-commonwealth\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Taylor v. Commonwealth, 70 Va. 780 (1878)\",\"link_md\":\"[Taylor v. Commonwealth, 70 Va. 780 (1878)](https://syfert.com/virginia/cases/70-va-780/taylor-v-commonwealth)\",\"match_kind\":\"semantic\",\"similarity\":0.6085},{\"cluster_id\":4170992,\"case_name\":\"Pease v. Bergen, Daniel & Gracy\",\"citations\":[\"25 S.W. 803\",\"6 Tex. Civ. App. 639\",\"1894 Tex. App. LEXIS 60\"],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"1894-03-28\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/texas/cases/6-tex-civ-app-639/pease-v-bergen-daniel-gracy\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Pease v. Bergen, Daniel & Gracy, 25 S.W. 803 (Tex. App. 1894)\",\"link_md\":\"[Pease v. Bergen, Daniel & Gracy, 25 S.W. 803 (Tex. App. 1894)](https://syfert.com/texas/cases/6-tex-civ-app-639/pease-v-bergen-daniel-gracy)\",\"match_kind\":\"semantic\",\"similarity\":0.6051},{\"cluster_id\":4490036,\"case_name\":\"In re Town Highway 20\",\"citations\":[],\"court\":\"Vermont Superior Court\",\"date_filed\":\"2010-01-14\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/vermont/cases/cl-4490036/in-re-town-highway-20\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"In re Town High. 20, No. S173 (Vt. Super. Ct. Jan. 14, 2010)\",\"link_md\":\"[In re Town High. 20, No. S173 (Vt. Super. Ct. Jan. 14, 2010)](https://syfert.com/vermont/cases/cl-4490036/in-re-town-highway-20)\",\"match_kind\":\"semantic\",\"similarity\":0.6014},{\"cluster_id\":3634369,\"case_name\":\"Wienke v. . Village of North Tonawanda\",\"citations\":[\"42 N.E. 726\",\"148 N.Y. 725\",\"70 N.Y. St. Rep. 879\",\"1895 N.Y. LEXIS 759\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1895-12-19\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/148-n-y-725/wienke-v-village-of-north-tonawanda\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Wienke v. Vill. of North Tonawanda, 42 N.E. 726 (N.Y. 1895)\",\"link_md\":\"[Wienke v. Vill. of North Tonawanda, 42 N.E. 726 (N.Y. 1895)](https://syfert.com/new-york/cases/148-n-y-725/wienke-v-village-of-north-tonawanda)\",\"match_kind\":\"semantic\",\"similarity\":0.6002},{\"cluster_id\":10026390,\"case_name\":\"Town of Richford v. 50 & 60 River St Richford, LLC Decision on Motion\",\"citations\":[],\"court\":\"Vermont Superior Court\",\"date_filed\":\"2018-01-05\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/vermont/cases/cl-10026390/town-of-richford-v-50-60-river-st-richford-llc-decision-on-motion\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Town of Richford v. 50 & 60 River St Richford, LLC Decision on Motion, No. 125-9-17 Vtec (Vt. Super. Ct. Jan. 5, 2018)\",\"link_md\":\"[Town of Richford v. 50 & 60 River St Richford, LLC Decision on Motion, No. 125-9-17 Vtec (Vt. Super. Ct. Jan. 5, 2018)](https://syfert.com/vermont/cases/cl-10026390/town-of-richford-v-50-60-river-st-richford-llc-decision-on-motion)\",\"match_kind\":\"semantic\",\"similarity\":0.5983},{\"cluster_id\":3613690,\"case_name\":\"Williams v. . Village of Port Chester\",\"citations\":[\"76 N.E. 1116\",\"183 N.Y. 550\",\"1905 N.Y. LEXIS 696\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1905-12-13\",\"status\":\"Unknown\",\"cited_by\":6,\"url\":\"https://syfert.com/new-york/cases/183-n-y-550/williams-v-village-of-port-chester\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Williams v. Vill. of Port Chester, 76 N.E. 1116 (N.Y. 1905)\",\"link_md\":\"[Williams v. Vill. of Port Chester, 76 N.E. 1116 (N.Y. 1905)](https://syfert.com/new-york/cases/183-n-y-550/williams-v-village-of-port-chester)\",\"match_kind\":\"semantic\",\"similarity\":0.5979},{\"cluster_id\":3628264,\"case_name\":\"Ives v. . the Town of Sidney\",\"citations\":[\"98 N.E. 1104\",\"205 N.Y. 572\",\"1912 N.Y. LEXIS 1316\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1912-04-30\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/205-n-y-572/ives-v-the-town-of-sidney\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Ives v. Town of Sidney, 98 N.E. 1104 (N.Y. 1912)\",\"link_md\":\"[Ives v. Town of Sidney, 98 N.E. 1104 (N.Y. 1912)](https://syfert.com/new-york/cases/205-n-y-572/ives-v-the-town-of-sidney)\",\"match_kind\":\"semantic\",\"similarity\":0.5976},{\"cluster_id\":9289160,\"case_name\":\"Springwells Township v. County Treasurer\",\"citations\":[\"1 McGrath 1238\",\"58 McGrath 240\"],\"court\":\"Michigan Supreme Court\",\"date_filed\":\"1885-10-14\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/michigan/cases/cl-9289160/springwells-township-v-county-treasurer\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Springwells Twp. v. Cnty. Treasurer, 1 McGrath 1238 (Mich. 1885)\",\"link_md\":\"[Springwells Twp. v. Cnty. Treasurer, 1 McGrath 1238 (Mich. 1885)](https://syfert.com/michigan/cases/cl-9289160/springwells-township-v-county-treasurer)\",\"match_kind\":\"semantic\",\"similarity\":0.5969},{\"cluster_id\":7733928,\"case_name\":\"Taylor v. Commonwealth\",\"citations\":[\"29 Va. 780\"],\"court\":\"Supreme Court of Virginia\",\"date_filed\":\"1878-01-15\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/virginia/cases/29-va-780/taylor-v-commonwealth\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Taylor v. Commonwealth, 29 Va. 780 (1878)\",\"link_md\":\"[Taylor v. Commonwealth, 29 Va. 780 (1878)](https://syfert.com/virginia/cases/29-va-780/taylor-v-commonwealth)\",\"match_kind\":\"semantic\",\"similarity\":0.5957,\"twin_clusters\":[7733930,7733929]},{\"cluster_id\":5373231,\"case_name\":\"Townsend v. Townsend\",\"citations\":[\"128 A.D. 890\",\"112 N.Y.S. 1148\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1908-10-15\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/128-a-d-890/townsend-v-townsend\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Townsend v. Townsend, 128 A.D. 890 (N.Y. App. Div. 1908)\",\"link_md\":\"[Townsend v. Townsend, 128 A.D. 890 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/128-a-d-890/townsend-v-townsend)\",\"match_kind\":\"semantic\",\"similarity\":0.5957},{\"cluster_id\":10340487,\"case_name\":\"Newcomb v. Sholes\",\"citations\":[],\"court\":\"Maine Superior\",\"date_filed\":\"2001-07-19\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/maine/cases/cl-10340487/newcomb-v-sholes\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Newcomb v. Sholes, No. WALcv-00-011 (Me. Super. Ct July 19, 2001)\",\"link_md\":\"[Newcomb v. Sholes, No. WALcv-00-011 (Me. Super. Ct July 19, 2001)](https://syfert.com/maine/cases/cl-10340487/newcomb-v-sholes)\",\"match_kind\":\"semantic\",\"similarity\":0.5939},{\"cluster_id\":4489596,\"case_name\":\"Chandler v. Town of Newfane\",\"citations\":[],\"court\":\"Vermont Superior Court\",\"date_filed\":\"2014-10-03\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/vermont/cases/cl-4489596/chandler-v-town-of-newfane\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Chandler v. Town of Newfane, No. 270 (Vt. Super. Ct. Oct. 3, 2014)\",\"link_md\":\"[Chandler v. Town of Newfane, No. 270 (Vt. Super. Ct. Oct. 3, 2014)](https://syfert.com/vermont/cases/cl-4489596/chandler-v-town-of-newfane)\",\"match_kind\":\"semantic\",\"similarity\":0.5936},{\"cluster_id\":4177979,\"case_name\":\"Carleton v. Hausler\",\"citations\":[\"49 S.W. 118\",\"20 Tex. Civ. App. 275\",\"1899 Tex. App. LEXIS 143\"],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"1899-01-18\",\"status\":\"Unknown\",\"cited_by\":2,\"url\":\"https://syfert.com/texas/cases/20-tex-civ-app-275/carleton-v-hausler\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Carleton v. Hausler, 49 S.W. 118 (Tex. App. 1899)\",\"link_md\":\"[Carleton v. Hausler, 49 S.W. 118 (Tex. App. 1899)](https://syfert.com/texas/cases/20-tex-civ-app-275/carleton-v-hausler)\",\"match_kind\":\"semantic\",\"similarity\":0.5929},{\"cluster_id\":5482730,\"case_name\":\"In re Townsend\",\"citations\":[\"234 A.D. 748\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1931-11-15\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/234-a-d-748/in-re-townsend\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"In re Townsend, 234 A.D. 748 (N.Y. App. Div. 1931)\",\"link_md\":\"[In re Townsend, 234 A.D. 748 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/234-a-d-748/in-re-townsend)\",\"match_kind\":\"semantic\",\"similarity\":0.5929},{\"cluster_id\":5465328,\"case_name\":\"Metropolitan Land & Investment Co. v. Town Board of Tonawanda\",\"citations\":[\"225 A.D. 725\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1928-11-15\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/225-a-d-725/metropolitan-land-investment-co-v-town-board-of-tonawanda\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Metro. Land & Inv. Co. v. Town Bd. of Tonawanda, 225 A.D. 725 (N.Y. App. Div. 1928)\",\"link_md\":\"[Metro. Land & Inv. Co. v. Town Bd. of Tonawanda, 225 A.D. 725 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/225-a-d-725/metropolitan-land-investment-co-v-town-board-of-tonawanda)\",\"match_kind\":\"semantic\",\"similarity\":0.5921},{\"cluster_id\":4106303,\"case_name\":\"Barber v. Adams\",\"citations\":[\"92 A. 757\",\"37 R.I. 323\",\"1915 R.I. LEXIS 11\"],\"court\":\"Supreme Court of Rhode Island\",\"date_filed\":\"1915-01-06\",\"status\":\"Unknown\",\"cited_by\":1,\"url\":\"https://syfert.com/rhode-island/cases/37-r-i-323/barber-v-adams\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Barber v. Adams, 92 A. 757 (R.I. 1915)\",\"link_md\":\"[Barber v. Adams, 92 A. 757 (R.I. 1915)](https://syfert.com/rhode-island/cases/37-r-i-323/barber-v-adams)\",\"match_kind\":\"semantic\",\"similarity\":0.591}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Townes w/15 \"256 SW2d 716\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5661181,
+    "case_name": "Titus v. Town of New Scotland",
+    "citations": [
+     "64 N.Y. St. Rep. 882",
+     "31 N.Y.S. 1134"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1894-12-04",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/31-n-y-s-1134/titus-v-town-of-new-scotland",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Titus v. Town of New Scotland, 64 N.Y. St. Rep. 882 (N.Y. Sup. Ct. 1894)",
+    "link_md": "[Titus v. Town of New Scotland, 64 N.Y. St. Rep. 882 (N.Y. Sup. Ct. 1894)](https://syfert.com/new-york/cases/31-n-y-s-1134/titus-v-town-of-new-scotland)",
+    "match_kind": "semantic",
+    "similarity": 0.6215
+   },
+   {
+    "cluster_id": 461853,
+    "case_name": "Viens v. Town of Colchester",
+    "citations": [
+     "779 F.2d 40",
+     "1985 U.S. App. LEXIS 26804"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1985-10-16",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/779-f-2d-40/viens-v-town-of-colchester",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Viens v. Town of Colchester, 779 F.2d 40 (2d Cir. 1985)",
+    "link_md": "[Viens v. Town of Colchester, 779 F.2d 40 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/779-f-2d-40/viens-v-town-of-colchester)",
+    "match_kind": "semantic",
+    "similarity": 0.6188
+   },
+   {
+    "cluster_id": 5512992,
+    "case_name": "Sherman v. Towne",
+    "citations": [
+     "253 A.D. 795",
+     "1 N.Y.S.2d 1016",
+     "1938 N.Y. App. Div. LEXIS 8567"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1938-01-14",
+    "status": "Unknown",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/253-a-d-795/sherman-v-towne",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Sherman v. Towne, 253 A.D. 795 (N.Y. App. Div. 1938)",
+    "link_md": "[Sherman v. Towne, 253 A.D. 795 (N.Y. App. Div. 1938)](https://syfert.com/new-york/cases/253-a-d-795/sherman-v-towne)",
+    "match_kind": "semantic",
+    "similarity": 0.6123
+   },
+   {
+    "cluster_id": 6573202,
+    "case_name": "Thomas W. Watkins & Son, Inc. v. Town of Amesbury",
+    "citations": [
+     "156 N.E.2d 422",
+     "338 Mass. 796",
+     "1959 Mass. LEXIS 899"
+    ],
+    "court": "Massachusetts Supreme Judicial Court",
+    "date_filed": "1959-02-27",
+    "status": "Unknown",
+    "cited_by": 1,
+    "url": "https://syfert.com/massachusetts/cases/338-mass-796/thomas-w-watkins-son-inc-v-town-of-amesbury",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Thomas W. Watkins & Son, Inc. v. Town of Amesbury, 156 N.E.2d 422 (Mass. 1959)",
+    "link_md": "[Thomas W. Watkins & Son, Inc. v. Town of Amesbury, 156 N.E.2d 422 (Mass. 1959)](https://syfert.com/massachusetts/cases/338-mass-796/thomas-w-watkins-son-inc-v-town-of-amesbury)",
+    "match_kind": "semantic",
+    "similarity": 0.6099
+   },
+   {
+    "cluster_id": 6911240,
+    "case_name": "Taylor v. Commonwealth",
+    "citations": [
+     "70 Va. 780"
+    ],
+    "court": "Supreme Court of Virginia",
+    "date_filed": "1878-12-19",
+    "status": "Unknown",
+    "cited_by": 5,
+    "url": "https://syfert.com/virginia/cases/70-va-780/taylor-v-commonwealth",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Taylor v. Commonwealth, 70 Va. 780 (1878)",
+    "link_md": "[Taylor v. Commonwealth, 70 Va. 780 (1878)](https://syfert.com/virginia/cases/70-va-780/taylor-v-commonwealth)",
+    "match_kind": "semantic",
+    "similarity": 0.6085
+   },
+   {
+    "cluster_id": 4170992,
+    "case_name": "Pease v. Bergen, Daniel & Gracy",
+    "citations": [
+     "25 S.W. 803",
+     "6 Tex. Civ. App. 639",
+     "1894 Tex. App. LEXIS 60"
+    ],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "1894-03-28",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/texas/cases/6-tex-civ-app-639/pease-v-bergen-daniel-gracy",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Pease v. Bergen, Daniel & Gracy, 25 S.W. 803 (Tex. App. 1894)",
+    "link_md": "[Pease v. Bergen, Daniel & Gracy, 25 S.W. 803 (Tex. App. 1894)](https://syfert.com/texas/cases/6-tex-civ-app-639/pease-v-bergen-daniel-gracy)",
+    "match_kind": "semantic",
+    "similarity": 0.6051
+   },
+   {
+    "cluster_id": 4490036,
+    "case_name": "In re Town Highway 20",
+    "citations": [],
+    "court": "Vermont Superior Court",
+    "date_filed": "2010-01-14",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/vermont/cases/cl-4490036/in-re-town-highway-20",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "In re Town High. 20, No. S173 (Vt. Super. Ct. Jan. 14, 2010)",
+    "link_md": "[In re Town High. 20, No. S173 (Vt. Super. Ct. Jan. 14, 2010)](https://syfert.com/vermont/cases/cl-4490036/in-re-town-highway-20)",
+    "match_kind": "semantic",
+    "similarity": 0.6014
+   },
+   {
+    "cluster_id": 3634369,
+    "case_name": "Wienke v. . Village of North Tonawanda",
+    "citations": [
+     "42 N.E. 726",
+     "148 N.Y. 725",
+     "70 N.Y. St. Rep. 879",
+     "1895 N.Y. LEXIS 759"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1895-12-19",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/148-n-y-725/wienke-v-village-of-north-tonawanda",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Wienke v. Vill. of North Tonawanda, 42 N.E. 726 (N.Y. 1895)",
+    "link_md": "[Wienke v. Vill. of North Tonawanda, 42 N.E. 726 (N.Y. 1895)](https://syfert.com/new-york/cases/148-n-y-725/wienke-v-village-of-north-tonawanda)",
+    "match_kind": "semantic",
+    "similarity": 0.6002
+   },
+   {
+    "cluster_id": 10026390,
+    "case_name": "Town of Richford v. 50 & 60 River St Richford, LLC Decision on Motion",
+    "citations": [],
+    "court": "Vermont Superior Court",
+    "date_filed": "2018-01-05",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/vermont/cases/cl-10026390/town-of-richford-v-50-60-river-st-richford-llc-decision-on-motion",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Town of Richford v. 50 & 60 River St Richford, LLC Decision on Motion, No. 125-9-17 Vtec (Vt. Super. Ct. Jan. 5, 2018)",
+    "link_md": "[Town of Richford v. 50 & 60 River St Richford, LLC Decision on Motion, No. 125-9-17 Vtec (Vt. Super. Ct. Jan. 5, 2018)](https://syfert.com/vermont/cases/cl-10026390/town-of-richford-v-50-60-river-st-richford-llc-decision-on-motion)",
+    "match_kind": "semantic",
+    "similarity": 0.5983
+   },
+   {
+    "cluster_id": 3613690,
+    "case_name": "Williams v. . Village of Port Chester",
+    "citations": [
+     "76 N.E. 1116",
+     "183 N.Y. 550",
+     "1905 N.Y. LEXIS 696"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1905-12-13",
+    "status": "Unknown",
+    "cited_by": 6,
+    "url": "https://syfert.com/new-york/cases/183-n-y-550/williams-v-village-of-port-chester",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Williams v. Vill. of Port Chester, 76 N.E. 1116 (N.Y. 1905)",
+    "link_md": "[Williams v. Vill. of Port Chester, 76 N.E. 1116 (N.Y. 1905)](https://syfert.com/new-york/cases/183-n-y-550/williams-v-village-of-port-chester)",
+    "match_kind": "semantic",
+    "similarity": 0.5979
+   },
+   {
+    "cluster_id": 3628264,
+    "case_name": "Ives v. . the Town of Sidney",
+    "citations": [
+     "98 N.E. 1104",
+     "205 N.Y. 572",
+     "1912 N.Y. LEXIS 1316"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1912-04-30",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/205-n-y-572/ives-v-the-town-of-sidney",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Ives v. Town of Sidney, 98 N.E. 1104 (N.Y. 1912)",
+    "link_md": "[Ives v. Town of Sidney, 98 N.E. 1104 (N.Y. 1912)](https://syfert.com/new-york/cases/205-n-y-572/ives-v-the-town-of-sidney)",
+    "match_kind": "semantic",
+    "similarity": 0.5976
+   },
+   {
+    "cluster_id": 9289160,
+    "case_name": "Springwells Township v. County Treasurer",
+    "citations": [
+     "1 McGrath 1238",
+     "58 McGrath 240"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1885-10-14",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/michigan/cases/cl-9289160/springwells-township-v-county-treasurer",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Springwells Twp. v. Cnty. Treasurer, 1 McGrath 1238 (Mich. 1885)",
+    "link_md": "[Springwells Twp. v. Cnty. Treasurer, 1 McGrath 1238 (Mich. 1885)](https://syfert.com/michigan/cases/cl-9289160/springwells-township-v-county-treasurer)",
+    "match_kind": "semantic",
+    "similarity": 0.5969
+   },
+   {
+    "cluster_id": 7733928,
+    "case_name": "Taylor v. Commonwealth",
+    "citations": [
+     "29 Va. 780"
+    ],
+    "court": "Supreme Court of Virginia",
+    "date_filed": "1878-01-15",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/virginia/cases/29-va-780/taylor-v-commonwealth",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Taylor v. Commonwealth, 29 Va. 780 (1878)",
+    "link_md": "[Taylor v. Commonwealth, 29 Va. 780 (1878)](https://syfert.com/virginia/cases/29-va-780/taylor-v-commonwealth)",
+    "match_kind": "semantic",
+    "similarity": 0.5957,
+    "twin_clusters": [
+     7733930,
+     7733929
+    ]
+   },
+   {
+    "cluster_id": 5373231,
+    "case_name": "Townsend v. Townsend",
+    "citations": [
+     "128 A.D. 890",
+     "112 N.Y.S. 1148"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1908-10-15",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/128-a-d-890/townsend-v-townsend",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Townsend v. Townsend, 128 A.D. 890 (N.Y. App. Div. 1908)",
+    "link_md": "[Townsend v. Townsend, 128 A.D. 890 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/128-a-d-890/townsend-v-townsend)",
+    "match_kind": "semantic",
+    "similarity": 0.5957
+   },
+   {
+    "cluster_id": 10340487,
+    "case_name": "Newcomb v. Sholes",
+    "citations": [],
+    "court": "Maine Superior",
+    "date_filed": "2001-07-19",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/maine/cases/cl-10340487/newcomb-v-sholes",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Newcomb v. Sholes, No. WALcv-00-011 (Me. Super. Ct July 19, 2001)",
+    "link_md": "[Newcomb v. Sholes, No. WALcv-00-011 (Me. Super. Ct July 19, 2001)](https://syfert.com/maine/cases/cl-10340487/newcomb-v-sholes)",
+    "match_kind": "semantic",
+    "similarity": 0.5939
+   },
+   {
+    "cluster_id": 4489596,
+    "case_name": "Chandler v. Town of Newfane",
+    "citations": [],
+    "court": "Vermont Superior Court",
+    "date_filed": "2014-10-03",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/vermont/cases/cl-4489596/chandler-v-town-of-newfane",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Chandler v. Town of Newfane, No. 270 (Vt. Super. Ct. Oct. 3, 2014)",
+    "link_md": "[Chandler v. Town of Newfane, No. 270 (Vt. Super. Ct. Oct. 3, 2014)](https://syfert.com/vermont/cases/cl-4489596/chandler-v-town-of-newfane)",
+    "match_kind": "semantic",
+    "similarity": 0.5936
+   },
+   {
+    "cluster_id": 4177979,
+    "case_name": "Carleton v. Hausler",
+    "citations": [
+     "49 S.W. 118",
+     "20 Tex. Civ. App. 275",
+     "1899 Tex. App. LEXIS 143"
+    ],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "1899-01-18",
+    "status": "Unknown",
+    "cited_by": 2,
+    "url": "https://syfert.com/texas/cases/20-tex-civ-app-275/carleton-v-hausler",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Carleton v. Hausler, 49 S.W. 118 (Tex. App. 1899)",
+    "link_md": "[Carleton v. Hausler, 49 S.W. 118 (Tex. App. 1899)](https://syfert.com/texas/cases/20-tex-civ-app-275/carleton-v-hausler)",
+    "match_kind": "semantic",
+    "similarity": 0.5929
+   },
+   {
+    "cluster_id": 5482730,
+    "case_name": "In re Townsend",
+    "citations": [
+     "234 A.D. 748"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1931-11-15",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/234-a-d-748/in-re-townsend",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "In re Townsend, 234 A.D. 748 (N.Y. App. Div. 1931)",
+    "link_md": "[In re Townsend, 234 A.D. 748 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/234-a-d-748/in-re-townsend)",
+    "match_kind": "semantic",
+    "similarity": 0.5929
+   },
+   {
+    "cluster_id": 5465328,
+    "case_name": "Metropolitan Land & Investment Co. v. Town Board of Tonawanda",
+    "citations": [
+     "225 A.D. 725"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1928-11-15",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/225-a-d-725/metropolitan-land-investment-co-v-town-board-of-tonawanda",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Metro. Land & Inv. Co. v. Town Bd. of Tonawanda, 225 A.D. 725 (N.Y. App. Div. 1928)",
+    "link_md": "[Metro. Land & Inv. Co. v. Town Bd. of Tonawanda, 225 A.D. 725 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/225-a-d-725/metropolitan-land-investment-co-v-town-board-of-tonawanda)",
+    "match_kind": "semantic",
+    "similarity": 0.5921
+   },
+   {
+    "cluster_id": 4106303,
+    "case_name": "Barber v. Adams",
+    "citations": [
+     "92 A. 757",
+     "37 R.I. 323",
+     "1915 R.I. LEXIS 11"
+    ],
+    "court": "Supreme Court of Rhode Island",
+    "date_filed": "1915-01-06",
+    "status": "Unknown",
+    "cited_by": 1,
+    "url": "https://syfert.com/rhode-island/cases/37-r-i-323/barber-v-adams",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Barber v. Adams, 92 A. 757 (R.I. 1915)",
+    "link_md": "[Barber v. Adams, 92 A. 757 (R.I. 1915)](https://syfert.com/rhode-island/cases/37-r-i-323/barber-v-adams)",
+    "match_kind": "semantic",
+    "similarity": 0.591
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Turner w/15 \"39 SE2d 299\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Turner w/15 \\\"39 SE2d 299\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1286529,\"bluebook\":\"Green v. State, 687 S.E.2d 623 (Ga. Ct. App. 2009)\",\"url\":\"https://syfert.com/georgia/cases/301-ga-app-343/green-v-state\",\"date_filed\":\"2009-11-30\",\"cited_by\":1,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...State,\\n299 Ga. App. 39, 40-41 (1) ( 681 SE2d 725 ) (2009), quoting\\nTurner v. State,\\n231 Ga. App. 747, 747-748 (1) ( 500 SE2d 628 ) (1998).\\n2\\nSee\\nNash v. State,\\n222 Ga. App. 766 (1) ( 476 SE2d 69 ) (1996).\\n3\\nId. at 767 (1).\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Turner w/15 \"39 SE2d 299\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1286529,
+    "bluebook": "Green v. State, 687 S.E.2d 623 (Ga. Ct. App. 2009)",
+    "url": "https://syfert.com/georgia/cases/301-ga-app-343/green-v-state",
+    "date_filed": "2009-11-30",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...State,\n299 Ga. App. 39, 40-41 (1) ( 681 SE2d 725 ) (2009), quoting\nTurner v. State,\n231 Ga. App. 747, 747-748 (1) ( 500 SE2d 628 ) (1998).\n2\nSee\nNash v. State,\n222 Ga. App. 766 (1) ( 476 SE2d 69 ) (1996).\n3\nId. at 767 (1)."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

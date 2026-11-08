@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "283 F. Supp. 643",
+  "expected_case_name": "Escott v. BarChris Construction Corporation"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"283 F. Supp. 643\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1906035,\n            \"case_name\": \"Escott v. BarChris Construction Corporation\",\n            \"citations\": [\n                \"283 F. Supp. 643\"\n            ],\n            \"court\": \"S.D. New York\",\n            \"date_filed\": \"1968-05-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 98,\n            \"url\": \"https://syfert.com/federal/district/cases/283-f-supp-643/escott-v-barchris-construction-corporation\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Escott v. BarChris Constr. Corp., 283 F. Supp. 643 (S.D.N.Y. 1968)\",\n            \"link_md\": \"[Escott v. BarChris Constr. Corp., 283 F. Supp. 643 (S.D.N.Y. 1968)](https://syfert.com/federal/district/cases/283-f-supp-643/escott-v-barchris-construction-corporation)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 94,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"judgment for plaintiff\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Escott v. BarChris Construction Corporation\",\n        \"actual\": \"Escott v. BarChris Construction Corporation\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "283 F. Supp. 643",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1906035,
+    "case_name": "Escott v. BarChris Construction Corporation",
+    "citations": [
+     "283 F. Supp. 643"
+    ],
+    "court": "S.D. New York",
+    "date_filed": "1968-05-01",
+    "status": "Published",
+    "cited_by": 98,
+    "url": "https://syfert.com/federal/district/cases/283-f-supp-643/escott-v-barchris-construction-corporation",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Escott v. BarChris Constr. Corp., 283 F. Supp. 643 (S.D.N.Y. 1968)",
+    "link_md": "[Escott v. BarChris Constr. Corp., 283 F. Supp. 643 (S.D.N.Y. 1968)](https://syfert.com/federal/district/cases/283-f-supp-643/escott-v-barchris-construction-corporation)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 94,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "judgment for plaintiff",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Escott v. BarChris Construction Corporation",
+   "actual": "Escott v. BarChris Construction Corporation",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "33 Tenn. 629",
+  "expected_case_name": "Scott v. State"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"33 Tenn. 629\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7727763,\n            \"case_name\": \"Scott v. State\",\n            \"citations\": [\n                \"33 Tenn. 629\"\n            ],\n            \"court\": \"Tennessee Supreme Court\",\n            \"date_filed\": \"1854-04-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/tennessee/cases/cl-7727763/scott-v-state\",\n            \"cited_by_note\": \"CourtListener records no citations for any of this decision's 2 clusters (7727763 and its twin 7727764). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Scott v. State, 33 Tenn. 629 (1854)\",\n            \"link_md\": \"[Scott v. State, 33 Tenn. 629 (1854)](https://syfert.com/tennessee/cases/cl-7727763/scott-v-state)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Scott v. State\",\n        \"actual\": \"Scott v. State\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "33 Tenn. 629",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7727763,
+    "case_name": "Scott v. State",
+    "citations": [
+     "33 Tenn. 629"
+    ],
+    "court": "Tennessee Supreme Court",
+    "date_filed": "1854-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/tennessee/cases/cl-7727763/scott-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7727763 and its twin 7727764). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Scott v. State, 33 Tenn. 629 (1854)",
+    "link_md": "[Scott v. State, 33 Tenn. 629 (1854)](https://syfert.com/tennessee/cases/cl-7727763/scott-v-state)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Scott v. State",
+   "actual": "Scott v. State",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

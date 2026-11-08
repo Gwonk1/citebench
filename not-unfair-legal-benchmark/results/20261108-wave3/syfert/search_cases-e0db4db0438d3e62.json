@@ -1,0 +1,408 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Fitzgerald w/15 \"148 N.E.2d 23\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Fitzgerald w/15 \\\"148 N.E.2d 23\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":714685,\"case_name\":\"Marsh v. City of Fitzgerald\",\"citations\":[\"78 F.3d 600\",\"1996 WL 77927\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/78-f-3d-600/marsh-v-city-of-fitzgerald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Marsh v. City of Fitzgerald, 78 F.3d 600 (11th Cir. 1996)\",\"link_md\":\"[Marsh v. City of Fitzgerald, 78 F.3d 600 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/78-f-3d-600/marsh-v-city-of-fitzgerald)\",\"match_kind\":\"semantic\",\"similarity\":0.6939},{\"cluster_id\":479751,\"case_name\":\"Fitzgerald v. Southern Ry\",\"citations\":[\"805 F.2d 1041\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1986-10-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/805-f-2d-1041/fitzgerald-v-southern-ry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. S. Ry, 805 F.2d 1041 (11th Cir. 1986)\",\"link_md\":\"[Fitzgerald v. S. Ry, 805 F.2d 1041 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/805-f-2d-1041/fitzgerald-v-southern-ry)\",\"match_kind\":\"semantic\",\"similarity\":0.6877},{\"cluster_id\":678155,\"case_name\":\"Fitzgerald v. United States\",\"citations\":[\"35 F.3d 562\",\"1994 U.S. App. LEXIS 25754\",\"1994 WL 500537\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1994-09-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/35-f-3d-562/fitzgerald-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. United States, 35 F.3d 562 (5th Cir. 1994)\",\"link_md\":\"[Fitzgerald v. United States, 35 F.3d 562 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/35-f-3d-562/fitzgerald-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6799},{\"cluster_id\":514877,\"case_name\":\"Fitzgerald v. Baylor Pub\",\"citations\":[\"862 F.2d 304\",\"1988 U.S. App. LEXIS 18725\"],\"court\":\"Second Circuit\",\"date_filed\":\"1988-09-06\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/862-f-2d-304/fitzgerald-v-baylor-pub\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. Baylor Pub, 862 F.2d 304 (2d Cir. 1988)\",\"link_md\":\"[Fitzgerald v. Baylor Pub, 862 F.2d 304 (2d Cir. 1988)](https://syfert.com/federal/circuits/cases/862-f-2d-304/fitzgerald-v-baylor-pub)\",\"match_kind\":\"semantic\",\"similarity\":0.6745},{\"cluster_id\":8233131,\"case_name\":\"Fitzgerald v. Fitzgerald\",\"citations\":[\"246 N.W. 683\",\"210 Wis. 550\",\"1933 Wisc. LEXIS 378\"],\"court\":\"Wisconsin Supreme Court\",\"date_filed\":\"1933-02-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/wisconsin/cases/210-wis-550/fitzgerald-v-fitzgerald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. Fitzgerald, 246 N.W. 683 (Wis. 1933)\",\"link_md\":\"[Fitzgerald v. Fitzgerald, 246 N.W. 683 (Wis. 1933)](https://syfert.com/wisconsin/cases/210-wis-550/fitzgerald-v-fitzgerald)\",\"match_kind\":\"semantic\",\"similarity\":0.6712},{\"cluster_id\":5486350,\"case_name\":\"Fitzgerald v. 425 East Eighty-Sixth Street Corp.\",\"citations\":[\"236 A.D. 654\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1932-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/236-a-d-654/fitzgerald-v-425-east-eighty-sixth-street-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. 425 East Eighty-Sixth Street Corp., 236 A.D. 654 (N.Y. App. Div. 1932)\",\"link_md\":\"[Fitzgerald v. 425 East Eighty-Sixth Street Corp., 236 A.D. 654 (N.Y. App. Div. 1932)](https://syfert.com/new-york/cases/236-a-d-654/fitzgerald-v-425-east-eighty-sixth-street-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6691},{\"cluster_id\":5518169,\"case_name\":\"Fitzgerald v. 11 West 42nd Street, Inc.\",\"citations\":[\"256 A.D. 978\",\"11 N.Y.S.2d 552\",\"1939 N.Y. App. Div. LEXIS 5745\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1939-03-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/256-a-d-978/fitzgerald-v-11-west-42nd-street-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. 11 West 42nd Street, Inc., 256 A.D. 978 (N.Y. App. Div. 1939)\",\"link_md\":\"[Fitzgerald v. 11 West 42nd Street, Inc., 256 A.D. 978 (N.Y. App. Div. 1939)](https://syfert.com/new-york/cases/256-a-d-978/fitzgerald-v-11-west-42nd-street-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6687},{\"cluster_id\":422419,\"case_name\":\"Fitzgerald v. St. John's University\",\"citations\":[\"714 F.2d 113\"],\"court\":\"Second Circuit\",\"date_filed\":\"1982-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/714-f-2d-113/fitzgerald-v-st-johns-university\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. St. John's Univ., 714 F.2d 113 (2d Cir. 1982)\",\"link_md\":\"[Fitzgerald v. St. John's Univ., 714 F.2d 113 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/714-f-2d-113/fitzgerald-v-st-johns-university)\",\"match_kind\":\"semantic\",\"similarity\":0.668},{\"cluster_id\":465523,\"case_name\":\"Poteat v. Fitzgerald\",\"citations\":[\"785 F.2d 305\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1986-02-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/785-f-2d-305/poteat-v-fitzgerald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Poteat v. Fitzgerald, 785 F.2d 305 (4th Cir. 1986)\",\"link_md\":\"[Poteat v. Fitzgerald, 785 F.2d 305 (4th Cir. 1986)](https://syfert.com/federal/circuits/cases/785-f-2d-305/poteat-v-fitzgerald)\",\"match_kind\":\"semantic\",\"similarity\":0.666},{\"cluster_id\":682560,\"case_name\":\"Williams v. Fitzgerald\",\"citations\":[\"40 F.3d 385\",\"1994 U.S. App. LEXIS 33390\",\"1994 WL 652508\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1994-11-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/40-f-3d-385/williams-v-fitzgerald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Williams v. Fitzgerald, 40 F.3d 385 (5th Cir. 1994)\",\"link_md\":\"[Williams v. Fitzgerald, 40 F.3d 385 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/40-f-3d-385/williams-v-fitzgerald)\",\"match_kind\":\"semantic\",\"similarity\":0.6612},{\"cluster_id\":7787869,\"case_name\":\"Fitzgerald v. Stalder\",\"citations\":[\"747 So. 2d 30\",\"1999 La. LEXIS 1970\",\"1999 WL 513705\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1999-07-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/747-so-2d-30/fitzgerald-v-stalder\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. Stalder, 747 So. 2d 30 (La. 1999)\",\"link_md\":\"[Fitzgerald v. Stalder, 747 So. 2d 30 (La. 1999)](https://syfert.com/louisiana/cases/747-so-2d-30/fitzgerald-v-stalder)\",\"match_kind\":\"semantic\",\"similarity\":0.6607},{\"cluster_id\":5045923,\"case_name\":\"Beryl Fitzgerald v. Danny R. Fitzgerald.\",\"citations\":[\"45 So. 3d 1054\",\"2010 La. LEXIS 1984\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2010-09-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/45-so-3d-1054/beryl-fitzgerald-v-danny-r-fitzgerald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Beryl Fitzgerald v. Danny R. Fitzgerald., 45 So. 3d 1054 (La. 2010)\",\"link_md\":\"[Beryl Fitzgerald v. Danny R. Fitzgerald., 45 So. 3d 1054 (La. 2010)](https://syfert.com/louisiana/cases/45-so-3d-1054/beryl-fitzgerald-v-danny-r-fitzgerald)\",\"match_kind\":\"semantic\",\"similarity\":0.6585},{\"cluster_id\":696073,\"case_name\":\"Tommy L. Fitzgerald v. Gail D. Hughes\",\"citations\":[\"54 F.3d 783\",\"1995 U.S. App. LEXIS 14098\",\"1995 WL 274398\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1995-02-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/54-f-3d-783/tommy-l-fitzgerald-v-gail-d-hughes\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tommy L. Fitzgerald v. Gail D. Hughes, 54 F.3d 783 (8th Cir. 1995)\",\"link_md\":\"[Tommy L. Fitzgerald v. Gail D. Hughes, 54 F.3d 783 (8th Cir. 1995)](https://syfert.com/federal/circuits/cases/54-f-3d-783/tommy-l-fitzgerald-v-gail-d-hughes)\",\"match_kind\":\"semantic\",\"similarity\":0.6584},{\"cluster_id\":7771764,\"case_name\":\"Ortiz v. Suntrust\",\"citations\":[\"701 So. 2d 1263\",\"1997 Fla. App. LEXIS 13617\",\"1997 WL 749059\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"1997-12-05\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/florida/cases/701-so-2d-1263/ortiz-v-suntrust\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ortiz v. Suntrust, 701 So. 2d 1263 (Fla. 3d DCA 1997)\",\"link_md\":\"[Ortiz v. Suntrust, 701 So. 2d 1263 (Fla. 3d DCA 1997)](https://syfert.com/florida/cases/701-so-2d-1263/ortiz-v-suntrust)\",\"match_kind\":\"semantic\",\"similarity\":0.658},{\"cluster_id\":1109010,\"case_name\":\"Fitzgerald v. State\",\"citations\":[\"993 So. 2d 530\",\"2008 WL 4823141\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2008-10-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/993-so-2d-530/fitzgerald-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. State, 993 So. 2d 530 (Fla. 3d DCA 2008)\",\"link_md\":\"[Fitzgerald v. State, 993 So. 2d 530 (Fla. 3d DCA 2008)](https://syfert.com/florida/cases/993-so-2d-530/fitzgerald-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.655},{\"cluster_id\":6711405,\"case_name\":\"Fitzgerald v. Fitzgerald\",\"citations\":[\"302 A.2d 294\",\"164 Conn. 704\"],\"court\":\"Supreme Court of Connecticut\",\"date_filed\":\"1973-04-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/connecticut/cases/164-conn-704/fitzgerald-v-fitzgerald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. Fitzgerald, 302 A.2d 294 (Conn. 1973)\",\"link_md\":\"[Fitzgerald v. Fitzgerald, 302 A.2d 294 (Conn. 1973)](https://syfert.com/connecticut/cases/164-conn-704/fitzgerald-v-fitzgerald)\",\"match_kind\":\"semantic\",\"similarity\":0.6519},{\"cluster_id\":524473,\"case_name\":\"Fslic v. Fitzgerald\",\"citations\":[\"876 F.2d 893\",\"1989 WL 57597\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1989-05-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/876-f-2d-893/fslic-v-fitzgerald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fslic v. Fitzgerald, 876 F.2d 893 (5th Cir. 1989)\",\"link_md\":\"[Fslic v. Fitzgerald, 876 F.2d 893 (5th Cir. 1989)](https://syfert.com/federal/circuits/cases/876-f-2d-893/fslic-v-fitzgerald)\",\"match_kind\":\"semantic\",\"similarity\":0.6513},{\"cluster_id\":707113,\"case_name\":\"Akers v. Fitzgerald\",\"citations\":[\"69 F.3d 536\",\"1995 U.S. App. LEXIS 31227\",\"1995 WL 625485\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1995-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/69-f-3d-536/akers-v-fitzgerald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Akers v. Fitzgerald, 69 F.3d 536 (5th Cir. 1995)\",\"link_md\":\"[Akers v. Fitzgerald, 69 F.3d 536 (5th Cir. 1995)](https://syfert.com/federal/circuits/cases/69-f-3d-536/akers-v-fitzgerald)\",\"match_kind\":\"semantic\",\"similarity\":0.6499},{\"cluster_id\":3643051,\"case_name\":\"O'Brien v. . Fitzgerald\",\"citations\":[\"39 N.E. 494\",\"144 N.Y. 650\",\"1894 N.Y. LEXIS 703\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1894-12-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/144-n-y-650/obrien-v-fitzgerald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"O'Brien v. Fitzgerald, 39 N.E. 494 (N.Y. 1894)\",\"link_md\":\"[O'Brien v. Fitzgerald, 39 N.E. 494 (N.Y. 1894)](https://syfert.com/new-york/cases/144-n-y-650/obrien-v-fitzgerald)\",\"match_kind\":\"semantic\",\"similarity\":0.6489},{\"cluster_id\":354402,\"case_name\":\"Fitzgerald v. Bates\",\"citations\":[\"573 F.2d 1285\"],\"court\":\"First Circuit\",\"date_filed\":\"1978-01-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/573-f-2d-1285/fitzgerald-v-bates\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fitzgerald v. Bates, 573 F.2d 1285 (1st Cir. 1978)\",\"link_md\":\"[Fitzgerald v. Bates, 573 F.2d 1285 (1st Cir. 1978)](https://syfert.com/federal/circuits/cases/573-f-2d-1285/fitzgerald-v-bates)\",\"match_kind\":\"semantic\",\"similarity\":0.6445}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Fitzgerald w/15 \"148 N.E.2d 23\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 714685,
+    "case_name": "Marsh v. City of Fitzgerald",
+    "citations": [
+     "78 F.3d 600",
+     "1996 WL 77927"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/78-f-3d-600/marsh-v-city-of-fitzgerald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Marsh v. City of Fitzgerald, 78 F.3d 600 (11th Cir. 1996)",
+    "link_md": "[Marsh v. City of Fitzgerald, 78 F.3d 600 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/78-f-3d-600/marsh-v-city-of-fitzgerald)",
+    "match_kind": "semantic",
+    "similarity": 0.6939
+   },
+   {
+    "cluster_id": 479751,
+    "case_name": "Fitzgerald v. Southern Ry",
+    "citations": [
+     "805 F.2d 1041"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1986-10-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/805-f-2d-1041/fitzgerald-v-southern-ry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. S. Ry, 805 F.2d 1041 (11th Cir. 1986)",
+    "link_md": "[Fitzgerald v. S. Ry, 805 F.2d 1041 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/805-f-2d-1041/fitzgerald-v-southern-ry)",
+    "match_kind": "semantic",
+    "similarity": 0.6877
+   },
+   {
+    "cluster_id": 678155,
+    "case_name": "Fitzgerald v. United States",
+    "citations": [
+     "35 F.3d 562",
+     "1994 U.S. App. LEXIS 25754",
+     "1994 WL 500537"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1994-09-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/35-f-3d-562/fitzgerald-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. United States, 35 F.3d 562 (5th Cir. 1994)",
+    "link_md": "[Fitzgerald v. United States, 35 F.3d 562 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/35-f-3d-562/fitzgerald-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6799
+   },
+   {
+    "cluster_id": 514877,
+    "case_name": "Fitzgerald v. Baylor Pub",
+    "citations": [
+     "862 F.2d 304",
+     "1988 U.S. App. LEXIS 18725"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1988-09-06",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/862-f-2d-304/fitzgerald-v-baylor-pub",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. Baylor Pub, 862 F.2d 304 (2d Cir. 1988)",
+    "link_md": "[Fitzgerald v. Baylor Pub, 862 F.2d 304 (2d Cir. 1988)](https://syfert.com/federal/circuits/cases/862-f-2d-304/fitzgerald-v-baylor-pub)",
+    "match_kind": "semantic",
+    "similarity": 0.6745
+   },
+   {
+    "cluster_id": 8233131,
+    "case_name": "Fitzgerald v. Fitzgerald",
+    "citations": [
+     "246 N.W. 683",
+     "210 Wis. 550",
+     "1933 Wisc. LEXIS 378"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "1933-02-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/wisconsin/cases/210-wis-550/fitzgerald-v-fitzgerald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. Fitzgerald, 246 N.W. 683 (Wis. 1933)",
+    "link_md": "[Fitzgerald v. Fitzgerald, 246 N.W. 683 (Wis. 1933)](https://syfert.com/wisconsin/cases/210-wis-550/fitzgerald-v-fitzgerald)",
+    "match_kind": "semantic",
+    "similarity": 0.6712
+   },
+   {
+    "cluster_id": 5486350,
+    "case_name": "Fitzgerald v. 425 East Eighty-Sixth Street Corp.",
+    "citations": [
+     "236 A.D. 654"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1932-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/236-a-d-654/fitzgerald-v-425-east-eighty-sixth-street-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. 425 East Eighty-Sixth Street Corp., 236 A.D. 654 (N.Y. App. Div. 1932)",
+    "link_md": "[Fitzgerald v. 425 East Eighty-Sixth Street Corp., 236 A.D. 654 (N.Y. App. Div. 1932)](https://syfert.com/new-york/cases/236-a-d-654/fitzgerald-v-425-east-eighty-sixth-street-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6691
+   },
+   {
+    "cluster_id": 5518169,
+    "case_name": "Fitzgerald v. 11 West 42nd Street, Inc.",
+    "citations": [
+     "256 A.D. 978",
+     "11 N.Y.S.2d 552",
+     "1939 N.Y. App. Div. LEXIS 5745"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1939-03-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/256-a-d-978/fitzgerald-v-11-west-42nd-street-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. 11 West 42nd Street, Inc., 256 A.D. 978 (N.Y. App. Div. 1939)",
+    "link_md": "[Fitzgerald v. 11 West 42nd Street, Inc., 256 A.D. 978 (N.Y. App. Div. 1939)](https://syfert.com/new-york/cases/256-a-d-978/fitzgerald-v-11-west-42nd-street-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6687
+   },
+   {
+    "cluster_id": 422419,
+    "case_name": "Fitzgerald v. St. John's University",
+    "citations": [
+     "714 F.2d 113"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1982-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/714-f-2d-113/fitzgerald-v-st-johns-university",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. St. John's Univ., 714 F.2d 113 (2d Cir. 1982)",
+    "link_md": "[Fitzgerald v. St. John's Univ., 714 F.2d 113 (2d Cir. 1982)](https://syfert.com/federal/circuits/cases/714-f-2d-113/fitzgerald-v-st-johns-university)",
+    "match_kind": "semantic",
+    "similarity": 0.668
+   },
+   {
+    "cluster_id": 465523,
+    "case_name": "Poteat v. Fitzgerald",
+    "citations": [
+     "785 F.2d 305"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1986-02-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/785-f-2d-305/poteat-v-fitzgerald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Poteat v. Fitzgerald, 785 F.2d 305 (4th Cir. 1986)",
+    "link_md": "[Poteat v. Fitzgerald, 785 F.2d 305 (4th Cir. 1986)](https://syfert.com/federal/circuits/cases/785-f-2d-305/poteat-v-fitzgerald)",
+    "match_kind": "semantic",
+    "similarity": 0.666
+   },
+   {
+    "cluster_id": 682560,
+    "case_name": "Williams v. Fitzgerald",
+    "citations": [
+     "40 F.3d 385",
+     "1994 U.S. App. LEXIS 33390",
+     "1994 WL 652508"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1994-11-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/40-f-3d-385/williams-v-fitzgerald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Williams v. Fitzgerald, 40 F.3d 385 (5th Cir. 1994)",
+    "link_md": "[Williams v. Fitzgerald, 40 F.3d 385 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/40-f-3d-385/williams-v-fitzgerald)",
+    "match_kind": "semantic",
+    "similarity": 0.6612
+   },
+   {
+    "cluster_id": 7787869,
+    "case_name": "Fitzgerald v. Stalder",
+    "citations": [
+     "747 So. 2d 30",
+     "1999 La. LEXIS 1970",
+     "1999 WL 513705"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1999-07-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/747-so-2d-30/fitzgerald-v-stalder",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. Stalder, 747 So. 2d 30 (La. 1999)",
+    "link_md": "[Fitzgerald v. Stalder, 747 So. 2d 30 (La. 1999)](https://syfert.com/louisiana/cases/747-so-2d-30/fitzgerald-v-stalder)",
+    "match_kind": "semantic",
+    "similarity": 0.6607
+   },
+   {
+    "cluster_id": 5045923,
+    "case_name": "Beryl Fitzgerald v. Danny R. Fitzgerald.",
+    "citations": [
+     "45 So. 3d 1054",
+     "2010 La. LEXIS 1984"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2010-09-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/45-so-3d-1054/beryl-fitzgerald-v-danny-r-fitzgerald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Beryl Fitzgerald v. Danny R. Fitzgerald., 45 So. 3d 1054 (La. 2010)",
+    "link_md": "[Beryl Fitzgerald v. Danny R. Fitzgerald., 45 So. 3d 1054 (La. 2010)](https://syfert.com/louisiana/cases/45-so-3d-1054/beryl-fitzgerald-v-danny-r-fitzgerald)",
+    "match_kind": "semantic",
+    "similarity": 0.6585
+   },
+   {
+    "cluster_id": 696073,
+    "case_name": "Tommy L. Fitzgerald v. Gail D. Hughes",
+    "citations": [
+     "54 F.3d 783",
+     "1995 U.S. App. LEXIS 14098",
+     "1995 WL 274398"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1995-02-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/54-f-3d-783/tommy-l-fitzgerald-v-gail-d-hughes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tommy L. Fitzgerald v. Gail D. Hughes, 54 F.3d 783 (8th Cir. 1995)",
+    "link_md": "[Tommy L. Fitzgerald v. Gail D. Hughes, 54 F.3d 783 (8th Cir. 1995)](https://syfert.com/federal/circuits/cases/54-f-3d-783/tommy-l-fitzgerald-v-gail-d-hughes)",
+    "match_kind": "semantic",
+    "similarity": 0.6584
+   },
+   {
+    "cluster_id": 7771764,
+    "case_name": "Ortiz v. Suntrust",
+    "citations": [
+     "701 So. 2d 1263",
+     "1997 Fla. App. LEXIS 13617",
+     "1997 WL 749059"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "1997-12-05",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/florida/cases/701-so-2d-1263/ortiz-v-suntrust",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ortiz v. Suntrust, 701 So. 2d 1263 (Fla. 3d DCA 1997)",
+    "link_md": "[Ortiz v. Suntrust, 701 So. 2d 1263 (Fla. 3d DCA 1997)](https://syfert.com/florida/cases/701-so-2d-1263/ortiz-v-suntrust)",
+    "match_kind": "semantic",
+    "similarity": 0.658
+   },
+   {
+    "cluster_id": 1109010,
+    "case_name": "Fitzgerald v. State",
+    "citations": [
+     "993 So. 2d 530",
+     "2008 WL 4823141"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2008-10-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/993-so-2d-530/fitzgerald-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. State, 993 So. 2d 530 (Fla. 3d DCA 2008)",
+    "link_md": "[Fitzgerald v. State, 993 So. 2d 530 (Fla. 3d DCA 2008)](https://syfert.com/florida/cases/993-so-2d-530/fitzgerald-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.655
+   },
+   {
+    "cluster_id": 6711405,
+    "case_name": "Fitzgerald v. Fitzgerald",
+    "citations": [
+     "302 A.2d 294",
+     "164 Conn. 704"
+    ],
+    "court": "Supreme Court of Connecticut",
+    "date_filed": "1973-04-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/connecticut/cases/164-conn-704/fitzgerald-v-fitzgerald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. Fitzgerald, 302 A.2d 294 (Conn. 1973)",
+    "link_md": "[Fitzgerald v. Fitzgerald, 302 A.2d 294 (Conn. 1973)](https://syfert.com/connecticut/cases/164-conn-704/fitzgerald-v-fitzgerald)",
+    "match_kind": "semantic",
+    "similarity": 0.6519
+   },
+   {
+    "cluster_id": 524473,
+    "case_name": "Fslic v. Fitzgerald",
+    "citations": [
+     "876 F.2d 893",
+     "1989 WL 57597"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1989-05-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/876-f-2d-893/fslic-v-fitzgerald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fslic v. Fitzgerald, 876 F.2d 893 (5th Cir. 1989)",
+    "link_md": "[Fslic v. Fitzgerald, 876 F.2d 893 (5th Cir. 1989)](https://syfert.com/federal/circuits/cases/876-f-2d-893/fslic-v-fitzgerald)",
+    "match_kind": "semantic",
+    "similarity": 0.6513
+   },
+   {
+    "cluster_id": 707113,
+    "case_name": "Akers v. Fitzgerald",
+    "citations": [
+     "69 F.3d 536",
+     "1995 U.S. App. LEXIS 31227",
+     "1995 WL 625485"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1995-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/69-f-3d-536/akers-v-fitzgerald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Akers v. Fitzgerald, 69 F.3d 536 (5th Cir. 1995)",
+    "link_md": "[Akers v. Fitzgerald, 69 F.3d 536 (5th Cir. 1995)](https://syfert.com/federal/circuits/cases/69-f-3d-536/akers-v-fitzgerald)",
+    "match_kind": "semantic",
+    "similarity": 0.6499
+   },
+   {
+    "cluster_id": 3643051,
+    "case_name": "O'Brien v. . Fitzgerald",
+    "citations": [
+     "39 N.E. 494",
+     "144 N.Y. 650",
+     "1894 N.Y. LEXIS 703"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1894-12-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/144-n-y-650/obrien-v-fitzgerald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "O'Brien v. Fitzgerald, 39 N.E. 494 (N.Y. 1894)",
+    "link_md": "[O'Brien v. Fitzgerald, 39 N.E. 494 (N.Y. 1894)](https://syfert.com/new-york/cases/144-n-y-650/obrien-v-fitzgerald)",
+    "match_kind": "semantic",
+    "similarity": 0.6489
+   },
+   {
+    "cluster_id": 354402,
+    "case_name": "Fitzgerald v. Bates",
+    "citations": [
+     "573 F.2d 1285"
+    ],
+    "court": "First Circuit",
+    "date_filed": "1978-01-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/573-f-2d-1285/fitzgerald-v-bates",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fitzgerald v. Bates, 573 F.2d 1285 (1st Cir. 1978)",
+    "link_md": "[Fitzgerald v. Bates, 573 F.2d 1285 (1st Cir. 1978)](https://syfert.com/federal/circuits/cases/573-f-2d-1285/fitzgerald-v-bates)",
+    "match_kind": "semantic",
+    "similarity": 0.6445
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

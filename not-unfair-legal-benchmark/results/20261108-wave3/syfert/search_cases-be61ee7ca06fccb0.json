@@ -1,0 +1,37 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Perrin w/15 \"232 US 478\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Perrin w/15 \\\"232 US 478\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":900224,\"bluebook\":\"State v. Gregor, 1997 S.D. 14\",\"url\":\"https://syfert.com/south-dakota/cases/cl-900224/state-v-gregor\",\"date_filed\":\"1997-02-19\",\"cited_by\":0,\"snippet\":\"...Prior Decisions on the Status of the Yankton Reservation\\n[Â¶8] In Perrin v. United States, 232 US 478 , 34 SCt 387 , 58 LEd 691 (1914), the Supreme Court designated the area now in question as \\\"ceded lands formerly included in the…\",\"passage_origin\":{\"case_name\":\"Perrin v. United States\",\"cluster_id\":1694995,\"year\":1914,\"quoted_by_cases\":2}}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Perrin w/15 \"232 US 478\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 900224,
+    "bluebook": "State v. Gregor, 1997 S.D. 14",
+    "url": "https://syfert.com/south-dakota/cases/cl-900224/state-v-gregor",
+    "date_filed": "1997-02-19",
+    "cited_by": 0,
+    "snippet": "...Prior Decisions on the Status of the Yankton Reservation\n[Â¶8] In Perrin v. United States, 232 US 478 , 34 SCt 387 , 58 LEd 691 (1914), the Supreme Court designated the area now in question as \"ceded lands formerly included in the…",
+    "passage_origin": {
+     "case_name": "Perrin v. United States",
+     "cluster_id": 1694995,
+     "year": 1914,
+     "quoted_by_cases": 2
+    }
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

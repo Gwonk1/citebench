@@ -1,0 +1,56 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "22 N.W.2d 657",
+  "expected_case_name": "Sweeney v. Union State Bank"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"22 N.W.2d 657\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4232650,\n            \"case_name\": \"Sweeney v. Union State Bank\",\n            \"citations\": [\n                \"22 N.W.2d 657\"\n            ],\n            \"court\": \"Wisconsin Supreme Court\",\n            \"date_filed\": \"1946-03-12\",\n            \"status\": \"Published\",\n            \"cited_by\": 5,\n            \"url\": \"https://syfert.com/wisconsin/cases/248-wis-607/sweeney-v-union-state-bank\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Sweeney v. Union State Bank, 22 N.W.2d 657 (Wis. 1946)\",\n            \"link_md\": \"[Sweeney v. Union State Bank, 22 N.W.2d 657 (Wis. 1946)](https://syfert.com/wisconsin/cases/248-wis-607/sweeney-v-union-state-bank)\",\n            \"treatment\": {\n                \"flag\": \"yellow\",\n                \"red\": 0,\n                \"yellow\": 1,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": \"But See\",\n                \"strongest_citer\": \"Waterman Steamship Corporation v. Gay Cottons, United States of America and Shalom Baby Wear\",\n                \"strongest_date\": \"1969-08-05\",\n                \"strongest_citer_cluster_id\": 286046,\n                \"strongest_citer_source\": \"top_citers\",\n                \"strongest_citer_published\": true,\n                \"flag_basis\": \"citing_events\",\n                \"flag_reason\": \"But see: 1 negative citing treatment; strongest: Waterman Steamship Corporation v. Gay Cottons, United States of America and Shalom Baby Wear (1969).\",\n                \"flag_evidence\": [\n                    \"citing_events\"\n                ]\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Sweeney v. Union State Bank\",\n        \"actual\": \"Sweeney v. Union State Bank\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "22 N.W.2d 657",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4232650,
+    "case_name": "Sweeney v. Union State Bank",
+    "citations": [
+     "22 N.W.2d 657"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "1946-03-12",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/wisconsin/cases/248-wis-607/sweeney-v-union-state-bank",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sweeney v. Union State Bank, 22 N.W.2d 657 (Wis. 1946)",
+    "link_md": "[Sweeney v. Union State Bank, 22 N.W.2d 657 (Wis. 1946)](https://syfert.com/wisconsin/cases/248-wis-607/sweeney-v-union-state-bank)",
+    "treatment": {
+     "flag": "yellow",
+     "red": 0,
+     "yellow": 1,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": "But See",
+     "strongest_citer": "Waterman Steamship Corporation v. Gay Cottons, United States of America and Shalom Baby Wear",
+     "strongest_date": "1969-08-05",
+     "strongest_citer_cluster_id": 286046,
+     "strongest_citer_source": "top_citers",
+     "strongest_citer_published": true,
+     "flag_basis": "citing_events",
+     "flag_reason": "But see: 1 negative citing treatment; strongest: Waterman Steamship Corporation v. Gay Cottons, United States of America and Shalom Baby Wear (1969).",
+     "flag_evidence": [
+      "citing_events"
+     ]
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Sweeney v. Union State Bank",
+   "actual": "Sweeney v. Union State Bank",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

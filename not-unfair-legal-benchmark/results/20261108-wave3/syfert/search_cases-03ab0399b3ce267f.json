@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Butterfield w/15 \"45 So. 78\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Butterfield w/15 \\\"45 So. 78\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3544241,\"bluebook\":\"Mut. Ben. Health & Accident Ass'n v. Caver, 152 So. 897 (Miss. 1934)\",\"url\":\"https://syfert.com/mississippi/cases/169-miss-554/mutual-ben-health-accident-assn-v-caver\",\"date_filed\":\"1934-03-05\",\"cited_by\":9,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"Ethridge, P. J.,\\ndelivered the opinion of the court.\\nCaver brought suit on an accident and health insurance policy issued by the appellant, providing, among other\\nthings, that: “If such injuries as described in the Insuring clause do not…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Butterfield w/15 \"45 So. 78\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3544241,
+    "bluebook": "Mut. Ben. Health & Accident Ass'n v. Caver, 152 So. 897 (Miss. 1934)",
+    "url": "https://syfert.com/mississippi/cases/169-miss-554/mutual-ben-health-accident-assn-v-caver",
+    "date_filed": "1934-03-05",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "Ethridge, P. J.,\ndelivered the opinion of the court.\nCaver brought suit on an accident and health insurance policy issued by the appellant, providing, among other\nthings, that: “If such injuries as described in the Insuring clause do not…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

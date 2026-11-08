@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Minnesota w/15 \"148 NW 561\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Minnesota w/15 \\\"148 NW 561\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2014589,\"bluebook\":\"Chamberlin v. Detroit Edison Co., 165 N.W.2d 845 (Mich. Ct. App. 1968)\",\"url\":\"https://syfert.com/michigan/cases/14-mich-app-565/chamberlin-v-detroit-edison-co\",\"date_filed\":\"1968-12-02\",\"cited_by\":12,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...City of Norfolk\\n(1958), 199 Va 716 ( 101 SE2d 527 );\\nMinnesota Canal & Power Co.\\nv.\\nFall Lake Boom Co.\\n(1914), 127 Minn 23 ( 148 NW 561 );\\nPeavy-Wilson Lumber Company v. Brevard County\\n(1947), 159 Fla 311 (31 So 2d 483, 172 ALR 168 ).…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Minnesota w/15 \"148 NW 561\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2014589,
+    "bluebook": "Chamberlin v. Detroit Edison Co., 165 N.W.2d 845 (Mich. Ct. App. 1968)",
+    "url": "https://syfert.com/michigan/cases/14-mich-app-565/chamberlin-v-detroit-edison-co",
+    "date_filed": "1968-12-02",
+    "cited_by": 12,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...City of Norfolk\n(1958), 199 Va 716 ( 101 SE2d 527 );\nMinnesota Canal & Power Co.\nv.\nFall Lake Boom Co.\n(1914), 127 Minn 23 ( 148 NW 561 );\nPeavy-Wilson Lumber Company v. Brevard County\n(1947), 159 Fla 311 (31 So 2d 483, 172 ALR 168 ).…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

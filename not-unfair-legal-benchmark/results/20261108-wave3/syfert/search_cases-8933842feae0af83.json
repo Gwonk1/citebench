@@ -1,0 +1,74 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Pyle w/15 \"156 P.2d 509\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Pyle w/15 \\\"156 P.2d 509\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7965127,\"bluebook\":\"Townsend v. Hudspeth, 205 P.2d 483 (Kan. 1949)\",\"url\":\"https://syfert.com/kansas/cases/167-kan-366/townsend-v-hudspeth\",\"date_filed\":\"1949-05-07\",\"cited_by\":4,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...We have held that in the absence of a clear showing of such knowledge by the officers in charge of the prosecution a writ will not issue. (Pyle v. Amrine, 159 Kan. 458 , 156 P. 2d 509 .) A petition for a writ of certiorari was denied in…\"},{\"cluster_id\":2619465,\"bluebook\":\"Barrett v. Hand, 317 P.2d 412 (Kan. 1957)\",\"url\":\"https://syfert.com/kansas/cases/181-kan-916/barrett-v-hand\",\"date_filed\":\"1957-11-09\",\"cited_by\":4,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...See\\nPyle v. Amrine,\\n159 Kan. 458, 474 , 156 P. 2d 509 , where, with reference to the purpose of the very statute now under consideration, we said the requirement that the names of all persons the state intends to use as witnesses at the…\"},{\"cluster_id\":2619523,\"bluebook\":\"State v. Robertson, 455 P.2d 570 (Kan. 1969)\",\"url\":\"https://syfert.com/kansas/cases/203-kan-647/state-v-robertson\",\"date_filed\":\"1969-06-14\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...2d 977 .)\\nThis requirement of endorsement of witnesses is a safeguard extended to a defendant to prevent surprise and give him an opportunity to examine the witnesses for the state in advance of trial. (\\nPyle v. Amrine,\\n159 Kan. 458,…\"},{\"cluster_id\":1347061,\"bluebook\":\"State v. Poulos, 411 P.2d 689 (Kan. 1966)\",\"url\":\"https://syfert.com/kansas/cases/196-kan-287/state-v-poulos\",\"date_filed\":\"1966-03-05\",\"cited_by\":32,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...300 , 54 P. 2d 977 ;\\nPyle v. Amrine,\\n159 Kan. 458 , 156 P. 2d 509 .)\\nA situation comparable to the one presented here was before this court in\\nState v. Thomas,\\nsupra. In that case we held:\\n“In a criminal action, whether the state may…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Pyle w/15 \"156 P.2d 509\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7965127,
+    "bluebook": "Townsend v. Hudspeth, 205 P.2d 483 (Kan. 1949)",
+    "url": "https://syfert.com/kansas/cases/167-kan-366/townsend-v-hudspeth",
+    "date_filed": "1949-05-07",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...We have held that in the absence of a clear showing of such knowledge by the officers in charge of the prosecution a writ will not issue. (Pyle v. Amrine, 159 Kan. 458 , 156 P. 2d 509 .) A petition for a writ of certiorari was denied in…"
+   },
+   {
+    "cluster_id": 2619465,
+    "bluebook": "Barrett v. Hand, 317 P.2d 412 (Kan. 1957)",
+    "url": "https://syfert.com/kansas/cases/181-kan-916/barrett-v-hand",
+    "date_filed": "1957-11-09",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See\nPyle v. Amrine,\n159 Kan. 458, 474 , 156 P. 2d 509 , where, with reference to the purpose of the very statute now under consideration, we said the requirement that the names of all persons the state intends to use as witnesses at the…"
+   },
+   {
+    "cluster_id": 2619523,
+    "bluebook": "State v. Robertson, 455 P.2d 570 (Kan. 1969)",
+    "url": "https://syfert.com/kansas/cases/203-kan-647/state-v-robertson",
+    "date_filed": "1969-06-14",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2d 977 .)\nThis requirement of endorsement of witnesses is a safeguard extended to a defendant to prevent surprise and give him an opportunity to examine the witnesses for the state in advance of trial. (\nPyle v. Amrine,\n159 Kan. 458,…"
+   },
+   {
+    "cluster_id": 1347061,
+    "bluebook": "State v. Poulos, 411 P.2d 689 (Kan. 1966)",
+    "url": "https://syfert.com/kansas/cases/196-kan-287/state-v-poulos",
+    "date_filed": "1966-03-05",
+    "cited_by": 32,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...300 , 54 P. 2d 977 ;\nPyle v. Amrine,\n159 Kan. 458 , 156 P. 2d 509 .)\nA situation comparable to the one presented here was before this court in\nState v. Thomas,\nsupra. In that case we held:\n“In a criminal action, whether the state may…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

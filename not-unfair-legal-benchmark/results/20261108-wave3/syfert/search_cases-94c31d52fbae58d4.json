@@ -1,0 +1,419 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "McCollum w/15 \"256 SW2d 716\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"McCollum w/15 \\\"256 SW2d 716\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5365599,\"case_name\":\"McCollum v. Salmon\",\"citations\":[\"115 A.D. 882\",\"100 N.Y.S. 1127\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1906-09-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/115-a-d-882/mccollum-v-salmon\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McCollum v. Salmon, 115 A.D. 882 (N.Y. App. Div. 1906)\",\"link_md\":\"[McCollum v. Salmon, 115 A.D. 882 (N.Y. App. Div. 1906)](https://syfert.com/new-york/cases/115-a-d-882/mccollum-v-salmon)\",\"match_kind\":\"semantic\",\"similarity\":0.6886},{\"cluster_id\":3639376,\"case_name\":\"Williamson v. . McCollum\",\"citations\":[\"76 N.E. 1116\",\"184 N.Y. 543\",\"1906 N.Y. LEXIS 1442\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1906-02-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/184-n-y-543/williamson-v-mccollum\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Williamson v. McCollum, 76 N.E. 1116 (N.Y. 1906)\",\"link_md\":\"[Williamson v. McCollum, 76 N.E. 1116 (N.Y. 1906)](https://syfert.com/new-york/cases/184-n-y-543/williamson-v-mccollum)\",\"match_kind\":\"semantic\",\"similarity\":0.6657},{\"cluster_id\":8349528,\"case_name\":\"McColl v. Frith\",\"citations\":[\"18 Jones & S. 530\"],\"court\":\"The Superior Court of New York City\",\"date_filed\":\"1884-04-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-8349528/mccoll-v-frith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McColl v. Frith, 18 Jones & S. 530 (N.Y. Super. Ct. 1884)\",\"link_md\":\"[McColl v. Frith, 18 Jones & S. 530 (N.Y. Super. Ct. 1884)](https://syfert.com/new-york/cases/cl-8349528/mccoll-v-frith)\",\"match_kind\":\"semantic\",\"similarity\":0.6605},{\"cluster_id\":2688360,\"case_name\":\"Commonwealth v. McCollum, S., Pet\",\"citations\":[\"96 A.3d 1026\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2014-07-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/96-a-3d-1026/commonwealth-v-mccollum-s-pet\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"96 A.3d 1026\",\"recovered_from_citing_opinions\":2,\"source\":\"name_year_recovery\",\"confidence\":0.9,\"note\":\"Reporter citation recovered from 2 citing opinions that cite this case by name and year. CourtListener carries no reporter cite for it (confidence 0.90)\"}],\"bluebook\":\"Commonwealth v. McCollum, S., 96 A.3d 1026 (Pa. 2014)\",\"link_md\":\"[Commonwealth v. McCollum, S., 96 A.3d 1026 (Pa. 2014)](https://syfert.com/pennsylvania/cases/96-a-3d-1026/commonwealth-v-mccollum-s-pet)\",\"match_kind\":\"semantic\",\"similarity\":0.6491},{\"cluster_id\":6831811,\"case_name\":\"McCollum v. Van Lines\",\"citations\":[\"359 N.C. 282\"],\"court\":\"Supreme Court of North Carolina\",\"date_filed\":\"2004-07-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/359-n-c-282/mccollum-v-van-lines\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McCollum v. Van Lines, 359 N.C. 282 (2004)\",\"link_md\":\"[McCollum v. Van Lines, 359 N.C. 282 (2004)](https://syfert.com/north-carolina/cases/359-n-c-282/mccollum-v-van-lines)\",\"match_kind\":\"semantic\",\"similarity\":0.6332},{\"cluster_id\":9067,\"case_name\":\"Collum v. United States\",\"citations\":[\"84 F.3d 433\",\"1996 WL 248996\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1996-04-09\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/84-f-3d-433/collum-v-united-states\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Collum v. United States, 84 F.3d 433 (5th Cir. 1996)\",\"link_md\":\"[Collum v. United States, 84 F.3d 433 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/84-f-3d-433/collum-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6254},{\"cluster_id\":698478,\"case_name\":\"McCullar v. Scott\",\"citations\":[\"58 F.3d 635\",\"1995 U.S. App. LEXIS 16300\",\"1995 WL 370719\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1995-05-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/58-f-3d-635/mccullar-v-scott\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McCullar v. Scott, 58 F.3d 635 (5th Cir. 1995)\",\"link_md\":\"[McCullar v. Scott, 58 F.3d 635 (5th Cir. 1995)](https://syfert.com/federal/circuits/cases/58-f-3d-635/mccullar-v-scott)\",\"match_kind\":\"semantic\",\"similarity\":0.6233},{\"cluster_id\":5377801,\"case_name\":\"McCollum v. Diana Paper Co.\",\"citations\":[\"134 A.D. 994\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1909-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/134-a-d-994/mccollum-v-diana-paper-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McCollum v. Diana Paper Co., 134 A.D. 994 (N.Y. App. Div. 1909)\",\"link_md\":\"[McCollum v. Diana Paper Co., 134 A.D. 994 (N.Y. App. Div. 1909)](https://syfert.com/new-york/cases/134-a-d-994/mccollum-v-diana-paper-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6215},{\"cluster_id\":9132899,\"case_name\":\"McCollough v. A. G. Edwards & Sons, Inc.\",\"citations\":[\"507 U.S. 1012\"],\"court\":\"Supreme Court\",\"date_filed\":\"1993-03-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/507-u-s-1012/mccollough-v-a-g-edwards-sons-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (9132899 and its twin 9132900). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McCollough v. A. G. Edwards & Sons, Inc., 507 U.S. 1012 (1993)\",\"link_md\":\"[McCollough v. A. G. Edwards & Sons, Inc., 507 U.S. 1012 (1993)](https://syfert.com/federal/scotus/cases/507-u-s-1012/mccollough-v-a-g-edwards-sons-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6211,\"twin_clusters\":[9132900,9132899]},{\"cluster_id\":6485954,\"case_name\":\"Commonwealth v. McCabe\",\"citations\":[\"194 A.3d 1037\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2018-09-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/194-a-3d-1037/commonwealth-v-mccabe\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Commonwealth v. McCabe, 194 A.3d 1037 (Pa. 2018)\",\"link_md\":\"[Commonwealth v. McCabe, 194 A.3d 1037 (Pa. 2018)](https://syfert.com/pennsylvania/cases/194-a-3d-1037/commonwealth-v-mccabe)\",\"match_kind\":\"semantic\",\"similarity\":0.6128},{\"cluster_id\":5475220,\"case_name\":\"Kommel v. Canadian Sawdust Co.\",\"citations\":[\"230 A.D. 816\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1930-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/230-a-d-816/kommel-v-canadian-sawdust-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kommel v. Canadian Sawdust Co., 230 A.D. 816 (N.Y. App. Div. 1930)\",\"link_md\":\"[Kommel v. Canadian Sawdust Co., 230 A.D. 816 (N.Y. App. Div. 1930)](https://syfert.com/new-york/cases/230-a-d-816/kommel-v-canadian-sawdust-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6125},{\"cluster_id\":456080,\"case_name\":\"Copeland v. St. Louis Sw Ry. Co\",\"citations\":[\"768 F.2d 1348\",\"1985 U.S. App. LEXIS 20598\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1985-07-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/768-f-2d-1348/copeland-v-st-louis-sw-ry-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Copeland v. St. Louis Sw Ry. Co, 768 F.2d 1348 (5th Cir. 1985)\",\"link_md\":\"[Copeland v. St. Louis Sw Ry. Co, 768 F.2d 1348 (5th Cir. 1985)](https://syfert.com/federal/circuits/cases/768-f-2d-1348/copeland-v-st-louis-sw-ry-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6117},{\"cluster_id\":5138224,\"case_name\":\"Commonwealth v. Coleman\",\"citations\":[\"776 A.2d 938\",\"565 Pa. 470\",\"2001 Pa. LEXIS 1367\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2001-06-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/565-pa-470/commonwealth-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Commonwealth v. Coleman, 776 A.2d 938 (Pa. 2001)\",\"link_md\":\"[Commonwealth v. Coleman, 776 A.2d 938 (Pa. 2001)](https://syfert.com/pennsylvania/cases/565-pa-470/commonwealth-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.6096},{\"cluster_id\":1238162,\"case_name\":\"Coleman v. McCaughtry\",\"citations\":[\"764 N.W.2d 531\",\"315 Wis. 2d 721\",\"2009 WI 23\",\"2009 Wisc. LEXIS 126\"],\"court\":\"Wisconsin Supreme Court\",\"date_filed\":\"2009-01-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/wisconsin/cases/315-wis-2d-721/coleman-v-mccaughtry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. McCaughtry, 2009 WI 23, 764 N.W.2d 531\",\"link_md\":\"[Coleman v. McCaughtry, 2009 WI 23, 764 N.W.2d 531](https://syfert.com/wisconsin/cases/315-wis-2d-721/coleman-v-mccaughtry)\",\"match_kind\":\"semantic\",\"similarity\":0.6091},{\"cluster_id\":5436663,\"case_name\":\"McColgan v. Dodds\",\"citations\":[\"209 A.D. 817\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1924-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/209-a-d-817/mccolgan-v-dodds\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McColgan v. Dodds, 209 A.D. 817 (N.Y. App. Div. 1924)\",\"link_md\":\"[McColgan v. Dodds, 209 A.D. 817 (N.Y. App. Div. 1924)](https://syfert.com/new-york/cases/209-a-d-817/mccolgan-v-dodds)\",\"match_kind\":\"semantic\",\"similarity\":0.6074},{\"cluster_id\":6394939,\"case_name\":\"Commonwealth v. Williams\",\"citations\":[\"690 A.2d 233\",\"547 Pa. 355\",\"1997 Pa. LEXIS 574\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1997-03-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/547-pa-355/commonwealth-v-williams\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (6394939 and its twins 5134257, 5342809). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Commonwealth v. Williams, 690 A.2d 233 (Pa. 1997)\",\"link_md\":\"[Commonwealth v. Williams, 690 A.2d 233 (Pa. 1997)](https://syfert.com/pennsylvania/cases/547-pa-355/commonwealth-v-williams)\",\"match_kind\":\"semantic\",\"similarity\":0.6042,\"twin_clusters\":[5134257,5342809,6394939]},{\"cluster_id\":5439071,\"case_name\":\"McColgan v. Dodds\",\"citations\":[\"211 A.D. 851\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1924-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/211-a-d-851/mccolgan-v-dodds\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McColgan v. Dodds, 211 A.D. 851 (N.Y. App. Div. 1924)\",\"link_md\":\"[McColgan v. Dodds, 211 A.D. 851 (N.Y. App. Div. 1924)](https://syfert.com/new-york/cases/211-a-d-851/mccolgan-v-dodds)\",\"match_kind\":\"semantic\",\"similarity\":0.6032},{\"cluster_id\":5164035,\"case_name\":\"Commonwealth v. McMullen\",\"citations\":[\"170 A.3d 1007\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2017-08-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/170-a-3d-1007/commonwealth-v-mcmullen\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (5164035 and its twins 5164036, 5164037). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Commonwealth v. McMullen, 170 A.3d 1007 (Pa. 2017)\",\"link_md\":\"[Commonwealth v. McMullen, 170 A.3d 1007 (Pa. 2017)](https://syfert.com/pennsylvania/cases/170-a-3d-1007/commonwealth-v-mcmullen)\",\"match_kind\":\"semantic\",\"similarity\":0.6029},{\"cluster_id\":5437190,\"case_name\":\"McColgan v. Dodds\",\"citations\":[\"209 A.D. 870\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1924-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/209-a-d-870/mccolgan-v-dodds\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McColgan v. Dodds, 209 A.D. 870 (N.Y. App. Div. 1924)\",\"link_md\":\"[McColgan v. Dodds, 209 A.D. 870 (N.Y. App. Div. 1924)](https://syfert.com/new-york/cases/209-a-d-870/mccolgan-v-dodds)\",\"match_kind\":\"semantic\",\"similarity\":0.6028},{\"cluster_id\":5478169,\"case_name\":\"McCormack v. Willock\",\"citations\":[\"232 A.D. 746\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1931-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/232-a-d-746/mccormack-v-willock\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McCormack v. Willock, 232 A.D. 746 (N.Y. App. Div. 1931)\",\"link_md\":\"[McCormack v. Willock, 232 A.D. 746 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/232-a-d-746/mccormack-v-willock)\",\"match_kind\":\"semantic\",\"similarity\":0.6027}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "McCollum w/15 \"256 SW2d 716\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5365599,
+    "case_name": "McCollum v. Salmon",
+    "citations": [
+     "115 A.D. 882",
+     "100 N.Y.S. 1127"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1906-09-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/115-a-d-882/mccollum-v-salmon",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCollum v. Salmon, 115 A.D. 882 (N.Y. App. Div. 1906)",
+    "link_md": "[McCollum v. Salmon, 115 A.D. 882 (N.Y. App. Div. 1906)](https://syfert.com/new-york/cases/115-a-d-882/mccollum-v-salmon)",
+    "match_kind": "semantic",
+    "similarity": 0.6886
+   },
+   {
+    "cluster_id": 3639376,
+    "case_name": "Williamson v. . McCollum",
+    "citations": [
+     "76 N.E. 1116",
+     "184 N.Y. 543",
+     "1906 N.Y. LEXIS 1442"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1906-02-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/184-n-y-543/williamson-v-mccollum",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Williamson v. McCollum, 76 N.E. 1116 (N.Y. 1906)",
+    "link_md": "[Williamson v. McCollum, 76 N.E. 1116 (N.Y. 1906)](https://syfert.com/new-york/cases/184-n-y-543/williamson-v-mccollum)",
+    "match_kind": "semantic",
+    "similarity": 0.6657
+   },
+   {
+    "cluster_id": 8349528,
+    "case_name": "McColl v. Frith",
+    "citations": [
+     "18 Jones & S. 530"
+    ],
+    "court": "The Superior Court of New York City",
+    "date_filed": "1884-04-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-8349528/mccoll-v-frith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McColl v. Frith, 18 Jones & S. 530 (N.Y. Super. Ct. 1884)",
+    "link_md": "[McColl v. Frith, 18 Jones & S. 530 (N.Y. Super. Ct. 1884)](https://syfert.com/new-york/cases/cl-8349528/mccoll-v-frith)",
+    "match_kind": "semantic",
+    "similarity": 0.6605
+   },
+   {
+    "cluster_id": 2688360,
+    "case_name": "Commonwealth v. McCollum, S., Pet",
+    "citations": [
+     "96 A.3d 1026"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2014-07-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/96-a-3d-1026/commonwealth-v-mccollum-s-pet",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "96 A.3d 1026",
+      "recovered_from_citing_opinions": 2,
+      "source": "name_year_recovery",
+      "confidence": 0.9,
+      "note": "Reporter citation recovered from 2 citing opinions that cite this case by name and year. CourtListener carries no reporter cite for it (confidence 0.90)"
+     }
+    ],
+    "bluebook": "Commonwealth v. McCollum, S., 96 A.3d 1026 (Pa. 2014)",
+    "link_md": "[Commonwealth v. McCollum, S., 96 A.3d 1026 (Pa. 2014)](https://syfert.com/pennsylvania/cases/96-a-3d-1026/commonwealth-v-mccollum-s-pet)",
+    "match_kind": "semantic",
+    "similarity": 0.6491
+   },
+   {
+    "cluster_id": 6831811,
+    "case_name": "McCollum v. Van Lines",
+    "citations": [
+     "359 N.C. 282"
+    ],
+    "court": "Supreme Court of North Carolina",
+    "date_filed": "2004-07-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/359-n-c-282/mccollum-v-van-lines",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCollum v. Van Lines, 359 N.C. 282 (2004)",
+    "link_md": "[McCollum v. Van Lines, 359 N.C. 282 (2004)](https://syfert.com/north-carolina/cases/359-n-c-282/mccollum-v-van-lines)",
+    "match_kind": "semantic",
+    "similarity": 0.6332
+   },
+   {
+    "cluster_id": 9067,
+    "case_name": "Collum v. United States",
+    "citations": [
+     "84 F.3d 433",
+     "1996 WL 248996"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1996-04-09",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/84-f-3d-433/collum-v-united-states",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Collum v. United States, 84 F.3d 433 (5th Cir. 1996)",
+    "link_md": "[Collum v. United States, 84 F.3d 433 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/84-f-3d-433/collum-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6254
+   },
+   {
+    "cluster_id": 698478,
+    "case_name": "McCullar v. Scott",
+    "citations": [
+     "58 F.3d 635",
+     "1995 U.S. App. LEXIS 16300",
+     "1995 WL 370719"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1995-05-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/58-f-3d-635/mccullar-v-scott",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCullar v. Scott, 58 F.3d 635 (5th Cir. 1995)",
+    "link_md": "[McCullar v. Scott, 58 F.3d 635 (5th Cir. 1995)](https://syfert.com/federal/circuits/cases/58-f-3d-635/mccullar-v-scott)",
+    "match_kind": "semantic",
+    "similarity": 0.6233
+   },
+   {
+    "cluster_id": 5377801,
+    "case_name": "McCollum v. Diana Paper Co.",
+    "citations": [
+     "134 A.D. 994"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1909-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/134-a-d-994/mccollum-v-diana-paper-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCollum v. Diana Paper Co., 134 A.D. 994 (N.Y. App. Div. 1909)",
+    "link_md": "[McCollum v. Diana Paper Co., 134 A.D. 994 (N.Y. App. Div. 1909)](https://syfert.com/new-york/cases/134-a-d-994/mccollum-v-diana-paper-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6215
+   },
+   {
+    "cluster_id": 9132899,
+    "case_name": "McCollough v. A. G. Edwards & Sons, Inc.",
+    "citations": [
+     "507 U.S. 1012"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1993-03-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/507-u-s-1012/mccollough-v-a-g-edwards-sons-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (9132899 and its twin 9132900). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCollough v. A. G. Edwards & Sons, Inc., 507 U.S. 1012 (1993)",
+    "link_md": "[McCollough v. A. G. Edwards & Sons, Inc., 507 U.S. 1012 (1993)](https://syfert.com/federal/scotus/cases/507-u-s-1012/mccollough-v-a-g-edwards-sons-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6211,
+    "twin_clusters": [
+     9132900,
+     9132899
+    ]
+   },
+   {
+    "cluster_id": 6485954,
+    "case_name": "Commonwealth v. McCabe",
+    "citations": [
+     "194 A.3d 1037"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2018-09-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/194-a-3d-1037/commonwealth-v-mccabe",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Commonwealth v. McCabe, 194 A.3d 1037 (Pa. 2018)",
+    "link_md": "[Commonwealth v. McCabe, 194 A.3d 1037 (Pa. 2018)](https://syfert.com/pennsylvania/cases/194-a-3d-1037/commonwealth-v-mccabe)",
+    "match_kind": "semantic",
+    "similarity": 0.6128
+   },
+   {
+    "cluster_id": 5475220,
+    "case_name": "Kommel v. Canadian Sawdust Co.",
+    "citations": [
+     "230 A.D. 816"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1930-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/230-a-d-816/kommel-v-canadian-sawdust-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kommel v. Canadian Sawdust Co., 230 A.D. 816 (N.Y. App. Div. 1930)",
+    "link_md": "[Kommel v. Canadian Sawdust Co., 230 A.D. 816 (N.Y. App. Div. 1930)](https://syfert.com/new-york/cases/230-a-d-816/kommel-v-canadian-sawdust-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6125
+   },
+   {
+    "cluster_id": 456080,
+    "case_name": "Copeland v. St. Louis Sw Ry. Co",
+    "citations": [
+     "768 F.2d 1348",
+     "1985 U.S. App. LEXIS 20598"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1985-07-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/768-f-2d-1348/copeland-v-st-louis-sw-ry-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Copeland v. St. Louis Sw Ry. Co, 768 F.2d 1348 (5th Cir. 1985)",
+    "link_md": "[Copeland v. St. Louis Sw Ry. Co, 768 F.2d 1348 (5th Cir. 1985)](https://syfert.com/federal/circuits/cases/768-f-2d-1348/copeland-v-st-louis-sw-ry-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6117
+   },
+   {
+    "cluster_id": 5138224,
+    "case_name": "Commonwealth v. Coleman",
+    "citations": [
+     "776 A.2d 938",
+     "565 Pa. 470",
+     "2001 Pa. LEXIS 1367"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2001-06-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/565-pa-470/commonwealth-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Commonwealth v. Coleman, 776 A.2d 938 (Pa. 2001)",
+    "link_md": "[Commonwealth v. Coleman, 776 A.2d 938 (Pa. 2001)](https://syfert.com/pennsylvania/cases/565-pa-470/commonwealth-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.6096
+   },
+   {
+    "cluster_id": 1238162,
+    "case_name": "Coleman v. McCaughtry",
+    "citations": [
+     "764 N.W.2d 531",
+     "315 Wis. 2d 721",
+     "2009 WI 23",
+     "2009 Wisc. LEXIS 126"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "2009-01-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/wisconsin/cases/315-wis-2d-721/coleman-v-mccaughtry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. McCaughtry, 2009 WI 23, 764 N.W.2d 531",
+    "link_md": "[Coleman v. McCaughtry, 2009 WI 23, 764 N.W.2d 531](https://syfert.com/wisconsin/cases/315-wis-2d-721/coleman-v-mccaughtry)",
+    "match_kind": "semantic",
+    "similarity": 0.6091
+   },
+   {
+    "cluster_id": 5436663,
+    "case_name": "McColgan v. Dodds",
+    "citations": [
+     "209 A.D. 817"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1924-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/209-a-d-817/mccolgan-v-dodds",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McColgan v. Dodds, 209 A.D. 817 (N.Y. App. Div. 1924)",
+    "link_md": "[McColgan v. Dodds, 209 A.D. 817 (N.Y. App. Div. 1924)](https://syfert.com/new-york/cases/209-a-d-817/mccolgan-v-dodds)",
+    "match_kind": "semantic",
+    "similarity": 0.6074
+   },
+   {
+    "cluster_id": 6394939,
+    "case_name": "Commonwealth v. Williams",
+    "citations": [
+     "690 A.2d 233",
+     "547 Pa. 355",
+     "1997 Pa. LEXIS 574"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1997-03-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/547-pa-355/commonwealth-v-williams",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (6394939 and its twins 5134257, 5342809). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Commonwealth v. Williams, 690 A.2d 233 (Pa. 1997)",
+    "link_md": "[Commonwealth v. Williams, 690 A.2d 233 (Pa. 1997)](https://syfert.com/pennsylvania/cases/547-pa-355/commonwealth-v-williams)",
+    "match_kind": "semantic",
+    "similarity": 0.6042,
+    "twin_clusters": [
+     5134257,
+     5342809,
+     6394939
+    ]
+   },
+   {
+    "cluster_id": 5439071,
+    "case_name": "McColgan v. Dodds",
+    "citations": [
+     "211 A.D. 851"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1924-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/211-a-d-851/mccolgan-v-dodds",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McColgan v. Dodds, 211 A.D. 851 (N.Y. App. Div. 1924)",
+    "link_md": "[McColgan v. Dodds, 211 A.D. 851 (N.Y. App. Div. 1924)](https://syfert.com/new-york/cases/211-a-d-851/mccolgan-v-dodds)",
+    "match_kind": "semantic",
+    "similarity": 0.6032
+   },
+   {
+    "cluster_id": 5164035,
+    "case_name": "Commonwealth v. McMullen",
+    "citations": [
+     "170 A.3d 1007"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2017-08-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/170-a-3d-1007/commonwealth-v-mcmullen",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (5164035 and its twins 5164036, 5164037). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Commonwealth v. McMullen, 170 A.3d 1007 (Pa. 2017)",
+    "link_md": "[Commonwealth v. McMullen, 170 A.3d 1007 (Pa. 2017)](https://syfert.com/pennsylvania/cases/170-a-3d-1007/commonwealth-v-mcmullen)",
+    "match_kind": "semantic",
+    "similarity": 0.6029
+   },
+   {
+    "cluster_id": 5437190,
+    "case_name": "McColgan v. Dodds",
+    "citations": [
+     "209 A.D. 870"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1924-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/209-a-d-870/mccolgan-v-dodds",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McColgan v. Dodds, 209 A.D. 870 (N.Y. App. Div. 1924)",
+    "link_md": "[McColgan v. Dodds, 209 A.D. 870 (N.Y. App. Div. 1924)](https://syfert.com/new-york/cases/209-a-d-870/mccolgan-v-dodds)",
+    "match_kind": "semantic",
+    "similarity": 0.6028
+   },
+   {
+    "cluster_id": 5478169,
+    "case_name": "McCormack v. Willock",
+    "citations": [
+     "232 A.D. 746"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1931-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/232-a-d-746/mccormack-v-willock",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCormack v. Willock, 232 A.D. 746 (N.Y. App. Div. 1931)",
+    "link_md": "[McCormack v. Willock, 232 A.D. 746 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/232-a-d-746/mccormack-v-willock)",
+    "match_kind": "semantic",
+    "similarity": 0.6027
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

@@ -1,0 +1,400 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Sweeney w/15 \"22 NW2d 657\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Sweeney w/15 \\\"22 NW2d 657\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":702832,\"case_name\":\"United States v. Robert Earl Sweeney\",\"citations\":[\"64 F.3d 661\",\"1995 U.S. App. LEXIS 30071\",\"1995 WL 490288\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1995-08-17\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/64-f-3d-661/united-states-v-robert-earl-sweeney\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Robert Earl Sweeney, 64 F.3d 661 (4th Cir. 1995)\",\"link_md\":\"[United States v. Robert Earl Sweeney, 64 F.3d 661 (4th Cir. 1995)](https://syfert.com/federal/circuits/cases/64-f-3d-661/united-states-v-robert-earl-sweeney)\",\"match_kind\":\"semantic\",\"similarity\":0.7118},{\"cluster_id\":2165514,\"case_name\":\"State v. Sweeney\",\"citations\":[\"730 N.W.2d 461\",\"2007 WI App 110\",\"300 Wis. 2d 581\"],\"court\":\"Court of Appeals of Wisconsin\",\"date_filed\":\"2007-02-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/wisconsin/cases/300-wis-2d-581/state-v-sweeney\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sweeney, 2007 WI App 110, 730 N.W.2d 461\",\"link_md\":\"[State v. Sweeney, 2007 WI App 110, 730 N.W.2d 461](https://syfert.com/wisconsin/cases/300-wis-2d-581/state-v-sweeney)\",\"match_kind\":\"semantic\",\"similarity\":0.6943},{\"cluster_id\":1282922,\"case_name\":\"State v. Sweeney\",\"citations\":[\"765 N.W.2d 581\",\"316 Wis. 2d 721\",\"2009 WI 34\",\"2009 Wisc. LEXIS 173\"],\"court\":\"Wisconsin Supreme Court\",\"date_filed\":\"2009-04-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/wisconsin/cases/316-wis-2d-721/state-v-sweeney\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sweeney, 2009 WI 34, 765 N.W.2d 581\",\"link_md\":\"[State v. Sweeney, 2009 WI 34, 765 N.W.2d 581](https://syfert.com/wisconsin/cases/316-wis-2d-721/state-v-sweeney)\",\"match_kind\":\"semantic\",\"similarity\":0.6903},{\"cluster_id\":8309443,\"case_name\":\"Sweeney v. Sweeney\",\"citations\":[\"107 N.Y.S. 1147\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1907-12-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/107-n-y-s-1147/sweeney-v-sweeney\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sweeney v. Sweeney, 107 N.Y.S. 1147 (N.Y. App. Div. 1907)\",\"link_md\":\"[Sweeney v. Sweeney, 107 N.Y.S. 1147 (N.Y. App. Div. 1907)](https://syfert.com/new-york/cases/107-n-y-s-1147/sweeney-v-sweeney)\",\"match_kind\":\"semantic\",\"similarity\":0.6664},{\"cluster_id\":9701277,\"case_name\":\"Sweeney v. Vanderhill\",\"citations\":[],\"court\":\"S.D. Indiana\",\"date_filed\":\"2021-05-26\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9701277/sweeney-v-vanderhill\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Sweeney v. Vanderhill, No. 2:20-cv-00463 (S.D. Ind. May 26, 2021)\",\"link_md\":\"[Sweeney v. Vanderhill, No. 2:20-cv-00463 (S.D. Ind. May 26, 2021)](https://syfert.com/federal/district/cases/cl-9701277/sweeney-v-vanderhill)\",\"match_kind\":\"semantic\",\"similarity\":0.6633},{\"cluster_id\":2331237,\"case_name\":\"State v. Sweany\",\"citations\":[\"268 P.3d 224\",\"172 Wash. 2d 1020\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"2011-11-01\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/washington/cases/172-wash-2d-1020/state-v-sweany\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sweany, 268 P.3d 224 (Wash. 2011)\",\"link_md\":\"[State v. Sweany, 268 P.3d 224 (Wash. 2011)](https://syfert.com/washington/cases/172-wash-2d-1020/state-v-sweany)\",\"match_kind\":\"semantic\",\"similarity\":0.6591},{\"cluster_id\":2214967,\"case_name\":\"Sweeney v. PETSKA\",\"citations\":[\"785 N.W.2d 687\",\"2010 WI App 62\",\"324 Wis. 2d 582\"],\"court\":\"Court of Appeals of Wisconsin\",\"date_filed\":\"2010-03-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/wisconsin/cases/324-wis-2d-582/sweeney-v-petska\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sweeney v. PETSKA, 2010 WI App 62, 785 N.W.2d 687\",\"link_md\":\"[Sweeney v. PETSKA, 2010 WI App 62, 785 N.W.2d 687](https://syfert.com/wisconsin/cases/324-wis-2d-582/sweeney-v-petska)\",\"match_kind\":\"semantic\",\"similarity\":0.6584},{\"cluster_id\":2502990,\"case_name\":\"Swaney v. Swaney\",\"citations\":[\"720 S.E.2d 461\",\"2011 WL 6574878\"],\"court\":\"Court of Appeals of North Carolina\",\"date_filed\":\"2011-12-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/720-s-e-2d-461/swaney-v-swaney\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Swaney v. Swaney, 720 S.E.2d 461 (N.C. Ct. App. 2011)\",\"link_md\":\"[Swaney v. Swaney, 720 S.E.2d 461 (N.C. Ct. App. 2011)](https://syfert.com/north-carolina/cases/720-s-e-2d-461/swaney-v-swaney)\",\"match_kind\":\"semantic\",\"similarity\":0.6581},{\"cluster_id\":4938189,\"case_name\":\"State v. Sweeney\",\"citations\":[\"124 Wash. App. 1052\",\"2004 Wash. App. LEXIS 3694\"],\"court\":\"Court of Appeals of Washington\",\"date_filed\":\"2004-12-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/124-wash-app-1052/state-v-sweeney\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sweeney, 124 Wash. App. 1052 (Wash. Ct. App. 2004)\",\"link_md\":\"[State v. Sweeney, 124 Wash. App. 1052 (Wash. Ct. App. 2004)](https://syfert.com/washington/cases/124-wash-app-1052/state-v-sweeney)\",\"match_kind\":\"semantic\",\"similarity\":0.6545},{\"cluster_id\":6989760,\"case_name\":\"State v. Sweeney\",\"citations\":[\"83 Wash. App. 1013\"],\"court\":\"Court of Appeals of Washington\",\"date_filed\":\"1996-09-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/83-wash-app-1013/state-v-sweeney\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sweeney, 83 Wash. App. 1013 (Wash. Ct. App. 1996)\",\"link_md\":\"[State v. Sweeney, 83 Wash. App. 1013 (Wash. Ct. App. 1996)](https://syfert.com/washington/cases/83-wash-app-1013/state-v-sweeney)\",\"match_kind\":\"semantic\",\"similarity\":0.6527},{\"cluster_id\":8309442,\"case_name\":\"Sweeney v. O'Dwyer\",\"citations\":[\"107 N.Y.S. 1147\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1907-12-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/107-n-y-s-1147/sweeney-v-odwyer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sweeney v. O'Dwyer, 107 N.Y.S. 1147 (N.Y. App. Div. 1907)\",\"link_md\":\"[Sweeney v. O'Dwyer, 107 N.Y.S. 1147 (N.Y. App. Div. 1907)](https://syfert.com/new-york/cases/107-n-y-s-1147/sweeney-v-odwyer)\",\"match_kind\":\"semantic\",\"similarity\":0.6458},{\"cluster_id\":2523840,\"case_name\":\"State v. Sneed\",\"citations\":[\"227 P.3d 1172\",\"348 Or. 13\"],\"court\":\"Oregon Supreme Court\",\"date_filed\":\"2010-03-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/oregon/cases/348-or-13/state-v-sneed\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sneed, 227 P.3d 1172 (Or. 2010)\",\"link_md\":\"[State v. Sneed, 227 P.3d 1172 (Or. 2010)](https://syfert.com/oregon/cases/348-or-13/state-v-sneed)\",\"match_kind\":\"semantic\",\"similarity\":0.6427},{\"cluster_id\":6948742,\"case_name\":\"State v. Sweeney\",\"citations\":[\"19 Wash. App. 1026\"],\"court\":\"Court of Appeals of Washington\",\"date_filed\":\"1978-03-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/19-wash-app-1026/state-v-sweeney\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sweeney, 19 Wash. App. 1026 (Wash. Ct. App. 1978)\",\"link_md\":\"[State v. Sweeney, 19 Wash. App. 1026 (Wash. Ct. App. 1978)](https://syfert.com/washington/cases/19-wash-app-1026/state-v-sweeney)\",\"match_kind\":\"semantic\",\"similarity\":0.6353},{\"cluster_id\":2337601,\"case_name\":\"State v. Townsend\",\"citations\":[\"272 P.3d 247\",\"173 Wash. 2d 1015\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"2012-02-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/173-wash-2d-1015/state-v-townsend\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Townsend, 272 P.3d 247 (Wash. 2012)\",\"link_md\":\"[State v. Townsend, 272 P.3d 247 (Wash. 2012)](https://syfert.com/washington/cases/173-wash-2d-1015/state-v-townsend)\",\"match_kind\":\"semantic\",\"similarity\":0.6352},{\"cluster_id\":2342974,\"case_name\":\"City of Seattle v. Sisley\",\"citations\":[\"272 P.3d 850\",\"173 Wash. 2d 1022\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"2012-03-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/173-wash-2d-1022/city-of-seattle-v-sisley\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of Seattle v. Sisley, 272 P.3d 850 (Wash. 2012)\",\"link_md\":\"[City of Seattle v. Sisley, 272 P.3d 850 (Wash. 2012)](https://syfert.com/washington/cases/173-wash-2d-1022/city-of-seattle-v-sisley)\",\"match_kind\":\"semantic\",\"similarity\":0.6346},{\"cluster_id\":4970707,\"case_name\":\"Sweeney v. State\",\"citations\":[\"140 So. 2d 892\",\"1962 Fla. App. LEXIS 4059\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"1962-05-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/140-so-2d-892/sweeney-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sweeney v. State, 140 So. 2d 892 (Fla. 2d DCA 1962)\",\"link_md\":\"[Sweeney v. State, 140 So. 2d 892 (Fla. 2d DCA 1962)](https://syfert.com/florida/cases/140-so-2d-892/sweeney-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.634},{\"cluster_id\":518592,\"case_name\":\"Williams v. Sny\",\"citations\":[\"867 F.2d 1425\"],\"court\":\"Second Circuit\",\"date_filed\":\"1988-11-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/867-f-2d-1425/williams-v-sny\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Williams v. Sny, 867 F.2d 1425 (2d Cir. 1988)\",\"link_md\":\"[Williams v. Sny, 867 F.2d 1425 (2d Cir. 1988)](https://syfert.com/federal/circuits/cases/867-f-2d-1425/williams-v-sny)\",\"match_kind\":\"semantic\",\"similarity\":0.6331},{\"cluster_id\":6950415,\"case_name\":\"State v. Sweeney\",\"citations\":[\"23 Wash. App. 1018\"],\"court\":\"Court of Appeals of Washington\",\"date_filed\":\"1979-04-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/23-wash-app-1018/state-v-sweeney\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sweeney, 23 Wash. App. 1018 (Wash. Ct. App. 1979)\",\"link_md\":\"[State v. Sweeney, 23 Wash. App. 1018 (Wash. Ct. App. 1979)](https://syfert.com/washington/cases/23-wash-app-1018/state-v-sweeney)\",\"match_kind\":\"semantic\",\"similarity\":0.6323},{\"cluster_id\":4911007,\"case_name\":\"Sweeney v. Adams County Pub. Hosp. Dist. No. 2\",\"citations\":[\"391 P.3d 452\",\"187 Wash. 2d 1027\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"2017-03-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/187-wash-2d-1027/sweeney-v-adams-county-pub-hosp-dist-no-2\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sweeney v. Adams Cnty. Pub. Hosp. Dist. No. 2, 391 P.3d 452 (Wash. 2017)\",\"link_md\":\"[Sweeney v. Adams Cnty. Pub. Hosp. Dist. No. 2, 391 P.3d 452 (Wash. 2017)](https://syfert.com/washington/cases/187-wash-2d-1027/sweeney-v-adams-county-pub-hosp-dist-no-2)\",\"match_kind\":\"semantic\",\"similarity\":0.6314},{\"cluster_id\":4936661,\"case_name\":\"Byers v. Sweeney\",\"citations\":[\"120 Wash. App. 1023\",\"2004 Wash. App. LEXIS 881\"],\"court\":\"Court of Appeals of Washington\",\"date_filed\":\"2004-02-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/120-wash-app-1023/byers-v-sweeney\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Byers v. Sweeney, 120 Wash. App. 1023 (Wash. Ct. App. 2004)\",\"link_md\":\"[Byers v. Sweeney, 120 Wash. App. 1023 (Wash. Ct. App. 2004)](https://syfert.com/washington/cases/120-wash-app-1023/byers-v-sweeney)\",\"match_kind\":\"semantic\",\"similarity\":0.6298}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Sweeney w/15 \"22 NW2d 657\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 702832,
+    "case_name": "United States v. Robert Earl Sweeney",
+    "citations": [
+     "64 F.3d 661",
+     "1995 U.S. App. LEXIS 30071",
+     "1995 WL 490288"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1995-08-17",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/64-f-3d-661/united-states-v-robert-earl-sweeney",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Robert Earl Sweeney, 64 F.3d 661 (4th Cir. 1995)",
+    "link_md": "[United States v. Robert Earl Sweeney, 64 F.3d 661 (4th Cir. 1995)](https://syfert.com/federal/circuits/cases/64-f-3d-661/united-states-v-robert-earl-sweeney)",
+    "match_kind": "semantic",
+    "similarity": 0.7118
+   },
+   {
+    "cluster_id": 2165514,
+    "case_name": "State v. Sweeney",
+    "citations": [
+     "730 N.W.2d 461",
+     "2007 WI App 110",
+     "300 Wis. 2d 581"
+    ],
+    "court": "Court of Appeals of Wisconsin",
+    "date_filed": "2007-02-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/wisconsin/cases/300-wis-2d-581/state-v-sweeney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sweeney, 2007 WI App 110, 730 N.W.2d 461",
+    "link_md": "[State v. Sweeney, 2007 WI App 110, 730 N.W.2d 461](https://syfert.com/wisconsin/cases/300-wis-2d-581/state-v-sweeney)",
+    "match_kind": "semantic",
+    "similarity": 0.6943
+   },
+   {
+    "cluster_id": 1282922,
+    "case_name": "State v. Sweeney",
+    "citations": [
+     "765 N.W.2d 581",
+     "316 Wis. 2d 721",
+     "2009 WI 34",
+     "2009 Wisc. LEXIS 173"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "2009-04-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/wisconsin/cases/316-wis-2d-721/state-v-sweeney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sweeney, 2009 WI 34, 765 N.W.2d 581",
+    "link_md": "[State v. Sweeney, 2009 WI 34, 765 N.W.2d 581](https://syfert.com/wisconsin/cases/316-wis-2d-721/state-v-sweeney)",
+    "match_kind": "semantic",
+    "similarity": 0.6903
+   },
+   {
+    "cluster_id": 8309443,
+    "case_name": "Sweeney v. Sweeney",
+    "citations": [
+     "107 N.Y.S. 1147"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1907-12-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/107-n-y-s-1147/sweeney-v-sweeney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sweeney v. Sweeney, 107 N.Y.S. 1147 (N.Y. App. Div. 1907)",
+    "link_md": "[Sweeney v. Sweeney, 107 N.Y.S. 1147 (N.Y. App. Div. 1907)](https://syfert.com/new-york/cases/107-n-y-s-1147/sweeney-v-sweeney)",
+    "match_kind": "semantic",
+    "similarity": 0.6664
+   },
+   {
+    "cluster_id": 9701277,
+    "case_name": "Sweeney v. Vanderhill",
+    "citations": [],
+    "court": "S.D. Indiana",
+    "date_filed": "2021-05-26",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9701277/sweeney-v-vanderhill",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Sweeney v. Vanderhill, No. 2:20-cv-00463 (S.D. Ind. May 26, 2021)",
+    "link_md": "[Sweeney v. Vanderhill, No. 2:20-cv-00463 (S.D. Ind. May 26, 2021)](https://syfert.com/federal/district/cases/cl-9701277/sweeney-v-vanderhill)",
+    "match_kind": "semantic",
+    "similarity": 0.6633
+   },
+   {
+    "cluster_id": 2331237,
+    "case_name": "State v. Sweany",
+    "citations": [
+     "268 P.3d 224",
+     "172 Wash. 2d 1020"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "2011-11-01",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/washington/cases/172-wash-2d-1020/state-v-sweany",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sweany, 268 P.3d 224 (Wash. 2011)",
+    "link_md": "[State v. Sweany, 268 P.3d 224 (Wash. 2011)](https://syfert.com/washington/cases/172-wash-2d-1020/state-v-sweany)",
+    "match_kind": "semantic",
+    "similarity": 0.6591
+   },
+   {
+    "cluster_id": 2214967,
+    "case_name": "Sweeney v. PETSKA",
+    "citations": [
+     "785 N.W.2d 687",
+     "2010 WI App 62",
+     "324 Wis. 2d 582"
+    ],
+    "court": "Court of Appeals of Wisconsin",
+    "date_filed": "2010-03-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/wisconsin/cases/324-wis-2d-582/sweeney-v-petska",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sweeney v. PETSKA, 2010 WI App 62, 785 N.W.2d 687",
+    "link_md": "[Sweeney v. PETSKA, 2010 WI App 62, 785 N.W.2d 687](https://syfert.com/wisconsin/cases/324-wis-2d-582/sweeney-v-petska)",
+    "match_kind": "semantic",
+    "similarity": 0.6584
+   },
+   {
+    "cluster_id": 2502990,
+    "case_name": "Swaney v. Swaney",
+    "citations": [
+     "720 S.E.2d 461",
+     "2011 WL 6574878"
+    ],
+    "court": "Court of Appeals of North Carolina",
+    "date_filed": "2011-12-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/720-s-e-2d-461/swaney-v-swaney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Swaney v. Swaney, 720 S.E.2d 461 (N.C. Ct. App. 2011)",
+    "link_md": "[Swaney v. Swaney, 720 S.E.2d 461 (N.C. Ct. App. 2011)](https://syfert.com/north-carolina/cases/720-s-e-2d-461/swaney-v-swaney)",
+    "match_kind": "semantic",
+    "similarity": 0.6581
+   },
+   {
+    "cluster_id": 4938189,
+    "case_name": "State v. Sweeney",
+    "citations": [
+     "124 Wash. App. 1052",
+     "2004 Wash. App. LEXIS 3694"
+    ],
+    "court": "Court of Appeals of Washington",
+    "date_filed": "2004-12-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/124-wash-app-1052/state-v-sweeney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sweeney, 124 Wash. App. 1052 (Wash. Ct. App. 2004)",
+    "link_md": "[State v. Sweeney, 124 Wash. App. 1052 (Wash. Ct. App. 2004)](https://syfert.com/washington/cases/124-wash-app-1052/state-v-sweeney)",
+    "match_kind": "semantic",
+    "similarity": 0.6545
+   },
+   {
+    "cluster_id": 6989760,
+    "case_name": "State v. Sweeney",
+    "citations": [
+     "83 Wash. App. 1013"
+    ],
+    "court": "Court of Appeals of Washington",
+    "date_filed": "1996-09-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/83-wash-app-1013/state-v-sweeney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sweeney, 83 Wash. App. 1013 (Wash. Ct. App. 1996)",
+    "link_md": "[State v. Sweeney, 83 Wash. App. 1013 (Wash. Ct. App. 1996)](https://syfert.com/washington/cases/83-wash-app-1013/state-v-sweeney)",
+    "match_kind": "semantic",
+    "similarity": 0.6527
+   },
+   {
+    "cluster_id": 8309442,
+    "case_name": "Sweeney v. O'Dwyer",
+    "citations": [
+     "107 N.Y.S. 1147"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1907-12-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/107-n-y-s-1147/sweeney-v-odwyer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sweeney v. O'Dwyer, 107 N.Y.S. 1147 (N.Y. App. Div. 1907)",
+    "link_md": "[Sweeney v. O'Dwyer, 107 N.Y.S. 1147 (N.Y. App. Div. 1907)](https://syfert.com/new-york/cases/107-n-y-s-1147/sweeney-v-odwyer)",
+    "match_kind": "semantic",
+    "similarity": 0.6458
+   },
+   {
+    "cluster_id": 2523840,
+    "case_name": "State v. Sneed",
+    "citations": [
+     "227 P.3d 1172",
+     "348 Or. 13"
+    ],
+    "court": "Oregon Supreme Court",
+    "date_filed": "2010-03-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/oregon/cases/348-or-13/state-v-sneed",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sneed, 227 P.3d 1172 (Or. 2010)",
+    "link_md": "[State v. Sneed, 227 P.3d 1172 (Or. 2010)](https://syfert.com/oregon/cases/348-or-13/state-v-sneed)",
+    "match_kind": "semantic",
+    "similarity": 0.6427
+   },
+   {
+    "cluster_id": 6948742,
+    "case_name": "State v. Sweeney",
+    "citations": [
+     "19 Wash. App. 1026"
+    ],
+    "court": "Court of Appeals of Washington",
+    "date_filed": "1978-03-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/19-wash-app-1026/state-v-sweeney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sweeney, 19 Wash. App. 1026 (Wash. Ct. App. 1978)",
+    "link_md": "[State v. Sweeney, 19 Wash. App. 1026 (Wash. Ct. App. 1978)](https://syfert.com/washington/cases/19-wash-app-1026/state-v-sweeney)",
+    "match_kind": "semantic",
+    "similarity": 0.6353
+   },
+   {
+    "cluster_id": 2337601,
+    "case_name": "State v. Townsend",
+    "citations": [
+     "272 P.3d 247",
+     "173 Wash. 2d 1015"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "2012-02-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/173-wash-2d-1015/state-v-townsend",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Townsend, 272 P.3d 247 (Wash. 2012)",
+    "link_md": "[State v. Townsend, 272 P.3d 247 (Wash. 2012)](https://syfert.com/washington/cases/173-wash-2d-1015/state-v-townsend)",
+    "match_kind": "semantic",
+    "similarity": 0.6352
+   },
+   {
+    "cluster_id": 2342974,
+    "case_name": "City of Seattle v. Sisley",
+    "citations": [
+     "272 P.3d 850",
+     "173 Wash. 2d 1022"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "2012-03-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/173-wash-2d-1022/city-of-seattle-v-sisley",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Seattle v. Sisley, 272 P.3d 850 (Wash. 2012)",
+    "link_md": "[City of Seattle v. Sisley, 272 P.3d 850 (Wash. 2012)](https://syfert.com/washington/cases/173-wash-2d-1022/city-of-seattle-v-sisley)",
+    "match_kind": "semantic",
+    "similarity": 0.6346
+   },
+   {
+    "cluster_id": 4970707,
+    "case_name": "Sweeney v. State",
+    "citations": [
+     "140 So. 2d 892",
+     "1962 Fla. App. LEXIS 4059"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "1962-05-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/140-so-2d-892/sweeney-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sweeney v. State, 140 So. 2d 892 (Fla. 2d DCA 1962)",
+    "link_md": "[Sweeney v. State, 140 So. 2d 892 (Fla. 2d DCA 1962)](https://syfert.com/florida/cases/140-so-2d-892/sweeney-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.634
+   },
+   {
+    "cluster_id": 518592,
+    "case_name": "Williams v. Sny",
+    "citations": [
+     "867 F.2d 1425"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1988-11-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/867-f-2d-1425/williams-v-sny",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Williams v. Sny, 867 F.2d 1425 (2d Cir. 1988)",
+    "link_md": "[Williams v. Sny, 867 F.2d 1425 (2d Cir. 1988)](https://syfert.com/federal/circuits/cases/867-f-2d-1425/williams-v-sny)",
+    "match_kind": "semantic",
+    "similarity": 0.6331
+   },
+   {
+    "cluster_id": 6950415,
+    "case_name": "State v. Sweeney",
+    "citations": [
+     "23 Wash. App. 1018"
+    ],
+    "court": "Court of Appeals of Washington",
+    "date_filed": "1979-04-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/23-wash-app-1018/state-v-sweeney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sweeney, 23 Wash. App. 1018 (Wash. Ct. App. 1979)",
+    "link_md": "[State v. Sweeney, 23 Wash. App. 1018 (Wash. Ct. App. 1979)](https://syfert.com/washington/cases/23-wash-app-1018/state-v-sweeney)",
+    "match_kind": "semantic",
+    "similarity": 0.6323
+   },
+   {
+    "cluster_id": 4911007,
+    "case_name": "Sweeney v. Adams County Pub. Hosp. Dist. No. 2",
+    "citations": [
+     "391 P.3d 452",
+     "187 Wash. 2d 1027"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "2017-03-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/187-wash-2d-1027/sweeney-v-adams-county-pub-hosp-dist-no-2",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sweeney v. Adams Cnty. Pub. Hosp. Dist. No. 2, 391 P.3d 452 (Wash. 2017)",
+    "link_md": "[Sweeney v. Adams Cnty. Pub. Hosp. Dist. No. 2, 391 P.3d 452 (Wash. 2017)](https://syfert.com/washington/cases/187-wash-2d-1027/sweeney-v-adams-county-pub-hosp-dist-no-2)",
+    "match_kind": "semantic",
+    "similarity": 0.6314
+   },
+   {
+    "cluster_id": 4936661,
+    "case_name": "Byers v. Sweeney",
+    "citations": [
+     "120 Wash. App. 1023",
+     "2004 Wash. App. LEXIS 881"
+    ],
+    "court": "Court of Appeals of Washington",
+    "date_filed": "2004-02-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/120-wash-app-1023/byers-v-sweeney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Byers v. Sweeney, 120 Wash. App. 1023 (Wash. Ct. App. 2004)",
+    "link_md": "[Byers v. Sweeney, 120 Wash. App. 1023 (Wash. Ct. App. 2004)](https://syfert.com/washington/cases/120-wash-app-1023/byers-v-sweeney)",
+    "match_kind": "semantic",
+    "similarity": 0.6298
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

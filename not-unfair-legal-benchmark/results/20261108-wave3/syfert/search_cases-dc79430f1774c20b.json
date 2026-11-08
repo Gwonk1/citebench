@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Shea w/15 \"148 NE2d 484\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Shea w/15 \\\"148 NE2d 484\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2217284,\"bluebook\":\"Navarro v. Lerman, 198 N.E.2d 159 (Ill. App. Ct. 1st Dist. 1964)\",\"url\":\"https://syfert.com/illinois/cases/48-ill-app-2d-27/navarro-v-lerman\",\"date_filed\":\"1964-04-23\",\"cited_by\":11,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...We think when the court informed this jury that the evidence must prove that the deceased was intoxicated, it did all the law required.”\\nIn Shea v. LaCost, 16 Ill App2d 454, 148 NE2d 484 (1958), the given instruction differed from the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Shea w/15 \"148 NE2d 484\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2217284,
+    "bluebook": "Navarro v. Lerman, 198 N.E.2d 159 (Ill. App. Ct. 1st Dist. 1964)",
+    "url": "https://syfert.com/illinois/cases/48-ill-app-2d-27/navarro-v-lerman",
+    "date_filed": "1964-04-23",
+    "cited_by": 11,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...We think when the court informed this jury that the evidence must prove that the deceased was intoxicated, it did all the law required.”\nIn Shea v. LaCost, 16 Ill App2d 454, 148 NE2d 484 (1958), the given instruction differed from the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

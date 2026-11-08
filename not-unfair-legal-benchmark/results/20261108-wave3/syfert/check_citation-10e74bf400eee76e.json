@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "108 P. 921",
+  "expected_case_name": "Dolenty v. Rocky Mountain Bell Telephone Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"108 P. 921\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8063624,\n            \"case_name\": \"Dolenty v. Rocky Mountain Bell Telephone Co.\",\n            \"citations\": [\n                \"108 P. 921\"\n            ],\n            \"court\": \"Montana Supreme Court\",\n            \"date_filed\": \"1910-04-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 8,\n            \"url\": \"https://syfert.com/montana/cases/41-mont-105/dolenty-v-rocky-mountain-bell-telephone-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Dolenty v. Rocky Mountain Bell Tel. Co., 108 P. 921 (Mont. 1910)\",\n            \"link_md\": \"[Dolenty v. Rocky Mountain Bell Tel. Co., 108 P. 921 (Mont. 1910)](https://syfert.com/montana/cases/41-mont-105/dolenty-v-rocky-mountain-bell-telephone-co)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Dolenty v. Rocky Mountain Bell Telephone Co.\",\n        \"actual\": \"Dolenty v. Rocky Mountain Bell Telephone Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "108 P. 921",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8063624,
+    "case_name": "Dolenty v. Rocky Mountain Bell Telephone Co.",
+    "citations": [
+     "108 P. 921"
+    ],
+    "court": "Montana Supreme Court",
+    "date_filed": "1910-04-18",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/montana/cases/41-mont-105/dolenty-v-rocky-mountain-bell-telephone-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dolenty v. Rocky Mountain Bell Tel. Co., 108 P. 921 (Mont. 1910)",
+    "link_md": "[Dolenty v. Rocky Mountain Bell Tel. Co., 108 P. 921 (Mont. 1910)](https://syfert.com/montana/cases/41-mont-105/dolenty-v-rocky-mountain-bell-telephone-co)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Dolenty v. Rocky Mountain Bell Telephone Co.",
+   "actual": "Dolenty v. Rocky Mountain Bell Telephone Co.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}
