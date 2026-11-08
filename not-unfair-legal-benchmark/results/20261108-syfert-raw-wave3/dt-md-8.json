@@ -1,0 +1,137 @@
+{
+ "id": "dt-md-8",
+ "class": "date",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Levi v. Schwartz, 95 A.2d 322 (Md. 1980)."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"year_mismatch\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) carry a year that is not the decision year of the case at that citation (cites[].year_check). A wrong year often means a wrong citation: check the name and the cite together.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"95 A.2d 322\",\n            \"verdict\": \"year_mismatch\",\n            \"problem\": \"The year written with this citation (1980) is not the decision year: Levi v. Schwartz was decided in 1953. Correct the year, or check that the citation is the case you mean.\",\n            \"suggested\": \"Levi v. Schwartz, 95 A.2d 322 (Md. 1953)\",\n            \"replace_year\": {\n                \"from\": 1980,\n                \"to\": 1953\n            },\n            \"year_check\": {\n                \"claimed\": 1980,\n                \"actual\": 1953\n            },\n            \"case\": {\n                \"cluster_id\": 1921828,\n                \"case_name\": \"Levi v. Schwartz\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"95 A.2d 322\",\n            \"volume\": \"95\",\n            \"reporter\": \"A.2d\",\n            \"page\": \"322\",\n            \"pin\": null,\n            \"paren\": {\n                \"court\": \"Md.\",\n                \"year\": 1980\n            },\n            \"cluster_id\": 1921828,\n            \"case\": {\n                \"case_name\": \"Levi v. Schwartz\",\n                \"case_name_short\": \"Schwartz\",\n                \"date_filed\": \"1953-10-01\",\n                \"court_id\": \"md\",\n                \"docket_number\": \"[No. 80, October Term, 1952.]\",\n                \"citation_count\": 50,\n                \"court_label\": \"Md.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 9.146,\n                \"total_events\": 105,\n                \"distinct_courts\": 19,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Bowman v. Top Gun of Virginia, Inc.\",\n                \"top_pos_court\": \"mdd\",\n                \"top_pos_date\": \"2021-12-08\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Levi\",\n                \"rhs\": \"Schwartz\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Levi\",\n                    \"rhs\": \"Schwartz\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Levi v. Schwartz\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/maryland/cases/201-md-575/levi-v-schwartz\",\n            \"link_md\": \"[Levi v. Schwartz](https://syfert.com/maryland/cases/201-md-575/levi-v-schwartz)\",\n            \"year_check\": {\n                \"claimed\": 1980,\n                \"actual\": 1953,\n                \"verdict\": \"mismatch\",\n                \"advice\": \"The year written with this citation (1980) is not the decision year: Levi v. Schwartz was decided in 1953. Correct the year, or check that the citation is the case you mean.\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "year_mismatch": 1
+    },
+    "warnings": [
+     "1 citation(s) carry a year that is not the decision year of the case at that citation (cites[].year_check). A wrong year often means a wrong citation: check the name and the cite together."
+    ],
+    "corrections": [
+     {
+      "raw": "95 A.2d 322",
+      "verdict": "year_mismatch",
+      "problem": "The year written with this citation (1980) is not the decision year: Levi v. Schwartz was decided in 1953. Correct the year, or check that the citation is the case you mean.",
+      "suggested": "Levi v. Schwartz, 95 A.2d 322 (Md. 1953)",
+      "replace_year": {
+       "from": 1980,
+       "to": 1953
+      },
+      "year_check": {
+       "claimed": 1980,
+       "actual": 1953
+      },
+      "case": {
+       "cluster_id": 1921828,
+       "case_name": "Levi v. Schwartz"
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "95 A.2d 322",
+      "volume": "95",
+      "reporter": "A.2d",
+      "page": "322",
+      "pin": null,
+      "paren": {
+       "court": "Md.",
+       "year": 1980
+      },
+      "cluster_id": 1921828,
+      "case": {
+       "case_name": "Levi v. Schwartz",
+       "case_name_short": "Schwartz",
+       "date_filed": "1953-10-01",
+       "court_id": "md",
+       "docket_number": "[No. 80, October Term, 1952.]",
+       "citation_count": 50,
+       "court_label": "Md."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 9.146,
+       "total_events": 105,
+       "distinct_courts": 19,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Bowman v. Top Gun of Virginia, Inc.",
+       "top_pos_court": "mdd",
+       "top_pos_date": "2021-12-08",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Levi",
+       "rhs": "Schwartz"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Levi",
+        "rhs": "Schwartz"
+       },
+       "verdict": "match",
+       "resolved_name": "Levi v. Schwartz"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/maryland/cases/201-md-575/levi-v-schwartz",
+      "link_md": "[Levi v. Schwartz](https://syfert.com/maryland/cases/201-md-575/levi-v-schwartz)",
+      "year_check": {
+       "claimed": 1980,
+       "actual": 1953,
+       "verdict": "mismatch",
+       "advice": "The year written with this citation (1980) is not the decision year: Levi v. Schwartz was decided in 1953. Correct the year, or check that the citation is the case you mean."
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

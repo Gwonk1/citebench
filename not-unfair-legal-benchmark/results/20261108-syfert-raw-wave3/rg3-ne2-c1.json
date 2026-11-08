@@ -1,0 +1,103 @@
+{
+ "id": "rg3-ne2-c1",
+ "class": "regional",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Berg v. Schreiber, 92 N.E.2d 88."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"92 N.E.2d 88\",\n            \"volume\": \"92\",\n            \"reporter\": \"N.E.2d\",\n            \"page\": \"88\",\n            \"pin\": null,\n            \"cluster_id\": 2207510,\n            \"case\": {\n                \"case_name\": \"Berg v. Schreiber\",\n                \"case_name_short\": \"Berg\",\n                \"date_filed\": \"1950-03-22\",\n                \"court_id\": \"ill\",\n                \"docket_number\": \"31203\",\n                \"citation_count\": 3,\n                \"court_label\": \"Ill.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.24,\n                \"total_events\": 4,\n                \"distinct_courts\": 2,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Berg\",\n                \"rhs\": \"Schreiber\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Berg\",\n                    \"rhs\": \"Schreiber\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Berg v. Schreiber\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/illinois/cases/405-ill-528/berg-v-schreiber\",\n            \"link_md\": \"[Berg v. Schreiber](https://syfert.com/illinois/cases/405-ill-528/berg-v-schreiber)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "92 N.E.2d 88",
+      "volume": "92",
+      "reporter": "N.E.2d",
+      "page": "88",
+      "pin": null,
+      "cluster_id": 2207510,
+      "case": {
+       "case_name": "Berg v. Schreiber",
+       "case_name_short": "Berg",
+       "date_filed": "1950-03-22",
+       "court_id": "ill",
+       "docket_number": "31203",
+       "citation_count": 3,
+       "court_label": "Ill."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.24,
+       "total_events": 4,
+       "distinct_courts": 2,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Berg",
+       "rhs": "Schreiber"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Berg",
+        "rhs": "Schreiber"
+       },
+       "verdict": "match",
+       "resolved_name": "Berg v. Schreiber"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/illinois/cases/405-ill-528/berg-v-schreiber",
+      "link_md": "[Berg v. Schreiber](https://syfert.com/illinois/cases/405-ill-528/berg-v-schreiber)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "id": "dt-md-4",
+ "class": "date",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Bryant v. State, 115 A.2d 502 (Md. 1991)."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"year_mismatch\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) carry a year that is not the decision year of the case at that citation (cites[].year_check). A wrong year often means a wrong citation: check the name and the cite together.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"115 A.2d 502\",\n            \"verdict\": \"year_mismatch\",\n            \"problem\": \"The year written with this citation (1991) is not the decision year: Bryant v. State was decided in 1955. Correct the year, or check that the citation is the case you mean.\",\n            \"suggested\": null,\n            \"year_check\": {\n                \"claimed\": 1991,\n                \"actual\": 1955\n            },\n            \"case\": {\n                \"cluster_id\": 2333104,\n                \"case_name\": \"Bryant v. State\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"115 A.2d 502\",\n            \"volume\": \"115\",\n            \"reporter\": \"A.2d\",\n            \"page\": \"502\",\n            \"pin\": null,\n            \"paren\": {\n                \"court\": \"Md.\",\n                \"year\": 1991\n            },\n            \"cluster_id\": 2333104,\n            \"case\": {\n                \"case_name\": \"Bryant v. State\",\n                \"case_name_short\": \"Bryant\",\n                \"date_filed\": \"1955-10-01\",\n                \"court_id\": \"md\",\n                \"docket_number\": \"[No. 91, October Term, 1954.]\",\n                \"citation_count\": 114,\n                \"court_label\": \"Md.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 17.283,\n                \"total_events\": 260,\n                \"distinct_courts\": 11,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Streater v. State\",\n                \"top_pos_court\": \"md\",\n                \"top_pos_date\": \"1999-02-17\",\n                \"top_quote_norm\": \"tjhe evidence of the convictions was admissible because it showed appellant's behavior toward the girl whom he killed only a month later, thus tending to show motive and intent.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 2 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Bryant\",\n                \"rhs\": \"State\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Bryant\",\n                    \"rhs\": \"State\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Bryant v. State\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/maryland/cases/207-md-565/bryant-v-state\",\n            \"link_md\": \"[Bryant v. State](https://syfert.com/maryland/cases/207-md-565/bryant-v-state)\",\n            \"year_check\": {\n                \"claimed\": 1991,\n                \"actual\": 1955,\n                \"verdict\": \"mismatch\",\n                \"advice\": \"The year written with this citation (1991) is not the decision year: Bryant v. State was decided in 1955. Correct the year, or check that the citation is the case you mean.\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "year_mismatch": 1
+    },
+    "warnings": [
+     "1 citation(s) carry a year that is not the decision year of the case at that citation (cites[].year_check). A wrong year often means a wrong citation: check the name and the cite together."
+    ],
+    "corrections": [
+     {
+      "raw": "115 A.2d 502",
+      "verdict": "year_mismatch",
+      "problem": "The year written with this citation (1991) is not the decision year: Bryant v. State was decided in 1955. Correct the year, or check that the citation is the case you mean.",
+      "suggested": null,
+      "year_check": {
+       "claimed": 1991,
+       "actual": 1955
+      },
+      "case": {
+       "cluster_id": 2333104,
+       "case_name": "Bryant v. State"
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "115 A.2d 502",
+      "volume": "115",
+      "reporter": "A.2d",
+      "page": "502",
+      "pin": null,
+      "paren": {
+       "court": "Md.",
+       "year": 1991
+      },
+      "cluster_id": 2333104,
+      "case": {
+       "case_name": "Bryant v. State",
+       "case_name_short": "Bryant",
+       "date_filed": "1955-10-01",
+       "court_id": "md",
+       "docket_number": "[No. 91, October Term, 1954.]",
+       "citation_count": 114,
+       "court_label": "Md."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 17.283,
+       "total_events": 260,
+       "distinct_courts": 11,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Streater v. State",
+       "top_pos_court": "md",
+       "top_pos_date": "1999-02-17",
+       "top_quote_norm": "tjhe evidence of the convictions was admissible because it showed appellant's behavior toward the girl whom he killed only a month later, thus tending to show motive and intent.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 2 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Bryant",
+       "rhs": "State"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Bryant",
+        "rhs": "State"
+       },
+       "verdict": "match",
+       "resolved_name": "Bryant v. State"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/maryland/cases/207-md-565/bryant-v-state",
+      "link_md": "[Bryant v. State](https://syfert.com/maryland/cases/207-md-565/bryant-v-state)",
+      "year_check": {
+       "claimed": 1991,
+       "actual": 1955,
+       "verdict": "mismatch",
+       "advice": "The year written with this citation (1991) is not the decision year: Bryant v. State was decided in 1955. Correct the year, or check that the citation is the case you mean."
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -59,8 +59,18 @@ No change. Date items use `any_of` + `verdict_line` for the year.
 
 ### Scores
 
-No arm has run v1.3 yet. The raw Syfert arm on the 42 new items is pending: syfert.com's server was down for maintenance
-when it was due (2026-11-08).
+Raw Syfert MCP arm on the 42 new items, grader v1.2 rules (`run_syfert.py items/wave3.jsonl`):
+
+| run | server state | date (20) | regional (16) | controls (6) | total (42) |
+|---|---|---|---|---|---|
+| `results/20261108-syfert-raw-wave3-pre` | driver 5cd5a699 / lib ea067535 | 10 | 16 | 6 | 32 |
+| `results/20261108-syfert-raw-wave3` | + REL179: a year_mismatch correction carries a paste-ready cite | 19 | 16 | 6 | 41 |
+
+The first run's 10 date misses: the tool flagged every wrong year and named the decision year, but its correction had no
+replacement, so the rendered ANSWER line repeated the wrong year. The remaining miss (`dt-md-6`, 119 A.2d) is the tool
+declining to offer a full corrected cite in a volume whose own dates are mixed; it still names the right year. As with
+the regional class, Syfert's index was corrected from the evidence the gold rests on, so this arm checks that the
+corrections reach the tool; it is not an independent comparison.
 
 ## v1.2 — 2026-11-07
 

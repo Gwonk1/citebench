@@ -1,0 +1,108 @@
+{
+ "id": "dt-md-1",
+ "class": "date",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Bd. of Med. Examiners v. Steward, 102 A.2d 248 (Md. 1954)."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"102 A.2d 248\",\n            \"volume\": \"102\",\n            \"reporter\": \"A.2d\",\n            \"page\": \"248\",\n            \"pin\": null,\n            \"paren\": {\n                \"court\": \"Md.\",\n                \"year\": 1954\n            },\n            \"cluster_id\": 1472326,\n            \"case\": {\n                \"case_name\": \"Board of Medical Examiners v. Steward\",\n                \"case_name_short\": \"Steward\",\n                \"date_filed\": \"1954-10-01\",\n                \"court_id\": \"md\",\n                \"docket_number\": \"[No. 64, October Term, 1953.]\",\n                \"citation_count\": 77,\n                \"court_label\": \"Md.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 13.095,\n                \"total_events\": 171,\n                \"distinct_courts\": 17,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Regan v. State Board of Chiropractic Examiners\",\n                \"top_pos_court\": \"md\",\n                \"top_pos_date\": \"1999-08-24\",\n                \"top_quote_norm\": \"an administrative agency is sometimes required to act as both prosecutor and judge, and it has never been held that such procedure denies constitutional right\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Bd. of Med. Examiners\",\n                \"rhs\": \"Steward\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Bd. of Med. Examiners\",\n                    \"rhs\": \"Steward\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Board of Medical Examiners v. Steward\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/maryland/cases/203-md-574/board-of-medical-examiners-v-steward\",\n            \"link_md\": \"[Board of Medical Examiners v. Steward](https://syfert.com/maryland/cases/203-md-574/board-of-medical-examiners-v-steward)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "102 A.2d 248",
+      "volume": "102",
+      "reporter": "A.2d",
+      "page": "248",
+      "pin": null,
+      "paren": {
+       "court": "Md.",
+       "year": 1954
+      },
+      "cluster_id": 1472326,
+      "case": {
+       "case_name": "Board of Medical Examiners v. Steward",
+       "case_name_short": "Steward",
+       "date_filed": "1954-10-01",
+       "court_id": "md",
+       "docket_number": "[No. 64, October Term, 1953.]",
+       "citation_count": 77,
+       "court_label": "Md."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 13.095,
+       "total_events": 171,
+       "distinct_courts": 17,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Regan v. State Board of Chiropractic Examiners",
+       "top_pos_court": "md",
+       "top_pos_date": "1999-08-24",
+       "top_quote_norm": "an administrative agency is sometimes required to act as both prosecutor and judge, and it has never been held that such procedure denies constitutional right",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Bd. of Med. Examiners",
+       "rhs": "Steward"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Bd. of Med. Examiners",
+        "rhs": "Steward"
+       },
+       "verdict": "match",
+       "resolved_name": "Board of Medical Examiners v. Steward"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/maryland/cases/203-md-574/board-of-medical-examiners-v-steward",
+      "link_md": "[Board of Medical Examiners v. Steward](https://syfert.com/maryland/cases/203-md-574/board-of-medical-examiners-v-steward)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

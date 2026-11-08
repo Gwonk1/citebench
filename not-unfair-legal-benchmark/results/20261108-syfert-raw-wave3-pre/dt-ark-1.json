@@ -1,0 +1,108 @@
+{
+ "id": "dt-ark-1",
+ "class": "date",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Bailey v. Com. Union Bank, 269 S.W.2d 314 (Ark. 1954)."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"269 S.W.2d 314\",\n            \"volume\": \"269\",\n            \"reporter\": \"S.W.2d\",\n            \"page\": \"314\",\n            \"pin\": null,\n            \"paren\": {\n                \"court\": \"Ark.\",\n                \"year\": 1954\n            },\n            \"cluster_id\": 1531533,\n            \"case\": {\n                \"case_name\": \"Bailey v. Commerce Union Bank\",\n                \"case_name_short\": \"Bailey\",\n                \"date_filed\": \"1954-05-17\",\n                \"court_id\": \"ark\",\n                \"docket_number\": \"5-408\",\n                \"citation_count\": 7,\n                \"court_label\": \"Ark.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 5.088,\n                \"total_events\": 19,\n                \"distinct_courts\": 3,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Rogers v. State\",\n                \"top_pos_court\": \"ark\",\n                \"top_pos_date\": \"2018-10-25\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Bailey\",\n                \"rhs\": \"Com. Union Bank\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Bailey\",\n                    \"rhs\": \"Com. Union Bank\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Bailey v. Commerce Union Bank\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/arkansas/cases/269-s-w-2d-314/bailey-v-commerce-union-bank\",\n            \"link_md\": \"[Bailey v. Commerce Union Bank](https://syfert.com/arkansas/cases/269-s-w-2d-314/bailey-v-commerce-union-bank)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "269 S.W.2d 314",
+      "volume": "269",
+      "reporter": "S.W.2d",
+      "page": "314",
+      "pin": null,
+      "paren": {
+       "court": "Ark.",
+       "year": 1954
+      },
+      "cluster_id": 1531533,
+      "case": {
+       "case_name": "Bailey v. Commerce Union Bank",
+       "case_name_short": "Bailey",
+       "date_filed": "1954-05-17",
+       "court_id": "ark",
+       "docket_number": "5-408",
+       "citation_count": 7,
+       "court_label": "Ark."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 5.088,
+       "total_events": 19,
+       "distinct_courts": 3,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Rogers v. State",
+       "top_pos_court": "ark",
+       "top_pos_date": "2018-10-25",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Bailey",
+       "rhs": "Com. Union Bank"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Bailey",
+        "rhs": "Com. Union Bank"
+       },
+       "verdict": "match",
+       "resolved_name": "Bailey v. Commerce Union Bank"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/arkansas/cases/269-s-w-2d-314/bailey-v-commerce-union-bank",
+      "link_md": "[Bailey v. Commerce Union Bank](https://syfert.com/arkansas/cases/269-s-w-2d-314/bailey-v-commerce-union-bank)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "id": "dt-ri-1",
+ "class": "date",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Capitol Bldg. Co. v. Langton, 221 A.2d 99 (R.I. 1966)."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"221 A.2d 99\",\n            \"volume\": \"221\",\n            \"reporter\": \"A.2d\",\n            \"page\": \"99\",\n            \"pin\": null,\n            \"paren\": {\n                \"court\": \"R.I.\",\n                \"year\": 1966\n            },\n            \"cluster_id\": 1993035,\n            \"case\": {\n                \"case_name\": \"CAPITOL BUILDING COMPANY v. Langton\",\n                \"case_name_short\": \"Langton\",\n                \"date_filed\": \"1966-01-25\",\n                \"court_id\": \"ri\",\n                \"docket_number\": \"C. Q. No. 1-81\",\n                \"citation_count\": 11,\n                \"court_label\": \"R.I.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 5.895,\n                \"total_events\": 24,\n                \"distinct_courts\": 5,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Rhode Island Recreational Building Authority v. East Greenwich Fire District\",\n                \"top_pos_court\": \"ri\",\n                \"top_pos_date\": \"1986-03-06\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Capitol Bldg. Co.\",\n                \"rhs\": \"Langton\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Capitol Bldg. Co.\",\n                    \"rhs\": \"Langton\"\n                },\n                \"verdict\": \"partial\",\n                \"resolved_name\": \"CAPITOL BUILDING COMPANY v. Langton\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/rhode-island/cases/101-r-i-131/capitol-building-company-v-langton\",\n            \"link_md\": \"[CAPITOL BUILDING COMPANY v. Langton](https://syfert.com/rhode-island/cases/101-r-i-131/capitol-building-company-v-langton)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "221 A.2d 99",
+      "volume": "221",
+      "reporter": "A.2d",
+      "page": "99",
+      "pin": null,
+      "paren": {
+       "court": "R.I.",
+       "year": 1966
+      },
+      "cluster_id": 1993035,
+      "case": {
+       "case_name": "CAPITOL BUILDING COMPANY v. Langton",
+       "case_name_short": "Langton",
+       "date_filed": "1966-01-25",
+       "court_id": "ri",
+       "docket_number": "C. Q. No. 1-81",
+       "citation_count": 11,
+       "court_label": "R.I."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 5.895,
+       "total_events": 24,
+       "distinct_courts": 5,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Rhode Island Recreational Building Authority v. East Greenwich Fire District",
+       "top_pos_court": "ri",
+       "top_pos_date": "1986-03-06",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Capitol Bldg. Co.",
+       "rhs": "Langton"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Capitol Bldg. Co.",
+        "rhs": "Langton"
+       },
+       "verdict": "partial",
+       "resolved_name": "CAPITOL BUILDING COMPANY v. Langton"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/rhode-island/cases/101-r-i-131/capitol-building-company-v-langton",
+      "link_md": "[CAPITOL BUILDING COMPANY v. Langton](https://syfert.com/rhode-island/cases/101-r-i-131/capitol-building-company-v-langton)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

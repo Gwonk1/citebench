@@ -1,0 +1,108 @@
+{
+ "id": "dt-co-1",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "State ex rel. Emp. Sec. Bd. v. Rucker, 126 A.2d 846 (Md. 1956)."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"126 A.2d 846\",\n            \"volume\": \"126\",\n            \"reporter\": \"A.2d\",\n            \"page\": \"846\",\n            \"pin\": null,\n            \"paren\": {\n                \"court\": \"Md.\",\n                \"year\": 1956\n            },\n            \"cluster_id\": 2097021,\n            \"case\": {\n                \"case_name\": \"State Ex Rel. Employment Security Board v. Rucker\",\n                \"case_name_short\": \"Rucker\",\n                \"date_filed\": \"1956-11-07\",\n                \"court_id\": \"md\",\n                \"docket_number\": \"[No. 207, October Term, 1955.]\",\n                \"citation_count\": 30,\n                \"court_label\": \"Md.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 10.543,\n                \"total_events\": 64,\n                \"distinct_courts\": 11,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Aleti v. Metropolitan Baltimore, LLC\",\n                \"top_pos_court\": \"mdctspecapp\",\n                \"top_pos_date\": \"2021-07-06\",\n                \"top_quote_norm\": \"the gist of the money had and received action is, that the defendant, upon the circumstances of the case, is obliged by the ties of natural justice and equity to refund the money.\",\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 2 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"State ex rel. Emp. Sec. Bd.\",\n                \"rhs\": \"Rucker\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"State ex rel. Emp. Sec. Bd.\",\n                    \"rhs\": \"Rucker\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"State Ex Rel. Employment Security Board v. Rucker\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/maryland/cases/211-md-153/state-ex-rel-employment-security-board-v-rucker\",\n            \"link_md\": \"[State Ex Rel. Employment Security Board v. Rucker](https://syfert.com/maryland/cases/211-md-153/state-ex-rel-employment-security-board-v-rucker)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "126 A.2d 846",
+      "volume": "126",
+      "reporter": "A.2d",
+      "page": "846",
+      "pin": null,
+      "paren": {
+       "court": "Md.",
+       "year": 1956
+      },
+      "cluster_id": 2097021,
+      "case": {
+       "case_name": "State Ex Rel. Employment Security Board v. Rucker",
+       "case_name_short": "Rucker",
+       "date_filed": "1956-11-07",
+       "court_id": "md",
+       "docket_number": "[No. 207, October Term, 1955.]",
+       "citation_count": 30,
+       "court_label": "Md."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 10.543,
+       "total_events": 64,
+       "distinct_courts": 11,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Aleti v. Metropolitan Baltimore, LLC",
+       "top_pos_court": "mdctspecapp",
+       "top_pos_date": "2021-07-06",
+       "top_quote_norm": "the gist of the money had and received action is, that the defendant, upon the circumstances of the case, is obliged by the ties of natural justice and equity to refund the money.",
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 2 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "State ex rel. Emp. Sec. Bd.",
+       "rhs": "Rucker"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "State ex rel. Emp. Sec. Bd.",
+        "rhs": "Rucker"
+       },
+       "verdict": "match",
+       "resolved_name": "State Ex Rel. Employment Security Board v. Rucker"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/maryland/cases/211-md-153/state-ex-rel-employment-security-board-v-rucker",
+      "link_md": "[State Ex Rel. Employment Security Board v. Rucker](https://syfert.com/maryland/cases/211-md-153/state-ex-rel-employment-security-board-v-rucker)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

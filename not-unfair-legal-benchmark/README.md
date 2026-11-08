@@ -65,6 +65,8 @@ The instruction is `PROMPT` in `grade.py`. The passage is `text` in `items/tasks
 | `results/20261107-syfert-raw-regional` | driver DRV169 | 26 | 7 | 33 |
 | `results/20261107-syfert-raw-regional2` | + DRV170: check_brief corrects a cite that uses a corrected old number | 41 | 7 | 48 |
 
+**Raw Syfert MCP arm on the 42 v1.3 items (date class + regional wave 2), 2026-11-08:** 32 before, 41 after REL179 (date 19/20, regional 16/16, controls 6/6). See `CHANGELOG.md`.
+
 The first run's 15 misses were 14 old-number items where the old number still resolved as an alias ("correct as written") and one where the old number now belongs to a different case. Both were tool gaps, fixed in DRV170 before the second run. Syfert's own index was corrected from the same evidence the gold rests on, so this arm is not independent of the gold: read it as a check that the corrections reach the tool, not as a comparison.
 
 Scores quoted anywhere for this benchmark before 2026-10-25 are v1.0 scores under the v1.0 grader on the 187-item set. v1.1 scores from fresh runs are pending. The v1.0 transcripts re-graded under the v1.1 grader are in `CHANGELOG.md`, labelled as re-grades.

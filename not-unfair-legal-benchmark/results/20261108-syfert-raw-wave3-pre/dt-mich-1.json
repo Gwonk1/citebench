@@ -1,0 +1,133 @@
+{
+ "id": "dt-mich-1",
+ "class": "date",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Bias v. Ausbury, 120 N.W.2d 233 (Mich. 2005)."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"year_mismatch\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) carry a year that is not the decision year of the case at that citation (cites[].year_check). A wrong year often means a wrong citation: check the name and the cite together.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"120 N.W.2d 233\",\n            \"verdict\": \"year_mismatch\",\n            \"problem\": \"The year written with this citation (2005) is not the decision year: Bias v. Ausbury was decided in 1963. Correct the year, or check that the citation is the case you mean.\",\n            \"suggested\": null,\n            \"year_check\": {\n                \"claimed\": 2005,\n                \"actual\": 1963\n            },\n            \"case\": {\n                \"cluster_id\": 1890677,\n                \"case_name\": \"Bias v. Ausbury\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"120 N.W.2d 233\",\n            \"volume\": \"120\",\n            \"reporter\": \"N.W.2d\",\n            \"page\": \"233\",\n            \"pin\": null,\n            \"paren\": {\n                \"court\": \"Mich.\",\n                \"year\": 2005\n            },\n            \"cluster_id\": 1890677,\n            \"case\": {\n                \"case_name\": \"Bias v. Ausbury\",\n                \"case_name_short\": \"Bias\",\n                \"date_filed\": \"1963-03-04\",\n                \"court_id\": \"mich\",\n                \"docket_number\": \"Calendar 3, 4, 5, Docket 49,703, 49,980, 49,981\",\n                \"citation_count\": 42,\n                \"court_label\": \"Mich.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 3.846,\n                \"total_events\": 70,\n                \"distinct_courts\": 8,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Siciliano v. Capitol City Shows, Inc.\",\n                \"top_pos_court\": \"nh\",\n                \"top_pos_date\": \"1984-04-09\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Bias\",\n                \"rhs\": \"Ausbury\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Bias\",\n                    \"rhs\": \"Ausbury\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Bias v. Ausbury\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/michigan/cases/369-mich-378/bias-v-ausbury\",\n            \"link_md\": \"[Bias v. Ausbury](https://syfert.com/michigan/cases/369-mich-378/bias-v-ausbury)\",\n            \"year_check\": {\n                \"claimed\": 2005,\n                \"actual\": 1963,\n                \"verdict\": \"mismatch\",\n                \"advice\": \"The year written with this citation (2005) is not the decision year: Bias v. Ausbury was decided in 1963. Correct the year, or check that the citation is the case you mean.\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "year_mismatch": 1
+    },
+    "warnings": [
+     "1 citation(s) carry a year that is not the decision year of the case at that citation (cites[].year_check). A wrong year often means a wrong citation: check the name and the cite together."
+    ],
+    "corrections": [
+     {
+      "raw": "120 N.W.2d 233",
+      "verdict": "year_mismatch",
+      "problem": "The year written with this citation (2005) is not the decision year: Bias v. Ausbury was decided in 1963. Correct the year, or check that the citation is the case you mean.",
+      "suggested": null,
+      "year_check": {
+       "claimed": 2005,
+       "actual": 1963
+      },
+      "case": {
+       "cluster_id": 1890677,
+       "case_name": "Bias v. Ausbury"
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "120 N.W.2d 233",
+      "volume": "120",
+      "reporter": "N.W.2d",
+      "page": "233",
+      "pin": null,
+      "paren": {
+       "court": "Mich.",
+       "year": 2005
+      },
+      "cluster_id": 1890677,
+      "case": {
+       "case_name": "Bias v. Ausbury",
+       "case_name_short": "Bias",
+       "date_filed": "1963-03-04",
+       "court_id": "mich",
+       "docket_number": "Calendar 3, 4, 5, Docket 49,703, 49,980, 49,981",
+       "citation_count": 42,
+       "court_label": "Mich."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 3.846,
+       "total_events": 70,
+       "distinct_courts": 8,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Siciliano v. Capitol City Shows, Inc.",
+       "top_pos_court": "nh",
+       "top_pos_date": "1984-04-09",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Bias",
+       "rhs": "Ausbury"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Bias",
+        "rhs": "Ausbury"
+       },
+       "verdict": "match",
+       "resolved_name": "Bias v. Ausbury"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/michigan/cases/369-mich-378/bias-v-ausbury",
+      "link_md": "[Bias v. Ausbury](https://syfert.com/michigan/cases/369-mich-378/bias-v-ausbury)",
+      "year_check": {
+       "claimed": 2005,
+       "actual": 1963,
+       "verdict": "mismatch",
+       "advice": "The year written with this citation (2005) is not the decision year: Bias v. Ausbury was decided in 1963. Correct the year, or check that the citation is the case you mean."
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}
