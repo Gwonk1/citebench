@@ -1,0 +1,397 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Columbia w/15 \"150 SE 316\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Columbia w/15 \\\"150 SE 316\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5487271,\"case_name\":\"Block v. Columbia Wire Co.\",\"citations\":[\"236 A.D. 787\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1932-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/236-a-d-787/block-v-columbia-wire-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Block v. Columbia Wire Co., 236 A.D. 787 (N.Y. App. Div. 1932)\",\"link_md\":\"[Block v. Columbia Wire Co., 236 A.D. 787 (N.Y. App. Div. 1932)](https://syfert.com/new-york/cases/236-a-d-787/block-v-columbia-wire-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6906},{\"cluster_id\":8122032,\"case_name\":\"Protests 965614-G of Columbia Co.\",\"citations\":[\"6 Cust. Ct. 660\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1941-05-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/6-cust-ct-660/protests-965614-g-of-columbia-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Protests 965614-G of Columbia Co., 6 Cust. Ct. 660 (Cust. Ct. 1941)\",\"link_md\":\"[Protests 965614-G of Columbia Co., 6 Cust. Ct. 660 (Cust. Ct. 1941)](https://syfert.com/federal/specialty/cases/6-cust-ct-660/protests-965614-g-of-columbia-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6763},{\"cluster_id\":8132365,\"case_name\":\"Columbia Co. v. United States\",\"citations\":[\"22 Cust. Ct. 304\",\"1949 Cust. Ct. LEXIS 1569\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1949-05-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/22-cust-ct-304/columbia-co-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Columbia Co. v. United States, 22 Cust. Ct. 304 (Cust. Ct. 1949)\",\"link_md\":\"[Columbia Co. v. United States, 22 Cust. Ct. 304 (Cust. Ct. 1949)](https://syfert.com/federal/specialty/cases/22-cust-ct-304/columbia-co-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6746},{\"cluster_id\":5433857,\"case_name\":\"Columbia Six Corp. v. Columbia Motors Co.\",\"citations\":[\"207 A.D. 804\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1923-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/207-a-d-804/columbia-six-corp-v-columbia-motors-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Columbia Six Corp. v. Columbia Motors Co., 207 A.D. 804 (N.Y. App. Div. 1923)\",\"link_md\":\"[Columbia Six Corp. v. Columbia Motors Co., 207 A.D. 804 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/207-a-d-804/columbia-six-corp-v-columbia-motors-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6714},{\"cluster_id\":2422418,\"case_name\":\"Copeland v. United States\",\"citations\":[\"16 A.3d 974\",\"2011 WL 1441076\"],\"court\":\"District of Columbia Court of Appeals\",\"date_filed\":\"2011-03-15\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/district-of-columbia/cases/16-a-3d-974/copeland-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Copeland v. United States, 16 A.3d 974 (D.C. 2011)\",\"link_md\":\"[Copeland v. United States, 16 A.3d 974 (D.C. 2011)](https://syfert.com/district-of-columbia/cases/16-a-3d-974/copeland-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6692},{\"cluster_id\":246829,\"case_name\":\"District of Columbia v. The George Washington University\",\"citations\":[\"262 F.2d 36\",\"104 U.S. App. D.C. 324\",\"1958 U.S. App. LEXIS 3393\"],\"court\":\"D.C. Circuit\",\"date_filed\":\"1958-12-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/262-f-2d-36/district-of-columbia-v-the-george-washington-university\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dist. of Columbia v. George Washington Univ., 262 F.2d 36 (D.C. Cir. 1958)\",\"link_md\":\"[Dist. of Columbia v. George Washington Univ., 262 F.2d 36 (D.C. Cir. 1958)](https://syfert.com/federal/circuits/cases/262-f-2d-36/district-of-columbia-v-the-george-washington-university)\",\"match_kind\":\"semantic\",\"similarity\":0.6602},{\"cluster_id\":5519599,\"case_name\":\"Columbia Casualty Co. v. Tri-Boro Builders, Inc.\",\"citations\":[\"257 A.D. 945\",\"13 N.Y.S.2d 101\",\"1939 N.Y. App. Div. LEXIS 8592\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1939-06-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/257-a-d-945/columbia-casualty-co-v-tri-boro-builders-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Columbia Cas. Co. v. Tri-Boro Builders, Inc., 257 A.D. 945 (N.Y. App. Div. 1st Dep't 1939)\",\"link_md\":\"[Columbia Cas. Co. v. Tri-Boro Builders, Inc., 257 A.D. 945 (N.Y. App. Div. 1st Dep't 1939)](https://syfert.com/new-york/cases/257-a-d-945/columbia-casualty-co-v-tri-boro-builders-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6513},{\"cluster_id\":486665,\"case_name\":\"Hicks v. Trustees of Columbia U\",\"citations\":[\"816 F.2d 669\",\"1987 U.S. App. LEXIS 9400\"],\"court\":\"Second Circuit\",\"date_filed\":\"1987-03-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/816-f-2d-669/hicks-v-trustees-of-columbia-u\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hicks v. Trs. of Columbia U, 816 F.2d 669 (2d Cir. 1987)\",\"link_md\":\"[Hicks v. Trs. of Columbia U, 816 F.2d 669 (2d Cir. 1987)](https://syfert.com/federal/circuits/cases/816-f-2d-669/hicks-v-trustees-of-columbia-u)\",\"match_kind\":\"semantic\",\"similarity\":0.6513},{\"cluster_id\":3597867,\"case_name\":\"Columbia Distilling Company v. . State\",\"citations\":[\"126 N.E. 903\",\"227 N.Y. 636\",\"1919 N.Y. LEXIS 811\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1919-12-09\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/227-n-y-636/columbia-distilling-company-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Columbia Distilling Co. v. State, 126 N.E. 903 (N.Y. 1919)\",\"link_md\":\"[Columbia Distilling Co. v. State, 126 N.E. 903 (N.Y. 1919)](https://syfert.com/new-york/cases/227-n-y-636/columbia-distilling-company-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6504},{\"cluster_id\":421101,\"case_name\":\"Columbia Television Broadcasters, Inc. v. F. C. C\",\"citations\":[\"711 F.2d 419\"],\"court\":\"D.C. Circuit\",\"date_filed\":\"1983-05-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/711-f-2d-419/columbia-television-broadcasters-inc-v-f-c-c\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Columbia Television Broadcasters, Inc. v. F. C. C, 711 F.2d 419 (D.C. Cir. 1983)\",\"link_md\":\"[Columbia Television Broadcasters, Inc. v. F. C. C, 711 F.2d 419 (D.C. Cir. 1983)](https://syfert.com/federal/circuits/cases/711-f-2d-419/columbia-television-broadcasters-inc-v-f-c-c)\",\"match_kind\":\"semantic\",\"similarity\":0.6496},{\"cluster_id\":2303367,\"case_name\":\"Copeland v. United States\",\"citations\":[\"40 A.3d 18\",\"2012 WL 1243127\"],\"court\":\"District of Columbia Court of Appeals\",\"date_filed\":\"2012-03-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/district-of-columbia/cases/40-a-3d-18/copeland-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Copeland v. United States, 40 A.3d 18 (D.C. 2012)\",\"link_md\":\"[Copeland v. United States, 40 A.3d 18 (D.C. 2012)](https://syfert.com/district-of-columbia/cases/40-a-3d-18/copeland-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6475},{\"cluster_id\":6752723,\"case_name\":\"Protests 957633-G of Columbia Co.\",\"citations\":[\"3 Cust. Ct. 417\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1939-10-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/3-cust-ct-417/protests-957633-g-of-columbia-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Protests 957633-G of Columbia Co., 3 Cust. Ct. 417 (Cust. Ct. 1939)\",\"link_md\":\"[Protests 957633-G of Columbia Co., 3 Cust. Ct. 417 (Cust. Ct. 1939)](https://syfert.com/federal/specialty/cases/3-cust-ct-417/protests-957633-g-of-columbia-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6418},{\"cluster_id\":5391282,\"case_name\":\"Columbia Construction Co. v. Day\",\"citations\":[\"155 A.D. 896\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1913-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/155-a-d-896/columbia-construction-co-v-day\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Columbia Constr. Co. v. Day, 155 A.D. 896 (N.Y. App. Div. 1913)\",\"link_md\":\"[Columbia Constr. Co. v. Day, 155 A.D. 896 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/155-a-d-896/columbia-construction-co-v-day)\",\"match_kind\":\"semantic\",\"similarity\":0.6383},{\"cluster_id\":5496982,\"case_name\":\"County Sand & Stone Corp. v. Columbia Engineering & Contracting Co.\",\"citations\":[\"242 A.D. 764\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1934-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/242-a-d-764/county-sand-stone-corp-v-columbia-engineering-contracting-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cnty. Sand & Stone Corp. v. Columbia Eng'g & Contracting Co., 242 A.D. 764 (N.Y. App. Div. 1934)\",\"link_md\":\"[Cnty. Sand & Stone Corp. v. Columbia Eng'g & Contracting Co., 242 A.D. 764 (N.Y. App. Div. 1934)](https://syfert.com/new-york/cases/242-a-d-764/county-sand-stone-corp-v-columbia-engineering-contracting-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6376},{\"cluster_id\":6752719,\"case_name\":\"Protests 957640-G of Columbia Co.\",\"citations\":[\"3 Cust. Ct. 417\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1939-10-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/3-cust-ct-417/protests-957640-g-of-columbia-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Protests 957640-G of Columbia Co., 3 Cust. Ct. 417 (Cust. Ct. 1939)\",\"link_md\":\"[Protests 957640-G of Columbia Co., 3 Cust. Ct. 417 (Cust. Ct. 1939)](https://syfert.com/federal/specialty/cases/3-cust-ct-417/protests-957640-g-of-columbia-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6373},{\"cluster_id\":6980301,\"case_name\":\"Columbia Gas & Electric Corp. v. Commissioner of Internal Revenue\",\"citations\":[\"105 F.2d 1016\",\"23 A.F.T.R. (P-H) 300\",\"1939 U.S. App. LEXIS 3461\",\"23 A.F.T.R. (RIA) 300\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1939-08-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/105-f-2d-1016/columbia-gas-electric-corp-v-commissioner-of-internal-revenue\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Columbia Gas & Elec. Corp. v. Comm'r, 105 F.2d 1016 (4th Cir. 1939)\",\"link_md\":\"[Columbia Gas & Elec. Corp. v. Comm'r, 105 F.2d 1016 (4th Cir. 1939)](https://syfert.com/federal/circuits/cases/105-f-2d-1016/columbia-gas-electric-corp-v-commissioner-of-internal-revenue)\",\"match_kind\":\"semantic\",\"similarity\":0.6351},{\"cluster_id\":5481642,\"case_name\":\"Columbia Grammar School v. Salz\",\"citations\":[\"234 A.D. 608\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1931-07-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/234-a-d-608/columbia-grammar-school-v-salz\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Columbia Grammar Sch. v. Salz, 234 A.D. 608 (N.Y. App. Div. 1931)\",\"link_md\":\"[Columbia Grammar Sch. v. Salz, 234 A.D. 608 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/234-a-d-608/columbia-grammar-school-v-salz)\",\"match_kind\":\"semantic\",\"similarity\":0.6348},{\"cluster_id\":8112992,\"case_name\":\"People ex rel. Columbia Chemical Co. v. O'Brien\",\"citations\":[\"92 N.Y.S. 1140\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1905-03-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/92-n-y-s-1140/people-ex-rel-columbia-chemical-co-v-obrien\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Columbia Chem. Co. v. O'Brien, 92 N.Y.S. 1140 (N.Y. App. Div. 1905)\",\"link_md\":\"[People ex rel. Columbia Chem. Co. v. O'Brien, 92 N.Y.S. 1140 (N.Y. App. Div. 1905)](https://syfert.com/new-york/cases/92-n-y-s-1140/people-ex-rel-columbia-chemical-co-v-obrien)\",\"match_kind\":\"semantic\",\"similarity\":0.6348},{\"cluster_id\":5431895,\"case_name\":\"Columbia Corp. v. Sun Insurance Office\",\"citations\":[\"206 A.D. 613\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1923-03-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/206-a-d-613/columbia-corp-v-sun-insurance-office\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Columbia Corp. v. Sun Ins. Off., 206 A.D. 613 (N.Y. App. Div. 1923)\",\"link_md\":\"[Columbia Corp. v. Sun Ins. Off., 206 A.D. 613 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/206-a-d-613/columbia-corp-v-sun-insurance-office)\",\"match_kind\":\"semantic\",\"similarity\":0.6328},{\"cluster_id\":5415289,\"case_name\":\"Commercial Trust Co. v. Columbia Trust Co.\",\"citations\":[\"186 A.D. 949\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1918-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/186-a-d-949/commercial-trust-co-v-columbia-trust-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. Trust Co. v. Columbia Trust Co., 186 A.D. 949 (N.Y. App. Div. 1918)\",\"link_md\":\"[Com. Trust Co. v. Columbia Trust Co., 186 A.D. 949 (N.Y. App. Div. 1918)](https://syfert.com/new-york/cases/186-a-d-949/commercial-trust-co-v-columbia-trust-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6311}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Columbia w/15 \"150 SE 316\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5487271,
+    "case_name": "Block v. Columbia Wire Co.",
+    "citations": [
+     "236 A.D. 787"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1932-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/236-a-d-787/block-v-columbia-wire-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Block v. Columbia Wire Co., 236 A.D. 787 (N.Y. App. Div. 1932)",
+    "link_md": "[Block v. Columbia Wire Co., 236 A.D. 787 (N.Y. App. Div. 1932)](https://syfert.com/new-york/cases/236-a-d-787/block-v-columbia-wire-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6906
+   },
+   {
+    "cluster_id": 8122032,
+    "case_name": "Protests 965614-G of Columbia Co.",
+    "citations": [
+     "6 Cust. Ct. 660"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1941-05-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/6-cust-ct-660/protests-965614-g-of-columbia-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Protests 965614-G of Columbia Co., 6 Cust. Ct. 660 (Cust. Ct. 1941)",
+    "link_md": "[Protests 965614-G of Columbia Co., 6 Cust. Ct. 660 (Cust. Ct. 1941)](https://syfert.com/federal/specialty/cases/6-cust-ct-660/protests-965614-g-of-columbia-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6763
+   },
+   {
+    "cluster_id": 8132365,
+    "case_name": "Columbia Co. v. United States",
+    "citations": [
+     "22 Cust. Ct. 304",
+     "1949 Cust. Ct. LEXIS 1569"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1949-05-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/22-cust-ct-304/columbia-co-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Co. v. United States, 22 Cust. Ct. 304 (Cust. Ct. 1949)",
+    "link_md": "[Columbia Co. v. United States, 22 Cust. Ct. 304 (Cust. Ct. 1949)](https://syfert.com/federal/specialty/cases/22-cust-ct-304/columbia-co-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6746
+   },
+   {
+    "cluster_id": 5433857,
+    "case_name": "Columbia Six Corp. v. Columbia Motors Co.",
+    "citations": [
+     "207 A.D. 804"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1923-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/207-a-d-804/columbia-six-corp-v-columbia-motors-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Six Corp. v. Columbia Motors Co., 207 A.D. 804 (N.Y. App. Div. 1923)",
+    "link_md": "[Columbia Six Corp. v. Columbia Motors Co., 207 A.D. 804 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/207-a-d-804/columbia-six-corp-v-columbia-motors-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6714
+   },
+   {
+    "cluster_id": 2422418,
+    "case_name": "Copeland v. United States",
+    "citations": [
+     "16 A.3d 974",
+     "2011 WL 1441076"
+    ],
+    "court": "District of Columbia Court of Appeals",
+    "date_filed": "2011-03-15",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/district-of-columbia/cases/16-a-3d-974/copeland-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Copeland v. United States, 16 A.3d 974 (D.C. 2011)",
+    "link_md": "[Copeland v. United States, 16 A.3d 974 (D.C. 2011)](https://syfert.com/district-of-columbia/cases/16-a-3d-974/copeland-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6692
+   },
+   {
+    "cluster_id": 246829,
+    "case_name": "District of Columbia v. The George Washington University",
+    "citations": [
+     "262 F.2d 36",
+     "104 U.S. App. D.C. 324",
+     "1958 U.S. App. LEXIS 3393"
+    ],
+    "court": "D.C. Circuit",
+    "date_filed": "1958-12-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/262-f-2d-36/district-of-columbia-v-the-george-washington-university",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dist. of Columbia v. George Washington Univ., 262 F.2d 36 (D.C. Cir. 1958)",
+    "link_md": "[Dist. of Columbia v. George Washington Univ., 262 F.2d 36 (D.C. Cir. 1958)](https://syfert.com/federal/circuits/cases/262-f-2d-36/district-of-columbia-v-the-george-washington-university)",
+    "match_kind": "semantic",
+    "similarity": 0.6602
+   },
+   {
+    "cluster_id": 5519599,
+    "case_name": "Columbia Casualty Co. v. Tri-Boro Builders, Inc.",
+    "citations": [
+     "257 A.D. 945",
+     "13 N.Y.S.2d 101",
+     "1939 N.Y. App. Div. LEXIS 8592"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1939-06-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/257-a-d-945/columbia-casualty-co-v-tri-boro-builders-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Cas. Co. v. Tri-Boro Builders, Inc., 257 A.D. 945 (N.Y. App. Div. 1st Dep't 1939)",
+    "link_md": "[Columbia Cas. Co. v. Tri-Boro Builders, Inc., 257 A.D. 945 (N.Y. App. Div. 1st Dep't 1939)](https://syfert.com/new-york/cases/257-a-d-945/columbia-casualty-co-v-tri-boro-builders-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6513
+   },
+   {
+    "cluster_id": 486665,
+    "case_name": "Hicks v. Trustees of Columbia U",
+    "citations": [
+     "816 F.2d 669",
+     "1987 U.S. App. LEXIS 9400"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1987-03-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/816-f-2d-669/hicks-v-trustees-of-columbia-u",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hicks v. Trs. of Columbia U, 816 F.2d 669 (2d Cir. 1987)",
+    "link_md": "[Hicks v. Trs. of Columbia U, 816 F.2d 669 (2d Cir. 1987)](https://syfert.com/federal/circuits/cases/816-f-2d-669/hicks-v-trustees-of-columbia-u)",
+    "match_kind": "semantic",
+    "similarity": 0.6513
+   },
+   {
+    "cluster_id": 3597867,
+    "case_name": "Columbia Distilling Company v. . State",
+    "citations": [
+     "126 N.E. 903",
+     "227 N.Y. 636",
+     "1919 N.Y. LEXIS 811"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1919-12-09",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/227-n-y-636/columbia-distilling-company-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Distilling Co. v. State, 126 N.E. 903 (N.Y. 1919)",
+    "link_md": "[Columbia Distilling Co. v. State, 126 N.E. 903 (N.Y. 1919)](https://syfert.com/new-york/cases/227-n-y-636/columbia-distilling-company-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6504
+   },
+   {
+    "cluster_id": 421101,
+    "case_name": "Columbia Television Broadcasters, Inc. v. F. C. C",
+    "citations": [
+     "711 F.2d 419"
+    ],
+    "court": "D.C. Circuit",
+    "date_filed": "1983-05-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/711-f-2d-419/columbia-television-broadcasters-inc-v-f-c-c",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Television Broadcasters, Inc. v. F. C. C, 711 F.2d 419 (D.C. Cir. 1983)",
+    "link_md": "[Columbia Television Broadcasters, Inc. v. F. C. C, 711 F.2d 419 (D.C. Cir. 1983)](https://syfert.com/federal/circuits/cases/711-f-2d-419/columbia-television-broadcasters-inc-v-f-c-c)",
+    "match_kind": "semantic",
+    "similarity": 0.6496
+   },
+   {
+    "cluster_id": 2303367,
+    "case_name": "Copeland v. United States",
+    "citations": [
+     "40 A.3d 18",
+     "2012 WL 1243127"
+    ],
+    "court": "District of Columbia Court of Appeals",
+    "date_filed": "2012-03-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/district-of-columbia/cases/40-a-3d-18/copeland-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Copeland v. United States, 40 A.3d 18 (D.C. 2012)",
+    "link_md": "[Copeland v. United States, 40 A.3d 18 (D.C. 2012)](https://syfert.com/district-of-columbia/cases/40-a-3d-18/copeland-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6475
+   },
+   {
+    "cluster_id": 6752723,
+    "case_name": "Protests 957633-G of Columbia Co.",
+    "citations": [
+     "3 Cust. Ct. 417"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1939-10-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/3-cust-ct-417/protests-957633-g-of-columbia-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Protests 957633-G of Columbia Co., 3 Cust. Ct. 417 (Cust. Ct. 1939)",
+    "link_md": "[Protests 957633-G of Columbia Co., 3 Cust. Ct. 417 (Cust. Ct. 1939)](https://syfert.com/federal/specialty/cases/3-cust-ct-417/protests-957633-g-of-columbia-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6418
+   },
+   {
+    "cluster_id": 5391282,
+    "case_name": "Columbia Construction Co. v. Day",
+    "citations": [
+     "155 A.D. 896"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1913-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/155-a-d-896/columbia-construction-co-v-day",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Constr. Co. v. Day, 155 A.D. 896 (N.Y. App. Div. 1913)",
+    "link_md": "[Columbia Constr. Co. v. Day, 155 A.D. 896 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/155-a-d-896/columbia-construction-co-v-day)",
+    "match_kind": "semantic",
+    "similarity": 0.6383
+   },
+   {
+    "cluster_id": 5496982,
+    "case_name": "County Sand & Stone Corp. v. Columbia Engineering & Contracting Co.",
+    "citations": [
+     "242 A.D. 764"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1934-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/242-a-d-764/county-sand-stone-corp-v-columbia-engineering-contracting-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cnty. Sand & Stone Corp. v. Columbia Eng'g & Contracting Co., 242 A.D. 764 (N.Y. App. Div. 1934)",
+    "link_md": "[Cnty. Sand & Stone Corp. v. Columbia Eng'g & Contracting Co., 242 A.D. 764 (N.Y. App. Div. 1934)](https://syfert.com/new-york/cases/242-a-d-764/county-sand-stone-corp-v-columbia-engineering-contracting-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6376
+   },
+   {
+    "cluster_id": 6752719,
+    "case_name": "Protests 957640-G of Columbia Co.",
+    "citations": [
+     "3 Cust. Ct. 417"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1939-10-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/3-cust-ct-417/protests-957640-g-of-columbia-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Protests 957640-G of Columbia Co., 3 Cust. Ct. 417 (Cust. Ct. 1939)",
+    "link_md": "[Protests 957640-G of Columbia Co., 3 Cust. Ct. 417 (Cust. Ct. 1939)](https://syfert.com/federal/specialty/cases/3-cust-ct-417/protests-957640-g-of-columbia-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6373
+   },
+   {
+    "cluster_id": 6980301,
+    "case_name": "Columbia Gas & Electric Corp. v. Commissioner of Internal Revenue",
+    "citations": [
+     "105 F.2d 1016",
+     "23 A.F.T.R. (P-H) 300",
+     "1939 U.S. App. LEXIS 3461",
+     "23 A.F.T.R. (RIA) 300"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1939-08-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/105-f-2d-1016/columbia-gas-electric-corp-v-commissioner-of-internal-revenue",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Gas & Elec. Corp. v. Comm'r, 105 F.2d 1016 (4th Cir. 1939)",
+    "link_md": "[Columbia Gas & Elec. Corp. v. Comm'r, 105 F.2d 1016 (4th Cir. 1939)](https://syfert.com/federal/circuits/cases/105-f-2d-1016/columbia-gas-electric-corp-v-commissioner-of-internal-revenue)",
+    "match_kind": "semantic",
+    "similarity": 0.6351
+   },
+   {
+    "cluster_id": 5481642,
+    "case_name": "Columbia Grammar School v. Salz",
+    "citations": [
+     "234 A.D. 608"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1931-07-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/234-a-d-608/columbia-grammar-school-v-salz",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Grammar Sch. v. Salz, 234 A.D. 608 (N.Y. App. Div. 1931)",
+    "link_md": "[Columbia Grammar Sch. v. Salz, 234 A.D. 608 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/234-a-d-608/columbia-grammar-school-v-salz)",
+    "match_kind": "semantic",
+    "similarity": 0.6348
+   },
+   {
+    "cluster_id": 8112992,
+    "case_name": "People ex rel. Columbia Chemical Co. v. O'Brien",
+    "citations": [
+     "92 N.Y.S. 1140"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1905-03-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/92-n-y-s-1140/people-ex-rel-columbia-chemical-co-v-obrien",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Columbia Chem. Co. v. O'Brien, 92 N.Y.S. 1140 (N.Y. App. Div. 1905)",
+    "link_md": "[People ex rel. Columbia Chem. Co. v. O'Brien, 92 N.Y.S. 1140 (N.Y. App. Div. 1905)](https://syfert.com/new-york/cases/92-n-y-s-1140/people-ex-rel-columbia-chemical-co-v-obrien)",
+    "match_kind": "semantic",
+    "similarity": 0.6348
+   },
+   {
+    "cluster_id": 5431895,
+    "case_name": "Columbia Corp. v. Sun Insurance Office",
+    "citations": [
+     "206 A.D. 613"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1923-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/206-a-d-613/columbia-corp-v-sun-insurance-office",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Corp. v. Sun Ins. Off., 206 A.D. 613 (N.Y. App. Div. 1923)",
+    "link_md": "[Columbia Corp. v. Sun Ins. Off., 206 A.D. 613 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/206-a-d-613/columbia-corp-v-sun-insurance-office)",
+    "match_kind": "semantic",
+    "similarity": 0.6328
+   },
+   {
+    "cluster_id": 5415289,
+    "case_name": "Commercial Trust Co. v. Columbia Trust Co.",
+    "citations": [
+     "186 A.D. 949"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1918-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/186-a-d-949/commercial-trust-co-v-columbia-trust-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. Trust Co. v. Columbia Trust Co., 186 A.D. 949 (N.Y. App. Div. 1918)",
+    "link_md": "[Com. Trust Co. v. Columbia Trust Co., 186 A.D. 949 (N.Y. App. Div. 1918)](https://syfert.com/new-york/cases/186-a-d-949/commercial-trust-co-v-columbia-trust-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6311
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

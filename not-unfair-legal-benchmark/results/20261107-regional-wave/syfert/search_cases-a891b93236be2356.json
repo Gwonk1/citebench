@@ -1,0 +1,435 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Seaman w/15 \"25 NE 353\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Seaman w/15 \\\"25 NE 353\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6267694,\"case_name\":\"People v. Seaman\",\"citations\":[\"50 N.Y. Sup. Ct. 638\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1887-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6267694/people-v-seaman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Seaman, 50 N.Y. Sup. Ct. 638 (N.Y. Sup. Ct. 1887)\",\"link_md\":\"[People v. Seaman, 50 N.Y. Sup. Ct. 638 (N.Y. Sup. Ct. 1887)](https://syfert.com/new-york/cases/cl-6267694/people-v-seaman)\",\"match_kind\":\"semantic\",\"similarity\":0.6697},{\"cluster_id\":5465337,\"case_name\":\"People v. Seaman\",\"citations\":[\"225 A.D. 726\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1928-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/225-a-d-726/people-v-seaman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Seaman, 225 A.D. 726 (N.Y. App. Div. 1928)\",\"link_md\":\"[People v. Seaman, 225 A.D. 726 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/225-a-d-726/people-v-seaman)\",\"match_kind\":\"semantic\",\"similarity\":0.668},{\"cluster_id\":5672371,\"case_name\":\"King v. Seaman\",\"citations\":[\"179 N.E.2d 712\",\"10 N.Y.2d 921\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1961-11-16\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/10-n-y-2d-921/king-v-seaman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"King v. Seaman, 179 N.E.2d 712 (N.Y. 1961)\",\"link_md\":\"[King v. Seaman, 179 N.E.2d 712 (N.Y. 1961)](https://syfert.com/new-york/cases/10-n-y-2d-921/king-v-seaman)\",\"match_kind\":\"semantic\",\"similarity\":0.6532},{\"cluster_id\":9042213,\"case_name\":\"Peltzman v. Federal Maritime Commission\",\"citations\":[\"459 U.S. 976\",\"103 S. Ct. 317\",\"51 U.S.L.W. 3340\",\"74 L. Ed. 2d 294\",\"1982 U.S. LEXIS 218\",\"111 L.R.R.M. (BNA) 2744\"],\"court\":\"Supreme Court\",\"date_filed\":\"1982-11-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/459-u-s-976/peltzman-v-federal-maritime-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Peltzman v. Fed. Mar. Comm'n, 459 U.S. 976 (1982)\",\"link_md\":\"[Peltzman v. Fed. Mar. Comm'n, 459 U.S. 976 (1982)](https://syfert.com/federal/scotus/cases/459-u-s-976/peltzman-v-federal-maritime-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.6471},{\"cluster_id\":3617941,\"case_name\":\"People v. Seaman, Benedatti Graham\",\"citations\":[\"193 N.E. 411\",\"265 N.Y. 613\",\"1934 N.Y. LEXIS 1210\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1934-11-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/265-n-y-613/people-v-seaman-benedatti-graham\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Seaman, Benedatti Graham, 193 N.E. 411 (N.Y. 1934)\",\"link_md\":\"[People v. Seaman, Benedatti Graham, 193 N.E. 411 (N.Y. 1934)](https://syfert.com/new-york/cases/265-n-y-613/people-v-seaman-benedatti-graham)\",\"match_kind\":\"semantic\",\"similarity\":0.638},{\"cluster_id\":5661906,\"case_name\":\"In re Seaman\",\"citations\":[\"94 N.Y. Sup. Ct. 619\",\"33 N.Y.S. 1134\",\"66 N.Y. St. Rep. 875\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1895-05-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/33-n-y-s-1134/in-re-seaman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Seaman, 94 N.Y. Sup. Ct. 619 (N.Y. Sup. Ct. 1895)\",\"link_md\":\"[In re Seaman, 94 N.Y. Sup. Ct. 619 (N.Y. Sup. Ct. 1895)](https://syfert.com/new-york/cases/33-n-y-s-1134/in-re-seaman)\",\"match_kind\":\"semantic\",\"similarity\":0.6304},{\"cluster_id\":8905193,\"case_name\":\"Fine v. United States\",\"citations\":[\"66 F. Supp. 768\",\"1946 U.S. Dist. LEXIS 2421\"],\"court\":\"E.D. New York\",\"date_filed\":\"1946-06-06\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/district/cases/66-f-supp-768/fine-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fine v. United States, 66 F. Supp. 768 (E.D.N.Y. 1946)\",\"link_md\":\"[Fine v. United States, 66 F. Supp. 768 (E.D.N.Y. 1946)](https://syfert.com/federal/district/cases/66-f-supp-768/fine-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6211},{\"cluster_id\":9198482,\"case_name\":\"Perna v. ARCO Marine, Inc.\",\"citations\":[\"532 U.S. 1063\",\"121 S. Ct. 2207\"],\"court\":\"Supreme Court\",\"date_filed\":\"2001-05-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/532-u-s-1063/perna-v-arco-marine-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (9198482 and its twin 9198483). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Perna v. ARCO Marine, Inc., 532 U.S. 1063 (2001)\",\"link_md\":\"[Perna v. ARCO Marine, Inc., 532 U.S. 1063 (2001)](https://syfert.com/federal/scotus/cases/532-u-s-1063/perna-v-arco-marine-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6174,\"twin_clusters\":[9198483]},{\"cluster_id\":236959,\"case_name\":\"Harold J. Byberg v. Standard Oil Company of New Jersey\",\"citations\":[\"223 F.2d 412\"],\"court\":\"Second Circuit\",\"date_filed\":\"1955-05-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/223-f-2d-412/harold-j-byberg-libelant-appellant-v-standard-oil\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harold J. Byberg v. Stand, 223 F.2d 412 (2d Cir. 1955)\",\"link_md\":\"[Harold J. Byberg v. Stand, 223 F.2d 412 (2d Cir. 1955)](https://syfert.com/federal/circuits/cases/223-f-2d-412/harold-j-byberg-libelant-appellant-v-standard-oil)\",\"match_kind\":\"semantic\",\"similarity\":0.616},{\"cluster_id\":6969449,\"case_name\":\"Carroll v. Moran Towing & Transportation Co.\",\"citations\":[\"84 F.2d 346\",\"1936 U.S. App. LEXIS 4467\",\"1936 A.M.C. 1100\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1936-06-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/84-f-2d-346/carroll-v-moran-towing-transportation-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Carroll v. Moran Towing & Transp. Co., 84 F.2d 346 (9th Cir. 1936)\",\"link_md\":\"[Carroll v. Moran Towing & Transp. Co., 84 F.2d 346 (9th Cir. 1936)](https://syfert.com/federal/circuits/cases/84-f-2d-346/carroll-v-moran-towing-transportation-co)\",\"match_kind\":\"semantic\",\"similarity\":0.612},{\"cluster_id\":9230803,\"case_name\":\"Jackson v. Delaware River & Bay Authority\",\"citations\":[\"545 U.S. 1149\",\"125 S. Ct. 2970\",\"162 L. Ed. 2d 906\",\"2005 U.S. LEXIS 5187\"],\"court\":\"Supreme Court\",\"date_filed\":\"2005-06-27\",\"status\":\"Published\",\"cited_by\":17,\"url\":\"https://syfert.com/federal/scotus/cases/545-u-s-1149/jackson-v-delaware-river-bay-authority\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (9230803 and its twin 9230804).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jackson v. Delaware River & Bay Auth., 545 U.S. 1149 (2005)\",\"link_md\":\"[Jackson v. Delaware River & Bay Auth., 545 U.S. 1149 (2005)](https://syfert.com/federal/scotus/cases/545-u-s-1149/jackson-v-delaware-river-bay-authority)\",\"match_kind\":\"semantic\",\"similarity\":0.6118,\"twin_clusters\":[9230804,9230803]},{\"cluster_id\":8381825,\"case_name\":\"Western Seamen's Friend Society v. P. C. O'Brien Co.\",\"citations\":[\"89 Ohio St. (N.S.) 438\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1913-12-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/cl-8381825/western-seamens-friend-society-v-p-c-obrien-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. Seamen's Friend Soc'y v. P. C. O'Brien Co., 89 Ohio St. (N.S.) 438 (Ohio 1913)\",\"link_md\":\"[W. Seamen's Friend Soc'y v. P. C. O'Brien Co., 89 Ohio St. (N.S.) 438 (Ohio 1913)](https://syfert.com/ohio/cases/cl-8381825/western-seamens-friend-society-v-p-c-obrien-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6092},{\"cluster_id\":9123185,\"case_name\":\"Andersen v. Atlantic Marine Constructors\",\"citations\":[\"505 U.S. 1230\",\"112 S. Ct. 3057\"],\"court\":\"Supreme Court\",\"date_filed\":\"1992-06-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/505-u-s-1230/andersen-v-atlantic-marine-constructors\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (9123185 and its twin 9123186). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Andersen v. Atl. Marine Constructors, 505 U.S. 1230 (1992)\",\"link_md\":\"[Andersen v. Atl. Marine Constructors, 505 U.S. 1230 (1992)](https://syfert.com/federal/scotus/cases/505-u-s-1230/andersen-v-atlantic-marine-constructors)\",\"match_kind\":\"semantic\",\"similarity\":0.6089,\"twin_clusters\":[9123186]},{\"cluster_id\":677958,\"case_name\":\"Hendrix v. Seamen\",\"citations\":[\"35 F.3d 554\",\"1994 U.S. App. LEXIS 25841\",\"1994 WL 500949\"],\"court\":\"Second Circuit\",\"date_filed\":\"1994-08-31\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/35-f-3d-554/hendrix-v-seamen\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hendrix v. Seamen, 35 F.3d 554 (2d Cir. 1994)\",\"link_md\":\"[Hendrix v. Seamen, 35 F.3d 554 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/35-f-3d-554/hendrix-v-seamen)\",\"match_kind\":\"semantic\",\"similarity\":0.6085},{\"cluster_id\":248082,\"case_name\":\"Perry Blon Chance v. United States\",\"citations\":[\"266 F.2d 874\",\"1959 U.S. App. LEXIS 5097\",\"1959 A.M.C. 2045\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1959-05-13\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/266-f-2d-874/perry-blon-chance-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Perry Blon Chance v. United States, 266 F.2d 874 (5th Cir. 1959)\",\"link_md\":\"[Perry Blon Chance v. United States, 266 F.2d 874 (5th Cir. 1959)](https://syfert.com/federal/circuits/cases/266-f-2d-874/perry-blon-chance-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6084},{\"cluster_id\":8742991,\"case_name\":\"Kelley v. Midland Steamship Line, Inc.\",\"citations\":[\"162 F. Supp. 68\",\"1956 U.S. Dist. LEXIS 2240\"],\"court\":\"W.D. New York\",\"date_filed\":\"1956-10-03\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/district/cases/162-f-supp-68/kelley-v-midland-steamship-line-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kelley v. Midland S.S. Line, Inc., 162 F. Supp. 68 (W.D.N.Y. 1956)\",\"link_md\":\"[Kelley v. Midland S.S. Line, Inc., 162 F. Supp. 68 (W.D.N.Y. 1956)](https://syfert.com/federal/district/cases/162-f-supp-68/kelley-v-midland-steamship-line-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6055},{\"cluster_id\":9158897,\"case_name\":\"Newman v. Consolidation Coal Co.\",\"citations\":[\"517 U.S. 1128\",\"116 S. Ct. 1370\",\"134 L. Ed. 2d 535\",\"64 U.S.L.W. 3657\",\"1996 U.S. LEXIS 2307\"],\"court\":\"Supreme Court\",\"date_filed\":\"1996-04-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/517-u-s-1128/newman-v-consolidation-coal-co\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (9158897 and its twin 9158896). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Newman v. Consolidation Coal Co., 517 U.S. 1128 (1996)\",\"link_md\":\"[Newman v. Consolidation Coal Co., 517 U.S. 1128 (1996)](https://syfert.com/federal/scotus/cases/517-u-s-1128/newman-v-consolidation-coal-co)\",\"match_kind\":\"semantic\",\"similarity\":0.605,\"twin_clusters\":[9158896]},{\"cluster_id\":9168806,\"case_name\":\"Newman v. Consolidation Coal Co.\",\"citations\":[\"523 U.S. 1054\",\"140 L. Ed. 2d 526\",\"118 S. Ct. 1380\",\"66 U.S.L.W. 3640\",\"1998 U.S. LEXIS 2269\"],\"court\":\"Supreme Court\",\"date_filed\":\"1998-03-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/523-u-s-1054/newman-v-consolidation-coal-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Newman v. Consolidation Coal Co., 523 U.S. 1054 (1998)\",\"link_md\":\"[Newman v. Consolidation Coal Co., 523 U.S. 1054 (1998)](https://syfert.com/federal/scotus/cases/523-u-s-1054/newman-v-consolidation-coal-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6035},{\"cluster_id\":6934318,\"case_name\":\"The Roxen\",\"citations\":[\"7 F.2d 739\",\"1925 U.S. Dist. LEXIS 1272\"],\"court\":\"E.D. Virginia\",\"date_filed\":\"1925-02-11\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/federal/district/cases/cl-6934318/the-roxen\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"The Roxen, 7 F.2d 739 (E.D. Va. 1925)\",\"link_md\":\"[The Roxen, 7 F.2d 739 (E.D. Va. 1925)](https://syfert.com/federal/district/cases/cl-6934318/the-roxen)\",\"match_kind\":\"semantic\",\"similarity\":0.6031},{\"cluster_id\":3640965,\"case_name\":\"The Seamen's Bk. for Sav., N.Y. v. McCollough\",\"citations\":[\"117 N.E. 1073\",\"221 N.Y. 692\",\"1917 N.Y. LEXIS 1564\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1917-11-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/221-n-y-692/the-seamens-bk-for-sav-ny-v-mccollough\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Seamen's Bk. for Sav., N.Y. v. McCollough, 117 N.E. 1073 (N.Y. 1917)\",\"link_md\":\"[Seamen's Bk. for Sav., N.Y. v. McCollough, 117 N.E. 1073 (N.Y. 1917)](https://syfert.com/new-york/cases/221-n-y-692/the-seamens-bk-for-sav-ny-v-mccollough)\",\"match_kind\":\"semantic\",\"similarity\":0.6027}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Seaman w/15 \"25 NE 353\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6267694,
+    "case_name": "People v. Seaman",
+    "citations": [
+     "50 N.Y. Sup. Ct. 638"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1887-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6267694/people-v-seaman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Seaman, 50 N.Y. Sup. Ct. 638 (N.Y. Sup. Ct. 1887)",
+    "link_md": "[People v. Seaman, 50 N.Y. Sup. Ct. 638 (N.Y. Sup. Ct. 1887)](https://syfert.com/new-york/cases/cl-6267694/people-v-seaman)",
+    "match_kind": "semantic",
+    "similarity": 0.6697
+   },
+   {
+    "cluster_id": 5465337,
+    "case_name": "People v. Seaman",
+    "citations": [
+     "225 A.D. 726"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1928-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/225-a-d-726/people-v-seaman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Seaman, 225 A.D. 726 (N.Y. App. Div. 1928)",
+    "link_md": "[People v. Seaman, 225 A.D. 726 (N.Y. App. Div. 1928)](https://syfert.com/new-york/cases/225-a-d-726/people-v-seaman)",
+    "match_kind": "semantic",
+    "similarity": 0.668
+   },
+   {
+    "cluster_id": 5672371,
+    "case_name": "King v. Seaman",
+    "citations": [
+     "179 N.E.2d 712",
+     "10 N.Y.2d 921"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1961-11-16",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/10-n-y-2d-921/king-v-seaman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "King v. Seaman, 179 N.E.2d 712 (N.Y. 1961)",
+    "link_md": "[King v. Seaman, 179 N.E.2d 712 (N.Y. 1961)](https://syfert.com/new-york/cases/10-n-y-2d-921/king-v-seaman)",
+    "match_kind": "semantic",
+    "similarity": 0.6532
+   },
+   {
+    "cluster_id": 9042213,
+    "case_name": "Peltzman v. Federal Maritime Commission",
+    "citations": [
+     "459 U.S. 976",
+     "103 S. Ct. 317",
+     "51 U.S.L.W. 3340",
+     "74 L. Ed. 2d 294",
+     "1982 U.S. LEXIS 218",
+     "111 L.R.R.M. (BNA) 2744"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1982-11-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/459-u-s-976/peltzman-v-federal-maritime-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Peltzman v. Fed. Mar. Comm'n, 459 U.S. 976 (1982)",
+    "link_md": "[Peltzman v. Fed. Mar. Comm'n, 459 U.S. 976 (1982)](https://syfert.com/federal/scotus/cases/459-u-s-976/peltzman-v-federal-maritime-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.6471
+   },
+   {
+    "cluster_id": 3617941,
+    "case_name": "People v. Seaman, Benedatti Graham",
+    "citations": [
+     "193 N.E. 411",
+     "265 N.Y. 613",
+     "1934 N.Y. LEXIS 1210"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1934-11-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/265-n-y-613/people-v-seaman-benedatti-graham",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Seaman, Benedatti Graham, 193 N.E. 411 (N.Y. 1934)",
+    "link_md": "[People v. Seaman, Benedatti Graham, 193 N.E. 411 (N.Y. 1934)](https://syfert.com/new-york/cases/265-n-y-613/people-v-seaman-benedatti-graham)",
+    "match_kind": "semantic",
+    "similarity": 0.638
+   },
+   {
+    "cluster_id": 5661906,
+    "case_name": "In re Seaman",
+    "citations": [
+     "94 N.Y. Sup. Ct. 619",
+     "33 N.Y.S. 1134",
+     "66 N.Y. St. Rep. 875"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1895-05-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/33-n-y-s-1134/in-re-seaman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Seaman, 94 N.Y. Sup. Ct. 619 (N.Y. Sup. Ct. 1895)",
+    "link_md": "[In re Seaman, 94 N.Y. Sup. Ct. 619 (N.Y. Sup. Ct. 1895)](https://syfert.com/new-york/cases/33-n-y-s-1134/in-re-seaman)",
+    "match_kind": "semantic",
+    "similarity": 0.6304
+   },
+   {
+    "cluster_id": 8905193,
+    "case_name": "Fine v. United States",
+    "citations": [
+     "66 F. Supp. 768",
+     "1946 U.S. Dist. LEXIS 2421"
+    ],
+    "court": "E.D. New York",
+    "date_filed": "1946-06-06",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/district/cases/66-f-supp-768/fine-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fine v. United States, 66 F. Supp. 768 (E.D.N.Y. 1946)",
+    "link_md": "[Fine v. United States, 66 F. Supp. 768 (E.D.N.Y. 1946)](https://syfert.com/federal/district/cases/66-f-supp-768/fine-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6211
+   },
+   {
+    "cluster_id": 9198482,
+    "case_name": "Perna v. ARCO Marine, Inc.",
+    "citations": [
+     "532 U.S. 1063",
+     "121 S. Ct. 2207"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2001-05-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/532-u-s-1063/perna-v-arco-marine-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (9198482 and its twin 9198483). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Perna v. ARCO Marine, Inc., 532 U.S. 1063 (2001)",
+    "link_md": "[Perna v. ARCO Marine, Inc., 532 U.S. 1063 (2001)](https://syfert.com/federal/scotus/cases/532-u-s-1063/perna-v-arco-marine-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6174,
+    "twin_clusters": [
+     9198483
+    ]
+   },
+   {
+    "cluster_id": 236959,
+    "case_name": "Harold J. Byberg v. Standard Oil Company of New Jersey",
+    "citations": [
+     "223 F.2d 412"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1955-05-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/223-f-2d-412/harold-j-byberg-libelant-appellant-v-standard-oil",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harold J. Byberg v. Stand, 223 F.2d 412 (2d Cir. 1955)",
+    "link_md": "[Harold J. Byberg v. Stand, 223 F.2d 412 (2d Cir. 1955)](https://syfert.com/federal/circuits/cases/223-f-2d-412/harold-j-byberg-libelant-appellant-v-standard-oil)",
+    "match_kind": "semantic",
+    "similarity": 0.616
+   },
+   {
+    "cluster_id": 6969449,
+    "case_name": "Carroll v. Moran Towing & Transportation Co.",
+    "citations": [
+     "84 F.2d 346",
+     "1936 U.S. App. LEXIS 4467",
+     "1936 A.M.C. 1100"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1936-06-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/84-f-2d-346/carroll-v-moran-towing-transportation-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Carroll v. Moran Towing & Transp. Co., 84 F.2d 346 (9th Cir. 1936)",
+    "link_md": "[Carroll v. Moran Towing & Transp. Co., 84 F.2d 346 (9th Cir. 1936)](https://syfert.com/federal/circuits/cases/84-f-2d-346/carroll-v-moran-towing-transportation-co)",
+    "match_kind": "semantic",
+    "similarity": 0.612
+   },
+   {
+    "cluster_id": 9230803,
+    "case_name": "Jackson v. Delaware River & Bay Authority",
+    "citations": [
+     "545 U.S. 1149",
+     "125 S. Ct. 2970",
+     "162 L. Ed. 2d 906",
+     "2005 U.S. LEXIS 5187"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2005-06-27",
+    "status": "Published",
+    "cited_by": 17,
+    "url": "https://syfert.com/federal/scotus/cases/545-u-s-1149/jackson-v-delaware-river-bay-authority",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (9230803 and its twin 9230804).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jackson v. Delaware River & Bay Auth., 545 U.S. 1149 (2005)",
+    "link_md": "[Jackson v. Delaware River & Bay Auth., 545 U.S. 1149 (2005)](https://syfert.com/federal/scotus/cases/545-u-s-1149/jackson-v-delaware-river-bay-authority)",
+    "match_kind": "semantic",
+    "similarity": 0.6118,
+    "twin_clusters": [
+     9230804,
+     9230803
+    ]
+   },
+   {
+    "cluster_id": 8381825,
+    "case_name": "Western Seamen's Friend Society v. P. C. O'Brien Co.",
+    "citations": [
+     "89 Ohio St. (N.S.) 438"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1913-12-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/cl-8381825/western-seamens-friend-society-v-p-c-obrien-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. Seamen's Friend Soc'y v. P. C. O'Brien Co., 89 Ohio St. (N.S.) 438 (Ohio 1913)",
+    "link_md": "[W. Seamen's Friend Soc'y v. P. C. O'Brien Co., 89 Ohio St. (N.S.) 438 (Ohio 1913)](https://syfert.com/ohio/cases/cl-8381825/western-seamens-friend-society-v-p-c-obrien-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6092
+   },
+   {
+    "cluster_id": 9123185,
+    "case_name": "Andersen v. Atlantic Marine Constructors",
+    "citations": [
+     "505 U.S. 1230",
+     "112 S. Ct. 3057"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1992-06-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/505-u-s-1230/andersen-v-atlantic-marine-constructors",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (9123185 and its twin 9123186). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Andersen v. Atl. Marine Constructors, 505 U.S. 1230 (1992)",
+    "link_md": "[Andersen v. Atl. Marine Constructors, 505 U.S. 1230 (1992)](https://syfert.com/federal/scotus/cases/505-u-s-1230/andersen-v-atlantic-marine-constructors)",
+    "match_kind": "semantic",
+    "similarity": 0.6089,
+    "twin_clusters": [
+     9123186
+    ]
+   },
+   {
+    "cluster_id": 677958,
+    "case_name": "Hendrix v. Seamen",
+    "citations": [
+     "35 F.3d 554",
+     "1994 U.S. App. LEXIS 25841",
+     "1994 WL 500949"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1994-08-31",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/35-f-3d-554/hendrix-v-seamen",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hendrix v. Seamen, 35 F.3d 554 (2d Cir. 1994)",
+    "link_md": "[Hendrix v. Seamen, 35 F.3d 554 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/35-f-3d-554/hendrix-v-seamen)",
+    "match_kind": "semantic",
+    "similarity": 0.6085
+   },
+   {
+    "cluster_id": 248082,
+    "case_name": "Perry Blon Chance v. United States",
+    "citations": [
+     "266 F.2d 874",
+     "1959 U.S. App. LEXIS 5097",
+     "1959 A.M.C. 2045"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1959-05-13",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/266-f-2d-874/perry-blon-chance-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Perry Blon Chance v. United States, 266 F.2d 874 (5th Cir. 1959)",
+    "link_md": "[Perry Blon Chance v. United States, 266 F.2d 874 (5th Cir. 1959)](https://syfert.com/federal/circuits/cases/266-f-2d-874/perry-blon-chance-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6084
+   },
+   {
+    "cluster_id": 8742991,
+    "case_name": "Kelley v. Midland Steamship Line, Inc.",
+    "citations": [
+     "162 F. Supp. 68",
+     "1956 U.S. Dist. LEXIS 2240"
+    ],
+    "court": "W.D. New York",
+    "date_filed": "1956-10-03",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/district/cases/162-f-supp-68/kelley-v-midland-steamship-line-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kelley v. Midland S.S. Line, Inc., 162 F. Supp. 68 (W.D.N.Y. 1956)",
+    "link_md": "[Kelley v. Midland S.S. Line, Inc., 162 F. Supp. 68 (W.D.N.Y. 1956)](https://syfert.com/federal/district/cases/162-f-supp-68/kelley-v-midland-steamship-line-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6055
+   },
+   {
+    "cluster_id": 9158897,
+    "case_name": "Newman v. Consolidation Coal Co.",
+    "citations": [
+     "517 U.S. 1128",
+     "116 S. Ct. 1370",
+     "134 L. Ed. 2d 535",
+     "64 U.S.L.W. 3657",
+     "1996 U.S. LEXIS 2307"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1996-04-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/517-u-s-1128/newman-v-consolidation-coal-co",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (9158897 and its twin 9158896). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Newman v. Consolidation Coal Co., 517 U.S. 1128 (1996)",
+    "link_md": "[Newman v. Consolidation Coal Co., 517 U.S. 1128 (1996)](https://syfert.com/federal/scotus/cases/517-u-s-1128/newman-v-consolidation-coal-co)",
+    "match_kind": "semantic",
+    "similarity": 0.605,
+    "twin_clusters": [
+     9158896
+    ]
+   },
+   {
+    "cluster_id": 9168806,
+    "case_name": "Newman v. Consolidation Coal Co.",
+    "citations": [
+     "523 U.S. 1054",
+     "140 L. Ed. 2d 526",
+     "118 S. Ct. 1380",
+     "66 U.S.L.W. 3640",
+     "1998 U.S. LEXIS 2269"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1998-03-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/523-u-s-1054/newman-v-consolidation-coal-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Newman v. Consolidation Coal Co., 523 U.S. 1054 (1998)",
+    "link_md": "[Newman v. Consolidation Coal Co., 523 U.S. 1054 (1998)](https://syfert.com/federal/scotus/cases/523-u-s-1054/newman-v-consolidation-coal-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6035
+   },
+   {
+    "cluster_id": 6934318,
+    "case_name": "The Roxen",
+    "citations": [
+     "7 F.2d 739",
+     "1925 U.S. Dist. LEXIS 1272"
+    ],
+    "court": "E.D. Virginia",
+    "date_filed": "1925-02-11",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/federal/district/cases/cl-6934318/the-roxen",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "The Roxen, 7 F.2d 739 (E.D. Va. 1925)",
+    "link_md": "[The Roxen, 7 F.2d 739 (E.D. Va. 1925)](https://syfert.com/federal/district/cases/cl-6934318/the-roxen)",
+    "match_kind": "semantic",
+    "similarity": 0.6031
+   },
+   {
+    "cluster_id": 3640965,
+    "case_name": "The Seamen's Bk. for Sav., N.Y. v. McCollough",
+    "citations": [
+     "117 N.E. 1073",
+     "221 N.Y. 692",
+     "1917 N.Y. LEXIS 1564"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1917-11-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/221-n-y-692/the-seamens-bk-for-sav-ny-v-mccollough",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Seamen's Bk. for Sav., N.Y. v. McCollough, 117 N.E. 1073 (N.Y. 1917)",
+    "link_md": "[Seamen's Bk. for Sav., N.Y. v. McCollough, 117 N.E. 1073 (N.Y. 1917)](https://syfert.com/new-york/cases/221-n-y-692/the-seamens-bk-for-sav-ny-v-mccollough)",
+    "match_kind": "semantic",
+    "similarity": 0.6027
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

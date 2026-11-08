@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "23 S.W. 862",
+  "expected_case_name": "First National Bank of Colorado v. Brown"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"23 S.W. 862\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4164470,\n            \"case_name\": \"First National Bank of Colorado v. Brown\",\n            \"citations\": [\n                \"23 S.W. 862\"\n            ],\n            \"court\": \"Texas Supreme Court\",\n            \"date_filed\": \"1892-05-03\",\n            \"status\": \"Published\",\n            \"cited_by\": 23,\n            \"url\": \"https://syfert.com/texas/cases/85-tex-80/first-national-bank-of-colorado-v-brown\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"First Nat'l Bank of Colorado v. Brown, 23 S.W. 862 (Tex. 1892)\",\n            \"link_md\": \"[First Nat'l Bank of Colorado v. Brown, 23 S.W. 862 (Tex. 1892)](https://syfert.com/texas/cases/85-tex-80/first-national-bank-of-colorado-v-brown)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"First National Bank of Colorado v. Brown\",\n        \"actual\": \"First National Bank of Colorado v. Brown\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "23 S.W. 862",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4164470,
+    "case_name": "First National Bank of Colorado v. Brown",
+    "citations": [
+     "23 S.W. 862"
+    ],
+    "court": "Texas Supreme Court",
+    "date_filed": "1892-05-03",
+    "status": "Published",
+    "cited_by": 23,
+    "url": "https://syfert.com/texas/cases/85-tex-80/first-national-bank-of-colorado-v-brown",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "First Nat'l Bank of Colorado v. Brown, 23 S.W. 862 (Tex. 1892)",
+    "link_md": "[First Nat'l Bank of Colorado v. Brown, 23 S.W. 862 (Tex. 1892)](https://syfert.com/texas/cases/85-tex-80/first-national-bank-of-colorado-v-brown)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "First National Bank of Colorado v. Brown",
+   "actual": "First National Bank of Colorado v. Brown",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

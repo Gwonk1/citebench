@@ -1,0 +1,53 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "28 N.W. 173",
+  "expected_case_name": "McLeod v. Evans"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"28 N.W. 173\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6724097,\n            \"case_name\": \"McLeod v. Evans\",\n            \"citations\": [\n                \"28 N.W. 173\"\n            ],\n            \"court\": \"Wisconsin Supreme Court\",\n            \"date_filed\": \"1886-09-21\",\n            \"status\": \"Published\",\n            \"cited_by\": 87,\n            \"url\": \"https://syfert.com/wisconsin/cases/66-wis-401/mcleod-v-evans\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"McLeod v. Evans, 28 N.W. 173 (Wis. 1886)\",\n            \"link_md\": \"[McLeod v. Evans, 28 N.W. 173 (Wis. 1886)](https://syfert.com/wisconsin/cases/66-wis-401/mcleod-v-evans)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 2,\n                \"yellow\": 0,\n                \"green\": 4,\n                \"procedural\": 0,\n                \"strongest_signal\": \"Overruled\",\n                \"strongest_citer\": \"Independent District of Pella v. Beard\",\n                \"strongest_date\": \"1897-09-17\",\n                \"strongest_citer_cluster_id\": 9312617,\n                \"strongest_citer_published\": true\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"McLeod v. Evans\",\n        \"actual\": \"McLeod v. Evans\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "28 N.W. 173",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6724097,
+    "case_name": "McLeod v. Evans",
+    "citations": [
+     "28 N.W. 173"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "1886-09-21",
+    "status": "Published",
+    "cited_by": 87,
+    "url": "https://syfert.com/wisconsin/cases/66-wis-401/mcleod-v-evans",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McLeod v. Evans, 28 N.W. 173 (Wis. 1886)",
+    "link_md": "[McLeod v. Evans, 28 N.W. 173 (Wis. 1886)](https://syfert.com/wisconsin/cases/66-wis-401/mcleod-v-evans)",
+    "treatment": {
+     "flag": "green",
+     "red": 2,
+     "yellow": 0,
+     "green": 4,
+     "procedural": 0,
+     "strongest_signal": "Overruled",
+     "strongest_citer": "Independent District of Pella v. Beard",
+     "strongest_date": "1897-09-17",
+     "strongest_citer_cluster_id": 9312617,
+     "strongest_citer_published": true
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "McLeod v. Evans",
+   "actual": "McLeod v. Evans",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

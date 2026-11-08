@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "155 P.2d 450",
+  "expected_case_name": "Gantz v. Bondurant"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"155 P.2d 450\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7964218,\n            \"case_name\": \"Gantz v. Bondurant\",\n            \"citations\": [\n                \"155 P.2d 450\"\n            ],\n            \"court\": \"Supreme Court of Kansas\",\n            \"date_filed\": \"1945-01-27\",\n            \"status\": \"Published\",\n            \"cited_by\": 24,\n            \"url\": \"https://syfert.com/kansas/cases/159-kan-389/gantz-v-bondurant\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Gantz v. Bondurant, 155 P.2d 450 (Kan. 1945)\",\n            \"link_md\": \"[Gantz v. Bondurant, 155 P.2d 450 (Kan. 1945)](https://syfert.com/kansas/cases/159-kan-389/gantz-v-bondurant)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Gantz v. Bondurant\",\n        \"actual\": \"Gantz v. Bondurant\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "155 P.2d 450",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7964218,
+    "case_name": "Gantz v. Bondurant",
+    "citations": [
+     "155 P.2d 450"
+    ],
+    "court": "Supreme Court of Kansas",
+    "date_filed": "1945-01-27",
+    "status": "Published",
+    "cited_by": 24,
+    "url": "https://syfert.com/kansas/cases/159-kan-389/gantz-v-bondurant",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gantz v. Bondurant, 155 P.2d 450 (Kan. 1945)",
+    "link_md": "[Gantz v. Bondurant, 155 P.2d 450 (Kan. 1945)](https://syfert.com/kansas/cases/159-kan-389/gantz-v-bondurant)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Gantz v. Bondurant",
+   "actual": "Gantz v. Bondurant",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

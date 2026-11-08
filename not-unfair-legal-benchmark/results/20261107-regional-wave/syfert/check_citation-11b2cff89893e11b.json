@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "250 S.W. 101",
+  "expected_case_name": "Duncan v. Commonwealth"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"250 S.W. 101\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7235598,\n            \"case_name\": \"Duncan v. Commonwealth\",\n            \"citations\": [\n                \"250 S.W. 101\"\n            ],\n            \"court\": \"Court of Appeals of Kentucky\",\n            \"date_filed\": \"1923-05-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 21,\n            \"url\": \"https://syfert.com/kentucky/cases/198-ky-841/duncan-v-commonwealth\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Duncan v. Commonwealth, 250 S.W. 101 (Ky. Ct. App. 1923)\",\n            \"link_md\": \"[Duncan v. Commonwealth, 250 S.W. 101 (Ky. Ct. App. 1923)](https://syfert.com/kentucky/cases/198-ky-841/duncan-v-commonwealth)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Duncan v. Commonwealth\",\n        \"actual\": \"Duncan v. Commonwealth\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "250 S.W. 101",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7235598,
+    "case_name": "Duncan v. Commonwealth",
+    "citations": [
+     "250 S.W. 101"
+    ],
+    "court": "Court of Appeals of Kentucky",
+    "date_filed": "1923-05-01",
+    "status": "Published",
+    "cited_by": 21,
+    "url": "https://syfert.com/kentucky/cases/198-ky-841/duncan-v-commonwealth",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Duncan v. Commonwealth, 250 S.W. 101 (Ky. Ct. App. 1923)",
+    "link_md": "[Duncan v. Commonwealth, 250 S.W. 101 (Ky. Ct. App. 1923)](https://syfert.com/kentucky/cases/198-ky-841/duncan-v-commonwealth)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Duncan v. Commonwealth",
+   "actual": "Duncan v. Commonwealth",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "48 So. 89",
+  "expected_case_name": "Stowers Furniture Co. v. Brake"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"48 So. 89\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7443802,\n            \"case_name\": \"Stowers Furniture Co. v. Brake\",\n            \"citations\": [\n                \"48 So. 89\"\n            ],\n            \"court\": \"Supreme Court of Alabama\",\n            \"date_filed\": \"1908-12-17\",\n            \"status\": \"Published\",\n            \"cited_by\": 33,\n            \"url\": \"https://syfert.com/alabama/cases/158-ala-639/stowers-furniture-co-v-brake\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Stowers Furniture Co. v. Brake, 48 So. 89 (Ala. 1908)\",\n            \"link_md\": \"[Stowers Furniture Co. v. Brake, 48 So. 89 (Ala. 1908)](https://syfert.com/alabama/cases/158-ala-639/stowers-furniture-co-v-brake)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Stowers Furniture Co. v. Brake\",\n        \"actual\": \"Stowers Furniture Co. v. Brake\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "48 So. 89",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7443802,
+    "case_name": "Stowers Furniture Co. v. Brake",
+    "citations": [
+     "48 So. 89"
+    ],
+    "court": "Supreme Court of Alabama",
+    "date_filed": "1908-12-17",
+    "status": "Published",
+    "cited_by": 33,
+    "url": "https://syfert.com/alabama/cases/158-ala-639/stowers-furniture-co-v-brake",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stowers Furniture Co. v. Brake, 48 So. 89 (Ala. 1908)",
+    "link_md": "[Stowers Furniture Co. v. Brake, 48 So. 89 (Ala. 1908)](https://syfert.com/alabama/cases/158-ala-639/stowers-furniture-co-v-brake)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Stowers Furniture Co. v. Brake",
+   "actual": "Stowers Furniture Co. v. Brake",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

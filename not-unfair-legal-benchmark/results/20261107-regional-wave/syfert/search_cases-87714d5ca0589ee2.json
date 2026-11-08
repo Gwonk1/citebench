@@ -1,0 +1,423 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Merchants w/15 \"120 S.E. 60\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Merchants w/15 \\\"120 S.E. 60\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7723994,\"case_name\":\"State v. Smith\",\"citations\":[\"24 Tenn. 394\"],\"court\":\"Tennessee Supreme Court\",\"date_filed\":\"1844-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/tennessee/cases/cl-7723994/state-v-smith\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (7723994 and its twins 7723995, 7723996). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Smith, 24 Tenn. 394 (1844)\",\"link_md\":\"[State v. Smith, 24 Tenn. 394 (1844)](https://syfert.com/tennessee/cases/cl-7723994/state-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6805,\"twin_clusters\":[7723996,7723995]},{\"cluster_id\":8058189,\"case_name\":\"Town of Canton v. McDaniel\",\"citations\":[\"86 S.W. 1092\",\"188 Mo. 207\",\"1905 Mo. LEXIS 14\"],\"court\":\"Supreme Court of Missouri\",\"date_filed\":\"1905-04-25\",\"status\":\"Published\",\"cited_by\":12,\"url\":\"https://syfert.com/missouri/cases/188-mo-207/town-of-canton-v-mcdaniel\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Town of Canton v. McDaniel, 86 S.W. 1092 (Mo. 1905)\",\"link_md\":\"[Town of Canton v. McDaniel, 86 S.W. 1092 (Mo. 1905)](https://syfert.com/missouri/cases/188-mo-207/town-of-canton-v-mcdaniel)\",\"match_kind\":\"semantic\",\"similarity\":0.6648},{\"cluster_id\":7457166,\"case_name\":\"Young v. Dobyns\",\"citations\":[\"51 Ky. 7\",\"12 B. Mon. 7\",\"1851 Ky. LEXIS 3\"],\"court\":\"Court of Appeals of Kentucky\",\"date_filed\":\"1851-06-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/kentucky/cases/cl-7457166/young-v-dobyns\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Young v. Dobyns, 51 Ky. 7 (Ky. Ct. App. 1851)\",\"link_md\":\"[Young v. Dobyns, 51 Ky. 7 (Ky. Ct. App. 1851)](https://syfert.com/kentucky/cases/cl-7457166/young-v-dobyns)\",\"match_kind\":\"semantic\",\"similarity\":0.659},{\"cluster_id\":6738788,\"case_name\":\"Kansas City v. Ferd Heim Brewing Co.\",\"citations\":[\"73 S.W. 302\",\"98 Mo. App. 590\",\"1903 Mo. App. LEXIS 119\"],\"court\":\"Missouri Court of Appeals\",\"date_filed\":\"1903-03-02\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/missouri/cases/98-mo-app-590/kansas-city-v-ferd-heim-brewing-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kansas City v. Ferd Heim Brewing Co., 73 S.W. 302 (Mo. Ct. App. 1903)\",\"link_md\":\"[Kansas City v. Ferd Heim Brewing Co., 73 S.W. 302 (Mo. Ct. App. 1903)](https://syfert.com/missouri/cases/98-mo-app-590/kansas-city-v-ferd-heim-brewing-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6561},{\"cluster_id\":10271543,\"case_name\":\"State of New Hampshire v. Dianne M. Sage\",\"citations\":[],\"court\":\"Supreme Court of New Hampshire\",\"date_filed\":\"2015-01-20\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/new-hampshire/cases/cl-10271543/state-of-new-hampshire-v-dianne-m-sage\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"State of New Hampshire v. Dianne M. Sage, No. 2014-0292 (N.H. Jan. 20, 2015)\",\"link_md\":\"[State of New Hampshire v. Dianne M. Sage, No. 2014-0292 (N.H. Jan. 20, 2015)](https://syfert.com/new-hampshire/cases/cl-10271543/state-of-new-hampshire-v-dianne-m-sage)\",\"match_kind\":\"semantic\",\"similarity\":0.6556},{\"cluster_id\":5071209,\"case_name\":\"Hein v. O'Conner\",\"citations\":[\"15 S.W. 414\",\"4 Willson 306\"],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"1891-01-22\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/texas/cases/15-s-w-414/hein-v-oconner\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hein v. O'Conner, 15 S.W. 414 (Tex. App. 1891)\",\"link_md\":\"[Hein v. O'Conner, 15 S.W. 414 (Tex. App. 1891)](https://syfert.com/texas/cases/15-s-w-414/hein-v-oconner)\",\"match_kind\":\"semantic\",\"similarity\":0.655},{\"cluster_id\":7461114,\"case_name\":\"Dyott v. Letcher\",\"citations\":[\"29 Ky. 541\",\"6 J.J. Marsh. 541\",\"1831 Ky. LEXIS 247\"],\"court\":\"Court of Appeals of Kentucky\",\"date_filed\":\"1831-10-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/kentucky/cases/cl-7461114/dyott-v-letcher\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dyott v. Letcher, 29 Ky. 541 (Ky. Ct. App. 1831)\",\"link_md\":\"[Dyott v. Letcher, 29 Ky. 541 (Ky. Ct. App. 1831)](https://syfert.com/kentucky/cases/cl-7461114/dyott-v-letcher)\",\"match_kind\":\"semantic\",\"similarity\":0.6504},{\"cluster_id\":8766340,\"case_name\":\"Forbes v. Merchants' Express & Transportation Co.\",\"citations\":[\"120 F. 1019\",\"56 C.C.A. 681\",\"1903 U.S. App. LEXIS 4569\"],\"court\":\"Second Circuit\",\"date_filed\":\"1903-03-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/120-f-1019/forbes-v-merchants-express-transportation-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Forbes v. Merchants' Express & Transp. Co., 120 F. 1019 (2d Cir. 1903)\",\"link_md\":\"[Forbes v. Merchants' Express & Transp. Co., 120 F. 1019 (2d Cir. 1903)](https://syfert.com/federal/circuits/cases/120-f-1019/forbes-v-merchants-express-transportation-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6486},{\"cluster_id\":745663,\"case_name\":\"Larry D. Davis, Sr. v. Flagstar Companies\",\"citations\":[\"124 F.3d 203\",\"1997 U.S. App. LEXIS 30833\",\"1997 WL 374819\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1997-06-24\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/124-f-3d-203/larry-d-davis-sr-v-flagstar-companies\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Larry D. Davis, Sr. v. Flagstar Companies, 124 F.3d 203 (7th Cir. 1997)\",\"link_md\":\"[Larry D. Davis, Sr. v. Flagstar Companies, 124 F.3d 203 (7th Cir. 1997)](https://syfert.com/federal/circuits/cases/124-f-3d-203/larry-d-davis-sr-v-flagstar-companies)\",\"match_kind\":\"semantic\",\"similarity\":0.6449},{\"cluster_id\":8332005,\"case_name\":\"Neas v. Borches\",\"citations\":[\"71 S.W. 50\",\"109 Tenn. 398\"],\"court\":\"Tennessee Supreme Court\",\"date_filed\":\"1902-09-15\",\"status\":\"Published\",\"cited_by\":31,\"url\":\"https://syfert.com/tennessee/cases/109-tenn-398/neas-v-borches\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"71 S.W. 50\",\"recovered_from_citing_opinions\":5,\"source\":\"harvester_v2_xeric\",\"confidence\":1,\"note\":\"Recovered parallel cite: 13 citing opinions confirm this cite (confidence 1.00)\"}],\"bluebook\":\"Neas v. Borches, 71 S.W. 50 (Tenn. 1902)\",\"link_md\":\"[Neas v. Borches, 71 S.W. 50 (Tenn. 1902)](https://syfert.com/tennessee/cases/109-tenn-398/neas-v-borches)\",\"match_kind\":\"semantic\",\"similarity\":0.6447},{\"cluster_id\":8058877,\"case_name\":\"Milliken v. Thyson Commission Co.\",\"citations\":[\"100 S.W. 604\",\"202 Mo. 637\",\"1907 Mo. LEXIS 318\"],\"court\":\"Supreme Court of Missouri\",\"date_filed\":\"1907-03-28\",\"status\":\"Published\",\"cited_by\":18,\"url\":\"https://syfert.com/missouri/cases/202-mo-637/milliken-v-thyson-commission-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Milliken v. Thyson Comm'n Co., 100 S.W. 604 (Mo. 1907)\",\"link_md\":\"[Milliken v. Thyson Comm'n Co., 100 S.W. 604 (Mo. 1907)](https://syfert.com/missouri/cases/202-mo-637/milliken-v-thyson-commission-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6435},{\"cluster_id\":7233247,\"case_name\":\"Hetterman v. Oil Well Supply Co.\",\"citations\":[\"214 S.W. 923\",\"185 Ky. 290\",\"1919 Ky. LEXIS 287\"],\"court\":\"Court of Appeals of Kentucky\",\"date_filed\":\"1919-10-07\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/kentucky/cases/185-ky-290/hetterman-v-oil-well-supply-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hetterman v. Oil Well Supply Co., 214 S.W. 923 (Ky. Ct. App. 1919)\",\"link_md\":\"[Hetterman v. Oil Well Supply Co., 214 S.W. 923 (Ky. Ct. App. 1919)](https://syfert.com/kentucky/cases/185-ky-290/hetterman-v-oil-well-supply-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6423},{\"cluster_id\":6305664,\"case_name\":\"R.F. Cunningham & Co. v. Driscoll\",\"citations\":[\"7 Misc. 3d 234\"],\"court\":\"City of New York Municipal Court\",\"date_filed\":\"2005-02-09\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/7-misc-3d-234/rf-cunningham-co-v-driscoll\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"R.F. Cunningham & Co. v. Driscoll, 7 Misc. 3d 234 (N.Y. City Mun. Ct. 2005)\",\"link_md\":\"[R.F. Cunningham & Co. v. Driscoll, 7 Misc. 3d 234 (N.Y. City Mun. Ct. 2005)](https://syfert.com/new-york/cases/7-misc-3d-234/rf-cunningham-co-v-driscoll)\",\"match_kind\":\"semantic\",\"similarity\":0.6398},{\"cluster_id\":7129341,\"case_name\":\"Wallace v. Morgan\",\"citations\":[\"23 Ind. 399\"],\"court\":\"Indiana Supreme Court\",\"date_filed\":\"1864-11-15\",\"status\":\"Published\",\"cited_by\":22,\"url\":\"https://syfert.com/indiana/cases/23-ind-399/wallace-v-morgan\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wallace v. Morgan, 23 Ind. 399 (1864)\",\"link_md\":\"[Wallace v. Morgan, 23 Ind. 399 (1864)](https://syfert.com/indiana/cases/23-ind-399/wallace-v-morgan)\",\"match_kind\":\"semantic\",\"similarity\":0.6377},{\"cluster_id\":8132343,\"case_name\":\"Merchants & Manufacturers Exchange v. United States\",\"citations\":[\"22 Cust. Ct. 296\",\"1949 Cust. Ct. LEXIS 1547\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1949-04-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/22-cust-ct-296/merchants-manufacturers-exchange-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Merchants & Mfrs. Exch. v. United States, 22 Cust. Ct. 296 (Cust. Ct. 1949)\",\"link_md\":\"[Merchants & Mfrs. Exch. v. United States, 22 Cust. Ct. 296 (Cust. Ct. 1949)](https://syfert.com/federal/specialty/cases/22-cust-ct-296/merchants-manufacturers-exchange-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6375},{\"cluster_id\":1992755,\"case_name\":\"Campbell v. Yokel\",\"citations\":[\"313 N.E.2d 628\",\"20 Ill. App. 3d 702\",\"15 U.C.C. Rep. Serv. (West) 15\",\"1974 Ill. App. LEXIS 2495\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"1974-06-28\",\"status\":\"Published\",\"cited_by\":28,\"url\":\"https://syfert.com/illinois/cases/20-ill-app-3d-702/campbell-v-yokel\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Campbell v. Yokel, 313 N.E.2d 628 (Ill. App. Ct. 5th Dist. 1974)\",\"link_md\":\"[Campbell v. Yokel, 313 N.E.2d 628 (Ill. App. Ct. 5th Dist. 1974)](https://syfert.com/illinois/cases/20-ill-app-3d-702/campbell-v-yokel)\",\"match_kind\":\"semantic\",\"similarity\":0.6371},{\"cluster_id\":7132424,\"case_name\":\"Mooney v. Musser\",\"citations\":[\"45 Ind. 115\"],\"court\":\"Indiana Supreme Court\",\"date_filed\":\"1873-11-15\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/indiana/cases/45-ind-115/mooney-v-musser\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mooney v. Musser, 45 Ind. 115 (1873)\",\"link_md\":\"[Mooney v. Musser, 45 Ind. 115 (1873)](https://syfert.com/indiana/cases/45-ind-115/mooney-v-musser)\",\"match_kind\":\"semantic\",\"similarity\":0.6367},{\"cluster_id\":6364172,\"case_name\":\"Jayne v. Mickey\",\"citations\":[\"55 Pa. 260\",\"1867 Pa. LEXIS 177\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1867-05-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/55-pa-260/jayne-v-mickey\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jayne v. Mickey, 55 Pa. 260 (1867)\",\"link_md\":\"[Jayne v. Mickey, 55 Pa. 260 (1867)](https://syfert.com/pennsylvania/cases/55-pa-260/jayne-v-mickey)\",\"match_kind\":\"semantic\",\"similarity\":0.6364},{\"cluster_id\":1684352,\"case_name\":\"Nelson v. Union Equity Co-Operative Exchange\",\"citations\":[\"536 S.W.2d 635\",\"19 U.C.C. Rep. Serv. (West) 1050\",\"1976 Tex. App. LEXIS 2722\"],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"1976-04-23\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/texas/cases/536-s-w-2d-635/nelson-v-union-equity-co-operative-exchange\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Nelson v. Union Equity Co-Operative Exch., 536 S.W.2d 635 (Tex. App. 1976)\",\"link_md\":\"[Nelson v. Union Equity Co-Operative Exch., 536 S.W.2d 635 (Tex. App. 1976)](https://syfert.com/texas/cases/536-s-w-2d-635/nelson-v-union-equity-co-operative-exchange)\",\"match_kind\":\"semantic\",\"similarity\":0.6364},{\"cluster_id\":7224063,\"case_name\":\"J. M. Robinson, Norton & Co. v. Corsicana Cotton Factory\",\"citations\":[\"99 S.W. 305\",\"124 Ky. 435\",\"1907 Ky. LEXIS 199\"],\"court\":\"Court of Appeals of Kentucky\",\"date_filed\":\"1907-01-24\",\"status\":\"Published\",\"cited_by\":8,\"url\":\"https://syfert.com/kentucky/cases/124-ky-435/j-m-robinson-norton-co-v-corsicana-cotton-factory\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"J. M. Robinson, Norton & Co. v. Corsicana Cotton Factory, 99 S.W. 305 (Ky. Ct. App. 1907)\",\"link_md\":\"[J. M. Robinson, Norton & Co. v. Corsicana Cotton Factory, 99 S.W. 305 (Ky. Ct. App. 1907)](https://syfert.com/kentucky/cases/124-ky-435/j-m-robinson-norton-co-v-corsicana-cotton-factory)\",\"match_kind\":\"semantic\",\"similarity\":0.6363}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Merchants w/15 \"120 S.E. 60\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7723994,
+    "case_name": "State v. Smith",
+    "citations": [
+     "24 Tenn. 394"
+    ],
+    "court": "Tennessee Supreme Court",
+    "date_filed": "1844-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/tennessee/cases/cl-7723994/state-v-smith",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (7723994 and its twins 7723995, 7723996). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Smith, 24 Tenn. 394 (1844)",
+    "link_md": "[State v. Smith, 24 Tenn. 394 (1844)](https://syfert.com/tennessee/cases/cl-7723994/state-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6805,
+    "twin_clusters": [
+     7723996,
+     7723995
+    ]
+   },
+   {
+    "cluster_id": 8058189,
+    "case_name": "Town of Canton v. McDaniel",
+    "citations": [
+     "86 S.W. 1092",
+     "188 Mo. 207",
+     "1905 Mo. LEXIS 14"
+    ],
+    "court": "Supreme Court of Missouri",
+    "date_filed": "1905-04-25",
+    "status": "Published",
+    "cited_by": 12,
+    "url": "https://syfert.com/missouri/cases/188-mo-207/town-of-canton-v-mcdaniel",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Town of Canton v. McDaniel, 86 S.W. 1092 (Mo. 1905)",
+    "link_md": "[Town of Canton v. McDaniel, 86 S.W. 1092 (Mo. 1905)](https://syfert.com/missouri/cases/188-mo-207/town-of-canton-v-mcdaniel)",
+    "match_kind": "semantic",
+    "similarity": 0.6648
+   },
+   {
+    "cluster_id": 7457166,
+    "case_name": "Young v. Dobyns",
+    "citations": [
+     "51 Ky. 7",
+     "12 B. Mon. 7",
+     "1851 Ky. LEXIS 3"
+    ],
+    "court": "Court of Appeals of Kentucky",
+    "date_filed": "1851-06-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/kentucky/cases/cl-7457166/young-v-dobyns",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Young v. Dobyns, 51 Ky. 7 (Ky. Ct. App. 1851)",
+    "link_md": "[Young v. Dobyns, 51 Ky. 7 (Ky. Ct. App. 1851)](https://syfert.com/kentucky/cases/cl-7457166/young-v-dobyns)",
+    "match_kind": "semantic",
+    "similarity": 0.659
+   },
+   {
+    "cluster_id": 6738788,
+    "case_name": "Kansas City v. Ferd Heim Brewing Co.",
+    "citations": [
+     "73 S.W. 302",
+     "98 Mo. App. 590",
+     "1903 Mo. App. LEXIS 119"
+    ],
+    "court": "Missouri Court of Appeals",
+    "date_filed": "1903-03-02",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/missouri/cases/98-mo-app-590/kansas-city-v-ferd-heim-brewing-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kansas City v. Ferd Heim Brewing Co., 73 S.W. 302 (Mo. Ct. App. 1903)",
+    "link_md": "[Kansas City v. Ferd Heim Brewing Co., 73 S.W. 302 (Mo. Ct. App. 1903)](https://syfert.com/missouri/cases/98-mo-app-590/kansas-city-v-ferd-heim-brewing-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6561
+   },
+   {
+    "cluster_id": 10271543,
+    "case_name": "State of New Hampshire v. Dianne M. Sage",
+    "citations": [],
+    "court": "Supreme Court of New Hampshire",
+    "date_filed": "2015-01-20",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-hampshire/cases/cl-10271543/state-of-new-hampshire-v-dianne-m-sage",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "State of New Hampshire v. Dianne M. Sage, No. 2014-0292 (N.H. Jan. 20, 2015)",
+    "link_md": "[State of New Hampshire v. Dianne M. Sage, No. 2014-0292 (N.H. Jan. 20, 2015)](https://syfert.com/new-hampshire/cases/cl-10271543/state-of-new-hampshire-v-dianne-m-sage)",
+    "match_kind": "semantic",
+    "similarity": 0.6556
+   },
+   {
+    "cluster_id": 5071209,
+    "case_name": "Hein v. O'Conner",
+    "citations": [
+     "15 S.W. 414",
+     "4 Willson 306"
+    ],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "1891-01-22",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/texas/cases/15-s-w-414/hein-v-oconner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hein v. O'Conner, 15 S.W. 414 (Tex. App. 1891)",
+    "link_md": "[Hein v. O'Conner, 15 S.W. 414 (Tex. App. 1891)](https://syfert.com/texas/cases/15-s-w-414/hein-v-oconner)",
+    "match_kind": "semantic",
+    "similarity": 0.655
+   },
+   {
+    "cluster_id": 7461114,
+    "case_name": "Dyott v. Letcher",
+    "citations": [
+     "29 Ky. 541",
+     "6 J.J. Marsh. 541",
+     "1831 Ky. LEXIS 247"
+    ],
+    "court": "Court of Appeals of Kentucky",
+    "date_filed": "1831-10-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/kentucky/cases/cl-7461114/dyott-v-letcher",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dyott v. Letcher, 29 Ky. 541 (Ky. Ct. App. 1831)",
+    "link_md": "[Dyott v. Letcher, 29 Ky. 541 (Ky. Ct. App. 1831)](https://syfert.com/kentucky/cases/cl-7461114/dyott-v-letcher)",
+    "match_kind": "semantic",
+    "similarity": 0.6504
+   },
+   {
+    "cluster_id": 8766340,
+    "case_name": "Forbes v. Merchants' Express & Transportation Co.",
+    "citations": [
+     "120 F. 1019",
+     "56 C.C.A. 681",
+     "1903 U.S. App. LEXIS 4569"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1903-03-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/120-f-1019/forbes-v-merchants-express-transportation-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Forbes v. Merchants' Express & Transp. Co., 120 F. 1019 (2d Cir. 1903)",
+    "link_md": "[Forbes v. Merchants' Express & Transp. Co., 120 F. 1019 (2d Cir. 1903)](https://syfert.com/federal/circuits/cases/120-f-1019/forbes-v-merchants-express-transportation-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6486
+   },
+   {
+    "cluster_id": 745663,
+    "case_name": "Larry D. Davis, Sr. v. Flagstar Companies",
+    "citations": [
+     "124 F.3d 203",
+     "1997 U.S. App. LEXIS 30833",
+     "1997 WL 374819"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1997-06-24",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/124-f-3d-203/larry-d-davis-sr-v-flagstar-companies",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Larry D. Davis, Sr. v. Flagstar Companies, 124 F.3d 203 (7th Cir. 1997)",
+    "link_md": "[Larry D. Davis, Sr. v. Flagstar Companies, 124 F.3d 203 (7th Cir. 1997)](https://syfert.com/federal/circuits/cases/124-f-3d-203/larry-d-davis-sr-v-flagstar-companies)",
+    "match_kind": "semantic",
+    "similarity": 0.6449
+   },
+   {
+    "cluster_id": 8332005,
+    "case_name": "Neas v. Borches",
+    "citations": [
+     "71 S.W. 50",
+     "109 Tenn. 398"
+    ],
+    "court": "Tennessee Supreme Court",
+    "date_filed": "1902-09-15",
+    "status": "Published",
+    "cited_by": 31,
+    "url": "https://syfert.com/tennessee/cases/109-tenn-398/neas-v-borches",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "71 S.W. 50",
+      "recovered_from_citing_opinions": 5,
+      "source": "harvester_v2_xeric",
+      "confidence": 1,
+      "note": "Recovered parallel cite: 13 citing opinions confirm this cite (confidence 1.00)"
+     }
+    ],
+    "bluebook": "Neas v. Borches, 71 S.W. 50 (Tenn. 1902)",
+    "link_md": "[Neas v. Borches, 71 S.W. 50 (Tenn. 1902)](https://syfert.com/tennessee/cases/109-tenn-398/neas-v-borches)",
+    "match_kind": "semantic",
+    "similarity": 0.6447
+   },
+   {
+    "cluster_id": 8058877,
+    "case_name": "Milliken v. Thyson Commission Co.",
+    "citations": [
+     "100 S.W. 604",
+     "202 Mo. 637",
+     "1907 Mo. LEXIS 318"
+    ],
+    "court": "Supreme Court of Missouri",
+    "date_filed": "1907-03-28",
+    "status": "Published",
+    "cited_by": 18,
+    "url": "https://syfert.com/missouri/cases/202-mo-637/milliken-v-thyson-commission-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Milliken v. Thyson Comm'n Co., 100 S.W. 604 (Mo. 1907)",
+    "link_md": "[Milliken v. Thyson Comm'n Co., 100 S.W. 604 (Mo. 1907)](https://syfert.com/missouri/cases/202-mo-637/milliken-v-thyson-commission-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6435
+   },
+   {
+    "cluster_id": 7233247,
+    "case_name": "Hetterman v. Oil Well Supply Co.",
+    "citations": [
+     "214 S.W. 923",
+     "185 Ky. 290",
+     "1919 Ky. LEXIS 287"
+    ],
+    "court": "Court of Appeals of Kentucky",
+    "date_filed": "1919-10-07",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/kentucky/cases/185-ky-290/hetterman-v-oil-well-supply-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hetterman v. Oil Well Supply Co., 214 S.W. 923 (Ky. Ct. App. 1919)",
+    "link_md": "[Hetterman v. Oil Well Supply Co., 214 S.W. 923 (Ky. Ct. App. 1919)](https://syfert.com/kentucky/cases/185-ky-290/hetterman-v-oil-well-supply-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6423
+   },
+   {
+    "cluster_id": 6305664,
+    "case_name": "R.F. Cunningham & Co. v. Driscoll",
+    "citations": [
+     "7 Misc. 3d 234"
+    ],
+    "court": "City of New York Municipal Court",
+    "date_filed": "2005-02-09",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/7-misc-3d-234/rf-cunningham-co-v-driscoll",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "R.F. Cunningham & Co. v. Driscoll, 7 Misc. 3d 234 (N.Y. City Mun. Ct. 2005)",
+    "link_md": "[R.F. Cunningham & Co. v. Driscoll, 7 Misc. 3d 234 (N.Y. City Mun. Ct. 2005)](https://syfert.com/new-york/cases/7-misc-3d-234/rf-cunningham-co-v-driscoll)",
+    "match_kind": "semantic",
+    "similarity": 0.6398
+   },
+   {
+    "cluster_id": 7129341,
+    "case_name": "Wallace v. Morgan",
+    "citations": [
+     "23 Ind. 399"
+    ],
+    "court": "Indiana Supreme Court",
+    "date_filed": "1864-11-15",
+    "status": "Published",
+    "cited_by": 22,
+    "url": "https://syfert.com/indiana/cases/23-ind-399/wallace-v-morgan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wallace v. Morgan, 23 Ind. 399 (1864)",
+    "link_md": "[Wallace v. Morgan, 23 Ind. 399 (1864)](https://syfert.com/indiana/cases/23-ind-399/wallace-v-morgan)",
+    "match_kind": "semantic",
+    "similarity": 0.6377
+   },
+   {
+    "cluster_id": 8132343,
+    "case_name": "Merchants & Manufacturers Exchange v. United States",
+    "citations": [
+     "22 Cust. Ct. 296",
+     "1949 Cust. Ct. LEXIS 1547"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1949-04-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/22-cust-ct-296/merchants-manufacturers-exchange-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Merchants & Mfrs. Exch. v. United States, 22 Cust. Ct. 296 (Cust. Ct. 1949)",
+    "link_md": "[Merchants & Mfrs. Exch. v. United States, 22 Cust. Ct. 296 (Cust. Ct. 1949)](https://syfert.com/federal/specialty/cases/22-cust-ct-296/merchants-manufacturers-exchange-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6375
+   },
+   {
+    "cluster_id": 1992755,
+    "case_name": "Campbell v. Yokel",
+    "citations": [
+     "313 N.E.2d 628",
+     "20 Ill. App. 3d 702",
+     "15 U.C.C. Rep. Serv. (West) 15",
+     "1974 Ill. App. LEXIS 2495"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1974-06-28",
+    "status": "Published",
+    "cited_by": 28,
+    "url": "https://syfert.com/illinois/cases/20-ill-app-3d-702/campbell-v-yokel",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Campbell v. Yokel, 313 N.E.2d 628 (Ill. App. Ct. 5th Dist. 1974)",
+    "link_md": "[Campbell v. Yokel, 313 N.E.2d 628 (Ill. App. Ct. 5th Dist. 1974)](https://syfert.com/illinois/cases/20-ill-app-3d-702/campbell-v-yokel)",
+    "match_kind": "semantic",
+    "similarity": 0.6371
+   },
+   {
+    "cluster_id": 7132424,
+    "case_name": "Mooney v. Musser",
+    "citations": [
+     "45 Ind. 115"
+    ],
+    "court": "Indiana Supreme Court",
+    "date_filed": "1873-11-15",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/indiana/cases/45-ind-115/mooney-v-musser",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mooney v. Musser, 45 Ind. 115 (1873)",
+    "link_md": "[Mooney v. Musser, 45 Ind. 115 (1873)](https://syfert.com/indiana/cases/45-ind-115/mooney-v-musser)",
+    "match_kind": "semantic",
+    "similarity": 0.6367
+   },
+   {
+    "cluster_id": 6364172,
+    "case_name": "Jayne v. Mickey",
+    "citations": [
+     "55 Pa. 260",
+     "1867 Pa. LEXIS 177"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1867-05-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/55-pa-260/jayne-v-mickey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jayne v. Mickey, 55 Pa. 260 (1867)",
+    "link_md": "[Jayne v. Mickey, 55 Pa. 260 (1867)](https://syfert.com/pennsylvania/cases/55-pa-260/jayne-v-mickey)",
+    "match_kind": "semantic",
+    "similarity": 0.6364
+   },
+   {
+    "cluster_id": 1684352,
+    "case_name": "Nelson v. Union Equity Co-Operative Exchange",
+    "citations": [
+     "536 S.W.2d 635",
+     "19 U.C.C. Rep. Serv. (West) 1050",
+     "1976 Tex. App. LEXIS 2722"
+    ],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "1976-04-23",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/texas/cases/536-s-w-2d-635/nelson-v-union-equity-co-operative-exchange",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Nelson v. Union Equity Co-Operative Exch., 536 S.W.2d 635 (Tex. App. 1976)",
+    "link_md": "[Nelson v. Union Equity Co-Operative Exch., 536 S.W.2d 635 (Tex. App. 1976)](https://syfert.com/texas/cases/536-s-w-2d-635/nelson-v-union-equity-co-operative-exchange)",
+    "match_kind": "semantic",
+    "similarity": 0.6364
+   },
+   {
+    "cluster_id": 7224063,
+    "case_name": "J. M. Robinson, Norton & Co. v. Corsicana Cotton Factory",
+    "citations": [
+     "99 S.W. 305",
+     "124 Ky. 435",
+     "1907 Ky. LEXIS 199"
+    ],
+    "court": "Court of Appeals of Kentucky",
+    "date_filed": "1907-01-24",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/kentucky/cases/124-ky-435/j-m-robinson-norton-co-v-corsicana-cotton-factory",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "J. M. Robinson, Norton & Co. v. Corsicana Cotton Factory, 99 S.W. 305 (Ky. Ct. App. 1907)",
+    "link_md": "[J. M. Robinson, Norton & Co. v. Corsicana Cotton Factory, 99 S.W. 305 (Ky. Ct. App. 1907)](https://syfert.com/kentucky/cases/124-ky-435/j-m-robinson-norton-co-v-corsicana-cotton-factory)",
+    "match_kind": "semantic",
+    "similarity": 0.6363
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

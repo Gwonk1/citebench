@@ -1,0 +1,87 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Lagges w/15 \"64 A.2d 832\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Lagges w/15 \\\"64 A.2d 832\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4090352,\"bluebook\":\"Hunt v. Mestrezat, 65 A.2d 389 (Pa. 1949)\",\"url\":\"https://syfert.com/pennsylvania/cases/361-pa-415/hunt-et-vir-v-mestrezat\",\"date_filed\":\"1949-03-24\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...19 , 58 A. 2d 147 ;\\nLagges Estate,\\n361 Pa. 205 , 64 A. 2d 832 .\\nAppellants contend, however,, that because the\\nwife\\nof the heir made, the\\nbid\\nin her individual name and\\npaid the consideration,,\\n.the deed from the County Commissioners\\nto…\"},{\"cluster_id\":1932718,\"bluebook\":\"Collins v. Wilkinson, 76 A.2d 649 (Pa. 1950)\",\"url\":\"https://syfert.com/pennsylvania/cases/366-pa-108/collins-v-wilkinson\",\"date_filed\":\"1950-11-20\",\"cited_by\":16,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...19 , 58 A. 2d 147 ;\\nLagges Estate,\\n361 Pa. 205 , 64 A. 2d 832 .\\nThere remains but to be said the divorce did not destroy the estate by entireties under the law applicable to this case:\\nAlles v. Lyon,\\n216 Pa. 604 , 66 A. 81 (1907).…\"},{\"cluster_id\":2336068,\"bluebook\":\"Kikel v. Kikel, 93 A.2d 443 (Pa. 1953)\",\"url\":\"https://syfert.com/pennsylvania/cases/372-pa-200/kikel-v-kikel\",\"date_filed\":\"1953-01-05\",\"cited_by\":4,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...testator intended to create a fund out of both real and personal estate and to bequeath that fund as money:\\nLagges Estate,\\n361. Pa. 205, 208, 64 A. 2d 832 , and cases therein cited.\\nThe facts of the instant case are quite similar to…\"},{\"cluster_id\":6411085,\"bluebook\":\"Edwards Est., 79 A.2d 138 (Pa. Super. Ct. 1951)\",\"url\":\"https://syfert.com/pennsylvania/cases/168-pa-super-471/edwards-estate\",\"date_filed\":\"1951-03-12\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...465, 468 , 17 A. 2d 623 ; Lagges Estate, 361 Pa. 205, 208 , 64 A. 2d 832 ; Lamberton’s Estate, 40 Pa. Superior Ct. 548 . The question of conversion is to be determined from the intention of the testator as disclosed by the will itself.…\"},{\"cluster_id\":2447174,\"bluebook\":\"HC Schmieding Produce Co. v. Alfa Quality Produce, Inc., 597 F. Supp. 2d 313 (E.D.N.Y. 2009)\",\"url\":\"https://syfert.com/federal/district/cases/597-f-supp-2d-313/hc-schmieding-produce-co-inc-v-alfa-quality-produce-inc\",\"date_filed\":\"2009-01-15\",\"cited_by\":2,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...29 (citing\\nIn re Lagges’ Estate,\\n361 Pa. 205 , 64 A.2d 832 (1949), as holding that “[a] trustee may sell trust realty to a remainderman beneficiary and the latter may hold for himself and is under no duty to the other beneficiaries and…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Lagges w/15 \"64 A.2d 832\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4090352,
+    "bluebook": "Hunt v. Mestrezat, 65 A.2d 389 (Pa. 1949)",
+    "url": "https://syfert.com/pennsylvania/cases/361-pa-415/hunt-et-vir-v-mestrezat",
+    "date_filed": "1949-03-24",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...19 , 58 A. 2d 147 ;\nLagges Estate,\n361 Pa. 205 , 64 A. 2d 832 .\nAppellants contend, however,, that because the\nwife\nof the heir made, the\nbid\nin her individual name and\npaid the consideration,,\n.the deed from the County Commissioners\nto…"
+   },
+   {
+    "cluster_id": 1932718,
+    "bluebook": "Collins v. Wilkinson, 76 A.2d 649 (Pa. 1950)",
+    "url": "https://syfert.com/pennsylvania/cases/366-pa-108/collins-v-wilkinson",
+    "date_filed": "1950-11-20",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...19 , 58 A. 2d 147 ;\nLagges Estate,\n361 Pa. 205 , 64 A. 2d 832 .\nThere remains but to be said the divorce did not destroy the estate by entireties under the law applicable to this case:\nAlles v. Lyon,\n216 Pa. 604 , 66 A. 81 (1907).…"
+   },
+   {
+    "cluster_id": 2336068,
+    "bluebook": "Kikel v. Kikel, 93 A.2d 443 (Pa. 1953)",
+    "url": "https://syfert.com/pennsylvania/cases/372-pa-200/kikel-v-kikel",
+    "date_filed": "1953-01-05",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...testator intended to create a fund out of both real and personal estate and to bequeath that fund as money:\nLagges Estate,\n361. Pa. 205, 208, 64 A. 2d 832 , and cases therein cited.\nThe facts of the instant case are quite similar to…"
+   },
+   {
+    "cluster_id": 6411085,
+    "bluebook": "Edwards Est., 79 A.2d 138 (Pa. Super. Ct. 1951)",
+    "url": "https://syfert.com/pennsylvania/cases/168-pa-super-471/edwards-estate",
+    "date_filed": "1951-03-12",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...465, 468 , 17 A. 2d 623 ; Lagges Estate, 361 Pa. 205, 208 , 64 A. 2d 832 ; Lamberton’s Estate, 40 Pa. Superior Ct. 548 . The question of conversion is to be determined from the intention of the testator as disclosed by the will itself.…"
+   },
+   {
+    "cluster_id": 2447174,
+    "bluebook": "HC Schmieding Produce Co. v. Alfa Quality Produce, Inc., 597 F. Supp. 2d 313 (E.D.N.Y. 2009)",
+    "url": "https://syfert.com/federal/district/cases/597-f-supp-2d-313/hc-schmieding-produce-co-inc-v-alfa-quality-produce-inc",
+    "date_filed": "2009-01-15",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...29 (citing\nIn re Lagges’ Estate,\n361 Pa. 205 , 64 A.2d 832 (1949), as holding that “[a] trustee may sell trust realty to a remainderman beneficiary and the latter may hold for himself and is under no duty to the other beneficiaries and…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

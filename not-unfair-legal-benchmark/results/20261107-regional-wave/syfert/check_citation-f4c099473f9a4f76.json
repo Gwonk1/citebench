@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "858 P.2d 301",
+  "expected_case_name": "People v. Myers"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"858 P.2d 301\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1121502,\n            \"case_name\": \"People v. Myers\",\n            \"citations\": [\n                \"858 P.2d 301\"\n            ],\n            \"court\": \"California Supreme Court\",\n            \"date_filed\": \"1993-09-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 85,\n            \"url\": \"https://syfert.com/california/cases/5-cal-4th-1193/people-v-myers\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Myers, 858 P.2d 301 (Cal. 1993)\",\n            \"link_md\": \"[People v. Myers, 858 P.2d 301 (Cal. 1993)](https://syfert.com/california/cases/5-cal-4th-1193/people-v-myers)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 75,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Myers\",\n        \"actual\": \"People v. Myers\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "858 P.2d 301",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1121502,
+    "case_name": "People v. Myers",
+    "citations": [
+     "858 P.2d 301"
+    ],
+    "court": "California Supreme Court",
+    "date_filed": "1993-09-30",
+    "status": "Published",
+    "cited_by": 85,
+    "url": "https://syfert.com/california/cases/5-cal-4th-1193/people-v-myers",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Myers, 858 P.2d 301 (Cal. 1993)",
+    "link_md": "[People v. Myers, 858 P.2d 301 (Cal. 1993)](https://syfert.com/california/cases/5-cal-4th-1193/people-v-myers)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 75,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Myers",
+   "actual": "People v. Myers",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

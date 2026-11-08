@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "312 S.E.2d 319",
+  "expected_case_name": "Russo v. Manning"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"312 S.E.2d 319\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1337298,\n            \"case_name\": \"Russo v. Manning\",\n            \"citations\": [\n                \"312 S.E.2d 319\"\n            ],\n            \"court\": \"Supreme Court of Georgia\",\n            \"date_filed\": \"1984-02-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 64,\n            \"url\": \"https://syfert.com/georgia/cases/252-ga-155/russo-v-manning\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Russo v. Manning, 312 S.E.2d 319 (Ga. 1984)\",\n            \"link_md\": \"[Russo v. Manning, 312 S.E.2d 319 (Ga. 1984)](https://syfert.com/georgia/cases/252-ga-155/russo-v-manning)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 80,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"dismissed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Russo v. Manning\",\n        \"actual\": \"Russo v. Manning\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "312 S.E.2d 319",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1337298,
+    "case_name": "Russo v. Manning",
+    "citations": [
+     "312 S.E.2d 319"
+    ],
+    "court": "Supreme Court of Georgia",
+    "date_filed": "1984-02-16",
+    "status": "Published",
+    "cited_by": 64,
+    "url": "https://syfert.com/georgia/cases/252-ga-155/russo-v-manning",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Russo v. Manning, 312 S.E.2d 319 (Ga. 1984)",
+    "link_md": "[Russo v. Manning, 312 S.E.2d 319 (Ga. 1984)](https://syfert.com/georgia/cases/252-ga-155/russo-v-manning)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 80,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "dismissed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Russo v. Manning",
+   "actual": "Russo v. Manning",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Dunne w/15 \"15 N.W.2d 299\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Dunne w/15 \\\"15 N.W.2d 299\\\"\",\"total\":7,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1582801,\"bluebook\":\"State v. Williams, 62 N.W.2d 241 (Iowa 1954)\",\"url\":\"https://syfert.com/iowa/cases/245-iowa-401/state-v-williams\",\"date_filed\":\"1954-01-12\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Dunne, 234 Iowa 1185, 1191 , 15 N.W.2d 296 , 299, and citations therein other than the Hubbard and Lightfoot cases, supra.\\nIf it be true that the presence of 150 milligrams or other quantity of alcohol per 100 cubic centimeters of blood…\"},{\"cluster_id\":1253752,\"bluebook\":\"State v. Ganaway, 55 N.W.2d 325 (Iowa 1952)\",\"url\":\"https://syfert.com/iowa/cases/243-iowa-1316/state-v-ganaway\",\"date_filed\":\"1952-10-14\",\"cited_by\":13,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Dunne, supra, 234 Iowa 1185, 1188 , 15 N.W.2d 296 , 298, 299, and citations; State v. Stark, 236 Iowa 893 , 20 N.W.2d 11 , which is squarely in point. See also State v. Wilson, 235 Iowa 538, 543 , 17 N.W.2d 138, 141, 142 ; State v.…\"},{\"cluster_id\":2217648,\"bluebook\":\"State v. Stump, 119 N.W.2d 210 (Iowa 1963)\",\"url\":\"https://syfert.com/iowa/cases/254-iowa-1181/state-v-stump\",\"date_filed\":\"1963-01-15\",\"cited_by\":73,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Dunne, 234 Iowa 1185, 1191 , 15 N.W.2d 296 , 299, 300, we approved a similar instruction in these words:\\n“Instruction 11 told the jury that defendant claimed an alibi. In language which has been approved, the instruction states that…\",\"holding\":\"A defendant asserting an alibi defense must prove it by a preponderance of the evidence without relieving the prosecution of its burden to prove guilt beyond a reasonable doubt.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":3433105,\"bluebook\":\"State v. Wilson, 17 N.W.2d 138 (Iowa 1944)\",\"url\":\"https://syfert.com/iowa/cases/235-iowa-538/state-v-wilson\",\"date_filed\":\"1944-04-04\",\"cited_by\":20,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Dunne, 234 Iowa 1185, 1188 , 15 N. W. 2d 296 , 298, 299, and cases cited.\\nThe State also argues that Officer Nevins testified Glenn admitted in the presence of this defendant, who remained silent, that he struck Bolden with a club and…\"},{\"cluster_id\":2022014,\"bluebook\":\"State v. Haesemeyer, 79 N.W.2d 755 (Iowa 1956)\",\"url\":\"https://syfert.com/iowa/cases/248-iowa-154/state-v-haesemeyer\",\"date_filed\":\"1956-12-11\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Dunne, 234 Iowa 1185, 1188-1191 , 15 N.W.2d 296 , 298, 299; 88 C.J.S., Trial, section 280a; 53 Am. Jur., Trial, section 605. See also State v. Cotton, 240 Iowa 609, 639 , 33 N.W.2d 880, 896, 897 .\\nWe think, however, the State is not...\"},{\"cluster_id\":2019031,\"bluebook\":\"Mongar ex rel. Mongar v. Barnard, 82 N.W.2d 765 (Iowa 1957)\",\"url\":\"https://syfert.com/iowa/cases/248-iowa-899/mongar-ex-rel-mongar-v-barnard\",\"date_filed\":\"1957-05-07\",\"cited_by\":51,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Dunne, 234 Iowa 1185, 1191 , 15 N.W.2d 296 , 299, and citations; Usher v. Stafford, 227 Iowa 443, 447 , 288 N.W. 432 ; Ballain v. Brazelton, 221 Iowa 806, 807 , 266 N.W. 522 , and citations; 88 C. J. S., Trial, section 280a; 53 Am.…\",\"holding\":\"A motorist signaling an intent to turn left provides sufficient notice to following drivers that the vehicle may stop to yield to oncoming traffic.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":285909,\"bluebook\":\"Gale H. Johnson v. John E. Bennett, 414 F.2d 50 (8th Cir. 1969)\",\"url\":\"https://syfert.com/federal/circuits/cases/414-f-2d-50/gale-h-johnson-v-john-e-bennett-warden-iowa-state-penitentiary\",\"date_filed\":\"1969-07-17\",\"cited_by\":31,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Dunne, 234 Iowa 1185 , 15 N.W.2d 296 , 299-300 (1944); State v. Baker, 246 Iowa 215 , 66 N.W.2d 303, 310 (1954); and State v. Post, 255 Iowa 573 , 123 N.W.2d 11, 18 (1963), where we have the first reference to the 14th Amendment’s...\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Dunne w/15 \"15 N.W.2d 299\"",
+  "total": 7,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1582801,
+    "bluebook": "State v. Williams, 62 N.W.2d 241 (Iowa 1954)",
+    "url": "https://syfert.com/iowa/cases/245-iowa-401/state-v-williams",
+    "date_filed": "1954-01-12",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Dunne, 234 Iowa 1185, 1191 , 15 N.W.2d 296 , 299, and citations therein other than the Hubbard and Lightfoot cases, supra.\nIf it be true that the presence of 150 milligrams or other quantity of alcohol per 100 cubic centimeters of blood…"
+   },
+   {
+    "cluster_id": 1253752,
+    "bluebook": "State v. Ganaway, 55 N.W.2d 325 (Iowa 1952)",
+    "url": "https://syfert.com/iowa/cases/243-iowa-1316/state-v-ganaway",
+    "date_filed": "1952-10-14",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Dunne, supra, 234 Iowa 1185, 1188 , 15 N.W.2d 296 , 298, 299, and citations; State v. Stark, 236 Iowa 893 , 20 N.W.2d 11 , which is squarely in point. See also State v. Wilson, 235 Iowa 538, 543 , 17 N.W.2d 138, 141, 142 ; State v.…"
+   },
+   {
+    "cluster_id": 2217648,
+    "bluebook": "State v. Stump, 119 N.W.2d 210 (Iowa 1963)",
+    "url": "https://syfert.com/iowa/cases/254-iowa-1181/state-v-stump",
+    "date_filed": "1963-01-15",
+    "cited_by": 73,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Dunne, 234 Iowa 1185, 1191 , 15 N.W.2d 296 , 299, 300, we approved a similar instruction in these words:\n“Instruction 11 told the jury that defendant claimed an alibi. In language which has been approved, the instruction states that…",
+    "holding": "A defendant asserting an alibi defense must prove it by a preponderance of the evidence without relieving the prosecution of its burden to prove guilt beyond a reasonable doubt.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 3433105,
+    "bluebook": "State v. Wilson, 17 N.W.2d 138 (Iowa 1944)",
+    "url": "https://syfert.com/iowa/cases/235-iowa-538/state-v-wilson",
+    "date_filed": "1944-04-04",
+    "cited_by": 20,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Dunne, 234 Iowa 1185, 1188 , 15 N. W. 2d 296 , 298, 299, and cases cited.\nThe State also argues that Officer Nevins testified Glenn admitted in the presence of this defendant, who remained silent, that he struck Bolden with a club and…"
+   },
+   {
+    "cluster_id": 2022014,
+    "bluebook": "State v. Haesemeyer, 79 N.W.2d 755 (Iowa 1956)",
+    "url": "https://syfert.com/iowa/cases/248-iowa-154/state-v-haesemeyer",
+    "date_filed": "1956-12-11",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Dunne, 234 Iowa 1185, 1188-1191 , 15 N.W.2d 296 , 298, 299; 88 C.J.S., Trial, section 280a; 53 Am. Jur., Trial, section 605. See also State v. Cotton, 240 Iowa 609, 639 , 33 N.W.2d 880, 896, 897 .\nWe think, however, the State is not..."
+   },
+   {
+    "cluster_id": 2019031,
+    "bluebook": "Mongar ex rel. Mongar v. Barnard, 82 N.W.2d 765 (Iowa 1957)",
+    "url": "https://syfert.com/iowa/cases/248-iowa-899/mongar-ex-rel-mongar-v-barnard",
+    "date_filed": "1957-05-07",
+    "cited_by": 51,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Dunne, 234 Iowa 1185, 1191 , 15 N.W.2d 296 , 299, and citations; Usher v. Stafford, 227 Iowa 443, 447 , 288 N.W. 432 ; Ballain v. Brazelton, 221 Iowa 806, 807 , 266 N.W. 522 , and citations; 88 C. J. S., Trial, section 280a; 53 Am.…",
+    "holding": "A motorist signaling an intent to turn left provides sufficient notice to following drivers that the vehicle may stop to yield to oncoming traffic.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 285909,
+    "bluebook": "Gale H. Johnson v. John E. Bennett, 414 F.2d 50 (8th Cir. 1969)",
+    "url": "https://syfert.com/federal/circuits/cases/414-f-2d-50/gale-h-johnson-v-john-e-bennett-warden-iowa-state-penitentiary",
+    "date_filed": "1969-07-17",
+    "cited_by": 31,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Dunne, 234 Iowa 1185 , 15 N.W.2d 296 , 299-300 (1944); State v. Baker, 246 Iowa 215 , 66 N.W.2d 303, 310 (1954); and State v. Post, 255 Iowa 573 , 123 N.W.2d 11, 18 (1963), where we have the first reference to the 14th Amendment’s..."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "49 So. 2d 734",
+  "expected_case_name": "Consumers Veneer Co. v. Chestnut"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"49 So. 2d 734\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8038925,\n            \"case_name\": \"Consumers Veneer Co. v. Chestnut\",\n            \"citations\": [\n                \"49 So. 2d 734\"\n            ],\n            \"court\": \"Mississippi Supreme Court\",\n            \"date_filed\": \"1951-01-02\",\n            \"status\": \"Published\",\n            \"cited_by\": 5,\n            \"url\": \"https://syfert.com/mississippi/cases/210-miss-430/consumers-veneer-co-v-chestnut\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Consumers Veneer Co. v. Chestnut, 49 So. 2d 734 (Miss. 1951)\",\n            \"link_md\": \"[Consumers Veneer Co. v. Chestnut, 49 So. 2d 734 (Miss. 1951)](https://syfert.com/mississippi/cases/210-miss-430/consumers-veneer-co-v-chestnut)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Consumers Veneer Co. v. Chestnut\",\n        \"actual\": \"Consumers Veneer Co. v. Chestnut\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "49 So. 2d 734",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8038925,
+    "case_name": "Consumers Veneer Co. v. Chestnut",
+    "citations": [
+     "49 So. 2d 734"
+    ],
+    "court": "Mississippi Supreme Court",
+    "date_filed": "1951-01-02",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/mississippi/cases/210-miss-430/consumers-veneer-co-v-chestnut",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Consumers Veneer Co. v. Chestnut, 49 So. 2d 734 (Miss. 1951)",
+    "link_md": "[Consumers Veneer Co. v. Chestnut, 49 So. 2d 734 (Miss. 1951)](https://syfert.com/mississippi/cases/210-miss-430/consumers-veneer-co-v-chestnut)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Consumers Veneer Co. v. Chestnut",
+   "actual": "Consumers Veneer Co. v. Chestnut",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

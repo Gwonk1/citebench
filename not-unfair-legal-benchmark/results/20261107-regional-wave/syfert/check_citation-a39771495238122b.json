@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "189 N.E.2d 290",
+  "expected_case_name": "The PEOPLE v. Prochut"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"189 N.E.2d 290\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2055089,\n            \"case_name\": \"The PEOPLE v. Prochut\",\n            \"citations\": [\n                \"189 N.E.2d 290\"\n            ],\n            \"court\": \"Illinois Supreme Court\",\n            \"date_filed\": \"1963-03-22\",\n            \"status\": \"Published\",\n            \"cited_by\": 11,\n            \"url\": \"https://syfert.com/illinois/cases/27-ill-2d-298/the-people-v-prochut\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"PEOPLE v. Prochut, 189 N.E.2d 290 (Ill. 1963)\",\n            \"link_md\": \"[PEOPLE v. Prochut, 189 N.E.2d 290 (Ill. 1963)](https://syfert.com/illinois/cases/27-ill-2d-298/the-people-v-prochut)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"The PEOPLE v. Prochut\",\n        \"actual\": \"The PEOPLE v. Prochut\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "189 N.E.2d 290",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2055089,
+    "case_name": "The PEOPLE v. Prochut",
+    "citations": [
+     "189 N.E.2d 290"
+    ],
+    "court": "Illinois Supreme Court",
+    "date_filed": "1963-03-22",
+    "status": "Published",
+    "cited_by": 11,
+    "url": "https://syfert.com/illinois/cases/27-ill-2d-298/the-people-v-prochut",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "PEOPLE v. Prochut, 189 N.E.2d 290 (Ill. 1963)",
+    "link_md": "[PEOPLE v. Prochut, 189 N.E.2d 290 (Ill. 1963)](https://syfert.com/illinois/cases/27-ill-2d-298/the-people-v-prochut)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "The PEOPLE v. Prochut",
+   "actual": "The PEOPLE v. Prochut",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

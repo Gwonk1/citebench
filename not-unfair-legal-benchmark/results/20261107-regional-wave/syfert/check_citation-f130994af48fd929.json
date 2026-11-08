@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "130 A. 81",
+  "expected_case_name": "Dibiase v. Garnsey"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"130 A. 81\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3322310,\n            \"case_name\": \"Dibiase v. Garnsey\",\n            \"citations\": [\n                \"130 A. 81\"\n            ],\n            \"court\": \"Supreme Court of Connecticut\",\n            \"date_filed\": \"1925-07-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 25,\n            \"url\": \"https://syfert.com/connecticut/cases/103-conn-21/dibiase-v-garnsey\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Dibiase v. Garnsey, 130 A. 81 (Conn. 1925)\",\n            \"link_md\": \"[Dibiase v. Garnsey, 130 A. 81 (Conn. 1925)](https://syfert.com/connecticut/cases/103-conn-21/dibiase-v-garnsey)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 5,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Dibiase v. Garnsey\",\n        \"actual\": \"Dibiase v. Garnsey\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "130 A. 81",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3322310,
+    "case_name": "Dibiase v. Garnsey",
+    "citations": [
+     "130 A. 81"
+    ],
+    "court": "Supreme Court of Connecticut",
+    "date_filed": "1925-07-30",
+    "status": "Published",
+    "cited_by": 25,
+    "url": "https://syfert.com/connecticut/cases/103-conn-21/dibiase-v-garnsey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dibiase v. Garnsey, 130 A. 81 (Conn. 1925)",
+    "link_md": "[Dibiase v. Garnsey, 130 A. 81 (Conn. 1925)](https://syfert.com/connecticut/cases/103-conn-21/dibiase-v-garnsey)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 5,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Dibiase v. Garnsey",
+   "actual": "Dibiase v. Garnsey",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

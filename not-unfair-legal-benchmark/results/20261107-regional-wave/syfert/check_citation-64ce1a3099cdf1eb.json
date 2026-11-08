@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "219 S.E.2d 622",
+  "expected_case_name": "Early v. Orr"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"219 S.E.2d 622\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1234257,\n            \"case_name\": \"Early v. Orr\",\n            \"citations\": [\n                \"219 S.E.2d 622\"\n            ],\n            \"court\": \"Court of Appeals of Georgia\",\n            \"date_filed\": \"1975-09-29\",\n            \"status\": \"Published\",\n            \"cited_by\": 20,\n            \"url\": \"https://syfert.com/georgia/cases/135-ga-app-887/early-v-orr\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Early v. Orr, 219 S.E.2d 622 (Ga. Ct. App. 1975)\",\n            \"link_md\": \"[Early v. Orr, 219 S.E.2d 622 (Ga. Ct. App. 1975)](https://syfert.com/georgia/cases/135-ga-app-887/early-v-orr)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 11,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Early v. Orr\",\n        \"actual\": \"Early v. Orr\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "219 S.E.2d 622",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1234257,
+    "case_name": "Early v. Orr",
+    "citations": [
+     "219 S.E.2d 622"
+    ],
+    "court": "Court of Appeals of Georgia",
+    "date_filed": "1975-09-29",
+    "status": "Published",
+    "cited_by": 20,
+    "url": "https://syfert.com/georgia/cases/135-ga-app-887/early-v-orr",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Early v. Orr, 219 S.E.2d 622 (Ga. Ct. App. 1975)",
+    "link_md": "[Early v. Orr, 219 S.E.2d 622 (Ga. Ct. App. 1975)](https://syfert.com/georgia/cases/135-ga-app-887/early-v-orr)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 11,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Early v. Orr",
+   "actual": "Early v. Orr",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

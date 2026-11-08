@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "450 N.W.2d 16",
+  "expected_case_name": "People v. Reddish"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"450 N.W.2d 16\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2055063,\n            \"case_name\": \"People v. Reddish\",\n            \"citations\": [\n                \"450 N.W.2d 16\"\n            ],\n            \"court\": \"Michigan Court of Appeals\",\n            \"date_filed\": \"1989-08-10\",\n            \"status\": \"Published\",\n            \"cited_by\": 20,\n            \"url\": \"https://syfert.com/michigan/cases/181-mich-app-625/people-v-reddish\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Reddish, 450 N.W.2d 16 (Mich. Ct. App. 1989)\",\n            \"link_md\": \"[People v. Reddish, 450 N.W.2d 16 (Mich. Ct. App. 1989)](https://syfert.com/michigan/cases/181-mich-app-625/people-v-reddish)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 7,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Reddish\",\n        \"actual\": \"People v. Reddish\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "450 N.W.2d 16",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2055063,
+    "case_name": "People v. Reddish",
+    "citations": [
+     "450 N.W.2d 16"
+    ],
+    "court": "Michigan Court of Appeals",
+    "date_filed": "1989-08-10",
+    "status": "Published",
+    "cited_by": 20,
+    "url": "https://syfert.com/michigan/cases/181-mich-app-625/people-v-reddish",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Reddish, 450 N.W.2d 16 (Mich. Ct. App. 1989)",
+    "link_md": "[People v. Reddish, 450 N.W.2d 16 (Mich. Ct. App. 1989)](https://syfert.com/michigan/cases/181-mich-app-625/people-v-reddish)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 7,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Reddish",
+   "actual": "People v. Reddish",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

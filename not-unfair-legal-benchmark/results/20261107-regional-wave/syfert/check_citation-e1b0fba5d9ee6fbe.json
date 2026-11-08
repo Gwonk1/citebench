@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "22 S.W.2d 802",
+  "expected_case_name": "State v. Harris"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"22 S.W.2d 802\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3551893,\n            \"case_name\": \"State v. Harris\",\n            \"citations\": [\n                \"22 S.W.2d 802\"\n            ],\n            \"court\": \"Supreme Court of Missouri\",\n            \"date_filed\": \"1929-12-11\",\n            \"status\": \"Published\",\n            \"cited_by\": 10,\n            \"url\": \"https://syfert.com/missouri/cases/324-mo-223/state-v-harris\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Harris, 22 S.W.2d 802 (Mo. 1929)\",\n            \"link_md\": \"[State v. Harris, 22 S.W.2d 802 (Mo. 1929)](https://syfert.com/missouri/cases/324-mo-223/state-v-harris)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. Harris\",\n        \"actual\": \"State v. Harris\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "22 S.W.2d 802",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3551893,
+    "case_name": "State v. Harris",
+    "citations": [
+     "22 S.W.2d 802"
+    ],
+    "court": "Supreme Court of Missouri",
+    "date_filed": "1929-12-11",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/missouri/cases/324-mo-223/state-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Harris, 22 S.W.2d 802 (Mo. 1929)",
+    "link_md": "[State v. Harris, 22 S.W.2d 802 (Mo. 1929)](https://syfert.com/missouri/cases/324-mo-223/state-v-harris)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. Harris",
+   "actual": "State v. Harris",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "191 N.E. 56",
+  "expected_case_name": "Lewis v. Braun"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"191 N.E. 56\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3418592,\n            \"case_name\": \"Lewis v. Braun\",\n            \"citations\": [\n                \"191 N.E. 56\"\n            ],\n            \"court\": \"Illinois Supreme Court\",\n            \"date_filed\": \"1934-04-21\",\n            \"status\": \"Published\",\n            \"cited_by\": 27,\n            \"url\": \"https://syfert.com/illinois/cases/356-ill-467/lewis-v-braun\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Lewis v. Braun, 191 N.E. 56 (Ill. 1934)\",\n            \"link_md\": \"[Lewis v. Braun, 191 N.E. 56 (Ill. 1934)](https://syfert.com/illinois/cases/356-ill-467/lewis-v-braun)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 4,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Lewis v. Braun\",\n        \"actual\": \"Lewis v. Braun\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "191 N.E. 56",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3418592,
+    "case_name": "Lewis v. Braun",
+    "citations": [
+     "191 N.E. 56"
+    ],
+    "court": "Illinois Supreme Court",
+    "date_filed": "1934-04-21",
+    "status": "Published",
+    "cited_by": 27,
+    "url": "https://syfert.com/illinois/cases/356-ill-467/lewis-v-braun",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lewis v. Braun, 191 N.E. 56 (Ill. 1934)",
+    "link_md": "[Lewis v. Braun, 191 N.E. 56 (Ill. 1934)](https://syfert.com/illinois/cases/356-ill-467/lewis-v-braun)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 4,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Lewis v. Braun",
+   "actual": "Lewis v. Braun",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

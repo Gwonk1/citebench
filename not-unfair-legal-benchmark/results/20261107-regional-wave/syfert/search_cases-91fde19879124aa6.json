@@ -1,0 +1,82 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Barnes w/15 \"157 So. 2d 63\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Barnes w/15 \\\"157 So. 2d 63\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2545797,\"bluebook\":\"Short v. Wilson Meat House, LLC, 36 So. 3d 1247 (Miss. 2010)\",\"url\":\"https://syfert.com/mississippi/cases/36-so-3d-1247/short-v-wilson-meat-house-llc\",\"date_filed\":\"2010-06-17\",\"cited_by\":37,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...claimant has made conflicting statements), it is certainly within the discretion of the Commission to reject it. Barnes v. Buckeye Molding Co., 247 Miss. 614, 615-16 , 157 So.2d 63 , 63 (1963) (Coworkers testified that claimant had told…\"},{\"cluster_id\":1949482,\"bluebook\":\"Penrod Drilling Co. v. Etheridge, 487 So. 2d 1330 (Miss. 1986)\",\"url\":\"https://syfert.com/mississippi/cases/487-so-2d-1330/penrod-drilling-co-v-etheridge\",\"date_filed\":\"1986-05-07\",\"cited_by\":39,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See also Barnes v. Buckeye Molding Co., 247 Miss. 614 , 157 So.2d 63 (1963); Fowler, supra ; Hamilton Manufacturing Co., supra ; Cofer, supra ; Olen Burrage, supra .\\nBased on the rules of law above discussed and the facts of this case,…\"},{\"cluster_id\":7513624,\"bluebook\":\"Cofer v. Garan, Inc., 235 So. 2d 251 (Miss. 1970)\",\"url\":\"https://syfert.com/mississippi/cases/235-so-2d-251/cofer-v-garan-inc\",\"date_filed\":\"1970-05-04\",\"cited_by\":1,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...The facts in this case are somewhat similar to those in Barnes v. Buckeye Molding Co., 247 Miss. 614 , 157 So.2d 63 (1963) wherein we said:\\nThe sole inquiry was directed to the determination of the time and the manner in which she…\"},{\"cluster_id\":4752313,\"bluebook\":\"Angela Jones v. Mississippi Baptist Health Sys. Inc., 294 So. 3d 76 (Miss. 2020)\",\"url\":\"https://syfert.com/mississippi/cases/294-so-3d-76/angela-jones-v-mississippi-baptist-health-systems-inc-and-mississippi\",\"date_filed\":\"2020-05-07\",\"cited_by\":0,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...at 1253 (citing\\nBarnes v. Buckeye Molding Co., 247 Miss. 614 , 615–16, 157 So. 2d 63 , 63 (1963)).\\nBecause the Commission’s decision is supported by substantial evidence and is not clearly\\nerroneous, we are bound by that decision and…\"},{\"cluster_id\":865788,\"bluebook\":\"Wade Short v. Wilson Meat House, LLC, No. 2008-CT-01224-SCT (Miss. June 30, 2008)\",\"url\":\"https://syfert.com/mississippi/cases/cl-865788/wade-short-v-wilson-meat-house-llc\",\"date_filed\":\"2008-06-30\",\"cited_by\":0,\"snippet\":\"...claimant has made conflicting statements), it is\\ncertainly within the discretion of the Commission to reject it. Barnes v. Buckeye Molding\\nCo., 247 Miss. 614, 615-16 , 157 So. 2d 63 , 63 (1963) (Coworkers testified that claimant had\\n10…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Barnes w/15 \"157 So. 2d 63\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2545797,
+    "bluebook": "Short v. Wilson Meat House, LLC, 36 So. 3d 1247 (Miss. 2010)",
+    "url": "https://syfert.com/mississippi/cases/36-so-3d-1247/short-v-wilson-meat-house-llc",
+    "date_filed": "2010-06-17",
+    "cited_by": 37,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...claimant has made conflicting statements), it is certainly within the discretion of the Commission to reject it. Barnes v. Buckeye Molding Co., 247 Miss. 614, 615-16 , 157 So.2d 63 , 63 (1963) (Coworkers testified that claimant had told…"
+   },
+   {
+    "cluster_id": 1949482,
+    "bluebook": "Penrod Drilling Co. v. Etheridge, 487 So. 2d 1330 (Miss. 1986)",
+    "url": "https://syfert.com/mississippi/cases/487-so-2d-1330/penrod-drilling-co-v-etheridge",
+    "date_filed": "1986-05-07",
+    "cited_by": 39,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See also Barnes v. Buckeye Molding Co., 247 Miss. 614 , 157 So.2d 63 (1963); Fowler, supra ; Hamilton Manufacturing Co., supra ; Cofer, supra ; Olen Burrage, supra .\nBased on the rules of law above discussed and the facts of this case,…"
+   },
+   {
+    "cluster_id": 7513624,
+    "bluebook": "Cofer v. Garan, Inc., 235 So. 2d 251 (Miss. 1970)",
+    "url": "https://syfert.com/mississippi/cases/235-so-2d-251/cofer-v-garan-inc",
+    "date_filed": "1970-05-04",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The facts in this case are somewhat similar to those in Barnes v. Buckeye Molding Co., 247 Miss. 614 , 157 So.2d 63 (1963) wherein we said:\nThe sole inquiry was directed to the determination of the time and the manner in which she…"
+   },
+   {
+    "cluster_id": 4752313,
+    "bluebook": "Angela Jones v. Mississippi Baptist Health Sys. Inc., 294 So. 3d 76 (Miss. 2020)",
+    "url": "https://syfert.com/mississippi/cases/294-so-3d-76/angela-jones-v-mississippi-baptist-health-systems-inc-and-mississippi",
+    "date_filed": "2020-05-07",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...at 1253 (citing\nBarnes v. Buckeye Molding Co., 247 Miss. 614 , 615–16, 157 So. 2d 63 , 63 (1963)).\nBecause the Commission’s decision is supported by substantial evidence and is not clearly\nerroneous, we are bound by that decision and…"
+   },
+   {
+    "cluster_id": 865788,
+    "bluebook": "Wade Short v. Wilson Meat House, LLC, No. 2008-CT-01224-SCT (Miss. June 30, 2008)",
+    "url": "https://syfert.com/mississippi/cases/cl-865788/wade-short-v-wilson-meat-house-llc",
+    "date_filed": "2008-06-30",
+    "cited_by": 0,
+    "snippet": "...claimant has made conflicting statements), it is\ncertainly within the discretion of the Commission to reject it. Barnes v. Buckeye Molding\nCo., 247 Miss. 614, 615-16 , 157 So. 2d 63 , 63 (1963) (Coworkers testified that claimant had\n10…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

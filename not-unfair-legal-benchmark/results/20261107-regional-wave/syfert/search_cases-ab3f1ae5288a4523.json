@@ -1,0 +1,97 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Anderson w/15 \"295 N.W.2d 482\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Anderson w/15 \\\"295 N.W.2d 482\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1723971,\"bluebook\":\"People v. Vincent, 565 N.W.2d 629 (Mich. 1997)\",\"url\":\"https://syfert.com/michigan/cases/455-mich-110/people-v-vincent\",\"date_filed\":\"1997-07-15\",\"cited_by\":27,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...The determination of what the judge did, however, does not turn on how the judge characterizes his actions.\\\" Anderson, 409 Mich. at 486 , 295 N.W.2d 482 .\\nB\\nThe trial judge's comments were as follows:\\nWell my impression at this time is…\",\"holding\":\"Equivocal oral comments regarding the sufficiency of evidence do not constitute a directed verdict of acquittal absent a clear statement on the record or a signed order.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":1346481,\"bluebook\":\"People v. Nix, 556 N.W.2d 866 (Mich. 1996)\",\"url\":\"https://syfert.com/michigan/cases/453-mich-619/people-v-nix\",\"date_filed\":\"1996-12-30\",\"cited_by\":20,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...The judge \\\"`evaluated the Government's evidence and determined that it was legally insufficient to sustain a conviction'....\\\" Anderson, 409 Mich. at 486 , 295 N.W.2d 482 , quoting Martin Linen Supply, 430 U.S. at 572 , 97 S.Ct. at 1355…\",\"holding\":\"A trial court ruling constitutes an acquittal for double jeopardy purposes if it resolves some or all of the factual elements of the charged offense.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\",\"passage_origin\":{\"case_name\":\"United States v. Scott\",\"cluster_id\":109895,\"year\":1978,\"quoted_by_cases\":5}},{\"cluster_id\":2049709,\"bluebook\":\"Commonwealth v. Smalis, 480 A.2d 1046 (Pa. 1984)\",\"url\":\"https://syfert.com/pennsylvania/cases/331-pa-super-307/commonwealth-v-smalis\",\"date_filed\":\"1984-08-24\",\"cited_by\":30,\"treatment\":{\"flag\":\"red\",\"red\":0,\"yellow\":0},\"snippet\":\"...upon submitted facts not appeal-able where trial court held that alleged criminal conduct did not constitute crime); People v. Anderson, 409 Mich. 474 , 295 N.W.2d 482 (1980), cert. denied, 449 U.S. 1101 , 101 S.Ct. 896 , 66 L.Ed.2d 827…\",\"holding\":\"A mid-trial order sustaining a demurrer to the evidence on grounds of legal insufficiency constitutes an acquittal that bars the Commonwealth from appealing under the Double Jeopardy Clause.\",\"holding_ai_generated\":true,\"disposition\":\"judgment for defendant\",\"disposition_source\":\"headnote\"},{\"cluster_id\":1880693,\"bluebook\":\"People v. Sierb, 581 N.W.2d 219 (Mich. 1998)\",\"url\":\"https://syfert.com/michigan/cases/456-mich-519/people-v-sierb\",\"date_filed\":\"1998-03-17\",\"cited_by\":113,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":4},\"snippet\":\"...secures the defendant's interests in (1) the finality of judgments, and (2) protection against multiple prosecutions.\\\" People v. Anderson, 409 Mich. 474, 482-483 , 295 N.W.2d 482 (1980).\\nWhile this case certainly involves multiple…\",\"holding\":\"Constitutional due process guarantees do not create a right to preclude retrial following properly declared mistrials.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Anderson w/15 \"295 N.W.2d 482\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1723971,
+    "bluebook": "People v. Vincent, 565 N.W.2d 629 (Mich. 1997)",
+    "url": "https://syfert.com/michigan/cases/455-mich-110/people-v-vincent",
+    "date_filed": "1997-07-15",
+    "cited_by": 27,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The determination of what the judge did, however, does not turn on how the judge characterizes his actions.\" Anderson, 409 Mich. at 486 , 295 N.W.2d 482 .\nB\nThe trial judge's comments were as follows:\nWell my impression at this time is…",
+    "holding": "Equivocal oral comments regarding the sufficiency of evidence do not constitute a directed verdict of acquittal absent a clear statement on the record or a signed order.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1346481,
+    "bluebook": "People v. Nix, 556 N.W.2d 866 (Mich. 1996)",
+    "url": "https://syfert.com/michigan/cases/453-mich-619/people-v-nix",
+    "date_filed": "1996-12-30",
+    "cited_by": 20,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The judge \"`evaluated the Government's evidence and determined that it was legally insufficient to sustain a conviction'....\" Anderson, 409 Mich. at 486 , 295 N.W.2d 482 , quoting Martin Linen Supply, 430 U.S. at 572 , 97 S.Ct. at 1355…",
+    "holding": "A trial court ruling constitutes an acquittal for double jeopardy purposes if it resolves some or all of the factual elements of the charged offense.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote",
+    "passage_origin": {
+     "case_name": "United States v. Scott",
+     "cluster_id": 109895,
+     "year": 1978,
+     "quoted_by_cases": 5
+    }
+   },
+   {
+    "cluster_id": 2049709,
+    "bluebook": "Commonwealth v. Smalis, 480 A.2d 1046 (Pa. 1984)",
+    "url": "https://syfert.com/pennsylvania/cases/331-pa-super-307/commonwealth-v-smalis",
+    "date_filed": "1984-08-24",
+    "cited_by": 30,
+    "treatment": {
+     "flag": "red",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...upon submitted facts not appeal-able where trial court held that alleged criminal conduct did not constitute crime); People v. Anderson, 409 Mich. 474 , 295 N.W.2d 482 (1980), cert. denied, 449 U.S. 1101 , 101 S.Ct. 896 , 66 L.Ed.2d 827…",
+    "holding": "A mid-trial order sustaining a demurrer to the evidence on grounds of legal insufficiency constitutes an acquittal that bars the Commonwealth from appealing under the Double Jeopardy Clause.",
+    "holding_ai_generated": true,
+    "disposition": "judgment for defendant",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1880693,
+    "bluebook": "People v. Sierb, 581 N.W.2d 219 (Mich. 1998)",
+    "url": "https://syfert.com/michigan/cases/456-mich-519/people-v-sierb",
+    "date_filed": "1998-03-17",
+    "cited_by": 113,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 4
+    },
+    "snippet": "...secures the defendant's interests in (1) the finality of judgments, and (2) protection against multiple prosecutions.\" People v. Anderson, 409 Mich. 474, 482-483 , 295 N.W.2d 482 (1980).\nWhile this case certainly involves multiple…",
+    "holding": "Constitutional due process guarantees do not create a right to preclude retrial following properly declared mistrials.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

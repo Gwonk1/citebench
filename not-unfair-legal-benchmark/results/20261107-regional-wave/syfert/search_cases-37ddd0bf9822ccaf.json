@@ -1,0 +1,405 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Otis w/15 \"85 A.2d 876\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Otis w/15 \\\"85 A.2d 876\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":464764,\"case_name\":\"Otis v. Rust\",\"citations\":[\"783 F.2d 203\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1986-01-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/783-f-2d-203/otis-v-rust\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Otis v. Rust, 783 F.2d 203 (11th Cir. 1986)\",\"link_md\":\"[Otis v. Rust, 783 F.2d 203 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/783-f-2d-203/otis-v-rust)\",\"match_kind\":\"semantic\",\"similarity\":0.7271},{\"cluster_id\":8603866,\"case_name\":\"Otis v. United States\",\"citations\":[\"22 Ct. Cl. 483\"],\"court\":\"Court of Claims\",\"date_filed\":\"1887-01-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/22-ct-cl-483/otis-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Otis v. United States, 22 Ct. Cl. 483 (Ct. Cl. 1887)\",\"link_md\":\"[Otis v. United States, 22 Ct. Cl. 483 (Ct. Cl. 1887)](https://syfert.com/federal/specialty/cases/22-ct-cl-483/otis-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7269},{\"cluster_id\":535183,\"case_name\":\"McNeil (Otis) v. Lane (Michael P.)\",\"citations\":[\"893 F.2d 1337\",\"1989 U.S. App. LEXIS 19947\",\"1989 WL 159797\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1989-12-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/893-f-2d-1337/mcneil-otis-v-lane-michael-p\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McNeil (Otis) v. Lane (Michael P.), 893 F.2d 1337 (7th Cir. 1989)\",\"link_md\":\"[McNeil (Otis) v. Lane (Michael P.), 893 F.2d 1337 (7th Cir. 1989)](https://syfert.com/federal/circuits/cases/893-f-2d-1337/mcneil-otis-v-lane-michael-p)\",\"match_kind\":\"semantic\",\"similarity\":0.714},{\"cluster_id\":234789,\"case_name\":\"John Otis Spain, Jr. v. United States\",\"citations\":[\"215 F.2d 752\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1954-09-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/215-f-2d-752/john-otis-spain-jr-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"John Otis Spain, Jr. v. United States, 215 F.2d 752 (8th Cir. 1954)\",\"link_md\":\"[John Otis Spain, Jr. v. United States, 215 F.2d 752 (8th Cir. 1954)](https://syfert.com/federal/circuits/cases/215-f-2d-752/john-otis-spain-jr-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7139},{\"cluster_id\":495624,\"case_name\":\"Otto v. United States\",\"citations\":[\"831 F.2d 283\",\"1987 U.S. App. LEXIS 13414\"],\"court\":\"Second Circuit\",\"date_filed\":\"1987-08-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/831-f-2d-283/otto-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Otto v. United States, 831 F.2d 283 (2d Cir. 1987)\",\"link_md\":\"[Otto v. United States, 831 F.2d 283 (2d Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-283/otto-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7046},{\"cluster_id\":8618154,\"case_name\":\"Otis Elevator Co. v. United States\",\"citations\":[\"226 Ct. Cl. 719\",\"223 Ct. Cl. 24\"],\"court\":\"Court of Claims\",\"date_filed\":\"1980-12-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/226-ct-cl-719/otis-elevator-co-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Otis Elevator Co. v. United States, 226 Ct. Cl. 719 (Ct. Cl. 1980)\",\"link_md\":\"[Otis Elevator Co. v. United States, 226 Ct. Cl. 719 (Ct. Cl. 1980)](https://syfert.com/federal/specialty/cases/226-ct-cl-719/otis-elevator-co-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6998},{\"cluster_id\":394278,\"case_name\":\"Otis Elevator Co. v. International Union, United Automobile, Aerospace and Agricultural Implement Workers of America\",\"citations\":[\"659 F.2d 1061\",\"1981 U.S. App. LEXIS 13303\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-05-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/659-f-2d-1061/otis-elevator-co-v-international-union-united-automobile-aerospace-and\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Otis Elevator Co. v. Int'l Union, 659 F.2d 1061 (2d Cir. 1981)\",\"link_md\":\"[Otis Elevator Co. v. Int'l Union, 659 F.2d 1061 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/659-f-2d-1061/otis-elevator-co-v-international-union-united-automobile-aerospace-and)\",\"match_kind\":\"semantic\",\"similarity\":0.6979},{\"cluster_id\":6198216,\"case_name\":\"Esposito v. Otis Elevator Co.\",\"citations\":[\"277 A.D.2d 1029\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1950-11-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6198216/esposito-v-otis-elevator-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Esposito v. Otis Elevator Co., 277 A.D.2d 1029 (N.Y. App. Div. 1st Dep't 1950)\",\"link_md\":\"[Esposito v. Otis Elevator Co., 277 A.D.2d 1029 (N.Y. App. Div. 1st Dep't 1950)](https://syfert.com/new-york/cases/cl-6198216/esposito-v-otis-elevator-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6961},{\"cluster_id\":545350,\"case_name\":\"Stevens (Otis D.) v. Sullivan (Louis W.)\",\"citations\":[\"909 F.2d 509\",\"1990 U.S. App. LEXIS 15009\",\"1990 WL 95072\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1990-04-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/909-f-2d-509/stevens-otis-d-v-sullivan-louis-w\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stevens (Otis D.) v. Sullivan (Louis W.), 909 F.2d 509 (8th Cir. 1990)\",\"link_md\":\"[Stevens (Otis D.) v. Sullivan (Louis W.), 909 F.2d 509 (8th Cir. 1990)](https://syfert.com/federal/circuits/cases/909-f-2d-509/stevens-otis-d-v-sullivan-louis-w)\",\"match_kind\":\"semantic\",\"similarity\":0.6943},{\"cluster_id\":496018,\"case_name\":\"Bailey (Otis v. v. City Jail Medical\",\"citations\":[\"831 F.2d 300\",\"1987 U.S. App. LEXIS 13355\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1987-08-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/831-f-2d-300/bailey-otis-v-v-city-jail-medical\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bailey (Otis v. v. City Jail Med., 831 F.2d 300 (8th Cir. 1987)\",\"link_md\":\"[Bailey (Otis v. v. City Jail Med., 831 F.2d 300 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-300/bailey-otis-v-v-city-jail-medical)\",\"match_kind\":\"semantic\",\"similarity\":0.693},{\"cluster_id\":500282,\"case_name\":\"Lucious (Otis) v. Ragland (John, Dr.)\",\"citations\":[\"837 F.2d 480\",\"1987 U.S. App. LEXIS 17275\",\"1987 WL 32275\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1987-12-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/837-f-2d-480/lucious-otis-v-ragland-john-dr\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lucious (Otis) v. Ragland (John, Dr.), 837 F.2d 480 (8th Cir. 1987)\",\"link_md\":\"[Lucious (Otis) v. Ragland (John, Dr.), 837 F.2d 480 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/837-f-2d-480/lucious-otis-v-ragland-john-dr)\",\"match_kind\":\"semantic\",\"similarity\":0.692},{\"cluster_id\":5497549,\"case_name\":\"Flynn v. Otis\",\"citations\":[\"242 A.D. 880\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1934-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/242-a-d-880/flynn-v-otis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Flynn v. Otis, 242 A.D. 880 (N.Y. App. Div. 1934)\",\"link_md\":\"[Flynn v. Otis, 242 A.D. 880 (N.Y. App. Div. 1934)](https://syfert.com/new-york/cases/242-a-d-880/flynn-v-otis)\",\"match_kind\":\"semantic\",\"similarity\":0.6865},{\"cluster_id\":490854,\"case_name\":\"Owens (Joseph E.) v. United States\",\"citations\":[\"822 F.2d 1095\",\"1987 U.S. App. LEXIS 8520\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1987-06-19\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/822-f-2d-1095/owens-joseph-e-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Owens (Joseph E.) v. United States, 822 F.2d 1095 (8th Cir. 1987)\",\"link_md\":\"[Owens (Joseph E.) v. United States, 822 F.2d 1095 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/822-f-2d-1095/owens-joseph-e-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6862},{\"cluster_id\":505388,\"case_name\":\"Mosby v. Bowen (Otis R.)\",\"citations\":[\"845 F.2d 1028\",\"1988 U.S. App. LEXIS 5177\",\"1988 WL 32326\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1988-03-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/845-f-2d-1028/mosby-v-bowen-otis-r\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mosby v. Bowen (Otis R.), 845 F.2d 1028 (8th Cir. 1988)\",\"link_md\":\"[Mosby v. Bowen (Otis R.), 845 F.2d 1028 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/845-f-2d-1028/mosby-v-bowen-otis-r)\",\"match_kind\":\"semantic\",\"similarity\":0.6851},{\"cluster_id\":133921,\"case_name\":\"Otis Elevator Co. v. Mack\",\"citations\":[\"540 U.S. 1016\",\"124 S. Ct. 562\"],\"court\":\"Supreme Court\",\"date_filed\":\"2003-11-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/540-u-s-1016/otis-elevator-co-v-mack\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (133921 and its twins 9217192, 9217193). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Otis Elevator Co. v. Mack, 540 U.S. 1016 (2003)\",\"link_md\":\"[Otis Elevator Co. v. Mack, 540 U.S. 1016 (2003)](https://syfert.com/federal/scotus/cases/540-u-s-1016/otis-elevator-co-v-mack)\",\"match_kind\":\"semantic\",\"similarity\":0.6851},{\"cluster_id\":541497,\"case_name\":\"Douglas (Bob) v. Bowen (Otis)\",\"citations\":[\"902 F.2d 1571\",\"1990 WL 50241\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1990-01-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/902-f-2d-1571/douglas-bob-v-bowen-otis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Douglas (Bob) v. Bowen (Otis), 902 F.2d 1571 (8th Cir. 1990)\",\"link_md\":\"[Douglas (Bob) v. Bowen (Otis), 902 F.2d 1571 (8th Cir. 1990)](https://syfert.com/federal/circuits/cases/902-f-2d-1571/douglas-bob-v-bowen-otis)\",\"match_kind\":\"semantic\",\"similarity\":0.6831},{\"cluster_id\":6079735,\"case_name\":\"Cooper v. Otis Elevator Co.\",\"citations\":[\"178 A.D.2d 575\",\"577 N.Y.S.2d 473\",\"1991 N.Y. App. Div. LEXIS 16757\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1991-12-23\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/178-a-d-2d-575/cooper-v-otis-elevator-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cooper v. Otis Elevator Co., 178 A.D.2d 575 (N.Y. App. Div. 2d Dep't 1991)\",\"link_md\":\"[Cooper v. Otis Elevator Co., 178 A.D.2d 575 (N.Y. App. Div. 2d Dep't 1991)](https://syfert.com/new-york/cases/178-a-d-2d-575/cooper-v-otis-elevator-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6808},{\"cluster_id\":599816,\"case_name\":\"Smith (Otis L.) v. Delo (Paul K.)\",\"citations\":[\"985 F.2d 567\",\"1991 WL 440121\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1991-11-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/985-f-2d-567/smith-otis-l-v-delo-paul-k\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith (Otis L.) v. Delo (Paul K.), 985 F.2d 567 (8th Cir. 1991)\",\"link_md\":\"[Smith (Otis L.) v. Delo (Paul K.), 985 F.2d 567 (8th Cir. 1991)](https://syfert.com/federal/circuits/cases/985-f-2d-567/smith-otis-l-v-delo-paul-k)\",\"match_kind\":\"semantic\",\"similarity\":0.6799},{\"cluster_id\":465716,\"case_name\":\"Otis v. Sears, Roebuck and Co\",\"citations\":[\"785 F.2d 312\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1986-01-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/785-f-2d-312/otis-v-sears-roebuck-and-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Otis v. Sears, Roebuck & Co, 785 F.2d 312 (7th Cir. 1986)\",\"link_md\":\"[Otis v. Sears, Roebuck & Co, 785 F.2d 312 (7th Cir. 1986)](https://syfert.com/federal/circuits/cases/785-f-2d-312/otis-v-sears-roebuck-and-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6786},{\"cluster_id\":3632403,\"case_name\":\"Tibbitts v. . Otis\",\"citations\":[\"89 N.E. 1113\",\"195 N.Y. 597\",\"1909 N.Y. LEXIS 1208\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1909-06-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/195-n-y-597/tibbitts-v-otis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tibbitts v. Otis, 89 N.E. 1113 (N.Y. 1909)\",\"link_md\":\"[Tibbitts v. Otis, 89 N.E. 1113 (N.Y. 1909)](https://syfert.com/new-york/cases/195-n-y-597/tibbitts-v-otis)\",\"match_kind\":\"semantic\",\"similarity\":0.6786}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Otis w/15 \"85 A.2d 876\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 464764,
+    "case_name": "Otis v. Rust",
+    "citations": [
+     "783 F.2d 203"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1986-01-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/783-f-2d-203/otis-v-rust",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Otis v. Rust, 783 F.2d 203 (11th Cir. 1986)",
+    "link_md": "[Otis v. Rust, 783 F.2d 203 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/783-f-2d-203/otis-v-rust)",
+    "match_kind": "semantic",
+    "similarity": 0.7271
+   },
+   {
+    "cluster_id": 8603866,
+    "case_name": "Otis v. United States",
+    "citations": [
+     "22 Ct. Cl. 483"
+    ],
+    "court": "Court of Claims",
+    "date_filed": "1887-01-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/22-ct-cl-483/otis-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Otis v. United States, 22 Ct. Cl. 483 (Ct. Cl. 1887)",
+    "link_md": "[Otis v. United States, 22 Ct. Cl. 483 (Ct. Cl. 1887)](https://syfert.com/federal/specialty/cases/22-ct-cl-483/otis-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7269
+   },
+   {
+    "cluster_id": 535183,
+    "case_name": "McNeil (Otis) v. Lane (Michael P.)",
+    "citations": [
+     "893 F.2d 1337",
+     "1989 U.S. App. LEXIS 19947",
+     "1989 WL 159797"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1989-12-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/893-f-2d-1337/mcneil-otis-v-lane-michael-p",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McNeil (Otis) v. Lane (Michael P.), 893 F.2d 1337 (7th Cir. 1989)",
+    "link_md": "[McNeil (Otis) v. Lane (Michael P.), 893 F.2d 1337 (7th Cir. 1989)](https://syfert.com/federal/circuits/cases/893-f-2d-1337/mcneil-otis-v-lane-michael-p)",
+    "match_kind": "semantic",
+    "similarity": 0.714
+   },
+   {
+    "cluster_id": 234789,
+    "case_name": "John Otis Spain, Jr. v. United States",
+    "citations": [
+     "215 F.2d 752"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1954-09-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/215-f-2d-752/john-otis-spain-jr-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "John Otis Spain, Jr. v. United States, 215 F.2d 752 (8th Cir. 1954)",
+    "link_md": "[John Otis Spain, Jr. v. United States, 215 F.2d 752 (8th Cir. 1954)](https://syfert.com/federal/circuits/cases/215-f-2d-752/john-otis-spain-jr-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7139
+   },
+   {
+    "cluster_id": 495624,
+    "case_name": "Otto v. United States",
+    "citations": [
+     "831 F.2d 283",
+     "1987 U.S. App. LEXIS 13414"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1987-08-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/831-f-2d-283/otto-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Otto v. United States, 831 F.2d 283 (2d Cir. 1987)",
+    "link_md": "[Otto v. United States, 831 F.2d 283 (2d Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-283/otto-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7046
+   },
+   {
+    "cluster_id": 8618154,
+    "case_name": "Otis Elevator Co. v. United States",
+    "citations": [
+     "226 Ct. Cl. 719",
+     "223 Ct. Cl. 24"
+    ],
+    "court": "Court of Claims",
+    "date_filed": "1980-12-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/226-ct-cl-719/otis-elevator-co-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Otis Elevator Co. v. United States, 226 Ct. Cl. 719 (Ct. Cl. 1980)",
+    "link_md": "[Otis Elevator Co. v. United States, 226 Ct. Cl. 719 (Ct. Cl. 1980)](https://syfert.com/federal/specialty/cases/226-ct-cl-719/otis-elevator-co-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6998
+   },
+   {
+    "cluster_id": 394278,
+    "case_name": "Otis Elevator Co. v. International Union, United Automobile, Aerospace and Agricultural Implement Workers of America",
+    "citations": [
+     "659 F.2d 1061",
+     "1981 U.S. App. LEXIS 13303"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-05-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/659-f-2d-1061/otis-elevator-co-v-international-union-united-automobile-aerospace-and",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Otis Elevator Co. v. Int'l Union, 659 F.2d 1061 (2d Cir. 1981)",
+    "link_md": "[Otis Elevator Co. v. Int'l Union, 659 F.2d 1061 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/659-f-2d-1061/otis-elevator-co-v-international-union-united-automobile-aerospace-and)",
+    "match_kind": "semantic",
+    "similarity": 0.6979
+   },
+   {
+    "cluster_id": 6198216,
+    "case_name": "Esposito v. Otis Elevator Co.",
+    "citations": [
+     "277 A.D.2d 1029"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1950-11-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6198216/esposito-v-otis-elevator-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Esposito v. Otis Elevator Co., 277 A.D.2d 1029 (N.Y. App. Div. 1st Dep't 1950)",
+    "link_md": "[Esposito v. Otis Elevator Co., 277 A.D.2d 1029 (N.Y. App. Div. 1st Dep't 1950)](https://syfert.com/new-york/cases/cl-6198216/esposito-v-otis-elevator-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6961
+   },
+   {
+    "cluster_id": 545350,
+    "case_name": "Stevens (Otis D.) v. Sullivan (Louis W.)",
+    "citations": [
+     "909 F.2d 509",
+     "1990 U.S. App. LEXIS 15009",
+     "1990 WL 95072"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1990-04-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/909-f-2d-509/stevens-otis-d-v-sullivan-louis-w",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stevens (Otis D.) v. Sullivan (Louis W.), 909 F.2d 509 (8th Cir. 1990)",
+    "link_md": "[Stevens (Otis D.) v. Sullivan (Louis W.), 909 F.2d 509 (8th Cir. 1990)](https://syfert.com/federal/circuits/cases/909-f-2d-509/stevens-otis-d-v-sullivan-louis-w)",
+    "match_kind": "semantic",
+    "similarity": 0.6943
+   },
+   {
+    "cluster_id": 496018,
+    "case_name": "Bailey (Otis v. v. City Jail Medical",
+    "citations": [
+     "831 F.2d 300",
+     "1987 U.S. App. LEXIS 13355"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1987-08-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/831-f-2d-300/bailey-otis-v-v-city-jail-medical",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bailey (Otis v. v. City Jail Med., 831 F.2d 300 (8th Cir. 1987)",
+    "link_md": "[Bailey (Otis v. v. City Jail Med., 831 F.2d 300 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-300/bailey-otis-v-v-city-jail-medical)",
+    "match_kind": "semantic",
+    "similarity": 0.693
+   },
+   {
+    "cluster_id": 500282,
+    "case_name": "Lucious (Otis) v. Ragland (John, Dr.)",
+    "citations": [
+     "837 F.2d 480",
+     "1987 U.S. App. LEXIS 17275",
+     "1987 WL 32275"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1987-12-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/837-f-2d-480/lucious-otis-v-ragland-john-dr",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lucious (Otis) v. Ragland (John, Dr.), 837 F.2d 480 (8th Cir. 1987)",
+    "link_md": "[Lucious (Otis) v. Ragland (John, Dr.), 837 F.2d 480 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/837-f-2d-480/lucious-otis-v-ragland-john-dr)",
+    "match_kind": "semantic",
+    "similarity": 0.692
+   },
+   {
+    "cluster_id": 5497549,
+    "case_name": "Flynn v. Otis",
+    "citations": [
+     "242 A.D. 880"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1934-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/242-a-d-880/flynn-v-otis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Flynn v. Otis, 242 A.D. 880 (N.Y. App. Div. 1934)",
+    "link_md": "[Flynn v. Otis, 242 A.D. 880 (N.Y. App. Div. 1934)](https://syfert.com/new-york/cases/242-a-d-880/flynn-v-otis)",
+    "match_kind": "semantic",
+    "similarity": 0.6865
+   },
+   {
+    "cluster_id": 490854,
+    "case_name": "Owens (Joseph E.) v. United States",
+    "citations": [
+     "822 F.2d 1095",
+     "1987 U.S. App. LEXIS 8520"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1987-06-19",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/822-f-2d-1095/owens-joseph-e-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Owens (Joseph E.) v. United States, 822 F.2d 1095 (8th Cir. 1987)",
+    "link_md": "[Owens (Joseph E.) v. United States, 822 F.2d 1095 (8th Cir. 1987)](https://syfert.com/federal/circuits/cases/822-f-2d-1095/owens-joseph-e-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6862
+   },
+   {
+    "cluster_id": 505388,
+    "case_name": "Mosby v. Bowen (Otis R.)",
+    "citations": [
+     "845 F.2d 1028",
+     "1988 U.S. App. LEXIS 5177",
+     "1988 WL 32326"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1988-03-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/845-f-2d-1028/mosby-v-bowen-otis-r",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mosby v. Bowen (Otis R.), 845 F.2d 1028 (8th Cir. 1988)",
+    "link_md": "[Mosby v. Bowen (Otis R.), 845 F.2d 1028 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/845-f-2d-1028/mosby-v-bowen-otis-r)",
+    "match_kind": "semantic",
+    "similarity": 0.6851
+   },
+   {
+    "cluster_id": 133921,
+    "case_name": "Otis Elevator Co. v. Mack",
+    "citations": [
+     "540 U.S. 1016",
+     "124 S. Ct. 562"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2003-11-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/540-u-s-1016/otis-elevator-co-v-mack",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (133921 and its twins 9217192, 9217193). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Otis Elevator Co. v. Mack, 540 U.S. 1016 (2003)",
+    "link_md": "[Otis Elevator Co. v. Mack, 540 U.S. 1016 (2003)](https://syfert.com/federal/scotus/cases/540-u-s-1016/otis-elevator-co-v-mack)",
+    "match_kind": "semantic",
+    "similarity": 0.6851
+   },
+   {
+    "cluster_id": 541497,
+    "case_name": "Douglas (Bob) v. Bowen (Otis)",
+    "citations": [
+     "902 F.2d 1571",
+     "1990 WL 50241"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1990-01-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/902-f-2d-1571/douglas-bob-v-bowen-otis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Douglas (Bob) v. Bowen (Otis), 902 F.2d 1571 (8th Cir. 1990)",
+    "link_md": "[Douglas (Bob) v. Bowen (Otis), 902 F.2d 1571 (8th Cir. 1990)](https://syfert.com/federal/circuits/cases/902-f-2d-1571/douglas-bob-v-bowen-otis)",
+    "match_kind": "semantic",
+    "similarity": 0.6831
+   },
+   {
+    "cluster_id": 6079735,
+    "case_name": "Cooper v. Otis Elevator Co.",
+    "citations": [
+     "178 A.D.2d 575",
+     "577 N.Y.S.2d 473",
+     "1991 N.Y. App. Div. LEXIS 16757"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1991-12-23",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/178-a-d-2d-575/cooper-v-otis-elevator-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cooper v. Otis Elevator Co., 178 A.D.2d 575 (N.Y. App. Div. 2d Dep't 1991)",
+    "link_md": "[Cooper v. Otis Elevator Co., 178 A.D.2d 575 (N.Y. App. Div. 2d Dep't 1991)](https://syfert.com/new-york/cases/178-a-d-2d-575/cooper-v-otis-elevator-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6808
+   },
+   {
+    "cluster_id": 599816,
+    "case_name": "Smith (Otis L.) v. Delo (Paul K.)",
+    "citations": [
+     "985 F.2d 567",
+     "1991 WL 440121"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1991-11-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/985-f-2d-567/smith-otis-l-v-delo-paul-k",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith (Otis L.) v. Delo (Paul K.), 985 F.2d 567 (8th Cir. 1991)",
+    "link_md": "[Smith (Otis L.) v. Delo (Paul K.), 985 F.2d 567 (8th Cir. 1991)](https://syfert.com/federal/circuits/cases/985-f-2d-567/smith-otis-l-v-delo-paul-k)",
+    "match_kind": "semantic",
+    "similarity": 0.6799
+   },
+   {
+    "cluster_id": 465716,
+    "case_name": "Otis v. Sears, Roebuck and Co",
+    "citations": [
+     "785 F.2d 312"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1986-01-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/785-f-2d-312/otis-v-sears-roebuck-and-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Otis v. Sears, Roebuck & Co, 785 F.2d 312 (7th Cir. 1986)",
+    "link_md": "[Otis v. Sears, Roebuck & Co, 785 F.2d 312 (7th Cir. 1986)](https://syfert.com/federal/circuits/cases/785-f-2d-312/otis-v-sears-roebuck-and-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6786
+   },
+   {
+    "cluster_id": 3632403,
+    "case_name": "Tibbitts v. . Otis",
+    "citations": [
+     "89 N.E. 1113",
+     "195 N.Y. 597",
+     "1909 N.Y. LEXIS 1208"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1909-06-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/195-n-y-597/tibbitts-v-otis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tibbitts v. Otis, 89 N.E. 1113 (N.Y. 1909)",
+    "link_md": "[Tibbitts v. Otis, 89 N.E. 1113 (N.Y. 1909)](https://syfert.com/new-york/cases/195-n-y-597/tibbitts-v-otis)",
+    "match_kind": "semantic",
+    "similarity": 0.6786
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

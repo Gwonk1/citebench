@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "150 S.E. 316",
+  "expected_case_name": "Columbia Nat. Bank v. Rizer"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"150 S.E. 316\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4124042,\n            \"case_name\": \"Columbia Nat. Bank v. Rizer\",\n            \"citations\": [\n                \"150 S.E. 316\"\n            ],\n            \"court\": \"Supreme Court of South Carolina\",\n            \"date_filed\": \"1929-11-07\",\n            \"status\": \"Published\",\n            \"cited_by\": 4,\n            \"url\": \"https://syfert.com/south-carolina/cases/153-s-c-43/columbia-nat-bank-v-rizer\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Columbia Nat. Bank v. Rizer, 150 S.E. 316 (S.C. 1929)\",\n            \"link_md\": \"[Columbia Nat. Bank v. Rizer, 150 S.E. 316 (S.C. 1929)](https://syfert.com/south-carolina/cases/153-s-c-43/columbia-nat-bank-v-rizer)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Columbia Nat. Bank v. Rizer\",\n        \"actual\": \"Columbia Nat. Bank v. Rizer\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "150 S.E. 316",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4124042,
+    "case_name": "Columbia Nat. Bank v. Rizer",
+    "citations": [
+     "150 S.E. 316"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1929-11-07",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/south-carolina/cases/153-s-c-43/columbia-nat-bank-v-rizer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Columbia Nat. Bank v. Rizer, 150 S.E. 316 (S.C. 1929)",
+    "link_md": "[Columbia Nat. Bank v. Rizer, 150 S.E. 316 (S.C. 1929)](https://syfert.com/south-carolina/cases/153-s-c-43/columbia-nat-bank-v-rizer)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Columbia Nat. Bank v. Rizer",
+   "actual": "Columbia Nat. Bank v. Rizer",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

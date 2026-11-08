@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "128 S.E.2d 520",
+  "expected_case_name": "State Highway Department v. Thomas"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"128 S.E.2d 520\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1340223,\n            \"case_name\": \"State Highway Department v. Thomas\",\n            \"citations\": [\n                \"128 S.E.2d 520\"\n            ],\n            \"court\": \"Court of Appeals of Georgia\",\n            \"date_filed\": \"1962-10-26\",\n            \"status\": \"Published\",\n            \"cited_by\": 34,\n            \"url\": \"https://syfert.com/georgia/cases/106-ga-app-849/state-highway-department-v-thomas\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State High. Dep't v. Thomas, 128 S.E.2d 520 (Ga. Ct. App. 1962)\",\n            \"link_md\": \"[State High. Dep't v. Thomas, 128 S.E.2d 520 (Ga. Ct. App. 1962)](https://syfert.com/georgia/cases/106-ga-app-849/state-highway-department-v-thomas)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 18,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State Highway Department v. Thomas\",\n        \"actual\": \"State Highway Department v. Thomas\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "128 S.E.2d 520",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1340223,
+    "case_name": "State Highway Department v. Thomas",
+    "citations": [
+     "128 S.E.2d 520"
+    ],
+    "court": "Court of Appeals of Georgia",
+    "date_filed": "1962-10-26",
+    "status": "Published",
+    "cited_by": 34,
+    "url": "https://syfert.com/georgia/cases/106-ga-app-849/state-highway-department-v-thomas",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State High. Dep't v. Thomas, 128 S.E.2d 520 (Ga. Ct. App. 1962)",
+    "link_md": "[State High. Dep't v. Thomas, 128 S.E.2d 520 (Ga. Ct. App. 1962)](https://syfert.com/georgia/cases/106-ga-app-849/state-highway-department-v-thomas)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 18,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State Highway Department v. Thomas",
+   "actual": "State Highway Department v. Thomas",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

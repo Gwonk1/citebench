@@ -1,0 +1,64 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Schmutzler w/15 \"49 N.W.2d 649\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Schmutzler w/15 \\\"49 N.W.2d 649\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":897032,\"bluebook\":\"State ex rel. Clayburgh v. Am. West Cmty. Promotions, Inc., 2002 ND 98, 645 N.W.2d 196\",\"url\":\"https://syfert.com/north-dakota/cases/645-n-w-2d-196/state-ex-rel-clayburgh-v-american-west-community-promotions-inc\",\"date_filed\":\"2002-06-04\",\"cited_by\":18,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Schmutzler v. Workmen’s Comp. Bureau, 78 N.D. 377 , 49 N.W.2d 649 (1951). This Court stated:\\nFollowing the codification and the enactment of [the statute], and its reenactment ... the Workmen’s Compensation Bureau continued the…\"},{\"cluster_id\":6725852,\"bluebook\":\"Hutchinson v. Charles, 75 N.W.2d 313 (N.D. 1956)\",\"url\":\"https://syfert.com/north-dakota/cases/75-n-w-2d-313/hutchinson-v-charles\",\"date_filed\":\"1956-02-17\",\"cited_by\":1,\"snippet\":\"...6 of this section so as to leave the meaning of the language identical with its meaning in its present form.”\\nIn Schmutzler v. North Dakota Workmen’s Compensation Bureau, 78 N.D. 377 , 49 N.W.2d 649 , 651, after stating the general rule…\"},{\"cluster_id\":1247246,\"bluebook\":\"In re Johnson's Est., 75 N.W.2d 313 (N.D. 1956)\",\"url\":\"https://syfert.com/north-dakota/cases/75-n-w-2d-313/in-re-johnsons-estate\",\"date_filed\":\"1956-02-17\",\"cited_by\":0,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...6 of this section so as to leave the meaning of the language identical with its meaning in its present form.\\\"\\nIn Schmutzler v. North Dakota Workmen's Compensation Bureau, 78 N.D. 377 , 49 N.W.2d 649 , 651, after stating the general rule…\"},{\"cluster_id\":897037,\"bluebook\":\"Interest of T.J.R., 2002 ND 90\",\"url\":\"https://syfert.com/north-dakota/cases/cl-897037/interest-of-tjr\",\"date_filed\":\"2002-06-04\",\"cited_by\":0,\"snippet\":\"...2000 rev.).  The majority’s reliance upon the last sentence is misplaced.  North Dakota law does not acknowledge this exception.  \\nSee\\nSchmutzler v. Workmen’s Comp. Bureau\\n, 49 N.W.2d 649 (N.D. 1951);\\nPayne v. Bd. of Trustees of the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Schmutzler w/15 \"49 N.W.2d 649\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 897032,
+    "bluebook": "State ex rel. Clayburgh v. Am. West Cmty. Promotions, Inc., 2002 ND 98, 645 N.W.2d 196",
+    "url": "https://syfert.com/north-dakota/cases/645-n-w-2d-196/state-ex-rel-clayburgh-v-american-west-community-promotions-inc",
+    "date_filed": "2002-06-04",
+    "cited_by": 18,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Schmutzler v. Workmen’s Comp. Bureau, 78 N.D. 377 , 49 N.W.2d 649 (1951). This Court stated:\nFollowing the codification and the enactment of [the statute], and its reenactment ... the Workmen’s Compensation Bureau continued the…"
+   },
+   {
+    "cluster_id": 6725852,
+    "bluebook": "Hutchinson v. Charles, 75 N.W.2d 313 (N.D. 1956)",
+    "url": "https://syfert.com/north-dakota/cases/75-n-w-2d-313/hutchinson-v-charles",
+    "date_filed": "1956-02-17",
+    "cited_by": 1,
+    "snippet": "...6 of this section so as to leave the meaning of the language identical with its meaning in its present form.”\nIn Schmutzler v. North Dakota Workmen’s Compensation Bureau, 78 N.D. 377 , 49 N.W.2d 649 , 651, after stating the general rule…"
+   },
+   {
+    "cluster_id": 1247246,
+    "bluebook": "In re Johnson's Est., 75 N.W.2d 313 (N.D. 1956)",
+    "url": "https://syfert.com/north-dakota/cases/75-n-w-2d-313/in-re-johnsons-estate",
+    "date_filed": "1956-02-17",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...6 of this section so as to leave the meaning of the language identical with its meaning in its present form.\"\nIn Schmutzler v. North Dakota Workmen's Compensation Bureau, 78 N.D. 377 , 49 N.W.2d 649 , 651, after stating the general rule…"
+   },
+   {
+    "cluster_id": 897037,
+    "bluebook": "Interest of T.J.R., 2002 ND 90",
+    "url": "https://syfert.com/north-dakota/cases/cl-897037/interest-of-tjr",
+    "date_filed": "2002-06-04",
+    "cited_by": 0,
+    "snippet": "...2000 rev.).  The majority’s reliance upon the last sentence is misplaced.  North Dakota law does not acknowledge this exception.  \nSee\nSchmutzler v. Workmen’s Comp. Bureau\n, 49 N.W.2d 649 (N.D. 1951);\nPayne v. Bd. of Trustees of the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "250 S.W. 34",
+  "expected_case_name": "Miles v. Jerry"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"250 S.W. 34\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7867892,\n            \"case_name\": \"Miles v. Jerry\",\n            \"citations\": [\n                \"250 S.W. 34\"\n            ],\n            \"court\": \"Supreme Court of Arkansas\",\n            \"date_filed\": \"1923-04-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 22,\n            \"url\": \"https://syfert.com/arkansas/cases/250-s-w-34/miles-v-jerry\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Miles v. Jerry, 250 S.W. 34 (Ark. 1923)\",\n            \"link_md\": \"[Miles v. Jerry, 250 S.W. 34 (Ark. 1923)](https://syfert.com/arkansas/cases/250-s-w-34/miles-v-jerry)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Miles v. Jerry\",\n        \"actual\": \"Miles v. Jerry\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "250 S.W. 34",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7867892,
+    "case_name": "Miles v. Jerry",
+    "citations": [
+     "250 S.W. 34"
+    ],
+    "court": "Supreme Court of Arkansas",
+    "date_filed": "1923-04-16",
+    "status": "Published",
+    "cited_by": 22,
+    "url": "https://syfert.com/arkansas/cases/250-s-w-34/miles-v-jerry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Miles v. Jerry, 250 S.W. 34 (Ark. 1923)",
+    "link_md": "[Miles v. Jerry, 250 S.W. 34 (Ark. 1923)](https://syfert.com/arkansas/cases/250-s-w-34/miles-v-jerry)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Miles v. Jerry",
+   "actual": "Miles v. Jerry",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

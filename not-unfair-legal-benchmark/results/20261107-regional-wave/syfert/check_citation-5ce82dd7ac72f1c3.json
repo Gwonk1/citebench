@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "25 N.E. 353",
+  "expected_case_name": "Seaman v. . Koehler"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"25 N.E. 353\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3602119,\n            \"case_name\": \"Seaman v. . Koehler\",\n            \"citations\": [\n                \"25 N.E. 353\"\n            ],\n            \"court\": \"New York Court of Appeals\",\n            \"date_filed\": \"1890-10-31\",\n            \"status\": \"Published\",\n            \"cited_by\": 39,\n            \"url\": \"https://syfert.com/new-york/cases/122-n-y-646/seaman-v-koehler\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Seaman v. Koehler, 25 N.E. 353 (N.Y. 1890)\",\n            \"link_md\": \"[Seaman v. Koehler, 25 N.E. 353 (N.Y. 1890)](https://syfert.com/new-york/cases/122-n-y-646/seaman-v-koehler)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Seaman v. . Koehler\",\n        \"actual\": \"Seaman v. . Koehler\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "25 N.E. 353",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3602119,
+    "case_name": "Seaman v. . Koehler",
+    "citations": [
+     "25 N.E. 353"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1890-10-31",
+    "status": "Published",
+    "cited_by": 39,
+    "url": "https://syfert.com/new-york/cases/122-n-y-646/seaman-v-koehler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Seaman v. Koehler, 25 N.E. 353 (N.Y. 1890)",
+    "link_md": "[Seaman v. Koehler, 25 N.E. 353 (N.Y. 1890)](https://syfert.com/new-york/cases/122-n-y-646/seaman-v-koehler)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Seaman v. . Koehler",
+   "actual": "Seaman v. . Koehler",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

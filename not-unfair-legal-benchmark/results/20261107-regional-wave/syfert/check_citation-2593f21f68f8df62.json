@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "59 P. 827",
+  "expected_case_name": "Ruggles v. Cannedy"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"59 P. 827\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3306560,\n            \"case_name\": \"Ruggles v. Cannedy\",\n            \"citations\": [\n                \"59 P. 827\"\n            ],\n            \"court\": \"California Supreme Court\",\n            \"date_filed\": \"1899-12-23\",\n            \"status\": \"Published\",\n            \"cited_by\": 51,\n            \"url\": \"https://syfert.com/california/cases/127-cal-290/ruggles-v-cannedy\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Ruggles v. Cannedy, 59 P. 827 (Cal. 1899)\",\n            \"link_md\": \"[Ruggles v. Cannedy, 59 P. 827 (Cal. 1899)](https://syfert.com/california/cases/127-cal-290/ruggles-v-cannedy)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 7,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Ruggles v. Cannedy\",\n        \"actual\": \"Ruggles v. Cannedy\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "59 P. 827",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3306560,
+    "case_name": "Ruggles v. Cannedy",
+    "citations": [
+     "59 P. 827"
+    ],
+    "court": "California Supreme Court",
+    "date_filed": "1899-12-23",
+    "status": "Published",
+    "cited_by": 51,
+    "url": "https://syfert.com/california/cases/127-cal-290/ruggles-v-cannedy",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ruggles v. Cannedy, 59 P. 827 (Cal. 1899)",
+    "link_md": "[Ruggles v. Cannedy, 59 P. 827 (Cal. 1899)](https://syfert.com/california/cases/127-cal-290/ruggles-v-cannedy)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 7,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Ruggles v. Cannedy",
+   "actual": "Ruggles v. Cannedy",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

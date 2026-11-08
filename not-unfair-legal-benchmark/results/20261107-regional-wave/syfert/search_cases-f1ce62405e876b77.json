@@ -1,0 +1,36 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Consumers w/15 \"49 So. 2d 735\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Consumers w/15 \\\"49 So. 2d 735\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1107141,\"bluebook\":\"Washington v. Tem's Junior, Inc., 981 So. 2d 1047 (Miss. Ct. App. 2008)\",\"url\":\"https://syfert.com/mississippi/cases/981-so-2d-1047/washington-v-tems-junior-inc\",\"date_filed\":\"2008-04-29\",\"cited_by\":1,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (1107141 and its twin 7849498).\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...in the trial court that Sanders was a statutory employee, may not relitigate the point on appeal. Consumers Veneer Co. v. Chestnut, 210 Miss. 430, 433-34 , 49 So.2d 734 , 735 (1951). However, a careful review of Washington's argument on…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Consumers w/15 \"49 So. 2d 735\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1107141,
+    "bluebook": "Washington v. Tem's Junior, Inc., 981 So. 2d 1047 (Miss. Ct. App. 2008)",
+    "url": "https://syfert.com/mississippi/cases/981-so-2d-1047/washington-v-tems-junior-inc",
+    "date_filed": "2008-04-29",
+    "cited_by": 1,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (1107141 and its twin 7849498).",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...in the trial court that Sanders was a statutory employee, may not relitigate the point on appeal. Consumers Veneer Co. v. Chestnut, 210 Miss. 430, 433-34 , 49 So.2d 734 , 735 (1951). However, a careful review of Washington's argument on…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Barnes w/15 \"157 So. 2d 62\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Barnes w/15 \\\"157 So. 2d 62\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1568436,\"case_name\":\"Barnes v. State\",\"citations\":[\"10 So. 3d 638\",\"2009 WL 1766044\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-05-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/10-so-3d-638/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 10 So. 3d 638 (Fla. 2d DCA 2009)\",\"link_md\":\"[Barnes v. State, 10 So. 3d 638 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/10-so-3d-638/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7471},{\"cluster_id\":1090570,\"case_name\":\"Barnes v. State\",\"citations\":[\"965 So. 2d 1155\",\"2007 WL 3139400\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2007-10-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/965-so-2d-1155/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 965 So. 2d 1155 (Fla. 5th DCA 2007)\",\"link_md\":\"[Barnes v. State, 965 So. 2d 1155 (Fla. 5th DCA 2007)](https://syfert.com/florida/cases/965-so-2d-1155/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7468},{\"cluster_id\":1613887,\"case_name\":\"Barnes v. State\",\"citations\":[\"23 So. 3d 1183\",\"2009 WL 4893109\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-12-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/23-so-3d-1183/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 23 So. 3d 1183 (Fla. 1st DCA 2009)\",\"link_md\":\"[Barnes v. State, 23 So. 3d 1183 (Fla. 1st DCA 2009)](https://syfert.com/florida/cases/23-so-3d-1183/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7442},{\"cluster_id\":1559215,\"case_name\":\"Barnes v. State\",\"citations\":[\"20 So. 3d 857\",\"2009 WL 3278388\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-10-14\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/florida/cases/20-so-3d-857/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 20 So. 3d 857 (Fla. 3d DCA 2009)\",\"link_md\":\"[Barnes v. State, 20 So. 3d 857 (Fla. 3d DCA 2009)](https://syfert.com/florida/cases/20-so-3d-857/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7398},{\"cluster_id\":1612146,\"case_name\":\"Barnes v. State\",\"citations\":[\"11 So. 3d 945\",\"2009 WL 1714050\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-06-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/11-so-3d-945/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 11 So. 3d 945 (Fla. 2d DCA 2009)\",\"link_md\":\"[Barnes v. State, 11 So. 3d 945 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/11-so-3d-945/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7394},{\"cluster_id\":1646721,\"case_name\":\"Barnes v. State\",\"citations\":[\"9 So. 3d 623\",\"2009 WL 997569\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-04-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/9-so-3d-623/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 9 So. 3d 623 (Fla. 2d DCA 2009)\",\"link_md\":\"[Barnes v. State, 9 So. 3d 623 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/9-so-3d-623/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7394},{\"cluster_id\":2543970,\"case_name\":\"Barnes v. State\",\"citations\":[\"53 So. 3d 1023\",\"2011 WL 446915\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2011-02-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/53-so-3d-1023/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 53 So. 3d 1023 (Fla. 1st DCA 2011)\",\"link_md\":\"[Barnes v. State, 53 So. 3d 1023 (Fla. 1st DCA 2011)](https://syfert.com/florida/cases/53-so-3d-1023/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7392},{\"cluster_id\":758597,\"case_name\":\"Barnes v. United States\",\"citations\":[\"158 F.3d 587\",\"1998 U.S. App. LEXIS 24725\",\"1998 WL 637790\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1998-09-03\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/158-f-3d-587/barnes-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. United States, 158 F.3d 587 (11th Cir. 1998)\",\"link_md\":\"[Barnes v. United States, 158 F.3d 587 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/158-f-3d-587/barnes-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.739},{\"cluster_id\":1643392,\"case_name\":\"Barnes v. State\",\"citations\":[\"4 So. 3d 1238\",\"2009 WL 530840\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-03-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/4-so-3d-1238/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 4 So. 3d 1238 (Fla. 4th DCA 2009)\",\"link_md\":\"[Barnes v. State, 4 So. 3d 1238 (Fla. 4th DCA 2009)](https://syfert.com/florida/cases/4-so-3d-1238/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7348},{\"cluster_id\":2493494,\"case_name\":\"Barnes v. State\",\"citations\":[\"59 So. 3d 110\",\"2011 WL 1335033\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2011-04-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/59-so-3d-110/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 59 So. 3d 110 (Fla. 1st DCA 2011)\",\"link_md\":\"[Barnes v. State, 59 So. 3d 110 (Fla. 1st DCA 2011)](https://syfert.com/florida/cases/59-so-3d-110/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7338},{\"cluster_id\":1117804,\"case_name\":\"Barnes v. State\",\"citations\":[\"962 So. 2d 335\",\"2007 WL 2120031\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"2007-06-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/962-so-2d-335/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 962 So. 2d 335 (Fla. 2007)\",\"link_md\":\"[Barnes v. State, 962 So. 2d 335 (Fla. 2007)](https://syfert.com/florida/cases/962-so-2d-335/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7333},{\"cluster_id\":1945522,\"case_name\":\"Barnes v. State\",\"citations\":[\"948 So. 2d 758\",\"2007 WL 609766\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"2007-01-22\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/florida/cases/948-so-2d-758/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 948 So. 2d 758 (Fla. 2007)\",\"link_md\":\"[Barnes v. State, 948 So. 2d 758 (Fla. 2007)](https://syfert.com/florida/cases/948-so-2d-758/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7332},{\"cluster_id\":1641046,\"case_name\":\"Barnes v. State\",\"citations\":[\"6 So. 3d 620\",\"2009 WL 1218893\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-03-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/6-so-3d-620/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 6 So. 3d 620 (Fla. 5th DCA 2009)\",\"link_md\":\"[Barnes v. State, 6 So. 3d 620 (Fla. 5th DCA 2009)](https://syfert.com/florida/cases/6-so-3d-620/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7332},{\"cluster_id\":1616998,\"case_name\":\"Barnes v. State\",\"citations\":[\"38 So. 3d 771\",\"2010 WL 1980804\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2010-07-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/38-so-3d-771/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 38 So. 3d 771 (Fla. 1st DCA 2010)\",\"link_md\":\"[Barnes v. State, 38 So. 3d 771 (Fla. 1st DCA 2010)](https://syfert.com/florida/cases/38-so-3d-771/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.729},{\"cluster_id\":1785441,\"case_name\":\"Barnes v. State\",\"citations\":[\"979 So. 2d 218\",\"2008 WL 631506\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"2008-03-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/979-so-2d-218/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 979 So. 2d 218 (Fla. 2008)\",\"link_md\":\"[Barnes v. State, 979 So. 2d 218 (Fla. 2008)](https://syfert.com/florida/cases/979-so-2d-218/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7269},{\"cluster_id\":1853586,\"case_name\":\"Barnes v. State\",\"citations\":[\"980 So. 2d 502\",\"2008 WL 787280\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2008-03-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/980-so-2d-502/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 980 So. 2d 502 (Fla. 3d DCA 2008)\",\"link_md\":\"[Barnes v. State, 980 So. 2d 502 (Fla. 3d DCA 2008)](https://syfert.com/florida/cases/980-so-2d-502/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7269},{\"cluster_id\":1631309,\"case_name\":\"Barnes v. State\",\"citations\":[\"32 So. 3d 633\",\"2010 WL 1240683\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2010-03-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/32-so-3d-633/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 32 So. 3d 633 (Fla. 4th DCA 2010)\",\"link_md\":\"[Barnes v. State, 32 So. 3d 633 (Fla. 4th DCA 2010)](https://syfert.com/florida/cases/32-so-3d-633/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7243},{\"cluster_id\":1595036,\"case_name\":\"Barnes v. State\",\"citations\":[\"28 So. 3d 57\",\"2010 WL 1033770\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2010-02-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/28-so-3d-57/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 28 So. 3d 57 (Fla. 5th DCA 2010)\",\"link_md\":\"[Barnes v. State, 28 So. 3d 57 (Fla. 5th DCA 2010)](https://syfert.com/florida/cases/28-so-3d-57/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7235},{\"cluster_id\":2534897,\"case_name\":\"Barnes v. State\",\"citations\":[\"46 So. 3d 568\",\"2010 WL 3394686\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2010-10-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/46-so-3d-568/barnes-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barnes v. State, 46 So. 3d 568 (Fla. 1st DCA 2010)\",\"link_md\":\"[Barnes v. State, 46 So. 3d 568 (Fla. 1st DCA 2010)](https://syfert.com/florida/cases/46-so-3d-568/barnes-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7205},{\"cluster_id\":1572620,\"case_name\":\"State v. Barnes\",\"citations\":[\"2 So. 3d 982\",\"2009 WL 89676\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"2009-01-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/2-so-3d-982/state-v-barnes\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Barnes, 2 So. 3d 982 (Fla. 2009)\",\"link_md\":\"[State v. Barnes, 2 So. 3d 982 (Fla. 2009)](https://syfert.com/florida/cases/2-so-3d-982/state-v-barnes)\",\"match_kind\":\"semantic\",\"similarity\":0.7154}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Barnes w/15 \"157 So. 2d 62\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1568436,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "10 So. 3d 638",
+     "2009 WL 1766044"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-05-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/10-so-3d-638/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 10 So. 3d 638 (Fla. 2d DCA 2009)",
+    "link_md": "[Barnes v. State, 10 So. 3d 638 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/10-so-3d-638/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7471
+   },
+   {
+    "cluster_id": 1090570,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "965 So. 2d 1155",
+     "2007 WL 3139400"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2007-10-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/965-so-2d-1155/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 965 So. 2d 1155 (Fla. 5th DCA 2007)",
+    "link_md": "[Barnes v. State, 965 So. 2d 1155 (Fla. 5th DCA 2007)](https://syfert.com/florida/cases/965-so-2d-1155/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7468
+   },
+   {
+    "cluster_id": 1613887,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "23 So. 3d 1183",
+     "2009 WL 4893109"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-12-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/23-so-3d-1183/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 23 So. 3d 1183 (Fla. 1st DCA 2009)",
+    "link_md": "[Barnes v. State, 23 So. 3d 1183 (Fla. 1st DCA 2009)](https://syfert.com/florida/cases/23-so-3d-1183/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7442
+   },
+   {
+    "cluster_id": 1559215,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "20 So. 3d 857",
+     "2009 WL 3278388"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-10-14",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/florida/cases/20-so-3d-857/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 20 So. 3d 857 (Fla. 3d DCA 2009)",
+    "link_md": "[Barnes v. State, 20 So. 3d 857 (Fla. 3d DCA 2009)](https://syfert.com/florida/cases/20-so-3d-857/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7398
+   },
+   {
+    "cluster_id": 1612146,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "11 So. 3d 945",
+     "2009 WL 1714050"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-06-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/11-so-3d-945/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 11 So. 3d 945 (Fla. 2d DCA 2009)",
+    "link_md": "[Barnes v. State, 11 So. 3d 945 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/11-so-3d-945/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7394
+   },
+   {
+    "cluster_id": 1646721,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "9 So. 3d 623",
+     "2009 WL 997569"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/9-so-3d-623/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 9 So. 3d 623 (Fla. 2d DCA 2009)",
+    "link_md": "[Barnes v. State, 9 So. 3d 623 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/9-so-3d-623/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7394
+   },
+   {
+    "cluster_id": 2543970,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "53 So. 3d 1023",
+     "2011 WL 446915"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2011-02-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/53-so-3d-1023/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 53 So. 3d 1023 (Fla. 1st DCA 2011)",
+    "link_md": "[Barnes v. State, 53 So. 3d 1023 (Fla. 1st DCA 2011)](https://syfert.com/florida/cases/53-so-3d-1023/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7392
+   },
+   {
+    "cluster_id": 758597,
+    "case_name": "Barnes v. United States",
+    "citations": [
+     "158 F.3d 587",
+     "1998 U.S. App. LEXIS 24725",
+     "1998 WL 637790"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1998-09-03",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/158-f-3d-587/barnes-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. United States, 158 F.3d 587 (11th Cir. 1998)",
+    "link_md": "[Barnes v. United States, 158 F.3d 587 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/158-f-3d-587/barnes-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.739
+   },
+   {
+    "cluster_id": 1643392,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "4 So. 3d 1238",
+     "2009 WL 530840"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-03-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/4-so-3d-1238/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 4 So. 3d 1238 (Fla. 4th DCA 2009)",
+    "link_md": "[Barnes v. State, 4 So. 3d 1238 (Fla. 4th DCA 2009)](https://syfert.com/florida/cases/4-so-3d-1238/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7348
+   },
+   {
+    "cluster_id": 2493494,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "59 So. 3d 110",
+     "2011 WL 1335033"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2011-04-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/59-so-3d-110/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 59 So. 3d 110 (Fla. 1st DCA 2011)",
+    "link_md": "[Barnes v. State, 59 So. 3d 110 (Fla. 1st DCA 2011)](https://syfert.com/florida/cases/59-so-3d-110/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7338
+   },
+   {
+    "cluster_id": 1117804,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "962 So. 2d 335",
+     "2007 WL 2120031"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "2007-06-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/962-so-2d-335/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 962 So. 2d 335 (Fla. 2007)",
+    "link_md": "[Barnes v. State, 962 So. 2d 335 (Fla. 2007)](https://syfert.com/florida/cases/962-so-2d-335/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7333
+   },
+   {
+    "cluster_id": 1945522,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "948 So. 2d 758",
+     "2007 WL 609766"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "2007-01-22",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/florida/cases/948-so-2d-758/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 948 So. 2d 758 (Fla. 2007)",
+    "link_md": "[Barnes v. State, 948 So. 2d 758 (Fla. 2007)](https://syfert.com/florida/cases/948-so-2d-758/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7332
+   },
+   {
+    "cluster_id": 1641046,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "6 So. 3d 620",
+     "2009 WL 1218893"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-03-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/6-so-3d-620/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 6 So. 3d 620 (Fla. 5th DCA 2009)",
+    "link_md": "[Barnes v. State, 6 So. 3d 620 (Fla. 5th DCA 2009)](https://syfert.com/florida/cases/6-so-3d-620/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7332
+   },
+   {
+    "cluster_id": 1616998,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "38 So. 3d 771",
+     "2010 WL 1980804"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2010-07-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/38-so-3d-771/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 38 So. 3d 771 (Fla. 1st DCA 2010)",
+    "link_md": "[Barnes v. State, 38 So. 3d 771 (Fla. 1st DCA 2010)](https://syfert.com/florida/cases/38-so-3d-771/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.729
+   },
+   {
+    "cluster_id": 1785441,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "979 So. 2d 218",
+     "2008 WL 631506"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "2008-03-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/979-so-2d-218/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 979 So. 2d 218 (Fla. 2008)",
+    "link_md": "[Barnes v. State, 979 So. 2d 218 (Fla. 2008)](https://syfert.com/florida/cases/979-so-2d-218/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7269
+   },
+   {
+    "cluster_id": 1853586,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "980 So. 2d 502",
+     "2008 WL 787280"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2008-03-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/980-so-2d-502/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 980 So. 2d 502 (Fla. 3d DCA 2008)",
+    "link_md": "[Barnes v. State, 980 So. 2d 502 (Fla. 3d DCA 2008)](https://syfert.com/florida/cases/980-so-2d-502/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7269
+   },
+   {
+    "cluster_id": 1631309,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "32 So. 3d 633",
+     "2010 WL 1240683"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2010-03-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/32-so-3d-633/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 32 So. 3d 633 (Fla. 4th DCA 2010)",
+    "link_md": "[Barnes v. State, 32 So. 3d 633 (Fla. 4th DCA 2010)](https://syfert.com/florida/cases/32-so-3d-633/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7243
+   },
+   {
+    "cluster_id": 1595036,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "28 So. 3d 57",
+     "2010 WL 1033770"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2010-02-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/28-so-3d-57/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 28 So. 3d 57 (Fla. 5th DCA 2010)",
+    "link_md": "[Barnes v. State, 28 So. 3d 57 (Fla. 5th DCA 2010)](https://syfert.com/florida/cases/28-so-3d-57/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7235
+   },
+   {
+    "cluster_id": 2534897,
+    "case_name": "Barnes v. State",
+    "citations": [
+     "46 So. 3d 568",
+     "2010 WL 3394686"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2010-10-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/46-so-3d-568/barnes-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barnes v. State, 46 So. 3d 568 (Fla. 1st DCA 2010)",
+    "link_md": "[Barnes v. State, 46 So. 3d 568 (Fla. 1st DCA 2010)](https://syfert.com/florida/cases/46-so-3d-568/barnes-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7205
+   },
+   {
+    "cluster_id": 1572620,
+    "case_name": "State v. Barnes",
+    "citations": [
+     "2 So. 3d 982",
+     "2009 WL 89676"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "2009-01-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/2-so-3d-982/state-v-barnes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Barnes, 2 So. 3d 982 (Fla. 2009)",
+    "link_md": "[State v. Barnes, 2 So. 3d 982 (Fla. 2009)](https://syfert.com/florida/cases/2-so-3d-982/state-v-barnes)",
+    "match_kind": "semantic",
+    "similarity": 0.7154
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

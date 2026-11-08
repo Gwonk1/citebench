@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Weems w/15 \"84 So. 240\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Weems w/15 \\\"84 So. 240\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3543639,\"bluebook\":\"Myers v. Clark, 42 So. 2d 817 (Miss. 1949)\",\"url\":\"https://syfert.com/mississippi/cases/207-miss-627/myers-v-clark\",\"date_filed\":\"1949-11-14\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"McGehee, C. J.\\nThis appeal is from a vacation decree setting aside a former decree which had been rendered in vacation in the cause. The suit was brought by the appellant, Harvey Myers, to cancel as clouds upon his title to forty acres of…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Weems w/15 \"84 So. 240\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3543639,
+    "bluebook": "Myers v. Clark, 42 So. 2d 817 (Miss. 1949)",
+    "url": "https://syfert.com/mississippi/cases/207-miss-627/myers-v-clark",
+    "date_filed": "1949-11-14",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "McGehee, C. J.\nThis appeal is from a vacation decree setting aside a former decree which had been rendered in vacation in the cause. The suit was brought by the appellant, Harvey Myers, to cancel as clouds upon his title to forty acres of…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

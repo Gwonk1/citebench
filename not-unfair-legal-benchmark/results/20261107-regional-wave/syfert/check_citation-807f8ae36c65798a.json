@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "143 N.E. 226",
+  "expected_case_name": "Cox v. . Lykes Brothers"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"143 N.E. 226\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3638771,\n            \"case_name\": \"Cox v. . Lykes Brothers\",\n            \"citations\": [\n                \"143 N.E. 226\"\n            ],\n            \"court\": \"New York Court of Appeals\",\n            \"date_filed\": \"1924-02-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 67,\n            \"url\": \"https://syfert.com/new-york/cases/237-n-y-376/cox-v-lykes-brothers\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Cox v. Lykes Bros., 143 N.E. 226 (N.Y. 1924)\",\n            \"link_md\": \"[Cox v. Lykes Bros., 143 N.E. 226 (N.Y. 1924)](https://syfert.com/new-york/cases/237-n-y-376/cox-v-lykes-brothers)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 6,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Cox v. . Lykes Brothers\",\n        \"actual\": \"Cox v. . Lykes Brothers\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "143 N.E. 226",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3638771,
+    "case_name": "Cox v. . Lykes Brothers",
+    "citations": [
+     "143 N.E. 226"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1924-02-19",
+    "status": "Published",
+    "cited_by": 67,
+    "url": "https://syfert.com/new-york/cases/237-n-y-376/cox-v-lykes-brothers",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cox v. Lykes Bros., 143 N.E. 226 (N.Y. 1924)",
+    "link_md": "[Cox v. Lykes Bros., 143 N.E. 226 (N.Y. 1924)](https://syfert.com/new-york/cases/237-n-y-376/cox-v-lykes-brothers)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 6,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Cox v. . Lykes Brothers",
+   "actual": "Cox v. . Lykes Brothers",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

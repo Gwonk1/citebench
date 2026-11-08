@@ -1,0 +1,411 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Highway w/15 \"128 S.E.2d 533\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Highway w/15 \\\"128 S.E.2d 533\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4123699,\"case_name\":\"Gaston v. State Highway Department\",\"citations\":[\"132 S.E. 680\",\"134 S.C. 402\",\"1926 S.C. LEXIS 45\"],\"court\":\"Supreme Court of South Carolina\",\"date_filed\":\"1926-04-14\",\"status\":\"Published\",\"cited_by\":14,\"url\":\"https://syfert.com/south-carolina/cases/134-s-c-402/gaston-v-state-highway-department\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gaston v. State High. Dep't, 132 S.E. 680 (S.C. 1926)\",\"link_md\":\"[Gaston v. State High. Dep't, 132 S.E. 680 (S.C. 1926)](https://syfert.com/south-carolina/cases/134-s-c-402/gaston-v-state-highway-department)\",\"match_kind\":\"semantic\",\"similarity\":0.7506},{\"cluster_id\":8234702,\"case_name\":\"State ex rel. Young v. Maresch\",\"citations\":[\"273 N.W. 225\",\"225 Wis. 225\",\"1937 Wisc. LEXIS 203\"],\"court\":\"Wisconsin Supreme Court\",\"date_filed\":\"1937-06-17\",\"status\":\"Published\",\"cited_by\":17,\"url\":\"https://syfert.com/wisconsin/cases/225-wis-225/state-ex-rel-young-v-maresch\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Young v. Maresch, 273 N.W. 225 (Wis. 1937)\",\"link_md\":\"[State ex rel. Young v. Maresch, 273 N.W. 225 (Wis. 1937)](https://syfert.com/wisconsin/cases/225-wis-225/state-ex-rel-young-v-maresch)\",\"match_kind\":\"semantic\",\"similarity\":0.7346},{\"cluster_id\":5179578,\"case_name\":\"Heathman v. Singletary\",\"citations\":[\"12 S.W.2d 150\"],\"court\":\"Texas Commission of Appeals\",\"date_filed\":\"1929-01-02\",\"status\":\"Published\",\"cited_by\":28,\"url\":\"https://syfert.com/texas/cases/12-s-w-2d-150/heathman-v-singletary\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Heathman v. Singletary, 12 S.W.2d 150 (Tex. Comm'n App. 1929)\",\"link_md\":\"[Heathman v. Singletary, 12 S.W.2d 150 (Tex. Comm'n App. 1929)](https://syfert.com/texas/cases/12-s-w-2d-150/heathman-v-singletary)\",\"match_kind\":\"semantic\",\"similarity\":0.7262},{\"cluster_id\":4166617,\"case_name\":\"Nairn v. Bean\",\"citations\":[\"48 S.W.2d 584\",\"121 Tex. 355\",\"1932 Tex. LEXIS 125\"],\"court\":\"Texas Supreme Court\",\"date_filed\":\"1932-04-21\",\"status\":\"Published\",\"cited_by\":27,\"url\":\"https://syfert.com/texas/cases/121-tex-355/nairn-v-bean\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Nairn v. Bean, 48 S.W.2d 584 (Tex. 1932)\",\"link_md\":\"[Nairn v. Bean, 48 S.W.2d 584 (Tex. 1932)](https://syfert.com/texas/cases/121-tex-355/nairn-v-bean)\",\"match_kind\":\"semantic\",\"similarity\":0.7214},{\"cluster_id\":4119418,\"case_name\":\"Greene v. State Highway Department\",\"citations\":[\"158 S.E. 159\",\"160 S.C. 132\",\"1931 S.C. LEXIS 50\"],\"court\":\"Supreme Court of South Carolina\",\"date_filed\":\"1931-03-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/south-carolina/cases/160-s-c-132/greene-v-state-highway-department\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Greene v. State High. Dep't, 158 S.E. 159 (S.C. 1931)\",\"link_md\":\"[Greene v. State High. Dep't, 158 S.E. 159 (S.C. 1931)](https://syfert.com/south-carolina/cases/160-s-c-132/greene-v-state-highway-department)\",\"match_kind\":\"semantic\",\"similarity\":0.7168},{\"cluster_id\":1849531,\"case_name\":\"Harreld v. Mississippi State Highway Commission\",\"citations\":[\"103 So. 2d 852\",\"234 Miss. 1\",\"1958 Miss. LEXIS 455\"],\"court\":\"Mississippi Supreme Court\",\"date_filed\":\"1958-06-09\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/mississippi/cases/234-miss-1/harreld-v-mississippi-state-highway-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harreld v. Mississippi State High. Comm'n, 103 So. 2d 852 (Miss. 1958)\",\"link_md\":\"[Harreld v. Mississippi State High. Comm'n, 103 So. 2d 852 (Miss. 1958)](https://syfert.com/mississippi/cases/234-miss-1/harreld-v-mississippi-state-highway-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.7132},{\"cluster_id\":1144548,\"case_name\":\"Town of Clearmont v. State Highway Commission\",\"citations\":[\"357 P.2d 470\",\"1960 Wyo. LEXIS 81\"],\"court\":\"Wyoming Supreme Court\",\"date_filed\":\"1960-12-06\",\"status\":\"Published\",\"cited_by\":21,\"url\":\"https://syfert.com/wyoming/cases/357-p-2d-470/town-of-clearmont-v-state-highway-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Town of Clearmont v. State High. Comm'n, 357 P.2d 470 (Wyo. 1960)\",\"link_md\":\"[Town of Clearmont v. State High. Comm'n, 357 P.2d 470 (Wyo. 1960)](https://syfert.com/wyoming/cases/357-p-2d-470/town-of-clearmont-v-state-highway-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.7105},{\"cluster_id\":8226498,\"case_name\":\"Schillock v. Jones\",\"citations\":[\"132 N.W. 908\",\"147 Wis. 119\",\"1911 Wisc. LEXIS 206\"],\"court\":\"Wisconsin Supreme Court\",\"date_filed\":\"1911-10-24\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/wisconsin/cases/147-wis-119/schillock-v-jones\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Schillock v. Jones, 132 N.W. 908 (Wis. 1911)\",\"link_md\":\"[Schillock v. Jones, 132 N.W. 908 (Wis. 1911)](https://syfert.com/wisconsin/cases/147-wis-119/schillock-v-jones)\",\"match_kind\":\"semantic\",\"similarity\":0.7105},{\"cluster_id\":4158503,\"case_name\":\"Fisher v. Railroad Commission\",\"citations\":[\"138 S.W.2d 829\",\"1940 Tex. App. LEXIS 162\"],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"1940-03-13\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/texas/cases/138-s-w-2d-829/fisher-v-railroad-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fisher v. R.R. Comm'n, 138 S.W.2d 829 (Tex. App. 1940)\",\"link_md\":\"[Fisher v. R.R. Comm'n, 138 S.W.2d 829 (Tex. App. 1940)](https://syfert.com/texas/cases/138-s-w-2d-829/fisher-v-railroad-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.7093},{\"cluster_id\":5955321,\"case_name\":\"Pinsly v. Town of Huntington\",\"citations\":[\"81 A.D.3d 910\",\"917 N.Y.S.2d 276\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2011-02-22\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/81-a-d-3d-910/pinsly-v-town-of-huntington\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pinsly v. Town of Huntington, 81 A.D.3d 910 (N.Y. App. Div. 2d Dep't 2011)\",\"link_md\":\"[Pinsly v. Town of Huntington, 81 A.D.3d 910 (N.Y. App. Div. 2d Dep't 2011)](https://syfert.com/new-york/cases/81-a-d-3d-910/pinsly-v-town-of-huntington)\",\"match_kind\":\"semantic\",\"similarity\":0.7075},{\"cluster_id\":1179141,\"case_name\":\"Villages of Eden & Hazelton v. Idaho Board of Highway Directors\",\"citations\":[\"367 P.2d 294\",\"83 Idaho 554\",\"1961 Ida. LEXIS 222\"],\"court\":\"Idaho Supreme Court\",\"date_filed\":\"1961-12-01\",\"status\":\"Published\",\"cited_by\":11,\"url\":\"https://syfert.com/idaho/cases/367-p-2d-294/villages-of-eden-hazelton-v-idaho-board-of-highway-directors\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Villages of Eden & Hazelton v. Idaho Bd. of High. Directors, 367 P.2d 294 (Idaho 1961)\",\"link_md\":\"[Villages of Eden & Hazelton v. Idaho Bd. of High. Directors, 367 P.2d 294 (Idaho 1961)](https://syfert.com/idaho/cases/367-p-2d-294/villages-of-eden-hazelton-v-idaho-board-of-highway-directors)\",\"match_kind\":\"semantic\",\"similarity\":0.7073},{\"cluster_id\":7629846,\"case_name\":\"State ex rel. Department of Highways v. Bray\",\"citations\":[\"515 So. 2d 446\",\"1987 La. LEXIS 10740\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1987-11-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/515-so-2d-446/state-ex-rel-department-of-highways-v-bray\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Dep't of Highways v. Bray, 515 So. 2d 446 (La. 1987)\",\"link_md\":\"[State ex rel. Dep't of Highways v. Bray, 515 So. 2d 446 (La. 1987)](https://syfert.com/louisiana/cases/515-so-2d-446/state-ex-rel-department-of-highways-v-bray)\",\"match_kind\":\"semantic\",\"similarity\":0.7071},{\"cluster_id\":3338320,\"case_name\":\"Orange Hills Country Club, Inc. v. Town of Orange\",\"citations\":[\"8 Conn. Super. Ct. 447\",\"8 Conn. Supp. 447\",\"1940 Conn. Super. LEXIS 143\"],\"court\":\"Connecticut Superior Court\",\"date_filed\":\"1940-09-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/connecticut/cases/cl-3338320/orange-hills-country-club-inc-v-town-of-orange\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Orange Hills Country Club, Inc. v. Town of Orange, 8 Conn. Super. Ct. 447 (Conn. Super. Ct. 1940)\",\"link_md\":\"[Orange Hills Country Club, Inc. v. Town of Orange, 8 Conn. Super. Ct. 447 (Conn. Super. Ct. 1940)](https://syfert.com/connecticut/cases/cl-3338320/orange-hills-country-club-inc-v-town-of-orange)\",\"match_kind\":\"semantic\",\"similarity\":0.7068},{\"cluster_id\":3254906,\"case_name\":\"County of Apache v. Udall\",\"citations\":[\"1 P.2d 340\",\"38 Ariz. 488\",\"1931 Ariz. LEXIS 264\"],\"court\":\"Arizona Supreme Court\",\"date_filed\":\"1931-07-13\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/arizona/cases/38-ariz-488/county-of-apache-v-udall\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cnty. of Apache v. Udall, 1 P.2d 340 (Ariz. 1931)\",\"link_md\":\"[Cnty. of Apache v. Udall, 1 P.2d 340 (Ariz. 1931)](https://syfert.com/arizona/cases/38-ariz-488/county-of-apache-v-udall)\",\"match_kind\":\"semantic\",\"similarity\":0.7061},{\"cluster_id\":4911439,\"case_name\":\"State v. Wren\",\"citations\":[\"321 P.2d 911\",\"51 Wash. 2d 759\",\"1958 Wash. LEXIS 499\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"1958-02-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/51-wash-2d-759/state-v-wren\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Wren, 321 P.2d 911 (Wash. 1958)\",\"link_md\":\"[State v. Wren, 321 P.2d 911 (Wash. 1958)](https://syfert.com/washington/cases/51-wash-2d-759/state-v-wren)\",\"match_kind\":\"semantic\",\"similarity\":0.7043},{\"cluster_id\":1780269,\"case_name\":\"Cartee v. Commonwealth, Department of Highways\",\"citations\":[\"374 S.W.2d 860\"],\"court\":\"Court of Appeals of Kentucky (pre-1976)\",\"date_filed\":\"1964-01-24\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/kentucky/cases/374-s-w-2d-860/cartee-v-commonwealth-department-of-highways\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cartee v. Commonwealth, Dep't of Highways, 374 S.W.2d 860 (Ky. Ct. App. 1964)\",\"link_md\":\"[Cartee v. Commonwealth, Dep't of Highways, 374 S.W.2d 860 (Ky. Ct. App. 1964)](https://syfert.com/kentucky/cases/374-s-w-2d-860/cartee-v-commonwealth-department-of-highways)\",\"match_kind\":\"semantic\",\"similarity\":0.7033},{\"cluster_id\":8907741,\"case_name\":\"Keith v. California Highway Commission\",\"citations\":[\"506 F.2d 696\",\"4 Envtl. L. Rep. (Envtl. Law Inst.) 20\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1974-09-27\",\"status\":\"Published\",\"cited_by\":16,\"url\":\"https://syfert.com/federal/circuits/cases/506-f-2d-696/keith-v-california-highway-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Keith v. California High. Comm'n, 506 F.2d 696 (9th Cir. 1974)\",\"link_md\":\"[Keith v. California High. Comm'n, 506 F.2d 696 (9th Cir. 1974)](https://syfert.com/federal/circuits/cases/506-f-2d-696/keith-v-california-highway-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.7033},{\"cluster_id\":4365864,\"case_name\":\"Untitled Texas Attorney General Opinion\",\"citations\":[],\"court\":\"Texas Attorney General Reports\",\"date_filed\":\"1941-07-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/texas/cases/cl-4365864/untitled-texas-attorney-general-opinion\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Untitled Texas Attorney Gen. Opinion, No. O-3241 (Tex. Att'y Gen. July 2, 1941)\",\"link_md\":\"[Untitled Texas Attorney Gen. Opinion, No. O-3241 (Tex. Att'y Gen. July 2, 1941)](https://syfert.com/texas/cases/cl-4365864/untitled-texas-attorney-general-opinion)\",\"match_kind\":\"semantic\",\"similarity\":0.7031},{\"cluster_id\":3264405,\"case_name\":\"Wilson v. Interstate Construction Co.\",\"citations\":[\"10 S.W.2d 908\",\"178 Ark. 482\",\"1928 Ark. LEXIS 469\"],\"court\":\"Supreme Court of Arkansas\",\"date_filed\":\"1928-11-26\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/arkansas/cases/10-s-w-2d-908/wilson-v-interstate-construction-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wilson v. Interstate Constr. Co., 10 S.W.2d 908 (Ark. 1928)\",\"link_md\":\"[Wilson v. Interstate Constr. Co., 10 S.W.2d 908 (Ark. 1928)](https://syfert.com/arkansas/cases/10-s-w-2d-908/wilson-v-interstate-construction-co)\",\"match_kind\":\"semantic\",\"similarity\":0.7016},{\"cluster_id\":6064414,\"case_name\":\"Kelly v. Jorling\",\"citations\":[\"164 A.D.2d 181\",\"563 N.Y.S.2d 306\",\"1990 N.Y. App. Div. LEXIS 13975\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1990-11-21\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/164-a-d-2d-181/kelly-v-jorling\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kelly v. Jorling, 164 A.D.2d 181 (N.Y. App. Div. 1st Dep't 1990)\",\"link_md\":\"[Kelly v. Jorling, 164 A.D.2d 181 (N.Y. App. Div. 1st Dep't 1990)](https://syfert.com/new-york/cases/164-a-d-2d-181/kelly-v-jorling)\",\"match_kind\":\"semantic\",\"similarity\":0.7008}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Highway w/15 \"128 S.E.2d 533\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4123699,
+    "case_name": "Gaston v. State Highway Department",
+    "citations": [
+     "132 S.E. 680",
+     "134 S.C. 402",
+     "1926 S.C. LEXIS 45"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1926-04-14",
+    "status": "Published",
+    "cited_by": 14,
+    "url": "https://syfert.com/south-carolina/cases/134-s-c-402/gaston-v-state-highway-department",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gaston v. State High. Dep't, 132 S.E. 680 (S.C. 1926)",
+    "link_md": "[Gaston v. State High. Dep't, 132 S.E. 680 (S.C. 1926)](https://syfert.com/south-carolina/cases/134-s-c-402/gaston-v-state-highway-department)",
+    "match_kind": "semantic",
+    "similarity": 0.7506
+   },
+   {
+    "cluster_id": 8234702,
+    "case_name": "State ex rel. Young v. Maresch",
+    "citations": [
+     "273 N.W. 225",
+     "225 Wis. 225",
+     "1937 Wisc. LEXIS 203"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "1937-06-17",
+    "status": "Published",
+    "cited_by": 17,
+    "url": "https://syfert.com/wisconsin/cases/225-wis-225/state-ex-rel-young-v-maresch",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Young v. Maresch, 273 N.W. 225 (Wis. 1937)",
+    "link_md": "[State ex rel. Young v. Maresch, 273 N.W. 225 (Wis. 1937)](https://syfert.com/wisconsin/cases/225-wis-225/state-ex-rel-young-v-maresch)",
+    "match_kind": "semantic",
+    "similarity": 0.7346
+   },
+   {
+    "cluster_id": 5179578,
+    "case_name": "Heathman v. Singletary",
+    "citations": [
+     "12 S.W.2d 150"
+    ],
+    "court": "Texas Commission of Appeals",
+    "date_filed": "1929-01-02",
+    "status": "Published",
+    "cited_by": 28,
+    "url": "https://syfert.com/texas/cases/12-s-w-2d-150/heathman-v-singletary",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Heathman v. Singletary, 12 S.W.2d 150 (Tex. Comm'n App. 1929)",
+    "link_md": "[Heathman v. Singletary, 12 S.W.2d 150 (Tex. Comm'n App. 1929)](https://syfert.com/texas/cases/12-s-w-2d-150/heathman-v-singletary)",
+    "match_kind": "semantic",
+    "similarity": 0.7262
+   },
+   {
+    "cluster_id": 4166617,
+    "case_name": "Nairn v. Bean",
+    "citations": [
+     "48 S.W.2d 584",
+     "121 Tex. 355",
+     "1932 Tex. LEXIS 125"
+    ],
+    "court": "Texas Supreme Court",
+    "date_filed": "1932-04-21",
+    "status": "Published",
+    "cited_by": 27,
+    "url": "https://syfert.com/texas/cases/121-tex-355/nairn-v-bean",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Nairn v. Bean, 48 S.W.2d 584 (Tex. 1932)",
+    "link_md": "[Nairn v. Bean, 48 S.W.2d 584 (Tex. 1932)](https://syfert.com/texas/cases/121-tex-355/nairn-v-bean)",
+    "match_kind": "semantic",
+    "similarity": 0.7214
+   },
+   {
+    "cluster_id": 4119418,
+    "case_name": "Greene v. State Highway Department",
+    "citations": [
+     "158 S.E. 159",
+     "160 S.C. 132",
+     "1931 S.C. LEXIS 50"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1931-03-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/south-carolina/cases/160-s-c-132/greene-v-state-highway-department",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Greene v. State High. Dep't, 158 S.E. 159 (S.C. 1931)",
+    "link_md": "[Greene v. State High. Dep't, 158 S.E. 159 (S.C. 1931)](https://syfert.com/south-carolina/cases/160-s-c-132/greene-v-state-highway-department)",
+    "match_kind": "semantic",
+    "similarity": 0.7168
+   },
+   {
+    "cluster_id": 1849531,
+    "case_name": "Harreld v. Mississippi State Highway Commission",
+    "citations": [
+     "103 So. 2d 852",
+     "234 Miss. 1",
+     "1958 Miss. LEXIS 455"
+    ],
+    "court": "Mississippi Supreme Court",
+    "date_filed": "1958-06-09",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/mississippi/cases/234-miss-1/harreld-v-mississippi-state-highway-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harreld v. Mississippi State High. Comm'n, 103 So. 2d 852 (Miss. 1958)",
+    "link_md": "[Harreld v. Mississippi State High. Comm'n, 103 So. 2d 852 (Miss. 1958)](https://syfert.com/mississippi/cases/234-miss-1/harreld-v-mississippi-state-highway-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.7132
+   },
+   {
+    "cluster_id": 1144548,
+    "case_name": "Town of Clearmont v. State Highway Commission",
+    "citations": [
+     "357 P.2d 470",
+     "1960 Wyo. LEXIS 81"
+    ],
+    "court": "Wyoming Supreme Court",
+    "date_filed": "1960-12-06",
+    "status": "Published",
+    "cited_by": 21,
+    "url": "https://syfert.com/wyoming/cases/357-p-2d-470/town-of-clearmont-v-state-highway-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Town of Clearmont v. State High. Comm'n, 357 P.2d 470 (Wyo. 1960)",
+    "link_md": "[Town of Clearmont v. State High. Comm'n, 357 P.2d 470 (Wyo. 1960)](https://syfert.com/wyoming/cases/357-p-2d-470/town-of-clearmont-v-state-highway-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.7105
+   },
+   {
+    "cluster_id": 8226498,
+    "case_name": "Schillock v. Jones",
+    "citations": [
+     "132 N.W. 908",
+     "147 Wis. 119",
+     "1911 Wisc. LEXIS 206"
+    ],
+    "court": "Wisconsin Supreme Court",
+    "date_filed": "1911-10-24",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/wisconsin/cases/147-wis-119/schillock-v-jones",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Schillock v. Jones, 132 N.W. 908 (Wis. 1911)",
+    "link_md": "[Schillock v. Jones, 132 N.W. 908 (Wis. 1911)](https://syfert.com/wisconsin/cases/147-wis-119/schillock-v-jones)",
+    "match_kind": "semantic",
+    "similarity": 0.7105
+   },
+   {
+    "cluster_id": 4158503,
+    "case_name": "Fisher v. Railroad Commission",
+    "citations": [
+     "138 S.W.2d 829",
+     "1940 Tex. App. LEXIS 162"
+    ],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "1940-03-13",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/texas/cases/138-s-w-2d-829/fisher-v-railroad-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fisher v. R.R. Comm'n, 138 S.W.2d 829 (Tex. App. 1940)",
+    "link_md": "[Fisher v. R.R. Comm'n, 138 S.W.2d 829 (Tex. App. 1940)](https://syfert.com/texas/cases/138-s-w-2d-829/fisher-v-railroad-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.7093
+   },
+   {
+    "cluster_id": 5955321,
+    "case_name": "Pinsly v. Town of Huntington",
+    "citations": [
+     "81 A.D.3d 910",
+     "917 N.Y.S.2d 276"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2011-02-22",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/81-a-d-3d-910/pinsly-v-town-of-huntington",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pinsly v. Town of Huntington, 81 A.D.3d 910 (N.Y. App. Div. 2d Dep't 2011)",
+    "link_md": "[Pinsly v. Town of Huntington, 81 A.D.3d 910 (N.Y. App. Div. 2d Dep't 2011)](https://syfert.com/new-york/cases/81-a-d-3d-910/pinsly-v-town-of-huntington)",
+    "match_kind": "semantic",
+    "similarity": 0.7075
+   },
+   {
+    "cluster_id": 1179141,
+    "case_name": "Villages of Eden & Hazelton v. Idaho Board of Highway Directors",
+    "citations": [
+     "367 P.2d 294",
+     "83 Idaho 554",
+     "1961 Ida. LEXIS 222"
+    ],
+    "court": "Idaho Supreme Court",
+    "date_filed": "1961-12-01",
+    "status": "Published",
+    "cited_by": 11,
+    "url": "https://syfert.com/idaho/cases/367-p-2d-294/villages-of-eden-hazelton-v-idaho-board-of-highway-directors",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Villages of Eden & Hazelton v. Idaho Bd. of High. Directors, 367 P.2d 294 (Idaho 1961)",
+    "link_md": "[Villages of Eden & Hazelton v. Idaho Bd. of High. Directors, 367 P.2d 294 (Idaho 1961)](https://syfert.com/idaho/cases/367-p-2d-294/villages-of-eden-hazelton-v-idaho-board-of-highway-directors)",
+    "match_kind": "semantic",
+    "similarity": 0.7073
+   },
+   {
+    "cluster_id": 7629846,
+    "case_name": "State ex rel. Department of Highways v. Bray",
+    "citations": [
+     "515 So. 2d 446",
+     "1987 La. LEXIS 10740"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1987-11-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/515-so-2d-446/state-ex-rel-department-of-highways-v-bray",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Dep't of Highways v. Bray, 515 So. 2d 446 (La. 1987)",
+    "link_md": "[State ex rel. Dep't of Highways v. Bray, 515 So. 2d 446 (La. 1987)](https://syfert.com/louisiana/cases/515-so-2d-446/state-ex-rel-department-of-highways-v-bray)",
+    "match_kind": "semantic",
+    "similarity": 0.7071
+   },
+   {
+    "cluster_id": 3338320,
+    "case_name": "Orange Hills Country Club, Inc. v. Town of Orange",
+    "citations": [
+     "8 Conn. Super. Ct. 447",
+     "8 Conn. Supp. 447",
+     "1940 Conn. Super. LEXIS 143"
+    ],
+    "court": "Connecticut Superior Court",
+    "date_filed": "1940-09-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/connecticut/cases/cl-3338320/orange-hills-country-club-inc-v-town-of-orange",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Orange Hills Country Club, Inc. v. Town of Orange, 8 Conn. Super. Ct. 447 (Conn. Super. Ct. 1940)",
+    "link_md": "[Orange Hills Country Club, Inc. v. Town of Orange, 8 Conn. Super. Ct. 447 (Conn. Super. Ct. 1940)](https://syfert.com/connecticut/cases/cl-3338320/orange-hills-country-club-inc-v-town-of-orange)",
+    "match_kind": "semantic",
+    "similarity": 0.7068
+   },
+   {
+    "cluster_id": 3254906,
+    "case_name": "County of Apache v. Udall",
+    "citations": [
+     "1 P.2d 340",
+     "38 Ariz. 488",
+     "1931 Ariz. LEXIS 264"
+    ],
+    "court": "Arizona Supreme Court",
+    "date_filed": "1931-07-13",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/arizona/cases/38-ariz-488/county-of-apache-v-udall",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cnty. of Apache v. Udall, 1 P.2d 340 (Ariz. 1931)",
+    "link_md": "[Cnty. of Apache v. Udall, 1 P.2d 340 (Ariz. 1931)](https://syfert.com/arizona/cases/38-ariz-488/county-of-apache-v-udall)",
+    "match_kind": "semantic",
+    "similarity": 0.7061
+   },
+   {
+    "cluster_id": 4911439,
+    "case_name": "State v. Wren",
+    "citations": [
+     "321 P.2d 911",
+     "51 Wash. 2d 759",
+     "1958 Wash. LEXIS 499"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "1958-02-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/51-wash-2d-759/state-v-wren",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Wren, 321 P.2d 911 (Wash. 1958)",
+    "link_md": "[State v. Wren, 321 P.2d 911 (Wash. 1958)](https://syfert.com/washington/cases/51-wash-2d-759/state-v-wren)",
+    "match_kind": "semantic",
+    "similarity": 0.7043
+   },
+   {
+    "cluster_id": 1780269,
+    "case_name": "Cartee v. Commonwealth, Department of Highways",
+    "citations": [
+     "374 S.W.2d 860"
+    ],
+    "court": "Court of Appeals of Kentucky (pre-1976)",
+    "date_filed": "1964-01-24",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/kentucky/cases/374-s-w-2d-860/cartee-v-commonwealth-department-of-highways",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cartee v. Commonwealth, Dep't of Highways, 374 S.W.2d 860 (Ky. Ct. App. 1964)",
+    "link_md": "[Cartee v. Commonwealth, Dep't of Highways, 374 S.W.2d 860 (Ky. Ct. App. 1964)](https://syfert.com/kentucky/cases/374-s-w-2d-860/cartee-v-commonwealth-department-of-highways)",
+    "match_kind": "semantic",
+    "similarity": 0.7033
+   },
+   {
+    "cluster_id": 8907741,
+    "case_name": "Keith v. California Highway Commission",
+    "citations": [
+     "506 F.2d 696",
+     "4 Envtl. L. Rep. (Envtl. Law Inst.) 20"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1974-09-27",
+    "status": "Published",
+    "cited_by": 16,
+    "url": "https://syfert.com/federal/circuits/cases/506-f-2d-696/keith-v-california-highway-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Keith v. California High. Comm'n, 506 F.2d 696 (9th Cir. 1974)",
+    "link_md": "[Keith v. California High. Comm'n, 506 F.2d 696 (9th Cir. 1974)](https://syfert.com/federal/circuits/cases/506-f-2d-696/keith-v-california-highway-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.7033
+   },
+   {
+    "cluster_id": 4365864,
+    "case_name": "Untitled Texas Attorney General Opinion",
+    "citations": [],
+    "court": "Texas Attorney General Reports",
+    "date_filed": "1941-07-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/texas/cases/cl-4365864/untitled-texas-attorney-general-opinion",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Untitled Texas Attorney Gen. Opinion, No. O-3241 (Tex. Att'y Gen. July 2, 1941)",
+    "link_md": "[Untitled Texas Attorney Gen. Opinion, No. O-3241 (Tex. Att'y Gen. July 2, 1941)](https://syfert.com/texas/cases/cl-4365864/untitled-texas-attorney-general-opinion)",
+    "match_kind": "semantic",
+    "similarity": 0.7031
+   },
+   {
+    "cluster_id": 3264405,
+    "case_name": "Wilson v. Interstate Construction Co.",
+    "citations": [
+     "10 S.W.2d 908",
+     "178 Ark. 482",
+     "1928 Ark. LEXIS 469"
+    ],
+    "court": "Supreme Court of Arkansas",
+    "date_filed": "1928-11-26",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/arkansas/cases/10-s-w-2d-908/wilson-v-interstate-construction-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wilson v. Interstate Constr. Co., 10 S.W.2d 908 (Ark. 1928)",
+    "link_md": "[Wilson v. Interstate Constr. Co., 10 S.W.2d 908 (Ark. 1928)](https://syfert.com/arkansas/cases/10-s-w-2d-908/wilson-v-interstate-construction-co)",
+    "match_kind": "semantic",
+    "similarity": 0.7016
+   },
+   {
+    "cluster_id": 6064414,
+    "case_name": "Kelly v. Jorling",
+    "citations": [
+     "164 A.D.2d 181",
+     "563 N.Y.S.2d 306",
+     "1990 N.Y. App. Div. LEXIS 13975"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1990-11-21",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/164-a-d-2d-181/kelly-v-jorling",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kelly v. Jorling, 164 A.D.2d 181 (N.Y. App. Div. 1st Dep't 1990)",
+    "link_md": "[Kelly v. Jorling, 164 A.D.2d 181 (N.Y. App. Div. 1st Dep't 1990)](https://syfert.com/new-york/cases/164-a-d-2d-181/kelly-v-jorling)",
+    "match_kind": "semantic",
+    "similarity": 0.7008
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

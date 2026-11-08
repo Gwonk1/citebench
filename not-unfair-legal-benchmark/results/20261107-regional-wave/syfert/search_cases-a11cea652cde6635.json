@@ -1,0 +1,413 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Early w/15 \"219 S.E.2d 633\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Early w/15 \\\"219 S.E.2d 633\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10136276,\"case_name\":\"LaSure v. State\",\"citations\":[],\"court\":\"Supreme Court of South Carolina\",\"date_filed\":\"2004-01-27\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/south-carolina/cases/cl-10136276/lasure-v-state\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"LaSure v. State, No. 2004-MO-003 (S.C. Jan. 27, 2004)\",\"link_md\":\"[LaSure v. State, No. 2004-MO-003 (S.C. Jan. 27, 2004)](https://syfert.com/south-carolina/cases/cl-10136276/lasure-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6581},{\"cluster_id\":568995,\"case_name\":\"United States v. Early\",\"citations\":[\"945 F.2d 413\",\"1991 WL 179189\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1991-08-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/945-f-2d-413/united-states-v-early\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Early, 945 F.2d 413 (11th Cir. 1991)\",\"link_md\":\"[United States v. Early, 945 F.2d 413 (11th Cir. 1991)](https://syfert.com/federal/circuits/cases/945-f-2d-413/united-states-v-early)\",\"match_kind\":\"semantic\",\"similarity\":0.6542},{\"cluster_id\":4940084,\"case_name\":\"Century 21 Real Estate Center v. Silvers\",\"citations\":[\"130 Wash. App. 1030\",\"2005 Wash. App. LEXIS 3373\"],\"court\":\"Court of Appeals of Washington\",\"date_filed\":\"2005-11-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/130-wash-app-1030/century-21-real-estate-center-v-silvers\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Century 21 Real Est. Ctr. v. Silvers, 130 Wash. App. 1030 (Wash. Ct. App. 2005)\",\"link_md\":\"[Century 21 Real Est. Ctr. v. Silvers, 130 Wash. App. 1030 (Wash. Ct. App. 2005)](https://syfert.com/washington/cases/130-wash-app-1030/century-21-real-estate-center-v-silvers)\",\"match_kind\":\"semantic\",\"similarity\":0.6427},{\"cluster_id\":6803629,\"case_name\":\"Brumwell v. Ede\",\"citations\":[\"152 N.W. 108\",\"35 S.D. 293\",\"1915 S.D. LEXIS 44\"],\"court\":\"South Dakota Supreme Court\",\"date_filed\":\"1915-04-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/south-dakota/cases/35-s-d-293/brumwell-v-ede\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Brumwell v. Ede, 152 N.W. 108 (S.D. 1915)\",\"link_md\":\"[Brumwell v. Ede, 152 N.W. 108 (S.D. 1915)](https://syfert.com/south-dakota/cases/35-s-d-293/brumwell-v-ede)\",\"match_kind\":\"semantic\",\"similarity\":0.6358},{\"cluster_id\":1365543,\"case_name\":\"Family Home Services, Inc. v. Taylor\",\"citations\":[\"236 S.E.2d 28\",\"142 Ga. App. 386\",\"1977 Ga. App. LEXIS 1626\"],\"court\":\"Court of Appeals of Georgia\",\"date_filed\":\"1977-05-25\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/georgia/cases/142-ga-app-386/family-home-services-inc-v-taylor\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fam. Home Servs., Inc. v. Taylor, 236 S.E.2d 28 (Ga. Ct. App. 1977)\",\"link_md\":\"[Fam. Home Servs., Inc. v. Taylor, 236 S.E.2d 28 (Ga. Ct. App. 1977)](https://syfert.com/georgia/cases/142-ga-app-386/family-home-services-inc-v-taylor)\",\"match_kind\":\"semantic\",\"similarity\":0.6329},{\"cluster_id\":2573877,\"case_name\":\"East v. East\",\"citations\":[\"210 P.3d 723\",\"123 Nev. 808\",\"2007 Nev. LEXIS 1511\"],\"court\":\"Nevada Supreme Court\",\"date_filed\":\"2007-12-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/nevada/cases/123-nev-808/east-v-east\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"East v. East, 210 P.3d 723 (Nev. 2007)\",\"link_md\":\"[East v. East, 210 P.3d 723 (Nev. 2007)](https://syfert.com/nevada/cases/123-nev-808/east-v-east)\",\"match_kind\":\"semantic\",\"similarity\":0.6308},{\"cluster_id\":4006850,\"case_name\":\"State v. Lizanich\",\"citations\":[\"639 N.E.2d 855\",\"93 Ohio App. 3d 706\",\"1994 Ohio App. LEXIS 1179\"],\"court\":\"Ohio Court of Appeals\",\"date_filed\":\"1994-03-22\",\"status\":\"Published\",\"cited_by\":12,\"url\":\"https://syfert.com/ohio/cases/93-ohio-app-3d-706/state-v-lizanich\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Lizanich, 639 N.E.2d 855 (Ohio Ct. App. 10th Dist. 1994)\",\"link_md\":\"[State v. Lizanich, 639 N.E.2d 855 (Ohio Ct. App. 10th Dist. 1994)](https://syfert.com/ohio/cases/93-ohio-app-3d-706/state-v-lizanich)\",\"match_kind\":\"semantic\",\"similarity\":0.6308},{\"cluster_id\":4323311,\"case_name\":\"Demetrius Smalls v. Alan Wilson\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2016-11-21\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-4323311/demetrius-smalls-v-alan-wilson\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Demetrius Smalls v. Alan Wilson, No. 16-6683 (4th Cir. Nov. 21, 2016)\",\"link_md\":\"[Demetrius Smalls v. Alan Wilson, No. 16-6683 (4th Cir. Nov. 21, 2016)](https://syfert.com/federal/circuits/cases/cl-4323311/demetrius-smalls-v-alan-wilson)\",\"match_kind\":\"semantic\",\"similarity\":0.6287},{\"cluster_id\":8914498,\"case_name\":\"Martin v. Liles\",\"citations\":[\"250 S.E.2d 326\",\"39 N.C. App. 498\",\"1979 N.C. App. LEXIS 2513\"],\"court\":\"Court of Appeals of North Carolina\",\"date_filed\":\"1979-01-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/39-n-c-app-498/martin-v-liles\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Liles, 250 S.E.2d 326 (N.C. Ct. App. 1979)\",\"link_md\":\"[Martin v. Liles, 250 S.E.2d 326 (N.C. Ct. App. 1979)](https://syfert.com/north-carolina/cases/39-n-c-app-498/martin-v-liles)\",\"match_kind\":\"semantic\",\"similarity\":0.6279},{\"cluster_id\":4855111,\"case_name\":\"Matter of Stefan R. v. Yesenia R.\",\"citations\":[\"191 A.D.3d 486\",\"2021 NY Slip Op 00814\",\"138 N.Y.S.3d 301\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2021-02-09\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/191-a-d-3d-486/matter-of-stefan-r-v-yesenia-r\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Stefan R. v. Yesenia R., 191 A.D.3d 486 (N.Y. App. Div. 1st Dep't 2021)\",\"link_md\":\"[Matter of Stefan R. v. Yesenia R., 191 A.D.3d 486 (N.Y. App. Div. 1st Dep't 2021)](https://syfert.com/new-york/cases/191-a-d-3d-486/matter-of-stefan-r-v-yesenia-r)\",\"match_kind\":\"semantic\",\"similarity\":0.6273},{\"cluster_id\":521306,\"case_name\":\"Clarence V. Saunders v. Citibank South Dakota, N.A., a Company Owned by Citicorp Credit Services, Inc.\",\"citations\":[\"872 F.2d 419\",\"1989 U.S. App. LEXIS 2768\",\"1989 WL 27472\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1989-03-09\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/872-f-2d-419/clarence-v-saunders-v-citibank-south-dakota-na-a-c\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clarence V. Saunders v. Citibank South Dakota, N.A., a Co. Owned by Citicorp Credit Servs., Inc., 872 F.2d 419 (4th Cir. 1989)\",\"link_md\":\"[Clarence V. Saunders v. Citibank South Dakota, N.A., a Co. Owned by Citicorp Credit Servs., Inc., 872 F.2d 419 (4th Cir. 1989)](https://syfert.com/federal/circuits/cases/872-f-2d-419/clarence-v-saunders-v-citibank-south-dakota-na-a-c)\",\"match_kind\":\"semantic\",\"similarity\":0.6272},{\"cluster_id\":7175641,\"case_name\":\"Santos v. Commonwealth\",\"citations\":[\"108 N.E.3d 460\",\"480 Mass. 1020\"],\"court\":\"Massachusetts Supreme Judicial Court\",\"date_filed\":\"2018-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/massachusetts/cases/480-mass-1020/santos-v-commonwealth\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Santos v. Commonwealth, 108 N.E.3d 460 (Mass. 2018)\",\"link_md\":\"[Santos v. Commonwealth, 108 N.E.3d 460 (Mass. 2018)](https://syfert.com/massachusetts/cases/480-mass-1020/santos-v-commonwealth)\",\"match_kind\":\"semantic\",\"similarity\":0.6253},{\"cluster_id\":553095,\"case_name\":\"English v. Castleberry\",\"citations\":[\"921 F.2d 284\",\"1990 WL 209902\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1990-12-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/921-f-2d-284/english-v-castleberry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"English v. Castleberry, 921 F.2d 284 (11th Cir. 1990)\",\"link_md\":\"[English v. Castleberry, 921 F.2d 284 (11th Cir. 1990)](https://syfert.com/federal/circuits/cases/921-f-2d-284/english-v-castleberry)\",\"match_kind\":\"semantic\",\"similarity\":0.6249},{\"cluster_id\":10271736,\"case_name\":\"Petition of State of New Hampshire\",\"citations\":[\"288 A.3d 431\"],\"court\":\"Supreme Court of New Hampshire\",\"date_filed\":\"2022-08-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-hampshire/cases/288-a-3d-431/petition-of-state-of-new-hampshire\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"288 A.3d 431\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/288%20A.3d\"}],\"bluebook\":\"Petition of State of New Hampshire, 288 A.3d 431 (N.H. 2022)\",\"link_md\":\"[Petition of State of New Hampshire, 288 A.3d 431 (N.H. 2022)](https://syfert.com/new-hampshire/cases/288-a-3d-431/petition-of-state-of-new-hampshire)\",\"match_kind\":\"semantic\",\"similarity\":0.624},{\"cluster_id\":7178400,\"case_name\":\"In re Chapman\",\"citations\":[\"121 N.E.3d 1280\",\"482 Mass. 1012\"],\"court\":\"Massachusetts Supreme Judicial Court\",\"date_filed\":\"2019-05-16\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/massachusetts/cases/482-mass-1012/in-re-chapman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Chapman, 121 N.E.3d 1280 (Mass. 2019)\",\"link_md\":\"[In re Chapman, 121 N.E.3d 1280 (Mass. 2019)](https://syfert.com/massachusetts/cases/482-mass-1012/in-re-chapman)\",\"match_kind\":\"semantic\",\"similarity\":0.623},{\"cluster_id\":6578271,\"case_name\":\"Frye v. Ducomb\",\"citations\":[\"739 N.E.2d 1137\",\"433 Mass. 1004\",\"2000 Mass. LEXIS 760\"],\"court\":\"Massachusetts Supreme Judicial Court\",\"date_filed\":\"2000-12-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/massachusetts/cases/433-mass-1004/frye-v-ducomb\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Frye v. Ducomb, 739 N.E.2d 1137 (Mass. 2000)\",\"link_md\":\"[Frye v. Ducomb, 739 N.E.2d 1137 (Mass. 2000)](https://syfert.com/massachusetts/cases/433-mass-1004/frye-v-ducomb)\",\"match_kind\":\"semantic\",\"similarity\":0.6205},{\"cluster_id\":1000305,\"case_name\":\"Hoyte v. McFarlin\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"1999-11-24\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-1000305/hoyte-v-mcfarlin\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hoyte v. McFarlin, No. 99-6701 (4th Cir. Nov. 24, 1999)\",\"link_md\":\"[Hoyte v. McFarlin, No. 99-6701 (4th Cir. Nov. 24, 1999)](https://syfert.com/federal/circuits/cases/cl-1000305/hoyte-v-mcfarlin)\",\"match_kind\":\"semantic\",\"similarity\":0.6175},{\"cluster_id\":4117444,\"case_name\":\"City of Greenville v. Green\",\"citations\":[\"77 S.E. 718\",\"93 S.C. 573\",\"1913 S.C. LEXIS 52\"],\"court\":\"Supreme Court of South Carolina\",\"date_filed\":\"1913-03-14\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/south-carolina/cases/93-s-c-573/city-of-greenville-v-green\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of Greenville v. Green, 77 S.E. 718 (S.C. 1913)\",\"link_md\":\"[City of Greenville v. Green, 77 S.E. 718 (S.C. 1913)](https://syfert.com/south-carolina/cases/93-s-c-573/city-of-greenville-v-green)\",\"match_kind\":\"semantic\",\"similarity\":0.6174},{\"cluster_id\":10849203,\"case_name\":\"Richard Phillip of the Family Valdez v. Chesapeake JDR District Court\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2026-04-27\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-10849203/richard-phillip-of-the-family-valdez-v-chesapeake-jdr-district-court\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Richard Phillip of the Fam. Valdez v. Chesapeake JDR Dist. Court, No. 25-2265 (4th Cir. Apr. 27, 2026)\",\"link_md\":\"[Richard Phillip of the Fam. Valdez v. Chesapeake JDR Dist. Court, No. 25-2265 (4th Cir. Apr. 27, 2026)](https://syfert.com/federal/circuits/cases/cl-10849203/richard-phillip-of-the-family-valdez-v-chesapeake-jdr-district-court)\",\"match_kind\":\"semantic\",\"similarity\":0.6172},{\"cluster_id\":6807027,\"case_name\":\"Murdo Independent School Dist. v. Litzenberg\",\"citations\":[\"235 N.W. 606\",\"58 S.D. 162\",\"1931 S.D. LEXIS 48\"],\"court\":\"South Dakota Supreme Court\",\"date_filed\":\"1931-03-10\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/south-dakota/cases/58-s-d-162/murdo-independent-school-dist-v-litzenberg\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Murdo Indep. Sch. Dist. v. Litzenberg, 235 N.W. 606 (S.D. 1931)\",\"link_md\":\"[Murdo Indep. Sch. Dist. v. Litzenberg, 235 N.W. 606 (S.D. 1931)](https://syfert.com/south-dakota/cases/58-s-d-162/murdo-independent-school-dist-v-litzenberg)\",\"match_kind\":\"semantic\",\"similarity\":0.6168}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Early w/15 \"219 S.E.2d 633\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10136276,
+    "case_name": "LaSure v. State",
+    "citations": [],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "2004-01-27",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/south-carolina/cases/cl-10136276/lasure-v-state",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "LaSure v. State, No. 2004-MO-003 (S.C. Jan. 27, 2004)",
+    "link_md": "[LaSure v. State, No. 2004-MO-003 (S.C. Jan. 27, 2004)](https://syfert.com/south-carolina/cases/cl-10136276/lasure-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6581
+   },
+   {
+    "cluster_id": 568995,
+    "case_name": "United States v. Early",
+    "citations": [
+     "945 F.2d 413",
+     "1991 WL 179189"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1991-08-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/945-f-2d-413/united-states-v-early",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Early, 945 F.2d 413 (11th Cir. 1991)",
+    "link_md": "[United States v. Early, 945 F.2d 413 (11th Cir. 1991)](https://syfert.com/federal/circuits/cases/945-f-2d-413/united-states-v-early)",
+    "match_kind": "semantic",
+    "similarity": 0.6542
+   },
+   {
+    "cluster_id": 4940084,
+    "case_name": "Century 21 Real Estate Center v. Silvers",
+    "citations": [
+     "130 Wash. App. 1030",
+     "2005 Wash. App. LEXIS 3373"
+    ],
+    "court": "Court of Appeals of Washington",
+    "date_filed": "2005-11-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/130-wash-app-1030/century-21-real-estate-center-v-silvers",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Century 21 Real Est. Ctr. v. Silvers, 130 Wash. App. 1030 (Wash. Ct. App. 2005)",
+    "link_md": "[Century 21 Real Est. Ctr. v. Silvers, 130 Wash. App. 1030 (Wash. Ct. App. 2005)](https://syfert.com/washington/cases/130-wash-app-1030/century-21-real-estate-center-v-silvers)",
+    "match_kind": "semantic",
+    "similarity": 0.6427
+   },
+   {
+    "cluster_id": 6803629,
+    "case_name": "Brumwell v. Ede",
+    "citations": [
+     "152 N.W. 108",
+     "35 S.D. 293",
+     "1915 S.D. LEXIS 44"
+    ],
+    "court": "South Dakota Supreme Court",
+    "date_filed": "1915-04-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/south-dakota/cases/35-s-d-293/brumwell-v-ede",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Brumwell v. Ede, 152 N.W. 108 (S.D. 1915)",
+    "link_md": "[Brumwell v. Ede, 152 N.W. 108 (S.D. 1915)](https://syfert.com/south-dakota/cases/35-s-d-293/brumwell-v-ede)",
+    "match_kind": "semantic",
+    "similarity": 0.6358
+   },
+   {
+    "cluster_id": 1365543,
+    "case_name": "Family Home Services, Inc. v. Taylor",
+    "citations": [
+     "236 S.E.2d 28",
+     "142 Ga. App. 386",
+     "1977 Ga. App. LEXIS 1626"
+    ],
+    "court": "Court of Appeals of Georgia",
+    "date_filed": "1977-05-25",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/georgia/cases/142-ga-app-386/family-home-services-inc-v-taylor",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fam. Home Servs., Inc. v. Taylor, 236 S.E.2d 28 (Ga. Ct. App. 1977)",
+    "link_md": "[Fam. Home Servs., Inc. v. Taylor, 236 S.E.2d 28 (Ga. Ct. App. 1977)](https://syfert.com/georgia/cases/142-ga-app-386/family-home-services-inc-v-taylor)",
+    "match_kind": "semantic",
+    "similarity": 0.6329
+   },
+   {
+    "cluster_id": 2573877,
+    "case_name": "East v. East",
+    "citations": [
+     "210 P.3d 723",
+     "123 Nev. 808",
+     "2007 Nev. LEXIS 1511"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2007-12-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/123-nev-808/east-v-east",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "East v. East, 210 P.3d 723 (Nev. 2007)",
+    "link_md": "[East v. East, 210 P.3d 723 (Nev. 2007)](https://syfert.com/nevada/cases/123-nev-808/east-v-east)",
+    "match_kind": "semantic",
+    "similarity": 0.6308
+   },
+   {
+    "cluster_id": 4006850,
+    "case_name": "State v. Lizanich",
+    "citations": [
+     "639 N.E.2d 855",
+     "93 Ohio App. 3d 706",
+     "1994 Ohio App. LEXIS 1179"
+    ],
+    "court": "Ohio Court of Appeals",
+    "date_filed": "1994-03-22",
+    "status": "Published",
+    "cited_by": 12,
+    "url": "https://syfert.com/ohio/cases/93-ohio-app-3d-706/state-v-lizanich",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Lizanich, 639 N.E.2d 855 (Ohio Ct. App. 10th Dist. 1994)",
+    "link_md": "[State v. Lizanich, 639 N.E.2d 855 (Ohio Ct. App. 10th Dist. 1994)](https://syfert.com/ohio/cases/93-ohio-app-3d-706/state-v-lizanich)",
+    "match_kind": "semantic",
+    "similarity": 0.6308
+   },
+   {
+    "cluster_id": 4323311,
+    "case_name": "Demetrius Smalls v. Alan Wilson",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2016-11-21",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-4323311/demetrius-smalls-v-alan-wilson",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Demetrius Smalls v. Alan Wilson, No. 16-6683 (4th Cir. Nov. 21, 2016)",
+    "link_md": "[Demetrius Smalls v. Alan Wilson, No. 16-6683 (4th Cir. Nov. 21, 2016)](https://syfert.com/federal/circuits/cases/cl-4323311/demetrius-smalls-v-alan-wilson)",
+    "match_kind": "semantic",
+    "similarity": 0.6287
+   },
+   {
+    "cluster_id": 8914498,
+    "case_name": "Martin v. Liles",
+    "citations": [
+     "250 S.E.2d 326",
+     "39 N.C. App. 498",
+     "1979 N.C. App. LEXIS 2513"
+    ],
+    "court": "Court of Appeals of North Carolina",
+    "date_filed": "1979-01-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/39-n-c-app-498/martin-v-liles",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Liles, 250 S.E.2d 326 (N.C. Ct. App. 1979)",
+    "link_md": "[Martin v. Liles, 250 S.E.2d 326 (N.C. Ct. App. 1979)](https://syfert.com/north-carolina/cases/39-n-c-app-498/martin-v-liles)",
+    "match_kind": "semantic",
+    "similarity": 0.6279
+   },
+   {
+    "cluster_id": 4855111,
+    "case_name": "Matter of Stefan R. v. Yesenia R.",
+    "citations": [
+     "191 A.D.3d 486",
+     "2021 NY Slip Op 00814",
+     "138 N.Y.S.3d 301"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2021-02-09",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/191-a-d-3d-486/matter-of-stefan-r-v-yesenia-r",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Stefan R. v. Yesenia R., 191 A.D.3d 486 (N.Y. App. Div. 1st Dep't 2021)",
+    "link_md": "[Matter of Stefan R. v. Yesenia R., 191 A.D.3d 486 (N.Y. App. Div. 1st Dep't 2021)](https://syfert.com/new-york/cases/191-a-d-3d-486/matter-of-stefan-r-v-yesenia-r)",
+    "match_kind": "semantic",
+    "similarity": 0.6273
+   },
+   {
+    "cluster_id": 521306,
+    "case_name": "Clarence V. Saunders v. Citibank South Dakota, N.A., a Company Owned by Citicorp Credit Services, Inc.",
+    "citations": [
+     "872 F.2d 419",
+     "1989 U.S. App. LEXIS 2768",
+     "1989 WL 27472"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1989-03-09",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/872-f-2d-419/clarence-v-saunders-v-citibank-south-dakota-na-a-c",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Clarence V. Saunders v. Citibank South Dakota, N.A., a Co. Owned by Citicorp Credit Servs., Inc., 872 F.2d 419 (4th Cir. 1989)",
+    "link_md": "[Clarence V. Saunders v. Citibank South Dakota, N.A., a Co. Owned by Citicorp Credit Servs., Inc., 872 F.2d 419 (4th Cir. 1989)](https://syfert.com/federal/circuits/cases/872-f-2d-419/clarence-v-saunders-v-citibank-south-dakota-na-a-c)",
+    "match_kind": "semantic",
+    "similarity": 0.6272
+   },
+   {
+    "cluster_id": 7175641,
+    "case_name": "Santos v. Commonwealth",
+    "citations": [
+     "108 N.E.3d 460",
+     "480 Mass. 1020"
+    ],
+    "court": "Massachusetts Supreme Judicial Court",
+    "date_filed": "2018-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/massachusetts/cases/480-mass-1020/santos-v-commonwealth",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Santos v. Commonwealth, 108 N.E.3d 460 (Mass. 2018)",
+    "link_md": "[Santos v. Commonwealth, 108 N.E.3d 460 (Mass. 2018)](https://syfert.com/massachusetts/cases/480-mass-1020/santos-v-commonwealth)",
+    "match_kind": "semantic",
+    "similarity": 0.6253
+   },
+   {
+    "cluster_id": 553095,
+    "case_name": "English v. Castleberry",
+    "citations": [
+     "921 F.2d 284",
+     "1990 WL 209902"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1990-12-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/921-f-2d-284/english-v-castleberry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "English v. Castleberry, 921 F.2d 284 (11th Cir. 1990)",
+    "link_md": "[English v. Castleberry, 921 F.2d 284 (11th Cir. 1990)](https://syfert.com/federal/circuits/cases/921-f-2d-284/english-v-castleberry)",
+    "match_kind": "semantic",
+    "similarity": 0.6249
+   },
+   {
+    "cluster_id": 10271736,
+    "case_name": "Petition of State of New Hampshire",
+    "citations": [
+     "288 A.3d 431"
+    ],
+    "court": "Supreme Court of New Hampshire",
+    "date_filed": "2022-08-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-hampshire/cases/288-a-3d-431/petition-of-state-of-new-hampshire",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "288 A.3d 431",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/288%20A.3d"
+     }
+    ],
+    "bluebook": "Petition of State of New Hampshire, 288 A.3d 431 (N.H. 2022)",
+    "link_md": "[Petition of State of New Hampshire, 288 A.3d 431 (N.H. 2022)](https://syfert.com/new-hampshire/cases/288-a-3d-431/petition-of-state-of-new-hampshire)",
+    "match_kind": "semantic",
+    "similarity": 0.624
+   },
+   {
+    "cluster_id": 7178400,
+    "case_name": "In re Chapman",
+    "citations": [
+     "121 N.E.3d 1280",
+     "482 Mass. 1012"
+    ],
+    "court": "Massachusetts Supreme Judicial Court",
+    "date_filed": "2019-05-16",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/massachusetts/cases/482-mass-1012/in-re-chapman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Chapman, 121 N.E.3d 1280 (Mass. 2019)",
+    "link_md": "[In re Chapman, 121 N.E.3d 1280 (Mass. 2019)](https://syfert.com/massachusetts/cases/482-mass-1012/in-re-chapman)",
+    "match_kind": "semantic",
+    "similarity": 0.623
+   },
+   {
+    "cluster_id": 6578271,
+    "case_name": "Frye v. Ducomb",
+    "citations": [
+     "739 N.E.2d 1137",
+     "433 Mass. 1004",
+     "2000 Mass. LEXIS 760"
+    ],
+    "court": "Massachusetts Supreme Judicial Court",
+    "date_filed": "2000-12-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/massachusetts/cases/433-mass-1004/frye-v-ducomb",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Frye v. Ducomb, 739 N.E.2d 1137 (Mass. 2000)",
+    "link_md": "[Frye v. Ducomb, 739 N.E.2d 1137 (Mass. 2000)](https://syfert.com/massachusetts/cases/433-mass-1004/frye-v-ducomb)",
+    "match_kind": "semantic",
+    "similarity": 0.6205
+   },
+   {
+    "cluster_id": 1000305,
+    "case_name": "Hoyte v. McFarlin",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "1999-11-24",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-1000305/hoyte-v-mcfarlin",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Hoyte v. McFarlin, No. 99-6701 (4th Cir. Nov. 24, 1999)",
+    "link_md": "[Hoyte v. McFarlin, No. 99-6701 (4th Cir. Nov. 24, 1999)](https://syfert.com/federal/circuits/cases/cl-1000305/hoyte-v-mcfarlin)",
+    "match_kind": "semantic",
+    "similarity": 0.6175
+   },
+   {
+    "cluster_id": 4117444,
+    "case_name": "City of Greenville v. Green",
+    "citations": [
+     "77 S.E. 718",
+     "93 S.C. 573",
+     "1913 S.C. LEXIS 52"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1913-03-14",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/south-carolina/cases/93-s-c-573/city-of-greenville-v-green",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Greenville v. Green, 77 S.E. 718 (S.C. 1913)",
+    "link_md": "[City of Greenville v. Green, 77 S.E. 718 (S.C. 1913)](https://syfert.com/south-carolina/cases/93-s-c-573/city-of-greenville-v-green)",
+    "match_kind": "semantic",
+    "similarity": 0.6174
+   },
+   {
+    "cluster_id": 10849203,
+    "case_name": "Richard Phillip of the Family Valdez v. Chesapeake JDR District Court",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2026-04-27",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-10849203/richard-phillip-of-the-family-valdez-v-chesapeake-jdr-district-court",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Richard Phillip of the Fam. Valdez v. Chesapeake JDR Dist. Court, No. 25-2265 (4th Cir. Apr. 27, 2026)",
+    "link_md": "[Richard Phillip of the Fam. Valdez v. Chesapeake JDR Dist. Court, No. 25-2265 (4th Cir. Apr. 27, 2026)](https://syfert.com/federal/circuits/cases/cl-10849203/richard-phillip-of-the-family-valdez-v-chesapeake-jdr-district-court)",
+    "match_kind": "semantic",
+    "similarity": 0.6172
+   },
+   {
+    "cluster_id": 6807027,
+    "case_name": "Murdo Independent School Dist. v. Litzenberg",
+    "citations": [
+     "235 N.W. 606",
+     "58 S.D. 162",
+     "1931 S.D. LEXIS 48"
+    ],
+    "court": "South Dakota Supreme Court",
+    "date_filed": "1931-03-10",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/south-dakota/cases/58-s-d-162/murdo-independent-school-dist-v-litzenberg",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Murdo Indep. Sch. Dist. v. Litzenberg, 235 N.W. 606 (S.D. 1931)",
+    "link_md": "[Murdo Indep. Sch. Dist. v. Litzenberg, 235 N.W. 606 (S.D. 1931)](https://syfert.com/south-dakota/cases/58-s-d-162/murdo-independent-school-dist-v-litzenberg)",
+    "match_kind": "semantic",
+    "similarity": 0.6168
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

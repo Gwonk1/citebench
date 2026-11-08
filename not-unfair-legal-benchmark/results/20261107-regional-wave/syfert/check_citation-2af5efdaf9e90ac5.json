@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "600 P.2d 57",
+  "expected_case_name": "People v. Calvaresi"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"600 P.2d 57\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1181136,\n            \"case_name\": \"People v. Calvaresi\",\n            \"citations\": [\n                \"600 P.2d 57\"\n            ],\n            \"court\": \"Supreme Court of Colorado\",\n            \"date_filed\": \"1979-09-04\",\n            \"status\": \"Published\",\n            \"cited_by\": 22,\n            \"url\": \"https://syfert.com/colorado/cases/198-colo-321/people-v-calvaresi\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Calvaresi, 600 P.2d 57 (Colo. 1979)\",\n            \"link_md\": \"[People v. Calvaresi, 600 P.2d 57 (Colo. 1979)](https://syfert.com/colorado/cases/198-colo-321/people-v-calvaresi)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 9,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Calvaresi\",\n        \"actual\": \"People v. Calvaresi\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "600 P.2d 57",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1181136,
+    "case_name": "People v. Calvaresi",
+    "citations": [
+     "600 P.2d 57"
+    ],
+    "court": "Supreme Court of Colorado",
+    "date_filed": "1979-09-04",
+    "status": "Published",
+    "cited_by": 22,
+    "url": "https://syfert.com/colorado/cases/198-colo-321/people-v-calvaresi",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Calvaresi, 600 P.2d 57 (Colo. 1979)",
+    "link_md": "[People v. Calvaresi, 600 P.2d 57 (Colo. 1979)](https://syfert.com/colorado/cases/198-colo-321/people-v-calvaresi)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 9,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Calvaresi",
+   "actual": "People v. Calvaresi",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "233 S.W. 397",
+  "expected_case_name": "Evans v. Illinois Central Railroad"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"233 S.W. 397\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3548113,\n            \"case_name\": \"Evans v. Illinois Central Railroad\",\n            \"citations\": [\n                \"233 S.W. 397\"\n            ],\n            \"court\": \"Supreme Court of Missouri\",\n            \"date_filed\": \"1921-07-22\",\n            \"status\": \"Published\",\n            \"cited_by\": 31,\n            \"url\": \"https://syfert.com/missouri/cases/289-mo-493/evans-v-illinois-central-railroad\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Evans v. Illinois Cent. R.R., 233 S.W. 397 (Mo. 1921)\",\n            \"link_md\": \"[Evans v. Illinois Cent. R.R., 233 S.W. 397 (Mo. 1921)](https://syfert.com/missouri/cases/289-mo-493/evans-v-illinois-central-railroad)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Evans v. Illinois Central Railroad\",\n        \"actual\": \"Evans v. Illinois Central Railroad\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "233 S.W. 397",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3548113,
+    "case_name": "Evans v. Illinois Central Railroad",
+    "citations": [
+     "233 S.W. 397"
+    ],
+    "court": "Supreme Court of Missouri",
+    "date_filed": "1921-07-22",
+    "status": "Published",
+    "cited_by": 31,
+    "url": "https://syfert.com/missouri/cases/289-mo-493/evans-v-illinois-central-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Evans v. Illinois Cent. R.R., 233 S.W. 397 (Mo. 1921)",
+    "link_md": "[Evans v. Illinois Cent. R.R., 233 S.W. 397 (Mo. 1921)](https://syfert.com/missouri/cases/289-mo-493/evans-v-illinois-central-railroad)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Evans v. Illinois Central Railroad",
+   "actual": "Evans v. Illinois Central Railroad",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

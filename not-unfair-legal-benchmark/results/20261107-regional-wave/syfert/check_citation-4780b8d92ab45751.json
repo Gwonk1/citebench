@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "215 N.W. 661",
+  "expected_case_name": "Harris v. Harris"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"215 N.W. 661\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3436800,\n            \"case_name\": \"Harris v. Harris\",\n            \"citations\": [\n                \"215 N.W. 661\"\n            ],\n            \"court\": \"Supreme Court of Iowa\",\n            \"date_filed\": \"1927-10-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 28,\n            \"url\": \"https://syfert.com/iowa/cases/205-iowa-108/harris-v-harris\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Harris v. Harris, 215 N.W. 661 (Iowa 1927)\",\n            \"link_md\": \"[Harris v. Harris, 215 N.W. 661 (Iowa 1927)](https://syfert.com/iowa/cases/205-iowa-108/harris-v-harris)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 1,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": \"But See\",\n                \"strongest_citer\": \"Von Knorr v. Miles\",\n                \"strongest_date\": \"1945-05-09\",\n                \"strongest_citer_cluster_id\": 1968777,\n                \"strongest_citer_published\": true\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Harris v. Harris\",\n        \"actual\": \"Harris v. Harris\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "215 N.W. 661",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3436800,
+    "case_name": "Harris v. Harris",
+    "citations": [
+     "215 N.W. 661"
+    ],
+    "court": "Supreme Court of Iowa",
+    "date_filed": "1927-10-18",
+    "status": "Published",
+    "cited_by": 28,
+    "url": "https://syfert.com/iowa/cases/205-iowa-108/harris-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. Harris, 215 N.W. 661 (Iowa 1927)",
+    "link_md": "[Harris v. Harris, 215 N.W. 661 (Iowa 1927)](https://syfert.com/iowa/cases/205-iowa-108/harris-v-harris)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 1,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": "But See",
+     "strongest_citer": "Von Knorr v. Miles",
+     "strongest_date": "1945-05-09",
+     "strongest_citer_cluster_id": 1968777,
+     "strongest_citer_published": true
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Harris v. Harris",
+   "actual": "Harris v. Harris",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

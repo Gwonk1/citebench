@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "152 A. 549",
+  "expected_case_name": "Gaydos v. Domabyl"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"152 A. 549\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4089528,\n            \"case_name\": \"Gaydos v. Domabyl\",\n            \"citations\": [\n                \"152 A. 549\"\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"1930-10-06\",\n            \"status\": \"Published\",\n            \"cited_by\": 116,\n            \"url\": \"https://syfert.com/pennsylvania/cases/301-pa-523/gaydos-v-domabyl\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Gaydos v. Domabyl, 152 A. 549 (Pa. 1930)\",\n            \"link_md\": \"[Gaydos v. Domabyl, 152 A. 549 (Pa. 1930)](https://syfert.com/pennsylvania/cases/301-pa-523/gaydos-v-domabyl)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 16,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Gaydos v. Domabyl\",\n        \"actual\": \"Gaydos v. Domabyl\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "152 A. 549",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4089528,
+    "case_name": "Gaydos v. Domabyl",
+    "citations": [
+     "152 A. 549"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1930-10-06",
+    "status": "Published",
+    "cited_by": 116,
+    "url": "https://syfert.com/pennsylvania/cases/301-pa-523/gaydos-v-domabyl",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gaydos v. Domabyl, 152 A. 549 (Pa. 1930)",
+    "link_md": "[Gaydos v. Domabyl, 152 A. 549 (Pa. 1930)](https://syfert.com/pennsylvania/cases/301-pa-523/gaydos-v-domabyl)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 16,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Gaydos v. Domabyl",
+   "actual": "Gaydos v. Domabyl",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

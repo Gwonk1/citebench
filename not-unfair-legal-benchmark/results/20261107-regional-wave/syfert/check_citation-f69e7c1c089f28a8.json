@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "427 P.2d 765",
+  "expected_case_name": "Thomson v. Continental Insurance"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"427 P.2d 765\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1222473,\n            \"case_name\": \"Thomson v. Continental Insurance\",\n            \"citations\": [\n                \"427 P.2d 765\"\n            ],\n            \"court\": \"California Supreme Court\",\n            \"date_filed\": \"1967-05-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 66,\n            \"url\": \"https://syfert.com/california/cases/66-cal-2d-738/thomson-v-continental-insurance\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Thomson v. Cont'l Ins., 427 P.2d 765 (Cal. 1967)\",\n            \"link_md\": \"[Thomson v. Cont'l Ins., 427 P.2d 765 (Cal. 1967)](https://syfert.com/california/cases/66-cal-2d-738/thomson-v-continental-insurance)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 54,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Thomson v. Continental Insurance\",\n        \"actual\": \"Thomson v. Continental Insurance\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "427 P.2d 765",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1222473,
+    "case_name": "Thomson v. Continental Insurance",
+    "citations": [
+     "427 P.2d 765"
+    ],
+    "court": "California Supreme Court",
+    "date_filed": "1967-05-25",
+    "status": "Published",
+    "cited_by": 66,
+    "url": "https://syfert.com/california/cases/66-cal-2d-738/thomson-v-continental-insurance",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thomson v. Cont'l Ins., 427 P.2d 765 (Cal. 1967)",
+    "link_md": "[Thomson v. Cont'l Ins., 427 P.2d 765 (Cal. 1967)](https://syfert.com/california/cases/66-cal-2d-738/thomson-v-continental-insurance)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 54,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Thomson v. Continental Insurance",
+   "actual": "Thomson v. Continental Insurance",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

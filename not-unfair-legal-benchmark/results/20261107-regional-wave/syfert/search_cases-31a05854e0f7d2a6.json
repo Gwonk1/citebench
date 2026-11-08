@@ -1,0 +1,30 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "McNeal w/15 \"187 S.E.2d 271\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"McNeal w/15 \\\"187 S.E.2d 271\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8852150,\"bluebook\":\"McAllister v. Brown, 419 F. Supp. 588 (N.D. Ga. 1976)\",\"url\":\"https://syfert.com/federal/district/cases/419-f-supp-588/mcallister-v-brown\",\"date_filed\":\"1976-08-26\",\"cited_by\":0,\"snippet\":\"...On February 11, 1972 the Georgia Supreme Court decided the case of McNeal v. State, 228 Ga. 633 (h.n. 7), 187 S.E.2d 271 . In that case error was assigned that the court erred in admitting testimony of a police officer over objection…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "McNeal w/15 \"187 S.E.2d 271\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8852150,
+    "bluebook": "McAllister v. Brown, 419 F. Supp. 588 (N.D. Ga. 1976)",
+    "url": "https://syfert.com/federal/district/cases/419-f-supp-588/mcallister-v-brown",
+    "date_filed": "1976-08-26",
+    "cited_by": 0,
+    "snippet": "...On February 11, 1972 the Georgia Supreme Court decided the case of McNeal v. State, 228 Ga. 633 (h.n. 7), 187 S.E.2d 271 . In that case error was assigned that the court erred in admitting testimony of a police officer over objection…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

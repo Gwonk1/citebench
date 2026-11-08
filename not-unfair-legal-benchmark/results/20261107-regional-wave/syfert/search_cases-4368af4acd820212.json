@@ -1,0 +1,298 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Holmes w/15 \"150 S.E. 150\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Holmes w/15 \\\"150 S.E. 150\\\"\",\"total\":74,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4332366,\"bluebook\":\"Town of Boone v. State, 794 S.E.2d 710 (N.C. 2016)\",\"url\":\"https://syfert.com/north-carolina/cases/369-n-c-126/town-of-boone-v-state\",\"date_filed\":\"2016-12-21\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":1},\"snippet\":\"...Local political subdivisions are “mere instrumentalities of the State for the more convenient administration of local government,” Holmes v. City of Fayetteville, 197 N.C. 740, 746 , 150 S.E. 624 , 627 (1929), appeal dismissed per…\",\"passage_origin\":{\"case_name\":\"King v. Town of Chapel Hill\",\"cluster_id\":2678173,\"year\":2014,\"quoted_by_cases\":2}},{\"cluster_id\":5741238,\"bluebook\":\"Pope v. Pope, 60 S.E.2d 376 (Ga. 1950)\",\"url\":\"https://syfert.com/georgia/cases/207-ga-240/pope-v-pope\",\"date_filed\":\"1950-07-12\",\"cited_by\":2,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Holmes, 150 Ga. 195 ( 103 S. E. 157 ); Jackson v. Fite, 165 Ga. 382 ( 140 S. E. 754 ); Ray v. Anderson, 117 Ga. 136 ( 43 S. E. 408 ); Wikle v. Jones, 131 Ga. 37 ( 61 S. E. 1124 ); Walker v. Walker, 147 Ga. 614 ( 95 S. E. 10 ); Edwards…\"},{\"cluster_id\":1058463,\"bluebook\":\"Williams v. Le, 662 S.E.2d 73 (Va. 2008)\",\"url\":\"https://syfert.com/virginia/cases/276-va-161/williams-v-le\",\"date_filed\":\"2008-06-06\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...The evidence introduced in support of a requested instruction must amount to more than a scintilla.\\\"\\nHolmes v. Levine,\\n273 Va. 150\\n, 159,\\n639 S.E.2d 235\\n, 239 (2007) (citations omitted).\\nDr. Le argued two separate theories at trial to…\",\"holding\":\"An intervening cause does not relieve a defendant of liability if that cause is set in motion by the defendant's own wrongful act or omission.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":1290555,\"bluebook\":\"Town of Grimesland v. City of Washington, 66 S.E.2d 794 (N.C. 1951)\",\"url\":\"https://syfert.com/north-carolina/cases/234-n-c-117/town-of-grimesland-v-city-of-washington\",\"date_filed\":\"1951-09-19\",\"cited_by\":26,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Adams,\\nspeaking for tbe Court in\\nHolmes v. Fayetteville,\\n197 N.C. 740 , 150 S.E. 624 . In any event tbe defendant was clothed with authority in tbe premises by tbe general statute without the aid of tbe local act of 1931.\\nKennerly v.…\"},{\"cluster_id\":3925859,\"bluebook\":\"City of Charlotte v. Heath, 40 S.E.2d 600 (N.C. 1946)\",\"url\":\"https://syfert.com/north-carolina/cases/226-n-c-750/city-of-charlotte-v-heath\",\"date_filed\":\"1946-11-27\",\"cited_by\":49,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...own territorial limits, services similar to those enjoyed by its own inhabitants, such as light, water, sewerage, is well established.\\nHolmes v. Fayetteville,\\n197 N. C., 740 , 150 S. E., 624 ; McQuillin on Municipal Corporations, sec.…\",\"holding\":\"The label of fact put upon a conclusion of law does not defeat appellate review of whether a condemnation serves a public purpose.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":3920304,\"bluebook\":\"Town of Highlands v. City of Hickory, 162 S.E. 471 (N.C. 1932)\",\"url\":\"https://syfert.com/north-carolina/cases/202-n-c-167/town-of-highlands-v-city-of-hickory\",\"date_filed\":\"1932-01-27\",\"cited_by\":11,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...C., 140 , 154 S. E., 88 , and\\nHolmes v. Fayetteville,\\n197 N. C., 740 , 150 S. E., 624 .\\n¥e have examined the provisions of chapter 41, Private Laws 1931, with respect to the organization and government of the city of Hickory after its…\"},{\"cluster_id\":1058601,\"bluebook\":\"King v. Cooley, 650 S.E.2d 523 (Va. 2007)\",\"url\":\"https://syfert.com/virginia/cases/274-va-374/king-v-cooley\",\"date_filed\":\"2007-09-14\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...69\\n,\\n606 S.E.2d 819\\n(2005), and\\nHolmes v. Levine,\\n273 Va. 150\\n,\\n639 S.E.2d 235\\n(2007), the defendants contend that Dr. Harry's proffered testimony was admissible under Code § 8.01-399(B) because his testimony was factual in nature and…\"},{\"cluster_id\":5741492,\"bluebook\":\"Uhl v. Warner Robins Home Builders Corp., 78 S.E.2d 510 (Ga. 1953)\",\"url\":\"https://syfert.com/georgia/cases/210-ga-165/uhl-v-warner-robins-home-builders-corp\",\"date_filed\":\"1953-11-09\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...37 ( 61 S. E. 1124 ); Walker v. Walker, 147 Ga. 614 ( 95 S. E. 10 ); Johnson v. Holmes, 150 Ga. 195 ( 103 S. E. 157 ); Jackson v. Fite, 165 Ga. 382 ( 140 S. E. 754 ). Compare Wellborn v. Jones, 156 Ga. 34 ( 118 S. E. 654 ).\\nWrit of…\"},{\"cluster_id\":5740368,\"bluebook\":\"Taylor v. Taylor, 198 S.E. 678 (Ga. 1938)\",\"url\":\"https://syfert.com/georgia/cases/186-ga-667/taylor-v-taylor\",\"date_filed\":\"1938-09-16\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Holmes, 150 Ga. 195 ( 103 S. E. 157 ); Armor v. Stubbs, 150 Ga. 520 ( 104 S. E. 500 ); Jenkins v. Lane, 150 Ga. 533 ( 104 S. E. 195 ) ; Bass Foundry & Machine Co. v. Miller, 153 Ga. 764 ( 113 S. E. 1 ); Ansley Park Golf Club v.…\"},{\"cluster_id\":4891010,\"bluebook\":\"Cheryl Lloyd Humphrey Land Inv. Co. v. Resco Prods., Inc., 858 S.E.2d 795 (N.C. 2021)\",\"url\":\"https://syfert.com/north-carolina/cases/377-n-c-384/cheryl-lloyd-humphrey-land-inv-co-llc-v-resco-prods-inc\",\"date_filed\":\"2021-06-11\",\"cited_by\":0,\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (4891010 and its twin 10018782). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...126, 131 , 794 S.E.2d 710, 714 (2016)\\n(quoting Holmes v. City of Fayetteville, 197 N.C. 740, 746 , 150 S.E. 624 , 627 (1929));\\nsee also King, 367 N.C. at 404 , 758 S.E.2d at 369 (“[The Town of Chapel Hill is] a\\nmere creation of...\"},{\"cluster_id\":5735728,\"bluebook\":\"Jackson v. Fite, 140 S.E. 754 (Ga. 1927)\",\"url\":\"https://syfert.com/georgia/cases/165-ga-382/jackson-v-fite\",\"date_filed\":\"1927-12-16\",\"cited_by\":6,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...110 ( 80 S. E. 556 ) ; Ray v. Anderson, 117 Ga. 136 ( 43 S. E. 408 ) ; Johnson v. Holmes, 150 Ga. 195 ( 103 S. E. 157 ).\\nNo. 6056.\\nDecember 16, 1927.\\nPat Haralson and Joseph G. Collins, for plaintiffs.\\nJ. B. J ones, Pearce Matthews, and…\"},{\"cluster_id\":5738486,\"bluebook\":\"Collier v. City of Atlanta, 173 S.E. 853 (Ga. 1934)\",\"url\":\"https://syfert.com/georgia/cases/178-ga-575/collier-v-city-of-atlanta\",\"date_filed\":\"1934-02-24\",\"cited_by\":16,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...169 (2) ( 162 S. E. 495 ) ; Holmes v. Fayetteville, 197 N. C. 740 ( 150 S. E. 624 ); Childs v. Columbia, 87 S. C. 566 ( 70 S. E. 296 ).\\n2. The foregoing deals sufficiently with the controlling questions in the instant case. The petition…\"},{\"cluster_id\":5733923,\"bluebook\":\"Wellborn v. Jones, 118 S.E. 654 (Ga. 1923)\",\"url\":\"https://syfert.com/georgia/cases/156-ga-34/wellborn-v-jones\",\"date_filed\":\"1923-07-12\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...123 ( 74 S. E. 838 ) ; Johnson v. Holmes, 150 Ga. 195 ( 103 S. E. 157 ).\\nNo. 3446.\\nJuly 12, 1923.\\nJ. G. Collins, 0. J. Lilly, and T. S. Candler, for plaintiffs in error. W. A. Charters, and II. 11. Perry, contra.\\n2. When E. W. Butt died…\"},{\"cluster_id\":1271690,\"bluebook\":\"City of Raleigh v. Morand, 100 S.E.2d 870 (N.C. 1957)\",\"url\":\"https://syfert.com/north-carolina/cases/247-n-c-363/city-of-raleigh-v-morand\",\"date_filed\":\"1957-12-11\",\"cited_by\":23,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...582 , 39 L.R.A. (N.S.) 266, this Court said: “The Legislature has unquestioned authority to confer upon the town authorities jurisdiction for sanitary or police purposes of territory beyond the city limits.”\\nHolmes v. Fayetteville,\\n197…\"},{\"cluster_id\":5733513,\"bluebook\":\"Bass Foundry & Mach. Co. v. Miller, 113 S.E. 1 (Ga. 1922)\",\"url\":\"https://syfert.com/georgia/cases/153-ga-764/bass-foundry-machine-co-v-miller\",\"date_filed\":\"1922-07-12\",\"cited_by\":4,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Holmes, 150 Ga. 195 ( 103 S. E. 157 ); Armor v. Stubbs, 150 Ga. 520 ( 104 S. E. 500 ); Jenkins v. Lane, 150 Ga. 533 ( 104 S. E. 195 ).\\nWrit of error dismissed.\\nAll the Justices concur.\"},{\"cluster_id\":1058345,\"bluebook\":\"Smith v. Byungki Kim, 675 S.E.2d 193 (Va. 2009)\",\"url\":\"https://syfert.com/virginia/cases/277-va-486/smith-v-byungki-kim\",\"date_filed\":\"2009-04-17\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...74, 78 , 597 S.E.2d 43, 45 (2004); accord Holmes v. Levine, 273 Va. 150, 159 , 639 S.E.2d 235, 239 (2007); Monahan v. Obici Med. Mgmt. Servs., Inc., 271 Va. 621, 636 , 628 S.E.2d 330, 339 (2006); Honsinger v. Egan, 266 Va. 269, 274 ,…\"},{\"cluster_id\":5773898,\"bluebook\":\"Elder v. Phillips, 199 S.E. 330 (Ga. Ct. App. 1938)\",\"url\":\"https://syfert.com/georgia/cases/58-ga-app-717/elder-v-phillips\",\"date_filed\":\"1938-10-17\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Holmes, 150 Ga. 195 ( 103 S. E. 157 ) ; Armor v. Stubbs, 150 Ga. 520 ( 104 S. E. 500 ).\\nWrit of error dismissed, with direction.\\nStephens, P. J., and Sutton, J., concur.\"},{\"cluster_id\":3923337,\"bluebook\":\"Sing v. City of Charlotte, 195 S.E. 271 (N.C. 1938)\",\"url\":\"https://syfert.com/north-carolina/cases/213-n-c-60/sing-v-city-of-charlotte\",\"date_filed\":\"1938-02-02\",\"cited_by\":28,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In Holmes v. Fayetteville, 197 N. C., 740 , 150 S. E., 624 , upholding the right of the city “to use only such available funds as it has” for the purpose of extending its electric light facilities beyond the city limits, it was said…\"},{\"cluster_id\":1316968,\"bluebook\":\"State v. Furio, 148 S.E.2d 275 (N.C. 1966)\",\"url\":\"https://syfert.com/north-carolina/cases/267-n-c-353/state-v-furio\",\"date_filed\":\"1966-05-25\",\"cited_by\":26,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...349 , 100 S.E. 2d 835 ;\\nHolmes v. Fayetteville,\\n197 N.C. 740 , 150 S.E. 624 ;\\nState v. Eason,\\n114 N.C. 787 , 19 S.E. 88 . No grant of authority to the city of High Point to project beyond its territorial limits the effect of an…\"},{\"cluster_id\":3407462,\"bluebook\":\"Bank of Tupelo v. Collier, 15 S.E.2d 499 (Ga. 1941)\",\"url\":\"https://syfert.com/georgia/cases/192-ga-409/bank-of-tupelo-v-collier\",\"date_filed\":\"1941-06-16\",\"cited_by\":23,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...656 ( 90 S. E. 358 );\\nJill Bros. Inc.\\nv.\\nHolmes,\\n40\\nGa. App.\\n625 ( 150 S. E. 921 ). But after the term at which a judgment was rendered, the general rule is that the judgment is out of the power of the court to amend it in any manner,…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Holmes w/15 \"150 S.E. 150\"",
+  "total": 74,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4332366,
+    "bluebook": "Town of Boone v. State, 794 S.E.2d 710 (N.C. 2016)",
+    "url": "https://syfert.com/north-carolina/cases/369-n-c-126/town-of-boone-v-state",
+    "date_filed": "2016-12-21",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 1
+    },
+    "snippet": "...Local political subdivisions are “mere instrumentalities of the State for the more convenient administration of local government,” Holmes v. City of Fayetteville, 197 N.C. 740, 746 , 150 S.E. 624 , 627 (1929), appeal dismissed per…",
+    "passage_origin": {
+     "case_name": "King v. Town of Chapel Hill",
+     "cluster_id": 2678173,
+     "year": 2014,
+     "quoted_by_cases": 2
+    }
+   },
+   {
+    "cluster_id": 5741238,
+    "bluebook": "Pope v. Pope, 60 S.E.2d 376 (Ga. 1950)",
+    "url": "https://syfert.com/georgia/cases/207-ga-240/pope-v-pope",
+    "date_filed": "1950-07-12",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Holmes, 150 Ga. 195 ( 103 S. E. 157 ); Jackson v. Fite, 165 Ga. 382 ( 140 S. E. 754 ); Ray v. Anderson, 117 Ga. 136 ( 43 S. E. 408 ); Wikle v. Jones, 131 Ga. 37 ( 61 S. E. 1124 ); Walker v. Walker, 147 Ga. 614 ( 95 S. E. 10 ); Edwards…"
+   },
+   {
+    "cluster_id": 1058463,
+    "bluebook": "Williams v. Le, 662 S.E.2d 73 (Va. 2008)",
+    "url": "https://syfert.com/virginia/cases/276-va-161/williams-v-le",
+    "date_filed": "2008-06-06",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The evidence introduced in support of a requested instruction must amount to more than a scintilla.\"\nHolmes v. Levine,\n273 Va. 150\n, 159,\n639 S.E.2d 235\n, 239 (2007) (citations omitted).\nDr. Le argued two separate theories at trial to…",
+    "holding": "An intervening cause does not relieve a defendant of liability if that cause is set in motion by the defendant's own wrongful act or omission.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1290555,
+    "bluebook": "Town of Grimesland v. City of Washington, 66 S.E.2d 794 (N.C. 1951)",
+    "url": "https://syfert.com/north-carolina/cases/234-n-c-117/town-of-grimesland-v-city-of-washington",
+    "date_filed": "1951-09-19",
+    "cited_by": 26,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Adams,\nspeaking for tbe Court in\nHolmes v. Fayetteville,\n197 N.C. 740 , 150 S.E. 624 . In any event tbe defendant was clothed with authority in tbe premises by tbe general statute without the aid of tbe local act of 1931.\nKennerly v.…"
+   },
+   {
+    "cluster_id": 3925859,
+    "bluebook": "City of Charlotte v. Heath, 40 S.E.2d 600 (N.C. 1946)",
+    "url": "https://syfert.com/north-carolina/cases/226-n-c-750/city-of-charlotte-v-heath",
+    "date_filed": "1946-11-27",
+    "cited_by": 49,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...own territorial limits, services similar to those enjoyed by its own inhabitants, such as light, water, sewerage, is well established.\nHolmes v. Fayetteville,\n197 N. C., 740 , 150 S. E., 624 ; McQuillin on Municipal Corporations, sec.…",
+    "holding": "The label of fact put upon a conclusion of law does not defeat appellate review of whether a condemnation serves a public purpose.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 3920304,
+    "bluebook": "Town of Highlands v. City of Hickory, 162 S.E. 471 (N.C. 1932)",
+    "url": "https://syfert.com/north-carolina/cases/202-n-c-167/town-of-highlands-v-city-of-hickory",
+    "date_filed": "1932-01-27",
+    "cited_by": 11,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...C., 140 , 154 S. E., 88 , and\nHolmes v. Fayetteville,\n197 N. C., 740 , 150 S. E., 624 .\n¥e have examined the provisions of chapter 41, Private Laws 1931, with respect to the organization and government of the city of Hickory after its…"
+   },
+   {
+    "cluster_id": 1058601,
+    "bluebook": "King v. Cooley, 650 S.E.2d 523 (Va. 2007)",
+    "url": "https://syfert.com/virginia/cases/274-va-374/king-v-cooley",
+    "date_filed": "2007-09-14",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...69\n,\n606 S.E.2d 819\n(2005), and\nHolmes v. Levine,\n273 Va. 150\n,\n639 S.E.2d 235\n(2007), the defendants contend that Dr. Harry's proffered testimony was admissible under Code § 8.01-399(B) because his testimony was factual in nature and…"
+   },
+   {
+    "cluster_id": 5741492,
+    "bluebook": "Uhl v. Warner Robins Home Builders Corp., 78 S.E.2d 510 (Ga. 1953)",
+    "url": "https://syfert.com/georgia/cases/210-ga-165/uhl-v-warner-robins-home-builders-corp",
+    "date_filed": "1953-11-09",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...37 ( 61 S. E. 1124 ); Walker v. Walker, 147 Ga. 614 ( 95 S. E. 10 ); Johnson v. Holmes, 150 Ga. 195 ( 103 S. E. 157 ); Jackson v. Fite, 165 Ga. 382 ( 140 S. E. 754 ). Compare Wellborn v. Jones, 156 Ga. 34 ( 118 S. E. 654 ).\nWrit of…"
+   },
+   {
+    "cluster_id": 5740368,
+    "bluebook": "Taylor v. Taylor, 198 S.E. 678 (Ga. 1938)",
+    "url": "https://syfert.com/georgia/cases/186-ga-667/taylor-v-taylor",
+    "date_filed": "1938-09-16",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Holmes, 150 Ga. 195 ( 103 S. E. 157 ); Armor v. Stubbs, 150 Ga. 520 ( 104 S. E. 500 ); Jenkins v. Lane, 150 Ga. 533 ( 104 S. E. 195 ) ; Bass Foundry & Machine Co. v. Miller, 153 Ga. 764 ( 113 S. E. 1 ); Ansley Park Golf Club v.…"
+   },
+   {
+    "cluster_id": 4891010,
+    "bluebook": "Cheryl Lloyd Humphrey Land Inv. Co. v. Resco Prods., Inc., 858 S.E.2d 795 (N.C. 2021)",
+    "url": "https://syfert.com/north-carolina/cases/377-n-c-384/cheryl-lloyd-humphrey-land-inv-co-llc-v-resco-prods-inc",
+    "date_filed": "2021-06-11",
+    "cited_by": 0,
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (4891010 and its twin 10018782). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...126, 131 , 794 S.E.2d 710, 714 (2016)\n(quoting Holmes v. City of Fayetteville, 197 N.C. 740, 746 , 150 S.E. 624 , 627 (1929));\nsee also King, 367 N.C. at 404 , 758 S.E.2d at 369 (“[The Town of Chapel Hill is] a\nmere creation of..."
+   },
+   {
+    "cluster_id": 5735728,
+    "bluebook": "Jackson v. Fite, 140 S.E. 754 (Ga. 1927)",
+    "url": "https://syfert.com/georgia/cases/165-ga-382/jackson-v-fite",
+    "date_filed": "1927-12-16",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...110 ( 80 S. E. 556 ) ; Ray v. Anderson, 117 Ga. 136 ( 43 S. E. 408 ) ; Johnson v. Holmes, 150 Ga. 195 ( 103 S. E. 157 ).\nNo. 6056.\nDecember 16, 1927.\nPat Haralson and Joseph G. Collins, for plaintiffs.\nJ. B. J ones, Pearce Matthews, and…"
+   },
+   {
+    "cluster_id": 5738486,
+    "bluebook": "Collier v. City of Atlanta, 173 S.E. 853 (Ga. 1934)",
+    "url": "https://syfert.com/georgia/cases/178-ga-575/collier-v-city-of-atlanta",
+    "date_filed": "1934-02-24",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...169 (2) ( 162 S. E. 495 ) ; Holmes v. Fayetteville, 197 N. C. 740 ( 150 S. E. 624 ); Childs v. Columbia, 87 S. C. 566 ( 70 S. E. 296 ).\n2. The foregoing deals sufficiently with the controlling questions in the instant case. The petition…"
+   },
+   {
+    "cluster_id": 5733923,
+    "bluebook": "Wellborn v. Jones, 118 S.E. 654 (Ga. 1923)",
+    "url": "https://syfert.com/georgia/cases/156-ga-34/wellborn-v-jones",
+    "date_filed": "1923-07-12",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...123 ( 74 S. E. 838 ) ; Johnson v. Holmes, 150 Ga. 195 ( 103 S. E. 157 ).\nNo. 3446.\nJuly 12, 1923.\nJ. G. Collins, 0. J. Lilly, and T. S. Candler, for plaintiffs in error. W. A. Charters, and II. 11. Perry, contra.\n2. When E. W. Butt died…"
+   },
+   {
+    "cluster_id": 1271690,
+    "bluebook": "City of Raleigh v. Morand, 100 S.E.2d 870 (N.C. 1957)",
+    "url": "https://syfert.com/north-carolina/cases/247-n-c-363/city-of-raleigh-v-morand",
+    "date_filed": "1957-12-11",
+    "cited_by": 23,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...582 , 39 L.R.A. (N.S.) 266, this Court said: “The Legislature has unquestioned authority to confer upon the town authorities jurisdiction for sanitary or police purposes of territory beyond the city limits.”\nHolmes v. Fayetteville,\n197…"
+   },
+   {
+    "cluster_id": 5733513,
+    "bluebook": "Bass Foundry & Mach. Co. v. Miller, 113 S.E. 1 (Ga. 1922)",
+    "url": "https://syfert.com/georgia/cases/153-ga-764/bass-foundry-machine-co-v-miller",
+    "date_filed": "1922-07-12",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Holmes, 150 Ga. 195 ( 103 S. E. 157 ); Armor v. Stubbs, 150 Ga. 520 ( 104 S. E. 500 ); Jenkins v. Lane, 150 Ga. 533 ( 104 S. E. 195 ).\nWrit of error dismissed.\nAll the Justices concur."
+   },
+   {
+    "cluster_id": 1058345,
+    "bluebook": "Smith v. Byungki Kim, 675 S.E.2d 193 (Va. 2009)",
+    "url": "https://syfert.com/virginia/cases/277-va-486/smith-v-byungki-kim",
+    "date_filed": "2009-04-17",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...74, 78 , 597 S.E.2d 43, 45 (2004); accord Holmes v. Levine, 273 Va. 150, 159 , 639 S.E.2d 235, 239 (2007); Monahan v. Obici Med. Mgmt. Servs., Inc., 271 Va. 621, 636 , 628 S.E.2d 330, 339 (2006); Honsinger v. Egan, 266 Va. 269, 274 ,…"
+   },
+   {
+    "cluster_id": 5773898,
+    "bluebook": "Elder v. Phillips, 199 S.E. 330 (Ga. Ct. App. 1938)",
+    "url": "https://syfert.com/georgia/cases/58-ga-app-717/elder-v-phillips",
+    "date_filed": "1938-10-17",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Holmes, 150 Ga. 195 ( 103 S. E. 157 ) ; Armor v. Stubbs, 150 Ga. 520 ( 104 S. E. 500 ).\nWrit of error dismissed, with direction.\nStephens, P. J., and Sutton, J., concur."
+   },
+   {
+    "cluster_id": 3923337,
+    "bluebook": "Sing v. City of Charlotte, 195 S.E. 271 (N.C. 1938)",
+    "url": "https://syfert.com/north-carolina/cases/213-n-c-60/sing-v-city-of-charlotte",
+    "date_filed": "1938-02-02",
+    "cited_by": 28,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In Holmes v. Fayetteville, 197 N. C., 740 , 150 S. E., 624 , upholding the right of the city “to use only such available funds as it has” for the purpose of extending its electric light facilities beyond the city limits, it was said…"
+   },
+   {
+    "cluster_id": 1316968,
+    "bluebook": "State v. Furio, 148 S.E.2d 275 (N.C. 1966)",
+    "url": "https://syfert.com/north-carolina/cases/267-n-c-353/state-v-furio",
+    "date_filed": "1966-05-25",
+    "cited_by": 26,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...349 , 100 S.E. 2d 835 ;\nHolmes v. Fayetteville,\n197 N.C. 740 , 150 S.E. 624 ;\nState v. Eason,\n114 N.C. 787 , 19 S.E. 88 . No grant of authority to the city of High Point to project beyond its territorial limits the effect of an…"
+   },
+   {
+    "cluster_id": 3407462,
+    "bluebook": "Bank of Tupelo v. Collier, 15 S.E.2d 499 (Ga. 1941)",
+    "url": "https://syfert.com/georgia/cases/192-ga-409/bank-of-tupelo-v-collier",
+    "date_filed": "1941-06-16",
+    "cited_by": 23,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...656 ( 90 S. E. 358 );\nJill Bros. Inc.\nv.\nHolmes,\n40\nGa. App.\n625 ( 150 S. E. 921 ). But after the term at which a judgment was rendered, the general rule is that the judgment is out of the power of the court to amend it in any manner,…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

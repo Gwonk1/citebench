@@ -1,0 +1,79 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Consumers w/15 \"49 So. 2d 734\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Consumers w/15 \\\"49 So. 2d 734\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1692386,\"bluebook\":\"Chevron Oil Co. v. Snellgrove, 175 So. 2d 471 (Miss. 1965)\",\"url\":\"https://syfert.com/mississippi/cases/253-miss-356/chevron-oil-co-v-snellgrove\",\"date_filed\":\"1965-05-24\",\"cited_by\":31,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...generally held to be the value of the timber at the time and place where the trees were cut. Consumers Veneer Co. v. Chestnut, 210 Miss. 430 , 49 So. 2d 734\\n(1951); Anderson-Tully Co. v. Campbell, 193 Miss. 790 , 10 So. 2d 445 (1942);…\",\"holding\":\"A plaintiff may recover either the market value of destroyed merchantable timber or the land's diminution in value, but not both.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\"},{\"cluster_id\":1102033,\"bluebook\":\"Sys. Fuels, Inc. v. Barnes, 363 So. 2d 747 (Miss. 1978)\",\"url\":\"https://syfert.com/mississippi/cases/363-so-2d-747/system-fuels-inc-v-barnes\",\"date_filed\":\"1978-10-18\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...generally held to be the value of the timber at the time and place where the trees were cut. Consumers Veneer Co. v. Chestnut, 210 Miss. 430 , 49 So.2d 734 (1951); Anderson-Tully Co. v. Campbell, 193 Miss. 790 , 10 So.2d 445 (1942);…\"},{\"cluster_id\":8041394,\"bluebook\":\"Am. Potash & Chem. Corp. v. Nevins, 163 So. 2d 224 (Miss. 1964)\",\"url\":\"https://syfert.com/mississippi/cases/249-miss-450/american-potash-chemical-corp-v-nevins\",\"date_filed\":\"1964-04-20\",\"cited_by\":4,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In Consumers Veneer Co. v. Chestnut, 210 Miss. 430 , 49 So. 2d 734 , it was held that the amount and value of the timber was for the jury to determine. In that case the defendant admitted that he cut timber belonging to the plaintiff.…\"},{\"cluster_id\":1107141,\"bluebook\":\"Washington v. Tem's Junior, Inc., 981 So. 2d 1047 (Miss. Ct. App. 2008)\",\"url\":\"https://syfert.com/mississippi/cases/981-so-2d-1047/washington-v-tems-junior-inc\",\"date_filed\":\"2008-04-29\",\"cited_by\":1,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (1107141 and its twin 7849498).\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...conceded in the trial court that Sanders was a statutory employee, may not relitigate the point on appeal. Consumers Veneer Co. v. Chestnut, 210 Miss. 430, 433-34 , 49 So.2d 734 , 735 (1951). However, a careful review of Washington's…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Consumers w/15 \"49 So. 2d 734\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1692386,
+    "bluebook": "Chevron Oil Co. v. Snellgrove, 175 So. 2d 471 (Miss. 1965)",
+    "url": "https://syfert.com/mississippi/cases/253-miss-356/chevron-oil-co-v-snellgrove",
+    "date_filed": "1965-05-24",
+    "cited_by": 31,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...generally held to be the value of the timber at the time and place where the trees were cut. Consumers Veneer Co. v. Chestnut, 210 Miss. 430 , 49 So. 2d 734\n(1951); Anderson-Tully Co. v. Campbell, 193 Miss. 790 , 10 So. 2d 445 (1942);…",
+    "holding": "A plaintiff may recover either the market value of destroyed merchantable timber or the land's diminution in value, but not both.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1102033,
+    "bluebook": "Sys. Fuels, Inc. v. Barnes, 363 So. 2d 747 (Miss. 1978)",
+    "url": "https://syfert.com/mississippi/cases/363-so-2d-747/system-fuels-inc-v-barnes",
+    "date_filed": "1978-10-18",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...generally held to be the value of the timber at the time and place where the trees were cut. Consumers Veneer Co. v. Chestnut, 210 Miss. 430 , 49 So.2d 734 (1951); Anderson-Tully Co. v. Campbell, 193 Miss. 790 , 10 So.2d 445 (1942);…"
+   },
+   {
+    "cluster_id": 8041394,
+    "bluebook": "Am. Potash & Chem. Corp. v. Nevins, 163 So. 2d 224 (Miss. 1964)",
+    "url": "https://syfert.com/mississippi/cases/249-miss-450/american-potash-chemical-corp-v-nevins",
+    "date_filed": "1964-04-20",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In Consumers Veneer Co. v. Chestnut, 210 Miss. 430 , 49 So. 2d 734 , it was held that the amount and value of the timber was for the jury to determine. In that case the defendant admitted that he cut timber belonging to the plaintiff.…"
+   },
+   {
+    "cluster_id": 1107141,
+    "bluebook": "Washington v. Tem's Junior, Inc., 981 So. 2d 1047 (Miss. Ct. App. 2008)",
+    "url": "https://syfert.com/mississippi/cases/981-so-2d-1047/washington-v-tems-junior-inc",
+    "date_filed": "2008-04-29",
+    "cited_by": 1,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (1107141 and its twin 7849498).",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...conceded in the trial court that Sanders was a statutory employee, may not relitigate the point on appeal. Consumers Veneer Co. v. Chestnut, 210 Miss. 430, 433-34 , 49 So.2d 734 , 735 (1951). However, a careful review of Washington's…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

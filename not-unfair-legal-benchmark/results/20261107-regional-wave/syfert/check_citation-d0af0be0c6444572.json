@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "120 S.E. 64",
+  "expected_case_name": "Breedin v. Smith"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"120 S.E. 64\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4123244,\n            \"case_name\": \"Breedin v. Smith\",\n            \"citations\": [\n                \"120 S.E. 64\"\n            ],\n            \"court\": \"Supreme Court of South Carolina\",\n            \"date_filed\": \"1923-11-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 25,\n            \"url\": \"https://syfert.com/south-carolina/cases/126-s-c-346/breedin-v-smith\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Breedin v. Smith, 120 S.E. 64 (S.C. 1923)\",\n            \"link_md\": \"[Breedin v. Smith, 120 S.E. 64 (S.C. 1923)](https://syfert.com/south-carolina/cases/126-s-c-346/breedin-v-smith)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Breedin v. Smith\",\n        \"actual\": \"Breedin v. Smith\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "120 S.E. 64",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4123244,
+    "case_name": "Breedin v. Smith",
+    "citations": [
+     "120 S.E. 64"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1923-11-16",
+    "status": "Published",
+    "cited_by": 25,
+    "url": "https://syfert.com/south-carolina/cases/126-s-c-346/breedin-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Breedin v. Smith, 120 S.E. 64 (S.C. 1923)",
+    "link_md": "[Breedin v. Smith, 120 S.E. 64 (S.C. 1923)](https://syfert.com/south-carolina/cases/126-s-c-346/breedin-v-smith)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Breedin v. Smith",
+   "actual": "Breedin v. Smith",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

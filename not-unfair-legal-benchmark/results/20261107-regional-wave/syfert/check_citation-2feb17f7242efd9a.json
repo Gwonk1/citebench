@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "187 S.E.2d 271",
+  "expected_case_name": "McNeal v. State"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"187 S.E.2d 271\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1343458,\n            \"case_name\": \"McNeal v. State\",\n            \"citations\": [\n                \"187 S.E.2d 271\"\n            ],\n            \"court\": \"Supreme Court of Georgia\",\n            \"date_filed\": \"1972-02-11\",\n            \"status\": \"Published\",\n            \"cited_by\": 94,\n            \"url\": \"https://syfert.com/georgia/cases/228-ga-633/mcneal-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"McNeal v. State, 187 S.E.2d 271 (Ga. 1972)\",\n            \"link_md\": \"[McNeal v. State, 187 S.E.2d 271 (Ga. 1972)](https://syfert.com/georgia/cases/228-ga-633/mcneal-v-state)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 47,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"affirmed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"McNeal v. State\",\n        \"actual\": \"McNeal v. State\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "187 S.E.2d 271",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1343458,
+    "case_name": "McNeal v. State",
+    "citations": [
+     "187 S.E.2d 271"
+    ],
+    "court": "Supreme Court of Georgia",
+    "date_filed": "1972-02-11",
+    "status": "Published",
+    "cited_by": 94,
+    "url": "https://syfert.com/georgia/cases/228-ga-633/mcneal-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McNeal v. State, 187 S.E.2d 271 (Ga. 1972)",
+    "link_md": "[McNeal v. State, 187 S.E.2d 271 (Ga. 1972)](https://syfert.com/georgia/cases/228-ga-633/mcneal-v-state)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 47,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "McNeal v. State",
+   "actual": "McNeal v. State",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

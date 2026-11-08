@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "700 So. 2d 120",
+  "expected_case_name": "Crowell v. Clay Hyder Trucking Lines"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"700 So. 2d 120\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1799182,\n            \"case_name\": \"Crowell v. Clay Hyder Trucking Lines\",\n            \"citations\": [\n                \"700 So. 2d 120\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"1997-10-08\",\n            \"status\": \"Published\",\n            \"cited_by\": 21,\n            \"url\": \"https://syfert.com/florida/cases/700-so-2d-120/crowell-v-clay-hyder-trucking-lines\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Crowell v. Clay Hyder Trucking Lines, 700 So. 2d 120 (Fla. 2d DCA 1997)\",\n            \"link_md\": \"[Crowell v. Clay Hyder Trucking Lines, 700 So. 2d 120 (Fla. 2d DCA 1997)](https://syfert.com/florida/cases/700-so-2d-120/crowell-v-clay-hyder-trucking-lines)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 19,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Crowell v. Clay Hyder Trucking Lines\",\n        \"actual\": \"Crowell v. Clay Hyder Trucking Lines\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "700 So. 2d 120",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1799182,
+    "case_name": "Crowell v. Clay Hyder Trucking Lines",
+    "citations": [
+     "700 So. 2d 120"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "1997-10-08",
+    "status": "Published",
+    "cited_by": 21,
+    "url": "https://syfert.com/florida/cases/700-so-2d-120/crowell-v-clay-hyder-trucking-lines",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Crowell v. Clay Hyder Trucking Lines, 700 So. 2d 120 (Fla. 2d DCA 1997)",
+    "link_md": "[Crowell v. Clay Hyder Trucking Lines, 700 So. 2d 120 (Fla. 2d DCA 1997)](https://syfert.com/florida/cases/700-so-2d-120/crowell-v-clay-hyder-trucking-lines)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 19,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Crowell v. Clay Hyder Trucking Lines",
+   "actual": "Crowell v. Clay Hyder Trucking Lines",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

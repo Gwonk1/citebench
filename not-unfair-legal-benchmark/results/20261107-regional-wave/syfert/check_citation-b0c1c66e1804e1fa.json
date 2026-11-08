@@ -1,0 +1,53 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "578 P.2d 925",
+  "expected_case_name": "Garfinkle v. Superior Court"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"578 P.2d 925\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1174730,\n            \"case_name\": \"Garfinkle v. Superior Court\",\n            \"citations\": [\n                \"578 P.2d 925\"\n            ],\n            \"court\": \"California Supreme Court\",\n            \"date_filed\": \"1978-05-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 85,\n            \"url\": \"https://syfert.com/california/cases/21-cal-3d-268/garfinkle-v-superior-court\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Garfinkle v. Superior Court, 578 P.2d 925 (Cal. 1978)\",\n            \"link_md\": \"[Garfinkle v. Superior Court, 578 P.2d 925 (Cal. 1978)](https://syfert.com/california/cases/21-cal-3d-268/garfinkle-v-superior-court)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 1,\n                \"green\": 63,\n                \"procedural\": 0,\n                \"strongest_signal\": \"But See\",\n                \"strongest_citer\": \"Little v. CFS Service Corp.\",\n                \"strongest_date\": \"1987-01-27\",\n                \"strongest_citer_cluster_id\": 2150602,\n                \"strongest_citer_published\": true\n            },\n            \"disposition\": \"petition denied\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Garfinkle v. Superior Court\",\n        \"actual\": \"Garfinkle v. Superior Court\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "578 P.2d 925",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1174730,
+    "case_name": "Garfinkle v. Superior Court",
+    "citations": [
+     "578 P.2d 925"
+    ],
+    "court": "California Supreme Court",
+    "date_filed": "1978-05-16",
+    "status": "Published",
+    "cited_by": 85,
+    "url": "https://syfert.com/california/cases/21-cal-3d-268/garfinkle-v-superior-court",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Garfinkle v. Superior Court, 578 P.2d 925 (Cal. 1978)",
+    "link_md": "[Garfinkle v. Superior Court, 578 P.2d 925 (Cal. 1978)](https://syfert.com/california/cases/21-cal-3d-268/garfinkle-v-superior-court)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 1,
+     "green": 63,
+     "procedural": 0,
+     "strongest_signal": "But See",
+     "strongest_citer": "Little v. CFS Service Corp.",
+     "strongest_date": "1987-01-27",
+     "strongest_citer_cluster_id": 2150602,
+     "strongest_citer_published": true
+    },
+    "disposition": "petition denied",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Garfinkle v. Superior Court",
+   "actual": "Garfinkle v. Superior Court",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

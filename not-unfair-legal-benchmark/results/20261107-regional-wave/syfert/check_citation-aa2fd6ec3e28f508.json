@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "36 A.2d 310",
+  "expected_case_name": "Rosengarten Estate"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"36 A.2d 310\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4092938,\n            \"case_name\": \"Rosengarten Estate\",\n            \"citations\": [\n                \"36 A.2d 310\"\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"1944-01-04\",\n            \"status\": \"Published\",\n            \"cited_by\": 47,\n            \"url\": \"https://syfert.com/pennsylvania/cases/349-pa-32/rosengarten-estate\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Rosengarten Est., 36 A.2d 310 (Pa. 1944)\",\n            \"link_md\": \"[Rosengarten Est., 36 A.2d 310 (Pa. 1944)](https://syfert.com/pennsylvania/cases/349-pa-32/rosengarten-estate)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 4,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Rosengarten Estate\",\n        \"actual\": \"Rosengarten Estate\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "36 A.2d 310",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4092938,
+    "case_name": "Rosengarten Estate",
+    "citations": [
+     "36 A.2d 310"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1944-01-04",
+    "status": "Published",
+    "cited_by": 47,
+    "url": "https://syfert.com/pennsylvania/cases/349-pa-32/rosengarten-estate",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rosengarten Est., 36 A.2d 310 (Pa. 1944)",
+    "link_md": "[Rosengarten Est., 36 A.2d 310 (Pa. 1944)](https://syfert.com/pennsylvania/cases/349-pa-32/rosengarten-estate)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 4,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Rosengarten Estate",
+   "actual": "Rosengarten Estate",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

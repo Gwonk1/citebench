@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "265 S.W.2d 528",
+  "expected_case_name": "Teague v. Scurlock"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"265 S.W.2d 528\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7869797,\n            \"case_name\": \"Teague v. Scurlock\",\n            \"citations\": [\n                \"265 S.W.2d 528\"\n            ],\n            \"court\": \"Supreme Court of Arkansas\",\n            \"date_filed\": \"1954-03-08\",\n            \"status\": \"Published\",\n            \"cited_by\": 5,\n            \"url\": \"https://syfert.com/arkansas/cases/265-s-w-2d-528/teague-v-scurlock\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Teague v. Scurlock, 265 S.W.2d 528 (Ark. 1954)\",\n            \"link_md\": \"[Teague v. Scurlock, 265 S.W.2d 528 (Ark. 1954)](https://syfert.com/arkansas/cases/265-s-w-2d-528/teague-v-scurlock)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Teague v. Scurlock\",\n        \"actual\": \"Teague v. Scurlock\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "265 S.W.2d 528",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7869797,
+    "case_name": "Teague v. Scurlock",
+    "citations": [
+     "265 S.W.2d 528"
+    ],
+    "court": "Supreme Court of Arkansas",
+    "date_filed": "1954-03-08",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/arkansas/cases/265-s-w-2d-528/teague-v-scurlock",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Teague v. Scurlock, 265 S.W.2d 528 (Ark. 1954)",
+    "link_md": "[Teague v. Scurlock, 265 S.W.2d 528 (Ark. 1954)](https://syfert.com/arkansas/cases/265-s-w-2d-528/teague-v-scurlock)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Teague v. Scurlock",
+   "actual": "Teague v. Scurlock",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

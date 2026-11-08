@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "175 P. 6",
+  "expected_case_name": "People v. Keyes"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"175 P. 6\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3302594,\n            \"case_name\": \"People v. Keyes\",\n            \"citations\": [\n                \"175 P. 6\"\n            ],\n            \"court\": \"California Supreme Court\",\n            \"date_filed\": \"1918-09-05\",\n            \"status\": \"Published\",\n            \"cited_by\": 30,\n            \"url\": \"https://syfert.com/california/cases/178-cal-794/people-v-keyes\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Keyes, 175 P. 6 (Cal. 1918)\",\n            \"link_md\": \"[People v. Keyes, 175 P. 6 (Cal. 1918)](https://syfert.com/california/cases/178-cal-794/people-v-keyes)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 13,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Keyes\",\n        \"actual\": \"People v. Keyes\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "175 P. 6",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3302594,
+    "case_name": "People v. Keyes",
+    "citations": [
+     "175 P. 6"
+    ],
+    "court": "California Supreme Court",
+    "date_filed": "1918-09-05",
+    "status": "Published",
+    "cited_by": 30,
+    "url": "https://syfert.com/california/cases/178-cal-794/people-v-keyes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Keyes, 175 P. 6 (Cal. 1918)",
+    "link_md": "[People v. Keyes, 175 P. 6 (Cal. 1918)](https://syfert.com/california/cases/178-cal-794/people-v-keyes)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 13,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Keyes",
+   "actual": "People v. Keyes",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

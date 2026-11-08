@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "177 S.W.2d 41",
+  "expected_case_name": "Kane v. Carper-Dover Mercantile Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"177 S.W.2d 41\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3271646,\n            \"case_name\": \"Kane v. Carper-Dover Mercantile Co.\",\n            \"citations\": [\n                \"177 S.W.2d 41\"\n            ],\n            \"court\": \"Supreme Court of Arkansas\",\n            \"date_filed\": \"1944-01-24\",\n            \"status\": \"Published\",\n            \"cited_by\": 18,\n            \"url\": \"https://syfert.com/arkansas/cases/177-s-w-2d-41/kane-v-carper-dover-mercantile-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Kane v. Carper-Dover Mercantile Co., 177 S.W.2d 41 (Ark. 1944)\",\n            \"link_md\": \"[Kane v. Carper-Dover Mercantile Co., 177 S.W.2d 41 (Ark. 1944)](https://syfert.com/arkansas/cases/177-s-w-2d-41/kane-v-carper-dover-mercantile-co)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Kane v. Carper-Dover Mercantile Co.\",\n        \"actual\": \"Kane v. Carper-Dover Mercantile Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "177 S.W.2d 41",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3271646,
+    "case_name": "Kane v. Carper-Dover Mercantile Co.",
+    "citations": [
+     "177 S.W.2d 41"
+    ],
+    "court": "Supreme Court of Arkansas",
+    "date_filed": "1944-01-24",
+    "status": "Published",
+    "cited_by": 18,
+    "url": "https://syfert.com/arkansas/cases/177-s-w-2d-41/kane-v-carper-dover-mercantile-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kane v. Carper-Dover Mercantile Co., 177 S.W.2d 41 (Ark. 1944)",
+    "link_md": "[Kane v. Carper-Dover Mercantile Co., 177 S.W.2d 41 (Ark. 1944)](https://syfert.com/arkansas/cases/177-s-w-2d-41/kane-v-carper-dover-mercantile-co)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Kane v. Carper-Dover Mercantile Co.",
+   "actual": "Kane v. Carper-Dover Mercantile Co.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

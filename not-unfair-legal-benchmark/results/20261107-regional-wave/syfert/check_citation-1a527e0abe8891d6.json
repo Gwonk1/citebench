@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "64 A. 314",
+  "expected_case_name": "Doan v. Vestry of the Parish of the Ascension"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"64 A. 314\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3487850,\n            \"case_name\": \"Doan v. Vestry of the Parish of the Ascension\",\n            \"citations\": [\n                \"64 A. 314\"\n            ],\n            \"court\": \"Court of Appeals of Maryland\",\n            \"date_filed\": \"1906-06-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 43,\n            \"url\": \"https://syfert.com/maryland/cases/103-md-662/doan-v-vestry-of-the-parish-of-the-ascension\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Doan v. Vestry of the Par. of the Ascension, 64 A. 314 (Md. 1906)\",\n            \"link_md\": \"[Doan v. Vestry of the Par. of the Ascension, 64 A. 314 (Md. 1906)](https://syfert.com/maryland/cases/103-md-662/doan-v-vestry-of-the-parish-of-the-ascension)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Doan v. Vestry of the Parish of the Ascension\",\n        \"actual\": \"Doan v. Vestry of the Parish of the Ascension\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "64 A. 314",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3487850,
+    "case_name": "Doan v. Vestry of the Parish of the Ascension",
+    "citations": [
+     "64 A. 314"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "1906-06-16",
+    "status": "Published",
+    "cited_by": 43,
+    "url": "https://syfert.com/maryland/cases/103-md-662/doan-v-vestry-of-the-parish-of-the-ascension",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Doan v. Vestry of the Par. of the Ascension, 64 A. 314 (Md. 1906)",
+    "link_md": "[Doan v. Vestry of the Par. of the Ascension, 64 A. 314 (Md. 1906)](https://syfert.com/maryland/cases/103-md-662/doan-v-vestry-of-the-parish-of-the-ascension)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Doan v. Vestry of the Parish of the Ascension",
+   "actual": "Doan v. Vestry of the Parish of the Ascension",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

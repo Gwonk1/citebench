@@ -1,0 +1,385 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Mitchell w/15 \"48 S.E. 298\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Mitchell w/15 \\\"48 S.E. 298\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":370043,\"case_name\":\"Sykes v. Mitchell\",\"citations\":[\"605 F.2d 1206\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1979-09-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/605-f-2d-1206/sykes-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sykes v. Mitchell, 605 F.2d 1206 (4th Cir. 1979)\",\"link_md\":\"[Sykes v. Mitchell, 605 F.2d 1206 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/605-f-2d-1206/sykes-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.746},{\"cluster_id\":362090,\"case_name\":\"Steward v. Mitchell\",\"citations\":[\"588 F.2d 1352\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1978-12-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/588-f-2d-1352/steward-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Steward v. Mitchell, 588 F.2d 1352 (4th Cir. 1978)\",\"link_md\":\"[Steward v. Mitchell, 588 F.2d 1352 (4th Cir. 1978)](https://syfert.com/federal/circuits/cases/588-f-2d-1352/steward-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7324},{\"cluster_id\":409885,\"case_name\":\"Smith v. Mitchell\",\"citations\":[\"691 F.2d 497\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-09-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/691-f-2d-497/smith-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith v. Mitchell, 691 F.2d 497 (4th Cir. 1982)\",\"link_md\":\"[Smith v. Mitchell, 691 F.2d 497 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/691-f-2d-497/smith-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7318},{\"cluster_id\":401502,\"case_name\":\"Pruitt v. Mitchell\",\"citations\":[\"673 F.2d 1315\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-02-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/673-f-2d-1315/pruitt-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pruitt v. Mitchell, 673 F.2d 1315 (4th Cir. 1982)\",\"link_md\":\"[Pruitt v. Mitchell, 673 F.2d 1315 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/673-f-2d-1315/pruitt-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7303},{\"cluster_id\":684331,\"case_name\":\"Mitchell v. Mitchell\",\"citations\":[\"42 F.3d 645\",\"1994 WL 695755\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-12-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/42-f-3d-645/mitchell-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mitchell v. Mitchell, 42 F.3d 645 (11th Cir. 1994)\",\"link_md\":\"[Mitchell v. Mitchell, 42 F.3d 645 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/42-f-3d-645/mitchell-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7292},{\"cluster_id\":395773,\"case_name\":\"Pruitt v. Mitchell\",\"citations\":[\"661 F.2d 925\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-05-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/661-f-2d-925/pruitt-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pruitt v. Mitchell, 661 F.2d 925 (4th Cir. 1981)\",\"link_md\":\"[Pruitt v. Mitchell, 661 F.2d 925 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-925/pruitt-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7284},{\"cluster_id\":395018,\"case_name\":\"Pruitt v. Mitchell\",\"citations\":[\"660 F.2d 492\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-04-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/660-f-2d-492/pruitt-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pruitt v. Mitchell, 660 F.2d 492 (4th Cir. 1981)\",\"link_md\":\"[Pruitt v. Mitchell, 660 F.2d 492 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/660-f-2d-492/pruitt-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7269},{\"cluster_id\":373625,\"case_name\":\"Smith v. Mitchell\",\"citations\":[\"612 F.2d 1310\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1979-12-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/612-f-2d-1310/smith-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith v. Mitchell, 612 F.2d 1310 (4th Cir. 1979)\",\"link_md\":\"[Smith v. Mitchell, 612 F.2d 1310 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/612-f-2d-1310/smith-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7265},{\"cluster_id\":395792,\"case_name\":\"Satterfield v. Mitchell\",\"citations\":[\"661 F.2d 926\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-05-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/661-f-2d-926/satterfield-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Satterfield v. Mitchell, 661 F.2d 926 (4th Cir. 1981)\",\"link_md\":\"[Satterfield v. Mitchell, 661 F.2d 926 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-926/satterfield-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7248},{\"cluster_id\":372282,\"case_name\":\"Smith v. Mitchell\",\"citations\":[\"610 F.2d 813\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1979-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/610-f-2d-813/smith-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith v. Mitchell, 610 F.2d 813 (4th Cir. 1979)\",\"link_md\":\"[Smith v. Mitchell, 610 F.2d 813 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-813/smith-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7238},{\"cluster_id\":395064,\"case_name\":\"Smith v. Mitchell\",\"citations\":[\"660 F.2d 493\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-04-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/660-f-2d-493/smith-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith v. Mitchell, 660 F.2d 493 (4th Cir. 1981)\",\"link_md\":\"[Smith v. Mitchell, 660 F.2d 493 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/660-f-2d-493/smith-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7232},{\"cluster_id\":376140,\"case_name\":\"Farmer v. Mitchell\",\"citations\":[\"618 F.2d 98\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1980-01-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/618-f-2d-98/farmer-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Farmer v. Mitchell, 618 F.2d 98 (4th Cir. 1980)\",\"link_md\":\"[Farmer v. Mitchell, 618 F.2d 98 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/618-f-2d-98/farmer-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7231},{\"cluster_id\":412364,\"case_name\":\"Harris v. Mitchell\",\"citations\":[\"696 F.2d 990\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-11-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/696-f-2d-990/harris-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. Mitchell, 696 F.2d 990 (4th Cir. 1982)\",\"link_md\":\"[Harris v. Mitchell, 696 F.2d 990 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/696-f-2d-990/harris-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.723},{\"cluster_id\":395644,\"case_name\":\"Fisher v. Mitchell\",\"citations\":[\"661 F.2d 920\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-05-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/661-f-2d-920/fisher-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fisher v. Mitchell, 661 F.2d 920 (4th Cir. 1981)\",\"link_md\":\"[Fisher v. Mitchell, 661 F.2d 920 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-920/fisher-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7206},{\"cluster_id\":370040,\"case_name\":\"Townes v. Mitchell\",\"citations\":[\"605 F.2d 1206\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1979-09-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/605-f-2d-1206/townes-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Townes v. Mitchell, 605 F.2d 1206 (4th Cir. 1979)\",\"link_md\":\"[Townes v. Mitchell, 605 F.2d 1206 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/605-f-2d-1206/townes-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.72},{\"cluster_id\":388641,\"case_name\":\"Vigue v. Mitchell\",\"citations\":[\"644 F.2d 883\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-02-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/644-f-2d-883/vigue-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vigue v. Mitchell, 644 F.2d 883 (4th Cir. 1981)\",\"link_md\":\"[Vigue v. Mitchell, 644 F.2d 883 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/644-f-2d-883/vigue-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7195},{\"cluster_id\":372276,\"case_name\":\"Shaw v. Mitchell\",\"citations\":[\"610 F.2d 813\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1979-11-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/610-f-2d-813/shaw-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Shaw v. Mitchell, 610 F.2d 813 (4th Cir. 1979)\",\"link_md\":\"[Shaw v. Mitchell, 610 F.2d 813 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-813/shaw-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.719},{\"cluster_id\":382491,\"case_name\":\"Pritchett v. Mitchell\",\"citations\":[\"631 F.2d 729\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1980-09-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/631-f-2d-729/pritchett-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pritchett v. Mitchell, 631 F.2d 729 (4th Cir. 1980)\",\"link_md\":\"[Pritchett v. Mitchell, 631 F.2d 729 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/631-f-2d-729/pritchett-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7189},{\"cluster_id\":401627,\"case_name\":\"Withers v. Mitchell\",\"citations\":[\"673 F.2d 1320\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-02-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/673-f-2d-1320/withers-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Withers v. Mitchell, 673 F.2d 1320 (4th Cir. 1982)\",\"link_md\":\"[Withers v. Mitchell, 673 F.2d 1320 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/673-f-2d-1320/withers-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.718},{\"cluster_id\":399722,\"case_name\":\"Tuck v. Mitchell\",\"citations\":[\"671 F.2d 501\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-09-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/671-f-2d-501/tuck-v-mitchell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tuck v. Mitchell, 671 F.2d 501 (4th Cir. 1981)\",\"link_md\":\"[Tuck v. Mitchell, 671 F.2d 501 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/671-f-2d-501/tuck-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.7168}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Mitchell w/15 \"48 S.E. 298\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 370043,
+    "case_name": "Sykes v. Mitchell",
+    "citations": [
+     "605 F.2d 1206"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1979-09-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/605-f-2d-1206/sykes-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sykes v. Mitchell, 605 F.2d 1206 (4th Cir. 1979)",
+    "link_md": "[Sykes v. Mitchell, 605 F.2d 1206 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/605-f-2d-1206/sykes-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.746
+   },
+   {
+    "cluster_id": 362090,
+    "case_name": "Steward v. Mitchell",
+    "citations": [
+     "588 F.2d 1352"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1978-12-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/588-f-2d-1352/steward-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Steward v. Mitchell, 588 F.2d 1352 (4th Cir. 1978)",
+    "link_md": "[Steward v. Mitchell, 588 F.2d 1352 (4th Cir. 1978)](https://syfert.com/federal/circuits/cases/588-f-2d-1352/steward-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7324
+   },
+   {
+    "cluster_id": 409885,
+    "case_name": "Smith v. Mitchell",
+    "citations": [
+     "691 F.2d 497"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-09-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/691-f-2d-497/smith-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith v. Mitchell, 691 F.2d 497 (4th Cir. 1982)",
+    "link_md": "[Smith v. Mitchell, 691 F.2d 497 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/691-f-2d-497/smith-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7318
+   },
+   {
+    "cluster_id": 401502,
+    "case_name": "Pruitt v. Mitchell",
+    "citations": [
+     "673 F.2d 1315"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-02-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/673-f-2d-1315/pruitt-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pruitt v. Mitchell, 673 F.2d 1315 (4th Cir. 1982)",
+    "link_md": "[Pruitt v. Mitchell, 673 F.2d 1315 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/673-f-2d-1315/pruitt-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7303
+   },
+   {
+    "cluster_id": 684331,
+    "case_name": "Mitchell v. Mitchell",
+    "citations": [
+     "42 F.3d 645",
+     "1994 WL 695755"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-12-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/42-f-3d-645/mitchell-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mitchell v. Mitchell, 42 F.3d 645 (11th Cir. 1994)",
+    "link_md": "[Mitchell v. Mitchell, 42 F.3d 645 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/42-f-3d-645/mitchell-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7292
+   },
+   {
+    "cluster_id": 395773,
+    "case_name": "Pruitt v. Mitchell",
+    "citations": [
+     "661 F.2d 925"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-05-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/661-f-2d-925/pruitt-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pruitt v. Mitchell, 661 F.2d 925 (4th Cir. 1981)",
+    "link_md": "[Pruitt v. Mitchell, 661 F.2d 925 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-925/pruitt-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7284
+   },
+   {
+    "cluster_id": 395018,
+    "case_name": "Pruitt v. Mitchell",
+    "citations": [
+     "660 F.2d 492"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-04-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/660-f-2d-492/pruitt-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pruitt v. Mitchell, 660 F.2d 492 (4th Cir. 1981)",
+    "link_md": "[Pruitt v. Mitchell, 660 F.2d 492 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/660-f-2d-492/pruitt-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7269
+   },
+   {
+    "cluster_id": 373625,
+    "case_name": "Smith v. Mitchell",
+    "citations": [
+     "612 F.2d 1310"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1979-12-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/612-f-2d-1310/smith-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith v. Mitchell, 612 F.2d 1310 (4th Cir. 1979)",
+    "link_md": "[Smith v. Mitchell, 612 F.2d 1310 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/612-f-2d-1310/smith-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7265
+   },
+   {
+    "cluster_id": 395792,
+    "case_name": "Satterfield v. Mitchell",
+    "citations": [
+     "661 F.2d 926"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-05-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/661-f-2d-926/satterfield-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Satterfield v. Mitchell, 661 F.2d 926 (4th Cir. 1981)",
+    "link_md": "[Satterfield v. Mitchell, 661 F.2d 926 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-926/satterfield-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7248
+   },
+   {
+    "cluster_id": 372282,
+    "case_name": "Smith v. Mitchell",
+    "citations": [
+     "610 F.2d 813"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1979-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/610-f-2d-813/smith-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith v. Mitchell, 610 F.2d 813 (4th Cir. 1979)",
+    "link_md": "[Smith v. Mitchell, 610 F.2d 813 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-813/smith-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7238
+   },
+   {
+    "cluster_id": 395064,
+    "case_name": "Smith v. Mitchell",
+    "citations": [
+     "660 F.2d 493"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-04-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/660-f-2d-493/smith-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith v. Mitchell, 660 F.2d 493 (4th Cir. 1981)",
+    "link_md": "[Smith v. Mitchell, 660 F.2d 493 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/660-f-2d-493/smith-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7232
+   },
+   {
+    "cluster_id": 376140,
+    "case_name": "Farmer v. Mitchell",
+    "citations": [
+     "618 F.2d 98"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1980-01-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/618-f-2d-98/farmer-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Farmer v. Mitchell, 618 F.2d 98 (4th Cir. 1980)",
+    "link_md": "[Farmer v. Mitchell, 618 F.2d 98 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/618-f-2d-98/farmer-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7231
+   },
+   {
+    "cluster_id": 412364,
+    "case_name": "Harris v. Mitchell",
+    "citations": [
+     "696 F.2d 990"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-11-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/696-f-2d-990/harris-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. Mitchell, 696 F.2d 990 (4th Cir. 1982)",
+    "link_md": "[Harris v. Mitchell, 696 F.2d 990 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/696-f-2d-990/harris-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.723
+   },
+   {
+    "cluster_id": 395644,
+    "case_name": "Fisher v. Mitchell",
+    "citations": [
+     "661 F.2d 920"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-05-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/661-f-2d-920/fisher-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fisher v. Mitchell, 661 F.2d 920 (4th Cir. 1981)",
+    "link_md": "[Fisher v. Mitchell, 661 F.2d 920 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-920/fisher-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7206
+   },
+   {
+    "cluster_id": 370040,
+    "case_name": "Townes v. Mitchell",
+    "citations": [
+     "605 F.2d 1206"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1979-09-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/605-f-2d-1206/townes-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Townes v. Mitchell, 605 F.2d 1206 (4th Cir. 1979)",
+    "link_md": "[Townes v. Mitchell, 605 F.2d 1206 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/605-f-2d-1206/townes-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.72
+   },
+   {
+    "cluster_id": 388641,
+    "case_name": "Vigue v. Mitchell",
+    "citations": [
+     "644 F.2d 883"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-02-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/644-f-2d-883/vigue-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vigue v. Mitchell, 644 F.2d 883 (4th Cir. 1981)",
+    "link_md": "[Vigue v. Mitchell, 644 F.2d 883 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/644-f-2d-883/vigue-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7195
+   },
+   {
+    "cluster_id": 372276,
+    "case_name": "Shaw v. Mitchell",
+    "citations": [
+     "610 F.2d 813"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1979-11-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/610-f-2d-813/shaw-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Shaw v. Mitchell, 610 F.2d 813 (4th Cir. 1979)",
+    "link_md": "[Shaw v. Mitchell, 610 F.2d 813 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-813/shaw-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.719
+   },
+   {
+    "cluster_id": 382491,
+    "case_name": "Pritchett v. Mitchell",
+    "citations": [
+     "631 F.2d 729"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1980-09-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/631-f-2d-729/pritchett-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pritchett v. Mitchell, 631 F.2d 729 (4th Cir. 1980)",
+    "link_md": "[Pritchett v. Mitchell, 631 F.2d 729 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/631-f-2d-729/pritchett-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7189
+   },
+   {
+    "cluster_id": 401627,
+    "case_name": "Withers v. Mitchell",
+    "citations": [
+     "673 F.2d 1320"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-02-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/673-f-2d-1320/withers-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Withers v. Mitchell, 673 F.2d 1320 (4th Cir. 1982)",
+    "link_md": "[Withers v. Mitchell, 673 F.2d 1320 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/673-f-2d-1320/withers-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.718
+   },
+   {
+    "cluster_id": 399722,
+    "case_name": "Tuck v. Mitchell",
+    "citations": [
+     "671 F.2d 501"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-09-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/671-f-2d-501/tuck-v-mitchell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tuck v. Mitchell, 671 F.2d 501 (4th Cir. 1981)",
+    "link_md": "[Tuck v. Mitchell, 671 F.2d 501 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/671-f-2d-501/tuck-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.7168
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "31 S.W. 190",
+  "expected_case_name": "Faires v. Cockerell"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"31 S.W. 190\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4174605,\n            \"case_name\": \"Faires v. Cockerell\",\n            \"citations\": [\n                \"31 S.W. 190\"\n            ],\n            \"court\": \"Texas Supreme Court\",\n            \"date_filed\": \"1895-05-20\",\n            \"status\": \"Published\",\n            \"cited_by\": 149,\n            \"url\": \"https://syfert.com/texas/cases/88-tex-428/faires-v-cockerell\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"28 L.R.A. 528\",\n                    \"recovered_from_citing_opinions\": 5,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 1,\n                    \"note\": \"Recovered parallel cite: 20 citing opinions confirm this cite (confidence 1.00)\"\n                }\n            ],\n            \"bluebook\": \"Faires v. Cockerell, 31 S.W. 190 (Tex. 1895)\",\n            \"link_md\": \"[Faires v. Cockerell, 31 S.W. 190 (Tex. 1895)](https://syfert.com/texas/cases/88-tex-428/faires-v-cockerell)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 5,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Faires v. Cockerell\",\n        \"actual\": \"Faires v. Cockerell\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "31 S.W. 190",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4174605,
+    "case_name": "Faires v. Cockerell",
+    "citations": [
+     "31 S.W. 190"
+    ],
+    "court": "Texas Supreme Court",
+    "date_filed": "1895-05-20",
+    "status": "Published",
+    "cited_by": 149,
+    "url": "https://syfert.com/texas/cases/88-tex-428/faires-v-cockerell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "28 L.R.A. 528",
+      "recovered_from_citing_opinions": 5,
+      "source": "harvester_v2_xeric",
+      "confidence": 1,
+      "note": "Recovered parallel cite: 20 citing opinions confirm this cite (confidence 1.00)"
+     }
+    ],
+    "bluebook": "Faires v. Cockerell, 31 S.W. 190 (Tex. 1895)",
+    "link_md": "[Faires v. Cockerell, 31 S.W. 190 (Tex. 1895)](https://syfert.com/texas/cases/88-tex-428/faires-v-cockerell)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 5,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Faires v. Cockerell",
+   "actual": "Faires v. Cockerell",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "164 P. 690",
+  "expected_case_name": "State v. Lundhigh"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"164 P. 690\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5338981,\n            \"case_name\": \"State v. Lundhigh\",\n            \"citations\": [\n                \"164 P. 690\"\n            ],\n            \"court\": \"Idaho Supreme Court\",\n            \"date_filed\": \"1917-04-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 46,\n            \"url\": \"https://syfert.com/idaho/cases/164-p-690/state-v-lundhigh\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Lundhigh, 164 P. 690 (Idaho 1917)\",\n            \"link_md\": \"[State v. Lundhigh, 164 P. 690 (Idaho 1917)](https://syfert.com/idaho/cases/164-p-690/state-v-lundhigh)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. Lundhigh\",\n        \"actual\": \"State v. Lundhigh\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "164 P. 690",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5338981,
+    "case_name": "State v. Lundhigh",
+    "citations": [
+     "164 P. 690"
+    ],
+    "court": "Idaho Supreme Court",
+    "date_filed": "1917-04-30",
+    "status": "Published",
+    "cited_by": 46,
+    "url": "https://syfert.com/idaho/cases/164-p-690/state-v-lundhigh",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Lundhigh, 164 P. 690 (Idaho 1917)",
+    "link_md": "[State v. Lundhigh, 164 P. 690 (Idaho 1917)](https://syfert.com/idaho/cases/164-p-690/state-v-lundhigh)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. Lundhigh",
+   "actual": "State v. Lundhigh",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

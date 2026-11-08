@@ -1,0 +1,87 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Colorado w/15 \"23 S.W. 862\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Colorado w/15 \\\"23 S.W. 862\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2440777,\"bluebook\":\"Lone Star Beer, Inc. v. Repub. Nat'l Bank of Dallas, 508 S.W.2d 686 (Tex. Civ. App.—Dallas 1974)\",\"url\":\"https://syfert.com/texas/cases/508-s-w-2d-686/lone-star-beer-inc-v-republic-national-bank-of-dallas\",\"date_filed\":\"1974-04-11\",\"cited_by\":22,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 (1892). In order to recover on a theory of conversion, it is necessary that Lone Star Beer allege and prove one of three things, that being, that it is the owner of the…\"},{\"cluster_id\":5202776,\"bluebook\":\"Moore v. Barlow, 352 S.W.2d 804 (Tex. Civ. App.—San Antonio 1961)\",\"url\":\"https://syfert.com/texas/cases/352-s-w-2d-804/moore-v-barlow\",\"date_filed\":\"1961-11-22\",\"cited_by\":4,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 .\\nPlaintiff proved conversion. He testified that he sent his agent to the lease premises on March 28, 1958, to begin moving the equipment. He had previously moved a…\"},{\"cluster_id\":1790995,\"bluebook\":\"Pac. Fin. Corp. v. Crouch, 243 S.W.2d 432 (Tex. Civ. App.—Texarkana 1951)\",\"url\":\"https://syfert.com/texas/cases/243-s-w-2d-432/pacific-finance-corp-v-crouch\",\"date_filed\":\"1951-09-20\",\"cited_by\":16,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...575 , 19 S.W. 1006 ; First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 ; Stockbridge v. Crockett, 15 Tex.Civ. App. 69, 38 S.W. 401 ; 53 Am.Jur., p. 860, Sec. 66. We think these requirements are met by both pleading and…\"},{\"cluster_id\":1534418,\"bluebook\":\"Lone Star Beer, Inc. v. First Nat'l Bank of Odessa, 468 S.W.2d 930 (Tex. Civ. App.—El Paso 1971)\",\"url\":\"https://syfert.com/texas/cases/468-s-w-2d-930/lone-star-beer-inc-v-first-national-bank-of-odessa\",\"date_filed\":\"1971-06-23\",\"cited_by\":18,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 (1892). In order to recover on a theory of conversion, it is necessary that Lone Star- Beer allege and prove one of three things, that being, that it is the owner of the…\"},{\"cluster_id\":2462620,\"bluebook\":\"Sw. Bell Tel. Co. v. Com. Metals Co. of Houston, 389 S.W.2d 116 (Tex. Civ. App.—Houston 1965)\",\"url\":\"https://syfert.com/texas/cases/389-s-w-2d-116/southwestern-bell-telephone-co-v-commercial-metals-co-of-houston\",\"date_filed\":\"1965-04-01\",\"cited_by\":5,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Co., Tex.Civ.App., 82 S.W.2d 1002 ; First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 .\\nOther related points raised by appellant have been examined by us and found to be without merit.\\nAffirmed.\\nWERLEIN, J.,…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Colorado w/15 \"23 S.W. 862\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2440777,
+    "bluebook": "Lone Star Beer, Inc. v. Repub. Nat'l Bank of Dallas, 508 S.W.2d 686 (Tex. Civ. App.—Dallas 1974)",
+    "url": "https://syfert.com/texas/cases/508-s-w-2d-686/lone-star-beer-inc-v-republic-national-bank-of-dallas",
+    "date_filed": "1974-04-11",
+    "cited_by": 22,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 (1892). In order to recover on a theory of conversion, it is necessary that Lone Star Beer allege and prove one of three things, that being, that it is the owner of the…"
+   },
+   {
+    "cluster_id": 5202776,
+    "bluebook": "Moore v. Barlow, 352 S.W.2d 804 (Tex. Civ. App.—San Antonio 1961)",
+    "url": "https://syfert.com/texas/cases/352-s-w-2d-804/moore-v-barlow",
+    "date_filed": "1961-11-22",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 .\nPlaintiff proved conversion. He testified that he sent his agent to the lease premises on March 28, 1958, to begin moving the equipment. He had previously moved a…"
+   },
+   {
+    "cluster_id": 1790995,
+    "bluebook": "Pac. Fin. Corp. v. Crouch, 243 S.W.2d 432 (Tex. Civ. App.—Texarkana 1951)",
+    "url": "https://syfert.com/texas/cases/243-s-w-2d-432/pacific-finance-corp-v-crouch",
+    "date_filed": "1951-09-20",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...575 , 19 S.W. 1006 ; First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 ; Stockbridge v. Crockett, 15 Tex.Civ. App. 69, 38 S.W. 401 ; 53 Am.Jur., p. 860, Sec. 66. We think these requirements are met by both pleading and…"
+   },
+   {
+    "cluster_id": 1534418,
+    "bluebook": "Lone Star Beer, Inc. v. First Nat'l Bank of Odessa, 468 S.W.2d 930 (Tex. Civ. App.—El Paso 1971)",
+    "url": "https://syfert.com/texas/cases/468-s-w-2d-930/lone-star-beer-inc-v-first-national-bank-of-odessa",
+    "date_filed": "1971-06-23",
+    "cited_by": 18,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 (1892). In order to recover on a theory of conversion, it is necessary that Lone Star- Beer allege and prove one of three things, that being, that it is the owner of the…"
+   },
+   {
+    "cluster_id": 2462620,
+    "bluebook": "Sw. Bell Tel. Co. v. Com. Metals Co. of Houston, 389 S.W.2d 116 (Tex. Civ. App.—Houston 1965)",
+    "url": "https://syfert.com/texas/cases/389-s-w-2d-116/southwestern-bell-telephone-co-v-commercial-metals-co-of-houston",
+    "date_filed": "1965-04-01",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Co., Tex.Civ.App., 82 S.W.2d 1002 ; First National Bank of Colorado v. Brown, 85 Tex. 80 , 23 S.W. 862 .\nOther related points raised by appellant have been examined by us and found to be without merit.\nAffirmed.\nWERLEIN, J.,…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

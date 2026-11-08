@@ -1,0 +1,409 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Prochut w/15 \"189 N.E.2d 260\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Prochut w/15 \\\"189 N.E.2d 260\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7439364,\"case_name\":\"Ernstthal v. Proctor\",\"citations\":[\"154 N.Y.S. 1120\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1915-06-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/154-n-y-s-1120/ernstthal-v-proctor\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ernstthal v. Proctor, 154 N.Y.S. 1120 (N.Y. App. Div. 1915)\",\"link_md\":\"[Ernstthal v. Proctor, 154 N.Y.S. 1120 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/154-n-y-s-1120/ernstthal-v-proctor)\",\"match_kind\":\"semantic\",\"similarity\":0.6063},{\"cluster_id\":6874270,\"case_name\":\"State ex rel. Professional Ass'n for the Training of the Mentally Retarded v. Johnson\",\"citations\":[\"601 N.E.2d 501\",\"65 Ohio St. 3d 1450\",\"1992 Ohio LEXIS 3133\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1992-11-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/65-ohio-st-3d-1450/state-ex-rel-professional-assn-for-the-training-of-the-mentally-retarded\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Prof'l Ass'n for the Training of the Mentally Retarded v. Johnson, 601 N.E.2d 501 (Ohio 1992)\",\"link_md\":\"[State ex rel. Prof'l Ass'n for the Training of the Mentally Retarded v. Johnson, 601 N.E.2d 501 (Ohio 1992)](https://syfert.com/ohio/cases/65-ohio-st-3d-1450/state-ex-rel-professional-assn-for-the-training-of-the-mentally-retarded)\",\"match_kind\":\"semantic\",\"similarity\":0.5996},{\"cluster_id\":8846811,\"case_name\":\"Burton v. Proctor\",\"citations\":[\"214 Ill. App. 644\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"1919-05-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/illinois/cases/214-ill-app-644/burton-v-proctor\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burton v. Proctor, 214 Ill. App. 644 (Ill. App. Ct. 1919)\",\"link_md\":\"[Burton v. Proctor, 214 Ill. App. 644 (Ill. App. Ct. 1919)](https://syfert.com/illinois/cases/214-ill-app-644/burton-v-proctor)\",\"match_kind\":\"semantic\",\"similarity\":0.5976},{\"cluster_id\":5662135,\"case_name\":\"People v. Cowie\",\"citations\":[\"88 Hun 498\",\"34 N.Y.S. 888\",\"9 N.Y. Crim. 541\",\"69 St. Rep. 83\",\"95 N.Y. Sup. Ct. 498\",\"69 N.Y. St. Rep. 83\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1895-07-06\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/new-york/cases/34-n-y-s-888/people-v-cowie\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Cowie, 88 Hun 498 (N.Y. Sup. Ct. 1895)\",\"link_md\":\"[People v. Cowie, 88 Hun 498 (N.Y. Sup. Ct. 1895)](https://syfert.com/new-york/cases/34-n-y-s-888/people-v-cowie)\",\"match_kind\":\"semantic\",\"similarity\":0.5937},{\"cluster_id\":7111365,\"case_name\":\"People ex rel. Difanis v. Futia\",\"citations\":[\"383 N.E.2d 763\",\"65 Ill. App. 3d 1027\",\"22 Ill. Dec. 955\",\"1978 Ill. App. LEXIS 3592\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"1978-12-05\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/illinois/cases/65-ill-app-3d-1027/people-ex-rel-difanis-v-futia\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Difanis v. Futia, 383 N.E.2d 763 (Ill. App. Ct. 1978)\",\"link_md\":\"[People ex rel. Difanis v. Futia, 383 N.E.2d 763 (Ill. App. Ct. 1978)](https://syfert.com/illinois/cases/65-ill-app-3d-1027/people-ex-rel-difanis-v-futia)\",\"match_kind\":\"semantic\",\"similarity\":0.5933},{\"cluster_id\":2239258,\"case_name\":\"State Ex Rel. Walter Banks v. Hamilton Superior Court\",\"citations\":[\"304 N.E.2d 776\",\"261 Ind. 426\",\"1973 Ind. LEXIS 478\"],\"court\":\"Indiana Supreme Court\",\"date_filed\":\"1973-12-27\",\"status\":\"Published\",\"cited_by\":10,\"url\":\"https://syfert.com/indiana/cases/261-ind-426/state-ex-rel-walter-banks-v-hamilton-superior-court\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Walter Banks v. Hamilton Superior Court, 304 N.E.2d 776 (Ind. 1973)\",\"link_md\":\"[State ex rel. Walter Banks v. Hamilton Superior Court, 304 N.E.2d 776 (Ind. 1973)](https://syfert.com/indiana/cases/261-ind-426/state-ex-rel-walter-banks-v-hamilton-superior-court)\",\"match_kind\":\"semantic\",\"similarity\":0.5914},{\"cluster_id\":432185,\"case_name\":\"Procup v. Stahl\",\"citations\":[\"729 F.2d 780\",\"1984 U.S. App. LEXIS 24764\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1984-03-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/729-f-2d-780/procup-v-stahl\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Procup v. Stahl, 729 F.2d 780 (11th Cir. 1984)\",\"link_md\":\"[Procup v. Stahl, 729 F.2d 780 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/729-f-2d-780/procup-v-stahl)\",\"match_kind\":\"semantic\",\"similarity\":0.5908},{\"cluster_id\":6869090,\"case_name\":\"State ex rel. Fyffe v. Pierce\",\"citations\":[\"533 N.E.2d 361\",\"38 Ohio St. 3d 708\",\"1988 Ohio LEXIS 1907\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1988-08-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/533-n-e-2d-361/state-ex-rel-fyffe-v-pierce\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Fyffe v. Pierce, 533 N.E.2d 361 (Ohio 1988)\",\"link_md\":\"[State ex rel. Fyffe v. Pierce, 533 N.E.2d 361 (Ohio 1988)](https://syfert.com/ohio/cases/533-n-e-2d-361/state-ex-rel-fyffe-v-pierce)\",\"match_kind\":\"semantic\",\"similarity\":0.5886},{\"cluster_id\":6595260,\"case_name\":\"State ex rel. McGrath v. Ninth Judicial Court\",\"citations\":[\"475 P.2d 778\",\"82 N.M. 81\"],\"court\":\"New Mexico Supreme Court\",\"date_filed\":\"1970-10-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-mexico/cases/82-n-m-81/state-ex-rel-mcgrath-v-ninth-judicial-court\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. McGrath v. Ninth Jud. Court, 475 P.2d 778 (N.M. 1970)\",\"link_md\":\"[State ex rel. McGrath v. Ninth Jud. Court, 475 P.2d 778 (N.M. 1970)](https://syfert.com/new-mexico/cases/82-n-m-81/state-ex-rel-mcgrath-v-ninth-judicial-court)\",\"match_kind\":\"semantic\",\"similarity\":0.5867},{\"cluster_id\":8141122,\"case_name\":\"W. N. Proctor Co. v. United States\",\"citations\":[\"37 Cust. Ct. 347\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1956-08-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/37-cust-ct-347/w-n-proctor-co-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. N. Proctor Co. v. United States, 37 Cust. Ct. 347 (Cust. Ct. 1956)\",\"link_md\":\"[W. N. Proctor Co. v. United States, 37 Cust. Ct. 347 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/37-cust-ct-347/w-n-proctor-co-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5864},{\"cluster_id\":6871818,\"case_name\":\"State ex rel. Fite v. Saddler\",\"citations\":[\"578 N.E.2d 820\",\"62 Ohio St. 3d 1427\",\"1991 Ohio LEXIS 2452\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1991-10-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/62-ohio-st-3d-1427/state-ex-rel-fite-v-saddler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Fite v. Saddler, 578 N.E.2d 820 (Ohio 1991)\",\"link_md\":\"[State ex rel. Fite v. Saddler, 578 N.E.2d 820 (Ohio 1991)](https://syfert.com/ohio/cases/62-ohio-st-3d-1427/state-ex-rel-fite-v-saddler)\",\"match_kind\":\"semantic\",\"similarity\":0.5855},{\"cluster_id\":8140592,\"case_name\":\"W. N. Proctor Co. v. United States\",\"citations\":[\"36 Cust. Ct. 391\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1956-04-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/36-cust-ct-391/w-n-proctor-co-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. N. Proctor Co. v. United States, 36 Cust. Ct. 391 (Cust. Ct. 1956)\",\"link_md\":\"[W. N. Proctor Co. v. United States, 36 Cust. Ct. 391 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/36-cust-ct-391/w-n-proctor-co-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5845},{\"cluster_id\":8137789,\"case_name\":\"W. N. Proctor Co. v. United States\",\"citations\":[\"31 Cust. Ct. 261\",\"1953 Cust. Ct. LEXIS 1067\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1953-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/31-cust-ct-261/w-n-proctor-co-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. N. Proctor Co. v. United States, 31 Cust. Ct. 261 (Cust. Ct. 1953)\",\"link_md\":\"[W. N. Proctor Co. v. United States, 31 Cust. Ct. 261 (Cust. Ct. 1953)](https://syfert.com/federal/specialty/cases/31-cust-ct-261/w-n-proctor-co-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5835},{\"cluster_id\":5714647,\"case_name\":\"Shields v. State\",\"citations\":[\"16 S.E. 66\",\"89 Ga. 549\"],\"court\":\"Supreme Court of Georgia\",\"date_filed\":\"1892-04-04\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/georgia/cases/89-ga-549/shields-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Shields v. State, 16 S.E. 66 (Ga. 1892)\",\"link_md\":\"[Shields v. State, 16 S.E. 66 (Ga. 1892)](https://syfert.com/georgia/cases/89-ga-549/shields-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5834},{\"cluster_id\":8140813,\"case_name\":\"W. N. Proctor Co. v. United States\",\"citations\":[\"36 Cust. Ct. 476\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1956-06-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/36-cust-ct-476/w-n-proctor-co-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. N. Proctor Co. v. United States, 36 Cust. Ct. 476 (Cust. Ct. 1956)\",\"link_md\":\"[W. N. Proctor Co. v. United States, 36 Cust. Ct. 476 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/36-cust-ct-476/w-n-proctor-co-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5833},{\"cluster_id\":6877948,\"case_name\":\"In re Writ of Prohibition for Jerninghan\",\"citations\":[\"638 N.E.2d 1040\",\"70 Ohio St. 3d 1436\",\"1994 Ohio LEXIS 2019\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1994-09-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/70-ohio-st-3d-1436/in-re-writ-of-prohibition-for-jerninghan\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Writ of Prohibition for Jerninghan, 638 N.E.2d 1040 (Ohio 1994)\",\"link_md\":\"[In re Writ of Prohibition for Jerninghan, 638 N.E.2d 1040 (Ohio 1994)](https://syfert.com/ohio/cases/70-ohio-st-3d-1436/in-re-writ-of-prohibition-for-jerninghan)\",\"match_kind\":\"semantic\",\"similarity\":0.5829},{\"cluster_id\":6872094,\"case_name\":\"State ex rel. Gnatovich v. Kimbler\",\"citations\":[\"581 N.E.2d 1097\",\"62 Ohio St. 3d 1475\",\"1991 Ohio LEXIS 2923\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1991-12-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/62-ohio-st-3d-1475/state-ex-rel-gnatovich-v-kimbler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Gnatovich v. Kimbler, 581 N.E.2d 1097 (Ohio 1991)\",\"link_md\":\"[State ex rel. Gnatovich v. Kimbler, 581 N.E.2d 1097 (Ohio 1991)](https://syfert.com/ohio/cases/62-ohio-st-3d-1475/state-ex-rel-gnatovich-v-kimbler)\",\"match_kind\":\"semantic\",\"similarity\":0.5827},{\"cluster_id\":6595281,\"case_name\":\"State ex rel. Schmitt v. District Court of the Second Judicial District\",\"citations\":[\"478 P.2d 559\",\"82 N.M. 231\"],\"court\":\"New Mexico Supreme Court\",\"date_filed\":\"1971-01-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-mexico/cases/82-n-m-231/state-ex-rel-schmitt-v-district-court-of-the-second-judicial-district\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Schmitt v. Dist. Court of the Second Jud. Dist., 478 P.2d 559 (N.M. 1971)\",\"link_md\":\"[State ex rel. Schmitt v. Dist. Court of the Second Jud. Dist., 478 P.2d 559 (N.M. 1971)](https://syfert.com/new-mexico/cases/82-n-m-231/state-ex-rel-schmitt-v-district-court-of-the-second-judicial-district)\",\"match_kind\":\"semantic\",\"similarity\":0.5823},{\"cluster_id\":8141215,\"case_name\":\"W. N. Proctor Co. v. United States\",\"citations\":[\"37 Cust. Ct. 396\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1956-10-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/37-cust-ct-396/w-n-proctor-co-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. N. Proctor Co. v. United States, 37 Cust. Ct. 396 (Cust. Ct. 1956)\",\"link_md\":\"[W. N. Proctor Co. v. United States, 37 Cust. Ct. 396 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/37-cust-ct-396/w-n-proctor-co-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5822},{\"cluster_id\":8140663,\"case_name\":\"W. N. Proctor Co. v. United States\",\"citations\":[\"36 Cust. Ct. 418\"],\"court\":\"U.S. Customs Court\",\"date_filed\":\"1956-05-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/specialty/cases/36-cust-ct-418/w-n-proctor-co-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. N. Proctor Co. v. United States, 36 Cust. Ct. 418 (Cust. Ct. 1956)\",\"link_md\":\"[W. N. Proctor Co. v. United States, 36 Cust. Ct. 418 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/36-cust-ct-418/w-n-proctor-co-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5821}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Prochut w/15 \"189 N.E.2d 260\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7439364,
+    "case_name": "Ernstthal v. Proctor",
+    "citations": [
+     "154 N.Y.S. 1120"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1915-06-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/154-n-y-s-1120/ernstthal-v-proctor",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ernstthal v. Proctor, 154 N.Y.S. 1120 (N.Y. App. Div. 1915)",
+    "link_md": "[Ernstthal v. Proctor, 154 N.Y.S. 1120 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/154-n-y-s-1120/ernstthal-v-proctor)",
+    "match_kind": "semantic",
+    "similarity": 0.6063
+   },
+   {
+    "cluster_id": 6874270,
+    "case_name": "State ex rel. Professional Ass'n for the Training of the Mentally Retarded v. Johnson",
+    "citations": [
+     "601 N.E.2d 501",
+     "65 Ohio St. 3d 1450",
+     "1992 Ohio LEXIS 3133"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1992-11-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/65-ohio-st-3d-1450/state-ex-rel-professional-assn-for-the-training-of-the-mentally-retarded",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Prof'l Ass'n for the Training of the Mentally Retarded v. Johnson, 601 N.E.2d 501 (Ohio 1992)",
+    "link_md": "[State ex rel. Prof'l Ass'n for the Training of the Mentally Retarded v. Johnson, 601 N.E.2d 501 (Ohio 1992)](https://syfert.com/ohio/cases/65-ohio-st-3d-1450/state-ex-rel-professional-assn-for-the-training-of-the-mentally-retarded)",
+    "match_kind": "semantic",
+    "similarity": 0.5996
+   },
+   {
+    "cluster_id": 8846811,
+    "case_name": "Burton v. Proctor",
+    "citations": [
+     "214 Ill. App. 644"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1919-05-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/illinois/cases/214-ill-app-644/burton-v-proctor",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burton v. Proctor, 214 Ill. App. 644 (Ill. App. Ct. 1919)",
+    "link_md": "[Burton v. Proctor, 214 Ill. App. 644 (Ill. App. Ct. 1919)](https://syfert.com/illinois/cases/214-ill-app-644/burton-v-proctor)",
+    "match_kind": "semantic",
+    "similarity": 0.5976
+   },
+   {
+    "cluster_id": 5662135,
+    "case_name": "People v. Cowie",
+    "citations": [
+     "88 Hun 498",
+     "34 N.Y.S. 888",
+     "9 N.Y. Crim. 541",
+     "69 St. Rep. 83",
+     "95 N.Y. Sup. Ct. 498",
+     "69 N.Y. St. Rep. 83"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1895-07-06",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/new-york/cases/34-n-y-s-888/people-v-cowie",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Cowie, 88 Hun 498 (N.Y. Sup. Ct. 1895)",
+    "link_md": "[People v. Cowie, 88 Hun 498 (N.Y. Sup. Ct. 1895)](https://syfert.com/new-york/cases/34-n-y-s-888/people-v-cowie)",
+    "match_kind": "semantic",
+    "similarity": 0.5937
+   },
+   {
+    "cluster_id": 7111365,
+    "case_name": "People ex rel. Difanis v. Futia",
+    "citations": [
+     "383 N.E.2d 763",
+     "65 Ill. App. 3d 1027",
+     "22 Ill. Dec. 955",
+     "1978 Ill. App. LEXIS 3592"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1978-12-05",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/illinois/cases/65-ill-app-3d-1027/people-ex-rel-difanis-v-futia",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Difanis v. Futia, 383 N.E.2d 763 (Ill. App. Ct. 1978)",
+    "link_md": "[People ex rel. Difanis v. Futia, 383 N.E.2d 763 (Ill. App. Ct. 1978)](https://syfert.com/illinois/cases/65-ill-app-3d-1027/people-ex-rel-difanis-v-futia)",
+    "match_kind": "semantic",
+    "similarity": 0.5933
+   },
+   {
+    "cluster_id": 2239258,
+    "case_name": "State Ex Rel. Walter Banks v. Hamilton Superior Court",
+    "citations": [
+     "304 N.E.2d 776",
+     "261 Ind. 426",
+     "1973 Ind. LEXIS 478"
+    ],
+    "court": "Indiana Supreme Court",
+    "date_filed": "1973-12-27",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/indiana/cases/261-ind-426/state-ex-rel-walter-banks-v-hamilton-superior-court",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Walter Banks v. Hamilton Superior Court, 304 N.E.2d 776 (Ind. 1973)",
+    "link_md": "[State ex rel. Walter Banks v. Hamilton Superior Court, 304 N.E.2d 776 (Ind. 1973)](https://syfert.com/indiana/cases/261-ind-426/state-ex-rel-walter-banks-v-hamilton-superior-court)",
+    "match_kind": "semantic",
+    "similarity": 0.5914
+   },
+   {
+    "cluster_id": 432185,
+    "case_name": "Procup v. Stahl",
+    "citations": [
+     "729 F.2d 780",
+     "1984 U.S. App. LEXIS 24764"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1984-03-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/729-f-2d-780/procup-v-stahl",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Procup v. Stahl, 729 F.2d 780 (11th Cir. 1984)",
+    "link_md": "[Procup v. Stahl, 729 F.2d 780 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/729-f-2d-780/procup-v-stahl)",
+    "match_kind": "semantic",
+    "similarity": 0.5908
+   },
+   {
+    "cluster_id": 6869090,
+    "case_name": "State ex rel. Fyffe v. Pierce",
+    "citations": [
+     "533 N.E.2d 361",
+     "38 Ohio St. 3d 708",
+     "1988 Ohio LEXIS 1907"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1988-08-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/533-n-e-2d-361/state-ex-rel-fyffe-v-pierce",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Fyffe v. Pierce, 533 N.E.2d 361 (Ohio 1988)",
+    "link_md": "[State ex rel. Fyffe v. Pierce, 533 N.E.2d 361 (Ohio 1988)](https://syfert.com/ohio/cases/533-n-e-2d-361/state-ex-rel-fyffe-v-pierce)",
+    "match_kind": "semantic",
+    "similarity": 0.5886
+   },
+   {
+    "cluster_id": 6595260,
+    "case_name": "State ex rel. McGrath v. Ninth Judicial Court",
+    "citations": [
+     "475 P.2d 778",
+     "82 N.M. 81"
+    ],
+    "court": "New Mexico Supreme Court",
+    "date_filed": "1970-10-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-mexico/cases/82-n-m-81/state-ex-rel-mcgrath-v-ninth-judicial-court",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. McGrath v. Ninth Jud. Court, 475 P.2d 778 (N.M. 1970)",
+    "link_md": "[State ex rel. McGrath v. Ninth Jud. Court, 475 P.2d 778 (N.M. 1970)](https://syfert.com/new-mexico/cases/82-n-m-81/state-ex-rel-mcgrath-v-ninth-judicial-court)",
+    "match_kind": "semantic",
+    "similarity": 0.5867
+   },
+   {
+    "cluster_id": 8141122,
+    "case_name": "W. N. Proctor Co. v. United States",
+    "citations": [
+     "37 Cust. Ct. 347"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1956-08-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/37-cust-ct-347/w-n-proctor-co-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. N. Proctor Co. v. United States, 37 Cust. Ct. 347 (Cust. Ct. 1956)",
+    "link_md": "[W. N. Proctor Co. v. United States, 37 Cust. Ct. 347 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/37-cust-ct-347/w-n-proctor-co-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5864
+   },
+   {
+    "cluster_id": 6871818,
+    "case_name": "State ex rel. Fite v. Saddler",
+    "citations": [
+     "578 N.E.2d 820",
+     "62 Ohio St. 3d 1427",
+     "1991 Ohio LEXIS 2452"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1991-10-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/62-ohio-st-3d-1427/state-ex-rel-fite-v-saddler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Fite v. Saddler, 578 N.E.2d 820 (Ohio 1991)",
+    "link_md": "[State ex rel. Fite v. Saddler, 578 N.E.2d 820 (Ohio 1991)](https://syfert.com/ohio/cases/62-ohio-st-3d-1427/state-ex-rel-fite-v-saddler)",
+    "match_kind": "semantic",
+    "similarity": 0.5855
+   },
+   {
+    "cluster_id": 8140592,
+    "case_name": "W. N. Proctor Co. v. United States",
+    "citations": [
+     "36 Cust. Ct. 391"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1956-04-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/36-cust-ct-391/w-n-proctor-co-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. N. Proctor Co. v. United States, 36 Cust. Ct. 391 (Cust. Ct. 1956)",
+    "link_md": "[W. N. Proctor Co. v. United States, 36 Cust. Ct. 391 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/36-cust-ct-391/w-n-proctor-co-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5845
+   },
+   {
+    "cluster_id": 8137789,
+    "case_name": "W. N. Proctor Co. v. United States",
+    "citations": [
+     "31 Cust. Ct. 261",
+     "1953 Cust. Ct. LEXIS 1067"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1953-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/31-cust-ct-261/w-n-proctor-co-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. N. Proctor Co. v. United States, 31 Cust. Ct. 261 (Cust. Ct. 1953)",
+    "link_md": "[W. N. Proctor Co. v. United States, 31 Cust. Ct. 261 (Cust. Ct. 1953)](https://syfert.com/federal/specialty/cases/31-cust-ct-261/w-n-proctor-co-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5835
+   },
+   {
+    "cluster_id": 5714647,
+    "case_name": "Shields v. State",
+    "citations": [
+     "16 S.E. 66",
+     "89 Ga. 549"
+    ],
+    "court": "Supreme Court of Georgia",
+    "date_filed": "1892-04-04",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/georgia/cases/89-ga-549/shields-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Shields v. State, 16 S.E. 66 (Ga. 1892)",
+    "link_md": "[Shields v. State, 16 S.E. 66 (Ga. 1892)](https://syfert.com/georgia/cases/89-ga-549/shields-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5834
+   },
+   {
+    "cluster_id": 8140813,
+    "case_name": "W. N. Proctor Co. v. United States",
+    "citations": [
+     "36 Cust. Ct. 476"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1956-06-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/36-cust-ct-476/w-n-proctor-co-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. N. Proctor Co. v. United States, 36 Cust. Ct. 476 (Cust. Ct. 1956)",
+    "link_md": "[W. N. Proctor Co. v. United States, 36 Cust. Ct. 476 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/36-cust-ct-476/w-n-proctor-co-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5833
+   },
+   {
+    "cluster_id": 6877948,
+    "case_name": "In re Writ of Prohibition for Jerninghan",
+    "citations": [
+     "638 N.E.2d 1040",
+     "70 Ohio St. 3d 1436",
+     "1994 Ohio LEXIS 2019"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1994-09-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/70-ohio-st-3d-1436/in-re-writ-of-prohibition-for-jerninghan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Writ of Prohibition for Jerninghan, 638 N.E.2d 1040 (Ohio 1994)",
+    "link_md": "[In re Writ of Prohibition for Jerninghan, 638 N.E.2d 1040 (Ohio 1994)](https://syfert.com/ohio/cases/70-ohio-st-3d-1436/in-re-writ-of-prohibition-for-jerninghan)",
+    "match_kind": "semantic",
+    "similarity": 0.5829
+   },
+   {
+    "cluster_id": 6872094,
+    "case_name": "State ex rel. Gnatovich v. Kimbler",
+    "citations": [
+     "581 N.E.2d 1097",
+     "62 Ohio St. 3d 1475",
+     "1991 Ohio LEXIS 2923"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1991-12-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/62-ohio-st-3d-1475/state-ex-rel-gnatovich-v-kimbler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Gnatovich v. Kimbler, 581 N.E.2d 1097 (Ohio 1991)",
+    "link_md": "[State ex rel. Gnatovich v. Kimbler, 581 N.E.2d 1097 (Ohio 1991)](https://syfert.com/ohio/cases/62-ohio-st-3d-1475/state-ex-rel-gnatovich-v-kimbler)",
+    "match_kind": "semantic",
+    "similarity": 0.5827
+   },
+   {
+    "cluster_id": 6595281,
+    "case_name": "State ex rel. Schmitt v. District Court of the Second Judicial District",
+    "citations": [
+     "478 P.2d 559",
+     "82 N.M. 231"
+    ],
+    "court": "New Mexico Supreme Court",
+    "date_filed": "1971-01-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-mexico/cases/82-n-m-231/state-ex-rel-schmitt-v-district-court-of-the-second-judicial-district",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Schmitt v. Dist. Court of the Second Jud. Dist., 478 P.2d 559 (N.M. 1971)",
+    "link_md": "[State ex rel. Schmitt v. Dist. Court of the Second Jud. Dist., 478 P.2d 559 (N.M. 1971)](https://syfert.com/new-mexico/cases/82-n-m-231/state-ex-rel-schmitt-v-district-court-of-the-second-judicial-district)",
+    "match_kind": "semantic",
+    "similarity": 0.5823
+   },
+   {
+    "cluster_id": 8141215,
+    "case_name": "W. N. Proctor Co. v. United States",
+    "citations": [
+     "37 Cust. Ct. 396"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1956-10-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/37-cust-ct-396/w-n-proctor-co-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. N. Proctor Co. v. United States, 37 Cust. Ct. 396 (Cust. Ct. 1956)",
+    "link_md": "[W. N. Proctor Co. v. United States, 37 Cust. Ct. 396 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/37-cust-ct-396/w-n-proctor-co-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5822
+   },
+   {
+    "cluster_id": 8140663,
+    "case_name": "W. N. Proctor Co. v. United States",
+    "citations": [
+     "36 Cust. Ct. 418"
+    ],
+    "court": "U.S. Customs Court",
+    "date_filed": "1956-05-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/specialty/cases/36-cust-ct-418/w-n-proctor-co-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. N. Proctor Co. v. United States, 36 Cust. Ct. 418 (Cust. Ct. 1956)",
+    "link_md": "[W. N. Proctor Co. v. United States, 36 Cust. Ct. 418 (Cust. Ct. 1956)](https://syfert.com/federal/specialty/cases/36-cust-ct-418/w-n-proctor-co-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5821
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

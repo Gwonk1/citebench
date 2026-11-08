@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "295 N.W.2d 482",
+  "expected_case_name": "People v. Anderson"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"295 N.W.2d 482\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2178903,\n            \"case_name\": \"People v. Anderson\",\n            \"citations\": [\n                \"295 N.W.2d 482\"\n            ],\n            \"court\": \"Michigan Supreme Court\",\n            \"date_filed\": \"1980-08-28\",\n            \"status\": \"Published\",\n            \"cited_by\": 50,\n            \"url\": \"https://syfert.com/michigan/cases/409-mich-474/people-v-anderson\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Anderson, 295 N.W.2d 482 (Mich. 1980)\",\n            \"link_md\": \"[People v. Anderson, 295 N.W.2d 482 (Mich. 1980)](https://syfert.com/michigan/cases/409-mich-474/people-v-anderson)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 33,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Anderson\",\n        \"actual\": \"People v. Anderson\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "295 N.W.2d 482",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2178903,
+    "case_name": "People v. Anderson",
+    "citations": [
+     "295 N.W.2d 482"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1980-08-28",
+    "status": "Published",
+    "cited_by": 50,
+    "url": "https://syfert.com/michigan/cases/409-mich-474/people-v-anderson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Anderson, 295 N.W.2d 482 (Mich. 1980)",
+    "link_md": "[People v. Anderson, 295 N.W.2d 482 (Mich. 1980)](https://syfert.com/michigan/cases/409-mich-474/people-v-anderson)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 33,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Anderson",
+   "actual": "People v. Anderson",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

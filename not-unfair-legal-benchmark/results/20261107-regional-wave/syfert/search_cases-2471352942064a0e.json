@@ -1,0 +1,36 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Highway w/15 \"128 S.E.2d 520\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Highway w/15 \\\"128 S.E.2d 520\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4772870,\"bluebook\":\"Sabal Trail Transmission, LLC v. W. Lynn Lasseter, 823 F. App'x 914 (11th Cir. 2020)\",\"url\":\"https://syfert.com/federal/circuits/cases/823-f-appx-914/sabal-trail-transmission-llc-v-w-lynn-lasseter\",\"date_filed\":\"2020-08-05\",\"cited_by\":0,\"status\":\"Unpublished\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...State Highway Dep’t v. Thomas, 128 S.E.2d 520 ,\\n522 (Ga. Ct. App. 1962). “[T]he mere possibility of such use is not sufficient to\\nauthorize the jury to consider subdivision use in determining the value.” Id.; cf. Ga.\\nTransmission Corp.…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Highway w/15 \"128 S.E.2d 520\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4772870,
+    "bluebook": "Sabal Trail Transmission, LLC v. W. Lynn Lasseter, 823 F. App'x 914 (11th Cir. 2020)",
+    "url": "https://syfert.com/federal/circuits/cases/823-f-appx-914/sabal-trail-transmission-llc-v-w-lynn-lasseter",
+    "date_filed": "2020-08-05",
+    "cited_by": 0,
+    "status": "Unpublished",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...State Highway Dep’t v. Thomas, 128 S.E.2d 520 ,\n522 (Ga. Ct. App. 1962). “[T]he mere possibility of such use is not sufficient to\nauthorize the jury to consider subdivision use in determining the value.” Id.; cf. Ga.\nTransmission Corp.…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

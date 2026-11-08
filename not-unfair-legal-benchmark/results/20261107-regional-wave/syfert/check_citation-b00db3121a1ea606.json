@@ -1,0 +1,57 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "48 S.E. 290",
+  "expected_case_name": "Mitchell v. Leech"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"48 S.E. 290\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4123322,\n            \"case_name\": \"Mitchell v. Leech\",\n            \"citations\": [\n                \"48 S.E. 290\"\n            ],\n            \"court\": \"Supreme Court of South Carolina\",\n            \"date_filed\": \"1904-07-14\",\n            \"status\": \"Published\",\n            \"cited_by\": 13,\n            \"url\": \"https://syfert.com/south-carolina/cases/69-s-c-413/mitchell-v-leech\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"104 Am. St. Rep. 811\",\n                    \"recovered_from_citing_opinions\": 4,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 0.99,\n                    \"note\": \"Recovered parallel cite: 4 citing opinions confirm this cite (confidence 0.99)\"\n                }\n            ],\n            \"bluebook\": \"Mitchell v. Leech, 48 S.E. 290 (S.C. 1904)\",\n            \"link_md\": \"[Mitchell v. Leech, 48 S.E. 290 (S.C. 1904)](https://syfert.com/south-carolina/cases/69-s-c-413/mitchell-v-leech)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Mitchell v. Leech\",\n        \"actual\": \"Mitchell v. Leech\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "48 S.E. 290",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4123322,
+    "case_name": "Mitchell v. Leech",
+    "citations": [
+     "48 S.E. 290"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1904-07-14",
+    "status": "Published",
+    "cited_by": 13,
+    "url": "https://syfert.com/south-carolina/cases/69-s-c-413/mitchell-v-leech",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "104 Am. St. Rep. 811",
+      "recovered_from_citing_opinions": 4,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.99,
+      "note": "Recovered parallel cite: 4 citing opinions confirm this cite (confidence 0.99)"
+     }
+    ],
+    "bluebook": "Mitchell v. Leech, 48 S.E. 290 (S.C. 1904)",
+    "link_md": "[Mitchell v. Leech, 48 S.E. 290 (S.C. 1904)](https://syfert.com/south-carolina/cases/69-s-c-413/mitchell-v-leech)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Mitchell v. Leech",
+   "actual": "Mitchell v. Leech",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

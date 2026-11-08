@@ -1,0 +1,421 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Seaman w/15 \"25 N.E. 957\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Seaman w/15 \\\"25 N.E. 957\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3645938,\"case_name\":\"Hope v. . Seaman\",\"citations\":[\"97 N.E. 1118\",\"204 N.Y. 563\",\"1912 N.Y. LEXIS 810\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1912-01-09\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/204-n-y-563/hope-v-seaman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hope v. Seaman, 97 N.E. 1118 (N.Y. 1912)\",\"link_md\":\"[Hope v. Seaman, 97 N.E. 1118 (N.Y. 1912)](https://syfert.com/new-york/cases/204-n-y-563/hope-v-seaman)\",\"match_kind\":\"semantic\",\"similarity\":0.6806},{\"cluster_id\":9042213,\"case_name\":\"Peltzman v. Federal Maritime Commission\",\"citations\":[\"459 U.S. 976\",\"103 S. Ct. 317\",\"51 U.S.L.W. 3340\",\"74 L. Ed. 2d 294\",\"1982 U.S. LEXIS 218\",\"111 L.R.R.M. (BNA) 2744\"],\"court\":\"Supreme Court\",\"date_filed\":\"1982-11-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/459-u-s-976/peltzman-v-federal-maritime-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Peltzman v. Fed. Mar. Comm'n, 459 U.S. 976 (1982)\",\"link_md\":\"[Peltzman v. Fed. Mar. Comm'n, 459 U.S. 976 (1982)](https://syfert.com/federal/scotus/cases/459-u-s-976/peltzman-v-federal-maritime-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.656},{\"cluster_id\":8905193,\"case_name\":\"Fine v. United States\",\"citations\":[\"66 F. Supp. 768\",\"1946 U.S. Dist. LEXIS 2421\"],\"court\":\"E.D. New York\",\"date_filed\":\"1946-06-06\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/district/cases/66-f-supp-768/fine-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fine v. United States, 66 F. Supp. 768 (E.D.N.Y. 1946)\",\"link_md\":\"[Fine v. United States, 66 F. Supp. 768 (E.D.N.Y. 1946)](https://syfert.com/federal/district/cases/66-f-supp-768/fine-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6414},{\"cluster_id\":236959,\"case_name\":\"Harold J. Byberg v. Standard Oil Company of New Jersey\",\"citations\":[\"223 F.2d 412\"],\"court\":\"Second Circuit\",\"date_filed\":\"1955-05-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/223-f-2d-412/harold-j-byberg-libelant-appellant-v-standard-oil\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harold J. Byberg v. Stand, 223 F.2d 412 (2d Cir. 1955)\",\"link_md\":\"[Harold J. Byberg v. Stand, 223 F.2d 412 (2d Cir. 1955)](https://syfert.com/federal/circuits/cases/223-f-2d-412/harold-j-byberg-libelant-appellant-v-standard-oil)\",\"match_kind\":\"semantic\",\"similarity\":0.635},{\"cluster_id\":248082,\"case_name\":\"Perry Blon Chance v. United States\",\"citations\":[\"266 F.2d 874\",\"1959 U.S. App. LEXIS 5097\",\"1959 A.M.C. 2045\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1959-05-13\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/266-f-2d-874/perry-blon-chance-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Perry Blon Chance v. United States, 266 F.2d 874 (5th Cir. 1959)\",\"link_md\":\"[Perry Blon Chance v. United States, 266 F.2d 874 (5th Cir. 1959)](https://syfert.com/federal/circuits/cases/266-f-2d-874/perry-blon-chance-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6343},{\"cluster_id\":1449075,\"case_name\":\"Steuer v. NEDERL-AMERIK STOOMVAART MAATSCHAPPF, ETC.\",\"citations\":[\"362 F. Supp. 600\",\"1973 A.M.C. 1634\"],\"court\":\"S.D. Florida\",\"date_filed\":\"1973-06-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/362-f-supp-600/steuer-v-nederl-amerik-stoomvaart-maatschappf-etc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Steuer v. Nederl-amerik Stoomvaart Maatschappf, 362 F. Supp. 600 (S.D. Fla. 1973)\",\"link_md\":\"[Steuer v. Nederl-amerik Stoomvaart Maatschappf, 362 F. Supp. 600 (S.D. Fla. 1973)](https://syfert.com/federal/district/cases/362-f-supp-600/steuer-v-nederl-amerik-stoomvaart-maatschappf-etc)\",\"match_kind\":\"semantic\",\"similarity\":0.6336},{\"cluster_id\":6969449,\"case_name\":\"Carroll v. Moran Towing & Transportation Co.\",\"citations\":[\"84 F.2d 346\",\"1936 U.S. App. LEXIS 4467\",\"1936 A.M.C. 1100\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1936-06-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/84-f-2d-346/carroll-v-moran-towing-transportation-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Carroll v. Moran Towing & Transp. Co., 84 F.2d 346 (9th Cir. 1936)\",\"link_md\":\"[Carroll v. Moran Towing & Transp. Co., 84 F.2d 346 (9th Cir. 1936)](https://syfert.com/federal/circuits/cases/84-f-2d-346/carroll-v-moran-towing-transportation-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6265},{\"cluster_id\":8381825,\"case_name\":\"Western Seamen's Friend Society v. P. C. O'Brien Co.\",\"citations\":[\"89 Ohio St. (N.S.) 438\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1913-12-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/cl-8381825/western-seamens-friend-society-v-p-c-obrien-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. Seamen's Friend Soc'y v. P. C. O'Brien Co., 89 Ohio St. (N.S.) 438 (Ohio 1913)\",\"link_md\":\"[W. Seamen's Friend Soc'y v. P. C. O'Brien Co., 89 Ohio St. (N.S.) 438 (Ohio 1913)](https://syfert.com/ohio/cases/cl-8381825/western-seamens-friend-society-v-p-c-obrien-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6262},{\"cluster_id\":9101752,\"case_name\":\"Farnsworth v. Sea-Land Service, Inc.\",\"citations\":[\"498 U.S. 880\",\"111 S. Ct. 214\"],\"court\":\"Supreme Court\",\"date_filed\":\"1990-10-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/498-u-s-880/farnsworth-v-sea-land-service-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (9101752 and its twin 9101751). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Farnsworth v. Sea-Land Serv., Inc., 498 U.S. 880 (1990)\",\"link_md\":\"[Farnsworth v. Sea-Land Serv., Inc., 498 U.S. 880 (1990)](https://syfert.com/federal/scotus/cases/498-u-s-880/farnsworth-v-sea-land-service-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6214,\"twin_clusters\":[9101751]},{\"cluster_id\":8905194,\"case_name\":\"Raccuglia v. United States\",\"citations\":[\"66 F. Supp. 769\",\"1946 U.S. Dist. LEXIS 2422\"],\"court\":\"E.D. New York\",\"date_filed\":\"1946-06-06\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/district/cases/66-f-supp-769/raccuglia-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Raccuglia v. United States, 66 F. Supp. 769 (E.D.N.Y. 1946)\",\"link_md\":\"[Raccuglia v. United States, 66 F. Supp. 769 (E.D.N.Y. 1946)](https://syfert.com/federal/district/cases/66-f-supp-769/raccuglia-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6206},{\"cluster_id\":9198482,\"case_name\":\"Perna v. ARCO Marine, Inc.\",\"citations\":[\"532 U.S. 1063\",\"121 S. Ct. 2207\"],\"court\":\"Supreme Court\",\"date_filed\":\"2001-05-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/532-u-s-1063/perna-v-arco-marine-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (9198482 and its twin 9198483). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Perna v. ARCO Marine, Inc., 532 U.S. 1063 (2001)\",\"link_md\":\"[Perna v. ARCO Marine, Inc., 532 U.S. 1063 (2001)](https://syfert.com/federal/scotus/cases/532-u-s-1063/perna-v-arco-marine-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6204,\"twin_clusters\":[9198483]},{\"cluster_id\":9036273,\"case_name\":\"Griffin v. Oceanic Contractors, Inc.\",\"citations\":[\"454 U.S. 1121\",\"102 S. Ct. 967\",\"71 L. Ed. 2d 107\",\"50 U.S.L.W. 3486\",\"1981 U.S. LEXIS 2943\"],\"court\":\"Supreme Court\",\"date_filed\":\"1981-12-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/454-u-s-1121/griffin-v-oceanic-contractors-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Griffin v. Oceanic Contractors, Inc., 454 U.S. 1121 (1981)\",\"link_md\":\"[Griffin v. Oceanic Contractors, Inc., 454 U.S. 1121 (1981)](https://syfert.com/federal/scotus/cases/454-u-s-1121/griffin-v-oceanic-contractors-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6203},{\"cluster_id\":8876668,\"case_name\":\"Haveron v. Goelet\",\"citations\":[\"88 F. 301\",\"1898 U.S. Dist. LEXIS 109\"],\"court\":\"S.D. New York\",\"date_filed\":\"1898-06-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-8876668/haveron-v-goelet\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Haveron v. Goelet, 88 F. 301 (S.D.N.Y. 1898)\",\"link_md\":\"[Haveron v. Goelet, 88 F. 301 (S.D.N.Y. 1898)](https://syfert.com/federal/district/cases/cl-8876668/haveron-v-goelet)\",\"match_kind\":\"semantic\",\"similarity\":0.6202},{\"cluster_id\":8654876,\"case_name\":\"Mitchell v. Pratt\",\"citations\":[\"17 F. Cas. 516\"],\"court\":\"U.S. Circuit Court for the District of Maryland\",\"date_filed\":\"1841-04-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-8654876/mitchell-v-pratt\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mitchell v. Pratt, 17 F. Cas. 516 (C.C.D. Md. 1841)\",\"link_md\":\"[Mitchell v. Pratt, 17 F. Cas. 516 (C.C.D. Md. 1841)](https://syfert.com/federal/circuits/cases/cl-8654876/mitchell-v-pratt)\",\"match_kind\":\"semantic\",\"similarity\":0.6185},{\"cluster_id\":677958,\"case_name\":\"Hendrix v. Seamen\",\"citations\":[\"35 F.3d 554\",\"1994 U.S. App. LEXIS 25841\",\"1994 WL 500949\"],\"court\":\"Second Circuit\",\"date_filed\":\"1994-08-31\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/35-f-3d-554/hendrix-v-seamen\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hendrix v. Seamen, 35 F.3d 554 (2d Cir. 1994)\",\"link_md\":\"[Hendrix v. Seamen, 35 F.3d 554 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/35-f-3d-554/hendrix-v-seamen)\",\"match_kind\":\"semantic\",\"similarity\":0.618},{\"cluster_id\":70103,\"case_name\":\"Butcher v. Superior Offshore International, Inc.\",\"citations\":[\"357 F. App'x 619\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"2009-12-17\",\"status\":\"Unpublished\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/357-f-appx-619/butcher-v-superior-offshore-international-inc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Butcher v. Superior Offshore Int'l, Inc., 357 F. App'x 619 (5th Cir. 2009)\",\"link_md\":\"[Butcher v. Superior Offshore Int'l, Inc., 357 F. App'x 619 (5th Cir. 2009)](https://syfert.com/federal/circuits/cases/357-f-appx-619/butcher-v-superior-offshore-international-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6159},{\"cluster_id\":6934318,\"case_name\":\"The Roxen\",\"citations\":[\"7 F.2d 739\",\"1925 U.S. Dist. LEXIS 1272\"],\"court\":\"E.D. Virginia\",\"date_filed\":\"1925-02-11\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/federal/district/cases/cl-6934318/the-roxen\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"The Roxen, 7 F.2d 739 (E.D. Va. 1925)\",\"link_md\":\"[The Roxen, 7 F.2d 739 (E.D. Va. 1925)](https://syfert.com/federal/district/cases/cl-6934318/the-roxen)\",\"match_kind\":\"semantic\",\"similarity\":0.6158},{\"cluster_id\":508195,\"case_name\":\"Buddy Ketnor v. Automatic Power, Inc.\",\"citations\":[\"850 F.2d 236\",\"1988 A.M.C. 2885\",\"1988 U.S. App. LEXIS 9959\",\"1988 WL 70152\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1988-07-26\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/federal/circuits/cases/850-f-2d-236/buddy-ketnor-v-automatic-power-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Buddy Ketnor v. Automatic Power, Inc., 850 F.2d 236 (5th Cir. 1988)\",\"link_md\":\"[Buddy Ketnor v. Automatic Power, Inc., 850 F.2d 236 (5th Cir. 1988)](https://syfert.com/federal/circuits/cases/850-f-2d-236/buddy-ketnor-v-automatic-power-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6155},{\"cluster_id\":8879386,\"case_name\":\"The Carrier Dove\",\"citations\":[\"93 F. 978\",\"1899 U.S. Dist. LEXIS 107\"],\"court\":\"D. Massachusetts\",\"date_filed\":\"1899-05-09\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/district/cases/cl-8879386/the-carrier-dove\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"The Carrier Dove, 93 F. 978 (D. Mass. 1899)\",\"link_md\":\"[The Carrier Dove, 93 F. 978 (D. Mass. 1899)](https://syfert.com/federal/district/cases/cl-8879386/the-carrier-dove)\",\"match_kind\":\"semantic\",\"similarity\":0.6147},{\"cluster_id\":8742991,\"case_name\":\"Kelley v. Midland Steamship Line, Inc.\",\"citations\":[\"162 F. Supp. 68\",\"1956 U.S. Dist. LEXIS 2240\"],\"court\":\"W.D. New York\",\"date_filed\":\"1956-10-03\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/district/cases/162-f-supp-68/kelley-v-midland-steamship-line-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kelley v. Midland S.S. Line, Inc., 162 F. Supp. 68 (W.D.N.Y. 1956)\",\"link_md\":\"[Kelley v. Midland S.S. Line, Inc., 162 F. Supp. 68 (W.D.N.Y. 1956)](https://syfert.com/federal/district/cases/162-f-supp-68/kelley-v-midland-steamship-line-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6136}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Seaman w/15 \"25 N.E. 957\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3645938,
+    "case_name": "Hope v. . Seaman",
+    "citations": [
+     "97 N.E. 1118",
+     "204 N.Y. 563",
+     "1912 N.Y. LEXIS 810"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1912-01-09",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/204-n-y-563/hope-v-seaman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hope v. Seaman, 97 N.E. 1118 (N.Y. 1912)",
+    "link_md": "[Hope v. Seaman, 97 N.E. 1118 (N.Y. 1912)](https://syfert.com/new-york/cases/204-n-y-563/hope-v-seaman)",
+    "match_kind": "semantic",
+    "similarity": 0.6806
+   },
+   {
+    "cluster_id": 9042213,
+    "case_name": "Peltzman v. Federal Maritime Commission",
+    "citations": [
+     "459 U.S. 976",
+     "103 S. Ct. 317",
+     "51 U.S.L.W. 3340",
+     "74 L. Ed. 2d 294",
+     "1982 U.S. LEXIS 218",
+     "111 L.R.R.M. (BNA) 2744"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1982-11-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/459-u-s-976/peltzman-v-federal-maritime-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Peltzman v. Fed. Mar. Comm'n, 459 U.S. 976 (1982)",
+    "link_md": "[Peltzman v. Fed. Mar. Comm'n, 459 U.S. 976 (1982)](https://syfert.com/federal/scotus/cases/459-u-s-976/peltzman-v-federal-maritime-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.656
+   },
+   {
+    "cluster_id": 8905193,
+    "case_name": "Fine v. United States",
+    "citations": [
+     "66 F. Supp. 768",
+     "1946 U.S. Dist. LEXIS 2421"
+    ],
+    "court": "E.D. New York",
+    "date_filed": "1946-06-06",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/district/cases/66-f-supp-768/fine-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fine v. United States, 66 F. Supp. 768 (E.D.N.Y. 1946)",
+    "link_md": "[Fine v. United States, 66 F. Supp. 768 (E.D.N.Y. 1946)](https://syfert.com/federal/district/cases/66-f-supp-768/fine-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6414
+   },
+   {
+    "cluster_id": 236959,
+    "case_name": "Harold J. Byberg v. Standard Oil Company of New Jersey",
+    "citations": [
+     "223 F.2d 412"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1955-05-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/223-f-2d-412/harold-j-byberg-libelant-appellant-v-standard-oil",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harold J. Byberg v. Stand, 223 F.2d 412 (2d Cir. 1955)",
+    "link_md": "[Harold J. Byberg v. Stand, 223 F.2d 412 (2d Cir. 1955)](https://syfert.com/federal/circuits/cases/223-f-2d-412/harold-j-byberg-libelant-appellant-v-standard-oil)",
+    "match_kind": "semantic",
+    "similarity": 0.635
+   },
+   {
+    "cluster_id": 248082,
+    "case_name": "Perry Blon Chance v. United States",
+    "citations": [
+     "266 F.2d 874",
+     "1959 U.S. App. LEXIS 5097",
+     "1959 A.M.C. 2045"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1959-05-13",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/266-f-2d-874/perry-blon-chance-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Perry Blon Chance v. United States, 266 F.2d 874 (5th Cir. 1959)",
+    "link_md": "[Perry Blon Chance v. United States, 266 F.2d 874 (5th Cir. 1959)](https://syfert.com/federal/circuits/cases/266-f-2d-874/perry-blon-chance-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6343
+   },
+   {
+    "cluster_id": 1449075,
+    "case_name": "Steuer v. NEDERL-AMERIK STOOMVAART MAATSCHAPPF, ETC.",
+    "citations": [
+     "362 F. Supp. 600",
+     "1973 A.M.C. 1634"
+    ],
+    "court": "S.D. Florida",
+    "date_filed": "1973-06-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/362-f-supp-600/steuer-v-nederl-amerik-stoomvaart-maatschappf-etc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Steuer v. Nederl-amerik Stoomvaart Maatschappf, 362 F. Supp. 600 (S.D. Fla. 1973)",
+    "link_md": "[Steuer v. Nederl-amerik Stoomvaart Maatschappf, 362 F. Supp. 600 (S.D. Fla. 1973)](https://syfert.com/federal/district/cases/362-f-supp-600/steuer-v-nederl-amerik-stoomvaart-maatschappf-etc)",
+    "match_kind": "semantic",
+    "similarity": 0.6336
+   },
+   {
+    "cluster_id": 6969449,
+    "case_name": "Carroll v. Moran Towing & Transportation Co.",
+    "citations": [
+     "84 F.2d 346",
+     "1936 U.S. App. LEXIS 4467",
+     "1936 A.M.C. 1100"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1936-06-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/84-f-2d-346/carroll-v-moran-towing-transportation-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Carroll v. Moran Towing & Transp. Co., 84 F.2d 346 (9th Cir. 1936)",
+    "link_md": "[Carroll v. Moran Towing & Transp. Co., 84 F.2d 346 (9th Cir. 1936)](https://syfert.com/federal/circuits/cases/84-f-2d-346/carroll-v-moran-towing-transportation-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6265
+   },
+   {
+    "cluster_id": 8381825,
+    "case_name": "Western Seamen's Friend Society v. P. C. O'Brien Co.",
+    "citations": [
+     "89 Ohio St. (N.S.) 438"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1913-12-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/cl-8381825/western-seamens-friend-society-v-p-c-obrien-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. Seamen's Friend Soc'y v. P. C. O'Brien Co., 89 Ohio St. (N.S.) 438 (Ohio 1913)",
+    "link_md": "[W. Seamen's Friend Soc'y v. P. C. O'Brien Co., 89 Ohio St. (N.S.) 438 (Ohio 1913)](https://syfert.com/ohio/cases/cl-8381825/western-seamens-friend-society-v-p-c-obrien-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6262
+   },
+   {
+    "cluster_id": 9101752,
+    "case_name": "Farnsworth v. Sea-Land Service, Inc.",
+    "citations": [
+     "498 U.S. 880",
+     "111 S. Ct. 214"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1990-10-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/498-u-s-880/farnsworth-v-sea-land-service-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (9101752 and its twin 9101751). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Farnsworth v. Sea-Land Serv., Inc., 498 U.S. 880 (1990)",
+    "link_md": "[Farnsworth v. Sea-Land Serv., Inc., 498 U.S. 880 (1990)](https://syfert.com/federal/scotus/cases/498-u-s-880/farnsworth-v-sea-land-service-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6214,
+    "twin_clusters": [
+     9101751
+    ]
+   },
+   {
+    "cluster_id": 8905194,
+    "case_name": "Raccuglia v. United States",
+    "citations": [
+     "66 F. Supp. 769",
+     "1946 U.S. Dist. LEXIS 2422"
+    ],
+    "court": "E.D. New York",
+    "date_filed": "1946-06-06",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/district/cases/66-f-supp-769/raccuglia-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Raccuglia v. United States, 66 F. Supp. 769 (E.D.N.Y. 1946)",
+    "link_md": "[Raccuglia v. United States, 66 F. Supp. 769 (E.D.N.Y. 1946)](https://syfert.com/federal/district/cases/66-f-supp-769/raccuglia-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6206
+   },
+   {
+    "cluster_id": 9198482,
+    "case_name": "Perna v. ARCO Marine, Inc.",
+    "citations": [
+     "532 U.S. 1063",
+     "121 S. Ct. 2207"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2001-05-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/532-u-s-1063/perna-v-arco-marine-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (9198482 and its twin 9198483). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Perna v. ARCO Marine, Inc., 532 U.S. 1063 (2001)",
+    "link_md": "[Perna v. ARCO Marine, Inc., 532 U.S. 1063 (2001)](https://syfert.com/federal/scotus/cases/532-u-s-1063/perna-v-arco-marine-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6204,
+    "twin_clusters": [
+     9198483
+    ]
+   },
+   {
+    "cluster_id": 9036273,
+    "case_name": "Griffin v. Oceanic Contractors, Inc.",
+    "citations": [
+     "454 U.S. 1121",
+     "102 S. Ct. 967",
+     "71 L. Ed. 2d 107",
+     "50 U.S.L.W. 3486",
+     "1981 U.S. LEXIS 2943"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1981-12-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/454-u-s-1121/griffin-v-oceanic-contractors-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Griffin v. Oceanic Contractors, Inc., 454 U.S. 1121 (1981)",
+    "link_md": "[Griffin v. Oceanic Contractors, Inc., 454 U.S. 1121 (1981)](https://syfert.com/federal/scotus/cases/454-u-s-1121/griffin-v-oceanic-contractors-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6203
+   },
+   {
+    "cluster_id": 8876668,
+    "case_name": "Haveron v. Goelet",
+    "citations": [
+     "88 F. 301",
+     "1898 U.S. Dist. LEXIS 109"
+    ],
+    "court": "S.D. New York",
+    "date_filed": "1898-06-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-8876668/haveron-v-goelet",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Haveron v. Goelet, 88 F. 301 (S.D.N.Y. 1898)",
+    "link_md": "[Haveron v. Goelet, 88 F. 301 (S.D.N.Y. 1898)](https://syfert.com/federal/district/cases/cl-8876668/haveron-v-goelet)",
+    "match_kind": "semantic",
+    "similarity": 0.6202
+   },
+   {
+    "cluster_id": 8654876,
+    "case_name": "Mitchell v. Pratt",
+    "citations": [
+     "17 F. Cas. 516"
+    ],
+    "court": "U.S. Circuit Court for the District of Maryland",
+    "date_filed": "1841-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-8654876/mitchell-v-pratt",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mitchell v. Pratt, 17 F. Cas. 516 (C.C.D. Md. 1841)",
+    "link_md": "[Mitchell v. Pratt, 17 F. Cas. 516 (C.C.D. Md. 1841)](https://syfert.com/federal/circuits/cases/cl-8654876/mitchell-v-pratt)",
+    "match_kind": "semantic",
+    "similarity": 0.6185
+   },
+   {
+    "cluster_id": 677958,
+    "case_name": "Hendrix v. Seamen",
+    "citations": [
+     "35 F.3d 554",
+     "1994 U.S. App. LEXIS 25841",
+     "1994 WL 500949"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1994-08-31",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/35-f-3d-554/hendrix-v-seamen",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hendrix v. Seamen, 35 F.3d 554 (2d Cir. 1994)",
+    "link_md": "[Hendrix v. Seamen, 35 F.3d 554 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/35-f-3d-554/hendrix-v-seamen)",
+    "match_kind": "semantic",
+    "similarity": 0.618
+   },
+   {
+    "cluster_id": 70103,
+    "case_name": "Butcher v. Superior Offshore International, Inc.",
+    "citations": [
+     "357 F. App'x 619"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "2009-12-17",
+    "status": "Unpublished",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/357-f-appx-619/butcher-v-superior-offshore-international-inc",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Butcher v. Superior Offshore Int'l, Inc., 357 F. App'x 619 (5th Cir. 2009)",
+    "link_md": "[Butcher v. Superior Offshore Int'l, Inc., 357 F. App'x 619 (5th Cir. 2009)](https://syfert.com/federal/circuits/cases/357-f-appx-619/butcher-v-superior-offshore-international-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6159
+   },
+   {
+    "cluster_id": 6934318,
+    "case_name": "The Roxen",
+    "citations": [
+     "7 F.2d 739",
+     "1925 U.S. Dist. LEXIS 1272"
+    ],
+    "court": "E.D. Virginia",
+    "date_filed": "1925-02-11",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/federal/district/cases/cl-6934318/the-roxen",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "The Roxen, 7 F.2d 739 (E.D. Va. 1925)",
+    "link_md": "[The Roxen, 7 F.2d 739 (E.D. Va. 1925)](https://syfert.com/federal/district/cases/cl-6934318/the-roxen)",
+    "match_kind": "semantic",
+    "similarity": 0.6158
+   },
+   {
+    "cluster_id": 508195,
+    "case_name": "Buddy Ketnor v. Automatic Power, Inc.",
+    "citations": [
+     "850 F.2d 236",
+     "1988 A.M.C. 2885",
+     "1988 U.S. App. LEXIS 9959",
+     "1988 WL 70152"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1988-07-26",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/federal/circuits/cases/850-f-2d-236/buddy-ketnor-v-automatic-power-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Buddy Ketnor v. Automatic Power, Inc., 850 F.2d 236 (5th Cir. 1988)",
+    "link_md": "[Buddy Ketnor v. Automatic Power, Inc., 850 F.2d 236 (5th Cir. 1988)](https://syfert.com/federal/circuits/cases/850-f-2d-236/buddy-ketnor-v-automatic-power-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6155
+   },
+   {
+    "cluster_id": 8879386,
+    "case_name": "The Carrier Dove",
+    "citations": [
+     "93 F. 978",
+     "1899 U.S. Dist. LEXIS 107"
+    ],
+    "court": "D. Massachusetts",
+    "date_filed": "1899-05-09",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/district/cases/cl-8879386/the-carrier-dove",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "The Carrier Dove, 93 F. 978 (D. Mass. 1899)",
+    "link_md": "[The Carrier Dove, 93 F. 978 (D. Mass. 1899)](https://syfert.com/federal/district/cases/cl-8879386/the-carrier-dove)",
+    "match_kind": "semantic",
+    "similarity": 0.6147
+   },
+   {
+    "cluster_id": 8742991,
+    "case_name": "Kelley v. Midland Steamship Line, Inc.",
+    "citations": [
+     "162 F. Supp. 68",
+     "1956 U.S. Dist. LEXIS 2240"
+    ],
+    "court": "W.D. New York",
+    "date_filed": "1956-10-03",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/district/cases/162-f-supp-68/kelley-v-midland-steamship-line-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kelley v. Midland S.S. Line, Inc., 162 F. Supp. 68 (W.D.N.Y. 1956)",
+    "link_md": "[Kelley v. Midland S.S. Line, Inc., 162 F. Supp. 68 (W.D.N.Y. 1956)](https://syfert.com/federal/district/cases/162-f-supp-68/kelley-v-midland-steamship-line-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6136
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

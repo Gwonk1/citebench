@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "852 N.W.2d 22",
+  "expected_case_name": "Acorn Investment Co v. Michigan Basic Property Insurance Assn"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"852 N.W.2d 22\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2710482,\n            \"case_name\": \"Acorn Investment Co v. Michigan Basic Property Insurance Assn\",\n            \"citations\": [\n                \"852 N.W.2d 22\"\n            ],\n            \"court\": \"Michigan Supreme Court\",\n            \"date_filed\": \"2014-05-20\",\n            \"status\": \"Published\",\n            \"cited_by\": 42,\n            \"url\": \"https://syfert.com/michigan/cases/495-mich-338/acorn-investment-co-v-michigan-basic-property-insurance-assn\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Acorn Inv. Co v. Michigan Basic Prop. Ins. Assn, 852 N.W.2d 22 (Mich. 2014)\",\n            \"link_md\": \"[Acorn Inv. Co v. Michigan Basic Prop. Ins. Assn, 852 N.W.2d 22 (Mich. 2014)](https://syfert.com/michigan/cases/495-mich-338/acorn-investment-co-v-michigan-basic-property-insurance-assn)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 9,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Acorn Investment Co v. Michigan Basic Property Insurance Assn\",\n        \"actual\": \"Acorn Investment Co v. Michigan Basic Property Insurance Assn\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "852 N.W.2d 22",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2710482,
+    "case_name": "Acorn Investment Co v. Michigan Basic Property Insurance Assn",
+    "citations": [
+     "852 N.W.2d 22"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "2014-05-20",
+    "status": "Published",
+    "cited_by": 42,
+    "url": "https://syfert.com/michigan/cases/495-mich-338/acorn-investment-co-v-michigan-basic-property-insurance-assn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Acorn Inv. Co v. Michigan Basic Prop. Ins. Assn, 852 N.W.2d 22 (Mich. 2014)",
+    "link_md": "[Acorn Inv. Co v. Michigan Basic Prop. Ins. Assn, 852 N.W.2d 22 (Mich. 2014)](https://syfert.com/michigan/cases/495-mich-338/acorn-investment-co-v-michigan-basic-property-insurance-assn)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 9,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Acorn Investment Co v. Michigan Basic Property Insurance Assn",
+   "actual": "Acorn Investment Co v. Michigan Basic Property Insurance Assn",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Reddish w/15 \"450 N.W.2d 16\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Reddish w/15 \\\"450 N.W.2d 16\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1928892,\"bluebook\":\"People v. Raby, 554 N.W.2d 25 (Mich. Ct. App. 1996)\",\"url\":\"https://syfert.com/michigan/cases/218-mich-app-78/people-v-raby\",\"date_filed\":\"1996-09-27\",\"cited_by\":5,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...relevant in sentencing defendant.\\nWe also preliminarily note our standard of review in deciding this issue. In People v. Reddish, 181 Mich.App. 625, 628 , 450 N.W.2d 16 (1989), this Court held:\\nAppellate review of guidelines…\"},{\"cluster_id\":1252030,\"bluebook\":\"People v. Raby, 572 N.W.2d 644 (Mich. 1998)\",\"url\":\"https://syfert.com/michigan/cases/456-mich-487/people-v-raby\",\"date_filed\":\"1998-02-05\",\"cited_by\":16,\"treatment\":{\"flag\":\"yellow\",\"red\":0,\"yellow\":0},\"snippet\":\"...224, 227-229 , 443 N.W.2d 470 (1989), People v. Reddish, 181 Mich.App. 625, 628-630 , 450 N.W.2d 16 (1989), People v. Anderson, 166 Mich.App. 455, 482 , 421 N.W.2d 200 (1988), People v. Brooks, 169 Mich.App. 360, 365-366 , 425 N.W...\"},{\"cluster_id\":1313315,\"bluebook\":\"People v. McIntire, 591 N.W.2d 231 (Mich. Ct. App. 1999)\",\"url\":\"https://syfert.com/michigan/cases/232-mich-app-71/people-v-mcintire\",\"date_filed\":\"1999-01-08\",\"cited_by\":49,\"treatment\":{\"flag\":\"red\",\"red\":0,\"yellow\":0},\"snippet\":\"...People v. Reddish, 181 Mich.App. 625, 627-628 , 450 N.W.2d 16 (1989). Thus, we conclude that defendant has not sustained his burden of showing that he was prejudiced by the delay.\\nHowever, assuming some prejudice under Bisard , we turn…\",\"holding\":\"A witness who provides materially false testimony during an immunized grand jury proceeding forfeits transactional immunity and may be prosecuted for the underlying offense.\",\"holding_ai_generated\":true,\"disposition\":\"reversed in part\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Reddish w/15 \"450 N.W.2d 16\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1928892,
+    "bluebook": "People v. Raby, 554 N.W.2d 25 (Mich. Ct. App. 1996)",
+    "url": "https://syfert.com/michigan/cases/218-mich-app-78/people-v-raby",
+    "date_filed": "1996-09-27",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...relevant in sentencing defendant.\nWe also preliminarily note our standard of review in deciding this issue. In People v. Reddish, 181 Mich.App. 625, 628 , 450 N.W.2d 16 (1989), this Court held:\nAppellate review of guidelines…"
+   },
+   {
+    "cluster_id": 1252030,
+    "bluebook": "People v. Raby, 572 N.W.2d 644 (Mich. 1998)",
+    "url": "https://syfert.com/michigan/cases/456-mich-487/people-v-raby",
+    "date_filed": "1998-02-05",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "yellow",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...224, 227-229 , 443 N.W.2d 470 (1989), People v. Reddish, 181 Mich.App. 625, 628-630 , 450 N.W.2d 16 (1989), People v. Anderson, 166 Mich.App. 455, 482 , 421 N.W.2d 200 (1988), People v. Brooks, 169 Mich.App. 360, 365-366 , 425 N.W..."
+   },
+   {
+    "cluster_id": 1313315,
+    "bluebook": "People v. McIntire, 591 N.W.2d 231 (Mich. Ct. App. 1999)",
+    "url": "https://syfert.com/michigan/cases/232-mich-app-71/people-v-mcintire",
+    "date_filed": "1999-01-08",
+    "cited_by": 49,
+    "treatment": {
+     "flag": "red",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...People v. Reddish, 181 Mich.App. 625, 627-628 , 450 N.W.2d 16 (1989). Thus, we conclude that defendant has not sustained his burden of showing that he was prejudiced by the delay.\nHowever, assuming some prejudice under Bisard , we turn…",
+    "holding": "A witness who provides materially false testimony during an immunized grand jury proceeding forfeits transactional immunity and may be prosecuted for the underlying offense.",
+    "holding_ai_generated": true,
+    "disposition": "reversed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

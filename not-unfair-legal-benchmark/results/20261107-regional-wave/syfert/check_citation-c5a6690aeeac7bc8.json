@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "115 S.W.2d 386",
+  "expected_case_name": "McCulloch's Adm'r v. Abell's Adm'r"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"115 S.W.2d 386\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3441367,\n            \"case_name\": \"McCulloch's Adm'r v. Abell's Adm'r\",\n            \"citations\": [\n                \"115 S.W.2d 386\"\n            ],\n            \"court\": \"Court of Appeals of Kentucky (pre-1976)\",\n            \"date_filed\": \"1938-03-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 16,\n            \"url\": \"https://syfert.com/kentucky/cases/272-ky-756/mccullochs-admr-v-abells-admr\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"McCulloch's Adm'r v. Abell's Adm'r, 115 S.W.2d 386 (Ky. Ct. App. 1938)\",\n            \"link_md\": \"[McCulloch's Adm'r v. Abell's Adm'r, 115 S.W.2d 386 (Ky. Ct. App. 1938)](https://syfert.com/kentucky/cases/272-ky-756/mccullochs-admr-v-abells-admr)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"McCulloch's Adm'r v. Abell's Adm'r\",\n        \"actual\": \"McCulloch's Adm'r v. Abell's Adm'r\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "115 S.W.2d 386",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3441367,
+    "case_name": "McCulloch's Adm'r v. Abell's Adm'r",
+    "citations": [
+     "115 S.W.2d 386"
+    ],
+    "court": "Court of Appeals of Kentucky (pre-1976)",
+    "date_filed": "1938-03-25",
+    "status": "Published",
+    "cited_by": 16,
+    "url": "https://syfert.com/kentucky/cases/272-ky-756/mccullochs-admr-v-abells-admr",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McCulloch's Adm'r v. Abell's Adm'r, 115 S.W.2d 386 (Ky. Ct. App. 1938)",
+    "link_md": "[McCulloch's Adm'r v. Abell's Adm'r, 115 S.W.2d 386 (Ky. Ct. App. 1938)](https://syfert.com/kentucky/cases/272-ky-756/mccullochs-admr-v-abells-admr)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "McCulloch's Adm'r v. Abell's Adm'r",
+   "actual": "McCulloch's Adm'r v. Abell's Adm'r",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

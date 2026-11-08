@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "84 So. 249",
+  "expected_case_name": "Weems v. Vowell"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"84 So. 249\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8037307,\n            \"case_name\": \"Weems v. Vowell\",\n            \"citations\": [\n                \"84 So. 249\"\n            ],\n            \"court\": \"Mississippi Supreme Court\",\n            \"date_filed\": \"1920-03-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 6,\n            \"url\": \"https://syfert.com/mississippi/cases/122-miss-342/weems-v-vowell\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Weems v. Vowell, 84 So. 249 (Miss. 1920)\",\n            \"link_md\": \"[Weems v. Vowell, 84 So. 249 (Miss. 1920)](https://syfert.com/mississippi/cases/122-miss-342/weems-v-vowell)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Weems v. Vowell\",\n        \"actual\": \"Weems v. Vowell\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "84 So. 249",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8037307,
+    "case_name": "Weems v. Vowell",
+    "citations": [
+     "84 So. 249"
+    ],
+    "court": "Mississippi Supreme Court",
+    "date_filed": "1920-03-15",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/mississippi/cases/122-miss-342/weems-v-vowell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Weems v. Vowell, 84 So. 249 (Miss. 1920)",
+    "link_md": "[Weems v. Vowell, 84 So. 249 (Miss. 1920)](https://syfert.com/mississippi/cases/122-miss-342/weems-v-vowell)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Weems v. Vowell",
+   "actual": "Weems v. Vowell",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

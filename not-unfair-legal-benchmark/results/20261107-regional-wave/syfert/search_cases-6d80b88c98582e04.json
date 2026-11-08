@@ -1,0 +1,406 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Chrysler w/15 \"295 N.W. 321\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Chrysler w/15 \\\"295 N.W. 321\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":451826,\"case_name\":\"Chrysler Corp. v. Texas Motor Vehicle Com'n\",\"citations\":[\"761 F.2d 695\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1985-04-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/761-f-2d-695/chrysler-corp-v-texas-motor-vehicle-comn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Chrysler Corp. v. Texas Motor Veh. Com'n, 761 F.2d 695 (5th Cir. 1985)\",\"link_md\":\"[Chrysler Corp. v. Texas Motor Veh. Com'n, 761 F.2d 695 (5th Cir. 1985)](https://syfert.com/federal/circuits/cases/761-f-2d-695/chrysler-corp-v-texas-motor-vehicle-comn)\",\"match_kind\":\"semantic\",\"similarity\":0.681},{\"cluster_id\":682894,\"case_name\":\"In re Chrysler Corp\",\"citations\":[\"40 F.3d 1237\",\"1994 WL 630486\"],\"court\":\"Second Circuit\",\"date_filed\":\"1994-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/40-f-3d-1237/in-re-chrysler-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Chrysler Corp, 40 F.3d 1237 (2d Cir. 1994)\",\"link_md\":\"[In re Chrysler Corp, 40 F.3d 1237 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/40-f-3d-1237/in-re-chrysler-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6696},{\"cluster_id\":2460462,\"case_name\":\"United States v. Chrysler Corp.\",\"citations\":[\"16 F. Supp. 2d 25\",\"1998 U.S. Dist. LEXIS 12781\",\"1998 WL 519483\"],\"court\":\"District of Columbia\",\"date_filed\":\"1998-08-14\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/district/cases/16-f-supp-2d-25/united-states-v-chrysler-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Chrysler Corp., 16 F. Supp. 2d 25 (D.D.C. 1998)\",\"link_md\":\"[United States v. Chrysler Corp., 16 F. Supp. 2d 25 (D.D.C. 1998)](https://syfert.com/federal/district/cases/16-f-supp-2d-25/united-states-v-chrysler-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6677},{\"cluster_id\":572559,\"case_name\":\"Chrysler Motors v. Royal Dodge\",\"citations\":[\"949 F.2d 1159\",\"1991 U.S. App. LEXIS 28388\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1991-11-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/949-f-2d-1159/chrysler-motors-v-royal-dodge\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Chrysler Motors v. Royal Dodge, 949 F.2d 1159 (5th Cir. 1991)\",\"link_md\":\"[Chrysler Motors v. Royal Dodge, 949 F.2d 1159 (5th Cir. 1991)](https://syfert.com/federal/circuits/cases/949-f-2d-1159/chrysler-motors-v-royal-dodge)\",\"match_kind\":\"semantic\",\"similarity\":0.6649},{\"cluster_id\":3377080,\"case_name\":\"Hamden Chrysler-Ply. v. Northeast P.\",\"citations\":[\"2001 Conn. Super. Ct. 1513\"],\"court\":\"Connecticut Superior Court\",\"date_filed\":\"2001-01-25\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/connecticut/cases/cl-3377080/hamden-chrysler-ply-v-northeast-p-no-cv-00-0444192s-jan-25-2001\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hamden Chrysler-Ply. v. Ne. P., 2001 Conn. Super. Ct. 1513 (Conn. Super. Ct. 2001)\",\"link_md\":\"[Hamden Chrysler-Ply. v. Ne. P., 2001 Conn. Super. Ct. 1513 (Conn. Super. Ct. 2001)](https://syfert.com/connecticut/cases/cl-3377080/hamden-chrysler-ply-v-northeast-p-no-cv-00-0444192s-jan-25-2001)\",\"match_kind\":\"semantic\",\"similarity\":0.6629},{\"cluster_id\":316750,\"case_name\":\"Chrysler Corporation v. Lane\",\"citations\":[\"491 F.2d 748\"],\"court\":\"Third Circuit\",\"date_filed\":\"1974-01-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/491-f-2d-748/chrysler-corporation-v-lane\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Chrysler Corp. v. Lane, 491 F.2d 748 (3d Cir. 1974)\",\"link_md\":\"[Chrysler Corp. v. Lane, 491 F.2d 748 (3d Cir. 1974)](https://syfert.com/federal/circuits/cases/491-f-2d-748/chrysler-corporation-v-lane)\",\"match_kind\":\"semantic\",\"similarity\":0.6564},{\"cluster_id\":372369,\"case_name\":\"East Towne Chrysler Motors, Inc. v. N. L. R. B\",\"citations\":[\"610 F.2d 819\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1979-10-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/610-f-2d-819/east-towne-chrysler-motors-inc-v-n-l-r-b\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"East Towne Chrysler Motors, Inc. v. N. L. R. B, 610 F.2d 819 (7th Cir. 1979)\",\"link_md\":\"[East Towne Chrysler Motors, Inc. v. N. L. R. B, 610 F.2d 819 (7th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-819/east-towne-chrysler-motors-inc-v-n-l-r-b)\",\"match_kind\":\"semantic\",\"similarity\":0.6558},{\"cluster_id\":337278,\"case_name\":\"Callahan v. Chrysler Motors Corp\",\"citations\":[\"538 F.2d 335\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1976-06-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/538-f-2d-335/callahan-v-chrysler-motors-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Callahan v. Chrysler Motors Corp, 538 F.2d 335 (9th Cir. 1976)\",\"link_md\":\"[Callahan v. Chrysler Motors Corp, 538 F.2d 335 (9th Cir. 1976)](https://syfert.com/federal/circuits/cases/538-f-2d-335/callahan-v-chrysler-motors-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6555},{\"cluster_id\":396093,\"case_name\":\"Tripper Corp. v. Chrysler Corp\",\"citations\":[\"661 F.2d 942\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1981-08-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/661-f-2d-942/tripper-corp-v-chrysler-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tripper Corp. v. Chrysler Corp, 661 F.2d 942 (9th Cir. 1981)\",\"link_md\":\"[Tripper Corp. v. Chrysler Corp, 661 F.2d 942 (9th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-942/tripper-corp-v-chrysler-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6513},{\"cluster_id\":1411299,\"case_name\":\"DAIMLERCHRYSLER MOTORS COMPANY v. Warnell\",\"citations\":[\"669 S.E.2d 407\",\"294 Ga. App. 500\",\"2008 Fulton County D. Rep. 3387\",\"2008 Ga. App. LEXIS 1144\"],\"court\":\"Court of Appeals of Georgia\",\"date_filed\":\"2008-10-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/georgia/cases/294-ga-app-500/daimlerchrysler-motors-company-v-warnell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Daimlerchrysler Motors Co. v. Warnell, 669 S.E.2d 407 (Ga. Ct. App. 2008)\",\"link_md\":\"[Daimlerchrysler Motors Co. v. Warnell, 669 S.E.2d 407 (Ga. Ct. App. 2008)](https://syfert.com/georgia/cases/294-ga-app-500/daimlerchrysler-motors-company-v-warnell)\",\"match_kind\":\"semantic\",\"similarity\":0.651},{\"cluster_id\":560809,\"case_name\":\"Edwards v. Joe Cullipher Chrysler-Plymouth, Inc.\",\"citations\":[\"932 F.2d 963\",\"1991 U.S. App. LEXIS 13738\",\"57 Fair Empl. Prac. Cas. (BNA) 1896\",\"1991 WL 70404\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1991-05-06\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/932-f-2d-963/edwards-v-joe-cullipher-chrysler-plymouth-inc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Edwards v. Joe Cullipher Chrysler-Plymouth, Inc., 932 F.2d 963 (4th Cir. 1991)\",\"link_md\":\"[Edwards v. Joe Cullipher Chrysler-Plymouth, Inc., 932 F.2d 963 (4th Cir. 1991)](https://syfert.com/federal/circuits/cases/932-f-2d-963/edwards-v-joe-cullipher-chrysler-plymouth-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6503},{\"cluster_id\":1133203,\"case_name\":\"Chrysler Motor Corp. v. Andresen\",\"citations\":[\"454 P.2d 825\",\"76 Wash. 2d 22\",\"1969 Wash. LEXIS 614\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"1969-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/76-wash-2d-22/chrysler-motor-corp-v-andresen\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Chrysler Motor Corp. v. Andresen, 454 P.2d 825 (Wash. 1969)\",\"link_md\":\"[Chrysler Motor Corp. v. Andresen, 454 P.2d 825 (Wash. 1969)](https://syfert.com/washington/cases/76-wash-2d-22/chrysler-motor-corp-v-andresen)\",\"match_kind\":\"semantic\",\"similarity\":0.6492},{\"cluster_id\":309051,\"case_name\":\"Snyder v. Chrysler Corp\",\"citations\":[\"474 F.2d 1339\"],\"court\":\"Third Circuit\",\"date_filed\":\"1973-02-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/474-f-2d-1339/snyder-v-chrysler-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Snyder v. Chrysler Corp, 474 F.2d 1339 (3d Cir. 1973)\",\"link_md\":\"[Snyder v. Chrysler Corp, 474 F.2d 1339 (3d Cir. 1973)](https://syfert.com/federal/circuits/cases/474-f-2d-1339/snyder-v-chrysler-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6469},{\"cluster_id\":8762386,\"case_name\":\"Crawford Transport Co. v. Chrysler Corp.\",\"citations\":[\"235 F. Supp. 751\",\"1962 U.S. Dist. LEXIS 4777\"],\"court\":\"E.D. Kentucky\",\"date_filed\":\"1962-01-18\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/district/cases/235-f-supp-751/crawford-transport-co-v-chrysler-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Crawford Transp. Co. v. Chrysler Corp., 235 F. Supp. 751 (E.D. Ky. 1962)\",\"link_md\":\"[Crawford Transp. Co. v. Chrysler Corp., 235 F. Supp. 751 (E.D. Ky. 1962)](https://syfert.com/federal/district/cases/235-f-supp-751/crawford-transport-co-v-chrysler-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6464},{\"cluster_id\":566483,\"case_name\":\"Chu Shin Pak v. Chrysler Motor Corporation\",\"citations\":[\"941 F.2d 1200\",\"1991 U.S. App. LEXIS 18627\",\"1991 WL 147255\"],\"court\":\"Third Circuit\",\"date_filed\":\"1991-07-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/941-f-2d-1200/chu-shin-pak-v-chrysler-motor-corporation\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Chu Shin Pak v. Chrysler Motor Corp., 941 F.2d 1200 (3d Cir. 1991)\",\"link_md\":\"[Chu Shin Pak v. Chrysler Motor Corp., 941 F.2d 1200 (3d Cir. 1991)](https://syfert.com/federal/circuits/cases/941-f-2d-1200/chu-shin-pak-v-chrysler-motor-corporation)\",\"match_kind\":\"semantic\",\"similarity\":0.6452},{\"cluster_id\":230396,\"case_name\":\"Biever Motor Car Company v. Chrysler Corporation\",\"citations\":[\"199 F.2d 758\",\"1952 U.S. App. LEXIS 3430\"],\"court\":\"Second Circuit\",\"date_filed\":\"1952-12-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/199-f-2d-758/biever-motor-car-company-v-chrysler-corporation\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Biever Motor Car Co. v. Chrysler Corp., 199 F.2d 758 (2d Cir. 1952)\",\"link_md\":\"[Biever Motor Car Co. v. Chrysler Corp., 199 F.2d 758 (2d Cir. 1952)](https://syfert.com/federal/circuits/cases/199-f-2d-758/biever-motor-car-company-v-chrysler-corporation)\",\"match_kind\":\"semantic\",\"similarity\":0.645},{\"cluster_id\":739431,\"case_name\":\"Thomas Ford v. Chrysler Corporation\",\"citations\":[\"111 F.3d 126\",\"1997 U.S. App. LEXIS 8206\",\"1997 WL 173172\"],\"court\":\"Third Circuit\",\"date_filed\":\"1997-03-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/111-f-3d-126/thomas-ford-v-chrysler-corporation\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thomas Ford v. Chrysler Corp., 111 F.3d 126 (3d Cir. 1997)\",\"link_md\":\"[Thomas Ford v. Chrysler Corp., 111 F.3d 126 (3d Cir. 1997)](https://syfert.com/federal/circuits/cases/111-f-3d-126/thomas-ford-v-chrysler-corporation)\",\"match_kind\":\"semantic\",\"similarity\":0.6443},{\"cluster_id\":593600,\"case_name\":\"Adams v. Chrysler Motors Corp\",\"citations\":[\"978 F.2d 710\",\"1992 U.S. App. LEXIS 29467\",\"1992 WL 319188\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1992-10-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/978-f-2d-710/adams-v-chrysler-motors-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Adams v. Chrysler Motors Corp, 978 F.2d 710 (5th Cir. 1992)\",\"link_md\":\"[Adams v. Chrysler Motors Corp, 978 F.2d 710 (5th Cir. 1992)](https://syfert.com/federal/circuits/cases/978-f-2d-710/adams-v-chrysler-motors-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6425},{\"cluster_id\":1103642,\"case_name\":\"Rozen v. Chrysler Corporation\",\"citations\":[\"142 So. 2d 735\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"1962-06-26\",\"status\":\"Published\",\"cited_by\":13,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/florida/cases/142-so-2d-735/rozen-v-chrysler-corporation\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rozen v. Chrysler Corp., 142 So. 2d 735 (Fla. 3d DCA 1962)\",\"link_md\":\"[Rozen v. Chrysler Corp., 142 So. 2d 735 (Fla. 3d DCA 1962)](https://syfert.com/florida/cases/142-so-2d-735/rozen-v-chrysler-corporation)\",\"match_kind\":\"semantic\",\"similarity\":0.6421},{\"cluster_id\":462824,\"case_name\":\"Walker v. Chrysler Corp\",\"citations\":[\"780 F.2d 1017\"],\"court\":\"Third Circuit\",\"date_filed\":\"1985-11-04\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/780-f-2d-1017/walker-v-chrysler-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walker v. Chrysler Corp, 780 F.2d 1017 (3d Cir. 1985)\",\"link_md\":\"[Walker v. Chrysler Corp, 780 F.2d 1017 (3d Cir. 1985)](https://syfert.com/federal/circuits/cases/780-f-2d-1017/walker-v-chrysler-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.639}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Chrysler w/15 \"295 N.W. 321\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 451826,
+    "case_name": "Chrysler Corp. v. Texas Motor Vehicle Com'n",
+    "citations": [
+     "761 F.2d 695"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1985-04-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/761-f-2d-695/chrysler-corp-v-texas-motor-vehicle-comn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Chrysler Corp. v. Texas Motor Veh. Com'n, 761 F.2d 695 (5th Cir. 1985)",
+    "link_md": "[Chrysler Corp. v. Texas Motor Veh. Com'n, 761 F.2d 695 (5th Cir. 1985)](https://syfert.com/federal/circuits/cases/761-f-2d-695/chrysler-corp-v-texas-motor-vehicle-comn)",
+    "match_kind": "semantic",
+    "similarity": 0.681
+   },
+   {
+    "cluster_id": 682894,
+    "case_name": "In re Chrysler Corp",
+    "citations": [
+     "40 F.3d 1237",
+     "1994 WL 630486"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1994-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/40-f-3d-1237/in-re-chrysler-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Chrysler Corp, 40 F.3d 1237 (2d Cir. 1994)",
+    "link_md": "[In re Chrysler Corp, 40 F.3d 1237 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/40-f-3d-1237/in-re-chrysler-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6696
+   },
+   {
+    "cluster_id": 2460462,
+    "case_name": "United States v. Chrysler Corp.",
+    "citations": [
+     "16 F. Supp. 2d 25",
+     "1998 U.S. Dist. LEXIS 12781",
+     "1998 WL 519483"
+    ],
+    "court": "District of Columbia",
+    "date_filed": "1998-08-14",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/district/cases/16-f-supp-2d-25/united-states-v-chrysler-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Chrysler Corp., 16 F. Supp. 2d 25 (D.D.C. 1998)",
+    "link_md": "[United States v. Chrysler Corp., 16 F. Supp. 2d 25 (D.D.C. 1998)](https://syfert.com/federal/district/cases/16-f-supp-2d-25/united-states-v-chrysler-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6677
+   },
+   {
+    "cluster_id": 572559,
+    "case_name": "Chrysler Motors v. Royal Dodge",
+    "citations": [
+     "949 F.2d 1159",
+     "1991 U.S. App. LEXIS 28388"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1991-11-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/949-f-2d-1159/chrysler-motors-v-royal-dodge",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Chrysler Motors v. Royal Dodge, 949 F.2d 1159 (5th Cir. 1991)",
+    "link_md": "[Chrysler Motors v. Royal Dodge, 949 F.2d 1159 (5th Cir. 1991)](https://syfert.com/federal/circuits/cases/949-f-2d-1159/chrysler-motors-v-royal-dodge)",
+    "match_kind": "semantic",
+    "similarity": 0.6649
+   },
+   {
+    "cluster_id": 3377080,
+    "case_name": "Hamden Chrysler-Ply. v. Northeast P.",
+    "citations": [
+     "2001 Conn. Super. Ct. 1513"
+    ],
+    "court": "Connecticut Superior Court",
+    "date_filed": "2001-01-25",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/connecticut/cases/cl-3377080/hamden-chrysler-ply-v-northeast-p-no-cv-00-0444192s-jan-25-2001",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Hamden Chrysler-Ply. v. Ne. P., 2001 Conn. Super. Ct. 1513 (Conn. Super. Ct. 2001)",
+    "link_md": "[Hamden Chrysler-Ply. v. Ne. P., 2001 Conn. Super. Ct. 1513 (Conn. Super. Ct. 2001)](https://syfert.com/connecticut/cases/cl-3377080/hamden-chrysler-ply-v-northeast-p-no-cv-00-0444192s-jan-25-2001)",
+    "match_kind": "semantic",
+    "similarity": 0.6629
+   },
+   {
+    "cluster_id": 316750,
+    "case_name": "Chrysler Corporation v. Lane",
+    "citations": [
+     "491 F.2d 748"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1974-01-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/491-f-2d-748/chrysler-corporation-v-lane",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Chrysler Corp. v. Lane, 491 F.2d 748 (3d Cir. 1974)",
+    "link_md": "[Chrysler Corp. v. Lane, 491 F.2d 748 (3d Cir. 1974)](https://syfert.com/federal/circuits/cases/491-f-2d-748/chrysler-corporation-v-lane)",
+    "match_kind": "semantic",
+    "similarity": 0.6564
+   },
+   {
+    "cluster_id": 372369,
+    "case_name": "East Towne Chrysler Motors, Inc. v. N. L. R. B",
+    "citations": [
+     "610 F.2d 819"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1979-10-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/610-f-2d-819/east-towne-chrysler-motors-inc-v-n-l-r-b",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "East Towne Chrysler Motors, Inc. v. N. L. R. B, 610 F.2d 819 (7th Cir. 1979)",
+    "link_md": "[East Towne Chrysler Motors, Inc. v. N. L. R. B, 610 F.2d 819 (7th Cir. 1979)](https://syfert.com/federal/circuits/cases/610-f-2d-819/east-towne-chrysler-motors-inc-v-n-l-r-b)",
+    "match_kind": "semantic",
+    "similarity": 0.6558
+   },
+   {
+    "cluster_id": 337278,
+    "case_name": "Callahan v. Chrysler Motors Corp",
+    "citations": [
+     "538 F.2d 335"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1976-06-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/538-f-2d-335/callahan-v-chrysler-motors-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Callahan v. Chrysler Motors Corp, 538 F.2d 335 (9th Cir. 1976)",
+    "link_md": "[Callahan v. Chrysler Motors Corp, 538 F.2d 335 (9th Cir. 1976)](https://syfert.com/federal/circuits/cases/538-f-2d-335/callahan-v-chrysler-motors-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6555
+   },
+   {
+    "cluster_id": 396093,
+    "case_name": "Tripper Corp. v. Chrysler Corp",
+    "citations": [
+     "661 F.2d 942"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1981-08-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/661-f-2d-942/tripper-corp-v-chrysler-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tripper Corp. v. Chrysler Corp, 661 F.2d 942 (9th Cir. 1981)",
+    "link_md": "[Tripper Corp. v. Chrysler Corp, 661 F.2d 942 (9th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-942/tripper-corp-v-chrysler-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6513
+   },
+   {
+    "cluster_id": 1411299,
+    "case_name": "DAIMLERCHRYSLER MOTORS COMPANY v. Warnell",
+    "citations": [
+     "669 S.E.2d 407",
+     "294 Ga. App. 500",
+     "2008 Fulton County D. Rep. 3387",
+     "2008 Ga. App. LEXIS 1144"
+    ],
+    "court": "Court of Appeals of Georgia",
+    "date_filed": "2008-10-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/georgia/cases/294-ga-app-500/daimlerchrysler-motors-company-v-warnell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Daimlerchrysler Motors Co. v. Warnell, 669 S.E.2d 407 (Ga. Ct. App. 2008)",
+    "link_md": "[Daimlerchrysler Motors Co. v. Warnell, 669 S.E.2d 407 (Ga. Ct. App. 2008)](https://syfert.com/georgia/cases/294-ga-app-500/daimlerchrysler-motors-company-v-warnell)",
+    "match_kind": "semantic",
+    "similarity": 0.651
+   },
+   {
+    "cluster_id": 560809,
+    "case_name": "Edwards v. Joe Cullipher Chrysler-Plymouth, Inc.",
+    "citations": [
+     "932 F.2d 963",
+     "1991 U.S. App. LEXIS 13738",
+     "57 Fair Empl. Prac. Cas. (BNA) 1896",
+     "1991 WL 70404"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1991-05-06",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/932-f-2d-963/edwards-v-joe-cullipher-chrysler-plymouth-inc",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Edwards v. Joe Cullipher Chrysler-Plymouth, Inc., 932 F.2d 963 (4th Cir. 1991)",
+    "link_md": "[Edwards v. Joe Cullipher Chrysler-Plymouth, Inc., 932 F.2d 963 (4th Cir. 1991)](https://syfert.com/federal/circuits/cases/932-f-2d-963/edwards-v-joe-cullipher-chrysler-plymouth-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6503
+   },
+   {
+    "cluster_id": 1133203,
+    "case_name": "Chrysler Motor Corp. v. Andresen",
+    "citations": [
+     "454 P.2d 825",
+     "76 Wash. 2d 22",
+     "1969 Wash. LEXIS 614"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "1969-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/76-wash-2d-22/chrysler-motor-corp-v-andresen",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Chrysler Motor Corp. v. Andresen, 454 P.2d 825 (Wash. 1969)",
+    "link_md": "[Chrysler Motor Corp. v. Andresen, 454 P.2d 825 (Wash. 1969)](https://syfert.com/washington/cases/76-wash-2d-22/chrysler-motor-corp-v-andresen)",
+    "match_kind": "semantic",
+    "similarity": 0.6492
+   },
+   {
+    "cluster_id": 309051,
+    "case_name": "Snyder v. Chrysler Corp",
+    "citations": [
+     "474 F.2d 1339"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1973-02-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/474-f-2d-1339/snyder-v-chrysler-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Snyder v. Chrysler Corp, 474 F.2d 1339 (3d Cir. 1973)",
+    "link_md": "[Snyder v. Chrysler Corp, 474 F.2d 1339 (3d Cir. 1973)](https://syfert.com/federal/circuits/cases/474-f-2d-1339/snyder-v-chrysler-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6469
+   },
+   {
+    "cluster_id": 8762386,
+    "case_name": "Crawford Transport Co. v. Chrysler Corp.",
+    "citations": [
+     "235 F. Supp. 751",
+     "1962 U.S. Dist. LEXIS 4777"
+    ],
+    "court": "E.D. Kentucky",
+    "date_filed": "1962-01-18",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/district/cases/235-f-supp-751/crawford-transport-co-v-chrysler-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Crawford Transp. Co. v. Chrysler Corp., 235 F. Supp. 751 (E.D. Ky. 1962)",
+    "link_md": "[Crawford Transp. Co. v. Chrysler Corp., 235 F. Supp. 751 (E.D. Ky. 1962)](https://syfert.com/federal/district/cases/235-f-supp-751/crawford-transport-co-v-chrysler-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6464
+   },
+   {
+    "cluster_id": 566483,
+    "case_name": "Chu Shin Pak v. Chrysler Motor Corporation",
+    "citations": [
+     "941 F.2d 1200",
+     "1991 U.S. App. LEXIS 18627",
+     "1991 WL 147255"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1991-07-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/941-f-2d-1200/chu-shin-pak-v-chrysler-motor-corporation",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Chu Shin Pak v. Chrysler Motor Corp., 941 F.2d 1200 (3d Cir. 1991)",
+    "link_md": "[Chu Shin Pak v. Chrysler Motor Corp., 941 F.2d 1200 (3d Cir. 1991)](https://syfert.com/federal/circuits/cases/941-f-2d-1200/chu-shin-pak-v-chrysler-motor-corporation)",
+    "match_kind": "semantic",
+    "similarity": 0.6452
+   },
+   {
+    "cluster_id": 230396,
+    "case_name": "Biever Motor Car Company v. Chrysler Corporation",
+    "citations": [
+     "199 F.2d 758",
+     "1952 U.S. App. LEXIS 3430"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1952-12-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/199-f-2d-758/biever-motor-car-company-v-chrysler-corporation",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Biever Motor Car Co. v. Chrysler Corp., 199 F.2d 758 (2d Cir. 1952)",
+    "link_md": "[Biever Motor Car Co. v. Chrysler Corp., 199 F.2d 758 (2d Cir. 1952)](https://syfert.com/federal/circuits/cases/199-f-2d-758/biever-motor-car-company-v-chrysler-corporation)",
+    "match_kind": "semantic",
+    "similarity": 0.645
+   },
+   {
+    "cluster_id": 739431,
+    "case_name": "Thomas Ford v. Chrysler Corporation",
+    "citations": [
+     "111 F.3d 126",
+     "1997 U.S. App. LEXIS 8206",
+     "1997 WL 173172"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1997-03-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/111-f-3d-126/thomas-ford-v-chrysler-corporation",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thomas Ford v. Chrysler Corp., 111 F.3d 126 (3d Cir. 1997)",
+    "link_md": "[Thomas Ford v. Chrysler Corp., 111 F.3d 126 (3d Cir. 1997)](https://syfert.com/federal/circuits/cases/111-f-3d-126/thomas-ford-v-chrysler-corporation)",
+    "match_kind": "semantic",
+    "similarity": 0.6443
+   },
+   {
+    "cluster_id": 593600,
+    "case_name": "Adams v. Chrysler Motors Corp",
+    "citations": [
+     "978 F.2d 710",
+     "1992 U.S. App. LEXIS 29467",
+     "1992 WL 319188"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1992-10-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/978-f-2d-710/adams-v-chrysler-motors-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Adams v. Chrysler Motors Corp, 978 F.2d 710 (5th Cir. 1992)",
+    "link_md": "[Adams v. Chrysler Motors Corp, 978 F.2d 710 (5th Cir. 1992)](https://syfert.com/federal/circuits/cases/978-f-2d-710/adams-v-chrysler-motors-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6425
+   },
+   {
+    "cluster_id": 1103642,
+    "case_name": "Rozen v. Chrysler Corporation",
+    "citations": [
+     "142 So. 2d 735"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "1962-06-26",
+    "status": "Published",
+    "cited_by": 13,
+    "disposition": "affirmed",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/florida/cases/142-so-2d-735/rozen-v-chrysler-corporation",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rozen v. Chrysler Corp., 142 So. 2d 735 (Fla. 3d DCA 1962)",
+    "link_md": "[Rozen v. Chrysler Corp., 142 So. 2d 735 (Fla. 3d DCA 1962)](https://syfert.com/florida/cases/142-so-2d-735/rozen-v-chrysler-corporation)",
+    "match_kind": "semantic",
+    "similarity": 0.6421
+   },
+   {
+    "cluster_id": 462824,
+    "case_name": "Walker v. Chrysler Corp",
+    "citations": [
+     "780 F.2d 1017"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1985-11-04",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/780-f-2d-1017/walker-v-chrysler-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walker v. Chrysler Corp, 780 F.2d 1017 (3d Cir. 1985)",
+    "link_md": "[Walker v. Chrysler Corp, 780 F.2d 1017 (3d Cir. 1985)](https://syfert.com/federal/circuits/cases/780-f-2d-1017/walker-v-chrysler-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.639
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

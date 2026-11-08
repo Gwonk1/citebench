@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "93 S.E. 473",
+  "expected_case_name": "State v. . Burnett"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"93 S.E. 473\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3901539,\n            \"case_name\": \"State v. . Burnett\",\n            \"citations\": [\n                \"93 S.E. 473\"\n            ],\n            \"court\": \"Supreme Court of North Carolina\",\n            \"date_filed\": \"1917-09-26\",\n            \"status\": \"Published\",\n            \"cited_by\": 29,\n            \"url\": \"https://syfert.com/north-carolina/cases/174-n-c-796/state-v-burnett\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Burnett, 93 S.E. 473 (N.C. 1917)\",\n            \"link_md\": \"[State v. Burnett, 93 S.E. 473 (N.C. 1917)](https://syfert.com/north-carolina/cases/174-n-c-796/state-v-burnett)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. . Burnett\",\n        \"actual\": \"State v. . Burnett\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "93 S.E. 473",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3901539,
+    "case_name": "State v. . Burnett",
+    "citations": [
+     "93 S.E. 473"
+    ],
+    "court": "Supreme Court of North Carolina",
+    "date_filed": "1917-09-26",
+    "status": "Published",
+    "cited_by": 29,
+    "url": "https://syfert.com/north-carolina/cases/174-n-c-796/state-v-burnett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Burnett, 93 S.E. 473 (N.C. 1917)",
+    "link_md": "[State v. Burnett, 93 S.E. 473 (N.C. 1917)](https://syfert.com/north-carolina/cases/174-n-c-796/state-v-burnett)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. . Burnett",
+   "actual": "State v. . Burnett",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

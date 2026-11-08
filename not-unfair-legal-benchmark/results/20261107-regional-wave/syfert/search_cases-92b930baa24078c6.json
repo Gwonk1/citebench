@@ -1,0 +1,408 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Harlow w/15 \"136 A. 123\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Harlow w/15 \\\"136 A. 123\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":404211,\"case_name\":\"Harlow v. Sargent\",\"citations\":[\"679 F.2d 872\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-11-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/679-f-2d-872/harlow-v-sargent\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harlow v. Sargent, 679 F.2d 872 (2d Cir. 1981)\",\"link_md\":\"[Harlow v. Sargent, 679 F.2d 872 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/679-f-2d-872/harlow-v-sargent)\",\"match_kind\":\"semantic\",\"similarity\":0.6593},{\"cluster_id\":2587256,\"case_name\":\"Harrow v. State\",\"citations\":[\"216 N.E.2d 28\",\"17 N.Y.2d 619\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1966-03-24\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/17-n-y-2d-619/harrow-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harrow v. State, 216 N.E.2d 28 (N.Y. 1966)\",\"link_md\":\"[Harrow v. State, 216 N.E.2d 28 (N.Y. 1966)](https://syfert.com/new-york/cases/17-n-y-2d-619/harrow-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6216},{\"cluster_id\":7976216,\"case_name\":\"Marquette, Houghton & Ontonagon Railroad v. Harlow\",\"citations\":[\"37 Mich. 557\",\"1877 Mich. LEXIS 320\"],\"court\":\"Michigan Supreme Court\",\"date_filed\":\"1877-11-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/michigan/cases/37-mich-557/marquette-houghton-ontonagon-railroad-v-harlow\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Marquette, Houghton & Ontonagon R.R. v. Harlow, 37 Mich. 557 (1877)\",\"link_md\":\"[Marquette, Houghton & Ontonagon R.R. v. Harlow, 37 Mich. 557 (1877)](https://syfert.com/michigan/cases/37-mich-557/marquette-houghton-ontonagon-railroad-v-harlow)\",\"match_kind\":\"semantic\",\"similarity\":0.6149},{\"cluster_id\":5378881,\"case_name\":\"Harlow v. Haines\",\"citations\":[\"136 A.D. 938\",\"121 N.Y.S. 1134\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1910-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/136-a-d-938/harlow-v-haines\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harlow v. Haines, 136 A.D. 938 (N.Y. App. Div. 1910)\",\"link_md\":\"[Harlow v. Haines, 136 A.D. 938 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/136-a-d-938/harlow-v-haines)\",\"match_kind\":\"semantic\",\"similarity\":0.6087},{\"cluster_id\":1916833,\"case_name\":\"Harlow v. City of Birmingham\",\"citations\":[\"296 So. 2d 202\",\"292 Ala. 722\",\"296 So. 2d 206\",\"1974 Ala. LEXIS 1166\"],\"court\":\"Supreme Court of Alabama\",\"date_filed\":\"1974-05-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/alabama/cases/292-ala-722/harlow-v-city-of-birmingham\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (1916833 and its twin 7538702). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harlow v. City of Birmingham, 296 So. 2d 202 (Ala. 1974)\",\"link_md\":\"[Harlow v. City of Birmingham, 296 So. 2d 202 (Ala. 1974)](https://syfert.com/alabama/cases/292-ala-722/harlow-v-city-of-birmingham)\",\"match_kind\":\"semantic\",\"similarity\":0.6017,\"twin_clusters\":[7538702]},{\"cluster_id\":10585105,\"case_name\":\"Briana Hernandez v. Luis Arturo Loarca\",\"citations\":[\"571 P.3d 371\"],\"court\":\"Court of Appeals of Arizona\",\"date_filed\":\"2025-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/arizona/cases/571-p-3d-371/briana-hernandez-v-luis-arturo-loarca\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"571 P.3d 371\",\"recovered_from_citing_opinions\":1,\"source\":\"name_year_recovery\",\"confidence\":0.8,\"note\":\"Reporter citation recovered from 1 citing opinion that cites this case by name and year. CourtListener carries no reporter cite for it (confidence 0.80). One citing court; verify before relying on the page number\"}],\"bluebook\":\"Briana Hernandez v. Luis Arturo Loarca, 571 P.3d 371 (Ariz. Ct. App. 2025)\",\"link_md\":\"[Briana Hernandez v. Luis Arturo Loarca, 571 P.3d 371 (Ariz. Ct. App. 2025)](https://syfert.com/arizona/cases/571-p-3d-371/briana-hernandez-v-luis-arturo-loarca)\",\"match_kind\":\"semantic\",\"similarity\":0.6011},{\"cluster_id\":475701,\"case_name\":\"Harrell v. Brotherhood of Ry\",\"citations\":[\"800 F.2d 266\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1986-08-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/800-f-2d-266/harrell-v-brotherhood-of-ry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harrell v. Bhd. of Ry, 800 F.2d 266 (11th Cir. 1986)\",\"link_md\":\"[Harrell v. Bhd. of Ry, 800 F.2d 266 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/800-f-2d-266/harrell-v-brotherhood-of-ry)\",\"match_kind\":\"semantic\",\"similarity\":0.5961},{\"cluster_id\":3212880,\"case_name\":\"Colleen Marie Berg v. Michael Vincent Flaherty\",\"citations\":[],\"court\":\"Court of Appeals of Minnesota\",\"date_filed\":\"2016-06-13\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/minnesota/cases/cl-3212880/colleen-marie-berg-v-michael-vincent-flaherty\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Colleen Marie Berg v. Michael Vincent Flaherty, No. A15-1743 (Minn. Ct. App. June 13, 2016)\",\"link_md\":\"[Colleen Marie Berg v. Michael Vincent Flaherty, No. A15-1743 (Minn. Ct. App. June 13, 2016)](https://syfert.com/minnesota/cases/cl-3212880/colleen-marie-berg-v-michael-vincent-flaherty)\",\"match_kind\":\"semantic\",\"similarity\":0.5921},{\"cluster_id\":372671,\"case_name\":\"Harrell v. Hopkins\",\"citations\":[\"611 F.2d 372\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1979-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/611-f-2d-372/harrell-v-hopkins\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harrell v. Hopkins, 611 F.2d 372 (6th Cir. 1979)\",\"link_md\":\"[Harrell v. Hopkins, 611 F.2d 372 (6th Cir. 1979)](https://syfert.com/federal/circuits/cases/611-f-2d-372/harrell-v-hopkins)\",\"match_kind\":\"semantic\",\"similarity\":0.5905},{\"cluster_id\":335216,\"case_name\":\"United States v. Harris\",\"citations\":[\"534 F.2d 1405\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1976-06-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/534-f-2d-1405/united-states-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Harris, 534 F.2d 1405 (5th Cir. 1976)\",\"link_md\":\"[United States v. Harris, 534 F.2d 1405 (5th Cir. 1976)](https://syfert.com/federal/circuits/cases/534-f-2d-1405/united-states-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.5867},{\"cluster_id\":385458,\"case_name\":\"Hubbard v. Harris\",\"citations\":[\"636 F.2d 1217\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1980-11-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/636-f-2d-1217/hubbard-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hubbard v. Harris, 636 F.2d 1217 (6th Cir. 1980)\",\"link_md\":\"[Hubbard v. Harris, 636 F.2d 1217 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/636-f-2d-1217/hubbard-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.5861},{\"cluster_id\":568318,\"case_name\":\"Eddie Hytower Wayne Hamilton, Earl Love v. George Wilson, Director, Carole J. Shiplevy, Supt.\",\"citations\":[\"944 F.2d 905\",\"1991 U.S. App. LEXIS 28054\",\"1991 WL 182732\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1991-09-18\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/944-f-2d-905/eddie-hytower-wayne-hamilton-earl-love-v-george-wi\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Eddie Hytower Wayne Hamilton v. George Wilson, 944 F.2d 905 (6th Cir. 1991)\",\"link_md\":\"[Eddie Hytower Wayne Hamilton v. George Wilson, 944 F.2d 905 (6th Cir. 1991)](https://syfert.com/federal/circuits/cases/944-f-2d-905/eddie-hytower-wayne-hamilton-earl-love-v-george-wi)\",\"match_kind\":\"semantic\",\"similarity\":0.5856},{\"cluster_id\":468024,\"case_name\":\"Hallingstad v. Harvey\",\"citations\":[\"787 F.2d 596\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1986-03-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/787-f-2d-596/hallingstad-v-harvey\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hallingstad v. Harvey, 787 F.2d 596 (7th Cir. 1986)\",\"link_md\":\"[Hallingstad v. Harvey, 787 F.2d 596 (7th Cir. 1986)](https://syfert.com/federal/circuits/cases/787-f-2d-596/hallingstad-v-harvey)\",\"match_kind\":\"semantic\",\"similarity\":0.5839},{\"cluster_id\":5491539,\"case_name\":\"Breedveld v. A. L. Hartridge Co.\",\"citations\":[\"240 A.D. 719\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1933-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/240-a-d-719/breedveld-v-a-l-hartridge-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Breedveld v. A. L. Hartridge Co., 240 A.D. 719 (N.Y. App. Div. 2d Dep't 1933)\",\"link_md\":\"[Breedveld v. A. L. Hartridge Co., 240 A.D. 719 (N.Y. App. Div. 2d Dep't 1933)](https://syfert.com/new-york/cases/240-a-d-719/breedveld-v-a-l-hartridge-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5832},{\"cluster_id\":424433,\"case_name\":\"Harris v. Davis\",\"citations\":[\"716 F.2d 903\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1983-07-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/716-f-2d-903/harris-v-davis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. Davis, 716 F.2d 903 (6th Cir. 1983)\",\"link_md\":\"[Harris v. Davis, 716 F.2d 903 (6th Cir. 1983)](https://syfert.com/federal/circuits/cases/716-f-2d-903/harris-v-davis)\",\"match_kind\":\"semantic\",\"similarity\":0.582},{\"cluster_id\":6255710,\"case_name\":\"Harvey v. West-Side Elevated Railway Co.\",\"citations\":[\"20 N.Y. Sup. Ct. 392\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1878-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6255710/harvey-v-west-side-elevated-railway-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harvey v. West-Side Elevated Ry. Co., 20 N.Y. Sup. Ct. 392 (N.Y. Sup. Ct. 1878)\",\"link_md\":\"[Harvey v. West-Side Elevated Ry. Co., 20 N.Y. Sup. Ct. 392 (N.Y. Sup. Ct. 1878)](https://syfert.com/new-york/cases/cl-6255710/harvey-v-west-side-elevated-railway-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5811},{\"cluster_id\":3040556,\"case_name\":\"Geoffrey Stringer v. St. James R-I School\",\"citations\":[],\"court\":\"Eighth Circuit\",\"date_filed\":\"2006-05-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-3040556/geoffrey-stringer-v-st-james-r-i-school\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Geoffrey Stringer v. St. James R-I Sch., No. 05-1182 (8th Cir. May 3, 2006)\",\"link_md\":\"[Geoffrey Stringer v. St. James R-I Sch., No. 05-1182 (8th Cir. May 3, 2006)](https://syfert.com/federal/circuits/cases/cl-3040556/geoffrey-stringer-v-st-james-r-i-school)\",\"match_kind\":\"semantic\",\"similarity\":0.5795},{\"cluster_id\":401741,\"case_name\":\"Harrell v. Jago\",\"citations\":[\"673 F.2d 1329\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1981-12-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/673-f-2d-1329/harrell-v-jago\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harrell v. Jago, 673 F.2d 1329 (6th Cir. 1981)\",\"link_md\":\"[Harrell v. Jago, 673 F.2d 1329 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/673-f-2d-1329/harrell-v-jago)\",\"match_kind\":\"semantic\",\"similarity\":0.579},{\"cluster_id\":413616,\"case_name\":\"Harrell v. Jago\",\"citations\":[\"698 F.2d 1219\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1982-03-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/698-f-2d-1219/harrell-v-jago\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harrell v. Jago, 698 F.2d 1219 (6th Cir. 1982)\",\"link_md\":\"[Harrell v. Jago, 698 F.2d 1219 (6th Cir. 1982)](https://syfert.com/federal/circuits/cases/698-f-2d-1219/harrell-v-jago)\",\"match_kind\":\"semantic\",\"similarity\":0.5788},{\"cluster_id\":710333,\"case_name\":\"Alfonzo Harris, Beverly Harris v. Procter & Gamble Cellulose Co., Terri Delong, Tollie Strode and Michael Brantley\",\"citations\":[\"73 F.3d 321\",\"11 I.E.R. Cas. (BNA) 605\",\"1996 U.S. App. LEXIS 726\",\"1996 WL 5121\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-01-22\",\"status\":\"Published\",\"cited_by\":16,\"url\":\"https://syfert.com/federal/circuits/cases/73-f-3d-321/alfonzo-harris-beverly-harris-v-procter-gamble-cellulose-co-terri\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (710333 and its twin 70619).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Alfonzo Harris v. Procter & Gamble Cellulose Co., 73 F.3d 321 (11th Cir. 1996)\",\"link_md\":\"[Alfonzo Harris v. Procter & Gamble Cellulose Co., 73 F.3d 321 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/73-f-3d-321/alfonzo-harris-beverly-harris-v-procter-gamble-cellulose-co-terri)\",\"match_kind\":\"semantic\",\"similarity\":0.5777,\"twin_clusters\":[70619]}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Harlow w/15 \"136 A. 123\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 404211,
+    "case_name": "Harlow v. Sargent",
+    "citations": [
+     "679 F.2d 872"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-11-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/679-f-2d-872/harlow-v-sargent",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harlow v. Sargent, 679 F.2d 872 (2d Cir. 1981)",
+    "link_md": "[Harlow v. Sargent, 679 F.2d 872 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/679-f-2d-872/harlow-v-sargent)",
+    "match_kind": "semantic",
+    "similarity": 0.6593
+   },
+   {
+    "cluster_id": 2587256,
+    "case_name": "Harrow v. State",
+    "citations": [
+     "216 N.E.2d 28",
+     "17 N.Y.2d 619"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1966-03-24",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/17-n-y-2d-619/harrow-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harrow v. State, 216 N.E.2d 28 (N.Y. 1966)",
+    "link_md": "[Harrow v. State, 216 N.E.2d 28 (N.Y. 1966)](https://syfert.com/new-york/cases/17-n-y-2d-619/harrow-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6216
+   },
+   {
+    "cluster_id": 7976216,
+    "case_name": "Marquette, Houghton & Ontonagon Railroad v. Harlow",
+    "citations": [
+     "37 Mich. 557",
+     "1877 Mich. LEXIS 320"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1877-11-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/michigan/cases/37-mich-557/marquette-houghton-ontonagon-railroad-v-harlow",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Marquette, Houghton & Ontonagon R.R. v. Harlow, 37 Mich. 557 (1877)",
+    "link_md": "[Marquette, Houghton & Ontonagon R.R. v. Harlow, 37 Mich. 557 (1877)](https://syfert.com/michigan/cases/37-mich-557/marquette-houghton-ontonagon-railroad-v-harlow)",
+    "match_kind": "semantic",
+    "similarity": 0.6149
+   },
+   {
+    "cluster_id": 5378881,
+    "case_name": "Harlow v. Haines",
+    "citations": [
+     "136 A.D. 938",
+     "121 N.Y.S. 1134"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1910-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/136-a-d-938/harlow-v-haines",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harlow v. Haines, 136 A.D. 938 (N.Y. App. Div. 1910)",
+    "link_md": "[Harlow v. Haines, 136 A.D. 938 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/136-a-d-938/harlow-v-haines)",
+    "match_kind": "semantic",
+    "similarity": 0.6087
+   },
+   {
+    "cluster_id": 1916833,
+    "case_name": "Harlow v. City of Birmingham",
+    "citations": [
+     "296 So. 2d 202",
+     "292 Ala. 722",
+     "296 So. 2d 206",
+     "1974 Ala. LEXIS 1166"
+    ],
+    "court": "Supreme Court of Alabama",
+    "date_filed": "1974-05-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/alabama/cases/292-ala-722/harlow-v-city-of-birmingham",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (1916833 and its twin 7538702). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harlow v. City of Birmingham, 296 So. 2d 202 (Ala. 1974)",
+    "link_md": "[Harlow v. City of Birmingham, 296 So. 2d 202 (Ala. 1974)](https://syfert.com/alabama/cases/292-ala-722/harlow-v-city-of-birmingham)",
+    "match_kind": "semantic",
+    "similarity": 0.6017,
+    "twin_clusters": [
+     7538702
+    ]
+   },
+   {
+    "cluster_id": 10585105,
+    "case_name": "Briana Hernandez v. Luis Arturo Loarca",
+    "citations": [
+     "571 P.3d 371"
+    ],
+    "court": "Court of Appeals of Arizona",
+    "date_filed": "2025-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/arizona/cases/571-p-3d-371/briana-hernandez-v-luis-arturo-loarca",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "571 P.3d 371",
+      "recovered_from_citing_opinions": 1,
+      "source": "name_year_recovery",
+      "confidence": 0.8,
+      "note": "Reporter citation recovered from 1 citing opinion that cites this case by name and year. CourtListener carries no reporter cite for it (confidence 0.80). One citing court; verify before relying on the page number"
+     }
+    ],
+    "bluebook": "Briana Hernandez v. Luis Arturo Loarca, 571 P.3d 371 (Ariz. Ct. App. 2025)",
+    "link_md": "[Briana Hernandez v. Luis Arturo Loarca, 571 P.3d 371 (Ariz. Ct. App. 2025)](https://syfert.com/arizona/cases/571-p-3d-371/briana-hernandez-v-luis-arturo-loarca)",
+    "match_kind": "semantic",
+    "similarity": 0.6011
+   },
+   {
+    "cluster_id": 475701,
+    "case_name": "Harrell v. Brotherhood of Ry",
+    "citations": [
+     "800 F.2d 266"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1986-08-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/800-f-2d-266/harrell-v-brotherhood-of-ry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harrell v. Bhd. of Ry, 800 F.2d 266 (11th Cir. 1986)",
+    "link_md": "[Harrell v. Bhd. of Ry, 800 F.2d 266 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/800-f-2d-266/harrell-v-brotherhood-of-ry)",
+    "match_kind": "semantic",
+    "similarity": 0.5961
+   },
+   {
+    "cluster_id": 3212880,
+    "case_name": "Colleen Marie Berg v. Michael Vincent Flaherty",
+    "citations": [],
+    "court": "Court of Appeals of Minnesota",
+    "date_filed": "2016-06-13",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/minnesota/cases/cl-3212880/colleen-marie-berg-v-michael-vincent-flaherty",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Colleen Marie Berg v. Michael Vincent Flaherty, No. A15-1743 (Minn. Ct. App. June 13, 2016)",
+    "link_md": "[Colleen Marie Berg v. Michael Vincent Flaherty, No. A15-1743 (Minn. Ct. App. June 13, 2016)](https://syfert.com/minnesota/cases/cl-3212880/colleen-marie-berg-v-michael-vincent-flaherty)",
+    "match_kind": "semantic",
+    "similarity": 0.5921
+   },
+   {
+    "cluster_id": 372671,
+    "case_name": "Harrell v. Hopkins",
+    "citations": [
+     "611 F.2d 372"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1979-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/611-f-2d-372/harrell-v-hopkins",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harrell v. Hopkins, 611 F.2d 372 (6th Cir. 1979)",
+    "link_md": "[Harrell v. Hopkins, 611 F.2d 372 (6th Cir. 1979)](https://syfert.com/federal/circuits/cases/611-f-2d-372/harrell-v-hopkins)",
+    "match_kind": "semantic",
+    "similarity": 0.5905
+   },
+   {
+    "cluster_id": 335216,
+    "case_name": "United States v. Harris",
+    "citations": [
+     "534 F.2d 1405"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1976-06-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/534-f-2d-1405/united-states-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Harris, 534 F.2d 1405 (5th Cir. 1976)",
+    "link_md": "[United States v. Harris, 534 F.2d 1405 (5th Cir. 1976)](https://syfert.com/federal/circuits/cases/534-f-2d-1405/united-states-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.5867
+   },
+   {
+    "cluster_id": 385458,
+    "case_name": "Hubbard v. Harris",
+    "citations": [
+     "636 F.2d 1217"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1980-11-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/636-f-2d-1217/hubbard-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hubbard v. Harris, 636 F.2d 1217 (6th Cir. 1980)",
+    "link_md": "[Hubbard v. Harris, 636 F.2d 1217 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/636-f-2d-1217/hubbard-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.5861
+   },
+   {
+    "cluster_id": 568318,
+    "case_name": "Eddie Hytower Wayne Hamilton, Earl Love v. George Wilson, Director, Carole J. Shiplevy, Supt.",
+    "citations": [
+     "944 F.2d 905",
+     "1991 U.S. App. LEXIS 28054",
+     "1991 WL 182732"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1991-09-18",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/944-f-2d-905/eddie-hytower-wayne-hamilton-earl-love-v-george-wi",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Eddie Hytower Wayne Hamilton v. George Wilson, 944 F.2d 905 (6th Cir. 1991)",
+    "link_md": "[Eddie Hytower Wayne Hamilton v. George Wilson, 944 F.2d 905 (6th Cir. 1991)](https://syfert.com/federal/circuits/cases/944-f-2d-905/eddie-hytower-wayne-hamilton-earl-love-v-george-wi)",
+    "match_kind": "semantic",
+    "similarity": 0.5856
+   },
+   {
+    "cluster_id": 468024,
+    "case_name": "Hallingstad v. Harvey",
+    "citations": [
+     "787 F.2d 596"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1986-03-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/787-f-2d-596/hallingstad-v-harvey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hallingstad v. Harvey, 787 F.2d 596 (7th Cir. 1986)",
+    "link_md": "[Hallingstad v. Harvey, 787 F.2d 596 (7th Cir. 1986)](https://syfert.com/federal/circuits/cases/787-f-2d-596/hallingstad-v-harvey)",
+    "match_kind": "semantic",
+    "similarity": 0.5839
+   },
+   {
+    "cluster_id": 5491539,
+    "case_name": "Breedveld v. A. L. Hartridge Co.",
+    "citations": [
+     "240 A.D. 719"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1933-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/240-a-d-719/breedveld-v-a-l-hartridge-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Breedveld v. A. L. Hartridge Co., 240 A.D. 719 (N.Y. App. Div. 2d Dep't 1933)",
+    "link_md": "[Breedveld v. A. L. Hartridge Co., 240 A.D. 719 (N.Y. App. Div. 2d Dep't 1933)](https://syfert.com/new-york/cases/240-a-d-719/breedveld-v-a-l-hartridge-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5832
+   },
+   {
+    "cluster_id": 424433,
+    "case_name": "Harris v. Davis",
+    "citations": [
+     "716 F.2d 903"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1983-07-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/716-f-2d-903/harris-v-davis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. Davis, 716 F.2d 903 (6th Cir. 1983)",
+    "link_md": "[Harris v. Davis, 716 F.2d 903 (6th Cir. 1983)](https://syfert.com/federal/circuits/cases/716-f-2d-903/harris-v-davis)",
+    "match_kind": "semantic",
+    "similarity": 0.582
+   },
+   {
+    "cluster_id": 6255710,
+    "case_name": "Harvey v. West-Side Elevated Railway Co.",
+    "citations": [
+     "20 N.Y. Sup. Ct. 392"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1878-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6255710/harvey-v-west-side-elevated-railway-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harvey v. West-Side Elevated Ry. Co., 20 N.Y. Sup. Ct. 392 (N.Y. Sup. Ct. 1878)",
+    "link_md": "[Harvey v. West-Side Elevated Ry. Co., 20 N.Y. Sup. Ct. 392 (N.Y. Sup. Ct. 1878)](https://syfert.com/new-york/cases/cl-6255710/harvey-v-west-side-elevated-railway-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5811
+   },
+   {
+    "cluster_id": 3040556,
+    "case_name": "Geoffrey Stringer v. St. James R-I School",
+    "citations": [],
+    "court": "Eighth Circuit",
+    "date_filed": "2006-05-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-3040556/geoffrey-stringer-v-st-james-r-i-school",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Geoffrey Stringer v. St. James R-I Sch., No. 05-1182 (8th Cir. May 3, 2006)",
+    "link_md": "[Geoffrey Stringer v. St. James R-I Sch., No. 05-1182 (8th Cir. May 3, 2006)](https://syfert.com/federal/circuits/cases/cl-3040556/geoffrey-stringer-v-st-james-r-i-school)",
+    "match_kind": "semantic",
+    "similarity": 0.5795
+   },
+   {
+    "cluster_id": 401741,
+    "case_name": "Harrell v. Jago",
+    "citations": [
+     "673 F.2d 1329"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1981-12-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/673-f-2d-1329/harrell-v-jago",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harrell v. Jago, 673 F.2d 1329 (6th Cir. 1981)",
+    "link_md": "[Harrell v. Jago, 673 F.2d 1329 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/673-f-2d-1329/harrell-v-jago)",
+    "match_kind": "semantic",
+    "similarity": 0.579
+   },
+   {
+    "cluster_id": 413616,
+    "case_name": "Harrell v. Jago",
+    "citations": [
+     "698 F.2d 1219"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1982-03-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/698-f-2d-1219/harrell-v-jago",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harrell v. Jago, 698 F.2d 1219 (6th Cir. 1982)",
+    "link_md": "[Harrell v. Jago, 698 F.2d 1219 (6th Cir. 1982)](https://syfert.com/federal/circuits/cases/698-f-2d-1219/harrell-v-jago)",
+    "match_kind": "semantic",
+    "similarity": 0.5788
+   },
+   {
+    "cluster_id": 710333,
+    "case_name": "Alfonzo Harris, Beverly Harris v. Procter & Gamble Cellulose Co., Terri Delong, Tollie Strode and Michael Brantley",
+    "citations": [
+     "73 F.3d 321",
+     "11 I.E.R. Cas. (BNA) 605",
+     "1996 U.S. App. LEXIS 726",
+     "1996 WL 5121"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-01-22",
+    "status": "Published",
+    "cited_by": 16,
+    "url": "https://syfert.com/federal/circuits/cases/73-f-3d-321/alfonzo-harris-beverly-harris-v-procter-gamble-cellulose-co-terri",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (710333 and its twin 70619).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Alfonzo Harris v. Procter & Gamble Cellulose Co., 73 F.3d 321 (11th Cir. 1996)",
+    "link_md": "[Alfonzo Harris v. Procter & Gamble Cellulose Co., 73 F.3d 321 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/73-f-3d-321/alfonzo-harris-beverly-harris-v-procter-gamble-cellulose-co-terri)",
+    "match_kind": "semantic",
+    "similarity": 0.5777,
+    "twin_clusters": [
+     70619
+    ]
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

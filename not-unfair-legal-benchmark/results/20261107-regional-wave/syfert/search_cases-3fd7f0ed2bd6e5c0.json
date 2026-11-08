@@ -1,0 +1,410 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Burnett w/15 \"94 S.E. 473\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Burnett w/15 \\\"94 S.E. 473\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":137133,\"case_name\":\"Burnett v. United States\",\"citations\":[\"542 U.S. 911\",\"124 S. Ct. 2856\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-06-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/542-u-s-911/burnett-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (137133 and its twins 9225730, 9225731). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. United States, 542 U.S. 911 (2004)\",\"link_md\":\"[Burnett v. United States, 542 U.S. 911 (2004)](https://syfert.com/federal/scotus/cases/542-u-s-911/burnett-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7263},{\"cluster_id\":143832,\"case_name\":\"Burnett v. Potts\",\"citations\":[\"544 U.S. 974\",\"125 S. Ct. 1836\"],\"court\":\"Supreme Court\",\"date_filed\":\"2005-04-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/544-u-s-974/burnett-v-potts\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (143832 and its twins 9227732, 9227733). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. Potts, 544 U.S. 974 (2005)\",\"link_md\":\"[Burnett v. Potts, 544 U.S. 974 (2005)](https://syfert.com/federal/scotus/cases/544-u-s-974/burnett-v-potts)\",\"match_kind\":\"semantic\",\"similarity\":0.7227},{\"cluster_id\":524244,\"case_name\":\"Burnett (Walter R.) v. United States\",\"citations\":[\"876 F.2d 107\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1989-08-18\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/876-f-2d-107/burnett-walter-r-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett (Walter R.) v. United States, 876 F.2d 107 (7th Cir. 1989)\",\"link_md\":\"[Burnett (Walter R.) v. United States, 876 F.2d 107 (7th Cir. 1989)](https://syfert.com/federal/circuits/cases/876-f-2d-107/burnett-walter-r-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7186},{\"cluster_id\":473827,\"case_name\":\"Jernigan v. Burnett\",\"citations\":[\"796 F.2d 473\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1986-07-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/796-f-2d-473/jernigan-v-burnett\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jernigan v. Burnett, 796 F.2d 473 (4th Cir. 1986)\",\"link_md\":\"[Jernigan v. Burnett, 796 F.2d 473 (4th Cir. 1986)](https://syfert.com/federal/circuits/cases/796-f-2d-473/jernigan-v-burnett)\",\"match_kind\":\"semantic\",\"similarity\":0.7178},{\"cluster_id\":136787,\"case_name\":\"Burnett v. United States\",\"citations\":[\"541 U.S. 1080\",\"124 S. Ct. 2432\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-06-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/541-u-s-1080/burnett-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (136787 and its twins 9225240, 9225241). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. United States, 541 U.S. 1080 (2004)\",\"link_md\":\"[Burnett v. United States, 541 U.S. 1080 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-1080/burnett-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7161},{\"cluster_id\":122731,\"case_name\":\"Burnett v. United States\",\"citations\":[\"537 U.S. 839\",\"123 S. Ct. 162\"],\"court\":\"Supreme Court\",\"date_filed\":\"2002-10-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/537-u-s-839/burnett-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (122731 and its twin 9250687). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. United States, 537 U.S. 839 (2002)\",\"link_md\":\"[Burnett v. United States, 537 U.S. 839 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-839/burnett-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7104},{\"cluster_id\":132529,\"case_name\":\"Burnett v. United States\",\"citations\":[\"540 U.S. 905\",\"124 S. Ct. 266\"],\"court\":\"Supreme Court\",\"date_filed\":\"2003-10-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/540-u-s-905/burnett-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (132529 and its twins 9214653, 9214654). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. United States, 540 U.S. 905 (2003)\",\"link_md\":\"[Burnett v. United States, 540 U.S. 905 (2003)](https://syfert.com/federal/scotus/cases/540-u-s-905/burnett-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7099},{\"cluster_id\":120100,\"case_name\":\"Ohio v. Burnett\",\"citations\":[\"535 U.S. 1034\",\"122 S. Ct. 1790\"],\"court\":\"Supreme Court\",\"date_filed\":\"2002-04-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/535-u-s-1034/ohio-v-burnett\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (120100 and its twins 9203209, 9203210). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ohio v. Burnett, 535 U.S. 1034 (2002)\",\"link_md\":\"[Ohio v. Burnett, 535 U.S. 1034 (2002)](https://syfert.com/federal/scotus/cases/535-u-s-1034/ohio-v-burnett)\",\"match_kind\":\"semantic\",\"similarity\":0.7062},{\"cluster_id\":434135,\"case_name\":\"Baud v. Burnett\",\"citations\":[\"732 F.2d 149\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1984-03-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/732-f-2d-149/baud-v-burnett\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Baud v. Burnett, 732 F.2d 149 (4th Cir. 1984)\",\"link_md\":\"[Baud v. Burnett, 732 F.2d 149 (4th Cir. 1984)](https://syfert.com/federal/circuits/cases/732-f-2d-149/baud-v-burnett)\",\"match_kind\":\"semantic\",\"similarity\":0.7015},{\"cluster_id\":611788,\"case_name\":\"Burnett v. Benusa\",\"citations\":[\"999 F.2d 537\",\"1993 U.S. App. LEXIS 18144\",\"1993 WL 263002\"],\"court\":\"Second Circuit\",\"date_filed\":\"1993-06-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/999-f-2d-537/burnett-v-benusa\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. Benusa, 999 F.2d 537 (2d Cir. 1993)\",\"link_md\":\"[Burnett v. Benusa, 999 F.2d 537 (2d Cir. 1993)](https://syfert.com/federal/circuits/cases/999-f-2d-537/burnett-v-benusa)\",\"match_kind\":\"semantic\",\"similarity\":0.6965},{\"cluster_id\":3247929,\"case_name\":\"Burnett v. State\",\"citations\":[\"127 So. 802\",\"221 Ala. 170\",\"1930 Ala. LEXIS 167\"],\"court\":\"Supreme Court of Alabama\",\"date_filed\":\"1930-04-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/alabama/cases/221-ala-170/burnett-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. State, 127 So. 802 (Ala. 1930)\",\"link_md\":\"[Burnett v. State, 127 So. 802 (Ala. 1930)](https://syfert.com/alabama/cases/221-ala-170/burnett-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6958},{\"cluster_id\":135714,\"case_name\":\"Burnett v. Thompson, Warden\",\"citations\":[\"541 U.S. 993\",\"124 S. Ct. 2025\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-04-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/541-u-s-993/burnett-v-thompson-warden\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. Thompson, 541 U.S. 993 (2004)\",\"link_md\":\"[Burnett v. Thompson, 541 U.S. 993 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-993/burnett-v-thompson-warden)\",\"match_kind\":\"semantic\",\"similarity\":0.6955},{\"cluster_id\":685352,\"case_name\":\"Burnett (Terry J.) v. Reasoner (Stephen)\",\"citations\":[\"43 F.3d 673\",\"1994 U.S. App. LEXIS 22320\",\"1994 WL 564775\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1994-04-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/43-f-3d-673/burnett-terry-j-v-reasoner-stephen\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett (Terry J.) v. Reasoner (Stephen), 43 F.3d 673 (8th Cir. 1994)\",\"link_md\":\"[Burnett (Terry J.) v. Reasoner (Stephen), 43 F.3d 673 (8th Cir. 1994)](https://syfert.com/federal/circuits/cases/43-f-3d-673/burnett-terry-j-v-reasoner-stephen)\",\"match_kind\":\"semantic\",\"similarity\":0.6953},{\"cluster_id\":134863,\"case_name\":\"Burnett v. Giurbino, Warden\",\"citations\":[\"541 U.S. 909\",\"124 S. Ct. 1616\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-03-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/541-u-s-909/burnett-v-giurbino-warden\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. Giurbino, 541 U.S. 909 (2004)\",\"link_md\":\"[Burnett v. Giurbino, 541 U.S. 909 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-909/burnett-v-giurbino-warden)\",\"match_kind\":\"semantic\",\"similarity\":0.6941},{\"cluster_id\":142711,\"case_name\":\"Burnette v. United States\",\"citations\":[\"543 U.S. 1181\",\"125 S. Ct. 1406\"],\"court\":\"Supreme Court\",\"date_filed\":\"2005-02-28\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-1181/burnette-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnette v. United States, 543 U.S. 1181 (2005)\",\"link_md\":\"[Burnette v. United States, 543 U.S. 1181 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1181/burnette-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6908},{\"cluster_id\":294211,\"case_name\":\"Clarice S. Burnett, as of the Estate of Arch P. Burnett, Deceased v. United States\",\"citations\":[\"436 F.2d 975\",\"27 A.F.T.R.2d (RIA) 1662\",\"1971 U.S. App. LEXIS 11974\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1971-02-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/436-f-2d-975/clarice-s-burnett-as-of-the-estate-of-arch-p-burnett-deceased-v-united\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clarice S. Burnett v. United States, 436 F.2d 975 (4th Cir. 1971)\",\"link_md\":\"[Clarice S. Burnett v. United States, 436 F.2d 975 (4th Cir. 1971)](https://syfert.com/federal/circuits/cases/436-f-2d-975/clarice-s-burnett-as-of-the-estate-of-arch-p-burnett-deceased-v-united)\",\"match_kind\":\"semantic\",\"similarity\":0.6846},{\"cluster_id\":142448,\"case_name\":\"Burnett v. Walker, Warden\",\"citations\":[\"543 U.S. 1164\",\"125 S. Ct. 1331\"],\"court\":\"Supreme Court\",\"date_filed\":\"2005-02-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-1164/burnett-v-walker-warden\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnett v. Walker, 543 U.S. 1164 (2005)\",\"link_md\":\"[Burnett v. Walker, 543 U.S. 1164 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1164/burnett-v-walker-warden)\",\"match_kind\":\"semantic\",\"similarity\":0.6835},{\"cluster_id\":395616,\"case_name\":\"Burnette v. U. S. Parole Commission\",\"citations\":[\"661 F.2d 918\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-07-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/661-f-2d-918/burnette-v-u-s-parole-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnette v. U. S. Parole Comm'n, 661 F.2d 918 (4th Cir. 1981)\",\"link_md\":\"[Burnette v. U. S. Parole Comm'n, 661 F.2d 918 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-918/burnette-v-u-s-parole-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.6808},{\"cluster_id\":2574809,\"case_name\":\"Yeh v. Burnett\",\"citations\":[\"210 P.3d 781\",\"123 Nev. 873\",\"2007 Nev. LEXIS 139\"],\"court\":\"Nevada Supreme Court\",\"date_filed\":\"2007-07-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/nevada/cases/123-nev-873/yeh-v-burnett\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Yeh v. Burnett, 210 P.3d 781 (Nev. 2007)\",\"link_md\":\"[Yeh v. Burnett, 210 P.3d 781 (Nev. 2007)](https://syfert.com/nevada/cases/123-nev-873/yeh-v-burnett)\",\"match_kind\":\"semantic\",\"similarity\":0.6797},{\"cluster_id\":394974,\"case_name\":\"Howe v. Burnett\",\"citations\":[\"660 F.2d 490\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-04-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/660-f-2d-490/howe-v-burnett\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Howe v. Burnett, 660 F.2d 490 (4th Cir. 1981)\",\"link_md\":\"[Howe v. Burnett, 660 F.2d 490 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/660-f-2d-490/howe-v-burnett)\",\"match_kind\":\"semantic\",\"similarity\":0.6762}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Burnett w/15 \"94 S.E. 473\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 137133,
+    "case_name": "Burnett v. United States",
+    "citations": [
+     "542 U.S. 911",
+     "124 S. Ct. 2856"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-06-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/542-u-s-911/burnett-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (137133 and its twins 9225730, 9225731). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. United States, 542 U.S. 911 (2004)",
+    "link_md": "[Burnett v. United States, 542 U.S. 911 (2004)](https://syfert.com/federal/scotus/cases/542-u-s-911/burnett-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7263
+   },
+   {
+    "cluster_id": 143832,
+    "case_name": "Burnett v. Potts",
+    "citations": [
+     "544 U.S. 974",
+     "125 S. Ct. 1836"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2005-04-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/544-u-s-974/burnett-v-potts",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (143832 and its twins 9227732, 9227733). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. Potts, 544 U.S. 974 (2005)",
+    "link_md": "[Burnett v. Potts, 544 U.S. 974 (2005)](https://syfert.com/federal/scotus/cases/544-u-s-974/burnett-v-potts)",
+    "match_kind": "semantic",
+    "similarity": 0.7227
+   },
+   {
+    "cluster_id": 524244,
+    "case_name": "Burnett (Walter R.) v. United States",
+    "citations": [
+     "876 F.2d 107"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1989-08-18",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/876-f-2d-107/burnett-walter-r-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett (Walter R.) v. United States, 876 F.2d 107 (7th Cir. 1989)",
+    "link_md": "[Burnett (Walter R.) v. United States, 876 F.2d 107 (7th Cir. 1989)](https://syfert.com/federal/circuits/cases/876-f-2d-107/burnett-walter-r-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7186
+   },
+   {
+    "cluster_id": 473827,
+    "case_name": "Jernigan v. Burnett",
+    "citations": [
+     "796 F.2d 473"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1986-07-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/796-f-2d-473/jernigan-v-burnett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jernigan v. Burnett, 796 F.2d 473 (4th Cir. 1986)",
+    "link_md": "[Jernigan v. Burnett, 796 F.2d 473 (4th Cir. 1986)](https://syfert.com/federal/circuits/cases/796-f-2d-473/jernigan-v-burnett)",
+    "match_kind": "semantic",
+    "similarity": 0.7178
+   },
+   {
+    "cluster_id": 136787,
+    "case_name": "Burnett v. United States",
+    "citations": [
+     "541 U.S. 1080",
+     "124 S. Ct. 2432"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-06-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/541-u-s-1080/burnett-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (136787 and its twins 9225240, 9225241). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. United States, 541 U.S. 1080 (2004)",
+    "link_md": "[Burnett v. United States, 541 U.S. 1080 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-1080/burnett-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7161
+   },
+   {
+    "cluster_id": 122731,
+    "case_name": "Burnett v. United States",
+    "citations": [
+     "537 U.S. 839",
+     "123 S. Ct. 162"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2002-10-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/537-u-s-839/burnett-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (122731 and its twin 9250687). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. United States, 537 U.S. 839 (2002)",
+    "link_md": "[Burnett v. United States, 537 U.S. 839 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-839/burnett-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7104
+   },
+   {
+    "cluster_id": 132529,
+    "case_name": "Burnett v. United States",
+    "citations": [
+     "540 U.S. 905",
+     "124 S. Ct. 266"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2003-10-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/540-u-s-905/burnett-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (132529 and its twins 9214653, 9214654). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. United States, 540 U.S. 905 (2003)",
+    "link_md": "[Burnett v. United States, 540 U.S. 905 (2003)](https://syfert.com/federal/scotus/cases/540-u-s-905/burnett-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7099
+   },
+   {
+    "cluster_id": 120100,
+    "case_name": "Ohio v. Burnett",
+    "citations": [
+     "535 U.S. 1034",
+     "122 S. Ct. 1790"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2002-04-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/535-u-s-1034/ohio-v-burnett",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (120100 and its twins 9203209, 9203210). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ohio v. Burnett, 535 U.S. 1034 (2002)",
+    "link_md": "[Ohio v. Burnett, 535 U.S. 1034 (2002)](https://syfert.com/federal/scotus/cases/535-u-s-1034/ohio-v-burnett)",
+    "match_kind": "semantic",
+    "similarity": 0.7062
+   },
+   {
+    "cluster_id": 434135,
+    "case_name": "Baud v. Burnett",
+    "citations": [
+     "732 F.2d 149"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1984-03-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/732-f-2d-149/baud-v-burnett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Baud v. Burnett, 732 F.2d 149 (4th Cir. 1984)",
+    "link_md": "[Baud v. Burnett, 732 F.2d 149 (4th Cir. 1984)](https://syfert.com/federal/circuits/cases/732-f-2d-149/baud-v-burnett)",
+    "match_kind": "semantic",
+    "similarity": 0.7015
+   },
+   {
+    "cluster_id": 611788,
+    "case_name": "Burnett v. Benusa",
+    "citations": [
+     "999 F.2d 537",
+     "1993 U.S. App. LEXIS 18144",
+     "1993 WL 263002"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1993-06-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/999-f-2d-537/burnett-v-benusa",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. Benusa, 999 F.2d 537 (2d Cir. 1993)",
+    "link_md": "[Burnett v. Benusa, 999 F.2d 537 (2d Cir. 1993)](https://syfert.com/federal/circuits/cases/999-f-2d-537/burnett-v-benusa)",
+    "match_kind": "semantic",
+    "similarity": 0.6965
+   },
+   {
+    "cluster_id": 3247929,
+    "case_name": "Burnett v. State",
+    "citations": [
+     "127 So. 802",
+     "221 Ala. 170",
+     "1930 Ala. LEXIS 167"
+    ],
+    "court": "Supreme Court of Alabama",
+    "date_filed": "1930-04-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/alabama/cases/221-ala-170/burnett-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. State, 127 So. 802 (Ala. 1930)",
+    "link_md": "[Burnett v. State, 127 So. 802 (Ala. 1930)](https://syfert.com/alabama/cases/221-ala-170/burnett-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6958
+   },
+   {
+    "cluster_id": 135714,
+    "case_name": "Burnett v. Thompson, Warden",
+    "citations": [
+     "541 U.S. 993",
+     "124 S. Ct. 2025"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-04-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/541-u-s-993/burnett-v-thompson-warden",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. Thompson, 541 U.S. 993 (2004)",
+    "link_md": "[Burnett v. Thompson, 541 U.S. 993 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-993/burnett-v-thompson-warden)",
+    "match_kind": "semantic",
+    "similarity": 0.6955
+   },
+   {
+    "cluster_id": 685352,
+    "case_name": "Burnett (Terry J.) v. Reasoner (Stephen)",
+    "citations": [
+     "43 F.3d 673",
+     "1994 U.S. App. LEXIS 22320",
+     "1994 WL 564775"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1994-04-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/43-f-3d-673/burnett-terry-j-v-reasoner-stephen",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett (Terry J.) v. Reasoner (Stephen), 43 F.3d 673 (8th Cir. 1994)",
+    "link_md": "[Burnett (Terry J.) v. Reasoner (Stephen), 43 F.3d 673 (8th Cir. 1994)](https://syfert.com/federal/circuits/cases/43-f-3d-673/burnett-terry-j-v-reasoner-stephen)",
+    "match_kind": "semantic",
+    "similarity": 0.6953
+   },
+   {
+    "cluster_id": 134863,
+    "case_name": "Burnett v. Giurbino, Warden",
+    "citations": [
+     "541 U.S. 909",
+     "124 S. Ct. 1616"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-03-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/541-u-s-909/burnett-v-giurbino-warden",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. Giurbino, 541 U.S. 909 (2004)",
+    "link_md": "[Burnett v. Giurbino, 541 U.S. 909 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-909/burnett-v-giurbino-warden)",
+    "match_kind": "semantic",
+    "similarity": 0.6941
+   },
+   {
+    "cluster_id": 142711,
+    "case_name": "Burnette v. United States",
+    "citations": [
+     "543 U.S. 1181",
+     "125 S. Ct. 1406"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2005-02-28",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-1181/burnette-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnette v. United States, 543 U.S. 1181 (2005)",
+    "link_md": "[Burnette v. United States, 543 U.S. 1181 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1181/burnette-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6908
+   },
+   {
+    "cluster_id": 294211,
+    "case_name": "Clarice S. Burnett, as of the Estate of Arch P. Burnett, Deceased v. United States",
+    "citations": [
+     "436 F.2d 975",
+     "27 A.F.T.R.2d (RIA) 1662",
+     "1971 U.S. App. LEXIS 11974"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1971-02-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/436-f-2d-975/clarice-s-burnett-as-of-the-estate-of-arch-p-burnett-deceased-v-united",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Clarice S. Burnett v. United States, 436 F.2d 975 (4th Cir. 1971)",
+    "link_md": "[Clarice S. Burnett v. United States, 436 F.2d 975 (4th Cir. 1971)](https://syfert.com/federal/circuits/cases/436-f-2d-975/clarice-s-burnett-as-of-the-estate-of-arch-p-burnett-deceased-v-united)",
+    "match_kind": "semantic",
+    "similarity": 0.6846
+   },
+   {
+    "cluster_id": 142448,
+    "case_name": "Burnett v. Walker, Warden",
+    "citations": [
+     "543 U.S. 1164",
+     "125 S. Ct. 1331"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2005-02-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-1164/burnett-v-walker-warden",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnett v. Walker, 543 U.S. 1164 (2005)",
+    "link_md": "[Burnett v. Walker, 543 U.S. 1164 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1164/burnett-v-walker-warden)",
+    "match_kind": "semantic",
+    "similarity": 0.6835
+   },
+   {
+    "cluster_id": 395616,
+    "case_name": "Burnette v. U. S. Parole Commission",
+    "citations": [
+     "661 F.2d 918"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-07-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/661-f-2d-918/burnette-v-u-s-parole-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnette v. U. S. Parole Comm'n, 661 F.2d 918 (4th Cir. 1981)",
+    "link_md": "[Burnette v. U. S. Parole Comm'n, 661 F.2d 918 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-918/burnette-v-u-s-parole-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.6808
+   },
+   {
+    "cluster_id": 2574809,
+    "case_name": "Yeh v. Burnett",
+    "citations": [
+     "210 P.3d 781",
+     "123 Nev. 873",
+     "2007 Nev. LEXIS 139"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2007-07-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/123-nev-873/yeh-v-burnett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yeh v. Burnett, 210 P.3d 781 (Nev. 2007)",
+    "link_md": "[Yeh v. Burnett, 210 P.3d 781 (Nev. 2007)](https://syfert.com/nevada/cases/123-nev-873/yeh-v-burnett)",
+    "match_kind": "semantic",
+    "similarity": 0.6797
+   },
+   {
+    "cluster_id": 394974,
+    "case_name": "Howe v. Burnett",
+    "citations": [
+     "660 F.2d 490"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-04-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/660-f-2d-490/howe-v-burnett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Howe v. Burnett, 660 F.2d 490 (4th Cir. 1981)",
+    "link_md": "[Howe v. Burnett, 660 F.2d 490 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/660-f-2d-490/howe-v-burnett)",
+    "match_kind": "semantic",
+    "similarity": 0.6762
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

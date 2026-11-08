@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "79 So. 2d 233",
+  "expected_case_name": "Lucedale Veneer Co. v. Keel"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"79 So. 2d 233\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8039810,\n            \"case_name\": \"Lucedale Veneer Co. v. Keel\",\n            \"citations\": [\n                \"79 So. 2d 233\"\n            ],\n            \"court\": \"Mississippi Supreme Court\",\n            \"date_filed\": \"1955-04-11\",\n            \"status\": \"Published\",\n            \"cited_by\": 10,\n            \"url\": \"https://syfert.com/mississippi/cases/223-miss-821/lucedale-veneer-co-v-keel\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Lucedale Veneer Co. v. Keel, 79 So. 2d 233 (Miss. 1955)\",\n            \"link_md\": \"[Lucedale Veneer Co. v. Keel, 79 So. 2d 233 (Miss. 1955)](https://syfert.com/mississippi/cases/223-miss-821/lucedale-veneer-co-v-keel)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Lucedale Veneer Co. v. Keel\",\n        \"actual\": \"Lucedale Veneer Co. v. Keel\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "79 So. 2d 233",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8039810,
+    "case_name": "Lucedale Veneer Co. v. Keel",
+    "citations": [
+     "79 So. 2d 233"
+    ],
+    "court": "Mississippi Supreme Court",
+    "date_filed": "1955-04-11",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/mississippi/cases/223-miss-821/lucedale-veneer-co-v-keel",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lucedale Veneer Co. v. Keel, 79 So. 2d 233 (Miss. 1955)",
+    "link_md": "[Lucedale Veneer Co. v. Keel, 79 So. 2d 233 (Miss. 1955)](https://syfert.com/mississippi/cases/223-miss-821/lucedale-veneer-co-v-keel)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Lucedale Veneer Co. v. Keel",
+   "actual": "Lucedale Veneer Co. v. Keel",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

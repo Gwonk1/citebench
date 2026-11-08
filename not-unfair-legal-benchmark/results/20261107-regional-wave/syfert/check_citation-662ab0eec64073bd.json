@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "16 N.W.2d 329",
+  "expected_case_name": "Scherer v. Scandrett"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"16 N.W.2d 329\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3434815,\n            \"case_name\": \"Scherer v. Scandrett\",\n            \"citations\": [\n                \"16 N.W.2d 329\"\n            ],\n            \"court\": \"Supreme Court of Iowa\",\n            \"date_filed\": \"1944-11-14\",\n            \"status\": \"Published\",\n            \"cited_by\": 9,\n            \"url\": \"https://syfert.com/iowa/cases/235-iowa-229/scherer-v-scandrett\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Scherer v. Scandrett, 16 N.W.2d 329 (Iowa 1944)\",\n            \"link_md\": \"[Scherer v. Scandrett, 16 N.W.2d 329 (Iowa 1944)](https://syfert.com/iowa/cases/235-iowa-229/scherer-v-scandrett)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Scherer v. Scandrett\",\n        \"actual\": \"Scherer v. Scandrett\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "16 N.W.2d 329",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3434815,
+    "case_name": "Scherer v. Scandrett",
+    "citations": [
+     "16 N.W.2d 329"
+    ],
+    "court": "Supreme Court of Iowa",
+    "date_filed": "1944-11-14",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/iowa/cases/235-iowa-229/scherer-v-scandrett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Scherer v. Scandrett, 16 N.W.2d 329 (Iowa 1944)",
+    "link_md": "[Scherer v. Scandrett, 16 N.W.2d 329 (Iowa 1944)](https://syfert.com/iowa/cases/235-iowa-229/scherer-v-scandrett)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Scherer v. Scandrett",
+   "actual": "Scherer v. Scandrett",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

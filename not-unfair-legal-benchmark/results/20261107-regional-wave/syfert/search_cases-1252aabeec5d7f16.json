@@ -1,0 +1,65 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Acorn w/15 \"852 N.W.2d 22\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Acorn w/15 \\\"852 N.W.2d 22\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4458261,\"bluebook\":\"Simcor Constr. Inc v. Carl J Trupp III, 912 N.W.2d 216 (Mich. Ct. App. 2018)\",\"url\":\"https://syfert.com/michigan/cases/322-mich-app-508/simcor-construction-inc-v-carl-j-trupp-iii\",\"date_filed\":\"2018-01-09\",\"cited_by\":19,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (4458261 and its twin 4458564).\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...338\\n, 342,\\n852 N.W.2d 22\\n(2014). In\\nAcorn\\n, the Court analyzed the availability of case evaluation sanctions under MCR 2.403(O)(1) and (O)(2), stating that MCR 2.403(O)(2)(c) defines \\\"verdict\\\" as \\\"a judgment entered as a result of a…\",\"passage_origin\":{\"case_name\":\"Acorn Investment Co v. Michigan Basic Property Insurance Assn\",\"cluster_id\":2710482,\"year\":2014,\"quoted_by_cases\":3}},{\"cluster_id\":10184434,\"bluebook\":\"Proto Gage, Inc. v. Fed. Ins. Co., No. 2:21-cv-12286 (E.D. Mich. Aug. 29, 2024)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10184434/proto-gage-inc-v-federal-insurance-company-incorporated\",\"date_filed\":\"2024-08-29\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...at 10 (citing Acorn Inv. Co. v. Michigan Basic Prop. Ins. Ass’n, 852\\nN.W.2d 22 , 32 (Mich. 2014)). Specifically, Federal argues that, because the appraisal award fails\\nto expressly state that Proto Gage’s business income loss was during…\"},{\"cluster_id\":3189746,\"bluebook\":\"State Farm Mut. Auto. Ins. Co. v. Burke, 2016 IL App (2d) 150462, 51 N.E.3d 1082\",\"url\":\"https://syfert.com/illinois/cases/51-n-e-3d-1082/state-farm-mutual-automobile-insurance-company-v-burke\",\"date_filed\":\"2016-03-29\",\"cited_by\":25,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...2d\\n307, 326 (2004); Acorn Investment Co. v. Michigan Basic Property Insurance Ass’n, 852\\nN.W.2d 22 , 32 (Mich. 2014). State Farm contends that Granite State waived all of its possible\\npolicy defenses when it extended coverage under the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Acorn w/15 \"852 N.W.2d 22\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4458261,
+    "bluebook": "Simcor Constr. Inc v. Carl J Trupp III, 912 N.W.2d 216 (Mich. Ct. App. 2018)",
+    "url": "https://syfert.com/michigan/cases/322-mich-app-508/simcor-construction-inc-v-carl-j-trupp-iii",
+    "date_filed": "2018-01-09",
+    "cited_by": 19,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (4458261 and its twin 4458564).",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...338\n, 342,\n852 N.W.2d 22\n(2014). In\nAcorn\n, the Court analyzed the availability of case evaluation sanctions under MCR 2.403(O)(1) and (O)(2), stating that MCR 2.403(O)(2)(c) defines \"verdict\" as \"a judgment entered as a result of a…",
+    "passage_origin": {
+     "case_name": "Acorn Investment Co v. Michigan Basic Property Insurance Assn",
+     "cluster_id": 2710482,
+     "year": 2014,
+     "quoted_by_cases": 3
+    }
+   },
+   {
+    "cluster_id": 10184434,
+    "bluebook": "Proto Gage, Inc. v. Fed. Ins. Co., No. 2:21-cv-12286 (E.D. Mich. Aug. 29, 2024)",
+    "url": "https://syfert.com/federal/district/cases/cl-10184434/proto-gage-inc-v-federal-insurance-company-incorporated",
+    "date_filed": "2024-08-29",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...at 10 (citing Acorn Inv. Co. v. Michigan Basic Prop. Ins. Ass’n, 852\nN.W.2d 22 , 32 (Mich. 2014)). Specifically, Federal argues that, because the appraisal award fails\nto expressly state that Proto Gage’s business income loss was during…"
+   },
+   {
+    "cluster_id": 3189746,
+    "bluebook": "State Farm Mut. Auto. Ins. Co. v. Burke, 2016 IL App (2d) 150462, 51 N.E.3d 1082",
+    "url": "https://syfert.com/illinois/cases/51-n-e-3d-1082/state-farm-mutual-automobile-insurance-company-v-burke",
+    "date_filed": "2016-03-29",
+    "cited_by": 25,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2d\n307, 326 (2004); Acorn Investment Co. v. Michigan Basic Property Insurance Ass’n, 852\nN.W.2d 22 , 32 (Mich. 2014). State Farm contends that Granite State waived all of its possible\npolicy defenses when it extended coverage under the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

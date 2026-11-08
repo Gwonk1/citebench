@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "259 N.W. 33",
+  "expected_case_name": "Call Bond & Mortgage Co. v. City of Sioux City"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"259 N.W. 33\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3433448,\n            \"case_name\": \"Call Bond & Mortgage Co. v. City of Sioux City\",\n            \"citations\": [\n                \"259 N.W. 33\"\n            ],\n            \"court\": \"Supreme Court of Iowa\",\n            \"date_filed\": \"1935-02-12\",\n            \"status\": \"Published\",\n            \"cited_by\": 17,\n            \"url\": \"https://syfert.com/iowa/cases/219-iowa-572/call-bond-mortgage-co-v-city-of-sioux-city\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Call Bond & Mortg. Co. v. City of Sioux City, 259 N.W. 33 (Iowa 1935)\",\n            \"link_md\": \"[Call Bond & Mortg. Co. v. City of Sioux City, 259 N.W. 33 (Iowa 1935)](https://syfert.com/iowa/cases/219-iowa-572/call-bond-mortgage-co-v-city-of-sioux-city)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 4,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Call Bond & Mortgage Co. v. City of Sioux City\",\n        \"actual\": \"Call Bond & Mortgage Co. v. City of Sioux City\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "259 N.W. 33",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3433448,
+    "case_name": "Call Bond & Mortgage Co. v. City of Sioux City",
+    "citations": [
+     "259 N.W. 33"
+    ],
+    "court": "Supreme Court of Iowa",
+    "date_filed": "1935-02-12",
+    "status": "Published",
+    "cited_by": 17,
+    "url": "https://syfert.com/iowa/cases/219-iowa-572/call-bond-mortgage-co-v-city-of-sioux-city",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Call Bond & Mortg. Co. v. City of Sioux City, 259 N.W. 33 (Iowa 1935)",
+    "link_md": "[Call Bond & Mortg. Co. v. City of Sioux City, 259 N.W. 33 (Iowa 1935)](https://syfert.com/iowa/cases/219-iowa-572/call-bond-mortgage-co-v-city-of-sioux-city)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 4,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Call Bond & Mortgage Co. v. City of Sioux City",
+   "actual": "Call Bond & Mortgage Co. v. City of Sioux City",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

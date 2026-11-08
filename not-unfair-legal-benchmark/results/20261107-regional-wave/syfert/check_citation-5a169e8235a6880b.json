@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "101 P. 193",
+  "expected_case_name": "State v. Coss"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"101 P. 193\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7001829,\n            \"case_name\": \"State v. Coss\",\n            \"citations\": [\n                \"101 P. 193\"\n            ],\n            \"court\": \"Oregon Supreme Court\",\n            \"date_filed\": \"1909-04-27\",\n            \"status\": \"Published\",\n            \"cited_by\": 26,\n            \"url\": \"https://syfert.com/oregon/cases/53-or-462/state-v-coss\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Coss, 101 P. 193 (Or. 1909)\",\n            \"link_md\": \"[State v. Coss, 101 P. 193 (Or. 1909)](https://syfert.com/oregon/cases/53-or-462/state-v-coss)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 8,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. Coss\",\n        \"actual\": \"State v. Coss\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "101 P. 193",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7001829,
+    "case_name": "State v. Coss",
+    "citations": [
+     "101 P. 193"
+    ],
+    "court": "Oregon Supreme Court",
+    "date_filed": "1909-04-27",
+    "status": "Published",
+    "cited_by": 26,
+    "url": "https://syfert.com/oregon/cases/53-or-462/state-v-coss",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Coss, 101 P. 193 (Or. 1909)",
+    "link_md": "[State v. Coss, 101 P. 193 (Or. 1909)](https://syfert.com/oregon/cases/53-or-462/state-v-coss)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 8,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. Coss",
+   "actual": "State v. Coss",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "26 So. 504",
+  "expected_case_name": "Faulk v. Calloway"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"26 So. 504\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6641577,\n            \"case_name\": \"Faulk v. Calloway\",\n            \"citations\": [\n                \"26 So. 504\"\n            ],\n            \"court\": \"Supreme Court of Alabama\",\n            \"date_filed\": \"1898-11-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 21,\n            \"url\": \"https://syfert.com/alabama/cases/123-ala-325/faulk-v-calloway\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"20 So. 504\",\n                    \"recovered_from_citing_opinions\": 1,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Recovered parallel cite: 1 citing opinion confirms this cite (confidence 0.90)\"\n                }\n            ],\n            \"bluebook\": \"Faulk v. Calloway, 26 So. 504 (Ala. 1898)\",\n            \"link_md\": \"[Faulk v. Calloway, 26 So. 504 (Ala. 1898)](https://syfert.com/alabama/cases/123-ala-325/faulk-v-calloway)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Faulk v. Calloway\",\n        \"actual\": \"Faulk v. Calloway\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "26 So. 504",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6641577,
+    "case_name": "Faulk v. Calloway",
+    "citations": [
+     "26 So. 504"
+    ],
+    "court": "Supreme Court of Alabama",
+    "date_filed": "1898-11-15",
+    "status": "Published",
+    "cited_by": 21,
+    "url": "https://syfert.com/alabama/cases/123-ala-325/faulk-v-calloway",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "20 So. 504",
+      "recovered_from_citing_opinions": 1,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.9,
+      "note": "Recovered parallel cite: 1 citing opinion confirms this cite (confidence 0.90)"
+     }
+    ],
+    "bluebook": "Faulk v. Calloway, 26 So. 504 (Ala. 1898)",
+    "link_md": "[Faulk v. Calloway, 26 So. 504 (Ala. 1898)](https://syfert.com/alabama/cases/123-ala-325/faulk-v-calloway)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Faulk v. Calloway",
+   "actual": "Faulk v. Calloway",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

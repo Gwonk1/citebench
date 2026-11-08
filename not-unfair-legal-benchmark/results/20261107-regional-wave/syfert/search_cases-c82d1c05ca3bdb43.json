@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Emerson w/15 \"64 A. 526\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Emerson w/15 \\\"64 A. 526\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6849348,\"bluebook\":\"First Nat'l Bank v. Messner, 141 N.W. 999 (N.D. 1913)\",\"url\":\"https://syfert.com/north-dakota/cases/25-n-d-263/first-national-bank-v-messner\",\"date_filed\":\"1913-04-28\",\"cited_by\":8,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"Bruce, J.\\n(after stating the facts as above). It is unnecessary for us to consider the question of the authority of the bank to make real estate loans. Banks are more and more coming to be looked upon as quasi public institutions, and…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Emerson w/15 \"64 A. 526\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6849348,
+    "bluebook": "First Nat'l Bank v. Messner, 141 N.W. 999 (N.D. 1913)",
+    "url": "https://syfert.com/north-dakota/cases/25-n-d-263/first-national-bank-v-messner",
+    "date_filed": "1913-04-28",
+    "cited_by": 8,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "Bruce, J.\n(after stating the facts as above). It is unnecessary for us to consider the question of the authority of the bank to make real estate loans. Banks are more and more coming to be looked upon as quasi public institutions, and…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

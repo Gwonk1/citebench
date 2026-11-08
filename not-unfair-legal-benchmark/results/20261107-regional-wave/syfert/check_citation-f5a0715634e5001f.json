@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "120 S.E. 85",
+  "expected_case_name": "State v. . Humphrey"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"120 S.E. 85\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3931263,\n            \"case_name\": \"State v. . Humphrey\",\n            \"citations\": [\n                \"120 S.E. 85\"\n            ],\n            \"court\": \"Supreme Court of North Carolina\",\n            \"date_filed\": \"1923-11-28\",\n            \"status\": \"Published\",\n            \"cited_by\": 37,\n            \"url\": \"https://syfert.com/north-carolina/cases/186-n-c-533/state-v-humphrey\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Humphrey, 120 S.E. 85 (N.C. 1923)\",\n            \"link_md\": \"[State v. Humphrey, 120 S.E. 85 (N.C. 1923)](https://syfert.com/north-carolina/cases/186-n-c-533/state-v-humphrey)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 11,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed in part\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. . Humphrey\",\n        \"actual\": \"State v. . Humphrey\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "120 S.E. 85",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3931263,
+    "case_name": "State v. . Humphrey",
+    "citations": [
+     "120 S.E. 85"
+    ],
+    "court": "Supreme Court of North Carolina",
+    "date_filed": "1923-11-28",
+    "status": "Published",
+    "cited_by": 37,
+    "url": "https://syfert.com/north-carolina/cases/186-n-c-533/state-v-humphrey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Humphrey, 120 S.E. 85 (N.C. 1923)",
+    "link_md": "[State v. Humphrey, 120 S.E. 85 (N.C. 1923)](https://syfert.com/north-carolina/cases/186-n-c-533/state-v-humphrey)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 11,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. . Humphrey",
+   "actual": "State v. . Humphrey",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

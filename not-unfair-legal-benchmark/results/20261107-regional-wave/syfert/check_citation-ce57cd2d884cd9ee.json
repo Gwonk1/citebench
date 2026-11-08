@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "24 N.E.2d 435",
+  "expected_case_name": "Kimmel v. Captain"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"24 N.E.2d 435\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3430872,\n            \"case_name\": \"Kimmel v. Captain\",\n            \"citations\": [\n                \"24 N.E.2d 435\"\n            ],\n            \"court\": \"Indiana Court of Appeals\",\n            \"date_filed\": \"1940-01-05\",\n            \"status\": \"Published\",\n            \"cited_by\": 12,\n            \"url\": \"https://syfert.com/indiana/cases/107-ind-app-621/kimmel-v-captain\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Kimmel v. Captain, 24 N.E.2d 435 (Ind. Ct. App. 1940)\",\n            \"link_md\": \"[Kimmel v. Captain, 24 N.E.2d 435 (Ind. Ct. App. 1940)](https://syfert.com/indiana/cases/107-ind-app-621/kimmel-v-captain)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Kimmel v. Captain\",\n        \"actual\": \"Kimmel v. Captain\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "24 N.E.2d 435",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3430872,
+    "case_name": "Kimmel v. Captain",
+    "citations": [
+     "24 N.E.2d 435"
+    ],
+    "court": "Indiana Court of Appeals",
+    "date_filed": "1940-01-05",
+    "status": "Published",
+    "cited_by": 12,
+    "url": "https://syfert.com/indiana/cases/107-ind-app-621/kimmel-v-captain",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kimmel v. Captain, 24 N.E.2d 435 (Ind. Ct. App. 1940)",
+    "link_md": "[Kimmel v. Captain, 24 N.E.2d 435 (Ind. Ct. App. 1940)](https://syfert.com/indiana/cases/107-ind-app-621/kimmel-v-captain)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Kimmel v. Captain",
+   "actual": "Kimmel v. Captain",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

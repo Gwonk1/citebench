@@ -1,0 +1,39 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Kilgore w/15 \"305 S.E.2d 82\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Kilgore w/15 \\\"305 S.E.2d 82\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1349002,\"bluebook\":\"State v. Johnson, 371 S.E.2d 340 (W. Va. 1988)\",\"url\":\"https://syfert.com/west-virginia/cases/179-w-va-619/state-v-johnson\",\"date_filed\":\"1988-07-01\",\"cited_by\":47,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...447 , 523 A.2d 1345 (1987);\\nKilgore v. State,\\n251 Ga. 291 , 305 S.E.2d 82 (1983);\\nPerkins v. State,\\n483 N.E.2d 1379 (Ind.1985);\\nCommonwealth v. Cerveny,\\n387 Mass. 280 , 439 N.E.2d 754 (1982);\\nPeople v. Porterfield,\\n128 Mich.App. 35 ,…\",\"holding\":\"The double jeopardy clause prohibits prosecuting a single conspiracy as multiple conspiracies simply because the agreement involved the commission of two separate substantive crimes.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Kilgore w/15 \"305 S.E.2d 82\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1349002,
+    "bluebook": "State v. Johnson, 371 S.E.2d 340 (W. Va. 1988)",
+    "url": "https://syfert.com/west-virginia/cases/179-w-va-619/state-v-johnson",
+    "date_filed": "1988-07-01",
+    "cited_by": 47,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...447 , 523 A.2d 1345 (1987);\nKilgore v. State,\n251 Ga. 291 , 305 S.E.2d 82 (1983);\nPerkins v. State,\n483 N.E.2d 1379 (Ind.1985);\nCommonwealth v. Cerveny,\n387 Mass. 280 , 439 N.E.2d 754 (1982);\nPeople v. Porterfield,\n128 Mich.App. 35 ,…",
+    "holding": "The double jeopardy clause prohibits prosecuting a single conspiracy as multiple conspiracies simply because the agreement involved the commission of two separate substantive crimes.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

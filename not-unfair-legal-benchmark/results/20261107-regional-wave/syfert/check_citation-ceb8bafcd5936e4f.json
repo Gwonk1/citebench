@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "62 S.W. 758",
+  "expected_case_name": "Ex Parte Duncan"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"62 S.W. 758\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4193444,\n            \"case_name\": \"Ex parte Duncan\",\n            \"citations\": [\n                \"62 S.W. 758\"\n            ],\n            \"court\": \"Court of Criminal Appeals of Texas\",\n            \"date_filed\": \"1901-04-24\",\n            \"status\": \"Published\",\n            \"cited_by\": 56,\n            \"url\": \"https://syfert.com/texas/cases/42-tex-crim-661/ex-parte-duncan\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Ex parte Duncan, 62 S.W. 758 (Tex. Crim. App. 1901)\",\n            \"link_md\": \"[Ex parte Duncan, 62 S.W. 758 (Tex. Crim. App. 1901)](https://syfert.com/texas/cases/42-tex-crim-661/ex-parte-duncan)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 5,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Ex Parte Duncan\",\n        \"actual\": \"Ex parte Duncan\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "62 S.W. 758",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4193444,
+    "case_name": "Ex parte Duncan",
+    "citations": [
+     "62 S.W. 758"
+    ],
+    "court": "Court of Criminal Appeals of Texas",
+    "date_filed": "1901-04-24",
+    "status": "Published",
+    "cited_by": 56,
+    "url": "https://syfert.com/texas/cases/42-tex-crim-661/ex-parte-duncan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ex parte Duncan, 62 S.W. 758 (Tex. Crim. App. 1901)",
+    "link_md": "[Ex parte Duncan, 62 S.W. 758 (Tex. Crim. App. 1901)](https://syfert.com/texas/cases/42-tex-crim-661/ex-parte-duncan)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 5,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Ex Parte Duncan",
+   "actual": "Ex parte Duncan",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

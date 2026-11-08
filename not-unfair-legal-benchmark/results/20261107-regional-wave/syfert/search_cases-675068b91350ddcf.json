@@ -1,0 +1,92 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Cason w/15 \"450 N.W.2d 6\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Cason w/15 \\\"450 N.W.2d 6\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2168603,\"bluebook\":\"Churchman v. Richerson, 611 N.W.2d 333 (Mich. Ct. App. 2000)\",\"url\":\"https://syfert.com/michigan/cases/240-mich-app-223/churchman-v-richerson\",\"date_filed\":\"2000-06-02\",\"cited_by\":80,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...reviews a trial court's decision concurring a motion for reconsideration for an abuse of discretion. Cason v. Auto Owners Ins. Co., 181 Mich.App. 600, 609-610 , 450 N.W.2d 6 (1989). An abuse of discretion exists when the result is so…\",\"holding\":\"A trial court cannot grant summary disposition regarding noneconomic damage thresholds without first making required factual findings regarding a serious impairment of body function.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\"},{\"cluster_id\":2105135,\"bluebook\":\"In re Beglinger Trust, 561 N.W.2d 130 (Mich. Ct. App. 1997)\",\"url\":\"https://syfert.com/michigan/cases/221-mich-app-273/in-re-beglinger-trust\",\"date_filed\":\"1997-01-28\",\"cited_by\":17,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (2105135 and its twin 8005877).\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...reviews a trial court's decision to deny a motion for reconsideration for an abuse of discretion. Cason v. Auto Owners Ins. Co., 181 Mich.App. 600, 609 , 450 N.W.2d 6 (1989). Respondents' tender was untimely. Joffe, supra, pp. 442-444 ,…\"},{\"cluster_id\":842718,\"bluebook\":\"Farmers Ins. Exch. v. FARM BUREAU GEN. INS. CO., 731 N.W.2d 757 (Mich. 2007)\",\"url\":\"https://syfert.com/michigan/cases/478-mich-880/farmers-ins-exchange-v-farm-bureau-gen-ins-co\",\"date_filed\":\"2007-06-01\",\"cited_by\":4,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In Cason v. Auto Owners Ins. Co., 181 Mich. App., 600, 606 , 450 N.W.2d 6 (1989), the Court of Appeals held that the no-fault act and the Michigan Vehicle Code, which includes the financial responsibility act, are to be construed in…\"},{\"cluster_id\":2484207,\"bluebook\":\"K.G. ex rel. Gray v. State Farm Mut. Auto. Ins., 674 F. Supp. 2d 862 (E.D. Mich. 2009)\",\"url\":\"https://syfert.com/federal/district/cases/674-f-supp-2d-862/kg-ex-rel-gray-v-state-farm-mutual-automobile-insurance\",\"date_filed\":\"2009-12-01\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...already overloaded Assigned Claims Fund to take on the burden.” State Farm relies on the case\\nof Cason v. Auto Owners Insurance Co.,\\n181 Mich.App. 600, 610 , 450 N.W.2d 6 (1989) for the proposition that “[ujnder the no-fault act, the…\"},{\"cluster_id\":2106900,\"bluebook\":\"Amerisure Ins. Co. v. Auto-Owners Ins. Co., 684 N.W.2d 391 (Mich. Ct. App. 2004)\",\"url\":\"https://syfert.com/michigan/cases/684-n-w-2d-391/amerisure-ins-co-v-auto-owners-ins-co\",\"date_filed\":\"2004-07-21\",\"cited_by\":29,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...policy was not the registrant of the Ford Explorer.\\n[5] Amerisure also cites, but does not discuss, Cason v. Auto Owners Ins. Co., 181 Mich.App. 600 , 450 N.W.2d 6 (1989). We find this case inapplicable because its outcome relied…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Cason w/15 \"450 N.W.2d 6\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2168603,
+    "bluebook": "Churchman v. Richerson, 611 N.W.2d 333 (Mich. Ct. App. 2000)",
+    "url": "https://syfert.com/michigan/cases/240-mich-app-223/churchman-v-richerson",
+    "date_filed": "2000-06-02",
+    "cited_by": 80,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...reviews a trial court's decision concurring a motion for reconsideration for an abuse of discretion. Cason v. Auto Owners Ins. Co., 181 Mich.App. 600, 609-610 , 450 N.W.2d 6 (1989). An abuse of discretion exists when the result is so…",
+    "holding": "A trial court cannot grant summary disposition regarding noneconomic damage thresholds without first making required factual findings regarding a serious impairment of body function.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 2105135,
+    "bluebook": "In re Beglinger Trust, 561 N.W.2d 130 (Mich. Ct. App. 1997)",
+    "url": "https://syfert.com/michigan/cases/221-mich-app-273/in-re-beglinger-trust",
+    "date_filed": "1997-01-28",
+    "cited_by": 17,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (2105135 and its twin 8005877).",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...reviews a trial court's decision to deny a motion for reconsideration for an abuse of discretion. Cason v. Auto Owners Ins. Co., 181 Mich.App. 600, 609 , 450 N.W.2d 6 (1989). Respondents' tender was untimely. Joffe, supra, pp. 442-444 ,…"
+   },
+   {
+    "cluster_id": 842718,
+    "bluebook": "Farmers Ins. Exch. v. FARM BUREAU GEN. INS. CO., 731 N.W.2d 757 (Mich. 2007)",
+    "url": "https://syfert.com/michigan/cases/478-mich-880/farmers-ins-exchange-v-farm-bureau-gen-ins-co",
+    "date_filed": "2007-06-01",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In Cason v. Auto Owners Ins. Co., 181 Mich. App., 600, 606 , 450 N.W.2d 6 (1989), the Court of Appeals held that the no-fault act and the Michigan Vehicle Code, which includes the financial responsibility act, are to be construed in…"
+   },
+   {
+    "cluster_id": 2484207,
+    "bluebook": "K.G. ex rel. Gray v. State Farm Mut. Auto. Ins., 674 F. Supp. 2d 862 (E.D. Mich. 2009)",
+    "url": "https://syfert.com/federal/district/cases/674-f-supp-2d-862/kg-ex-rel-gray-v-state-farm-mutual-automobile-insurance",
+    "date_filed": "2009-12-01",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...already overloaded Assigned Claims Fund to take on the burden.” State Farm relies on the case\nof Cason v. Auto Owners Insurance Co.,\n181 Mich.App. 600, 610 , 450 N.W.2d 6 (1989) for the proposition that “[ujnder the no-fault act, the…"
+   },
+   {
+    "cluster_id": 2106900,
+    "bluebook": "Amerisure Ins. Co. v. Auto-Owners Ins. Co., 684 N.W.2d 391 (Mich. Ct. App. 2004)",
+    "url": "https://syfert.com/michigan/cases/684-n-w-2d-391/amerisure-ins-co-v-auto-owners-ins-co",
+    "date_filed": "2004-07-21",
+    "cited_by": 29,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...policy was not the registrant of the Ford Explorer.\n[5] Amerisure also cites, but does not discuss, Cason v. Auto Owners Ins. Co., 181 Mich.App. 600 , 450 N.W.2d 6 (1989). We find this case inapplicable because its outcome relied…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

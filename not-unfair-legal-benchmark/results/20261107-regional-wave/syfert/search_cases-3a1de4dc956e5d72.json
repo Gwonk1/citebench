@@ -1,0 +1,427 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Consumers w/15 \"49 So2d 734\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Consumers w/15 \\\"49 So2d 734\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8784902,\"case_name\":\"San Francisco Gas & Electric Co. v. City & County of San Franciso\",\"citations\":[\"164 F. 884\",\"1908 U.S. App. LEXIS 5334\"],\"court\":\"U.S. Circuit Court for the District of Northern California\",\"date_filed\":\"1908-10-26\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/circuits/cases/164-f-884/san-francisco-gas-electric-co-v-city-county-of-san-franciso\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"San Francisco Gas & Elec. Co. v. City & Cnty. of San Franciso, 164 F. 884 (C.C.N.D. Cal. 1908)\",\"link_md\":\"[San Francisco Gas & Elec. Co. v. City & Cnty. of San Franciso, 164 F. 884 (C.C.N.D. Cal. 1908)](https://syfert.com/federal/circuits/cases/164-f-884/san-francisco-gas-electric-co-v-city-county-of-san-franciso)\",\"match_kind\":\"semantic\",\"similarity\":0.6698},{\"cluster_id\":2265665,\"case_name\":\"Independent Communications Network, Inc. v. MCI Telecommunications Corp.\",\"citations\":[\"657 F. Supp. 785\",\"1987 U.S. Dist. LEXIS 2889\"],\"court\":\"District of Columbia\",\"date_filed\":\"1987-02-25\",\"status\":\"Published\",\"cited_by\":20,\"url\":\"https://syfert.com/federal/district/cases/657-f-supp-785/independent-communications-network-inc-v-mci-telecommunications-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Indep. Commc'ns Network, Inc. v. MCI Telecomm. Corp., 657 F. Supp. 785 (D.D.C. 1987)\",\"link_md\":\"[Indep. Commc'ns Network, Inc. v. MCI Telecomm. Corp., 657 F. Supp. 785 (D.D.C. 1987)](https://syfert.com/federal/district/cases/657-f-supp-785/independent-communications-network-inc-v-mci-telecommunications-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6619},{\"cluster_id\":1777409,\"case_name\":\"Irizarry v. Amarillo Pantex Federal Credit Union\",\"citations\":[\"695 S.W.2d 91\",\"1985 Tex. App. LEXIS 11958\"],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"1985-08-06\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/texas/cases/695-s-w-2d-91/irizarry-v-amarillo-pantex-federal-credit-union\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Irizarry v. Amarillo Pantex Fed. Credit Union, 695 S.W.2d 91 (Tex. App.—Amarillo 1985)\",\"link_md\":\"[Irizarry v. Amarillo Pantex Fed. Credit Union, 695 S.W.2d 91 (Tex. App.—Amarillo 1985)](https://syfert.com/texas/cases/695-s-w-2d-91/irizarry-v-amarillo-pantex-federal-credit-union)\",\"match_kind\":\"semantic\",\"similarity\":0.6614},{\"cluster_id\":8814622,\"case_name\":\"United States v. ACB Sales & Service, Inc.\",\"citations\":[\"95 F.R.D. 316\",\"34 Fed. R. Serv. 2d 310\",\"1982 U.S. Dist. LEXIS 16203\"],\"court\":\"D. Arizona\",\"date_filed\":\"1982-02-18\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/district/cases/cl-8814622/united-states-v-acb-sales-service-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. ACB Sales & Serv., Inc., 95 F.R.D. 316 (D. Ariz. 1982)\",\"link_md\":\"[United States v. ACB Sales & Serv., Inc., 95 F.R.D. 316 (D. Ariz. 1982)](https://syfert.com/federal/district/cases/cl-8814622/united-states-v-acb-sales-service-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6542},{\"cluster_id\":431633,\"case_name\":\"Associated Consumers v. u.s.associated Consumers\",\"citations\":[\"727 F.2d 1120\"],\"court\":\"Federal Circuit\",\"date_filed\":\"1983-12-23\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/727-f-2d-1120/associated-consumers-v-usassociated-consumers\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Associated Consumers v. u.s.associated Consumers, 727 F.2d 1120 (Fed. Cir. 1983)\",\"link_md\":\"[Associated Consumers v. u.s.associated Consumers, 727 F.2d 1120 (Fed. Cir. 1983)](https://syfert.com/federal/circuits/cases/727-f-2d-1120/associated-consumers-v-usassociated-consumers)\",\"match_kind\":\"semantic\",\"similarity\":0.6512},{\"cluster_id\":3954278,\"case_name\":\"Ferron v. Fifth Third Bank\",\"citations\":[\"2008 Ohio 6967\"],\"court\":\"Ohio Court of Appeals\",\"date_filed\":\"2008-12-31\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/ohio/cases/cl-3954278/ferron-v-fifth-third-bank-08ap-473-12-31-2008\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ferron v. Fifth Third Bank, 08ap-473, 2008 Ohio 6967 (Ohio Ct. App. 10th Dist. 2008)\",\"link_md\":\"[Ferron v. Fifth Third Bank, 08ap-473, 2008 Ohio 6967 (Ohio Ct. App. 10th Dist. 2008)](https://syfert.com/ohio/cases/cl-3954278/ferron-v-fifth-third-bank-08ap-473-12-31-2008)\",\"match_kind\":\"semantic\",\"similarity\":0.6496},{\"cluster_id\":8542299,\"case_name\":\"Liggins v. May Co.\",\"citations\":[\"337 N.E.2d 816\",\"44 Ohio Misc. 81\",\"73 Ohio Op. 2d 306\",\"1975 Ohio Misc. LEXIS 100\"],\"court\":\"Cuyahoga County Common Pleas Court\",\"date_filed\":\"1975-05-21\",\"status\":\"Published\",\"cited_by\":14,\"url\":\"https://syfert.com/ohio/cases/337-n-e-2d-816/liggins-v-may-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Liggins v. May Co., 337 N.E.2d 816 (Ohio Ct. Com. Pl. 1975)\",\"link_md\":\"[Liggins v. May Co., 337 N.E.2d 816 (Ohio Ct. Com. Pl. 1975)](https://syfert.com/ohio/cases/337-n-e-2d-816/liggins-v-may-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6485},{\"cluster_id\":2335853,\"case_name\":\"Lumber 2, Inc. v. Illinois Tool Works, Inc.\",\"citations\":[\"261 P.3d 1143\",\"2011 OK 74\",\"2011 Okla. LEXIS 72\",\"2011 WL 2674868\"],\"court\":\"Supreme Court of Oklahoma\",\"date_filed\":\"2011-07-06\",\"status\":\"Published\",\"cited_by\":12,\"url\":\"https://syfert.com/oklahoma/cases/261-p-3d-1143/lumber-2-inc-v-illinois-tool-works-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lumber 2, Inc. v. Illinois Tool Works, Inc., 2011 OK 74, 261 P.3d 1143\",\"link_md\":\"[Lumber 2, Inc. v. Illinois Tool Works, Inc., 2011 OK 74, 261 P.3d 1143](https://syfert.com/oklahoma/cases/261-p-3d-1143/lumber-2-inc-v-illinois-tool-works-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6456},{\"cluster_id\":1946913,\"case_name\":\"Footloose, Inc. v. Stride Rite Children's Group, Inc.\",\"citations\":[\"923 F. Supp. 114\",\"1995 U.S. Dist. LEXIS 20883\",\"1995 WL 804524\"],\"court\":\"N.D. Texas\",\"date_filed\":\"1995-12-07\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/federal/district/cases/cl-1946913/footloose-inc-v-stride-rite-childrens-group-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Footloose, Inc. v. Stride Rite Child.'s Grp., Inc., 923 F. Supp. 114 (N.D. Tex. 1995)\",\"link_md\":\"[Footloose, Inc. v. Stride Rite Child.'s Grp., Inc., 923 F. Supp. 114 (N.D. Tex. 1995)](https://syfert.com/federal/district/cases/cl-1946913/footloose-inc-v-stride-rite-childrens-group-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6452},{\"cluster_id\":4000472,\"case_name\":\"Burdge v. Kerasotes Showplace Theatres\",\"citations\":[\"2006 Ohio 4560\"],\"court\":\"Ohio Court of Appeals\",\"date_filed\":\"2006-09-05\",\"status\":\"Unpublished\",\"cited_by\":9,\"url\":\"https://syfert.com/ohio/cases/cl-4000472/burdge-v-kerasotes-showplace-theatres-unpublished-decision-9-5-2006\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burdge v. Kerasotes Showplace Theatres, 2006 Ohio 4560 (Ohio Ct. App. 12th Dist. 2006)\",\"link_md\":\"[Burdge v. Kerasotes Showplace Theatres, 2006 Ohio 4560 (Ohio Ct. App. 12th Dist. 2006)](https://syfert.com/ohio/cases/cl-4000472/burdge-v-kerasotes-showplace-theatres-unpublished-decision-9-5-2006)\",\"match_kind\":\"semantic\",\"similarity\":0.6446},{\"cluster_id\":8262088,\"case_name\":\"Spade v. Select Comfort Corp.\",\"citations\":[\"181 A.3d 969\",\"232 N.J. 504\",\"737 F. App'x 85\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2018-04-16\",\"status\":\"Published\",\"cited_by\":79,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/new-jersey/cases/232-n-j-504/spade-v-select-comfort-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"737 F. App'x 85\",\"recovered_from_citing_opinions\":2,\"source\":\"harvester_v2_xeric\",\"confidence\":0.97,\"note\":\"Recovered parallel cite: 2 citing opinions confirm this cite (confidence 0.97)\"}],\"bluebook\":\"Spade v. Select Comfort Corp., 181 A.3d 969 (N.J. 2018)\",\"link_md\":\"[Spade v. Select Comfort Corp., 181 A.3d 969 (N.J. 2018)](https://syfert.com/new-jersey/cases/232-n-j-504/spade-v-select-comfort-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6441},{\"cluster_id\":10274718,\"case_name\":\"Dorris v. Danone Waters of America\",\"citations\":[],\"court\":\"S.D. New York\",\"date_filed\":\"2024-11-14\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10274718/dorris-v-danone-waters-of-america\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Dorris v. Danone Waters of Am., No. 7:22-cv-08717 (S.D.N.Y. Nov. 14, 2024)\",\"link_md\":\"[Dorris v. Danone Waters of Am., No. 7:22-cv-08717 (S.D.N.Y. Nov. 14, 2024)](https://syfert.com/federal/district/cases/cl-10274718/dorris-v-danone-waters-of-america)\",\"match_kind\":\"semantic\",\"similarity\":0.6434},{\"cluster_id\":8318940,\"case_name\":\"Pawtucket-Blackstone Valley Chamber of Commerce, Inc. v. Burman\",\"citations\":[\"354 A.2d 749\",\"116 R.I. 919\",\"1976 R.I. LEXIS 1408\"],\"court\":\"Supreme Court of Rhode Island\",\"date_filed\":\"1976-04-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/rhode-island/cases/116-r-i-919/pawtucket-blackstone-valley-chamber-of-commerce-inc-v-burman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pawtucket-Blackstone Valley Chamber of Com., Inc. v. Burman, 354 A.2d 749 (R.I. 1976)\",\"link_md\":\"[Pawtucket-Blackstone Valley Chamber of Com., Inc. v. Burman, 354 A.2d 749 (R.I. 1976)](https://syfert.com/rhode-island/cases/116-r-i-919/pawtucket-blackstone-valley-chamber-of-commerce-inc-v-burman)\",\"match_kind\":\"semantic\",\"similarity\":0.6425},{\"cluster_id\":8783919,\"case_name\":\"Phillips v. Philip Morris Companies Inc.\",\"citations\":[\"290 F.R.D. 476\",\"85 Fed. R. Serv. 3d 407\",\"2013 WL 1182233\",\"2013 U.S. Dist. LEXIS 40908\"],\"court\":\"N.D. Ohio\",\"date_filed\":\"2013-03-21\",\"status\":\"Published\",\"cited_by\":24,\"url\":\"https://syfert.com/federal/district/cases/290-f-r-d-476/phillips-v-philip-morris-companies-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Phillips v. Philip Morris Companies Inc., 290 F.R.D. 476 (N.D. Ohio 2013)\",\"link_md\":\"[Phillips v. Philip Morris Companies Inc., 290 F.R.D. 476 (N.D. Ohio 2013)](https://syfert.com/federal/district/cases/290-f-r-d-476/phillips-v-philip-morris-companies-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6414},{\"cluster_id\":4433377,\"case_name\":\"In re Application of Consumers Energy Company to Increase Rates\",\"citations\":[],\"court\":\"Michigan Court of Appeals\",\"date_filed\":\"2017-10-10\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/michigan/cases/cl-4433377/in-re-application-of-consumers-energy-company-to-increase-rates\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (4433377 and its twin 4433728). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Application of Consumers Energy Co. to Increase Rates, No. 330797 (Mich. Ct. App. Oct. 10, 2017)\",\"link_md\":\"[In re Application of Consumers Energy Co. to Increase Rates, No. 330797 (Mich. Ct. App. Oct. 10, 2017)](https://syfert.com/michigan/cases/cl-4433377/in-re-application-of-consumers-energy-company-to-increase-rates)\",\"match_kind\":\"semantic\",\"similarity\":0.6412,\"twin_clusters\":[4433728,4433377]},{\"cluster_id\":1160820,\"case_name\":\"Brashears v. Sight 'N Sound Appliance Centers, Inc.\",\"citations\":[\"981 P.2d 1270\",\"1999 OK CIV APP 52\",\"70 O.B.A.J. 1848\",\"1999 Okla. Civ. App. LEXIS 42\",\"1999 WL 330411\"],\"court\":\"Court of Civil Appeals of Oklahoma\",\"date_filed\":\"1999-02-12\",\"status\":\"Published\",\"cited_by\":13,\"url\":\"https://syfert.com/oklahoma/cases/981-p-2d-1270/brashears-v-sight-n-sound-appliance-centers-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Brashears v. Sight 'N Sound Appliance Centers, Inc., 1999 OK CIV APP 52, 981 P.2d 1270\",\"link_md\":\"[Brashears v. Sight 'N Sound Appliance Centers, Inc., 1999 OK CIV APP 52, 981 P.2d 1270](https://syfert.com/oklahoma/cases/981-p-2d-1270/brashears-v-sight-n-sound-appliance-centers-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6396},{\"cluster_id\":2418336,\"case_name\":\"L & M-Surco Manufacturing, Inc. v. Winn Tile Co.\",\"citations\":[\"580 S.W.2d 920\",\"1979 Tex. App. LEXIS 3524\"],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"1979-04-19\",\"status\":\"Published\",\"cited_by\":58,\"url\":\"https://syfert.com/texas/cases/580-s-w-2d-920/l-m-surco-manufacturing-inc-v-winn-tile-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"L & M-Surco Mfg., Inc. v. Winn Tile Co., 580 S.W.2d 920 (Tex. Civ. App.—Tyler 1979)\",\"link_md\":\"[L & M-Surco Mfg., Inc. v. Winn Tile Co., 580 S.W.2d 920 (Tex. Civ. App.—Tyler 1979)](https://syfert.com/texas/cases/580-s-w-2d-920/l-m-surco-manufacturing-inc-v-winn-tile-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6367},{\"cluster_id\":414029,\"case_name\":\"Community Nutrition Institute v. John R. Block, Secretary, United States Department of Agriculture\",\"citations\":[\"698 F.2d 1239\",\"225 U.S. App. D.C. 387\",\"1983 U.S. App. LEXIS 31196\"],\"court\":\"D.C. Circuit\",\"date_filed\":\"1983-01-21\",\"status\":\"Published\",\"cited_by\":88,\"disposition\":\"reversed in part\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/federal/circuits/cases/698-f-2d-1239/community-nutrition-institute-v-john-r-block-secretary-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cmty. Nutrition Inst. v. John R. Block, 698 F.2d 1239 (D.C. Cir. 1983)\",\"link_md\":\"[Cmty. Nutrition Inst. v. John R. Block, 698 F.2d 1239 (D.C. Cir. 1983)](https://syfert.com/federal/circuits/cases/698-f-2d-1239/community-nutrition-institute-v-john-r-block-secretary-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6362},{\"cluster_id\":8343918,\"case_name\":\"Sheet Metal Workers Local No. 20 Welfare & Benefit Fund v. CVS Health Corp.\",\"citations\":[\"221 F. Supp. 3d 227\",\"2016 U.S. Dist. LEXIS 150804\",\"2016 WL 6462137\"],\"court\":\"D. Rhode Island\",\"date_filed\":\"2016-11-01\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/federal/district/cases/221-f-supp-3d-227/sheet-metal-workers-local-no-20-welfare-benefit-fund-v-cvs-health-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sheet Metal Workers Local No. 20 Welfare & Benefit Fund v. CVS Health Corp., 221 F. Supp. 3d 227 (D.R.I. 2016)\",\"link_md\":\"[Sheet Metal Workers Local No. 20 Welfare & Benefit Fund v. CVS Health Corp., 221 F. Supp. 3d 227 (D.R.I. 2016)](https://syfert.com/federal/district/cases/221-f-supp-3d-227/sheet-metal-workers-local-no-20-welfare-benefit-fund-v-cvs-health-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6362},{\"cluster_id\":1424696,\"case_name\":\"Reiter v. Sonotone Corp.\",\"citations\":[\"435 F. Supp. 933\"],\"court\":\"D. Minnesota\",\"date_filed\":\"1977-05-10\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/federal/district/cases/435-f-supp-933/reiter-v-sonotone-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Reiter v. Sonotone Corp., 435 F. Supp. 933 (D. Minn. 1977)\",\"link_md\":\"[Reiter v. Sonotone Corp., 435 F. Supp. 933 (D. Minn. 1977)](https://syfert.com/federal/district/cases/435-f-supp-933/reiter-v-sonotone-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6361}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Consumers w/15 \"49 So2d 734\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8784902,
+    "case_name": "San Francisco Gas & Electric Co. v. City & County of San Franciso",
+    "citations": [
+     "164 F. 884",
+     "1908 U.S. App. LEXIS 5334"
+    ],
+    "court": "U.S. Circuit Court for the District of Northern California",
+    "date_filed": "1908-10-26",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/circuits/cases/164-f-884/san-francisco-gas-electric-co-v-city-county-of-san-franciso",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "San Francisco Gas & Elec. Co. v. City & Cnty. of San Franciso, 164 F. 884 (C.C.N.D. Cal. 1908)",
+    "link_md": "[San Francisco Gas & Elec. Co. v. City & Cnty. of San Franciso, 164 F. 884 (C.C.N.D. Cal. 1908)](https://syfert.com/federal/circuits/cases/164-f-884/san-francisco-gas-electric-co-v-city-county-of-san-franciso)",
+    "match_kind": "semantic",
+    "similarity": 0.6698
+   },
+   {
+    "cluster_id": 2265665,
+    "case_name": "Independent Communications Network, Inc. v. MCI Telecommunications Corp.",
+    "citations": [
+     "657 F. Supp. 785",
+     "1987 U.S. Dist. LEXIS 2889"
+    ],
+    "court": "District of Columbia",
+    "date_filed": "1987-02-25",
+    "status": "Published",
+    "cited_by": 20,
+    "url": "https://syfert.com/federal/district/cases/657-f-supp-785/independent-communications-network-inc-v-mci-telecommunications-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Indep. Commc'ns Network, Inc. v. MCI Telecomm. Corp., 657 F. Supp. 785 (D.D.C. 1987)",
+    "link_md": "[Indep. Commc'ns Network, Inc. v. MCI Telecomm. Corp., 657 F. Supp. 785 (D.D.C. 1987)](https://syfert.com/federal/district/cases/657-f-supp-785/independent-communications-network-inc-v-mci-telecommunications-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6619
+   },
+   {
+    "cluster_id": 1777409,
+    "case_name": "Irizarry v. Amarillo Pantex Federal Credit Union",
+    "citations": [
+     "695 S.W.2d 91",
+     "1985 Tex. App. LEXIS 11958"
+    ],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "1985-08-06",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/texas/cases/695-s-w-2d-91/irizarry-v-amarillo-pantex-federal-credit-union",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Irizarry v. Amarillo Pantex Fed. Credit Union, 695 S.W.2d 91 (Tex. App.—Amarillo 1985)",
+    "link_md": "[Irizarry v. Amarillo Pantex Fed. Credit Union, 695 S.W.2d 91 (Tex. App.—Amarillo 1985)](https://syfert.com/texas/cases/695-s-w-2d-91/irizarry-v-amarillo-pantex-federal-credit-union)",
+    "match_kind": "semantic",
+    "similarity": 0.6614
+   },
+   {
+    "cluster_id": 8814622,
+    "case_name": "United States v. ACB Sales & Service, Inc.",
+    "citations": [
+     "95 F.R.D. 316",
+     "34 Fed. R. Serv. 2d 310",
+     "1982 U.S. Dist. LEXIS 16203"
+    ],
+    "court": "D. Arizona",
+    "date_filed": "1982-02-18",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/district/cases/cl-8814622/united-states-v-acb-sales-service-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. ACB Sales & Serv., Inc., 95 F.R.D. 316 (D. Ariz. 1982)",
+    "link_md": "[United States v. ACB Sales & Serv., Inc., 95 F.R.D. 316 (D. Ariz. 1982)](https://syfert.com/federal/district/cases/cl-8814622/united-states-v-acb-sales-service-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6542
+   },
+   {
+    "cluster_id": 431633,
+    "case_name": "Associated Consumers v. u.s.associated Consumers",
+    "citations": [
+     "727 F.2d 1120"
+    ],
+    "court": "Federal Circuit",
+    "date_filed": "1983-12-23",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/727-f-2d-1120/associated-consumers-v-usassociated-consumers",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Associated Consumers v. u.s.associated Consumers, 727 F.2d 1120 (Fed. Cir. 1983)",
+    "link_md": "[Associated Consumers v. u.s.associated Consumers, 727 F.2d 1120 (Fed. Cir. 1983)](https://syfert.com/federal/circuits/cases/727-f-2d-1120/associated-consumers-v-usassociated-consumers)",
+    "match_kind": "semantic",
+    "similarity": 0.6512
+   },
+   {
+    "cluster_id": 3954278,
+    "case_name": "Ferron v. Fifth Third Bank",
+    "citations": [
+     "2008 Ohio 6967"
+    ],
+    "court": "Ohio Court of Appeals",
+    "date_filed": "2008-12-31",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/ohio/cases/cl-3954278/ferron-v-fifth-third-bank-08ap-473-12-31-2008",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ferron v. Fifth Third Bank, 08ap-473, 2008 Ohio 6967 (Ohio Ct. App. 10th Dist. 2008)",
+    "link_md": "[Ferron v. Fifth Third Bank, 08ap-473, 2008 Ohio 6967 (Ohio Ct. App. 10th Dist. 2008)](https://syfert.com/ohio/cases/cl-3954278/ferron-v-fifth-third-bank-08ap-473-12-31-2008)",
+    "match_kind": "semantic",
+    "similarity": 0.6496
+   },
+   {
+    "cluster_id": 8542299,
+    "case_name": "Liggins v. May Co.",
+    "citations": [
+     "337 N.E.2d 816",
+     "44 Ohio Misc. 81",
+     "73 Ohio Op. 2d 306",
+     "1975 Ohio Misc. LEXIS 100"
+    ],
+    "court": "Cuyahoga County Common Pleas Court",
+    "date_filed": "1975-05-21",
+    "status": "Published",
+    "cited_by": 14,
+    "url": "https://syfert.com/ohio/cases/337-n-e-2d-816/liggins-v-may-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Liggins v. May Co., 337 N.E.2d 816 (Ohio Ct. Com. Pl. 1975)",
+    "link_md": "[Liggins v. May Co., 337 N.E.2d 816 (Ohio Ct. Com. Pl. 1975)](https://syfert.com/ohio/cases/337-n-e-2d-816/liggins-v-may-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6485
+   },
+   {
+    "cluster_id": 2335853,
+    "case_name": "Lumber 2, Inc. v. Illinois Tool Works, Inc.",
+    "citations": [
+     "261 P.3d 1143",
+     "2011 OK 74",
+     "2011 Okla. LEXIS 72",
+     "2011 WL 2674868"
+    ],
+    "court": "Supreme Court of Oklahoma",
+    "date_filed": "2011-07-06",
+    "status": "Published",
+    "cited_by": 12,
+    "url": "https://syfert.com/oklahoma/cases/261-p-3d-1143/lumber-2-inc-v-illinois-tool-works-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lumber 2, Inc. v. Illinois Tool Works, Inc., 2011 OK 74, 261 P.3d 1143",
+    "link_md": "[Lumber 2, Inc. v. Illinois Tool Works, Inc., 2011 OK 74, 261 P.3d 1143](https://syfert.com/oklahoma/cases/261-p-3d-1143/lumber-2-inc-v-illinois-tool-works-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6456
+   },
+   {
+    "cluster_id": 1946913,
+    "case_name": "Footloose, Inc. v. Stride Rite Children's Group, Inc.",
+    "citations": [
+     "923 F. Supp. 114",
+     "1995 U.S. Dist. LEXIS 20883",
+     "1995 WL 804524"
+    ],
+    "court": "N.D. Texas",
+    "date_filed": "1995-12-07",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/federal/district/cases/cl-1946913/footloose-inc-v-stride-rite-childrens-group-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Footloose, Inc. v. Stride Rite Child.'s Grp., Inc., 923 F. Supp. 114 (N.D. Tex. 1995)",
+    "link_md": "[Footloose, Inc. v. Stride Rite Child.'s Grp., Inc., 923 F. Supp. 114 (N.D. Tex. 1995)](https://syfert.com/federal/district/cases/cl-1946913/footloose-inc-v-stride-rite-childrens-group-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6452
+   },
+   {
+    "cluster_id": 4000472,
+    "case_name": "Burdge v. Kerasotes Showplace Theatres",
+    "citations": [
+     "2006 Ohio 4560"
+    ],
+    "court": "Ohio Court of Appeals",
+    "date_filed": "2006-09-05",
+    "status": "Unpublished",
+    "cited_by": 9,
+    "url": "https://syfert.com/ohio/cases/cl-4000472/burdge-v-kerasotes-showplace-theatres-unpublished-decision-9-5-2006",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Burdge v. Kerasotes Showplace Theatres, 2006 Ohio 4560 (Ohio Ct. App. 12th Dist. 2006)",
+    "link_md": "[Burdge v. Kerasotes Showplace Theatres, 2006 Ohio 4560 (Ohio Ct. App. 12th Dist. 2006)](https://syfert.com/ohio/cases/cl-4000472/burdge-v-kerasotes-showplace-theatres-unpublished-decision-9-5-2006)",
+    "match_kind": "semantic",
+    "similarity": 0.6446
+   },
+   {
+    "cluster_id": 8262088,
+    "case_name": "Spade v. Select Comfort Corp.",
+    "citations": [
+     "181 A.3d 969",
+     "232 N.J. 504",
+     "737 F. App'x 85"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2018-04-16",
+    "status": "Published",
+    "cited_by": 79,
+    "disposition": "reversed",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/new-jersey/cases/232-n-j-504/spade-v-select-comfort-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "737 F. App'x 85",
+      "recovered_from_citing_opinions": 2,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.97,
+      "note": "Recovered parallel cite: 2 citing opinions confirm this cite (confidence 0.97)"
+     }
+    ],
+    "bluebook": "Spade v. Select Comfort Corp., 181 A.3d 969 (N.J. 2018)",
+    "link_md": "[Spade v. Select Comfort Corp., 181 A.3d 969 (N.J. 2018)](https://syfert.com/new-jersey/cases/232-n-j-504/spade-v-select-comfort-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6441
+   },
+   {
+    "cluster_id": 10274718,
+    "case_name": "Dorris v. Danone Waters of America",
+    "citations": [],
+    "court": "S.D. New York",
+    "date_filed": "2024-11-14",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10274718/dorris-v-danone-waters-of-america",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Dorris v. Danone Waters of Am., No. 7:22-cv-08717 (S.D.N.Y. Nov. 14, 2024)",
+    "link_md": "[Dorris v. Danone Waters of Am., No. 7:22-cv-08717 (S.D.N.Y. Nov. 14, 2024)](https://syfert.com/federal/district/cases/cl-10274718/dorris-v-danone-waters-of-america)",
+    "match_kind": "semantic",
+    "similarity": 0.6434
+   },
+   {
+    "cluster_id": 8318940,
+    "case_name": "Pawtucket-Blackstone Valley Chamber of Commerce, Inc. v. Burman",
+    "citations": [
+     "354 A.2d 749",
+     "116 R.I. 919",
+     "1976 R.I. LEXIS 1408"
+    ],
+    "court": "Supreme Court of Rhode Island",
+    "date_filed": "1976-04-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/rhode-island/cases/116-r-i-919/pawtucket-blackstone-valley-chamber-of-commerce-inc-v-burman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pawtucket-Blackstone Valley Chamber of Com., Inc. v. Burman, 354 A.2d 749 (R.I. 1976)",
+    "link_md": "[Pawtucket-Blackstone Valley Chamber of Com., Inc. v. Burman, 354 A.2d 749 (R.I. 1976)](https://syfert.com/rhode-island/cases/116-r-i-919/pawtucket-blackstone-valley-chamber-of-commerce-inc-v-burman)",
+    "match_kind": "semantic",
+    "similarity": 0.6425
+   },
+   {
+    "cluster_id": 8783919,
+    "case_name": "Phillips v. Philip Morris Companies Inc.",
+    "citations": [
+     "290 F.R.D. 476",
+     "85 Fed. R. Serv. 3d 407",
+     "2013 WL 1182233",
+     "2013 U.S. Dist. LEXIS 40908"
+    ],
+    "court": "N.D. Ohio",
+    "date_filed": "2013-03-21",
+    "status": "Published",
+    "cited_by": 24,
+    "url": "https://syfert.com/federal/district/cases/290-f-r-d-476/phillips-v-philip-morris-companies-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Phillips v. Philip Morris Companies Inc., 290 F.R.D. 476 (N.D. Ohio 2013)",
+    "link_md": "[Phillips v. Philip Morris Companies Inc., 290 F.R.D. 476 (N.D. Ohio 2013)](https://syfert.com/federal/district/cases/290-f-r-d-476/phillips-v-philip-morris-companies-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6414
+   },
+   {
+    "cluster_id": 4433377,
+    "case_name": "In re Application of Consumers Energy Company to Increase Rates",
+    "citations": [],
+    "court": "Michigan Court of Appeals",
+    "date_filed": "2017-10-10",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/michigan/cases/cl-4433377/in-re-application-of-consumers-energy-company-to-increase-rates",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (4433377 and its twin 4433728). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "In re Application of Consumers Energy Co. to Increase Rates, No. 330797 (Mich. Ct. App. Oct. 10, 2017)",
+    "link_md": "[In re Application of Consumers Energy Co. to Increase Rates, No. 330797 (Mich. Ct. App. Oct. 10, 2017)](https://syfert.com/michigan/cases/cl-4433377/in-re-application-of-consumers-energy-company-to-increase-rates)",
+    "match_kind": "semantic",
+    "similarity": 0.6412,
+    "twin_clusters": [
+     4433728,
+     4433377
+    ]
+   },
+   {
+    "cluster_id": 1160820,
+    "case_name": "Brashears v. Sight 'N Sound Appliance Centers, Inc.",
+    "citations": [
+     "981 P.2d 1270",
+     "1999 OK CIV APP 52",
+     "70 O.B.A.J. 1848",
+     "1999 Okla. Civ. App. LEXIS 42",
+     "1999 WL 330411"
+    ],
+    "court": "Court of Civil Appeals of Oklahoma",
+    "date_filed": "1999-02-12",
+    "status": "Published",
+    "cited_by": 13,
+    "url": "https://syfert.com/oklahoma/cases/981-p-2d-1270/brashears-v-sight-n-sound-appliance-centers-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Brashears v. Sight 'N Sound Appliance Centers, Inc., 1999 OK CIV APP 52, 981 P.2d 1270",
+    "link_md": "[Brashears v. Sight 'N Sound Appliance Centers, Inc., 1999 OK CIV APP 52, 981 P.2d 1270](https://syfert.com/oklahoma/cases/981-p-2d-1270/brashears-v-sight-n-sound-appliance-centers-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6396
+   },
+   {
+    "cluster_id": 2418336,
+    "case_name": "L & M-Surco Manufacturing, Inc. v. Winn Tile Co.",
+    "citations": [
+     "580 S.W.2d 920",
+     "1979 Tex. App. LEXIS 3524"
+    ],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "1979-04-19",
+    "status": "Published",
+    "cited_by": 58,
+    "url": "https://syfert.com/texas/cases/580-s-w-2d-920/l-m-surco-manufacturing-inc-v-winn-tile-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "L & M-Surco Mfg., Inc. v. Winn Tile Co., 580 S.W.2d 920 (Tex. Civ. App.—Tyler 1979)",
+    "link_md": "[L & M-Surco Mfg., Inc. v. Winn Tile Co., 580 S.W.2d 920 (Tex. Civ. App.—Tyler 1979)](https://syfert.com/texas/cases/580-s-w-2d-920/l-m-surco-manufacturing-inc-v-winn-tile-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6367
+   },
+   {
+    "cluster_id": 414029,
+    "case_name": "Community Nutrition Institute v. John R. Block, Secretary, United States Department of Agriculture",
+    "citations": [
+     "698 F.2d 1239",
+     "225 U.S. App. D.C. 387",
+     "1983 U.S. App. LEXIS 31196"
+    ],
+    "court": "D.C. Circuit",
+    "date_filed": "1983-01-21",
+    "status": "Published",
+    "cited_by": 88,
+    "disposition": "reversed in part",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/federal/circuits/cases/698-f-2d-1239/community-nutrition-institute-v-john-r-block-secretary-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cmty. Nutrition Inst. v. John R. Block, 698 F.2d 1239 (D.C. Cir. 1983)",
+    "link_md": "[Cmty. Nutrition Inst. v. John R. Block, 698 F.2d 1239 (D.C. Cir. 1983)](https://syfert.com/federal/circuits/cases/698-f-2d-1239/community-nutrition-institute-v-john-r-block-secretary-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6362
+   },
+   {
+    "cluster_id": 8343918,
+    "case_name": "Sheet Metal Workers Local No. 20 Welfare & Benefit Fund v. CVS Health Corp.",
+    "citations": [
+     "221 F. Supp. 3d 227",
+     "2016 U.S. Dist. LEXIS 150804",
+     "2016 WL 6462137"
+    ],
+    "court": "D. Rhode Island",
+    "date_filed": "2016-11-01",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/federal/district/cases/221-f-supp-3d-227/sheet-metal-workers-local-no-20-welfare-benefit-fund-v-cvs-health-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sheet Metal Workers Local No. 20 Welfare & Benefit Fund v. CVS Health Corp., 221 F. Supp. 3d 227 (D.R.I. 2016)",
+    "link_md": "[Sheet Metal Workers Local No. 20 Welfare & Benefit Fund v. CVS Health Corp., 221 F. Supp. 3d 227 (D.R.I. 2016)](https://syfert.com/federal/district/cases/221-f-supp-3d-227/sheet-metal-workers-local-no-20-welfare-benefit-fund-v-cvs-health-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6362
+   },
+   {
+    "cluster_id": 1424696,
+    "case_name": "Reiter v. Sonotone Corp.",
+    "citations": [
+     "435 F. Supp. 933"
+    ],
+    "court": "D. Minnesota",
+    "date_filed": "1977-05-10",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/federal/district/cases/435-f-supp-933/reiter-v-sonotone-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Reiter v. Sonotone Corp., 435 F. Supp. 933 (D. Minn. 1977)",
+    "link_md": "[Reiter v. Sonotone Corp., 435 F. Supp. 933 (D. Minn. 1977)](https://syfert.com/federal/district/cases/435-f-supp-933/reiter-v-sonotone-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6361
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

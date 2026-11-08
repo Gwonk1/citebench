@@ -1,0 +1,402 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Livingston w/15 \"79 N.E. 830\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Livingston w/15 \\\"79 N.E. 830\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8106330,\"case_name\":\"Livingston v. Livingston\",\"citations\":[\"74 N.Y.S. 1135\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1901-12-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/74-n-y-s-1135/livingston-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. Livingston, 74 N.Y.S. 1135 (N.Y. App. Div. 1901)\",\"link_md\":\"[Livingston v. Livingston, 74 N.Y.S. 1135 (N.Y. App. Div. 1901)](https://syfert.com/new-york/cases/74-n-y-s-1135/livingston-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.7389},{\"cluster_id\":718104,\"case_name\":\"Livingston v. United States\",\"citations\":[\"83 F.3d 435\",\"1996 WL 185330\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-04-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/83-f-3d-435/livingston-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. United States, 83 F.3d 435 (11th Cir. 1996)\",\"link_md\":\"[Livingston v. United States, 83 F.3d 435 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/83-f-3d-435/livingston-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7148},{\"cluster_id\":527523,\"case_name\":\"Livingston v. White\",\"citations\":[\"881 F.2d 1086\",\"1989 WL 79131\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1989-07-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/881-f-2d-1086/livingston-v-white\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. White, 881 F.2d 1086 (11th Cir. 1989)\",\"link_md\":\"[Livingston v. White, 881 F.2d 1086 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/881-f-2d-1086/livingston-v-white)\",\"match_kind\":\"semantic\",\"similarity\":0.7125},{\"cluster_id\":3610801,\"case_name\":\"Livingston v. Livingston\",\"citations\":[\"161 N.E. 165\",\"247 N.Y. 517\",\"1928 N.Y. LEXIS 1102\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1928-01-10\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/247-n-y-517/livingston-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. Livingston, 161 N.E. 165 (N.Y. 1928)\",\"link_md\":\"[Livingston v. Livingston, 161 N.E. 165 (N.Y. 1928)](https://syfert.com/new-york/cases/247-n-y-517/livingston-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.7103},{\"cluster_id\":5473402,\"case_name\":\"Livingston v. Livingston\",\"citations\":[\"229 A.D. 760\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1930-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/229-a-d-760/livingston-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. Livingston, 229 A.D. 760 (N.Y. App. Div. 1930)\",\"link_md\":\"[Livingston v. Livingston, 229 A.D. 760 (N.Y. App. Div. 1930)](https://syfert.com/new-york/cases/229-a-d-760/livingston-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.7032},{\"cluster_id\":463951,\"case_name\":\"Livingston by Livingston v. Pennsylvania Power and Light Co\",\"citations\":[\"782 F.2d 1029\"],\"court\":\"Third Circuit\",\"date_filed\":\"1986-01-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/782-f-2d-1029/livingston-by-livingston-v-pennsylvania-power-and-light-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston by Livingston v. Pennsylvania Power & Light Co, 782 F.2d 1029 (3d Cir. 1986)\",\"link_md\":\"[Livingston by Livingston v. Pennsylvania Power & Light Co, 782 F.2d 1029 (3d Cir. 1986)](https://syfert.com/federal/circuits/cases/782-f-2d-1029/livingston-by-livingston-v-pennsylvania-power-and-light-co)\",\"match_kind\":\"semantic\",\"similarity\":0.7019},{\"cluster_id\":3631282,\"case_name\":\"Newton v. Livingston County Trust Company\",\"citations\":[\"198 N.E. 402\",\"268 N.Y. 557\",\"1935 N.Y. LEXIS 1028\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1935-07-11\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/268-n-y-557/newton-v-livingston-county-trust-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Newton v. Livingston Cnty. Trust Co., 198 N.E. 402 (N.Y. 1935)\",\"link_md\":\"[Newton v. Livingston Cnty. Trust Co., 198 N.E. 402 (N.Y. 1935)](https://syfert.com/new-york/cases/268-n-y-557/newton-v-livingston-county-trust-company)\",\"match_kind\":\"semantic\",\"similarity\":0.695},{\"cluster_id\":3643175,\"case_name\":\"White v. . Livingston\",\"citations\":[\"66 N.E. 1118\",\"174 N.Y. 538\",\"1903 N.Y. LEXIS 1418\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1903-04-09\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/174-n-y-538/white-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"White v. Livingston, 66 N.E. 1118 (N.Y. 1903)\",\"link_md\":\"[White v. Livingston, 66 N.E. 1118 (N.Y. 1903)](https://syfert.com/new-york/cases/174-n-y-538/white-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.6863},{\"cluster_id\":609631,\"case_name\":\"Livingston v. Blue Cross\",\"citations\":[\"996 F.2d 314\",\"1993 WL 231950\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1993-06-25\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/circuits/cases/996-f-2d-314/livingston-v-blue-cross\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. Blue Cross, 996 F.2d 314 (11th Cir. 1993)\",\"link_md\":\"[Livingston v. Blue Cross, 996 F.2d 314 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/996-f-2d-314/livingston-v-blue-cross)\",\"match_kind\":\"semantic\",\"similarity\":0.6811},{\"cluster_id\":5408180,\"case_name\":\"Livingston v. Livingston\",\"citations\":[\"177 A.D. 887\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1917-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/177-a-d-887/livingston-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. Livingston, 177 A.D. 887 (N.Y. App. Div. 1917)\",\"link_md\":\"[Livingston v. Livingston, 177 A.D. 887 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/177-a-d-887/livingston-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.6785},{\"cluster_id\":377742,\"case_name\":\"Lowe v. Livingston\",\"citations\":[\"620 F.2d 310\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1980-05-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/620-f-2d-310/lowe-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lowe v. Livingston, 620 F.2d 310 (9th Cir. 1980)\",\"link_md\":\"[Lowe v. Livingston, 620 F.2d 310 (9th Cir. 1980)](https://syfert.com/federal/circuits/cases/620-f-2d-310/lowe-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.6766},{\"cluster_id\":3635266,\"case_name\":\"Grand v. . Livingston\",\"citations\":[\"53 N.E. 1125\",\"158 N.Y. 688\",\"1899 N.Y. LEXIS 765\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1899-02-28\",\"status\":\"Published\",\"cited_by\":10,\"url\":\"https://syfert.com/new-york/cases/158-n-y-688/grand-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Grand v. Livingston, 53 N.E. 1125 (N.Y. 1899)\",\"link_md\":\"[Grand v. Livingston, 53 N.E. 1125 (N.Y. 1899)](https://syfert.com/new-york/cases/158-n-y-688/grand-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.6679},{\"cluster_id\":611541,\"case_name\":\"Livingston v. Central Bank\",\"citations\":[\"998 F.2d 1023\",\"1993 WL 277525\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1993-07-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/998-f-2d-1023/livingston-v-central-bank\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. Cent. Bank, 998 F.2d 1023 (11th Cir. 1993)\",\"link_md\":\"[Livingston v. Cent. Bank, 998 F.2d 1023 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/998-f-2d-1023/livingston-v-central-bank)\",\"match_kind\":\"semantic\",\"similarity\":0.6631},{\"cluster_id\":3641343,\"case_name\":\"Livingston v. . Livingston\",\"citations\":[\"118 N.E. 1065\",\"222 N.Y. 526\",\"1917 N.Y. LEXIS 847\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1917-11-27\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/222-n-y-526/livingston-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. Livingston, 118 N.E. 1065 (N.Y. 1917)\",\"link_md\":\"[Livingston v. Livingston, 118 N.E. 1065 (N.Y. 1917)](https://syfert.com/new-york/cases/222-n-y-526/livingston-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.6619},{\"cluster_id\":7007005,\"case_name\":\"United States v. Livingston\",\"citations\":[\"183 F.2d 192\",\"1950 U.S. App. LEXIS 2932\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1950-07-21\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/183-f-2d-192/united-states-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Livingston, 183 F.2d 192 (9th Cir. 1950)\",\"link_md\":\"[United States v. Livingston, 183 F.2d 192 (9th Cir. 1950)](https://syfert.com/federal/circuits/cases/183-f-2d-192/united-states-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.6614},{\"cluster_id\":8350667,\"case_name\":\"Livingston v. Metropolitan Elevated Railway Co.\",\"citations\":[\"28 Jones & S. 499\"],\"court\":\"The Superior Court of New York City\",\"date_filed\":\"1892-03-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-8350667/livingston-v-metropolitan-elevated-railway-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. Metro. Elevated Ry. Co., 28 Jones & S. 499 (N.Y. Super. Ct. 1892)\",\"link_md\":\"[Livingston v. Metro. Elevated Ry. Co., 28 Jones & S. 499 (N.Y. Super. Ct. 1892)](https://syfert.com/new-york/cases/cl-8350667/livingston-v-metropolitan-elevated-railway-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6578},{\"cluster_id\":436747,\"case_name\":\"Livingston v. Hospelhorn\",\"citations\":[\"735 F.2d 1364\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1984-05-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/735-f-2d-1364/livingston-v-hospelhorn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. Hospelhorn, 735 F.2d 1364 (6th Cir. 1984)\",\"link_md\":\"[Livingston v. Hospelhorn, 735 F.2d 1364 (6th Cir. 1984)](https://syfert.com/federal/circuits/cases/735-f-2d-1364/livingston-v-hospelhorn)\",\"match_kind\":\"semantic\",\"similarity\":0.6575},{\"cluster_id\":1087627,\"case_name\":\"Marchev v. Township of Livingston\",\"citations\":[\"382 U.S. 201\",\"86 S. Ct. 393\"],\"court\":\"Supreme Court\",\"date_filed\":\"1965-12-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/382-u-s-201/marchev-v-township-of-livingston\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (1087627 and its twin 8961909). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Marchev v. Twp. of Livingston, 382 U.S. 201 (1965)\",\"link_md\":\"[Marchev v. Twp. of Livingston, 382 U.S. 201 (1965)](https://syfert.com/federal/scotus/cases/382-u-s-201/marchev-v-township-of-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.6572},{\"cluster_id\":5380784,\"case_name\":\"Lustig v. Livingston\",\"citations\":[\"139 A.D. 911\",\"123 N.Y.S. 1126\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1910-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/139-a-d-911/lustig-v-livingston\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lustig v. Livingston, 139 A.D. 911 (N.Y. App. Div. 1910)\",\"link_md\":\"[Lustig v. Livingston, 139 A.D. 911 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/139-a-d-911/lustig-v-livingston)\",\"match_kind\":\"semantic\",\"similarity\":0.6545},{\"cluster_id\":346376,\"case_name\":\"Livingston v. North American Rockwell Corp\",\"citations\":[\"556 F.2d 581\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1977-03-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/556-f-2d-581/livingston-v-north-american-rockwell-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Livingston v. North Am. Rockwell Corp, 556 F.2d 581 (6th Cir. 1977)\",\"link_md\":\"[Livingston v. North Am. Rockwell Corp, 556 F.2d 581 (6th Cir. 1977)](https://syfert.com/federal/circuits/cases/556-f-2d-581/livingston-v-north-american-rockwell-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6523}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Livingston w/15 \"79 N.E. 830\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8106330,
+    "case_name": "Livingston v. Livingston",
+    "citations": [
+     "74 N.Y.S. 1135"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1901-12-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/74-n-y-s-1135/livingston-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. Livingston, 74 N.Y.S. 1135 (N.Y. App. Div. 1901)",
+    "link_md": "[Livingston v. Livingston, 74 N.Y.S. 1135 (N.Y. App. Div. 1901)](https://syfert.com/new-york/cases/74-n-y-s-1135/livingston-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.7389
+   },
+   {
+    "cluster_id": 718104,
+    "case_name": "Livingston v. United States",
+    "citations": [
+     "83 F.3d 435",
+     "1996 WL 185330"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-04-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/83-f-3d-435/livingston-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. United States, 83 F.3d 435 (11th Cir. 1996)",
+    "link_md": "[Livingston v. United States, 83 F.3d 435 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/83-f-3d-435/livingston-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7148
+   },
+   {
+    "cluster_id": 527523,
+    "case_name": "Livingston v. White",
+    "citations": [
+     "881 F.2d 1086",
+     "1989 WL 79131"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1989-07-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/881-f-2d-1086/livingston-v-white",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. White, 881 F.2d 1086 (11th Cir. 1989)",
+    "link_md": "[Livingston v. White, 881 F.2d 1086 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/881-f-2d-1086/livingston-v-white)",
+    "match_kind": "semantic",
+    "similarity": 0.7125
+   },
+   {
+    "cluster_id": 3610801,
+    "case_name": "Livingston v. Livingston",
+    "citations": [
+     "161 N.E. 165",
+     "247 N.Y. 517",
+     "1928 N.Y. LEXIS 1102"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1928-01-10",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/247-n-y-517/livingston-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. Livingston, 161 N.E. 165 (N.Y. 1928)",
+    "link_md": "[Livingston v. Livingston, 161 N.E. 165 (N.Y. 1928)](https://syfert.com/new-york/cases/247-n-y-517/livingston-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.7103
+   },
+   {
+    "cluster_id": 5473402,
+    "case_name": "Livingston v. Livingston",
+    "citations": [
+     "229 A.D. 760"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1930-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/229-a-d-760/livingston-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. Livingston, 229 A.D. 760 (N.Y. App. Div. 1930)",
+    "link_md": "[Livingston v. Livingston, 229 A.D. 760 (N.Y. App. Div. 1930)](https://syfert.com/new-york/cases/229-a-d-760/livingston-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.7032
+   },
+   {
+    "cluster_id": 463951,
+    "case_name": "Livingston by Livingston v. Pennsylvania Power and Light Co",
+    "citations": [
+     "782 F.2d 1029"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1986-01-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/782-f-2d-1029/livingston-by-livingston-v-pennsylvania-power-and-light-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston by Livingston v. Pennsylvania Power & Light Co, 782 F.2d 1029 (3d Cir. 1986)",
+    "link_md": "[Livingston by Livingston v. Pennsylvania Power & Light Co, 782 F.2d 1029 (3d Cir. 1986)](https://syfert.com/federal/circuits/cases/782-f-2d-1029/livingston-by-livingston-v-pennsylvania-power-and-light-co)",
+    "match_kind": "semantic",
+    "similarity": 0.7019
+   },
+   {
+    "cluster_id": 3631282,
+    "case_name": "Newton v. Livingston County Trust Company",
+    "citations": [
+     "198 N.E. 402",
+     "268 N.Y. 557",
+     "1935 N.Y. LEXIS 1028"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1935-07-11",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/268-n-y-557/newton-v-livingston-county-trust-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Newton v. Livingston Cnty. Trust Co., 198 N.E. 402 (N.Y. 1935)",
+    "link_md": "[Newton v. Livingston Cnty. Trust Co., 198 N.E. 402 (N.Y. 1935)](https://syfert.com/new-york/cases/268-n-y-557/newton-v-livingston-county-trust-company)",
+    "match_kind": "semantic",
+    "similarity": 0.695
+   },
+   {
+    "cluster_id": 3643175,
+    "case_name": "White v. . Livingston",
+    "citations": [
+     "66 N.E. 1118",
+     "174 N.Y. 538",
+     "1903 N.Y. LEXIS 1418"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1903-04-09",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/174-n-y-538/white-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "White v. Livingston, 66 N.E. 1118 (N.Y. 1903)",
+    "link_md": "[White v. Livingston, 66 N.E. 1118 (N.Y. 1903)](https://syfert.com/new-york/cases/174-n-y-538/white-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.6863
+   },
+   {
+    "cluster_id": 609631,
+    "case_name": "Livingston v. Blue Cross",
+    "citations": [
+     "996 F.2d 314",
+     "1993 WL 231950"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1993-06-25",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/circuits/cases/996-f-2d-314/livingston-v-blue-cross",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. Blue Cross, 996 F.2d 314 (11th Cir. 1993)",
+    "link_md": "[Livingston v. Blue Cross, 996 F.2d 314 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/996-f-2d-314/livingston-v-blue-cross)",
+    "match_kind": "semantic",
+    "similarity": 0.6811
+   },
+   {
+    "cluster_id": 5408180,
+    "case_name": "Livingston v. Livingston",
+    "citations": [
+     "177 A.D. 887"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1917-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/177-a-d-887/livingston-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. Livingston, 177 A.D. 887 (N.Y. App. Div. 1917)",
+    "link_md": "[Livingston v. Livingston, 177 A.D. 887 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/177-a-d-887/livingston-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.6785
+   },
+   {
+    "cluster_id": 377742,
+    "case_name": "Lowe v. Livingston",
+    "citations": [
+     "620 F.2d 310"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1980-05-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/620-f-2d-310/lowe-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lowe v. Livingston, 620 F.2d 310 (9th Cir. 1980)",
+    "link_md": "[Lowe v. Livingston, 620 F.2d 310 (9th Cir. 1980)](https://syfert.com/federal/circuits/cases/620-f-2d-310/lowe-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.6766
+   },
+   {
+    "cluster_id": 3635266,
+    "case_name": "Grand v. . Livingston",
+    "citations": [
+     "53 N.E. 1125",
+     "158 N.Y. 688",
+     "1899 N.Y. LEXIS 765"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1899-02-28",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/new-york/cases/158-n-y-688/grand-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Grand v. Livingston, 53 N.E. 1125 (N.Y. 1899)",
+    "link_md": "[Grand v. Livingston, 53 N.E. 1125 (N.Y. 1899)](https://syfert.com/new-york/cases/158-n-y-688/grand-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.6679
+   },
+   {
+    "cluster_id": 611541,
+    "case_name": "Livingston v. Central Bank",
+    "citations": [
+     "998 F.2d 1023",
+     "1993 WL 277525"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1993-07-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/998-f-2d-1023/livingston-v-central-bank",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. Cent. Bank, 998 F.2d 1023 (11th Cir. 1993)",
+    "link_md": "[Livingston v. Cent. Bank, 998 F.2d 1023 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/998-f-2d-1023/livingston-v-central-bank)",
+    "match_kind": "semantic",
+    "similarity": 0.6631
+   },
+   {
+    "cluster_id": 3641343,
+    "case_name": "Livingston v. . Livingston",
+    "citations": [
+     "118 N.E. 1065",
+     "222 N.Y. 526",
+     "1917 N.Y. LEXIS 847"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1917-11-27",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/222-n-y-526/livingston-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. Livingston, 118 N.E. 1065 (N.Y. 1917)",
+    "link_md": "[Livingston v. Livingston, 118 N.E. 1065 (N.Y. 1917)](https://syfert.com/new-york/cases/222-n-y-526/livingston-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.6619
+   },
+   {
+    "cluster_id": 7007005,
+    "case_name": "United States v. Livingston",
+    "citations": [
+     "183 F.2d 192",
+     "1950 U.S. App. LEXIS 2932"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1950-07-21",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/183-f-2d-192/united-states-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Livingston, 183 F.2d 192 (9th Cir. 1950)",
+    "link_md": "[United States v. Livingston, 183 F.2d 192 (9th Cir. 1950)](https://syfert.com/federal/circuits/cases/183-f-2d-192/united-states-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.6614
+   },
+   {
+    "cluster_id": 8350667,
+    "case_name": "Livingston v. Metropolitan Elevated Railway Co.",
+    "citations": [
+     "28 Jones & S. 499"
+    ],
+    "court": "The Superior Court of New York City",
+    "date_filed": "1892-03-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-8350667/livingston-v-metropolitan-elevated-railway-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. Metro. Elevated Ry. Co., 28 Jones & S. 499 (N.Y. Super. Ct. 1892)",
+    "link_md": "[Livingston v. Metro. Elevated Ry. Co., 28 Jones & S. 499 (N.Y. Super. Ct. 1892)](https://syfert.com/new-york/cases/cl-8350667/livingston-v-metropolitan-elevated-railway-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6578
+   },
+   {
+    "cluster_id": 436747,
+    "case_name": "Livingston v. Hospelhorn",
+    "citations": [
+     "735 F.2d 1364"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1984-05-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/735-f-2d-1364/livingston-v-hospelhorn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. Hospelhorn, 735 F.2d 1364 (6th Cir. 1984)",
+    "link_md": "[Livingston v. Hospelhorn, 735 F.2d 1364 (6th Cir. 1984)](https://syfert.com/federal/circuits/cases/735-f-2d-1364/livingston-v-hospelhorn)",
+    "match_kind": "semantic",
+    "similarity": 0.6575
+   },
+   {
+    "cluster_id": 1087627,
+    "case_name": "Marchev v. Township of Livingston",
+    "citations": [
+     "382 U.S. 201",
+     "86 S. Ct. 393"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1965-12-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/382-u-s-201/marchev-v-township-of-livingston",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (1087627 and its twin 8961909). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Marchev v. Twp. of Livingston, 382 U.S. 201 (1965)",
+    "link_md": "[Marchev v. Twp. of Livingston, 382 U.S. 201 (1965)](https://syfert.com/federal/scotus/cases/382-u-s-201/marchev-v-township-of-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.6572
+   },
+   {
+    "cluster_id": 5380784,
+    "case_name": "Lustig v. Livingston",
+    "citations": [
+     "139 A.D. 911",
+     "123 N.Y.S. 1126"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1910-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/139-a-d-911/lustig-v-livingston",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lustig v. Livingston, 139 A.D. 911 (N.Y. App. Div. 1910)",
+    "link_md": "[Lustig v. Livingston, 139 A.D. 911 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/139-a-d-911/lustig-v-livingston)",
+    "match_kind": "semantic",
+    "similarity": 0.6545
+   },
+   {
+    "cluster_id": 346376,
+    "case_name": "Livingston v. North American Rockwell Corp",
+    "citations": [
+     "556 F.2d 581"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1977-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/556-f-2d-581/livingston-v-north-american-rockwell-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Livingston v. North Am. Rockwell Corp, 556 F.2d 581 (6th Cir. 1977)",
+    "link_md": "[Livingston v. North Am. Rockwell Corp, 556 F.2d 581 (6th Cir. 1977)](https://syfert.com/federal/circuits/cases/556-f-2d-581/livingston-v-north-american-rockwell-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6523
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

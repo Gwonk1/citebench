@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "56 P.2d 362",
+  "expected_case_name": "Douglas v. Douglas"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"56 P.2d 362\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4043613,\n            \"case_name\": \"Douglas v. Douglas\",\n            \"citations\": [\n                \"56 P.2d 362\"\n            ],\n            \"court\": \"Supreme Court of Oklahoma\",\n            \"date_filed\": \"1936-03-24\",\n            \"status\": \"Published\",\n            \"cited_by\": 50,\n            \"url\": \"https://syfert.com/oklahoma/cases/176-okla-378/douglas-v-douglas\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Douglas v. Douglas, 56 P.2d 362 (Okla. 1936)\",\n            \"link_md\": \"[Douglas v. Douglas, 56 P.2d 362 (Okla. 1936)](https://syfert.com/oklahoma/cases/176-okla-378/douglas-v-douglas)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Douglas v. Douglas\",\n        \"actual\": \"Douglas v. Douglas\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "56 P.2d 362",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4043613,
+    "case_name": "Douglas v. Douglas",
+    "citations": [
+     "56 P.2d 362"
+    ],
+    "court": "Supreme Court of Oklahoma",
+    "date_filed": "1936-03-24",
+    "status": "Published",
+    "cited_by": 50,
+    "url": "https://syfert.com/oklahoma/cases/176-okla-378/douglas-v-douglas",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Douglas v. Douglas, 56 P.2d 362 (Okla. 1936)",
+    "link_md": "[Douglas v. Douglas, 56 P.2d 362 (Okla. 1936)](https://syfert.com/oklahoma/cases/176-okla-378/douglas-v-douglas)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Douglas v. Douglas",
+   "actual": "Douglas v. Douglas",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

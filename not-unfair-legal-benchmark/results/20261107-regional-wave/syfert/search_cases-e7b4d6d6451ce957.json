@@ -1,0 +1,91 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Teague w/15 \"265 S.W.2d 528\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Teague w/15 \\\"265 S.W.2d 528\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7871638,\"bluebook\":\"Pellerin Laundry Mach. Sales Co. v. Cheney, 371 S.W.2d 524 (Ark. 1963)\",\"url\":\"https://syfert.com/arkansas/cases/371-s-w-2d-524/pellerin-laundry-mach-sales-co-v-cheney\",\"date_filed\":\"1963-10-21\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...2d 1012 (1951) (relating to certain equipment which was purchased for the construction of Bull Shoals Dam, such as locomotives, tracks, conveyors, cranes, bull dozers, etc.) ; Teague v. Scurlock, 223 Ark. 271 , 265 S. W. 2d 528 (1954),…\"},{\"cluster_id\":1780373,\"bluebook\":\"Peterson Produce Co. v. Cheney, 374 S.W.2d 809 (Ark. 1964)\",\"url\":\"https://syfert.com/arkansas/cases/374-s-w-2d-809/peterson-produce-company-v-cheney\",\"date_filed\":\"1964-02-03\",\"cited_by\":20,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...An incubator merely aids and abets the natural course of hatching, and is not a process in itself.”\\nA similar question arose in the case of Teague v. Scurlock, Commr. of Revenues, 223 Ark. 271 , 265 S. W. 2d 528 . There, it was…\"},{\"cluster_id\":1788039,\"bluebook\":\"Holloway v. State, 79 So. 2d 40 (Ala. 1955)\",\"url\":\"https://syfert.com/alabama/cases/262-ala-437/holloway-v-state\",\"date_filed\":\"1955-03-10\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...the language there used.\\nThe conclusion here reached finds support in the cases hereafter cited from courts of other states. Teague v. Scurlock, Ark., 265 S.W.2d 528 ; Colbert Mill & Feed Co. v. Oklahoma Tax Commission, 188 Okl. 366 ,…\"},{\"cluster_id\":1192604,\"bluebook\":\"Keating v. Johnson, 918 P.2d 51 (Okla. 1996)\",\"url\":\"https://syfert.com/oklahoma/cases/918-p-2d-51/keating-v-johnson\",\"date_filed\":\"1996-05-14\",\"cited_by\":58,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Private acts and resolutions of the Congress of the United States and of the Legislature of this state, and duly enacted ordinances and duly published regulations of governmental subdivisions or agencies of this state or the United…\",\"holding\":\"A court exercises discretionary original jurisdiction only when a refusal to act would result in great injury.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":2000444,\"bluebook\":\"Harlan Sprague Dawley, Inc. v. Iowa State Bd. of Tax Review, 601 N.W.2d 66 (Iowa 1999)\",\"url\":\"https://syfert.com/iowa/cases/601-n-w-2d-66/harlan-sprague-dawley-inc-v-iowa-state-board-of-tax-review\",\"date_filed\":\"1999-10-13\",\"cited_by\":1,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...for manufacturing where commercial feedlot owners raised steers for market through sophisticated methods; raising cattle did not constitute manufacturing);\\nTeague v. Scurlock,\\n223 Ark. 271 , 265 S.W.2d 528 , 529 (1954) (poultry…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Teague w/15 \"265 S.W.2d 528\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7871638,
+    "bluebook": "Pellerin Laundry Mach. Sales Co. v. Cheney, 371 S.W.2d 524 (Ark. 1963)",
+    "url": "https://syfert.com/arkansas/cases/371-s-w-2d-524/pellerin-laundry-mach-sales-co-v-cheney",
+    "date_filed": "1963-10-21",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2d 1012 (1951) (relating to certain equipment which was purchased for the construction of Bull Shoals Dam, such as locomotives, tracks, conveyors, cranes, bull dozers, etc.) ; Teague v. Scurlock, 223 Ark. 271 , 265 S. W. 2d 528 (1954),…"
+   },
+   {
+    "cluster_id": 1780373,
+    "bluebook": "Peterson Produce Co. v. Cheney, 374 S.W.2d 809 (Ark. 1964)",
+    "url": "https://syfert.com/arkansas/cases/374-s-w-2d-809/peterson-produce-company-v-cheney",
+    "date_filed": "1964-02-03",
+    "cited_by": 20,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...An incubator merely aids and abets the natural course of hatching, and is not a process in itself.”\nA similar question arose in the case of Teague v. Scurlock, Commr. of Revenues, 223 Ark. 271 , 265 S. W. 2d 528 . There, it was…"
+   },
+   {
+    "cluster_id": 1788039,
+    "bluebook": "Holloway v. State, 79 So. 2d 40 (Ala. 1955)",
+    "url": "https://syfert.com/alabama/cases/262-ala-437/holloway-v-state",
+    "date_filed": "1955-03-10",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...the language there used.\nThe conclusion here reached finds support in the cases hereafter cited from courts of other states. Teague v. Scurlock, Ark., 265 S.W.2d 528 ; Colbert Mill & Feed Co. v. Oklahoma Tax Commission, 188 Okl. 366 ,…"
+   },
+   {
+    "cluster_id": 1192604,
+    "bluebook": "Keating v. Johnson, 918 P.2d 51 (Okla. 1996)",
+    "url": "https://syfert.com/oklahoma/cases/918-p-2d-51/keating-v-johnson",
+    "date_filed": "1996-05-14",
+    "cited_by": 58,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Private acts and resolutions of the Congress of the United States and of the Legislature of this state, and duly enacted ordinances and duly published regulations of governmental subdivisions or agencies of this state or the United…",
+    "holding": "A court exercises discretionary original jurisdiction only when a refusal to act would result in great injury.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 2000444,
+    "bluebook": "Harlan Sprague Dawley, Inc. v. Iowa State Bd. of Tax Review, 601 N.W.2d 66 (Iowa 1999)",
+    "url": "https://syfert.com/iowa/cases/601-n-w-2d-66/harlan-sprague-dawley-inc-v-iowa-state-board-of-tax-review",
+    "date_filed": "1999-10-13",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...for manufacturing where commercial feedlot owners raised steers for market through sophisticated methods; raising cattle did not constitute manufacturing);\nTeague v. Scurlock,\n223 Ark. 271 , 265 S.W.2d 528 , 529 (1954) (poultry…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

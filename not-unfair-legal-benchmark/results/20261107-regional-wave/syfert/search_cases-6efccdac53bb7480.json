@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Harris w/15 \"215 N.W. 681\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Harris w/15 \\\"215 N.W. 681\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1629761,\"bluebook\":\"Jacobsen v. Hala, 125 N.W.2d 500 (Iowa 1963)\",\"url\":\"https://syfert.com/iowa/cases/255-iowa-918/jacobsen-v-hala\",\"date_filed\":\"1963-11-12\",\"cited_by\":11,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Rowe, 251 Iowa 453 , 100 N.W.2d 166 ; DeWitt v. Larson, 185 Iowa 1138 , 171 N.W. 681 ; Simons v. Harris, 215 Iowa 479 , 245 N.W. 875 ; 66 C. J. S., New Trial, section 101. The statement in 66 C. J. S., supra, is a good composite…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Harris w/15 \"215 N.W. 681\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1629761,
+    "bluebook": "Jacobsen v. Hala, 125 N.W.2d 500 (Iowa 1963)",
+    "url": "https://syfert.com/iowa/cases/255-iowa-918/jacobsen-v-hala",
+    "date_filed": "1963-11-12",
+    "cited_by": 11,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Rowe, 251 Iowa 453 , 100 N.W.2d 166 ; DeWitt v. Larson, 185 Iowa 1138 , 171 N.W. 681 ; Simons v. Harris, 215 Iowa 479 , 245 N.W. 875 ; 66 C. J. S., New Trial, section 101. The statement in 66 C. J. S., supra, is a good composite…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

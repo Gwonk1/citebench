@@ -1,0 +1,130 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Odom w/15 \"56 So. 915\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Odom w/15 \\\"56 So. 915\\\"\",\"total\":8,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3220276,\"bluebook\":\"Grissom v. State, 30 So. 2d 19 (Ala. Ct. App. 1947)\",\"url\":\"https://syfert.com/alabama/cases/33-ala-app-23/grissom-v-state\",\"date_filed\":\"1947-01-07\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...63 , 61 So. 434 ; Odom v. State, 174 Ala. 4 , 56 So. 913 , 915; Bass v. State, 219 Ala. 282 , 122 So. 45 . Evidence of any abuse of such discretion on the part of the trial court is lacking in this case.\\nThe verdict of the jury…\"},{\"cluster_id\":1701073,\"bluebook\":\"Carey v. State, 361 So. 2d 1176 (Ala. Crim. App. 1978)\",\"url\":\"https://syfert.com/alabama/cases/361-so-2d-1176/carey-v-state\",\"date_filed\":\"1978-08-29\",\"cited_by\":13,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Vanderbilt, 3 Redf.Sur. (N.Y.) 384, 390, 412.\\\" Odom v. State, 174 Ala. 4, 9 , 56 So. 913 , 915 (1911).\\nA defendant does not, by evidence that he was \\\"subject to spells of insanity from time to time\\\", raise a presumption that he was…\"},{\"cluster_id\":3250078,\"bluebook\":\"Benton v. State, 18 So. 2d 423 (Ala. Ct. App. 1944)\",\"url\":\"https://syfert.com/alabama/cases/31-ala-app-338/benton-v-state\",\"date_filed\":\"1944-01-11\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Justice Somerville in Odom v. State, 174 Ala. 4 , 56 So. 913 . 915, viz.:\\n\\\"Although the issue was specifically as to the mental condition of the defendant at the time of the homicide, the inquiry was not limited to that time alone.\\n\\\"And…\"},{\"cluster_id\":7601191,\"bluebook\":\"Howell v. State, 443 So. 2d 1326 (Ala. Crim. App. 1983)\",\"url\":\"https://syfert.com/alabama/cases/443-so-2d-1326/howell-v-state\",\"date_filed\":\"1983-10-04\",\"cited_by\":3,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...In Odom v. State, 174 Ala. 4 , 56 So. 913 , 915 (1911), the supreme court said:\\n“Although the issue was specifically as to the mental condition of the defendant at the time of the homicide, the inquiry was not limited to that time…\"},{\"cluster_id\":3238604,\"bluebook\":\"Towles v. Pettus, 12 So. 2d 357 (Ala. 1943)\",\"url\":\"https://syfert.com/alabama/cases/244-ala-192/towles-v-pettus\",\"date_filed\":\"1943-02-11\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...352, 354 ; “insanity”, “shown to be habitual and permanent in its nature”, Odom v. State, 174 Ala. 4, 9 , 56 So. 913 , 915; Melvin v. Murphy, 184 Ala. 188, 189 , 63 So. 546 ; Murphree v. Senn et al., 107 Ala. 424 , 18 So. 264 ; or…\"},{\"cluster_id\":1647617,\"bluebook\":\"Hopkins v. State, 429 So. 2d 1146 (Ala. Crim. App. 1983)\",\"url\":\"https://syfert.com/alabama/cases/429-so-2d-1146/hopkins-v-state\",\"date_filed\":\"1983-02-01\",\"cited_by\":61,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":2},\"snippet\":\"...at a later time, a presumption of fact may arise of its existence at a given time.\\\"\\nId. (quoting Odom v. State , 174 Ala. 4 , 9 , 56 So. 913 , 915\\n(1911)). In our judgment, therefore, § 15-16-22 is based on the presumption, recognized…\"},{\"cluster_id\":1706676,\"bluebook\":\"Bass v. State, 585 So. 2d 225 (Ala. Crim. App. 1991)\",\"url\":\"https://syfert.com/alabama/cases/585-so-2d-225/bass-v-state\",\"date_filed\":\"1991-04-26\",\"cited_by\":33,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...of the insanity shown, and (2) its nearness or remoteness in point of time to the act under consideration.\\\"\\nOdom v. State , 174 Ala. 4 , 9 , 56 So. 913 , 915 (1911) (citations omitted). See also Benton v. State , 31 Ala. App. 338 , 343…\"},{\"cluster_id\":3231537,\"bluebook\":\"Wilson v. State, 8 So. 2d 422 (Ala. 1942)\",\"url\":\"https://syfert.com/alabama/cases/243-ala-1/wilson-v-state\",\"date_filed\":\"1942-05-14\",\"cited_by\":141,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In Odom v. State, 174 Ala. 4, 7 , 56 So. 913 , 914, 915, it is said:\\n“* * * As a general rule, only medical men — that is, persons licensed by law to practice the profession of medicine — can testify as experts on the question of…\",\"holding\":\"An indictment for murder is defective if it fails to aver the specific means of commission or allege that such means are unknown to the grand jury.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Odom w/15 \"56 So. 915\"",
+  "total": 8,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3220276,
+    "bluebook": "Grissom v. State, 30 So. 2d 19 (Ala. Ct. App. 1947)",
+    "url": "https://syfert.com/alabama/cases/33-ala-app-23/grissom-v-state",
+    "date_filed": "1947-01-07",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...63 , 61 So. 434 ; Odom v. State, 174 Ala. 4 , 56 So. 913 , 915; Bass v. State, 219 Ala. 282 , 122 So. 45 . Evidence of any abuse of such discretion on the part of the trial court is lacking in this case.\nThe verdict of the jury…"
+   },
+   {
+    "cluster_id": 1701073,
+    "bluebook": "Carey v. State, 361 So. 2d 1176 (Ala. Crim. App. 1978)",
+    "url": "https://syfert.com/alabama/cases/361-so-2d-1176/carey-v-state",
+    "date_filed": "1978-08-29",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Vanderbilt, 3 Redf.Sur. (N.Y.) 384, 390, 412.\" Odom v. State, 174 Ala. 4, 9 , 56 So. 913 , 915 (1911).\nA defendant does not, by evidence that he was \"subject to spells of insanity from time to time\", raise a presumption that he was…"
+   },
+   {
+    "cluster_id": 3250078,
+    "bluebook": "Benton v. State, 18 So. 2d 423 (Ala. Ct. App. 1944)",
+    "url": "https://syfert.com/alabama/cases/31-ala-app-338/benton-v-state",
+    "date_filed": "1944-01-11",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Justice Somerville in Odom v. State, 174 Ala. 4 , 56 So. 913 . 915, viz.:\n\"Although the issue was specifically as to the mental condition of the defendant at the time of the homicide, the inquiry was not limited to that time alone.\n\"And…"
+   },
+   {
+    "cluster_id": 7601191,
+    "bluebook": "Howell v. State, 443 So. 2d 1326 (Ala. Crim. App. 1983)",
+    "url": "https://syfert.com/alabama/cases/443-so-2d-1326/howell-v-state",
+    "date_filed": "1983-10-04",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In Odom v. State, 174 Ala. 4 , 56 So. 913 , 915 (1911), the supreme court said:\n“Although the issue was specifically as to the mental condition of the defendant at the time of the homicide, the inquiry was not limited to that time…"
+   },
+   {
+    "cluster_id": 3238604,
+    "bluebook": "Towles v. Pettus, 12 So. 2d 357 (Ala. 1943)",
+    "url": "https://syfert.com/alabama/cases/244-ala-192/towles-v-pettus",
+    "date_filed": "1943-02-11",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...352, 354 ; “insanity”, “shown to be habitual and permanent in its nature”, Odom v. State, 174 Ala. 4, 9 , 56 So. 913 , 915; Melvin v. Murphy, 184 Ala. 188, 189 , 63 So. 546 ; Murphree v. Senn et al., 107 Ala. 424 , 18 So. 264 ; or…"
+   },
+   {
+    "cluster_id": 1647617,
+    "bluebook": "Hopkins v. State, 429 So. 2d 1146 (Ala. Crim. App. 1983)",
+    "url": "https://syfert.com/alabama/cases/429-so-2d-1146/hopkins-v-state",
+    "date_filed": "1983-02-01",
+    "cited_by": 61,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 2
+    },
+    "snippet": "...at a later time, a presumption of fact may arise of its existence at a given time.\"\nId. (quoting Odom v. State , 174 Ala. 4 , 9 , 56 So. 913 , 915\n(1911)). In our judgment, therefore, § 15-16-22 is based on the presumption, recognized…"
+   },
+   {
+    "cluster_id": 1706676,
+    "bluebook": "Bass v. State, 585 So. 2d 225 (Ala. Crim. App. 1991)",
+    "url": "https://syfert.com/alabama/cases/585-so-2d-225/bass-v-state",
+    "date_filed": "1991-04-26",
+    "cited_by": 33,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...of the insanity shown, and (2) its nearness or remoteness in point of time to the act under consideration.\"\nOdom v. State , 174 Ala. 4 , 9 , 56 So. 913 , 915 (1911) (citations omitted). See also Benton v. State , 31 Ala. App. 338 , 343…"
+   },
+   {
+    "cluster_id": 3231537,
+    "bluebook": "Wilson v. State, 8 So. 2d 422 (Ala. 1942)",
+    "url": "https://syfert.com/alabama/cases/243-ala-1/wilson-v-state",
+    "date_filed": "1942-05-14",
+    "cited_by": 141,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In Odom v. State, 174 Ala. 4, 7 , 56 So. 913 , 914, 915, it is said:\n“* * * As a general rule, only medical men — that is, persons licensed by law to practice the profession of medicine — can testify as experts on the question of…",
+    "holding": "An indictment for murder is defective if it fails to aver the specific means of commission or allege that such means are unknown to the grand jury.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

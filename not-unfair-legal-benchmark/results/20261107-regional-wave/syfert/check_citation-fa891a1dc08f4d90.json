@@ -1,0 +1,52 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "813 N.E.2d 964",
+  "expected_case_name": "State v. Woullard"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"813 N.E.2d 964\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3974136,\n            \"case_name\": \"State v. Woullard\",\n            \"citations\": [\n                \"813 N.E.2d 964\"\n            ],\n            \"court\": \"Ohio Court of Appeals\",\n            \"date_filed\": \"2004-06-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 199,\n            \"url\": \"https://syfert.com/ohio/cases/158-ohio-app-3d-31/state-v-woullard\",\n            \"cited_by_note\": \"CourtListener's citation count summed over this decision's 2 clusters (3974136 and its twin 4002275).\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Woullard, 813 N.E.2d 964 (Ohio Ct. App. 2d Dist. 2004)\",\n            \"link_md\": \"[State v. Woullard, 813 N.E.2d 964 (Ohio Ct. App. 2d Dist. 2004)](https://syfert.com/ohio/cases/158-ohio-app-3d-31/state-v-woullard)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 36,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed in part\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. Woullard\",\n        \"actual\": \"State v. Woullard\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "813 N.E.2d 964",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3974136,
+    "case_name": "State v. Woullard",
+    "citations": [
+     "813 N.E.2d 964"
+    ],
+    "court": "Ohio Court of Appeals",
+    "date_filed": "2004-06-25",
+    "status": "Published",
+    "cited_by": 199,
+    "url": "https://syfert.com/ohio/cases/158-ohio-app-3d-31/state-v-woullard",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (3974136 and its twin 4002275).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Woullard, 813 N.E.2d 964 (Ohio Ct. App. 2d Dist. 2004)",
+    "link_md": "[State v. Woullard, 813 N.E.2d 964 (Ohio Ct. App. 2d Dist. 2004)](https://syfert.com/ohio/cases/158-ohio-app-3d-31/state-v-woullard)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 36,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. Woullard",
+   "actual": "State v. Woullard",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

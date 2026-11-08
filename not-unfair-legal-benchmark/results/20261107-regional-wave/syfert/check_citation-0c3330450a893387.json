@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "130 A. 102",
+  "expected_case_name": "Pratt, Read & Co. v. New York, New Haven & Hartford Railroad"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"130 A. 102\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3323828,\n            \"case_name\": \"Pratt, Read & Co. v. New York, New Haven & Hartford Railroad\",\n            \"citations\": [\n                \"130 A. 102\"\n            ],\n            \"court\": \"Supreme Court of Connecticut\",\n            \"date_filed\": \"1925-07-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 43,\n            \"url\": \"https://syfert.com/connecticut/cases/102-conn-735/pratt-read-co-v-new-york-new-haven-hartford-railroad\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Pratt, Read & Co. v. New York, 130 A. 102 (Conn. 1925)\",\n            \"link_md\": \"[Pratt, Read & Co. v. New York, 130 A. 102 (Conn. 1925)](https://syfert.com/connecticut/cases/102-conn-735/pratt-read-co-v-new-york-new-haven-hartford-railroad)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed in part\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Pratt, Read & Co. v. New York, New Haven & Hartford Railroad\",\n        \"actual\": \"Pratt, Read & Co. v. New York, New Haven & Hartford Railroad\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "130 A. 102",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3323828,
+    "case_name": "Pratt, Read & Co. v. New York, New Haven & Hartford Railroad",
+    "citations": [
+     "130 A. 102"
+    ],
+    "court": "Supreme Court of Connecticut",
+    "date_filed": "1925-07-30",
+    "status": "Published",
+    "cited_by": 43,
+    "url": "https://syfert.com/connecticut/cases/102-conn-735/pratt-read-co-v-new-york-new-haven-hartford-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pratt, Read & Co. v. New York, 130 A. 102 (Conn. 1925)",
+    "link_md": "[Pratt, Read & Co. v. New York, 130 A. 102 (Conn. 1925)](https://syfert.com/connecticut/cases/102-conn-735/pratt-read-co-v-new-york-new-haven-hartford-railroad)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Pratt, Read & Co. v. New York, New Haven & Hartford Railroad",
+   "actual": "Pratt, Read & Co. v. New York, New Haven & Hartford Railroad",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

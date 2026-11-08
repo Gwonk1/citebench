@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "150 N.E. 78",
+  "expected_case_name": "State Ex Rel. Harrison v. Perry"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"150 N.E. 78\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4025544,\n            \"case_name\": \"State Ex Rel. Harrison v. Perry\",\n            \"citations\": [\n                \"150 N.E. 78\"\n            ],\n            \"court\": \"Ohio Supreme Court\",\n            \"date_filed\": \"1925-12-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 20,\n            \"url\": \"https://syfert.com/ohio/cases/113-ohio-st-641/state-ex-rel-harrison-v-perry\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State ex rel. Harrison v. Perry, 150 N.E. 78 (Ohio 1925)\",\n            \"link_md\": \"[State ex rel. Harrison v. Perry, 150 N.E. 78 (Ohio 1925)](https://syfert.com/ohio/cases/113-ohio-st-641/state-ex-rel-harrison-v-perry)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State Ex Rel. Harrison v. Perry\",\n        \"actual\": \"State Ex Rel. Harrison v. Perry\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "150 N.E. 78",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4025544,
+    "case_name": "State Ex Rel. Harrison v. Perry",
+    "citations": [
+     "150 N.E. 78"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1925-12-15",
+    "status": "Published",
+    "cited_by": 20,
+    "url": "https://syfert.com/ohio/cases/113-ohio-st-641/state-ex-rel-harrison-v-perry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Harrison v. Perry, 150 N.E. 78 (Ohio 1925)",
+    "link_md": "[State ex rel. Harrison v. Perry, 150 N.E. 78 (Ohio 1925)](https://syfert.com/ohio/cases/113-ohio-st-641/state-ex-rel-harrison-v-perry)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State Ex Rel. Harrison v. Perry",
+   "actual": "State Ex Rel. Harrison v. Perry",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

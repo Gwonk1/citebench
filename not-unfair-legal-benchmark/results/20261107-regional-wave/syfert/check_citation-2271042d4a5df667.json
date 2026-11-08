@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "295 N.W. 331",
+  "expected_case_name": "Chrysler v. Blue Arrow Transport Lines"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"295 N.W. 331\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3528821,\n            \"case_name\": \"Chrysler v. Blue Arrow Transport Lines\",\n            \"citations\": [\n                \"295 N.W. 331\"\n            ],\n            \"court\": \"Michigan Supreme Court\",\n            \"date_filed\": \"1940-12-10\",\n            \"status\": \"Published\",\n            \"cited_by\": 49,\n            \"url\": \"https://syfert.com/michigan/cases/295-mich-606/chrysler-v-blue-arrow-transport-lines\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Chrysler v. Blue Arrow Transp. Lines, 295 N.W. 331 (Mich. 1940)\",\n            \"link_md\": \"[Chrysler v. Blue Arrow Transp. Lines, 295 N.W. 331 (Mich. 1940)](https://syfert.com/michigan/cases/295-mich-606/chrysler-v-blue-arrow-transport-lines)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 6,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Chrysler v. Blue Arrow Transport Lines\",\n        \"actual\": \"Chrysler v. Blue Arrow Transport Lines\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "295 N.W. 331",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3528821,
+    "case_name": "Chrysler v. Blue Arrow Transport Lines",
+    "citations": [
+     "295 N.W. 331"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1940-12-10",
+    "status": "Published",
+    "cited_by": 49,
+    "url": "https://syfert.com/michigan/cases/295-mich-606/chrysler-v-blue-arrow-transport-lines",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Chrysler v. Blue Arrow Transp. Lines, 295 N.W. 331 (Mich. 1940)",
+    "link_md": "[Chrysler v. Blue Arrow Transp. Lines, 295 N.W. 331 (Mich. 1940)](https://syfert.com/michigan/cases/295-mich-606/chrysler-v-blue-arrow-transport-lines)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 6,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Chrysler v. Blue Arrow Transport Lines",
+   "actual": "Chrysler v. Blue Arrow Transport Lines",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

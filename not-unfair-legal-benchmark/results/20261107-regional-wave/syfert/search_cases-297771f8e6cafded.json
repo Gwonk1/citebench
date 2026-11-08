@@ -1,0 +1,36 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Lundhigh w/15 \"161 P. 690\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Lundhigh w/15 \\\"161 P. 690\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5340048,\"bluebook\":\"State v. McMahan, 65 P.2d 156 (Idaho 1937)\",\"url\":\"https://syfert.com/idaho/cases/65-p-2d-156/state-v-mcmahan\",\"date_filed\":\"1937-01-16\",\"cited_by\":64,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (5340048 and its twin 3414788).\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"I concur in the opinion of Morgan, C.J., except the portion dealing with the sufficiency of the information; as to that I concur in the dissent of Budge, J. *Page 269\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Lundhigh w/15 \"161 P. 690\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5340048,
+    "bluebook": "State v. McMahan, 65 P.2d 156 (Idaho 1937)",
+    "url": "https://syfert.com/idaho/cases/65-p-2d-156/state-v-mcmahan",
+    "date_filed": "1937-01-16",
+    "cited_by": 64,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (5340048 and its twin 3414788).",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "I concur in the opinion of Morgan, C.J., except the portion dealing with the sufficiency of the information; as to that I concur in the dissent of Budge, J. *Page 269"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}
