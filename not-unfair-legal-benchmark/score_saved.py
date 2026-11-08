@@ -50,7 +50,7 @@ def main():
             unscored.append(row["id"])
             continue
         answer = open(paths[-1]).read()
-        r = grade.grade_item(answer, row["gold"])
+        r = grade.grade_item(answer, row["gold"], row.get("text"))
         if r["no_answer_line"]:
             no_line += 1
         if r["passed"]:

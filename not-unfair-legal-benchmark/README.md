@@ -1,6 +1,6 @@
 # not-unfair-legal-benchmark
 
-Version 1.1 (2026-10-25). 202 passages. See `CHANGELOG.md` for every change from v1.0.
+Version 1.2 (2026-11-07). 250 passages. See `CHANGELOG.md` for every change from v1.0.
 
 This is the not-unfair legal benchmark. It challenges an agentic system on legal ability when that system is linked to a caselaw MCP.
 
@@ -24,6 +24,12 @@ A coverage item (a real cite the index lacks) is not passed by repeating the pas
 
 Statutes and court rules are only partly in the set. Some are extracted and left unverified. A section that does not exist can be extracted and left standing. Some rule forms are not extracted at all.
 
+## Regional reporter numbers (v1.2)
+
+A regional item (`class: regional`, ids `rg-*`) is a case whose regional reporter number in the CourtListener corpus is one citing courts do not print. The gold is the number they do print, quoted from at least two citing opinions that name the case. In some (`fix_class: C`) the CourtListener number is the first page of a different case.
+
+The passage gives either the printed number (`shape: i`), which a CourtListener-only checker calls missing, or the CourtListener number (`shape: ii`), which it confirms. Shape (i) is graded like a coverage item: the printed number plus the decision date or the court. Shape (ii) needs the printed number, and the old number may not be on the ANSWER line, even where the checker names both cases at that page.
+
 ## Bluebooking
 
 A bluebooking item asks whether the court in the citation is the form a brief uses.
@@ -34,7 +40,7 @@ The other courts in the set are held to the Bluebook. A spelled-out state, a mis
 
 ## Controls
 
-Twenty-four items (`kind: control`, ids `co-*`) are ordinary, correct citations. The right answer is the citation, correct as written. A checker that calls every cite a misprint, an interior page or a fabrication fails them. They are scored on their own row so an arm's false-positive rate can be read next to its trap score. Half are casebook cases a bare model knows; half are ordinary reported cases nobody memorises, so the two cannot be told apart by fame.
+Thirty-one items (`kind: control`: 24 `co-*` from v1.1 and 7 regional `rg-co-*` from v1.2) are ordinary, correct citations. The right answer is the citation, correct as written. A checker that calls every cite a misprint, an interior page or a fabrication fails them. They are scored on their own row so an arm's false-positive rate can be read next to its trap score. Half are casebook cases a bare model knows; half are ordinary reported cases nobody memorises, so the two cannot be told apart by fame.
 
 ## The same task for every system
 
@@ -45,6 +51,8 @@ The instruction is `PROMPT` in `grade.py`. The passage is `text` in `items/tasks
 `grade.grade_item(answer, gold)` returns the pass or miss with the reason and the flag; `grade.grade(answer, gold)` returns `(passed, reason)`. `grade.render(task)` is the full text to send. `python3 grade_answers.py answers.jsonl` grades a file of `{"id", "answer"}` rows and prints the class table. `python3 test_grade.py` runs the grader's unit tests. `python3 score_saved.py` grades the CourtListener replies already on disk.
 
 ## Scores
+
+**Grader v1.2 (2026-11-07).** The passage is removed from the lines above the ANSWER line before the gold strings are searched, and "no answer from the tool" is a miss. Under v1.1 an echoed tool call could pass an item with no answer (see `CHANGELOG.md`). The tables below are v1.1 runs on the 202 v1.1 passages. Re-graded under v1.2, Syfert raw4 is 199 and kaos-citations 27. No arm has run the full 250 yet; the raw CourtListener arm passed none of the 41 regional traps during selection.
 
 Scores quoted anywhere for this benchmark before 2026-10-25 are v1.0 scores under the v1.0 grader on the 187-item set. v1.1 scores from fresh runs are pending. The v1.0 transcripts re-graded under the v1.1 grader are in `CHANGELOG.md`, labelled as re-grades.
 
@@ -60,6 +68,12 @@ The raw CourtListener arm (the `analyze_citations` tool called by itself, server
 | `results/20261027-syfert-raw4` | + index-span rule, misprint proposals, court strings, line-number stripping, caption claim reader, publication status on ambiguous treatment | 178 | 24 | 202 |
 
 False positives on the controls: 0 in every run. The fourth run passes every item; the 11 misses of the third run were each traced to a tool fix listed in `results/20261027-syfert-raw4/score.txt`'s run and closed the same day. Three runs the same day became four across midnight UTC. This arm is the server's own developers measuring their own tool against a benchmark they wrote; treat it as a floor for model-plus-Syfert arms, not as a comparison with other systems.
+
+**Raw kaos-citations arm (no model), 2026-11-03, grader v1.1, 202 items, `kaos-citations` 0.1.7 (273 Ventures, Apache-2.0).** `run_kaos.py` calls the package's `extract_citations()` on each passage and writes the ANSWER line from the records' `normalized` field alone. It is an extractor with no corpus and no court tool, so it scores like the raw CourtListener arm: controls plus the five traps whose answer is the passage's own cite. Full comparison, including the two parse errors it made on the controls and a grader echo hole that inflates both raw arms, in `results/20261103-kaos-raw/REPORT.md`.
+
+| run | package | traps (178) | controls (24) | total (202) |
+|---|---|---|---|---|
+| `results/20261103-kaos-raw` | kaos-citations 0.1.7, offline | 15 (5 without the echo hole) | 24 (22) | 39 (27) |
 
 ## Evidence
 
@@ -77,7 +91,7 @@ Every item carries an `evidence` field: for a case, the cluster id of the decisi
 The code is this directory, `citebench/not-unfair-legal-benchmark/`.
 
 - `VERSION` is `1.1`.
-- `items/tasks.jsonl` is the set. 202 passages, each with `id`, `class`, `text`, `gold`, `evidence`, `version`, and where it applies `kind: control` and `bare_model_answerable`.
+- `items/tasks.jsonl` is the set. 250 passages, each with `id`, `class`, `text`, `gold`, `evidence`, `version`, and where it applies `kind: control` and `bare_model_answerable`.
 - `grade.py` is the instruction and the matcher. `test_grade.py` tests it. `grade_answers.py` scores a file of answers.
 - `items/pilot.jsonl`, `from_fixes.jsonl`, `bluebook.jsonl`, `courts.jsonl`, `harder.jsonl`, `controls.jsonl` are the lookups the passages were built from; `items/evidence.jsonl` is the v1.1 review of them. `build_tasks.py` rebuilds `tasks.jsonl` from all of them. `build_courts.py`, `build_harder.py` and `build_controls.py` rewrite their lookups without a database; `build_bluebook.py` and `build_from_fixes.py` describe how the 2026-10-21 samples were drawn from local fix ledgers and are kept for the record.
 - `run.py` is the CourtListener arm. It sends one lookup per call and writes `results/<date>/<id>.txt`. It skips ids already on disk. Pace is one call, then 1.5 seconds.

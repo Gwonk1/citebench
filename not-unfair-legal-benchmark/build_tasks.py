@@ -8,6 +8,8 @@
 #   bluebook.jsonl, from_fixes.jsonl   sampled 2026-10-21 from local fix ledgers by
 #                   build_bluebook.py / build_from_fixes.py; frozen lookups since.
 #   pilot.jsonl     the 2026-10-21 pilot passages
+#   regional.jsonl  build_regional.py (2026-11-07 regional-reporter corrections, citing-opinion evidence,
+#                   raw CourtListener replies saved in results/20261107-regional-wave/)   v1.2
 #   evidence.jsonl  v1.1 gold decisions: per item, keep or drop, the evidence
 #                   (cluster id on the public corpus, checked 2026-10-25), a gold
 #                   patch, and sometimes a new passage text. Applied last.
@@ -408,11 +410,17 @@ def apply_evidence(rows):
     return out, dropped
 
 
+def from_regional():
+    """v1.2: the regional-reporter wave, as build_regional.py wrote it (gold and evidence already final)."""
+    path = os.path.join(ITEMS, "regional.jsonl")
+    return [json.loads(line) for line in open(path) if line.strip()] if os.path.exists(path) else []
+
+
 def main():
     con = None
     if os.path.exists(META):
         con = sqlite3.connect("file:" + META + "?mode=ro", uri=True)
-    rows = from_courts() + from_bluebook() + from_fixes(con) + from_harder() + from_controls() + from_pilot()
+    rows = from_courts() + from_bluebook() + from_fixes(con) + from_harder() + from_controls() + from_pilot() + from_regional()
     rows, dropped = apply_evidence(rows)
     missing = [r["id"] for r in rows if not r.get("evidence")]
     if missing:

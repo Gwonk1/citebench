@@ -49,7 +49,7 @@ def score(tasks, answers):
             unscored.append(t["id"])
             continue
         by_class[klass] += 1
-        r = grade.grade_item(a, t["gold"])
+        r = grade.grade_item(a, t["gold"], t.get("text"))
         if r["no_answer_line"]:
             no_line += 1
         if r["passed"]:

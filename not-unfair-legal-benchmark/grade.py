@@ -105,12 +105,26 @@ def _positive_hit(text, phrase):
         start = i + len(phrase)
 
 
-def grade_item(answer, gold):
-    """Full result: passed, reason, no_answer_line, answer_line."""
+NO_ANSWER = "no answer from the tool"
+
+
+def grade_item(answer, gold, passage=None):
+    """Full result: passed, reason, no_answer_line, answer_line.
+
+    v1.2: when `passage` is given, the passage text is removed from every line above the ANSWER line before the
+    `right` / `any_right` / `any_of` search (renderers echo the tool call, which repeats the passage: v1.1 passed an
+    item whose passage already held the gold string with no answer at all). The ANSWER line itself is kept whole, so
+    an answer that rightly repeats the cite as written still counts. "no answer from the tool" on the ANSWER line is
+    a miss."""
     g = gold or {}
     full = norm(answer)
     line_raw, has_line = answer_line(answer)
     line = norm(line_raw)
+    if passage:
+        pn = norm(passage).strip().rstrip(".").strip()
+        if pn:
+            body = full.replace(line, " ", 1) if line else full
+            full = body.replace(pn, " ") + " " + line
     out = {"passed": False, "reason": "", "no_answer_line": not has_line, "answer_line": line_raw}
 
     def fail(why):
@@ -121,6 +135,9 @@ def grade_item(answer, gold):
         out["passed"] = True
         out["reason"] = why
         return out
+
+    if NO_ANSWER in line:
+        return fail("no answer")
 
     rights = [norm(x) for x in (g.get("right") or []) if x]
     any_right = [norm(x) for x in (g.get("any_right") or []) if x]
@@ -177,9 +194,9 @@ def grade_item(answer, gold):
     return ok()
 
 
-def grade(answer, gold):
+def grade(answer, gold, passage=None):
     """Return (passed, reason). See grade_item for the per-item flags."""
-    r = grade_item(answer, gold)
+    r = grade_item(answer, gold, passage)
     return r["passed"], r["reason"]
 
 

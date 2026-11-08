@@ -1,5 +1,70 @@
 # Changelog
 
+## v1.2 — 2026-11-07
+
+250 passages (v1.1 had 202). The 202 v1.1 passages and their gold are unchanged (a rebuild of v1.1 is byte-identical).
+
+### Gold: added — regional reporter numbers (41 traps, 7 controls)
+
+Built by `build_regional.py` from the 2026-11-07 regional-reporter corrections (RESCORE166 class A and class C,
+FIX154). In each, the CourtListener corpus holds a regional reporter number for the case that citing courts do not
+print; the gold is the number they do print. Ids `rg-<reporter>-a*` (class A: no other case at the printed
+number) and `rg-<reporter>-c*` (class C: the old number is the first page of a different case, named in the gold
+note). Two shapes:
+
+- shape (i): the passage gives the case with the printed number. CourtListener returns NOT FOUND. Graded like a
+  coverage item: the printed number, plus the decision date or the court, with no rejection on the ANSWER line and
+  not the old number.
+- shape (ii): the passage gives the old CourtListener number. CourtListener returns FOUND (class A) or AMBIGUOUS
+  between the case and the other case at that page (class C). The gold is the printed number; the old number may
+  not be on the ANSWER line.
+
+14 reporters (S.E., S.E.2d, N.W., N.W.2d, N.E., N.E.2d, P., P.2d, A., A.2d, So., So. 2d, S.W., S.W.2d), 2-3 traps
+each, decisions 1892-2014; 28 class A, 13 class C; 21 shape (i), 20 shape (ii). Seven controls `rg-co-*` (one per
+first- or second-series regional reporter, 1923-1997), ordinary correct cites not in any fix ledger.
+
+Evidence: every item quotes two to four citing opinions (cluster id, name, date, snippet printing the number with
+the case name), found with the syfert.com MCP search_cases on 2026-11-07; the decision year is checked against the
+reporter volume. The corpus behind syfert.com is CourtListener-derived, so the gold rests on the citing courts'
+printed text, not on that index. Seven rows were dropped for thin evidence (listed in
+`results/20261107-regional-wave/drops.jsonl`). The raw CourtListener arm passed none of the trap candidates, so none
+was dropped for that; the arm's replies are in `results/20261107-regional-wave/cl/`.
+
+### Limitations
+
+- Most of the wave (27 of 41) is a wrong page in the right volume; 14 are the right page in the wrong volume.
+- First-series reporters dominate the eras (24 of 41 decisions are before 1940), because that is where the
+  corrections are.
+- One record-format fix in CourtListener (re-attaching the printed numbers) would flip the whole class.
+
+### Review calls (2026-11-07)
+
+- `rg-so-a1` (Woodson v. State, 54 So. 181) reviewed out after the CourtListener step: CourtListener also places a
+  second case (Western Union Tel. Co. v. Stokes) at the old number, so the item tested two things at once. The
+  stratum's spare `rg-so-a3` (Faulk v. Calloway, 20 So. 504 → 26 So. 504) stands in. Recorded in `drops.jsonl`
+  (stage `review`).
+- Class C shape (ii): CourtListener answers AMBIGUOUS and names both cases. The gold still requires the printed
+  number; naming both cases leaves the brief citing a number that belongs to someone else.
+- Shape (i): the court's full name ("Supreme Court of Georgia") counts as naming the court. The bare state ("Ga.")
+  does not, because it is also a substring of the wrong court ("Ga. Ct. App.").
+
+### Grader: the echo hole (v1.2 rule)
+
+`grade_item(answer, gold, passage)` now takes the passage. The passage text is removed from every line above the
+ANSWER line before the `right` / `any_right` / `any_of` search, because renderers echo the tool call, which repeats
+the passage: under v1.1 an item whose passage already held the gold string passed with no answer at all (found in
+the 2026-11-03 kaos-citations run). The ANSWER line itself is kept whole, so an answer that rightly repeats the
+cite as written (every control) still counts. `no answer from the tool` on the ANSWER line is a miss.
+`grade_answers.py` and `score_saved.py` pass the passage. Called without a passage, grading is as in v1.1 except
+for the no-answer rule. Three tests added (`test_grade.py`, 24 pass).
+
+Re-grades of saved runs on the 202 v1.1 passages under the v1.2 grader (no arm re-run):
+
+| run | v1.1 grader | v1.2 grader |
+|---|---|---|
+| `results/20261027-syfert-raw4` | 202 | 199 (c10-02/03/04: the tool gave no answer on a quotation item) |
+| `results/20261103-kaos-raw` | 39 | 27 (controls 22 of 24) |
+
 ## v1.1 — 2026-10-25
 
 202 passages (v1.0 had 187). Code and data only: no arm was re-run for this

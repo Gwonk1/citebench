@@ -183,6 +183,26 @@ def test_every_task_has_evidence_and_passes_self_check():
         assert ok, r["id"] + ": " + why
 
 
+def test_v12_echoed_passage_alone_does_not_pass():
+    gold = {"right": ["E.D.N.Y."]}
+    passage = "Smith v. Jones, No. 20-cv-1 (E.D.N.Y. 2021). Give the court as a brief writes it."
+    echo = "[find_court] " + passage + "\nANSWER: no answer from the tool"
+    assert not grade.grade(echo, gold, passage)[0]
+    assert not grade.grade("[find_court] " + passage + "\nANSWER: unsure", gold, passage)[0]
+
+
+def test_v12_answer_line_repeating_the_passage_still_passes():
+    gold = {"right": ["312 S.E.2d 319"]}
+    passage = "Russo v. Manning, 312 S.E.2d 319."
+    assert grade.grade("[check_brief] " + passage + "\nANSWER: Russo v. Manning, 312 S.E.2d 319.", gold, passage)[0]
+
+
+def test_v12_no_passage_keeps_v11_behaviour():
+    gold = {"right": ["3d Cir."]}
+    assert grade.grade("ANSWER: 3d Cir.", gold)[0]
+    assert not grade.grade("ANSWER: no answer from the tool", gold)[0]
+
+
 def load_tasks():
     path = os.path.join(HERE, "items", "tasks.jsonl")
     return [json.loads(line) for line in open(path) if line.strip()]

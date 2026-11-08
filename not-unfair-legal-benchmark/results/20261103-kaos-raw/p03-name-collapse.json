@@ -1,0 +1,63 @@
+{
+ "id": "p03-name-collapse",
+ "class": "caption",
+ "records": [
+  {
+   "raw": "347 U.S. 483",
+   "normalized": "347 U.S. 483 (1954)",
+   "span": [
+    33,
+    45
+   ],
+   "source_uri": null,
+   "cite_id": "c0001",
+   "signal": "see",
+   "pin_cite": null,
+   "pin_cite_kind": null,
+   "parenthetical": null,
+   "parenthetical_kind": null,
+   "back_ref": null,
+   "string_cite_group": null,
+   "kind": "case",
+   "volume": 347,
+   "reporter": "U.S.",
+   "page": 483,
+   "year": 1954,
+   "case_name": "Brown v. Board of Education",
+   "court": "scotus",
+   "weight": null,
+   "judges": [],
+   "parallel_cites": [],
+   "subsequent_history": []
+  },
+  {
+   "raw": "347 U.S. 483",
+   "normalized": "347 U.S. 483 (1954)",
+   "span": [
+    82,
+    94
+   ],
+   "source_uri": null,
+   "cite_id": "c0002",
+   "signal": null,
+   "pin_cite": null,
+   "pin_cite_kind": null,
+   "parenthetical": null,
+   "parenthetical_kind": null,
+   "back_ref": null,
+   "string_cite_group": null,
+   "kind": "case",
+   "volume": 347,
+   "reporter": "U.S.",
+   "page": 483,
+   "year": 1954,
+   "case_name": "The case of Smith v. Jones",
+   "court": "scotus",
+   "weight": null,
+   "judges": [],
+   "parallel_cites": [],
+   "subsequent_history": []
+  }
+ ],
+ "error": null
+}

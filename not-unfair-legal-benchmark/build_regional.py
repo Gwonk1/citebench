@@ -9,7 +9,7 @@
 #
 # No network call is made unless --network is given. Every network reply is saved under OUT and the
 # offline build reads only those files, the fix ledgers and caselaw_meta.db (opened read-only).
-# Writes items/regional_v12_candidates.jsonl and OUT/{drops.jsonl,pre_cl.jsonl,summary.json}.
+# Writes items/regional.jsonl and OUT/{drops.jsonl,pre_cl.jsonl,summary.json}.
 # It never touches items/tasks.jsonl or VERSION.
 #
 # Sources (read-only):
@@ -36,7 +36,7 @@ FIX_C = os.path.join(LANES, "RESCORE166/fix/classC.json")
 FIX_91 = os.path.join(LANES, "FIX154/src/fix91.json")
 NAMES = os.path.join(LANES, "RESCORE166/x/names.json")
 META = "/home/graham/projects/courtlistener/pkg/caselaw_meta.db"
-ITEMS_OUT = os.path.join(HERE, "items", "regional_v12_candidates.jsonl")
+ITEMS_OUT = os.path.join(HERE, "items", "regional.jsonl")
 TODAY = "2026-11-07"
 VERSION = "1.2-candidate"
 
