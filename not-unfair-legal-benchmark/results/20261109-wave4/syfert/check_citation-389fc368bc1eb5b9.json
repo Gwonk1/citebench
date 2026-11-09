@@ -1,0 +1,118 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "238 A.3d 541",
+  "expected_case_name": "A. Griffis v. WCAB (Albert Einstein Healthcare Network)"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"238 A.3d 541\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4767974,\n            \"case_name\": \"A. Griffis v. WCAB (Albert Einstein Healthcare Network)\",\n            \"citations\": [\n                \"238 A.3d 541\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"238 A.3d 540\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4767755,\n                        \"case_name\": \"City of Philadelphia v. Broad and Olney Alliance, LP\"\n                    }\n                }\n            ],\n            \"court\": \"Commonwealth Court of Pennsylvania\",\n            \"date_filed\": \"2020-07-15\",\n            \"status\": \"Unpublished\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/238-a-3d-541/a-griffis-v-wcab-albert-einstein-healthcare-network\",\n            \"precedential_status\": \"Unpublished\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"238 A.3d 540\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/238%20A.3d\"\n                },\n                {\n                    \"citation\": \"238 A.3d 541\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/238%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"A. Griffis v. WCAB (Albert Einstein Healthcare Network), 238 A.3d 541 (Pa. Commw. Ct. 2020)\",\n            \"link_md\": \"[A. Griffis v. WCAB (Albert Einstein Healthcare Network), 238 A.3d 541 (Pa. Commw. Ct. 2020)](https://syfert.com/pennsylvania/cases/238-a-3d-541/a-griffis-v-wcab-albert-einstein-healthcare-network)\"\n        },\n        {\n            \"cluster_id\": 4767975,\n            \"case_name\": \"A. Griffis v. WCAB (Albert Einstein Healthcare Network)\",\n            \"citations\": [\n                \"238 A.3d 541\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"238 A.3d 540\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4767755,\n                        \"case_name\": \"City of Philadelphia v. Broad and Olney Alliance, LP\"\n                    }\n                }\n            ],\n            \"court\": \"Commonwealth Court of Pennsylvania\",\n            \"date_filed\": \"2020-07-15\",\n            \"status\": \"Unpublished\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/238-a-3d-540/a-griffis-v-wcab-albert-einstein-healthcare-network\",\n            \"precedential_status\": \"Unpublished\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"238 A.3d 540\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/238%20A.3d\"\n                },\n                {\n                    \"citation\": \"238 A.3d 541\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/238%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"A. Griffis v. WCAB (Albert Einstein Healthcare Network), 238 A.3d 541 (Pa. Commw. Ct. 2020)\",\n            \"link_md\": \"[A. Griffis v. WCAB (Albert Einstein Healthcare Network), 238 A.3d 541 (Pa. Commw. Ct. 2020)](https://syfert.com/pennsylvania/cases/238-a-3d-540/a-griffis-v-wcab-albert-einstein-healthcare-network)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"A. Griffis v. WCAB (Albert Einstein Healthcare Network)\",\n        \"actual\": \"A. Griffis v. WCAB (Albert Einstein Healthcare Network)\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "238 A.3d 541",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4767974,
+    "case_name": "A. Griffis v. WCAB (Albert Einstein Healthcare Network)",
+    "citations": [
+     "238 A.3d 541"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "238 A.3d 540",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4767755,
+       "case_name": "City of Philadelphia v. Broad and Olney Alliance, LP"
+      }
+     }
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "2020-07-15",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/238-a-3d-541/a-griffis-v-wcab-albert-einstein-healthcare-network",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "238 A.3d 540",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/238%20A.3d"
+     },
+     {
+      "citation": "238 A.3d 541",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/238%20A.3d"
+     }
+    ],
+    "bluebook": "A. Griffis v. WCAB (Albert Einstein Healthcare Network), 238 A.3d 541 (Pa. Commw. Ct. 2020)",
+    "link_md": "[A. Griffis v. WCAB (Albert Einstein Healthcare Network), 238 A.3d 541 (Pa. Commw. Ct. 2020)](https://syfert.com/pennsylvania/cases/238-a-3d-541/a-griffis-v-wcab-albert-einstein-healthcare-network)"
+   },
+   {
+    "cluster_id": 4767975,
+    "case_name": "A. Griffis v. WCAB (Albert Einstein Healthcare Network)",
+    "citations": [
+     "238 A.3d 541"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "238 A.3d 540",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4767755,
+       "case_name": "City of Philadelphia v. Broad and Olney Alliance, LP"
+      }
+     }
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "2020-07-15",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/238-a-3d-540/a-griffis-v-wcab-albert-einstein-healthcare-network",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "238 A.3d 540",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/238%20A.3d"
+     },
+     {
+      "citation": "238 A.3d 541",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/238%20A.3d"
+     }
+    ],
+    "bluebook": "A. Griffis v. WCAB (Albert Einstein Healthcare Network), 238 A.3d 541 (Pa. Commw. Ct. 2020)",
+    "link_md": "[A. Griffis v. WCAB (Albert Einstein Healthcare Network), 238 A.3d 541 (Pa. Commw. Ct. 2020)](https://syfert.com/pennsylvania/cases/238-a-3d-540/a-griffis-v-wcab-albert-einstein-healthcare-network)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "A. Griffis v. WCAB (Albert Einstein Healthcare Network)",
+   "actual": "A. Griffis v. WCAB (Albert Einstein Healthcare Network)",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

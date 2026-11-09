@@ -1,0 +1,71 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "336 So. 3d 728",
+  "expected_case_name": "DARREN MORROW v. STATE OF FLORIDA"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"336 So. 3d 728\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6456472,\n            \"case_name\": \"Darren Morrow v. State of Florida\",\n            \"citations\": [\n                \"336 So. 3d 728\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"336 So. 3d 274\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6454262,\n                        \"case_name\": \"J.P., A Child v. State of Florida\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2022-03-31\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/336-so-3d-728/darren-morrow-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"336 So. 3d 274\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/336%20So.3d\"\n                },\n                {\n                    \"citation\": \"336 So. 3d 728\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/336%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Darren Morrow v. State of Florida, 336 So. 3d 728 (Fla. 4th DCA 2022)\",\n            \"link_md\": \"[Darren Morrow v. State of Florida, 336 So. 3d 728 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/336-so-3d-728/darren-morrow-v-state-of-florida)\",\n            \"case_name_raw\": \"DARREN MORROW v. STATE OF FLORIDA\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"DARREN MORROW v. STATE OF FLORIDA\",\n        \"actual\": \"DARREN MORROW v. STATE OF FLORIDA\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "336 So. 3d 728",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6456472,
+    "case_name": "Darren Morrow v. State of Florida",
+    "citations": [
+     "336 So. 3d 728"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "336 So. 3d 274",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6454262,
+       "case_name": "J.P., A Child v. State of Florida"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2022-03-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/336-so-3d-728/darren-morrow-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "336 So. 3d 274",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/336%20So.3d"
+     },
+     {
+      "citation": "336 So. 3d 728",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/336%20So.3d"
+     }
+    ],
+    "bluebook": "Darren Morrow v. State of Florida, 336 So. 3d 728 (Fla. 4th DCA 2022)",
+    "link_md": "[Darren Morrow v. State of Florida, 336 So. 3d 728 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/336-so-3d-728/darren-morrow-v-state-of-florida)",
+    "case_name_raw": "DARREN MORROW v. STATE OF FLORIDA"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "DARREN MORROW v. STATE OF FLORIDA",
+   "actual": "DARREN MORROW v. STATE OF FLORIDA",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

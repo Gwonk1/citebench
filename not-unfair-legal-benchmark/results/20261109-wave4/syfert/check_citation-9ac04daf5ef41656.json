@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "399 N.E.2d 969",
+  "expected_case_name": "Rhoades v. Norfolk & Western Railway Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"399 N.E.2d 969\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2123387,\n            \"case_name\": \"Rhoades v. Norfolk & Western Railway Co.\",\n            \"citations\": [\n                \"399 N.E.2d 969\"\n            ],\n            \"court\": \"Illinois Supreme Court\",\n            \"date_filed\": \"1979-10-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 127,\n            \"url\": \"https://syfert.com/illinois/cases/78-ill-2d-217/rhoades-v-norfolk-western-railway-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Rhoades v. Norfolk & W. Ry. Co., 399 N.E.2d 969 (Ill. 1979)\",\n            \"link_md\": \"[Rhoades v. Norfolk & W. Ry. Co., 399 N.E.2d 969 (Ill. 1979)](https://syfert.com/illinois/cases/78-ill-2d-217/rhoades-v-norfolk-western-railway-co)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 63,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Rhoades v. Norfolk & Western Railway Co.\",\n        \"actual\": \"Rhoades v. Norfolk & Western Railway Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "399 N.E.2d 969",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2123387,
+    "case_name": "Rhoades v. Norfolk & Western Railway Co.",
+    "citations": [
+     "399 N.E.2d 969"
+    ],
+    "court": "Illinois Supreme Court",
+    "date_filed": "1979-10-19",
+    "status": "Published",
+    "cited_by": 127,
+    "url": "https://syfert.com/illinois/cases/78-ill-2d-217/rhoades-v-norfolk-western-railway-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rhoades v. Norfolk & W. Ry. Co., 399 N.E.2d 969 (Ill. 1979)",
+    "link_md": "[Rhoades v. Norfolk & W. Ry. Co., 399 N.E.2d 969 (Ill. 1979)](https://syfert.com/illinois/cases/78-ill-2d-217/rhoades-v-norfolk-western-railway-co)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 63,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Rhoades v. Norfolk & Western Railway Co.",
+   "actual": "Rhoades v. Norfolk & Western Railway Co.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,409 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Bartley w/15 \"138 A.D.3d 553\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Bartley w/15 \\\"138 A.D.3d 553\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8108865,\"case_name\":\"Bartlett v. Bartlett\",\"citations\":[\"84 N.Y.S. 1118\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1903-04-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/84-n-y-s-1118/bartlett-v-bartlett\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartlett v. Bartlett, 84 N.Y.S. 1118 (N.Y. App. Div. 1903)\",\"link_md\":\"[Bartlett v. Bartlett, 84 N.Y.S. 1118 (N.Y. App. Div. 1903)](https://syfert.com/new-york/cases/84-n-y-s-1118/bartlett-v-bartlett)\",\"match_kind\":\"semantic\",\"similarity\":0.7016},{\"cluster_id\":5684390,\"case_name\":\"German v. Bartlett\",\"citations\":[\"409 N.E.2d 999\",\"50 N.Y.2d 944\",\"431 N.Y.S.2d 527\",\"1980 N.Y. LEXIS 2496\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1980-06-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/50-n-y-2d-944/german-v-bartlett\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"German v. Bartlett, 409 N.E.2d 999 (N.Y. 1980)\",\"link_md\":\"[German v. Bartlett, 409 N.E.2d 999 (N.Y. 1980)](https://syfert.com/new-york/cases/50-n-y-2d-944/german-v-bartlett)\",\"match_kind\":\"semantic\",\"similarity\":0.6862},{\"cluster_id\":5651990,\"case_name\":\"Bartlett v. Sutorius\",\"citations\":[\"55 Hun 608\",\"9 N.Y.S. 2\",\"62 N.Y. Sup. Ct. 608\",\"29 N.Y. St. Rep. 60\",\"1890 N.Y. Misc. LEXIS 2\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1890-01-10\",\"status\":\"Published\",\"cited_by\":8,\"url\":\"https://syfert.com/new-york/cases/9-n-y-s-2/bartlett-v-sutorius\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartlett v. Sutorius, 55 Hun 608 (N.Y. Sup. Ct. 1890)\",\"link_md\":\"[Bartlett v. Sutorius, 55 Hun 608 (N.Y. Sup. Ct. 1890)](https://syfert.com/new-york/cases/9-n-y-s-2/bartlett-v-sutorius)\",\"match_kind\":\"semantic\",\"similarity\":0.6831},{\"cluster_id\":6270931,\"case_name\":\"Bartlett v. Sutorius\",\"citations\":[\"60 N.Y. Sup. Ct. 637\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1889-07-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6270931/bartlett-v-sutorius\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartlett v. Sutorius, 60 N.Y. Sup. Ct. 637 (N.Y. Sup. Ct. 1889)\",\"link_md\":\"[Bartlett v. Sutorius, 60 N.Y. Sup. Ct. 637 (N.Y. Sup. Ct. 1889)](https://syfert.com/new-york/cases/cl-6270931/bartlett-v-sutorius)\",\"match_kind\":\"semantic\",\"similarity\":0.6728},{\"cluster_id\":5638020,\"case_name\":\"Bartlett v. State\",\"citations\":[\"124 N.E.2d 318\",\"308 N.Y. 677\",\"1954 N.Y. LEXIS 1792\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1954-12-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/308-n-y-677/bartlett-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5638020 and its twin 6295135). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartlett v. State, 124 N.E.2d 318 (N.Y. 1954)\",\"link_md\":\"[Bartlett v. State, 124 N.E.2d 318 (N.Y. 1954)](https://syfert.com/new-york/cases/308-n-y-677/bartlett-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6662,\"twin_clusters\":[6295135,5638020]},{\"cluster_id\":3028867,\"case_name\":\"Bartelli v. Romanowksi\",\"citations\":[],\"court\":\"Third Circuit\",\"date_filed\":\"2007-04-16\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-3028867/bartelli-v-romanowksi\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartelli v. Romanowksi, No. 06-1309 (3d Cir. Apr. 16, 2007)\",\"link_md\":\"[Bartelli v. Romanowksi, No. 06-1309 (3d Cir. Apr. 16, 2007)](https://syfert.com/federal/circuits/cases/cl-3028867/bartelli-v-romanowksi)\",\"match_kind\":\"semantic\",\"similarity\":0.6593},{\"cluster_id\":5097160,\"case_name\":\"Bartley v. Bingham\",\"citations\":[\"15 So. 593\",\"34 Fla. 24\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"1894-06-15\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/florida/cases/15-so-593/bartley-v-bingham\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"15 So. 593\",\"recovered_from_citing_opinions\":1,\"source\":\"harvester_v2_xeric\",\"confidence\":0.9,\"note\":\"Recovered parallel cite: 1 citing opinion confirms this cite (confidence 0.90)\"}],\"bluebook\":\"Bartley v. Bingham, 15 So. 593 (Fla. 1894)\",\"link_md\":\"[Bartley v. Bingham, 15 So. 593 (Fla. 1894)](https://syfert.com/florida/cases/15-so-593/bartley-v-bingham)\",\"match_kind\":\"semantic\",\"similarity\":0.6571},{\"cluster_id\":3581737,\"case_name\":\"Bartletta v. McFeeley\",\"citations\":[\"166 A. 144\",\"113 N.J. Eq. 67\",\"1933 N.J. LEXIS 982\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"1933-04-27\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/new-jersey/cases/166-a-144/bartletta-v-mcfeeley\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartletta v. McFeeley, 166 A. 144 (N.J. 1933)\",\"link_md\":\"[Bartletta v. McFeeley, 166 A. 144 (N.J. 1933)](https://syfert.com/new-jersey/cases/166-a-144/bartletta-v-mcfeeley)\",\"match_kind\":\"semantic\",\"similarity\":0.6557},{\"cluster_id\":8377299,\"case_name\":\"Bartlett v. Wrightson\",\"citations\":[\"71 Ohio St. (N.S.) 501\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1904-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/cl-8377299/bartlett-v-wrightson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartlett v. Wrightson, 71 Ohio St. (N.S.) 501 (Ohio 1904)\",\"link_md\":\"[Bartlett v. Wrightson, 71 Ohio St. (N.S.) 501 (Ohio 1904)](https://syfert.com/ohio/cases/cl-8377299/bartlett-v-wrightson)\",\"match_kind\":\"semantic\",\"similarity\":0.6548},{\"cluster_id\":5490261,\"case_name\":\"Bartle v. Austin\",\"citations\":[\"239 A.D. 761\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1933-03-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/239-a-d-761/bartle-v-austin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartle v. Austin, 239 A.D. 761 (N.Y. App. Div. 1933)\",\"link_md\":\"[Bartle v. Austin, 239 A.D. 761 (N.Y. App. Div. 1933)](https://syfert.com/new-york/cases/239-a-d-761/bartle-v-austin)\",\"match_kind\":\"semantic\",\"similarity\":0.6514},{\"cluster_id\":7432445,\"case_name\":\"Smith v. Bartlett\",\"citations\":[\"140 N.Y.S. 1146\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1913-03-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/140-n-y-s-1146/smith-v-bartlett\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith v. Bartlett, 140 N.Y.S. 1146 (N.Y. App. Div. 1913)\",\"link_md\":\"[Smith v. Bartlett, 140 N.Y.S. 1146 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/140-n-y-s-1146/smith-v-bartlett)\",\"match_kind\":\"semantic\",\"similarity\":0.6506},{\"cluster_id\":9290575,\"case_name\":\"Bartley v. Andrews\",\"citations\":[\"221 Ill. App. 643\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"1921-06-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/illinois/cases/221-ill-app-643/bartley-v-andrews\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartley v. Andrews, 221 Ill. App. 643 (Ill. App. Ct. 1921)\",\"link_md\":\"[Bartley v. Andrews, 221 Ill. App. 643 (Ill. App. Ct. 1921)](https://syfert.com/illinois/cases/221-ill-app-643/bartley-v-andrews)\",\"match_kind\":\"semantic\",\"similarity\":0.6488},{\"cluster_id\":2999205,\"case_name\":\"Bartlett, Jonathan v. Battaglia, Deirdre\",\"citations\":[],\"court\":\"Seventh Circuit\",\"date_filed\":\"2006-06-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-2999205/bartlett-jonathan-v-battaglia-deirdre\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartlett, Jonathan v. Battaglia, Deirdre, No. 05-1715 (7th Cir. June 26, 2006)\",\"link_md\":\"[Bartlett, Jonathan v. Battaglia, Deirdre, No. 05-1715 (7th Cir. June 26, 2006)](https://syfert.com/federal/circuits/cases/cl-2999205/bartlett-jonathan-v-battaglia-deirdre)\",\"match_kind\":\"semantic\",\"similarity\":0.6486},{\"cluster_id\":5436728,\"case_name\":\"Bartley v. Andrews\",\"citations\":[\"209 A.D. 823\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1924-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/209-a-d-823/bartley-v-andrews\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartley v. Andrews, 209 A.D. 823 (N.Y. App. Div. 1924)\",\"link_md\":\"[Bartley v. Andrews, 209 A.D. 823 (N.Y. App. Div. 1924)](https://syfert.com/new-york/cases/209-a-d-823/bartley-v-andrews)\",\"match_kind\":\"semantic\",\"similarity\":0.6484},{\"cluster_id\":5372684,\"case_name\":\"Bartlett v. Reich\",\"citations\":[\"127 A.D. 919\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1908-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/127-a-d-919/bartlett-v-reich\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartlett v. Reich, 127 A.D. 919 (N.Y. App. Div. 1908)\",\"link_md\":\"[Bartlett v. Reich, 127 A.D. 919 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/127-a-d-919/bartlett-v-reich)\",\"match_kind\":\"semantic\",\"similarity\":0.6473},{\"cluster_id\":657517,\"case_name\":\"Bartlett (William C.) v. Miller (George J.)\",\"citations\":[\"9 F.3d 1539\",\"1993 WL 446569\"],\"court\":\"Third Circuit\",\"date_filed\":\"1993-10-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/9-f-3d-1539/bartlett-william-c-v-miller-george-j\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartlett (William C.) v. Miller (George J.), 9 F.3d 1539 (3d Cir. 1993)\",\"link_md\":\"[Bartlett (William C.) v. Miller (George J.), 9 F.3d 1539 (3d Cir. 1993)](https://syfert.com/federal/circuits/cases/9-f-3d-1539/bartlett-william-c-v-miller-george-j)\",\"match_kind\":\"semantic\",\"similarity\":0.6456},{\"cluster_id\":3640113,\"case_name\":\"Wells v. . Bartlett\",\"citations\":[\"101 N.E. 1125\",\"208 N.Y. 574\",\"1913 N.Y. LEXIS 1163\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1913-04-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/208-n-y-574/wells-v-bartlett\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. Bartlett, 101 N.E. 1125 (N.Y. 1913)\",\"link_md\":\"[Wells v. Bartlett, 101 N.E. 1125 (N.Y. 1913)](https://syfert.com/new-york/cases/208-n-y-574/wells-v-bartlett)\",\"match_kind\":\"semantic\",\"similarity\":0.6437},{\"cluster_id\":6197633,\"case_name\":\"Bartlett v. Harvey\",\"citations\":[\"277 A.D.2d 944\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1950-07-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6197633/bartlett-v-harvey\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartlett v. Harvey, 277 A.D.2d 944 (N.Y. App. Div. 4th Dep't 1950)\",\"link_md\":\"[Bartlett v. Harvey, 277 A.D.2d 944 (N.Y. App. Div. 4th Dep't 1950)](https://syfert.com/new-york/cases/cl-6197633/bartlett-v-harvey)\",\"match_kind\":\"semantic\",\"similarity\":0.6432},{\"cluster_id\":6350376,\"case_name\":\"Walton v. Stewart\",\"citations\":[\"68 N.Y. Sup. Ct. 625\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1891-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6350376/walton-v-stewart\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walton v. Stewart, 68 N.Y. Sup. Ct. 625 (N.Y. Sup. Ct. 1891)\",\"link_md\":\"[Walton v. Stewart, 68 N.Y. Sup. Ct. 625 (N.Y. Sup. Ct. 1891)](https://syfert.com/new-york/cases/cl-6350376/walton-v-stewart)\",\"match_kind\":\"semantic\",\"similarity\":0.6416},{\"cluster_id\":5428559,\"case_name\":\"Bartolo v. Gill\",\"citations\":[\"202 A.D. 779\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1922-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/202-a-d-779/bartolo-v-gill\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bartolo v. Gill, 202 A.D. 779 (N.Y. App. Div. 1922)\",\"link_md\":\"[Bartolo v. Gill, 202 A.D. 779 (N.Y. App. Div. 1922)](https://syfert.com/new-york/cases/202-a-d-779/bartolo-v-gill)\",\"match_kind\":\"semantic\",\"similarity\":0.6415}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Bartley w/15 \"138 A.D.3d 553\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8108865,
+    "case_name": "Bartlett v. Bartlett",
+    "citations": [
+     "84 N.Y.S. 1118"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1903-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/84-n-y-s-1118/bartlett-v-bartlett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartlett v. Bartlett, 84 N.Y.S. 1118 (N.Y. App. Div. 1903)",
+    "link_md": "[Bartlett v. Bartlett, 84 N.Y.S. 1118 (N.Y. App. Div. 1903)](https://syfert.com/new-york/cases/84-n-y-s-1118/bartlett-v-bartlett)",
+    "match_kind": "semantic",
+    "similarity": 0.7016
+   },
+   {
+    "cluster_id": 5684390,
+    "case_name": "German v. Bartlett",
+    "citations": [
+     "409 N.E.2d 999",
+     "50 N.Y.2d 944",
+     "431 N.Y.S.2d 527",
+     "1980 N.Y. LEXIS 2496"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1980-06-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/50-n-y-2d-944/german-v-bartlett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "German v. Bartlett, 409 N.E.2d 999 (N.Y. 1980)",
+    "link_md": "[German v. Bartlett, 409 N.E.2d 999 (N.Y. 1980)](https://syfert.com/new-york/cases/50-n-y-2d-944/german-v-bartlett)",
+    "match_kind": "semantic",
+    "similarity": 0.6862
+   },
+   {
+    "cluster_id": 5651990,
+    "case_name": "Bartlett v. Sutorius",
+    "citations": [
+     "55 Hun 608",
+     "9 N.Y.S. 2",
+     "62 N.Y. Sup. Ct. 608",
+     "29 N.Y. St. Rep. 60",
+     "1890 N.Y. Misc. LEXIS 2"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1890-01-10",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/new-york/cases/9-n-y-s-2/bartlett-v-sutorius",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartlett v. Sutorius, 55 Hun 608 (N.Y. Sup. Ct. 1890)",
+    "link_md": "[Bartlett v. Sutorius, 55 Hun 608 (N.Y. Sup. Ct. 1890)](https://syfert.com/new-york/cases/9-n-y-s-2/bartlett-v-sutorius)",
+    "match_kind": "semantic",
+    "similarity": 0.6831
+   },
+   {
+    "cluster_id": 6270931,
+    "case_name": "Bartlett v. Sutorius",
+    "citations": [
+     "60 N.Y. Sup. Ct. 637"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1889-07-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6270931/bartlett-v-sutorius",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartlett v. Sutorius, 60 N.Y. Sup. Ct. 637 (N.Y. Sup. Ct. 1889)",
+    "link_md": "[Bartlett v. Sutorius, 60 N.Y. Sup. Ct. 637 (N.Y. Sup. Ct. 1889)](https://syfert.com/new-york/cases/cl-6270931/bartlett-v-sutorius)",
+    "match_kind": "semantic",
+    "similarity": 0.6728
+   },
+   {
+    "cluster_id": 5638020,
+    "case_name": "Bartlett v. State",
+    "citations": [
+     "124 N.E.2d 318",
+     "308 N.Y. 677",
+     "1954 N.Y. LEXIS 1792"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1954-12-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/308-n-y-677/bartlett-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5638020 and its twin 6295135). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartlett v. State, 124 N.E.2d 318 (N.Y. 1954)",
+    "link_md": "[Bartlett v. State, 124 N.E.2d 318 (N.Y. 1954)](https://syfert.com/new-york/cases/308-n-y-677/bartlett-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6662,
+    "twin_clusters": [
+     6295135,
+     5638020
+    ]
+   },
+   {
+    "cluster_id": 3028867,
+    "case_name": "Bartelli v. Romanowksi",
+    "citations": [],
+    "court": "Third Circuit",
+    "date_filed": "2007-04-16",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-3028867/bartelli-v-romanowksi",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Bartelli v. Romanowksi, No. 06-1309 (3d Cir. Apr. 16, 2007)",
+    "link_md": "[Bartelli v. Romanowksi, No. 06-1309 (3d Cir. Apr. 16, 2007)](https://syfert.com/federal/circuits/cases/cl-3028867/bartelli-v-romanowksi)",
+    "match_kind": "semantic",
+    "similarity": 0.6593
+   },
+   {
+    "cluster_id": 5097160,
+    "case_name": "Bartley v. Bingham",
+    "citations": [
+     "15 So. 593",
+     "34 Fla. 24"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "1894-06-15",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/florida/cases/15-so-593/bartley-v-bingham",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "15 So. 593",
+      "recovered_from_citing_opinions": 1,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.9,
+      "note": "Recovered parallel cite: 1 citing opinion confirms this cite (confidence 0.90)"
+     }
+    ],
+    "bluebook": "Bartley v. Bingham, 15 So. 593 (Fla. 1894)",
+    "link_md": "[Bartley v. Bingham, 15 So. 593 (Fla. 1894)](https://syfert.com/florida/cases/15-so-593/bartley-v-bingham)",
+    "match_kind": "semantic",
+    "similarity": 0.6571
+   },
+   {
+    "cluster_id": 3581737,
+    "case_name": "Bartletta v. McFeeley",
+    "citations": [
+     "166 A. 144",
+     "113 N.J. Eq. 67",
+     "1933 N.J. LEXIS 982"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "1933-04-27",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/new-jersey/cases/166-a-144/bartletta-v-mcfeeley",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartletta v. McFeeley, 166 A. 144 (N.J. 1933)",
+    "link_md": "[Bartletta v. McFeeley, 166 A. 144 (N.J. 1933)](https://syfert.com/new-jersey/cases/166-a-144/bartletta-v-mcfeeley)",
+    "match_kind": "semantic",
+    "similarity": 0.6557
+   },
+   {
+    "cluster_id": 8377299,
+    "case_name": "Bartlett v. Wrightson",
+    "citations": [
+     "71 Ohio St. (N.S.) 501"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1904-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/cl-8377299/bartlett-v-wrightson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartlett v. Wrightson, 71 Ohio St. (N.S.) 501 (Ohio 1904)",
+    "link_md": "[Bartlett v. Wrightson, 71 Ohio St. (N.S.) 501 (Ohio 1904)](https://syfert.com/ohio/cases/cl-8377299/bartlett-v-wrightson)",
+    "match_kind": "semantic",
+    "similarity": 0.6548
+   },
+   {
+    "cluster_id": 5490261,
+    "case_name": "Bartle v. Austin",
+    "citations": [
+     "239 A.D. 761"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1933-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/239-a-d-761/bartle-v-austin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartle v. Austin, 239 A.D. 761 (N.Y. App. Div. 1933)",
+    "link_md": "[Bartle v. Austin, 239 A.D. 761 (N.Y. App. Div. 1933)](https://syfert.com/new-york/cases/239-a-d-761/bartle-v-austin)",
+    "match_kind": "semantic",
+    "similarity": 0.6514
+   },
+   {
+    "cluster_id": 7432445,
+    "case_name": "Smith v. Bartlett",
+    "citations": [
+     "140 N.Y.S. 1146"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1913-03-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/140-n-y-s-1146/smith-v-bartlett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith v. Bartlett, 140 N.Y.S. 1146 (N.Y. App. Div. 1913)",
+    "link_md": "[Smith v. Bartlett, 140 N.Y.S. 1146 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/140-n-y-s-1146/smith-v-bartlett)",
+    "match_kind": "semantic",
+    "similarity": 0.6506
+   },
+   {
+    "cluster_id": 9290575,
+    "case_name": "Bartley v. Andrews",
+    "citations": [
+     "221 Ill. App. 643"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1921-06-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/illinois/cases/221-ill-app-643/bartley-v-andrews",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartley v. Andrews, 221 Ill. App. 643 (Ill. App. Ct. 1921)",
+    "link_md": "[Bartley v. Andrews, 221 Ill. App. 643 (Ill. App. Ct. 1921)](https://syfert.com/illinois/cases/221-ill-app-643/bartley-v-andrews)",
+    "match_kind": "semantic",
+    "similarity": 0.6488
+   },
+   {
+    "cluster_id": 2999205,
+    "case_name": "Bartlett, Jonathan v. Battaglia, Deirdre",
+    "citations": [],
+    "court": "Seventh Circuit",
+    "date_filed": "2006-06-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-2999205/bartlett-jonathan-v-battaglia-deirdre",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartlett, Jonathan v. Battaglia, Deirdre, No. 05-1715 (7th Cir. June 26, 2006)",
+    "link_md": "[Bartlett, Jonathan v. Battaglia, Deirdre, No. 05-1715 (7th Cir. June 26, 2006)](https://syfert.com/federal/circuits/cases/cl-2999205/bartlett-jonathan-v-battaglia-deirdre)",
+    "match_kind": "semantic",
+    "similarity": 0.6486
+   },
+   {
+    "cluster_id": 5436728,
+    "case_name": "Bartley v. Andrews",
+    "citations": [
+     "209 A.D. 823"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1924-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/209-a-d-823/bartley-v-andrews",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartley v. Andrews, 209 A.D. 823 (N.Y. App. Div. 1924)",
+    "link_md": "[Bartley v. Andrews, 209 A.D. 823 (N.Y. App. Div. 1924)](https://syfert.com/new-york/cases/209-a-d-823/bartley-v-andrews)",
+    "match_kind": "semantic",
+    "similarity": 0.6484
+   },
+   {
+    "cluster_id": 5372684,
+    "case_name": "Bartlett v. Reich",
+    "citations": [
+     "127 A.D. 919"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1908-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/127-a-d-919/bartlett-v-reich",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartlett v. Reich, 127 A.D. 919 (N.Y. App. Div. 1908)",
+    "link_md": "[Bartlett v. Reich, 127 A.D. 919 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/127-a-d-919/bartlett-v-reich)",
+    "match_kind": "semantic",
+    "similarity": 0.6473
+   },
+   {
+    "cluster_id": 657517,
+    "case_name": "Bartlett (William C.) v. Miller (George J.)",
+    "citations": [
+     "9 F.3d 1539",
+     "1993 WL 446569"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1993-10-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/9-f-3d-1539/bartlett-william-c-v-miller-george-j",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartlett (William C.) v. Miller (George J.), 9 F.3d 1539 (3d Cir. 1993)",
+    "link_md": "[Bartlett (William C.) v. Miller (George J.), 9 F.3d 1539 (3d Cir. 1993)](https://syfert.com/federal/circuits/cases/9-f-3d-1539/bartlett-william-c-v-miller-george-j)",
+    "match_kind": "semantic",
+    "similarity": 0.6456
+   },
+   {
+    "cluster_id": 3640113,
+    "case_name": "Wells v. . Bartlett",
+    "citations": [
+     "101 N.E. 1125",
+     "208 N.Y. 574",
+     "1913 N.Y. LEXIS 1163"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1913-04-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/208-n-y-574/wells-v-bartlett",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. Bartlett, 101 N.E. 1125 (N.Y. 1913)",
+    "link_md": "[Wells v. Bartlett, 101 N.E. 1125 (N.Y. 1913)](https://syfert.com/new-york/cases/208-n-y-574/wells-v-bartlett)",
+    "match_kind": "semantic",
+    "similarity": 0.6437
+   },
+   {
+    "cluster_id": 6197633,
+    "case_name": "Bartlett v. Harvey",
+    "citations": [
+     "277 A.D.2d 944"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1950-07-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6197633/bartlett-v-harvey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartlett v. Harvey, 277 A.D.2d 944 (N.Y. App. Div. 4th Dep't 1950)",
+    "link_md": "[Bartlett v. Harvey, 277 A.D.2d 944 (N.Y. App. Div. 4th Dep't 1950)](https://syfert.com/new-york/cases/cl-6197633/bartlett-v-harvey)",
+    "match_kind": "semantic",
+    "similarity": 0.6432
+   },
+   {
+    "cluster_id": 6350376,
+    "case_name": "Walton v. Stewart",
+    "citations": [
+     "68 N.Y. Sup. Ct. 625"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1891-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6350376/walton-v-stewart",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walton v. Stewart, 68 N.Y. Sup. Ct. 625 (N.Y. Sup. Ct. 1891)",
+    "link_md": "[Walton v. Stewart, 68 N.Y. Sup. Ct. 625 (N.Y. Sup. Ct. 1891)](https://syfert.com/new-york/cases/cl-6350376/walton-v-stewart)",
+    "match_kind": "semantic",
+    "similarity": 0.6416
+   },
+   {
+    "cluster_id": 5428559,
+    "case_name": "Bartolo v. Gill",
+    "citations": [
+     "202 A.D. 779"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1922-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/202-a-d-779/bartolo-v-gill",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bartolo v. Gill, 202 A.D. 779 (N.Y. App. Div. 1922)",
+    "link_md": "[Bartolo v. Gill, 202 A.D. 779 (N.Y. App. Div. 1922)](https://syfert.com/new-york/cases/202-a-d-779/bartolo-v-gill)",
+    "match_kind": "semantic",
+    "similarity": 0.6415
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "138 A.D.3d 553",
+  "expected_case_name": "People v. Bartley"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"138 A.D.3d 553\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3195591,\n            \"case_name\": \"People v. Bartley\",\n            \"citations\": [\n                \"138 A.D.3d 553\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"138 A.D.3d 552\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 3195601,\n                        \"case_name\": \"Alexander v. Alexander\"\n                    }\n                }\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2016-04-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/138-a-d-3d-553/people-v-bartley\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Bartley, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)\",\n            \"link_md\": \"[People v. Bartley, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)](https://syfert.com/new-york/cases/138-a-d-3d-553/people-v-bartley)\"\n        },\n        {\n            \"cluster_id\": 3195582,\n            \"case_name\": \"Uram v. Smith\",\n            \"citations\": [\n                \"138 A.D.3d 553\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2016-04-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 1,\n            \"url\": \"https://syfert.com/new-york/cases/138-a-d-3d-553/uram-v-smith\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Uram v. Smith, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)\",\n            \"link_md\": \"[Uram v. Smith, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)](https://syfert.com/new-york/cases/138-a-d-3d-553/uram-v-smith)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        },\n        {\n            \"cluster_id\": 6212943,\n            \"case_name\": \"People v. Williams\",\n            \"citations\": [\n                \"138 A.D.3d 553\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2016-04-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/138-a-d-3d-553/people-v-williams\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Williams, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)\",\n            \"link_md\": \"[People v. Williams, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)](https://syfert.com/new-york/cases/138-a-d-3d-553/people-v-williams)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Bartley\",\n        \"actual\": \"People v. Bartley\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "138 A.D.3d 553",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3195591,
+    "case_name": "People v. Bartley",
+    "citations": [
+     "138 A.D.3d 553"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "138 A.D.3d 552",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 3195601,
+       "case_name": "Alexander v. Alexander"
+      }
+     }
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2016-04-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/138-a-d-3d-553/people-v-bartley",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Bartley, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)",
+    "link_md": "[People v. Bartley, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)](https://syfert.com/new-york/cases/138-a-d-3d-553/people-v-bartley)"
+   },
+   {
+    "cluster_id": 3195582,
+    "case_name": "Uram v. Smith",
+    "citations": [
+     "138 A.D.3d 553"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2016-04-19",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/138-a-d-3d-553/uram-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Uram v. Smith, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)",
+    "link_md": "[Uram v. Smith, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)](https://syfert.com/new-york/cases/138-a-d-3d-553/uram-v-smith)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   },
+   {
+    "cluster_id": 6212943,
+    "case_name": "People v. Williams",
+    "citations": [
+     "138 A.D.3d 553"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2016-04-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/138-a-d-3d-553/people-v-williams",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Williams, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)",
+    "link_md": "[People v. Williams, 138 A.D.3d 553 (N.Y. App. Div. 1st Dep't 2016)](https://syfert.com/new-york/cases/138-a-d-3d-553/people-v-williams)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Bartley",
+   "actual": "People v. Bartley",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

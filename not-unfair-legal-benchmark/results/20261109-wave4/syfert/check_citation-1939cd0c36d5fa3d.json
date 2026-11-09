@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "940 N.Y.S.2d 127",
+  "expected_case_name": "People v. Harris"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"940 N.Y.S.2d 127\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5989787,\n            \"case_name\": \"People v. Harris\",\n            \"citations\": [\n                \"940 N.Y.S.2d 127\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2012-03-13\",\n            \"status\": \"Published\",\n            \"cited_by\": 45,\n            \"url\": \"https://syfert.com/new-york/cases/93-a-d-3d-704/people-v-harris\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Harris, 940 N.Y.S.2d 127 (N.Y. App. Div. 2d Dep't 2012)\",\n            \"link_md\": \"[People v. Harris, 940 N.Y.S.2d 127 (N.Y. App. Div. 2d Dep't 2012)](https://syfert.com/new-york/cases/93-a-d-3d-704/people-v-harris)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 35,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Harris\",\n        \"actual\": \"People v. Harris\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "940 N.Y.S.2d 127",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5989787,
+    "case_name": "People v. Harris",
+    "citations": [
+     "940 N.Y.S.2d 127"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2012-03-13",
+    "status": "Published",
+    "cited_by": 45,
+    "url": "https://syfert.com/new-york/cases/93-a-d-3d-704/people-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Harris, 940 N.Y.S.2d 127 (N.Y. App. Div. 2d Dep't 2012)",
+    "link_md": "[People v. Harris, 940 N.Y.S.2d 127 (N.Y. App. Div. 2d Dep't 2012)](https://syfert.com/new-york/cases/93-a-d-3d-704/people-v-harris)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 35,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Harris",
+   "actual": "People v. Harris",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

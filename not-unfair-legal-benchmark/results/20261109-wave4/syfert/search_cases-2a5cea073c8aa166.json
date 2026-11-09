@@ -1,0 +1,389 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "PSHS w/15 \"352 So. 3d 28\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"PSHS w/15 \\\"352 So. 3d 28\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6484356,\"case_name\":\"PSP v. Psta\",\"citations\":[\"183 A.3d 513\"],\"court\":\"Commonwealth Court of Pennsylvania\",\"date_filed\":\"2018-01-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/183-a-3d-513/psp-v-psta\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"PSP v. Psta, 183 A.3d 513 (Pa. Commw. Ct. 2018)\",\"link_md\":\"[PSP v. Psta, 183 A.3d 513 (Pa. Commw. Ct. 2018)](https://syfert.com/pennsylvania/cases/183-a-3d-513/psp-v-psta)\",\"match_kind\":\"semantic\",\"similarity\":0.6362},{\"cluster_id\":4386170,\"case_name\":\"APSCUF, Aplt. v. PSSHE\",\"citations\":[],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2017-04-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/cl-4386170/apscuf-aplt-v-psshe\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Apscuf v. Psshe, No. 10 MAP 2016 (Pa. Apr. 26, 2017)\",\"link_md\":\"[Apscuf v. Psshe, No. 10 MAP 2016 (Pa. Apr. 26, 2017)](https://syfert.com/pennsylvania/cases/cl-4386170/apscuf-aplt-v-psshe)\",\"match_kind\":\"semantic\",\"similarity\":0.6328},{\"cluster_id\":9435274,\"case_name\":\"Walsh v. Isabella, of: 325 S. 18th St.\",\"citations\":[],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2023-10-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/cl-9435274/walsh-v-isabella-of-325-s-18th-st\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walsh v. Isabella, No. 48 EM 2023 (Pa. Oct. 25, 2023)\",\"link_md\":\"[Walsh v. Isabella, No. 48 EM 2023 (Pa. Oct. 25, 2023)](https://syfert.com/pennsylvania/cases/cl-9435274/walsh-v-isabella-of-325-s-18th-st)\",\"match_kind\":\"semantic\",\"similarity\":0.6307},{\"cluster_id\":4091795,\"case_name\":\"Philadelphia Sch. Dist. v. B. A. Shrages Co.\",\"citations\":[\"9 A.2d 900\",\"336 Pa. 433\",\"1939 Pa. LEXIS 536\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1939-12-07\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/pennsylvania/cases/336-pa-433/philadelphia-sch-dist-v-b-a-shrages-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Philadelphia Sch. Dist. v. B. A. Shrages Co., 9 A.2d 900 (Pa. 1939)\",\"link_md\":\"[Philadelphia Sch. Dist. v. B. A. Shrages Co., 9 A.2d 900 (Pa. 1939)](https://syfert.com/pennsylvania/cases/336-pa-433/philadelphia-sch-dist-v-b-a-shrages-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6216},{\"cluster_id\":488481,\"case_name\":\"Edwards v. U.S.P.S\",\"citations\":[\"818 F.2d 877\"],\"court\":\"Federal Circuit\",\"date_filed\":\"1987-03-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/818-f-2d-877/edwards-v-usps\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Edwards v. U.S.P.S, 818 F.2d 877 (Fed. Cir. 1987)\",\"link_md\":\"[Edwards v. U.S.P.S, 818 F.2d 877 (Fed. Cir. 1987)](https://syfert.com/federal/circuits/cases/818-f-2d-877/edwards-v-usps)\",\"match_kind\":\"semantic\",\"similarity\":0.6209},{\"cluster_id\":2447708,\"case_name\":\"In Interest of Csh\",\"citations\":[\"6 A.3d 552\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2010-07-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/6-a-3d-552/in-interest-of-csh\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In Interest of Csh, 6 A.3d 552 (Pa. Super. Ct. 2010)\",\"link_md\":\"[In Interest of Csh, 6 A.3d 552 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/6-a-3d-552/in-interest-of-csh)\",\"match_kind\":\"semantic\",\"similarity\":0.6176},{\"cluster_id\":752464,\"case_name\":\"G. Hugh Wamble v. Burt Helen M. Hardiman Odessa Hill Mae Bell Washington Dorothy H. McDonald Bernether MacKlin Frank Calcote Russel M. Bradly Walter A. Reed Robert G. Parsons, Jr.\",\"citations\":[\"139 F.3d 605\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1998-03-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/139-f-3d-605/g-hugh-wamble-verline-cobbins-alma-v-burt-helen-m-hardiman-odessa-hill\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"G. Hugh Wamble v. Burt Helen M. Hardiman Odessa Hill Mae Bell Washington Dorothy H. McDonald Bernether MacKlin Frank Calcote Russel M. Bradly Walter A. Reed Robert G. Parsons, Jr., 139 F.3d 605 (8th Cir. 1998)\",\"link_md\":\"[G. Hugh Wamble v. Burt Helen M. Hardiman Odessa Hill Mae Bell Washington Dorothy H. McDonald Bernether MacKlin Frank Calcote Russel M. Bradly Walter A. Reed Robert G. Parsons, Jr., 139 F.3d 605 (8th Cir. 1998)](https://syfert.com/federal/circuits/cases/139-f-3d-605/g-hugh-wamble-verline-cobbins-alma-v-burt-helen-m-hardiman-odessa-hill)\",\"match_kind\":\"semantic\",\"similarity\":0.6173},{\"cluster_id\":6225460,\"case_name\":\"Markow-Brown v. Board of Education\",\"citations\":[\"301 A.D.2d 653\",\"754 N.Y.S.2d 326\",\"2003 N.Y. App. Div. LEXIS 619\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2003-01-27\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/301-a-d-2d-653/markow-brown-v-board-of-education\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Markow-Brown v. Bd. of Educ., 301 A.D.2d 653 (N.Y. App. Div. 2d Dep't 2003)\",\"link_md\":\"[Markow-Brown v. Bd. of Educ., 301 A.D.2d 653 (N.Y. App. Div. 2d Dep't 2003)](https://syfert.com/new-york/cases/301-a-d-2d-653/markow-brown-v-board-of-education)\",\"match_kind\":\"semantic\",\"similarity\":0.6168},{\"cluster_id\":749349,\"case_name\":\"Chinyere Jenkins v. State of Missouri Mel Carnahan\",\"citations\":[\"131 F.3d 716\",\"1997 U.S. App. LEXIS 33744\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1997-12-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/131-f-3d-716/chinyere-jenkins-by-her-next-friend-joi-jenkins-nicholas-paul\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Chinyere Jenkins v. State of Missouri Mel Carnahan, 131 F.3d 716 (8th Cir. 1997)\",\"link_md\":\"[Chinyere Jenkins v. State of Missouri Mel Carnahan, 131 F.3d 716 (8th Cir. 1997)](https://syfert.com/federal/circuits/cases/131-f-3d-716/chinyere-jenkins-by-her-next-friend-joi-jenkins-nicholas-paul)\",\"match_kind\":\"semantic\",\"similarity\":0.6163},{\"cluster_id\":481922,\"case_name\":\"Williams v. U.S.P.S\",\"citations\":[\"809 F.2d 791\"],\"court\":\"Federal Circuit\",\"date_filed\":\"1986-12-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/809-f-2d-791/williams-v-usps\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Williams v. U.S.P.S, 809 F.2d 791 (Fed. Cir. 1986)\",\"link_md\":\"[Williams v. U.S.P.S, 809 F.2d 791 (Fed. Cir. 1986)](https://syfert.com/federal/circuits/cases/809-f-2d-791/williams-v-usps)\",\"match_kind\":\"semantic\",\"similarity\":0.6161},{\"cluster_id\":6484647,\"case_name\":\"Williams v. PSP\",\"citations\":[\"184 A.3d 643\"],\"court\":\"Commonwealth Court of Pennsylvania\",\"date_filed\":\"2018-03-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/184-a-3d-643/williams-v-psp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Williams v. PSP, 184 A.3d 643 (Pa. Commw. Ct. 2018)\",\"link_md\":\"[Williams v. PSP, 184 A.3d 643 (Pa. Commw. Ct. 2018)](https://syfert.com/pennsylvania/cases/184-a-3d-643/williams-v-psp)\",\"match_kind\":\"semantic\",\"similarity\":0.6157},{\"cluster_id\":142658,\"case_name\":\"Phillips v. Lansing School District\",\"citations\":[\"543 U.S. 1179\",\"125 S. Ct. 1376\"],\"court\":\"Supreme Court\",\"date_filed\":\"2005-02-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-1179/phillips-v-lansing-school-district\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Phillips v. Lansing Sch. Dist., 543 U.S. 1179 (2005)\",\"link_md\":\"[Phillips v. Lansing Sch. Dist., 543 U.S. 1179 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1179/phillips-v-lansing-school-district)\",\"match_kind\":\"semantic\",\"similarity\":0.6156},{\"cluster_id\":7068014,\"case_name\":\"KPS Management v. Eswini\",\"citations\":[\"196 Wash. App. 1015\"],\"court\":\"Court of Appeals of Washington\",\"date_filed\":\"2016-09-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/196-wash-app-1015/kps-management-v-eswini\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"KPS Mgmt. v. Eswini, 196 Wash. App. 1015 (Wash. Ct. App. 2016)\",\"link_md\":\"[KPS Mgmt. v. Eswini, 196 Wash. App. 1015 (Wash. Ct. App. 2016)](https://syfert.com/washington/cases/196-wash-app-1015/kps-management-v-eswini)\",\"match_kind\":\"semantic\",\"similarity\":0.6151},{\"cluster_id\":488390,\"case_name\":\"Gonzalez v. U.S.P.S\",\"citations\":[\"818 F.2d 874\"],\"court\":\"Federal Circuit\",\"date_filed\":\"1987-02-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/818-f-2d-874/gonzalez-v-usps\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gonzalez v. U.S.P.S, 818 F.2d 874 (Fed. Cir. 1987)\",\"link_md\":\"[Gonzalez v. U.S.P.S, 818 F.2d 874 (Fed. Cir. 1987)](https://syfert.com/federal/circuits/cases/818-f-2d-874/gonzalez-v-usps)\",\"match_kind\":\"semantic\",\"similarity\":0.6147},{\"cluster_id\":4854742,\"case_name\":\"Walsh v. Isabella, Pet of: 325 S. 18th St.\",\"citations\":[],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2021-02-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/cl-4854742/walsh-v-isabella-pet-of-325-s-18th-st\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walsh v. Isabella, No. 78 EM 2020 (Pa. Feb. 8, 2021)\",\"link_md\":\"[Walsh v. Isabella, No. 78 EM 2020 (Pa. Feb. 8, 2021)](https://syfert.com/pennsylvania/cases/cl-4854742/walsh-v-isabella-pet-of-325-s-18th-st)\",\"match_kind\":\"semantic\",\"similarity\":0.6144},{\"cluster_id\":1849461,\"case_name\":\"Shirey v. City Board of Education of Fort Payne\",\"citations\":[\"94 So. 2d 758\",\"266 Ala. 185\",\"1957 Ala. LEXIS 405\"],\"court\":\"Supreme Court of Alabama\",\"date_filed\":\"1957-03-14\",\"status\":\"Published\",\"cited_by\":10,\"url\":\"https://syfert.com/alabama/cases/266-ala-185/shirey-v-city-board-of-education-of-fort-payne\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Shirey v. City Bd. of Educ. of Fort Payne, 94 So. 2d 758 (Ala. 1957)\",\"link_md\":\"[Shirey v. City Bd. of Educ. of Fort Payne, 94 So. 2d 758 (Ala. 1957)](https://syfert.com/alabama/cases/266-ala-185/shirey-v-city-board-of-education-of-fort-payne)\",\"match_kind\":\"semantic\",\"similarity\":0.6143},{\"cluster_id\":3016481,\"case_name\":\"Chinyere Jenkins v. Hashina Webster\",\"citations\":[\"78 F.3d 1270\",\"1996 WL 93837\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1996-03-06\",\"status\":\"Published\",\"cited_by\":32,\"url\":\"https://syfert.com/federal/circuits/cases/78-f-3d-1270/chinyere-jenkins-v-hashina-webster\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (3016481 and its twin 714846).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Chinyere Jenkins v. Hashina Webster, 78 F.3d 1270 (8th Cir. 1996)\",\"link_md\":\"[Chinyere Jenkins v. Hashina Webster, 78 F.3d 1270 (8th Cir. 1996)](https://syfert.com/federal/circuits/cases/78-f-3d-1270/chinyere-jenkins-v-hashina-webster)\",\"match_kind\":\"semantic\",\"similarity\":0.6122,\"twin_clusters\":[714846]},{\"cluster_id\":282242,\"case_name\":\"Robert L. Adams, Jr. v. Charles F. Mathews\",\"citations\":[\"403 F.2d 181\"],\"court\":\"Third Circuit\",\"date_filed\":\"1968-09-24\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/federal/circuits/cases/403-f-2d-181/robert-l-adams-jr-united-states-of-america\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Robert L. Adams, Jr. v. Charles F. Mathews, 403 F.2d 181 (3d Cir. 1968)\",\"link_md\":\"[Robert L. Adams, Jr. v. Charles F. Mathews, 403 F.2d 181 (3d Cir. 1968)](https://syfert.com/federal/circuits/cases/403-f-2d-181/robert-l-adams-jr-united-states-of-america)\",\"match_kind\":\"semantic\",\"similarity\":0.6117},{\"cluster_id\":4854741,\"case_name\":\"Walsh v. Isabella, Pet of: 325 S. 18th St.\",\"citations\":[],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2021-02-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/cl-4854741/walsh-v-isabella-pet-of-325-s-18th-st\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walsh v. Isabella, No. 79 EM 2020 (Pa. Feb. 8, 2021)\",\"link_md\":\"[Walsh v. Isabella, No. 79 EM 2020 (Pa. Feb. 8, 2021)](https://syfert.com/pennsylvania/cases/cl-4854741/walsh-v-isabella-pet-of-325-s-18th-st)\",\"match_kind\":\"semantic\",\"similarity\":0.6113},{\"cluster_id\":310328,\"case_name\":\"Dr. Ina Braden v. The University of Pittsburgh and Wesley W. Posvar\",\"citations\":[\"477 F.2d 1\"],\"court\":\"Third Circuit\",\"date_filed\":\"1973-04-11\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/477-f-2d-1/5-fair-emplpraccas-908-5-empl-prac-dec-p-8557-dr-ina-braden-on\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dr. Ina Braden v. Univ. of Pittsburgh & Wesley W. Posvar, 477 F.2d 1 (3d Cir. 1973)\",\"link_md\":\"[Dr. Ina Braden v. Univ. of Pittsburgh & Wesley W. Posvar, 477 F.2d 1 (3d Cir. 1973)](https://syfert.com/federal/circuits/cases/477-f-2d-1/5-fair-emplpraccas-908-5-empl-prac-dec-p-8557-dr-ina-braden-on)\",\"match_kind\":\"semantic\",\"similarity\":0.6112}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "PSHS w/15 \"352 So. 3d 28\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6484356,
+    "case_name": "PSP v. Psta",
+    "citations": [
+     "183 A.3d 513"
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "2018-01-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/183-a-3d-513/psp-v-psta",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "PSP v. Psta, 183 A.3d 513 (Pa. Commw. Ct. 2018)",
+    "link_md": "[PSP v. Psta, 183 A.3d 513 (Pa. Commw. Ct. 2018)](https://syfert.com/pennsylvania/cases/183-a-3d-513/psp-v-psta)",
+    "match_kind": "semantic",
+    "similarity": 0.6362
+   },
+   {
+    "cluster_id": 4386170,
+    "case_name": "APSCUF, Aplt. v. PSSHE",
+    "citations": [],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2017-04-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/cl-4386170/apscuf-aplt-v-psshe",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Apscuf v. Psshe, No. 10 MAP 2016 (Pa. Apr. 26, 2017)",
+    "link_md": "[Apscuf v. Psshe, No. 10 MAP 2016 (Pa. Apr. 26, 2017)](https://syfert.com/pennsylvania/cases/cl-4386170/apscuf-aplt-v-psshe)",
+    "match_kind": "semantic",
+    "similarity": 0.6328
+   },
+   {
+    "cluster_id": 9435274,
+    "case_name": "Walsh v. Isabella, of: 325 S. 18th St.",
+    "citations": [],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2023-10-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/cl-9435274/walsh-v-isabella-of-325-s-18th-st",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walsh v. Isabella, No. 48 EM 2023 (Pa. Oct. 25, 2023)",
+    "link_md": "[Walsh v. Isabella, No. 48 EM 2023 (Pa. Oct. 25, 2023)](https://syfert.com/pennsylvania/cases/cl-9435274/walsh-v-isabella-of-325-s-18th-st)",
+    "match_kind": "semantic",
+    "similarity": 0.6307
+   },
+   {
+    "cluster_id": 4091795,
+    "case_name": "Philadelphia Sch. Dist. v. B. A. Shrages Co.",
+    "citations": [
+     "9 A.2d 900",
+     "336 Pa. 433",
+     "1939 Pa. LEXIS 536"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1939-12-07",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/pennsylvania/cases/336-pa-433/philadelphia-sch-dist-v-b-a-shrages-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Philadelphia Sch. Dist. v. B. A. Shrages Co., 9 A.2d 900 (Pa. 1939)",
+    "link_md": "[Philadelphia Sch. Dist. v. B. A. Shrages Co., 9 A.2d 900 (Pa. 1939)](https://syfert.com/pennsylvania/cases/336-pa-433/philadelphia-sch-dist-v-b-a-shrages-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6216
+   },
+   {
+    "cluster_id": 488481,
+    "case_name": "Edwards v. U.S.P.S",
+    "citations": [
+     "818 F.2d 877"
+    ],
+    "court": "Federal Circuit",
+    "date_filed": "1987-03-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/818-f-2d-877/edwards-v-usps",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Edwards v. U.S.P.S, 818 F.2d 877 (Fed. Cir. 1987)",
+    "link_md": "[Edwards v. U.S.P.S, 818 F.2d 877 (Fed. Cir. 1987)](https://syfert.com/federal/circuits/cases/818-f-2d-877/edwards-v-usps)",
+    "match_kind": "semantic",
+    "similarity": 0.6209
+   },
+   {
+    "cluster_id": 2447708,
+    "case_name": "In Interest of Csh",
+    "citations": [
+     "6 A.3d 552"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2010-07-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/6-a-3d-552/in-interest-of-csh",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In Interest of Csh, 6 A.3d 552 (Pa. Super. Ct. 2010)",
+    "link_md": "[In Interest of Csh, 6 A.3d 552 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/6-a-3d-552/in-interest-of-csh)",
+    "match_kind": "semantic",
+    "similarity": 0.6176
+   },
+   {
+    "cluster_id": 752464,
+    "case_name": "G. Hugh Wamble v. Burt Helen M. Hardiman Odessa Hill Mae Bell Washington Dorothy H. McDonald Bernether MacKlin Frank Calcote Russel M. Bradly Walter A. Reed Robert G. Parsons, Jr.",
+    "citations": [
+     "139 F.3d 605"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1998-03-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/139-f-3d-605/g-hugh-wamble-verline-cobbins-alma-v-burt-helen-m-hardiman-odessa-hill",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "G. Hugh Wamble v. Burt Helen M. Hardiman Odessa Hill Mae Bell Washington Dorothy H. McDonald Bernether MacKlin Frank Calcote Russel M. Bradly Walter A. Reed Robert G. Parsons, Jr., 139 F.3d 605 (8th Cir. 1998)",
+    "link_md": "[G. Hugh Wamble v. Burt Helen M. Hardiman Odessa Hill Mae Bell Washington Dorothy H. McDonald Bernether MacKlin Frank Calcote Russel M. Bradly Walter A. Reed Robert G. Parsons, Jr., 139 F.3d 605 (8th Cir. 1998)](https://syfert.com/federal/circuits/cases/139-f-3d-605/g-hugh-wamble-verline-cobbins-alma-v-burt-helen-m-hardiman-odessa-hill)",
+    "match_kind": "semantic",
+    "similarity": 0.6173
+   },
+   {
+    "cluster_id": 6225460,
+    "case_name": "Markow-Brown v. Board of Education",
+    "citations": [
+     "301 A.D.2d 653",
+     "754 N.Y.S.2d 326",
+     "2003 N.Y. App. Div. LEXIS 619"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2003-01-27",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/301-a-d-2d-653/markow-brown-v-board-of-education",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Markow-Brown v. Bd. of Educ., 301 A.D.2d 653 (N.Y. App. Div. 2d Dep't 2003)",
+    "link_md": "[Markow-Brown v. Bd. of Educ., 301 A.D.2d 653 (N.Y. App. Div. 2d Dep't 2003)](https://syfert.com/new-york/cases/301-a-d-2d-653/markow-brown-v-board-of-education)",
+    "match_kind": "semantic",
+    "similarity": 0.6168
+   },
+   {
+    "cluster_id": 749349,
+    "case_name": "Chinyere Jenkins v. State of Missouri Mel Carnahan",
+    "citations": [
+     "131 F.3d 716",
+     "1997 U.S. App. LEXIS 33744"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1997-12-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/131-f-3d-716/chinyere-jenkins-by-her-next-friend-joi-jenkins-nicholas-paul",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Chinyere Jenkins v. State of Missouri Mel Carnahan, 131 F.3d 716 (8th Cir. 1997)",
+    "link_md": "[Chinyere Jenkins v. State of Missouri Mel Carnahan, 131 F.3d 716 (8th Cir. 1997)](https://syfert.com/federal/circuits/cases/131-f-3d-716/chinyere-jenkins-by-her-next-friend-joi-jenkins-nicholas-paul)",
+    "match_kind": "semantic",
+    "similarity": 0.6163
+   },
+   {
+    "cluster_id": 481922,
+    "case_name": "Williams v. U.S.P.S",
+    "citations": [
+     "809 F.2d 791"
+    ],
+    "court": "Federal Circuit",
+    "date_filed": "1986-12-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/809-f-2d-791/williams-v-usps",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Williams v. U.S.P.S, 809 F.2d 791 (Fed. Cir. 1986)",
+    "link_md": "[Williams v. U.S.P.S, 809 F.2d 791 (Fed. Cir. 1986)](https://syfert.com/federal/circuits/cases/809-f-2d-791/williams-v-usps)",
+    "match_kind": "semantic",
+    "similarity": 0.6161
+   },
+   {
+    "cluster_id": 6484647,
+    "case_name": "Williams v. PSP",
+    "citations": [
+     "184 A.3d 643"
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "2018-03-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/184-a-3d-643/williams-v-psp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Williams v. PSP, 184 A.3d 643 (Pa. Commw. Ct. 2018)",
+    "link_md": "[Williams v. PSP, 184 A.3d 643 (Pa. Commw. Ct. 2018)](https://syfert.com/pennsylvania/cases/184-a-3d-643/williams-v-psp)",
+    "match_kind": "semantic",
+    "similarity": 0.6157
+   },
+   {
+    "cluster_id": 142658,
+    "case_name": "Phillips v. Lansing School District",
+    "citations": [
+     "543 U.S. 1179",
+     "125 S. Ct. 1376"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2005-02-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-1179/phillips-v-lansing-school-district",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Phillips v. Lansing Sch. Dist., 543 U.S. 1179 (2005)",
+    "link_md": "[Phillips v. Lansing Sch. Dist., 543 U.S. 1179 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1179/phillips-v-lansing-school-district)",
+    "match_kind": "semantic",
+    "similarity": 0.6156
+   },
+   {
+    "cluster_id": 7068014,
+    "case_name": "KPS Management v. Eswini",
+    "citations": [
+     "196 Wash. App. 1015"
+    ],
+    "court": "Court of Appeals of Washington",
+    "date_filed": "2016-09-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/196-wash-app-1015/kps-management-v-eswini",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "KPS Mgmt. v. Eswini, 196 Wash. App. 1015 (Wash. Ct. App. 2016)",
+    "link_md": "[KPS Mgmt. v. Eswini, 196 Wash. App. 1015 (Wash. Ct. App. 2016)](https://syfert.com/washington/cases/196-wash-app-1015/kps-management-v-eswini)",
+    "match_kind": "semantic",
+    "similarity": 0.6151
+   },
+   {
+    "cluster_id": 488390,
+    "case_name": "Gonzalez v. U.S.P.S",
+    "citations": [
+     "818 F.2d 874"
+    ],
+    "court": "Federal Circuit",
+    "date_filed": "1987-02-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/818-f-2d-874/gonzalez-v-usps",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gonzalez v. U.S.P.S, 818 F.2d 874 (Fed. Cir. 1987)",
+    "link_md": "[Gonzalez v. U.S.P.S, 818 F.2d 874 (Fed. Cir. 1987)](https://syfert.com/federal/circuits/cases/818-f-2d-874/gonzalez-v-usps)",
+    "match_kind": "semantic",
+    "similarity": 0.6147
+   },
+   {
+    "cluster_id": 4854742,
+    "case_name": "Walsh v. Isabella, Pet of: 325 S. 18th St.",
+    "citations": [],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2021-02-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/cl-4854742/walsh-v-isabella-pet-of-325-s-18th-st",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walsh v. Isabella, No. 78 EM 2020 (Pa. Feb. 8, 2021)",
+    "link_md": "[Walsh v. Isabella, No. 78 EM 2020 (Pa. Feb. 8, 2021)](https://syfert.com/pennsylvania/cases/cl-4854742/walsh-v-isabella-pet-of-325-s-18th-st)",
+    "match_kind": "semantic",
+    "similarity": 0.6144
+   },
+   {
+    "cluster_id": 1849461,
+    "case_name": "Shirey v. City Board of Education of Fort Payne",
+    "citations": [
+     "94 So. 2d 758",
+     "266 Ala. 185",
+     "1957 Ala. LEXIS 405"
+    ],
+    "court": "Supreme Court of Alabama",
+    "date_filed": "1957-03-14",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/alabama/cases/266-ala-185/shirey-v-city-board-of-education-of-fort-payne",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Shirey v. City Bd. of Educ. of Fort Payne, 94 So. 2d 758 (Ala. 1957)",
+    "link_md": "[Shirey v. City Bd. of Educ. of Fort Payne, 94 So. 2d 758 (Ala. 1957)](https://syfert.com/alabama/cases/266-ala-185/shirey-v-city-board-of-education-of-fort-payne)",
+    "match_kind": "semantic",
+    "similarity": 0.6143
+   },
+   {
+    "cluster_id": 3016481,
+    "case_name": "Chinyere Jenkins v. Hashina Webster",
+    "citations": [
+     "78 F.3d 1270",
+     "1996 WL 93837"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1996-03-06",
+    "status": "Published",
+    "cited_by": 32,
+    "url": "https://syfert.com/federal/circuits/cases/78-f-3d-1270/chinyere-jenkins-v-hashina-webster",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (3016481 and its twin 714846).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Chinyere Jenkins v. Hashina Webster, 78 F.3d 1270 (8th Cir. 1996)",
+    "link_md": "[Chinyere Jenkins v. Hashina Webster, 78 F.3d 1270 (8th Cir. 1996)](https://syfert.com/federal/circuits/cases/78-f-3d-1270/chinyere-jenkins-v-hashina-webster)",
+    "match_kind": "semantic",
+    "similarity": 0.6122,
+    "twin_clusters": [
+     714846
+    ]
+   },
+   {
+    "cluster_id": 282242,
+    "case_name": "Robert L. Adams, Jr. v. Charles F. Mathews",
+    "citations": [
+     "403 F.2d 181"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1968-09-24",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/federal/circuits/cases/403-f-2d-181/robert-l-adams-jr-united-states-of-america",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Robert L. Adams, Jr. v. Charles F. Mathews, 403 F.2d 181 (3d Cir. 1968)",
+    "link_md": "[Robert L. Adams, Jr. v. Charles F. Mathews, 403 F.2d 181 (3d Cir. 1968)](https://syfert.com/federal/circuits/cases/403-f-2d-181/robert-l-adams-jr-united-states-of-america)",
+    "match_kind": "semantic",
+    "similarity": 0.6117
+   },
+   {
+    "cluster_id": 4854741,
+    "case_name": "Walsh v. Isabella, Pet of: 325 S. 18th St.",
+    "citations": [],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2021-02-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/cl-4854741/walsh-v-isabella-pet-of-325-s-18th-st",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walsh v. Isabella, No. 79 EM 2020 (Pa. Feb. 8, 2021)",
+    "link_md": "[Walsh v. Isabella, No. 79 EM 2020 (Pa. Feb. 8, 2021)](https://syfert.com/pennsylvania/cases/cl-4854741/walsh-v-isabella-pet-of-325-s-18th-st)",
+    "match_kind": "semantic",
+    "similarity": 0.6113
+   },
+   {
+    "cluster_id": 310328,
+    "case_name": "Dr. Ina Braden v. The University of Pittsburgh and Wesley W. Posvar",
+    "citations": [
+     "477 F.2d 1"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1973-04-11",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/477-f-2d-1/5-fair-emplpraccas-908-5-empl-prac-dec-p-8557-dr-ina-braden-on",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dr. Ina Braden v. Univ. of Pittsburgh & Wesley W. Posvar, 477 F.2d 1 (3d Cir. 1973)",
+    "link_md": "[Dr. Ina Braden v. Univ. of Pittsburgh & Wesley W. Posvar, 477 F.2d 1 (3d Cir. 1973)](https://syfert.com/federal/circuits/cases/477-f-2d-1/5-fair-emplpraccas-908-5-empl-prac-dec-p-8557-dr-ina-braden-on)",
+    "match_kind": "semantic",
+    "similarity": 0.6112
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

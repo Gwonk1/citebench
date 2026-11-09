@@ -1,0 +1,295 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "McCord w/15 \"39 N.W. 315\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"McCord w/15 \\\"39 N.W. 315\\\"\",\"total\":24,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10049709,\"bluebook\":\"Bartenwerfer v. Buckley, 598 U.S. 69 (2023)\",\"url\":\"https://syfert.com/federal/scotus/cases/598-u-s-69/bartenwerfer-v-buckley\",\"date_filed\":\"2023-02-22\",\"cited_by\":167,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (10049709 and its twin 9378411).\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...common law of fraud).\\nFor instance, courts have traditionally held principals liable\\nfor the frauds of their agents. McCord v. Western Union\\nTelegraph Co., 39 Minn. 181, 185 , 39 N. W. 315 , 317 (1888);\\nTome v. Parkersburg Branch R.…\",\"holding\":\"A debt obtained by fraud is nondischargeable under the Bankruptcy Code regardless of whether the debtor personally committed the fraudulent act.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":270972,\"bluebook\":\"United States v. Ridglea State Bank, 357 F.2d 495 (5th Cir. 1966)\",\"url\":\"https://syfert.com/federal/circuits/cases/357-f-2d-495/united-states-v-ridglea-state-bank-united-states-of-america-v-bank-of\",\"date_filed\":\"1966-03-14\",\"cited_by\":56,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":2},\"snippet\":\"...employer not only because the third party reasonably thought that the agent was acting for the employer, see McCord v. Western Union Telegraph Co., 39 Minn. 181 , 39 N.W. 315 (1888), and perhaps because the imposition of liability will…\",\"holding\":\"An agent's knowledge or guilty intent is not imputed to an employer under a statute requiring such intent if the agent does not act to benefit the employer.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\"},{\"cluster_id\":8011256,\"bluebook\":\"Dean v. St. Paul Union Depot Co., 43 N.W. 54 (Minn. 1889)\",\"url\":\"https://syfert.com/minnesota/cases/41-minn-360/dean-v-st-paul-union-depot-co\",\"date_filed\":\"1889-08-05\",\"cited_by\":23,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...in execution of it, and for purposes of his own, although the subject has been referred to in McCord v. Western Union Tel. Co., 39 Minn. 181 , ( 39 N. W. Rep. 315 ,) in which is mentioned, approvingly, the ease of Stewart v. Brooklyn &…\"},{\"cluster_id\":110708,\"bluebook\":\"Am. Soc'y of Mech. Engineers, Inc. v. Hydrolevel Corp., 456 U.S. 556 (1982)\",\"url\":\"https://syfert.com/federal/scotus/cases/456-u-s-556/american-society-of-mechanical-engineers-inc-v-hydrolevel-corp\",\"date_filed\":\"1982-06-28\",\"cited_by\":447,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":4},\"snippet\":\"...owed by it to its patrons, and that they would not knowingly send a false or forged message.” McCord v. Western Union Tel. Co., 39 Minn. 181, 185 , 39 N. W. 315 , 317 (1888). See, e. g., Bank of Batavia v. New York, L. E. & W. R. Co.,…\",\"holding\":\"A principal is liable under antitrust laws for the anticompetitive acts of an agent acting with apparent authority.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":3222818,\"bluebook\":\"Montgomery v. Chem. Nat. Bank of New York, 96 So. 898 (Ala. 1923)\",\"url\":\"https://syfert.com/alabama/cases/209-ala-585/montgomery-v-chemical-nat-bank-of-new-york\",\"date_filed\":\"1923-06-07\",\"cited_by\":10,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"SAYRE, J.\\nThe Chemical National Bank of New York filed this bill, averring in substance that, in pursuance of an agreement with the Merchants’ Bank of Montgomery, complainant accepted four drafts, aggregating $100,000, drawn against it by…\"},{\"cluster_id\":8226740,\"bluebook\":\"Firemen's Fund Ins. v. Schreiber, 135 N.W. 507 (Wis. 1912)\",\"url\":\"https://syfert.com/wisconsin/cases/150-wis-42/firemens-fund-insurance-v-schreiber\",\"date_filed\":\"1912-06-04\",\"cited_by\":37,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...180 ; McCord v. Western Union T. Co. 39 Minn. 181 , 39 N. W. 315 ; Pullman P. C. Co. v. Gavin, 93 Term. 53, 23 S. W. 70 ; Richherger v. Am. Exp. Co. 73 Miss. 161 , 18 South. 922 ; Jones v. Glass, 35 N. C. 305 .\\nIn the execution of his...\"},{\"cluster_id\":8206830,\"bluebook\":\"Greenough v. United States Life Ins., 117 A. 332 (Vt. 1922)\",\"url\":\"https://syfert.com/vermont/cases/96-vt-47/greenough-v-united-states-life-insurance\",\"date_filed\":\"1922-05-02\",\"cited_by\":13,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...280; McCord v. Telegraph Co., 39 Minn., 181 , 39 N. W. 315 , 1 L. R. A. 143, 12 A. S. R. 636; Bank of Palo Alto v. Pacific Postal Tel. Cable Co. (C. C.) 103 Fed. 841 .\\nThe test applied by this Court in Ploof v. Putnam, 83 Vt...\"},{\"cluster_id\":3534199,\"bluebook\":\"Melady v. South St. Paul Live Stock Exch., 171 N.W. 806 (Minn. 1919)\",\"url\":\"https://syfert.com/minnesota/cases/142-minn-194/melady-v-south-st-paul-live-stock-exchange\",\"date_filed\":\"1919-04-11\",\"cited_by\":22,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...When it is sought to hold a corporation for a tort, the doctrine- of\\nrespondeat superior applies. McCord v. Western Union Tel. Co. 39 Minn. 181 , 39 N. W. 315 , 1 L.R.A. 143 , 12 Am. St. 636; Minneapolis Trust Co. v. Menage, 73 Minn.…\"},{\"cluster_id\":8012761,\"bluebook\":\"Campbell v. N. Pac. R., 53 N.W. 768 (Minn. 1892)\",\"url\":\"https://syfert.com/minnesota/cases/51-minn-488/campbell-v-northern-pacific-r\",\"date_filed\":\"1892-12-05\",\"cited_by\":6,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...The case is quite different from that of an assault upon a patient in charge of the defendants, and to whom they owed the duty alleged, in which case the rule stated in McCord v. Western Union Tel. Co., 39 Minn. 181 , ( 39 N. W. Rep.…\"},{\"cluster_id\":8060395,\"bluebook\":\"Grisham v. W. Union Tel. Co., 142 S.W. 271 (Mo. 1911)\",\"url\":\"https://syfert.com/missouri/cases/238-mo-480/grisham-v-western-union-telegraph-co\",\"date_filed\":\"1911-12-19\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"FERRISS, J.\\nSuit for libel by plaintiffs, husband and wife, because of the sending over the wires of the defendant Telegraph Company, by its agent, in Lancaster, Schuyler county, Missouri, the following telegram, which it is claimed…\"},{\"cluster_id\":4214144,\"bluebook\":\"Buchanan v. Crites, 150 P.2d 100 (Utah 1944)\",\"url\":\"https://syfert.com/utah/cases/106-utah-428/buchanan-v-crites\",\"date_filed\":\"1944-07-03\",\"cited_by\":20,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...757 ;\\nMcCord\\nv.\\nWestern Union Tel. Co.,\\n39 Minn. 181 , 39 N. W. 315 , 317, 1 L. R. A. 143, 12 Am. St. Rep. 636 ).\\nWhile no cases directly in point have been cited in the briefs of either party, and I have been unable to find any, there…\"},{\"cluster_id\":6677950,\"bluebook\":\"Wise v. W. Union Tel. Co., 172 A. 757 (Del. Super. Ct. 1934)\",\"url\":\"https://syfert.com/delaware/cases/36-del-155/wise-v-western-union-telegraph-co\",\"date_filed\":\"1934-04-26\",\"cited_by\":4,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Actions by addressees where telegrams- were forged by the agents of the company have been sustained in McCord v. W. U. Tel. Co., 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A. 143, 12 Am. St. Rep. 636 ; Postal Tel. & Cable Co. v. Traders’ St.…\"},{\"cluster_id\":8775343,\"bluebook\":\"Bank of Havelock v. W. Union Tel. Co., 141 F. 522 (8th Cir. 1905)\",\"url\":\"https://syfert.com/federal/circuits/cases/141-f-522/bank-of-havelock-v-western-union-telegraph-co\",\"date_filed\":\"1905-11-16\",\"cited_by\":23,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...140 ; McCord v. Western Union Tel. Co., 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A. 143, 12 Am. St. Rep. 636 ; Pacific Postal, etc., Co. v. Bank of Palo Alto, 109 Fed. 369 , 48 C. C. A. 413 , 54 L. R. A. 711; May v. Western Union...\"},{\"cluster_id\":2208672,\"bluebook\":\"Miller v. Citizens Nat'l Trust & Sav. Bank, 36 P.2d 1088 (Cal. Ct. App. 1934)\",\"url\":\"https://syfert.com/california/cases/1-cal-app-2d-470/miller-v-citizens-national-trust-savings-bank\",\"date_filed\":\"1934-10-19\",\"cited_by\":8,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...negligently sent by him, is within the course of his employment.” Therein is also cited the case of\\nMcCord\\nv.\\nWestern Union Tel. Co.,\\n39 Minn. 181 [ 39 N. W. 315 , 317, 12 Am. St. Rep. 636 , 1 L. R. A. 143], where the Minnesota Supreme…\"},{\"cluster_id\":8758461,\"bluebook\":\"Bank of Palo Alto v. Pac. Postal Tel. Cable Co., 103 F. 841 (1900)\",\"url\":\"https://syfert.com/federal/circuits/cases/103-f-841/bank-of-palo-alto-v-pacific-postal-tel-cable-co\",\"date_filed\":\"1900-07-11\",\"cited_by\":5,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...280 ; McCord v. Telegraph Co., 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A. 143; and Elwood v. Telegraph Co., 45 N. Y. 549 , 6 Am. Rep. 140 . The first of these cases presents a state of facts very similar to those involved in the case at…\"},{\"cluster_id\":5770295,\"bluebook\":\"Jenkins v. Cobb, 170 S.E. 698 (Ga. Ct. App. 1933)\",\"url\":\"https://syfert.com/georgia/cases/47-ga-app-456/jenkins-v-cobb\",\"date_filed\":\"1933-08-26\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...S.) 104. “A telegraph company is liable for fraud and misfeasance in sending a false and fraudulent message to an addressee who acts thereon to his damage.” McCord v. Western Union Telegraph Co., 39 Minn. 181 ( 39 N. W. 315 , 1 L. R. A.…\"},{\"cluster_id\":8019274,\"bluebook\":\"Kwiechen v. Holmes & Hallowell Co., 118 N.W. 668 (Minn. 1908)\",\"url\":\"https://syfert.com/minnesota/cases/106-minn-148/kwiechen-v-holmes-hallowell-co\",\"date_filed\":\"1908-11-27\",\"cited_by\":8,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...The rule of law as it was established by this court before the decision of this case is the one generally in force in this country, and is well illustrated in McCord v. Western Union Tel. Co., 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A.…\"},{\"cluster_id\":8024819,\"bluebook\":\"Campbell v. Motion Picture Mach. Operators' Union, 186 N.W. 781 (Minn. 1922)\",\"url\":\"https://syfert.com/minnesota/cases/151-minn-220/campbell-v-motion-picture-machine-operators-union\",\"date_filed\":\"1922-01-27\",\"cited_by\":21,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...court disregarded, and in effect overruled upon the particular point under discussion, a prior decision of the court (McCord v. Western Union Tel. Co. 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A. 143, 12 Am. St. 636; 2 Notes on Minn.…\"},{\"cluster_id\":9996505,\"bluebook\":\"Indus. Dev. Auth. of the Town of Fr v. Poe, No. 21-01032 (Bankr. E.D. Va. July 5, 2023)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9996505/industrial-development-authority-of-the-town-of-fr-v-poe\",\"date_filed\":\"2023-07-05\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...common law of fraud).\\nFor instance, courts have traditionally held principals liable for the frauds of\\ntheir agents. McCord v. Western Union Telegraph Co., 39 Minn. 181, 185 , 39\\nN.W. 315 , 317 (1888); Tome v. Parkersburg Branch R. Co.,…\"},{\"cluster_id\":8011726,\"bluebook\":\"Nat'l Bank of Com. v. Chicago, Burlington & N. R.R., 46 N.W. 342 (Minn. 1890)\",\"url\":\"https://syfert.com/minnesota/cases/44-minn-224/national-bank-of-commerce-v-chicago-burlington-northern-railroad\",\"date_filed\":\"1890-08-06\",\"cited_by\":72,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...This rule this court in effect adopted and applied in McCord v. Western Union Telegraph Co., 39 Minn. 181 , ( 39 N. W. Rep. 315 , 318.) It is urged that force is added to this reasoning in view of the fact that bills of lading are…\",\"holding\":\"A carrier is not liable to an innocent indorsee for a bill of lading issued by its agent without the receipt of the goods.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "McCord w/15 \"39 N.W. 315\"",
+  "total": 24,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10049709,
+    "bluebook": "Bartenwerfer v. Buckley, 598 U.S. 69 (2023)",
+    "url": "https://syfert.com/federal/scotus/cases/598-u-s-69/bartenwerfer-v-buckley",
+    "date_filed": "2023-02-22",
+    "cited_by": 167,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (10049709 and its twin 9378411).",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...common law of fraud).\nFor instance, courts have traditionally held principals liable\nfor the frauds of their agents. McCord v. Western Union\nTelegraph Co., 39 Minn. 181, 185 , 39 N. W. 315 , 317 (1888);\nTome v. Parkersburg Branch R.…",
+    "holding": "A debt obtained by fraud is nondischargeable under the Bankruptcy Code regardless of whether the debtor personally committed the fraudulent act.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 270972,
+    "bluebook": "United States v. Ridglea State Bank, 357 F.2d 495 (5th Cir. 1966)",
+    "url": "https://syfert.com/federal/circuits/cases/357-f-2d-495/united-states-v-ridglea-state-bank-united-states-of-america-v-bank-of",
+    "date_filed": "1966-03-14",
+    "cited_by": 56,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 2
+    },
+    "snippet": "...employer not only because the third party reasonably thought that the agent was acting for the employer, see McCord v. Western Union Telegraph Co., 39 Minn. 181 , 39 N.W. 315 (1888), and perhaps because the imposition of liability will…",
+    "holding": "An agent's knowledge or guilty intent is not imputed to an employer under a statute requiring such intent if the agent does not act to benefit the employer.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 8011256,
+    "bluebook": "Dean v. St. Paul Union Depot Co., 43 N.W. 54 (Minn. 1889)",
+    "url": "https://syfert.com/minnesota/cases/41-minn-360/dean-v-st-paul-union-depot-co",
+    "date_filed": "1889-08-05",
+    "cited_by": 23,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...in execution of it, and for purposes of his own, although the subject has been referred to in McCord v. Western Union Tel. Co., 39 Minn. 181 , ( 39 N. W. Rep. 315 ,) in which is mentioned, approvingly, the ease of Stewart v. Brooklyn &…"
+   },
+   {
+    "cluster_id": 110708,
+    "bluebook": "Am. Soc'y of Mech. Engineers, Inc. v. Hydrolevel Corp., 456 U.S. 556 (1982)",
+    "url": "https://syfert.com/federal/scotus/cases/456-u-s-556/american-society-of-mechanical-engineers-inc-v-hydrolevel-corp",
+    "date_filed": "1982-06-28",
+    "cited_by": 447,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 4
+    },
+    "snippet": "...owed by it to its patrons, and that they would not knowingly send a false or forged message.” McCord v. Western Union Tel. Co., 39 Minn. 181, 185 , 39 N. W. 315 , 317 (1888). See, e. g., Bank of Batavia v. New York, L. E. & W. R. Co.,…",
+    "holding": "A principal is liable under antitrust laws for the anticompetitive acts of an agent acting with apparent authority.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 3222818,
+    "bluebook": "Montgomery v. Chem. Nat. Bank of New York, 96 So. 898 (Ala. 1923)",
+    "url": "https://syfert.com/alabama/cases/209-ala-585/montgomery-v-chemical-nat-bank-of-new-york",
+    "date_filed": "1923-06-07",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "SAYRE, J.\nThe Chemical National Bank of New York filed this bill, averring in substance that, in pursuance of an agreement with the Merchants’ Bank of Montgomery, complainant accepted four drafts, aggregating $100,000, drawn against it by…"
+   },
+   {
+    "cluster_id": 8226740,
+    "bluebook": "Firemen's Fund Ins. v. Schreiber, 135 N.W. 507 (Wis. 1912)",
+    "url": "https://syfert.com/wisconsin/cases/150-wis-42/firemens-fund-insurance-v-schreiber",
+    "date_filed": "1912-06-04",
+    "cited_by": 37,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...180 ; McCord v. Western Union T. Co. 39 Minn. 181 , 39 N. W. 315 ; Pullman P. C. Co. v. Gavin, 93 Term. 53, 23 S. W. 70 ; Richherger v. Am. Exp. Co. 73 Miss. 161 , 18 South. 922 ; Jones v. Glass, 35 N. C. 305 .\nIn the execution of his..."
+   },
+   {
+    "cluster_id": 8206830,
+    "bluebook": "Greenough v. United States Life Ins., 117 A. 332 (Vt. 1922)",
+    "url": "https://syfert.com/vermont/cases/96-vt-47/greenough-v-united-states-life-insurance",
+    "date_filed": "1922-05-02",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...280; McCord v. Telegraph Co., 39 Minn., 181 , 39 N. W. 315 , 1 L. R. A. 143, 12 A. S. R. 636; Bank of Palo Alto v. Pacific Postal Tel. Cable Co. (C. C.) 103 Fed. 841 .\nThe test applied by this Court in Ploof v. Putnam, 83 Vt..."
+   },
+   {
+    "cluster_id": 3534199,
+    "bluebook": "Melady v. South St. Paul Live Stock Exch., 171 N.W. 806 (Minn. 1919)",
+    "url": "https://syfert.com/minnesota/cases/142-minn-194/melady-v-south-st-paul-live-stock-exchange",
+    "date_filed": "1919-04-11",
+    "cited_by": 22,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...When it is sought to hold a corporation for a tort, the doctrine- of\nrespondeat superior applies. McCord v. Western Union Tel. Co. 39 Minn. 181 , 39 N. W. 315 , 1 L.R.A. 143 , 12 Am. St. 636; Minneapolis Trust Co. v. Menage, 73 Minn.…"
+   },
+   {
+    "cluster_id": 8012761,
+    "bluebook": "Campbell v. N. Pac. R., 53 N.W. 768 (Minn. 1892)",
+    "url": "https://syfert.com/minnesota/cases/51-minn-488/campbell-v-northern-pacific-r",
+    "date_filed": "1892-12-05",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The case is quite different from that of an assault upon a patient in charge of the defendants, and to whom they owed the duty alleged, in which case the rule stated in McCord v. Western Union Tel. Co., 39 Minn. 181 , ( 39 N. W. Rep.…"
+   },
+   {
+    "cluster_id": 8060395,
+    "bluebook": "Grisham v. W. Union Tel. Co., 142 S.W. 271 (Mo. 1911)",
+    "url": "https://syfert.com/missouri/cases/238-mo-480/grisham-v-western-union-telegraph-co",
+    "date_filed": "1911-12-19",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "FERRISS, J.\nSuit for libel by plaintiffs, husband and wife, because of the sending over the wires of the defendant Telegraph Company, by its agent, in Lancaster, Schuyler county, Missouri, the following telegram, which it is claimed…"
+   },
+   {
+    "cluster_id": 4214144,
+    "bluebook": "Buchanan v. Crites, 150 P.2d 100 (Utah 1944)",
+    "url": "https://syfert.com/utah/cases/106-utah-428/buchanan-v-crites",
+    "date_filed": "1944-07-03",
+    "cited_by": 20,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...757 ;\nMcCord\nv.\nWestern Union Tel. Co.,\n39 Minn. 181 , 39 N. W. 315 , 317, 1 L. R. A. 143, 12 Am. St. Rep. 636 ).\nWhile no cases directly in point have been cited in the briefs of either party, and I have been unable to find any, there…"
+   },
+   {
+    "cluster_id": 6677950,
+    "bluebook": "Wise v. W. Union Tel. Co., 172 A. 757 (Del. Super. Ct. 1934)",
+    "url": "https://syfert.com/delaware/cases/36-del-155/wise-v-western-union-telegraph-co",
+    "date_filed": "1934-04-26",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Actions by addressees where telegrams- were forged by the agents of the company have been sustained in McCord v. W. U. Tel. Co., 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A. 143, 12 Am. St. Rep. 636 ; Postal Tel. & Cable Co. v. Traders’ St.…"
+   },
+   {
+    "cluster_id": 8775343,
+    "bluebook": "Bank of Havelock v. W. Union Tel. Co., 141 F. 522 (8th Cir. 1905)",
+    "url": "https://syfert.com/federal/circuits/cases/141-f-522/bank-of-havelock-v-western-union-telegraph-co",
+    "date_filed": "1905-11-16",
+    "cited_by": 23,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...140 ; McCord v. Western Union Tel. Co., 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A. 143, 12 Am. St. Rep. 636 ; Pacific Postal, etc., Co. v. Bank of Palo Alto, 109 Fed. 369 , 48 C. C. A. 413 , 54 L. R. A. 711; May v. Western Union..."
+   },
+   {
+    "cluster_id": 2208672,
+    "bluebook": "Miller v. Citizens Nat'l Trust & Sav. Bank, 36 P.2d 1088 (Cal. Ct. App. 1934)",
+    "url": "https://syfert.com/california/cases/1-cal-app-2d-470/miller-v-citizens-national-trust-savings-bank",
+    "date_filed": "1934-10-19",
+    "cited_by": 8,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...negligently sent by him, is within the course of his employment.” Therein is also cited the case of\nMcCord\nv.\nWestern Union Tel. Co.,\n39 Minn. 181 [ 39 N. W. 315 , 317, 12 Am. St. Rep. 636 , 1 L. R. A. 143], where the Minnesota Supreme…"
+   },
+   {
+    "cluster_id": 8758461,
+    "bluebook": "Bank of Palo Alto v. Pac. Postal Tel. Cable Co., 103 F. 841 (1900)",
+    "url": "https://syfert.com/federal/circuits/cases/103-f-841/bank-of-palo-alto-v-pacific-postal-tel-cable-co",
+    "date_filed": "1900-07-11",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...280 ; McCord v. Telegraph Co., 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A. 143; and Elwood v. Telegraph Co., 45 N. Y. 549 , 6 Am. Rep. 140 . The first of these cases presents a state of facts very similar to those involved in the case at…"
+   },
+   {
+    "cluster_id": 5770295,
+    "bluebook": "Jenkins v. Cobb, 170 S.E. 698 (Ga. Ct. App. 1933)",
+    "url": "https://syfert.com/georgia/cases/47-ga-app-456/jenkins-v-cobb",
+    "date_filed": "1933-08-26",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...S.) 104. “A telegraph company is liable for fraud and misfeasance in sending a false and fraudulent message to an addressee who acts thereon to his damage.” McCord v. Western Union Telegraph Co., 39 Minn. 181 ( 39 N. W. 315 , 1 L. R. A.…"
+   },
+   {
+    "cluster_id": 8019274,
+    "bluebook": "Kwiechen v. Holmes & Hallowell Co., 118 N.W. 668 (Minn. 1908)",
+    "url": "https://syfert.com/minnesota/cases/106-minn-148/kwiechen-v-holmes-hallowell-co",
+    "date_filed": "1908-11-27",
+    "cited_by": 8,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The rule of law as it was established by this court before the decision of this case is the one generally in force in this country, and is well illustrated in McCord v. Western Union Tel. Co., 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A.…"
+   },
+   {
+    "cluster_id": 8024819,
+    "bluebook": "Campbell v. Motion Picture Mach. Operators' Union, 186 N.W. 781 (Minn. 1922)",
+    "url": "https://syfert.com/minnesota/cases/151-minn-220/campbell-v-motion-picture-machine-operators-union",
+    "date_filed": "1922-01-27",
+    "cited_by": 21,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...court disregarded, and in effect overruled upon the particular point under discussion, a prior decision of the court (McCord v. Western Union Tel. Co. 39 Minn. 181 , 39 N. W. 315 , 1 L. R. A. 143, 12 Am. St. 636; 2 Notes on Minn.…"
+   },
+   {
+    "cluster_id": 9996505,
+    "bluebook": "Indus. Dev. Auth. of the Town of Fr v. Poe, No. 21-01032 (Bankr. E.D. Va. July 5, 2023)",
+    "url": "https://syfert.com/federal/district/cases/cl-9996505/industrial-development-authority-of-the-town-of-fr-v-poe",
+    "date_filed": "2023-07-05",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...common law of fraud).\nFor instance, courts have traditionally held principals liable for the frauds of\ntheir agents. McCord v. Western Union Telegraph Co., 39 Minn. 181, 185 , 39\nN.W. 315 , 317 (1888); Tome v. Parkersburg Branch R. Co.,…"
+   },
+   {
+    "cluster_id": 8011726,
+    "bluebook": "Nat'l Bank of Com. v. Chicago, Burlington & N. R.R., 46 N.W. 342 (Minn. 1890)",
+    "url": "https://syfert.com/minnesota/cases/44-minn-224/national-bank-of-commerce-v-chicago-burlington-northern-railroad",
+    "date_filed": "1890-08-06",
+    "cited_by": 72,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...This rule this court in effect adopted and applied in McCord v. Western Union Telegraph Co., 39 Minn. 181 , ( 39 N. W. Rep. 315 , 318.) It is urged that force is added to this reasoning in view of the fact that bills of lading are…",
+    "holding": "A carrier is not liable to an innocent indorsee for a bill of lading issued by its agent without the receipt of the goods.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

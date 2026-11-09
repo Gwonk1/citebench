@@ -1,0 +1,175 @@
+{
+ "id": "pg-s-se2-1",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 116."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"party_mismatch\": 1,\n        \"likely_misprint\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.\",\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"246 S.E.2d 116\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"problem\": \"Likely misprint, not a fabricated case: The page is off by one digit (the second): the citation prints 116, the case is at 176. Kennedy v. Custom Ice Equipment Co., Inc. is reported at 246 S.E.2d 176 (same volume 246 of S.E.2d). It was decided 1978-07-24, within the years volume 246 of S.E.2d covers (1978-1978), and the name given names that case. The citation as printed (246 S.E.2d 116) is wrong; cite 246 S.E.2d 176.\",\n            \"replace_with\": \"Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)\",\n            \"fix\": {\n                \"from\": \"246 S.E.2d 116\",\n                \"to\": \"246 S.E.2d 176\"\n            },\n            \"suggested\": \"Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)\",\n            \"did_you_mean\": \"Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)\",\n            \"misprint\": {\n                \"printed\": \"246 S.E.2d 116\",\n                \"real\": \"246 S.E.2d 176\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 1225473,\n                \"case_name\": \"Kennedy v. Custom Ice Equipment Co., Inc.\",\n                \"bluebook\": \"Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)\",\n                \"cite_as\": \"Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)\",\n                \"date_filed\": \"1978-07-24\",\n                \"url\": \"https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc\",\n                \"link_md\": \"[Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)](https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc)\",\n                \"note\": \"The page is off by one digit (the second): the citation prints 116, the case is at 176. Kennedy v. Custom Ice Equipment Co., Inc. is reported at 246 S.E.2d 176 (same volume 246 of S.E.2d). It was decided 1978-07-24, within the years volume 246 of S.E.2d covers (1978-1978), and the name given names that case. The citation as printed (246 S.E.2d 116) is wrong; cite 246 S.E.2d 176.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"case\": {\n                \"cluster_id\": 1225473,\n                \"case_name\": \"Kennedy v. Custom Ice Equipment Co., Inc.\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"246 S.E.2d 116\",\n            \"volume\": \"246\",\n            \"reporter\": \"S.E.2d\",\n            \"page\": \"116\",\n            \"pin\": null,\n            \"cluster_id\": 1225528,\n            \"case\": {\n                \"case_name\": \"DeKalb County Bank v. Haldi\",\n                \"case_name_short\": \"Haldi\",\n                \"date_filed\": \"1978-05-03\",\n                \"court_id\": \"gactapp\",\n                \"docket_number\": \"55418\",\n                \"citation_count\": 6,\n                \"court_label\": \"Ga. Ct. App.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 1.697,\n                \"total_events\": 12,\n                \"distinct_courts\": 5,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Bobbitt v. Firestone Tire & Rubber Company\",\n                \"top_pos_court\": \"gactapp\",\n                \"top_pos_date\": \"1981-05-19\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Kennedy\",\n                \"rhs\": \"Custom Ice Equipment Co., Inc.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Kennedy\",\n                    \"rhs\": \"Custom Ice Equipment Co., Inc.\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"DeKalb County Bank v. Haldi\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/georgia/cases/146-ga-app-257/dekalb-county-bank-v-haldi\",\n            \"link_md\": \"[DeKalb County Bank v. Haldi](https://syfert.com/georgia/cases/146-ga-app-257/dekalb-county-bank-v-haldi)\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"misprint\": {\n                \"printed\": \"246 S.E.2d 116\",\n                \"real\": \"246 S.E.2d 176\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 1225473,\n                \"case_name\": \"Kennedy v. Custom Ice Equipment Co., Inc.\",\n                \"bluebook\": \"Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)\",\n                \"cite_as\": \"Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)\",\n                \"date_filed\": \"1978-07-24\",\n                \"url\": \"https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc\",\n                \"link_md\": \"[Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)](https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc)\",\n                \"note\": \"The page is off by one digit (the second): the citation prints 116, the case is at 176. Kennedy v. Custom Ice Equipment Co., Inc. is reported at 246 S.E.2d 176 (same volume 246 of S.E.2d). It was decided 1978-07-24, within the years volume 246 of S.E.2d covers (1978-1978), and the name given names that case. The citation as printed (246 S.E.2d 116) is wrong; cite 246 S.E.2d 176.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"suggested_citation\": {\n                \"cluster_id\": 1225473,\n                \"case_name\": \"Kennedy v. Custom Ice Equipment Co., Inc.\",\n                \"citation\": \"246 S.E.2d 176\",\n                \"bluebook\": \"Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)\",\n                \"cite_as\": \"Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)\",\n                \"date_filed\": \"1978-07-24\",\n                \"url\": \"https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc\",\n                \"link_md\": \"[Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)](https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc)\"\n            },\n            \"unindexed_advice\": \"Likely misprint: The page is off by one digit (the second): the citation prints 116, the case is at 176. Kennedy v. Custom Ice Equipment Co., Inc. is reported at 246 S.E.2d 176 (same volume 246 of S.E.2d). It was decided 1978-07-24, within the years volume 246 of S.E.2d covers (1978-1978), and the name given names that case. The citation as printed (246 S.E.2d 116) is wrong; cite 246 S.E.2d 176.\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "party_mismatch": 1,
+     "likely_misprint": 1
+    },
+    "warnings": [
+     "1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.",
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "246 S.E.2d 116",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "problem": "Likely misprint, not a fabricated case: The page is off by one digit (the second): the citation prints 116, the case is at 176. Kennedy v. Custom Ice Equipment Co., Inc. is reported at 246 S.E.2d 176 (same volume 246 of S.E.2d). It was decided 1978-07-24, within the years volume 246 of S.E.2d covers (1978-1978), and the name given names that case. The citation as printed (246 S.E.2d 116) is wrong; cite 246 S.E.2d 176.",
+      "replace_with": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)",
+      "fix": {
+       "from": "246 S.E.2d 116",
+       "to": "246 S.E.2d 176"
+      },
+      "suggested": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)",
+      "did_you_mean": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)",
+      "misprint": {
+       "printed": "246 S.E.2d 116",
+       "real": "246 S.E.2d 176",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 1225473,
+       "case_name": "Kennedy v. Custom Ice Equipment Co., Inc.",
+       "bluebook": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)",
+       "cite_as": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)",
+       "date_filed": "1978-07-24",
+       "url": "https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc",
+       "link_md": "[Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)](https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc)",
+       "note": "The page is off by one digit (the second): the citation prints 116, the case is at 176. Kennedy v. Custom Ice Equipment Co., Inc. is reported at 246 S.E.2d 176 (same volume 246 of S.E.2d). It was decided 1978-07-24, within the years volume 246 of S.E.2d covers (1978-1978), and the name given names that case. The citation as printed (246 S.E.2d 116) is wrong; cite 246 S.E.2d 176.",
+       "via": [
+        "name"
+       ]
+      },
+      "case": {
+       "cluster_id": 1225473,
+       "case_name": "Kennedy v. Custom Ice Equipment Co., Inc."
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "246 S.E.2d 116",
+      "volume": "246",
+      "reporter": "S.E.2d",
+      "page": "116",
+      "pin": null,
+      "cluster_id": 1225528,
+      "case": {
+       "case_name": "DeKalb County Bank v. Haldi",
+       "case_name_short": "Haldi",
+       "date_filed": "1978-05-03",
+       "court_id": "gactapp",
+       "docket_number": "55418",
+       "citation_count": 6,
+       "court_label": "Ga. Ct. App."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 1.697,
+       "total_events": 12,
+       "distinct_courts": 5,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Bobbitt v. Firestone Tire & Rubber Company",
+       "top_pos_court": "gactapp",
+       "top_pos_date": "1981-05-19",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Kennedy",
+       "rhs": "Custom Ice Equipment Co., Inc."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Kennedy",
+        "rhs": "Custom Ice Equipment Co., Inc."
+       },
+       "verdict": "mismatch",
+       "resolved_name": "DeKalb County Bank v. Haldi"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/georgia/cases/146-ga-app-257/dekalb-county-bank-v-haldi",
+      "link_md": "[DeKalb County Bank v. Haldi](https://syfert.com/georgia/cases/146-ga-app-257/dekalb-county-bank-v-haldi)",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "misprint": {
+       "printed": "246 S.E.2d 116",
+       "real": "246 S.E.2d 176",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 1225473,
+       "case_name": "Kennedy v. Custom Ice Equipment Co., Inc.",
+       "bluebook": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)",
+       "cite_as": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)",
+       "date_filed": "1978-07-24",
+       "url": "https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc",
+       "link_md": "[Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)](https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc)",
+       "note": "The page is off by one digit (the second): the citation prints 116, the case is at 176. Kennedy v. Custom Ice Equipment Co., Inc. is reported at 246 S.E.2d 176 (same volume 246 of S.E.2d). It was decided 1978-07-24, within the years volume 246 of S.E.2d covers (1978-1978), and the name given names that case. The citation as printed (246 S.E.2d 116) is wrong; cite 246 S.E.2d 176.",
+       "via": [
+        "name"
+       ]
+      },
+      "suggested_citation": {
+       "cluster_id": 1225473,
+       "case_name": "Kennedy v. Custom Ice Equipment Co., Inc.",
+       "citation": "246 S.E.2d 176",
+       "bluebook": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)",
+       "cite_as": "Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)",
+       "date_filed": "1978-07-24",
+       "url": "https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc",
+       "link_md": "[Kennedy v. Custom Ice Equipment Co., Inc., 246 S.E.2d 176 (S.C. 1978)](https://syfert.com/south-carolina/cases/271-s-c-171/kennedy-v-custom-ice-equipment-co-inc)"
+      },
+      "unindexed_advice": "Likely misprint: The page is off by one digit (the second): the citation prints 116, the case is at 176. Kennedy v. Custom Ice Equipment Co., Inc. is reported at 246 S.E.2d 176 (same volume 246 of S.E.2d). It was decided 1978-07-24, within the years volume 246 of S.E.2d covers (1978-1978), and the name given names that case. The citation as printed (246 S.E.2d 116) is wrong; cite 246 S.E.2d 176."
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

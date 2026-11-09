@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "143 N.E. 256",
+  "expected_case_name": "People v. . Kupperschmidt"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"143 N.E. 256\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3621969,\n            \"case_name\": \"People v. . Kupperschmidt\",\n            \"citations\": [\n                \"143 N.E. 256\"\n            ],\n            \"court\": \"New York Court of Appeals\",\n            \"date_filed\": \"1924-02-26\",\n            \"status\": \"Published\",\n            \"cited_by\": 27,\n            \"url\": \"https://syfert.com/new-york/cases/237-n-y-463/people-v-kupperschmidt\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Kupperschmidt, 143 N.E. 256 (N.Y. 1924)\",\n            \"link_md\": \"[People v. Kupperschmidt, 143 N.E. 256 (N.Y. 1924)](https://syfert.com/new-york/cases/237-n-y-463/people-v-kupperschmidt)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. . Kupperschmidt\",\n        \"actual\": \"People v. . Kupperschmidt\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "143 N.E. 256",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3621969,
+    "case_name": "People v. . Kupperschmidt",
+    "citations": [
+     "143 N.E. 256"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1924-02-26",
+    "status": "Published",
+    "cited_by": 27,
+    "url": "https://syfert.com/new-york/cases/237-n-y-463/people-v-kupperschmidt",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Kupperschmidt, 143 N.E. 256 (N.Y. 1924)",
+    "link_md": "[People v. Kupperschmidt, 143 N.E. 256 (N.Y. 1924)](https://syfert.com/new-york/cases/237-n-y-463/people-v-kupperschmidt)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. . Kupperschmidt",
+   "actual": "People v. . Kupperschmidt",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

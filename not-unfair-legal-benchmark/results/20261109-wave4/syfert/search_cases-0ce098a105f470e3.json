@@ -1,0 +1,31 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Wilson w/15 \"222 A.3d 1130\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Wilson w/15 \\\"222 A.3d 1130\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6475491,\"bluebook\":\"Com. v. Wilson, S., No. 729 WDA 2021 (Pa. Super. Ct. June 7, 2022)\",\"url\":\"https://syfert.com/pennsylvania/cases/cl-6475491/com-v-wilson-s\",\"date_filed\":\"2022-06-07\",\"cited_by\":0,\"status\":\"Unpublished\",\"snippet\":\"...filed July 30, 2019), appeal denied, 222 A.3d 1130 (Pa. 2020).\\nWilson, pro se, filed a timely PCRA petition. The PCRA court appointed\\nWilson counsel, who filed a supplemental petition. In the petitions, Wilson\\nraised various ineffective…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Wilson w/15 \"222 A.3d 1130\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6475491,
+    "bluebook": "Com. v. Wilson, S., No. 729 WDA 2021 (Pa. Super. Ct. June 7, 2022)",
+    "url": "https://syfert.com/pennsylvania/cases/cl-6475491/com-v-wilson-s",
+    "date_filed": "2022-06-07",
+    "cited_by": 0,
+    "status": "Unpublished",
+    "snippet": "...filed July 30, 2019), appeal denied, 222 A.3d 1130 (Pa. 2020).\nWilson, pro se, filed a timely PCRA petition. The PCRA court appointed\nWilson counsel, who filed a supplemental petition. In the petitions, Wilson\nraised various ineffective…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

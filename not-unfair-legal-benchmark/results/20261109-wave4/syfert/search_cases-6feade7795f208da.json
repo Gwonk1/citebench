@@ -1,0 +1,399 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Arnold w/15 \"82 P. 262\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Arnold w/15 \\\"82 P. 262\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1948590,\"case_name\":\"Arnold v. Arnold\",\"citations\":[\"954 A.2d 30\",\"2008 Pa. Super. LEXIS 2119\",\"2008 WL 3830758\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2008-05-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/954-a-2d-30/arnold-v-arnold\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. Arnold, 954 A.2d 30 (Pa. Super. Ct. 2008)\",\"link_md\":\"[Arnold v. Arnold, 954 A.2d 30 (Pa. Super. Ct. 2008)](https://syfert.com/pennsylvania/cases/954-a-2d-30/arnold-v-arnold)\",\"match_kind\":\"semantic\",\"similarity\":0.7482},{\"cluster_id\":324285,\"case_name\":\"Arnold v. United States\",\"citations\":[\"508 F.2d 843\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1974-12-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/508-f-2d-843/arnold-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. United States, 508 F.2d 843 (6th Cir. 1974)\",\"link_md\":\"[Arnold v. United States, 508 F.2d 843 (6th Cir. 1974)](https://syfert.com/federal/circuits/cases/508-f-2d-843/arnold-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7334},{\"cluster_id\":554714,\"case_name\":\"Arnold (Keithian L.) v. Germania\",\"citations\":[\"923 F.2d 860\",\"1990 U.S. App. LEXIS 23112\",\"1990 WL 252998\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1990-11-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/923-f-2d-860/arnold-keithian-l-v-germania\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold (Keithian L.) v. Germania, 923 F.2d 860 (8th Cir. 1990)\",\"link_md\":\"[Arnold (Keithian L.) v. Germania, 923 F.2d 860 (8th Cir. 1990)](https://syfert.com/federal/circuits/cases/923-f-2d-860/arnold-keithian-l-v-germania)\",\"match_kind\":\"semantic\",\"similarity\":0.6976},{\"cluster_id\":429874,\"case_name\":\"Arnold (Dale Richard) v. Fairchild (Thomas)\",\"citations\":[\"725 F.2d 666\"],\"court\":\"Third Circuit\",\"date_filed\":\"1983-12-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/725-f-2d-666/arnold-dale-richard-v-fairchild-thomas\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold (Dale Richard) v. Fairchild (Thomas), 725 F.2d 666 (3d Cir. 1983)\",\"link_md\":\"[Arnold (Dale Richard) v. Fairchild (Thomas), 725 F.2d 666 (3d Cir. 1983)](https://syfert.com/federal/circuits/cases/725-f-2d-666/arnold-dale-richard-v-fairchild-thomas)\",\"match_kind\":\"semantic\",\"similarity\":0.6974},{\"cluster_id\":2320551,\"case_name\":\"Arnold v. United States\",\"citations\":[\"28 A.3d 609\",\"2011 WL 4889103\"],\"court\":\"District of Columbia Court of Appeals\",\"date_filed\":\"2011-09-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/district-of-columbia/cases/28-a-3d-609/arnold-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. United States, 28 A.3d 609 (D.C. 2011)\",\"link_md\":\"[Arnold v. United States, 28 A.3d 609 (D.C. 2011)](https://syfert.com/district-of-columbia/cases/28-a-3d-609/arnold-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6956},{\"cluster_id\":354824,\"case_name\":\"Arnold v. State of North Carolina\",\"citations\":[\"573 F.2d 1304\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1978-04-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/573-f-2d-1304/arnold-v-state-of-north-carolina\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. State of North Carolina, 573 F.2d 1304 (4th Cir. 1978)\",\"link_md\":\"[Arnold v. State of North Carolina, 573 F.2d 1304 (4th Cir. 1978)](https://syfert.com/federal/circuits/cases/573-f-2d-1304/arnold-v-state-of-north-carolina)\",\"match_kind\":\"semantic\",\"similarity\":0.6943},{\"cluster_id\":587935,\"case_name\":\"Arnold (Jeffrey L.) v. Gunter (Jim)\",\"citations\":[\"971 F.2d 752\",\"1992 U.S. App. LEXIS 8337\",\"1992 WL 181584\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1992-02-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/971-f-2d-752/arnold-jeffrey-l-v-gunter-jim\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold (Jeffrey L.) v. Gunter (Jim), 971 F.2d 752 (8th Cir. 1992)\",\"link_md\":\"[Arnold (Jeffrey L.) v. Gunter (Jim), 971 F.2d 752 (8th Cir. 1992)](https://syfert.com/federal/circuits/cases/971-f-2d-752/arnold-jeffrey-l-v-gunter-jim)\",\"match_kind\":\"semantic\",\"similarity\":0.6829},{\"cluster_id\":387715,\"case_name\":\"Arnold v. Jago\",\"citations\":[\"642 F.2d 450\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1980-12-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/642-f-2d-450/arnold-v-jago\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. Jago, 642 F.2d 450 (6th Cir. 1980)\",\"link_md\":\"[Arnold v. Jago, 642 F.2d 450 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/642-f-2d-450/arnold-v-jago)\",\"match_kind\":\"semantic\",\"similarity\":0.6759},{\"cluster_id\":457985,\"case_name\":\"Arnold v. Heckler\",\"citations\":[\"772 F.2d 893\"],\"court\":\"Third Circuit\",\"date_filed\":\"1985-08-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/772-f-2d-893/arnold-v-heckler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. Heckler, 772 F.2d 893 (3d Cir. 1985)\",\"link_md\":\"[Arnold v. Heckler, 772 F.2d 893 (3d Cir. 1985)](https://syfert.com/federal/circuits/cases/772-f-2d-893/arnold-v-heckler)\",\"match_kind\":\"semantic\",\"similarity\":0.6733},{\"cluster_id\":310680,\"case_name\":\"Arnold v. Buffat\",\"citations\":[\"477 F.2d 599\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1973-05-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/477-f-2d-599/arnold-v-buffat\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. Buffat, 477 F.2d 599 (6th Cir. 1973)\",\"link_md\":\"[Arnold v. Buffat, 477 F.2d 599 (6th Cir. 1973)](https://syfert.com/federal/circuits/cases/477-f-2d-599/arnold-v-buffat)\",\"match_kind\":\"semantic\",\"similarity\":0.6731},{\"cluster_id\":527483,\"case_name\":\"Barton V. Arnold v. Malone\",\"citations\":[\"881 F.2d 1082\",\"1989 U.S. App. LEXIS 11631\",\"1989 WL 87990\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1989-06-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/881-f-2d-1082/barton-v-arnold-v-malone\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barton V. Arnold v. Malone, 881 F.2d 1082 (8th Cir. 1989)\",\"link_md\":\"[Barton V. Arnold v. Malone, 881 F.2d 1082 (8th Cir. 1989)](https://syfert.com/federal/circuits/cases/881-f-2d-1082/barton-v-arnold-v-malone)\",\"match_kind\":\"semantic\",\"similarity\":0.6714},{\"cluster_id\":1412227,\"case_name\":\"State v. Arnold\",\"citations\":[\"661 S.E.2d 56\"],\"court\":\"Court of Appeals of North Carolina\",\"date_filed\":\"2008-05-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/661-s-e-2d-56/state-v-arnold\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Arnold, 661 S.E.2d 56 (N.C. Ct. App. 2008)\",\"link_md\":\"[State v. Arnold, 661 S.E.2d 56 (N.C. Ct. App. 2008)](https://syfert.com/north-carolina/cases/661-s-e-2d-56/state-v-arnold)\",\"match_kind\":\"semantic\",\"similarity\":0.6705},{\"cluster_id\":115532,\"case_name\":\"Arnold, AKA Ahmad v. Leonard, Ante, P. 866\",\"citations\":[\"510 U.S. 1005\",\"114 S. Ct. 587\"],\"court\":\"Supreme Court\",\"date_filed\":\"1993-11-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/510-u-s-1005/arnold-aka-ahmad-v-leonard-ante-p-866\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. Leonard, Ante, P. 866, 510 U.S. 1005 (1993)\",\"link_md\":\"[Arnold v. Leonard, Ante, P. 866, 510 U.S. 1005 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-1005/arnold-aka-ahmad-v-leonard-ante-p-866)\",\"match_kind\":\"semantic\",\"similarity\":0.6703},{\"cluster_id\":5634489,\"case_name\":\"People ex rel. Arnold v. Feitner\",\"citations\":[\"176 N.Y. 562\",\"68 N.E. 1120\",\"1903 N.Y. LEXIS 871\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1903-10-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/176-n-y-562/people-ex-rel-arnold-v-feitner\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Arnold v. Feitner, 176 N.Y. 562 (1903)\",\"link_md\":\"[People ex rel. Arnold v. Feitner, 176 N.Y. 562 (1903)](https://syfert.com/new-york/cases/176-n-y-562/people-ex-rel-arnold-v-feitner)\",\"match_kind\":\"semantic\",\"similarity\":0.6639},{\"cluster_id\":394414,\"case_name\":\"Jordan v. Arnold\",\"citations\":[\"659 F.2d 1068\"],\"court\":\"Third Circuit\",\"date_filed\":\"1981-04-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/659-f-2d-1068/jordan-v-arnold\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jordan v. Arnold, 659 F.2d 1068 (3d Cir. 1981)\",\"link_md\":\"[Jordan v. Arnold, 659 F.2d 1068 (3d Cir. 1981)](https://syfert.com/federal/circuits/cases/659-f-2d-1068/jordan-v-arnold)\",\"match_kind\":\"semantic\",\"similarity\":0.6608},{\"cluster_id\":382398,\"case_name\":\"Jordan v. Arnold\",\"citations\":[\"631 F.2d 725\"],\"court\":\"Third Circuit\",\"date_filed\":\"1980-08-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/631-f-2d-725/jordan-v-arnold\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jordan v. Arnold, 631 F.2d 725 (3d Cir. 1980)\",\"link_md\":\"[Jordan v. Arnold, 631 F.2d 725 (3d Cir. 1980)](https://syfert.com/federal/circuits/cases/631-f-2d-725/jordan-v-arnold)\",\"match_kind\":\"semantic\",\"similarity\":0.6597},{\"cluster_id\":2273851,\"case_name\":\"Com. v. Arnold\",\"citations\":[\"991 A.2d 354\",\"2010 WL 1135788\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2010-01-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/991-a-2d-354/com-v-arnold\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Arnold, 991 A.2d 354 (Pa. Super. Ct. 2010)\",\"link_md\":\"[Com. v. Arnold, 991 A.2d 354 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/991-a-2d-354/com-v-arnold)\",\"match_kind\":\"semantic\",\"similarity\":0.6595},{\"cluster_id\":5841752,\"case_name\":\"In re Arnold\",\"citations\":[\"4 A.D.2d 700\",\"164 N.Y.S.2d 1009\",\"1957 N.Y. App. Div. LEXIS 4983\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1957-06-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/4-a-d-2d-700/in-re-arnold\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Arnold, 4 A.D.2d 700 (N.Y. App. Div. 2d Dep't 1957)\",\"link_md\":\"[In re Arnold, 4 A.D.2d 700 (N.Y. App. Div. 2d Dep't 1957)](https://syfert.com/new-york/cases/4-a-d-2d-700/in-re-arnold)\",\"match_kind\":\"semantic\",\"similarity\":0.6589},{\"cluster_id\":392535,\"case_name\":\"Arnold v. Watt\",\"citations\":[\"654 F.2d 728\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1981-06-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/654-f-2d-728/arnold-v-watt\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. Watt, 654 F.2d 728 (9th Cir. 1981)\",\"link_md\":\"[Arnold v. Watt, 654 F.2d 728 (9th Cir. 1981)](https://syfert.com/federal/circuits/cases/654-f-2d-728/arnold-v-watt)\",\"match_kind\":\"semantic\",\"similarity\":0.6563},{\"cluster_id\":330637,\"case_name\":\"Arnold v. Wainwright\",\"citations\":[\"524 F.2d 240\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1975-11-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/524-f-2d-240/arnold-v-wainwright\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arnold v. Wainwright, 524 F.2d 240 (5th Cir. 1975)\",\"link_md\":\"[Arnold v. Wainwright, 524 F.2d 240 (5th Cir. 1975)](https://syfert.com/federal/circuits/cases/524-f-2d-240/arnold-v-wainwright)\",\"match_kind\":\"semantic\",\"similarity\":0.6554}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Arnold w/15 \"82 P. 262\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1948590,
+    "case_name": "Arnold v. Arnold",
+    "citations": [
+     "954 A.2d 30",
+     "2008 Pa. Super. LEXIS 2119",
+     "2008 WL 3830758"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2008-05-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/954-a-2d-30/arnold-v-arnold",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. Arnold, 954 A.2d 30 (Pa. Super. Ct. 2008)",
+    "link_md": "[Arnold v. Arnold, 954 A.2d 30 (Pa. Super. Ct. 2008)](https://syfert.com/pennsylvania/cases/954-a-2d-30/arnold-v-arnold)",
+    "match_kind": "semantic",
+    "similarity": 0.7482
+   },
+   {
+    "cluster_id": 324285,
+    "case_name": "Arnold v. United States",
+    "citations": [
+     "508 F.2d 843"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1974-12-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/508-f-2d-843/arnold-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. United States, 508 F.2d 843 (6th Cir. 1974)",
+    "link_md": "[Arnold v. United States, 508 F.2d 843 (6th Cir. 1974)](https://syfert.com/federal/circuits/cases/508-f-2d-843/arnold-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7334
+   },
+   {
+    "cluster_id": 554714,
+    "case_name": "Arnold (Keithian L.) v. Germania",
+    "citations": [
+     "923 F.2d 860",
+     "1990 U.S. App. LEXIS 23112",
+     "1990 WL 252998"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1990-11-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/923-f-2d-860/arnold-keithian-l-v-germania",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold (Keithian L.) v. Germania, 923 F.2d 860 (8th Cir. 1990)",
+    "link_md": "[Arnold (Keithian L.) v. Germania, 923 F.2d 860 (8th Cir. 1990)](https://syfert.com/federal/circuits/cases/923-f-2d-860/arnold-keithian-l-v-germania)",
+    "match_kind": "semantic",
+    "similarity": 0.6976
+   },
+   {
+    "cluster_id": 429874,
+    "case_name": "Arnold (Dale Richard) v. Fairchild (Thomas)",
+    "citations": [
+     "725 F.2d 666"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1983-12-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/725-f-2d-666/arnold-dale-richard-v-fairchild-thomas",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold (Dale Richard) v. Fairchild (Thomas), 725 F.2d 666 (3d Cir. 1983)",
+    "link_md": "[Arnold (Dale Richard) v. Fairchild (Thomas), 725 F.2d 666 (3d Cir. 1983)](https://syfert.com/federal/circuits/cases/725-f-2d-666/arnold-dale-richard-v-fairchild-thomas)",
+    "match_kind": "semantic",
+    "similarity": 0.6974
+   },
+   {
+    "cluster_id": 2320551,
+    "case_name": "Arnold v. United States",
+    "citations": [
+     "28 A.3d 609",
+     "2011 WL 4889103"
+    ],
+    "court": "District of Columbia Court of Appeals",
+    "date_filed": "2011-09-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/district-of-columbia/cases/28-a-3d-609/arnold-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. United States, 28 A.3d 609 (D.C. 2011)",
+    "link_md": "[Arnold v. United States, 28 A.3d 609 (D.C. 2011)](https://syfert.com/district-of-columbia/cases/28-a-3d-609/arnold-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6956
+   },
+   {
+    "cluster_id": 354824,
+    "case_name": "Arnold v. State of North Carolina",
+    "citations": [
+     "573 F.2d 1304"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1978-04-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/573-f-2d-1304/arnold-v-state-of-north-carolina",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. State of North Carolina, 573 F.2d 1304 (4th Cir. 1978)",
+    "link_md": "[Arnold v. State of North Carolina, 573 F.2d 1304 (4th Cir. 1978)](https://syfert.com/federal/circuits/cases/573-f-2d-1304/arnold-v-state-of-north-carolina)",
+    "match_kind": "semantic",
+    "similarity": 0.6943
+   },
+   {
+    "cluster_id": 587935,
+    "case_name": "Arnold (Jeffrey L.) v. Gunter (Jim)",
+    "citations": [
+     "971 F.2d 752",
+     "1992 U.S. App. LEXIS 8337",
+     "1992 WL 181584"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1992-02-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/971-f-2d-752/arnold-jeffrey-l-v-gunter-jim",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold (Jeffrey L.) v. Gunter (Jim), 971 F.2d 752 (8th Cir. 1992)",
+    "link_md": "[Arnold (Jeffrey L.) v. Gunter (Jim), 971 F.2d 752 (8th Cir. 1992)](https://syfert.com/federal/circuits/cases/971-f-2d-752/arnold-jeffrey-l-v-gunter-jim)",
+    "match_kind": "semantic",
+    "similarity": 0.6829
+   },
+   {
+    "cluster_id": 387715,
+    "case_name": "Arnold v. Jago",
+    "citations": [
+     "642 F.2d 450"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1980-12-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/642-f-2d-450/arnold-v-jago",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. Jago, 642 F.2d 450 (6th Cir. 1980)",
+    "link_md": "[Arnold v. Jago, 642 F.2d 450 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/642-f-2d-450/arnold-v-jago)",
+    "match_kind": "semantic",
+    "similarity": 0.6759
+   },
+   {
+    "cluster_id": 457985,
+    "case_name": "Arnold v. Heckler",
+    "citations": [
+     "772 F.2d 893"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1985-08-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/772-f-2d-893/arnold-v-heckler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. Heckler, 772 F.2d 893 (3d Cir. 1985)",
+    "link_md": "[Arnold v. Heckler, 772 F.2d 893 (3d Cir. 1985)](https://syfert.com/federal/circuits/cases/772-f-2d-893/arnold-v-heckler)",
+    "match_kind": "semantic",
+    "similarity": 0.6733
+   },
+   {
+    "cluster_id": 310680,
+    "case_name": "Arnold v. Buffat",
+    "citations": [
+     "477 F.2d 599"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1973-05-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/477-f-2d-599/arnold-v-buffat",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. Buffat, 477 F.2d 599 (6th Cir. 1973)",
+    "link_md": "[Arnold v. Buffat, 477 F.2d 599 (6th Cir. 1973)](https://syfert.com/federal/circuits/cases/477-f-2d-599/arnold-v-buffat)",
+    "match_kind": "semantic",
+    "similarity": 0.6731
+   },
+   {
+    "cluster_id": 527483,
+    "case_name": "Barton V. Arnold v. Malone",
+    "citations": [
+     "881 F.2d 1082",
+     "1989 U.S. App. LEXIS 11631",
+     "1989 WL 87990"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1989-06-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/881-f-2d-1082/barton-v-arnold-v-malone",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barton V. Arnold v. Malone, 881 F.2d 1082 (8th Cir. 1989)",
+    "link_md": "[Barton V. Arnold v. Malone, 881 F.2d 1082 (8th Cir. 1989)](https://syfert.com/federal/circuits/cases/881-f-2d-1082/barton-v-arnold-v-malone)",
+    "match_kind": "semantic",
+    "similarity": 0.6714
+   },
+   {
+    "cluster_id": 1412227,
+    "case_name": "State v. Arnold",
+    "citations": [
+     "661 S.E.2d 56"
+    ],
+    "court": "Court of Appeals of North Carolina",
+    "date_filed": "2008-05-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/661-s-e-2d-56/state-v-arnold",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Arnold, 661 S.E.2d 56 (N.C. Ct. App. 2008)",
+    "link_md": "[State v. Arnold, 661 S.E.2d 56 (N.C. Ct. App. 2008)](https://syfert.com/north-carolina/cases/661-s-e-2d-56/state-v-arnold)",
+    "match_kind": "semantic",
+    "similarity": 0.6705
+   },
+   {
+    "cluster_id": 115532,
+    "case_name": "Arnold, AKA Ahmad v. Leonard, Ante, P. 866",
+    "citations": [
+     "510 U.S. 1005",
+     "114 S. Ct. 587"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1993-11-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/510-u-s-1005/arnold-aka-ahmad-v-leonard-ante-p-866",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. Leonard, Ante, P. 866, 510 U.S. 1005 (1993)",
+    "link_md": "[Arnold v. Leonard, Ante, P. 866, 510 U.S. 1005 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-1005/arnold-aka-ahmad-v-leonard-ante-p-866)",
+    "match_kind": "semantic",
+    "similarity": 0.6703
+   },
+   {
+    "cluster_id": 5634489,
+    "case_name": "People ex rel. Arnold v. Feitner",
+    "citations": [
+     "176 N.Y. 562",
+     "68 N.E. 1120",
+     "1903 N.Y. LEXIS 871"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1903-10-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/176-n-y-562/people-ex-rel-arnold-v-feitner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Arnold v. Feitner, 176 N.Y. 562 (1903)",
+    "link_md": "[People ex rel. Arnold v. Feitner, 176 N.Y. 562 (1903)](https://syfert.com/new-york/cases/176-n-y-562/people-ex-rel-arnold-v-feitner)",
+    "match_kind": "semantic",
+    "similarity": 0.6639
+   },
+   {
+    "cluster_id": 394414,
+    "case_name": "Jordan v. Arnold",
+    "citations": [
+     "659 F.2d 1068"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1981-04-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/659-f-2d-1068/jordan-v-arnold",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jordan v. Arnold, 659 F.2d 1068 (3d Cir. 1981)",
+    "link_md": "[Jordan v. Arnold, 659 F.2d 1068 (3d Cir. 1981)](https://syfert.com/federal/circuits/cases/659-f-2d-1068/jordan-v-arnold)",
+    "match_kind": "semantic",
+    "similarity": 0.6608
+   },
+   {
+    "cluster_id": 382398,
+    "case_name": "Jordan v. Arnold",
+    "citations": [
+     "631 F.2d 725"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1980-08-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/631-f-2d-725/jordan-v-arnold",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jordan v. Arnold, 631 F.2d 725 (3d Cir. 1980)",
+    "link_md": "[Jordan v. Arnold, 631 F.2d 725 (3d Cir. 1980)](https://syfert.com/federal/circuits/cases/631-f-2d-725/jordan-v-arnold)",
+    "match_kind": "semantic",
+    "similarity": 0.6597
+   },
+   {
+    "cluster_id": 2273851,
+    "case_name": "Com. v. Arnold",
+    "citations": [
+     "991 A.2d 354",
+     "2010 WL 1135788"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2010-01-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/991-a-2d-354/com-v-arnold",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Arnold, 991 A.2d 354 (Pa. Super. Ct. 2010)",
+    "link_md": "[Com. v. Arnold, 991 A.2d 354 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/991-a-2d-354/com-v-arnold)",
+    "match_kind": "semantic",
+    "similarity": 0.6595
+   },
+   {
+    "cluster_id": 5841752,
+    "case_name": "In re Arnold",
+    "citations": [
+     "4 A.D.2d 700",
+     "164 N.Y.S.2d 1009",
+     "1957 N.Y. App. Div. LEXIS 4983"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1957-06-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/4-a-d-2d-700/in-re-arnold",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Arnold, 4 A.D.2d 700 (N.Y. App. Div. 2d Dep't 1957)",
+    "link_md": "[In re Arnold, 4 A.D.2d 700 (N.Y. App. Div. 2d Dep't 1957)](https://syfert.com/new-york/cases/4-a-d-2d-700/in-re-arnold)",
+    "match_kind": "semantic",
+    "similarity": 0.6589
+   },
+   {
+    "cluster_id": 392535,
+    "case_name": "Arnold v. Watt",
+    "citations": [
+     "654 F.2d 728"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1981-06-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/654-f-2d-728/arnold-v-watt",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. Watt, 654 F.2d 728 (9th Cir. 1981)",
+    "link_md": "[Arnold v. Watt, 654 F.2d 728 (9th Cir. 1981)](https://syfert.com/federal/circuits/cases/654-f-2d-728/arnold-v-watt)",
+    "match_kind": "semantic",
+    "similarity": 0.6563
+   },
+   {
+    "cluster_id": 330637,
+    "case_name": "Arnold v. Wainwright",
+    "citations": [
+     "524 F.2d 240"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1975-11-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/524-f-2d-240/arnold-v-wainwright",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arnold v. Wainwright, 524 F.2d 240 (5th Cir. 1975)",
+    "link_md": "[Arnold v. Wainwright, 524 F.2d 240 (5th Cir. 1975)](https://syfert.com/federal/circuits/cases/524-f-2d-240/arnold-v-wainwright)",
+    "match_kind": "semantic",
+    "similarity": 0.6554
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "54 So. 47",
+  "expected_case_name": "Moorman v. Parkerson"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"54 So. 47\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7254094,\n            \"case_name\": \"Moorman v. Parkerson\",\n            \"citations\": [\n                \"54 So. 47\"\n            ],\n            \"court\": \"Supreme Court of Louisiana\",\n            \"date_filed\": \"1911-01-03\",\n            \"status\": \"Published\",\n            \"cited_by\": 16,\n            \"url\": \"https://syfert.com/louisiana/cases/127-la-835/moorman-v-parkerson\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Moorman v. Parkerson, 54 So. 47 (La. 1911)\",\n            \"link_md\": \"[Moorman v. Parkerson, 54 So. 47 (La. 1911)](https://syfert.com/louisiana/cases/127-la-835/moorman-v-parkerson)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 10,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Moorman v. Parkerson\",\n        \"actual\": \"Moorman v. Parkerson\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "54 So. 47",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7254094,
+    "case_name": "Moorman v. Parkerson",
+    "citations": [
+     "54 So. 47"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1911-01-03",
+    "status": "Published",
+    "cited_by": 16,
+    "url": "https://syfert.com/louisiana/cases/127-la-835/moorman-v-parkerson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Moorman v. Parkerson, 54 So. 47 (La. 1911)",
+    "link_md": "[Moorman v. Parkerson, 54 So. 47 (La. 1911)](https://syfert.com/louisiana/cases/127-la-835/moorman-v-parkerson)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 10,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Moorman v. Parkerson",
+   "actual": "Moorman v. Parkerson",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

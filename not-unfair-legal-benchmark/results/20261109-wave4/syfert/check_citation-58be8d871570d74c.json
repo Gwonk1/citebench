@@ -1,0 +1,174 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "303 So. 3d 524",
+  "expected_case_name": "Thomas A. Sosnowski v. State of Florida"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"303 So. 3d 524\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4790980,\n            \"case_name\": \"Thomas A. Sosnowski v. State of Florida\",\n            \"citations\": [\n                \"303 So. 3d 524\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"303 So. 3d 523\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4790978,\n                        \"case_name\": \"William Michael Lamb v. State of Florida\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2020-09-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/303-so-3d-524/thomas-a-sosnowski-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"303 So. 3d 523\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/303%20So.3d\"\n                },\n                {\n                    \"citation\": \"303 So. 3d 524\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/303%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Thomas A. Sosnowski v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)\",\n            \"link_md\": \"[Thomas A. Sosnowski v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)](https://syfert.com/florida/cases/303-so-3d-524/thomas-a-sosnowski-v-state-of-florida)\"\n        },\n        {\n            \"cluster_id\": 4790981,\n            \"case_name\": \"Thomas A. Sosnowski v. State of Florida\",\n            \"citations\": [\n                \"303 So. 3d 524\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"303 So. 3d 523\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4790978,\n                        \"case_name\": \"William Michael Lamb v. State of Florida\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2020-09-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/303-so-3d-523/thomas-a-sosnowski-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"303 So. 3d 523\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/303%20So.3d\"\n                },\n                {\n                    \"citation\": \"303 So. 3d 524\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/303%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Thomas A. Sosnowski v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)\",\n            \"link_md\": \"[Thomas A. Sosnowski v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)](https://syfert.com/florida/cases/303-so-3d-523/thomas-a-sosnowski-v-state-of-florida)\"\n        },\n        {\n            \"cluster_id\": 4790983,\n            \"case_name\": \"Terrence C. McCray v. State of Florida\",\n            \"citations\": [\n                \"303 So. 3d 524\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2020-09-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/303-so-3d-524/terrence-c-mccray-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"303 So. 3d 524\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/303%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Terrence C. McCray v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)\",\n            \"link_md\": \"[Terrence C. McCray v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)](https://syfert.com/florida/cases/303-so-3d-524/terrence-c-mccray-v-state-of-florida)\"\n        },\n        {\n            \"cluster_id\": 4790998,\n            \"case_name\": \"Carlos S. Kenon v. State of Florida\",\n            \"citations\": [\n                \"303 So. 3d 524\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2020-09-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/303-so-3d-524/carlos-s-kenon-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"303 So. 3d 524\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/303%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Carlos S. Kenon v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)\",\n            \"link_md\": \"[Carlos S. Kenon v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)](https://syfert.com/florida/cases/303-so-3d-524/carlos-s-kenon-v-state-of-florida)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Thomas A. Sosnowski v. State of Florida\",\n        \"actual\": \"Thomas A. Sosnowski v. State of Florida\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "303 So. 3d 524",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4790980,
+    "case_name": "Thomas A. Sosnowski v. State of Florida",
+    "citations": [
+     "303 So. 3d 524"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "303 So. 3d 523",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4790978,
+       "case_name": "William Michael Lamb v. State of Florida"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2020-09-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/303-so-3d-524/thomas-a-sosnowski-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "303 So. 3d 523",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/303%20So.3d"
+     },
+     {
+      "citation": "303 So. 3d 524",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/303%20So.3d"
+     }
+    ],
+    "bluebook": "Thomas A. Sosnowski v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)",
+    "link_md": "[Thomas A. Sosnowski v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)](https://syfert.com/florida/cases/303-so-3d-524/thomas-a-sosnowski-v-state-of-florida)"
+   },
+   {
+    "cluster_id": 4790981,
+    "case_name": "Thomas A. Sosnowski v. State of Florida",
+    "citations": [
+     "303 So. 3d 524"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "303 So. 3d 523",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4790978,
+       "case_name": "William Michael Lamb v. State of Florida"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2020-09-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/303-so-3d-523/thomas-a-sosnowski-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "303 So. 3d 523",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/303%20So.3d"
+     },
+     {
+      "citation": "303 So. 3d 524",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/303%20So.3d"
+     }
+    ],
+    "bluebook": "Thomas A. Sosnowski v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)",
+    "link_md": "[Thomas A. Sosnowski v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)](https://syfert.com/florida/cases/303-so-3d-523/thomas-a-sosnowski-v-state-of-florida)"
+   },
+   {
+    "cluster_id": 4790983,
+    "case_name": "Terrence C. McCray v. State of Florida",
+    "citations": [
+     "303 So. 3d 524"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2020-09-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/303-so-3d-524/terrence-c-mccray-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "303 So. 3d 524",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/303%20So.3d"
+     }
+    ],
+    "bluebook": "Terrence C. McCray v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)",
+    "link_md": "[Terrence C. McCray v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)](https://syfert.com/florida/cases/303-so-3d-524/terrence-c-mccray-v-state-of-florida)"
+   },
+   {
+    "cluster_id": 4790998,
+    "case_name": "Carlos S. Kenon v. State of Florida",
+    "citations": [
+     "303 So. 3d 524"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2020-09-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/303-so-3d-524/carlos-s-kenon-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "303 So. 3d 524",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/303%20So.3d"
+     }
+    ],
+    "bluebook": "Carlos S. Kenon v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)",
+    "link_md": "[Carlos S. Kenon v. State of Florida, 303 So. 3d 524 (Fla. 1st DCA 2020)](https://syfert.com/florida/cases/303-so-3d-524/carlos-s-kenon-v-state-of-florida)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Thomas A. Sosnowski v. State of Florida",
+   "actual": "Thomas A. Sosnowski v. State of Florida",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

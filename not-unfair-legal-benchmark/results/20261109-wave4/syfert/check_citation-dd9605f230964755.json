@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "609 N.Y.S.2d 610",
+  "expected_case_name": "Bazerman v. Gardall Safe Corp."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"609 N.Y.S.2d 610\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6108888,\n            \"case_name\": \"Bazerman v. Gardall Safe Corp.\",\n            \"citations\": [\n                \"609 N.Y.S.2d 610\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"1994-04-07\",\n            \"status\": \"Published\",\n            \"cited_by\": 19,\n            \"url\": \"https://syfert.com/new-york/cases/203-a-d-2d-56/bazerman-v-gardall-safe-corp\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Bazerman v. Gardall Safe Corp., 609 N.Y.S.2d 610 (N.Y. App. Div. 1st Dep't 1994)\",\n            \"link_md\": \"[Bazerman v. Gardall Safe Corp., 609 N.Y.S.2d 610 (N.Y. App. Div. 1st Dep't 1994)](https://syfert.com/new-york/cases/203-a-d-2d-56/bazerman-v-gardall-safe-corp)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 5,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Bazerman v. Gardall Safe Corp.\",\n        \"actual\": \"Bazerman v. Gardall Safe Corp.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "609 N.Y.S.2d 610",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6108888,
+    "case_name": "Bazerman v. Gardall Safe Corp.",
+    "citations": [
+     "609 N.Y.S.2d 610"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1994-04-07",
+    "status": "Published",
+    "cited_by": 19,
+    "url": "https://syfert.com/new-york/cases/203-a-d-2d-56/bazerman-v-gardall-safe-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bazerman v. Gardall Safe Corp., 609 N.Y.S.2d 610 (N.Y. App. Div. 1st Dep't 1994)",
+    "link_md": "[Bazerman v. Gardall Safe Corp., 609 N.Y.S.2d 610 (N.Y. App. Div. 1st Dep't 1994)](https://syfert.com/new-york/cases/203-a-d-2d-56/bazerman-v-gardall-safe-corp)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 5,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Bazerman v. Gardall Safe Corp.",
+   "actual": "Bazerman v. Gardall Safe Corp.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

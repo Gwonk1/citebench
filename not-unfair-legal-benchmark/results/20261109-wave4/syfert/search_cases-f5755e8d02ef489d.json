@@ -1,0 +1,99 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Mattis w/15 \"62 P. 17\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Mattis w/15 \\\"62 P. 17\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4080657,\"bluebook\":\"Tudor v. Jaca, 165 P.2d 770 (Or. 1946)\",\"url\":\"https://syfert.com/oregon/cases/178-or-126/tudor-v-jaca\",\"date_filed\":\"1946-02-05\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...prior appropriations shall not be enlarged beyond the scope of original appropriation, if the proposed enlargement interferes with their rights.\\nMattis v. Hosmer,\\n37 Or. 523 , 62 P. 17 ;\\nIn re North Powder River,\\n75 Or. 83 , 144 P. 485…\"},{\"cluster_id\":4081017,\"bluebook\":\"Dill v. Killip, 147 P.2d 896 (Or. 1944)\",\"url\":\"https://syfert.com/oregon/cases/174-or-94/dill-v-killip\",\"date_filed\":\"1944-03-22\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...154 , 49 P. 971 ;\\nMattis v. Hosmer,\\n37 Or. 523, 531 , 62 P. 17 .\\nIn 1881, the late Mr. Chief Justice Lord used the following expression:\\n“The maxim of the law is that whoever grants a thing, is supposed, also, tacitly, to grant that,…\"},{\"cluster_id\":2516077,\"bluebook\":\"Hinton v. Hannigan, 33 P.3d 379 (Or. Ct. App. 2001)\",\"url\":\"https://syfert.com/oregon/cases/177-or-app-196/hinton-v-hannigan\",\"date_filed\":\"2001-10-10\",\"cited_by\":0,\"snippet\":\"...In\\nMattis v. Hosmer,\\n37 Or 523 , 62 P 17 , 62 P 632 1900), the issues were whether the plaintiff or the defendant owned a mining ditch and whether the ditch could be conveyed without a deed. The court explained the purpose of section…\"},{\"cluster_id\":835078,\"bluebook\":\"Klamath Irrigation Dist. v. United States, 227 P.3d 1145 (Or. 2010)\",\"url\":\"https://syfert.com/oregon/cases/348-or-15/klamath-irrigation-district-v-united-states\",\"date_filed\":\"2010-03-11\",\"cited_by\":33,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Sharpe, 44 Or 386, 394 , 75 P 717 (1904); Mattis v. Hosmer, 37 Or 523, 532 , 62 P 17 , 62 P 632 (1900) ; Bowman v. Bowman, 35 Or 279, 283 , 57 P 546 (1899); Huston v. Bybee, 17 Or 140, 147-48 , 20 P 51 (1888) (all illustrating…\",\"holding\":\"Beneficial use is a necessary but not a sufficient condition to acquire a beneficial or equitable property interest in a water right.\",\"holding_ai_generated\":true,\"disposition\":\"remanded\",\"disposition_source\":\"headnote\"},{\"cluster_id\":1137696,\"bluebook\":\"Oliver v. Skinner & Lodge, 226 P.2d 507 (Or. 1951)\",\"url\":\"https://syfert.com/oregon/cases/190-or-423/oliver-v-skinner-and-lodge\",\"date_filed\":\"1951-01-17\",\"cited_by\":13,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...35, 42, 51 , 27 P.\\n7; Mattis v. Hosmer,\\n37 Or. 523, 529 , 62 P. 17, 632 ;\\nHough v. Porter,\\nsupra, 51 Or. 318, 425 , 95 P. 732 , 98 P. 1083 ;\\nIn re North Powder River,\\n75 Or. 83, 94 , 144 P. 485 , 146 P. 475 ;\\nHutchinson v. Stricklin,…\"},{\"cluster_id\":4079396,\"bluebook\":\"Dry Gulch Ditch Co. v. Hutton, 133 P.2d 601 (Or. 1943)\",\"url\":\"https://syfert.com/oregon/cases/170-or-656/dry-gulch-ditch-co-v-hutton\",\"date_filed\":\"1943-04-06\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...may use the surplus of that to which the prior appropriator is entitled, when not necessary to his use.”\\nMattis v. Hosmer,\\n37 Or. 523, 529, 530 , 62 P. 17, 19 .\\n“An owner of a water right by prior appropriation cannot change his point…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Mattis w/15 \"62 P. 17\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4080657,
+    "bluebook": "Tudor v. Jaca, 165 P.2d 770 (Or. 1946)",
+    "url": "https://syfert.com/oregon/cases/178-or-126/tudor-v-jaca",
+    "date_filed": "1946-02-05",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...prior appropriations shall not be enlarged beyond the scope of original appropriation, if the proposed enlargement interferes with their rights.\nMattis v. Hosmer,\n37 Or. 523 , 62 P. 17 ;\nIn re North Powder River,\n75 Or. 83 , 144 P. 485…"
+   },
+   {
+    "cluster_id": 4081017,
+    "bluebook": "Dill v. Killip, 147 P.2d 896 (Or. 1944)",
+    "url": "https://syfert.com/oregon/cases/174-or-94/dill-v-killip",
+    "date_filed": "1944-03-22",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...154 , 49 P. 971 ;\nMattis v. Hosmer,\n37 Or. 523, 531 , 62 P. 17 .\nIn 1881, the late Mr. Chief Justice Lord used the following expression:\n“The maxim of the law is that whoever grants a thing, is supposed, also, tacitly, to grant that,…"
+   },
+   {
+    "cluster_id": 2516077,
+    "bluebook": "Hinton v. Hannigan, 33 P.3d 379 (Or. Ct. App. 2001)",
+    "url": "https://syfert.com/oregon/cases/177-or-app-196/hinton-v-hannigan",
+    "date_filed": "2001-10-10",
+    "cited_by": 0,
+    "snippet": "...In\nMattis v. Hosmer,\n37 Or 523 , 62 P 17 , 62 P 632 1900), the issues were whether the plaintiff or the defendant owned a mining ditch and whether the ditch could be conveyed without a deed. The court explained the purpose of section…"
+   },
+   {
+    "cluster_id": 835078,
+    "bluebook": "Klamath Irrigation Dist. v. United States, 227 P.3d 1145 (Or. 2010)",
+    "url": "https://syfert.com/oregon/cases/348-or-15/klamath-irrigation-district-v-united-states",
+    "date_filed": "2010-03-11",
+    "cited_by": 33,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Sharpe, 44 Or 386, 394 , 75 P 717 (1904); Mattis v. Hosmer, 37 Or 523, 532 , 62 P 17 , 62 P 632 (1900) ; Bowman v. Bowman, 35 Or 279, 283 , 57 P 546 (1899); Huston v. Bybee, 17 Or 140, 147-48 , 20 P 51 (1888) (all illustrating…",
+    "holding": "Beneficial use is a necessary but not a sufficient condition to acquire a beneficial or equitable property interest in a water right.",
+    "holding_ai_generated": true,
+    "disposition": "remanded",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1137696,
+    "bluebook": "Oliver v. Skinner & Lodge, 226 P.2d 507 (Or. 1951)",
+    "url": "https://syfert.com/oregon/cases/190-or-423/oliver-v-skinner-and-lodge",
+    "date_filed": "1951-01-17",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...35, 42, 51 , 27 P.\n7; Mattis v. Hosmer,\n37 Or. 523, 529 , 62 P. 17, 632 ;\nHough v. Porter,\nsupra, 51 Or. 318, 425 , 95 P. 732 , 98 P. 1083 ;\nIn re North Powder River,\n75 Or. 83, 94 , 144 P. 485 , 146 P. 475 ;\nHutchinson v. Stricklin,…"
+   },
+   {
+    "cluster_id": 4079396,
+    "bluebook": "Dry Gulch Ditch Co. v. Hutton, 133 P.2d 601 (Or. 1943)",
+    "url": "https://syfert.com/oregon/cases/170-or-656/dry-gulch-ditch-co-v-hutton",
+    "date_filed": "1943-04-06",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...may use the surplus of that to which the prior appropriator is entitled, when not necessary to his use.”\nMattis v. Hosmer,\n37 Or. 523, 529, 530 , 62 P. 17, 19 .\n“An owner of a water right by prior appropriation cannot change his point…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

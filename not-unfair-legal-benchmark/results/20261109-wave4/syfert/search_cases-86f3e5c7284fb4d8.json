@@ -1,0 +1,94 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Cheves w/15 \"931 N.Y.S.2d 877\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Cheves w/15 \\\"931 N.Y.S.2d 877\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10291039,\"bluebook\":\"Bergeron v. Rochester Inst. of Tech., No. 23-271 (2d Cir. Dec. 10, 2024)\",\"url\":\"https://syfert.com/federal/circuits/cases/cl-10291039/bergeron-v-rochester-institute-of-technology\",\"date_filed\":\"2024-12-10\",\"cited_by\":0,\"status\":\"Unpublished\",\"snippet\":\"...the sort of “specific\\npromise” that gives rise to an implied contract between a university and its students. Cheves v.\\nTrs. of Columbia Univ., 931 N.Y.S.2d 877 , 877 (1st Dep’t 2011).\\nThird, RIT’s “prior conduct” of in-person…\"},{\"cluster_id\":9869789,\"bluebook\":\"Yodice v. Touro Coll. & Univ. Sys., No. 1:21-cv-02026 (S.D.N.Y. Nov. 4, 2021)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9869789/yodice-v-touro-college-and-university-system\",\"date_filed\":\"2021-11-04\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...To state a claim for\\nbreach of an implied contract, a student must identify “specific\\npromises” made in those materials that are “material to the\\nstudent's relationship with the school.” Cheves v. Trustees of\\nColumbia Univ., 931…\",\"passage_origin\":{\"case_name\":\"Jeffers v. American University of Antigua\",\"cluster_id\":2777228,\"year\":2015,\"quoted_by_cases\":2}},{\"cluster_id\":9863600,\"bluebook\":\"In re Columbia Univ. Tuition Refund Action, 523 F. Supp. 3d 414 (S.D.N.Y. 2021)\",\"url\":\"https://syfert.com/federal/district/cases/523-f-supp-3d-414/in-re-columbia-university-tuition-refund-action\",\"date_filed\":\"2021-02-26\",\"cited_by\":0,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":3},\"snippet\":\"...of Antigua, 3 N.Y.S.3d 335, 337\\n(1st Dep’t 2015); Cheves v. Trs. of Columbia Univ., 931 N.Y.S.2d 877 , 877 (1st Dep’t 2011).\\n“The interpretation of a university’s catalogue, like the interpretation of any contract, is a matter\\nof law…\",\"holding\":\"To sustain a breach of contract claim, a student must identify specific language in university bulletins or handbooks that establishes a particular contractual right or obligation for specific services.\",\"holding_ai_generated\":true,\"disposition\":\"reversed in part\",\"disposition_source\":\"headnote\"},{\"cluster_id\":7318978,\"bluebook\":\"Nungesser v. Columbia Univ., 169 F. Supp. 3d 353 (S.D.N.Y. 2016)\",\"url\":\"https://syfert.com/federal/district/cases/169-f-supp-3d-353/nungesser-v-columbia-university\",\"date_filed\":\"2016-03-11\",\"cited_by\":44,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Sumitomo Bank, Ltd., 189 A.D.2d 584 , 592 N.Y.S.2d 41, 42 (1993)); see also Cheves v. Columbia Univ., 89 A.D.3d 463 , 931 N.Y.S.2d 877 (2011) (holding that alumni relations brochure listing certain benefits and services generally…\",\"holding\":\"A student must identify specifically designated and discrete promises to state a claim for breach of contract against a university.\",\"holding_ai_generated\":true,\"disposition\":\"dismissed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":7324936,\"bluebook\":\"Nungesser v. Columbia Univ., 244 F. Supp. 3d 345 (S.D.N.Y. 2017)\",\"url\":\"https://syfert.com/federal/district/cases/244-f-supp-3d-345/nungesser-v-columbia-university\",\"date_filed\":\"2017-03-24\",\"cited_by\":21,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Sumitomo Bank, Ltd., 189 A.D.2d 584 , 592 N.Y.S.2d 41, 42 (1993)); see also Cheves v. Trustees of Columbia Univ., 89 A.D.3d 463 , 931 N.Y.S.2d 877 (2011) (holding that alumni relations brochure listing certain benefits and services…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Cheves w/15 \"931 N.Y.S.2d 877\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10291039,
+    "bluebook": "Bergeron v. Rochester Inst. of Tech., No. 23-271 (2d Cir. Dec. 10, 2024)",
+    "url": "https://syfert.com/federal/circuits/cases/cl-10291039/bergeron-v-rochester-institute-of-technology",
+    "date_filed": "2024-12-10",
+    "cited_by": 0,
+    "status": "Unpublished",
+    "snippet": "...the sort of “specific\npromise” that gives rise to an implied contract between a university and its students. Cheves v.\nTrs. of Columbia Univ., 931 N.Y.S.2d 877 , 877 (1st Dep’t 2011).\nThird, RIT’s “prior conduct” of in-person…"
+   },
+   {
+    "cluster_id": 9869789,
+    "bluebook": "Yodice v. Touro Coll. & Univ. Sys., No. 1:21-cv-02026 (S.D.N.Y. Nov. 4, 2021)",
+    "url": "https://syfert.com/federal/district/cases/cl-9869789/yodice-v-touro-college-and-university-system",
+    "date_filed": "2021-11-04",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...To state a claim for\nbreach of an implied contract, a student must identify “specific\npromises” made in those materials that are “material to the\nstudent's relationship with the school.” Cheves v. Trustees of\nColumbia Univ., 931…",
+    "passage_origin": {
+     "case_name": "Jeffers v. American University of Antigua",
+     "cluster_id": 2777228,
+     "year": 2015,
+     "quoted_by_cases": 2
+    }
+   },
+   {
+    "cluster_id": 9863600,
+    "bluebook": "In re Columbia Univ. Tuition Refund Action, 523 F. Supp. 3d 414 (S.D.N.Y. 2021)",
+    "url": "https://syfert.com/federal/district/cases/523-f-supp-3d-414/in-re-columbia-university-tuition-refund-action",
+    "date_filed": "2021-02-26",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 3
+    },
+    "snippet": "...of Antigua, 3 N.Y.S.3d 335, 337\n(1st Dep’t 2015); Cheves v. Trs. of Columbia Univ., 931 N.Y.S.2d 877 , 877 (1st Dep’t 2011).\n“The interpretation of a university’s catalogue, like the interpretation of any contract, is a matter\nof law…",
+    "holding": "To sustain a breach of contract claim, a student must identify specific language in university bulletins or handbooks that establishes a particular contractual right or obligation for specific services.",
+    "holding_ai_generated": true,
+    "disposition": "reversed in part",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 7318978,
+    "bluebook": "Nungesser v. Columbia Univ., 169 F. Supp. 3d 353 (S.D.N.Y. 2016)",
+    "url": "https://syfert.com/federal/district/cases/169-f-supp-3d-353/nungesser-v-columbia-university",
+    "date_filed": "2016-03-11",
+    "cited_by": 44,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Sumitomo Bank, Ltd., 189 A.D.2d 584 , 592 N.Y.S.2d 41, 42 (1993)); see also Cheves v. Columbia Univ., 89 A.D.3d 463 , 931 N.Y.S.2d 877 (2011) (holding that alumni relations brochure listing certain benefits and services generally…",
+    "holding": "A student must identify specifically designated and discrete promises to state a claim for breach of contract against a university.",
+    "holding_ai_generated": true,
+    "disposition": "dismissed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 7324936,
+    "bluebook": "Nungesser v. Columbia Univ., 244 F. Supp. 3d 345 (S.D.N.Y. 2017)",
+    "url": "https://syfert.com/federal/district/cases/244-f-supp-3d-345/nungesser-v-columbia-university",
+    "date_filed": "2017-03-24",
+    "cited_by": 21,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Sumitomo Bank, Ltd., 189 A.D.2d 584 , 592 N.Y.S.2d 41, 42 (1993)); see also Cheves v. Trustees of Columbia Univ., 89 A.D.3d 463 , 931 N.Y.S.2d 877 (2011) (holding that alumni relations brochure listing certain benefits and services…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

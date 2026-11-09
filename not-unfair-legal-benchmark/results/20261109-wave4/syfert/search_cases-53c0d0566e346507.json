@@ -1,0 +1,66 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Prichard w/15 \"854 N.Y.S.2d 53\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Prichard w/15 \\\"854 N.Y.S.2d 53\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":9853512,\"bluebook\":\"Fin. Guar. Ins. Co. v. Putnam Advisory Co., No. 1:12-cv-07372, 2020 WL 264146 (S.D.N.Y. Jan. 17, 2020)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9853512/financial-guaranty-insurance-company-v-the-putnam-advisory-company-llc\",\"date_filed\":\"2020-01-17\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...See, e.g., Prichard v. 164 Ludlow\\nCorp., 854 N.Y.S.2d 53 , 54 (1st Dep’t 2008) (fraudulent inducement claim accrued when\\nplaintiffs “entered into the contract . . . i.e., they completed the act that the fraudulent\\nstatements had…\"},{\"cluster_id\":4474471,\"bluebook\":\"Sejin Precision Indus. Co. v. Citibank, N.A., No. 17-2319-cv (2d Cir. Mar. 5, 2018)\",\"url\":\"https://syfert.com/federal/circuits/cases/cl-4474471/sejin-precision-indus-co-ltd-v-citibank-na\",\"date_filed\":\"2018-03-05\",\"cited_by\":0,\"status\":\"Unpublished\",\"snippet\":\"...Compare Prichard v. 164 Ludlow Corp., 854 N.Y.S.2d\\n53 , 54 (1st Dep’t 2008) (finding in a cause of action for fraudulent inducement that § 213(8)’s six-\\nyear period began when the plaintiffs purchased the stocks at issue), with N.Y.C.…\"},{\"cluster_id\":9853718,\"bluebook\":\"Panos v. Universal Forest Prods. Inc., No. 7:18-cv-02066 (S.D.N.Y. Jan. 27, 2020)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9853718/panos-v-universal-forest-products-inc\",\"date_filed\":\"2020-01-27\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...Lastly, Defendants cite Prichard v. 164 Ludlow Corp., 854 N.Y.S.2d 53 (App. Div.\\n2008), for the proposition that a cause of action for a fraudulently induced investment accrued\\nwhen the plaintiffs “entered into the contract to purchase…\"},{\"cluster_id\":7335898,\"bluebook\":\"RamiroAviles v. S&P Global, Inc., 380 F. Supp. 3d 221 (S.D. Ill. 2019)\",\"url\":\"https://syfert.com/federal/district/cases/380-f-supp-3d-221/ramiroaviles-v-sp-global-inc\",\"date_filed\":\"2019-03-28\",\"cited_by\":59,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...induced,\\\" Prichard v. 164 Ludlow Corp. , 49 A.D.3d 408 , 854 N.Y.S.2d 53 , 54 (1st Dep't 2008) ; see also Hopkinson v. Estate of Siegal , No. 10 Civ. 1743, 2011 WL 1458633 , at (S.D.N.Y. Apr. 11, 2011) (describing the accrual date of...\",\"holding\":\"Under New York law, a corporate officer is subject to personal jurisdiction if they participated in the corporate activities giving rise to the action and the corporation has sufficient in-state contacts.\",\"holding_ai_generated\":true,\"disposition\":\"dismissed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Prichard w/15 \"854 N.Y.S.2d 53\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 9853512,
+    "bluebook": "Fin. Guar. Ins. Co. v. Putnam Advisory Co., No. 1:12-cv-07372, 2020 WL 264146 (S.D.N.Y. Jan. 17, 2020)",
+    "url": "https://syfert.com/federal/district/cases/cl-9853512/financial-guaranty-insurance-company-v-the-putnam-advisory-company-llc",
+    "date_filed": "2020-01-17",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...See, e.g., Prichard v. 164 Ludlow\nCorp., 854 N.Y.S.2d 53 , 54 (1st Dep’t 2008) (fraudulent inducement claim accrued when\nplaintiffs “entered into the contract . . . i.e., they completed the act that the fraudulent\nstatements had…"
+   },
+   {
+    "cluster_id": 4474471,
+    "bluebook": "Sejin Precision Indus. Co. v. Citibank, N.A., No. 17-2319-cv (2d Cir. Mar. 5, 2018)",
+    "url": "https://syfert.com/federal/circuits/cases/cl-4474471/sejin-precision-indus-co-ltd-v-citibank-na",
+    "date_filed": "2018-03-05",
+    "cited_by": 0,
+    "status": "Unpublished",
+    "snippet": "...Compare Prichard v. 164 Ludlow Corp., 854 N.Y.S.2d\n53 , 54 (1st Dep’t 2008) (finding in a cause of action for fraudulent inducement that § 213(8)’s six-\nyear period began when the plaintiffs purchased the stocks at issue), with N.Y.C.…"
+   },
+   {
+    "cluster_id": 9853718,
+    "bluebook": "Panos v. Universal Forest Prods. Inc., No. 7:18-cv-02066 (S.D.N.Y. Jan. 27, 2020)",
+    "url": "https://syfert.com/federal/district/cases/cl-9853718/panos-v-universal-forest-products-inc",
+    "date_filed": "2020-01-27",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...Lastly, Defendants cite Prichard v. 164 Ludlow Corp., 854 N.Y.S.2d 53 (App. Div.\n2008), for the proposition that a cause of action for a fraudulently induced investment accrued\nwhen the plaintiffs “entered into the contract to purchase…"
+   },
+   {
+    "cluster_id": 7335898,
+    "bluebook": "RamiroAviles v. S&P Global, Inc., 380 F. Supp. 3d 221 (S.D. Ill. 2019)",
+    "url": "https://syfert.com/federal/district/cases/380-f-supp-3d-221/ramiroaviles-v-sp-global-inc",
+    "date_filed": "2019-03-28",
+    "cited_by": 59,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...induced,\" Prichard v. 164 Ludlow Corp. , 49 A.D.3d 408 , 854 N.Y.S.2d 53 , 54 (1st Dep't 2008) ; see also Hopkinson v. Estate of Siegal , No. 10 Civ. 1743, 2011 WL 1458633 , at (S.D.N.Y. Apr. 11, 2011) (describing the accrual date of...",
+    "holding": "Under New York law, a corporate officer is subject to personal jurisdiction if they participated in the corporate activities giving rise to the action and the corporation has sufficient in-state contacts.",
+    "holding_ai_generated": true,
+    "disposition": "dismissed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

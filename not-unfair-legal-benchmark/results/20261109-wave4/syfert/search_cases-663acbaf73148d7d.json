@@ -1,0 +1,406 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Ford w/15 \"250 A3d 1160\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Ford w/15 \\\"250 A3d 1160\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":335845,\"case_name\":\"No. 75-2096\",\"citations\":[\"535 F.2d 1255\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1976-04-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/535-f-2d-1255/no-75-2096\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"No. 75-2096, 535 F.2d 1255 (6th Cir. 1976)\",\"link_md\":\"[No. 75-2096, 535 F.2d 1255 (6th Cir. 1976)](https://syfert.com/federal/circuits/cases/535-f-2d-1255/no-75-2096)\",\"match_kind\":\"semantic\",\"similarity\":0.6788},{\"cluster_id\":509251,\"case_name\":\"Adams (Henry) v. Ford Motor Co\",\"citations\":[\"852 F.2d 570\",\"130 L.R.R.M. (BNA) 2584\",\"1988 U.S. App. LEXIS 9346\",\"1988 WL 70543\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1988-06-24\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/852-f-2d-570/adams-henry-v-ford-motor-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Adams (Henry) v. Ford Motor Co, 852 F.2d 570 (7th Cir. 1988)\",\"link_md\":\"[Adams (Henry) v. Ford Motor Co, 852 F.2d 570 (7th Cir. 1988)](https://syfert.com/federal/circuits/cases/852-f-2d-570/adams-henry-v-ford-motor-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6781},{\"cluster_id\":470226,\"case_name\":\"Lugo v. Ford Motor Co\",\"citations\":[\"791 F.2d 170\",\"1986 U.S. App. LEXIS 19057\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1986-05-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/791-f-2d-170/lugo-v-ford-motor-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lugo v. Ford Motor Co, 791 F.2d 170 (11th Cir. 1986)\",\"link_md\":\"[Lugo v. Ford Motor Co, 791 F.2d 170 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/791-f-2d-170/lugo-v-ford-motor-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6689},{\"cluster_id\":734094,\"case_name\":\"Araujo v. Ford Motor Company\",\"citations\":[\"105 F.3d 672\",\"1996 WL 763915\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-12-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/105-f-3d-672/araujo-v-ford-motor-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Araujo v. Ford Motor Co., 105 F.3d 672 (11th Cir. 1996)\",\"link_md\":\"[Araujo v. Ford Motor Co., 105 F.3d 672 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/105-f-3d-672/araujo-v-ford-motor-company)\",\"match_kind\":\"semantic\",\"similarity\":0.6673},{\"cluster_id\":759615,\"case_name\":\"United States v. Ford\",\"citations\":[\"162 F.3d 97\",\"1998 U.S. App. LEXIS 30361\",\"1998 WL 754743\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1998-10-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/162-f-3d-97/united-states-v-ford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ford, 162 F.3d 97 (11th Cir. 1998)\",\"link_md\":\"[United States v. Ford, 162 F.3d 97 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/162-f-3d-97/united-states-v-ford)\",\"match_kind\":\"semantic\",\"similarity\":0.6637},{\"cluster_id\":754452,\"case_name\":\"Robinson v. Ford Motor Company\",\"citations\":[\"144 F.3d 56\",\"1998 U.S. App. LEXIS 12286\",\"1998 WL 237170\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1998-05-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/144-f-3d-56/robinson-v-ford-motor-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Robinson v. Ford Motor Co., 144 F.3d 56 (11th Cir. 1998)\",\"link_md\":\"[Robinson v. Ford Motor Co., 144 F.3d 56 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/144-f-3d-56/robinson-v-ford-motor-company)\",\"match_kind\":\"semantic\",\"similarity\":0.6629},{\"cluster_id\":759445,\"case_name\":\"Timmons v. Ford Motor Company\",\"citations\":[\"161 F.3d 22\",\"1998 U.S. App. LEXIS 29908\",\"1998 WL 717625\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1998-10-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/161-f-3d-22/timmons-v-ford-motor-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Timmons v. Ford Motor Co., 161 F.3d 22 (11th Cir. 1998)\",\"link_md\":\"[Timmons v. Ford Motor Co., 161 F.3d 22 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/161-f-3d-22/timmons-v-ford-motor-company)\",\"match_kind\":\"semantic\",\"similarity\":0.6597},{\"cluster_id\":591915,\"case_name\":\"United States v. Ford\",\"citations\":[\"976 F.2d 742\",\"1992 WL 278745\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1992-09-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/976-f-2d-742/united-states-v-ford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ford, 976 F.2d 742 (11th Cir. 1992)\",\"link_md\":\"[United States v. Ford, 976 F.2d 742 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/976-f-2d-742/united-states-v-ford)\",\"match_kind\":\"semantic\",\"similarity\":0.659},{\"cluster_id\":460525,\"case_name\":\"Ford v. American Motors Corp\",\"citations\":[\"776 F.2d 1048\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1985-10-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/776-f-2d-1048/ford-v-american-motors-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ford v. Am. Motors Corp, 776 F.2d 1048 (5th Cir. 1985)\",\"link_md\":\"[Ford v. Am. Motors Corp, 776 F.2d 1048 (5th Cir. 1985)](https://syfert.com/federal/circuits/cases/776-f-2d-1048/ford-v-american-motors-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6581},{\"cluster_id\":122855,\"case_name\":\"Austin v. Ford Models, Inc.\",\"citations\":[\"537 U.S. 848\",\"123 S. Ct. 189\"],\"court\":\"Supreme Court\",\"date_filed\":\"2002-10-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/537-u-s-848/austin-v-ford-models-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (122855 and its twin 9250812). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Austin v. Ford Models, Inc., 537 U.S. 848 (2002)\",\"link_md\":\"[Austin v. Ford Models, Inc., 537 U.S. 848 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-848/austin-v-ford-models-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6568},{\"cluster_id\":722306,\"case_name\":\"United States v. Ford\",\"citations\":[\"89 F.3d 854\",\"1996 WL 346331\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-06-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/89-f-3d-854/united-states-v-ford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ford, 89 F.3d 854 (11th Cir. 1996)\",\"link_md\":\"[United States v. Ford, 89 F.3d 854 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/89-f-3d-854/united-states-v-ford)\",\"match_kind\":\"semantic\",\"similarity\":0.6563},{\"cluster_id\":685470,\"case_name\":\"United States v. Ford\",\"citations\":[\"43 F.3d 677\",\"1994 WL 720059\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-12-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/43-f-3d-677/united-states-v-ford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ford, 43 F.3d 677 (11th Cir. 1994)\",\"link_md\":\"[United States v. Ford, 43 F.3d 677 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/43-f-3d-677/united-states-v-ford)\",\"match_kind\":\"semantic\",\"similarity\":0.6552},{\"cluster_id\":351143,\"case_name\":\"Nicholas Motors, Inc. v. Ford Motor Co\",\"citations\":[\"566 F.2d 1169\"],\"court\":\"Third Circuit\",\"date_filed\":\"1977-12-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/566-f-2d-1169/nicholas-motors-inc-v-ford-motor-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Nicholas Motors, Inc. v. Ford Motor Co, 566 F.2d 1169 (3d Cir. 1977)\",\"link_md\":\"[Nicholas Motors, Inc. v. Ford Motor Co, 566 F.2d 1169 (3d Cir. 1977)](https://syfert.com/federal/circuits/cases/566-f-2d-1169/nicholas-motors-inc-v-ford-motor-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6547},{\"cluster_id\":416314,\"case_name\":\"Polk Tractor v. Ford Motor Co\",\"citations\":[\"703 F.2d 580\",\"1983 U.S. App. LEXIS 29654\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1983-03-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/703-f-2d-580/polk-tractor-v-ford-motor-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Polk Tractor v. Ford Motor Co, 703 F.2d 580 (11th Cir. 1983)\",\"link_md\":\"[Polk Tractor v. Ford Motor Co, 703 F.2d 580 (11th Cir. 1983)](https://syfert.com/federal/circuits/cases/703-f-2d-580/polk-tractor-v-ford-motor-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6539},{\"cluster_id\":475707,\"case_name\":\"Town & Country Ford v. Ford Motor\",\"citations\":[\"800 F.2d 266\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1986-08-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/800-f-2d-266/town-country-ford-v-ford-motor\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Town & Country Ford v. Ford Motor, 800 F.2d 266 (11th Cir. 1986)\",\"link_md\":\"[Town & Country Ford v. Ford Motor, 800 F.2d 266 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/800-f-2d-266/town-country-ford-v-ford-motor)\",\"match_kind\":\"semantic\",\"similarity\":0.6526},{\"cluster_id\":516378,\"case_name\":\"United States v. Ford\",\"citations\":[\"864 F.2d 793\",\"1988 WL 136428\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1988-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/864-f-2d-793/united-states-v-ford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ford, 864 F.2d 793 (11th Cir. 1988)\",\"link_md\":\"[United States v. Ford, 864 F.2d 793 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/864-f-2d-793/united-states-v-ford)\",\"match_kind\":\"semantic\",\"similarity\":0.6511},{\"cluster_id\":667685,\"case_name\":\"Short v. Ford Motor Company\",\"citations\":[\"21 F.3d 1107\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1994-04-19\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/circuits/cases/21-f-3d-1107/short-v-ford-motor-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Short v. Ford Motor Co., 21 F.3d 1107 (5th Cir. 1994)\",\"link_md\":\"[Short v. Ford Motor Co., 21 F.3d 1107 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/21-f-3d-1107/short-v-ford-motor-company)\",\"match_kind\":\"semantic\",\"similarity\":0.6508},{\"cluster_id\":416823,\"case_name\":\"Akins v. Ford Motor Co\",\"citations\":[\"704 F.2d 1252\",\"1983 U.S. App. LEXIS 28801\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1983-04-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/704-f-2d-1252/akins-v-ford-motor-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Akins v. Ford Motor Co, 704 F.2d 1252 (11th Cir. 1983)\",\"link_md\":\"[Akins v. Ford Motor Co, 704 F.2d 1252 (11th Cir. 1983)](https://syfert.com/federal/circuits/cases/704-f-2d-1252/akins-v-ford-motor-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6502},{\"cluster_id\":2492248,\"case_name\":\"Alonso v. Ford Motor Co.\",\"citations\":[\"77 So. 3d 1253\",\"2011 WL 6317489\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"2011-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/77-so-3d-1253/alonso-v-ford-motor-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Alonso v. Ford Motor Co., 77 So. 3d 1253 (Fla. 2011)\",\"link_md\":\"[Alonso v. Ford Motor Co., 77 So. 3d 1253 (Fla. 2011)](https://syfert.com/florida/cases/77-so-3d-1253/alonso-v-ford-motor-co)\",\"match_kind\":\"semantic\",\"similarity\":0.65},{\"cluster_id\":759649,\"case_name\":\"United States v. Ford\",\"citations\":[\"162 F.3d 98\",\"1998 U.S. App. LEXIS 30377\",\"1998 WL 754764\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1998-10-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/162-f-3d-98/united-states-v-ford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ford, 162 F.3d 98 (11th Cir. 1998)\",\"link_md\":\"[United States v. Ford, 162 F.3d 98 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/162-f-3d-98/united-states-v-ford)\",\"match_kind\":\"semantic\",\"similarity\":0.6492}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Ford w/15 \"250 A3d 1160\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 335845,
+    "case_name": "No. 75-2096",
+    "citations": [
+     "535 F.2d 1255"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1976-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/535-f-2d-1255/no-75-2096",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "No. 75-2096, 535 F.2d 1255 (6th Cir. 1976)",
+    "link_md": "[No. 75-2096, 535 F.2d 1255 (6th Cir. 1976)](https://syfert.com/federal/circuits/cases/535-f-2d-1255/no-75-2096)",
+    "match_kind": "semantic",
+    "similarity": 0.6788
+   },
+   {
+    "cluster_id": 509251,
+    "case_name": "Adams (Henry) v. Ford Motor Co",
+    "citations": [
+     "852 F.2d 570",
+     "130 L.R.R.M. (BNA) 2584",
+     "1988 U.S. App. LEXIS 9346",
+     "1988 WL 70543"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1988-06-24",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/852-f-2d-570/adams-henry-v-ford-motor-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Adams (Henry) v. Ford Motor Co, 852 F.2d 570 (7th Cir. 1988)",
+    "link_md": "[Adams (Henry) v. Ford Motor Co, 852 F.2d 570 (7th Cir. 1988)](https://syfert.com/federal/circuits/cases/852-f-2d-570/adams-henry-v-ford-motor-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6781
+   },
+   {
+    "cluster_id": 470226,
+    "case_name": "Lugo v. Ford Motor Co",
+    "citations": [
+     "791 F.2d 170",
+     "1986 U.S. App. LEXIS 19057"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1986-05-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/791-f-2d-170/lugo-v-ford-motor-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lugo v. Ford Motor Co, 791 F.2d 170 (11th Cir. 1986)",
+    "link_md": "[Lugo v. Ford Motor Co, 791 F.2d 170 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/791-f-2d-170/lugo-v-ford-motor-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6689
+   },
+   {
+    "cluster_id": 734094,
+    "case_name": "Araujo v. Ford Motor Company",
+    "citations": [
+     "105 F.3d 672",
+     "1996 WL 763915"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-12-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/105-f-3d-672/araujo-v-ford-motor-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Araujo v. Ford Motor Co., 105 F.3d 672 (11th Cir. 1996)",
+    "link_md": "[Araujo v. Ford Motor Co., 105 F.3d 672 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/105-f-3d-672/araujo-v-ford-motor-company)",
+    "match_kind": "semantic",
+    "similarity": 0.6673
+   },
+   {
+    "cluster_id": 759615,
+    "case_name": "United States v. Ford",
+    "citations": [
+     "162 F.3d 97",
+     "1998 U.S. App. LEXIS 30361",
+     "1998 WL 754743"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1998-10-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/162-f-3d-97/united-states-v-ford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ford, 162 F.3d 97 (11th Cir. 1998)",
+    "link_md": "[United States v. Ford, 162 F.3d 97 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/162-f-3d-97/united-states-v-ford)",
+    "match_kind": "semantic",
+    "similarity": 0.6637
+   },
+   {
+    "cluster_id": 754452,
+    "case_name": "Robinson v. Ford Motor Company",
+    "citations": [
+     "144 F.3d 56",
+     "1998 U.S. App. LEXIS 12286",
+     "1998 WL 237170"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1998-05-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/144-f-3d-56/robinson-v-ford-motor-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Robinson v. Ford Motor Co., 144 F.3d 56 (11th Cir. 1998)",
+    "link_md": "[Robinson v. Ford Motor Co., 144 F.3d 56 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/144-f-3d-56/robinson-v-ford-motor-company)",
+    "match_kind": "semantic",
+    "similarity": 0.6629
+   },
+   {
+    "cluster_id": 759445,
+    "case_name": "Timmons v. Ford Motor Company",
+    "citations": [
+     "161 F.3d 22",
+     "1998 U.S. App. LEXIS 29908",
+     "1998 WL 717625"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1998-10-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/161-f-3d-22/timmons-v-ford-motor-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Timmons v. Ford Motor Co., 161 F.3d 22 (11th Cir. 1998)",
+    "link_md": "[Timmons v. Ford Motor Co., 161 F.3d 22 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/161-f-3d-22/timmons-v-ford-motor-company)",
+    "match_kind": "semantic",
+    "similarity": 0.6597
+   },
+   {
+    "cluster_id": 591915,
+    "case_name": "United States v. Ford",
+    "citations": [
+     "976 F.2d 742",
+     "1992 WL 278745"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1992-09-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/976-f-2d-742/united-states-v-ford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ford, 976 F.2d 742 (11th Cir. 1992)",
+    "link_md": "[United States v. Ford, 976 F.2d 742 (11th Cir. 1992)](https://syfert.com/federal/circuits/cases/976-f-2d-742/united-states-v-ford)",
+    "match_kind": "semantic",
+    "similarity": 0.659
+   },
+   {
+    "cluster_id": 460525,
+    "case_name": "Ford v. American Motors Corp",
+    "citations": [
+     "776 F.2d 1048"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1985-10-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/776-f-2d-1048/ford-v-american-motors-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ford v. Am. Motors Corp, 776 F.2d 1048 (5th Cir. 1985)",
+    "link_md": "[Ford v. Am. Motors Corp, 776 F.2d 1048 (5th Cir. 1985)](https://syfert.com/federal/circuits/cases/776-f-2d-1048/ford-v-american-motors-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6581
+   },
+   {
+    "cluster_id": 122855,
+    "case_name": "Austin v. Ford Models, Inc.",
+    "citations": [
+     "537 U.S. 848",
+     "123 S. Ct. 189"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2002-10-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/537-u-s-848/austin-v-ford-models-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (122855 and its twin 9250812). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Austin v. Ford Models, Inc., 537 U.S. 848 (2002)",
+    "link_md": "[Austin v. Ford Models, Inc., 537 U.S. 848 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-848/austin-v-ford-models-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6568
+   },
+   {
+    "cluster_id": 722306,
+    "case_name": "United States v. Ford",
+    "citations": [
+     "89 F.3d 854",
+     "1996 WL 346331"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-06-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/89-f-3d-854/united-states-v-ford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ford, 89 F.3d 854 (11th Cir. 1996)",
+    "link_md": "[United States v. Ford, 89 F.3d 854 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/89-f-3d-854/united-states-v-ford)",
+    "match_kind": "semantic",
+    "similarity": 0.6563
+   },
+   {
+    "cluster_id": 685470,
+    "case_name": "United States v. Ford",
+    "citations": [
+     "43 F.3d 677",
+     "1994 WL 720059"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-12-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/43-f-3d-677/united-states-v-ford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ford, 43 F.3d 677 (11th Cir. 1994)",
+    "link_md": "[United States v. Ford, 43 F.3d 677 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/43-f-3d-677/united-states-v-ford)",
+    "match_kind": "semantic",
+    "similarity": 0.6552
+   },
+   {
+    "cluster_id": 351143,
+    "case_name": "Nicholas Motors, Inc. v. Ford Motor Co",
+    "citations": [
+     "566 F.2d 1169"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1977-12-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/566-f-2d-1169/nicholas-motors-inc-v-ford-motor-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Nicholas Motors, Inc. v. Ford Motor Co, 566 F.2d 1169 (3d Cir. 1977)",
+    "link_md": "[Nicholas Motors, Inc. v. Ford Motor Co, 566 F.2d 1169 (3d Cir. 1977)](https://syfert.com/federal/circuits/cases/566-f-2d-1169/nicholas-motors-inc-v-ford-motor-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6547
+   },
+   {
+    "cluster_id": 416314,
+    "case_name": "Polk Tractor v. Ford Motor Co",
+    "citations": [
+     "703 F.2d 580",
+     "1983 U.S. App. LEXIS 29654"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1983-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/703-f-2d-580/polk-tractor-v-ford-motor-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Polk Tractor v. Ford Motor Co, 703 F.2d 580 (11th Cir. 1983)",
+    "link_md": "[Polk Tractor v. Ford Motor Co, 703 F.2d 580 (11th Cir. 1983)](https://syfert.com/federal/circuits/cases/703-f-2d-580/polk-tractor-v-ford-motor-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6539
+   },
+   {
+    "cluster_id": 475707,
+    "case_name": "Town & Country Ford v. Ford Motor",
+    "citations": [
+     "800 F.2d 266"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1986-08-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/800-f-2d-266/town-country-ford-v-ford-motor",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Town & Country Ford v. Ford Motor, 800 F.2d 266 (11th Cir. 1986)",
+    "link_md": "[Town & Country Ford v. Ford Motor, 800 F.2d 266 (11th Cir. 1986)](https://syfert.com/federal/circuits/cases/800-f-2d-266/town-country-ford-v-ford-motor)",
+    "match_kind": "semantic",
+    "similarity": 0.6526
+   },
+   {
+    "cluster_id": 516378,
+    "case_name": "United States v. Ford",
+    "citations": [
+     "864 F.2d 793",
+     "1988 WL 136428"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1988-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/864-f-2d-793/united-states-v-ford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ford, 864 F.2d 793 (11th Cir. 1988)",
+    "link_md": "[United States v. Ford, 864 F.2d 793 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/864-f-2d-793/united-states-v-ford)",
+    "match_kind": "semantic",
+    "similarity": 0.6511
+   },
+   {
+    "cluster_id": 667685,
+    "case_name": "Short v. Ford Motor Company",
+    "citations": [
+     "21 F.3d 1107"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1994-04-19",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/circuits/cases/21-f-3d-1107/short-v-ford-motor-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Short v. Ford Motor Co., 21 F.3d 1107 (5th Cir. 1994)",
+    "link_md": "[Short v. Ford Motor Co., 21 F.3d 1107 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/21-f-3d-1107/short-v-ford-motor-company)",
+    "match_kind": "semantic",
+    "similarity": 0.6508
+   },
+   {
+    "cluster_id": 416823,
+    "case_name": "Akins v. Ford Motor Co",
+    "citations": [
+     "704 F.2d 1252",
+     "1983 U.S. App. LEXIS 28801"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1983-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/704-f-2d-1252/akins-v-ford-motor-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Akins v. Ford Motor Co, 704 F.2d 1252 (11th Cir. 1983)",
+    "link_md": "[Akins v. Ford Motor Co, 704 F.2d 1252 (11th Cir. 1983)](https://syfert.com/federal/circuits/cases/704-f-2d-1252/akins-v-ford-motor-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6502
+   },
+   {
+    "cluster_id": 2492248,
+    "case_name": "Alonso v. Ford Motor Co.",
+    "citations": [
+     "77 So. 3d 1253",
+     "2011 WL 6317489"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "2011-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/77-so-3d-1253/alonso-v-ford-motor-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Alonso v. Ford Motor Co., 77 So. 3d 1253 (Fla. 2011)",
+    "link_md": "[Alonso v. Ford Motor Co., 77 So. 3d 1253 (Fla. 2011)](https://syfert.com/florida/cases/77-so-3d-1253/alonso-v-ford-motor-co)",
+    "match_kind": "semantic",
+    "similarity": 0.65
+   },
+   {
+    "cluster_id": 759649,
+    "case_name": "United States v. Ford",
+    "citations": [
+     "162 F.3d 98",
+     "1998 U.S. App. LEXIS 30377",
+     "1998 WL 754764"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1998-10-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/162-f-3d-98/united-states-v-ford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ford, 162 F.3d 98 (11th Cir. 1998)",
+    "link_md": "[United States v. Ford, 162 F.3d 98 (11th Cir. 1998)](https://syfert.com/federal/circuits/cases/162-f-3d-98/united-states-v-ford)",
+    "match_kind": "semantic",
+    "similarity": 0.6492
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

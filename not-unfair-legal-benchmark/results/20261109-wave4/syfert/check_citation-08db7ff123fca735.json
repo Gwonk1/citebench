@@ -1,0 +1,354 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "189 A.D.3d 2107",
+  "expected_case_name": "People v. Woodward"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"189 A.D.3d 2107\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4842761,\n            \"case_name\": \"People v. Woodward\",\n            \"citations\": [\n                \"189 A.D.3d 2107\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"189 A.D.3d 2057\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4842755,\n                        \"case_name\": \"Rudy v. Altmar-Parish-Williamstown Cent. Sch. Dist.\"\n                    }\n                }\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2020-12-23\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/189-a-d-3d-2107/people-v-woodward\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"189 A.D.3d 2057\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"189 A.D.3d 2107\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 838\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 840\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 859\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                }\n            ],\n            \"bluebook\": \"People v. Woodward, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)\",\n            \"link_md\": \"[People v. Woodward, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/189-a-d-3d-2107/people-v-woodward)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        },\n        {\n            \"cluster_id\": 4842762,\n            \"case_name\": \"People v. Woodward\",\n            \"citations\": [\n                \"189 A.D.3d 2107\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"189 A.D.3d 2057\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4842755,\n                        \"case_name\": \"Rudy v. Altmar-Parish-Williamstown Cent. Sch. Dist.\"\n                    }\n                }\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2020-12-23\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/189-a-d-3d-2057/people-v-woodward\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"189 A.D.3d 2057\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"189 A.D.3d 2107\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 838\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 840\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 859\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                }\n            ],\n            \"bluebook\": \"People v. Woodward, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)\",\n            \"link_md\": \"[People v. Woodward, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/189-a-d-3d-2057/people-v-woodward)\",\n            \"twin_clusters\": [\n                4842763\n            ],\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        },\n        {\n            \"cluster_id\": 4842853,\n            \"case_name\": \"Garner v. Rosa Coplon Jewish Home & Infirmary\",\n            \"citations\": [\n                \"189 A.D.3d 2107\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"189 A.D.3d 2105\",\n                    \"this_case\": true\n                }\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2020-12-23\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/189-a-d-3d-2105/garner-v-rosa-coplon-jewish-home-infirmary\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"189 A.D.3d 2105\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"189 A.D.3d 2107\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 858\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 880\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                }\n            ],\n            \"bluebook\": \"Garner v. Rosa Coplon Jewish Home & Infirmary, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)\",\n            \"link_md\": \"[Garner v. Rosa Coplon Jewish Home & Infirmary, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/189-a-d-3d-2105/garner-v-rosa-coplon-jewish-home-infirmary)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        },\n        {\n            \"cluster_id\": 4842854,\n            \"case_name\": \"Garner v. Rosa Coplon Jewish Home & Infirmary\",\n            \"citations\": [\n                \"189 A.D.3d 2107\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"189 A.D.3d 2105\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4842853,\n                        \"case_name\": \"Garner v. Rosa Coplon Jewish Home & Infirmary\"\n                    }\n                }\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2020-12-23\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/cl-4842854/garner-v-rosa-coplon-jewish-home-infirmary\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"189 A.D.3d 2105\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"189 A.D.3d 2107\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 858\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                },\n                {\n                    \"citation\": \"134 N.Y.S.3d 880\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d\"\n                }\n            ],\n            \"bluebook\": \"Garner v. Rosa Coplon Jewish Home & Infirmary, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)\",\n            \"link_md\": \"[Garner v. Rosa Coplon Jewish Home & Infirmary, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/cl-4842854/garner-v-rosa-coplon-jewish-home-infirmary)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"twin_note\": \"Clusters 4842762 and 4842763 are the same decision filed twice (same citation, decision date, court and caption); answered as 4842762.\",\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Woodward\",\n        \"actual\": \"People v. Woodward\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "189 A.D.3d 2107",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4842761,
+    "case_name": "People v. Woodward",
+    "citations": [
+     "189 A.D.3d 2107"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "189 A.D.3d 2057",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4842755,
+       "case_name": "Rudy v. Altmar-Parish-Williamstown Cent. Sch. Dist."
+      }
+     }
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2020-12-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/189-a-d-3d-2107/people-v-woodward",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "189 A.D.3d 2057",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d"
+     },
+     {
+      "citation": "189 A.D.3d 2107",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 838",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 840",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 859",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "People v. Woodward, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)",
+    "link_md": "[People v. Woodward, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/189-a-d-3d-2107/people-v-woodward)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   },
+   {
+    "cluster_id": 4842762,
+    "case_name": "People v. Woodward",
+    "citations": [
+     "189 A.D.3d 2107"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "189 A.D.3d 2057",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4842755,
+       "case_name": "Rudy v. Altmar-Parish-Williamstown Cent. Sch. Dist."
+      }
+     }
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2020-12-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/189-a-d-3d-2057/people-v-woodward",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "189 A.D.3d 2057",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d"
+     },
+     {
+      "citation": "189 A.D.3d 2107",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 838",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 840",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 859",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "People v. Woodward, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)",
+    "link_md": "[People v. Woodward, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/189-a-d-3d-2057/people-v-woodward)",
+    "twin_clusters": [
+     4842763
+    ],
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   },
+   {
+    "cluster_id": 4842853,
+    "case_name": "Garner v. Rosa Coplon Jewish Home & Infirmary",
+    "citations": [
+     "189 A.D.3d 2107"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "189 A.D.3d 2105",
+      "this_case": true
+     }
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2020-12-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/189-a-d-3d-2105/garner-v-rosa-coplon-jewish-home-infirmary",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "189 A.D.3d 2105",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d"
+     },
+     {
+      "citation": "189 A.D.3d 2107",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 858",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 880",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "Garner v. Rosa Coplon Jewish Home & Infirmary, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)",
+    "link_md": "[Garner v. Rosa Coplon Jewish Home & Infirmary, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/189-a-d-3d-2105/garner-v-rosa-coplon-jewish-home-infirmary)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   },
+   {
+    "cluster_id": 4842854,
+    "case_name": "Garner v. Rosa Coplon Jewish Home & Infirmary",
+    "citations": [
+     "189 A.D.3d 2107"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "189 A.D.3d 2105",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4842853,
+       "case_name": "Garner v. Rosa Coplon Jewish Home & Infirmary"
+      }
+     }
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2020-12-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-4842854/garner-v-rosa-coplon-jewish-home-infirmary",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "189 A.D.3d 2105",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d"
+     },
+     {
+      "citation": "189 A.D.3d 2107",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/189%20A.D.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 858",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     },
+     {
+      "citation": "134 N.Y.S.3d 880",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/134%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "Garner v. Rosa Coplon Jewish Home & Infirmary, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)",
+    "link_md": "[Garner v. Rosa Coplon Jewish Home & Infirmary, 189 A.D.3d 2107 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/cl-4842854/garner-v-rosa-coplon-jewish-home-infirmary)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "twin_note": "Clusters 4842762 and 4842763 are the same decision filed twice (same citation, decision date, court and caption); answered as 4842762.",
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Woodward",
+   "actual": "People v. Woodward",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

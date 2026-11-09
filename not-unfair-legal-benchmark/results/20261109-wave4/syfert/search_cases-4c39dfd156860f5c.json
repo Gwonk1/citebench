@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Southern w/15 \"43 So. 478\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Southern w/15 \\\"43 So. 478\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7449471,\"bluebook\":\"Johnson v. Louisville & N. R. Co., 52 So. 2d 196 (Ala. 1951)\",\"url\":\"https://syfert.com/alabama/cases/255-ala-581/johnson-v-louisville-n-r-co\",\"date_filed\":\"1951-03-15\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...only a knowledge of the dangerous condition, but also an appreciation of the risk resulting or which may follow. Southern Railway Co. v. McGowan, 149 Ala. 440 (6), 43 So. 478 .\\nIn the case of Owens v. Union Pacific R. R. Co., 319 U.S.…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Southern w/15 \"43 So. 478\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7449471,
+    "bluebook": "Johnson v. Louisville & N. R. Co., 52 So. 2d 196 (Ala. 1951)",
+    "url": "https://syfert.com/alabama/cases/255-ala-581/johnson-v-louisville-n-r-co",
+    "date_filed": "1951-03-15",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...only a knowledge of the dangerous condition, but also an appreciation of the risk resulting or which may follow. Southern Railway Co. v. McGowan, 149 Ala. 440 (6), 43 So. 478 .\nIn the case of Owens v. Union Pacific R. R. Co., 319 U.S.…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

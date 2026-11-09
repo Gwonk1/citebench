@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Torres w/15 \"181 N.J. 285\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Torres w/15 \\\"181 N.J. 285\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2326571,\"bluebook\":\"State v. Torres, 854 A.2d 920 (N.J. 2004)\",\"url\":\"https://syfert.com/new-jersey/cases/181-n-j-286/state-v-torres\",\"date_filed\":\"2004-07-26\",\"cited_by\":4,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"854 A.2d 920 (2004)\\n181 N.J. 285\\nSTATE v. TORRES\\nSupreme Court of New Jersey.\\nJuly 26, 2004.\\nPetition for certification granted.\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Torres w/15 \"181 N.J. 285\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2326571,
+    "bluebook": "State v. Torres, 854 A.2d 920 (N.J. 2004)",
+    "url": "https://syfert.com/new-jersey/cases/181-n-j-286/state-v-torres",
+    "date_filed": "2004-07-26",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "854 A.2d 920 (2004)\n181 N.J. 285\nSTATE v. TORRES\nSupreme Court of New Jersey.\nJuly 26, 2004.\nPetition for certification granted."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

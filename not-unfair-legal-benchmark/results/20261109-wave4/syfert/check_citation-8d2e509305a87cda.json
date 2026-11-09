@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "650 N.Y.S.2d 32",
+  "expected_case_name": "Carter v. Visconti"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"650 N.Y.S.2d 32\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6142244,\n            \"case_name\": \"Carter v. Visconti\",\n            \"citations\": [\n                \"650 N.Y.S.2d 32\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"1996-11-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 15,\n            \"url\": \"https://syfert.com/new-york/cases/233-a-d-2d-473/carter-v-visconti\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Carter v. Visconti, 650 N.Y.S.2d 32 (N.Y. App. Div. 2d Dep't 1996)\",\n            \"link_md\": \"[Carter v. Visconti, 650 N.Y.S.2d 32 (N.Y. App. Div. 2d Dep't 1996)](https://syfert.com/new-york/cases/233-a-d-2d-473/carter-v-visconti)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 8,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Carter v. Visconti\",\n        \"actual\": \"Carter v. Visconti\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "650 N.Y.S.2d 32",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6142244,
+    "case_name": "Carter v. Visconti",
+    "citations": [
+     "650 N.Y.S.2d 32"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1996-11-25",
+    "status": "Published",
+    "cited_by": 15,
+    "url": "https://syfert.com/new-york/cases/233-a-d-2d-473/carter-v-visconti",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Carter v. Visconti, 650 N.Y.S.2d 32 (N.Y. App. Div. 2d Dep't 1996)",
+    "link_md": "[Carter v. Visconti, 650 N.Y.S.2d 32 (N.Y. App. Div. 2d Dep't 1996)](https://syfert.com/new-york/cases/233-a-d-2d-473/carter-v-visconti)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 8,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Carter v. Visconti",
+   "actual": "Carter v. Visconti",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

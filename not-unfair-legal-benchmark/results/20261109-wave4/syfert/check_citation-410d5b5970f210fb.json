@@ -1,0 +1,207 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "335 So. 3d 1205",
+  "expected_case_name": "LOREDANA DESROCHES v. THE COUNTRY CLUB AT WOODFIELD, INC."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"335 So. 3d 1205\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6358039,\n            \"case_name\": \"Loredana Desroches v. The Country Club at Woodfield, Inc.\",\n            \"citations\": [\n                \"335 So. 3d 1205\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"335 So. 3d 1204\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 5294319,\n                        \"case_name\": \"Isabella Newan v. Acf Adoptions\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2022-02-17\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/335-so-3d-1205/loredana-desroches-v-the-country-club-at-woodfield-inc\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"335 So. 3d 1204\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/335%20So.3d\"\n                },\n                {\n                    \"citation\": \"335 So. 3d 1205\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/335%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Loredana Desroches v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)\",\n            \"link_md\": \"[Loredana Desroches v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1205/loredana-desroches-v-the-country-club-at-woodfield-inc)\",\n            \"case_name_raw\": \"LOREDANA DESROCHES v. THE COUNTRY CLUB AT WOODFIELD, INC.\"\n        },\n        {\n            \"cluster_id\": 6358040,\n            \"case_name\": \"Loredana Desroches v. The Country Club at Woodfield, Inc.\",\n            \"citations\": [\n                \"335 So. 3d 1205\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"335 So. 3d 1204\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 5294319,\n                        \"case_name\": \"Isabella Newan v. Acf Adoptions\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2022-02-17\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/335-so-3d-1204/loredana-desroches-v-the-country-club-at-woodfield-inc\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"335 So. 3d 1204\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/335%20So.3d\"\n                },\n                {\n                    \"citation\": \"335 So. 3d 1205\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/335%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Loredana Desroches v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)\",\n            \"link_md\": \"[Loredana Desroches v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1204/loredana-desroches-v-the-country-club-at-woodfield-inc)\",\n            \"case_name_raw\": \"LOREDANA DESROCHES v. THE COUNTRY CLUB AT WOODFIELD, INC.\"\n        },\n        {\n            \"cluster_id\": 6358051,\n            \"case_name\": \"Anouck C. Fauteux v. The Country Club at Woodfield, Inc.\",\n            \"citations\": [\n                \"335 So. 3d 1205\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2022-02-17\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/335-so-3d-1205/anouck-c-fauteux-v-the-country-club-at-woodfield-inc\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"335 So. 3d 1205\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/335%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Anouck C. Fauteux v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)\",\n            \"link_md\": \"[Anouck C. Fauteux v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1205/anouck-c-fauteux-v-the-country-club-at-woodfield-inc)\",\n            \"case_name_raw\": \"ANOUCK C. FAUTEUX v. THE COUNTRY CLUB AT WOODFIELD, INC.\"\n        },\n        {\n            \"cluster_id\": 6358052,\n            \"case_name\": \"Anouck C. Fauteux v. The Country Club at Woodfield, Inc.\",\n            \"citations\": [\n                \"335 So. 3d 1205\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2022-02-17\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/335-so-3d-1205/anouck-c-fauteux-v-the-country-club-at-woodfield-inc\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"335 So. 3d 1205\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/335%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Anouck C. Fauteux v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)\",\n            \"link_md\": \"[Anouck C. Fauteux v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1205/anouck-c-fauteux-v-the-country-club-at-woodfield-inc)\",\n            \"case_name_raw\": \"ANOUCK C. FAUTEUX v. THE COUNTRY CLUB AT WOODFIELD, INC.\"\n        },\n        {\n            \"cluster_id\": 6444967,\n            \"case_name\": \"Tavon Stone v. State of Florida\",\n            \"citations\": [\n                \"335 So. 3d 1205\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2022-02-24\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/335-so-3d-1205/tavon-stone-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"335 So. 3d 1205\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/335%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Tavon Stone v. State of Florida, 335 So. 3d 1205 (Fla. 4th DCA 2022)\",\n            \"link_md\": \"[Tavon Stone v. State of Florida, 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1205/tavon-stone-v-state-of-florida)\",\n            \"case_name_raw\": \"TAVON STONE v. STATE OF FLORIDA\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"LOREDANA DESROCHES v. THE COUNTRY CLUB AT WOODFIELD, INC.\",\n        \"actual\": \"LOREDANA DESROCHES v. THE COUNTRY CLUB AT WOODFIELD, INC.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "335 So. 3d 1205",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6358039,
+    "case_name": "Loredana Desroches v. The Country Club at Woodfield, Inc.",
+    "citations": [
+     "335 So. 3d 1205"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "335 So. 3d 1204",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 5294319,
+       "case_name": "Isabella Newan v. Acf Adoptions"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2022-02-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/335-so-3d-1205/loredana-desroches-v-the-country-club-at-woodfield-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "335 So. 3d 1204",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/335%20So.3d"
+     },
+     {
+      "citation": "335 So. 3d 1205",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/335%20So.3d"
+     }
+    ],
+    "bluebook": "Loredana Desroches v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)",
+    "link_md": "[Loredana Desroches v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1205/loredana-desroches-v-the-country-club-at-woodfield-inc)",
+    "case_name_raw": "LOREDANA DESROCHES v. THE COUNTRY CLUB AT WOODFIELD, INC."
+   },
+   {
+    "cluster_id": 6358040,
+    "case_name": "Loredana Desroches v. The Country Club at Woodfield, Inc.",
+    "citations": [
+     "335 So. 3d 1205"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "335 So. 3d 1204",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 5294319,
+       "case_name": "Isabella Newan v. Acf Adoptions"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2022-02-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/335-so-3d-1204/loredana-desroches-v-the-country-club-at-woodfield-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "335 So. 3d 1204",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/335%20So.3d"
+     },
+     {
+      "citation": "335 So. 3d 1205",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/335%20So.3d"
+     }
+    ],
+    "bluebook": "Loredana Desroches v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)",
+    "link_md": "[Loredana Desroches v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1204/loredana-desroches-v-the-country-club-at-woodfield-inc)",
+    "case_name_raw": "LOREDANA DESROCHES v. THE COUNTRY CLUB AT WOODFIELD, INC."
+   },
+   {
+    "cluster_id": 6358051,
+    "case_name": "Anouck C. Fauteux v. The Country Club at Woodfield, Inc.",
+    "citations": [
+     "335 So. 3d 1205"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2022-02-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/335-so-3d-1205/anouck-c-fauteux-v-the-country-club-at-woodfield-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "335 So. 3d 1205",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/335%20So.3d"
+     }
+    ],
+    "bluebook": "Anouck C. Fauteux v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)",
+    "link_md": "[Anouck C. Fauteux v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1205/anouck-c-fauteux-v-the-country-club-at-woodfield-inc)",
+    "case_name_raw": "ANOUCK C. FAUTEUX v. THE COUNTRY CLUB AT WOODFIELD, INC."
+   },
+   {
+    "cluster_id": 6358052,
+    "case_name": "Anouck C. Fauteux v. The Country Club at Woodfield, Inc.",
+    "citations": [
+     "335 So. 3d 1205"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2022-02-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/335-so-3d-1205/anouck-c-fauteux-v-the-country-club-at-woodfield-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "335 So. 3d 1205",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/335%20So.3d"
+     }
+    ],
+    "bluebook": "Anouck C. Fauteux v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)",
+    "link_md": "[Anouck C. Fauteux v. Country Club at Woodfield, Inc., 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1205/anouck-c-fauteux-v-the-country-club-at-woodfield-inc)",
+    "case_name_raw": "ANOUCK C. FAUTEUX v. THE COUNTRY CLUB AT WOODFIELD, INC."
+   },
+   {
+    "cluster_id": 6444967,
+    "case_name": "Tavon Stone v. State of Florida",
+    "citations": [
+     "335 So. 3d 1205"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2022-02-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/335-so-3d-1205/tavon-stone-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "335 So. 3d 1205",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/335%20So.3d"
+     }
+    ],
+    "bluebook": "Tavon Stone v. State of Florida, 335 So. 3d 1205 (Fla. 4th DCA 2022)",
+    "link_md": "[Tavon Stone v. State of Florida, 335 So. 3d 1205 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/335-so-3d-1205/tavon-stone-v-state-of-florida)",
+    "case_name_raw": "TAVON STONE v. STATE OF FLORIDA"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "LOREDANA DESROCHES v. THE COUNTRY CLUB AT WOODFIELD, INC.",
+   "actual": "LOREDANA DESROCHES v. THE COUNTRY CLUB AT WOODFIELD, INC.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

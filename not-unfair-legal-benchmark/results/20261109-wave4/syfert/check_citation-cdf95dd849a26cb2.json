@@ -1,0 +1,71 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "240 A.3d 19",
+  "expected_case_name": "Harris v. State"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"240 A.3d 19\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4796230,\n            \"case_name\": \"Harris v. State\",\n            \"citations\": [\n                \"240 A.3d 19\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"240 A.3d 18\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4795743,\n                        \"case_name\": \"Hurst v. State\"\n                    }\n                }\n            ],\n            \"court\": \"Supreme Court of Delaware\",\n            \"date_filed\": \"2020-10-12\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/delaware/cases/240-a-3d-19/harris-v-state\",\n            \"cited_by_note\": \"CourtListener records no citations for any of this decision's 2 clusters (4796230 and its twin 4795744). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"240 A.3d 18\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/240%20A.3d\"\n                },\n                {\n                    \"citation\": \"240 A.3d 19\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/240%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Harris v. State, 240 A.3d 19 (Del. 2020)\",\n            \"link_md\": \"[Harris v. State, 240 A.3d 19 (Del. 2020)](https://syfert.com/delaware/cases/240-a-3d-19/harris-v-state)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Harris v. State\",\n        \"actual\": \"Harris v. State\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "240 A.3d 19",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4796230,
+    "case_name": "Harris v. State",
+    "citations": [
+     "240 A.3d 19"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "240 A.3d 18",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4795743,
+       "case_name": "Hurst v. State"
+      }
+     }
+    ],
+    "court": "Supreme Court of Delaware",
+    "date_filed": "2020-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/delaware/cases/240-a-3d-19/harris-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (4796230 and its twin 4795744). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "240 A.3d 18",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/240%20A.3d"
+     },
+     {
+      "citation": "240 A.3d 19",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/240%20A.3d"
+     }
+    ],
+    "bluebook": "Harris v. State, 240 A.3d 19 (Del. 2020)",
+    "link_md": "[Harris v. State, 240 A.3d 19 (Del. 2020)](https://syfert.com/delaware/cases/240-a-3d-19/harris-v-state)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Harris v. State",
+   "actual": "Harris v. State",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

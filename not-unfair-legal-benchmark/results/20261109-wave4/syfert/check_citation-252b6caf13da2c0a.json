@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "69 N.W.2d 861",
+  "expected_case_name": "Selig v. Wunderlich Contracting Company"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"69 N.W.2d 861\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1230777,\n            \"case_name\": \"Selig v. Wunderlich Contracting Company\",\n            \"citations\": [\n                \"69 N.W.2d 861\"\n            ],\n            \"court\": \"Nebraska Supreme Court\",\n            \"date_filed\": \"1955-04-22\",\n            \"status\": \"Published\",\n            \"cited_by\": 12,\n            \"url\": \"https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Selig v. Wunderlich Contracting Co., 69 N.W.2d 861 (Neb. 1955)\",\n            \"link_md\": \"[Selig v. Wunderlich Contracting Co., 69 N.W.2d 861 (Neb. 1955)](https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 13,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Selig v. Wunderlich Contracting Company\",\n        \"actual\": \"Selig v. Wunderlich Contracting Company\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "69 N.W.2d 861",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1230777,
+    "case_name": "Selig v. Wunderlich Contracting Company",
+    "citations": [
+     "69 N.W.2d 861"
+    ],
+    "court": "Nebraska Supreme Court",
+    "date_filed": "1955-04-22",
+    "status": "Published",
+    "cited_by": 12,
+    "url": "https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Selig v. Wunderlich Contracting Co., 69 N.W.2d 861 (Neb. 1955)",
+    "link_md": "[Selig v. Wunderlich Contracting Co., 69 N.W.2d 861 (Neb. 1955)](https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 13,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Selig v. Wunderlich Contracting Company",
+   "actual": "Selig v. Wunderlich Contracting Company",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

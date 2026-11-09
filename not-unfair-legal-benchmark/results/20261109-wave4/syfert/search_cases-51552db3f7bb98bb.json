@@ -1,0 +1,31 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Steele w/15 \"760 N.Y.S.2d 188\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Steele w/15 \\\"760 N.Y.S.2d 188\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10752723,\"bluebook\":\"Wolosyn v. CDS MSL Hard Rd. 2 Hous. Dev. Fund Co., 2025 NY Slip Op 51928(U) (2025)\",\"url\":\"https://syfert.com/new-york/cases/cl-10752723/wolosyn-v-cds-msl-hard-rd-2-hous-dev-fund-co-inc\",\"date_filed\":\"2025-12-09\",\"cited_by\":0,\"status\":\"Unpublished\",\"snippet\":\"...See, e.g., Steele v. Hempstead Pub Taxi , 2003, 305 AD2d 401, 760 N.Y.S.2d 188 (2d Dep't). Indeed, the United States Supreme Court has held that it is unconstitutional to require a defendant to proffer a defense on the merits as a…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Steele w/15 \"760 N.Y.S.2d 188\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10752723,
+    "bluebook": "Wolosyn v. CDS MSL Hard Rd. 2 Hous. Dev. Fund Co., 2025 NY Slip Op 51928(U) (2025)",
+    "url": "https://syfert.com/new-york/cases/cl-10752723/wolosyn-v-cds-msl-hard-rd-2-hous-dev-fund-co-inc",
+    "date_filed": "2025-12-09",
+    "cited_by": 0,
+    "status": "Unpublished",
+    "snippet": "...See, e.g., Steele v. Hempstead Pub Taxi , 2003, 305 AD2d 401, 760 N.Y.S.2d 188 (2d Dep't). Indeed, the United States Supreme Court has held that it is unconstitutional to require a defendant to proffer a defense on the merits as a…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

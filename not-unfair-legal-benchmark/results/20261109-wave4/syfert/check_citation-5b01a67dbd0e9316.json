@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "940 N.Y.S.2d 170",
+  "expected_case_name": "Coleman v. Crumb Rubber Manufacturers"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"940 N.Y.S.2d 170\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5985561,\n            \"case_name\": \"Coleman v. Crumb Rubber Manufacturers\",\n            \"citations\": [\n                \"940 N.Y.S.2d 170\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2012-02-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 13,\n            \"url\": \"https://syfert.com/new-york/cases/92-a-d-3d-1128/coleman-v-crumb-rubber-manufacturers\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Coleman v. Crumb Rubber Mfrs., 940 N.Y.S.2d 170 (N.Y. App. Div. 3d Dep't 2012)\",\n            \"link_md\": \"[Coleman v. Crumb Rubber Mfrs., 940 N.Y.S.2d 170 (N.Y. App. Div. 3d Dep't 2012)](https://syfert.com/new-york/cases/92-a-d-3d-1128/coleman-v-crumb-rubber-manufacturers)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 11,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Coleman v. Crumb Rubber Manufacturers\",\n        \"actual\": \"Coleman v. Crumb Rubber Manufacturers\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "940 N.Y.S.2d 170",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5985561,
+    "case_name": "Coleman v. Crumb Rubber Manufacturers",
+    "citations": [
+     "940 N.Y.S.2d 170"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2012-02-16",
+    "status": "Published",
+    "cited_by": 13,
+    "url": "https://syfert.com/new-york/cases/92-a-d-3d-1128/coleman-v-crumb-rubber-manufacturers",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. Crumb Rubber Mfrs., 940 N.Y.S.2d 170 (N.Y. App. Div. 3d Dep't 2012)",
+    "link_md": "[Coleman v. Crumb Rubber Mfrs., 940 N.Y.S.2d 170 (N.Y. App. Div. 3d Dep't 2012)](https://syfert.com/new-york/cases/92-a-d-3d-1128/coleman-v-crumb-rubber-manufacturers)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 11,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Coleman v. Crumb Rubber Manufacturers",
+   "actual": "Coleman v. Crumb Rubber Manufacturers",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

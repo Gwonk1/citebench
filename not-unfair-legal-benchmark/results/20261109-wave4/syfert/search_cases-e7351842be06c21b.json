@@ -1,0 +1,48 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "York w/15 \"892 N.Y.S.2d 110\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"York w/15 \\\"892 N.Y.S.2d 110\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10932352,\"bluebook\":\"Asinga v. Gatorade Co., 182 F.4th 222 (2d Cir. 2026)\",\"url\":\"https://syfert.com/federal/circuits/cases/182-f-4th-222/asinga-v-gatorade-co\",\"date_filed\":\"2026-07-17\",\"cited_by\":0,\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (10932352 and its twin 10932355). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"snippet\":\"...2013), New York Methodist Hosp. v. Carrier Corp., 892\\nN.Y.S.2d 110 , 111 (2d Dep’t 2009), Weiss v. Polymer Plastics Corp., 802\\nN.Y.S.2d 174, 175 (2d Dep’t 2005), City of N. Tonawanda v. Penn Power Grp.,\\nLLC, 254 N.Y.S.3d 798...\"},{\"cluster_id\":7325940,\"bluebook\":\"In re Gen. Motors LLC Ignition Switch Litig., 257 F. Supp. 3d 372 (S.D.N.Y. 2017)\",\"url\":\"https://syfert.com/federal/district/cases/257-f-supp-3d-372/in-re-general-motors-llc-ignition-switch-litigation\",\"date_filed\":\"2017-06-30\",\"cited_by\":71,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Polymer Plastics Corp., 21 A.D.3d 1095 , 802 N.Y.S.2d 174 (2005), and New York Methodist Hospital v. Carrier Corporation, 68 A.D.3d 830 , 892 N.Y.S.2d 110 (2009)), the Court declines the invitation. Assuming for the' sake of argument…\",\"holding\":\"A plaintiff is prohibited from bringing a claim for unjust enrichment where an adequate remedy at law exists regardless of the underlying legal theory.\",\"holding_ai_generated\":true,\"disposition\":\"reversed in part\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "York w/15 \"892 N.Y.S.2d 110\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10932352,
+    "bluebook": "Asinga v. Gatorade Co., 182 F.4th 222 (2d Cir. 2026)",
+    "url": "https://syfert.com/federal/circuits/cases/182-f-4th-222/asinga-v-gatorade-co",
+    "date_filed": "2026-07-17",
+    "cited_by": 0,
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (10932352 and its twin 10932355). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "snippet": "...2013), New York Methodist Hosp. v. Carrier Corp., 892\nN.Y.S.2d 110 , 111 (2d Dep’t 2009), Weiss v. Polymer Plastics Corp., 802\nN.Y.S.2d 174, 175 (2d Dep’t 2005), City of N. Tonawanda v. Penn Power Grp.,\nLLC, 254 N.Y.S.3d 798..."
+   },
+   {
+    "cluster_id": 7325940,
+    "bluebook": "In re Gen. Motors LLC Ignition Switch Litig., 257 F. Supp. 3d 372 (S.D.N.Y. 2017)",
+    "url": "https://syfert.com/federal/district/cases/257-f-supp-3d-372/in-re-general-motors-llc-ignition-switch-litigation",
+    "date_filed": "2017-06-30",
+    "cited_by": 71,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Polymer Plastics Corp., 21 A.D.3d 1095 , 802 N.Y.S.2d 174 (2005), and New York Methodist Hospital v. Carrier Corporation, 68 A.D.3d 830 , 892 N.Y.S.2d 110 (2009)), the Court declines the invitation. Assuming for the' sake of argument…",
+    "holding": "A plaintiff is prohibited from bringing a claim for unjust enrichment where an adequate remedy at law exists regardless of the underlying legal theory.",
+    "holding_ai_generated": true,
+    "disposition": "reversed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

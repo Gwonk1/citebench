@@ -1,0 +1,39 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Fisher w/15 \"540 A.2d 1334\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Fisher w/15 \\\"540 A.2d 1334\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2087461,\"bluebook\":\"Fisher v. New Jersey Auto. Full Ins. Underwriting Ass'n, 540 A.2d 1344 (N.J. Super. Ct. App. Div. 1988)\",\"url\":\"https://syfert.com/new-jersey/cases/224-n-j-super-552/fisher-v-new-jersey-auto-full-ins-underwriting-assn\",\"date_filed\":\"1988-04-27\",\"cited_by\":42,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...552 (1988)\\n540 A.2d 1334\\nCAROL W. FISHER, PLAINTIFF-APPELLANT,\\nv.\\nNEW JERSEY AUTOMOBILE FULL INSURANCE UNDERWRITING ASSOCIATION, BY AND THROUGH ITS SERVICING CARRIER, HANOVER INSURANCE COMPANY, DEFENDANT-RESPONDENT.\\nSuperior Court of…\",\"holding\":\"An insurer's liability to an injured third party remains distinct from its liability to an insured whose misrepresentations render a policy void ab initio.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Fisher w/15 \"540 A.2d 1334\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2087461,
+    "bluebook": "Fisher v. New Jersey Auto. Full Ins. Underwriting Ass'n, 540 A.2d 1344 (N.J. Super. Ct. App. Div. 1988)",
+    "url": "https://syfert.com/new-jersey/cases/224-n-j-super-552/fisher-v-new-jersey-auto-full-ins-underwriting-assn",
+    "date_filed": "1988-04-27",
+    "cited_by": 42,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...552 (1988)\n540 A.2d 1334\nCAROL W. FISHER, PLAINTIFF-APPELLANT,\nv.\nNEW JERSEY AUTOMOBILE FULL INSURANCE UNDERWRITING ASSOCIATION, BY AND THROUGH ITS SERVICING CARRIER, HANOVER INSURANCE COMPANY, DEFENDANT-RESPONDENT.\nSuperior Court of…",
+    "holding": "An insurer's liability to an injured third party remains distinct from its liability to an insured whose misrepresentations render a policy void ab initio.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

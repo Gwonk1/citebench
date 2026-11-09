@@ -1,0 +1,125 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Kupperschmidt w/15 \"143 N.E. 256\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Kupperschmidt w/15 \\\"143 N.E. 256\\\"\",\"total\":8,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1257396,\"bluebook\":\"People v. Williams, 46 P.2d 796 (Cal. Ct. App. 1935)\",\"url\":\"https://syfert.com/california/cases/7-cal-app-2d-600/people-v-williams\",\"date_filed\":\"1935-06-14\",\"cited_by\":7,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...with differing views.\\n(Leon\\nv.\\nState,\\n21 Ariz. 418 [ 189 Pac. 433 , 9 A. L. R. 1393, 1397];\\nPeople\\nv.\\nKupperschmidt,\\n237 N. Y. 463 [ 143 N. E. 256 , 32 A. L. R. 447];\\nIn re Morton,\\n179 Cal. 510, 513, 514 [177 Pac.\\n453]; People\\nv.…\"},{\"cluster_id\":250958,\"bluebook\":\"James Burton Ing v. United States, 278 F.2d 362 (9th Cir. 1960)\",\"url\":\"https://syfert.com/federal/circuits/cases/278-f-2d-362/james-burton-ing-and-raymond-wright-v-united-states\",\"date_filed\":\"1960-05-12\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...so-called minority view that the thief is an accomplice of one to whom he sells stolen property. People v. Kupperschmidt, 1924, 237 N.Y. 463 , 143 N.E. 256 , 32 A.L.R. 447 ; State v. Coroles, 1929, 74 Utah 94 , 277 P. 203 . The minority…\"},{\"cluster_id\":1269510,\"bluebook\":\"State v. McKnight, 281 P.2d 816 (Mont. 1955)\",\"url\":\"https://syfert.com/montana/cases/129-mont-8/state-v-mcknight\",\"date_filed\":\"1955-03-25\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...the owner from again possessing the property, is a principal and properly prosecuted as such. ’ ’\\nJustice Pound in People v. Kupperschmidt, 237 N. Y. 463 , 143 N. E. 256 , 257, 32 A. L. R. 447, sets forth their penal law, section 2,…\"},{\"cluster_id\":8734065,\"bluebook\":\"United States v. Stephenson, 110 F. Supp. 623 (D. Alaska 1953)\",\"url\":\"https://syfert.com/federal/district/cases/110-f-supp-623/united-states-v-stephenson\",\"date_filed\":\"1953-03-09\",\"cited_by\":0,\"snippet\":\"...instant case bring it within the many exceptions. In support of that contention, defendant cites the case of People v. Kupperschmidt, 237 N.Y. 463 , 143 N.E. 256 , annotated in 32 A.L.R. 447 . It is true that in the latter case, the…\"},{\"cluster_id\":3569210,\"bluebook\":\"State v. Sheeley, 162 P.2d 96 (Nev. 1945)\",\"url\":\"https://syfert.com/nevada/cases/63-nev-88/state-v-sheeley\",\"date_filed\":\"1945-09-20\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...in New York is that the thief can be an accomplice of the one who receives stolen property. People v. Kupperschmidt, 237 N. Y. 463 , 143 N. E. 256 , 32 A. L. R. 447. The distinction, as made in California because of the said statute of…\",\"holding\":\"Larceny and receiving stolen property are separate and distinct crimes, allowing a person to be convicted of receiving stolen property even if they acted as an accessory to the larceny.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":4214265,\"bluebook\":\"State v. Coroles, 277 P. 203 (Utah 1929)\",\"url\":\"https://syfert.com/utah/cases/74-utah-94/state-v-coroles\",\"date_filed\":\"1929-04-12\",\"cited_by\":18,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...ours in its definition of who are principals. The court held that the thief and receiver are accomplices.\\nPeople\\nv.\\nKupperschmidt,\\n237 N. Y. 463 , 143 N. E. 256 , 32 A. L. R. 447. Reasons for which we think are sound are given for this…\"},{\"cluster_id\":3564540,\"bluebook\":\"State v. Mercer, 133 P.2d 358 (Mont. 1943)\",\"url\":\"https://syfert.com/montana/cases/114-mont-142/state-v-mercer\",\"date_filed\":\"1943-01-13\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...stolen property for sale leads directly to the crime of receiving it.\\nAs Justice Pound well said in\\nPeople\\nv.\\nKupperschmidt,\\n237\\nN. Y. 463, 143 N. E. 256 , 32 A. L. R. 447: \\\"The question is. whether the thief who delivers stolen goods…\"},{\"cluster_id\":4051721,\"bluebook\":\"Yeargain v. State, 45 P.2d 1113 (Okla. Crim. App. 1935)\",\"url\":\"https://syfert.com/oklahoma/cases/57-okla-crim-136/yeargain-v-state\",\"date_filed\":\"1935-06-05\",\"cited_by\":24,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...ours in its definition of who are principals. The court held that the thief and receiver are accomplices. People v. Kupperschmidt, 237 N. Y. 463 , 143 N. E. 256 , 32 A. L. R. 447. Reasons which we think are sound are given for this…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Kupperschmidt w/15 \"143 N.E. 256\"",
+  "total": 8,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1257396,
+    "bluebook": "People v. Williams, 46 P.2d 796 (Cal. Ct. App. 1935)",
+    "url": "https://syfert.com/california/cases/7-cal-app-2d-600/people-v-williams",
+    "date_filed": "1935-06-14",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...with differing views.\n(Leon\nv.\nState,\n21 Ariz. 418 [ 189 Pac. 433 , 9 A. L. R. 1393, 1397];\nPeople\nv.\nKupperschmidt,\n237 N. Y. 463 [ 143 N. E. 256 , 32 A. L. R. 447];\nIn re Morton,\n179 Cal. 510, 513, 514 [177 Pac.\n453]; People\nv.…"
+   },
+   {
+    "cluster_id": 250958,
+    "bluebook": "James Burton Ing v. United States, 278 F.2d 362 (9th Cir. 1960)",
+    "url": "https://syfert.com/federal/circuits/cases/278-f-2d-362/james-burton-ing-and-raymond-wright-v-united-states",
+    "date_filed": "1960-05-12",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...so-called minority view that the thief is an accomplice of one to whom he sells stolen property. People v. Kupperschmidt, 1924, 237 N.Y. 463 , 143 N.E. 256 , 32 A.L.R. 447 ; State v. Coroles, 1929, 74 Utah 94 , 277 P. 203 . The minority…"
+   },
+   {
+    "cluster_id": 1269510,
+    "bluebook": "State v. McKnight, 281 P.2d 816 (Mont. 1955)",
+    "url": "https://syfert.com/montana/cases/129-mont-8/state-v-mcknight",
+    "date_filed": "1955-03-25",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...the owner from again possessing the property, is a principal and properly prosecuted as such. ’ ’\nJustice Pound in People v. Kupperschmidt, 237 N. Y. 463 , 143 N. E. 256 , 257, 32 A. L. R. 447, sets forth their penal law, section 2,…"
+   },
+   {
+    "cluster_id": 8734065,
+    "bluebook": "United States v. Stephenson, 110 F. Supp. 623 (D. Alaska 1953)",
+    "url": "https://syfert.com/federal/district/cases/110-f-supp-623/united-states-v-stephenson",
+    "date_filed": "1953-03-09",
+    "cited_by": 0,
+    "snippet": "...instant case bring it within the many exceptions. In support of that contention, defendant cites the case of People v. Kupperschmidt, 237 N.Y. 463 , 143 N.E. 256 , annotated in 32 A.L.R. 447 . It is true that in the latter case, the…"
+   },
+   {
+    "cluster_id": 3569210,
+    "bluebook": "State v. Sheeley, 162 P.2d 96 (Nev. 1945)",
+    "url": "https://syfert.com/nevada/cases/63-nev-88/state-v-sheeley",
+    "date_filed": "1945-09-20",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...in New York is that the thief can be an accomplice of the one who receives stolen property. People v. Kupperschmidt, 237 N. Y. 463 , 143 N. E. 256 , 32 A. L. R. 447. The distinction, as made in California because of the said statute of…",
+    "holding": "Larceny and receiving stolen property are separate and distinct crimes, allowing a person to be convicted of receiving stolen property even if they acted as an accessory to the larceny.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 4214265,
+    "bluebook": "State v. Coroles, 277 P. 203 (Utah 1929)",
+    "url": "https://syfert.com/utah/cases/74-utah-94/state-v-coroles",
+    "date_filed": "1929-04-12",
+    "cited_by": 18,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...ours in its definition of who are principals. The court held that the thief and receiver are accomplices.\nPeople\nv.\nKupperschmidt,\n237 N. Y. 463 , 143 N. E. 256 , 32 A. L. R. 447. Reasons for which we think are sound are given for this…"
+   },
+   {
+    "cluster_id": 3564540,
+    "bluebook": "State v. Mercer, 133 P.2d 358 (Mont. 1943)",
+    "url": "https://syfert.com/montana/cases/114-mont-142/state-v-mercer",
+    "date_filed": "1943-01-13",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...stolen property for sale leads directly to the crime of receiving it.\nAs Justice Pound well said in\nPeople\nv.\nKupperschmidt,\n237\nN. Y. 463, 143 N. E. 256 , 32 A. L. R. 447: \"The question is. whether the thief who delivers stolen goods…"
+   },
+   {
+    "cluster_id": 4051721,
+    "bluebook": "Yeargain v. State, 45 P.2d 1113 (Okla. Crim. App. 1935)",
+    "url": "https://syfert.com/oklahoma/cases/57-okla-crim-136/yeargain-v-state",
+    "date_filed": "1935-06-05",
+    "cited_by": 24,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...ours in its definition of who are principals. The court held that the thief and receiver are accomplices. People v. Kupperschmidt, 237 N. Y. 463 , 143 N. E. 256 , 32 A. L. R. 447. Reasons which we think are sound are given for this…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

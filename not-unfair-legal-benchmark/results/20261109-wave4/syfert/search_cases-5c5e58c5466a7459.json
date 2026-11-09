@@ -1,0 +1,416 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Flamm w/15 \"139 P. 981\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Flamm w/15 \\\"139 P. 981\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7863139,\"case_name\":\"Randazzo v. Louisiana Mutual Aid Fire Indemnity Society\",\"citations\":[\"13 Tiess. 223\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"1916-03-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/cl-7863139/randazzo-v-louisiana-mutual-aid-fire-indemnity-society\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Randazzo v. Louisiana Mut. Aid Fire Indem. Soc'y, 13 Tiess. 223 (La. Ct. App. 1916)\",\"link_md\":\"[Randazzo v. Louisiana Mut. Aid Fire Indem. Soc'y, 13 Tiess. 223 (La. Ct. App. 1916)](https://syfert.com/louisiana/cases/cl-7863139/randazzo-v-louisiana-mutual-aid-fire-indemnity-society)\",\"match_kind\":\"semantic\",\"similarity\":0.5795},{\"cluster_id\":8775298,\"case_name\":\"General Fire Extinguisher Co. v. Lamar\",\"citations\":[\"141 F. 353\",\"72 C.C.A. 501\",\"1905 U.S. App. LEXIS 4019\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1905-12-05\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/federal/circuits/cases/141-f-353/general-fire-extinguisher-co-v-lamar\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gen. Fire Extinguisher Co. v. Lamar, 141 F. 353 (5th Cir. 1905)\",\"link_md\":\"[Gen. Fire Extinguisher Co. v. Lamar, 141 F. 353 (5th Cir. 1905)](https://syfert.com/federal/circuits/cases/141-f-353/general-fire-extinguisher-co-v-lamar)\",\"match_kind\":\"semantic\",\"similarity\":0.5788},{\"cluster_id\":6292645,\"case_name\":\"Reckler v. British American Assurance Co.\",\"citations\":[\"194 Misc. 108\",\"85 N.Y.S.2d 183\",\"1949 N.Y. Misc. LEXIS 1661\"],\"court\":\"City of New York Municipal Court\",\"date_filed\":\"1949-01-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/194-misc-108/reckler-v-british-american-assurance-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Reckler v. British Am. Assurance Co., 194 Misc. 108 (N.Y. City Mun. Ct. 1949)\",\"link_md\":\"[Reckler v. British Am. Assurance Co., 194 Misc. 108 (N.Y. City Mun. Ct. 1949)](https://syfert.com/new-york/cases/194-misc-108/reckler-v-british-american-assurance-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5782},{\"cluster_id\":5409759,\"case_name\":\"Flammer v. Two Hundred & Fifty West One Hundred & Third Street Corp.\",\"citations\":[\"179 A.D. 888\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1917-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/179-a-d-888/flammer-v-two-hundred-fifty-west-one-hundred-third-street-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Flammer v. Two Hundred & Fifty West One Hundred & Third Street Corp., 179 A.D. 888 (N.Y. App. Div. 1917)\",\"link_md\":\"[Flammer v. Two Hundred & Fifty West One Hundred & Third Street Corp., 179 A.D. 888 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/179-a-d-888/flammer-v-two-hundred-fifty-west-one-hundred-third-street-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.5767},{\"cluster_id\":3528762,\"case_name\":\"Camden Fire Ins. Co. v. Peterman.\",\"citations\":[\"270 N.W. 807\",\"278 Mich. 615\",\"1937 Mich. LEXIS 815\"],\"court\":\"Michigan Supreme Court\",\"date_filed\":\"1937-01-04\",\"status\":\"Published\",\"cited_by\":11,\"url\":\"https://syfert.com/michigan/cases/278-mich-615/camden-fire-ins-co-v-peterman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Camden Fire Ins. Co. v. Peterman., 270 N.W. 807 (Mich. 1937)\",\"link_md\":\"[Camden Fire Ins. Co. v. Peterman., 270 N.W. 807 (Mich. 1937)](https://syfert.com/michigan/cases/278-mich-615/camden-fire-ins-co-v-peterman)\",\"match_kind\":\"semantic\",\"similarity\":0.5758},{\"cluster_id\":3280403,\"case_name\":\"Willson v. Superior Court\",\"citations\":[\"225 P. 881\",\"66 Cal. App. 275\",\"1924 Cal. App. LEXIS 538\"],\"court\":\"California Court of Appeal\",\"date_filed\":\"1924-03-20\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/california/cases/66-cal-app-275/willson-v-superior-court\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Willson v. Superior Court, 225 P. 881 (Cal. Ct. App. 1924)\",\"link_md\":\"[Willson v. Superior Court, 225 P. 881 (Cal. Ct. App. 1924)](https://syfert.com/california/cases/66-cal-app-275/willson-v-superior-court)\",\"match_kind\":\"semantic\",\"similarity\":0.5747},{\"cluster_id\":95528,\"case_name\":\"Mitchell v. Potomac Insurance\",\"citations\":[\"183 U.S. 42\",\"22 S. Ct. 22\",\"46 L. Ed. 74\",\"1901 U.S. LEXIS 1252\"],\"court\":\"Supreme Court\",\"date_filed\":\"1901-11-11\",\"status\":\"Published\",\"cited_by\":50,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/federal/scotus/cases/183-u-s-42/mitchell-v-potomac-insurance\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mitchell v. Potomac Ins., 183 U.S. 42 (1901)\",\"link_md\":\"[Mitchell v. Potomac Ins., 183 U.S. 42 (1901)](https://syfert.com/federal/scotus/cases/183-u-s-42/mitchell-v-potomac-insurance)\",\"match_kind\":\"semantic\",\"similarity\":0.5736},{\"cluster_id\":7236749,\"case_name\":\"Edwards v. Commonwealth\",\"citations\":[\"264 S.W. 1083\",\"204 Ky. 515\",\"1924 Ky. LEXIS 500\"],\"court\":\"Court of Appeals of Kentucky\",\"date_filed\":\"1924-09-26\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/kentucky/cases/204-ky-515/edwards-v-commonwealth\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Edwards v. Commonwealth, 264 S.W. 1083 (Ky. Ct. App. 1924)\",\"link_md\":\"[Edwards v. Commonwealth, 264 S.W. 1083 (Ky. Ct. App. 1924)](https://syfert.com/kentucky/cases/204-ky-515/edwards-v-commonwealth)\",\"match_kind\":\"semantic\",\"similarity\":0.5728},{\"cluster_id\":3164953,\"case_name\":\"State of Tennessee v. Elvis Strickland\",\"citations\":[],\"court\":\"Court of Criminal Appeals of Tennessee\",\"date_filed\":\"2015-12-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/tennessee/cases/cl-3164953/state-of-tennessee-v-elvis-strickland\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State of Tennessee v. Elvis Strickland, No. W2015-00153-CCA-R3-CD (Tenn. Crim. App. Dec. 22, 2015)\",\"link_md\":\"[State of Tennessee v. Elvis Strickland, No. W2015-00153-CCA-R3-CD (Tenn. Crim. App. Dec. 22, 2015)](https://syfert.com/tennessee/cases/cl-3164953/state-of-tennessee-v-elvis-strickland)\",\"match_kind\":\"semantic\",\"similarity\":0.5725},{\"cluster_id\":6652571,\"case_name\":\"Catalfamo v. Catalfamo\",\"citations\":[\"204 So. 3d 113\",\"2016 Fla. App. LEXIS 17247\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2016-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/204-so-3d-113/catalfamo-v-catalfamo\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Catalfamo v. Catalfamo, 204 So. 3d 113 (Fla. 5th DCA 2016)\",\"link_md\":\"[Catalfamo v. Catalfamo, 204 So. 3d 113 (Fla. 5th DCA 2016)](https://syfert.com/florida/cases/204-so-3d-113/catalfamo-v-catalfamo)\",\"match_kind\":\"semantic\",\"similarity\":0.5725},{\"cluster_id\":6126824,\"case_name\":\"Zureck v. Wheeler\",\"citations\":[\"217 A.D.2d 545\",\"629 N.Y.S.2d 68\",\"1995 N.Y. App. Div. LEXIS 7568\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1995-07-03\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/new-york/cases/217-a-d-2d-545/zureck-v-wheeler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Zureck v. Wheeler, 217 A.D.2d 545 (N.Y. App. Div. 2d Dep't 1995)\",\"link_md\":\"[Zureck v. Wheeler, 217 A.D.2d 545 (N.Y. App. Div. 2d Dep't 1995)](https://syfert.com/new-york/cases/217-a-d-2d-545/zureck-v-wheeler)\",\"match_kind\":\"semantic\",\"similarity\":0.5707},{\"cluster_id\":3637779,\"case_name\":\"Matter of Flammer v. Bethlehem Steel Company\",\"citations\":[\"66 N.E.2d 588\",\"295 N.Y. 817\",\"1946 N.Y. LEXIS 977\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1946-03-07\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/295-n-y-817/matter-of-flammer-v-bethlehem-steel-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Flammer v. Bethlehem Steel Co., 66 N.E.2d 588 (N.Y. 1946)\",\"link_md\":\"[Matter of Flammer v. Bethlehem Steel Co., 66 N.E.2d 588 (N.Y. 1946)](https://syfert.com/new-york/cases/295-n-y-817/matter-of-flammer-v-bethlehem-steel-company)\",\"match_kind\":\"semantic\",\"similarity\":0.5686},{\"cluster_id\":1727334,\"case_name\":\"Peoples v. State\",\"citations\":[\"760 So. 2d 1141\",\"2000 WL 903600\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2000-07-07\",\"status\":\"Published\",\"cited_by\":1,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/florida/cases/760-so-2d-1141/peoples-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Peoples v. State, 760 So. 2d 1141 (Fla. 5th DCA 2000)\",\"link_md\":\"[Peoples v. State, 760 So. 2d 1141 (Fla. 5th DCA 2000)](https://syfert.com/florida/cases/760-so-2d-1141/peoples-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5669},{\"cluster_id\":7836280,\"case_name\":\"I.M. v. State\",\"citations\":[\"917 So. 2d 927\",\"2005 Fla. App. LEXIS 19680\",\"2005 WL 3406328\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2005-12-14\",\"status\":\"Published\",\"cited_by\":21,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/florida/cases/917-so-2d-927/im-v-state\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (7836280 and its twin 1091443).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"I.M. v. State, 917 So. 2d 927 (Fla. 1st DCA 2005)\",\"link_md\":\"[I.M. v. State, 917 So. 2d 927 (Fla. 1st DCA 2005)](https://syfert.com/florida/cases/917-so-2d-927/im-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5652,\"twin_clusters\":[1091443,7836280]},{\"cluster_id\":3643582,\"case_name\":\"Wood v. . the North Western Ins. Co.\",\"citations\":[\"46 N.Y. 421\",\"1871 N.Y. LEXIS 272\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1871-11-10\",\"status\":\"Published\",\"cited_by\":16,\"url\":\"https://syfert.com/new-york/cases/46-n-y-421/wood-v-the-north-western-ins-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wood v. North W. Ins. Co., 46 N.Y. 421 (1871)\",\"link_md\":\"[Wood v. North W. Ins. Co., 46 N.Y. 421 (1871)](https://syfert.com/new-york/cases/46-n-y-421/wood-v-the-north-western-ins-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5645},{\"cluster_id\":279728,\"case_name\":\"Esquire Restaurant, Inc. v. The Commonwealth Insurance Company Of New York\",\"citations\":[\"393 F.2d 111\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1968-04-16\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/393-f-2d-111/esquire-restaurant-inc-v-the-commonwealth-insurance-company-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Esquire Restaurant, Inc. v. Commonwealth Ins. Co. Of New York, 393 F.2d 111 (7th Cir. 1968)\",\"link_md\":\"[Esquire Restaurant, Inc. v. Commonwealth Ins. Co. Of New York, 393 F.2d 111 (7th Cir. 1968)](https://syfert.com/federal/circuits/cases/393-f-2d-111/esquire-restaurant-inc-v-the-commonwealth-insurance-company-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.5635},{\"cluster_id\":5425515,\"case_name\":\"Flammer v. Fur Merchants Warehouse Corp.\",\"citations\":[\"198 A.D. 1015\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1921-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/198-a-d-1015/flammer-v-fur-merchants-warehouse-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Flammer v. Fur Merchants Warehouse Corp., 198 A.D. 1015 (N.Y. App. Div. 1921)\",\"link_md\":\"[Flammer v. Fur Merchants Warehouse Corp., 198 A.D. 1015 (N.Y. App. Div. 1921)](https://syfert.com/new-york/cases/198-a-d-1015/flammer-v-fur-merchants-warehouse-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.5633},{\"cluster_id\":1625754,\"case_name\":\"Economy Furniture, Inc. v. Jirasek\",\"citations\":[\"345 S.W.2d 951\"],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"1961-04-12\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/texas/cases/345-s-w-2d-951/economy-furniture-inc-v-jirasek\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Econ. Furniture, Inc. v. Jirasek, 345 S.W.2d 951 (Tex. Civ. App.—Austin 1961)\",\"link_md\":\"[Econ. Furniture, Inc. v. Jirasek, 345 S.W.2d 951 (Tex. Civ. App.—Austin 1961)](https://syfert.com/texas/cases/345-s-w-2d-951/economy-furniture-inc-v-jirasek)\",\"match_kind\":\"semantic\",\"similarity\":0.5633},{\"cluster_id\":8546209,\"case_name\":\"Commonwealth v. Levine\",\"citations\":[\"3 Pa. D. & C. 439\",\"1923 Pa. Dist. & Cnty. Dec. LEXIS 1\"],\"court\":\"Philadelphia County Court of Oyer and Terminer\",\"date_filed\":\"1923-06-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/cl-8546209/commonwealth-v-levine\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Commonwealth v. Levine, 3 Pa. D. & C. 439 (Philadelphia Cty. Ct. Oy. Term. 1923)\",\"link_md\":\"[Commonwealth v. Levine, 3 Pa. D. & C. 439 (Philadelphia Cty. Ct. Oy. Term. 1923)](https://syfert.com/pennsylvania/cases/cl-8546209/commonwealth-v-levine)\",\"match_kind\":\"semantic\",\"similarity\":0.5627},{\"cluster_id\":6442560,\"case_name\":\"Fire Ass'n v. Gilmer\",\"citations\":[\"3 Walker 234\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1884-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/cl-6442560/fire-assn-v-gilmer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fire Ass'n v. Gilmer, 3 Walker 234 (Pa. 1884)\",\"link_md\":\"[Fire Ass'n v. Gilmer, 3 Walker 234 (Pa. 1884)](https://syfert.com/pennsylvania/cases/cl-6442560/fire-assn-v-gilmer)\",\"match_kind\":\"semantic\",\"similarity\":0.5626}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Flamm w/15 \"139 P. 981\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7863139,
+    "case_name": "Randazzo v. Louisiana Mutual Aid Fire Indemnity Society",
+    "citations": [
+     "13 Tiess. 223"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "1916-03-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/cl-7863139/randazzo-v-louisiana-mutual-aid-fire-indemnity-society",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Randazzo v. Louisiana Mut. Aid Fire Indem. Soc'y, 13 Tiess. 223 (La. Ct. App. 1916)",
+    "link_md": "[Randazzo v. Louisiana Mut. Aid Fire Indem. Soc'y, 13 Tiess. 223 (La. Ct. App. 1916)](https://syfert.com/louisiana/cases/cl-7863139/randazzo-v-louisiana-mutual-aid-fire-indemnity-society)",
+    "match_kind": "semantic",
+    "similarity": 0.5795
+   },
+   {
+    "cluster_id": 8775298,
+    "case_name": "General Fire Extinguisher Co. v. Lamar",
+    "citations": [
+     "141 F. 353",
+     "72 C.C.A. 501",
+     "1905 U.S. App. LEXIS 4019"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1905-12-05",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/federal/circuits/cases/141-f-353/general-fire-extinguisher-co-v-lamar",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gen. Fire Extinguisher Co. v. Lamar, 141 F. 353 (5th Cir. 1905)",
+    "link_md": "[Gen. Fire Extinguisher Co. v. Lamar, 141 F. 353 (5th Cir. 1905)](https://syfert.com/federal/circuits/cases/141-f-353/general-fire-extinguisher-co-v-lamar)",
+    "match_kind": "semantic",
+    "similarity": 0.5788
+   },
+   {
+    "cluster_id": 6292645,
+    "case_name": "Reckler v. British American Assurance Co.",
+    "citations": [
+     "194 Misc. 108",
+     "85 N.Y.S.2d 183",
+     "1949 N.Y. Misc. LEXIS 1661"
+    ],
+    "court": "City of New York Municipal Court",
+    "date_filed": "1949-01-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/194-misc-108/reckler-v-british-american-assurance-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Reckler v. British Am. Assurance Co., 194 Misc. 108 (N.Y. City Mun. Ct. 1949)",
+    "link_md": "[Reckler v. British Am. Assurance Co., 194 Misc. 108 (N.Y. City Mun. Ct. 1949)](https://syfert.com/new-york/cases/194-misc-108/reckler-v-british-american-assurance-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5782
+   },
+   {
+    "cluster_id": 5409759,
+    "case_name": "Flammer v. Two Hundred & Fifty West One Hundred & Third Street Corp.",
+    "citations": [
+     "179 A.D. 888"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1917-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/179-a-d-888/flammer-v-two-hundred-fifty-west-one-hundred-third-street-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Flammer v. Two Hundred & Fifty West One Hundred & Third Street Corp., 179 A.D. 888 (N.Y. App. Div. 1917)",
+    "link_md": "[Flammer v. Two Hundred & Fifty West One Hundred & Third Street Corp., 179 A.D. 888 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/179-a-d-888/flammer-v-two-hundred-fifty-west-one-hundred-third-street-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.5767
+   },
+   {
+    "cluster_id": 3528762,
+    "case_name": "Camden Fire Ins. Co. v. Peterman.",
+    "citations": [
+     "270 N.W. 807",
+     "278 Mich. 615",
+     "1937 Mich. LEXIS 815"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1937-01-04",
+    "status": "Published",
+    "cited_by": 11,
+    "url": "https://syfert.com/michigan/cases/278-mich-615/camden-fire-ins-co-v-peterman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Camden Fire Ins. Co. v. Peterman., 270 N.W. 807 (Mich. 1937)",
+    "link_md": "[Camden Fire Ins. Co. v. Peterman., 270 N.W. 807 (Mich. 1937)](https://syfert.com/michigan/cases/278-mich-615/camden-fire-ins-co-v-peterman)",
+    "match_kind": "semantic",
+    "similarity": 0.5758
+   },
+   {
+    "cluster_id": 3280403,
+    "case_name": "Willson v. Superior Court",
+    "citations": [
+     "225 P. 881",
+     "66 Cal. App. 275",
+     "1924 Cal. App. LEXIS 538"
+    ],
+    "court": "California Court of Appeal",
+    "date_filed": "1924-03-20",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/california/cases/66-cal-app-275/willson-v-superior-court",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Willson v. Superior Court, 225 P. 881 (Cal. Ct. App. 1924)",
+    "link_md": "[Willson v. Superior Court, 225 P. 881 (Cal. Ct. App. 1924)](https://syfert.com/california/cases/66-cal-app-275/willson-v-superior-court)",
+    "match_kind": "semantic",
+    "similarity": 0.5747
+   },
+   {
+    "cluster_id": 95528,
+    "case_name": "Mitchell v. Potomac Insurance",
+    "citations": [
+     "183 U.S. 42",
+     "22 S. Ct. 22",
+     "46 L. Ed. 74",
+     "1901 U.S. LEXIS 1252"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1901-11-11",
+    "status": "Published",
+    "cited_by": 50,
+    "disposition": "affirmed",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/federal/scotus/cases/183-u-s-42/mitchell-v-potomac-insurance",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mitchell v. Potomac Ins., 183 U.S. 42 (1901)",
+    "link_md": "[Mitchell v. Potomac Ins., 183 U.S. 42 (1901)](https://syfert.com/federal/scotus/cases/183-u-s-42/mitchell-v-potomac-insurance)",
+    "match_kind": "semantic",
+    "similarity": 0.5736
+   },
+   {
+    "cluster_id": 7236749,
+    "case_name": "Edwards v. Commonwealth",
+    "citations": [
+     "264 S.W. 1083",
+     "204 Ky. 515",
+     "1924 Ky. LEXIS 500"
+    ],
+    "court": "Court of Appeals of Kentucky",
+    "date_filed": "1924-09-26",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/kentucky/cases/204-ky-515/edwards-v-commonwealth",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Edwards v. Commonwealth, 264 S.W. 1083 (Ky. Ct. App. 1924)",
+    "link_md": "[Edwards v. Commonwealth, 264 S.W. 1083 (Ky. Ct. App. 1924)](https://syfert.com/kentucky/cases/204-ky-515/edwards-v-commonwealth)",
+    "match_kind": "semantic",
+    "similarity": 0.5728
+   },
+   {
+    "cluster_id": 3164953,
+    "case_name": "State of Tennessee v. Elvis Strickland",
+    "citations": [],
+    "court": "Court of Criminal Appeals of Tennessee",
+    "date_filed": "2015-12-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/tennessee/cases/cl-3164953/state-of-tennessee-v-elvis-strickland",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State of Tennessee v. Elvis Strickland, No. W2015-00153-CCA-R3-CD (Tenn. Crim. App. Dec. 22, 2015)",
+    "link_md": "[State of Tennessee v. Elvis Strickland, No. W2015-00153-CCA-R3-CD (Tenn. Crim. App. Dec. 22, 2015)](https://syfert.com/tennessee/cases/cl-3164953/state-of-tennessee-v-elvis-strickland)",
+    "match_kind": "semantic",
+    "similarity": 0.5725
+   },
+   {
+    "cluster_id": 6652571,
+    "case_name": "Catalfamo v. Catalfamo",
+    "citations": [
+     "204 So. 3d 113",
+     "2016 Fla. App. LEXIS 17247"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2016-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/204-so-3d-113/catalfamo-v-catalfamo",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Catalfamo v. Catalfamo, 204 So. 3d 113 (Fla. 5th DCA 2016)",
+    "link_md": "[Catalfamo v. Catalfamo, 204 So. 3d 113 (Fla. 5th DCA 2016)](https://syfert.com/florida/cases/204-so-3d-113/catalfamo-v-catalfamo)",
+    "match_kind": "semantic",
+    "similarity": 0.5725
+   },
+   {
+    "cluster_id": 6126824,
+    "case_name": "Zureck v. Wheeler",
+    "citations": [
+     "217 A.D.2d 545",
+     "629 N.Y.S.2d 68",
+     "1995 N.Y. App. Div. LEXIS 7568"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1995-07-03",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/new-york/cases/217-a-d-2d-545/zureck-v-wheeler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Zureck v. Wheeler, 217 A.D.2d 545 (N.Y. App. Div. 2d Dep't 1995)",
+    "link_md": "[Zureck v. Wheeler, 217 A.D.2d 545 (N.Y. App. Div. 2d Dep't 1995)](https://syfert.com/new-york/cases/217-a-d-2d-545/zureck-v-wheeler)",
+    "match_kind": "semantic",
+    "similarity": 0.5707
+   },
+   {
+    "cluster_id": 3637779,
+    "case_name": "Matter of Flammer v. Bethlehem Steel Company",
+    "citations": [
+     "66 N.E.2d 588",
+     "295 N.Y. 817",
+     "1946 N.Y. LEXIS 977"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1946-03-07",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/295-n-y-817/matter-of-flammer-v-bethlehem-steel-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Flammer v. Bethlehem Steel Co., 66 N.E.2d 588 (N.Y. 1946)",
+    "link_md": "[Matter of Flammer v. Bethlehem Steel Co., 66 N.E.2d 588 (N.Y. 1946)](https://syfert.com/new-york/cases/295-n-y-817/matter-of-flammer-v-bethlehem-steel-company)",
+    "match_kind": "semantic",
+    "similarity": 0.5686
+   },
+   {
+    "cluster_id": 1727334,
+    "case_name": "Peoples v. State",
+    "citations": [
+     "760 So. 2d 1141",
+     "2000 WL 903600"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2000-07-07",
+    "status": "Published",
+    "cited_by": 1,
+    "disposition": "affirmed",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/florida/cases/760-so-2d-1141/peoples-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Peoples v. State, 760 So. 2d 1141 (Fla. 5th DCA 2000)",
+    "link_md": "[Peoples v. State, 760 So. 2d 1141 (Fla. 5th DCA 2000)](https://syfert.com/florida/cases/760-so-2d-1141/peoples-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5669
+   },
+   {
+    "cluster_id": 7836280,
+    "case_name": "I.M. v. State",
+    "citations": [
+     "917 So. 2d 927",
+     "2005 Fla. App. LEXIS 19680",
+     "2005 WL 3406328"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2005-12-14",
+    "status": "Published",
+    "cited_by": 21,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/florida/cases/917-so-2d-927/im-v-state",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (7836280 and its twin 1091443).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "I.M. v. State, 917 So. 2d 927 (Fla. 1st DCA 2005)",
+    "link_md": "[I.M. v. State, 917 So. 2d 927 (Fla. 1st DCA 2005)](https://syfert.com/florida/cases/917-so-2d-927/im-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5652,
+    "twin_clusters": [
+     1091443,
+     7836280
+    ]
+   },
+   {
+    "cluster_id": 3643582,
+    "case_name": "Wood v. . the North Western Ins. Co.",
+    "citations": [
+     "46 N.Y. 421",
+     "1871 N.Y. LEXIS 272"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1871-11-10",
+    "status": "Published",
+    "cited_by": 16,
+    "url": "https://syfert.com/new-york/cases/46-n-y-421/wood-v-the-north-western-ins-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wood v. North W. Ins. Co., 46 N.Y. 421 (1871)",
+    "link_md": "[Wood v. North W. Ins. Co., 46 N.Y. 421 (1871)](https://syfert.com/new-york/cases/46-n-y-421/wood-v-the-north-western-ins-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5645
+   },
+   {
+    "cluster_id": 279728,
+    "case_name": "Esquire Restaurant, Inc. v. The Commonwealth Insurance Company Of New York",
+    "citations": [
+     "393 F.2d 111"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1968-04-16",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/393-f-2d-111/esquire-restaurant-inc-v-the-commonwealth-insurance-company-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Esquire Restaurant, Inc. v. Commonwealth Ins. Co. Of New York, 393 F.2d 111 (7th Cir. 1968)",
+    "link_md": "[Esquire Restaurant, Inc. v. Commonwealth Ins. Co. Of New York, 393 F.2d 111 (7th Cir. 1968)](https://syfert.com/federal/circuits/cases/393-f-2d-111/esquire-restaurant-inc-v-the-commonwealth-insurance-company-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.5635
+   },
+   {
+    "cluster_id": 5425515,
+    "case_name": "Flammer v. Fur Merchants Warehouse Corp.",
+    "citations": [
+     "198 A.D. 1015"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1921-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/198-a-d-1015/flammer-v-fur-merchants-warehouse-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Flammer v. Fur Merchants Warehouse Corp., 198 A.D. 1015 (N.Y. App. Div. 1921)",
+    "link_md": "[Flammer v. Fur Merchants Warehouse Corp., 198 A.D. 1015 (N.Y. App. Div. 1921)](https://syfert.com/new-york/cases/198-a-d-1015/flammer-v-fur-merchants-warehouse-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.5633
+   },
+   {
+    "cluster_id": 1625754,
+    "case_name": "Economy Furniture, Inc. v. Jirasek",
+    "citations": [
+     "345 S.W.2d 951"
+    ],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "1961-04-12",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/texas/cases/345-s-w-2d-951/economy-furniture-inc-v-jirasek",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Econ. Furniture, Inc. v. Jirasek, 345 S.W.2d 951 (Tex. Civ. App.—Austin 1961)",
+    "link_md": "[Econ. Furniture, Inc. v. Jirasek, 345 S.W.2d 951 (Tex. Civ. App.—Austin 1961)](https://syfert.com/texas/cases/345-s-w-2d-951/economy-furniture-inc-v-jirasek)",
+    "match_kind": "semantic",
+    "similarity": 0.5633
+   },
+   {
+    "cluster_id": 8546209,
+    "case_name": "Commonwealth v. Levine",
+    "citations": [
+     "3 Pa. D. & C. 439",
+     "1923 Pa. Dist. & Cnty. Dec. LEXIS 1"
+    ],
+    "court": "Philadelphia County Court of Oyer and Terminer",
+    "date_filed": "1923-06-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/cl-8546209/commonwealth-v-levine",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Commonwealth v. Levine, 3 Pa. D. & C. 439 (Philadelphia Cty. Ct. Oy. Term. 1923)",
+    "link_md": "[Commonwealth v. Levine, 3 Pa. D. & C. 439 (Philadelphia Cty. Ct. Oy. Term. 1923)](https://syfert.com/pennsylvania/cases/cl-8546209/commonwealth-v-levine)",
+    "match_kind": "semantic",
+    "similarity": 0.5627
+   },
+   {
+    "cluster_id": 6442560,
+    "case_name": "Fire Ass'n v. Gilmer",
+    "citations": [
+     "3 Walker 234"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1884-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/cl-6442560/fire-assn-v-gilmer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fire Ass'n v. Gilmer, 3 Walker 234 (Pa. 1884)",
+    "link_md": "[Fire Ass'n v. Gilmer, 3 Walker 234 (Pa. 1884)](https://syfert.com/pennsylvania/cases/cl-6442560/fire-assn-v-gilmer)",
+    "match_kind": "semantic",
+    "similarity": 0.5626
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

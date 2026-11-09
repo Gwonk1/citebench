@@ -1,0 +1,73 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Lamasco w/15 \"8 N.W.2d 865\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Lamasco w/15 \\\"8 N.W.2d 865\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8237055,\"bluebook\":\"Preloznik v. City of Madison, 334 N.W.2d 580 (Wis. Ct. App. 1983)\",\"url\":\"https://syfert.com/wisconsin/cases/113-wis-2d-112/preloznik-v-city-of-madison\",\"date_filed\":\"1983-04-26\",\"cited_by\":8,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...357 , 8 N.W.2d 372 , modified, 242 Wis. 397a, 8 N.W.2d 865 (1943). Lamasco held that a property owner was estopped from challenging a special assessment in the circuit court on any ground on which he presented no supporting evidence to…\",\"holding\":\"Summary judgment is improper when the moving party fails to present evidentiary facts establishing a prima facie case of benefit to the property in a special assessment appeal.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":2007571,\"bluebook\":\"In re Cherokee Park Plat, 334 N.W.2d 580 (Wis. Ct. App. 1983)\",\"url\":\"https://syfert.com/wisconsin/cases/113-wis-2d-112/in-re-cherokee-park-plat\",\"date_filed\":\"1983-04-26\",\"cited_by\":1,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...357 , 8 N.W.2d 372 , modified, 242 Wis. 397a, 8 N.W.2d 865 (1943). Lamasco held that a property owner was estopped from challenging a special assessment in the circuit court on any ground on which he presented no supporting evidence to…\",\"holding\":\"A court must first examine the pleadings to determine whether claims have been stated and a material factual issue is presented when deciding whether summary judgment is appropriate.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":2073384,\"bluebook\":\"State ex rel. Kaczkowski v. Fire & Police Commissioners, 148 N.W.2d 44 (Wis. 1967)\",\"url\":\"https://syfert.com/wisconsin/cases/33-wis-2d-488/state-ex-rel-kaczkowski-v-fire-police-commissioners\",\"date_filed\":\"1967-01-31\",\"cited_by\":52,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...W. (2d) 372 , 8 N. W. (2d) 865 .”\\nPetition of Heffernan, supra, finds support for this statement in Lamasco Realty Co. v. Milwaukee (1943), 242 Wis. 357 , 8 N. W. (2d) 372 , 8 N. W. (2d) 865 , and in Borgnis v. Falk Co. (1911), 147 Wis.…\",\"holding\":\"Courts may review the actions of nonjudicial bodies by certiorari only for strictly legal questions that could not have been raised during the statutory judicial review process.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Lamasco w/15 \"8 N.W.2d 865\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8237055,
+    "bluebook": "Preloznik v. City of Madison, 334 N.W.2d 580 (Wis. Ct. App. 1983)",
+    "url": "https://syfert.com/wisconsin/cases/113-wis-2d-112/preloznik-v-city-of-madison",
+    "date_filed": "1983-04-26",
+    "cited_by": 8,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...357 , 8 N.W.2d 372 , modified, 242 Wis. 397a, 8 N.W.2d 865 (1943). Lamasco held that a property owner was estopped from challenging a special assessment in the circuit court on any ground on which he presented no supporting evidence to…",
+    "holding": "Summary judgment is improper when the moving party fails to present evidentiary facts establishing a prima facie case of benefit to the property in a special assessment appeal.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 2007571,
+    "bluebook": "In re Cherokee Park Plat, 334 N.W.2d 580 (Wis. Ct. App. 1983)",
+    "url": "https://syfert.com/wisconsin/cases/113-wis-2d-112/in-re-cherokee-park-plat",
+    "date_filed": "1983-04-26",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...357 , 8 N.W.2d 372 , modified, 242 Wis. 397a, 8 N.W.2d 865 (1943). Lamasco held that a property owner was estopped from challenging a special assessment in the circuit court on any ground on which he presented no supporting evidence to…",
+    "holding": "A court must first examine the pleadings to determine whether claims have been stated and a material factual issue is presented when deciding whether summary judgment is appropriate.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 2073384,
+    "bluebook": "State ex rel. Kaczkowski v. Fire & Police Commissioners, 148 N.W.2d 44 (Wis. 1967)",
+    "url": "https://syfert.com/wisconsin/cases/33-wis-2d-488/state-ex-rel-kaczkowski-v-fire-police-commissioners",
+    "date_filed": "1967-01-31",
+    "cited_by": 52,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...W. (2d) 372 , 8 N. W. (2d) 865 .”\nPetition of Heffernan, supra, finds support for this statement in Lamasco Realty Co. v. Milwaukee (1943), 242 Wis. 357 , 8 N. W. (2d) 372 , 8 N. W. (2d) 865 , and in Borgnis v. Falk Co. (1911), 147 Wis.…",
+    "holding": "Courts may review the actions of nonjudicial bodies by certiorari only for strictly legal questions that could not have been raised during the statutory judicial review process.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

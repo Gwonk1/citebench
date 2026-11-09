@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "932 N.Y.S.2d 428",
+  "expected_case_name": "Nonnon v. City of New York"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"932 N.Y.S.2d 428\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5970468,\n            \"case_name\": \"Nonnon v. City of New York\",\n            \"citations\": [\n                \"932 N.Y.S.2d 428\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2011-09-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 11,\n            \"url\": \"https://syfert.com/new-york/cases/88-a-d-3d-384/nonnon-v-city-of-new-york\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Nonnon v. City of New York, 932 N.Y.S.2d 428 (N.Y. App. Div. 1st Dep't 2011)\",\n            \"link_md\": \"[Nonnon v. City of New York, 932 N.Y.S.2d 428 (N.Y. App. Div. 1st Dep't 2011)](https://syfert.com/new-york/cases/88-a-d-3d-384/nonnon-v-city-of-new-york)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 9,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Nonnon v. City of New York\",\n        \"actual\": \"Nonnon v. City of New York\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "932 N.Y.S.2d 428",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5970468,
+    "case_name": "Nonnon v. City of New York",
+    "citations": [
+     "932 N.Y.S.2d 428"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2011-09-15",
+    "status": "Published",
+    "cited_by": 11,
+    "url": "https://syfert.com/new-york/cases/88-a-d-3d-384/nonnon-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Nonnon v. City of New York, 932 N.Y.S.2d 428 (N.Y. App. Div. 1st Dep't 2011)",
+    "link_md": "[Nonnon v. City of New York, 932 N.Y.S.2d 428 (N.Y. App. Div. 1st Dep't 2011)](https://syfert.com/new-york/cases/88-a-d-3d-384/nonnon-v-city-of-new-york)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 9,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Nonnon v. City of New York",
+   "actual": "Nonnon v. City of New York",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "892 N.Y.S.2d 110",
+  "expected_case_name": "New York Methodist Hospital v. Carrier Corp."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"892 N.Y.S.2d 110\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5929881,\n            \"case_name\": \"New York Methodist Hospital v. Carrier Corp.\",\n            \"citations\": [\n                \"892 N.Y.S.2d 110\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2009-12-08\",\n            \"status\": \"Published\",\n            \"cited_by\": 9,\n            \"url\": \"https://syfert.com/new-york/cases/68-a-d-3d-830/new-york-methodist-hospital-v-carrier-corp\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"New York Methodist Hosp. v. Carrier Corp., 892 N.Y.S.2d 110 (N.Y. App. Div. 2d Dep't 2009)\",\n            \"link_md\": \"[New York Methodist Hosp. v. Carrier Corp., 892 N.Y.S.2d 110 (N.Y. App. Div. 2d Dep't 2009)](https://syfert.com/new-york/cases/68-a-d-3d-830/new-york-methodist-hospital-v-carrier-corp)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"New York Methodist Hospital v. Carrier Corp.\",\n        \"actual\": \"New York Methodist Hospital v. Carrier Corp.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "892 N.Y.S.2d 110",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5929881,
+    "case_name": "New York Methodist Hospital v. Carrier Corp.",
+    "citations": [
+     "892 N.Y.S.2d 110"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2009-12-08",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/new-york/cases/68-a-d-3d-830/new-york-methodist-hospital-v-carrier-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "New York Methodist Hosp. v. Carrier Corp., 892 N.Y.S.2d 110 (N.Y. App. Div. 2d Dep't 2009)",
+    "link_md": "[New York Methodist Hosp. v. Carrier Corp., 892 N.Y.S.2d 110 (N.Y. App. Div. 2d Dep't 2009)](https://syfert.com/new-york/cases/68-a-d-3d-830/new-york-methodist-hospital-v-carrier-corp)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "New York Methodist Hospital v. Carrier Corp.",
+   "actual": "New York Methodist Hospital v. Carrier Corp.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

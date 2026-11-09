@@ -1,0 +1,44 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Bennett w/15 \"784 P.2d 507\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Bennett w/15 \\\"784 P.2d 507\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4506218,\"bluebook\":\"Nat'l Homebuyers Fund, Inc. Apps. v. Wa State Hous. Fin. Comm., No. 76510-8 (Wash. Ct. App. June 11, 2018)\",\"url\":\"https://syfert.com/washington/cases/cl-4506218/national-homebuyers-fund-inc-apps-v-wa-state-housing-finance-comm\",\"date_filed\":\"2018-06-11\",\"cited_by\":0,\"status\":\"Unpublished\",\"snippet\":\"...recognize an implied cause of action under a statute which provides protection\\nto a specific class of persons but creates no remedy.\\\" Bennett v. Hardy, 113 Wn.2d\\n912, 920 , 784 P.2d 507 (1990). But HUD has a Mortgagee Review Board…\"},{\"cluster_id\":10318240,\"bluebook\":\"Austin Cornelius, V. Washington State Univ., 562 P.3d 792 (Wash. Ct. App. 2025)\",\"url\":\"https://syfert.com/washington/cases/562-p-3d-792/austin-cornelius-v-washington-state-university\",\"date_filed\":\"2025-01-21\",\"cited_by\":0,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...but pertinent to the substantive issues which were raised below may be considered\\nfor the first time on appeal.” Bennett v. Hardy 113 Wn.2d 912, 918 , 784 P.2d 507\\n(1990). Both Cornelius and WSU referenced Restatement (Second) of Torts…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Bennett w/15 \"784 P.2d 507\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4506218,
+    "bluebook": "Nat'l Homebuyers Fund, Inc. Apps. v. Wa State Hous. Fin. Comm., No. 76510-8 (Wash. Ct. App. June 11, 2018)",
+    "url": "https://syfert.com/washington/cases/cl-4506218/national-homebuyers-fund-inc-apps-v-wa-state-housing-finance-comm",
+    "date_filed": "2018-06-11",
+    "cited_by": 0,
+    "status": "Unpublished",
+    "snippet": "...recognize an implied cause of action under a statute which provides protection\nto a specific class of persons but creates no remedy.\" Bennett v. Hardy, 113 Wn.2d\n912, 920 , 784 P.2d 507 (1990). But HUD has a Mortgagee Review Board…"
+   },
+   {
+    "cluster_id": 10318240,
+    "bluebook": "Austin Cornelius, V. Washington State Univ., 562 P.3d 792 (Wash. Ct. App. 2025)",
+    "url": "https://syfert.com/washington/cases/562-p-3d-792/austin-cornelius-v-washington-state-university",
+    "date_filed": "2025-01-21",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...but pertinent to the substantive issues which were raised below may be considered\nfor the first time on appeal.” Bennett v. Hardy 113 Wn.2d 912, 918 , 784 P.2d 507\n(1990). Both Cornelius and WSU referenced Restatement (Second) of Torts…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

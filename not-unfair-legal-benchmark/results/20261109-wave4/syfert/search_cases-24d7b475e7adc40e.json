@@ -1,0 +1,51 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Berenger w/15 \"940 N.Y.S.2d 4\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Berenger w/15 \\\"940 N.Y.S.2d 4\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":9872314,\"bluebook\":\"Unit 3B 11 Beach LLC v. Kim, No. 1:21-cv-03068 (S.D.N.Y. Feb. 23, 2022)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9872314/unit-3b-11-beach-llc-v-kim\",\"date_filed\":\"2022-02-23\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...and unreasonable interference “with a person’s property right to use and enjoy land,” such as\\ncausing recurring noise. Berenger v. 261 W. LLC, 940 N.Y.S.2d 4, 11 (1st Dep’t 2012).\\nA private nuisance “is distinguished from trespass which…\"},{\"cluster_id\":8724617,\"bluebook\":\"Cangemi v. United States, 939 F. Supp. 2d 188 (E.D.N.Y. 2013)\",\"url\":\"https://syfert.com/federal/district/cases/939-f-supp-2d-188/cangemi-v-united-states\",\"date_filed\":\"2013-03-29\",\"cited_by\":11,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Berenger, 93 A.D.3d at 181 , 940 N.Y.S.2d 4 (noting that trespass includes entry of water onto land).\\nWith respect to the Town Defendants’ arguments regarding intent, “[i]ntent is defined as intending the act which produces the…\",\"passage_origin\":{\"case_name\":\"Volunteer Fire Ass'n of Tappan, Inc. v. County of Rockland\",\"cluster_id\":6029790,\"year\":2012,\"quoted_by_cases\":2}}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Berenger w/15 \"940 N.Y.S.2d 4\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 9872314,
+    "bluebook": "Unit 3B 11 Beach LLC v. Kim, No. 1:21-cv-03068 (S.D.N.Y. Feb. 23, 2022)",
+    "url": "https://syfert.com/federal/district/cases/cl-9872314/unit-3b-11-beach-llc-v-kim",
+    "date_filed": "2022-02-23",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...and unreasonable interference “with a person’s property right to use and enjoy land,” such as\ncausing recurring noise. Berenger v. 261 W. LLC, 940 N.Y.S.2d 4, 11 (1st Dep’t 2012).\nA private nuisance “is distinguished from trespass which…"
+   },
+   {
+    "cluster_id": 8724617,
+    "bluebook": "Cangemi v. United States, 939 F. Supp. 2d 188 (E.D.N.Y. 2013)",
+    "url": "https://syfert.com/federal/district/cases/939-f-supp-2d-188/cangemi-v-united-states",
+    "date_filed": "2013-03-29",
+    "cited_by": 11,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Berenger, 93 A.D.3d at 181 , 940 N.Y.S.2d 4 (noting that trespass includes entry of water onto land).\nWith respect to the Town Defendants’ arguments regarding intent, “[i]ntent is defined as intending the act which produces the…",
+    "passage_origin": {
+     "case_name": "Volunteer Fire Ass'n of Tappan, Inc. v. County of Rockland",
+     "cluster_id": 6029790,
+     "year": 2012,
+     "quoted_by_cases": 2
+    }
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

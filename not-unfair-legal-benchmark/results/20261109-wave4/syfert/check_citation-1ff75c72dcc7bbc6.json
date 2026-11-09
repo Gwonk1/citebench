@@ -1,0 +1,158 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "187 A.D.3d 1634",
+  "expected_case_name": "Ally Fin. Inc. v. Jonathan"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"187 A.D.3d 1634\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4795033,\n            \"case_name\": \"Ally Fin. Inc. v. Jonathan\",\n            \"citations\": [\n                \"187 A.D.3d 1634\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"187 A.D.3d 1633\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4795004,\n                        \"case_name\": \"Matter of O'Connell (State Farm Mut. Auto. Ins. Co.)\"\n                    }\n                }\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2020-10-09\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/187-a-d-3d-1634/ally-fin-inc-v-jonathan\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"187 A.D.3d 1633\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/187%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"187 A.D.3d 1634\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/187%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"130 N.Y.S.3d 419\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/130%20N.Y.S.3d\"\n                }\n            ],\n            \"bluebook\": \"Ally Fin. Inc. v. Jonathan, 187 A.D.3d 1634 (N.Y. App. Div. 4th Dep't 2020)\",\n            \"link_md\": \"[Ally Fin. Inc. v. Jonathan, 187 A.D.3d 1634 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/187-a-d-3d-1634/ally-fin-inc-v-jonathan)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        },\n        {\n            \"cluster_id\": 4795034,\n            \"case_name\": \"Ally Fin. Inc. v. Jonathan\",\n            \"citations\": [\n                \"187 A.D.3d 1634\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"187 A.D.3d 1633\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4795004,\n                        \"case_name\": \"Matter of O'Connell (State Farm Mut. Auto. Ins. Co.)\"\n                    }\n                }\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2020-10-09\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/187-a-d-3d-1633/ally-fin-inc-v-jonathan\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"187 A.D.3d 1633\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/187%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"187 A.D.3d 1634\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/187%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"130 N.Y.S.3d 419\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/130%20N.Y.S.3d\"\n                }\n            ],\n            \"bluebook\": \"Ally Fin. Inc. v. Jonathan, 187 A.D.3d 1634 (N.Y. App. Div. 4th Dep't 2020)\",\n            \"link_md\": \"[Ally Fin. Inc. v. Jonathan, 187 A.D.3d 1634 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/187-a-d-3d-1633/ally-fin-inc-v-jonathan)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Ally Fin. Inc. v. Jonathan\",\n        \"actual\": \"Ally Fin. Inc. v. Jonathan\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "187 A.D.3d 1634",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4795033,
+    "case_name": "Ally Fin. Inc. v. Jonathan",
+    "citations": [
+     "187 A.D.3d 1634"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "187 A.D.3d 1633",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4795004,
+       "case_name": "Matter of O'Connell (State Farm Mut. Auto. Ins. Co.)"
+      }
+     }
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2020-10-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/187-a-d-3d-1634/ally-fin-inc-v-jonathan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "187 A.D.3d 1633",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/187%20A.D.3d"
+     },
+     {
+      "citation": "187 A.D.3d 1634",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/187%20A.D.3d"
+     },
+     {
+      "citation": "130 N.Y.S.3d 419",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/130%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "Ally Fin. Inc. v. Jonathan, 187 A.D.3d 1634 (N.Y. App. Div. 4th Dep't 2020)",
+    "link_md": "[Ally Fin. Inc. v. Jonathan, 187 A.D.3d 1634 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/187-a-d-3d-1634/ally-fin-inc-v-jonathan)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   },
+   {
+    "cluster_id": 4795034,
+    "case_name": "Ally Fin. Inc. v. Jonathan",
+    "citations": [
+     "187 A.D.3d 1634"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "187 A.D.3d 1633",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4795004,
+       "case_name": "Matter of O'Connell (State Farm Mut. Auto. Ins. Co.)"
+      }
+     }
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2020-10-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/187-a-d-3d-1633/ally-fin-inc-v-jonathan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "187 A.D.3d 1633",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/187%20A.D.3d"
+     },
+     {
+      "citation": "187 A.D.3d 1634",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/187%20A.D.3d"
+     },
+     {
+      "citation": "130 N.Y.S.3d 419",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/130%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "Ally Fin. Inc. v. Jonathan, 187 A.D.3d 1634 (N.Y. App. Div. 4th Dep't 2020)",
+    "link_md": "[Ally Fin. Inc. v. Jonathan, 187 A.D.3d 1634 (N.Y. App. Div. 4th Dep't 2020)](https://syfert.com/new-york/cases/187-a-d-3d-1633/ally-fin-inc-v-jonathan)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Ally Fin. Inc. v. Jonathan",
+   "actual": "Ally Fin. Inc. v. Jonathan",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

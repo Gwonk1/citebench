@@ -1,0 +1,48 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Thompson w/15 \"54 So. 164\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Thompson w/15 \\\"54 So. 164\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3235588,\"bluebook\":\"Hartwell v. Pillans, 145 So. 148 (Ala. 1932)\",\"url\":\"https://syfert.com/alabama/cases/225-ala-685/hartwell-v-pillans\",\"date_filed\":\"1932-12-22\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"ANDERSON, C. J.\\nThe main question in this appeal is whether or not the appellants in the fixation and collection of their salaries as commissioners of Mobile had the right to increase the same in the absence of an official census, that is,…\"},{\"cluster_id\":1412750,\"bluebook\":\"Brennan v. Stewarts' Pharmacies, Ltd., 579 P.2d 673 (Haw. 1978)\",\"url\":\"https://syfert.com/hawaii/cases/59-haw-207/brennan-v-stewarts-pharmacies-ltd\",\"date_filed\":\"1978-05-25\",\"cited_by\":28,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Carol City Utilities, Inc.,\\n164 So.2d 270 (Fla. App. 1964);\\nNoffsinger v. Thompson,\\n98 Colo. 154 , 54 P.2d 683 (1936);\\nCentral Union Stock Yards Co. v. Uvalde Asphalt Paving Co.,\\n82 N.J.Eq. 246, 87 A. 235 (1913); 56 A.L.R.3d 697 §…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Thompson w/15 \"54 So. 164\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3235588,
+    "bluebook": "Hartwell v. Pillans, 145 So. 148 (Ala. 1932)",
+    "url": "https://syfert.com/alabama/cases/225-ala-685/hartwell-v-pillans",
+    "date_filed": "1932-12-22",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "ANDERSON, C. J.\nThe main question in this appeal is whether or not the appellants in the fixation and collection of their salaries as commissioners of Mobile had the right to increase the same in the absence of an official census, that is,…"
+   },
+   {
+    "cluster_id": 1412750,
+    "bluebook": "Brennan v. Stewarts' Pharmacies, Ltd., 579 P.2d 673 (Haw. 1978)",
+    "url": "https://syfert.com/hawaii/cases/59-haw-207/brennan-v-stewarts-pharmacies-ltd",
+    "date_filed": "1978-05-25",
+    "cited_by": 28,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Carol City Utilities, Inc.,\n164 So.2d 270 (Fla. App. 1964);\nNoffsinger v. Thompson,\n98 Colo. 154 , 54 P.2d 683 (1936);\nCentral Union Stock Yards Co. v. Uvalde Asphalt Paving Co.,\n82 N.J.Eq. 246, 87 A. 235 (1913); 56 A.L.R.3d 697 §…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

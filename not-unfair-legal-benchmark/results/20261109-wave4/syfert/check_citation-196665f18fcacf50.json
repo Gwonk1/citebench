@@ -1,0 +1,438 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "501 P.3d 993",
+  "expected_case_name": "Cota (Michael) v. State"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"501 P.3d 993\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6237577,\n            \"case_name\": \"Cota (Michael) v. State\",\n            \"citations\": [\n                \"501 P.3d 993\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6237051,\n                        \"case_name\": \"Schopper (Lucas) v. State C/W 81404\"\n                    }\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6237574,\n                        \"case_name\": \"Peterson (Veronica) v. State\"\n                    }\n                }\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-01-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/501-p-3d-993/cota-michael-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 993\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)\",\n            \"link_md\": \"[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-993/cota-michael-v-state)\"\n        },\n        {\n            \"cluster_id\": 6237578,\n            \"case_name\": \"Cota (Michael) v. State\",\n            \"citations\": [\n                \"501 P.3d 993\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6237051,\n                        \"case_name\": \"Schopper (Lucas) v. State C/W 81404\"\n                    }\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6237574,\n                        \"case_name\": \"Peterson (Veronica) v. State\"\n                    }\n                }\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-01-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 993\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)\",\n            \"link_md\": \"[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)\"\n        },\n        {\n            \"cluster_id\": 6237579,\n            \"case_name\": \"Cota (Michael) v. State\",\n            \"citations\": [\n                \"501 P.3d 993\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6237051,\n                        \"case_name\": \"Schopper (Lucas) v. State C/W 81404\"\n                    }\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6237574,\n                        \"case_name\": \"Peterson (Veronica) v. State\"\n                    }\n                }\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-01-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 993\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)\",\n            \"link_md\": \"[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)\"\n        },\n        {\n            \"cluster_id\": 6237580,\n            \"case_name\": \"Cota (Michael) v. State\",\n            \"citations\": [\n                \"501 P.3d 993\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6237051,\n                        \"case_name\": \"Schopper (Lucas) v. State C/W 81404\"\n                    }\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6237574,\n                        \"case_name\": \"Peterson (Veronica) v. State\"\n                    }\n                }\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-01-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 993\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)\",\n            \"link_md\": \"[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)\"\n        },\n        {\n            \"cluster_id\": 6238147,\n            \"case_name\": \"Park (Chan) v. State\",\n            \"citations\": [\n                \"501 P.3d 993\"\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-01-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/501-p-3d-993/park-chan-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"501 P.3d 993\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Park (Chan) v. State, 501 P.3d 993 (Nev. 2022)\",\n            \"link_md\": \"[Park (Chan) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-993/park-chan-v-state)\"\n        },\n        {\n            \"cluster_id\": 6238150,\n            \"case_name\": \"Griffin-Ramirez (Orlondo) v. State\",\n            \"citations\": [\n                \"501 P.3d 993\"\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-01-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/501-p-3d-993/griffin-ramirez-orlondo-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"501 P.3d 993\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Griffin-Ramirez (Orlondo) v. State, 501 P.3d 993 (Nev. 2022)\",\n            \"link_md\": \"[Griffin-Ramirez (Orlondo) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-993/griffin-ramirez-orlondo-v-state)\"\n        },\n        {\n            \"cluster_id\": 6238153,\n            \"case_name\": \"Cota (Michael) v. State\",\n            \"citations\": [\n                \"501 P.3d 993\"\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-01-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 993\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)\",\n            \"link_md\": \"[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)\"\n        },\n        {\n            \"cluster_id\": 6238154,\n            \"case_name\": \"Cota (Michael) v. State\",\n            \"citations\": [\n                \"501 P.3d 993\"\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-01-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"501 P.3d 990\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 991\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                },\n                {\n                    \"citation\": \"501 P.3d 993\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/501%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)\",\n            \"link_md\": \"[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Cota (Michael) v. State\",\n        \"actual\": \"Cota (Michael) v. State\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "501 P.3d 993",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6237577,
+    "case_name": "Cota (Michael) v. State",
+    "citations": [
+     "501 P.3d 993"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "501 P.3d 990",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6237051,
+       "case_name": "Schopper (Lucas) v. State C/W 81404"
+      }
+     },
+     {
+      "citation": "501 P.3d 991",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6237574,
+       "case_name": "Peterson (Veronica) v. State"
+      }
+     }
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-01-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/501-p-3d-993/cota-michael-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "501 P.3d 990",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 991",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 993",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     }
+    ],
+    "bluebook": "Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)",
+    "link_md": "[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-993/cota-michael-v-state)"
+   },
+   {
+    "cluster_id": 6237578,
+    "case_name": "Cota (Michael) v. State",
+    "citations": [
+     "501 P.3d 993"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "501 P.3d 990",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6237051,
+       "case_name": "Schopper (Lucas) v. State C/W 81404"
+      }
+     },
+     {
+      "citation": "501 P.3d 991",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6237574,
+       "case_name": "Peterson (Veronica) v. State"
+      }
+     }
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-01-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "501 P.3d 990",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 991",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 993",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     }
+    ],
+    "bluebook": "Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)",
+    "link_md": "[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)"
+   },
+   {
+    "cluster_id": 6237579,
+    "case_name": "Cota (Michael) v. State",
+    "citations": [
+     "501 P.3d 993"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "501 P.3d 990",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6237051,
+       "case_name": "Schopper (Lucas) v. State C/W 81404"
+      }
+     },
+     {
+      "citation": "501 P.3d 991",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6237574,
+       "case_name": "Peterson (Veronica) v. State"
+      }
+     }
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-01-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "501 P.3d 990",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 991",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 993",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     }
+    ],
+    "bluebook": "Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)",
+    "link_md": "[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)"
+   },
+   {
+    "cluster_id": 6237580,
+    "case_name": "Cota (Michael) v. State",
+    "citations": [
+     "501 P.3d 993"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "501 P.3d 990",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6237051,
+       "case_name": "Schopper (Lucas) v. State C/W 81404"
+      }
+     },
+     {
+      "citation": "501 P.3d 991",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6237574,
+       "case_name": "Peterson (Veronica) v. State"
+      }
+     }
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-01-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "501 P.3d 990",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 991",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 993",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     }
+    ],
+    "bluebook": "Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)",
+    "link_md": "[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)"
+   },
+   {
+    "cluster_id": 6238147,
+    "case_name": "Park (Chan) v. State",
+    "citations": [
+     "501 P.3d 993"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-01-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/501-p-3d-993/park-chan-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "501 P.3d 993",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     }
+    ],
+    "bluebook": "Park (Chan) v. State, 501 P.3d 993 (Nev. 2022)",
+    "link_md": "[Park (Chan) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-993/park-chan-v-state)"
+   },
+   {
+    "cluster_id": 6238150,
+    "case_name": "Griffin-Ramirez (Orlondo) v. State",
+    "citations": [
+     "501 P.3d 993"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-01-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/501-p-3d-993/griffin-ramirez-orlondo-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "501 P.3d 993",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     }
+    ],
+    "bluebook": "Griffin-Ramirez (Orlondo) v. State, 501 P.3d 993 (Nev. 2022)",
+    "link_md": "[Griffin-Ramirez (Orlondo) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-993/griffin-ramirez-orlondo-v-state)"
+   },
+   {
+    "cluster_id": 6238153,
+    "case_name": "Cota (Michael) v. State",
+    "citations": [
+     "501 P.3d 993"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-01-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "501 P.3d 990",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 991",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 993",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     }
+    ],
+    "bluebook": "Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)",
+    "link_md": "[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)"
+   },
+   {
+    "cluster_id": 6238154,
+    "case_name": "Cota (Michael) v. State",
+    "citations": [
+     "501 P.3d 993"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-01-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "501 P.3d 990",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 991",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     },
+     {
+      "citation": "501 P.3d 993",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/501%20P.3d"
+     }
+    ],
+    "bluebook": "Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)",
+    "link_md": "[Cota (Michael) v. State, 501 P.3d 993 (Nev. 2022)](https://syfert.com/nevada/cases/501-p-3d-990/cota-michael-v-state)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Cota (Michael) v. State",
+   "actual": "Cota (Michael) v. State",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

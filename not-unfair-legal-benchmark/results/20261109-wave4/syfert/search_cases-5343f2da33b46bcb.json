@@ -1,0 +1,403 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Harris w/15 \"940 N.Y.S.2d 127\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Harris w/15 \\\"940 N.Y.S.2d 127\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":123625,\"case_name\":\"Harris v. New York\",\"citations\":[\"537 U.S. 907\",\"123 S. Ct. 243\"],\"court\":\"Supreme Court\",\"date_filed\":\"2002-10-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/537-u-s-907/harris-v-new-york\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (123625 and its twin 9251671). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. New York, 537 U.S. 907 (2002)\",\"link_md\":\"[Harris v. New York, 537 U.S. 907 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-907/harris-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.7444},{\"cluster_id\":389359,\"case_name\":\"Harris v. Harris\",\"citations\":[\"646 F.2d 560\",\"1980 U.S. App. LEXIS 11113\"],\"court\":\"Second Circuit\",\"date_filed\":\"1980-12-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/646-f-2d-560/harris-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. Harris, 646 F.2d 560 (2d Cir. 1980)\",\"link_md\":\"[Harris v. Harris, 646 F.2d 560 (2d Cir. 1980)](https://syfert.com/federal/circuits/cases/646-f-2d-560/harris-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.7374},{\"cluster_id\":8947897,\"case_name\":\"Harris v. New York\",\"citations\":[\"363 U.S. 824\"],\"court\":\"Supreme Court\",\"date_filed\":\"1960-06-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/363-u-s-824/harris-v-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. New York, 363 U.S. 824 (1960)\",\"link_md\":\"[Harris v. New York, 363 U.S. 824 (1960)](https://syfert.com/federal/scotus/cases/363-u-s-824/harris-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.7254},{\"cluster_id\":8930019,\"case_name\":\"Harris v. New York\",\"citations\":[\"340 U.S. 855\"],\"court\":\"Supreme Court\",\"date_filed\":\"1950-10-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/340-u-s-855/harris-v-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. New York, 340 U.S. 855 (1950)\",\"link_md\":\"[Harris v. New York, 340 U.S. 855 (1950)](https://syfert.com/federal/scotus/cases/340-u-s-855/harris-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.7241},{\"cluster_id\":450936,\"case_name\":\"Harris v. United States\",\"citations\":[\"760 F.2d 253\"],\"court\":\"Second Circuit\",\"date_filed\":\"1985-02-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/760-f-2d-253/harris-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. United States, 760 F.2d 253 (2d Cir. 1985)\",\"link_md\":\"[Harris v. United States, 760 F.2d 253 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/760-f-2d-253/harris-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7124},{\"cluster_id\":683630,\"case_name\":\"Harris v. United States\",\"citations\":[\"41 F.3d 1500\",\"1994 U.S. App. LEXIS 29756\",\"1994 WL 579073\"],\"court\":\"Second Circuit\",\"date_filed\":\"1994-09-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/41-f-3d-1500/harris-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. United States, 41 F.3d 1500 (2d Cir. 1994)\",\"link_md\":\"[Harris v. United States, 41 F.3d 1500 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/41-f-3d-1500/harris-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7086},{\"cluster_id\":5478631,\"case_name\":\"Harris v. New York City Interborough Railway Co.\",\"citations\":[\"232 A.D. 802\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1931-03-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/232-a-d-802/harris-v-new-york-city-interborough-railway-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. New York City Interborough Ry. Co., 232 A.D. 802 (N.Y. App. Div. 1931)\",\"link_md\":\"[Harris v. New York City Interborough Ry. Co., 232 A.D. 802 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/232-a-d-802/harris-v-new-york-city-interborough-railway-co)\",\"match_kind\":\"semantic\",\"similarity\":0.7072},{\"cluster_id\":738468,\"case_name\":\"Harris v. United States\",\"citations\":[\"109 F.3d 772\",\"1997 WL 93932\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1997-02-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/109-f-3d-772/harris-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. United States, 109 F.3d 772 (11th Cir. 1997)\",\"link_md\":\"[Harris v. United States, 109 F.3d 772 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/109-f-3d-772/harris-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7072},{\"cluster_id\":2345242,\"case_name\":\"State v. Harris\",\"citations\":[\"983 A.2d 199\",\"200 N.J. 472\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2009-10-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/200-n-j-472/state-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Harris, 983 A.2d 199 (N.J. 2009)\",\"link_md\":\"[State v. Harris, 983 A.2d 199 (N.J. 2009)](https://syfert.com/new-jersey/cases/200-n-j-472/state-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.7063},{\"cluster_id\":1996484,\"case_name\":\"State v. Harris\",\"citations\":[\"989 A.2d 1265\",\"201 N.J. 272\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2010-02-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/201-n-j-272/state-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Harris, 989 A.2d 1265 (N.J. 2010)\",\"link_md\":\"[State v. Harris, 989 A.2d 1265 (N.J. 2010)](https://syfert.com/new-jersey/cases/201-n-j-272/state-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.704},{\"cluster_id\":2301334,\"case_name\":\"State v. Harris\",\"citations\":[\"43 A.3d 1167\",\"210 N.J. 261\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2012-05-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/210-n-j-261/state-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Harris, 43 A.3d 1167 (N.J. 2012)\",\"link_md\":\"[State v. Harris, 43 A.3d 1167 (N.J. 2012)](https://syfert.com/new-jersey/cases/210-n-j-261/state-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.7034},{\"cluster_id\":3597310,\"case_name\":\"Harris v. . Taylor\",\"citations\":[\"53 N.E. 1126\",\"159 N.Y. 533\",\"1899 N.Y. LEXIS 1049\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1899-05-02\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/159-n-y-533/harris-v-taylor\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. Taylor, 53 N.E. 1126 (N.Y. 1899)\",\"link_md\":\"[Harris v. Taylor, 53 N.E. 1126 (N.Y. 1899)](https://syfert.com/new-york/cases/159-n-y-533/harris-v-taylor)\",\"match_kind\":\"semantic\",\"similarity\":0.7022},{\"cluster_id\":5478628,\"case_name\":\"Harris v. New York City Interborough Railway Co.\",\"citations\":[\"232 A.D. 802\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1931-03-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/232-a-d-802/harris-v-new-york-city-interborough-railway-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. New York City Interborough Ry. Co., 232 A.D. 802 (N.Y. App. Div. 1931)\",\"link_md\":\"[Harris v. New York City Interborough Ry. Co., 232 A.D. 802 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/232-a-d-802/harris-v-new-york-city-interborough-railway-co)\",\"match_kind\":\"semantic\",\"similarity\":0.7019},{\"cluster_id\":2273253,\"case_name\":\"State v. Harris\",\"citations\":[\"991 A.2d 231\",\"201 N.J. 439\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2010-03-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/201-n-j-439/state-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Harris, 991 A.2d 231 (N.J. 2010)\",\"link_md\":\"[State v. Harris, 991 A.2d 231 (N.J. 2010)](https://syfert.com/new-jersey/cases/201-n-j-439/state-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6995},{\"cluster_id\":400341,\"case_name\":\"Hayes v. Harris\",\"citations\":[\"672 F.2d 900\",\"1981 U.S. App. LEXIS 17404\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-09-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/672-f-2d-900/hayes-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hayes v. Harris, 672 F.2d 900 (2d Cir. 1981)\",\"link_md\":\"[Hayes v. Harris, 672 F.2d 900 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/672-f-2d-900/hayes-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6974},{\"cluster_id\":7434701,\"case_name\":\"Onward Construction Co. v. Harris\",\"citations\":[\"160 A.D. 934\",\"145 N.Y.S. 1136\",\"1914 N.Y. App. Div. LEXIS 5093\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1914-01-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/160-a-d-934/onward-construction-co-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Onward Constr. Co. v. Harris, 160 A.D. 934 (N.Y. App. Div. 1914)\",\"link_md\":\"[Onward Constr. Co. v. Harris, 160 A.D. 934 (N.Y. App. Div. 1914)](https://syfert.com/new-york/cases/160-a-d-934/onward-construction-co-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6958},{\"cluster_id\":2556127,\"case_name\":\"People Ex Rel. Harris v. Graham\",\"citations\":[\"927 N.E.2d 564\",\"14 N.Y.3d 709\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2010-05-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/14-n-y-3d-709/people-ex-rel-harris-v-graham\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Harris v. Graham, 927 N.E.2d 564 (N.Y. 2010)\",\"link_md\":\"[People ex rel. Harris v. Graham, 927 N.E.2d 564 (N.Y. 2010)](https://syfert.com/new-york/cases/14-n-y-3d-709/people-ex-rel-harris-v-graham)\",\"match_kind\":\"semantic\",\"similarity\":0.6952},{\"cluster_id\":2394045,\"case_name\":\"State v. Harris\",\"citations\":[\"907 A.2d 1016\",\"188 N.J. 357\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2006-09-27\",\"status\":\"Published\",\"cited_by\":12,\"url\":\"https://syfert.com/new-jersey/cases/188-n-j-357/state-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Harris, 907 A.2d 1016 (N.J. 2006)\",\"link_md\":\"[State v. Harris, 907 A.2d 1016 (N.J. 2006)](https://syfert.com/new-jersey/cases/188-n-j-357/state-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6949},{\"cluster_id\":8949288,\"case_name\":\"Harris v. McNeill\",\"citations\":[\"365 U.S. 805\"],\"court\":\"Supreme Court\",\"date_filed\":\"1961-01-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/365-u-s-805/harris-v-mcneill\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. McNeill, 365 U.S. 805 (1961)\",\"link_md\":\"[Harris v. McNeill, 365 U.S. 805 (1961)](https://syfert.com/federal/scotus/cases/365-u-s-805/harris-v-mcneill)\",\"match_kind\":\"semantic\",\"similarity\":0.6948},{\"cluster_id\":5990747,\"case_name\":\"Harris Structural Steel Co. v. Board of Estimate\",\"citations\":[\"86 A.D.2d 796\",\"448 N.Y.S.2d 648\",\"1982 N.Y. App. Div. LEXIS 15410\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1982-02-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/86-a-d-2d-796/harris-structural-steel-co-v-board-of-estimate\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris Structural Steel Co. v. Bd. of Estimate, 86 A.D.2d 796 (N.Y. App. Div. 1st Dep't 1982)\",\"link_md\":\"[Harris Structural Steel Co. v. Bd. of Estimate, 86 A.D.2d 796 (N.Y. App. Div. 1st Dep't 1982)](https://syfert.com/new-york/cases/86-a-d-2d-796/harris-structural-steel-co-v-board-of-estimate)\",\"match_kind\":\"semantic\",\"similarity\":0.6946}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Harris w/15 \"940 N.Y.S.2d 127\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 123625,
+    "case_name": "Harris v. New York",
+    "citations": [
+     "537 U.S. 907",
+     "123 S. Ct. 243"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2002-10-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/537-u-s-907/harris-v-new-york",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (123625 and its twin 9251671). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. New York, 537 U.S. 907 (2002)",
+    "link_md": "[Harris v. New York, 537 U.S. 907 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-907/harris-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.7444
+   },
+   {
+    "cluster_id": 389359,
+    "case_name": "Harris v. Harris",
+    "citations": [
+     "646 F.2d 560",
+     "1980 U.S. App. LEXIS 11113"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1980-12-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/646-f-2d-560/harris-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. Harris, 646 F.2d 560 (2d Cir. 1980)",
+    "link_md": "[Harris v. Harris, 646 F.2d 560 (2d Cir. 1980)](https://syfert.com/federal/circuits/cases/646-f-2d-560/harris-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.7374
+   },
+   {
+    "cluster_id": 8947897,
+    "case_name": "Harris v. New York",
+    "citations": [
+     "363 U.S. 824"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1960-06-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/363-u-s-824/harris-v-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. New York, 363 U.S. 824 (1960)",
+    "link_md": "[Harris v. New York, 363 U.S. 824 (1960)](https://syfert.com/federal/scotus/cases/363-u-s-824/harris-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.7254
+   },
+   {
+    "cluster_id": 8930019,
+    "case_name": "Harris v. New York",
+    "citations": [
+     "340 U.S. 855"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1950-10-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/340-u-s-855/harris-v-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. New York, 340 U.S. 855 (1950)",
+    "link_md": "[Harris v. New York, 340 U.S. 855 (1950)](https://syfert.com/federal/scotus/cases/340-u-s-855/harris-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.7241
+   },
+   {
+    "cluster_id": 450936,
+    "case_name": "Harris v. United States",
+    "citations": [
+     "760 F.2d 253"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1985-02-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/760-f-2d-253/harris-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. United States, 760 F.2d 253 (2d Cir. 1985)",
+    "link_md": "[Harris v. United States, 760 F.2d 253 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/760-f-2d-253/harris-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7124
+   },
+   {
+    "cluster_id": 683630,
+    "case_name": "Harris v. United States",
+    "citations": [
+     "41 F.3d 1500",
+     "1994 U.S. App. LEXIS 29756",
+     "1994 WL 579073"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1994-09-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/41-f-3d-1500/harris-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. United States, 41 F.3d 1500 (2d Cir. 1994)",
+    "link_md": "[Harris v. United States, 41 F.3d 1500 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/41-f-3d-1500/harris-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7086
+   },
+   {
+    "cluster_id": 5478631,
+    "case_name": "Harris v. New York City Interborough Railway Co.",
+    "citations": [
+     "232 A.D. 802"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1931-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/232-a-d-802/harris-v-new-york-city-interborough-railway-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. New York City Interborough Ry. Co., 232 A.D. 802 (N.Y. App. Div. 1931)",
+    "link_md": "[Harris v. New York City Interborough Ry. Co., 232 A.D. 802 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/232-a-d-802/harris-v-new-york-city-interborough-railway-co)",
+    "match_kind": "semantic",
+    "similarity": 0.7072
+   },
+   {
+    "cluster_id": 738468,
+    "case_name": "Harris v. United States",
+    "citations": [
+     "109 F.3d 772",
+     "1997 WL 93932"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1997-02-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/109-f-3d-772/harris-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. United States, 109 F.3d 772 (11th Cir. 1997)",
+    "link_md": "[Harris v. United States, 109 F.3d 772 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/109-f-3d-772/harris-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7072
+   },
+   {
+    "cluster_id": 2345242,
+    "case_name": "State v. Harris",
+    "citations": [
+     "983 A.2d 199",
+     "200 N.J. 472"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2009-10-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/200-n-j-472/state-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Harris, 983 A.2d 199 (N.J. 2009)",
+    "link_md": "[State v. Harris, 983 A.2d 199 (N.J. 2009)](https://syfert.com/new-jersey/cases/200-n-j-472/state-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.7063
+   },
+   {
+    "cluster_id": 1996484,
+    "case_name": "State v. Harris",
+    "citations": [
+     "989 A.2d 1265",
+     "201 N.J. 272"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2010-02-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/201-n-j-272/state-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Harris, 989 A.2d 1265 (N.J. 2010)",
+    "link_md": "[State v. Harris, 989 A.2d 1265 (N.J. 2010)](https://syfert.com/new-jersey/cases/201-n-j-272/state-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.704
+   },
+   {
+    "cluster_id": 2301334,
+    "case_name": "State v. Harris",
+    "citations": [
+     "43 A.3d 1167",
+     "210 N.J. 261"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2012-05-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/210-n-j-261/state-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Harris, 43 A.3d 1167 (N.J. 2012)",
+    "link_md": "[State v. Harris, 43 A.3d 1167 (N.J. 2012)](https://syfert.com/new-jersey/cases/210-n-j-261/state-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.7034
+   },
+   {
+    "cluster_id": 3597310,
+    "case_name": "Harris v. . Taylor",
+    "citations": [
+     "53 N.E. 1126",
+     "159 N.Y. 533",
+     "1899 N.Y. LEXIS 1049"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1899-05-02",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/159-n-y-533/harris-v-taylor",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. Taylor, 53 N.E. 1126 (N.Y. 1899)",
+    "link_md": "[Harris v. Taylor, 53 N.E. 1126 (N.Y. 1899)](https://syfert.com/new-york/cases/159-n-y-533/harris-v-taylor)",
+    "match_kind": "semantic",
+    "similarity": 0.7022
+   },
+   {
+    "cluster_id": 5478628,
+    "case_name": "Harris v. New York City Interborough Railway Co.",
+    "citations": [
+     "232 A.D. 802"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1931-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/232-a-d-802/harris-v-new-york-city-interborough-railway-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. New York City Interborough Ry. Co., 232 A.D. 802 (N.Y. App. Div. 1931)",
+    "link_md": "[Harris v. New York City Interborough Ry. Co., 232 A.D. 802 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/232-a-d-802/harris-v-new-york-city-interborough-railway-co)",
+    "match_kind": "semantic",
+    "similarity": 0.7019
+   },
+   {
+    "cluster_id": 2273253,
+    "case_name": "State v. Harris",
+    "citations": [
+     "991 A.2d 231",
+     "201 N.J. 439"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2010-03-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/201-n-j-439/state-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Harris, 991 A.2d 231 (N.J. 2010)",
+    "link_md": "[State v. Harris, 991 A.2d 231 (N.J. 2010)](https://syfert.com/new-jersey/cases/201-n-j-439/state-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6995
+   },
+   {
+    "cluster_id": 400341,
+    "case_name": "Hayes v. Harris",
+    "citations": [
+     "672 F.2d 900",
+     "1981 U.S. App. LEXIS 17404"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-09-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/672-f-2d-900/hayes-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hayes v. Harris, 672 F.2d 900 (2d Cir. 1981)",
+    "link_md": "[Hayes v. Harris, 672 F.2d 900 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/672-f-2d-900/hayes-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6974
+   },
+   {
+    "cluster_id": 7434701,
+    "case_name": "Onward Construction Co. v. Harris",
+    "citations": [
+     "160 A.D. 934",
+     "145 N.Y.S. 1136",
+     "1914 N.Y. App. Div. LEXIS 5093"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1914-01-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/160-a-d-934/onward-construction-co-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Onward Constr. Co. v. Harris, 160 A.D. 934 (N.Y. App. Div. 1914)",
+    "link_md": "[Onward Constr. Co. v. Harris, 160 A.D. 934 (N.Y. App. Div. 1914)](https://syfert.com/new-york/cases/160-a-d-934/onward-construction-co-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6958
+   },
+   {
+    "cluster_id": 2556127,
+    "case_name": "People Ex Rel. Harris v. Graham",
+    "citations": [
+     "927 N.E.2d 564",
+     "14 N.Y.3d 709"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2010-05-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/14-n-y-3d-709/people-ex-rel-harris-v-graham",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Harris v. Graham, 927 N.E.2d 564 (N.Y. 2010)",
+    "link_md": "[People ex rel. Harris v. Graham, 927 N.E.2d 564 (N.Y. 2010)](https://syfert.com/new-york/cases/14-n-y-3d-709/people-ex-rel-harris-v-graham)",
+    "match_kind": "semantic",
+    "similarity": 0.6952
+   },
+   {
+    "cluster_id": 2394045,
+    "case_name": "State v. Harris",
+    "citations": [
+     "907 A.2d 1016",
+     "188 N.J. 357"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2006-09-27",
+    "status": "Published",
+    "cited_by": 12,
+    "url": "https://syfert.com/new-jersey/cases/188-n-j-357/state-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Harris, 907 A.2d 1016 (N.J. 2006)",
+    "link_md": "[State v. Harris, 907 A.2d 1016 (N.J. 2006)](https://syfert.com/new-jersey/cases/188-n-j-357/state-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6949
+   },
+   {
+    "cluster_id": 8949288,
+    "case_name": "Harris v. McNeill",
+    "citations": [
+     "365 U.S. 805"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1961-01-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/365-u-s-805/harris-v-mcneill",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. McNeill, 365 U.S. 805 (1961)",
+    "link_md": "[Harris v. McNeill, 365 U.S. 805 (1961)](https://syfert.com/federal/scotus/cases/365-u-s-805/harris-v-mcneill)",
+    "match_kind": "semantic",
+    "similarity": 0.6948
+   },
+   {
+    "cluster_id": 5990747,
+    "case_name": "Harris Structural Steel Co. v. Board of Estimate",
+    "citations": [
+     "86 A.D.2d 796",
+     "448 N.Y.S.2d 648",
+     "1982 N.Y. App. Div. LEXIS 15410"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1982-02-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/86-a-d-2d-796/harris-structural-steel-co-v-board-of-estimate",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris Structural Steel Co. v. Bd. of Estimate, 86 A.D.2d 796 (N.Y. App. Div. 1st Dep't 1982)",
+    "link_md": "[Harris Structural Steel Co. v. Bd. of Estimate, 86 A.D.2d 796 (N.Y. App. Div. 1st Dep't 1982)](https://syfert.com/new-york/cases/86-a-d-2d-796/harris-structural-steel-co-v-board-of-estimate)",
+    "match_kind": "semantic",
+    "similarity": 0.6946
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "York w/15 \"926 N.Y.2d 532\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"York w/15 \\\"926 N.Y.2d 532\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":537785,\"bluebook\":\"Tony Velasquez v. Arthur A. Leonardo, 898 F.2d 7 (2d Cir. 1990)\",\"url\":\"https://syfert.com/federal/circuits/cases/898-f-2d-7/tony-velasquez-v-arthur-a-leonardo-superintendent-great-meadow\",\"date_filed\":\"1990-03-07\",\"cited_by\":178,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In August 1988, appellant’s motion for leave to appeal to the New York Court of Appeals was denied.\\nPeople v. Velasquez,\\n72 N.Y.2d 926 , 532 N.Y.S.2d 860 , 529 N.E.2d 190 (1988).\\nIn October 1988, appellant filed a petition for a writ…\",\"holding\":\"Federal habeas review is foreclosed when a state court expressly relies on a procedural default as an independent and adequate state ground even if it rules on the merits in the alternative.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "York w/15 \"926 N.Y.2d 532\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 537785,
+    "bluebook": "Tony Velasquez v. Arthur A. Leonardo, 898 F.2d 7 (2d Cir. 1990)",
+    "url": "https://syfert.com/federal/circuits/cases/898-f-2d-7/tony-velasquez-v-arthur-a-leonardo-superintendent-great-meadow",
+    "date_filed": "1990-03-07",
+    "cited_by": 178,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In August 1988, appellant’s motion for leave to appeal to the New York Court of Appeals was denied.\nPeople v. Velasquez,\n72 N.Y.2d 926 , 532 N.Y.S.2d 860 , 529 N.E.2d 190 (1988).\nIn October 1988, appellant filed a petition for a writ…",
+    "holding": "Federal habeas review is foreclosed when a state court expressly relies on a procedural default as an independent and adequate state ground even if it rules on the merits in the alternative.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

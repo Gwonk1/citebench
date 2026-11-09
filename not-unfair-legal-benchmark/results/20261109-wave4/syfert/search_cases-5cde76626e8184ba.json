@@ -1,0 +1,32 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "LaSonde w/15 \"933 NYS2d 195\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"LaSonde w/15 \\\"933 NYS2d 195\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10276065,\"bluebook\":\"1245 Stratford, LLC v. Osboume, 2024 NY Slip Op 51562(U) (Civ. Ct. NYC, Bronx Cty. 2024)\",\"url\":\"https://syfert.com/new-york/cases/cl-10276065/1245-stratford-llc-v-osboume\",\"date_filed\":\"2024-11-15\",\"cited_by\":4,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 4 clusters (10276065 and its twins 10276111, 10277215, 10281619).\",\"status\":\"Unpublished\",\"snippet\":\"...These violations, dated December 28, 2020, March 18, 2021 and July 26, 2021, respectively, are all listed as open on the DOB website, which this court takes judicial notice of, Matter of LaSonde v Seabrook ( 89 AD3d 132, 137 , 933 NYS2d…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "LaSonde w/15 \"933 NYS2d 195\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10276065,
+    "bluebook": "1245 Stratford, LLC v. Osboume, 2024 NY Slip Op 51562(U) (Civ. Ct. NYC, Bronx Cty. 2024)",
+    "url": "https://syfert.com/new-york/cases/cl-10276065/1245-stratford-llc-v-osboume",
+    "date_filed": "2024-11-15",
+    "cited_by": 4,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 4 clusters (10276065 and its twins 10276111, 10277215, 10281619).",
+    "status": "Unpublished",
+    "snippet": "...These violations, dated December 28, 2020, March 18, 2021 and July 26, 2021, respectively, are all listed as open on the DOB website, which this court takes judicial notice of, Matter of LaSonde v Seabrook ( 89 AD3d 132, 137 , 933 NYS2d…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

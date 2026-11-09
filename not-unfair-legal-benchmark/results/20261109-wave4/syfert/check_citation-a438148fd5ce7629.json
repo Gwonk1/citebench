@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "926 N.Y.S.2d 532",
+  "expected_case_name": "Bank of New York v. Silverberg"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"926 N.Y.S.2d 532\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5969170,\n            \"case_name\": \"Bank of New York v. Silverberg\",\n            \"citations\": [\n                \"926 N.Y.S.2d 532\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2011-06-07\",\n            \"status\": \"Published\",\n            \"cited_by\": 198,\n            \"url\": \"https://syfert.com/new-york/cases/86-a-d-3d-274/bank-of-new-york-v-silverberg\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Bank of New York v. Silverberg, 926 N.Y.S.2d 532 (N.Y. App. Div. 2d Dep't 2011)\",\n            \"link_md\": \"[Bank of New York v. Silverberg, 926 N.Y.S.2d 532 (N.Y. App. Div. 2d Dep't 2011)](https://syfert.com/new-york/cases/86-a-d-3d-274/bank-of-new-york-v-silverberg)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 181,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Bank of New York v. Silverberg\",\n        \"actual\": \"Bank of New York v. Silverberg\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "926 N.Y.S.2d 532",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5969170,
+    "case_name": "Bank of New York v. Silverberg",
+    "citations": [
+     "926 N.Y.S.2d 532"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2011-06-07",
+    "status": "Published",
+    "cited_by": 198,
+    "url": "https://syfert.com/new-york/cases/86-a-d-3d-274/bank-of-new-york-v-silverberg",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bank of New York v. Silverberg, 926 N.Y.S.2d 532 (N.Y. App. Div. 2d Dep't 2011)",
+    "link_md": "[Bank of New York v. Silverberg, 926 N.Y.S.2d 532 (N.Y. App. Div. 2d Dep't 2011)](https://syfert.com/new-york/cases/86-a-d-3d-274/bank-of-new-york-v-silverberg)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 181,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Bank of New York v. Silverberg",
+   "actual": "Bank of New York v. Silverberg",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

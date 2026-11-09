@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "213 N.W.2d 446",
+  "expected_case_name": "Bowman v. American Home Assurance Company"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"213 N.W.2d 446\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1242608,\n            \"case_name\": \"Bowman v. American Home Assurance Company\",\n            \"citations\": [\n                \"213 N.W.2d 446\"\n            ],\n            \"court\": \"Nebraska Supreme Court\",\n            \"date_filed\": \"1973-12-07\",\n            \"status\": \"Published\",\n            \"cited_by\": 7,\n            \"url\": \"https://syfert.com/nebraska/cases/190-neb-810/bowman-v-american-home-assurance-company\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Bowman v. Am. Home Assurance Co., 213 N.W.2d 446 (Neb. 1973)\",\n            \"link_md\": \"[Bowman v. Am. Home Assurance Co., 213 N.W.2d 446 (Neb. 1973)](https://syfert.com/nebraska/cases/190-neb-810/bowman-v-american-home-assurance-company)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 2,\n                \"green\": 9,\n                \"procedural\": 0,\n                \"strongest_signal\": \"But See\",\n                \"strongest_citer\": \"In re Gull Air, Inc.\",\n                \"strongest_date\": \"1987-05-18\",\n                \"strongest_citer_cluster_id\": 2026118,\n                \"strongest_citer_published\": true\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Bowman v. American Home Assurance Company\",\n        \"actual\": \"Bowman v. American Home Assurance Company\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "213 N.W.2d 446",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1242608,
+    "case_name": "Bowman v. American Home Assurance Company",
+    "citations": [
+     "213 N.W.2d 446"
+    ],
+    "court": "Nebraska Supreme Court",
+    "date_filed": "1973-12-07",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/nebraska/cases/190-neb-810/bowman-v-american-home-assurance-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bowman v. Am. Home Assurance Co., 213 N.W.2d 446 (Neb. 1973)",
+    "link_md": "[Bowman v. Am. Home Assurance Co., 213 N.W.2d 446 (Neb. 1973)](https://syfert.com/nebraska/cases/190-neb-810/bowman-v-american-home-assurance-company)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 2,
+     "green": 9,
+     "procedural": 0,
+     "strongest_signal": "But See",
+     "strongest_citer": "In re Gull Air, Inc.",
+     "strongest_date": "1987-05-18",
+     "strongest_citer_cluster_id": 2026118,
+     "strongest_citer_published": true
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Bowman v. American Home Assurance Company",
+   "actual": "Bowman v. American Home Assurance Company",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

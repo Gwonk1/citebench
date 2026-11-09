@@ -1,0 +1,46 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Destiny w/15 \"889 N.Y.S.2d 793\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Destiny w/15 \\\"889 N.Y.S.2d 793\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10171809,\"bluebook\":\"Chittenden Resorts v. Gerlach, No. 24-cv-2711 (Vt. Super. Ct. Oct. 31, 2024)\",\"url\":\"https://syfert.com/vermont/cases/cl-10171809/chittenden-resorts-v-gerlach\",\"date_filed\":\"2024-10-31\",\"cited_by\":0,\"snippet\":\"...Cangelosi, 768 N.Y.S.2d 504, 507 (2003)\\n(citations omitted); see also Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corporation, 889\\nN.Y.S.2d 793 , 802 (2009).\\nThere are sections of the replacement trails that are between…\"},{\"cluster_id\":10687111,\"bluebook\":\"Encore Holdings v. Gadhue, No. 25-cv-3194 (Vt. Super. Ct. Oct. 1, 2025)\",\"url\":\"https://syfert.com/vermont/cases/cl-10687111/encore-holdings-v-gadhue\",\"date_filed\":\"2025-10-01\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...2003) (citations omitted); see also Destiny USA\\nHoldings, LLC v. Citigroup Glob. Markets Realty Corp., 889 N.Y.S.2d 793 , 802 (App. Div.\\n2009) (“Harm to business reputation is harm for which money damages are insufficient and for\\nwhich…\",\"passage_origin\":{\"case_name\":\"Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp.\",\"cluster_id\":5931794,\"year\":2009,\"quoted_by_cases\":2}}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Destiny w/15 \"889 N.Y.S.2d 793\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10171809,
+    "bluebook": "Chittenden Resorts v. Gerlach, No. 24-cv-2711 (Vt. Super. Ct. Oct. 31, 2024)",
+    "url": "https://syfert.com/vermont/cases/cl-10171809/chittenden-resorts-v-gerlach",
+    "date_filed": "2024-10-31",
+    "cited_by": 0,
+    "snippet": "...Cangelosi, 768 N.Y.S.2d 504, 507 (2003)\n(citations omitted); see also Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corporation, 889\nN.Y.S.2d 793 , 802 (2009).\nThere are sections of the replacement trails that are between…"
+   },
+   {
+    "cluster_id": 10687111,
+    "bluebook": "Encore Holdings v. Gadhue, No. 25-cv-3194 (Vt. Super. Ct. Oct. 1, 2025)",
+    "url": "https://syfert.com/vermont/cases/cl-10687111/encore-holdings-v-gadhue",
+    "date_filed": "2025-10-01",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...2003) (citations omitted); see also Destiny USA\nHoldings, LLC v. Citigroup Glob. Markets Realty Corp., 889 N.Y.S.2d 793 , 802 (App. Div.\n2009) (“Harm to business reputation is harm for which money damages are insufficient and for\nwhich…",
+    "passage_origin": {
+     "case_name": "Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp.",
+     "cluster_id": 5931794,
+     "year": 2009,
+     "quoted_by_cases": 2
+    }
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "871 N.Y.S.2d 170",
+  "expected_case_name": "White v. DaimlerChrysler Corp."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"871 N.Y.S.2d 170\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5906464,\n            \"case_name\": \"White v. DaimlerChrysler Corp.\",\n            \"citations\": [\n                \"871 N.Y.S.2d 170\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2008-12-02\",\n            \"status\": \"Published\",\n            \"cited_by\": 5,\n            \"url\": \"https://syfert.com/new-york/cases/57-a-d-3d-531/white-v-daimlerchrysler-corp\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"White v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 (N.Y. App. Div. 2d Dep't 2008)\",\n            \"link_md\": \"[White v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 (N.Y. App. Div. 2d Dep't 2008)](https://syfert.com/new-york/cases/57-a-d-3d-531/white-v-daimlerchrysler-corp)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 4,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"White v. DaimlerChrysler Corp.\",\n        \"actual\": \"White v. DaimlerChrysler Corp.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "871 N.Y.S.2d 170",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5906464,
+    "case_name": "White v. DaimlerChrysler Corp.",
+    "citations": [
+     "871 N.Y.S.2d 170"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2008-12-02",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/57-a-d-3d-531/white-v-daimlerchrysler-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "White v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 (N.Y. App. Div. 2d Dep't 2008)",
+    "link_md": "[White v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 (N.Y. App. Div. 2d Dep't 2008)](https://syfert.com/new-york/cases/57-a-d-3d-531/white-v-daimlerchrysler-corp)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 4,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "White v. DaimlerChrysler Corp.",
+   "actual": "White v. DaimlerChrysler Corp.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

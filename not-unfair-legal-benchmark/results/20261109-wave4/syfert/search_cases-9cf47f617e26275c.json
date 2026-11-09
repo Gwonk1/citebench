@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Nonnon w/15 \"932 N.Y.S.2d 428\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Nonnon w/15 \\\"932 N.Y.S.2d 428\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2642180,\"bluebook\":\"Deborah Kay Harris v. CSX Transp., 753 S.E.2d 275 (W. Va. 2013)\",\"url\":\"https://syfert.com/west-virginia/cases/232-w-va-617/deborah-kay-harris-administratrix-v-csx-transportation\",\"date_filed\":\"2013-11-13\",\"cited_by\":12,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Nonnon v. City of New York, 88 A.D.3d 384 , 932 N.Y.S.2d 428 , 429 (2011) (“[W]e [have] determined that plaintiffs’ expert evidence did not require that a hearing be held [because] neither the deductions of the expert…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Nonnon w/15 \"932 N.Y.S.2d 428\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2642180,
+    "bluebook": "Deborah Kay Harris v. CSX Transp., 753 S.E.2d 275 (W. Va. 2013)",
+    "url": "https://syfert.com/west-virginia/cases/232-w-va-617/deborah-kay-harris-administratrix-v-csx-transportation",
+    "date_filed": "2013-11-13",
+    "cited_by": 12,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Nonnon v. City of New York, 88 A.D.3d 384 , 932 N.Y.S.2d 428 , 429 (2011) (“[W]e [have] determined that plaintiffs’ expert evidence did not require that a hearing be held [because] neither the deductions of the expert…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "455 N.E.2d 41",
+  "expected_case_name": "People v. Emerson"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"455 N.E.2d 41\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2046421,\n            \"case_name\": \"People v. Emerson\",\n            \"citations\": [\n                \"455 N.E.2d 41\"\n            ],\n            \"court\": \"Illinois Supreme Court\",\n            \"date_filed\": \"1983-10-04\",\n            \"status\": \"Published\",\n            \"cited_by\": 258,\n            \"url\": \"https://syfert.com/illinois/cases/97-ill-2d-487/people-v-emerson\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Emerson, 455 N.E.2d 41 (Ill. 1983)\",\n            \"link_md\": \"[People v. Emerson, 455 N.E.2d 41 (Ill. 1983)](https://syfert.com/illinois/cases/97-ill-2d-487/people-v-emerson)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 91,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Emerson\",\n        \"actual\": \"People v. Emerson\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "455 N.E.2d 41",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2046421,
+    "case_name": "People v. Emerson",
+    "citations": [
+     "455 N.E.2d 41"
+    ],
+    "court": "Illinois Supreme Court",
+    "date_filed": "1983-10-04",
+    "status": "Published",
+    "cited_by": 258,
+    "url": "https://syfert.com/illinois/cases/97-ill-2d-487/people-v-emerson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Emerson, 455 N.E.2d 41 (Ill. 1983)",
+    "link_md": "[People v. Emerson, 455 N.E.2d 41 (Ill. 1983)](https://syfert.com/illinois/cases/97-ill-2d-487/people-v-emerson)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 91,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Emerson",
+   "actual": "People v. Emerson",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

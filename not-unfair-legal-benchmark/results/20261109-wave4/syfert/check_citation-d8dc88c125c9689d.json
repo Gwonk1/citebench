@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "84 S.E. 519",
+  "expected_case_name": "Harrison v. Atlantic Coast Line Railroad"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"84 S.E. 519\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3922904,\n            \"case_name\": \"Harrison v. Atlantic Coast Line Railroad\",\n            \"citations\": [\n                \"84 S.E. 519\"\n            ],\n            \"court\": \"Supreme Court of North Carolina\",\n            \"date_filed\": \"1915-03-10\",\n            \"status\": \"Published\",\n            \"cited_by\": 21,\n            \"url\": \"https://syfert.com/north-carolina/cases/168-n-c-382/harrison-v-atlantic-coast-line-railroad\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Harrison v. Atl. Coast Line R.R., 84 S.E. 519 (N.C. 1915)\",\n            \"link_md\": \"[Harrison v. Atl. Coast Line R.R., 84 S.E. 519 (N.C. 1915)](https://syfert.com/north-carolina/cases/168-n-c-382/harrison-v-atlantic-coast-line-railroad)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Harrison v. Atlantic Coast Line Railroad\",\n        \"actual\": \"Harrison v. Atlantic Coast Line Railroad\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "84 S.E. 519",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3922904,
+    "case_name": "Harrison v. Atlantic Coast Line Railroad",
+    "citations": [
+     "84 S.E. 519"
+    ],
+    "court": "Supreme Court of North Carolina",
+    "date_filed": "1915-03-10",
+    "status": "Published",
+    "cited_by": 21,
+    "url": "https://syfert.com/north-carolina/cases/168-n-c-382/harrison-v-atlantic-coast-line-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harrison v. Atl. Coast Line R.R., 84 S.E. 519 (N.C. 1915)",
+    "link_md": "[Harrison v. Atl. Coast Line R.R., 84 S.E. 519 (N.C. 1915)](https://syfert.com/north-carolina/cases/168-n-c-382/harrison-v-atlantic-coast-line-railroad)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Harrison v. Atlantic Coast Line Railroad",
+   "actual": "Harrison v. Atlantic Coast Line Railroad",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

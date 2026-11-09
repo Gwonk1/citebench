@@ -1,0 +1,417 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Wells w/15 \"887 NYS2d 615\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Wells w/15 \\\"887 NYS2d 615\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7346841,\"case_name\":\"Wells v. New York\",\"citations\":[\"565 U.S. 828\",\"181 L. Ed. 2d 46\",\"2011 U.S. LEXIS 5348\",\"132 S. Ct. 123\",\"80 U.S.L.W. 3183\"],\"court\":\"Supreme Court\",\"date_filed\":\"2011-10-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/565-u-s-828/wells-v-new-york\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7346841 and its twin 9242410). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. New York, 565 U.S. 828 (2011)\",\"link_md\":\"[Wells v. New York, 565 U.S. 828 (2011)](https://syfert.com/federal/scotus/cases/565-u-s-828/wells-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.7571},{\"cluster_id\":459680,\"case_name\":\"Wells v. United States\",\"citations\":[\"774 F.2d 1172\",\"1985 U.S. App. LEXIS 24876\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1985-09-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/774-f-2d-1172/wells-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. United States, 774 F.2d 1172 (8th Cir. 1985)\",\"link_md\":\"[Wells v. United States, 774 F.2d 1172 (8th Cir. 1985)](https://syfert.com/federal/circuits/cases/774-f-2d-1172/wells-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7317},{\"cluster_id\":7434398,\"case_name\":\"Wittgren v. Wells Bros.\",\"citations\":[\"159 A.D. 918\",\"144 N.Y.S. 1150\",\"1913 N.Y. App. Div. LEXIS 8882\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1913-11-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/159-a-d-918/wittgren-v-wells-bros\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wittgren v. Wells Bros., 159 A.D. 918 (N.Y. App. Div. 1913)\",\"link_md\":\"[Wittgren v. Wells Bros., 159 A.D. 918 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/159-a-d-918/wittgren-v-wells-bros)\",\"match_kind\":\"semantic\",\"similarity\":0.7303},{\"cluster_id\":499191,\"case_name\":\"Wells v. Hickey-Freeman Co\",\"citations\":[\"835 F.2d 1430\",\"1987 U.S. App. LEXIS 16052\",\"1987 WL 23726\"],\"court\":\"Second Circuit\",\"date_filed\":\"1987-10-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/835-f-2d-1430/wells-v-hickey-freeman-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. Hickey-Freeman Co, 835 F.2d 1430 (2d Cir. 1987)\",\"link_md\":\"[Wells v. Hickey-Freeman Co, 835 F.2d 1430 (2d Cir. 1987)](https://syfert.com/federal/circuits/cases/835-f-2d-1430/wells-v-hickey-freeman-co)\",\"match_kind\":\"semantic\",\"similarity\":0.7136},{\"cluster_id\":7417999,\"case_name\":\"Wells v. Vanderwerker\",\"citations\":[\"61 N.Y.S. 1151\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1899-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/61-n-y-s-1151/wells-v-vanderwerker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. Vanderwerker, 61 N.Y.S. 1151 (N.Y. App. Div. 1899)\",\"link_md\":\"[Wells v. Vanderwerker, 61 N.Y.S. 1151 (N.Y. App. Div. 1899)](https://syfert.com/new-york/cases/61-n-y-s-1151/wells-v-vanderwerker)\",\"match_kind\":\"semantic\",\"similarity\":0.7119},{\"cluster_id\":525902,\"case_name\":\"Wells v. Sullivan\",\"citations\":[\"878 F.2d 1441\",\"1989 WL 71572\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1989-06-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/878-f-2d-1441/wells-v-sullivan\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. Sullivan, 878 F.2d 1441 (11th Cir. 1989)\",\"link_md\":\"[Wells v. Sullivan, 878 F.2d 1441 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/878-f-2d-1441/wells-v-sullivan)\",\"match_kind\":\"semantic\",\"similarity\":0.7085},{\"cluster_id\":5368659,\"case_name\":\"Wells v. New York City Railway Co.\",\"citations\":[\"120 A.D. 895\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1907-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/120-a-d-895/wells-v-new-york-city-railway-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. New York City Ry. Co., 120 A.D. 895 (N.Y. App. Div. 2d Dep't 1907)\",\"link_md\":\"[Wells v. New York City Ry. Co., 120 A.D. 895 (N.Y. App. Div. 2d Dep't 1907)](https://syfert.com/new-york/cases/120-a-d-895/wells-v-new-york-city-railway-co)\",\"match_kind\":\"semantic\",\"similarity\":0.706},{\"cluster_id\":513804,\"case_name\":\"Wells v. Pleban\",\"citations\":[\"860 F.2d 1085\",\"1988 U.S. App. LEXIS 17285\",\"1988 WL 110268\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1988-08-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/860-f-2d-1085/wells-v-pleban\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. Pleban, 860 F.2d 1085 (8th Cir. 1988)\",\"link_md\":\"[Wells v. Pleban, 860 F.2d 1085 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/860-f-2d-1085/wells-v-pleban)\",\"match_kind\":\"semantic\",\"similarity\":0.7045},{\"cluster_id\":5656266,\"case_name\":\"Wells v. Sibley\",\"citations\":[\"45 N.Y. St. Rep. 940\",\"18 N.Y.S. 947\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1892-04-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/18-n-y-s-947/wells-v-sibley\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. Sibley, 45 N.Y. St. Rep. 940 (N.Y. Sup. Ct. 1892)\",\"link_md\":\"[Wells v. Sibley, 45 N.Y. St. Rep. 940 (N.Y. Sup. Ct. 1892)](https://syfert.com/new-york/cases/18-n-y-s-947/wells-v-sibley)\",\"match_kind\":\"semantic\",\"similarity\":0.703},{\"cluster_id\":9384871,\"case_name\":\"Matter of Wells v. Freeland\",\"citations\":[\"2023 NY Slip Op 01462\",\"183 N.Y.S.3d 920\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2023-03-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/183-n-y-s-3d-920/matter-of-wells-v-freeland\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Wells v. Freeland, 2023 NY Slip Op 01462 (N.Y. App. Div. 4th Dep't 2023)\",\"link_md\":\"[Matter of Wells v. Freeland, 2023 NY Slip Op 01462 (N.Y. App. Div. 4th Dep't 2023)](https://syfert.com/new-york/cases/183-n-y-s-3d-920/matter-of-wells-v-freeland)\",\"match_kind\":\"semantic\",\"similarity\":0.7005},{\"cluster_id\":8430258,\"case_name\":\"Wells v. Konviser\",\"citations\":[\"137 S. Ct. 835\",\"197 L. Ed. 2d 74\",\"85 U.S.L.W. 3352\",\"2017 WL 276232\",\"2017 U.S. LEXIS 842\"],\"court\":\"Supreme Court\",\"date_filed\":\"2017-01-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/137-s-ct-835/wells-v-konviser\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. Konviser, 137 S. Ct. 835 (2017)\",\"link_md\":\"[Wells v. Konviser, 137 S. Ct. 835 (2017)](https://syfert.com/federal/scotus/cases/137-s-ct-835/wells-v-konviser)\",\"match_kind\":\"semantic\",\"similarity\":0.6996},{\"cluster_id\":443697,\"case_name\":\"Wells (Wendell Phillip) v. United States\",\"citations\":[\"746 F.2d 1481\",\"1984 U.S. App. LEXIS 13750\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1984-10-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/746-f-2d-1481/wells-wendell-phillip-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells (Wendell Phillip) v. United States, 746 F.2d 1481 (6th Cir. 1984)\",\"link_md\":\"[Wells (Wendell Phillip) v. United States, 746 F.2d 1481 (6th Cir. 1984)](https://syfert.com/federal/circuits/cases/746-f-2d-1481/wells-wendell-phillip-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6954},{\"cluster_id\":7417058,\"case_name\":\"Sparling v. Wells\",\"citations\":[\"58 N.Y.S. 1149\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1899-05-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/58-n-y-s-1149/sparling-v-wells\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sparling v. Wells, 58 N.Y.S. 1149 (N.Y. App. Div. 1899)\",\"link_md\":\"[Sparling v. Wells, 58 N.Y.S. 1149 (N.Y. App. Div. 1899)](https://syfert.com/new-york/cases/58-n-y-s-1149/sparling-v-wells)\",\"match_kind\":\"semantic\",\"similarity\":0.695},{\"cluster_id\":2436970,\"case_name\":\"Wells v. Storey\",\"citations\":[\"968 N.E.2d 219\",\"383 Ill. App. 3d 1147\",\"360 Ill. Dec. 140\",\"2008 Ill. App. LEXIS 3977\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"2008-08-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/illinois/cases/383-ill-app-3d-1147/wells-v-storey\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. Storey, 968 N.E.2d 219 (Ill. App. Ct. 1st Dist. 2008)\",\"link_md\":\"[Wells v. Storey, 968 N.E.2d 219 (Ill. App. Ct. 1st Dist. 2008)](https://syfert.com/illinois/cases/383-ill-app-3d-1147/wells-v-storey)\",\"match_kind\":\"semantic\",\"similarity\":0.6933},{\"cluster_id\":7435181,\"case_name\":\"Wittgren v. Wells Bros.\",\"citations\":[\"161 A.D. 944\",\"146 N.Y.S. 1119\",\"1914 N.Y. App. Div. LEXIS 5930\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1914-02-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/161-a-d-944/wittgren-v-wells-bros\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wittgren v. Wells Bros., 161 A.D. 944 (N.Y. App. Div. 1914)\",\"link_md\":\"[Wittgren v. Wells Bros., 161 A.D. 944 (N.Y. App. Div. 1914)](https://syfert.com/new-york/cases/161-a-d-944/wittgren-v-wells-bros)\",\"match_kind\":\"semantic\",\"similarity\":0.6916},{\"cluster_id\":8173885,\"case_name\":\"Wells v. United States\",\"citations\":[\"135 S. Ct. 1728\",\"191 L. Ed. 2d 695\",\"83 U.S.L.W. 3763\",\"2015 U.S. LEXIS 2320\"],\"court\":\"Supreme Court\",\"date_filed\":\"2015-03-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/135-s-ct-1728/wells-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. United States, 135 S. Ct. 1728 (2015)\",\"link_md\":\"[Wells v. United States, 135 S. Ct. 1728 (2015)](https://syfert.com/federal/scotus/cases/135-s-ct-1728/wells-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6911},{\"cluster_id\":8368017,\"case_name\":\"Wells v. Wells\",\"citations\":[\"68 N.Y. St. Rep. 884\"],\"court\":\"Superior Court of Buffalo\",\"date_filed\":\"1895-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-8368017/wells-v-wells\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells v. Wells, 68 N.Y. St. Rep. 884 (Buffalo Super. Ct. 1895)\",\"link_md\":\"[Wells v. Wells, 68 N.Y. St. Rep. 884 (Buffalo Super. Ct. 1895)](https://syfert.com/new-york/cases/cl-8368017/wells-v-wells)\",\"match_kind\":\"semantic\",\"similarity\":0.6865},{\"cluster_id\":3618858,\"case_name\":\"American Surety Co. v. Wells Water District\",\"citations\":[\"19 N.E.2d 926\",\"280 N.Y. 528\",\"1939 N.Y. LEXIS 1364\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1939-02-21\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/280-n-y-528/american-surety-co-v-wells-water-district\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Am. Sur. Co. v. Wells Water Dist., 19 N.E.2d 926 (N.Y. 1939)\",\"link_md\":\"[Am. Sur. Co. v. Wells Water Dist., 19 N.E.2d 926 (N.Y. 1939)](https://syfert.com/new-york/cases/280-n-y-528/american-surety-co-v-wells-water-district)\",\"match_kind\":\"semantic\",\"similarity\":0.6852},{\"cluster_id\":5859587,\"case_name\":\"Claim of Wells v. Alva S. Staples Co.\",\"citations\":[\"10 A.D.2d 781\",\"199 N.Y.S.2d 453\",\"1960 N.Y. App. Div. LEXIS 11065\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1960-03-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/10-a-d-2d-781/claim-of-wells-v-alva-s-staples-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Claim of Wells v. Alva S. Staples Co., 10 A.D.2d 781 (N.Y. App. Div. 3d Dep't 1960)\",\"link_md\":\"[Claim of Wells v. Alva S. Staples Co., 10 A.D.2d 781 (N.Y. App. Div. 3d Dep't 1960)](https://syfert.com/new-york/cases/10-a-d-2d-781/claim-of-wells-v-alva-s-staples-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6847},{\"cluster_id\":485741,\"case_name\":\"Wells Real Estate, Inc., in Re\",\"citations\":[\"815 F.2d 691\",\"1987 U.S. App. LEXIS 4749\"],\"court\":\"First Circuit\",\"date_filed\":\"1987-01-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/815-f-2d-691/wells-real-estate-inc-in-re\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wells Real Est., Inc., in Re, 815 F.2d 691 (1st Cir. 1987)\",\"link_md\":\"[Wells Real Est., Inc., in Re, 815 F.2d 691 (1st Cir. 1987)](https://syfert.com/federal/circuits/cases/815-f-2d-691/wells-real-estate-inc-in-re)\",\"match_kind\":\"semantic\",\"similarity\":0.6838}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Wells w/15 \"887 NYS2d 615\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7346841,
+    "case_name": "Wells v. New York",
+    "citations": [
+     "565 U.S. 828",
+     "181 L. Ed. 2d 46",
+     "2011 U.S. LEXIS 5348",
+     "132 S. Ct. 123",
+     "80 U.S.L.W. 3183"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2011-10-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/565-u-s-828/wells-v-new-york",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7346841 and its twin 9242410). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. New York, 565 U.S. 828 (2011)",
+    "link_md": "[Wells v. New York, 565 U.S. 828 (2011)](https://syfert.com/federal/scotus/cases/565-u-s-828/wells-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.7571
+   },
+   {
+    "cluster_id": 459680,
+    "case_name": "Wells v. United States",
+    "citations": [
+     "774 F.2d 1172",
+     "1985 U.S. App. LEXIS 24876"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1985-09-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/774-f-2d-1172/wells-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. United States, 774 F.2d 1172 (8th Cir. 1985)",
+    "link_md": "[Wells v. United States, 774 F.2d 1172 (8th Cir. 1985)](https://syfert.com/federal/circuits/cases/774-f-2d-1172/wells-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7317
+   },
+   {
+    "cluster_id": 7434398,
+    "case_name": "Wittgren v. Wells Bros.",
+    "citations": [
+     "159 A.D. 918",
+     "144 N.Y.S. 1150",
+     "1913 N.Y. App. Div. LEXIS 8882"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1913-11-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/159-a-d-918/wittgren-v-wells-bros",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wittgren v. Wells Bros., 159 A.D. 918 (N.Y. App. Div. 1913)",
+    "link_md": "[Wittgren v. Wells Bros., 159 A.D. 918 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/159-a-d-918/wittgren-v-wells-bros)",
+    "match_kind": "semantic",
+    "similarity": 0.7303
+   },
+   {
+    "cluster_id": 499191,
+    "case_name": "Wells v. Hickey-Freeman Co",
+    "citations": [
+     "835 F.2d 1430",
+     "1987 U.S. App. LEXIS 16052",
+     "1987 WL 23726"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1987-10-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/835-f-2d-1430/wells-v-hickey-freeman-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. Hickey-Freeman Co, 835 F.2d 1430 (2d Cir. 1987)",
+    "link_md": "[Wells v. Hickey-Freeman Co, 835 F.2d 1430 (2d Cir. 1987)](https://syfert.com/federal/circuits/cases/835-f-2d-1430/wells-v-hickey-freeman-co)",
+    "match_kind": "semantic",
+    "similarity": 0.7136
+   },
+   {
+    "cluster_id": 7417999,
+    "case_name": "Wells v. Vanderwerker",
+    "citations": [
+     "61 N.Y.S. 1151"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1899-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/61-n-y-s-1151/wells-v-vanderwerker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. Vanderwerker, 61 N.Y.S. 1151 (N.Y. App. Div. 1899)",
+    "link_md": "[Wells v. Vanderwerker, 61 N.Y.S. 1151 (N.Y. App. Div. 1899)](https://syfert.com/new-york/cases/61-n-y-s-1151/wells-v-vanderwerker)",
+    "match_kind": "semantic",
+    "similarity": 0.7119
+   },
+   {
+    "cluster_id": 525902,
+    "case_name": "Wells v. Sullivan",
+    "citations": [
+     "878 F.2d 1441",
+     "1989 WL 71572"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1989-06-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/878-f-2d-1441/wells-v-sullivan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. Sullivan, 878 F.2d 1441 (11th Cir. 1989)",
+    "link_md": "[Wells v. Sullivan, 878 F.2d 1441 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/878-f-2d-1441/wells-v-sullivan)",
+    "match_kind": "semantic",
+    "similarity": 0.7085
+   },
+   {
+    "cluster_id": 5368659,
+    "case_name": "Wells v. New York City Railway Co.",
+    "citations": [
+     "120 A.D. 895"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1907-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/120-a-d-895/wells-v-new-york-city-railway-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. New York City Ry. Co., 120 A.D. 895 (N.Y. App. Div. 2d Dep't 1907)",
+    "link_md": "[Wells v. New York City Ry. Co., 120 A.D. 895 (N.Y. App. Div. 2d Dep't 1907)](https://syfert.com/new-york/cases/120-a-d-895/wells-v-new-york-city-railway-co)",
+    "match_kind": "semantic",
+    "similarity": 0.706
+   },
+   {
+    "cluster_id": 513804,
+    "case_name": "Wells v. Pleban",
+    "citations": [
+     "860 F.2d 1085",
+     "1988 U.S. App. LEXIS 17285",
+     "1988 WL 110268"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1988-08-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/860-f-2d-1085/wells-v-pleban",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. Pleban, 860 F.2d 1085 (8th Cir. 1988)",
+    "link_md": "[Wells v. Pleban, 860 F.2d 1085 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/860-f-2d-1085/wells-v-pleban)",
+    "match_kind": "semantic",
+    "similarity": 0.7045
+   },
+   {
+    "cluster_id": 5656266,
+    "case_name": "Wells v. Sibley",
+    "citations": [
+     "45 N.Y. St. Rep. 940",
+     "18 N.Y.S. 947"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1892-04-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/18-n-y-s-947/wells-v-sibley",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. Sibley, 45 N.Y. St. Rep. 940 (N.Y. Sup. Ct. 1892)",
+    "link_md": "[Wells v. Sibley, 45 N.Y. St. Rep. 940 (N.Y. Sup. Ct. 1892)](https://syfert.com/new-york/cases/18-n-y-s-947/wells-v-sibley)",
+    "match_kind": "semantic",
+    "similarity": 0.703
+   },
+   {
+    "cluster_id": 9384871,
+    "case_name": "Matter of Wells v. Freeland",
+    "citations": [
+     "2023 NY Slip Op 01462",
+     "183 N.Y.S.3d 920"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2023-03-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/183-n-y-s-3d-920/matter-of-wells-v-freeland",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Wells v. Freeland, 2023 NY Slip Op 01462 (N.Y. App. Div. 4th Dep't 2023)",
+    "link_md": "[Matter of Wells v. Freeland, 2023 NY Slip Op 01462 (N.Y. App. Div. 4th Dep't 2023)](https://syfert.com/new-york/cases/183-n-y-s-3d-920/matter-of-wells-v-freeland)",
+    "match_kind": "semantic",
+    "similarity": 0.7005
+   },
+   {
+    "cluster_id": 8430258,
+    "case_name": "Wells v. Konviser",
+    "citations": [
+     "137 S. Ct. 835",
+     "197 L. Ed. 2d 74",
+     "85 U.S.L.W. 3352",
+     "2017 WL 276232",
+     "2017 U.S. LEXIS 842"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2017-01-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/137-s-ct-835/wells-v-konviser",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. Konviser, 137 S. Ct. 835 (2017)",
+    "link_md": "[Wells v. Konviser, 137 S. Ct. 835 (2017)](https://syfert.com/federal/scotus/cases/137-s-ct-835/wells-v-konviser)",
+    "match_kind": "semantic",
+    "similarity": 0.6996
+   },
+   {
+    "cluster_id": 443697,
+    "case_name": "Wells (Wendell Phillip) v. United States",
+    "citations": [
+     "746 F.2d 1481",
+     "1984 U.S. App. LEXIS 13750"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1984-10-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/746-f-2d-1481/wells-wendell-phillip-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells (Wendell Phillip) v. United States, 746 F.2d 1481 (6th Cir. 1984)",
+    "link_md": "[Wells (Wendell Phillip) v. United States, 746 F.2d 1481 (6th Cir. 1984)](https://syfert.com/federal/circuits/cases/746-f-2d-1481/wells-wendell-phillip-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6954
+   },
+   {
+    "cluster_id": 7417058,
+    "case_name": "Sparling v. Wells",
+    "citations": [
+     "58 N.Y.S. 1149"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1899-05-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/58-n-y-s-1149/sparling-v-wells",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sparling v. Wells, 58 N.Y.S. 1149 (N.Y. App. Div. 1899)",
+    "link_md": "[Sparling v. Wells, 58 N.Y.S. 1149 (N.Y. App. Div. 1899)](https://syfert.com/new-york/cases/58-n-y-s-1149/sparling-v-wells)",
+    "match_kind": "semantic",
+    "similarity": 0.695
+   },
+   {
+    "cluster_id": 2436970,
+    "case_name": "Wells v. Storey",
+    "citations": [
+     "968 N.E.2d 219",
+     "383 Ill. App. 3d 1147",
+     "360 Ill. Dec. 140",
+     "2008 Ill. App. LEXIS 3977"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "2008-08-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/illinois/cases/383-ill-app-3d-1147/wells-v-storey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. Storey, 968 N.E.2d 219 (Ill. App. Ct. 1st Dist. 2008)",
+    "link_md": "[Wells v. Storey, 968 N.E.2d 219 (Ill. App. Ct. 1st Dist. 2008)](https://syfert.com/illinois/cases/383-ill-app-3d-1147/wells-v-storey)",
+    "match_kind": "semantic",
+    "similarity": 0.6933
+   },
+   {
+    "cluster_id": 7435181,
+    "case_name": "Wittgren v. Wells Bros.",
+    "citations": [
+     "161 A.D. 944",
+     "146 N.Y.S. 1119",
+     "1914 N.Y. App. Div. LEXIS 5930"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1914-02-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/161-a-d-944/wittgren-v-wells-bros",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wittgren v. Wells Bros., 161 A.D. 944 (N.Y. App. Div. 1914)",
+    "link_md": "[Wittgren v. Wells Bros., 161 A.D. 944 (N.Y. App. Div. 1914)](https://syfert.com/new-york/cases/161-a-d-944/wittgren-v-wells-bros)",
+    "match_kind": "semantic",
+    "similarity": 0.6916
+   },
+   {
+    "cluster_id": 8173885,
+    "case_name": "Wells v. United States",
+    "citations": [
+     "135 S. Ct. 1728",
+     "191 L. Ed. 2d 695",
+     "83 U.S.L.W. 3763",
+     "2015 U.S. LEXIS 2320"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2015-03-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/135-s-ct-1728/wells-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. United States, 135 S. Ct. 1728 (2015)",
+    "link_md": "[Wells v. United States, 135 S. Ct. 1728 (2015)](https://syfert.com/federal/scotus/cases/135-s-ct-1728/wells-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6911
+   },
+   {
+    "cluster_id": 8368017,
+    "case_name": "Wells v. Wells",
+    "citations": [
+     "68 N.Y. St. Rep. 884"
+    ],
+    "court": "Superior Court of Buffalo",
+    "date_filed": "1895-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-8368017/wells-v-wells",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells v. Wells, 68 N.Y. St. Rep. 884 (Buffalo Super. Ct. 1895)",
+    "link_md": "[Wells v. Wells, 68 N.Y. St. Rep. 884 (Buffalo Super. Ct. 1895)](https://syfert.com/new-york/cases/cl-8368017/wells-v-wells)",
+    "match_kind": "semantic",
+    "similarity": 0.6865
+   },
+   {
+    "cluster_id": 3618858,
+    "case_name": "American Surety Co. v. Wells Water District",
+    "citations": [
+     "19 N.E.2d 926",
+     "280 N.Y. 528",
+     "1939 N.Y. LEXIS 1364"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1939-02-21",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/280-n-y-528/american-surety-co-v-wells-water-district",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Am. Sur. Co. v. Wells Water Dist., 19 N.E.2d 926 (N.Y. 1939)",
+    "link_md": "[Am. Sur. Co. v. Wells Water Dist., 19 N.E.2d 926 (N.Y. 1939)](https://syfert.com/new-york/cases/280-n-y-528/american-surety-co-v-wells-water-district)",
+    "match_kind": "semantic",
+    "similarity": 0.6852
+   },
+   {
+    "cluster_id": 5859587,
+    "case_name": "Claim of Wells v. Alva S. Staples Co.",
+    "citations": [
+     "10 A.D.2d 781",
+     "199 N.Y.S.2d 453",
+     "1960 N.Y. App. Div. LEXIS 11065"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1960-03-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/10-a-d-2d-781/claim-of-wells-v-alva-s-staples-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Claim of Wells v. Alva S. Staples Co., 10 A.D.2d 781 (N.Y. App. Div. 3d Dep't 1960)",
+    "link_md": "[Claim of Wells v. Alva S. Staples Co., 10 A.D.2d 781 (N.Y. App. Div. 3d Dep't 1960)](https://syfert.com/new-york/cases/10-a-d-2d-781/claim-of-wells-v-alva-s-staples-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6847
+   },
+   {
+    "cluster_id": 485741,
+    "case_name": "Wells Real Estate, Inc., in Re",
+    "citations": [
+     "815 F.2d 691",
+     "1987 U.S. App. LEXIS 4749"
+    ],
+    "court": "First Circuit",
+    "date_filed": "1987-01-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/815-f-2d-691/wells-real-estate-inc-in-re",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells Real Est., Inc., in Re, 815 F.2d 691 (1st Cir. 1987)",
+    "link_md": "[Wells Real Est., Inc., in Re, 815 F.2d 691 (1st Cir. 1987)](https://syfert.com/federal/circuits/cases/815-f-2d-691/wells-real-estate-inc-in-re)",
+    "match_kind": "semantic",
+    "similarity": 0.6838
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

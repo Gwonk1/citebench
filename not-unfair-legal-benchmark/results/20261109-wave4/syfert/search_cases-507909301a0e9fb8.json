@@ -1,0 +1,419 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "MARTIN w/15 \"341 So. 3d 335\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"MARTIN w/15 \\\"341 So. 3d 335\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2497730,\"case_name\":\"State v. Martin\",\"citations\":[\"66 So. 3d 85\",\"2011 WL 3366394\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2011-06-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/66-so-3d-85/state-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 66 So. 3d 85 (La. Ct. App. 2011)\",\"link_md\":\"[State v. Martin, 66 So. 3d 85 (La. Ct. App. 2011)](https://syfert.com/louisiana/cases/66-so-3d-85/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7469},{\"cluster_id\":1573583,\"case_name\":\"State v. Martin\",\"citations\":[\"17 So. 3d 523\",\"2009 WL 3241931\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2009-08-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/17-so-3d-523/state-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 17 So. 3d 523 (La. Ct. App. 2009)\",\"link_md\":\"[State v. Martin, 17 So. 3d 523 (La. Ct. App. 2009)](https://syfert.com/louisiana/cases/17-so-3d-523/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7427},{\"cluster_id\":2535595,\"case_name\":\"Martin v. Martin\",\"citations\":[\"46 So. 3d 288\",\"2010 WL 4595495\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2010-10-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/46-so-3d-288/martin-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Martin, 46 So. 3d 288 (La. Ct. App. 2010)\",\"link_md\":\"[Martin v. Martin, 46 So. 3d 288 (La. Ct. App. 2010)](https://syfert.com/louisiana/cases/46-so-3d-288/martin-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7377},{\"cluster_id\":182923,\"case_name\":\"Martin v. Lott\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2011-01-18\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-182923/martin-v-lott\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Lott, No. 10-1301 (4th Cir. Jan. 18, 2011)\",\"link_md\":\"[Martin v. Lott, No. 10-1301 (4th Cir. Jan. 18, 2011)](https://syfert.com/federal/circuits/cases/cl-182923/martin-v-lott)\",\"match_kind\":\"semantic\",\"similarity\":0.7358},{\"cluster_id\":5042001,\"case_name\":\"State v. Martin\",\"citations\":[\"24 So. 3d 862\",\"2010 La. LEXIS 53\",\"2010 WL 289086\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2010-01-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/24-so-3d-862/state-v-martin\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5042001 and its twin 1584052). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 24 So. 3d 862 (La. 2010)\",\"link_md\":\"[State v. Martin, 24 So. 3d 862 (La. 2010)](https://syfert.com/louisiana/cases/24-so-3d-862/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7319,\"twin_clusters\":[1584052]},{\"cluster_id\":988465,\"case_name\":\"Martin v. Phillips\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"1996-02-08\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-988465/martin-v-phillips\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Phillips, No. 95-7776 (4th Cir. Feb. 8, 1996)\",\"link_md\":\"[Martin v. Phillips, No. 95-7776 (4th Cir. Feb. 8, 1996)](https://syfert.com/federal/circuits/cases/cl-988465/martin-v-phillips)\",\"match_kind\":\"semantic\",\"similarity\":0.7289},{\"cluster_id\":5055845,\"case_name\":\"State v. Martin\",\"citations\":[\"80 So. 3d 483\",\"2012 La. LEXIS 368\",\"2012 WL 604370\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2012-02-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/80-so-3d-483/state-v-martin\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5055845 and its twin 2550483). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 80 So. 3d 483 (La. 2012)\",\"link_md\":\"[State v. Martin, 80 So. 3d 483 (La. 2012)](https://syfert.com/louisiana/cases/80-so-3d-483/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7272,\"twin_clusters\":[2550483]},{\"cluster_id\":1575651,\"case_name\":\"State v. Martin\",\"citations\":[\"17 So. 3d 521\",\"2009 WL 3241900\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2009-09-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/17-so-3d-521/state-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 17 So. 3d 521 (La. Ct. App. 2009)\",\"link_md\":\"[State v. Martin, 17 So. 3d 521 (La. Ct. App. 2009)](https://syfert.com/louisiana/cases/17-so-3d-521/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.725},{\"cluster_id\":7619451,\"case_name\":\"State v. Martin\",\"citations\":[\"491 So. 2d 25\",\"1986 La. LEXIS 6819\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1986-07-01\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/louisiana/cases/491-so-2d-25/state-v-martin\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (7619451 and its twin 1808505).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 491 So. 2d 25 (La. 1986)\",\"link_md\":\"[State v. Martin, 491 So. 2d 25 (La. 1986)](https://syfert.com/louisiana/cases/491-so-2d-25/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7227},{\"cluster_id\":9415180,\"case_name\":\"Willie Martin, III v. Mary Locklear\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2023-07-21\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-9415180/willie-martin-iii-v-mary-locklear\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Willie Martin, III v. Mary Locklear, No. 23-6291 (4th Cir. July 21, 2023)\",\"link_md\":\"[Willie Martin, III v. Mary Locklear, No. 23-6291 (4th Cir. July 21, 2023)](https://syfert.com/federal/circuits/cases/cl-9415180/willie-martin-iii-v-mary-locklear)\",\"match_kind\":\"semantic\",\"similarity\":0.7212},{\"cluster_id\":7644557,\"case_name\":\"State v. Martin\",\"citations\":[\"550 So. 2d 625\",\"1989 La. LEXIS 2345\",\"1989 WL 119951\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1989-10-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/550-so-2d-625/state-v-martin\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7644557 and its twin 1796194). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 550 So. 2d 625 (La. 1989)\",\"link_md\":\"[State v. Martin, 550 So. 2d 625 (La. 1989)](https://syfert.com/louisiana/cases/550-so-2d-625/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7202},{\"cluster_id\":1883431,\"case_name\":\"State v. Martin\",\"citations\":[\"968 So. 2d 357\",\"2007 WL 4293313\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2007-11-07\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/louisiana/cases/968-so-2d-357/state-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 968 So. 2d 357 (La. Ct. App. 2007)\",\"link_md\":\"[State v. Martin, 968 So. 2d 357 (La. Ct. App. 2007)](https://syfert.com/louisiana/cases/968-so-2d-357/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7165},{\"cluster_id\":1565281,\"case_name\":\"Martin v. State\",\"citations\":[\"34 So. 3d 10\",\"2010 WL 1512140\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2010-04-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/34-so-3d-10/martin-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. State, 34 So. 3d 10 (Fla. 2d DCA 2010)\",\"link_md\":\"[Martin v. State, 34 So. 3d 10 (Fla. 2d DCA 2010)](https://syfert.com/florida/cases/34-so-3d-10/martin-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7157},{\"cluster_id\":1556982,\"case_name\":\"Martin v. State\",\"citations\":[\"30 So. 3d 506\",\"2010 WL 537626\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2010-02-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/30-so-3d-506/martin-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. State, 30 So. 3d 506 (Fla. 3d DCA 2010)\",\"link_md\":\"[Martin v. State, 30 So. 3d 506 (Fla. 3d DCA 2010)](https://syfert.com/florida/cases/30-so-3d-506/martin-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7155},{\"cluster_id\":2487005,\"case_name\":\"State v. Martin\",\"citations\":[\"76 So. 3d 298\",\"2011 WL 6391423\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2011-12-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/76-so-3d-298/state-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 76 So. 3d 298 (Fla. 2d DCA 2011)\",\"link_md\":\"[State v. Martin, 76 So. 3d 298 (Fla. 2d DCA 2011)](https://syfert.com/florida/cases/76-so-3d-298/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7153},{\"cluster_id\":9477455,\"case_name\":\"Travis Martin v. State of Florida\",\"citations\":[\"385 So. 3d 1065\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2024-02-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/385-so-3d-1065/travis-martin-v-state-of-florida\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"385 So. 3d 1065\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/385%20So.3d\"}],\"bluebook\":\"Travis Martin v. State of Florida, 385 So. 3d 1065 (Fla. 4th DCA 2024)\",\"link_md\":\"[Travis Martin v. State of Florida, 385 So. 3d 1065 (Fla. 4th DCA 2024)](https://syfert.com/florida/cases/385-so-3d-1065/travis-martin-v-state-of-florida)\",\"match_kind\":\"semantic\",\"similarity\":0.7128},{\"cluster_id\":1667180,\"case_name\":\"Martin v. Martin\",\"citations\":[\"895 So. 2d 80\",\"2005 WL 613585\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2005-02-17\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/louisiana/cases/895-so-2d-80/martin-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Martin, 895 So. 2d 80 (La. Ct. App. 2005)\",\"link_md\":\"[Martin v. Martin, 895 So. 2d 80 (La. Ct. App. 2005)](https://syfert.com/louisiana/cases/895-so-2d-80/martin-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7114},{\"cluster_id\":1614895,\"case_name\":\"Martin v. State\",\"citations\":[\"23 So. 3d 118\",\"2009 WL 3712710\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-11-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/23-so-3d-118/martin-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. State, 23 So. 3d 118 (Fla. 2d DCA 2009)\",\"link_md\":\"[Martin v. State, 23 So. 3d 118 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/23-so-3d-118/martin-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.71},{\"cluster_id\":1630416,\"case_name\":\"The Florida Bar v. Martin\",\"citations\":[\"32 So. 3d 60\",\"2010 WL 832854\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"2010-03-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/32-so-3d-60/the-florida-bar-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Florida Bar v. Martin, 32 So. 3d 60 (Fla. 2010)\",\"link_md\":\"[Florida Bar v. Martin, 32 So. 3d 60 (Fla. 2010)](https://syfert.com/florida/cases/32-so-3d-60/the-florida-bar-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7098},{\"cluster_id\":2489310,\"case_name\":\"Martin v. State\",\"citations\":[\"73 So. 3d 782\",\"2011 WL 3654462\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2011-11-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/73-so-3d-782/martin-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. State, 73 So. 3d 782 (Fla. 5th DCA 2011)\",\"link_md\":\"[Martin v. State, 73 So. 3d 782 (Fla. 5th DCA 2011)](https://syfert.com/florida/cases/73-so-3d-782/martin-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.709}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "MARTIN w/15 \"341 So. 3d 335\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2497730,
+    "case_name": "State v. Martin",
+    "citations": [
+     "66 So. 3d 85",
+     "2011 WL 3366394"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2011-06-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/66-so-3d-85/state-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 66 So. 3d 85 (La. Ct. App. 2011)",
+    "link_md": "[State v. Martin, 66 So. 3d 85 (La. Ct. App. 2011)](https://syfert.com/louisiana/cases/66-so-3d-85/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7469
+   },
+   {
+    "cluster_id": 1573583,
+    "case_name": "State v. Martin",
+    "citations": [
+     "17 So. 3d 523",
+     "2009 WL 3241931"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2009-08-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/17-so-3d-523/state-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 17 So. 3d 523 (La. Ct. App. 2009)",
+    "link_md": "[State v. Martin, 17 So. 3d 523 (La. Ct. App. 2009)](https://syfert.com/louisiana/cases/17-so-3d-523/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7427
+   },
+   {
+    "cluster_id": 2535595,
+    "case_name": "Martin v. Martin",
+    "citations": [
+     "46 So. 3d 288",
+     "2010 WL 4595495"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2010-10-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/46-so-3d-288/martin-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Martin, 46 So. 3d 288 (La. Ct. App. 2010)",
+    "link_md": "[Martin v. Martin, 46 So. 3d 288 (La. Ct. App. 2010)](https://syfert.com/louisiana/cases/46-so-3d-288/martin-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7377
+   },
+   {
+    "cluster_id": 182923,
+    "case_name": "Martin v. Lott",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2011-01-18",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-182923/martin-v-lott",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Lott, No. 10-1301 (4th Cir. Jan. 18, 2011)",
+    "link_md": "[Martin v. Lott, No. 10-1301 (4th Cir. Jan. 18, 2011)](https://syfert.com/federal/circuits/cases/cl-182923/martin-v-lott)",
+    "match_kind": "semantic",
+    "similarity": 0.7358
+   },
+   {
+    "cluster_id": 5042001,
+    "case_name": "State v. Martin",
+    "citations": [
+     "24 So. 3d 862",
+     "2010 La. LEXIS 53",
+     "2010 WL 289086"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2010-01-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/24-so-3d-862/state-v-martin",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5042001 and its twin 1584052). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 24 So. 3d 862 (La. 2010)",
+    "link_md": "[State v. Martin, 24 So. 3d 862 (La. 2010)](https://syfert.com/louisiana/cases/24-so-3d-862/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7319,
+    "twin_clusters": [
+     1584052
+    ]
+   },
+   {
+    "cluster_id": 988465,
+    "case_name": "Martin v. Phillips",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "1996-02-08",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-988465/martin-v-phillips",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Phillips, No. 95-7776 (4th Cir. Feb. 8, 1996)",
+    "link_md": "[Martin v. Phillips, No. 95-7776 (4th Cir. Feb. 8, 1996)](https://syfert.com/federal/circuits/cases/cl-988465/martin-v-phillips)",
+    "match_kind": "semantic",
+    "similarity": 0.7289
+   },
+   {
+    "cluster_id": 5055845,
+    "case_name": "State v. Martin",
+    "citations": [
+     "80 So. 3d 483",
+     "2012 La. LEXIS 368",
+     "2012 WL 604370"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2012-02-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/80-so-3d-483/state-v-martin",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5055845 and its twin 2550483). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 80 So. 3d 483 (La. 2012)",
+    "link_md": "[State v. Martin, 80 So. 3d 483 (La. 2012)](https://syfert.com/louisiana/cases/80-so-3d-483/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7272,
+    "twin_clusters": [
+     2550483
+    ]
+   },
+   {
+    "cluster_id": 1575651,
+    "case_name": "State v. Martin",
+    "citations": [
+     "17 So. 3d 521",
+     "2009 WL 3241900"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2009-09-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/17-so-3d-521/state-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 17 So. 3d 521 (La. Ct. App. 2009)",
+    "link_md": "[State v. Martin, 17 So. 3d 521 (La. Ct. App. 2009)](https://syfert.com/louisiana/cases/17-so-3d-521/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.725
+   },
+   {
+    "cluster_id": 7619451,
+    "case_name": "State v. Martin",
+    "citations": [
+     "491 So. 2d 25",
+     "1986 La. LEXIS 6819"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1986-07-01",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/louisiana/cases/491-so-2d-25/state-v-martin",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (7619451 and its twin 1808505).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 491 So. 2d 25 (La. 1986)",
+    "link_md": "[State v. Martin, 491 So. 2d 25 (La. 1986)](https://syfert.com/louisiana/cases/491-so-2d-25/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7227
+   },
+   {
+    "cluster_id": 9415180,
+    "case_name": "Willie Martin, III v. Mary Locklear",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2023-07-21",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-9415180/willie-martin-iii-v-mary-locklear",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Willie Martin, III v. Mary Locklear, No. 23-6291 (4th Cir. July 21, 2023)",
+    "link_md": "[Willie Martin, III v. Mary Locklear, No. 23-6291 (4th Cir. July 21, 2023)](https://syfert.com/federal/circuits/cases/cl-9415180/willie-martin-iii-v-mary-locklear)",
+    "match_kind": "semantic",
+    "similarity": 0.7212
+   },
+   {
+    "cluster_id": 7644557,
+    "case_name": "State v. Martin",
+    "citations": [
+     "550 So. 2d 625",
+     "1989 La. LEXIS 2345",
+     "1989 WL 119951"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1989-10-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/550-so-2d-625/state-v-martin",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7644557 and its twin 1796194). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 550 So. 2d 625 (La. 1989)",
+    "link_md": "[State v. Martin, 550 So. 2d 625 (La. 1989)](https://syfert.com/louisiana/cases/550-so-2d-625/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7202
+   },
+   {
+    "cluster_id": 1883431,
+    "case_name": "State v. Martin",
+    "citations": [
+     "968 So. 2d 357",
+     "2007 WL 4293313"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2007-11-07",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/louisiana/cases/968-so-2d-357/state-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 968 So. 2d 357 (La. Ct. App. 2007)",
+    "link_md": "[State v. Martin, 968 So. 2d 357 (La. Ct. App. 2007)](https://syfert.com/louisiana/cases/968-so-2d-357/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7165
+   },
+   {
+    "cluster_id": 1565281,
+    "case_name": "Martin v. State",
+    "citations": [
+     "34 So. 3d 10",
+     "2010 WL 1512140"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2010-04-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/34-so-3d-10/martin-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. State, 34 So. 3d 10 (Fla. 2d DCA 2010)",
+    "link_md": "[Martin v. State, 34 So. 3d 10 (Fla. 2d DCA 2010)](https://syfert.com/florida/cases/34-so-3d-10/martin-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7157
+   },
+   {
+    "cluster_id": 1556982,
+    "case_name": "Martin v. State",
+    "citations": [
+     "30 So. 3d 506",
+     "2010 WL 537626"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2010-02-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/30-so-3d-506/martin-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. State, 30 So. 3d 506 (Fla. 3d DCA 2010)",
+    "link_md": "[Martin v. State, 30 So. 3d 506 (Fla. 3d DCA 2010)](https://syfert.com/florida/cases/30-so-3d-506/martin-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7155
+   },
+   {
+    "cluster_id": 2487005,
+    "case_name": "State v. Martin",
+    "citations": [
+     "76 So. 3d 298",
+     "2011 WL 6391423"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2011-12-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/76-so-3d-298/state-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 76 So. 3d 298 (Fla. 2d DCA 2011)",
+    "link_md": "[State v. Martin, 76 So. 3d 298 (Fla. 2d DCA 2011)](https://syfert.com/florida/cases/76-so-3d-298/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7153
+   },
+   {
+    "cluster_id": 9477455,
+    "case_name": "Travis Martin v. State of Florida",
+    "citations": [
+     "385 So. 3d 1065"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2024-02-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/385-so-3d-1065/travis-martin-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "385 So. 3d 1065",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/385%20So.3d"
+     }
+    ],
+    "bluebook": "Travis Martin v. State of Florida, 385 So. 3d 1065 (Fla. 4th DCA 2024)",
+    "link_md": "[Travis Martin v. State of Florida, 385 So. 3d 1065 (Fla. 4th DCA 2024)](https://syfert.com/florida/cases/385-so-3d-1065/travis-martin-v-state-of-florida)",
+    "match_kind": "semantic",
+    "similarity": 0.7128
+   },
+   {
+    "cluster_id": 1667180,
+    "case_name": "Martin v. Martin",
+    "citations": [
+     "895 So. 2d 80",
+     "2005 WL 613585"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2005-02-17",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/louisiana/cases/895-so-2d-80/martin-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Martin, 895 So. 2d 80 (La. Ct. App. 2005)",
+    "link_md": "[Martin v. Martin, 895 So. 2d 80 (La. Ct. App. 2005)](https://syfert.com/louisiana/cases/895-so-2d-80/martin-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7114
+   },
+   {
+    "cluster_id": 1614895,
+    "case_name": "Martin v. State",
+    "citations": [
+     "23 So. 3d 118",
+     "2009 WL 3712710"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-11-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/23-so-3d-118/martin-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. State, 23 So. 3d 118 (Fla. 2d DCA 2009)",
+    "link_md": "[Martin v. State, 23 So. 3d 118 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/23-so-3d-118/martin-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.71
+   },
+   {
+    "cluster_id": 1630416,
+    "case_name": "The Florida Bar v. Martin",
+    "citations": [
+     "32 So. 3d 60",
+     "2010 WL 832854"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "2010-03-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/32-so-3d-60/the-florida-bar-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Florida Bar v. Martin, 32 So. 3d 60 (Fla. 2010)",
+    "link_md": "[Florida Bar v. Martin, 32 So. 3d 60 (Fla. 2010)](https://syfert.com/florida/cases/32-so-3d-60/the-florida-bar-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7098
+   },
+   {
+    "cluster_id": 2489310,
+    "case_name": "Martin v. State",
+    "citations": [
+     "73 So. 3d 782",
+     "2011 WL 3654462"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2011-11-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/73-so-3d-782/martin-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. State, 73 So. 3d 782 (Fla. 5th DCA 2011)",
+    "link_md": "[Martin v. State, 73 So. 3d 782 (Fla. 5th DCA 2011)](https://syfert.com/florida/cases/73-so-3d-782/martin-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.709
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

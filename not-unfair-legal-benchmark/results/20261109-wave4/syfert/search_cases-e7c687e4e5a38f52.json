@@ -1,0 +1,414 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Dyke w/15 \"189 SW 62\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Dyke w/15 \\\"189 SW 62\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7980521,\"case_name\":\"Zube v. Weber\",\"citations\":[\"34 N.W. 264\",\"67 Mich. 52\",\"1887 Mich. LEXIS 770\"],\"court\":\"Michigan Supreme Court\",\"date_filed\":\"1887-10-06\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/michigan/cases/67-mich-52/zube-v-weber\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Zube v. Weber, 34 N.W. 264 (Mich. 1887)\",\"link_md\":\"[Zube v. Weber, 34 N.W. 264 (Mich. 1887)](https://syfert.com/michigan/cases/67-mich-52/zube-v-weber)\",\"match_kind\":\"semantic\",\"similarity\":0.608},{\"cluster_id\":4125382,\"case_name\":\"Heath v. Town of Darlington\",\"citations\":[\"171 S.E. 916\",\"171 S.C. 196\",\"1933 S.C. LEXIS 69\"],\"court\":\"Supreme Court of South Carolina\",\"date_filed\":\"1933-12-12\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/south-carolina/cases/171-s-c-196/heath-v-town-of-darlington\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Heath v. Town of Darlington, 171 S.E. 916 (S.C. 1933)\",\"link_md\":\"[Heath v. Town of Darlington, 171 S.E. 916 (S.C. 1933)](https://syfert.com/south-carolina/cases/171-s-c-196/heath-v-town-of-darlington)\",\"match_kind\":\"semantic\",\"similarity\":0.6077},{\"cluster_id\":5622653,\"case_name\":\"Kendall v. Doctor\",\"citations\":[\"4 How. Pr. 447\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1848-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-5622653/kendall-v-doctor\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kendall v. Doctor, 4 How. Pr. 447 (N.Y. 1848)\",\"link_md\":\"[Kendall v. Doctor, 4 How. Pr. 447 (N.Y. 1848)](https://syfert.com/new-york/cases/cl-5622653/kendall-v-doctor)\",\"match_kind\":\"semantic\",\"similarity\":0.6069},{\"cluster_id\":9288195,\"case_name\":\"Chaddock v. Day\",\"citations\":[\"1 McGrath 243\",\"75 McGrath 527\"],\"court\":\"Michigan Supreme Court\",\"date_filed\":\"1889-06-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/michigan/cases/cl-9288195/chaddock-v-day\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Chaddock v. Day, 1 McGrath 243 (Mich. 1889)\",\"link_md\":\"[Chaddock v. Day, 1 McGrath 243 (Mich. 1889)](https://syfert.com/michigan/cases/cl-9288195/chaddock-v-day)\",\"match_kind\":\"semantic\",\"similarity\":0.6044},{\"cluster_id\":3532522,\"case_name\":\"Grooms v. Union Guardian Trust Co.\",\"citations\":[\"15 N.W.2d 698\",\"309 Mich. 437\",\"1944 Mich. LEXIS 350\"],\"court\":\"Michigan Supreme Court\",\"date_filed\":\"1944-09-11\",\"status\":\"Published\",\"cited_by\":14,\"url\":\"https://syfert.com/michigan/cases/309-mich-437/grooms-v-union-guardian-trust-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Grooms v. Union Guardian Trust Co., 15 N.W.2d 698 (Mich. 1944)\",\"link_md\":\"[Grooms v. Union Guardian Trust Co., 15 N.W.2d 698 (Mich. 1944)](https://syfert.com/michigan/cases/309-mich-437/grooms-v-union-guardian-trust-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6036},{\"cluster_id\":4062840,\"case_name\":\"Breckenridge v. Drummond\",\"citations\":[\"155 P. 555\",\"55 Okla. 351\",\"1916 OK 174\",\"1916 Okla. LEXIS 160\"],\"court\":\"Supreme Court of Oklahoma\",\"date_filed\":\"1916-02-08\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/oklahoma/cases/55-okla-351/breckenridge-v-drummond\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Breckenridge v. Drummond, 155 P. 555 (Okla. 1916)\",\"link_md\":\"[Breckenridge v. Drummond, 155 P. 555 (Okla. 1916)](https://syfert.com/oklahoma/cases/55-okla-351/breckenridge-v-drummond)\",\"match_kind\":\"semantic\",\"similarity\":0.5989},{\"cluster_id\":7738044,\"case_name\":\"Butterfield v. Strauss\",\"citations\":[\"4 Walk. 472\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1884-05-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/cl-7738044/butterfield-v-strauss\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (7738044 and its twins 7738045, 7738046). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Butterfield v. Strauss, 4 Walk. 472 (Pa. 1884)\",\"link_md\":\"[Butterfield v. Strauss, 4 Walk. 472 (Pa. 1884)](https://syfert.com/pennsylvania/cases/cl-7738044/butterfield-v-strauss)\",\"match_kind\":\"semantic\",\"similarity\":0.5941,\"twin_clusters\":[7738045,7738046,7738044]},{\"cluster_id\":8875990,\"case_name\":\"Dike v. Union Pac. Ry. Co.\",\"citations\":[\"86 F. 1023\",\"30 C.C.A. 503\",\"1898 U.S. App. LEXIS 2359\"],\"court\":\"Second Circuit\",\"date_filed\":\"1898-03-02\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/86-f-1023/dike-v-union-pac-ry-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dike v. Union Pac. Ry. Co., 86 F. 1023 (2d Cir. 1898)\",\"link_md\":\"[Dike v. Union Pac. Ry. Co., 86 F. 1023 (2d Cir. 1898)](https://syfert.com/federal/circuits/cases/86-f-1023/dike-v-union-pac-ry-co)\",\"match_kind\":\"semantic\",\"similarity\":0.594},{\"cluster_id\":6385015,\"case_name\":\"Stefanson v. Plymouth Borough\",\"citations\":[\"105 A. 97\",\"262 Pa. 206\",\"1918 Pa. LEXIS 621\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1918-07-17\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/pennsylvania/cases/262-pa-206/stefanson-v-plymouth-borough\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stefanson v. Plymouth Borough, 105 A. 97 (Pa. 1918)\",\"link_md\":\"[Stefanson v. Plymouth Borough, 105 A. 97 (Pa. 1918)](https://syfert.com/pennsylvania/cases/262-pa-206/stefanson-v-plymouth-borough)\",\"match_kind\":\"semantic\",\"similarity\":0.592},{\"cluster_id\":8037444,\"case_name\":\"Petroleum Iron Works v. Bailey\",\"citations\":[\"86 So. 644\",\"124 Miss. 11\"],\"court\":\"Mississippi Supreme Court\",\"date_filed\":\"1920-10-15\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/mississippi/cases/124-miss-11/petroleum-iron-works-v-bailey\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Petroleum Iron Works v. Bailey, 86 So. 644 (Miss. 1920)\",\"link_md\":\"[Petroleum Iron Works v. Bailey, 86 So. 644 (Miss. 1920)](https://syfert.com/mississippi/cases/124-miss-11/petroleum-iron-works-v-bailey)\",\"match_kind\":\"semantic\",\"similarity\":0.5916},{\"cluster_id\":7069966,\"case_name\":\"Dunham v. Black Diamond Coal Co.\",\"citations\":[\"88 N.E. 216\",\"239 Ill. 457\"],\"court\":\"Illinois Supreme Court\",\"date_filed\":\"1909-04-23\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/illinois/cases/239-ill-457/dunham-v-black-diamond-coal-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dunham v. Black Diamond Coal Co., 88 N.E. 216 (Ill. 1909)\",\"link_md\":\"[Dunham v. Black Diamond Coal Co., 88 N.E. 216 (Ill. 1909)](https://syfert.com/illinois/cases/239-ill-457/dunham-v-black-diamond-coal-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5915},{\"cluster_id\":8309211,\"case_name\":\"Duckworth v. Driver\",\"citations\":[\"107 N.Y.S. 1125\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1907-12-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/107-n-y-s-1125/duckworth-v-driver\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Duckworth v. Driver, 107 N.Y.S. 1125 (N.Y. App. Div. 1907)\",\"link_md\":\"[Duckworth v. Driver, 107 N.Y.S. 1125 (N.Y. App. Div. 1907)](https://syfert.com/new-york/cases/107-n-y-s-1125/duckworth-v-driver)\",\"match_kind\":\"semantic\",\"similarity\":0.5914},{\"cluster_id\":3530548,\"case_name\":\"People v. Healy\",\"citations\":[\"251 N.W. 393\",\"265 Mich. 317\",\"1933 Mich. LEXIS 678\"],\"court\":\"Michigan Supreme Court\",\"date_filed\":\"1933-12-05\",\"status\":\"Published\",\"cited_by\":11,\"url\":\"https://syfert.com/michigan/cases/265-mich-317/people-v-healy\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Healy, 251 N.W. 393 (Mich. 1933)\",\"link_md\":\"[People v. Healy, 251 N.W. 393 (Mich. 1933)](https://syfert.com/michigan/cases/265-mich-317/people-v-healy)\",\"match_kind\":\"semantic\",\"similarity\":0.5913},{\"cluster_id\":8846829,\"case_name\":\"Leedy v. Decatur Railway & Light Co.\",\"citations\":[\"214 Ill. App. 648\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"1919-04-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/illinois/cases/214-ill-app-648/leedy-v-decatur-railway-light-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Leedy v. Decatur Ry. & Light Co., 214 Ill. App. 648 (Ill. App. Ct. 1919)\",\"link_md\":\"[Leedy v. Decatur Ry. & Light Co., 214 Ill. App. 648 (Ill. App. Ct. 1919)](https://syfert.com/illinois/cases/214-ill-app-648/leedy-v-decatur-railway-light-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5902},{\"cluster_id\":6296388,\"case_name\":\"Taube v. Dry-Dock, E. B. & B. Railroad\",\"citations\":[\"33 N.Y.S. 1119\"],\"court\":\"City of New York Municipal Court\",\"date_filed\":\"1895-04-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/33-n-y-s-1119/taube-v-dry-dock-e-b-b-railroad\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Taube v. Dry-Dock, E. B. & B. R.R., 33 N.Y.S. 1119 (N.Y. City Mun. Ct. 1895)\",\"link_md\":\"[Taube v. Dry-Dock, E. B. & B. R.R., 33 N.Y.S. 1119 (N.Y. City Mun. Ct. 1895)](https://syfert.com/new-york/cases/33-n-y-s-1119/taube-v-dry-dock-e-b-b-railroad)\",\"match_kind\":\"semantic\",\"similarity\":0.5898},{\"cluster_id\":6438117,\"case_name\":\"Van Dyke v. Wells\",\"citations\":[\"2 Sadler 126\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1886-03-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/cl-6438117/van-dyke-v-wells\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Van Dyke v. Wells, 2 Sadler 126 (Pa. 1886)\",\"link_md\":\"[Van Dyke v. Wells, 2 Sadler 126 (Pa. 1886)](https://syfert.com/pennsylvania/cases/cl-6438117/van-dyke-v-wells)\",\"match_kind\":\"semantic\",\"similarity\":0.5893},{\"cluster_id\":6371404,\"case_name\":\"Commonwealth v. Barker\",\"citations\":[\"21 A. 243\",\"140 Pa. 189\",\"1891 Pa. LEXIS 827\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1891-02-16\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/pennsylvania/cases/140-pa-189/commonwealth-v-barker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Commonwealth v. Barker, 21 A. 243 (Pa. 1891)\",\"link_md\":\"[Commonwealth v. Barker, 21 A. 243 (Pa. 1891)](https://syfert.com/pennsylvania/cases/140-pa-189/commonwealth-v-barker)\",\"match_kind\":\"semantic\",\"similarity\":0.5893},{\"cluster_id\":5652478,\"case_name\":\"Hughes v. Orange County Milk Ass'n\",\"citations\":[\"56 Hun 396\",\"10 N.Y.S. 252\",\"63 N.Y. Sup. Ct. 396\",\"31 N.Y. St. Rep. 468\",\"1890 N.Y. Misc. LEXIS 2064\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1890-05-12\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/new-york/cases/10-n-y-s-252/hughes-v-orange-county-milk-assn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hughes v. Orange Cnty. Milk Ass'n, 56 Hun 396 (N.Y. Sup. Ct. 1890)\",\"link_md\":\"[Hughes v. Orange Cnty. Milk Ass'n, 56 Hun 396 (N.Y. Sup. Ct. 1890)](https://syfert.com/new-york/cases/10-n-y-s-252/hughes-v-orange-county-milk-assn)\",\"match_kind\":\"semantic\",\"similarity\":0.5883},{\"cluster_id\":6280682,\"case_name\":\"Taube v. Dry Dock, East Broadway & Battery Railroad\",\"citations\":[\"12 Misc. 650\"],\"court\":\"City of New York Municipal Court\",\"date_filed\":\"1895-07-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/12-misc-650/taube-v-dry-dock-east-broadway-battery-railroad\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Taube v. Dry Dock, 12 Misc. 650 (N.Y. City Mun. Ct. 1895)\",\"link_md\":\"[Taube v. Dry Dock, 12 Misc. 650 (N.Y. City Mun. Ct. 1895)](https://syfert.com/new-york/cases/12-misc-650/taube-v-dry-dock-east-broadway-battery-railroad)\",\"match_kind\":\"semantic\",\"similarity\":0.5881},{\"cluster_id\":6263330,\"case_name\":\"Pyers v. New York & New England Railroad\",\"citations\":[\"41 N.Y. Sup. Ct. 632\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1884-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6263330/pyers-v-new-york-new-england-railroad\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pyers v. New York & New England R.R., 41 N.Y. Sup. Ct. 632 (N.Y. Sup. Ct. 1884)\",\"link_md\":\"[Pyers v. New York & New England R.R., 41 N.Y. Sup. Ct. 632 (N.Y. Sup. Ct. 1884)](https://syfert.com/new-york/cases/cl-6263330/pyers-v-new-york-new-england-railroad)\",\"match_kind\":\"semantic\",\"similarity\":0.5878}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Dyke w/15 \"189 SW 62\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7980521,
+    "case_name": "Zube v. Weber",
+    "citations": [
+     "34 N.W. 264",
+     "67 Mich. 52",
+     "1887 Mich. LEXIS 770"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1887-10-06",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/michigan/cases/67-mich-52/zube-v-weber",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Zube v. Weber, 34 N.W. 264 (Mich. 1887)",
+    "link_md": "[Zube v. Weber, 34 N.W. 264 (Mich. 1887)](https://syfert.com/michigan/cases/67-mich-52/zube-v-weber)",
+    "match_kind": "semantic",
+    "similarity": 0.608
+   },
+   {
+    "cluster_id": 4125382,
+    "case_name": "Heath v. Town of Darlington",
+    "citations": [
+     "171 S.E. 916",
+     "171 S.C. 196",
+     "1933 S.C. LEXIS 69"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1933-12-12",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/south-carolina/cases/171-s-c-196/heath-v-town-of-darlington",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Heath v. Town of Darlington, 171 S.E. 916 (S.C. 1933)",
+    "link_md": "[Heath v. Town of Darlington, 171 S.E. 916 (S.C. 1933)](https://syfert.com/south-carolina/cases/171-s-c-196/heath-v-town-of-darlington)",
+    "match_kind": "semantic",
+    "similarity": 0.6077
+   },
+   {
+    "cluster_id": 5622653,
+    "case_name": "Kendall v. Doctor",
+    "citations": [
+     "4 How. Pr. 447"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1848-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-5622653/kendall-v-doctor",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kendall v. Doctor, 4 How. Pr. 447 (N.Y. 1848)",
+    "link_md": "[Kendall v. Doctor, 4 How. Pr. 447 (N.Y. 1848)](https://syfert.com/new-york/cases/cl-5622653/kendall-v-doctor)",
+    "match_kind": "semantic",
+    "similarity": 0.6069
+   },
+   {
+    "cluster_id": 9288195,
+    "case_name": "Chaddock v. Day",
+    "citations": [
+     "1 McGrath 243",
+     "75 McGrath 527"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1889-06-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/michigan/cases/cl-9288195/chaddock-v-day",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Chaddock v. Day, 1 McGrath 243 (Mich. 1889)",
+    "link_md": "[Chaddock v. Day, 1 McGrath 243 (Mich. 1889)](https://syfert.com/michigan/cases/cl-9288195/chaddock-v-day)",
+    "match_kind": "semantic",
+    "similarity": 0.6044
+   },
+   {
+    "cluster_id": 3532522,
+    "case_name": "Grooms v. Union Guardian Trust Co.",
+    "citations": [
+     "15 N.W.2d 698",
+     "309 Mich. 437",
+     "1944 Mich. LEXIS 350"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1944-09-11",
+    "status": "Published",
+    "cited_by": 14,
+    "url": "https://syfert.com/michigan/cases/309-mich-437/grooms-v-union-guardian-trust-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Grooms v. Union Guardian Trust Co., 15 N.W.2d 698 (Mich. 1944)",
+    "link_md": "[Grooms v. Union Guardian Trust Co., 15 N.W.2d 698 (Mich. 1944)](https://syfert.com/michigan/cases/309-mich-437/grooms-v-union-guardian-trust-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6036
+   },
+   {
+    "cluster_id": 4062840,
+    "case_name": "Breckenridge v. Drummond",
+    "citations": [
+     "155 P. 555",
+     "55 Okla. 351",
+     "1916 OK 174",
+     "1916 Okla. LEXIS 160"
+    ],
+    "court": "Supreme Court of Oklahoma",
+    "date_filed": "1916-02-08",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/oklahoma/cases/55-okla-351/breckenridge-v-drummond",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Breckenridge v. Drummond, 155 P. 555 (Okla. 1916)",
+    "link_md": "[Breckenridge v. Drummond, 155 P. 555 (Okla. 1916)](https://syfert.com/oklahoma/cases/55-okla-351/breckenridge-v-drummond)",
+    "match_kind": "semantic",
+    "similarity": 0.5989
+   },
+   {
+    "cluster_id": 7738044,
+    "case_name": "Butterfield v. Strauss",
+    "citations": [
+     "4 Walk. 472"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1884-05-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/cl-7738044/butterfield-v-strauss",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (7738044 and its twins 7738045, 7738046). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Butterfield v. Strauss, 4 Walk. 472 (Pa. 1884)",
+    "link_md": "[Butterfield v. Strauss, 4 Walk. 472 (Pa. 1884)](https://syfert.com/pennsylvania/cases/cl-7738044/butterfield-v-strauss)",
+    "match_kind": "semantic",
+    "similarity": 0.5941,
+    "twin_clusters": [
+     7738045,
+     7738046,
+     7738044
+    ]
+   },
+   {
+    "cluster_id": 8875990,
+    "case_name": "Dike v. Union Pac. Ry. Co.",
+    "citations": [
+     "86 F. 1023",
+     "30 C.C.A. 503",
+     "1898 U.S. App. LEXIS 2359"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1898-03-02",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/86-f-1023/dike-v-union-pac-ry-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dike v. Union Pac. Ry. Co., 86 F. 1023 (2d Cir. 1898)",
+    "link_md": "[Dike v. Union Pac. Ry. Co., 86 F. 1023 (2d Cir. 1898)](https://syfert.com/federal/circuits/cases/86-f-1023/dike-v-union-pac-ry-co)",
+    "match_kind": "semantic",
+    "similarity": 0.594
+   },
+   {
+    "cluster_id": 6385015,
+    "case_name": "Stefanson v. Plymouth Borough",
+    "citations": [
+     "105 A. 97",
+     "262 Pa. 206",
+     "1918 Pa. LEXIS 621"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1918-07-17",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/pennsylvania/cases/262-pa-206/stefanson-v-plymouth-borough",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stefanson v. Plymouth Borough, 105 A. 97 (Pa. 1918)",
+    "link_md": "[Stefanson v. Plymouth Borough, 105 A. 97 (Pa. 1918)](https://syfert.com/pennsylvania/cases/262-pa-206/stefanson-v-plymouth-borough)",
+    "match_kind": "semantic",
+    "similarity": 0.592
+   },
+   {
+    "cluster_id": 8037444,
+    "case_name": "Petroleum Iron Works v. Bailey",
+    "citations": [
+     "86 So. 644",
+     "124 Miss. 11"
+    ],
+    "court": "Mississippi Supreme Court",
+    "date_filed": "1920-10-15",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/mississippi/cases/124-miss-11/petroleum-iron-works-v-bailey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Petroleum Iron Works v. Bailey, 86 So. 644 (Miss. 1920)",
+    "link_md": "[Petroleum Iron Works v. Bailey, 86 So. 644 (Miss. 1920)](https://syfert.com/mississippi/cases/124-miss-11/petroleum-iron-works-v-bailey)",
+    "match_kind": "semantic",
+    "similarity": 0.5916
+   },
+   {
+    "cluster_id": 7069966,
+    "case_name": "Dunham v. Black Diamond Coal Co.",
+    "citations": [
+     "88 N.E. 216",
+     "239 Ill. 457"
+    ],
+    "court": "Illinois Supreme Court",
+    "date_filed": "1909-04-23",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/illinois/cases/239-ill-457/dunham-v-black-diamond-coal-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dunham v. Black Diamond Coal Co., 88 N.E. 216 (Ill. 1909)",
+    "link_md": "[Dunham v. Black Diamond Coal Co., 88 N.E. 216 (Ill. 1909)](https://syfert.com/illinois/cases/239-ill-457/dunham-v-black-diamond-coal-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5915
+   },
+   {
+    "cluster_id": 8309211,
+    "case_name": "Duckworth v. Driver",
+    "citations": [
+     "107 N.Y.S. 1125"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1907-12-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/107-n-y-s-1125/duckworth-v-driver",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Duckworth v. Driver, 107 N.Y.S. 1125 (N.Y. App. Div. 1907)",
+    "link_md": "[Duckworth v. Driver, 107 N.Y.S. 1125 (N.Y. App. Div. 1907)](https://syfert.com/new-york/cases/107-n-y-s-1125/duckworth-v-driver)",
+    "match_kind": "semantic",
+    "similarity": 0.5914
+   },
+   {
+    "cluster_id": 3530548,
+    "case_name": "People v. Healy",
+    "citations": [
+     "251 N.W. 393",
+     "265 Mich. 317",
+     "1933 Mich. LEXIS 678"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1933-12-05",
+    "status": "Published",
+    "cited_by": 11,
+    "url": "https://syfert.com/michigan/cases/265-mich-317/people-v-healy",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Healy, 251 N.W. 393 (Mich. 1933)",
+    "link_md": "[People v. Healy, 251 N.W. 393 (Mich. 1933)](https://syfert.com/michigan/cases/265-mich-317/people-v-healy)",
+    "match_kind": "semantic",
+    "similarity": 0.5913
+   },
+   {
+    "cluster_id": 8846829,
+    "case_name": "Leedy v. Decatur Railway & Light Co.",
+    "citations": [
+     "214 Ill. App. 648"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1919-04-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/illinois/cases/214-ill-app-648/leedy-v-decatur-railway-light-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Leedy v. Decatur Ry. & Light Co., 214 Ill. App. 648 (Ill. App. Ct. 1919)",
+    "link_md": "[Leedy v. Decatur Ry. & Light Co., 214 Ill. App. 648 (Ill. App. Ct. 1919)](https://syfert.com/illinois/cases/214-ill-app-648/leedy-v-decatur-railway-light-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5902
+   },
+   {
+    "cluster_id": 6296388,
+    "case_name": "Taube v. Dry-Dock, E. B. & B. Railroad",
+    "citations": [
+     "33 N.Y.S. 1119"
+    ],
+    "court": "City of New York Municipal Court",
+    "date_filed": "1895-04-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/33-n-y-s-1119/taube-v-dry-dock-e-b-b-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Taube v. Dry-Dock, E. B. & B. R.R., 33 N.Y.S. 1119 (N.Y. City Mun. Ct. 1895)",
+    "link_md": "[Taube v. Dry-Dock, E. B. & B. R.R., 33 N.Y.S. 1119 (N.Y. City Mun. Ct. 1895)](https://syfert.com/new-york/cases/33-n-y-s-1119/taube-v-dry-dock-e-b-b-railroad)",
+    "match_kind": "semantic",
+    "similarity": 0.5898
+   },
+   {
+    "cluster_id": 6438117,
+    "case_name": "Van Dyke v. Wells",
+    "citations": [
+     "2 Sadler 126"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1886-03-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/cl-6438117/van-dyke-v-wells",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Van Dyke v. Wells, 2 Sadler 126 (Pa. 1886)",
+    "link_md": "[Van Dyke v. Wells, 2 Sadler 126 (Pa. 1886)](https://syfert.com/pennsylvania/cases/cl-6438117/van-dyke-v-wells)",
+    "match_kind": "semantic",
+    "similarity": 0.5893
+   },
+   {
+    "cluster_id": 6371404,
+    "case_name": "Commonwealth v. Barker",
+    "citations": [
+     "21 A. 243",
+     "140 Pa. 189",
+     "1891 Pa. LEXIS 827"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1891-02-16",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/pennsylvania/cases/140-pa-189/commonwealth-v-barker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Commonwealth v. Barker, 21 A. 243 (Pa. 1891)",
+    "link_md": "[Commonwealth v. Barker, 21 A. 243 (Pa. 1891)](https://syfert.com/pennsylvania/cases/140-pa-189/commonwealth-v-barker)",
+    "match_kind": "semantic",
+    "similarity": 0.5893
+   },
+   {
+    "cluster_id": 5652478,
+    "case_name": "Hughes v. Orange County Milk Ass'n",
+    "citations": [
+     "56 Hun 396",
+     "10 N.Y.S. 252",
+     "63 N.Y. Sup. Ct. 396",
+     "31 N.Y. St. Rep. 468",
+     "1890 N.Y. Misc. LEXIS 2064"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1890-05-12",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/new-york/cases/10-n-y-s-252/hughes-v-orange-county-milk-assn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hughes v. Orange Cnty. Milk Ass'n, 56 Hun 396 (N.Y. Sup. Ct. 1890)",
+    "link_md": "[Hughes v. Orange Cnty. Milk Ass'n, 56 Hun 396 (N.Y. Sup. Ct. 1890)](https://syfert.com/new-york/cases/10-n-y-s-252/hughes-v-orange-county-milk-assn)",
+    "match_kind": "semantic",
+    "similarity": 0.5883
+   },
+   {
+    "cluster_id": 6280682,
+    "case_name": "Taube v. Dry Dock, East Broadway & Battery Railroad",
+    "citations": [
+     "12 Misc. 650"
+    ],
+    "court": "City of New York Municipal Court",
+    "date_filed": "1895-07-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/12-misc-650/taube-v-dry-dock-east-broadway-battery-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Taube v. Dry Dock, 12 Misc. 650 (N.Y. City Mun. Ct. 1895)",
+    "link_md": "[Taube v. Dry Dock, 12 Misc. 650 (N.Y. City Mun. Ct. 1895)](https://syfert.com/new-york/cases/12-misc-650/taube-v-dry-dock-east-broadway-battery-railroad)",
+    "match_kind": "semantic",
+    "similarity": 0.5881
+   },
+   {
+    "cluster_id": 6263330,
+    "case_name": "Pyers v. New York & New England Railroad",
+    "citations": [
+     "41 N.Y. Sup. Ct. 632"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1884-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6263330/pyers-v-new-york-new-england-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pyers v. New York & New England R.R., 41 N.Y. Sup. Ct. 632 (N.Y. Sup. Ct. 1884)",
+    "link_md": "[Pyers v. New York & New England R.R., 41 N.Y. Sup. Ct. 632 (N.Y. Sup. Ct. 1884)](https://syfert.com/new-york/cases/cl-6263330/pyers-v-new-york-new-england-railroad)",
+    "match_kind": "semantic",
+    "similarity": 0.5878
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

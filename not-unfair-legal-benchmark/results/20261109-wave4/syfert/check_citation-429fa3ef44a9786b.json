@@ -1,0 +1,71 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "352 So. 3d 28",
+  "expected_case_name": "PSHS ALPHA PARTNERS, LTD d/b/a LAKE WORTH SURGICAL CENTER a/a/o CATHERINE CHISEM v. STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"352 So. 3d 28\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 9330258,\n            \"case_name\": \"PSHS Alpha Partners, Ltd. v. State Farm Mutual Automobile Insurance Company\",\n            \"citations\": [\n                \"352 So. 3d 28\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"352 So. 3d 26\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 9330256,\n                        \"case_name\": \"Samantha King v. Yonathan Arenas Escobar\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2022-12-14\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/352-so-3d-28/pshs-alpha-partners-ltd-dba-lake-worth-surgical-center-aao-catherine\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"352 So. 3d 26\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/352%20So.3d\"\n                },\n                {\n                    \"citation\": \"352 So. 3d 28\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/352%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"PSHS Alpha Partners, Ltd v. State Farm Mut. Auto. Ins. Co., 352 So. 3d 28 (Fla. 4th DCA 2022)\",\n            \"link_md\": \"[PSHS Alpha Partners, Ltd v. State Farm Mut. Auto. Ins. Co., 352 So. 3d 28 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/352-so-3d-28/pshs-alpha-partners-ltd-dba-lake-worth-surgical-center-aao-catherine)\",\n            \"case_name_raw\": \"PSHS ALPHA PARTNERS, LTD d/b/a LAKE WORTH SURGICAL CENTER a/a/o CATHERINE CHISEM v. STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"PSHS ALPHA PARTNERS, LTD d/b/a LAKE WORTH SURGICAL CENTER a/a/o CATHERINE CHISEM v. STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY\",\n        \"actual\": \"PSHS ALPHA PARTNERS, LTD d/b/a LAKE WORTH SURGICAL CENTER a/a/o CATHERINE CHISEM v. STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "352 So. 3d 28",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 9330258,
+    "case_name": "PSHS Alpha Partners, Ltd. v. State Farm Mutual Automobile Insurance Company",
+    "citations": [
+     "352 So. 3d 28"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "352 So. 3d 26",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 9330256,
+       "case_name": "Samantha King v. Yonathan Arenas Escobar"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2022-12-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/352-so-3d-28/pshs-alpha-partners-ltd-dba-lake-worth-surgical-center-aao-catherine",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "352 So. 3d 26",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/352%20So.3d"
+     },
+     {
+      "citation": "352 So. 3d 28",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/352%20So.3d"
+     }
+    ],
+    "bluebook": "PSHS Alpha Partners, Ltd v. State Farm Mut. Auto. Ins. Co., 352 So. 3d 28 (Fla. 4th DCA 2022)",
+    "link_md": "[PSHS Alpha Partners, Ltd v. State Farm Mut. Auto. Ins. Co., 352 So. 3d 28 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/352-so-3d-28/pshs-alpha-partners-ltd-dba-lake-worth-surgical-center-aao-catherine)",
+    "case_name_raw": "PSHS ALPHA PARTNERS, LTD d/b/a LAKE WORTH SURGICAL CENTER a/a/o CATHERINE CHISEM v. STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "PSHS ALPHA PARTNERS, LTD d/b/a LAKE WORTH SURGICAL CENTER a/a/o CATHERINE CHISEM v. STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY",
+   "actual": "PSHS ALPHA PARTNERS, LTD d/b/a LAKE WORTH SURGICAL CENTER a/a/o CATHERINE CHISEM v. STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

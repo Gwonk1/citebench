@@ -1,0 +1,104 @@
+{
+ "id": "ny-9-2",
+ "class": "nyseries",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Levin v. Kitsis, 920 N.Y.S.2d 131."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"920 N.Y.S.2d 131\",\n            \"volume\": \"920\",\n            \"reporter\": \"N.Y.S.2d\",\n            \"page\": \"131\",\n            \"pin\": null,\n            \"cluster_id\": 5956924,\n            \"case\": {\n                \"case_name\": \"Levin v. Kitsis\",\n                \"case_name_short\": \"Levin\",\n                \"date_filed\": \"2011-03-22\",\n                \"court_id\": \"nyappdiv\",\n                \"docket_number\": null,\n                \"citation_count\": 48,\n                \"court_label\": \"N.Y. App. Div. 2d Dep't\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 44.532,\n                \"total_events\": 59,\n                \"distinct_courts\": 7,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Williams v. Biggs\",\n                \"top_pos_court\": \"nyappdiv\",\n                \"top_pos_date\": \"2026-07-29\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Levin\",\n                \"rhs\": \"Kitsis\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Levin\",\n                    \"rhs\": \"Kitsis\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Levin v. Kitsis\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/new-york/cases/82-a-d-3d-1051/levin-v-kitsis\",\n            \"link_md\": \"[Levin v. Kitsis](https://syfert.com/new-york/cases/82-a-d-3d-1051/levin-v-kitsis)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "920 N.Y.S.2d 131",
+      "volume": "920",
+      "reporter": "N.Y.S.2d",
+      "page": "131",
+      "pin": null,
+      "cluster_id": 5956924,
+      "case": {
+       "case_name": "Levin v. Kitsis",
+       "case_name_short": "Levin",
+       "date_filed": "2011-03-22",
+       "court_id": "nyappdiv",
+       "docket_number": null,
+       "citation_count": 48,
+       "court_label": "N.Y. App. Div. 2d Dep't"
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 44.532,
+       "total_events": 59,
+       "distinct_courts": 7,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Williams v. Biggs",
+       "top_pos_court": "nyappdiv",
+       "top_pos_date": "2026-07-29",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Levin",
+       "rhs": "Kitsis"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Levin",
+        "rhs": "Kitsis"
+       },
+       "verdict": "match",
+       "resolved_name": "Levin v. Kitsis"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/new-york/cases/82-a-d-3d-1051/levin-v-kitsis",
+      "link_md": "[Levin v. Kitsis](https://syfert.com/new-york/cases/82-a-d-3d-1051/levin-v-kitsis)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "35 S.W. 1058",
+  "expected_case_name": "Missouri, Kansas & Texas Railway Co. v. McGlamory"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"35 S.W. 1058\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4165200,\n            \"case_name\": \"Missouri, Kansas & Texas Railway Co. v. McGlamory\",\n            \"citations\": [\n                \"35 S.W. 1058\"\n            ],\n            \"court\": \"Texas Supreme Court\",\n            \"date_filed\": \"1896-06-04\",\n            \"status\": \"Published\",\n            \"cited_by\": 196,\n            \"url\": \"https://syfert.com/texas/cases/89-tex-635/missouri-kansas-texas-railway-co-v-mcglamory\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Missouri v. McGlamory, 35 S.W. 1058 (Tex. 1896)\",\n            \"link_md\": \"[Missouri v. McGlamory, 35 S.W. 1058 (Tex. 1896)](https://syfert.com/texas/cases/89-tex-635/missouri-kansas-texas-railway-co-v-mcglamory)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Missouri, Kansas & Texas Railway Co. v. McGlamory\",\n        \"actual\": \"Missouri, Kansas & Texas Railway Co. v. McGlamory\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "35 S.W. 1058",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4165200,
+    "case_name": "Missouri, Kansas & Texas Railway Co. v. McGlamory",
+    "citations": [
+     "35 S.W. 1058"
+    ],
+    "court": "Texas Supreme Court",
+    "date_filed": "1896-06-04",
+    "status": "Published",
+    "cited_by": 196,
+    "url": "https://syfert.com/texas/cases/89-tex-635/missouri-kansas-texas-railway-co-v-mcglamory",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Missouri v. McGlamory, 35 S.W. 1058 (Tex. 1896)",
+    "link_md": "[Missouri v. McGlamory, 35 S.W. 1058 (Tex. 1896)](https://syfert.com/texas/cases/89-tex-635/missouri-kansas-texas-railway-co-v-mcglamory)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Missouri, Kansas & Texas Railway Co. v. McGlamory",
+   "actual": "Missouri, Kansas & Texas Railway Co. v. McGlamory",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

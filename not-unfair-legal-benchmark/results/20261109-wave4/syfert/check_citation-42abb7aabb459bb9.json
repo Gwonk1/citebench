@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "20 S.W.2d 611",
+  "expected_case_name": "Fowler v. Unionaid Life Insurance"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"20 S.W.2d 611\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3271348,\n            \"case_name\": \"Fowler v. Unionaid Life Insurance\",\n            \"citations\": [\n                \"20 S.W.2d 611\"\n            ],\n            \"court\": \"Supreme Court of Arkansas\",\n            \"date_filed\": \"1929-10-14\",\n            \"status\": \"Published\",\n            \"cited_by\": 50,\n            \"url\": \"https://syfert.com/arkansas/cases/20-s-w-2d-611/fowler-v-unionaid-life-insurance\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Fowler v. Unionaid Life Ins., 20 S.W.2d 611 (Ark. 1929)\",\n            \"link_md\": \"[Fowler v. Unionaid Life Ins., 20 S.W.2d 611 (Ark. 1929)](https://syfert.com/arkansas/cases/20-s-w-2d-611/fowler-v-unionaid-life-insurance)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 4,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Fowler v. Unionaid Life Insurance\",\n        \"actual\": \"Fowler v. Unionaid Life Insurance\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "20 S.W.2d 611",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3271348,
+    "case_name": "Fowler v. Unionaid Life Insurance",
+    "citations": [
+     "20 S.W.2d 611"
+    ],
+    "court": "Supreme Court of Arkansas",
+    "date_filed": "1929-10-14",
+    "status": "Published",
+    "cited_by": 50,
+    "url": "https://syfert.com/arkansas/cases/20-s-w-2d-611/fowler-v-unionaid-life-insurance",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fowler v. Unionaid Life Ins., 20 S.W.2d 611 (Ark. 1929)",
+    "link_md": "[Fowler v. Unionaid Life Ins., 20 S.W.2d 611 (Ark. 1929)](https://syfert.com/arkansas/cases/20-s-w-2d-611/fowler-v-unionaid-life-insurance)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 4,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Fowler v. Unionaid Life Insurance",
+   "actual": "Fowler v. Unionaid Life Insurance",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

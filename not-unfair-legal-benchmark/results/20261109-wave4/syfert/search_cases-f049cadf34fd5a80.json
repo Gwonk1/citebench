@@ -1,0 +1,429 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Aidan w/15 \"870 NYS2d 609\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Aidan w/15 \\\"870 NYS2d 609\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":404218,\"case_name\":\"Andre, in Re\",\"citations\":[\"679 F.2d 872\",\"1981 U.S. App. LEXIS 17405\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-09-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/679-f-2d-872/andre-in-re\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Andre, in Re, 679 F.2d 872 (2d Cir. 1981)\",\"link_md\":\"[Andre, in Re, 679 F.2d 872 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/679-f-2d-872/andre-in-re)\",\"match_kind\":\"semantic\",\"similarity\":0.6382},{\"cluster_id\":6215011,\"case_name\":\"Levenson v. Lippman\",\"citations\":[\"290 A.D.2d 211\",\"735 N.Y.S.2d 754\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2002-01-03\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/290-a-d-2d-211/levenson-v-lippman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Levenson v. Lippman, 290 A.D.2d 211 (N.Y. App. Div. 1st Dep't 2002)\",\"link_md\":\"[Levenson v. Lippman, 290 A.D.2d 211 (N.Y. App. Div. 1st Dep't 2002)](https://syfert.com/new-york/cases/290-a-d-2d-211/levenson-v-lippman)\",\"match_kind\":\"semantic\",\"similarity\":0.6305},{\"cluster_id\":2433676,\"case_name\":\"Adrian v. Town of Yorktown\",\"citations\":[\"963 N.E.2d 791\",\"18 N.Y.3d 805\",\"940 N.Y.S.2d 214\",\"2012 NY Slip Op 63604\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2012-02-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/18-n-y-3d-805/adrian-v-town-of-yorktown\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Adrian v. Town of Yorktown, 963 N.E.2d 791 (N.Y. 2012)\",\"link_md\":\"[Adrian v. Town of Yorktown, 963 N.E.2d 791 (N.Y. 2012)](https://syfert.com/new-york/cases/18-n-y-3d-805/adrian-v-town-of-yorktown)\",\"match_kind\":\"semantic\",\"similarity\":0.6281},{\"cluster_id\":7424869,\"case_name\":\"Stevens v. J. N. Adam & Co.\",\"citations\":[\"124 N.Y.S. 1131\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1910-07-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/124-n-y-s-1131/stevens-v-j-n-adam-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stevens v. J. N. Adam & Co., 124 N.Y.S. 1131 (N.Y. App. Div. 1910)\",\"link_md\":\"[Stevens v. J. N. Adam & Co., 124 N.Y.S. 1131 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/124-n-y-s-1131/stevens-v-j-n-adam-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6247},{\"cluster_id\":391467,\"case_name\":\"Diaz v. Ward\",\"citations\":[\"652 F.2d 53\",\"1981 U.S. App. LEXIS 20023\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-02-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/652-f-2d-53/diaz-v-ward\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Diaz v. Ward, 652 F.2d 53 (2d Cir. 1981)\",\"link_md\":\"[Diaz v. Ward, 652 F.2d 53 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/652-f-2d-53/diaz-v-ward)\",\"match_kind\":\"semantic\",\"similarity\":0.6226},{\"cluster_id\":7437629,\"case_name\":\"In re Grant\",\"citations\":[\"166 A.D. 921\",\"151 N.Y.S. 1119\",\"1915 N.Y. App. Div. LEXIS 6875\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1915-01-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/166-a-d-921/in-re-grant\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Grant, 166 A.D. 921 (N.Y. App. Div. 1915)\",\"link_md\":\"[In re Grant, 166 A.D. 921 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/166-a-d-921/in-re-grant)\",\"match_kind\":\"semantic\",\"similarity\":0.6214},{\"cluster_id\":9836458,\"case_name\":\"Schroeder v. The Polish-American Political Club of Southampton, N.Y., Inc\",\"citations\":[],\"court\":\"E.D. New York\",\"date_filed\":\"2019-09-19\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9836458/schroeder-v-the-polish-american-political-club-of-southampton-ny-inc\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Schroeder v. Polish-Am. Political Club of Southampton, N.Y., Inc, No. 2:18-cv-02279 (E.D.N.Y. Sept. 19, 2019)\",\"link_md\":\"[Schroeder v. Polish-Am. Political Club of Southampton, N.Y., Inc, No. 2:18-cv-02279 (E.D.N.Y. Sept. 19, 2019)](https://syfert.com/federal/district/cases/cl-9836458/schroeder-v-the-polish-american-political-club-of-southampton-ny-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6211},{\"cluster_id\":545644,\"case_name\":\"Anderson v. State of New York\",\"citations\":[\"909 F.2d 1473\",\"1990 U.S. App. LEXIS 15406\",\"1990 WL 101307\"],\"court\":\"Second Circuit\",\"date_filed\":\"1990-06-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/909-f-2d-1473/anderson-v-state-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Anderson v. State of New York, 909 F.2d 1473 (2d Cir. 1990)\",\"link_md\":\"[Anderson v. State of New York, 909 F.2d 1473 (2d Cir. 1990)](https://syfert.com/federal/circuits/cases/909-f-2d-1473/anderson-v-state-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6199},{\"cluster_id\":528920,\"case_name\":\"United States v. Adon\",\"citations\":[\"884 F.2d 1381\",\"1989 U.S. App. LEXIS 14017\",\"1989 WL 103615\"],\"court\":\"Second Circuit\",\"date_filed\":\"1989-08-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/884-f-2d-1381/united-states-v-adon\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Adon, 884 F.2d 1381 (2d Cir. 1989)\",\"link_md\":\"[United States v. Adon, 884 F.2d 1381 (2d Cir. 1989)](https://syfert.com/federal/circuits/cases/884-f-2d-1381/united-states-v-adon)\",\"match_kind\":\"semantic\",\"similarity\":0.6196},{\"cluster_id\":521644,\"case_name\":\"Nos. 88-7699, 88-7709\",\"citations\":[\"872 F.2d 1021\"],\"court\":\"Second Circuit\",\"date_filed\":\"1989-01-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/872-f-2d-1021/nos-88-7699-88-7709\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Nos. 88-7699, 88-7709, 872 F.2d 1021 (2d Cir. 1989)\",\"link_md\":\"[Nos. 88-7699, 88-7709, 872 F.2d 1021 (2d Cir. 1989)](https://syfert.com/federal/circuits/cases/872-f-2d-1021/nos-88-7699-88-7709)\",\"match_kind\":\"semantic\",\"similarity\":0.6193},{\"cluster_id\":8245792,\"case_name\":\"Matter of Egate-95, LLC v. Fitness Intl., LLC\",\"citations\":[\"2022 NY Slip Op 05451\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2022-09-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-8245792/matter-of-egate-95-llc-v-fitness-intl-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Egate-95, LLC v. Fitness Intl., LLC, 2022 NY Slip Op 05451 (N.Y. App. Div. 4th Dep't 2022)\",\"link_md\":\"[Matter of Egate-95, LLC v. Fitness Intl., LLC, 2022 NY Slip Op 05451 (N.Y. App. Div. 4th Dep't 2022)](https://syfert.com/new-york/cases/cl-8245792/matter-of-egate-95-llc-v-fitness-intl-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.6181},{\"cluster_id\":405454,\"case_name\":\"Adams v. United States\",\"citations\":[\"681 F.2d 801\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-12-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/681-f-2d-801/adams-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Adams v. United States, 681 F.2d 801 (2d Cir. 1981)\",\"link_md\":\"[Adams v. United States, 681 F.2d 801 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/681-f-2d-801/adams-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6159},{\"cluster_id\":5898059,\"case_name\":\"Scher Law Firm v. 87-10 51st Avenue Owners Corp.\",\"citations\":[\"52 A.D.3d 611\",\"858 N.Y.S.2d 893\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2008-06-10\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/52-a-d-3d-611/scher-law-firm-v-87-10-51st-avenue-owners-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Scher Law Firm v. 87-10 51st Avenue Owners Corp., 52 A.D.3d 611 (N.Y. App. Div. 2d Dep't 2008)\",\"link_md\":\"[Scher Law Firm v. 87-10 51st Avenue Owners Corp., 52 A.D.3d 611 (N.Y. App. Div. 2d Dep't 2008)](https://syfert.com/new-york/cases/52-a-d-3d-611/scher-law-firm-v-87-10-51st-avenue-owners-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6158},{\"cluster_id\":5894093,\"case_name\":\"Mastrangelo v. State Council of Parks\",\"citations\":[\"21 A.D.2d 879\",\"251 N.Y.S.2d 788\",\"1964 N.Y. App. Div. LEXIS 3386\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1964-07-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/21-a-d-2d-879/mastrangelo-v-state-council-of-parks\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mastrangelo v. State Council of Parks, 21 A.D.2d 879 (N.Y. App. Div. 2d Dep't 1964)\",\"link_md\":\"[Mastrangelo v. State Council of Parks, 21 A.D.2d 879 (N.Y. App. Div. 2d Dep't 1964)](https://syfert.com/new-york/cases/21-a-d-2d-879/mastrangelo-v-state-council-of-parks)\",\"match_kind\":\"semantic\",\"similarity\":0.6144},{\"cluster_id\":10870897,\"case_name\":\"People v. Agee\",\"citations\":[\"250 A.D.3d 1622\",\"2026 NY Slip Op 03587\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2026-06-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/250-a-d-3d-1622/people-v-agee\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"250 A.D.3d 1622\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/250%20A.D.3d\"}],\"bluebook\":\"People v. Agee, 250 A.D.3d 1622 (N.Y. App. Div. 4th Dep't 2026)\",\"link_md\":\"[People v. Agee, 250 A.D.3d 1622 (N.Y. App. Div. 4th Dep't 2026)](https://syfert.com/new-york/cases/250-a-d-3d-1622/people-v-agee)\",\"match_kind\":\"semantic\",\"similarity\":0.6143},{\"cluster_id\":8183149,\"case_name\":\"Addington v. Forsyth Metal Goods Co.\",\"citations\":[\"263 U.S. 700\",\"44 S. Ct. 5\",\"68 L. Ed. 513\",\"1923 U.S. LEXIS 2973\"],\"court\":\"Supreme Court\",\"date_filed\":\"1923-10-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/263-u-s-700/addington-v-forsyth-metal-goods-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Addington v. Forsyth Metal Goods Co., 263 U.S. 700 (1923)\",\"link_md\":\"[Addington v. Forsyth Metal Goods Co., 263 U.S. 700 (1923)](https://syfert.com/federal/scotus/cases/263-u-s-700/addington-v-forsyth-metal-goods-co)\",\"match_kind\":\"semantic\",\"similarity\":0.613},{\"cluster_id\":8310617,\"case_name\":\"Sheilds v. Paul B. Pugh & Co.\",\"citations\":[\"111 N.Y.S. 1144\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1908-07-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/111-n-y-s-1144/sheilds-v-paul-b-pugh-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sheilds v. Paul B. Pugh & Co., 111 N.Y.S. 1144 (N.Y. App. Div. 1908)\",\"link_md\":\"[Sheilds v. Paul B. Pugh & Co., 111 N.Y.S. 1144 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/111-n-y-s-1144/sheilds-v-paul-b-pugh-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6129},{\"cluster_id\":483679,\"case_name\":\"Liner v. State of N.Y\",\"citations\":[\"812 F.2d 712\",\"1987 U.S. App. LEXIS 9366\"],\"court\":\"Second Circuit\",\"date_filed\":\"1987-01-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/812-f-2d-712/liner-v-state-of-ny\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Liner v. State of N.Y, 812 F.2d 712 (2d Cir. 1987)\",\"link_md\":\"[Liner v. State of N.Y, 812 F.2d 712 (2d Cir. 1987)](https://syfert.com/federal/circuits/cases/812-f-2d-712/liner-v-state-of-ny)\",\"match_kind\":\"semantic\",\"similarity\":0.6126},{\"cluster_id\":5271819,\"case_name\":\"Anderson v. NYSARC, Inc.\",\"citations\":[\"198 A.D.3d 1333\",\"2021 NY Slip Op 05236\",\"152 N.Y.S.3d 377\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2021-10-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/198-a-d-3d-1333/anderson-v-nysarc-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Anderson v. NYSARC, Inc., 198 A.D.3d 1333 (N.Y. App. Div. 4th Dep't 2021)\",\"link_md\":\"[Anderson v. NYSARC, Inc., 198 A.D.3d 1333 (N.Y. App. Div. 4th Dep't 2021)](https://syfert.com/new-york/cases/198-a-d-3d-1333/anderson-v-nysarc-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6121},{\"cluster_id\":10849435,\"case_name\":\"People v. Johnson\",\"citations\":[\"248 A.D.3d 523\",\"2026 NY Slip Op 02216\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2026-04-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/248-a-d-3d-523/people-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"248 A.D.3d 523\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d\"}],\"bluebook\":\"People v. Johnson, 248 A.D.3d 523 (N.Y. App. Div. 1st Dep't 2026)\",\"link_md\":\"[People v. Johnson, 248 A.D.3d 523 (N.Y. App. Div. 1st Dep't 2026)](https://syfert.com/new-york/cases/248-a-d-3d-523/people-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.612}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Aidan w/15 \"870 NYS2d 609\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 404218,
+    "case_name": "Andre, in Re",
+    "citations": [
+     "679 F.2d 872",
+     "1981 U.S. App. LEXIS 17405"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-09-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/679-f-2d-872/andre-in-re",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Andre, in Re, 679 F.2d 872 (2d Cir. 1981)",
+    "link_md": "[Andre, in Re, 679 F.2d 872 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/679-f-2d-872/andre-in-re)",
+    "match_kind": "semantic",
+    "similarity": 0.6382
+   },
+   {
+    "cluster_id": 6215011,
+    "case_name": "Levenson v. Lippman",
+    "citations": [
+     "290 A.D.2d 211",
+     "735 N.Y.S.2d 754"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2002-01-03",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/290-a-d-2d-211/levenson-v-lippman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Levenson v. Lippman, 290 A.D.2d 211 (N.Y. App. Div. 1st Dep't 2002)",
+    "link_md": "[Levenson v. Lippman, 290 A.D.2d 211 (N.Y. App. Div. 1st Dep't 2002)](https://syfert.com/new-york/cases/290-a-d-2d-211/levenson-v-lippman)",
+    "match_kind": "semantic",
+    "similarity": 0.6305
+   },
+   {
+    "cluster_id": 2433676,
+    "case_name": "Adrian v. Town of Yorktown",
+    "citations": [
+     "963 N.E.2d 791",
+     "18 N.Y.3d 805",
+     "940 N.Y.S.2d 214",
+     "2012 NY Slip Op 63604"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2012-02-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/18-n-y-3d-805/adrian-v-town-of-yorktown",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Adrian v. Town of Yorktown, 963 N.E.2d 791 (N.Y. 2012)",
+    "link_md": "[Adrian v. Town of Yorktown, 963 N.E.2d 791 (N.Y. 2012)](https://syfert.com/new-york/cases/18-n-y-3d-805/adrian-v-town-of-yorktown)",
+    "match_kind": "semantic",
+    "similarity": 0.6281
+   },
+   {
+    "cluster_id": 7424869,
+    "case_name": "Stevens v. J. N. Adam & Co.",
+    "citations": [
+     "124 N.Y.S. 1131"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1910-07-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/124-n-y-s-1131/stevens-v-j-n-adam-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stevens v. J. N. Adam & Co., 124 N.Y.S. 1131 (N.Y. App. Div. 1910)",
+    "link_md": "[Stevens v. J. N. Adam & Co., 124 N.Y.S. 1131 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/124-n-y-s-1131/stevens-v-j-n-adam-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6247
+   },
+   {
+    "cluster_id": 391467,
+    "case_name": "Diaz v. Ward",
+    "citations": [
+     "652 F.2d 53",
+     "1981 U.S. App. LEXIS 20023"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-02-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/652-f-2d-53/diaz-v-ward",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Diaz v. Ward, 652 F.2d 53 (2d Cir. 1981)",
+    "link_md": "[Diaz v. Ward, 652 F.2d 53 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/652-f-2d-53/diaz-v-ward)",
+    "match_kind": "semantic",
+    "similarity": 0.6226
+   },
+   {
+    "cluster_id": 7437629,
+    "case_name": "In re Grant",
+    "citations": [
+     "166 A.D. 921",
+     "151 N.Y.S. 1119",
+     "1915 N.Y. App. Div. LEXIS 6875"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1915-01-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/166-a-d-921/in-re-grant",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Grant, 166 A.D. 921 (N.Y. App. Div. 1915)",
+    "link_md": "[In re Grant, 166 A.D. 921 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/166-a-d-921/in-re-grant)",
+    "match_kind": "semantic",
+    "similarity": 0.6214
+   },
+   {
+    "cluster_id": 9836458,
+    "case_name": "Schroeder v. The Polish-American Political Club of Southampton, N.Y., Inc",
+    "citations": [],
+    "court": "E.D. New York",
+    "date_filed": "2019-09-19",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9836458/schroeder-v-the-polish-american-political-club-of-southampton-ny-inc",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Schroeder v. Polish-Am. Political Club of Southampton, N.Y., Inc, No. 2:18-cv-02279 (E.D.N.Y. Sept. 19, 2019)",
+    "link_md": "[Schroeder v. Polish-Am. Political Club of Southampton, N.Y., Inc, No. 2:18-cv-02279 (E.D.N.Y. Sept. 19, 2019)](https://syfert.com/federal/district/cases/cl-9836458/schroeder-v-the-polish-american-political-club-of-southampton-ny-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6211
+   },
+   {
+    "cluster_id": 545644,
+    "case_name": "Anderson v. State of New York",
+    "citations": [
+     "909 F.2d 1473",
+     "1990 U.S. App. LEXIS 15406",
+     "1990 WL 101307"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1990-06-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/909-f-2d-1473/anderson-v-state-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Anderson v. State of New York, 909 F.2d 1473 (2d Cir. 1990)",
+    "link_md": "[Anderson v. State of New York, 909 F.2d 1473 (2d Cir. 1990)](https://syfert.com/federal/circuits/cases/909-f-2d-1473/anderson-v-state-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6199
+   },
+   {
+    "cluster_id": 528920,
+    "case_name": "United States v. Adon",
+    "citations": [
+     "884 F.2d 1381",
+     "1989 U.S. App. LEXIS 14017",
+     "1989 WL 103615"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1989-08-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/884-f-2d-1381/united-states-v-adon",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Adon, 884 F.2d 1381 (2d Cir. 1989)",
+    "link_md": "[United States v. Adon, 884 F.2d 1381 (2d Cir. 1989)](https://syfert.com/federal/circuits/cases/884-f-2d-1381/united-states-v-adon)",
+    "match_kind": "semantic",
+    "similarity": 0.6196
+   },
+   {
+    "cluster_id": 521644,
+    "case_name": "Nos. 88-7699, 88-7709",
+    "citations": [
+     "872 F.2d 1021"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1989-01-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/872-f-2d-1021/nos-88-7699-88-7709",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Nos. 88-7699, 88-7709, 872 F.2d 1021 (2d Cir. 1989)",
+    "link_md": "[Nos. 88-7699, 88-7709, 872 F.2d 1021 (2d Cir. 1989)](https://syfert.com/federal/circuits/cases/872-f-2d-1021/nos-88-7699-88-7709)",
+    "match_kind": "semantic",
+    "similarity": 0.6193
+   },
+   {
+    "cluster_id": 8245792,
+    "case_name": "Matter of Egate-95, LLC v. Fitness Intl., LLC",
+    "citations": [
+     "2022 NY Slip Op 05451"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2022-09-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-8245792/matter-of-egate-95-llc-v-fitness-intl-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Egate-95, LLC v. Fitness Intl., LLC, 2022 NY Slip Op 05451 (N.Y. App. Div. 4th Dep't 2022)",
+    "link_md": "[Matter of Egate-95, LLC v. Fitness Intl., LLC, 2022 NY Slip Op 05451 (N.Y. App. Div. 4th Dep't 2022)](https://syfert.com/new-york/cases/cl-8245792/matter-of-egate-95-llc-v-fitness-intl-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.6181
+   },
+   {
+    "cluster_id": 405454,
+    "case_name": "Adams v. United States",
+    "citations": [
+     "681 F.2d 801"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-12-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/681-f-2d-801/adams-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Adams v. United States, 681 F.2d 801 (2d Cir. 1981)",
+    "link_md": "[Adams v. United States, 681 F.2d 801 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/681-f-2d-801/adams-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6159
+   },
+   {
+    "cluster_id": 5898059,
+    "case_name": "Scher Law Firm v. 87-10 51st Avenue Owners Corp.",
+    "citations": [
+     "52 A.D.3d 611",
+     "858 N.Y.S.2d 893"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2008-06-10",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/52-a-d-3d-611/scher-law-firm-v-87-10-51st-avenue-owners-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Scher Law Firm v. 87-10 51st Avenue Owners Corp., 52 A.D.3d 611 (N.Y. App. Div. 2d Dep't 2008)",
+    "link_md": "[Scher Law Firm v. 87-10 51st Avenue Owners Corp., 52 A.D.3d 611 (N.Y. App. Div. 2d Dep't 2008)](https://syfert.com/new-york/cases/52-a-d-3d-611/scher-law-firm-v-87-10-51st-avenue-owners-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6158
+   },
+   {
+    "cluster_id": 5894093,
+    "case_name": "Mastrangelo v. State Council of Parks",
+    "citations": [
+     "21 A.D.2d 879",
+     "251 N.Y.S.2d 788",
+     "1964 N.Y. App. Div. LEXIS 3386"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1964-07-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/21-a-d-2d-879/mastrangelo-v-state-council-of-parks",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mastrangelo v. State Council of Parks, 21 A.D.2d 879 (N.Y. App. Div. 2d Dep't 1964)",
+    "link_md": "[Mastrangelo v. State Council of Parks, 21 A.D.2d 879 (N.Y. App. Div. 2d Dep't 1964)](https://syfert.com/new-york/cases/21-a-d-2d-879/mastrangelo-v-state-council-of-parks)",
+    "match_kind": "semantic",
+    "similarity": 0.6144
+   },
+   {
+    "cluster_id": 10870897,
+    "case_name": "People v. Agee",
+    "citations": [
+     "250 A.D.3d 1622",
+     "2026 NY Slip Op 03587"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2026-06-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/250-a-d-3d-1622/people-v-agee",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "250 A.D.3d 1622",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.D.3d"
+     }
+    ],
+    "bluebook": "People v. Agee, 250 A.D.3d 1622 (N.Y. App. Div. 4th Dep't 2026)",
+    "link_md": "[People v. Agee, 250 A.D.3d 1622 (N.Y. App. Div. 4th Dep't 2026)](https://syfert.com/new-york/cases/250-a-d-3d-1622/people-v-agee)",
+    "match_kind": "semantic",
+    "similarity": 0.6143
+   },
+   {
+    "cluster_id": 8183149,
+    "case_name": "Addington v. Forsyth Metal Goods Co.",
+    "citations": [
+     "263 U.S. 700",
+     "44 S. Ct. 5",
+     "68 L. Ed. 513",
+     "1923 U.S. LEXIS 2973"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1923-10-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/263-u-s-700/addington-v-forsyth-metal-goods-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Addington v. Forsyth Metal Goods Co., 263 U.S. 700 (1923)",
+    "link_md": "[Addington v. Forsyth Metal Goods Co., 263 U.S. 700 (1923)](https://syfert.com/federal/scotus/cases/263-u-s-700/addington-v-forsyth-metal-goods-co)",
+    "match_kind": "semantic",
+    "similarity": 0.613
+   },
+   {
+    "cluster_id": 8310617,
+    "case_name": "Sheilds v. Paul B. Pugh & Co.",
+    "citations": [
+     "111 N.Y.S. 1144"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1908-07-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/111-n-y-s-1144/sheilds-v-paul-b-pugh-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sheilds v. Paul B. Pugh & Co., 111 N.Y.S. 1144 (N.Y. App. Div. 1908)",
+    "link_md": "[Sheilds v. Paul B. Pugh & Co., 111 N.Y.S. 1144 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/111-n-y-s-1144/sheilds-v-paul-b-pugh-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6129
+   },
+   {
+    "cluster_id": 483679,
+    "case_name": "Liner v. State of N.Y",
+    "citations": [
+     "812 F.2d 712",
+     "1987 U.S. App. LEXIS 9366"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1987-01-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/812-f-2d-712/liner-v-state-of-ny",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Liner v. State of N.Y, 812 F.2d 712 (2d Cir. 1987)",
+    "link_md": "[Liner v. State of N.Y, 812 F.2d 712 (2d Cir. 1987)](https://syfert.com/federal/circuits/cases/812-f-2d-712/liner-v-state-of-ny)",
+    "match_kind": "semantic",
+    "similarity": 0.6126
+   },
+   {
+    "cluster_id": 5271819,
+    "case_name": "Anderson v. NYSARC, Inc.",
+    "citations": [
+     "198 A.D.3d 1333",
+     "2021 NY Slip Op 05236",
+     "152 N.Y.S.3d 377"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2021-10-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/198-a-d-3d-1333/anderson-v-nysarc-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Anderson v. NYSARC, Inc., 198 A.D.3d 1333 (N.Y. App. Div. 4th Dep't 2021)",
+    "link_md": "[Anderson v. NYSARC, Inc., 198 A.D.3d 1333 (N.Y. App. Div. 4th Dep't 2021)](https://syfert.com/new-york/cases/198-a-d-3d-1333/anderson-v-nysarc-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6121
+   },
+   {
+    "cluster_id": 10849435,
+    "case_name": "People v. Johnson",
+    "citations": [
+     "248 A.D.3d 523",
+     "2026 NY Slip Op 02216"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2026-04-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/248-a-d-3d-523/people-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "248 A.D.3d 523",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d"
+     }
+    ],
+    "bluebook": "People v. Johnson, 248 A.D.3d 523 (N.Y. App. Div. 1st Dep't 2026)",
+    "link_md": "[People v. Johnson, 248 A.D.3d 523 (N.Y. App. Div. 1st Dep't 2026)](https://syfert.com/new-york/cases/248-a-d-3d-523/people-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.612
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

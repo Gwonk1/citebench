@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Serrano w/15 \"650 N.Y.S.2d 95\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Serrano w/15 \\\"650 N.Y.S.2d 95\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2087593,\"bluebook\":\"State v. Flowers, 745 A.2d 553 (N.J. Super. Ct. App. Div. 2000)\",\"url\":\"https://syfert.com/new-jersey/cases/328-n-j-super-205/state-v-flowers\",\"date_filed\":\"2000-02-10\",\"cited_by\":5,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...172 Misc. 2d 377 , 661 N.Y.S. 2d 434, 435-36 (Sup.App. Term 1997); People v. Serrano, 233 A.D. 2d 170, 170-71 , 650 N.Y.S. 2d 95 , appeal denied, 89 N.Y. 2d 929 , 654 N.Y.S. 2d 732 , 677 N.E. 2d 304...\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Serrano w/15 \"650 N.Y.S.2d 95\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2087593,
+    "bluebook": "State v. Flowers, 745 A.2d 553 (N.J. Super. Ct. App. Div. 2000)",
+    "url": "https://syfert.com/new-jersey/cases/328-n-j-super-205/state-v-flowers",
+    "date_filed": "2000-02-10",
+    "cited_by": 5,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...172 Misc. 2d 377 , 661 N.Y.S. 2d 434, 435-36 (Sup.App. Term 1997); People v. Serrano, 233 A.D. 2d 170, 170-71 , 650 N.Y.S. 2d 95 , appeal denied, 89 N.Y. 2d 929 , 654 N.Y.S. 2d 732 , 677 N.E. 2d 304..."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

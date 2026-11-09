@@ -1,6 +1,6 @@
 # not-unfair-legal-benchmark
 
-Version 1.3 (2026-11-08). 292 passages. See `CHANGELOG.md` for every change from v1.0.
+Version 1.4 (2026-11-09). 343 passages. See `CHANGELOG.md` for every change from v1.0.
 
 This is the not-unfair legal benchmark. It challenges an agentic system on legal ability when that system is linked to a caselaw MCP.
 
@@ -34,6 +34,23 @@ The passage gives either the printed number (`shape: i`), which a CourtListener-
 
 A date item (`class: date`, ids `dt-*`) is a case whose decision year in the CourtListener corpus is impossible for the reporter volume it sits in (a 1956 A.2d volume carrying a "2001" decision). The gold is the year citing opinions print for it, quoted from at least two that name the case; none prints the stored year. The passage gives either the true year (`shape: i`), which a CourtListener-only checker calls a mismatch, or the stored year (`shape: ii`), which it confirms. The year is graded on the ANSWER line; the month and day are never required.
 
+## Two decisions on one first page (v1.4)
+
+A samepage item (`class: samepage`, ids `pg-*`) is a case that CourtListener files at a page that is another
+decision's first page. In a move item (`fix_class: move`) that is its only cite in that reporter. In a stray item
+(`fix_class: stray`) CourtListener holds the right page too. The gold is the page citing opinions print, quoted from
+at least two that name the case. Shape (i) gives the printed page, which CourtListener calls missing, and is graded
+like a regional shape (i). Shape (ii) gives CourtListener's page, which it answers AMBIGUOUS with both cases. The
+printed page is required, and the old page may not be on the ANSWER line. Stray items are shape (ii) only.
+
+## New York Appellate Division cites filed as N.Y.2d (v1.4)
+
+A nyseries item (`class: nyseries`, ids `ny-*`) is an Appellate Division decision that CourtListener files as
+`<vol> N.Y.2d <page>` with a volume above 100, where N.Y.2d ended. The decision is in N.Y.S.2d at the same volume and
+page. Shape (i) gives the N.Y.S.2d cite, which CourtListener calls missing, so a correct cite looks fabricated. It is
+graded like a coverage item. Shape (ii) gives the N.Y.2d label, which CourtListener confirms. The N.Y.S.2d cite or
+the official A.D. cite passes, and the N.Y.2d label may not be on the ANSWER line.
+
 ## Bluebooking
 
 A bluebooking item asks whether the court in the citation is the form a brief uses.
@@ -44,7 +61,7 @@ The other courts in the set are held to the Bluebook. A spelled-out state, a mis
 
 ## Controls
 
-Thirty-seven items (`kind: control`: 24 `co-*` from v1.1, 7 regional `rg-co-*` from v1.2, 6 `dt-co-*` from v1.3) are ordinary, correct citations. The right answer is the citation, correct as written. A checker that calls every cite a misprint, an interior page or a fabrication fails them. They are scored on their own row so an arm's false-positive rate can be read next to its trap score. Half are casebook cases a bare model knows; half are ordinary reported cases nobody memorises, so the two cannot be told apart by fame.
+Forty-three items (`kind: control`: 24 `co-*` from v1.1, 7 regional `rg-co-*` from v1.2, 6 `dt-co-*` from v1.3, 3 `ny-co-*` and 3 `pg-co-*` from v1.4) are ordinary, correct citations. The right answer is the citation, correct as written. A checker that calls every cite a misprint, an interior page or a fabrication fails them. They are scored on their own row so an arm's false-positive rate can be read next to its trap score. Half are casebook cases a bare model knows; half are ordinary reported cases nobody memorises, so the two cannot be told apart by fame.
 
 ## The same task for every system
 
@@ -66,6 +83,8 @@ The instruction is `PROMPT` in `grade.py`. The passage is `text` in `items/tasks
 | `results/20261107-syfert-raw-regional2` | + DRV170: check_brief corrects a cite that uses a corrected old number | 41 | 7 | 48 |
 
 **Raw Syfert MCP arm on the 42 v1.3 items (date class + regional wave 2), 2026-11-08:** 32 before, 41 after REL179 (date 19/20, regional 16/16, controls 6/6). See `CHANGELOG.md`.
+
+**Raw Syfert MCP arm on the 51 v1.4 items (samepage + nyseries), 2026-11-09:** 38 (samepage 24/29, nyseries 8/16, controls 6/6). See `CHANGELOG.md`.
 
 The first run's 15 misses were 14 old-number items where the old number still resolved as an alias ("correct as written") and one where the old number now belongs to a different case. Both were tool gaps, fixed in DRV170 before the second run. Syfert's own index was corrected from the same evidence the gold rests on, so this arm is not independent of the gold: read it as a check that the corrections reach the tool, not as a comparison.
 
@@ -105,8 +124,8 @@ Every item carries an `evidence` field: for a case, the cluster id of the decisi
 
 The code is this directory, `citebench/not-unfair-legal-benchmark/`.
 
-- `VERSION` is `1.1`.
-- `items/tasks.jsonl` is the set. 292 passages, each with `id`, `class`, `text`, `gold`, `evidence`, `version`, and where it applies `kind: control` and `bare_model_answerable`.
+- `VERSION` is `1.4`.
+- `items/tasks.jsonl` is the set. 343 passages, each with `id`, `class`, `text`, `gold`, `evidence`, `version`, and where it applies `kind: control` and `bare_model_answerable`.
 - `grade.py` is the instruction and the matcher. `test_grade.py` tests it. `grade_answers.py` scores a file of answers.
 - `items/pilot.jsonl`, `from_fixes.jsonl`, `bluebook.jsonl`, `courts.jsonl`, `harder.jsonl`, `controls.jsonl` are the lookups the passages were built from; `items/evidence.jsonl` is the v1.1 review of them. `build_tasks.py` rebuilds `tasks.jsonl` from all of them. `build_courts.py`, `build_harder.py` and `build_controls.py` rewrite their lookups without a database; `build_bluebook.py` and `build_from_fixes.py` describe how the 2026-10-21 samples were drawn from local fix ledgers and are kept for the record.
 - `run.py` is the CourtListener arm. It sends one lookup per call and writes `results/<date>/<id>.txt`. It skips ids already on disk. Pace is one call, then 1.5 seconds.

@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Flamm w/15 \"139 P 961\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Flamm w/15 \\\"139 P 961\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4072809,\"bluebook\":\"Williams v. Frey, 78 P.2d 1052 (Okla. 1938)\",\"url\":\"https://syfert.com/oklahoma/cases/182-okla-556/williams-v-frey\",\"date_filed\":\"1938-04-19\",\"cited_by\":22,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...353 , 120 P. 581 ; Flamm v. Wineland, 41 Okla. 688 , 139 P. 961 ; Robberson v. Gibson, 62 Okla. 306 , 162 P. 1120 . In this respect the actions for malicious prosecution and for wrongful search and seizure are identical. See cases cited…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Flamm w/15 \"139 P 961\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4072809,
+    "bluebook": "Williams v. Frey, 78 P.2d 1052 (Okla. 1938)",
+    "url": "https://syfert.com/oklahoma/cases/182-okla-556/williams-v-frey",
+    "date_filed": "1938-04-19",
+    "cited_by": 22,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...353 , 120 P. 581 ; Flamm v. Wineland, 41 Okla. 688 , 139 P. 961 ; Robberson v. Gibson, 62 Okla. 306 , 162 P. 1120 . In this respect the actions for malicious prosecution and for wrongful search and seizure are identical. See cases cited…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

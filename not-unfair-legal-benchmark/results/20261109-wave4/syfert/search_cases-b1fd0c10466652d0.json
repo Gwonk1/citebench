@@ -1,0 +1,39 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Smith w/15 \"223 A.3d 660\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Smith w/15 \\\"223 A.3d 660\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3188952,\"bluebook\":\"Rowhouses, Inc. v. Smith, 133 A.3d 1054 (Md. 2016)\",\"url\":\"https://syfert.com/maryland/cases/446-md-611/rowhouses-inc-v-smith\",\"date_filed\":\"2016-03-25\",\"cited_by\":36,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Smith v. Rowhouses, Inc.,\\n223 Md.App. 658 , 660 n. 1, 117 A.3d 622 , 623 n. 1 (2015). Similarly, we do not address the grant of summary judgment as to the Maryland Consumer Protection Act claim.\\n8\\n. In the Court of Special Appeals,…\",\"holding\":\"A reasonable probability of causation in lead-based paint cases requires a showing that is more than a mere possibility but less than more likely than not.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Smith w/15 \"223 A.3d 660\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3188952,
+    "bluebook": "Rowhouses, Inc. v. Smith, 133 A.3d 1054 (Md. 2016)",
+    "url": "https://syfert.com/maryland/cases/446-md-611/rowhouses-inc-v-smith",
+    "date_filed": "2016-03-25",
+    "cited_by": 36,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Smith v. Rowhouses, Inc.,\n223 Md.App. 658 , 660 n. 1, 117 A.3d 622 , 623 n. 1 (2015). Similarly, we do not address the grant of summary judgment as to the Maryland Consumer Protection Act claim.\n8\n. In the Court of Special Appeals,…",
+    "holding": "A reasonable probability of causation in lead-based paint cases requires a showing that is more than a mere possibility but less than more likely than not.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

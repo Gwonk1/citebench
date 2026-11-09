@@ -1,0 +1,118 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "229 A.3d 338",
+  "expected_case_name": "Com. v. Phyfar, D."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"229 A.3d 338\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4734669,\n            \"case_name\": \"Com. v. Phyfar, D.\",\n            \"citations\": [\n                \"229 A.3d 338\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"229 A.3d 337\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4733991,\n                        \"case_name\": \"In the Interest of: A.E., Appeal of: D.D.\"\n                    }\n                }\n            ],\n            \"court\": \"Superior Court of Pennsylvania\",\n            \"date_filed\": \"2020-03-11\",\n            \"status\": \"Unpublished\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/229-a-3d-338/com-v-phyfar-d\",\n            \"precedential_status\": \"Unpublished\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"229 A.3d 337\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/229%20A.3d\"\n                },\n                {\n                    \"citation\": \"229 A.3d 338\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/229%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Com. v. Phyfar, D., 229 A.3d 338 (Pa. Super. Ct. 2020)\",\n            \"link_md\": \"[Com. v. Phyfar, D., 229 A.3d 338 (Pa. Super. Ct. 2020)](https://syfert.com/pennsylvania/cases/229-a-3d-338/com-v-phyfar-d)\"\n        },\n        {\n            \"cluster_id\": 4734670,\n            \"case_name\": \"Com. v. Phyfar, D.\",\n            \"citations\": [\n                \"229 A.3d 338\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"229 A.3d 337\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4733991,\n                        \"case_name\": \"In the Interest of: A.E., Appeal of: D.D.\"\n                    }\n                }\n            ],\n            \"court\": \"Superior Court of Pennsylvania\",\n            \"date_filed\": \"2020-03-11\",\n            \"status\": \"Unpublished\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/229-a-3d-337/com-v-phyfar-d\",\n            \"precedential_status\": \"Unpublished\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"229 A.3d 337\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/229%20A.3d\"\n                },\n                {\n                    \"citation\": \"229 A.3d 338\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/229%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Com. v. Phyfar, D., 229 A.3d 338 (Pa. Super. Ct. 2020)\",\n            \"link_md\": \"[Com. v. Phyfar, D., 229 A.3d 338 (Pa. Super. Ct. 2020)](https://syfert.com/pennsylvania/cases/229-a-3d-337/com-v-phyfar-d)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Com. v. Phyfar, D.\",\n        \"actual\": \"Com. v. Phyfar, D.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "229 A.3d 338",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4734669,
+    "case_name": "Com. v. Phyfar, D.",
+    "citations": [
+     "229 A.3d 338"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "229 A.3d 337",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4733991,
+       "case_name": "In the Interest of: A.E., Appeal of: D.D."
+      }
+     }
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2020-03-11",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/229-a-3d-338/com-v-phyfar-d",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "229 A.3d 337",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/229%20A.3d"
+     },
+     {
+      "citation": "229 A.3d 338",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/229%20A.3d"
+     }
+    ],
+    "bluebook": "Com. v. Phyfar, D., 229 A.3d 338 (Pa. Super. Ct. 2020)",
+    "link_md": "[Com. v. Phyfar, D., 229 A.3d 338 (Pa. Super. Ct. 2020)](https://syfert.com/pennsylvania/cases/229-a-3d-338/com-v-phyfar-d)"
+   },
+   {
+    "cluster_id": 4734670,
+    "case_name": "Com. v. Phyfar, D.",
+    "citations": [
+     "229 A.3d 338"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "229 A.3d 337",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4733991,
+       "case_name": "In the Interest of: A.E., Appeal of: D.D."
+      }
+     }
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2020-03-11",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/229-a-3d-337/com-v-phyfar-d",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "229 A.3d 337",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/229%20A.3d"
+     },
+     {
+      "citation": "229 A.3d 338",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/229%20A.3d"
+     }
+    ],
+    "bluebook": "Com. v. Phyfar, D., 229 A.3d 338 (Pa. Super. Ct. 2020)",
+    "link_md": "[Com. v. Phyfar, D., 229 A.3d 338 (Pa. Super. Ct. 2020)](https://syfert.com/pennsylvania/cases/229-a-3d-337/com-v-phyfar-d)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Com. v. Phyfar, D.",
+   "actual": "Com. v. Phyfar, D.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

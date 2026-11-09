@@ -1,0 +1,121 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Tierney w/15 \"584 N.W.2d 461\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Tierney w/15 \\\"584 N.W.2d 461\\\"\",\"total\":8,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2111831,\"bluebook\":\"State v. Kling, 599 N.W.2d 240 (Neb. Ct. App. 1999)\",\"url\":\"https://syfert.com/nebraska/cases/8-neb-ct-app-631/state-v-kling\",\"date_filed\":\"1999-08-24\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...an inchoate and unparticularized suspicion or “hunch,” but less than the level of suspicion required for probable cause.\\nState\\nv.\\nTierney,\\n7 Neb. App. 469 , 584 N.W.2d 461 (1998). The question before this\\ncourt is whether Eckerberg had…\"},{\"cluster_id\":1303845,\"bluebook\":\"State v. Clinton G., 669 N.W.2d 467 (Neb. Ct. App. 2003)\",\"url\":\"https://syfert.com/nebraska/cases/12-neb-ct-app-178/state-v-clinton-g\",\"date_filed\":\"2003-09-23\",\"cited_by\":2,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...715 , 601 N.W.2d 554 (1999);\\nState\\nv.\\nTierney,\\n7 Neb. App. 469 , 584 N.W.2d 461 (1998);\\nState\\nv.\\nChronister,\\n3 Neb. App. 281 , 526 N.W.2d 98 (1995). Further, an officer need not give any warning to a citizen that he or she may freely...\"},{\"cluster_id\":1253216,\"bluebook\":\"State v. Coleman, 630 N.W.2d 686 (Neb. Ct. App. 2001)\",\"url\":\"https://syfert.com/nebraska/cases/10-neb-ct-app-337/state-v-coleman\",\"date_filed\":\"2001-07-10\",\"cited_by\":12,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...an appellate court considers all the evidence at trial, as well as at the hearing on the motion.\\nState v. Tierney,\\n7 Neb. App. 469 , 584 N.W.2d 461 (1998).\\nANALYSIS\\nBoth the Fourth Amendment to the U.S. Constitution and article I, § 7,…\"},{\"cluster_id\":9434226,\"bluebook\":\"State v. Hammond, 996 N.W.2d 270 (Neb. 2023)\",\"url\":\"https://syfert.com/nebraska/cases/315-neb-362/state-v-hammond\",\"date_filed\":\"2023-10-20\",\"cited_by\":17,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...343 , 594 N.W.2d 294 (1999); State v. Tierney, 7 Neb. App. 469 ,\\n584 N.W.2d 461 (1998); State v. Butzke, 7 Neb. App. 360 , 584 N.W.2d 449\\n(1998).\\n9\\nSee, State v. Howell, 26 Neb. App. 842 , 924 N.W.2d 349 (2019); State v...\"},{\"cluster_id\":2090741,\"bluebook\":\"State v. Ray, 609 N.W.2d 390 (Neb. Ct. App. 2000)\",\"url\":\"https://syfert.com/nebraska/cases/9-neb-ct-app-183/state-v-ray\",\"date_filed\":\"2000-04-18\",\"cited_by\":27,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...753 , 571 N.W.2d 794 (1998);\\nState\\nv.\\nTierney, 7\\nNeb. App. 469, 584 N.W.2d 461 (1998). In making this review, the appellate court does not reweigh the evidence or resolve conflicts in the evidence, but, rather, recognizes the trial…\"},{\"cluster_id\":3565780,\"bluebook\":\"Opinion No. (2000) (Neb. Att'y Gen. 2000)\",\"url\":\"https://syfert.com/nebraska/cases/cl-3565780/opinion-no-2000\",\"date_filed\":\"2000-03-09\",\"cited_by\":0,\"snippet\":\"...310 , 570 N.W.2d 344\\n(1997); State v. Tierney , 7 Neb. App. 469 , 584 N.W.2d 461 (1998). Where law enforcement officers have reasonable suspicion, they may pursue their investigation either to confirm their suspicion or to dispel the…\"},{\"cluster_id\":1746393,\"bluebook\":\"State v. McGinnis, 608 N.W.2d 605 (Neb. Ct. App. 2000)\",\"url\":\"https://syfert.com/nebraska/cases/8-neb-ct-app-1014/state-v-mcginnis\",\"date_filed\":\"2000-02-08\",\"cited_by\":26,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...unparticularized suspicion or “hunch,” but less than the level of suspicion required for probable cause.\\nSoukharith, supra; State\\nv.\\nTierney,\\n7 Neb. App. 469 , 584\\nN.W.2d 461 (1998). It is the totality of the circumstances which…\"},{\"cluster_id\":2000673,\"bluebook\":\"State v. Runge, 601 N.W.2d 554 (Neb. Ct. App. 1999)\",\"url\":\"https://syfert.com/nebraska/cases/8-neb-ct-app-715/state-v-runge\",\"date_filed\":\"1999-10-05\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...3) a full-blown arrest in which the citizen is typically taken into the custody of the officer.\\nState v. Tierney,\\n7 Neb. App. 469 , 584 N.W.2d 461 (1998). See\\nState\\nv.\\nVan Ackeren,\\n242 Neb. 479 , 495 N.W.2d 630 (1993),\\ncert. denied\\n510…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Tierney w/15 \"584 N.W.2d 461\"",
+  "total": 8,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2111831,
+    "bluebook": "State v. Kling, 599 N.W.2d 240 (Neb. Ct. App. 1999)",
+    "url": "https://syfert.com/nebraska/cases/8-neb-ct-app-631/state-v-kling",
+    "date_filed": "1999-08-24",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...an inchoate and unparticularized suspicion or “hunch,” but less than the level of suspicion required for probable cause.\nState\nv.\nTierney,\n7 Neb. App. 469 , 584 N.W.2d 461 (1998). The question before this\ncourt is whether Eckerberg had…"
+   },
+   {
+    "cluster_id": 1303845,
+    "bluebook": "State v. Clinton G., 669 N.W.2d 467 (Neb. Ct. App. 2003)",
+    "url": "https://syfert.com/nebraska/cases/12-neb-ct-app-178/state-v-clinton-g",
+    "date_filed": "2003-09-23",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...715 , 601 N.W.2d 554 (1999);\nState\nv.\nTierney,\n7 Neb. App. 469 , 584 N.W.2d 461 (1998);\nState\nv.\nChronister,\n3 Neb. App. 281 , 526 N.W.2d 98 (1995). Further, an officer need not give any warning to a citizen that he or she may freely..."
+   },
+   {
+    "cluster_id": 1253216,
+    "bluebook": "State v. Coleman, 630 N.W.2d 686 (Neb. Ct. App. 2001)",
+    "url": "https://syfert.com/nebraska/cases/10-neb-ct-app-337/state-v-coleman",
+    "date_filed": "2001-07-10",
+    "cited_by": 12,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...an appellate court considers all the evidence at trial, as well as at the hearing on the motion.\nState v. Tierney,\n7 Neb. App. 469 , 584 N.W.2d 461 (1998).\nANALYSIS\nBoth the Fourth Amendment to the U.S. Constitution and article I, § 7,…"
+   },
+   {
+    "cluster_id": 9434226,
+    "bluebook": "State v. Hammond, 996 N.W.2d 270 (Neb. 2023)",
+    "url": "https://syfert.com/nebraska/cases/315-neb-362/state-v-hammond",
+    "date_filed": "2023-10-20",
+    "cited_by": 17,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...343 , 594 N.W.2d 294 (1999); State v. Tierney, 7 Neb. App. 469 ,\n584 N.W.2d 461 (1998); State v. Butzke, 7 Neb. App. 360 , 584 N.W.2d 449\n(1998).\n9\nSee, State v. Howell, 26 Neb. App. 842 , 924 N.W.2d 349 (2019); State v..."
+   },
+   {
+    "cluster_id": 2090741,
+    "bluebook": "State v. Ray, 609 N.W.2d 390 (Neb. Ct. App. 2000)",
+    "url": "https://syfert.com/nebraska/cases/9-neb-ct-app-183/state-v-ray",
+    "date_filed": "2000-04-18",
+    "cited_by": 27,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...753 , 571 N.W.2d 794 (1998);\nState\nv.\nTierney, 7\nNeb. App. 469, 584 N.W.2d 461 (1998). In making this review, the appellate court does not reweigh the evidence or resolve conflicts in the evidence, but, rather, recognizes the trial…"
+   },
+   {
+    "cluster_id": 3565780,
+    "bluebook": "Opinion No. (2000) (Neb. Att'y Gen. 2000)",
+    "url": "https://syfert.com/nebraska/cases/cl-3565780/opinion-no-2000",
+    "date_filed": "2000-03-09",
+    "cited_by": 0,
+    "snippet": "...310 , 570 N.W.2d 344\n(1997); State v. Tierney , 7 Neb. App. 469 , 584 N.W.2d 461 (1998). Where law enforcement officers have reasonable suspicion, they may pursue their investigation either to confirm their suspicion or to dispel the…"
+   },
+   {
+    "cluster_id": 1746393,
+    "bluebook": "State v. McGinnis, 608 N.W.2d 605 (Neb. Ct. App. 2000)",
+    "url": "https://syfert.com/nebraska/cases/8-neb-ct-app-1014/state-v-mcginnis",
+    "date_filed": "2000-02-08",
+    "cited_by": 26,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...unparticularized suspicion or “hunch,” but less than the level of suspicion required for probable cause.\nSoukharith, supra; State\nv.\nTierney,\n7 Neb. App. 469 , 584\nN.W.2d 461 (1998). It is the totality of the circumstances which…"
+   },
+   {
+    "cluster_id": 2000673,
+    "bluebook": "State v. Runge, 601 N.W.2d 554 (Neb. Ct. App. 1999)",
+    "url": "https://syfert.com/nebraska/cases/8-neb-ct-app-715/state-v-runge",
+    "date_filed": "1999-10-05",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...3) a full-blown arrest in which the citizen is typically taken into the custody of the officer.\nState v. Tierney,\n7 Neb. App. 469 , 584 N.W.2d 461 (1998). See\nState\nv.\nVan Ackeren,\n242 Neb. 479 , 495 N.W.2d 630 (1993),\ncert. denied\n510…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

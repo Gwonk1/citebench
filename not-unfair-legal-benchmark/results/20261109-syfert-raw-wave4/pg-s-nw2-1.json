@@ -1,0 +1,174 @@
+{
+ "id": "pg-s-nw2-1",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 860."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"party_mismatch\": 1,\n        \"likely_misprint\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.\",\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"69 N.W.2d 860\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"problem\": \"Likely misprint, not a fabricated case: The page is off by one digit (the third): the citation prints 860, the case is at 861. Selig v. Wunderlich Contracting Company is reported at 69 N.W.2d 861 (same volume 69 of N.W.2d). It was decided 1955-04-22, within the years volume 69 of N.W.2d covers (1955-1955), and the name given names that case. The citation as printed (69 N.W.2d 860) is wrong; cite 69 N.W.2d 861. (The index gives Selig v. Wunderlich Contracting Company first page 861, 1 page after 860 with no other case between: the two may count the first page differently (a headnote page). Check the reporter before changing the citation.)\",\n            \"replace_with\": \"Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)\",\n            \"fix\": {\n                \"from\": \"69 N.W.2d 860\",\n                \"to\": \"69 N.W.2d 861\"\n            },\n            \"suggested\": \"Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)\",\n            \"did_you_mean\": \"Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)\",\n            \"misprint\": {\n                \"printed\": \"69 N.W.2d 860\",\n                \"real\": \"69 N.W.2d 861\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 1230777,\n                \"case_name\": \"Selig v. Wunderlich Contracting Company\",\n                \"bluebook\": \"Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)\",\n                \"cite_as\": \"Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)\",\n                \"date_filed\": \"1955-04-22\",\n                \"url\": \"https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company\",\n                \"link_md\": \"[Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)](https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company)\",\n                \"note\": \"The page is off by one digit (the third): the citation prints 860, the case is at 861. Selig v. Wunderlich Contracting Company is reported at 69 N.W.2d 861 (same volume 69 of N.W.2d). It was decided 1955-04-22, within the years volume 69 of N.W.2d covers (1955-1955), and the name given names that case. The citation as printed (69 N.W.2d 860) is wrong; cite 69 N.W.2d 861. (The index gives Selig v. Wunderlich Contracting Company first page 861, 1 page after 860 with no other case between: the two may count the first page differently (a headnote page). Check the reporter before changing the citation.)\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"case\": {\n                \"cluster_id\": 1230777,\n                \"case_name\": \"Selig v. Wunderlich Contracting Company\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"69 N.W.2d 860\",\n            \"volume\": \"69\",\n            \"reporter\": \"N.W.2d\",\n            \"page\": \"860\",\n            \"pin\": null,\n            \"cluster_id\": 1230928,\n            \"case\": {\n                \"case_name\": \"State v. Renensland\",\n                \"case_name_short\": \"Renensland\",\n                \"date_filed\": \"1955-04-15\",\n                \"court_id\": \"neb\",\n                \"docket_number\": \"33597\",\n                \"citation_count\": 1,\n                \"court_label\": \"Neb.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.226,\n                \"total_events\": 2,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Selig\",\n                \"rhs\": \"Wunderlich Contracting Company\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Selig\",\n                    \"rhs\": \"Wunderlich Contracting Company\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"State v. Renensland\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/nebraska/cases/160-neb-206/state-v-renensland\",\n            \"link_md\": \"[State v. Renensland](https://syfert.com/nebraska/cases/160-neb-206/state-v-renensland)\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"misprint\": {\n                \"printed\": \"69 N.W.2d 860\",\n                \"real\": \"69 N.W.2d 861\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 1230777,\n                \"case_name\": \"Selig v. Wunderlich Contracting Company\",\n                \"bluebook\": \"Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)\",\n                \"cite_as\": \"Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)\",\n                \"date_filed\": \"1955-04-22\",\n                \"url\": \"https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company\",\n                \"link_md\": \"[Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)](https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company)\",\n                \"note\": \"The page is off by one digit (the third): the citation prints 860, the case is at 861. Selig v. Wunderlich Contracting Company is reported at 69 N.W.2d 861 (same volume 69 of N.W.2d). It was decided 1955-04-22, within the years volume 69 of N.W.2d covers (1955-1955), and the name given names that case. The citation as printed (69 N.W.2d 860) is wrong; cite 69 N.W.2d 861. (The index gives Selig v. Wunderlich Contracting Company first page 861, 1 page after 860 with no other case between: the two may count the first page differently (a headnote page). Check the reporter before changing the citation.)\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"suggested_citation\": {\n                \"cluster_id\": 1230777,\n                \"case_name\": \"Selig v. Wunderlich Contracting Company\",\n                \"citation\": \"69 N.W.2d 861\",\n                \"bluebook\": \"Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)\",\n                \"cite_as\": \"Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)\",\n                \"date_filed\": \"1955-04-22\",\n                \"url\": \"https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company\",\n                \"link_md\": \"[Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)](https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company)\"\n            },\n            \"unindexed_advice\": \"Likely misprint: The page is off by one digit (the third): the citation prints 860, the case is at 861. Selig v. Wunderlich Contracting Company is reported at 69 N.W.2d 861 (same volume 69 of N.W.2d). It was decided 1955-04-22, within the years volume 69 of N.W.2d covers (1955-1955), and the name given names that case. The citation as printed (69 N.W.2d 860) is wrong; cite 69 N.W.2d 861. (The index gives Selig v. Wunderlich Contracting Company first page 861, 1 page after 860 with no other case between: the two may count the first page differently (a headnote page). Check the reporter before changing the citation.)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "party_mismatch": 1,
+     "likely_misprint": 1
+    },
+    "warnings": [
+     "1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.",
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "69 N.W.2d 860",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "problem": "Likely misprint, not a fabricated case: The page is off by one digit (the third): the citation prints 860, the case is at 861. Selig v. Wunderlich Contracting Company is reported at 69 N.W.2d 861 (same volume 69 of N.W.2d). It was decided 1955-04-22, within the years volume 69 of N.W.2d covers (1955-1955), and the name given names that case. The citation as printed (69 N.W.2d 860) is wrong; cite 69 N.W.2d 861. (The index gives Selig v. Wunderlich Contracting Company first page 861, 1 page after 860 with no other case between: the two may count the first page differently (a headnote page). Check the reporter before changing the citation.)",
+      "replace_with": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)",
+      "fix": {
+       "from": "69 N.W.2d 860",
+       "to": "69 N.W.2d 861"
+      },
+      "suggested": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)",
+      "did_you_mean": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)",
+      "misprint": {
+       "printed": "69 N.W.2d 860",
+       "real": "69 N.W.2d 861",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 1230777,
+       "case_name": "Selig v. Wunderlich Contracting Company",
+       "bluebook": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)",
+       "cite_as": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)",
+       "date_filed": "1955-04-22",
+       "url": "https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company",
+       "link_md": "[Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)](https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company)",
+       "note": "The page is off by one digit (the third): the citation prints 860, the case is at 861. Selig v. Wunderlich Contracting Company is reported at 69 N.W.2d 861 (same volume 69 of N.W.2d). It was decided 1955-04-22, within the years volume 69 of N.W.2d covers (1955-1955), and the name given names that case. The citation as printed (69 N.W.2d 860) is wrong; cite 69 N.W.2d 861. (The index gives Selig v. Wunderlich Contracting Company first page 861, 1 page after 860 with no other case between: the two may count the first page differently (a headnote page). Check the reporter before changing the citation.)",
+       "via": [
+        "name"
+       ]
+      },
+      "case": {
+       "cluster_id": 1230777,
+       "case_name": "Selig v. Wunderlich Contracting Company"
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "69 N.W.2d 860",
+      "volume": "69",
+      "reporter": "N.W.2d",
+      "page": "860",
+      "pin": null,
+      "cluster_id": 1230928,
+      "case": {
+       "case_name": "State v. Renensland",
+       "case_name_short": "Renensland",
+       "date_filed": "1955-04-15",
+       "court_id": "neb",
+       "docket_number": "33597",
+       "citation_count": 1,
+       "court_label": "Neb."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.226,
+       "total_events": 2,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Selig",
+       "rhs": "Wunderlich Contracting Company"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Selig",
+        "rhs": "Wunderlich Contracting Company"
+       },
+       "verdict": "mismatch",
+       "resolved_name": "State v. Renensland"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/nebraska/cases/160-neb-206/state-v-renensland",
+      "link_md": "[State v. Renensland](https://syfert.com/nebraska/cases/160-neb-206/state-v-renensland)",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "misprint": {
+       "printed": "69 N.W.2d 860",
+       "real": "69 N.W.2d 861",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 1230777,
+       "case_name": "Selig v. Wunderlich Contracting Company",
+       "bluebook": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)",
+       "cite_as": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)",
+       "date_filed": "1955-04-22",
+       "url": "https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company",
+       "link_md": "[Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)](https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company)",
+       "note": "The page is off by one digit (the third): the citation prints 860, the case is at 861. Selig v. Wunderlich Contracting Company is reported at 69 N.W.2d 861 (same volume 69 of N.W.2d). It was decided 1955-04-22, within the years volume 69 of N.W.2d covers (1955-1955), and the name given names that case. The citation as printed (69 N.W.2d 860) is wrong; cite 69 N.W.2d 861. (The index gives Selig v. Wunderlich Contracting Company first page 861, 1 page after 860 with no other case between: the two may count the first page differently (a headnote page). Check the reporter before changing the citation.)",
+       "via": [
+        "name"
+       ]
+      },
+      "suggested_citation": {
+       "cluster_id": 1230777,
+       "case_name": "Selig v. Wunderlich Contracting Company",
+       "citation": "69 N.W.2d 861",
+       "bluebook": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)",
+       "cite_as": "Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)",
+       "date_filed": "1955-04-22",
+       "url": "https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company",
+       "link_md": "[Selig v. Wunderlich Contracting Company, 69 N.W.2d 861 (Neb. 1955)](https://syfert.com/nebraska/cases/160-neb-215/selig-v-wunderlich-contracting-company)"
+      },
+      "unindexed_advice": "Likely misprint: The page is off by one digit (the third): the citation prints 860, the case is at 861. Selig v. Wunderlich Contracting Company is reported at 69 N.W.2d 861 (same volume 69 of N.W.2d). It was decided 1955-04-22, within the years volume 69 of N.W.2d covers (1955-1955), and the name given names that case. The citation as printed (69 N.W.2d 860) is wrong; cite 69 N.W.2d 861. (The index gives Selig v. Wunderlich Contracting Company first page 861, 1 page after 860 with no other case between: the two may count the first page differently (a headnote page). Check the reporter before changing the citation.)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "62 P. 20",
+  "expected_case_name": "Stamper v. Raymond"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"62 P. 20\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6999385,\n            \"case_name\": \"Stamper v. Raymond\",\n            \"citations\": [\n                \"62 P. 20\"\n            ],\n            \"court\": \"Oregon Supreme Court\",\n            \"date_filed\": \"1900-08-13\",\n            \"status\": \"Published\",\n            \"cited_by\": 21,\n            \"url\": \"https://syfert.com/oregon/cases/38-or-16/stamper-v-raymond\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Stamper v. Raymond, 62 P. 20 (Or. 1900)\",\n            \"link_md\": \"[Stamper v. Raymond, 62 P. 20 (Or. 1900)](https://syfert.com/oregon/cases/38-or-16/stamper-v-raymond)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Stamper v. Raymond\",\n        \"actual\": \"Stamper v. Raymond\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "62 P. 20",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6999385,
+    "case_name": "Stamper v. Raymond",
+    "citations": [
+     "62 P. 20"
+    ],
+    "court": "Oregon Supreme Court",
+    "date_filed": "1900-08-13",
+    "status": "Published",
+    "cited_by": 21,
+    "url": "https://syfert.com/oregon/cases/38-or-16/stamper-v-raymond",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stamper v. Raymond, 62 P. 20 (Or. 1900)",
+    "link_md": "[Stamper v. Raymond, 62 P. 20 (Or. 1900)](https://syfert.com/oregon/cases/38-or-16/stamper-v-raymond)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Stamper v. Raymond",
+   "actual": "Stamper v. Raymond",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "115 A. 20",
+  "expected_case_name": "Commonwealth v. Vigliotti"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"115 A. 20\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6386117,\n            \"case_name\": \"Commonwealth v. Vigliotti\",\n            \"citations\": [\n                \"115 A. 20\"\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"1921-05-26\",\n            \"status\": \"Published\",\n            \"cited_by\": 27,\n            \"url\": \"https://syfert.com/pennsylvania/cases/271-pa-10/commonwealth-v-vigliotti\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Commonwealth v. Vigliotti, 115 A. 20 (Pa. 1921)\",\n            \"link_md\": \"[Commonwealth v. Vigliotti, 115 A. 20 (Pa. 1921)](https://syfert.com/pennsylvania/cases/271-pa-10/commonwealth-v-vigliotti)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Commonwealth v. Vigliotti\",\n        \"actual\": \"Commonwealth v. Vigliotti\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "115 A. 20",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6386117,
+    "case_name": "Commonwealth v. Vigliotti",
+    "citations": [
+     "115 A. 20"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1921-05-26",
+    "status": "Published",
+    "cited_by": 27,
+    "url": "https://syfert.com/pennsylvania/cases/271-pa-10/commonwealth-v-vigliotti",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Commonwealth v. Vigliotti, 115 A. 20 (Pa. 1921)",
+    "link_md": "[Commonwealth v. Vigliotti, 115 A. 20 (Pa. 1921)](https://syfert.com/pennsylvania/cases/271-pa-10/commonwealth-v-vigliotti)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Commonwealth v. Vigliotti",
+   "actual": "Commonwealth v. Vigliotti",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

@@ -1,0 +1,432 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "DARREN w/15 \"336 So. 3d 274\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"DARREN w/15 \\\"336 So. 3d 274\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2537369,\"case_name\":\"Darrah v. State\",\"citations\":[\"39 So. 3d 333\",\"2010 WL 3081529\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2010-07-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/39-so-3d-333/darrah-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darrah v. State, 39 So. 3d 333 (Fla. 5th DCA 2010)\",\"link_md\":\"[Darrah v. State, 39 So. 3d 333 (Fla. 5th DCA 2010)](https://syfert.com/florida/cases/39-so-3d-333/darrah-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6339},{\"cluster_id\":5053532,\"case_name\":\"State v. Bradford\",\"citations\":[\"73 So. 3d 381\",\"2011 La. LEXIS 2551\",\"2011 WL 5184200\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2011-10-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/73-so-3d-381/state-v-bradford\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5053532 and its twin 2486189). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Bradford, 73 So. 3d 381 (La. 2011)\",\"link_md\":\"[State v. Bradford, 73 So. 3d 381 (La. 2011)](https://syfert.com/louisiana/cases/73-so-3d-381/state-v-bradford)\",\"match_kind\":\"semantic\",\"similarity\":0.6124,\"twin_clusters\":[2486189]},{\"cluster_id\":1615149,\"case_name\":\"DARAY v. St. Tammany Parish\",\"citations\":[\"23 So. 3d 945\",\"2009 WL 5193946\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2009-12-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/23-so-3d-945/daray-v-st-tammany-parish\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"DARAY v. St. Tammany Par., 23 So. 3d 945 (La. 2009)\",\"link_md\":\"[DARAY v. St. Tammany Par., 23 So. 3d 945 (La. 2009)](https://syfert.com/louisiana/cases/23-so-3d-945/daray-v-st-tammany-parish)\",\"match_kind\":\"semantic\",\"similarity\":0.61},{\"cluster_id\":4121993,\"case_name\":\"Ex parte Town of Darlington\",\"citations\":[\"167 S.E. 412\",\"168 S.C. 242\",\"1933 S.C. LEXIS 11\"],\"court\":\"Supreme Court of South Carolina\",\"date_filed\":\"1933-01-04\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/south-carolina/cases/168-s-c-242/ex-parte-town-of-darlington\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ex parte Town of Darlington, 167 S.E. 412 (S.C. 1933)\",\"link_md\":\"[Ex parte Town of Darlington, 167 S.E. 412 (S.C. 1933)](https://syfert.com/south-carolina/cases/168-s-c-242/ex-parte-town-of-darlington)\",\"match_kind\":\"semantic\",\"similarity\":0.6071},{\"cluster_id\":7793616,\"case_name\":\"State v. Dereyna\",\"citations\":[\"762 So. 2d 1102\",\"2000 La. LEXIS 1497\",\"2000 WL 807664\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2000-05-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/762-so-2d-1102/state-v-dereyna\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7793616 and its twin 1713240). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Dereyna, 762 So. 2d 1102 (La. 2000)\",\"link_md\":\"[State v. Dereyna, 762 So. 2d 1102 (La. 2000)](https://syfert.com/louisiana/cases/762-so-2d-1102/state-v-dereyna)\",\"match_kind\":\"semantic\",\"similarity\":0.5953,\"twin_clusters\":[1713240]},{\"cluster_id\":7847479,\"case_name\":\"State ex rel. Darensbourg v. State\",\"citations\":[\"967 So. 2d 495\",\"2007 La. LEXIS 2521\",\"2007 WL 4118441\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2007-11-09\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/louisiana/cases/967-so-2d-495/state-ex-rel-darensbourg-v-state\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (7847479 and its twin 1846376).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Darensbourg v. State, 967 So. 2d 495 (La. 2007)\",\"link_md\":\"[State ex rel. Darensbourg v. State, 967 So. 2d 495 (La. 2007)](https://syfert.com/louisiana/cases/967-so-2d-495/state-ex-rel-darensbourg-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5944,\"twin_clusters\":[1846376]},{\"cluster_id\":5044515,\"case_name\":\"State ex rel. Darby v. State\",\"citations\":[\"36 So. 3d 239\",\"2010 La. LEXIS 1361\",\"2010 WL 2542033\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2010-05-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/36-so-3d-239/state-ex-rel-darby-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5044515 and its twin 1554606). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Darby v. State, 36 So. 3d 239 (La. 2010)\",\"link_md\":\"[State ex rel. Darby v. State, 36 So. 3d 239 (La. 2010)](https://syfert.com/louisiana/cases/36-so-3d-239/state-ex-rel-darby-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5921,\"twin_clusters\":[1554606]},{\"cluster_id\":8904737,\"case_name\":\"Home Telephone Co. v. Darley\",\"citations\":[\"489 F.2d 1403\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1974-03-06\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/circuits/cases/489-f-2d-1403/home-telephone-co-v-darley\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Home Tel. Co. v. Darley, 489 F.2d 1403 (5th Cir. 1974)\",\"link_md\":\"[Home Tel. Co. v. Darley, 489 F.2d 1403 (5th Cir. 1974)](https://syfert.com/federal/circuits/cases/489-f-2d-1403/home-telephone-co-v-darley)\",\"match_kind\":\"semantic\",\"similarity\":0.5919},{\"cluster_id\":7438134,\"case_name\":\"Damers v. Barker\",\"citations\":[\"152 N.Y.S. 1106\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1915-01-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/152-n-y-s-1106/damers-v-barker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Damers v. Barker, 152 N.Y.S. 1106 (N.Y. App. Div. 1915)\",\"link_md\":\"[Damers v. Barker, 152 N.Y.S. 1106 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/152-n-y-s-1106/damers-v-barker)\",\"match_kind\":\"semantic\",\"similarity\":0.5895},{\"cluster_id\":1562222,\"case_name\":\"Darrell v. State\",\"citations\":[\"16 So. 3d 825\",\"2009 WL 2517179\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-08-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/16-so-3d-825/darrell-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darrell v. State, 16 So. 3d 825 (Fla. 2d DCA 2009)\",\"link_md\":\"[Darrell v. State, 16 So. 3d 825 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/16-so-3d-825/darrell-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5873},{\"cluster_id\":10939050,\"case_name\":\"Taylor Hardy v. DermCare Management, LLC\",\"citations\":[],\"court\":\"S.D. Florida\",\"date_filed\":\"2026-07-15\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10939050/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Hardy, No. 0:26-cv-61953 (S.D. Fla. July 15, 2026)\",\"link_md\":\"[Hardy, No. 0:26-cv-61953 (S.D. Fla. July 15, 2026)](https://syfert.com/federal/district/cases/cl-10939050/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated)\",\"match_kind\":\"semantic\",\"similarity\":0.5856},{\"cluster_id\":5057315,\"case_name\":\"State ex rel. Darensbourg v. State\",\"citations\":[\"85 So. 3d 1270\",\"2012 WL 1513706\",\"2012 La. LEXIS 1167\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2012-04-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/85-so-3d-1270/state-ex-rel-darensbourg-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5057315 and its twin 2549622). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Darensbourg v. State, 85 So. 3d 1270 (La. 2012)\",\"link_md\":\"[State ex rel. Darensbourg v. State, 85 So. 3d 1270 (La. 2012)](https://syfert.com/louisiana/cases/85-so-3d-1270/state-ex-rel-darensbourg-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5856,\"twin_clusters\":[2549622]},{\"cluster_id\":730214,\"case_name\":\"Michael J.H. Brist v. County of Delaward, Borough of Darby\",\"citations\":[\"101 F.3d 689\"],\"court\":\"Third Circuit\",\"date_filed\":\"1996-10-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/101-f-3d-689/michael-jh-brist-v-county-of-delaward-borough-of-d\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Michael J.H. Brist v. Cnty. of Delaward, 101 F.3d 689 (3d Cir. 1996)\",\"link_md\":\"[Michael J.H. Brist v. Cnty. of Delaward, 101 F.3d 689 (3d Cir. 1996)](https://syfert.com/federal/circuits/cases/101-f-3d-689/michael-jh-brist-v-county-of-delaward-borough-of-d)\",\"match_kind\":\"semantic\",\"similarity\":0.5851},{\"cluster_id\":10952760,\"case_name\":\"Taylor Hardy v. DermCare Management, LLC\",\"citations\":[],\"court\":\"E.D. California\",\"date_filed\":\"2026-07-15\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10952760/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Hardy, No. 2:26-cv-02317 (E.D. Cal. July 15, 2026)\",\"link_md\":\"[Hardy, No. 2:26-cv-02317 (E.D. Cal. July 15, 2026)](https://syfert.com/federal/district/cases/cl-10952760/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated)\",\"match_kind\":\"semantic\",\"similarity\":0.5843},{\"cluster_id\":2543782,\"case_name\":\"Darby v. State\",\"citations\":[\"53 So. 3d 1034\",\"2011 WL 222452\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2011-01-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/53-so-3d-1034/darby-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darby v. State, 53 So. 3d 1034 (Fla. 2d DCA 2011)\",\"link_md\":\"[Darby v. State, 53 So. 3d 1034 (Fla. 2d DCA 2011)](https://syfert.com/florida/cases/53-so-3d-1034/darby-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5842},{\"cluster_id\":7814002,\"case_name\":\"State v. Harris\",\"citations\":[\"831 So. 2d 982\",\"2002 La. LEXIS 3700\",\"2002 WL 31856499\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2002-12-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/831-so-2d-982/state-v-harris\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7814002 and its twin 1811500). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Harris, 831 So. 2d 982 (La. 2002)\",\"link_md\":\"[State v. Harris, 831 So. 2d 982 (La. 2002)](https://syfert.com/louisiana/cases/831-so-2d-982/state-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.584,\"twin_clusters\":[1811500]},{\"cluster_id\":762679,\"case_name\":\"Darryl Byrd v. Timothy J. Lucas, Esq\",\"citations\":[\"172 F.3d 40\",\"1998 U.S. App. LEXIS 31123\",\"1998 WL 961256\"],\"court\":\"Third Circuit\",\"date_filed\":\"1998-11-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/172-f-3d-40/darryl-byrd-v-timothy-j-lucas-esq\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darryl Byrd v. Timothy J. Lucas, 172 F.3d 40 (3d Cir. 1998)\",\"link_md\":\"[Darryl Byrd v. Timothy J. Lucas, 172 F.3d 40 (3d Cir. 1998)](https://syfert.com/federal/circuits/cases/172-f-3d-40/darryl-byrd-v-timothy-j-lucas-esq)\",\"match_kind\":\"semantic\",\"similarity\":0.5829},{\"cluster_id\":2550034,\"case_name\":\"Dahari v. Dahari\",\"citations\":[\"84 So. 3d 323\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2012-02-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/84-so-3d-323/dahari-v-dahari\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dahari v. Dahari, 84 So. 3d 323 (Fla. 3d DCA 2012)\",\"link_md\":\"[Dahari v. Dahari, 84 So. 3d 323 (Fla. 3d DCA 2012)](https://syfert.com/florida/cases/84-so-3d-323/dahari-v-dahari)\",\"match_kind\":\"semantic\",\"similarity\":0.5826},{\"cluster_id\":6645391,\"case_name\":\"J. T. Camp Transfer & Warehouse Co. v. Bonham\",\"citations\":[\"64 So. 649\",\"10 Ala. App. 258\",\"1914 Ala. App. LEXIS 189\"],\"court\":\"Alabama Court of Appeals\",\"date_filed\":\"1914-02-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/alabama/cases/10-ala-app-258/j-t-camp-transfer-warehouse-co-v-bonham\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"J. T. Camp Transfer & Warehouse Co. v. Bonham, 64 So. 649 (Ala. Ct. App. 1914)\",\"link_md\":\"[J. T. Camp Transfer & Warehouse Co. v. Bonham, 64 So. 649 (Ala. Ct. App. 1914)](https://syfert.com/alabama/cases/10-ala-app-258/j-t-camp-transfer-warehouse-co-v-bonham)\",\"match_kind\":\"semantic\",\"similarity\":0.5806},{\"cluster_id\":7842528,\"case_name\":\"Darty v. Transocean Offshore USA, Inc.\",\"citations\":[\"942 So. 2d 525\",\"2006 La. LEXIS 3231\",\"2006 WL 3531689\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2006-11-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/942-so-2d-525/darty-v-transocean-offshore-usa-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7842528 and its twin 1857568). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darty v. Transocean Offshore USA, Inc., 942 So. 2d 525 (La. 2006)\",\"link_md\":\"[Darty v. Transocean Offshore USA, Inc., 942 So. 2d 525 (La. 2006)](https://syfert.com/louisiana/cases/942-so-2d-525/darty-v-transocean-offshore-usa-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.58,\"twin_clusters\":[1857568]}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "DARREN w/15 \"336 So. 3d 274\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2537369,
+    "case_name": "Darrah v. State",
+    "citations": [
+     "39 So. 3d 333",
+     "2010 WL 3081529"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2010-07-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/39-so-3d-333/darrah-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Darrah v. State, 39 So. 3d 333 (Fla. 5th DCA 2010)",
+    "link_md": "[Darrah v. State, 39 So. 3d 333 (Fla. 5th DCA 2010)](https://syfert.com/florida/cases/39-so-3d-333/darrah-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6339
+   },
+   {
+    "cluster_id": 5053532,
+    "case_name": "State v. Bradford",
+    "citations": [
+     "73 So. 3d 381",
+     "2011 La. LEXIS 2551",
+     "2011 WL 5184200"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2011-10-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/73-so-3d-381/state-v-bradford",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5053532 and its twin 2486189). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Bradford, 73 So. 3d 381 (La. 2011)",
+    "link_md": "[State v. Bradford, 73 So. 3d 381 (La. 2011)](https://syfert.com/louisiana/cases/73-so-3d-381/state-v-bradford)",
+    "match_kind": "semantic",
+    "similarity": 0.6124,
+    "twin_clusters": [
+     2486189
+    ]
+   },
+   {
+    "cluster_id": 1615149,
+    "case_name": "DARAY v. St. Tammany Parish",
+    "citations": [
+     "23 So. 3d 945",
+     "2009 WL 5193946"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2009-12-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/23-so-3d-945/daray-v-st-tammany-parish",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "DARAY v. St. Tammany Par., 23 So. 3d 945 (La. 2009)",
+    "link_md": "[DARAY v. St. Tammany Par., 23 So. 3d 945 (La. 2009)](https://syfert.com/louisiana/cases/23-so-3d-945/daray-v-st-tammany-parish)",
+    "match_kind": "semantic",
+    "similarity": 0.61
+   },
+   {
+    "cluster_id": 4121993,
+    "case_name": "Ex parte Town of Darlington",
+    "citations": [
+     "167 S.E. 412",
+     "168 S.C. 242",
+     "1933 S.C. LEXIS 11"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1933-01-04",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/south-carolina/cases/168-s-c-242/ex-parte-town-of-darlington",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ex parte Town of Darlington, 167 S.E. 412 (S.C. 1933)",
+    "link_md": "[Ex parte Town of Darlington, 167 S.E. 412 (S.C. 1933)](https://syfert.com/south-carolina/cases/168-s-c-242/ex-parte-town-of-darlington)",
+    "match_kind": "semantic",
+    "similarity": 0.6071
+   },
+   {
+    "cluster_id": 7793616,
+    "case_name": "State v. Dereyna",
+    "citations": [
+     "762 So. 2d 1102",
+     "2000 La. LEXIS 1497",
+     "2000 WL 807664"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2000-05-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/762-so-2d-1102/state-v-dereyna",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7793616 and its twin 1713240). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Dereyna, 762 So. 2d 1102 (La. 2000)",
+    "link_md": "[State v. Dereyna, 762 So. 2d 1102 (La. 2000)](https://syfert.com/louisiana/cases/762-so-2d-1102/state-v-dereyna)",
+    "match_kind": "semantic",
+    "similarity": 0.5953,
+    "twin_clusters": [
+     1713240
+    ]
+   },
+   {
+    "cluster_id": 7847479,
+    "case_name": "State ex rel. Darensbourg v. State",
+    "citations": [
+     "967 So. 2d 495",
+     "2007 La. LEXIS 2521",
+     "2007 WL 4118441"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2007-11-09",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/louisiana/cases/967-so-2d-495/state-ex-rel-darensbourg-v-state",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (7847479 and its twin 1846376).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Darensbourg v. State, 967 So. 2d 495 (La. 2007)",
+    "link_md": "[State ex rel. Darensbourg v. State, 967 So. 2d 495 (La. 2007)](https://syfert.com/louisiana/cases/967-so-2d-495/state-ex-rel-darensbourg-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5944,
+    "twin_clusters": [
+     1846376
+    ]
+   },
+   {
+    "cluster_id": 5044515,
+    "case_name": "State ex rel. Darby v. State",
+    "citations": [
+     "36 So. 3d 239",
+     "2010 La. LEXIS 1361",
+     "2010 WL 2542033"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2010-05-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/36-so-3d-239/state-ex-rel-darby-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5044515 and its twin 1554606). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Darby v. State, 36 So. 3d 239 (La. 2010)",
+    "link_md": "[State ex rel. Darby v. State, 36 So. 3d 239 (La. 2010)](https://syfert.com/louisiana/cases/36-so-3d-239/state-ex-rel-darby-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5921,
+    "twin_clusters": [
+     1554606
+    ]
+   },
+   {
+    "cluster_id": 8904737,
+    "case_name": "Home Telephone Co. v. Darley",
+    "citations": [
+     "489 F.2d 1403"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1974-03-06",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/circuits/cases/489-f-2d-1403/home-telephone-co-v-darley",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Home Tel. Co. v. Darley, 489 F.2d 1403 (5th Cir. 1974)",
+    "link_md": "[Home Tel. Co. v. Darley, 489 F.2d 1403 (5th Cir. 1974)](https://syfert.com/federal/circuits/cases/489-f-2d-1403/home-telephone-co-v-darley)",
+    "match_kind": "semantic",
+    "similarity": 0.5919
+   },
+   {
+    "cluster_id": 7438134,
+    "case_name": "Damers v. Barker",
+    "citations": [
+     "152 N.Y.S. 1106"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1915-01-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/152-n-y-s-1106/damers-v-barker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Damers v. Barker, 152 N.Y.S. 1106 (N.Y. App. Div. 1915)",
+    "link_md": "[Damers v. Barker, 152 N.Y.S. 1106 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/152-n-y-s-1106/damers-v-barker)",
+    "match_kind": "semantic",
+    "similarity": 0.5895
+   },
+   {
+    "cluster_id": 1562222,
+    "case_name": "Darrell v. State",
+    "citations": [
+     "16 So. 3d 825",
+     "2009 WL 2517179"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-08-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/16-so-3d-825/darrell-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Darrell v. State, 16 So. 3d 825 (Fla. 2d DCA 2009)",
+    "link_md": "[Darrell v. State, 16 So. 3d 825 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/16-so-3d-825/darrell-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5873
+   },
+   {
+    "cluster_id": 10939050,
+    "case_name": "Taylor Hardy v. DermCare Management, LLC",
+    "citations": [],
+    "court": "S.D. Florida",
+    "date_filed": "2026-07-15",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10939050/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Hardy, No. 0:26-cv-61953 (S.D. Fla. July 15, 2026)",
+    "link_md": "[Hardy, No. 0:26-cv-61953 (S.D. Fla. July 15, 2026)](https://syfert.com/federal/district/cases/cl-10939050/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated)",
+    "match_kind": "semantic",
+    "similarity": 0.5856
+   },
+   {
+    "cluster_id": 5057315,
+    "case_name": "State ex rel. Darensbourg v. State",
+    "citations": [
+     "85 So. 3d 1270",
+     "2012 WL 1513706",
+     "2012 La. LEXIS 1167"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2012-04-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/85-so-3d-1270/state-ex-rel-darensbourg-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5057315 and its twin 2549622). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Darensbourg v. State, 85 So. 3d 1270 (La. 2012)",
+    "link_md": "[State ex rel. Darensbourg v. State, 85 So. 3d 1270 (La. 2012)](https://syfert.com/louisiana/cases/85-so-3d-1270/state-ex-rel-darensbourg-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5856,
+    "twin_clusters": [
+     2549622
+    ]
+   },
+   {
+    "cluster_id": 730214,
+    "case_name": "Michael J.H. Brist v. County of Delaward, Borough of Darby",
+    "citations": [
+     "101 F.3d 689"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1996-10-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/101-f-3d-689/michael-jh-brist-v-county-of-delaward-borough-of-d",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Michael J.H. Brist v. Cnty. of Delaward, 101 F.3d 689 (3d Cir. 1996)",
+    "link_md": "[Michael J.H. Brist v. Cnty. of Delaward, 101 F.3d 689 (3d Cir. 1996)](https://syfert.com/federal/circuits/cases/101-f-3d-689/michael-jh-brist-v-county-of-delaward-borough-of-d)",
+    "match_kind": "semantic",
+    "similarity": 0.5851
+   },
+   {
+    "cluster_id": 10952760,
+    "case_name": "Taylor Hardy v. DermCare Management, LLC",
+    "citations": [],
+    "court": "E.D. California",
+    "date_filed": "2026-07-15",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10952760/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Hardy, No. 2:26-cv-02317 (E.D. Cal. July 15, 2026)",
+    "link_md": "[Hardy, No. 2:26-cv-02317 (E.D. Cal. July 15, 2026)](https://syfert.com/federal/district/cases/cl-10952760/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated)",
+    "match_kind": "semantic",
+    "similarity": 0.5843
+   },
+   {
+    "cluster_id": 2543782,
+    "case_name": "Darby v. State",
+    "citations": [
+     "53 So. 3d 1034",
+     "2011 WL 222452"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2011-01-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/53-so-3d-1034/darby-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Darby v. State, 53 So. 3d 1034 (Fla. 2d DCA 2011)",
+    "link_md": "[Darby v. State, 53 So. 3d 1034 (Fla. 2d DCA 2011)](https://syfert.com/florida/cases/53-so-3d-1034/darby-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5842
+   },
+   {
+    "cluster_id": 7814002,
+    "case_name": "State v. Harris",
+    "citations": [
+     "831 So. 2d 982",
+     "2002 La. LEXIS 3700",
+     "2002 WL 31856499"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2002-12-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/831-so-2d-982/state-v-harris",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7814002 and its twin 1811500). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Harris, 831 So. 2d 982 (La. 2002)",
+    "link_md": "[State v. Harris, 831 So. 2d 982 (La. 2002)](https://syfert.com/louisiana/cases/831-so-2d-982/state-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.584,
+    "twin_clusters": [
+     1811500
+    ]
+   },
+   {
+    "cluster_id": 762679,
+    "case_name": "Darryl Byrd v. Timothy J. Lucas, Esq",
+    "citations": [
+     "172 F.3d 40",
+     "1998 U.S. App. LEXIS 31123",
+     "1998 WL 961256"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1998-11-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/172-f-3d-40/darryl-byrd-v-timothy-j-lucas-esq",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Darryl Byrd v. Timothy J. Lucas, 172 F.3d 40 (3d Cir. 1998)",
+    "link_md": "[Darryl Byrd v. Timothy J. Lucas, 172 F.3d 40 (3d Cir. 1998)](https://syfert.com/federal/circuits/cases/172-f-3d-40/darryl-byrd-v-timothy-j-lucas-esq)",
+    "match_kind": "semantic",
+    "similarity": 0.5829
+   },
+   {
+    "cluster_id": 2550034,
+    "case_name": "Dahari v. Dahari",
+    "citations": [
+     "84 So. 3d 323"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2012-02-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/84-so-3d-323/dahari-v-dahari",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dahari v. Dahari, 84 So. 3d 323 (Fla. 3d DCA 2012)",
+    "link_md": "[Dahari v. Dahari, 84 So. 3d 323 (Fla. 3d DCA 2012)](https://syfert.com/florida/cases/84-so-3d-323/dahari-v-dahari)",
+    "match_kind": "semantic",
+    "similarity": 0.5826
+   },
+   {
+    "cluster_id": 6645391,
+    "case_name": "J. T. Camp Transfer & Warehouse Co. v. Bonham",
+    "citations": [
+     "64 So. 649",
+     "10 Ala. App. 258",
+     "1914 Ala. App. LEXIS 189"
+    ],
+    "court": "Alabama Court of Appeals",
+    "date_filed": "1914-02-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/alabama/cases/10-ala-app-258/j-t-camp-transfer-warehouse-co-v-bonham",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "J. T. Camp Transfer & Warehouse Co. v. Bonham, 64 So. 649 (Ala. Ct. App. 1914)",
+    "link_md": "[J. T. Camp Transfer & Warehouse Co. v. Bonham, 64 So. 649 (Ala. Ct. App. 1914)](https://syfert.com/alabama/cases/10-ala-app-258/j-t-camp-transfer-warehouse-co-v-bonham)",
+    "match_kind": "semantic",
+    "similarity": 0.5806
+   },
+   {
+    "cluster_id": 7842528,
+    "case_name": "Darty v. Transocean Offshore USA, Inc.",
+    "citations": [
+     "942 So. 2d 525",
+     "2006 La. LEXIS 3231",
+     "2006 WL 3531689"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2006-11-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/942-so-2d-525/darty-v-transocean-offshore-usa-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7842528 and its twin 1857568). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Darty v. Transocean Offshore USA, Inc., 942 So. 2d 525 (La. 2006)",
+    "link_md": "[Darty v. Transocean Offshore USA, Inc., 942 So. 2d 525 (La. 2006)](https://syfert.com/louisiana/cases/942-so-2d-525/darty-v-transocean-offshore-usa-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.58,
+    "twin_clusters": [
+     1857568
+    ]
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

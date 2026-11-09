@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Cusumano w/15 \"181 N.J. 544\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Cusumano w/15 \\\"181 N.J. 544\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1476365,\"bluebook\":\"State v. Cusumano, 859 A.2d 691 (N.J. 2004)\",\"url\":\"https://syfert.com/new-jersey/cases/181-n-j-546/state-v-cusumano\",\"date_filed\":\"2004-09-10\",\"cited_by\":7,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"859 A.2d 691 (2004)\\n181 N.J. 544\\nSTATE v. CUSUMANO\\nSupreme Court of New Jersey.\\nSeptember 10, 2004.\\nPetition for certification denied.\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Cusumano w/15 \"181 N.J. 544\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1476365,
+    "bluebook": "State v. Cusumano, 859 A.2d 691 (N.J. 2004)",
+    "url": "https://syfert.com/new-jersey/cases/181-n-j-546/state-v-cusumano",
+    "date_filed": "2004-09-10",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "859 A.2d 691 (2004)\n181 N.J. 544\nSTATE v. CUSUMANO\nSupreme Court of New Jersey.\nSeptember 10, 2004.\nPetition for certification denied."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

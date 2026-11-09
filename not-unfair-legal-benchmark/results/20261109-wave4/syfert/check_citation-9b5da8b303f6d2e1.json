@@ -1,0 +1,118 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "506 P.3d 323",
+  "expected_case_name": "First 100, Llc v. Tgc/Farkas Funding, Llc"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"506 P.3d 323\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6452410,\n            \"case_name\": \"First 100, Llc v. Tgc/Farkas Funding, Llc\",\n            \"citations\": [\n                \"506 P.3d 323\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"506 P.3d 319\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6452401,\n                        \"case_name\": \"Rose v. Rose\"\n                    }\n                }\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-03-17\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/506-p-3d-323/first-100-llc-v-tgcfarkas-funding-llc\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"506 P.3d 319\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/506%20P.3d\"\n                },\n                {\n                    \"citation\": \"506 P.3d 323\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/506%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"First 100, LLC v. Tgc/Farkas Funding, LLC, 506 P.3d 323 (Nev. 2022)\",\n            \"link_md\": \"[First 100, LLC v. Tgc/Farkas Funding, LLC, 506 P.3d 323 (Nev. 2022)](https://syfert.com/nevada/cases/506-p-3d-323/first-100-llc-v-tgcfarkas-funding-llc)\"\n        },\n        {\n            \"cluster_id\": 6452411,\n            \"case_name\": \"First 100, Llc v. Tgc/Farkas Funding, Llc\",\n            \"citations\": [\n                \"506 P.3d 323\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"506 P.3d 319\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6452401,\n                        \"case_name\": \"Rose v. Rose\"\n                    }\n                }\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-03-17\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/506-p-3d-319/first-100-llc-v-tgcfarkas-funding-llc\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"506 P.3d 319\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/506%20P.3d\"\n                },\n                {\n                    \"citation\": \"506 P.3d 323\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/506%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"First 100, LLC v. Tgc/Farkas Funding, LLC, 506 P.3d 323 (Nev. 2022)\",\n            \"link_md\": \"[First 100, LLC v. Tgc/Farkas Funding, LLC, 506 P.3d 323 (Nev. 2022)](https://syfert.com/nevada/cases/506-p-3d-319/first-100-llc-v-tgcfarkas-funding-llc)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"First 100, Llc v. Tgc/Farkas Funding, Llc\",\n        \"actual\": \"First 100, Llc v. Tgc/Farkas Funding, Llc\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "506 P.3d 323",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6452410,
+    "case_name": "First 100, Llc v. Tgc/Farkas Funding, Llc",
+    "citations": [
+     "506 P.3d 323"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "506 P.3d 319",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6452401,
+       "case_name": "Rose v. Rose"
+      }
+     }
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-03-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/506-p-3d-323/first-100-llc-v-tgcfarkas-funding-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "506 P.3d 319",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/506%20P.3d"
+     },
+     {
+      "citation": "506 P.3d 323",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/506%20P.3d"
+     }
+    ],
+    "bluebook": "First 100, LLC v. Tgc/Farkas Funding, LLC, 506 P.3d 323 (Nev. 2022)",
+    "link_md": "[First 100, LLC v. Tgc/Farkas Funding, LLC, 506 P.3d 323 (Nev. 2022)](https://syfert.com/nevada/cases/506-p-3d-323/first-100-llc-v-tgcfarkas-funding-llc)"
+   },
+   {
+    "cluster_id": 6452411,
+    "case_name": "First 100, Llc v. Tgc/Farkas Funding, Llc",
+    "citations": [
+     "506 P.3d 323"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "506 P.3d 319",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6452401,
+       "case_name": "Rose v. Rose"
+      }
+     }
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-03-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/506-p-3d-319/first-100-llc-v-tgcfarkas-funding-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "506 P.3d 319",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/506%20P.3d"
+     },
+     {
+      "citation": "506 P.3d 323",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/506%20P.3d"
+     }
+    ],
+    "bluebook": "First 100, LLC v. Tgc/Farkas Funding, LLC, 506 P.3d 323 (Nev. 2022)",
+    "link_md": "[First 100, LLC v. Tgc/Farkas Funding, LLC, 506 P.3d 323 (Nev. 2022)](https://syfert.com/nevada/cases/506-p-3d-319/first-100-llc-v-tgcfarkas-funding-llc)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "First 100, Llc v. Tgc/Farkas Funding, Llc",
+   "actual": "First 100, Llc v. Tgc/Farkas Funding, Llc",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

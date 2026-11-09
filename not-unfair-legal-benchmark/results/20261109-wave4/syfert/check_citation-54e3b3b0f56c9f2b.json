@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "113 S.W.2d 432",
+  "expected_case_name": "Dorman v. Baumlisberger"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"113 S.W.2d 432\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3456584,\n            \"case_name\": \"Dorman v. Baumlisberger\",\n            \"citations\": [\n                \"113 S.W.2d 432\"\n            ],\n            \"court\": \"Court of Appeals of Kentucky (pre-1976)\",\n            \"date_filed\": \"1938-02-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 10,\n            \"url\": \"https://syfert.com/kentucky/cases/271-ky-806/dorman-v-baumlisberger\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Dorman v. Baumlisberger, 113 S.W.2d 432 (Ky. Ct. App. 1938)\",\n            \"link_md\": \"[Dorman v. Baumlisberger, 113 S.W.2d 432 (Ky. Ct. App. 1938)](https://syfert.com/kentucky/cases/271-ky-806/dorman-v-baumlisberger)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Dorman v. Baumlisberger\",\n        \"actual\": \"Dorman v. Baumlisberger\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "113 S.W.2d 432",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3456584,
+    "case_name": "Dorman v. Baumlisberger",
+    "citations": [
+     "113 S.W.2d 432"
+    ],
+    "court": "Court of Appeals of Kentucky (pre-1976)",
+    "date_filed": "1938-02-01",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/kentucky/cases/271-ky-806/dorman-v-baumlisberger",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dorman v. Baumlisberger, 113 S.W.2d 432 (Ky. Ct. App. 1938)",
+    "link_md": "[Dorman v. Baumlisberger, 113 S.W.2d 432 (Ky. Ct. App. 1938)](https://syfert.com/kentucky/cases/271-ky-806/dorman-v-baumlisberger)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Dorman v. Baumlisberger",
+   "actual": "Dorman v. Baumlisberger",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

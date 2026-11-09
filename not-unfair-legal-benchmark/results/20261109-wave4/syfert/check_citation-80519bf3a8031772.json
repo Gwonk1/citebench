@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "67 P.2d 33",
+  "expected_case_name": "Alexander v. Alexander"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"67 P.2d 33\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4045154,\n            \"case_name\": \"Alexander v. Alexander\",\n            \"citations\": [\n                \"67 P.2d 33\"\n            ],\n            \"court\": \"Supreme Court of Oklahoma\",\n            \"date_filed\": \"1937-01-26\",\n            \"status\": \"Published\",\n            \"cited_by\": 19,\n            \"url\": \"https://syfert.com/oklahoma/cases/179-okla-614/alexander-v-alexander\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Alexander v. Alexander, 67 P.2d 33 (Okla. 1937)\",\n            \"link_md\": \"[Alexander v. Alexander, 67 P.2d 33 (Okla. 1937)](https://syfert.com/oklahoma/cases/179-okla-614/alexander-v-alexander)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Alexander v. Alexander\",\n        \"actual\": \"Alexander v. Alexander\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "67 P.2d 33",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4045154,
+    "case_name": "Alexander v. Alexander",
+    "citations": [
+     "67 P.2d 33"
+    ],
+    "court": "Supreme Court of Oklahoma",
+    "date_filed": "1937-01-26",
+    "status": "Published",
+    "cited_by": 19,
+    "url": "https://syfert.com/oklahoma/cases/179-okla-614/alexander-v-alexander",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Alexander v. Alexander, 67 P.2d 33 (Okla. 1937)",
+    "link_md": "[Alexander v. Alexander, 67 P.2d 33 (Okla. 1937)](https://syfert.com/oklahoma/cases/179-okla-614/alexander-v-alexander)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Alexander v. Alexander",
+   "actual": "Alexander v. Alexander",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

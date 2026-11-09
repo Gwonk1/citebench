@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "853 N.Y.S.2d 312",
+  "expected_case_name": "Pinder v. City of New York"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"853 N.Y.S.2d 312\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5889133,\n            \"case_name\": \"Pinder v. City of New York\",\n            \"citations\": [\n                \"853 N.Y.S.2d 312\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2008-03-04\",\n            \"status\": \"Published\",\n            \"cited_by\": 15,\n            \"url\": \"https://syfert.com/new-york/cases/49-a-d-3d-280/pinder-v-city-of-new-york\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Pinder v. City of New York, 853 N.Y.S.2d 312 (N.Y. App. Div. 1st Dep't 2008)\",\n            \"link_md\": \"[Pinder v. City of New York, 853 N.Y.S.2d 312 (N.Y. App. Div. 1st Dep't 2008)](https://syfert.com/new-york/cases/49-a-d-3d-280/pinder-v-city-of-new-york)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 8,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Pinder v. City of New York\",\n        \"actual\": \"Pinder v. City of New York\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "853 N.Y.S.2d 312",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5889133,
+    "case_name": "Pinder v. City of New York",
+    "citations": [
+     "853 N.Y.S.2d 312"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2008-03-04",
+    "status": "Published",
+    "cited_by": 15,
+    "url": "https://syfert.com/new-york/cases/49-a-d-3d-280/pinder-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pinder v. City of New York, 853 N.Y.S.2d 312 (N.Y. App. Div. 1st Dep't 2008)",
+    "link_md": "[Pinder v. City of New York, 853 N.Y.S.2d 312 (N.Y. App. Div. 1st Dep't 2008)](https://syfert.com/new-york/cases/49-a-d-3d-280/pinder-v-city-of-new-york)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 8,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Pinder v. City of New York",
+   "actual": "Pinder v. City of New York",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

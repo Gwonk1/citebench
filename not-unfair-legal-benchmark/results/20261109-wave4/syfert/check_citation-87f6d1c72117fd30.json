@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "552 N.Y.S.2d 110",
+  "expected_case_name": "Wechsler v. People"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"552 N.Y.S.2d 110\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5690018,\n            \"case_name\": \"Wechsler v. People\",\n            \"citations\": [\n                \"552 N.Y.S.2d 110\"\n            ],\n            \"court\": \"New York Court of Appeals\",\n            \"date_filed\": \"1990-01-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 38,\n            \"url\": \"https://syfert.com/new-york/cases/75-n-y-2d-808/wechsler-v-people\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Wechsler v. People, 552 N.Y.S.2d 110 (N.Y. 1990)\",\n            \"link_md\": \"[Wechsler v. People, 552 N.Y.S.2d 110 (N.Y. 1990)](https://syfert.com/new-york/cases/75-n-y-2d-808/wechsler-v-people)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Wechsler v. People\",\n        \"actual\": \"Wechsler v. People\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "552 N.Y.S.2d 110",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5690018,
+    "case_name": "Wechsler v. People",
+    "citations": [
+     "552 N.Y.S.2d 110"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1990-01-18",
+    "status": "Published",
+    "cited_by": 38,
+    "url": "https://syfert.com/new-york/cases/75-n-y-2d-808/wechsler-v-people",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wechsler v. People, 552 N.Y.S.2d 110 (N.Y. 1990)",
+    "link_md": "[Wechsler v. People, 552 N.Y.S.2d 110 (N.Y. 1990)](https://syfert.com/new-york/cases/75-n-y-2d-808/wechsler-v-people)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Wechsler v. People",
+   "actual": "Wechsler v. People",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

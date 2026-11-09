@@ -1,0 +1,93 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Kaminsky w/15 \"870 N.Y.S.2d 1\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Kaminsky w/15 \\\"870 N.Y.S.2d 1\\\"\",\"total\":7,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2147851,\"bluebook\":\"KURUWA v. Meyers, 823 F. Supp. 2d 253 (S.D.N.Y. 2011)\",\"url\":\"https://syfert.com/federal/district/cases/823-f-supp-2d-253/kuruwa-v-meyers\",\"date_filed\":\"2011-10-24\",\"cited_by\":13,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Meyers is correct on this point,\\nsee, e.g., Kaminsky v. Herrick, Feinstein LLP,\\n59 A.D.3d 1, 13 , 870 N.Y.S.2d 1 (1st Dep’t 2008), and the Court concurs that the complaint could not be construed as meeting this standard.\\nIn any event,…\"},{\"cluster_id\":810829,\"bluebook\":\"Solin v. Domino, 501 F. App'x 19 (2d Cir. 2012)\",\"url\":\"https://syfert.com/federal/circuits/cases/501-f-appx-19/solin-v-domino\",\"date_filed\":\"2012-10-25\",\"cited_by\":0,\"status\":\"Unpublished\",\"snippet\":\"...An action for professional malpractice requires proof of damages actually and proximately caused by the malpractice.\\nKaminsky v. Herrick, Feinstein LLP,\\n59 A.D.3d 1, 9 , 870 N.Y.S.2d 1 , 5-6 .(1st Dep’t 2008). Here, Solin’s claim for…\"},{\"cluster_id\":9859383,\"bluebook\":\"Stinson v. Houslanger & Assocs. PLLC, No. 1:18-cv-11350, 2020 WL 5569582 (S.D.N.Y. Sept. 17, 2020)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9859383/stinson-v-houslanger-associates-pllc\",\"date_filed\":\"2020-09-17\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...2011) (citing Kaminsky v. Herrick,\\nFeinstein LLP, 870 N.Y.S.2d 1, 10 (N.Y. App. Div. 2008); see also Aurora Loan Services, Inc. v.\\nPosner, Posner & Associates, P.C., 513 F.Supp.2d 18 , 21–22 (S.D.N.Y. 2007) (“[A] chronic,\\nextreme…\"},{\"cluster_id\":9866303,\"bluebook\":\"Cottam v. Global Emerging Capital Grp., LLC, No. 1:16-cv-04584 (S.D.N.Y. Mar. 31, 2021)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9866303/cottam-v-global-emerging-capital-group-llc\",\"date_filed\":\"2021-03-31\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...2002) (alteration omitted); accord Kaminsky v. Herrick, Feinstein LLP, 870 N.Y.S. 2d 1, 9\\n(1st Dep’t 2008). The value of restricted stock should be discounted to reflect the restrictions on\\nits sale. See Simon v. Electrospace Corp., 269…\"},{\"cluster_id\":2169309,\"bluebook\":\"Amusement Indus., Inc. v. Stern, 786 F. Supp. 2d 741 (S.D.N.Y. 2011)\",\"url\":\"https://syfert.com/federal/district/cases/786-f-supp-2d-741/amusement-industry-inc-v-stern\",\"date_filed\":\"2011-03-11\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Griffin,\\n71 A.D.3d 1112, 1114 , 898 N.Y.S.2d 590 (2d Dep’t 2010) (negligence);\\nKaminsky v. Herrick, Feinstein LLP,\\n59 A.D.3d 1, 7 , 870 N.Y.S.2d 1 (1st Dep’t 2008) (attorney malpractice). But neither Safrin nor Egert allege that they…\"},{\"cluster_id\":9851694,\"bluebook\":\"Ray v. Balestriere Fariello, No. 1:18-cv-11211 (S.D.N.Y. Oct. 16, 2019)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9851694/ray-v-balestriere-fariello\",\"date_filed\":\"2019-10-16\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...2013) (summary order) (citing Kaminsky v. Herrick, Feinstein LLP, 870\\nN.Y.S.2d 1, 8 (1st Dep’t 2008)); Savitt v. Greenberg Traurig, LLP, 5 N.Y.S.3d\\n415, 416 (1st Dep’t 2015) (dismissing JL § 487 claim since “the complaint fails\\n5…\"},{\"cluster_id\":9867948,\"bluebook\":\"Ray v. Balestriere Fariello, No. 1:18-cv-11211 (S.D.N.Y. Aug. 26, 2021)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9867948/ray-v-balestriere-fariello\",\"date_filed\":\"2021-08-26\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...2011) (citing Kaminsky v. Herrick, Feinstein LLP, 870 N.Y.S.2d 1, 8\\n(1st Dep’t 2008)), aff’d, 512 F. App’x 45 (2d Cir. 2013) (summary order); Savitt\\nv. Greenberg Traurig, LLP, 5 N.Y.S.3d 415, 416 (1st Dep’t 2015) (dismissing\\nclaim since…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Kaminsky w/15 \"870 N.Y.S.2d 1\"",
+  "total": 7,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2147851,
+    "bluebook": "KURUWA v. Meyers, 823 F. Supp. 2d 253 (S.D.N.Y. 2011)",
+    "url": "https://syfert.com/federal/district/cases/823-f-supp-2d-253/kuruwa-v-meyers",
+    "date_filed": "2011-10-24",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Meyers is correct on this point,\nsee, e.g., Kaminsky v. Herrick, Feinstein LLP,\n59 A.D.3d 1, 13 , 870 N.Y.S.2d 1 (1st Dep’t 2008), and the Court concurs that the complaint could not be construed as meeting this standard.\nIn any event,…"
+   },
+   {
+    "cluster_id": 810829,
+    "bluebook": "Solin v. Domino, 501 F. App'x 19 (2d Cir. 2012)",
+    "url": "https://syfert.com/federal/circuits/cases/501-f-appx-19/solin-v-domino",
+    "date_filed": "2012-10-25",
+    "cited_by": 0,
+    "status": "Unpublished",
+    "snippet": "...An action for professional malpractice requires proof of damages actually and proximately caused by the malpractice.\nKaminsky v. Herrick, Feinstein LLP,\n59 A.D.3d 1, 9 , 870 N.Y.S.2d 1 , 5-6 .(1st Dep’t 2008). Here, Solin’s claim for…"
+   },
+   {
+    "cluster_id": 9859383,
+    "bluebook": "Stinson v. Houslanger & Assocs. PLLC, No. 1:18-cv-11350, 2020 WL 5569582 (S.D.N.Y. Sept. 17, 2020)",
+    "url": "https://syfert.com/federal/district/cases/cl-9859383/stinson-v-houslanger-associates-pllc",
+    "date_filed": "2020-09-17",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...2011) (citing Kaminsky v. Herrick,\nFeinstein LLP, 870 N.Y.S.2d 1, 10 (N.Y. App. Div. 2008); see also Aurora Loan Services, Inc. v.\nPosner, Posner & Associates, P.C., 513 F.Supp.2d 18 , 21–22 (S.D.N.Y. 2007) (“[A] chronic,\nextreme…"
+   },
+   {
+    "cluster_id": 9866303,
+    "bluebook": "Cottam v. Global Emerging Capital Grp., LLC, No. 1:16-cv-04584 (S.D.N.Y. Mar. 31, 2021)",
+    "url": "https://syfert.com/federal/district/cases/cl-9866303/cottam-v-global-emerging-capital-group-llc",
+    "date_filed": "2021-03-31",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...2002) (alteration omitted); accord Kaminsky v. Herrick, Feinstein LLP, 870 N.Y.S. 2d 1, 9\n(1st Dep’t 2008). The value of restricted stock should be discounted to reflect the restrictions on\nits sale. See Simon v. Electrospace Corp., 269…"
+   },
+   {
+    "cluster_id": 2169309,
+    "bluebook": "Amusement Indus., Inc. v. Stern, 786 F. Supp. 2d 741 (S.D.N.Y. 2011)",
+    "url": "https://syfert.com/federal/district/cases/786-f-supp-2d-741/amusement-industry-inc-v-stern",
+    "date_filed": "2011-03-11",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Griffin,\n71 A.D.3d 1112, 1114 , 898 N.Y.S.2d 590 (2d Dep’t 2010) (negligence);\nKaminsky v. Herrick, Feinstein LLP,\n59 A.D.3d 1, 7 , 870 N.Y.S.2d 1 (1st Dep’t 2008) (attorney malpractice). But neither Safrin nor Egert allege that they…"
+   },
+   {
+    "cluster_id": 9851694,
+    "bluebook": "Ray v. Balestriere Fariello, No. 1:18-cv-11211 (S.D.N.Y. Oct. 16, 2019)",
+    "url": "https://syfert.com/federal/district/cases/cl-9851694/ray-v-balestriere-fariello",
+    "date_filed": "2019-10-16",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...2013) (summary order) (citing Kaminsky v. Herrick, Feinstein LLP, 870\nN.Y.S.2d 1, 8 (1st Dep’t 2008)); Savitt v. Greenberg Traurig, LLP, 5 N.Y.S.3d\n415, 416 (1st Dep’t 2015) (dismissing JL § 487 claim since “the complaint fails\n5…"
+   },
+   {
+    "cluster_id": 9867948,
+    "bluebook": "Ray v. Balestriere Fariello, No. 1:18-cv-11211 (S.D.N.Y. Aug. 26, 2021)",
+    "url": "https://syfert.com/federal/district/cases/cl-9867948/ray-v-balestriere-fariello",
+    "date_filed": "2021-08-26",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...2011) (citing Kaminsky v. Herrick, Feinstein LLP, 870 N.Y.S.2d 1, 8\n(1st Dep’t 2008)), aff’d, 512 F. App’x 45 (2d Cir. 2013) (summary order); Savitt\nv. Greenberg Traurig, LLP, 5 N.Y.S.3d 415, 416 (1st Dep’t 2015) (dismissing\nclaim since…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

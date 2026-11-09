@@ -1,0 +1,65 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Stamper w/15 \"62 P. 20\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Stamper w/15 \\\"62 P. 20\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1145902,\"bluebook\":\"Hill v. Carlstrom, 338 P.2d 645 (Or. 1959)\",\"url\":\"https://syfert.com/oregon/cases/216-or-300/hill-v-carlstrom\",\"date_filed\":\"1959-04-29\",\"cited_by\":11,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Ball,\\n83 Or 404, 413 , 160 P 144 , 163 P 975 ;\\nStamper v. Raymond,\\n38 Or 16 , 62 P 20 . We do not find any prior case in this state based upon malicious prosecution arising out of insanity proceedings. However, it does appear that such…\"},{\"cluster_id\":4082335,\"bluebook\":\"White v. Pac. Tel. & Tel. Co., 90 P.2d 193 (Or. 1939)\",\"url\":\"https://syfert.com/oregon/cases/162-or-270/white-v-pacific-telephone-telegraph-co\",\"date_filed\":\"1939-03-24\",\"cited_by\":16,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...210 , 91 P. 363 , and Stamper v. Raymond , 38 Or. 16 , 62 P. 20 .\\nSince it is undisputed that a preliminary examination was held and the plaintiff was bound over to appear before the grand jury by the committing magistrate and there…\"},{\"cluster_id\":1203011,\"bluebook\":\"Hryciuk v. Robinson, 326 P.2d 424 (Or. 1958)\",\"url\":\"https://syfert.com/oregon/cases/213-or-542/hryciuk-v-robinson\",\"date_filed\":\"1958-06-04\",\"cited_by\":39,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In the\\nWhite\\ncase the court quotes the statement of the rule as contended for by the defendant from 38 CJ 411, and cites the\\nPutnam\\ncase and\\nStamper v. Raymond,\\n38 Or 16 , 62 P 20 . See 162 Or at 279 . The\\nStamper\\ncase did not involve a…\",\"holding\":\"A magistrate's binding over is only prima facie evidence of probable cause, which is overcome if the defendant knew the accusation was false when initiating the prosecution.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Stamper w/15 \"62 P. 20\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1145902,
+    "bluebook": "Hill v. Carlstrom, 338 P.2d 645 (Or. 1959)",
+    "url": "https://syfert.com/oregon/cases/216-or-300/hill-v-carlstrom",
+    "date_filed": "1959-04-29",
+    "cited_by": 11,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Ball,\n83 Or 404, 413 , 160 P 144 , 163 P 975 ;\nStamper v. Raymond,\n38 Or 16 , 62 P 20 . We do not find any prior case in this state based upon malicious prosecution arising out of insanity proceedings. However, it does appear that such…"
+   },
+   {
+    "cluster_id": 4082335,
+    "bluebook": "White v. Pac. Tel. & Tel. Co., 90 P.2d 193 (Or. 1939)",
+    "url": "https://syfert.com/oregon/cases/162-or-270/white-v-pacific-telephone-telegraph-co",
+    "date_filed": "1939-03-24",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...210 , 91 P. 363 , and Stamper v. Raymond , 38 Or. 16 , 62 P. 20 .\nSince it is undisputed that a preliminary examination was held and the plaintiff was bound over to appear before the grand jury by the committing magistrate and there…"
+   },
+   {
+    "cluster_id": 1203011,
+    "bluebook": "Hryciuk v. Robinson, 326 P.2d 424 (Or. 1958)",
+    "url": "https://syfert.com/oregon/cases/213-or-542/hryciuk-v-robinson",
+    "date_filed": "1958-06-04",
+    "cited_by": 39,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In the\nWhite\ncase the court quotes the statement of the rule as contended for by the defendant from 38 CJ 411, and cites the\nPutnam\ncase and\nStamper v. Raymond,\n38 Or 16 , 62 P 20 . See 162 Or at 279 . The\nStamper\ncase did not involve a…",
+    "holding": "A magistrate's binding over is only prima facie evidence of probable cause, which is overcome if the defendant knew the accusation was false when initiating the prosecution.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "ny-8-3",
+ "class": "nyseries",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "New York Methodist Hospital v. Carrier Corp., 892 N.Y.S.2d 110."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"892 N.Y.S.2d 110\",\n            \"volume\": \"892\",\n            \"reporter\": \"N.Y.S.2d\",\n            \"page\": \"110\",\n            \"pin\": null,\n            \"cluster_id\": 5929881,\n            \"case\": {\n                \"case_name\": \"New York Methodist Hospital v. Carrier Corp.\",\n                \"case_name_short\": null,\n                \"date_filed\": \"2009-12-08\",\n                \"court_id\": \"nyappdiv\",\n                \"docket_number\": null,\n                \"citation_count\": 9,\n                \"court_label\": \"N.Y. App. Div. 2d Dep't\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 9.787,\n                \"total_events\": 11,\n                \"distinct_courts\": 3,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Cincinnati Ins. Co. v. Emerson Climate Tech., Inc.\",\n                \"top_pos_court\": \"nyappdiv\",\n                \"top_pos_date\": \"2023-04-13\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"New York Methodist Hospital\",\n                \"rhs\": \"Carrier Corp.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"New York Methodist Hospital\",\n                    \"rhs\": \"Carrier Corp.\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"New York Methodist Hospital v. Carrier Corp.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/new-york/cases/68-a-d-3d-830/new-york-methodist-hospital-v-carrier-corp\",\n            \"link_md\": \"[New York Methodist Hospital v. Carrier Corp.](https://syfert.com/new-york/cases/68-a-d-3d-830/new-york-methodist-hospital-v-carrier-corp)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "892 N.Y.S.2d 110",
+      "volume": "892",
+      "reporter": "N.Y.S.2d",
+      "page": "110",
+      "pin": null,
+      "cluster_id": 5929881,
+      "case": {
+       "case_name": "New York Methodist Hospital v. Carrier Corp.",
+       "case_name_short": null,
+       "date_filed": "2009-12-08",
+       "court_id": "nyappdiv",
+       "docket_number": null,
+       "citation_count": 9,
+       "court_label": "N.Y. App. Div. 2d Dep't"
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 9.787,
+       "total_events": 11,
+       "distinct_courts": 3,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Cincinnati Ins. Co. v. Emerson Climate Tech., Inc.",
+       "top_pos_court": "nyappdiv",
+       "top_pos_date": "2023-04-13",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "New York Methodist Hospital",
+       "rhs": "Carrier Corp."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "New York Methodist Hospital",
+        "rhs": "Carrier Corp."
+       },
+       "verdict": "match",
+       "resolved_name": "New York Methodist Hospital v. Carrier Corp."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/new-york/cases/68-a-d-3d-830/new-york-methodist-hospital-v-carrier-corp",
+      "link_md": "[New York Methodist Hospital v. Carrier Corp.](https://syfert.com/new-york/cases/68-a-d-3d-830/new-york-methodist-hospital-v-carrier-corp)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

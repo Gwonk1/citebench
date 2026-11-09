@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "933 N.Y.S.2d 195",
+  "expected_case_name": "LaSonde v. Seabrook"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"933 N.Y.S.2d 195\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5971274,\n            \"case_name\": \"LaSonde v. Seabrook\",\n            \"citations\": [\n                \"933 N.Y.S.2d 195\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2011-11-03\",\n            \"status\": \"Published\",\n            \"cited_by\": 32,\n            \"url\": \"https://syfert.com/new-york/cases/89-a-d-3d-132/lasonde-v-seabrook\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"LaSonde v. Seabrook, 933 N.Y.S.2d 195 (N.Y. App. Div. 1st Dep't 2011)\",\n            \"link_md\": \"[LaSonde v. Seabrook, 933 N.Y.S.2d 195 (N.Y. App. Div. 1st Dep't 2011)](https://syfert.com/new-york/cases/89-a-d-3d-132/lasonde-v-seabrook)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 13,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"LaSonde v. Seabrook\",\n        \"actual\": \"LaSonde v. Seabrook\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "933 N.Y.S.2d 195",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5971274,
+    "case_name": "LaSonde v. Seabrook",
+    "citations": [
+     "933 N.Y.S.2d 195"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2011-11-03",
+    "status": "Published",
+    "cited_by": 32,
+    "url": "https://syfert.com/new-york/cases/89-a-d-3d-132/lasonde-v-seabrook",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "LaSonde v. Seabrook, 933 N.Y.S.2d 195 (N.Y. App. Div. 1st Dep't 2011)",
+    "link_md": "[LaSonde v. Seabrook, 933 N.Y.S.2d 195 (N.Y. App. Div. 1st Dep't 2011)](https://syfert.com/new-york/cases/89-a-d-3d-132/lasonde-v-seabrook)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 13,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "LaSonde v. Seabrook",
+   "actual": "LaSonde v. Seabrook",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

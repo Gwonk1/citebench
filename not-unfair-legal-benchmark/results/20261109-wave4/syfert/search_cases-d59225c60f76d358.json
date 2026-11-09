@@ -1,0 +1,425 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Smith w/15 \"223 A3d 660\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Smith w/15 \\\"223 A3d 660\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":395558,\"case_name\":\"Smith v. I. N. S\",\"citations\":[\"661 F.2d 915\"],\"court\":\"Third Circuit\",\"date_filed\":\"1981-07-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/661-f-2d-915/smith-v-i-n-s\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith v. I. N. S, 661 F.2d 915 (3d Cir. 1981)\",\"link_md\":\"[Smith v. I. N. S, 661 F.2d 915 (3d Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-915/smith-v-i-n-s)\",\"match_kind\":\"semantic\",\"similarity\":0.668},{\"cluster_id\":2320306,\"case_name\":\"Com. v. Smith\",\"citations\":[\"23 A.3d 1088\",\"2011 Pa. Super. LEXIS 485\",\"2011 WL 1666802\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-01-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/23-a-3d-1088/com-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Smith, 23 A.3d 1088 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Smith, 23 A.3d 1088 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/23-a-3d-1088/com-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6456},{\"cluster_id\":2318321,\"case_name\":\"Com. v. Smith\",\"citations\":[\"23 A.3d 1086\",\"2011 Pa. Super. LEXIS 458\",\"2011 WL 1666008\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-01-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/23-a-3d-1086/com-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Smith, 23 A.3d 1086 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Smith, 23 A.3d 1086 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/23-a-3d-1086/com-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6417},{\"cluster_id\":664356,\"case_name\":\"United States v. Smith (Arthur)\",\"citations\":[\"17 F.3d 1432\",\"1994 U.S. App. LEXIS 2725\",\"1994 WL 33348\"],\"court\":\"Third Circuit\",\"date_filed\":\"1994-01-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/17-f-3d-1432/united-states-v-smith-arthur\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Smith (Arthur), 17 F.3d 1432 (3d Cir. 1994)\",\"link_md\":\"[United States v. Smith (Arthur), 17 F.3d 1432 (3d Cir. 1994)](https://syfert.com/federal/circuits/cases/17-f-3d-1432/united-states-v-smith-arthur)\",\"match_kind\":\"semantic\",\"similarity\":0.6416},{\"cluster_id\":668682,\"case_name\":\"Sanchez v. Smith\",\"citations\":[\"22 F.3d 1091\",\"1994 U.S. App. LEXIS 7931\",\"1994 WL 126579\"],\"court\":\"Second Circuit\",\"date_filed\":\"1994-03-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/22-f-3d-1091/sanchez-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sanchez v. Smith, 22 F.3d 1091 (2d Cir. 1994)\",\"link_md\":\"[Sanchez v. Smith, 22 F.3d 1091 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/22-f-3d-1091/sanchez-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6413},{\"cluster_id\":2446356,\"case_name\":\"Com. v. Smith\",\"citations\":[\"6 A.3d 546\",\"2010 Pa. Super. LEXIS 3297\",\"2010 WL 4252448\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2010-06-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/6-a-3d-546/com-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Smith, 6 A.3d 546 (Pa. Super. Ct. 2010)\",\"link_md\":\"[Com. v. Smith, 6 A.3d 546 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/6-a-3d-546/com-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6368},{\"cluster_id\":2322717,\"case_name\":\"Com. v. Smith\",\"citations\":[\"26 A.3d 1192\",\"2011 Pa. Super. LEXIS 1488\",\"2011 WL 2573168\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-03-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/26-a-3d-1192/com-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Smith, 26 A.3d 1192 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Smith, 26 A.3d 1192 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/26-a-3d-1192/com-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6367},{\"cluster_id\":385496,\"case_name\":\"Smith v. Williams\",\"citations\":[\"636 F.2d 1219\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1980-11-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/636-f-2d-1219/smith-v-williams\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith v. Williams, 636 F.2d 1219 (6th Cir. 1980)\",\"link_md\":\"[Smith v. Williams, 636 F.2d 1219 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/636-f-2d-1219/smith-v-williams)\",\"match_kind\":\"semantic\",\"similarity\":0.6345},{\"cluster_id\":2322455,\"case_name\":\"Com. v. Smith\",\"citations\":[\"23 A.3d 584\",\"2010 Pa. Super. LEXIS 6449\",\"2010 WL 6252628\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2010-12-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/23-a-3d-584/com-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Smith, 23 A.3d 584 (Pa. Super. Ct. 2010)\",\"link_md\":\"[Com. v. Smith, 23 A.3d 584 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/23-a-3d-584/com-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6335},{\"cluster_id\":428975,\"case_name\":\"Smith (Gary S.) v. Smith (Lisa)\",\"citations\":[\"723 F.2d 911\",\"1983 U.S. App. LEXIS 12348\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1983-11-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/723-f-2d-911/smith-gary-s-v-smith-lisa\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith (Gary S.) v. Smith (Lisa), 723 F.2d 911 (6th Cir. 1983)\",\"link_md\":\"[Smith (Gary S.) v. Smith (Lisa), 723 F.2d 911 (6th Cir. 1983)](https://syfert.com/federal/circuits/cases/723-f-2d-911/smith-gary-s-v-smith-lisa)\",\"match_kind\":\"semantic\",\"similarity\":0.6287},{\"cluster_id\":2301370,\"case_name\":\"Com. v. Smith\",\"citations\":[\"43 A.3d 520\",\"2012 WL 1388002\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2012-01-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/43-a-3d-520/com-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Smith, 43 A.3d 520 (Pa. Super. Ct. 2012)\",\"link_md\":\"[Com. v. Smith, 43 A.3d 520 (Pa. Super. Ct. 2012)](https://syfert.com/pennsylvania/cases/43-a-3d-520/com-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6276},{\"cluster_id\":2422791,\"case_name\":\"State v. Smith\",\"citations\":[\"16 A.3d 634\",\"189 Vt. 650\",\"2011 Vt. Unpub. LEXIS 43\"],\"court\":\"Supreme Court of Vermont\",\"date_filed\":\"2011-02-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/vermont/cases/189-vt-650/state-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Smith, 16 A.3d 634 (Vt. 2011)\",\"link_md\":\"[State v. Smith, 16 A.3d 634 (Vt. 2011)](https://syfert.com/vermont/cases/189-vt-650/state-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6275},{\"cluster_id\":2297242,\"case_name\":\"Com. v. Smith\",\"citations\":[\"37 A.3d 1238\",\"2011 WL 7119568\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-10-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/37-a-3d-1238/com-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Smith, 37 A.3d 1238 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Smith, 37 A.3d 1238 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/37-a-3d-1238/com-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6266},{\"cluster_id\":334241,\"case_name\":\"Smith, Appeal Of\",\"citations\":[\"532 F.2d 747\"],\"court\":\"Third Circuit\",\"date_filed\":\"1976-03-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/532-f-2d-747/smith-appeal-of\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith, Appeal Of, 532 F.2d 747 (3d Cir. 1976)\",\"link_md\":\"[Smith, Appeal Of, 532 F.2d 747 (3d Cir. 1976)](https://syfert.com/federal/circuits/cases/532-f-2d-747/smith-appeal-of)\",\"match_kind\":\"semantic\",\"similarity\":0.6244},{\"cluster_id\":8943943,\"case_name\":\"Parsons v. Smith\",\"citations\":[\"358 U.S. 814\",\"79 S. Ct. 65\"],\"court\":\"Supreme Court\",\"date_filed\":\"1958-10-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/358-u-s-814/parsons-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Parsons v. Smith, 358 U.S. 814 (1958)\",\"link_md\":\"[Parsons v. Smith, 358 U.S. 814 (1958)](https://syfert.com/federal/scotus/cases/358-u-s-814/parsons-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6243},{\"cluster_id\":130055,\"case_name\":\"Smith v. English\",\"citations\":[\"538 U.S. 1064\",\"123 S. Ct. 2229\"],\"court\":\"Supreme Court\",\"date_filed\":\"2003-05-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/538-u-s-1064/smith-v-english\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (130055 and its twins 9210282, 9210283). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Smith v. English, 538 U.S. 1064 (2003)\",\"link_md\":\"[Smith v. English, 538 U.S. 1064 (2003)](https://syfert.com/federal/scotus/cases/538-u-s-1064/smith-v-english)\",\"match_kind\":\"semantic\",\"similarity\":0.6234},{\"cluster_id\":2318983,\"case_name\":\"Com. v. Smith\",\"citations\":[\"32 A.3d 835\",\"2011 Pa. Super. LEXIS 4100\",\"2011 WL 5971041\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-08-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/32-a-3d-835/com-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Smith, 32 A.3d 835 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Smith, 32 A.3d 835 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/32-a-3d-835/com-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6233},{\"cluster_id\":10870854,\"case_name\":\"People v. Smith\",\"citations\":[\"250 A.D.3d 1569\",\"2026 NY Slip Op 03544\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2026-06-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/250-a-d-3d-1569/people-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"250 A.D.3d 1569\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/250%20A.D.3d\"}],\"bluebook\":\"People v. Smith, 250 A.D.3d 1569 (N.Y. App. Div. 4th Dep't 2026)\",\"link_md\":\"[People v. Smith, 250 A.D.3d 1569 (N.Y. App. Div. 4th Dep't 2026)](https://syfert.com/new-york/cases/250-a-d-3d-1569/people-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6225},{\"cluster_id\":2327761,\"case_name\":\"Com. v. Smith\",\"citations\":[\"26 A.3d 1173\",\"2011 WL 2565389\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-03-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/26-a-3d-1173/com-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Smith, 26 A.3d 1173 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Smith, 26 A.3d 1173 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/26-a-3d-1173/com-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6225},{\"cluster_id\":562883,\"case_name\":\"United States v. Smith (Arthur)\",\"citations\":[\"935 F.2d 1283\",\"26 V.I. 415\",\"1991 U.S. App. LEXIS 12488\",\"1991 WL 95729\"],\"court\":\"Third Circuit\",\"date_filed\":\"1991-05-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/935-f-2d-1283/united-states-v-smith-arthur\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Smith (Arthur), 935 F.2d 1283 (3d Cir. 1991)\",\"link_md\":\"[United States v. Smith (Arthur), 935 F.2d 1283 (3d Cir. 1991)](https://syfert.com/federal/circuits/cases/935-f-2d-1283/united-states-v-smith-arthur)\",\"match_kind\":\"semantic\",\"similarity\":0.6224}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Smith w/15 \"223 A3d 660\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 395558,
+    "case_name": "Smith v. I. N. S",
+    "citations": [
+     "661 F.2d 915"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1981-07-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/661-f-2d-915/smith-v-i-n-s",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith v. I. N. S, 661 F.2d 915 (3d Cir. 1981)",
+    "link_md": "[Smith v. I. N. S, 661 F.2d 915 (3d Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-915/smith-v-i-n-s)",
+    "match_kind": "semantic",
+    "similarity": 0.668
+   },
+   {
+    "cluster_id": 2320306,
+    "case_name": "Com. v. Smith",
+    "citations": [
+     "23 A.3d 1088",
+     "2011 Pa. Super. LEXIS 485",
+     "2011 WL 1666802"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-01-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/23-a-3d-1088/com-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Smith, 23 A.3d 1088 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Smith, 23 A.3d 1088 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/23-a-3d-1088/com-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6456
+   },
+   {
+    "cluster_id": 2318321,
+    "case_name": "Com. v. Smith",
+    "citations": [
+     "23 A.3d 1086",
+     "2011 Pa. Super. LEXIS 458",
+     "2011 WL 1666008"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-01-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/23-a-3d-1086/com-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Smith, 23 A.3d 1086 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Smith, 23 A.3d 1086 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/23-a-3d-1086/com-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6417
+   },
+   {
+    "cluster_id": 664356,
+    "case_name": "United States v. Smith (Arthur)",
+    "citations": [
+     "17 F.3d 1432",
+     "1994 U.S. App. LEXIS 2725",
+     "1994 WL 33348"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1994-01-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/17-f-3d-1432/united-states-v-smith-arthur",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Smith (Arthur), 17 F.3d 1432 (3d Cir. 1994)",
+    "link_md": "[United States v. Smith (Arthur), 17 F.3d 1432 (3d Cir. 1994)](https://syfert.com/federal/circuits/cases/17-f-3d-1432/united-states-v-smith-arthur)",
+    "match_kind": "semantic",
+    "similarity": 0.6416
+   },
+   {
+    "cluster_id": 668682,
+    "case_name": "Sanchez v. Smith",
+    "citations": [
+     "22 F.3d 1091",
+     "1994 U.S. App. LEXIS 7931",
+     "1994 WL 126579"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1994-03-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/22-f-3d-1091/sanchez-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sanchez v. Smith, 22 F.3d 1091 (2d Cir. 1994)",
+    "link_md": "[Sanchez v. Smith, 22 F.3d 1091 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/22-f-3d-1091/sanchez-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6413
+   },
+   {
+    "cluster_id": 2446356,
+    "case_name": "Com. v. Smith",
+    "citations": [
+     "6 A.3d 546",
+     "2010 Pa. Super. LEXIS 3297",
+     "2010 WL 4252448"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2010-06-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/6-a-3d-546/com-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Smith, 6 A.3d 546 (Pa. Super. Ct. 2010)",
+    "link_md": "[Com. v. Smith, 6 A.3d 546 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/6-a-3d-546/com-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6368
+   },
+   {
+    "cluster_id": 2322717,
+    "case_name": "Com. v. Smith",
+    "citations": [
+     "26 A.3d 1192",
+     "2011 Pa. Super. LEXIS 1488",
+     "2011 WL 2573168"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-03-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/26-a-3d-1192/com-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Smith, 26 A.3d 1192 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Smith, 26 A.3d 1192 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/26-a-3d-1192/com-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6367
+   },
+   {
+    "cluster_id": 385496,
+    "case_name": "Smith v. Williams",
+    "citations": [
+     "636 F.2d 1219"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1980-11-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/636-f-2d-1219/smith-v-williams",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith v. Williams, 636 F.2d 1219 (6th Cir. 1980)",
+    "link_md": "[Smith v. Williams, 636 F.2d 1219 (6th Cir. 1980)](https://syfert.com/federal/circuits/cases/636-f-2d-1219/smith-v-williams)",
+    "match_kind": "semantic",
+    "similarity": 0.6345
+   },
+   {
+    "cluster_id": 2322455,
+    "case_name": "Com. v. Smith",
+    "citations": [
+     "23 A.3d 584",
+     "2010 Pa. Super. LEXIS 6449",
+     "2010 WL 6252628"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2010-12-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/23-a-3d-584/com-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Smith, 23 A.3d 584 (Pa. Super. Ct. 2010)",
+    "link_md": "[Com. v. Smith, 23 A.3d 584 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/23-a-3d-584/com-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6335
+   },
+   {
+    "cluster_id": 428975,
+    "case_name": "Smith (Gary S.) v. Smith (Lisa)",
+    "citations": [
+     "723 F.2d 911",
+     "1983 U.S. App. LEXIS 12348"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1983-11-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/723-f-2d-911/smith-gary-s-v-smith-lisa",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith (Gary S.) v. Smith (Lisa), 723 F.2d 911 (6th Cir. 1983)",
+    "link_md": "[Smith (Gary S.) v. Smith (Lisa), 723 F.2d 911 (6th Cir. 1983)](https://syfert.com/federal/circuits/cases/723-f-2d-911/smith-gary-s-v-smith-lisa)",
+    "match_kind": "semantic",
+    "similarity": 0.6287
+   },
+   {
+    "cluster_id": 2301370,
+    "case_name": "Com. v. Smith",
+    "citations": [
+     "43 A.3d 520",
+     "2012 WL 1388002"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2012-01-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/43-a-3d-520/com-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Smith, 43 A.3d 520 (Pa. Super. Ct. 2012)",
+    "link_md": "[Com. v. Smith, 43 A.3d 520 (Pa. Super. Ct. 2012)](https://syfert.com/pennsylvania/cases/43-a-3d-520/com-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6276
+   },
+   {
+    "cluster_id": 2422791,
+    "case_name": "State v. Smith",
+    "citations": [
+     "16 A.3d 634",
+     "189 Vt. 650",
+     "2011 Vt. Unpub. LEXIS 43"
+    ],
+    "court": "Supreme Court of Vermont",
+    "date_filed": "2011-02-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/vermont/cases/189-vt-650/state-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Smith, 16 A.3d 634 (Vt. 2011)",
+    "link_md": "[State v. Smith, 16 A.3d 634 (Vt. 2011)](https://syfert.com/vermont/cases/189-vt-650/state-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6275
+   },
+   {
+    "cluster_id": 2297242,
+    "case_name": "Com. v. Smith",
+    "citations": [
+     "37 A.3d 1238",
+     "2011 WL 7119568"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-10-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/37-a-3d-1238/com-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Smith, 37 A.3d 1238 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Smith, 37 A.3d 1238 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/37-a-3d-1238/com-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6266
+   },
+   {
+    "cluster_id": 334241,
+    "case_name": "Smith, Appeal Of",
+    "citations": [
+     "532 F.2d 747"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1976-03-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/532-f-2d-747/smith-appeal-of",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith, Appeal Of, 532 F.2d 747 (3d Cir. 1976)",
+    "link_md": "[Smith, Appeal Of, 532 F.2d 747 (3d Cir. 1976)](https://syfert.com/federal/circuits/cases/532-f-2d-747/smith-appeal-of)",
+    "match_kind": "semantic",
+    "similarity": 0.6244
+   },
+   {
+    "cluster_id": 8943943,
+    "case_name": "Parsons v. Smith",
+    "citations": [
+     "358 U.S. 814",
+     "79 S. Ct. 65"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1958-10-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/358-u-s-814/parsons-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Parsons v. Smith, 358 U.S. 814 (1958)",
+    "link_md": "[Parsons v. Smith, 358 U.S. 814 (1958)](https://syfert.com/federal/scotus/cases/358-u-s-814/parsons-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6243
+   },
+   {
+    "cluster_id": 130055,
+    "case_name": "Smith v. English",
+    "citations": [
+     "538 U.S. 1064",
+     "123 S. Ct. 2229"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2003-05-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/538-u-s-1064/smith-v-english",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (130055 and its twins 9210282, 9210283). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Smith v. English, 538 U.S. 1064 (2003)",
+    "link_md": "[Smith v. English, 538 U.S. 1064 (2003)](https://syfert.com/federal/scotus/cases/538-u-s-1064/smith-v-english)",
+    "match_kind": "semantic",
+    "similarity": 0.6234
+   },
+   {
+    "cluster_id": 2318983,
+    "case_name": "Com. v. Smith",
+    "citations": [
+     "32 A.3d 835",
+     "2011 Pa. Super. LEXIS 4100",
+     "2011 WL 5971041"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-08-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/32-a-3d-835/com-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Smith, 32 A.3d 835 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Smith, 32 A.3d 835 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/32-a-3d-835/com-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6233
+   },
+   {
+    "cluster_id": 10870854,
+    "case_name": "People v. Smith",
+    "citations": [
+     "250 A.D.3d 1569",
+     "2026 NY Slip Op 03544"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2026-06-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/250-a-d-3d-1569/people-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "250 A.D.3d 1569",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.D.3d"
+     }
+    ],
+    "bluebook": "People v. Smith, 250 A.D.3d 1569 (N.Y. App. Div. 4th Dep't 2026)",
+    "link_md": "[People v. Smith, 250 A.D.3d 1569 (N.Y. App. Div. 4th Dep't 2026)](https://syfert.com/new-york/cases/250-a-d-3d-1569/people-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6225
+   },
+   {
+    "cluster_id": 2327761,
+    "case_name": "Com. v. Smith",
+    "citations": [
+     "26 A.3d 1173",
+     "2011 WL 2565389"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-03-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/26-a-3d-1173/com-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Smith, 26 A.3d 1173 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Smith, 26 A.3d 1173 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/26-a-3d-1173/com-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6225
+   },
+   {
+    "cluster_id": 562883,
+    "case_name": "United States v. Smith (Arthur)",
+    "citations": [
+     "935 F.2d 1283",
+     "26 V.I. 415",
+     "1991 U.S. App. LEXIS 12488",
+     "1991 WL 95729"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1991-05-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/935-f-2d-1283/united-states-v-smith-arthur",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Smith (Arthur), 935 F.2d 1283 (3d Cir. 1991)",
+    "link_md": "[United States v. Smith (Arthur), 935 F.2d 1283 (3d Cir. 1991)](https://syfert.com/federal/circuits/cases/935-f-2d-1283/united-states-v-smith-arthur)",
+    "match_kind": "semantic",
+    "similarity": 0.6224
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

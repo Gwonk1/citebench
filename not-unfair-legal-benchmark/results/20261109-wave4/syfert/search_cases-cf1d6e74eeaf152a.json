@@ -1,0 +1,60 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Wells w/15 \"887 N.Y.S.2d 615\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Wells w/15 \\\"887 N.Y.S.2d 615\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3145819,\"bluebook\":\"Deutsche Bank Nat'l Trust v. Gilbert, 2012 IL App (2d) 120164, 982 N.E.2d 815\",\"url\":\"https://syfert.com/illinois/cases/982-n-e-2d-815/deutsche-bank-national-trust-v-gilbert\",\"date_filed\":\"2012-09-25\",\"cited_by\":32,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":4},\"snippet\":\"...See Wells Fargo Bank, N.A. v. Marchione, 887\\nN.Y.S.2d 615 , 619 (N.Y. App. Div. 2009); LaSalle Bank National Ass’n v. Ahearn, 875\\nN.Y.S.2d 595, 597 (N.Y. App. Div. 2009). We recognize that, in Illinois, an assignment can\\nvalidly…\"},{\"cluster_id\":3191721,\"bluebook\":\"Deutsche Bank Nat'l Trust Co. v. Johnson, 2016-NMSC-013, 369 P.3d 1046\",\"url\":\"https://syfert.com/new-mexico/cases/369-p-3d-1046/deutsche-bank-natl-trust-co-v-johnson\",\"date_filed\":\"2016-03-03\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...2011) (stating that a plaintiff must have standing at the time the foreclosure\\ncomplaint is filed, and a lack of standing cannot be cured by showing that a plaintiff acquired\\nstanding after the complaint was filed); Wells Fargo Bank,…\",\"holding\":\"Standing in mortgage foreclosure actions is not a jurisdictional prerequisite, but a plaintiff must establish prudential standing by proving it was entitled to enforce the note at filing.\",\"holding_ai_generated\":true,\"disposition\":\"reversed in part\",\"disposition_source\":\"headnote\"},{\"cluster_id\":3182487,\"bluebook\":\"Deutsche Bank Nat'l Trust Co. v. Johnston, 2016-NMSC-013, 9 N.M. 459\",\"url\":\"https://syfert.com/new-mexico/cases/9-n-m-459/deutsche-bank-national-trust-co-v-johnston\",\"date_filed\":\"2016-03-03\",\"cited_by\":44,\"snippet\":\"...2011) (stating that a plaintiff must have standing at the time the foreclosure complaint is filed, and a lack of standing cannot be cured by showing that a plaintiff acquired standing after the complaint was filed); Wells Fargo Bank,…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Wells w/15 \"887 N.Y.S.2d 615\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3145819,
+    "bluebook": "Deutsche Bank Nat'l Trust v. Gilbert, 2012 IL App (2d) 120164, 982 N.E.2d 815",
+    "url": "https://syfert.com/illinois/cases/982-n-e-2d-815/deutsche-bank-national-trust-v-gilbert",
+    "date_filed": "2012-09-25",
+    "cited_by": 32,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 4
+    },
+    "snippet": "...See Wells Fargo Bank, N.A. v. Marchione, 887\nN.Y.S.2d 615 , 619 (N.Y. App. Div. 2009); LaSalle Bank National Ass’n v. Ahearn, 875\nN.Y.S.2d 595, 597 (N.Y. App. Div. 2009). We recognize that, in Illinois, an assignment can\nvalidly…"
+   },
+   {
+    "cluster_id": 3191721,
+    "bluebook": "Deutsche Bank Nat'l Trust Co. v. Johnson, 2016-NMSC-013, 369 P.3d 1046",
+    "url": "https://syfert.com/new-mexico/cases/369-p-3d-1046/deutsche-bank-natl-trust-co-v-johnson",
+    "date_filed": "2016-03-03",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2011) (stating that a plaintiff must have standing at the time the foreclosure\ncomplaint is filed, and a lack of standing cannot be cured by showing that a plaintiff acquired\nstanding after the complaint was filed); Wells Fargo Bank,…",
+    "holding": "Standing in mortgage foreclosure actions is not a jurisdictional prerequisite, but a plaintiff must establish prudential standing by proving it was entitled to enforce the note at filing.",
+    "holding_ai_generated": true,
+    "disposition": "reversed in part",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 3182487,
+    "bluebook": "Deutsche Bank Nat'l Trust Co. v. Johnston, 2016-NMSC-013, 9 N.M. 459",
+    "url": "https://syfert.com/new-mexico/cases/9-n-m-459/deutsche-bank-national-trust-co-v-johnston",
+    "date_filed": "2016-03-03",
+    "cited_by": 44,
+    "snippet": "...2011) (stating that a plaintiff must have standing at the time the foreclosure complaint is filed, and a lack of standing cannot be cured by showing that a plaintiff acquired standing after the complaint was filed); Wells Fargo Bank,…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

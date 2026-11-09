@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Houston w/15 \"284 S.W.2d 142\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Houston w/15 \\\"284 S.W.2d 142\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5193724,\"bluebook\":\"Mullins v. State, 256 S.W.2d 454 (Tex. App. 1953)\",\"url\":\"https://syfert.com/texas/cases/256-s-w-2d-454/mullins-v-state\",\"date_filed\":\"1953-03-26\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Lancaster, Tex.Civ.App., 284 S.W. 629 ; City of Houston v. Quinones, 142 Tex. 282 , 177 S.W.2d 259 (S.Ct.).\\nPoint 4-a assails the action of the court in refusing to grant their motion to open and close in the introduction of the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Houston w/15 \"284 S.W.2d 142\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5193724,
+    "bluebook": "Mullins v. State, 256 S.W.2d 454 (Tex. App. 1953)",
+    "url": "https://syfert.com/texas/cases/256-s-w-2d-454/mullins-v-state",
+    "date_filed": "1953-03-26",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Lancaster, Tex.Civ.App., 284 S.W. 629 ; City of Houston v. Quinones, 142 Tex. 282 , 177 S.W.2d 259 (S.Ct.).\nPoint 4-a assails the action of the court in refusing to grant their motion to open and close in the introduction of the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

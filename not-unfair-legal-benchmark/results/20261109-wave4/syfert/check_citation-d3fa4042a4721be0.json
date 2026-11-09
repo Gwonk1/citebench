@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "43 So. 378",
+  "expected_case_name": "Southern Ry. Co. v. McGowan"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"43 So. 378\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7442440,\n            \"case_name\": \"Southern Ry. Co. v. McGowan\",\n            \"citations\": [\n                \"43 So. 378\"\n            ],\n            \"court\": \"Supreme Court of Alabama\",\n            \"date_filed\": \"1907-03-02\",\n            \"status\": \"Published\",\n            \"cited_by\": 18,\n            \"url\": \"https://syfert.com/alabama/cases/149-ala-440/southern-ry-co-v-mcgowan\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"S. Ry. Co. v. McGowan, 43 So. 378 (Ala. 1907)\",\n            \"link_md\": \"[S. Ry. Co. v. McGowan, 43 So. 378 (Ala. 1907)](https://syfert.com/alabama/cases/149-ala-440/southern-ry-co-v-mcgowan)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Southern Ry. Co. v. McGowan\",\n        \"actual\": \"Southern Ry. Co. v. McGowan\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "43 So. 378",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7442440,
+    "case_name": "Southern Ry. Co. v. McGowan",
+    "citations": [
+     "43 So. 378"
+    ],
+    "court": "Supreme Court of Alabama",
+    "date_filed": "1907-03-02",
+    "status": "Published",
+    "cited_by": 18,
+    "url": "https://syfert.com/alabama/cases/149-ala-440/southern-ry-co-v-mcgowan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "S. Ry. Co. v. McGowan, 43 So. 378 (Ala. 1907)",
+    "link_md": "[S. Ry. Co. v. McGowan, 43 So. 378 (Ala. 1907)](https://syfert.com/alabama/cases/149-ala-440/southern-ry-co-v-mcgowan)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Southern Ry. Co. v. McGowan",
+   "actual": "Southern Ry. Co. v. McGowan",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

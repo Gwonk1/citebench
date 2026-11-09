@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "919 N.Y.S.2d 569",
+  "expected_case_name": "Barrett v. Watkins"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"919 N.Y.S.2d 569\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5957507,\n            \"case_name\": \"Barrett v. Watkins\",\n            \"citations\": [\n                \"919 N.Y.S.2d 569\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2011-03-31\",\n            \"status\": \"Published\",\n            \"cited_by\": 24,\n            \"url\": \"https://syfert.com/new-york/cases/82-a-d-3d-1569/barrett-v-watkins\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Barrett v. Watkins, 919 N.Y.S.2d 569 (N.Y. App. Div. 3d Dep't 2011)\",\n            \"link_md\": \"[Barrett v. Watkins, 919 N.Y.S.2d 569 (N.Y. App. Div. 3d Dep't 2011)](https://syfert.com/new-york/cases/82-a-d-3d-1569/barrett-v-watkins)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 22,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Barrett v. Watkins\",\n        \"actual\": \"Barrett v. Watkins\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "919 N.Y.S.2d 569",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5957507,
+    "case_name": "Barrett v. Watkins",
+    "citations": [
+     "919 N.Y.S.2d 569"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2011-03-31",
+    "status": "Published",
+    "cited_by": 24,
+    "url": "https://syfert.com/new-york/cases/82-a-d-3d-1569/barrett-v-watkins",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barrett v. Watkins, 919 N.Y.S.2d 569 (N.Y. App. Div. 3d Dep't 2011)",
+    "link_md": "[Barrett v. Watkins, 919 N.Y.S.2d 569 (N.Y. App. Div. 3d Dep't 2011)](https://syfert.com/new-york/cases/82-a-d-3d-1569/barrett-v-watkins)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 22,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Barrett v. Watkins",
+   "actual": "Barrett v. Watkins",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

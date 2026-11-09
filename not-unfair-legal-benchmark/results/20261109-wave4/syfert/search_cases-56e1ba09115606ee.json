@@ -1,0 +1,61 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Espalla w/15 \"73 So. 761\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Espalla w/15 \\\"73 So. 761\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3416405,\"bluebook\":\"In re Overland Co. v. Utter, 257 P. 480 (Idaho 1927)\",\"url\":\"https://syfert.com/idaho/cases/257-p-480/in-re-overland-co-v-utter\",\"date_filed\":\"1927-06-14\",\"cited_by\":13,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...110 ;\\nEspalla v. Mobile County,\\n15 Ala. App. 443 , 73 So. 761 ;\\nCo-operative etc. Assn. v. Green,\\n5 Ida. 660, 665 , 51 Pac. 770 ;\\nMurphy v. Board of Equalization,\\n6 Ida. 745 , 59 Pac. 715 ;\\nInland Lumber etc. Co. v. Thompson,\\n11 Ida.…\"},{\"cluster_id\":3230221,\"bluebook\":\"City of Decatur v. Mohns, 180 So. 297 (Ala. 1938)\",\"url\":\"https://syfert.com/alabama/cases/235-ala-640/city-of-decatur-v-mohns\",\"date_filed\":\"1938-03-24\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"KNIGHT, Justice.\\nProceedings for mandamus instituted by F. H. Mohns, appellee here, against the City of Decatur, the mayor and aldermen of said city, the city council- of Decatur, the First National Bank of Birmingham, as the exchange…\"},{\"cluster_id\":3232648,\"bluebook\":\"State ex rel. Fowler v. Stone, 185 So. 404 (Ala. 1938)\",\"url\":\"https://syfert.com/alabama/cases/237-ala-78/state-ex-rel-fowler-v-stone\",\"date_filed\":\"1938-11-25\",\"cited_by\":24,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...154.]\\nIt is not necessary that the decision in Espalla v. Mobile County, 15 Ala.App. 443 , 73 So. 761 , be overruled as affecting the instant decision, if, as we have indicated, the legislature passed the general and special act in…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Espalla w/15 \"73 So. 761\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3416405,
+    "bluebook": "In re Overland Co. v. Utter, 257 P. 480 (Idaho 1927)",
+    "url": "https://syfert.com/idaho/cases/257-p-480/in-re-overland-co-v-utter",
+    "date_filed": "1927-06-14",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...110 ;\nEspalla v. Mobile County,\n15 Ala. App. 443 , 73 So. 761 ;\nCo-operative etc. Assn. v. Green,\n5 Ida. 660, 665 , 51 Pac. 770 ;\nMurphy v. Board of Equalization,\n6 Ida. 745 , 59 Pac. 715 ;\nInland Lumber etc. Co. v. Thompson,\n11 Ida.…"
+   },
+   {
+    "cluster_id": 3230221,
+    "bluebook": "City of Decatur v. Mohns, 180 So. 297 (Ala. 1938)",
+    "url": "https://syfert.com/alabama/cases/235-ala-640/city-of-decatur-v-mohns",
+    "date_filed": "1938-03-24",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "KNIGHT, Justice.\nProceedings for mandamus instituted by F. H. Mohns, appellee here, against the City of Decatur, the mayor and aldermen of said city, the city council- of Decatur, the First National Bank of Birmingham, as the exchange…"
+   },
+   {
+    "cluster_id": 3232648,
+    "bluebook": "State ex rel. Fowler v. Stone, 185 So. 404 (Ala. 1938)",
+    "url": "https://syfert.com/alabama/cases/237-ala-78/state-ex-rel-fowler-v-stone",
+    "date_filed": "1938-11-25",
+    "cited_by": 24,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...154.]\nIt is not necessary that the decision in Espalla v. Mobile County, 15 Ala.App. 443 , 73 So. 761 , be overruled as affecting the instant decision, if, as we have indicated, the legislature passed the general and special act in…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

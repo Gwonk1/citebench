@@ -1,0 +1,405 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Vail w/15 \"23 N.E. 801\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Vail w/15 \\\"23 N.E. 801\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8364149,\"case_name\":\"Vail v. Vail\",\"citations\":[\"26 N.Y. St. Rep. 978\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1889-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-8364149/vail-v-vail\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vail v. Vail, 26 N.Y. St. Rep. 978 (N.Y. 1889)\",\"link_md\":\"[Vail v. Vail, 26 N.Y. St. Rep. 978 (N.Y. 1889)](https://syfert.com/new-york/cases/cl-8364149/vail-v-vail)\",\"match_kind\":\"semantic\",\"similarity\":0.7032},{\"cluster_id\":2030106,\"case_name\":\"Vail v. Vail\",\"citations\":[\"240 N.E.2d 519\",\"98 Ill. App. 2d 234\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"1968-06-27\",\"status\":\"Published\",\"cited_by\":8,\"url\":\"https://syfert.com/illinois/cases/98-ill-app-2d-234/vail-v-vail\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (2030106 and its twin 7104305).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vail v. Vail, 240 N.E.2d 519 (Ill. App. Ct. 1st Dist. 1968)\",\"link_md\":\"[Vail v. Vail, 240 N.E.2d 519 (Ill. App. Ct. 1st Dist. 1968)](https://syfert.com/illinois/cases/98-ill-app-2d-234/vail-v-vail)\",\"match_kind\":\"semantic\",\"similarity\":0.6923},{\"cluster_id\":3597365,\"case_name\":\"Matter of Vail\",\"citations\":[\"93 N.E. 1120\",\"199 N.Y. 560\",\"1910 N.Y. LEXIS 1339\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1910-10-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/199-n-y-560/matter-of-vail\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Vail, 93 N.E. 1120 (N.Y. 1910)\",\"link_md\":\"[Matter of Vail, 93 N.E. 1120 (N.Y. 1910)](https://syfert.com/new-york/cases/199-n-y-560/matter-of-vail)\",\"match_kind\":\"semantic\",\"similarity\":0.6729},{\"cluster_id\":8376030,\"case_name\":\"State ex rel. Vail v. Craig\",\"citations\":[\"64 Ohio St. (N.S.) 588\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1901-04-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/cl-8376030/state-ex-rel-vail-v-craig\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Vail v. Craig, 64 Ohio St. (N.S.) 588 (Ohio 1901)\",\"link_md\":\"[State ex rel. Vail v. Craig, 64 Ohio St. (N.S.) 588 (Ohio 1901)](https://syfert.com/ohio/cases/cl-8376030/state-ex-rel-vail-v-craig)\",\"match_kind\":\"semantic\",\"similarity\":0.6562},{\"cluster_id\":2031560,\"case_name\":\"Epton v. Vail\",\"citations\":[\"119 N.E.2d 410\",\"2 Ill. App. 2d 287\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"1954-05-27\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/illinois/cases/2-ill-app-2d-287/epton-v-vail\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Epton v. Vail, 119 N.E.2d 410 (Ill. App. Ct. 1954)\",\"link_md\":\"[Epton v. Vail, 119 N.E.2d 410 (Ill. App. Ct. 1954)](https://syfert.com/illinois/cases/2-ill-app-2d-287/epton-v-vail)\",\"match_kind\":\"semantic\",\"similarity\":0.6531},{\"cluster_id\":5428929,\"case_name\":\"Eldering v. N. E. Vail & Co.\",\"citations\":[\"202 A.D. 819\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1922-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/202-a-d-819/eldering-v-n-e-vail-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Eldering v. N. E. Vail & Co., 202 A.D. 819 (N.Y. App. Div. 1922)\",\"link_md\":\"[Eldering v. N. E. Vail & Co., 202 A.D. 819 (N.Y. App. Div. 1922)](https://syfert.com/new-york/cases/202-a-d-819/eldering-v-n-e-vail-co)\",\"match_kind\":\"semantic\",\"similarity\":0.653},{\"cluster_id\":3583962,\"case_name\":\"John W. Barwell, Inc. v. Vail\",\"citations\":[\"162 A. 575\",\"111 N.J. Eq. 431\",\"1932 N.J. LEXIS 745\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"1932-10-17\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-jersey/cases/162-a-575/john-w-barwell-inc-v-vail\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"John W. Barwell, Inc. v. Vail, 162 A. 575 (N.J. 1932)\",\"link_md\":\"[John W. Barwell, Inc. v. Vail, 162 A. 575 (N.J. 1932)](https://syfert.com/new-jersey/cases/162-a-575/john-w-barwell-inc-v-vail)\",\"match_kind\":\"semantic\",\"similarity\":0.6514},{\"cluster_id\":7127228,\"case_name\":\"Vail v. Heustis\",\"citations\":[\"14 Ind. 85\"],\"court\":\"Indiana Supreme Court\",\"date_filed\":\"1859-12-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/indiana/cases/14-ind-85/vail-v-heustis\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vail v. Heustis, 14 Ind. 85 (1859)\",\"link_md\":\"[Vail v. Heustis, 14 Ind. 85 (1859)](https://syfert.com/indiana/cases/14-ind-85/vail-v-heustis)\",\"match_kind\":\"semantic\",\"similarity\":0.6449},{\"cluster_id\":2262274,\"case_name\":\"Vaile v. PORSBOL\",\"citations\":[\"238 P.3d 862\",\"124 Nev. 1515\",\"2008 Nev. LEXIS 281\"],\"court\":\"Nevada Supreme Court\",\"date_filed\":\"2008-10-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/nevada/cases/124-nev-1515/vaile-v-porsbol\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vaile v. Porsbol, 238 P.3d 862 (Nev. 2008)\",\"link_md\":\"[Vaile v. Porsbol, 238 P.3d 862 (Nev. 2008)](https://syfert.com/nevada/cases/124-nev-1515/vaile-v-porsbol)\",\"match_kind\":\"semantic\",\"similarity\":0.642},{\"cluster_id\":6253232,\"case_name\":\"Vail v. Lane\",\"citations\":[\"11 N.Y. Sup. Ct. 653\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1875-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6253232/vail-v-lane\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vail v. Lane, 11 N.Y. Sup. Ct. 653 (N.Y. Sup. Ct. 1875)\",\"link_md\":\"[Vail v. Lane, 11 N.Y. Sup. Ct. 653 (N.Y. Sup. Ct. 1875)](https://syfert.com/new-york/cases/cl-6253232/vail-v-lane)\",\"match_kind\":\"semantic\",\"similarity\":0.6363},{\"cluster_id\":8334509,\"case_name\":\"Bernard v. Walker\",\"citations\":[\"212 S.W.2d 600\",\"186 Tenn. 617\",\"22 Beeler 617\",\"1948 Tenn. LEXIS 589\"],\"court\":\"Tennessee Supreme Court\",\"date_filed\":\"1948-06-12\",\"status\":\"Published\",\"cited_by\":10,\"url\":\"https://syfert.com/tennessee/cases/186-tenn-617/bernard-v-walker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bernard v. Walker, 212 S.W.2d 600 (Tenn. 1948)\",\"link_md\":\"[Bernard v. Walker, 212 S.W.2d 600 (Tenn. 1948)](https://syfert.com/tennessee/cases/186-tenn-617/bernard-v-walker)\",\"match_kind\":\"semantic\",\"similarity\":0.6327},{\"cluster_id\":6599858,\"case_name\":\"Vail v. Scoville\",\"citations\":[\"55 Ariz. 502\",\"103 P.2d 668\",\"1940 Ariz. LEXIS 275\"],\"court\":\"Arizona Supreme Court\",\"date_filed\":\"1940-06-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/arizona/cases/55-ariz-502/vail-v-scoville\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (6599858 and its twin 3255832). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vail v. Scoville, 55 Ariz. 502 (1940)\",\"link_md\":\"[Vail v. Scoville, 55 Ariz. 502 (1940)](https://syfert.com/arizona/cases/55-ariz-502/vail-v-scoville)\",\"match_kind\":\"semantic\",\"similarity\":0.6311,\"twin_clusters\":[3255832]},{\"cluster_id\":5434979,\"case_name\":\"Reed v. N. E. Vail & Co.\",\"citations\":[\"208 A.D. 708\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1923-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/208-a-d-708/reed-v-n-e-vail-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Reed v. N. E. Vail & Co., 208 A.D. 708 (N.Y. App. Div. 1923)\",\"link_md\":\"[Reed v. N. E. Vail & Co., 208 A.D. 708 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/208-a-d-708/reed-v-n-e-vail-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6299},{\"cluster_id\":5435020,\"case_name\":\"Morgenthau v. Vail\",\"citations\":[\"208 A.D. 713\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1923-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/208-a-d-713/morgenthau-v-vail\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Morgenthau v. Vail, 208 A.D. 713 (N.Y. App. Div. 1923)\",\"link_md\":\"[Morgenthau v. Vail, 208 A.D. 713 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/208-a-d-713/morgenthau-v-vail)\",\"match_kind\":\"semantic\",\"similarity\":0.629},{\"cluster_id\":1030409,\"case_name\":\"Liggins v. William A. Hazel, Inc.\",\"citations\":[\"348 F. App'x 854\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"2009-10-23\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-1030409/liggins-v-william-a-hazel-inc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Liggins v. William A. Hazel, Inc., 348 F. App'x 854 (4th Cir. 2009)\",\"link_md\":\"[Liggins v. William A. Hazel, Inc., 348 F. App'x 854 (4th Cir. 2009)](https://syfert.com/federal/circuits/cases/cl-1030409/liggins-v-william-a-hazel-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6246},{\"cluster_id\":6258303,\"case_name\":\"Viall v. Dater\",\"citations\":[\"32 N.Y. Sup. Ct. 191\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1881-09-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6258303/viall-v-dater\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Viall v. Dater, 32 N.Y. Sup. Ct. 191 (N.Y. Sup. Ct. 1881)\",\"link_md\":\"[Viall v. Dater, 32 N.Y. Sup. Ct. 191 (N.Y. Sup. Ct. 1881)](https://syfert.com/new-york/cases/cl-6258303/viall-v-dater)\",\"match_kind\":\"semantic\",\"similarity\":0.6242},{\"cluster_id\":127966,\"case_name\":\"Vaile v. Porsboll, Fka Vaile\",\"citations\":[\"538 U.S. 906\",\"71 U.S.L.W. 3577\"],\"court\":\"Supreme Court\",\"date_filed\":\"2003-03-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/538-u-s-906/vaile-v-porsboll-fka-vaile\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vaile v. Porsboll, 538 U.S. 906 (2003)\",\"link_md\":\"[Vaile v. Porsboll, 538 U.S. 906 (2003)](https://syfert.com/federal/scotus/cases/538-u-s-906/vaile-v-porsboll-fka-vaile)\",\"match_kind\":\"semantic\",\"similarity\":0.6233},{\"cluster_id\":4239813,\"case_name\":\"Sears and Ace American Insurance Company v. Patricia Baltian\",\"citations\":[],\"court\":\"Court of Appeals of Virginia\",\"date_filed\":\"2016-07-19\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/virginia/cases/cl-4239813/sears-and-ace-american-insurance-company-v-patricia-baltian\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sears & Ace Am. Ins. Co. v. Patricia Baltian, No. 0143164 (Va. Ct. App. July 19, 2016)\",\"link_md\":\"[Sears & Ace Am. Ins. Co. v. Patricia Baltian, No. 0143164 (Va. Ct. App. July 19, 2016)](https://syfert.com/virginia/cases/cl-4239813/sears-and-ace-american-insurance-company-v-patricia-baltian)\",\"match_kind\":\"semantic\",\"similarity\":0.6221},{\"cluster_id\":2573878,\"case_name\":\"Waelty v. Waelty\",\"citations\":[\"210 P.3d 777\",\"123 Nev. 868\",\"2007 Nev. LEXIS 169\"],\"court\":\"Nevada Supreme Court\",\"date_filed\":\"2007-03-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/nevada/cases/123-nev-868/waelty-v-waelty\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Waelty v. Waelty, 210 P.3d 777 (Nev. 2007)\",\"link_md\":\"[Waelty v. Waelty, 210 P.3d 777 (Nev. 2007)](https://syfert.com/nevada/cases/123-nev-868/waelty-v-waelty)\",\"match_kind\":\"semantic\",\"similarity\":0.6219},{\"cluster_id\":5526556,\"case_name\":\"Waller v. Valentine\",\"citations\":[\"261 A.D. 949\",\"27 N.Y.S.2d 192\",\"1941 N.Y. App. Div. LEXIS 8253\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1941-03-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/261-a-d-949/waller-v-valentine\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Waller v. Valentine, 261 A.D. 949 (N.Y. App. Div. 1st Dep't 1941)\",\"link_md\":\"[Waller v. Valentine, 261 A.D. 949 (N.Y. App. Div. 1st Dep't 1941)](https://syfert.com/new-york/cases/261-a-d-949/waller-v-valentine)\",\"match_kind\":\"semantic\",\"similarity\":0.6189}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Vail w/15 \"23 N.E. 801\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8364149,
+    "case_name": "Vail v. Vail",
+    "citations": [
+     "26 N.Y. St. Rep. 978"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1889-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-8364149/vail-v-vail",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vail v. Vail, 26 N.Y. St. Rep. 978 (N.Y. 1889)",
+    "link_md": "[Vail v. Vail, 26 N.Y. St. Rep. 978 (N.Y. 1889)](https://syfert.com/new-york/cases/cl-8364149/vail-v-vail)",
+    "match_kind": "semantic",
+    "similarity": 0.7032
+   },
+   {
+    "cluster_id": 2030106,
+    "case_name": "Vail v. Vail",
+    "citations": [
+     "240 N.E.2d 519",
+     "98 Ill. App. 2d 234"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1968-06-27",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/illinois/cases/98-ill-app-2d-234/vail-v-vail",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (2030106 and its twin 7104305).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vail v. Vail, 240 N.E.2d 519 (Ill. App. Ct. 1st Dist. 1968)",
+    "link_md": "[Vail v. Vail, 240 N.E.2d 519 (Ill. App. Ct. 1st Dist. 1968)](https://syfert.com/illinois/cases/98-ill-app-2d-234/vail-v-vail)",
+    "match_kind": "semantic",
+    "similarity": 0.6923
+   },
+   {
+    "cluster_id": 3597365,
+    "case_name": "Matter of Vail",
+    "citations": [
+     "93 N.E. 1120",
+     "199 N.Y. 560",
+     "1910 N.Y. LEXIS 1339"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1910-10-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/199-n-y-560/matter-of-vail",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Vail, 93 N.E. 1120 (N.Y. 1910)",
+    "link_md": "[Matter of Vail, 93 N.E. 1120 (N.Y. 1910)](https://syfert.com/new-york/cases/199-n-y-560/matter-of-vail)",
+    "match_kind": "semantic",
+    "similarity": 0.6729
+   },
+   {
+    "cluster_id": 8376030,
+    "case_name": "State ex rel. Vail v. Craig",
+    "citations": [
+     "64 Ohio St. (N.S.) 588"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1901-04-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/cl-8376030/state-ex-rel-vail-v-craig",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Vail v. Craig, 64 Ohio St. (N.S.) 588 (Ohio 1901)",
+    "link_md": "[State ex rel. Vail v. Craig, 64 Ohio St. (N.S.) 588 (Ohio 1901)](https://syfert.com/ohio/cases/cl-8376030/state-ex-rel-vail-v-craig)",
+    "match_kind": "semantic",
+    "similarity": 0.6562
+   },
+   {
+    "cluster_id": 2031560,
+    "case_name": "Epton v. Vail",
+    "citations": [
+     "119 N.E.2d 410",
+     "2 Ill. App. 2d 287"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1954-05-27",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/illinois/cases/2-ill-app-2d-287/epton-v-vail",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Epton v. Vail, 119 N.E.2d 410 (Ill. App. Ct. 1954)",
+    "link_md": "[Epton v. Vail, 119 N.E.2d 410 (Ill. App. Ct. 1954)](https://syfert.com/illinois/cases/2-ill-app-2d-287/epton-v-vail)",
+    "match_kind": "semantic",
+    "similarity": 0.6531
+   },
+   {
+    "cluster_id": 5428929,
+    "case_name": "Eldering v. N. E. Vail & Co.",
+    "citations": [
+     "202 A.D. 819"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1922-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/202-a-d-819/eldering-v-n-e-vail-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Eldering v. N. E. Vail & Co., 202 A.D. 819 (N.Y. App. Div. 1922)",
+    "link_md": "[Eldering v. N. E. Vail & Co., 202 A.D. 819 (N.Y. App. Div. 1922)](https://syfert.com/new-york/cases/202-a-d-819/eldering-v-n-e-vail-co)",
+    "match_kind": "semantic",
+    "similarity": 0.653
+   },
+   {
+    "cluster_id": 3583962,
+    "case_name": "John W. Barwell, Inc. v. Vail",
+    "citations": [
+     "162 A. 575",
+     "111 N.J. Eq. 431",
+     "1932 N.J. LEXIS 745"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "1932-10-17",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-jersey/cases/162-a-575/john-w-barwell-inc-v-vail",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "John W. Barwell, Inc. v. Vail, 162 A. 575 (N.J. 1932)",
+    "link_md": "[John W. Barwell, Inc. v. Vail, 162 A. 575 (N.J. 1932)](https://syfert.com/new-jersey/cases/162-a-575/john-w-barwell-inc-v-vail)",
+    "match_kind": "semantic",
+    "similarity": 0.6514
+   },
+   {
+    "cluster_id": 7127228,
+    "case_name": "Vail v. Heustis",
+    "citations": [
+     "14 Ind. 85"
+    ],
+    "court": "Indiana Supreme Court",
+    "date_filed": "1859-12-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/indiana/cases/14-ind-85/vail-v-heustis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vail v. Heustis, 14 Ind. 85 (1859)",
+    "link_md": "[Vail v. Heustis, 14 Ind. 85 (1859)](https://syfert.com/indiana/cases/14-ind-85/vail-v-heustis)",
+    "match_kind": "semantic",
+    "similarity": 0.6449
+   },
+   {
+    "cluster_id": 2262274,
+    "case_name": "Vaile v. PORSBOL",
+    "citations": [
+     "238 P.3d 862",
+     "124 Nev. 1515",
+     "2008 Nev. LEXIS 281"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2008-10-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/124-nev-1515/vaile-v-porsbol",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vaile v. Porsbol, 238 P.3d 862 (Nev. 2008)",
+    "link_md": "[Vaile v. Porsbol, 238 P.3d 862 (Nev. 2008)](https://syfert.com/nevada/cases/124-nev-1515/vaile-v-porsbol)",
+    "match_kind": "semantic",
+    "similarity": 0.642
+   },
+   {
+    "cluster_id": 6253232,
+    "case_name": "Vail v. Lane",
+    "citations": [
+     "11 N.Y. Sup. Ct. 653"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1875-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6253232/vail-v-lane",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vail v. Lane, 11 N.Y. Sup. Ct. 653 (N.Y. Sup. Ct. 1875)",
+    "link_md": "[Vail v. Lane, 11 N.Y. Sup. Ct. 653 (N.Y. Sup. Ct. 1875)](https://syfert.com/new-york/cases/cl-6253232/vail-v-lane)",
+    "match_kind": "semantic",
+    "similarity": 0.6363
+   },
+   {
+    "cluster_id": 8334509,
+    "case_name": "Bernard v. Walker",
+    "citations": [
+     "212 S.W.2d 600",
+     "186 Tenn. 617",
+     "22 Beeler 617",
+     "1948 Tenn. LEXIS 589"
+    ],
+    "court": "Tennessee Supreme Court",
+    "date_filed": "1948-06-12",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/tennessee/cases/186-tenn-617/bernard-v-walker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bernard v. Walker, 212 S.W.2d 600 (Tenn. 1948)",
+    "link_md": "[Bernard v. Walker, 212 S.W.2d 600 (Tenn. 1948)](https://syfert.com/tennessee/cases/186-tenn-617/bernard-v-walker)",
+    "match_kind": "semantic",
+    "similarity": 0.6327
+   },
+   {
+    "cluster_id": 6599858,
+    "case_name": "Vail v. Scoville",
+    "citations": [
+     "55 Ariz. 502",
+     "103 P.2d 668",
+     "1940 Ariz. LEXIS 275"
+    ],
+    "court": "Arizona Supreme Court",
+    "date_filed": "1940-06-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/arizona/cases/55-ariz-502/vail-v-scoville",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (6599858 and its twin 3255832). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vail v. Scoville, 55 Ariz. 502 (1940)",
+    "link_md": "[Vail v. Scoville, 55 Ariz. 502 (1940)](https://syfert.com/arizona/cases/55-ariz-502/vail-v-scoville)",
+    "match_kind": "semantic",
+    "similarity": 0.6311,
+    "twin_clusters": [
+     3255832
+    ]
+   },
+   {
+    "cluster_id": 5434979,
+    "case_name": "Reed v. N. E. Vail & Co.",
+    "citations": [
+     "208 A.D. 708"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1923-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/208-a-d-708/reed-v-n-e-vail-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Reed v. N. E. Vail & Co., 208 A.D. 708 (N.Y. App. Div. 1923)",
+    "link_md": "[Reed v. N. E. Vail & Co., 208 A.D. 708 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/208-a-d-708/reed-v-n-e-vail-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6299
+   },
+   {
+    "cluster_id": 5435020,
+    "case_name": "Morgenthau v. Vail",
+    "citations": [
+     "208 A.D. 713"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1923-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/208-a-d-713/morgenthau-v-vail",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Morgenthau v. Vail, 208 A.D. 713 (N.Y. App. Div. 1923)",
+    "link_md": "[Morgenthau v. Vail, 208 A.D. 713 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/208-a-d-713/morgenthau-v-vail)",
+    "match_kind": "semantic",
+    "similarity": 0.629
+   },
+   {
+    "cluster_id": 1030409,
+    "case_name": "Liggins v. William A. Hazel, Inc.",
+    "citations": [
+     "348 F. App'x 854"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "2009-10-23",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-1030409/liggins-v-william-a-hazel-inc",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Liggins v. William A. Hazel, Inc., 348 F. App'x 854 (4th Cir. 2009)",
+    "link_md": "[Liggins v. William A. Hazel, Inc., 348 F. App'x 854 (4th Cir. 2009)](https://syfert.com/federal/circuits/cases/cl-1030409/liggins-v-william-a-hazel-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6246
+   },
+   {
+    "cluster_id": 6258303,
+    "case_name": "Viall v. Dater",
+    "citations": [
+     "32 N.Y. Sup. Ct. 191"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1881-09-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6258303/viall-v-dater",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Viall v. Dater, 32 N.Y. Sup. Ct. 191 (N.Y. Sup. Ct. 1881)",
+    "link_md": "[Viall v. Dater, 32 N.Y. Sup. Ct. 191 (N.Y. Sup. Ct. 1881)](https://syfert.com/new-york/cases/cl-6258303/viall-v-dater)",
+    "match_kind": "semantic",
+    "similarity": 0.6242
+   },
+   {
+    "cluster_id": 127966,
+    "case_name": "Vaile v. Porsboll, Fka Vaile",
+    "citations": [
+     "538 U.S. 906",
+     "71 U.S.L.W. 3577"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2003-03-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/538-u-s-906/vaile-v-porsboll-fka-vaile",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vaile v. Porsboll, 538 U.S. 906 (2003)",
+    "link_md": "[Vaile v. Porsboll, 538 U.S. 906 (2003)](https://syfert.com/federal/scotus/cases/538-u-s-906/vaile-v-porsboll-fka-vaile)",
+    "match_kind": "semantic",
+    "similarity": 0.6233
+   },
+   {
+    "cluster_id": 4239813,
+    "case_name": "Sears and Ace American Insurance Company v. Patricia Baltian",
+    "citations": [],
+    "court": "Court of Appeals of Virginia",
+    "date_filed": "2016-07-19",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/virginia/cases/cl-4239813/sears-and-ace-american-insurance-company-v-patricia-baltian",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Sears & Ace Am. Ins. Co. v. Patricia Baltian, No. 0143164 (Va. Ct. App. July 19, 2016)",
+    "link_md": "[Sears & Ace Am. Ins. Co. v. Patricia Baltian, No. 0143164 (Va. Ct. App. July 19, 2016)](https://syfert.com/virginia/cases/cl-4239813/sears-and-ace-american-insurance-company-v-patricia-baltian)",
+    "match_kind": "semantic",
+    "similarity": 0.6221
+   },
+   {
+    "cluster_id": 2573878,
+    "case_name": "Waelty v. Waelty",
+    "citations": [
+     "210 P.3d 777",
+     "123 Nev. 868",
+     "2007 Nev. LEXIS 169"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2007-03-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/123-nev-868/waelty-v-waelty",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Waelty v. Waelty, 210 P.3d 777 (Nev. 2007)",
+    "link_md": "[Waelty v. Waelty, 210 P.3d 777 (Nev. 2007)](https://syfert.com/nevada/cases/123-nev-868/waelty-v-waelty)",
+    "match_kind": "semantic",
+    "similarity": 0.6219
+   },
+   {
+    "cluster_id": 5526556,
+    "case_name": "Waller v. Valentine",
+    "citations": [
+     "261 A.D. 949",
+     "27 N.Y.S.2d 192",
+     "1941 N.Y. App. Div. LEXIS 8253"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1941-03-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/261-a-d-949/waller-v-valentine",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Waller v. Valentine, 261 A.D. 949 (N.Y. App. Div. 1st Dep't 1941)",
+    "link_md": "[Waller v. Valentine, 261 A.D. 949 (N.Y. App. Div. 1st Dep't 1941)](https://syfert.com/new-york/cases/261-a-d-949/waller-v-valentine)",
+    "match_kind": "semantic",
+    "similarity": 0.6189
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

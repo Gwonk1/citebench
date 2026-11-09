@@ -1,0 +1,74 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Bazerman w/15 \"609 N.Y.S.2d 610\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Bazerman w/15 \\\"609 N.Y.S.2d 610\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2505650,\"bluebook\":\"Rypkema v. Time Mfg. Co., 263 F. Supp. 2d 687 (S.D.N.Y. 2003)\",\"url\":\"https://syfert.com/federal/district/cases/263-f-supp-2d-687/rypkema-v-time-manufacturing-co\",\"date_filed\":\"2003-05-20\",\"cited_by\":15,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...F.2d 240 (2d Cir.1980).\\nManufacturers have no duties to warn of open and obvious dangers.\\nBazerman v. Gardall Safe Corp.,\\n203 A.D.2d 56 , 609 N.Y.S.2d 610 (1st Dep’t 1994);\\nWilhouski v. Canon U.S.A.,\\n212 A.D.2d 525 , 622 N...\"},{\"cluster_id\":7093205,\"bluebook\":\"Burke v. Spartanics Ltd., 252 F.3d 131 (2d Cir. 2001)\",\"url\":\"https://syfert.com/federal/circuits/cases/252-f-3d-131/burke-v-spartanics-ltd\",\"date_filed\":\"2001-06-04\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...2d 232 , 677 N.Y.S.2d 764 , 700 N.E.2d 303, 308 ; accord, e.g., Bazerman v. Gardall Safe Corp., 203 A.D.2d 56 , 609 N.Y.S.2d 610 , 611 (1st Dep’t 1994). This is just another way of saying that a reasonable person would...\"},{\"cluster_id\":2567961,\"bluebook\":\"Anderson v. Bungee Int'l Mfg. Corp., 44 F. Supp. 2d 534 (S.D.N.Y. 1999)\",\"url\":\"https://syfert.com/federal/district/cases/44-f-supp-2d-534/anderson-v-bungee-international-manufacturing-corp\",\"date_filed\":\"1999-04-07\",\"cited_by\":11,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Haugh’s Pools, Ltd.,\\n126 A.D.2d 958 , 511 N.Y.S.2d 732 (4th Dep’t 1987), and because the danger was obvious,\\nsee Bazerman v. Gardall Safe Corp.,\\n203 A.D.2d 56 , 609 N.Y.S.2d 610 (1st Dep’t 1994). In view of Anderson...\"},{\"cluster_id\":773511,\"bluebook\":\"Alphonso Burke v. Spartanics Ltd., 252 F.3d 131 (2d Cir. 2001)\",\"url\":\"https://syfert.com/federal/circuits/cases/252-f-3d-131/alphonso-burke-v-spartanics-ltd-and-its-successor-corporation-whose\",\"date_filed\":\"2001-06-04\",\"cited_by\":0,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...patently dangerous or pose open and obvious risks.\\\" Liriano II, 700 N.E.2d 303, 308 ; accord, e.g., Bazerman v. Gardall Safe Corp., 609 N.Y.S.2d 610 , 611 (App. Div., 1st Dep't 1994). This is just another way of saying that a reasonable…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Bazerman w/15 \"609 N.Y.S.2d 610\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2505650,
+    "bluebook": "Rypkema v. Time Mfg. Co., 263 F. Supp. 2d 687 (S.D.N.Y. 2003)",
+    "url": "https://syfert.com/federal/district/cases/263-f-supp-2d-687/rypkema-v-time-manufacturing-co",
+    "date_filed": "2003-05-20",
+    "cited_by": 15,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...F.2d 240 (2d Cir.1980).\nManufacturers have no duties to warn of open and obvious dangers.\nBazerman v. Gardall Safe Corp.,\n203 A.D.2d 56 , 609 N.Y.S.2d 610 (1st Dep’t 1994);\nWilhouski v. Canon U.S.A.,\n212 A.D.2d 525 , 622 N..."
+   },
+   {
+    "cluster_id": 7093205,
+    "bluebook": "Burke v. Spartanics Ltd., 252 F.3d 131 (2d Cir. 2001)",
+    "url": "https://syfert.com/federal/circuits/cases/252-f-3d-131/burke-v-spartanics-ltd",
+    "date_filed": "2001-06-04",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2d 232 , 677 N.Y.S.2d 764 , 700 N.E.2d 303, 308 ; accord, e.g., Bazerman v. Gardall Safe Corp., 203 A.D.2d 56 , 609 N.Y.S.2d 610 , 611 (1st Dep’t 1994). This is just another way of saying that a reasonable person would..."
+   },
+   {
+    "cluster_id": 2567961,
+    "bluebook": "Anderson v. Bungee Int'l Mfg. Corp., 44 F. Supp. 2d 534 (S.D.N.Y. 1999)",
+    "url": "https://syfert.com/federal/district/cases/44-f-supp-2d-534/anderson-v-bungee-international-manufacturing-corp",
+    "date_filed": "1999-04-07",
+    "cited_by": 11,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Haugh’s Pools, Ltd.,\n126 A.D.2d 958 , 511 N.Y.S.2d 732 (4th Dep’t 1987), and because the danger was obvious,\nsee Bazerman v. Gardall Safe Corp.,\n203 A.D.2d 56 , 609 N.Y.S.2d 610 (1st Dep’t 1994). In view of Anderson..."
+   },
+   {
+    "cluster_id": 773511,
+    "bluebook": "Alphonso Burke v. Spartanics Ltd., 252 F.3d 131 (2d Cir. 2001)",
+    "url": "https://syfert.com/federal/circuits/cases/252-f-3d-131/alphonso-burke-v-spartanics-ltd-and-its-successor-corporation-whose",
+    "date_filed": "2001-06-04",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...patently dangerous or pose open and obvious risks.\" Liriano II, 700 N.E.2d 303, 308 ; accord, e.g., Bazerman v. Gardall Safe Corp., 609 N.Y.S.2d 610 , 611 (App. Div., 1st Dep't 1994). This is just another way of saying that a reasonable…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

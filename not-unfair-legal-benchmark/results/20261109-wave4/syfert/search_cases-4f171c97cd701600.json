@@ -1,0 +1,112 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Interboro w/15 \"933 N.Y.S.2d 343\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Interboro w/15 \\\"933 N.Y.S.2d 343\\\"\",\"total\":7,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4337841,\"bluebook\":\"H.J. Heinz Co. v. Starr Surplus Lines Ins. Co., 675 F. App'x 122 (3d Cir. 2017)\",\"url\":\"https://syfert.com/federal/circuits/cases/675-f-appx-122/hj-heinz-co-v-starr-surplus-lines-insurance-co\",\"date_filed\":\"2017-01-11\",\"cited_by\":1,\"status\":\"Unpublished\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...2008);\\nsee Interboro Ins. Co. v. Fatmir,\\n89 A.D.3d 993 , 933 N.Y.S.2d 343 , 345 (App. Div. 2011). A misrepresentation in an insurance application\\nis a false statement “as to past or present fact, made to the insurer by, or by the…\",\"passage_origin\":{\"case_name\":\"Morales v. Castlepoint Insurance\",\"cluster_id\":2782201,\"year\":2015,\"quoted_by_cases\":2}},{\"cluster_id\":9881919,\"bluebook\":\"Bareby v. Union Mut. Fire Ins. Co., No. 1:22-cv-06034 (S.D.N.Y. Feb. 8, 2023)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9881919/bareby-v-union-mutual-fire-insurance-company\",\"date_filed\":\"2023-02-08\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...Also appended to the\\n1 “To establish the right to rescind an insurance policy, an\\ninsurer must show that its insured made a material\\nmisrepresentation of fact when he or she secured the policy.”\\nInterboro Ins. Co. v. Fatmir, 933…\",\"passage_origin\":{\"case_name\":\"Interboro Insurance v. Fatmir\",\"cluster_id\":5972346,\"year\":2011,\"quoted_by_cases\":6}},{\"cluster_id\":10195560,\"bluebook\":\"Travelers Cas. Ins. Co. of Am. v. BJB Constr. Corp., No. 7:22-cv-05496 (S.D.N.Y. Aug. 27, 2024)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10195560/travelers-casualty-insurance-company-of-america-v-bjb-construction-corp\",\"date_filed\":\"2024-08-27\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...Jasam Realty Corp., 540 F.3d 133, 139 (2d Cir.2008)); see Interboro Ins. Co. v. Fatmir, 89 A.D.3d\\n993 , 933 N.Y.S.2d 343 , 345 (App.Div.2011). “The insurer bears the burden of establishing both\\nthat there has been a misrepresentation…\"},{\"cluster_id\":10197145,\"bluebook\":\"Hall v. Mountain Valley Indem. Co., No. 1:23-cv-02496 (S.D.N.Y. Oct. 30, 2024)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10197145/hall-v-mountain-valley-indemnity-company\",\"date_filed\":\"2024-10-30\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...But even if Plaintiff were claiming coverage of a bodily injury, “a\\ndisclaimer pursuant to Insurance Law § 3420(d) [i]s not required” if “the policy never provided\\ncoverage for the claim at issue.” Interboro Ins. Co. v. Fatmir, 933…\"},{\"cluster_id\":7305290,\"bluebook\":\"Cont'l Cas. Co. v. Marshall Granger & Co., 6 F. Supp. 3d 380 (S.D.N.Y. 2014)\",\"url\":\"https://syfert.com/federal/district/cases/6-f-supp-3d-380/continental-casualty-co-v-marshall-granger-co\",\"date_filed\":\"2014-03-20\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Jasam Realty Corp., 540 F.3d 133, 139 (2d Cir.2008); see Interboro Ins. Co. v. Fatmir, 89 A.D.3d 993 , 933 N.Y.S.2d 343 , 345 (App.Div.2011). A misrepresentation in an application for insurance is a false “ ‘statement as to past or…\"},{\"cluster_id\":8722557,\"bluebook\":\"Cont'l Cas. Co. v. Marshall Granger & Co., 921 F. Supp. 2d 111 (S.D.N.Y. 2013)\",\"url\":\"https://syfert.com/federal/district/cases/921-f-supp-2d-111/continental-casualty-co-v-marshall-granger-co\",\"date_filed\":\"2013-01-31\",\"cited_by\":16,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Jasam Realty Corp., 540 F.3d 133, 139 (2d Cir.2008); see Interboro Ins. Co. v. Fatmir, 89 A.D.3d 993 , 933 N.Y.S.2d 343 , 345 (2d Dep’t 2011). A misrepresentation in an application for insurance is a false “ ‘statement as to past or…\"},{\"cluster_id\":10769438,\"bluebook\":\"Wertzberger, No. 1:23-cv-07792 (E.D.N.Y. Jan. 5, 2026)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10769438/union-mutual-fire-insurance-company-v-joel-wertzberger-1022-east-226th\",\"date_filed\":\"2026-01-05\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...ab initio, if the insurer shows that its insured made a material\\nmisrepresentation of fact when securing the policy. Interboro Ins. Co. v. Fatmir, 933 N.Y.S.2d\\n343 , 345 (1st Dep’t 2011). A misrepresentation is a false representation…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"passage_origin_note\":\"passage_origin was checked only for the first results (time limit); later rows were not checked.\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Interboro w/15 \"933 N.Y.S.2d 343\"",
+  "total": 7,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4337841,
+    "bluebook": "H.J. Heinz Co. v. Starr Surplus Lines Ins. Co., 675 F. App'x 122 (3d Cir. 2017)",
+    "url": "https://syfert.com/federal/circuits/cases/675-f-appx-122/hj-heinz-co-v-starr-surplus-lines-insurance-co",
+    "date_filed": "2017-01-11",
+    "cited_by": 1,
+    "status": "Unpublished",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2008);\nsee Interboro Ins. Co. v. Fatmir,\n89 A.D.3d 993 , 933 N.Y.S.2d 343 , 345 (App. Div. 2011). A misrepresentation in an insurance application\nis a false statement “as to past or present fact, made to the insurer by, or by the…",
+    "passage_origin": {
+     "case_name": "Morales v. Castlepoint Insurance",
+     "cluster_id": 2782201,
+     "year": 2015,
+     "quoted_by_cases": 2
+    }
+   },
+   {
+    "cluster_id": 9881919,
+    "bluebook": "Bareby v. Union Mut. Fire Ins. Co., No. 1:22-cv-06034 (S.D.N.Y. Feb. 8, 2023)",
+    "url": "https://syfert.com/federal/district/cases/cl-9881919/bareby-v-union-mutual-fire-insurance-company",
+    "date_filed": "2023-02-08",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...Also appended to the\n1 “To establish the right to rescind an insurance policy, an\ninsurer must show that its insured made a material\nmisrepresentation of fact when he or she secured the policy.”\nInterboro Ins. Co. v. Fatmir, 933…",
+    "passage_origin": {
+     "case_name": "Interboro Insurance v. Fatmir",
+     "cluster_id": 5972346,
+     "year": 2011,
+     "quoted_by_cases": 6
+    }
+   },
+   {
+    "cluster_id": 10195560,
+    "bluebook": "Travelers Cas. Ins. Co. of Am. v. BJB Constr. Corp., No. 7:22-cv-05496 (S.D.N.Y. Aug. 27, 2024)",
+    "url": "https://syfert.com/federal/district/cases/cl-10195560/travelers-casualty-insurance-company-of-america-v-bjb-construction-corp",
+    "date_filed": "2024-08-27",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...Jasam Realty Corp., 540 F.3d 133, 139 (2d Cir.2008)); see Interboro Ins. Co. v. Fatmir, 89 A.D.3d\n993 , 933 N.Y.S.2d 343 , 345 (App.Div.2011). “The insurer bears the burden of establishing both\nthat there has been a misrepresentation…"
+   },
+   {
+    "cluster_id": 10197145,
+    "bluebook": "Hall v. Mountain Valley Indem. Co., No. 1:23-cv-02496 (S.D.N.Y. Oct. 30, 2024)",
+    "url": "https://syfert.com/federal/district/cases/cl-10197145/hall-v-mountain-valley-indemnity-company",
+    "date_filed": "2024-10-30",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...But even if Plaintiff were claiming coverage of a bodily injury, “a\ndisclaimer pursuant to Insurance Law § 3420(d) [i]s not required” if “the policy never provided\ncoverage for the claim at issue.” Interboro Ins. Co. v. Fatmir, 933…"
+   },
+   {
+    "cluster_id": 7305290,
+    "bluebook": "Cont'l Cas. Co. v. Marshall Granger & Co., 6 F. Supp. 3d 380 (S.D.N.Y. 2014)",
+    "url": "https://syfert.com/federal/district/cases/6-f-supp-3d-380/continental-casualty-co-v-marshall-granger-co",
+    "date_filed": "2014-03-20",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Jasam Realty Corp., 540 F.3d 133, 139 (2d Cir.2008); see Interboro Ins. Co. v. Fatmir, 89 A.D.3d 993 , 933 N.Y.S.2d 343 , 345 (App.Div.2011). A misrepresentation in an application for insurance is a false “ ‘statement as to past or…"
+   },
+   {
+    "cluster_id": 8722557,
+    "bluebook": "Cont'l Cas. Co. v. Marshall Granger & Co., 921 F. Supp. 2d 111 (S.D.N.Y. 2013)",
+    "url": "https://syfert.com/federal/district/cases/921-f-supp-2d-111/continental-casualty-co-v-marshall-granger-co",
+    "date_filed": "2013-01-31",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Jasam Realty Corp., 540 F.3d 133, 139 (2d Cir.2008); see Interboro Ins. Co. v. Fatmir, 89 A.D.3d 993 , 933 N.Y.S.2d 343 , 345 (2d Dep’t 2011). A misrepresentation in an application for insurance is a false “ ‘statement as to past or…"
+   },
+   {
+    "cluster_id": 10769438,
+    "bluebook": "Wertzberger, No. 1:23-cv-07792 (E.D.N.Y. Jan. 5, 2026)",
+    "url": "https://syfert.com/federal/district/cases/cl-10769438/union-mutual-fire-insurance-company-v-joel-wertzberger-1022-east-226th",
+    "date_filed": "2026-01-05",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...ab initio, if the insurer shows that its insured made a material\nmisrepresentation of fact when securing the policy. Interboro Ins. Co. v. Fatmir, 933 N.Y.S.2d\n343 , 345 (1st Dep’t 2011). A misrepresentation is a false representation…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "passage_origin_note": "passage_origin was checked only for the first results (time limit); later rows were not checked.",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

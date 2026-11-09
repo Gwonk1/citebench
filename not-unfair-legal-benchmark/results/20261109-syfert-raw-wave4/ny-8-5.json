@@ -1,0 +1,104 @@
+{
+ "id": "ny-8-5",
+ "class": "nyseries",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Good Energy, L.P. v. Kosachuk, 853 N.Y.S.2d 75."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"853 N.Y.S.2d 75\",\n            \"volume\": \"853\",\n            \"reporter\": \"N.Y.S.2d\",\n            \"page\": \"75\",\n            \"pin\": null,\n            \"cluster_id\": 5889254,\n            \"case\": {\n                \"case_name\": \"Good Energy, L.P. v. Kosachuk\",\n                \"case_name_short\": \"Kosachuk\",\n                \"date_filed\": \"2008-03-11\",\n                \"court_id\": \"nyappdiv\",\n                \"docket_number\": null,\n                \"citation_count\": 9,\n                \"court_label\": \"N.Y. App. Div. 1st Dep't\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 13.894,\n                \"total_events\": 12,\n                \"distinct_courts\": 4,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Kliger v. Fairmont Ins. Brokers LLC\",\n                \"top_pos_court\": \"nysupctkings\",\n                \"top_pos_date\": \"2026-03-04\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Good Energy, L.P.\",\n                \"rhs\": \"Kosachuk\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Good Energy, L.P.\",\n                    \"rhs\": \"Kosachuk\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Good Energy, L.P. v. Kosachuk\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/new-york/cases/49-a-d-3d-331/good-energy-lp-v-kosachuk\",\n            \"link_md\": \"[Good Energy, L.P. v. Kosachuk](https://syfert.com/new-york/cases/49-a-d-3d-331/good-energy-lp-v-kosachuk)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "853 N.Y.S.2d 75",
+      "volume": "853",
+      "reporter": "N.Y.S.2d",
+      "page": "75",
+      "pin": null,
+      "cluster_id": 5889254,
+      "case": {
+       "case_name": "Good Energy, L.P. v. Kosachuk",
+       "case_name_short": "Kosachuk",
+       "date_filed": "2008-03-11",
+       "court_id": "nyappdiv",
+       "docket_number": null,
+       "citation_count": 9,
+       "court_label": "N.Y. App. Div. 1st Dep't"
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 13.894,
+       "total_events": 12,
+       "distinct_courts": 4,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Kliger v. Fairmont Ins. Brokers LLC",
+       "top_pos_court": "nysupctkings",
+       "top_pos_date": "2026-03-04",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Good Energy, L.P.",
+       "rhs": "Kosachuk"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Good Energy, L.P.",
+        "rhs": "Kosachuk"
+       },
+       "verdict": "match",
+       "resolved_name": "Good Energy, L.P. v. Kosachuk"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/new-york/cases/49-a-d-3d-331/good-energy-lp-v-kosachuk",
+      "link_md": "[Good Energy, L.P. v. Kosachuk](https://syfert.com/new-york/cases/49-a-d-3d-331/good-energy-lp-v-kosachuk)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Harris w/15 \"240 A.3d 19\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Harris w/15 \\\"240 A.3d 19\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":9634802,\"bluebook\":\"Pickle v. May, No. 1:18-cv-00680 (D. Del. Aug. 23, 2021)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9634802/pickle-v-may\",\"date_filed\":\"2021-08-23\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...See, e.g., Harris\\nv. State, 240 A.3d 19 (Table), 2020 WL 6058295 , at (Del. Oct. 12, 2020) (using a prison mail\\nlog from the James T. Vaughn Correctional Center to determine when prisoner mailed his notice\\nof appeal); Howard v. Coupe,…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Harris w/15 \"240 A.3d 19\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 9634802,
+    "bluebook": "Pickle v. May, No. 1:18-cv-00680 (D. Del. Aug. 23, 2021)",
+    "url": "https://syfert.com/federal/district/cases/cl-9634802/pickle-v-may",
+    "date_filed": "2021-08-23",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...See, e.g., Harris\nv. State, 240 A.3d 19 (Table), 2020 WL 6058295 , at (Del. Oct. 12, 2020) (using a prison mail\nlog from the James T. Vaughn Correctional Center to determine when prisoner mailed his notice\nof appeal); Howard v. Coupe,…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

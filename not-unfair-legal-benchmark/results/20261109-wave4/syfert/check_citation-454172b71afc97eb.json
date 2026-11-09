@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "57 N.E. 92",
+  "expected_case_name": "Walton v. . Stafford"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"57 N.E. 92\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3606075,\n            \"case_name\": \"Walton v. . Stafford\",\n            \"citations\": [\n                \"57 N.E. 92\"\n            ],\n            \"court\": \"New York Court of Appeals\",\n            \"date_filed\": \"1900-05-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 18,\n            \"url\": \"https://syfert.com/new-york/cases/162-n-y-558/walton-v-stafford\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Walton v. Stafford, 57 N.E. 92 (N.Y. 1900)\",\n            \"link_md\": \"[Walton v. Stafford, 57 N.E. 92 (N.Y. 1900)](https://syfert.com/new-york/cases/162-n-y-558/walton-v-stafford)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Walton v. . Stafford\",\n        \"actual\": \"Walton v. . Stafford\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "57 N.E. 92",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3606075,
+    "case_name": "Walton v. . Stafford",
+    "citations": [
+     "57 N.E. 92"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1900-05-01",
+    "status": "Published",
+    "cited_by": 18,
+    "url": "https://syfert.com/new-york/cases/162-n-y-558/walton-v-stafford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walton v. Stafford, 57 N.E. 92 (N.Y. 1900)",
+    "link_md": "[Walton v. Stafford, 57 N.E. 92 (N.Y. 1900)](https://syfert.com/new-york/cases/162-n-y-558/walton-v-stafford)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Walton v. . Stafford",
+   "actual": "Walton v. . Stafford",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

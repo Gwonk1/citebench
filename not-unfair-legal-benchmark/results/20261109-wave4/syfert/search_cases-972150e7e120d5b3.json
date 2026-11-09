@@ -1,0 +1,100 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Bowman w/15 \"213 N.W.2d 446\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Bowman w/15 \\\"213 N.W.2d 446\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2026118,\"bluebook\":\"In re Gull Air, Inc., 73 B.R. 820 (Bankr. D. Mass. 1987)\",\"url\":\"https://syfert.com/federal/district/cases/73-b-r-820/in-re-gull-air-inc\",\"date_filed\":\"1987-05-18\",\"cited_by\":8,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...But see Bowman v. American Home Assurance Co.,\\n190 Neb. 810 , 213 N.W.2d 446 (1973) (explicit agreement can prevent passage of title beyond the time of delivery).\\nThe written purchase and sale agreement between the Bank and the Debt-…\"},{\"cluster_id\":7892368,\"bluebook\":\"New England Yacht Sales, Inc. v. Comm'r of Revenue Servs., 504 A.2d 506 (Conn. 1986)\",\"url\":\"https://syfert.com/connecticut/cases/198-conn-624/new-england-yacht-sales-inc-v-commissioner-of-revenue-services\",\"date_filed\":\"1986-02-11\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Compare Bowman v. American Home Assurance Co., 190 Neb. 810, 814 , 213 N.W.2d 446 (1973). Although title verbiage in some specialized commercial engagements, such as documents of title and reservations of title; General Statutes §…\"},{\"cluster_id\":1551934,\"bluebook\":\"Dinkel Enter., Inc. v. Colvin (In re Bailey Pontiac, Inc.), 139 B.R. 629 (N.D. Tex. 1992)\",\"url\":\"https://syfert.com/federal/district/cases/139-b-r-629/dinkel-enterprises-inc-v-colvin-in-re-bailey-pontiac-inc\",\"date_filed\":\"1992-04-21\",\"cited_by\":11,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Bowman v. American Home Assurance Co.,\\n190 Neb. 810 , 213 N.W.2d 446 (1973).\\nSee also\\nU.C.C. § 1-205, comment 3 (1977) (recognizing that a course of dealing may enter an agreement either by explicit provisions of the agreement or by…\"},{\"cluster_id\":1896942,\"bluebook\":\"Stewart v. Barry Cnty. Livestock Auction, Inc. (In re Stewart), 274 B.R. 503 (Bankr. W.D. Ark. 2002)\",\"url\":\"https://syfert.com/federal/district/cases/274-b-r-503/stewart-v-barry-county-livestock-auction-inc-in-re-stewart\",\"date_filed\":\"2002-02-15\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Nebraska found that an explicit agreement to prevent passage of title beyond the time of delivery was allowed.\\nBowman v. American Home Assurance Co.,\\n190 Neb. 810 , 213 N.W.2d 446 (1973). In that case, the court stated that title could…\"},{\"cluster_id\":8925686,\"bluebook\":\"Nw. Flyers, Inc. v. Olson Bros. Mfg. Co., 679 F.2d 1264 (8th Cir. 1982)\",\"url\":\"https://syfert.com/federal/circuits/cases/679-f-2d-1264/northwestern-flyers-inc-v-olson-bros-mfg-co\",\"date_filed\":\"1982-06-17\",\"cited_by\":21,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Cessna Finance argues that an explicit agreement could postpone passage of title to the airplane beyond the date of delivery, see Bowman v. American Home Assurance Co., 190 Neb. 810 , 213 N.W.2d 446 (1973), and that such an agreement…\"},{\"cluster_id\":404998,\"bluebook\":\"Nw. Flyers, Inc. v. Olson Bros. Mfg. Co., Inc., 679 F.2d 1264 (8th Cir. 1982)\",\"url\":\"https://syfert.com/federal/circuits/cases/679-f-2d-1264/northwestern-flyers-inc-debtor-edward-f-samore-trustee-and-cessna\",\"date_filed\":\"1982-06-17\",\"cited_by\":0,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...that an explicit agreement could postpone passage of title to the airplane beyond the date of delivery, see Bowman v. American Home Assurance Co., 190 Neb. 810 , 213 N.W.2d 446 (1973), and that such an agreement existed in this case…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Bowman w/15 \"213 N.W.2d 446\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2026118,
+    "bluebook": "In re Gull Air, Inc., 73 B.R. 820 (Bankr. D. Mass. 1987)",
+    "url": "https://syfert.com/federal/district/cases/73-b-r-820/in-re-gull-air-inc",
+    "date_filed": "1987-05-18",
+    "cited_by": 8,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...But see Bowman v. American Home Assurance Co.,\n190 Neb. 810 , 213 N.W.2d 446 (1973) (explicit agreement can prevent passage of title beyond the time of delivery).\nThe written purchase and sale agreement between the Bank and the Debt-…"
+   },
+   {
+    "cluster_id": 7892368,
+    "bluebook": "New England Yacht Sales, Inc. v. Comm'r of Revenue Servs., 504 A.2d 506 (Conn. 1986)",
+    "url": "https://syfert.com/connecticut/cases/198-conn-624/new-england-yacht-sales-inc-v-commissioner-of-revenue-services",
+    "date_filed": "1986-02-11",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Compare Bowman v. American Home Assurance Co., 190 Neb. 810, 814 , 213 N.W.2d 446 (1973). Although title verbiage in some specialized commercial engagements, such as documents of title and reservations of title; General Statutes §…"
+   },
+   {
+    "cluster_id": 1551934,
+    "bluebook": "Dinkel Enter., Inc. v. Colvin (In re Bailey Pontiac, Inc.), 139 B.R. 629 (N.D. Tex. 1992)",
+    "url": "https://syfert.com/federal/district/cases/139-b-r-629/dinkel-enterprises-inc-v-colvin-in-re-bailey-pontiac-inc",
+    "date_filed": "1992-04-21",
+    "cited_by": 11,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Bowman v. American Home Assurance Co.,\n190 Neb. 810 , 213 N.W.2d 446 (1973).\nSee also\nU.C.C. § 1-205, comment 3 (1977) (recognizing that a course of dealing may enter an agreement either by explicit provisions of the agreement or by…"
+   },
+   {
+    "cluster_id": 1896942,
+    "bluebook": "Stewart v. Barry Cnty. Livestock Auction, Inc. (In re Stewart), 274 B.R. 503 (Bankr. W.D. Ark. 2002)",
+    "url": "https://syfert.com/federal/district/cases/274-b-r-503/stewart-v-barry-county-livestock-auction-inc-in-re-stewart",
+    "date_filed": "2002-02-15",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Nebraska found that an explicit agreement to prevent passage of title beyond the time of delivery was allowed.\nBowman v. American Home Assurance Co.,\n190 Neb. 810 , 213 N.W.2d 446 (1973). In that case, the court stated that title could…"
+   },
+   {
+    "cluster_id": 8925686,
+    "bluebook": "Nw. Flyers, Inc. v. Olson Bros. Mfg. Co., 679 F.2d 1264 (8th Cir. 1982)",
+    "url": "https://syfert.com/federal/circuits/cases/679-f-2d-1264/northwestern-flyers-inc-v-olson-bros-mfg-co",
+    "date_filed": "1982-06-17",
+    "cited_by": 21,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Cessna Finance argues that an explicit agreement could postpone passage of title to the airplane beyond the date of delivery, see Bowman v. American Home Assurance Co., 190 Neb. 810 , 213 N.W.2d 446 (1973), and that such an agreement…"
+   },
+   {
+    "cluster_id": 404998,
+    "bluebook": "Nw. Flyers, Inc. v. Olson Bros. Mfg. Co., Inc., 679 F.2d 1264 (8th Cir. 1982)",
+    "url": "https://syfert.com/federal/circuits/cases/679-f-2d-1264/northwestern-flyers-inc-debtor-edward-f-samore-trustee-and-cessna",
+    "date_filed": "1982-06-17",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...that an explicit agreement could postpone passage of title to the airplane beyond the date of delivery, see Bowman v. American Home Assurance Co., 190 Neb. 810 , 213 N.W.2d 446 (1973), and that such an agreement existed in this case…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

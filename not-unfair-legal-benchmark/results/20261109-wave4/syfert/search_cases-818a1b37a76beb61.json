@@ -1,0 +1,105 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Levin w/15 \"920 N.Y.S.2d 131\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Levin w/15 \\\"920 N.Y.S.2d 131\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4860667,\"bluebook\":\"Aaronson v. Kellogg Co., 837 F. App'x 850 (2d Cir. 2021)\",\"url\":\"https://syfert.com/federal/circuits/cases/837-f-appx-850/aaronson-v-kellogg-company\",\"date_filed\":\"2021-03-03\",\"cited_by\":0,\"status\":\"Unpublished\",\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Levin v. Kitsis, 920 N.Y.S.2d 131 , 135\\n(2d Dep’t 2011).\\n2\\nThe elements of a claim for negligent misrepresentation under New York law are (1) a duty in\\nthe defendant, as the result of a special relationship, to give correct…\"},{\"cluster_id\":625586,\"bluebook\":\"Bigio v. Coca-Cola Co., 675 F.3d 163 (2d Cir. 2012)\",\"url\":\"https://syfert.com/federal/circuits/cases/675-f-3d-163/bigio-v-coca-cola-co\",\"date_filed\":\"2012-03-19\",\"cited_by\":71,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See, e.g., Levin v. Kitsis,\\n82 A.D.3d 1051 , 920 N.Y.S.2d 131 , 134 (2011) (“The[ ] allegations were adequate to state a cause of action against [the corporation] to recover damages for unjust enrichment. The complaint does not…\",\"holding\":\"A claim for civil conspiracy requires pleading facts sufficient to support an inference of an agreement between two or more parties and an overt act in furtherance of that agreement.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":8714489,\"bluebook\":\"Picini v. Chase Home Fin. LLC, 854 F. Supp. 2d 266 (E.D.N.Y. 2012)\",\"url\":\"https://syfert.com/federal/district/cases/854-f-supp-2d-266/picini-v-chase-home-finance-llc\",\"date_filed\":\"2012-02-16\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Augur, 90 A.D.3d 1111 , 933 N.Y.S.2d 454 , 456 (3d Dep’t 2011) (quoting Levin v. Kitsis, 82 A.D.3d 1051, 1053 , 920 N.Y.S.2d 131 (2d Dep’t 2011)). But “the existence of a valid, written contract governing the subject matter generally...\"},{\"cluster_id\":8718277,\"bluebook\":\"Preira v. Bancorp Bank, 885 F. Supp. 2d 672 (S.D.N.Y. 2012)\",\"url\":\"https://syfert.com/federal/district/cases/885-f-supp-2d-672/preira-v-bancorp-bank\",\"date_filed\":\"2012-08-17\",\"cited_by\":22,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Holding, Inc., 258 A.D.2d 905 , 685 N.Y.S.2d 381 , 382 (4th Dep’t 1999)); accord Levin v. Kitsis, 82 A.D.3d 1051 , 920 N.Y.S.2d 131 , 134 (2d Dep’t 2011). For the reasons already stated — because Plaintiff is not precluded from ever...\"},{\"cluster_id\":2643625,\"bluebook\":\"First Express Servs. Grp. v. Easter, 286 Neb. 912 (2013)\",\"url\":\"https://syfert.com/nebraska/cases/286-neb-912/first-express-servs-group-v-easter\",\"date_filed\":\"2013-11-22\",\"cited_by\":0,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...2010); and Levin v. Kitsis, 82 A.D.3d 1051 , 920 N.Y.S.2d 131\\n(2011)).\\n36\\nSee, Bigio v. Coca-Cola Co., 675 F.3d 163 (2d Cir. 2012), cert. denied\\n___ U.S. ___, 133 S. Ct. 952 , 184 L. Ed. 2d 752 (2013); United States v.\\nDean Van...\"},{\"cluster_id\":8724254,\"bluebook\":\"Transeo S.A.R.L. v. Bessemer Venture Partners VI L.P., 936 F. Supp. 2d 376 (S.D.N.Y. 2013)\",\"url\":\"https://syfert.com/federal/district/cases/936-f-supp-2d-376/transeo-sarl-v-bessemer-venture-partners-vi-lp\",\"date_filed\":\"2013-03-29\",\"cited_by\":58,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Holding, Inc., 258 A.D.2d 905 , 685 N.Y.S.2d 381 , 382 (4th Dep’t 1999)); accord Levin v. Kitsis, 82 A.D.3d 1051 , 920 N.Y.S.2d 131 , 134 (2d Dep’t 2011). “Enrichment alone will not suffice to invoke the remedial powers of a...\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Levin w/15 \"920 N.Y.S.2d 131\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4860667,
+    "bluebook": "Aaronson v. Kellogg Co., 837 F. App'x 850 (2d Cir. 2021)",
+    "url": "https://syfert.com/federal/circuits/cases/837-f-appx-850/aaronson-v-kellogg-company",
+    "date_filed": "2021-03-03",
+    "cited_by": 0,
+    "status": "Unpublished",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Levin v. Kitsis, 920 N.Y.S.2d 131 , 135\n(2d Dep’t 2011).\n2\nThe elements of a claim for negligent misrepresentation under New York law are (1) a duty in\nthe defendant, as the result of a special relationship, to give correct…"
+   },
+   {
+    "cluster_id": 625586,
+    "bluebook": "Bigio v. Coca-Cola Co., 675 F.3d 163 (2d Cir. 2012)",
+    "url": "https://syfert.com/federal/circuits/cases/675-f-3d-163/bigio-v-coca-cola-co",
+    "date_filed": "2012-03-19",
+    "cited_by": 71,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See, e.g., Levin v. Kitsis,\n82 A.D.3d 1051 , 920 N.Y.S.2d 131 , 134 (2011) (“The[ ] allegations were adequate to state a cause of action against [the corporation] to recover damages for unjust enrichment. The complaint does not…",
+    "holding": "A claim for civil conspiracy requires pleading facts sufficient to support an inference of an agreement between two or more parties and an overt act in furtherance of that agreement.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 8714489,
+    "bluebook": "Picini v. Chase Home Fin. LLC, 854 F. Supp. 2d 266 (E.D.N.Y. 2012)",
+    "url": "https://syfert.com/federal/district/cases/854-f-supp-2d-266/picini-v-chase-home-finance-llc",
+    "date_filed": "2012-02-16",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Augur, 90 A.D.3d 1111 , 933 N.Y.S.2d 454 , 456 (3d Dep’t 2011) (quoting Levin v. Kitsis, 82 A.D.3d 1051, 1053 , 920 N.Y.S.2d 131 (2d Dep’t 2011)). But “the existence of a valid, written contract governing the subject matter generally..."
+   },
+   {
+    "cluster_id": 8718277,
+    "bluebook": "Preira v. Bancorp Bank, 885 F. Supp. 2d 672 (S.D.N.Y. 2012)",
+    "url": "https://syfert.com/federal/district/cases/885-f-supp-2d-672/preira-v-bancorp-bank",
+    "date_filed": "2012-08-17",
+    "cited_by": 22,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Holding, Inc., 258 A.D.2d 905 , 685 N.Y.S.2d 381 , 382 (4th Dep’t 1999)); accord Levin v. Kitsis, 82 A.D.3d 1051 , 920 N.Y.S.2d 131 , 134 (2d Dep’t 2011). For the reasons already stated — because Plaintiff is not precluded from ever..."
+   },
+   {
+    "cluster_id": 2643625,
+    "bluebook": "First Express Servs. Grp. v. Easter, 286 Neb. 912 (2013)",
+    "url": "https://syfert.com/nebraska/cases/286-neb-912/first-express-servs-group-v-easter",
+    "date_filed": "2013-11-22",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2010); and Levin v. Kitsis, 82 A.D.3d 1051 , 920 N.Y.S.2d 131\n(2011)).\n36\nSee, Bigio v. Coca-Cola Co., 675 F.3d 163 (2d Cir. 2012), cert. denied\n___ U.S. ___, 133 S. Ct. 952 , 184 L. Ed. 2d 752 (2013); United States v.\nDean Van..."
+   },
+   {
+    "cluster_id": 8724254,
+    "bluebook": "Transeo S.A.R.L. v. Bessemer Venture Partners VI L.P., 936 F. Supp. 2d 376 (S.D.N.Y. 2013)",
+    "url": "https://syfert.com/federal/district/cases/936-f-supp-2d-376/transeo-sarl-v-bessemer-venture-partners-vi-lp",
+    "date_filed": "2013-03-29",
+    "cited_by": 58,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Holding, Inc., 258 A.D.2d 905 , 685 N.Y.S.2d 381 , 382 (4th Dep’t 1999)); accord Levin v. Kitsis, 82 A.D.3d 1051 , 920 N.Y.S.2d 131 , 134 (2d Dep’t 2011). “Enrichment alone will not suffice to invoke the remedial powers of a..."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

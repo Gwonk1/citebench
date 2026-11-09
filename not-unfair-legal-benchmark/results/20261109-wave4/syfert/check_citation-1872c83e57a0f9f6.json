@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "940 N.Y.S.2d 4",
+  "expected_case_name": "Berenger v. 261 West LLC"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"940 N.Y.S.2d 4\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5986820,\n            \"case_name\": \"Berenger v. 261 West LLC\",\n            \"citations\": [\n                \"940 N.Y.S.2d 4\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2012-02-02\",\n            \"status\": \"Published\",\n            \"cited_by\": 37,\n            \"url\": \"https://syfert.com/new-york/cases/93-a-d-3d-175/berenger-v-261-west-llc\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Berenger v. 261 West LLC, 940 N.Y.S.2d 4 (N.Y. App. Div. 1st Dep't 2012)\",\n            \"link_md\": \"[Berenger v. 261 West LLC, 940 N.Y.S.2d 4 (N.Y. App. Div. 1st Dep't 2012)](https://syfert.com/new-york/cases/93-a-d-3d-175/berenger-v-261-west-llc)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 41,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Berenger v. 261 West LLC\",\n        \"actual\": \"Berenger v. 261 West LLC\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "940 N.Y.S.2d 4",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5986820,
+    "case_name": "Berenger v. 261 West LLC",
+    "citations": [
+     "940 N.Y.S.2d 4"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2012-02-02",
+    "status": "Published",
+    "cited_by": 37,
+    "url": "https://syfert.com/new-york/cases/93-a-d-3d-175/berenger-v-261-west-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Berenger v. 261 West LLC, 940 N.Y.S.2d 4 (N.Y. App. Div. 1st Dep't 2012)",
+    "link_md": "[Berenger v. 261 West LLC, 940 N.Y.S.2d 4 (N.Y. App. Div. 1st Dep't 2012)](https://syfert.com/new-york/cases/93-a-d-3d-175/berenger-v-261-west-llc)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 41,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Berenger v. 261 West LLC",
+   "actual": "Berenger v. 261 West LLC",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

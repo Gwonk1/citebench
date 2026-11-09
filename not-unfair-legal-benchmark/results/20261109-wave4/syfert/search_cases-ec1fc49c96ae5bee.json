@@ -1,0 +1,426 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "LOREDANA w/15 \"335 So3d 1205\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"LOREDANA w/15 \\\"335 So3d 1205\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5059245,\"case_name\":\"Valderana v. State\",\"citations\":[\"90 So. 3d 1003\",\"2012 WL 2813961\",\"2012 Fla. App. LEXIS 11115\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2012-07-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/90-so-3d-1003/valderana-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Valderana v. State, 90 So. 3d 1003 (Fla. 3d DCA 2012)\",\"link_md\":\"[Valderana v. State, 90 So. 3d 1003 (Fla. 3d DCA 2012)](https://syfert.com/florida/cases/90-so-3d-1003/valderana-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5986},{\"cluster_id\":2825846,\"case_name\":\"In re Loyd Landon Sorrow\",\"citations\":[],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"2015-08-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/texas/cases/cl-2825846/in-re-loyd-landon-sorrow\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Loyd Landon Sorrow, No. 03-15-00443-CV (Tex. App.—Austin Aug. 10, 2015)\",\"link_md\":\"[In re Loyd Landon Sorrow, No. 03-15-00443-CV (Tex. App.—Austin Aug. 10, 2015)](https://syfert.com/texas/cases/cl-2825846/in-re-loyd-landon-sorrow)\",\"match_kind\":\"semantic\",\"similarity\":0.5966},{\"cluster_id\":1614830,\"case_name\":\"Lorenzo v. State\",\"citations\":[\"23 So. 3d 1190\",\"2009 WL 5436062\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-12-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/23-so-3d-1190/lorenzo-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lorenzo v. State, 23 So. 3d 1190 (Fla. 2d DCA 2009)\",\"link_md\":\"[Lorenzo v. State, 23 So. 3d 1190 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/23-so-3d-1190/lorenzo-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5952},{\"cluster_id\":8577721,\"case_name\":\"Loíza Sugar Co. v. Domenech\",\"citations\":[\"44 P.R. Dec. 983\"],\"court\":\"Supreme Court of Puerto Rico\",\"date_filed\":\"1933-02-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/puerto-rico/cases/44-p-r-dec-983/loiza-sugar-co-v-domenech\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Loíza Sugar Co. v. Domenech, 44 P.R. Dec. 983 (1933)\",\"link_md\":\"[Loíza Sugar Co. v. Domenech, 44 P.R. Dec. 983 (1933)](https://syfert.com/puerto-rico/cases/44-p-r-dec-983/loiza-sugar-co-v-domenech)\",\"match_kind\":\"semantic\",\"similarity\":0.5911},{\"cluster_id\":8580997,\"case_name\":\"Sucesión de Rivera v. G. Godreau & Cía.\",\"citations\":[\"59 P.R. Dec. 835\"],\"court\":\"Supreme Court of Puerto Rico\",\"date_filed\":\"1942-01-30\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/puerto-rico/cases/59-p-r-dec-835/sucesion-de-rivera-v-g-godreau-cia\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sucesión de Rivera v. G. Godreau & Cía., 59 P.R. Dec. 835 (1942)\",\"link_md\":\"[Sucesión de Rivera v. G. Godreau & Cía., 59 P.R. Dec. 835 (1942)](https://syfert.com/puerto-rico/cases/59-p-r-dec-835/sucesion-de-rivera-v-g-godreau-cia)\",\"match_kind\":\"semantic\",\"similarity\":0.5882},{\"cluster_id\":7836092,\"case_name\":\"State ex rel. Sanderson v. State\",\"citations\":[\"916 So. 2d 1037\",\"2005 La. LEXIS 2592\",\"2005 WL 3602210\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2005-11-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/916-so-2d-1037/state-ex-rel-sanderson-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7836092 and its twin 1620651). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Sanderson v. State, 916 So. 2d 1037 (La. 2005)\",\"link_md\":\"[State ex rel. Sanderson v. State, 916 So. 2d 1037 (La. 2005)](https://syfert.com/louisiana/cases/916-so-2d-1037/state-ex-rel-sanderson-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5875,\"twin_clusters\":[1620651]},{\"cluster_id\":7752132,\"case_name\":\"Ordoyne v. Ordoyne\",\"citations\":[\"656 So. 2d 1018\",\"1995 La. LEXIS 1643\",\"1995 WL 382787\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1995-06-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/656-so-2d-1018/ordoyne-v-ordoyne\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7752132 and its twin 1695158). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ordoyne v. Ordoyne, 656 So. 2d 1018 (La. 1995)\",\"link_md\":\"[Ordoyne v. Ordoyne, 656 So. 2d 1018 (La. 1995)](https://syfert.com/louisiana/cases/656-so-2d-1018/ordoyne-v-ordoyne)\",\"match_kind\":\"semantic\",\"similarity\":0.5853,\"twin_clusters\":[1695158]},{\"cluster_id\":8579940,\"case_name\":\"Polo Taforó v. Chapero\",\"citations\":[\"54 P.R. Dec. 717\"],\"court\":\"Supreme Court of Puerto Rico\",\"date_filed\":\"1939-05-09\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/puerto-rico/cases/54-p-r-dec-717/polo-taforo-v-chapero\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Polo Taforó v. Chapero, 54 P.R. Dec. 717 (1939)\",\"link_md\":\"[Polo Taforó v. Chapero, 54 P.R. Dec. 717 (1939)](https://syfert.com/puerto-rico/cases/54-p-r-dec-717/polo-taforo-v-chapero)\",\"match_kind\":\"semantic\",\"similarity\":0.585},{\"cluster_id\":7648026,\"case_name\":\"Breeden v. Valencia, Inc.\",\"citations\":[\"558 So. 2d 607\",\"1990 La. LEXIS 729\",\"1990 WL 37210\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1990-03-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/558-so-2d-607/breeden-v-valencia-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7648026 and its twin 1823444). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Breeden v. Valencia, Inc., 558 So. 2d 607 (La. 1990)\",\"link_md\":\"[Breeden v. Valencia, Inc., 558 So. 2d 607 (La. 1990)](https://syfert.com/louisiana/cases/558-so-2d-607/breeden-v-valencia-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.5846,\"twin_clusters\":[1823444]},{\"cluster_id\":5054495,\"case_name\":\"State v. Landor\",\"citations\":[\"76 So. 3d 1202\",\"2011 La. LEXIS 3089\",\"2011 WL 7003991\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2011-12-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/76-so-3d-1202/state-v-landor\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5054495 and its twin 2487989). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Landor, 76 So. 3d 1202 (La. 2011)\",\"link_md\":\"[State v. Landor, 76 So. 3d 1202 (La. 2011)](https://syfert.com/louisiana/cases/76-so-3d-1202/state-v-landor)\",\"match_kind\":\"semantic\",\"similarity\":0.5842,\"twin_clusters\":[2487989]},{\"cluster_id\":1106952,\"case_name\":\"Bernard v. BP America Production Co.\",\"citations\":[\"981 So. 2d 73\",\"170 Oil & Gas Rep. 689\",\"7 La.App. 3 Cir. 1249\",\"2008 La. App. LEXIS 492\",\"2008 WL 867110\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2008-04-02\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/louisiana/cases/981-so-2d-73/bernard-v-bp-america-production-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bernard v. BP Am. Prod. Co., 981 So. 2d 73 (La. Ct. App. 2008)\",\"link_md\":\"[Bernard v. BP Am. Prod. Co., 981 So. 2d 73 (La. Ct. App. 2008)](https://syfert.com/louisiana/cases/981-so-2d-73/bernard-v-bp-america-production-co)\",\"match_kind\":\"semantic\",\"similarity\":0.584},{\"cluster_id\":5046329,\"case_name\":\"State v. Sandoval\",\"citations\":[\"46 So. 3d 1263\",\"2010 La. LEXIS 2309\",\"2010 WL 4289072\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2010-10-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/46-so-3d-1263/state-v-sandoval\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5046329 and its twin 2537044). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sandoval, 46 So. 3d 1263 (La. 2010)\",\"link_md\":\"[State v. Sandoval, 46 So. 3d 1263 (La. 2010)](https://syfert.com/louisiana/cases/46-so-3d-1263/state-v-sandoval)\",\"match_kind\":\"semantic\",\"similarity\":0.5837,\"twin_clusters\":[2537044]},{\"cluster_id\":8584791,\"case_name\":\"Rosa Félix v. Medina Calderón\",\"citations\":[\"89 P.R. Dec. 456\"],\"court\":\"Supreme Court of Puerto Rico\",\"date_filed\":\"1963-11-26\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/puerto-rico/cases/89-p-r-dec-456/rosa-felix-v-medina-calderon\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rosa Félix v. Medina Calderón, 89 P.R. Dec. 456 (1963)\",\"link_md\":\"[Rosa Félix v. Medina Calderón, 89 P.R. Dec. 456 (1963)](https://syfert.com/puerto-rico/cases/89-p-r-dec-456/rosa-felix-v-medina-calderon)\",\"match_kind\":\"semantic\",\"similarity\":0.5812},{\"cluster_id\":4287882,\"case_name\":\"Fernando Rodriguez Jr. v. State\",\"citations\":[],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"2015-08-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/texas/cases/cl-4287882/fernando-rodriguez-jr-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fernando Rodriguez Jr. v. State, No. 04-13-00187-CR (Tex. App.—San Antonio Aug. 10, 2015)\",\"link_md\":\"[Fernando Rodriguez Jr. v. State, No. 04-13-00187-CR (Tex. App.—San Antonio Aug. 10, 2015)](https://syfert.com/texas/cases/cl-4287882/fernando-rodriguez-jr-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5806},{\"cluster_id\":8560727,\"case_name\":\"Vega Delgado v. Rodríguez\",\"citations\":[\"56 P.R. 247\"],\"court\":\"Supreme Court of Puerto Rico\",\"date_filed\":\"1940-03-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/puerto-rico/cases/56-p-r-247/vega-delgado-v-rodriguez\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vega Delgado v. Rodríguez, 56 P.R. 247 (1940)\",\"link_md\":\"[Vega Delgado v. Rodríguez, 56 P.R. 247 (1940)](https://syfert.com/puerto-rico/cases/56-p-r-247/vega-delgado-v-rodriguez)\",\"match_kind\":\"semantic\",\"similarity\":0.5799},{\"cluster_id\":1562750,\"case_name\":\"Lorenzo v. Rojas\",\"citations\":[\"16 So. 3d 822\",\"2009 WL 2857536\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2009-09-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/16-so-3d-822/lorenzo-v-rojas\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lorenzo v. Rojas, 16 So. 3d 822 (Fla. 1st DCA 2009)\",\"link_md\":\"[Lorenzo v. Rojas, 16 So. 3d 822 (Fla. 1st DCA 2009)](https://syfert.com/florida/cases/16-so-3d-822/lorenzo-v-rojas)\",\"match_kind\":\"semantic\",\"similarity\":0.5794},{\"cluster_id\":8577463,\"case_name\":\"Rubert Hermanos, Inc. v. Santos\",\"citations\":[\"43 P.R. Dec. 1035\",\"1932 PR Sup. LEXIS 611\"],\"court\":\"Supreme Court of Puerto Rico\",\"date_filed\":\"1932-07-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/puerto-rico/cases/43-p-r-dec-1035/rubert-hermanos-inc-v-santos\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rubert Hermanos, Inc. v. Santos, 43 P.R. Dec. 1035 (1932)\",\"link_md\":\"[Rubert Hermanos, Inc. v. Santos, 43 P.R. Dec. 1035 (1932)](https://syfert.com/puerto-rico/cases/43-p-r-dec-1035/rubert-hermanos-inc-v-santos)\",\"match_kind\":\"semantic\",\"similarity\":0.5794},{\"cluster_id\":5047123,\"case_name\":\"State v. Sandoval\",\"citations\":[\"5 So. 3d 111\",\"2009 La. LEXIS 651\",\"2009 WL 860388\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2009-03-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/5-so-3d-111/state-v-sandoval\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5047123 and its twin 1632019). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Sandoval, 5 So. 3d 111 (La. 2009)\",\"link_md\":\"[State v. Sandoval, 5 So. 3d 111 (La. 2009)](https://syfert.com/louisiana/cases/5-so-3d-111/state-v-sandoval)\",\"match_kind\":\"semantic\",\"similarity\":0.5786,\"twin_clusters\":[1632019]},{\"cluster_id\":8577244,\"case_name\":\"Cintrón Viuda de Capó v. A. Hartman & Co.\",\"citations\":[\"43 P.R. Dec. 179\"],\"court\":\"Supreme Court of Puerto Rico\",\"date_filed\":\"1932-03-10\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/puerto-rico/cases/43-p-r-dec-179/cintron-viuda-de-capo-v-a-hartman-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cintrón Viuda de Capó v. A. Hartman & Co., 43 P.R. Dec. 179 (1932)\",\"link_md\":\"[Cintrón Viuda de Capó v. A. Hartman & Co., 43 P.R. Dec. 179 (1932)](https://syfert.com/puerto-rico/cases/43-p-r-dec-179/cintron-viuda-de-capo-v-a-hartman-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5786},{\"cluster_id\":8592972,\"case_name\":\"Rivera Bey v. Ortiz Vargas\",\"citations\":[\"6 T.C.A. 903\",\"2001 DTA 62\"],\"court\":\"Tribunal De Apelaciones De Puerto Rico/Court of Appeals of Puerto Rico\",\"date_filed\":\"2000-11-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/puerto-rico/cases/cl-8592972/rivera-bey-v-ortiz-vargas\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rivera Bey v. Ortiz Vargas, 6 T.C.A. 903 (2000)\",\"link_md\":\"[Rivera Bey v. Ortiz Vargas, 6 T.C.A. 903 (2000)](https://syfert.com/puerto-rico/cases/cl-8592972/rivera-bey-v-ortiz-vargas)\",\"match_kind\":\"semantic\",\"similarity\":0.5784}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "LOREDANA w/15 \"335 So3d 1205\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5059245,
+    "case_name": "Valderana v. State",
+    "citations": [
+     "90 So. 3d 1003",
+     "2012 WL 2813961",
+     "2012 Fla. App. LEXIS 11115"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2012-07-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/90-so-3d-1003/valderana-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Valderana v. State, 90 So. 3d 1003 (Fla. 3d DCA 2012)",
+    "link_md": "[Valderana v. State, 90 So. 3d 1003 (Fla. 3d DCA 2012)](https://syfert.com/florida/cases/90-so-3d-1003/valderana-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5986
+   },
+   {
+    "cluster_id": 2825846,
+    "case_name": "In re Loyd Landon Sorrow",
+    "citations": [],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "2015-08-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/texas/cases/cl-2825846/in-re-loyd-landon-sorrow",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Loyd Landon Sorrow, No. 03-15-00443-CV (Tex. App.—Austin Aug. 10, 2015)",
+    "link_md": "[In re Loyd Landon Sorrow, No. 03-15-00443-CV (Tex. App.—Austin Aug. 10, 2015)](https://syfert.com/texas/cases/cl-2825846/in-re-loyd-landon-sorrow)",
+    "match_kind": "semantic",
+    "similarity": 0.5966
+   },
+   {
+    "cluster_id": 1614830,
+    "case_name": "Lorenzo v. State",
+    "citations": [
+     "23 So. 3d 1190",
+     "2009 WL 5436062"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-12-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/23-so-3d-1190/lorenzo-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lorenzo v. State, 23 So. 3d 1190 (Fla. 2d DCA 2009)",
+    "link_md": "[Lorenzo v. State, 23 So. 3d 1190 (Fla. 2d DCA 2009)](https://syfert.com/florida/cases/23-so-3d-1190/lorenzo-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5952
+   },
+   {
+    "cluster_id": 8577721,
+    "case_name": "Loíza Sugar Co. v. Domenech",
+    "citations": [
+     "44 P.R. Dec. 983"
+    ],
+    "court": "Supreme Court of Puerto Rico",
+    "date_filed": "1933-02-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/puerto-rico/cases/44-p-r-dec-983/loiza-sugar-co-v-domenech",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Loíza Sugar Co. v. Domenech, 44 P.R. Dec. 983 (1933)",
+    "link_md": "[Loíza Sugar Co. v. Domenech, 44 P.R. Dec. 983 (1933)](https://syfert.com/puerto-rico/cases/44-p-r-dec-983/loiza-sugar-co-v-domenech)",
+    "match_kind": "semantic",
+    "similarity": 0.5911
+   },
+   {
+    "cluster_id": 8580997,
+    "case_name": "Sucesión de Rivera v. G. Godreau & Cía.",
+    "citations": [
+     "59 P.R. Dec. 835"
+    ],
+    "court": "Supreme Court of Puerto Rico",
+    "date_filed": "1942-01-30",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/puerto-rico/cases/59-p-r-dec-835/sucesion-de-rivera-v-g-godreau-cia",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sucesión de Rivera v. G. Godreau & Cía., 59 P.R. Dec. 835 (1942)",
+    "link_md": "[Sucesión de Rivera v. G. Godreau & Cía., 59 P.R. Dec. 835 (1942)](https://syfert.com/puerto-rico/cases/59-p-r-dec-835/sucesion-de-rivera-v-g-godreau-cia)",
+    "match_kind": "semantic",
+    "similarity": 0.5882
+   },
+   {
+    "cluster_id": 7836092,
+    "case_name": "State ex rel. Sanderson v. State",
+    "citations": [
+     "916 So. 2d 1037",
+     "2005 La. LEXIS 2592",
+     "2005 WL 3602210"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2005-11-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/916-so-2d-1037/state-ex-rel-sanderson-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7836092 and its twin 1620651). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Sanderson v. State, 916 So. 2d 1037 (La. 2005)",
+    "link_md": "[State ex rel. Sanderson v. State, 916 So. 2d 1037 (La. 2005)](https://syfert.com/louisiana/cases/916-so-2d-1037/state-ex-rel-sanderson-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5875,
+    "twin_clusters": [
+     1620651
+    ]
+   },
+   {
+    "cluster_id": 7752132,
+    "case_name": "Ordoyne v. Ordoyne",
+    "citations": [
+     "656 So. 2d 1018",
+     "1995 La. LEXIS 1643",
+     "1995 WL 382787"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1995-06-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/656-so-2d-1018/ordoyne-v-ordoyne",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7752132 and its twin 1695158). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ordoyne v. Ordoyne, 656 So. 2d 1018 (La. 1995)",
+    "link_md": "[Ordoyne v. Ordoyne, 656 So. 2d 1018 (La. 1995)](https://syfert.com/louisiana/cases/656-so-2d-1018/ordoyne-v-ordoyne)",
+    "match_kind": "semantic",
+    "similarity": 0.5853,
+    "twin_clusters": [
+     1695158
+    ]
+   },
+   {
+    "cluster_id": 8579940,
+    "case_name": "Polo Taforó v. Chapero",
+    "citations": [
+     "54 P.R. Dec. 717"
+    ],
+    "court": "Supreme Court of Puerto Rico",
+    "date_filed": "1939-05-09",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/puerto-rico/cases/54-p-r-dec-717/polo-taforo-v-chapero",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Polo Taforó v. Chapero, 54 P.R. Dec. 717 (1939)",
+    "link_md": "[Polo Taforó v. Chapero, 54 P.R. Dec. 717 (1939)](https://syfert.com/puerto-rico/cases/54-p-r-dec-717/polo-taforo-v-chapero)",
+    "match_kind": "semantic",
+    "similarity": 0.585
+   },
+   {
+    "cluster_id": 7648026,
+    "case_name": "Breeden v. Valencia, Inc.",
+    "citations": [
+     "558 So. 2d 607",
+     "1990 La. LEXIS 729",
+     "1990 WL 37210"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1990-03-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/558-so-2d-607/breeden-v-valencia-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7648026 and its twin 1823444). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Breeden v. Valencia, Inc., 558 So. 2d 607 (La. 1990)",
+    "link_md": "[Breeden v. Valencia, Inc., 558 So. 2d 607 (La. 1990)](https://syfert.com/louisiana/cases/558-so-2d-607/breeden-v-valencia-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.5846,
+    "twin_clusters": [
+     1823444
+    ]
+   },
+   {
+    "cluster_id": 5054495,
+    "case_name": "State v. Landor",
+    "citations": [
+     "76 So. 3d 1202",
+     "2011 La. LEXIS 3089",
+     "2011 WL 7003991"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2011-12-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/76-so-3d-1202/state-v-landor",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5054495 and its twin 2487989). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Landor, 76 So. 3d 1202 (La. 2011)",
+    "link_md": "[State v. Landor, 76 So. 3d 1202 (La. 2011)](https://syfert.com/louisiana/cases/76-so-3d-1202/state-v-landor)",
+    "match_kind": "semantic",
+    "similarity": 0.5842,
+    "twin_clusters": [
+     2487989
+    ]
+   },
+   {
+    "cluster_id": 1106952,
+    "case_name": "Bernard v. BP America Production Co.",
+    "citations": [
+     "981 So. 2d 73",
+     "170 Oil & Gas Rep. 689",
+     "7 La.App. 3 Cir. 1249",
+     "2008 La. App. LEXIS 492",
+     "2008 WL 867110"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2008-04-02",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/louisiana/cases/981-so-2d-73/bernard-v-bp-america-production-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bernard v. BP Am. Prod. Co., 981 So. 2d 73 (La. Ct. App. 2008)",
+    "link_md": "[Bernard v. BP Am. Prod. Co., 981 So. 2d 73 (La. Ct. App. 2008)](https://syfert.com/louisiana/cases/981-so-2d-73/bernard-v-bp-america-production-co)",
+    "match_kind": "semantic",
+    "similarity": 0.584
+   },
+   {
+    "cluster_id": 5046329,
+    "case_name": "State v. Sandoval",
+    "citations": [
+     "46 So. 3d 1263",
+     "2010 La. LEXIS 2309",
+     "2010 WL 4289072"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2010-10-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/46-so-3d-1263/state-v-sandoval",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5046329 and its twin 2537044). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sandoval, 46 So. 3d 1263 (La. 2010)",
+    "link_md": "[State v. Sandoval, 46 So. 3d 1263 (La. 2010)](https://syfert.com/louisiana/cases/46-so-3d-1263/state-v-sandoval)",
+    "match_kind": "semantic",
+    "similarity": 0.5837,
+    "twin_clusters": [
+     2537044
+    ]
+   },
+   {
+    "cluster_id": 8584791,
+    "case_name": "Rosa Félix v. Medina Calderón",
+    "citations": [
+     "89 P.R. Dec. 456"
+    ],
+    "court": "Supreme Court of Puerto Rico",
+    "date_filed": "1963-11-26",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/puerto-rico/cases/89-p-r-dec-456/rosa-felix-v-medina-calderon",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rosa Félix v. Medina Calderón, 89 P.R. Dec. 456 (1963)",
+    "link_md": "[Rosa Félix v. Medina Calderón, 89 P.R. Dec. 456 (1963)](https://syfert.com/puerto-rico/cases/89-p-r-dec-456/rosa-felix-v-medina-calderon)",
+    "match_kind": "semantic",
+    "similarity": 0.5812
+   },
+   {
+    "cluster_id": 4287882,
+    "case_name": "Fernando Rodriguez Jr. v. State",
+    "citations": [],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "2015-08-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/texas/cases/cl-4287882/fernando-rodriguez-jr-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fernando Rodriguez Jr. v. State, No. 04-13-00187-CR (Tex. App.—San Antonio Aug. 10, 2015)",
+    "link_md": "[Fernando Rodriguez Jr. v. State, No. 04-13-00187-CR (Tex. App.—San Antonio Aug. 10, 2015)](https://syfert.com/texas/cases/cl-4287882/fernando-rodriguez-jr-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5806
+   },
+   {
+    "cluster_id": 8560727,
+    "case_name": "Vega Delgado v. Rodríguez",
+    "citations": [
+     "56 P.R. 247"
+    ],
+    "court": "Supreme Court of Puerto Rico",
+    "date_filed": "1940-03-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/puerto-rico/cases/56-p-r-247/vega-delgado-v-rodriguez",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vega Delgado v. Rodríguez, 56 P.R. 247 (1940)",
+    "link_md": "[Vega Delgado v. Rodríguez, 56 P.R. 247 (1940)](https://syfert.com/puerto-rico/cases/56-p-r-247/vega-delgado-v-rodriguez)",
+    "match_kind": "semantic",
+    "similarity": 0.5799
+   },
+   {
+    "cluster_id": 1562750,
+    "case_name": "Lorenzo v. Rojas",
+    "citations": [
+     "16 So. 3d 822",
+     "2009 WL 2857536"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2009-09-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/16-so-3d-822/lorenzo-v-rojas",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lorenzo v. Rojas, 16 So. 3d 822 (Fla. 1st DCA 2009)",
+    "link_md": "[Lorenzo v. Rojas, 16 So. 3d 822 (Fla. 1st DCA 2009)](https://syfert.com/florida/cases/16-so-3d-822/lorenzo-v-rojas)",
+    "match_kind": "semantic",
+    "similarity": 0.5794
+   },
+   {
+    "cluster_id": 8577463,
+    "case_name": "Rubert Hermanos, Inc. v. Santos",
+    "citations": [
+     "43 P.R. Dec. 1035",
+     "1932 PR Sup. LEXIS 611"
+    ],
+    "court": "Supreme Court of Puerto Rico",
+    "date_filed": "1932-07-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/puerto-rico/cases/43-p-r-dec-1035/rubert-hermanos-inc-v-santos",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rubert Hermanos, Inc. v. Santos, 43 P.R. Dec. 1035 (1932)",
+    "link_md": "[Rubert Hermanos, Inc. v. Santos, 43 P.R. Dec. 1035 (1932)](https://syfert.com/puerto-rico/cases/43-p-r-dec-1035/rubert-hermanos-inc-v-santos)",
+    "match_kind": "semantic",
+    "similarity": 0.5794
+   },
+   {
+    "cluster_id": 5047123,
+    "case_name": "State v. Sandoval",
+    "citations": [
+     "5 So. 3d 111",
+     "2009 La. LEXIS 651",
+     "2009 WL 860388"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2009-03-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/5-so-3d-111/state-v-sandoval",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5047123 and its twin 1632019). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Sandoval, 5 So. 3d 111 (La. 2009)",
+    "link_md": "[State v. Sandoval, 5 So. 3d 111 (La. 2009)](https://syfert.com/louisiana/cases/5-so-3d-111/state-v-sandoval)",
+    "match_kind": "semantic",
+    "similarity": 0.5786,
+    "twin_clusters": [
+     1632019
+    ]
+   },
+   {
+    "cluster_id": 8577244,
+    "case_name": "Cintrón Viuda de Capó v. A. Hartman & Co.",
+    "citations": [
+     "43 P.R. Dec. 179"
+    ],
+    "court": "Supreme Court of Puerto Rico",
+    "date_filed": "1932-03-10",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/puerto-rico/cases/43-p-r-dec-179/cintron-viuda-de-capo-v-a-hartman-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cintrón Viuda de Capó v. A. Hartman & Co., 43 P.R. Dec. 179 (1932)",
+    "link_md": "[Cintrón Viuda de Capó v. A. Hartman & Co., 43 P.R. Dec. 179 (1932)](https://syfert.com/puerto-rico/cases/43-p-r-dec-179/cintron-viuda-de-capo-v-a-hartman-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5786
+   },
+   {
+    "cluster_id": 8592972,
+    "case_name": "Rivera Bey v. Ortiz Vargas",
+    "citations": [
+     "6 T.C.A. 903",
+     "2001 DTA 62"
+    ],
+    "court": "Tribunal De Apelaciones De Puerto Rico/Court of Appeals of Puerto Rico",
+    "date_filed": "2000-11-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/puerto-rico/cases/cl-8592972/rivera-bey-v-ortiz-vargas",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rivera Bey v. Ortiz Vargas, 6 T.C.A. 903 (2000)",
+    "link_md": "[Rivera Bey v. Ortiz Vargas, 6 T.C.A. 903 (2000)](https://syfert.com/puerto-rico/cases/cl-8592972/rivera-bey-v-ortiz-vargas)",
+    "match_kind": "semantic",
+    "similarity": 0.5784
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

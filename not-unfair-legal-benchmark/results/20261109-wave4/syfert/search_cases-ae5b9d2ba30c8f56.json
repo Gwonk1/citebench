@@ -1,0 +1,402 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Harris w/15 \"940 NYS2d 127\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Harris w/15 \\\"940 NYS2d 127\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":389359,\"case_name\":\"Harris v. Harris\",\"citations\":[\"646 F.2d 560\",\"1980 U.S. App. LEXIS 11113\"],\"court\":\"Second Circuit\",\"date_filed\":\"1980-12-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/646-f-2d-560/harris-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. Harris, 646 F.2d 560 (2d Cir. 1980)\",\"link_md\":\"[Harris v. Harris, 646 F.2d 560 (2d Cir. 1980)](https://syfert.com/federal/circuits/cases/646-f-2d-560/harris-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.7491},{\"cluster_id\":450936,\"case_name\":\"Harris v. United States\",\"citations\":[\"760 F.2d 253\"],\"court\":\"Second Circuit\",\"date_filed\":\"1985-02-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/760-f-2d-253/harris-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. United States, 760 F.2d 253 (2d Cir. 1985)\",\"link_md\":\"[Harris v. United States, 760 F.2d 253 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/760-f-2d-253/harris-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7293},{\"cluster_id\":683630,\"case_name\":\"Harris v. United States\",\"citations\":[\"41 F.3d 1500\",\"1994 U.S. App. LEXIS 29756\",\"1994 WL 579073\"],\"court\":\"Second Circuit\",\"date_filed\":\"1994-09-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/41-f-3d-1500/harris-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. United States, 41 F.3d 1500 (2d Cir. 1994)\",\"link_md\":\"[Harris v. United States, 41 F.3d 1500 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/41-f-3d-1500/harris-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7237},{\"cluster_id\":738468,\"case_name\":\"Harris v. United States\",\"citations\":[\"109 F.3d 772\",\"1997 WL 93932\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1997-02-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/109-f-3d-772/harris-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. United States, 109 F.3d 772 (11th Cir. 1997)\",\"link_md\":\"[Harris v. United States, 109 F.3d 772 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/109-f-3d-772/harris-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7105},{\"cluster_id\":123625,\"case_name\":\"Harris v. New York\",\"citations\":[\"537 U.S. 907\",\"123 S. Ct. 243\"],\"court\":\"Supreme Court\",\"date_filed\":\"2002-10-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/537-u-s-907/harris-v-new-york\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (123625 and its twin 9251671). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. New York, 537 U.S. 907 (2002)\",\"link_md\":\"[Harris v. New York, 537 U.S. 907 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-907/harris-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.7051},{\"cluster_id\":7970415,\"case_name\":\"Harris v. State\",\"citations\":[\"160 A.3d 646\",\"453 Md. 8\",\"2017 WL 2385502\",\"2017 Md. LEXIS 329\"],\"court\":\"Court of Appeals of Maryland\",\"date_filed\":\"2017-05-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/maryland/cases/453-md-8/harris-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. State, 160 A.3d 646 (Md. 2017)\",\"link_md\":\"[Harris v. State, 160 A.3d 646 (Md. 2017)](https://syfert.com/maryland/cases/453-md-8/harris-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7032},{\"cluster_id\":679898,\"case_name\":\"Harris v. United States\",\"citations\":[\"37 F.3d 637\",\"1994 WL 541193\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-09-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/37-f-3d-637/harris-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. United States, 37 F.3d 637 (11th Cir. 1994)\",\"link_md\":\"[Harris v. United States, 37 F.3d 637 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/37-f-3d-637/harris-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6992},{\"cluster_id\":5408247,\"case_name\":\"Harris v. Interborough Rapid Transit Co.\",\"citations\":[\"177 A.D. 896\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1917-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/177-a-d-896/harris-v-interborough-rapid-transit-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. Interborough Rapid Transit Co., 177 A.D. 896 (N.Y. App. Div. 1917)\",\"link_md\":\"[Harris v. Interborough Rapid Transit Co., 177 A.D. 896 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/177-a-d-896/harris-v-interborough-rapid-transit-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6967},{\"cluster_id\":400351,\"case_name\":\"Vargas v. Harris\",\"citations\":[\"672 F.2d 901\",\"1981 U.S. App. LEXIS 17746\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-09-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/672-f-2d-901/vargas-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vargas v. Harris, 672 F.2d 901 (2d Cir. 1981)\",\"link_md\":\"[Vargas v. Harris, 672 F.2d 901 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/672-f-2d-901/vargas-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6959},{\"cluster_id\":554776,\"case_name\":\"Harris v. United States\",\"citations\":[\"923 F.2d 866\",\"1991 WL 3443\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1991-01-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/923-f-2d-866/harris-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. United States, 923 F.2d 866 (11th Cir. 1991)\",\"link_md\":\"[Harris v. United States, 923 F.2d 866 (11th Cir. 1991)](https://syfert.com/federal/circuits/cases/923-f-2d-866/harris-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6939},{\"cluster_id\":8930019,\"case_name\":\"Harris v. New York\",\"citations\":[\"340 U.S. 855\"],\"court\":\"Supreme Court\",\"date_filed\":\"1950-10-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/340-u-s-855/harris-v-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. New York, 340 U.S. 855 (1950)\",\"link_md\":\"[Harris v. New York, 340 U.S. 855 (1950)](https://syfert.com/federal/scotus/cases/340-u-s-855/harris-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6931},{\"cluster_id\":763362,\"case_name\":\"Harris v. United States\",\"citations\":[\"174 F.3d 201\",\"1999 U.S. App. LEXIS 14246\",\"1999 WL 111959\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1999-02-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/174-f-3d-201/harris-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. United States, 174 F.3d 201 (11th Cir. 1999)\",\"link_md\":\"[Harris v. United States, 174 F.3d 201 (11th Cir. 1999)](https://syfert.com/federal/circuits/cases/174-f-3d-201/harris-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6894},{\"cluster_id\":5432582,\"case_name\":\"Harris v. Harris\",\"citations\":[\"206 A.D. 693\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1923-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/206-a-d-693/harris-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. Harris, 206 A.D. 693 (N.Y. App. Div. 1923)\",\"link_md\":\"[Harris v. Harris, 206 A.D. 693 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/206-a-d-693/harris-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6889},{\"cluster_id\":8947897,\"case_name\":\"Harris v. New York\",\"citations\":[\"363 U.S. 824\"],\"court\":\"Supreme Court\",\"date_filed\":\"1960-06-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/363-u-s-824/harris-v-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. New York, 363 U.S. 824 (1960)\",\"link_md\":\"[Harris v. New York, 363 U.S. 824 (1960)](https://syfert.com/federal/scotus/cases/363-u-s-824/harris-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6887},{\"cluster_id\":501138,\"case_name\":\"Harris v. Samson\",\"citations\":[\"838 F.2d 474\",\"1988 WL 5982\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1988-01-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/838-f-2d-474/harris-v-samson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. Samson, 838 F.2d 474 (9th Cir. 1988)\",\"link_md\":\"[Harris v. Samson, 838 F.2d 474 (9th Cir. 1988)](https://syfert.com/federal/circuits/cases/838-f-2d-474/harris-v-samson)\",\"match_kind\":\"semantic\",\"similarity\":0.6886},{\"cluster_id\":345257,\"case_name\":\"Harris v. C. I. R\",\"citations\":[\"554 F.2d 1068\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1977-05-23\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/554-f-2d-1068/harris-v-c-i-r\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harris v. C. I. R, 554 F.2d 1068 (9th Cir. 1977)\",\"link_md\":\"[Harris v. C. I. R, 554 F.2d 1068 (9th Cir. 1977)](https://syfert.com/federal/circuits/cases/554-f-2d-1068/harris-v-c-i-r)\",\"match_kind\":\"semantic\",\"similarity\":0.6873},{\"cluster_id\":393439,\"case_name\":\"Hargrove v. Harris\",\"citations\":[\"657 F.2d 263\",\"1981 U.S. App. LEXIS 19731\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-03-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/657-f-2d-263/hargrove-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hargrove v. Harris, 657 F.2d 263 (2d Cir. 1981)\",\"link_md\":\"[Hargrove v. Harris, 657 F.2d 263 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/657-f-2d-263/hargrove-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6866},{\"cluster_id\":394240,\"case_name\":\"Hughes v. Harris\",\"citations\":[\"659 F.2d 1059\",\"1981 U.S. App. LEXIS 14422\"],\"court\":\"Second Circuit\",\"date_filed\":\"1981-04-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/659-f-2d-1059/hughes-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hughes v. Harris, 659 F.2d 1059 (2d Cir. 1981)\",\"link_md\":\"[Hughes v. Harris, 659 F.2d 1059 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/659-f-2d-1059/hughes-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6864},{\"cluster_id\":368564,\"case_name\":\"Perez v. Harris\",\"citations\":[\"603 F.2d 214\"],\"court\":\"Second Circuit\",\"date_filed\":\"1979-04-04\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/603-f-2d-214/perez-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Perez v. Harris, 603 F.2d 214 (2d Cir. 1979)\",\"link_md\":\"[Perez v. Harris, 603 F.2d 214 (2d Cir. 1979)](https://syfert.com/federal/circuits/cases/603-f-2d-214/perez-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6863},{\"cluster_id\":7614165,\"case_name\":\"State v. Harris\",\"citations\":[\"477 So. 2d 1123\",\"1985 La. LEXIS 9989\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1985-11-08\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/louisiana/cases/477-so-2d-1123/state-v-harris\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Harris, 477 So. 2d 1123 (La. 1985)\",\"link_md\":\"[State v. Harris, 477 So. 2d 1123 (La. 1985)](https://syfert.com/louisiana/cases/477-so-2d-1123/state-v-harris)\",\"match_kind\":\"semantic\",\"similarity\":0.6862}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Harris w/15 \"940 NYS2d 127\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 389359,
+    "case_name": "Harris v. Harris",
+    "citations": [
+     "646 F.2d 560",
+     "1980 U.S. App. LEXIS 11113"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1980-12-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/646-f-2d-560/harris-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. Harris, 646 F.2d 560 (2d Cir. 1980)",
+    "link_md": "[Harris v. Harris, 646 F.2d 560 (2d Cir. 1980)](https://syfert.com/federal/circuits/cases/646-f-2d-560/harris-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.7491
+   },
+   {
+    "cluster_id": 450936,
+    "case_name": "Harris v. United States",
+    "citations": [
+     "760 F.2d 253"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1985-02-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/760-f-2d-253/harris-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. United States, 760 F.2d 253 (2d Cir. 1985)",
+    "link_md": "[Harris v. United States, 760 F.2d 253 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/760-f-2d-253/harris-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7293
+   },
+   {
+    "cluster_id": 683630,
+    "case_name": "Harris v. United States",
+    "citations": [
+     "41 F.3d 1500",
+     "1994 U.S. App. LEXIS 29756",
+     "1994 WL 579073"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1994-09-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/41-f-3d-1500/harris-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. United States, 41 F.3d 1500 (2d Cir. 1994)",
+    "link_md": "[Harris v. United States, 41 F.3d 1500 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/41-f-3d-1500/harris-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7237
+   },
+   {
+    "cluster_id": 738468,
+    "case_name": "Harris v. United States",
+    "citations": [
+     "109 F.3d 772",
+     "1997 WL 93932"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1997-02-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/109-f-3d-772/harris-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. United States, 109 F.3d 772 (11th Cir. 1997)",
+    "link_md": "[Harris v. United States, 109 F.3d 772 (11th Cir. 1997)](https://syfert.com/federal/circuits/cases/109-f-3d-772/harris-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7105
+   },
+   {
+    "cluster_id": 123625,
+    "case_name": "Harris v. New York",
+    "citations": [
+     "537 U.S. 907",
+     "123 S. Ct. 243"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2002-10-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/537-u-s-907/harris-v-new-york",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (123625 and its twin 9251671). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. New York, 537 U.S. 907 (2002)",
+    "link_md": "[Harris v. New York, 537 U.S. 907 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-907/harris-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.7051
+   },
+   {
+    "cluster_id": 7970415,
+    "case_name": "Harris v. State",
+    "citations": [
+     "160 A.3d 646",
+     "453 Md. 8",
+     "2017 WL 2385502",
+     "2017 Md. LEXIS 329"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "2017-05-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/maryland/cases/453-md-8/harris-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. State, 160 A.3d 646 (Md. 2017)",
+    "link_md": "[Harris v. State, 160 A.3d 646 (Md. 2017)](https://syfert.com/maryland/cases/453-md-8/harris-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7032
+   },
+   {
+    "cluster_id": 679898,
+    "case_name": "Harris v. United States",
+    "citations": [
+     "37 F.3d 637",
+     "1994 WL 541193"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-09-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/37-f-3d-637/harris-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. United States, 37 F.3d 637 (11th Cir. 1994)",
+    "link_md": "[Harris v. United States, 37 F.3d 637 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/37-f-3d-637/harris-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6992
+   },
+   {
+    "cluster_id": 5408247,
+    "case_name": "Harris v. Interborough Rapid Transit Co.",
+    "citations": [
+     "177 A.D. 896"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1917-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/177-a-d-896/harris-v-interborough-rapid-transit-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. Interborough Rapid Transit Co., 177 A.D. 896 (N.Y. App. Div. 1917)",
+    "link_md": "[Harris v. Interborough Rapid Transit Co., 177 A.D. 896 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/177-a-d-896/harris-v-interborough-rapid-transit-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6967
+   },
+   {
+    "cluster_id": 400351,
+    "case_name": "Vargas v. Harris",
+    "citations": [
+     "672 F.2d 901",
+     "1981 U.S. App. LEXIS 17746"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-09-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/672-f-2d-901/vargas-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vargas v. Harris, 672 F.2d 901 (2d Cir. 1981)",
+    "link_md": "[Vargas v. Harris, 672 F.2d 901 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/672-f-2d-901/vargas-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6959
+   },
+   {
+    "cluster_id": 554776,
+    "case_name": "Harris v. United States",
+    "citations": [
+     "923 F.2d 866",
+     "1991 WL 3443"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1991-01-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/923-f-2d-866/harris-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. United States, 923 F.2d 866 (11th Cir. 1991)",
+    "link_md": "[Harris v. United States, 923 F.2d 866 (11th Cir. 1991)](https://syfert.com/federal/circuits/cases/923-f-2d-866/harris-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6939
+   },
+   {
+    "cluster_id": 8930019,
+    "case_name": "Harris v. New York",
+    "citations": [
+     "340 U.S. 855"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1950-10-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/340-u-s-855/harris-v-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. New York, 340 U.S. 855 (1950)",
+    "link_md": "[Harris v. New York, 340 U.S. 855 (1950)](https://syfert.com/federal/scotus/cases/340-u-s-855/harris-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6931
+   },
+   {
+    "cluster_id": 763362,
+    "case_name": "Harris v. United States",
+    "citations": [
+     "174 F.3d 201",
+     "1999 U.S. App. LEXIS 14246",
+     "1999 WL 111959"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1999-02-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/174-f-3d-201/harris-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. United States, 174 F.3d 201 (11th Cir. 1999)",
+    "link_md": "[Harris v. United States, 174 F.3d 201 (11th Cir. 1999)](https://syfert.com/federal/circuits/cases/174-f-3d-201/harris-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6894
+   },
+   {
+    "cluster_id": 5432582,
+    "case_name": "Harris v. Harris",
+    "citations": [
+     "206 A.D. 693"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1923-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/206-a-d-693/harris-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. Harris, 206 A.D. 693 (N.Y. App. Div. 1923)",
+    "link_md": "[Harris v. Harris, 206 A.D. 693 (N.Y. App. Div. 1923)](https://syfert.com/new-york/cases/206-a-d-693/harris-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6889
+   },
+   {
+    "cluster_id": 8947897,
+    "case_name": "Harris v. New York",
+    "citations": [
+     "363 U.S. 824"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1960-06-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/363-u-s-824/harris-v-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. New York, 363 U.S. 824 (1960)",
+    "link_md": "[Harris v. New York, 363 U.S. 824 (1960)](https://syfert.com/federal/scotus/cases/363-u-s-824/harris-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6887
+   },
+   {
+    "cluster_id": 501138,
+    "case_name": "Harris v. Samson",
+    "citations": [
+     "838 F.2d 474",
+     "1988 WL 5982"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1988-01-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/838-f-2d-474/harris-v-samson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. Samson, 838 F.2d 474 (9th Cir. 1988)",
+    "link_md": "[Harris v. Samson, 838 F.2d 474 (9th Cir. 1988)](https://syfert.com/federal/circuits/cases/838-f-2d-474/harris-v-samson)",
+    "match_kind": "semantic",
+    "similarity": 0.6886
+   },
+   {
+    "cluster_id": 345257,
+    "case_name": "Harris v. C. I. R",
+    "citations": [
+     "554 F.2d 1068"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1977-05-23",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/554-f-2d-1068/harris-v-c-i-r",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harris v. C. I. R, 554 F.2d 1068 (9th Cir. 1977)",
+    "link_md": "[Harris v. C. I. R, 554 F.2d 1068 (9th Cir. 1977)](https://syfert.com/federal/circuits/cases/554-f-2d-1068/harris-v-c-i-r)",
+    "match_kind": "semantic",
+    "similarity": 0.6873
+   },
+   {
+    "cluster_id": 393439,
+    "case_name": "Hargrove v. Harris",
+    "citations": [
+     "657 F.2d 263",
+     "1981 U.S. App. LEXIS 19731"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-03-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/657-f-2d-263/hargrove-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hargrove v. Harris, 657 F.2d 263 (2d Cir. 1981)",
+    "link_md": "[Hargrove v. Harris, 657 F.2d 263 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/657-f-2d-263/hargrove-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6866
+   },
+   {
+    "cluster_id": 394240,
+    "case_name": "Hughes v. Harris",
+    "citations": [
+     "659 F.2d 1059",
+     "1981 U.S. App. LEXIS 14422"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1981-04-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/659-f-2d-1059/hughes-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hughes v. Harris, 659 F.2d 1059 (2d Cir. 1981)",
+    "link_md": "[Hughes v. Harris, 659 F.2d 1059 (2d Cir. 1981)](https://syfert.com/federal/circuits/cases/659-f-2d-1059/hughes-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6864
+   },
+   {
+    "cluster_id": 368564,
+    "case_name": "Perez v. Harris",
+    "citations": [
+     "603 F.2d 214"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1979-04-04",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/603-f-2d-214/perez-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Perez v. Harris, 603 F.2d 214 (2d Cir. 1979)",
+    "link_md": "[Perez v. Harris, 603 F.2d 214 (2d Cir. 1979)](https://syfert.com/federal/circuits/cases/603-f-2d-214/perez-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6863
+   },
+   {
+    "cluster_id": 7614165,
+    "case_name": "State v. Harris",
+    "citations": [
+     "477 So. 2d 1123",
+     "1985 La. LEXIS 9989"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1985-11-08",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/louisiana/cases/477-so-2d-1123/state-v-harris",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Harris, 477 So. 2d 1123 (La. 1985)",
+    "link_md": "[State v. Harris, 477 So. 2d 1123 (La. 1985)](https://syfert.com/louisiana/cases/477-so-2d-1123/state-v-harris)",
+    "match_kind": "semantic",
+    "similarity": 0.6862
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

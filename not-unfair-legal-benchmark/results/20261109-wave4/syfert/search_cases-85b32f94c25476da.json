@@ -1,0 +1,423 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Roucchio w/15 \"613 NYS2d 126\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Roucchio w/15 \\\"613 NYS2d 126\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2585732,\"case_name\":\"La Rocco v. City of New York\",\"citations\":[\"274 N.E.2d 751\",\"29 N.Y.2d 687\",\"1971 N.Y. LEXIS 1053\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1971-10-07\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/new-york/cases/29-n-y-2d-687/la-rocco-v-city-of-new-york\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (2585732 and its twin 5678917).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"La Rocco v. City of New York, 274 N.E.2d 751 (N.Y. 1971)\",\"link_md\":\"[La Rocco v. City of New York, 274 N.E.2d 751 (N.Y. 1971)](https://syfert.com/new-york/cases/29-n-y-2d-687/la-rocco-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6545,\"twin_clusters\":[5678917]},{\"cluster_id\":7429341,\"case_name\":\"Depirro v. John N. Robins Co.\",\"citations\":[\"132 N.Y.S. 1126\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1912-01-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/132-n-y-s-1126/depirro-v-john-n-robins-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Depirro v. John N. Robins Co., 132 N.Y.S. 1126 (N.Y. App. Div. 1912)\",\"link_md\":\"[Depirro v. John N. Robins Co., 132 N.Y.S. 1126 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/132-n-y-s-1126/depirro-v-john-n-robins-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6378},{\"cluster_id\":6133001,\"case_name\":\"People v. Smith\",\"citations\":[\"224 A.D.2d 347\",\"638 N.Y.S.2d 66\",\"1996 N.Y. App. Div. LEXIS 1448\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1996-02-27\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/224-a-d-2d-347/people-v-smith\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Smith, 224 A.D.2d 347 (N.Y. App. Div. 1st Dep't 1996)\",\"link_md\":\"[People v. Smith, 224 A.D.2d 347 (N.Y. App. Div. 1st Dep't 1996)](https://syfert.com/new-york/cases/224-a-d-2d-347/people-v-smith)\",\"match_kind\":\"semantic\",\"similarity\":0.6315},{\"cluster_id\":10849444,\"case_name\":\"People v. Bruno\",\"citations\":[\"248 A.D.3d 1063\",\"2026 NY Slip Op 02291\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2026-04-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/248-a-d-3d-1063/people-v-bruno\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"248 A.D.3d 1063\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d\"}],\"bluebook\":\"People v. Bruno, 248 A.D.3d 1063 (N.Y. App. Div. 2d Dep't 2026)\",\"link_md\":\"[People v. Bruno, 248 A.D.3d 1063 (N.Y. App. Div. 2d Dep't 2026)](https://syfert.com/new-york/cases/248-a-d-3d-1063/people-v-bruno)\",\"match_kind\":\"semantic\",\"similarity\":0.6285},{\"cluster_id\":2591788,\"case_name\":\"People v. Rohrlich\",\"citations\":[\"159 N.E.2d 353\",\"6 N.Y.2d 785\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1959-05-14\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/6-n-y-2d-785/people-v-rohrlich\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Rohrlich, 159 N.E.2d 353 (N.Y. 1959)\",\"link_md\":\"[People v. Rohrlich, 159 N.E.2d 353 (N.Y. 1959)](https://syfert.com/new-york/cases/6-n-y-2d-785/people-v-rohrlich)\",\"match_kind\":\"semantic\",\"similarity\":0.6284},{\"cluster_id\":2564829,\"case_name\":\"PEOPLE EX REL. ROACHE v. Connell\",\"citations\":[\"6 N.Y.3d 772\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2006-01-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/6-n-y-3d-772/people-ex-rel-roache-v-connell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Roache v. Connell, 6 N.Y.3d 772 (2006)\",\"link_md\":\"[People ex rel. Roache v. Connell, 6 N.Y.3d 772 (2006)](https://syfert.com/new-york/cases/6-n-y-3d-772/people-ex-rel-roache-v-connell)\",\"match_kind\":\"semantic\",\"similarity\":0.6254},{\"cluster_id\":139499,\"case_name\":\"Roache v. New York\",\"citations\":[\"543 U.S. 935\",\"125 S. Ct. 328\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-935/roache-v-new-york\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (139499 and its twin 9278866). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Roache v. New York, 543 U.S. 935 (2004)\",\"link_md\":\"[Roache v. New York, 543 U.S. 935 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-935/roache-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6231},{\"cluster_id\":7420836,\"case_name\":\"In re Rourke\",\"citations\":[\"120 N.Y.S. 1144\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1910-01-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/120-n-y-s-1144/in-re-rourke\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Rourke, 120 N.Y.S. 1144 (N.Y. App. Div. 1910)\",\"link_md\":\"[In re Rourke, 120 N.Y.S. 1144 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/120-n-y-s-1144/in-re-rourke)\",\"match_kind\":\"semantic\",\"similarity\":0.6222},{\"cluster_id\":5878798,\"case_name\":\"People ex rel. Rico v. La Vallee\",\"citations\":[\"15 A.D.2d 685\",\"1962 N.Y. App. Div. LEXIS 12093\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1962-01-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/15-a-d-2d-685/people-ex-rel-rico-v-la-vallee\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Rico v. La Vallee, 15 A.D.2d 685 (N.Y. App. Div. 3d Dep't 1962)\",\"link_md\":\"[People ex rel. Rico v. La Vallee, 15 A.D.2d 685 (N.Y. App. Div. 3d Dep't 1962)](https://syfert.com/new-york/cases/15-a-d-2d-685/people-ex-rel-rico-v-la-vallee)\",\"match_kind\":\"semantic\",\"similarity\":0.6212},{\"cluster_id\":10672491,\"case_name\":\"Mouzon v. Luxe VVS Jewelers\",\"citations\":[\"2025 NY Slip Op 51428(U)\"],\"court\":\"Appellate Terms of the Supreme Court of New York\",\"date_filed\":\"2025-09-15\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-10672491/mouzon-v-luxe-vvs-jewelers\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mouzon v. Luxe VVS Jewelers, 2025 NY Slip Op 51428(U) (N.Y. App. Term. 2025)\",\"link_md\":\"[Mouzon v. Luxe VVS Jewelers, 2025 NY Slip Op 51428(U) (N.Y. App. Term. 2025)](https://syfert.com/new-york/cases/cl-10672491/mouzon-v-luxe-vvs-jewelers)\",\"match_kind\":\"semantic\",\"similarity\":0.6188},{\"cluster_id\":7431542,\"case_name\":\"Rycroft v. Pierce\",\"citations\":[\"153 A.D. 896\",\"138 N.Y.S. 1140\",\"1912 N.Y. App. Div. LEXIS 11741\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1912-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/138-n-y-s-1140/rycroft-v-pierce\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rycroft v. Pierce, 153 A.D. 896 (N.Y. App. Div. 1912)\",\"link_md\":\"[Rycroft v. Pierce, 153 A.D. 896 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/138-n-y-s-1140/rycroft-v-pierce)\",\"match_kind\":\"semantic\",\"similarity\":0.6186},{\"cluster_id\":2591181,\"case_name\":\"Ross v. State\",\"citations\":[\"244 N.E.2d 877\",\"23 N.Y.2d 807\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1969-01-08\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/23-n-y-2d-807/ross-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ross v. State, 244 N.E.2d 877 (N.Y. 1969)\",\"link_md\":\"[Ross v. State, 244 N.E.2d 877 (N.Y. 1969)](https://syfert.com/new-york/cases/23-n-y-2d-807/ross-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6186},{\"cluster_id\":7440291,\"case_name\":\"Tricozzi v. New York Cent. & H. R. R.\",\"citations\":[\"155 N.Y.S. 1144\",\"1915 N.Y. App. Div. LEXIS 5883\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1915-11-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/155-n-y-s-1144/tricozzi-v-new-york-cent-h-r-r\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Tricozzi v. New York Cent. & H. R. R., 155 N.Y.S. 1144 (N.Y. App. Div. 1915)\",\"link_md\":\"[Tricozzi v. New York Cent. & H. R. R., 155 N.Y.S. 1144 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/155-n-y-s-1144/tricozzi-v-new-york-cent-h-r-r)\",\"match_kind\":\"semantic\",\"similarity\":0.6169},{\"cluster_id\":322147,\"case_name\":\"Cozzolino v. Rose\",\"citations\":[\"503 F.2d 1404\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1974-09-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/503-f-2d-1404/cozzolino-v-rose\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cozzolino v. Rose, 503 F.2d 1404 (6th Cir. 1974)\",\"link_md\":\"[Cozzolino v. Rose, 503 F.2d 1404 (6th Cir. 1974)](https://syfert.com/federal/circuits/cases/503-f-2d-1404/cozzolino-v-rose)\",\"match_kind\":\"semantic\",\"similarity\":0.6161},{\"cluster_id\":2527377,\"case_name\":\"MATTER OF ROSSI v. Fischer\",\"citations\":[\"952 N.E.2d 1086\",\"17 N.Y.3d 701\",\"929 N.Y.S.2d 91\",\"2011 NY Slip Op 74294\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2011-06-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/17-n-y-3d-701/matter-of-rossi-v-fischer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Rossi v. Fischer, 952 N.E.2d 1086 (N.Y. 2011)\",\"link_md\":\"[Matter of Rossi v. Fischer, 952 N.E.2d 1086 (N.Y. 2011)](https://syfert.com/new-york/cases/17-n-y-3d-701/matter-of-rossi-v-fischer)\",\"match_kind\":\"semantic\",\"similarity\":0.6146},{\"cluster_id\":138434,\"case_name\":\"Roach v. New York\",\"citations\":[\"543 U.S. 853\",\"125 S. Ct. 298\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-10-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-853/roach-v-new-york\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (138434 and its twin 9277847). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Roach v. New York, 543 U.S. 853 (2004)\",\"link_md\":\"[Roach v. New York, 543 U.S. 853 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-853/roach-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6104},{\"cluster_id\":2553082,\"case_name\":\"Matter of Ricco v. Goord\",\"citations\":[\"2 N.Y.3d 707\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2004-06-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/2-n-y-3d-707/matter-of-ricco-v-goord\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Ricco v. Goord, 2 N.Y.3d 707 (2004)\",\"link_md\":\"[Matter of Ricco v. Goord, 2 N.Y.3d 707 (2004)](https://syfert.com/new-york/cases/2-n-y-3d-707/matter-of-ricco-v-goord)\",\"match_kind\":\"semantic\",\"similarity\":0.6087},{\"cluster_id\":10318690,\"case_name\":\"James v. Harriet Tubman Gardens Apt. Corp.\",\"citations\":[\"2025 NY Slip Op 30141(U)\"],\"court\":\"New York Supreme Court, New York County\",\"date_filed\":\"2025-01-09\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-10318690/james-v-harriet-tubman-gardens-apt-corp\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"James v. Harriet Tubman Gardens Apt. Corp., 2025 NY Slip Op 30141(U) (N.Y. Sup. Ct., New York Cty. 2025)\",\"link_md\":\"[James v. Harriet Tubman Gardens Apt. Corp., 2025 NY Slip Op 30141(U) (N.Y. Sup. Ct., New York Cty. 2025)](https://syfert.com/new-york/cases/cl-10318690/james-v-harriet-tubman-gardens-apt-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6077},{\"cluster_id\":6050375,\"case_name\":\"Rocha Toussier Y Asociados v. Rivero\",\"citations\":[\"150 A.D.2d 171\",\"542 N.Y.S.2d 1003\",\"1989 N.Y. App. Div. LEXIS 6262\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1989-05-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/150-a-d-2d-171/rocha-toussier-y-asociados-v-rivero\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rocha Toussier Y Asociados v. Rivero, 150 A.D.2d 171 (N.Y. App. Div. 1st Dep't 1989)\",\"link_md\":\"[Rocha Toussier Y Asociados v. Rivero, 150 A.D.2d 171 (N.Y. App. Div. 1st Dep't 1989)](https://syfert.com/new-york/cases/150-a-d-2d-171/rocha-toussier-y-asociados-v-rivero)\",\"match_kind\":\"semantic\",\"similarity\":0.6076},{\"cluster_id\":2524739,\"case_name\":\"MATTER OF RUGGIERO v. DiNAPOLI\",\"citations\":[\"954 N.E.2d 1182\",\"17 N.Y.3d 711\",\"2011 NY Slip Op 84343\",\"930 N.Y.S.2d 556\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2011-09-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/17-n-y-3d-711/matter-of-ruggiero-v-dinapoli\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Ruggiero v. Dinapoli, 954 N.E.2d 1182 (N.Y. 2011)\",\"link_md\":\"[Matter of Ruggiero v. Dinapoli, 954 N.E.2d 1182 (N.Y. 2011)](https://syfert.com/new-york/cases/17-n-y-3d-711/matter-of-ruggiero-v-dinapoli)\",\"match_kind\":\"semantic\",\"similarity\":0.6074}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Roucchio w/15 \"613 NYS2d 126\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2585732,
+    "case_name": "La Rocco v. City of New York",
+    "citations": [
+     "274 N.E.2d 751",
+     "29 N.Y.2d 687",
+     "1971 N.Y. LEXIS 1053"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1971-10-07",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/new-york/cases/29-n-y-2d-687/la-rocco-v-city-of-new-york",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (2585732 and its twin 5678917).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "La Rocco v. City of New York, 274 N.E.2d 751 (N.Y. 1971)",
+    "link_md": "[La Rocco v. City of New York, 274 N.E.2d 751 (N.Y. 1971)](https://syfert.com/new-york/cases/29-n-y-2d-687/la-rocco-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6545,
+    "twin_clusters": [
+     5678917
+    ]
+   },
+   {
+    "cluster_id": 7429341,
+    "case_name": "Depirro v. John N. Robins Co.",
+    "citations": [
+     "132 N.Y.S. 1126"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1912-01-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/132-n-y-s-1126/depirro-v-john-n-robins-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Depirro v. John N. Robins Co., 132 N.Y.S. 1126 (N.Y. App. Div. 1912)",
+    "link_md": "[Depirro v. John N. Robins Co., 132 N.Y.S. 1126 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/132-n-y-s-1126/depirro-v-john-n-robins-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6378
+   },
+   {
+    "cluster_id": 6133001,
+    "case_name": "People v. Smith",
+    "citations": [
+     "224 A.D.2d 347",
+     "638 N.Y.S.2d 66",
+     "1996 N.Y. App. Div. LEXIS 1448"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1996-02-27",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/224-a-d-2d-347/people-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Smith, 224 A.D.2d 347 (N.Y. App. Div. 1st Dep't 1996)",
+    "link_md": "[People v. Smith, 224 A.D.2d 347 (N.Y. App. Div. 1st Dep't 1996)](https://syfert.com/new-york/cases/224-a-d-2d-347/people-v-smith)",
+    "match_kind": "semantic",
+    "similarity": 0.6315
+   },
+   {
+    "cluster_id": 10849444,
+    "case_name": "People v. Bruno",
+    "citations": [
+     "248 A.D.3d 1063",
+     "2026 NY Slip Op 02291"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2026-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/248-a-d-3d-1063/people-v-bruno",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "248 A.D.3d 1063",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d"
+     }
+    ],
+    "bluebook": "People v. Bruno, 248 A.D.3d 1063 (N.Y. App. Div. 2d Dep't 2026)",
+    "link_md": "[People v. Bruno, 248 A.D.3d 1063 (N.Y. App. Div. 2d Dep't 2026)](https://syfert.com/new-york/cases/248-a-d-3d-1063/people-v-bruno)",
+    "match_kind": "semantic",
+    "similarity": 0.6285
+   },
+   {
+    "cluster_id": 2591788,
+    "case_name": "People v. Rohrlich",
+    "citations": [
+     "159 N.E.2d 353",
+     "6 N.Y.2d 785"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1959-05-14",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/6-n-y-2d-785/people-v-rohrlich",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Rohrlich, 159 N.E.2d 353 (N.Y. 1959)",
+    "link_md": "[People v. Rohrlich, 159 N.E.2d 353 (N.Y. 1959)](https://syfert.com/new-york/cases/6-n-y-2d-785/people-v-rohrlich)",
+    "match_kind": "semantic",
+    "similarity": 0.6284
+   },
+   {
+    "cluster_id": 2564829,
+    "case_name": "PEOPLE EX REL. ROACHE v. Connell",
+    "citations": [
+     "6 N.Y.3d 772"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2006-01-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/6-n-y-3d-772/people-ex-rel-roache-v-connell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Roache v. Connell, 6 N.Y.3d 772 (2006)",
+    "link_md": "[People ex rel. Roache v. Connell, 6 N.Y.3d 772 (2006)](https://syfert.com/new-york/cases/6-n-y-3d-772/people-ex-rel-roache-v-connell)",
+    "match_kind": "semantic",
+    "similarity": 0.6254
+   },
+   {
+    "cluster_id": 139499,
+    "case_name": "Roache v. New York",
+    "citations": [
+     "543 U.S. 935",
+     "125 S. Ct. 328"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-935/roache-v-new-york",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (139499 and its twin 9278866). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Roache v. New York, 543 U.S. 935 (2004)",
+    "link_md": "[Roache v. New York, 543 U.S. 935 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-935/roache-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6231
+   },
+   {
+    "cluster_id": 7420836,
+    "case_name": "In re Rourke",
+    "citations": [
+     "120 N.Y.S. 1144"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1910-01-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/120-n-y-s-1144/in-re-rourke",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Rourke, 120 N.Y.S. 1144 (N.Y. App. Div. 1910)",
+    "link_md": "[In re Rourke, 120 N.Y.S. 1144 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/120-n-y-s-1144/in-re-rourke)",
+    "match_kind": "semantic",
+    "similarity": 0.6222
+   },
+   {
+    "cluster_id": 5878798,
+    "case_name": "People ex rel. Rico v. La Vallee",
+    "citations": [
+     "15 A.D.2d 685",
+     "1962 N.Y. App. Div. LEXIS 12093"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1962-01-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/15-a-d-2d-685/people-ex-rel-rico-v-la-vallee",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Rico v. La Vallee, 15 A.D.2d 685 (N.Y. App. Div. 3d Dep't 1962)",
+    "link_md": "[People ex rel. Rico v. La Vallee, 15 A.D.2d 685 (N.Y. App. Div. 3d Dep't 1962)](https://syfert.com/new-york/cases/15-a-d-2d-685/people-ex-rel-rico-v-la-vallee)",
+    "match_kind": "semantic",
+    "similarity": 0.6212
+   },
+   {
+    "cluster_id": 10672491,
+    "case_name": "Mouzon v. Luxe VVS Jewelers",
+    "citations": [
+     "2025 NY Slip Op 51428(U)"
+    ],
+    "court": "Appellate Terms of the Supreme Court of New York",
+    "date_filed": "2025-09-15",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-10672491/mouzon-v-luxe-vvs-jewelers",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Mouzon v. Luxe VVS Jewelers, 2025 NY Slip Op 51428(U) (N.Y. App. Term. 2025)",
+    "link_md": "[Mouzon v. Luxe VVS Jewelers, 2025 NY Slip Op 51428(U) (N.Y. App. Term. 2025)](https://syfert.com/new-york/cases/cl-10672491/mouzon-v-luxe-vvs-jewelers)",
+    "match_kind": "semantic",
+    "similarity": 0.6188
+   },
+   {
+    "cluster_id": 7431542,
+    "case_name": "Rycroft v. Pierce",
+    "citations": [
+     "153 A.D. 896",
+     "138 N.Y.S. 1140",
+     "1912 N.Y. App. Div. LEXIS 11741"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1912-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/138-n-y-s-1140/rycroft-v-pierce",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rycroft v. Pierce, 153 A.D. 896 (N.Y. App. Div. 1912)",
+    "link_md": "[Rycroft v. Pierce, 153 A.D. 896 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/138-n-y-s-1140/rycroft-v-pierce)",
+    "match_kind": "semantic",
+    "similarity": 0.6186
+   },
+   {
+    "cluster_id": 2591181,
+    "case_name": "Ross v. State",
+    "citations": [
+     "244 N.E.2d 877",
+     "23 N.Y.2d 807"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1969-01-08",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/23-n-y-2d-807/ross-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ross v. State, 244 N.E.2d 877 (N.Y. 1969)",
+    "link_md": "[Ross v. State, 244 N.E.2d 877 (N.Y. 1969)](https://syfert.com/new-york/cases/23-n-y-2d-807/ross-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6186
+   },
+   {
+    "cluster_id": 7440291,
+    "case_name": "Tricozzi v. New York Cent. & H. R. R.",
+    "citations": [
+     "155 N.Y.S. 1144",
+     "1915 N.Y. App. Div. LEXIS 5883"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1915-11-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/155-n-y-s-1144/tricozzi-v-new-york-cent-h-r-r",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Tricozzi v. New York Cent. & H. R. R., 155 N.Y.S. 1144 (N.Y. App. Div. 1915)",
+    "link_md": "[Tricozzi v. New York Cent. & H. R. R., 155 N.Y.S. 1144 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/155-n-y-s-1144/tricozzi-v-new-york-cent-h-r-r)",
+    "match_kind": "semantic",
+    "similarity": 0.6169
+   },
+   {
+    "cluster_id": 322147,
+    "case_name": "Cozzolino v. Rose",
+    "citations": [
+     "503 F.2d 1404"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1974-09-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/503-f-2d-1404/cozzolino-v-rose",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cozzolino v. Rose, 503 F.2d 1404 (6th Cir. 1974)",
+    "link_md": "[Cozzolino v. Rose, 503 F.2d 1404 (6th Cir. 1974)](https://syfert.com/federal/circuits/cases/503-f-2d-1404/cozzolino-v-rose)",
+    "match_kind": "semantic",
+    "similarity": 0.6161
+   },
+   {
+    "cluster_id": 2527377,
+    "case_name": "MATTER OF ROSSI v. Fischer",
+    "citations": [
+     "952 N.E.2d 1086",
+     "17 N.Y.3d 701",
+     "929 N.Y.S.2d 91",
+     "2011 NY Slip Op 74294"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2011-06-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/17-n-y-3d-701/matter-of-rossi-v-fischer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Rossi v. Fischer, 952 N.E.2d 1086 (N.Y. 2011)",
+    "link_md": "[Matter of Rossi v. Fischer, 952 N.E.2d 1086 (N.Y. 2011)](https://syfert.com/new-york/cases/17-n-y-3d-701/matter-of-rossi-v-fischer)",
+    "match_kind": "semantic",
+    "similarity": 0.6146
+   },
+   {
+    "cluster_id": 138434,
+    "case_name": "Roach v. New York",
+    "citations": [
+     "543 U.S. 853",
+     "125 S. Ct. 298"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-10-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-853/roach-v-new-york",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (138434 and its twin 9277847). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Roach v. New York, 543 U.S. 853 (2004)",
+    "link_md": "[Roach v. New York, 543 U.S. 853 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-853/roach-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6104
+   },
+   {
+    "cluster_id": 2553082,
+    "case_name": "Matter of Ricco v. Goord",
+    "citations": [
+     "2 N.Y.3d 707"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2004-06-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/2-n-y-3d-707/matter-of-ricco-v-goord",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Ricco v. Goord, 2 N.Y.3d 707 (2004)",
+    "link_md": "[Matter of Ricco v. Goord, 2 N.Y.3d 707 (2004)](https://syfert.com/new-york/cases/2-n-y-3d-707/matter-of-ricco-v-goord)",
+    "match_kind": "semantic",
+    "similarity": 0.6087
+   },
+   {
+    "cluster_id": 10318690,
+    "case_name": "James v. Harriet Tubman Gardens Apt. Corp.",
+    "citations": [
+     "2025 NY Slip Op 30141(U)"
+    ],
+    "court": "New York Supreme Court, New York County",
+    "date_filed": "2025-01-09",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-10318690/james-v-harriet-tubman-gardens-apt-corp",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "James v. Harriet Tubman Gardens Apt. Corp., 2025 NY Slip Op 30141(U) (N.Y. Sup. Ct., New York Cty. 2025)",
+    "link_md": "[James v. Harriet Tubman Gardens Apt. Corp., 2025 NY Slip Op 30141(U) (N.Y. Sup. Ct., New York Cty. 2025)](https://syfert.com/new-york/cases/cl-10318690/james-v-harriet-tubman-gardens-apt-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6077
+   },
+   {
+    "cluster_id": 6050375,
+    "case_name": "Rocha Toussier Y Asociados v. Rivero",
+    "citations": [
+     "150 A.D.2d 171",
+     "542 N.Y.S.2d 1003",
+     "1989 N.Y. App. Div. LEXIS 6262"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1989-05-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/150-a-d-2d-171/rocha-toussier-y-asociados-v-rivero",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rocha Toussier Y Asociados v. Rivero, 150 A.D.2d 171 (N.Y. App. Div. 1st Dep't 1989)",
+    "link_md": "[Rocha Toussier Y Asociados v. Rivero, 150 A.D.2d 171 (N.Y. App. Div. 1st Dep't 1989)](https://syfert.com/new-york/cases/150-a-d-2d-171/rocha-toussier-y-asociados-v-rivero)",
+    "match_kind": "semantic",
+    "similarity": 0.6076
+   },
+   {
+    "cluster_id": 2524739,
+    "case_name": "MATTER OF RUGGIERO v. DiNAPOLI",
+    "citations": [
+     "954 N.E.2d 1182",
+     "17 N.Y.3d 711",
+     "2011 NY Slip Op 84343",
+     "930 N.Y.S.2d 556"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2011-09-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/17-n-y-3d-711/matter-of-ruggiero-v-dinapoli",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Ruggiero v. Dinapoli, 954 N.E.2d 1182 (N.Y. 2011)",
+    "link_md": "[Matter of Ruggiero v. Dinapoli, 954 N.E.2d 1182 (N.Y. 2011)](https://syfert.com/new-york/cases/17-n-y-3d-711/matter-of-ruggiero-v-dinapoli)",
+    "match_kind": "semantic",
+    "similarity": 0.6074
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

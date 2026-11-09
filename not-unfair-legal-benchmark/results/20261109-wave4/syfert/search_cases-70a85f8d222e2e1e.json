@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Spencer w/15 \"196 N.J. 343\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Spencer w/15 \\\"196 N.J. 343\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2197622,\"bluebook\":\"Est. of Spencer v. Gavin, 953 A.2d 764 (N.J. 2008)\",\"url\":\"https://syfert.com/new-jersey/cases/196-n-j-346/estate-of-spencer-v-gavin\",\"date_filed\":\"2008-07-15\",\"cited_by\":8,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"953 A.2d 764 (2008)\\n196 N.J. 343\\nESTATE OF SPENCER\\nv.\\nGAVIN.\\nNo. C-1173 SEPT TERM2007, 62,707\\nSupreme Court of New Jersey.\\nJuly 15, 2008.\\nPetition for certification. Denied.\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Spencer w/15 \"196 N.J. 343\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2197622,
+    "bluebook": "Est. of Spencer v. Gavin, 953 A.2d 764 (N.J. 2008)",
+    "url": "https://syfert.com/new-jersey/cases/196-n-j-346/estate-of-spencer-v-gavin",
+    "date_filed": "2008-07-15",
+    "cited_by": 8,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "953 A.2d 764 (2008)\n196 N.J. 343\nESTATE OF SPENCER\nv.\nGAVIN.\nNo. C-1173 SEPT TERM2007, 62,707\nSupreme Court of New Jersey.\nJuly 15, 2008.\nPetition for certification. Denied."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

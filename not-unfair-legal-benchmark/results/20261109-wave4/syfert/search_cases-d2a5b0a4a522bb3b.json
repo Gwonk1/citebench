@@ -1,0 +1,108 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Staudt w/15 \"700 P.2d 175\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Staudt w/15 \\\"700 P.2d 175\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":879070,\"bluebook\":\"In re Marriage of Johnston, 726 P.2d 322 (Mont. 1986)\",\"url\":\"https://syfert.com/montana/cases/223-mont-383/in-re-marriage-of-johnston\",\"date_filed\":\"1986-10-09\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In re the Marriage of Staudt\\n(Mont.1985), [ 216 Mont. 196 ,] 700 P.2d 175, 178 , 42 St. Rep. 740 , 744. This value was well within that range of evidence submitted and was thoughtfully arrived at by the District Court. We uphold the…\"},{\"cluster_id\":879745,\"bluebook\":\"In re the Marriage of Milesnick, 765 P.2d 751 (Mont. 1988)\",\"url\":\"https://syfert.com/montana/cases/235-mont-88/in-re-the-marriage-of-milesnick\",\"date_filed\":\"1988-12-08\",\"cited_by\":49,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...1023 , 1026;\\nIn Re the Marriage of Staudt\\n(Mont. 1985), [ 216 Mont. 196 ,] 700 P.2d 175, 177 , 42 St.Rep. 740 , 743.\\nConflicting evidence was before the District Court in the present case. When confronted with conflicting evidence, the…\",\"holding\":\"A court may apply a discount for a minority interest when a shareholder lacks control over corporate operations, salaries, dividends, and day-to-day management.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":879168,\"bluebook\":\"In re the Marriage of Reich, 720 P.2d 286 (Mont. 1986)\",\"url\":\"https://syfert.com/montana/cases/222-mont-192/in-re-the-marriage-of-reich\",\"date_filed\":\"1986-06-20\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In re Marriage of Staudt\\n(Mont. 1985), [ 216 Mont. 196 ,] 700 P.2d 175, 179 , 42 St.Rep. 740 , 744. We will not set aside a district court’s finding of fact unless the finding represents an abuse of discretion.\\nReese v. Reese\\n(1979),…\"},{\"cluster_id\":884018,\"bluebook\":\"In re Marriage of Stufft, 916 P.2d 767 (Mont. 1996)\",\"url\":\"https://syfert.com/montana/cases/276-mont-454/in-re-marriage-of-stufft\",\"date_filed\":\"1996-05-14\",\"cited_by\":26,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...the division of property, the District Court is given wide discretion in the division of debts.”\\nIn re Marriage of Staudt\\n(1985), 216 Mont. 196, 201 , 700 P.2d 175, 178 . We have reviewed the court’s assignment of debt and note that the…\",\"holding\":\"A trial court abuses its discretion when it fails to make specific written findings explaining how it calculated child support under the guidelines or valued marital assets without sufficient evidentiary support.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\"},{\"cluster_id\":879688,\"bluebook\":\"In re the Marriage of Hammill, 732 P.2d 403 (Mont. 1987)\",\"url\":\"https://syfert.com/montana/cases/225-mont-263/in-re-the-marriage-of-hammill\",\"date_filed\":\"1987-02-04\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":2},\"snippet\":\"...In Re Marriage of Staudt\\n(Mont. 1985), [ 216 Mont. 196 ,] 700 P.2d 175, 177 , 42 St.Rep. 740 , 743.\\nThere is no evidence in the record which conflicts with the 1985 values adopted by the District Court, and we therefore hold the court…\"},{\"cluster_id\":883195,\"bluebook\":\"In re the Marriage of Davies, 880 P.2d 1368 (Mont. 1994)\",\"url\":\"https://syfert.com/montana/cases/266-mont-466/in-re-the-marriage-of-davies\",\"date_filed\":\"1994-09-21\",\"cited_by\":22,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...294, 299 , 590 P.2d 606, 610 ; see also In re Marriage of Staudt (1985), 216 Mont. 196 , 700 P.2d 175 .\\nThe court held that Margaret was not entitled to any portion of the stock listed in Categories A, B, or C because she had nothing to…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Staudt w/15 \"700 P.2d 175\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 879070,
+    "bluebook": "In re Marriage of Johnston, 726 P.2d 322 (Mont. 1986)",
+    "url": "https://syfert.com/montana/cases/223-mont-383/in-re-marriage-of-johnston",
+    "date_filed": "1986-10-09",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In re the Marriage of Staudt\n(Mont.1985), [ 216 Mont. 196 ,] 700 P.2d 175, 178 , 42 St. Rep. 740 , 744. This value was well within that range of evidence submitted and was thoughtfully arrived at by the District Court. We uphold the…"
+   },
+   {
+    "cluster_id": 879745,
+    "bluebook": "In re the Marriage of Milesnick, 765 P.2d 751 (Mont. 1988)",
+    "url": "https://syfert.com/montana/cases/235-mont-88/in-re-the-marriage-of-milesnick",
+    "date_filed": "1988-12-08",
+    "cited_by": 49,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...1023 , 1026;\nIn Re the Marriage of Staudt\n(Mont. 1985), [ 216 Mont. 196 ,] 700 P.2d 175, 177 , 42 St.Rep. 740 , 743.\nConflicting evidence was before the District Court in the present case. When confronted with conflicting evidence, the…",
+    "holding": "A court may apply a discount for a minority interest when a shareholder lacks control over corporate operations, salaries, dividends, and day-to-day management.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 879168,
+    "bluebook": "In re the Marriage of Reich, 720 P.2d 286 (Mont. 1986)",
+    "url": "https://syfert.com/montana/cases/222-mont-192/in-re-the-marriage-of-reich",
+    "date_filed": "1986-06-20",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In re Marriage of Staudt\n(Mont. 1985), [ 216 Mont. 196 ,] 700 P.2d 175, 179 , 42 St.Rep. 740 , 744. We will not set aside a district court’s finding of fact unless the finding represents an abuse of discretion.\nReese v. Reese\n(1979),…"
+   },
+   {
+    "cluster_id": 884018,
+    "bluebook": "In re Marriage of Stufft, 916 P.2d 767 (Mont. 1996)",
+    "url": "https://syfert.com/montana/cases/276-mont-454/in-re-marriage-of-stufft",
+    "date_filed": "1996-05-14",
+    "cited_by": 26,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...the division of property, the District Court is given wide discretion in the division of debts.”\nIn re Marriage of Staudt\n(1985), 216 Mont. 196, 201 , 700 P.2d 175, 178 . We have reviewed the court’s assignment of debt and note that the…",
+    "holding": "A trial court abuses its discretion when it fails to make specific written findings explaining how it calculated child support under the guidelines or valued marital assets without sufficient evidentiary support.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 879688,
+    "bluebook": "In re the Marriage of Hammill, 732 P.2d 403 (Mont. 1987)",
+    "url": "https://syfert.com/montana/cases/225-mont-263/in-re-the-marriage-of-hammill",
+    "date_filed": "1987-02-04",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 2
+    },
+    "snippet": "...In Re Marriage of Staudt\n(Mont. 1985), [ 216 Mont. 196 ,] 700 P.2d 175, 177 , 42 St.Rep. 740 , 743.\nThere is no evidence in the record which conflicts with the 1985 values adopted by the District Court, and we therefore hold the court…"
+   },
+   {
+    "cluster_id": 883195,
+    "bluebook": "In re the Marriage of Davies, 880 P.2d 1368 (Mont. 1994)",
+    "url": "https://syfert.com/montana/cases/266-mont-466/in-re-the-marriage-of-davies",
+    "date_filed": "1994-09-21",
+    "cited_by": 22,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...294, 299 , 590 P.2d 606, 610 ; see also In re Marriage of Staudt (1985), 216 Mont. 196 , 700 P.2d 175 .\nThe court held that Margaret was not entitled to any portion of the stock listed in Categories A, B, or C because she had nothing to…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

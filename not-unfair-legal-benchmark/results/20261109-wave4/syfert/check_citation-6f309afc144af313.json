@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "584 N.W.2d 461",
+  "expected_case_name": "State v. Tierney"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"584 N.W.2d 461\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1235399,\n            \"case_name\": \"State v. Tierney\",\n            \"citations\": [\n                \"584 N.W.2d 461\"\n            ],\n            \"court\": \"Nebraska Court of Appeals\",\n            \"date_filed\": \"1998-08-04\",\n            \"status\": \"Published\",\n            \"cited_by\": 8,\n            \"url\": \"https://syfert.com/nebraska/cases/7-neb-ct-app-469/state-v-tierney\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Tierney, 584 N.W.2d 461 (Neb. Ct. App. 1998)\",\n            \"link_md\": \"[State v. Tierney, 584 N.W.2d 461 (Neb. Ct. App. 1998)](https://syfert.com/nebraska/cases/7-neb-ct-app-469/state-v-tierney)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. Tierney\",\n        \"actual\": \"State v. Tierney\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "584 N.W.2d 461",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1235399,
+    "case_name": "State v. Tierney",
+    "citations": [
+     "584 N.W.2d 461"
+    ],
+    "court": "Nebraska Court of Appeals",
+    "date_filed": "1998-08-04",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/nebraska/cases/7-neb-ct-app-469/state-v-tierney",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Tierney, 584 N.W.2d 461 (Neb. Ct. App. 1998)",
+    "link_md": "[State v. Tierney, 584 N.W.2d 461 (Neb. Ct. App. 1998)](https://syfert.com/nebraska/cases/7-neb-ct-app-469/state-v-tierney)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. Tierney",
+   "actual": "State v. Tierney",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

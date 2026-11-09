@@ -1,0 +1,98 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "493 P.3d 1022",
+  "expected_case_name": "Wu Vs. Petitti"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"493 P.3d 1022\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5303207,\n            \"case_name\": \"Wu Vs. Petitti\",\n            \"citations\": [\n                \"493 P.3d 1022\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"493 P.3d 1019\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 5092739,\n                        \"case_name\": \"Vasquez-Montano Vs. Cemex Constr. Materials Pac., Llc\"\n                    }\n                }\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2021-09-10\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/493-p-3d-1022/wu-vs-petitti\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"493 P.3d 1019\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/493%20P.3d\"\n                },\n                {\n                    \"citation\": \"493 P.3d 1022\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/493%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Wu Vs. Petitti, 493 P.3d 1022 (Nev. 2021)\",\n            \"link_md\": \"[Wu Vs. Petitti, 493 P.3d 1022 (Nev. 2021)](https://syfert.com/nevada/cases/493-p-3d-1022/wu-vs-petitti)\"\n        },\n        {\n            \"cluster_id\": 5303223,\n            \"case_name\": \"Petitti Vs. Wu\",\n            \"citations\": [\n                \"493 P.3d 1022\"\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2021-09-07\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/493-p-3d-1022/petitti-vs-wu\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"493 P.3d 1022\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/493%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Petitti Vs. Wu, 493 P.3d 1022 (Nev. 2021)\",\n            \"link_md\": \"[Petitti Vs. Wu, 493 P.3d 1022 (Nev. 2021)](https://syfert.com/nevada/cases/493-p-3d-1022/petitti-vs-wu)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Wu Vs. Petitti\",\n        \"actual\": \"Wu Vs. Petitti\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "493 P.3d 1022",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5303207,
+    "case_name": "Wu Vs. Petitti",
+    "citations": [
+     "493 P.3d 1022"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "493 P.3d 1019",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 5092739,
+       "case_name": "Vasquez-Montano Vs. Cemex Constr. Materials Pac., Llc"
+      }
+     }
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2021-09-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/493-p-3d-1022/wu-vs-petitti",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "493 P.3d 1019",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/493%20P.3d"
+     },
+     {
+      "citation": "493 P.3d 1022",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/493%20P.3d"
+     }
+    ],
+    "bluebook": "Wu Vs. Petitti, 493 P.3d 1022 (Nev. 2021)",
+    "link_md": "[Wu Vs. Petitti, 493 P.3d 1022 (Nev. 2021)](https://syfert.com/nevada/cases/493-p-3d-1022/wu-vs-petitti)"
+   },
+   {
+    "cluster_id": 5303223,
+    "case_name": "Petitti Vs. Wu",
+    "citations": [
+     "493 P.3d 1022"
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2021-09-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/493-p-3d-1022/petitti-vs-wu",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "493 P.3d 1022",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/493%20P.3d"
+     }
+    ],
+    "bluebook": "Petitti Vs. Wu, 493 P.3d 1022 (Nev. 2021)",
+    "link_md": "[Petitti Vs. Wu, 493 P.3d 1022 (Nev. 2021)](https://syfert.com/nevada/cases/493-p-3d-1022/petitti-vs-wu)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Wu Vs. Petitti",
+   "actual": "Wu Vs. Petitti",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

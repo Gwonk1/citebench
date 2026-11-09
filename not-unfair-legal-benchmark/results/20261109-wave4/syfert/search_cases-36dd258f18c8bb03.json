@@ -1,0 +1,39 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Torres w/15 \"181 N.J. 286\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Torres w/15 \\\"181 N.J. 286\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1931448,\"bluebook\":\"State v. Torres, 874 A.2d 1084 (N.J. 2005)\",\"url\":\"https://syfert.com/new-jersey/cases/183-n-j-554/state-v-torres\",\"date_filed\":\"2005-06-16\",\"cited_by\":286,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":1},\"snippet\":\"...Torres,\\n181\\nN.J.\\n286 , 854 A.2d 920 (2004).\\nII.\\nJust as he did before the Appellate Division, defendant suggests error in the instruction on accomplice liability. Because defendant failed to object to the instruction at trial and raised…\",\"holding\":\"An expert may testify regarding gang hierarchy and discipline if the testimony is based on specialized knowledge and reliable hearsay reasonably relied upon by experts in the field.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Torres w/15 \"181 N.J. 286\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1931448,
+    "bluebook": "State v. Torres, 874 A.2d 1084 (N.J. 2005)",
+    "url": "https://syfert.com/new-jersey/cases/183-n-j-554/state-v-torres",
+    "date_filed": "2005-06-16",
+    "cited_by": 286,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 1
+    },
+    "snippet": "...Torres,\n181\nN.J.\n286 , 854 A.2d 920 (2004).\nII.\nJust as he did before the Appellate Division, defendant suggests error in the instruction on accomplice liability. Because defendant failed to object to the instruction at trial and raised…",
+    "holding": "An expert may testify regarding gang hierarchy and discipline if the testimony is based on specialized knowledge and reliable hearsay reasonably relied upon by experts in the field.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

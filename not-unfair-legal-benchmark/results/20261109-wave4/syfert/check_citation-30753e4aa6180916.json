@@ -1,0 +1,207 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "304 So. 3d 301",
+  "expected_case_name": "TERRY BRADY v. STATE OF FLORIDA"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"304 So. 3d 301\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4588732,\n            \"case_name\": \"Terry Brady v. State of Florida\",\n            \"citations\": [\n                \"304 So. 3d 301\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"304 So. 3d 300\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4578243,\n                        \"case_name\": \"Ricardo Q. Romero v. State of Florida\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2019-02-08\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/304-so-3d-301/terry-brady-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"304 So. 3d 300\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/304%20So.3d\"\n                },\n                {\n                    \"citation\": \"304 So. 3d 301\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/304%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Terry Brady v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)\",\n            \"link_md\": \"[Terry Brady v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-301/terry-brady-v-state-of-florida)\",\n            \"case_name_raw\": \"TERRY BRADY v. STATE OF FLORIDA\"\n        },\n        {\n            \"cluster_id\": 4588733,\n            \"case_name\": \"Terry Brady v. State of Florida\",\n            \"citations\": [\n                \"304 So. 3d 301\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"304 So. 3d 300\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4578243,\n                        \"case_name\": \"Ricardo Q. Romero v. State of Florida\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2019-02-08\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/304-so-3d-300/terry-brady-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"304 So. 3d 300\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/304%20So.3d\"\n                },\n                {\n                    \"citation\": \"304 So. 3d 301\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/304%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Terry Brady v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)\",\n            \"link_md\": \"[Terry Brady v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-300/terry-brady-v-state-of-florida)\",\n            \"case_name_raw\": \"TERRY BRADY v. STATE OF FLORIDA\"\n        },\n        {\n            \"cluster_id\": 4588756,\n            \"case_name\": \"Derrick Lovett v. State of Florida\",\n            \"citations\": [\n                \"304 So. 3d 301\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2019-02-08\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/304-so-3d-301/derrick-lovett-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"304 So. 3d 301\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/304%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Derrick Lovett v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)\",\n            \"link_md\": \"[Derrick Lovett v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-301/derrick-lovett-v-state-of-florida)\",\n            \"case_name_raw\": \"DERRICK LOVETT v. STATE OF FLORIDA\"\n        },\n        {\n            \"cluster_id\": 4591210,\n            \"case_name\": \"Shedrick A. Russell v. State of Florida\",\n            \"citations\": [\n                \"304 So. 3d 301\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2019-02-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/304-so-3d-301/shedrick-a-russell-v-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"304 So. 3d 301\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/304%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Shedrick a. Russell v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)\",\n            \"link_md\": \"[Shedrick a. Russell v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-301/shedrick-a-russell-v-state-of-florida)\",\n            \"case_name_raw\": \"SHEDRICK A. RUSSELL v. STATE OF FLORIDA\"\n        },\n        {\n            \"cluster_id\": 4591215,\n            \"case_name\": \"Michael Farrington v. Stephen R. Dudziak\",\n            \"citations\": [\n                \"304 So. 3d 301\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2019-02-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/304-so-3d-301/michael-farrington-v-stephen-r-dudziak\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"304 So. 3d 301\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/304%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Michael Farrington v. Stephen R. Dudziak, 304 So. 3d 301 (Fla. 2d DCA 2019)\",\n            \"link_md\": \"[Michael Farrington v. Stephen R. Dudziak, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-301/michael-farrington-v-stephen-r-dudziak)\",\n            \"case_name_raw\": \"MICHAEL FARRINGTON v. STEPHEN R. DUDZIAK\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"TERRY BRADY v. STATE OF FLORIDA\",\n        \"actual\": \"TERRY BRADY v. STATE OF FLORIDA\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "304 So. 3d 301",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4588732,
+    "case_name": "Terry Brady v. State of Florida",
+    "citations": [
+     "304 So. 3d 301"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "304 So. 3d 300",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4578243,
+       "case_name": "Ricardo Q. Romero v. State of Florida"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2019-02-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/304-so-3d-301/terry-brady-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "304 So. 3d 300",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/304%20So.3d"
+     },
+     {
+      "citation": "304 So. 3d 301",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/304%20So.3d"
+     }
+    ],
+    "bluebook": "Terry Brady v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)",
+    "link_md": "[Terry Brady v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-301/terry-brady-v-state-of-florida)",
+    "case_name_raw": "TERRY BRADY v. STATE OF FLORIDA"
+   },
+   {
+    "cluster_id": 4588733,
+    "case_name": "Terry Brady v. State of Florida",
+    "citations": [
+     "304 So. 3d 301"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "304 So. 3d 300",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4578243,
+       "case_name": "Ricardo Q. Romero v. State of Florida"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2019-02-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/304-so-3d-300/terry-brady-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "304 So. 3d 300",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/304%20So.3d"
+     },
+     {
+      "citation": "304 So. 3d 301",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/304%20So.3d"
+     }
+    ],
+    "bluebook": "Terry Brady v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)",
+    "link_md": "[Terry Brady v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-300/terry-brady-v-state-of-florida)",
+    "case_name_raw": "TERRY BRADY v. STATE OF FLORIDA"
+   },
+   {
+    "cluster_id": 4588756,
+    "case_name": "Derrick Lovett v. State of Florida",
+    "citations": [
+     "304 So. 3d 301"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2019-02-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/304-so-3d-301/derrick-lovett-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "304 So. 3d 301",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/304%20So.3d"
+     }
+    ],
+    "bluebook": "Derrick Lovett v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)",
+    "link_md": "[Derrick Lovett v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-301/derrick-lovett-v-state-of-florida)",
+    "case_name_raw": "DERRICK LOVETT v. STATE OF FLORIDA"
+   },
+   {
+    "cluster_id": 4591210,
+    "case_name": "Shedrick A. Russell v. State of Florida",
+    "citations": [
+     "304 So. 3d 301"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2019-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/304-so-3d-301/shedrick-a-russell-v-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "304 So. 3d 301",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/304%20So.3d"
+     }
+    ],
+    "bluebook": "Shedrick a. Russell v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)",
+    "link_md": "[Shedrick a. Russell v. State of Florida, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-301/shedrick-a-russell-v-state-of-florida)",
+    "case_name_raw": "SHEDRICK A. RUSSELL v. STATE OF FLORIDA"
+   },
+   {
+    "cluster_id": 4591215,
+    "case_name": "Michael Farrington v. Stephen R. Dudziak",
+    "citations": [
+     "304 So. 3d 301"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2019-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/304-so-3d-301/michael-farrington-v-stephen-r-dudziak",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "304 So. 3d 301",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/304%20So.3d"
+     }
+    ],
+    "bluebook": "Michael Farrington v. Stephen R. Dudziak, 304 So. 3d 301 (Fla. 2d DCA 2019)",
+    "link_md": "[Michael Farrington v. Stephen R. Dudziak, 304 So. 3d 301 (Fla. 2d DCA 2019)](https://syfert.com/florida/cases/304-so-3d-301/michael-farrington-v-stephen-r-dudziak)",
+    "case_name_raw": "MICHAEL FARRINGTON v. STEPHEN R. DUDZIAK"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "TERRY BRADY v. STATE OF FLORIDA",
+   "actual": "TERRY BRADY v. STATE OF FLORIDA",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

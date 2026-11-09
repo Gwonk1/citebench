@@ -1,0 +1,146 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "249 A.3d 1141",
+  "expected_case_name": "Bowman, S. v. Bowman, J."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"249 A.3d 1141\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4855031,\n            \"case_name\": \"Bowman, S. v. Bowman, J.\",\n            \"citations\": [\n                \"249 A.3d 1141\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"249 A.3d 1139\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4855007,\n                        \"case_name\": \"Henry, R. v. Henry, M.\"\n                    }\n                }\n            ],\n            \"court\": \"Superior Court of Pennsylvania\",\n            \"date_filed\": \"2021-02-09\",\n            \"status\": \"Unpublished\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/249-a-3d-1141/bowman-s-v-bowman-j\",\n            \"precedential_status\": \"Unpublished\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"249 A.3d 1139\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/249%20A.3d\"\n                },\n                {\n                    \"citation\": \"249 A.3d 1141\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/249%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Bowman, S. v. Bowman, J., 249 A.3d 1141 (Pa. Super. Ct. 2021)\",\n            \"link_md\": \"[Bowman, S. v. Bowman, J., 249 A.3d 1141 (Pa. Super. Ct. 2021)](https://syfert.com/pennsylvania/cases/249-a-3d-1141/bowman-s-v-bowman-j)\"\n        },\n        {\n            \"cluster_id\": 4855032,\n            \"case_name\": \"Bowman, J. v. Bowman, S.\",\n            \"citations\": [\n                \"249 A.3d 1141\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"249 A.3d 1139\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4855007,\n                        \"case_name\": \"Henry, R. v. Henry, M.\"\n                    }\n                }\n            ],\n            \"court\": \"Superior Court of Pennsylvania\",\n            \"date_filed\": \"2021-02-09\",\n            \"status\": \"Unpublished\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/249-a-3d-1139/bowman-j-v-bowman-s\",\n            \"precedential_status\": \"Unpublished\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"249 A.3d 1139\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/249%20A.3d\"\n                },\n                {\n                    \"citation\": \"249 A.3d 1141\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/249%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Bowman, J. v. Bowman, S., 249 A.3d 1141 (Pa. Super. Ct. 2021)\",\n            \"link_md\": \"[Bowman, J. v. Bowman, S., 249 A.3d 1141 (Pa. Super. Ct. 2021)](https://syfert.com/pennsylvania/cases/249-a-3d-1139/bowman-j-v-bowman-s)\"\n        },\n        {\n            \"cluster_id\": 4855052,\n            \"case_name\": \"Shannon, J. v. Tchorzewski, M.\",\n            \"citations\": [\n                \"249 A.3d 1141\"\n            ],\n            \"court\": \"Superior Court of Pennsylvania\",\n            \"date_filed\": \"2021-02-09\",\n            \"status\": \"Unpublished\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/249-a-3d-1141/shannon-j-v-tchorzewski-m\",\n            \"precedential_status\": \"Unpublished\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"249 A.3d 1141\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/249%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Shannon, J. v. Tchorzewski, M., 249 A.3d 1141 (Pa. Super. Ct. 2021)\",\n            \"link_md\": \"[Shannon, J. v. Tchorzewski, M., 249 A.3d 1141 (Pa. Super. Ct. 2021)](https://syfert.com/pennsylvania/cases/249-a-3d-1141/shannon-j-v-tchorzewski-m)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Bowman, S. v. Bowman, J.\",\n        \"actual\": \"Bowman, S. v. Bowman, J.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "249 A.3d 1141",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4855031,
+    "case_name": "Bowman, S. v. Bowman, J.",
+    "citations": [
+     "249 A.3d 1141"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "249 A.3d 1139",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4855007,
+       "case_name": "Henry, R. v. Henry, M."
+      }
+     }
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2021-02-09",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/249-a-3d-1141/bowman-s-v-bowman-j",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "249 A.3d 1139",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/249%20A.3d"
+     },
+     {
+      "citation": "249 A.3d 1141",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/249%20A.3d"
+     }
+    ],
+    "bluebook": "Bowman, S. v. Bowman, J., 249 A.3d 1141 (Pa. Super. Ct. 2021)",
+    "link_md": "[Bowman, S. v. Bowman, J., 249 A.3d 1141 (Pa. Super. Ct. 2021)](https://syfert.com/pennsylvania/cases/249-a-3d-1141/bowman-s-v-bowman-j)"
+   },
+   {
+    "cluster_id": 4855032,
+    "case_name": "Bowman, J. v. Bowman, S.",
+    "citations": [
+     "249 A.3d 1141"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "249 A.3d 1139",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4855007,
+       "case_name": "Henry, R. v. Henry, M."
+      }
+     }
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2021-02-09",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/249-a-3d-1139/bowman-j-v-bowman-s",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "249 A.3d 1139",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/249%20A.3d"
+     },
+     {
+      "citation": "249 A.3d 1141",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/249%20A.3d"
+     }
+    ],
+    "bluebook": "Bowman, J. v. Bowman, S., 249 A.3d 1141 (Pa. Super. Ct. 2021)",
+    "link_md": "[Bowman, J. v. Bowman, S., 249 A.3d 1141 (Pa. Super. Ct. 2021)](https://syfert.com/pennsylvania/cases/249-a-3d-1139/bowman-j-v-bowman-s)"
+   },
+   {
+    "cluster_id": 4855052,
+    "case_name": "Shannon, J. v. Tchorzewski, M.",
+    "citations": [
+     "249 A.3d 1141"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2021-02-09",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/249-a-3d-1141/shannon-j-v-tchorzewski-m",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "249 A.3d 1141",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/249%20A.3d"
+     }
+    ],
+    "bluebook": "Shannon, J. v. Tchorzewski, M., 249 A.3d 1141 (Pa. Super. Ct. 2021)",
+    "link_md": "[Shannon, J. v. Tchorzewski, M., 249 A.3d 1141 (Pa. Super. Ct. 2021)](https://syfert.com/pennsylvania/cases/249-a-3d-1141/shannon-j-v-tchorzewski-m)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Bowman, S. v. Bowman, J.",
+   "actual": "Bowman, S. v. Bowman, J.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

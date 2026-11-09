@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "139 P. 961",
+  "expected_case_name": "Flamm v. Wineland"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"139 P. 961\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4041569,\n            \"case_name\": \"Flamm v. Wineland\",\n            \"citations\": [\n                \"139 P. 961\"\n            ],\n            \"court\": \"Supreme Court of Oklahoma\",\n            \"date_filed\": \"1914-03-24\",\n            \"status\": \"Published\",\n            \"cited_by\": 6,\n            \"url\": \"https://syfert.com/oklahoma/cases/41-okla-688/flamm-v-wineland\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Flamm v. Wineland, 139 P. 961 (Okla. 1914)\",\n            \"link_md\": \"[Flamm v. Wineland, 139 P. 961 (Okla. 1914)](https://syfert.com/oklahoma/cases/41-okla-688/flamm-v-wineland)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Flamm v. Wineland\",\n        \"actual\": \"Flamm v. Wineland\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "139 P. 961",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4041569,
+    "case_name": "Flamm v. Wineland",
+    "citations": [
+     "139 P. 961"
+    ],
+    "court": "Supreme Court of Oklahoma",
+    "date_filed": "1914-03-24",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/oklahoma/cases/41-okla-688/flamm-v-wineland",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Flamm v. Wineland, 139 P. 961 (Okla. 1914)",
+    "link_md": "[Flamm v. Wineland, 139 P. 961 (Okla. 1914)](https://syfert.com/oklahoma/cases/41-okla-688/flamm-v-wineland)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Flamm v. Wineland",
+   "actual": "Flamm v. Wineland",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

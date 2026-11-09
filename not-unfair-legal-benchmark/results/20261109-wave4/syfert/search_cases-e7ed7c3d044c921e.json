@@ -1,0 +1,399 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Martin w/15 \"227 P. 962\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Martin w/15 \\\"227 P. 962\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2552826,\"case_name\":\"Com. v. Martin\",\"citations\":[\"22 A.3d 1071\",\"2010 WL 6796811\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2010-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/22-a-3d-1071/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 22 A.3d 1071 (Pa. Super. Ct. 2010)\",\"link_md\":\"[Com. v. Martin, 22 A.3d 1071 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/22-a-3d-1071/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7209},{\"cluster_id\":498102,\"case_name\":\"Martin (Kenneth) v. Lane (Michael P.), Welborn (George C.)\",\"citations\":[\"834 F.2d 173\",\"1987 U.S. App. LEXIS 15835\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1987-11-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/834-f-2d-173/martin-kenneth-v-lane-michael-p-welborn-george-c\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin (Kenneth) v. Lane (Michael P.), 834 F.2d 173 (7th Cir. 1987)\",\"link_md\":\"[Martin (Kenneth) v. Lane (Michael P.), 834 F.2d 173 (7th Cir. 1987)](https://syfert.com/federal/circuits/cases/834-f-2d-173/martin-kenneth-v-lane-michael-p-welborn-george-c)\",\"match_kind\":\"semantic\",\"similarity\":0.712},{\"cluster_id\":2328174,\"case_name\":\"Com. v. Martin\",\"citations\":[\"23 A.3d 1087\",\"2011 WL 1666029\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-01-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/23-a-3d-1087/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 23 A.3d 1087 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Martin, 23 A.3d 1087 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/23-a-3d-1087/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7096},{\"cluster_id\":1480646,\"case_name\":\"Com. v. Martin\",\"citations\":[\"984 A.2d 1017\",\"2009 WL 4694813\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2009-08-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/984-a-2d-1017/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 984 A.2d 1017 (Pa. Super. Ct. 2009)\",\"link_md\":\"[Com. v. Martin, 984 A.2d 1017 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/984-a-2d-1017/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7041},{\"cluster_id\":8262993,\"case_name\":\"Com. v. Martin\",\"citations\":[\"183 A.3d 1098\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2018-01-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/183-a-3d-1098/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 183 A.3d 1098 (Pa. Super. Ct. 2018)\",\"link_md\":\"[Com. v. Martin, 183 A.3d 1098 (Pa. Super. Ct. 2018)](https://syfert.com/pennsylvania/cases/183-a-3d-1098/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7033},{\"cluster_id\":8263667,\"case_name\":\"Com. v. Martin\",\"citations\":[\"188 A.3d 505\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2018-03-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/188-a-3d-505/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 188 A.3d 505 (Pa. Super. Ct. 2018)\",\"link_md\":\"[Com. v. Martin, 188 A.3d 505 (Pa. Super. Ct. 2018)](https://syfert.com/pennsylvania/cases/188-a-3d-505/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7028},{\"cluster_id\":2487005,\"case_name\":\"State v. Martin\",\"citations\":[\"76 So. 3d 298\",\"2011 WL 6391423\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2011-12-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/76-so-3d-298/state-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Martin, 76 So. 3d 298 (Fla. 2d DCA 2011)\",\"link_md\":\"[State v. Martin, 76 So. 3d 298 (Fla. 2d DCA 2011)](https://syfert.com/florida/cases/76-so-3d-298/state-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7018},{\"cluster_id\":8262365,\"case_name\":\"Com. v. Martin\",\"citations\":[\"181 A.3d 1252\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2017-12-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/181-a-3d-1252/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 181 A.3d 1252 (Pa. Super. Ct. 2017)\",\"link_md\":\"[Com. v. Martin, 181 A.3d 1252 (Pa. Super. Ct. 2017)](https://syfert.com/pennsylvania/cases/181-a-3d-1252/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7017},{\"cluster_id\":8261236,\"case_name\":\"Com. v. Martin\",\"citations\":[\"179 A.3d 569\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2017-10-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/179-a-3d-569/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 179 A.3d 569 (Pa. Super. Ct. 2017)\",\"link_md\":\"[Com. v. Martin, 179 A.3d 569 (Pa. Super. Ct. 2017)](https://syfert.com/pennsylvania/cases/179-a-3d-569/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7017},{\"cluster_id\":522632,\"case_name\":\"Martin (Michael L.) v. Duckworth (Jack R.)\",\"citations\":[\"873 F.2d 1443\",\"1989 U.S. App. LEXIS 7326\",\"1989 WL 45306\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1989-04-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/873-f-2d-1443/martin-michael-l-v-duckworth-jack-r\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin (Michael L.) v. Duckworth (Jack R.), 873 F.2d 1443 (7th Cir. 1989)\",\"link_md\":\"[Martin (Michael L.) v. Duckworth (Jack R.), 873 F.2d 1443 (7th Cir. 1989)](https://syfert.com/federal/circuits/cases/873-f-2d-1443/martin-michael-l-v-duckworth-jack-r)\",\"match_kind\":\"semantic\",\"similarity\":0.701},{\"cluster_id\":1546563,\"case_name\":\"Com. v. Martin\",\"citations\":[\"988 A.2d 724\",\"2009 WL 5574820\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2009-11-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/988-a-2d-724/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 988 A.2d 724 (Pa. Super. Ct. 2009)\",\"link_md\":\"[Com. v. Martin, 988 A.2d 724 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/988-a-2d-724/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7008},{\"cluster_id\":8262202,\"case_name\":\"Com. v. Martin\",\"citations\":[\"181 A.3d 1219\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2017-12-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/181-a-3d-1219/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 181 A.3d 1219 (Pa. Super. Ct. 2017)\",\"link_md\":\"[Com. v. Martin, 181 A.3d 1219 (Pa. Super. Ct. 2017)](https://syfert.com/pennsylvania/cases/181-a-3d-1219/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.7004},{\"cluster_id\":2328015,\"case_name\":\"Com. v. Martin\",\"citations\":[\"24 A.3d 443\",\"2011 WL 2418736\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-02-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/24-a-3d-443/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 24 A.3d 443 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Martin, 24 A.3d 443 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/24-a-3d-443/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.6999},{\"cluster_id\":2324065,\"case_name\":\"Com. v. Martin\",\"citations\":[\"34 A.3d 235\",\"2011 WL 6400313\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-09-23\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/pennsylvania/cases/34-a-3d-235/com-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Martin, 34 A.3d 235 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Martin, 34 A.3d 235 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/34-a-3d-235/com-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.6981},{\"cluster_id\":1490826,\"case_name\":\"Martin v. Martin\",\"citations\":[\"964 A.2d 453\",\"2008 Pa. Super. LEXIS 4781\",\"2008 WL 5538161\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2008-10-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/964-a-2d-453/martin-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Martin, 964 A.2d 453 (Pa. Super. Ct. 2008)\",\"link_md\":\"[Martin v. Martin, 964 A.2d 453 (Pa. Super. Ct. 2008)](https://syfert.com/pennsylvania/cases/964-a-2d-453/martin-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.6959},{\"cluster_id\":395728,\"case_name\":\"Martin v. Martin\",\"citations\":[\"661 F.2d 923\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-08-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/661-f-2d-923/martin-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Martin, 661 F.2d 923 (4th Cir. 1981)\",\"link_md\":\"[Martin v. Martin, 661 F.2d 923 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-923/martin-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.6957},{\"cluster_id\":7527144,\"case_name\":\"Martin v. Martin\",\"citations\":[\"267 So. 2d 830\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"1972-09-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/267-so-2d-830/martin-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Martin, 267 So. 2d 830 (Fla. 1972)\",\"link_md\":\"[Martin v. Martin, 267 So. 2d 830 (Fla. 1972)](https://syfert.com/florida/cases/267-so-2d-830/martin-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.6954},{\"cluster_id\":1667180,\"case_name\":\"Martin v. Martin\",\"citations\":[\"895 So. 2d 80\",\"2005 WL 613585\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2005-02-17\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/louisiana/cases/895-so-2d-80/martin-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Martin, 895 So. 2d 80 (La. Ct. App. 2005)\",\"link_md\":\"[Martin v. Martin, 895 So. 2d 80 (La. Ct. App. 2005)](https://syfert.com/louisiana/cases/895-so-2d-80/martin-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.6948},{\"cluster_id\":8263806,\"case_name\":\"Martin v. Martin\",\"citations\":[\"188 A.3d 537\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2018-03-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/188-a-3d-537/martin-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Martin v. Martin, 188 A.3d 537 (Pa. Super. Ct. 2018)\",\"link_md\":\"[Martin v. Martin, 188 A.3d 537 (Pa. Super. Ct. 2018)](https://syfert.com/pennsylvania/cases/188-a-3d-537/martin-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.6946},{\"cluster_id\":1913735,\"case_name\":\"Stone v. Martin\",\"citations\":[\"981 A.2d 332\",\"2009 Pa. Super. LEXIS 3700\",\"2009 WL 3006523\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2009-06-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/981-a-2d-332/stone-v-martin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stone v. Martin, 981 A.2d 332 (Pa. Super. Ct. 2009)\",\"link_md\":\"[Stone v. Martin, 981 A.2d 332 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/981-a-2d-332/stone-v-martin)\",\"match_kind\":\"semantic\",\"similarity\":0.6944}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Martin w/15 \"227 P. 962\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2552826,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "22 A.3d 1071",
+     "2010 WL 6796811"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2010-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/22-a-3d-1071/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 22 A.3d 1071 (Pa. Super. Ct. 2010)",
+    "link_md": "[Com. v. Martin, 22 A.3d 1071 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/22-a-3d-1071/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7209
+   },
+   {
+    "cluster_id": 498102,
+    "case_name": "Martin (Kenneth) v. Lane (Michael P.), Welborn (George C.)",
+    "citations": [
+     "834 F.2d 173",
+     "1987 U.S. App. LEXIS 15835"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1987-11-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/834-f-2d-173/martin-kenneth-v-lane-michael-p-welborn-george-c",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin (Kenneth) v. Lane (Michael P.), 834 F.2d 173 (7th Cir. 1987)",
+    "link_md": "[Martin (Kenneth) v. Lane (Michael P.), 834 F.2d 173 (7th Cir. 1987)](https://syfert.com/federal/circuits/cases/834-f-2d-173/martin-kenneth-v-lane-michael-p-welborn-george-c)",
+    "match_kind": "semantic",
+    "similarity": 0.712
+   },
+   {
+    "cluster_id": 2328174,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "23 A.3d 1087",
+     "2011 WL 1666029"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-01-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/23-a-3d-1087/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 23 A.3d 1087 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Martin, 23 A.3d 1087 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/23-a-3d-1087/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7096
+   },
+   {
+    "cluster_id": 1480646,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "984 A.2d 1017",
+     "2009 WL 4694813"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2009-08-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/984-a-2d-1017/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 984 A.2d 1017 (Pa. Super. Ct. 2009)",
+    "link_md": "[Com. v. Martin, 984 A.2d 1017 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/984-a-2d-1017/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7041
+   },
+   {
+    "cluster_id": 8262993,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "183 A.3d 1098"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2018-01-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/183-a-3d-1098/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 183 A.3d 1098 (Pa. Super. Ct. 2018)",
+    "link_md": "[Com. v. Martin, 183 A.3d 1098 (Pa. Super. Ct. 2018)](https://syfert.com/pennsylvania/cases/183-a-3d-1098/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7033
+   },
+   {
+    "cluster_id": 8263667,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "188 A.3d 505"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2018-03-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/188-a-3d-505/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 188 A.3d 505 (Pa. Super. Ct. 2018)",
+    "link_md": "[Com. v. Martin, 188 A.3d 505 (Pa. Super. Ct. 2018)](https://syfert.com/pennsylvania/cases/188-a-3d-505/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7028
+   },
+   {
+    "cluster_id": 2487005,
+    "case_name": "State v. Martin",
+    "citations": [
+     "76 So. 3d 298",
+     "2011 WL 6391423"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2011-12-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/76-so-3d-298/state-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Martin, 76 So. 3d 298 (Fla. 2d DCA 2011)",
+    "link_md": "[State v. Martin, 76 So. 3d 298 (Fla. 2d DCA 2011)](https://syfert.com/florida/cases/76-so-3d-298/state-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7018
+   },
+   {
+    "cluster_id": 8262365,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "181 A.3d 1252"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2017-12-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/181-a-3d-1252/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 181 A.3d 1252 (Pa. Super. Ct. 2017)",
+    "link_md": "[Com. v. Martin, 181 A.3d 1252 (Pa. Super. Ct. 2017)](https://syfert.com/pennsylvania/cases/181-a-3d-1252/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7017
+   },
+   {
+    "cluster_id": 8261236,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "179 A.3d 569"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2017-10-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/179-a-3d-569/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 179 A.3d 569 (Pa. Super. Ct. 2017)",
+    "link_md": "[Com. v. Martin, 179 A.3d 569 (Pa. Super. Ct. 2017)](https://syfert.com/pennsylvania/cases/179-a-3d-569/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7017
+   },
+   {
+    "cluster_id": 522632,
+    "case_name": "Martin (Michael L.) v. Duckworth (Jack R.)",
+    "citations": [
+     "873 F.2d 1443",
+     "1989 U.S. App. LEXIS 7326",
+     "1989 WL 45306"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1989-04-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/873-f-2d-1443/martin-michael-l-v-duckworth-jack-r",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin (Michael L.) v. Duckworth (Jack R.), 873 F.2d 1443 (7th Cir. 1989)",
+    "link_md": "[Martin (Michael L.) v. Duckworth (Jack R.), 873 F.2d 1443 (7th Cir. 1989)](https://syfert.com/federal/circuits/cases/873-f-2d-1443/martin-michael-l-v-duckworth-jack-r)",
+    "match_kind": "semantic",
+    "similarity": 0.701
+   },
+   {
+    "cluster_id": 1546563,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "988 A.2d 724",
+     "2009 WL 5574820"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2009-11-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/988-a-2d-724/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 988 A.2d 724 (Pa. Super. Ct. 2009)",
+    "link_md": "[Com. v. Martin, 988 A.2d 724 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/988-a-2d-724/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7008
+   },
+   {
+    "cluster_id": 8262202,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "181 A.3d 1219"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2017-12-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/181-a-3d-1219/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 181 A.3d 1219 (Pa. Super. Ct. 2017)",
+    "link_md": "[Com. v. Martin, 181 A.3d 1219 (Pa. Super. Ct. 2017)](https://syfert.com/pennsylvania/cases/181-a-3d-1219/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.7004
+   },
+   {
+    "cluster_id": 2328015,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "24 A.3d 443",
+     "2011 WL 2418736"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-02-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/24-a-3d-443/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 24 A.3d 443 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Martin, 24 A.3d 443 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/24-a-3d-443/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.6999
+   },
+   {
+    "cluster_id": 2324065,
+    "case_name": "Com. v. Martin",
+    "citations": [
+     "34 A.3d 235",
+     "2011 WL 6400313"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-09-23",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/pennsylvania/cases/34-a-3d-235/com-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Martin, 34 A.3d 235 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Martin, 34 A.3d 235 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/34-a-3d-235/com-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.6981
+   },
+   {
+    "cluster_id": 1490826,
+    "case_name": "Martin v. Martin",
+    "citations": [
+     "964 A.2d 453",
+     "2008 Pa. Super. LEXIS 4781",
+     "2008 WL 5538161"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2008-10-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/964-a-2d-453/martin-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Martin, 964 A.2d 453 (Pa. Super. Ct. 2008)",
+    "link_md": "[Martin v. Martin, 964 A.2d 453 (Pa. Super. Ct. 2008)](https://syfert.com/pennsylvania/cases/964-a-2d-453/martin-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.6959
+   },
+   {
+    "cluster_id": 395728,
+    "case_name": "Martin v. Martin",
+    "citations": [
+     "661 F.2d 923"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-08-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/661-f-2d-923/martin-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Martin, 661 F.2d 923 (4th Cir. 1981)",
+    "link_md": "[Martin v. Martin, 661 F.2d 923 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-923/martin-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.6957
+   },
+   {
+    "cluster_id": 7527144,
+    "case_name": "Martin v. Martin",
+    "citations": [
+     "267 So. 2d 830"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "1972-09-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/267-so-2d-830/martin-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Martin, 267 So. 2d 830 (Fla. 1972)",
+    "link_md": "[Martin v. Martin, 267 So. 2d 830 (Fla. 1972)](https://syfert.com/florida/cases/267-so-2d-830/martin-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.6954
+   },
+   {
+    "cluster_id": 1667180,
+    "case_name": "Martin v. Martin",
+    "citations": [
+     "895 So. 2d 80",
+     "2005 WL 613585"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2005-02-17",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/louisiana/cases/895-so-2d-80/martin-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Martin, 895 So. 2d 80 (La. Ct. App. 2005)",
+    "link_md": "[Martin v. Martin, 895 So. 2d 80 (La. Ct. App. 2005)](https://syfert.com/louisiana/cases/895-so-2d-80/martin-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.6948
+   },
+   {
+    "cluster_id": 8263806,
+    "case_name": "Martin v. Martin",
+    "citations": [
+     "188 A.3d 537"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2018-03-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/188-a-3d-537/martin-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Martin v. Martin, 188 A.3d 537 (Pa. Super. Ct. 2018)",
+    "link_md": "[Martin v. Martin, 188 A.3d 537 (Pa. Super. Ct. 2018)](https://syfert.com/pennsylvania/cases/188-a-3d-537/martin-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.6946
+   },
+   {
+    "cluster_id": 1913735,
+    "case_name": "Stone v. Martin",
+    "citations": [
+     "981 A.2d 332",
+     "2009 Pa. Super. LEXIS 3700",
+     "2009 WL 3006523"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2009-06-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/981-a-2d-332/stone-v-martin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stone v. Martin, 981 A.2d 332 (Pa. Super. Ct. 2009)",
+    "link_md": "[Stone v. Martin, 981 A.2d 332 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/981-a-2d-332/stone-v-martin)",
+    "match_kind": "semantic",
+    "similarity": 0.6944
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

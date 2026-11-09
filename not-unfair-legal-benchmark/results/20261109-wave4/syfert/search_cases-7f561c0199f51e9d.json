@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Staudt w/15 \"700 P.2d 179\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Staudt w/15 \\\"700 P.2d 179\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":879168,\"bluebook\":\"In re the Marriage of Reich, 720 P.2d 286 (Mont. 1986)\",\"url\":\"https://syfert.com/montana/cases/222-mont-192/in-re-the-marriage-of-reich\",\"date_filed\":\"1986-06-20\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...In re Marriage of Staudt\\n(Mont. 1985), [ 216 Mont. 196 ,] 700 P.2d 175, 179 , 42 St.Rep. 740 , 744. We will not set aside a district court’s finding of fact unless the finding represents an abuse of discretion.\\nReese v. Reese\\n(1979),…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Staudt w/15 \"700 P.2d 179\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 879168,
+    "bluebook": "In re the Marriage of Reich, 720 P.2d 286 (Mont. 1986)",
+    "url": "https://syfert.com/montana/cases/222-mont-192/in-re-the-marriage-of-reich",
+    "date_filed": "1986-06-20",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...In re Marriage of Staudt\n(Mont. 1985), [ 216 Mont. 196 ,] 700 P.2d 175, 179 , 42 St.Rep. 740 , 744. We will not set aside a district court’s finding of fact unless the finding represents an abuse of discretion.\nReese v. Reese\n(1979),…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "U-Haul w/15 \"277 S.E.2d 297\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"U-Haul w/15 \\\"277 S.E.2d 297\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1309663,\"bluebook\":\"U-Haul Co. v. Abreu & Robeson, Inc., 277 S.E.2d 497 (Ga. 1981)\",\"url\":\"https://syfert.com/georgia/cases/247-ga-565/u-haul-co-v-abreu-robeson-inc\",\"date_filed\":\"1981-04-29\",\"cited_by\":37,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...565 (1981)\\n277 S.E.2d 297\\nU-HAUL COMPANY OF WESTERN GEORGIA\\nv.\\nABREU & ROBESON, INC. et al.\\n36960.\\nSupreme Court of Georgia.\\nDecided April 29, 1981.\\nRehearing Denied May 13, 1981.\\nGeorge H. Connell, Jr., for appellant.\\nJeffrey R.…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "U-Haul w/15 \"277 S.E.2d 297\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1309663,
+    "bluebook": "U-Haul Co. v. Abreu & Robeson, Inc., 277 S.E.2d 497 (Ga. 1981)",
+    "url": "https://syfert.com/georgia/cases/247-ga-565/u-haul-co-v-abreu-robeson-inc",
+    "date_filed": "1981-04-29",
+    "cited_by": 37,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...565 (1981)\n277 S.E.2d 297\nU-HAUL COMPANY OF WESTERN GEORGIA\nv.\nABREU & ROBESON, INC. et al.\n36960.\nSupreme Court of Georgia.\nDecided April 29, 1981.\nRehearing Denied May 13, 1981.\nGeorge H. Connell, Jr., for appellant.\nJeffrey R.…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

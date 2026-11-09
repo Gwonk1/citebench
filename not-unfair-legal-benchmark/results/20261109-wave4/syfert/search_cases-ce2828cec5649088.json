@@ -1,0 +1,401 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "McGovern w/15 \"870 NYS2d 618\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"McGovern w/15 \\\"870 NYS2d 618\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":515429,\"case_name\":\"McGovern v. United States\",\"citations\":[\"862 F.2d 878\",\"1988 WL 124435\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1988-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/862-f-2d-878/mcgovern-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGovern v. United States, 862 F.2d 878 (11th Cir. 1988)\",\"link_md\":\"[McGovern v. United States, 862 F.2d 878 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/862-f-2d-878/mcgovern-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7592},{\"cluster_id\":6003766,\"case_name\":\"People v. McGovern\",\"citations\":[\"98 A.D.2d 690\",\"1983 N.Y. App. Div. LEXIS 20989\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1983-12-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/98-a-d-2d-690/people-v-mcgovern\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. McGovern, 98 A.D.2d 690 (N.Y. App. Div. 1st Dep't 1983)\",\"link_md\":\"[People v. McGovern, 98 A.D.2d 690 (N.Y. App. Div. 1st Dep't 1983)](https://syfert.com/new-york/cases/98-a-d-2d-690/people-v-mcgovern)\",\"match_kind\":\"semantic\",\"similarity\":0.7409},{\"cluster_id\":488349,\"case_name\":\"United States v. McGovern\",\"citations\":[\"818 F.2d 872\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1987-04-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/818-f-2d-872/united-states-v-mcgovern\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. McGovern, 818 F.2d 872 (11th Cir. 1987)\",\"link_md\":\"[United States v. McGovern, 818 F.2d 872 (11th Cir. 1987)](https://syfert.com/federal/circuits/cases/818-f-2d-872/united-states-v-mcgovern)\",\"match_kind\":\"semantic\",\"similarity\":0.7248},{\"cluster_id\":496545,\"case_name\":\"McGovern v. Meko\",\"citations\":[\"831 F.2d 1069\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1987-09-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/831-f-2d-1069/mcgovern-v-meko\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGovern v. Meko, 831 F.2d 1069 (11th Cir. 1987)\",\"link_md\":\"[McGovern v. Meko, 831 F.2d 1069 (11th Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-1069/mcgovern-v-meko)\",\"match_kind\":\"semantic\",\"similarity\":0.7139},{\"cluster_id\":520882,\"case_name\":\"United States v. McGovern\",\"citations\":[\"871 F.2d 1093\",\"1988 U.S. App. LEXIS 18468\",\"1988 WL 150761\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1988-12-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/871-f-2d-1093/united-states-v-mcgovern\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. McGovern, 871 F.2d 1093 (8th Cir. 1988)\",\"link_md\":\"[United States v. McGovern, 871 F.2d 1093 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/871-f-2d-1093/united-states-v-mcgovern)\",\"match_kind\":\"semantic\",\"similarity\":0.7045},{\"cluster_id\":551033,\"case_name\":\"In Matter of McGovern (Glynn E.)\",\"citations\":[\"918 F.2d 175\",\"1990 U.S. App. LEXIS 19677\",\"1990 WL 169157\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1990-10-25\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/918-f-2d-175/in-matter-of-mcgovern-glynn-e\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In Matter of McGovern (Glynn E.), 918 F.2d 175 (5th Cir. 1990)\",\"link_md\":\"[In Matter of McGovern (Glynn E.), 918 F.2d 175 (5th Cir. 1990)](https://syfert.com/federal/circuits/cases/918-f-2d-175/in-matter-of-mcgovern-glynn-e)\",\"match_kind\":\"semantic\",\"similarity\":0.6968},{\"cluster_id\":5504934,\"case_name\":\"McGovern v. City of New York\",\"citations\":[\"247 A.D. 872\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1936-04-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/247-a-d-872/mcgovern-v-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGovern v. City of New York, 247 A.D. 872 (N.Y. App. Div. 1936)\",\"link_md\":\"[McGovern v. City of New York, 247 A.D. 872 (N.Y. App. Div. 1936)](https://syfert.com/new-york/cases/247-a-d-872/mcgovern-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6955},{\"cluster_id\":607782,\"case_name\":\"Mitchell v. McGovern\",\"citations\":[\"993 F.2d 1553\",\"1993 WL 185762\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1993-05-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/993-f-2d-1553/mitchell-v-mcgovern\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mitchell v. McGovern, 993 F.2d 1553 (11th Cir. 1993)\",\"link_md\":\"[Mitchell v. McGovern, 993 F.2d 1553 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/993-f-2d-1553/mitchell-v-mcgovern)\",\"match_kind\":\"semantic\",\"similarity\":0.6892},{\"cluster_id\":5963188,\"case_name\":\"McGovern v. Codd\",\"citations\":[\"59 A.D.2d 862\",\"399 N.Y.S.2d 183\",\"1977 N.Y. App. Div. LEXIS 14023\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1977-11-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/59-a-d-2d-862/mcgovern-v-codd\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGovern v. Codd, 59 A.D.2d 862 (N.Y. App. Div. 1st Dep't 1977)\",\"link_md\":\"[McGovern v. Codd, 59 A.D.2d 862 (N.Y. App. Div. 1st Dep't 1977)](https://syfert.com/new-york/cases/59-a-d-2d-862/mcgovern-v-codd)\",\"match_kind\":\"semantic\",\"similarity\":0.6865},{\"cluster_id\":2591663,\"case_name\":\"MATTER OF McGOVERN v. Lowery\",\"citations\":[\"300 N.E.2d 736\",\"32 N.Y.2d 954\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1973-06-08\",\"status\":\"Published\",\"cited_by\":10,\"url\":\"https://syfert.com/new-york/cases/32-n-y-2d-954/matter-of-mcgovern-v-lowery\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Mcgovern v. Lowery, 300 N.E.2d 736 (N.Y. 1973)\",\"link_md\":\"[Matter of Mcgovern v. Lowery, 300 N.E.2d 736 (N.Y. 1973)](https://syfert.com/new-york/cases/32-n-y-2d-954/matter-of-mcgovern-v-lowery)\",\"match_kind\":\"semantic\",\"similarity\":0.677},{\"cluster_id\":664177,\"case_name\":\"McGann v. State of Ny\",\"citations\":[\"17 F.3d 1425\",\"1994 U.S. App. LEXIS 2541\",\"1994 WL 45903\"],\"court\":\"Second Circuit\",\"date_filed\":\"1994-01-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/17-f-3d-1425/mcgann-v-state-of-ny\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGann v. State of Ny, 17 F.3d 1425 (2d Cir. 1994)\",\"link_md\":\"[McGann v. State of Ny, 17 F.3d 1425 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/17-f-3d-1425/mcgann-v-state-of-ny)\",\"match_kind\":\"semantic\",\"similarity\":0.6741},{\"cluster_id\":336650,\"case_name\":\"Anderson v. McGovern\",\"citations\":[\"538 F.2d 307\"],\"court\":\"Second Circuit\",\"date_filed\":\"1976-02-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/538-f-2d-307/anderson-v-mcgovern\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Anderson v. McGovern, 538 F.2d 307 (2d Cir. 1976)\",\"link_md\":\"[Anderson v. McGovern, 538 F.2d 307 (2d Cir. 1976)](https://syfert.com/federal/circuits/cases/538-f-2d-307/anderson-v-mcgovern)\",\"match_kind\":\"semantic\",\"similarity\":0.6654},{\"cluster_id\":8994390,\"case_name\":\"McLaughlin v. New York\",\"citations\":[\"414 U.S. 815\",\"94 S. Ct. 150\"],\"court\":\"Supreme Court\",\"date_filed\":\"1973-10-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/414-u-s-815/mclaughlin-v-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McLaughlin v. New York, 414 U.S. 815 (1973)\",\"link_md\":\"[McLaughlin v. New York, 414 U.S. 815 (1973)](https://syfert.com/federal/scotus/cases/414-u-s-815/mclaughlin-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6645},{\"cluster_id\":8192813,\"case_name\":\"McGowen v. United States\",\"citations\":[\"308 U.S. 552\",\"60 S. Ct. 98\"],\"court\":\"Supreme Court\",\"date_filed\":\"1939-10-09\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/scotus/cases/308-u-s-552/mcgowen-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGowen v. United States, 308 U.S. 552 (1939)\",\"link_md\":\"[McGowen v. United States, 308 U.S. 552 (1939)](https://syfert.com/federal/scotus/cases/308-u-s-552/mcgowen-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6645},{\"cluster_id\":6072109,\"case_name\":\"McGovern v. Town of Yorktown\",\"citations\":[\"172 A.D.2d 594\",\"570 N.Y.S.2d 946\",\"1991 N.Y. App. Div. LEXIS 4647\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1991-04-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/172-a-d-2d-594/mcgovern-v-town-of-yorktown\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGovern v. Town of Yorktown, 172 A.D.2d 594 (N.Y. App. Div. 2d Dep't 1991)\",\"link_md\":\"[McGovern v. Town of Yorktown, 172 A.D.2d 594 (N.Y. App. Div. 2d Dep't 1991)](https://syfert.com/new-york/cases/172-a-d-2d-594/mcgovern-v-town-of-yorktown)\",\"match_kind\":\"semantic\",\"similarity\":0.6637},{\"cluster_id\":5410515,\"case_name\":\"McGovern v. City of New York\",\"citations\":[\"180 A.D. 884\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1917-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/180-a-d-884/mcgovern-v-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGovern v. City of New York, 180 A.D. 884 (N.Y. App. Div. 1917)\",\"link_md\":\"[McGovern v. City of New York, 180 A.D. 884 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/180-a-d-884/mcgovern-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6635},{\"cluster_id\":526706,\"case_name\":\"McGhee v. Sullivan\",\"citations\":[\"880 F.2d 419\",\"1989 WL 75028\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1989-06-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/880-f-2d-419/mcghee-v-sullivan\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGhee v. Sullivan, 880 F.2d 419 (11th Cir. 1989)\",\"link_md\":\"[McGhee v. Sullivan, 880 F.2d 419 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/880-f-2d-419/mcghee-v-sullivan)\",\"match_kind\":\"semantic\",\"similarity\":0.6608},{\"cluster_id\":8942069,\"case_name\":\"McGee v. New York\",\"citations\":[\"355 U.S. 844\"],\"court\":\"Supreme Court\",\"date_filed\":\"1957-10-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/355-u-s-844/mcgee-v-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGee v. New York, 355 U.S. 844 (1957)\",\"link_md\":\"[McGee v. New York, 355 U.S. 844 (1957)](https://syfert.com/federal/scotus/cases/355-u-s-844/mcgee-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6608},{\"cluster_id\":5427514,\"case_name\":\"McGovern v. McGovern\",\"citations\":[\"201 A.D. 849\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1922-03-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/201-a-d-849/mcgovern-v-mcgovern\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGovern v. McGovern, 201 A.D. 849 (N.Y. App. Div. 1922)\",\"link_md\":\"[McGovern v. McGovern, 201 A.D. 849 (N.Y. App. Div. 1922)](https://syfert.com/new-york/cases/201-a-d-849/mcgovern-v-mcgovern)\",\"match_kind\":\"semantic\",\"similarity\":0.6595},{\"cluster_id\":8957023,\"case_name\":\"McGrane v. New York\",\"citations\":[\"375 U.S. 913\"],\"court\":\"Supreme Court\",\"date_filed\":\"1963-11-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/375-u-s-913/mcgrane-v-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"McGrane v. New York, 375 U.S. 913 (1963)\",\"link_md\":\"[McGrane v. New York, 375 U.S. 913 (1963)](https://syfert.com/federal/scotus/cases/375-u-s-913/mcgrane-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6573}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "McGovern w/15 \"870 NYS2d 618\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 515429,
+    "case_name": "McGovern v. United States",
+    "citations": [
+     "862 F.2d 878",
+     "1988 WL 124435"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1988-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/862-f-2d-878/mcgovern-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGovern v. United States, 862 F.2d 878 (11th Cir. 1988)",
+    "link_md": "[McGovern v. United States, 862 F.2d 878 (11th Cir. 1988)](https://syfert.com/federal/circuits/cases/862-f-2d-878/mcgovern-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7592
+   },
+   {
+    "cluster_id": 6003766,
+    "case_name": "People v. McGovern",
+    "citations": [
+     "98 A.D.2d 690",
+     "1983 N.Y. App. Div. LEXIS 20989"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1983-12-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/98-a-d-2d-690/people-v-mcgovern",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. McGovern, 98 A.D.2d 690 (N.Y. App. Div. 1st Dep't 1983)",
+    "link_md": "[People v. McGovern, 98 A.D.2d 690 (N.Y. App. Div. 1st Dep't 1983)](https://syfert.com/new-york/cases/98-a-d-2d-690/people-v-mcgovern)",
+    "match_kind": "semantic",
+    "similarity": 0.7409
+   },
+   {
+    "cluster_id": 488349,
+    "case_name": "United States v. McGovern",
+    "citations": [
+     "818 F.2d 872"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1987-04-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/818-f-2d-872/united-states-v-mcgovern",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. McGovern, 818 F.2d 872 (11th Cir. 1987)",
+    "link_md": "[United States v. McGovern, 818 F.2d 872 (11th Cir. 1987)](https://syfert.com/federal/circuits/cases/818-f-2d-872/united-states-v-mcgovern)",
+    "match_kind": "semantic",
+    "similarity": 0.7248
+   },
+   {
+    "cluster_id": 496545,
+    "case_name": "McGovern v. Meko",
+    "citations": [
+     "831 F.2d 1069"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1987-09-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/831-f-2d-1069/mcgovern-v-meko",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGovern v. Meko, 831 F.2d 1069 (11th Cir. 1987)",
+    "link_md": "[McGovern v. Meko, 831 F.2d 1069 (11th Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-1069/mcgovern-v-meko)",
+    "match_kind": "semantic",
+    "similarity": 0.7139
+   },
+   {
+    "cluster_id": 520882,
+    "case_name": "United States v. McGovern",
+    "citations": [
+     "871 F.2d 1093",
+     "1988 U.S. App. LEXIS 18468",
+     "1988 WL 150761"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1988-12-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/871-f-2d-1093/united-states-v-mcgovern",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. McGovern, 871 F.2d 1093 (8th Cir. 1988)",
+    "link_md": "[United States v. McGovern, 871 F.2d 1093 (8th Cir. 1988)](https://syfert.com/federal/circuits/cases/871-f-2d-1093/united-states-v-mcgovern)",
+    "match_kind": "semantic",
+    "similarity": 0.7045
+   },
+   {
+    "cluster_id": 551033,
+    "case_name": "In Matter of McGovern (Glynn E.)",
+    "citations": [
+     "918 F.2d 175",
+     "1990 U.S. App. LEXIS 19677",
+     "1990 WL 169157"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1990-10-25",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/918-f-2d-175/in-matter-of-mcgovern-glynn-e",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In Matter of McGovern (Glynn E.), 918 F.2d 175 (5th Cir. 1990)",
+    "link_md": "[In Matter of McGovern (Glynn E.), 918 F.2d 175 (5th Cir. 1990)](https://syfert.com/federal/circuits/cases/918-f-2d-175/in-matter-of-mcgovern-glynn-e)",
+    "match_kind": "semantic",
+    "similarity": 0.6968
+   },
+   {
+    "cluster_id": 5504934,
+    "case_name": "McGovern v. City of New York",
+    "citations": [
+     "247 A.D. 872"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1936-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/247-a-d-872/mcgovern-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGovern v. City of New York, 247 A.D. 872 (N.Y. App. Div. 1936)",
+    "link_md": "[McGovern v. City of New York, 247 A.D. 872 (N.Y. App. Div. 1936)](https://syfert.com/new-york/cases/247-a-d-872/mcgovern-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6955
+   },
+   {
+    "cluster_id": 607782,
+    "case_name": "Mitchell v. McGovern",
+    "citations": [
+     "993 F.2d 1553",
+     "1993 WL 185762"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1993-05-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/993-f-2d-1553/mitchell-v-mcgovern",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mitchell v. McGovern, 993 F.2d 1553 (11th Cir. 1993)",
+    "link_md": "[Mitchell v. McGovern, 993 F.2d 1553 (11th Cir. 1993)](https://syfert.com/federal/circuits/cases/993-f-2d-1553/mitchell-v-mcgovern)",
+    "match_kind": "semantic",
+    "similarity": 0.6892
+   },
+   {
+    "cluster_id": 5963188,
+    "case_name": "McGovern v. Codd",
+    "citations": [
+     "59 A.D.2d 862",
+     "399 N.Y.S.2d 183",
+     "1977 N.Y. App. Div. LEXIS 14023"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1977-11-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/59-a-d-2d-862/mcgovern-v-codd",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGovern v. Codd, 59 A.D.2d 862 (N.Y. App. Div. 1st Dep't 1977)",
+    "link_md": "[McGovern v. Codd, 59 A.D.2d 862 (N.Y. App. Div. 1st Dep't 1977)](https://syfert.com/new-york/cases/59-a-d-2d-862/mcgovern-v-codd)",
+    "match_kind": "semantic",
+    "similarity": 0.6865
+   },
+   {
+    "cluster_id": 2591663,
+    "case_name": "MATTER OF McGOVERN v. Lowery",
+    "citations": [
+     "300 N.E.2d 736",
+     "32 N.Y.2d 954"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1973-06-08",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/new-york/cases/32-n-y-2d-954/matter-of-mcgovern-v-lowery",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Mcgovern v. Lowery, 300 N.E.2d 736 (N.Y. 1973)",
+    "link_md": "[Matter of Mcgovern v. Lowery, 300 N.E.2d 736 (N.Y. 1973)](https://syfert.com/new-york/cases/32-n-y-2d-954/matter-of-mcgovern-v-lowery)",
+    "match_kind": "semantic",
+    "similarity": 0.677
+   },
+   {
+    "cluster_id": 664177,
+    "case_name": "McGann v. State of Ny",
+    "citations": [
+     "17 F.3d 1425",
+     "1994 U.S. App. LEXIS 2541",
+     "1994 WL 45903"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1994-01-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/17-f-3d-1425/mcgann-v-state-of-ny",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGann v. State of Ny, 17 F.3d 1425 (2d Cir. 1994)",
+    "link_md": "[McGann v. State of Ny, 17 F.3d 1425 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/17-f-3d-1425/mcgann-v-state-of-ny)",
+    "match_kind": "semantic",
+    "similarity": 0.6741
+   },
+   {
+    "cluster_id": 336650,
+    "case_name": "Anderson v. McGovern",
+    "citations": [
+     "538 F.2d 307"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1976-02-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/538-f-2d-307/anderson-v-mcgovern",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Anderson v. McGovern, 538 F.2d 307 (2d Cir. 1976)",
+    "link_md": "[Anderson v. McGovern, 538 F.2d 307 (2d Cir. 1976)](https://syfert.com/federal/circuits/cases/538-f-2d-307/anderson-v-mcgovern)",
+    "match_kind": "semantic",
+    "similarity": 0.6654
+   },
+   {
+    "cluster_id": 8994390,
+    "case_name": "McLaughlin v. New York",
+    "citations": [
+     "414 U.S. 815",
+     "94 S. Ct. 150"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1973-10-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/414-u-s-815/mclaughlin-v-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McLaughlin v. New York, 414 U.S. 815 (1973)",
+    "link_md": "[McLaughlin v. New York, 414 U.S. 815 (1973)](https://syfert.com/federal/scotus/cases/414-u-s-815/mclaughlin-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6645
+   },
+   {
+    "cluster_id": 8192813,
+    "case_name": "McGowen v. United States",
+    "citations": [
+     "308 U.S. 552",
+     "60 S. Ct. 98"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1939-10-09",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/scotus/cases/308-u-s-552/mcgowen-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGowen v. United States, 308 U.S. 552 (1939)",
+    "link_md": "[McGowen v. United States, 308 U.S. 552 (1939)](https://syfert.com/federal/scotus/cases/308-u-s-552/mcgowen-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6645
+   },
+   {
+    "cluster_id": 6072109,
+    "case_name": "McGovern v. Town of Yorktown",
+    "citations": [
+     "172 A.D.2d 594",
+     "570 N.Y.S.2d 946",
+     "1991 N.Y. App. Div. LEXIS 4647"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1991-04-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/172-a-d-2d-594/mcgovern-v-town-of-yorktown",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGovern v. Town of Yorktown, 172 A.D.2d 594 (N.Y. App. Div. 2d Dep't 1991)",
+    "link_md": "[McGovern v. Town of Yorktown, 172 A.D.2d 594 (N.Y. App. Div. 2d Dep't 1991)](https://syfert.com/new-york/cases/172-a-d-2d-594/mcgovern-v-town-of-yorktown)",
+    "match_kind": "semantic",
+    "similarity": 0.6637
+   },
+   {
+    "cluster_id": 5410515,
+    "case_name": "McGovern v. City of New York",
+    "citations": [
+     "180 A.D. 884"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1917-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/180-a-d-884/mcgovern-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGovern v. City of New York, 180 A.D. 884 (N.Y. App. Div. 1917)",
+    "link_md": "[McGovern v. City of New York, 180 A.D. 884 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/180-a-d-884/mcgovern-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6635
+   },
+   {
+    "cluster_id": 526706,
+    "case_name": "McGhee v. Sullivan",
+    "citations": [
+     "880 F.2d 419",
+     "1989 WL 75028"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1989-06-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/880-f-2d-419/mcghee-v-sullivan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGhee v. Sullivan, 880 F.2d 419 (11th Cir. 1989)",
+    "link_md": "[McGhee v. Sullivan, 880 F.2d 419 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/880-f-2d-419/mcghee-v-sullivan)",
+    "match_kind": "semantic",
+    "similarity": 0.6608
+   },
+   {
+    "cluster_id": 8942069,
+    "case_name": "McGee v. New York",
+    "citations": [
+     "355 U.S. 844"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1957-10-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/355-u-s-844/mcgee-v-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGee v. New York, 355 U.S. 844 (1957)",
+    "link_md": "[McGee v. New York, 355 U.S. 844 (1957)](https://syfert.com/federal/scotus/cases/355-u-s-844/mcgee-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6608
+   },
+   {
+    "cluster_id": 5427514,
+    "case_name": "McGovern v. McGovern",
+    "citations": [
+     "201 A.D. 849"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1922-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/201-a-d-849/mcgovern-v-mcgovern",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGovern v. McGovern, 201 A.D. 849 (N.Y. App. Div. 1922)",
+    "link_md": "[McGovern v. McGovern, 201 A.D. 849 (N.Y. App. Div. 1922)](https://syfert.com/new-york/cases/201-a-d-849/mcgovern-v-mcgovern)",
+    "match_kind": "semantic",
+    "similarity": 0.6595
+   },
+   {
+    "cluster_id": 8957023,
+    "case_name": "McGrane v. New York",
+    "citations": [
+     "375 U.S. 913"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1963-11-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/375-u-s-913/mcgrane-v-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "McGrane v. New York, 375 U.S. 913 (1963)",
+    "link_md": "[McGrane v. New York, 375 U.S. 913 (1963)](https://syfert.com/federal/scotus/cases/375-u-s-913/mcgrane-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6573
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

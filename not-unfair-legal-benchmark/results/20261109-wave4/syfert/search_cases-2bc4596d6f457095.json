@@ -1,0 +1,49 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Caldwell w/15 \"866 NYS2d 275\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Caldwell w/15 \\\"866 NYS2d 275\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10355413,\"bluebook\":\"Nelson-Taylor v. Brooks, 2025 NY Slip Op 50314(U) (Civ. Ct. NYC, Queens Cty. 2025)\",\"url\":\"https://syfert.com/new-york/cases/cl-10355413/nelson-taylor-v-brooks\",\"date_filed\":\"2025-03-11\",\"cited_by\":2,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (10355413 and its twin 10355511).\",\"status\":\"Unpublished\",\"snippet\":\"...Therefore, if a building does not maintain a valid certificate of occupancy then no rent may be collected from any unit ( Caldwell v. American Package Company Inc. , 57 AD3d 15 , 866 NYS2d 275 [2d Dept., 2008]). However, there is a…\"},{\"cluster_id\":10276065,\"bluebook\":\"1245 Stratford, LLC v. Osboume, 2024 NY Slip Op 51562(U) (Civ. Ct. NYC, Bronx Cty. 2024)\",\"url\":\"https://syfert.com/new-york/cases/cl-10276065/1245-stratford-llc-v-osboume\",\"date_filed\":\"2024-11-15\",\"cited_by\":4,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 4 clusters (10276065 and its twins 10276111, 10277215, 10281619).\",\"status\":\"Unpublished\",\"snippet\":\"...Petitioner also cites to and quotes from Caldwell v American Package Co, Inc ( 57 AD3d 15 , 866 NYS2d 275 [2nd Dep't 2008]), a pre- Chazon case, and asks this court, \\\"to extend the ruling of Chatsworth , as reinforced by Caldwell , to…\",\"passage_origin\":{\"case_name\":\"Caldwell v. American Package Co.\",\"cluster_id\":5905664,\"year\":2008,\"quoted_by_cases\":4}}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Caldwell w/15 \"866 NYS2d 275\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10355413,
+    "bluebook": "Nelson-Taylor v. Brooks, 2025 NY Slip Op 50314(U) (Civ. Ct. NYC, Queens Cty. 2025)",
+    "url": "https://syfert.com/new-york/cases/cl-10355413/nelson-taylor-v-brooks",
+    "date_filed": "2025-03-11",
+    "cited_by": 2,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (10355413 and its twin 10355511).",
+    "status": "Unpublished",
+    "snippet": "...Therefore, if a building does not maintain a valid certificate of occupancy then no rent may be collected from any unit ( Caldwell v. American Package Company Inc. , 57 AD3d 15 , 866 NYS2d 275 [2d Dept., 2008]). However, there is a…"
+   },
+   {
+    "cluster_id": 10276065,
+    "bluebook": "1245 Stratford, LLC v. Osboume, 2024 NY Slip Op 51562(U) (Civ. Ct. NYC, Bronx Cty. 2024)",
+    "url": "https://syfert.com/new-york/cases/cl-10276065/1245-stratford-llc-v-osboume",
+    "date_filed": "2024-11-15",
+    "cited_by": 4,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 4 clusters (10276065 and its twins 10276111, 10277215, 10281619).",
+    "status": "Unpublished",
+    "snippet": "...Petitioner also cites to and quotes from Caldwell v American Package Co, Inc ( 57 AD3d 15 , 866 NYS2d 275 [2nd Dep't 2008]), a pre- Chazon case, and asks this court, \"to extend the ruling of Chatsworth , as reinforced by Caldwell , to…",
+    "passage_origin": {
+     "case_name": "Caldwell v. American Package Co.",
+     "cluster_id": 5905664,
+     "year": 2008,
+     "quoted_by_cases": 4
+    }
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

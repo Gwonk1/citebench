@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "73 So. 761",
+  "expected_case_name": "Espalla v. Mobile County"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"73 So. 761\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3220633,\n            \"case_name\": \"Espalla v. Mobile County\",\n            \"citations\": [\n                \"73 So. 761\"\n            ],\n            \"court\": \"Alabama Court of Appeals\",\n            \"date_filed\": \"1916-12-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 3,\n            \"url\": \"https://syfert.com/alabama/cases/15-ala-app-443/espalla-v-mobile-county\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Espalla v. Mobile Cnty., 73 So. 761 (Ala. Ct. App. 1916)\",\n            \"link_md\": \"[Espalla v. Mobile Cnty., 73 So. 761 (Ala. Ct. App. 1916)](https://syfert.com/alabama/cases/15-ala-app-443/espalla-v-mobile-county)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Espalla v. Mobile County\",\n        \"actual\": \"Espalla v. Mobile County\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "73 So. 761",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3220633,
+    "case_name": "Espalla v. Mobile County",
+    "citations": [
+     "73 So. 761"
+    ],
+    "court": "Alabama Court of Appeals",
+    "date_filed": "1916-12-19",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/alabama/cases/15-ala-app-443/espalla-v-mobile-county",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Espalla v. Mobile Cnty., 73 So. 761 (Ala. Ct. App. 1916)",
+    "link_md": "[Espalla v. Mobile Cnty., 73 So. 761 (Ala. Ct. App. 1916)](https://syfert.com/alabama/cases/15-ala-app-443/espalla-v-mobile-county)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Espalla v. Mobile County",
+   "actual": "Espalla v. Mobile County",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

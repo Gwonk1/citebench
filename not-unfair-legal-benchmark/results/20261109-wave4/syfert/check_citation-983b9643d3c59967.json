@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "853 N.Y.S.2d 75",
+  "expected_case_name": "Good Energy, L.P. v. Kosachuk"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"853 N.Y.S.2d 75\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5889254,\n            \"case_name\": \"Good Energy, L.P. v. Kosachuk\",\n            \"citations\": [\n                \"853 N.Y.S.2d 75\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2008-03-11\",\n            \"status\": \"Published\",\n            \"cited_by\": 9,\n            \"url\": \"https://syfert.com/new-york/cases/49-a-d-3d-331/good-energy-lp-v-kosachuk\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Good Energy, L.P. v. Kosachuk, 853 N.Y.S.2d 75 (N.Y. App. Div. 1st Dep't 2008)\",\n            \"link_md\": \"[Good Energy, L.P. v. Kosachuk, 853 N.Y.S.2d 75 (N.Y. App. Div. 1st Dep't 2008)](https://syfert.com/new-york/cases/49-a-d-3d-331/good-energy-lp-v-kosachuk)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 8,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Good Energy, L.P. v. Kosachuk\",\n        \"actual\": \"Good Energy, L.P. v. Kosachuk\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "853 N.Y.S.2d 75",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5889254,
+    "case_name": "Good Energy, L.P. v. Kosachuk",
+    "citations": [
+     "853 N.Y.S.2d 75"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2008-03-11",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/new-york/cases/49-a-d-3d-331/good-energy-lp-v-kosachuk",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Good Energy, L.P. v. Kosachuk, 853 N.Y.S.2d 75 (N.Y. App. Div. 1st Dep't 2008)",
+    "link_md": "[Good Energy, L.P. v. Kosachuk, 853 N.Y.S.2d 75 (N.Y. App. Div. 1st Dep't 2008)](https://syfert.com/new-york/cases/49-a-d-3d-331/good-energy-lp-v-kosachuk)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 8,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Good Energy, L.P. v. Kosachuk",
+   "actual": "Good Energy, L.P. v. Kosachuk",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

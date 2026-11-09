@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "605 P.2d 1133",
+  "expected_case_name": "Sutherland v. Hurin"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"605 P.2d 1133\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 877325,\n            \"case_name\": \"Sutherland v. Hurin\",\n            \"citations\": [\n                \"605 P.2d 1133\"\n            ],\n            \"court\": \"Montana Supreme Court\",\n            \"date_filed\": \"1980-02-06\",\n            \"status\": \"Published\",\n            \"cited_by\": 4,\n            \"url\": \"https://syfert.com/montana/cases/185-mont-544/sutherland-v-hurin\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Sutherland v. Hurin, 605 P.2d 1133 (Mont. 1980)\",\n            \"link_md\": \"[Sutherland v. Hurin, 605 P.2d 1133 (Mont. 1980)](https://syfert.com/montana/cases/185-mont-544/sutherland-v-hurin)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Sutherland v. Hurin\",\n        \"actual\": \"Sutherland v. Hurin\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "605 P.2d 1133",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 877325,
+    "case_name": "Sutherland v. Hurin",
+    "citations": [
+     "605 P.2d 1133"
+    ],
+    "court": "Montana Supreme Court",
+    "date_filed": "1980-02-06",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/montana/cases/185-mont-544/sutherland-v-hurin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sutherland v. Hurin, 605 P.2d 1133 (Mont. 1980)",
+    "link_md": "[Sutherland v. Hurin, 605 P.2d 1133 (Mont. 1980)](https://syfert.com/montana/cases/185-mont-544/sutherland-v-hurin)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Sutherland v. Hurin",
+   "actual": "Sutherland v. Hurin",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

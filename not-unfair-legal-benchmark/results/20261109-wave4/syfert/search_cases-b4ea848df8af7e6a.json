@@ -1,0 +1,82 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Vigliotti w/15 \"115 A. 20\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Vigliotti w/15 \\\"115 A. 20\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4094527,\"bluebook\":\"Grisbor v. Phila., 24 A.2d 646 (Pa. Super. Ct. 1941)\",\"url\":\"https://syfert.com/pennsylvania/cases/148-pa-super-91/grisbor-v-phila\",\"date_filed\":\"1941-10-10\",\"cited_by\":13,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...is not inconsistent with the statute and is adapted to carry out the purpose. Cf. Com. v. Vigliotti, 271 Pa. 10 , 115 A. 20 . Regardless of a specific grant of authority, a municipality in the exercise of its police power may regulate…\"},{\"cluster_id\":6410941,\"bluebook\":\"Grisbord v. Philadelphia, 148 Pa. Super. 91 (Pa. Super. Ct. 1942)\",\"url\":\"https://syfert.com/pennsylvania/cases/148-pa-super-91/grisbord-v-philadelphia\",\"date_filed\":\"1942-02-28\",\"cited_by\":12,\"snippet\":\"...is not inconsistent with the statute and is adapted to carry out the purpose. Cf. Com. v. Vigliotti, 271 Pa. 10 , 115 A. 20 . Regardless of a specific grant of authority, a municipality in the exercise of its police power may regulate…\"},{\"cluster_id\":3491151,\"bluebook\":\"Green v. State, 183 A. 526 (Md. 1936)\",\"url\":\"https://syfert.com/maryland/cases/170-md-134/green-v-state\",\"date_filed\":\"1936-02-19\",\"cited_by\":29,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...638 , 123 A. 107 ;\\nCommonwealth v. Vigliotti,\\n271 Pa. 10 , 115 A. 20 :\\nId.,\\n258 U. S. 403 , 42 S. Ct. 330 , 66 L. Ed. 686 .\\nThe Act of 1988, Sp. Sess. ch. 2, did not in terms or by reference repeal the Act of 1910, ch. 583, but...\"},{\"cluster_id\":8764734,\"bluebook\":\"Ziffrin, Inc. v. Martin, 24 F. Supp. 924 (E.D. Ky. 1938)\",\"url\":\"https://syfert.com/federal/district/cases/24-f-supp-924/ziffrin-inc-v-martin\",\"date_filed\":\"1938-10-15\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...10 , 115 A. 20 , affirmed Vigliotti v. Pennsylvania, 258 U.S. 403 , 42 S.Ct. 330 , 66 L.Ed. 686 ; Com. v. Stofchek, supra [ 118 Pa.Super. 412 , 180 A. 84 , affirmed 322 Pa. 513 , 185 A. 840 ], ‘The greater power includes the less.'…\"},{\"cluster_id\":4097172,\"bluebook\":\"Commonwealth v. One Dodge Motor Truck, 187 A. 461 (Pa. Super. Ct. 1936)\",\"url\":\"https://syfert.com/pennsylvania/cases/123-pa-super-311/commonwealth-v-one-dodge-motor-truck\",\"date_filed\":\"1936-04-14\",\"cited_by\":14,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...10 , 115 A. 20 , affirmed,\\nVigliotti v. Pennsylvania,\\n258 U. S. 403 ;\\nCom. v. Stofcheck,\\nsupra. “The greater power includes the less”:\\nSeaboard Air Line Ry. v. North Carolina,\\nsupra. It is common knowledge that the successful…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Vigliotti w/15 \"115 A. 20\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4094527,
+    "bluebook": "Grisbor v. Phila., 24 A.2d 646 (Pa. Super. Ct. 1941)",
+    "url": "https://syfert.com/pennsylvania/cases/148-pa-super-91/grisbor-v-phila",
+    "date_filed": "1941-10-10",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...is not inconsistent with the statute and is adapted to carry out the purpose. Cf. Com. v. Vigliotti, 271 Pa. 10 , 115 A. 20 . Regardless of a specific grant of authority, a municipality in the exercise of its police power may regulate…"
+   },
+   {
+    "cluster_id": 6410941,
+    "bluebook": "Grisbord v. Philadelphia, 148 Pa. Super. 91 (Pa. Super. Ct. 1942)",
+    "url": "https://syfert.com/pennsylvania/cases/148-pa-super-91/grisbord-v-philadelphia",
+    "date_filed": "1942-02-28",
+    "cited_by": 12,
+    "snippet": "...is not inconsistent with the statute and is adapted to carry out the purpose. Cf. Com. v. Vigliotti, 271 Pa. 10 , 115 A. 20 . Regardless of a specific grant of authority, a municipality in the exercise of its police power may regulate…"
+   },
+   {
+    "cluster_id": 3491151,
+    "bluebook": "Green v. State, 183 A. 526 (Md. 1936)",
+    "url": "https://syfert.com/maryland/cases/170-md-134/green-v-state",
+    "date_filed": "1936-02-19",
+    "cited_by": 29,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...638 , 123 A. 107 ;\nCommonwealth v. Vigliotti,\n271 Pa. 10 , 115 A. 20 :\nId.,\n258 U. S. 403 , 42 S. Ct. 330 , 66 L. Ed. 686 .\nThe Act of 1988, Sp. Sess. ch. 2, did not in terms or by reference repeal the Act of 1910, ch. 583, but..."
+   },
+   {
+    "cluster_id": 8764734,
+    "bluebook": "Ziffrin, Inc. v. Martin, 24 F. Supp. 924 (E.D. Ky. 1938)",
+    "url": "https://syfert.com/federal/district/cases/24-f-supp-924/ziffrin-inc-v-martin",
+    "date_filed": "1938-10-15",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...10 , 115 A. 20 , affirmed Vigliotti v. Pennsylvania, 258 U.S. 403 , 42 S.Ct. 330 , 66 L.Ed. 686 ; Com. v. Stofchek, supra [ 118 Pa.Super. 412 , 180 A. 84 , affirmed 322 Pa. 513 , 185 A. 840 ], ‘The greater power includes the less.'…"
+   },
+   {
+    "cluster_id": 4097172,
+    "bluebook": "Commonwealth v. One Dodge Motor Truck, 187 A. 461 (Pa. Super. Ct. 1936)",
+    "url": "https://syfert.com/pennsylvania/cases/123-pa-super-311/commonwealth-v-one-dodge-motor-truck",
+    "date_filed": "1936-04-14",
+    "cited_by": 14,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...10 , 115 A. 20 , affirmed,\nVigliotti v. Pennsylvania,\n258 U. S. 403 ;\nCom. v. Stofcheck,\nsupra. “The greater power includes the less”:\nSeaboard Air Line Ry. v. North Carolina,\nsupra. It is common knowledge that the successful…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

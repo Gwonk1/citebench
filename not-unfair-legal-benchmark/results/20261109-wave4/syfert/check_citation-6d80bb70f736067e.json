@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "700 P.2d 175",
+  "expected_case_name": "In Re the Marriage of Staudt"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"700 P.2d 175\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 878869,\n            \"case_name\": \"In re the Marriage of Staudt\",\n            \"citations\": [\n                \"700 P.2d 175\"\n            ],\n            \"court\": \"Montana Supreme Court\",\n            \"date_filed\": \"1985-05-23\",\n            \"status\": \"Published\",\n            \"cited_by\": 7,\n            \"url\": \"https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n            \"link_md\": \"[In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)](https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 4,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"In Re the Marriage of Staudt\",\n        \"actual\": \"In re the Marriage of Staudt\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "700 P.2d 175",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 878869,
+    "case_name": "In re the Marriage of Staudt",
+    "citations": [
+     "700 P.2d 175"
+    ],
+    "court": "Montana Supreme Court",
+    "date_filed": "1985-05-23",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+    "link_md": "[In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)](https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 4,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "In Re the Marriage of Staudt",
+   "actual": "In re the Marriage of Staudt",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,412 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Walter w/15 \"50 A. 432\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Walter w/15 \\\"50 A. 432\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":685269,\"case_name\":\"United States v. Walter\",\"citations\":[\"43 F.3d 669\",\"1994 WL 725001\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1994-12-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/43-f-3d-669/united-states-v-walter\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Walter, 43 F.3d 669 (5th Cir. 1994)\",\"link_md\":\"[United States v. Walter, 43 F.3d 669 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/43-f-3d-669/united-states-v-walter)\",\"match_kind\":\"semantic\",\"similarity\":0.714},{\"cluster_id\":754670,\"case_name\":\"United States v. Walter\",\"citations\":[\"145 F.3d 360\",\"1998 U.S. App. LEXIS 13128\",\"1998 WL 307626\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1998-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/145-f-3d-360/united-states-v-walter\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Walter, 145 F.3d 360 (5th Cir. 1998)\",\"link_md\":\"[United States v. Walter, 145 F.3d 360 (5th Cir. 1998)](https://syfert.com/federal/circuits/cases/145-f-3d-360/united-states-v-walter)\",\"match_kind\":\"semantic\",\"similarity\":0.6875},{\"cluster_id\":114227,\"case_name\":\"Walter v. United States\",\"citations\":[\"510 U.S. 902\",\"114 S. Ct. 277\"],\"court\":\"Supreme Court\",\"date_filed\":\"1993-10-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/510-u-s-902/walter-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (114227 and its twin 9140335). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. United States, 510 U.S. 902 (1993)\",\"link_md\":\"[Walter v. United States, 510 U.S. 902 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-902/walter-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6724},{\"cluster_id\":123434,\"case_name\":\"Walters v. United States\",\"citations\":[\"537 U.S. 893\",\"123 S. Ct. 167\"],\"court\":\"Supreme Court\",\"date_filed\":\"2002-10-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/537-u-s-893/walters-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (123434 and its twin 9251470). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walters v. United States, 537 U.S. 893 (2002)\",\"link_md\":\"[Walters v. United States, 537 U.S. 893 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-893/walters-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6714},{\"cluster_id\":725791,\"case_name\":\"United States v. Walter\",\"citations\":[\"95 F.3d 47\",\"1996 U.S. App. LEXIS 19676\",\"1996 WL 405742\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1996-06-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/95-f-3d-47/united-states-v-walter\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Walter, 95 F.3d 47 (5th Cir. 1996)\",\"link_md\":\"[United States v. Walter, 95 F.3d 47 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/95-f-3d-47/united-states-v-walter)\",\"match_kind\":\"semantic\",\"similarity\":0.6678},{\"cluster_id\":715223,\"case_name\":\"United States v. Walter\",\"citations\":[\"79 F.3d 1144\",\"1996 U.S. App. LEXIS 5034\",\"1996 WL 97111\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1996-02-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/79-f-3d-1144/united-states-v-walter\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Walter, 79 F.3d 1144 (5th Cir. 1996)\",\"link_md\":\"[United States v. Walter, 79 F.3d 1144 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/79-f-3d-1144/united-states-v-walter)\",\"match_kind\":\"semantic\",\"similarity\":0.6622},{\"cluster_id\":679778,\"case_name\":\"Walter v. H. B. Zachry Company\",\"citations\":[\"37 F.3d 632\",\"1994 U.S. App. LEXIS 28495\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1994-09-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/37-f-3d-632/walter-v-h-b-zachry-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. H. B. Zachry Co., 37 F.3d 632 (5th Cir. 1994)\",\"link_md\":\"[Walter v. H. B. Zachry Co., 37 F.3d 632 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/37-f-3d-632/walter-v-h-b-zachry-company)\",\"match_kind\":\"semantic\",\"similarity\":0.657},{\"cluster_id\":16439,\"case_name\":\"Walter v. Ilahi\",\"citations\":[\"166 F.3d 341\",\"1998 WL 912169\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1998-12-16\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/166-f-3d-341/walter-v-ilahi\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. Ilahi, 166 F.3d 341 (5th Cir. 1998)\",\"link_md\":\"[Walter v. Ilahi, 166 F.3d 341 (5th Cir. 1998)](https://syfert.com/federal/circuits/cases/166-f-3d-341/walter-v-ilahi)\",\"match_kind\":\"semantic\",\"similarity\":0.6554},{\"cluster_id\":464213,\"case_name\":\"Walter v. Torres\",\"citations\":[\"782 F.2d 1039\",\"1986 U.S. App. LEXIS 21922\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1986-01-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/782-f-2d-1039/walter-v-torres\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. Torres, 782 F.2d 1039 (5th Cir. 1986)\",\"link_md\":\"[Walter v. Torres, 782 F.2d 1039 (5th Cir. 1986)](https://syfert.com/federal/circuits/cases/782-f-2d-1039/walter-v-torres)\",\"match_kind\":\"semantic\",\"similarity\":0.6411},{\"cluster_id\":496390,\"case_name\":\"Walter v. Lowe\",\"citations\":[\"831 F.2d 1060\",\"1987 U.S. App. LEXIS 13594\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1987-10-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/831-f-2d-1060/walter-v-lowe\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. Lowe, 831 F.2d 1060 (5th Cir. 1987)\",\"link_md\":\"[Walter v. Lowe, 831 F.2d 1060 (5th Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-1060/walter-v-lowe)\",\"match_kind\":\"semantic\",\"similarity\":0.64},{\"cluster_id\":690055,\"case_name\":\"Walter v. Brown and Root\",\"citations\":[\"48 F.3d 530\",\"1995 U.S. App. LEXIS 4508\",\"1995 WL 84106\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1995-02-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/48-f-3d-530/walter-v-brown-and-root\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. Brown & Root, 48 F.3d 530 (5th Cir. 1995)\",\"link_md\":\"[Walter v. Brown & Root, 48 F.3d 530 (5th Cir. 1995)](https://syfert.com/federal/circuits/cases/48-f-3d-530/walter-v-brown-and-root)\",\"match_kind\":\"semantic\",\"similarity\":0.6355},{\"cluster_id\":142456,\"case_name\":\"Walter v. New York\",\"citations\":[\"543 U.S. 1165\",\"125 S. Ct. 1338\"],\"court\":\"Supreme Court\",\"date_filed\":\"2005-02-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-1165/walter-v-new-york\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (142456 and its twin 9280972). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. New York, 543 U.S. 1165 (2005)\",\"link_md\":\"[Walter v. New York, 543 U.S. 1165 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1165/walter-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6341},{\"cluster_id\":540183,\"case_name\":\"Walter v. Washington\",\"citations\":[\"901 F.2d 1111\",\"1990 U.S. App. LEXIS 6282\",\"1990 WL 48141\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1990-04-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/901-f-2d-1111/walter-v-washington\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. Washington, 901 F.2d 1111 (5th Cir. 1990)\",\"link_md\":\"[Walter v. Washington, 901 F.2d 1111 (5th Cir. 1990)](https://syfert.com/federal/circuits/cases/901-f-2d-1111/walter-v-washington)\",\"match_kind\":\"semantic\",\"similarity\":0.634},{\"cluster_id\":379757,\"case_name\":\"Diamond v. Walter\",\"citations\":[\"624 F.2d 1096\",\"1980 U.S. App. LEXIS 15126\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1980-08-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/624-f-2d-1096/diamond-v-walter\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Diamond v. Walter, 624 F.2d 1096 (5th Cir. 1980)\",\"link_md\":\"[Diamond v. Walter, 624 F.2d 1096 (5th Cir. 1980)](https://syfert.com/federal/circuits/cases/624-f-2d-1096/diamond-v-walter)\",\"match_kind\":\"semantic\",\"similarity\":0.6298},{\"cluster_id\":441907,\"case_name\":\"Walters v. Harvey Gulf Intern\",\"citations\":[\"744 F.2d 93\",\"1984 U.S. App. LEXIS 18444\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1984-09-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/744-f-2d-93/walters-v-harvey-gulf-intern\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walters v. Harvey Gulf Intern, 744 F.2d 93 (5th Cir. 1984)\",\"link_md\":\"[Walters v. Harvey Gulf Intern, 744 F.2d 93 (5th Cir. 1984)](https://syfert.com/federal/circuits/cases/744-f-2d-93/walters-v-harvey-gulf-intern)\",\"match_kind\":\"semantic\",\"similarity\":0.6285},{\"cluster_id\":496905,\"case_name\":\"Walters v. Torres\",\"citations\":[\"832 F.2d 1263\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1987-10-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/832-f-2d-1263/walters-v-torres\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walters v. Torres, 832 F.2d 1263 (5th Cir. 1987)\",\"link_md\":\"[Walters v. Torres, 832 F.2d 1263 (5th Cir. 1987)](https://syfert.com/federal/circuits/cases/832-f-2d-1263/walters-v-torres)\",\"match_kind\":\"semantic\",\"similarity\":0.6256},{\"cluster_id\":5523159,\"case_name\":\"Walter v. Rheinstein\",\"citations\":[\"259 A.D. 866\",\"20 N.Y.S.2d 650\",\"1940 N.Y. App. Div. LEXIS 7028\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1940-05-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/259-a-d-866/walter-v-rheinstein\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. Rheinstein, 259 A.D. 866 (N.Y. App. Div. 1st Dep't 1940)\",\"link_md\":\"[Walter v. Rheinstein, 259 A.D. 866 (N.Y. App. Div. 1st Dep't 1940)](https://syfert.com/new-york/cases/259-a-d-866/walter-v-rheinstein)\",\"match_kind\":\"semantic\",\"similarity\":0.6245},{\"cluster_id\":443120,\"case_name\":\"Weissman v. Walter\",\"citations\":[\"746 F.2d 810\",\"1984 U.S. App. LEXIS 17622\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1984-10-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/746-f-2d-810/weissman-v-walter\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Weissman v. Walter, 746 F.2d 810 (5th Cir. 1984)\",\"link_md\":\"[Weissman v. Walter, 746 F.2d 810 (5th Cir. 1984)](https://syfert.com/federal/circuits/cases/746-f-2d-810/weissman-v-walter)\",\"match_kind\":\"semantic\",\"similarity\":0.6226},{\"cluster_id\":434800,\"case_name\":\"Walter E. Heller & Co. v. Tyger Equipment-International\",\"citations\":[\"732 F.2d 939\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1984-04-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/732-f-2d-939/walter-e-heller-co-v-tyger-equipment-international\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter E. Heller & Co. v. Tyger Equip.-Int'l, 732 F.2d 939 (5th Cir. 1984)\",\"link_md\":\"[Walter E. Heller & Co. v. Tyger Equip.-Int'l, 732 F.2d 939 (5th Cir. 1984)](https://syfert.com/federal/circuits/cases/732-f-2d-939/walter-e-heller-co-v-tyger-equipment-international)\",\"match_kind\":\"semantic\",\"similarity\":0.6211},{\"cluster_id\":719240,\"case_name\":\"Walter v. Ref Chemical\",\"citations\":[\"85 F.3d 626\",\"1996 U.S. App. LEXIS 12952\",\"1996 WL 255373\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1996-05-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/85-f-3d-626/walter-v-ref-chemical\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Walter v. Ref Chem., 85 F.3d 626 (5th Cir. 1996)\",\"link_md\":\"[Walter v. Ref Chem., 85 F.3d 626 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/85-f-3d-626/walter-v-ref-chemical)\",\"match_kind\":\"semantic\",\"similarity\":0.619}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Walter w/15 \"50 A. 432\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 685269,
+    "case_name": "United States v. Walter",
+    "citations": [
+     "43 F.3d 669",
+     "1994 WL 725001"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1994-12-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/43-f-3d-669/united-states-v-walter",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Walter, 43 F.3d 669 (5th Cir. 1994)",
+    "link_md": "[United States v. Walter, 43 F.3d 669 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/43-f-3d-669/united-states-v-walter)",
+    "match_kind": "semantic",
+    "similarity": 0.714
+   },
+   {
+    "cluster_id": 754670,
+    "case_name": "United States v. Walter",
+    "citations": [
+     "145 F.3d 360",
+     "1998 U.S. App. LEXIS 13128",
+     "1998 WL 307626"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1998-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/145-f-3d-360/united-states-v-walter",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Walter, 145 F.3d 360 (5th Cir. 1998)",
+    "link_md": "[United States v. Walter, 145 F.3d 360 (5th Cir. 1998)](https://syfert.com/federal/circuits/cases/145-f-3d-360/united-states-v-walter)",
+    "match_kind": "semantic",
+    "similarity": 0.6875
+   },
+   {
+    "cluster_id": 114227,
+    "case_name": "Walter v. United States",
+    "citations": [
+     "510 U.S. 902",
+     "114 S. Ct. 277"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1993-10-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/510-u-s-902/walter-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (114227 and its twin 9140335). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. United States, 510 U.S. 902 (1993)",
+    "link_md": "[Walter v. United States, 510 U.S. 902 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-902/walter-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6724
+   },
+   {
+    "cluster_id": 123434,
+    "case_name": "Walters v. United States",
+    "citations": [
+     "537 U.S. 893",
+     "123 S. Ct. 167"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2002-10-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/537-u-s-893/walters-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (123434 and its twin 9251470). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walters v. United States, 537 U.S. 893 (2002)",
+    "link_md": "[Walters v. United States, 537 U.S. 893 (2002)](https://syfert.com/federal/scotus/cases/537-u-s-893/walters-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6714
+   },
+   {
+    "cluster_id": 725791,
+    "case_name": "United States v. Walter",
+    "citations": [
+     "95 F.3d 47",
+     "1996 U.S. App. LEXIS 19676",
+     "1996 WL 405742"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1996-06-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/95-f-3d-47/united-states-v-walter",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Walter, 95 F.3d 47 (5th Cir. 1996)",
+    "link_md": "[United States v. Walter, 95 F.3d 47 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/95-f-3d-47/united-states-v-walter)",
+    "match_kind": "semantic",
+    "similarity": 0.6678
+   },
+   {
+    "cluster_id": 715223,
+    "case_name": "United States v. Walter",
+    "citations": [
+     "79 F.3d 1144",
+     "1996 U.S. App. LEXIS 5034",
+     "1996 WL 97111"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1996-02-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/79-f-3d-1144/united-states-v-walter",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Walter, 79 F.3d 1144 (5th Cir. 1996)",
+    "link_md": "[United States v. Walter, 79 F.3d 1144 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/79-f-3d-1144/united-states-v-walter)",
+    "match_kind": "semantic",
+    "similarity": 0.6622
+   },
+   {
+    "cluster_id": 679778,
+    "case_name": "Walter v. H. B. Zachry Company",
+    "citations": [
+     "37 F.3d 632",
+     "1994 U.S. App. LEXIS 28495"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1994-09-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/37-f-3d-632/walter-v-h-b-zachry-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. H. B. Zachry Co., 37 F.3d 632 (5th Cir. 1994)",
+    "link_md": "[Walter v. H. B. Zachry Co., 37 F.3d 632 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/37-f-3d-632/walter-v-h-b-zachry-company)",
+    "match_kind": "semantic",
+    "similarity": 0.657
+   },
+   {
+    "cluster_id": 16439,
+    "case_name": "Walter v. Ilahi",
+    "citations": [
+     "166 F.3d 341",
+     "1998 WL 912169"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1998-12-16",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/166-f-3d-341/walter-v-ilahi",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. Ilahi, 166 F.3d 341 (5th Cir. 1998)",
+    "link_md": "[Walter v. Ilahi, 166 F.3d 341 (5th Cir. 1998)](https://syfert.com/federal/circuits/cases/166-f-3d-341/walter-v-ilahi)",
+    "match_kind": "semantic",
+    "similarity": 0.6554
+   },
+   {
+    "cluster_id": 464213,
+    "case_name": "Walter v. Torres",
+    "citations": [
+     "782 F.2d 1039",
+     "1986 U.S. App. LEXIS 21922"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1986-01-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/782-f-2d-1039/walter-v-torres",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. Torres, 782 F.2d 1039 (5th Cir. 1986)",
+    "link_md": "[Walter v. Torres, 782 F.2d 1039 (5th Cir. 1986)](https://syfert.com/federal/circuits/cases/782-f-2d-1039/walter-v-torres)",
+    "match_kind": "semantic",
+    "similarity": 0.6411
+   },
+   {
+    "cluster_id": 496390,
+    "case_name": "Walter v. Lowe",
+    "citations": [
+     "831 F.2d 1060",
+     "1987 U.S. App. LEXIS 13594"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1987-10-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/831-f-2d-1060/walter-v-lowe",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. Lowe, 831 F.2d 1060 (5th Cir. 1987)",
+    "link_md": "[Walter v. Lowe, 831 F.2d 1060 (5th Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-1060/walter-v-lowe)",
+    "match_kind": "semantic",
+    "similarity": 0.64
+   },
+   {
+    "cluster_id": 690055,
+    "case_name": "Walter v. Brown and Root",
+    "citations": [
+     "48 F.3d 530",
+     "1995 U.S. App. LEXIS 4508",
+     "1995 WL 84106"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1995-02-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/48-f-3d-530/walter-v-brown-and-root",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. Brown & Root, 48 F.3d 530 (5th Cir. 1995)",
+    "link_md": "[Walter v. Brown & Root, 48 F.3d 530 (5th Cir. 1995)](https://syfert.com/federal/circuits/cases/48-f-3d-530/walter-v-brown-and-root)",
+    "match_kind": "semantic",
+    "similarity": 0.6355
+   },
+   {
+    "cluster_id": 142456,
+    "case_name": "Walter v. New York",
+    "citations": [
+     "543 U.S. 1165",
+     "125 S. Ct. 1338"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2005-02-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-1165/walter-v-new-york",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (142456 and its twin 9280972). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. New York, 543 U.S. 1165 (2005)",
+    "link_md": "[Walter v. New York, 543 U.S. 1165 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1165/walter-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6341
+   },
+   {
+    "cluster_id": 540183,
+    "case_name": "Walter v. Washington",
+    "citations": [
+     "901 F.2d 1111",
+     "1990 U.S. App. LEXIS 6282",
+     "1990 WL 48141"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1990-04-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/901-f-2d-1111/walter-v-washington",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. Washington, 901 F.2d 1111 (5th Cir. 1990)",
+    "link_md": "[Walter v. Washington, 901 F.2d 1111 (5th Cir. 1990)](https://syfert.com/federal/circuits/cases/901-f-2d-1111/walter-v-washington)",
+    "match_kind": "semantic",
+    "similarity": 0.634
+   },
+   {
+    "cluster_id": 379757,
+    "case_name": "Diamond v. Walter",
+    "citations": [
+     "624 F.2d 1096",
+     "1980 U.S. App. LEXIS 15126"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1980-08-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/624-f-2d-1096/diamond-v-walter",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Diamond v. Walter, 624 F.2d 1096 (5th Cir. 1980)",
+    "link_md": "[Diamond v. Walter, 624 F.2d 1096 (5th Cir. 1980)](https://syfert.com/federal/circuits/cases/624-f-2d-1096/diamond-v-walter)",
+    "match_kind": "semantic",
+    "similarity": 0.6298
+   },
+   {
+    "cluster_id": 441907,
+    "case_name": "Walters v. Harvey Gulf Intern",
+    "citations": [
+     "744 F.2d 93",
+     "1984 U.S. App. LEXIS 18444"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1984-09-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/744-f-2d-93/walters-v-harvey-gulf-intern",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walters v. Harvey Gulf Intern, 744 F.2d 93 (5th Cir. 1984)",
+    "link_md": "[Walters v. Harvey Gulf Intern, 744 F.2d 93 (5th Cir. 1984)](https://syfert.com/federal/circuits/cases/744-f-2d-93/walters-v-harvey-gulf-intern)",
+    "match_kind": "semantic",
+    "similarity": 0.6285
+   },
+   {
+    "cluster_id": 496905,
+    "case_name": "Walters v. Torres",
+    "citations": [
+     "832 F.2d 1263"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1987-10-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/832-f-2d-1263/walters-v-torres",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walters v. Torres, 832 F.2d 1263 (5th Cir. 1987)",
+    "link_md": "[Walters v. Torres, 832 F.2d 1263 (5th Cir. 1987)](https://syfert.com/federal/circuits/cases/832-f-2d-1263/walters-v-torres)",
+    "match_kind": "semantic",
+    "similarity": 0.6256
+   },
+   {
+    "cluster_id": 5523159,
+    "case_name": "Walter v. Rheinstein",
+    "citations": [
+     "259 A.D. 866",
+     "20 N.Y.S.2d 650",
+     "1940 N.Y. App. Div. LEXIS 7028"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1940-05-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/259-a-d-866/walter-v-rheinstein",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. Rheinstein, 259 A.D. 866 (N.Y. App. Div. 1st Dep't 1940)",
+    "link_md": "[Walter v. Rheinstein, 259 A.D. 866 (N.Y. App. Div. 1st Dep't 1940)](https://syfert.com/new-york/cases/259-a-d-866/walter-v-rheinstein)",
+    "match_kind": "semantic",
+    "similarity": 0.6245
+   },
+   {
+    "cluster_id": 443120,
+    "case_name": "Weissman v. Walter",
+    "citations": [
+     "746 F.2d 810",
+     "1984 U.S. App. LEXIS 17622"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1984-10-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/746-f-2d-810/weissman-v-walter",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Weissman v. Walter, 746 F.2d 810 (5th Cir. 1984)",
+    "link_md": "[Weissman v. Walter, 746 F.2d 810 (5th Cir. 1984)](https://syfert.com/federal/circuits/cases/746-f-2d-810/weissman-v-walter)",
+    "match_kind": "semantic",
+    "similarity": 0.6226
+   },
+   {
+    "cluster_id": 434800,
+    "case_name": "Walter E. Heller & Co. v. Tyger Equipment-International",
+    "citations": [
+     "732 F.2d 939"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1984-04-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/732-f-2d-939/walter-e-heller-co-v-tyger-equipment-international",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter E. Heller & Co. v. Tyger Equip.-Int'l, 732 F.2d 939 (5th Cir. 1984)",
+    "link_md": "[Walter E. Heller & Co. v. Tyger Equip.-Int'l, 732 F.2d 939 (5th Cir. 1984)](https://syfert.com/federal/circuits/cases/732-f-2d-939/walter-e-heller-co-v-tyger-equipment-international)",
+    "match_kind": "semantic",
+    "similarity": 0.6211
+   },
+   {
+    "cluster_id": 719240,
+    "case_name": "Walter v. Ref Chemical",
+    "citations": [
+     "85 F.3d 626",
+     "1996 U.S. App. LEXIS 12952",
+     "1996 WL 255373"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1996-05-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/85-f-3d-626/walter-v-ref-chemical",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Walter v. Ref Chem., 85 F.3d 626 (5th Cir. 1996)",
+    "link_md": "[Walter v. Ref Chem., 85 F.3d 626 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/85-f-3d-626/walter-v-ref-chemical)",
+    "match_kind": "semantic",
+    "similarity": 0.619
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Sutherland w/15 \"605 P.2d 1135\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Sutherland w/15 \\\"605 P.2d 1135\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1923524,\"bluebook\":\"Stearns v. Kean, 303 N.W.2d 408 (Iowa 1981)\",\"url\":\"https://syfert.com/iowa/cases/303-n-w-2d-408/stearns-v-kean\",\"date_filed\":\"1981-03-18\",\"cited_by\":20,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...G.,\\nColo., 607 P.2d 1004, 1005 (1980) (citing Uniform Parentage Act § 7, allowing child three years after majority to bring paterni ty action);\\nSutherland v. Hurin,\\nMont., 605 P.2d 1133, 1135 (1980) (citing state statute allowing child…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Sutherland w/15 \"605 P.2d 1135\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1923524,
+    "bluebook": "Stearns v. Kean, 303 N.W.2d 408 (Iowa 1981)",
+    "url": "https://syfert.com/iowa/cases/303-n-w-2d-408/stearns-v-kean",
+    "date_filed": "1981-03-18",
+    "cited_by": 20,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...G.,\nColo., 607 P.2d 1004, 1005 (1980) (citing Uniform Parentage Act § 7, allowing child three years after majority to bring paterni ty action);\nSutherland v. Hurin,\nMont., 605 P.2d 1133, 1135 (1980) (citing state statute allowing child…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

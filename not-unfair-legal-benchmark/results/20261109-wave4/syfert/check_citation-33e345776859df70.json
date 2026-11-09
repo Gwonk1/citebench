@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "23 N.E. 301",
+  "expected_case_name": "Vail v. . Reynolds"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"23 N.E. 301\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3621861,\n            \"case_name\": \"Vail v. . Reynolds\",\n            \"citations\": [\n                \"23 N.E. 301\"\n            ],\n            \"court\": \"New York Court of Appeals\",\n            \"date_filed\": \"1890-01-14\",\n            \"status\": \"Published\",\n            \"cited_by\": 116,\n            \"url\": \"https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Vail v. Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n            \"link_md\": \"[Vail v. Reynolds, 23 N.E. 301 (N.Y. 1890)](https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 6,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"judgment for plaintiff\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Vail v. . Reynolds\",\n        \"actual\": \"Vail v. . Reynolds\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "23 N.E. 301",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3621861,
+    "case_name": "Vail v. . Reynolds",
+    "citations": [
+     "23 N.E. 301"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1890-01-14",
+    "status": "Published",
+    "cited_by": 116,
+    "url": "https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vail v. Reynolds, 23 N.E. 301 (N.Y. 1890)",
+    "link_md": "[Vail v. Reynolds, 23 N.E. 301 (N.Y. 1890)](https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 6,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "judgment for plaintiff",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Vail v. . Reynolds",
+   "actual": "Vail v. . Reynolds",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

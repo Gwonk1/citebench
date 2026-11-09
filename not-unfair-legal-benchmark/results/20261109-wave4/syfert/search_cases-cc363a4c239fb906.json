@@ -1,0 +1,93 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "White w/15 \"871 N.Y.S.2d 170\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"White w/15 \\\"871 N.Y.S.2d 170\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1304733,\"bluebook\":\"Wagner & Wagner, LLP v. Atkinson, Haskins, Nellis, Brittingham, Gladd & Carwile, P.C., 596 F.3d 84 (2d Cir. 2010)\",\"url\":\"https://syfert.com/federal/circuits/cases/596-f-3d-84/wagner-wagner-llp-v-atkinson-haskins-nellis-brittingham-gladd\",\"date_filed\":\"2010-02-18\",\"cited_by\":297,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...to fix the amount of such compensation.”);\\nWhite v. DaimlerChrysler Corp.,\\n57 A.D.3d 531 , 871 N.Y.S.2d 170 , 173-74 (App. Div.2d Dep’t 2008) (noting that under N.Y. Judiciary Law § 474 , a contract between the attorney and the infant…\",\"holding\":\"A party waives appellate review of a magistrate judge's report and recommendation by failing to file timely objections designating the specific issue.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":9858997,\"bluebook\":\"Elmrharri v. Marriott Int'l, Inc., No. 1:20-cv-00325 (S.D.N.Y. Sept. 2, 2020)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9858997/elmrharri-v-marriott-international-inc\",\"date_filed\":\"2020-09-02\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...23, 2020). “This requirement arises from the court’s duty to protect infants and\\nother wards of the court.” White v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 , 173 (2d Dep’t\\n2008). The Court considers several factors, including “(1) the…\",\"passage_origin\":{\"case_name\":\"White v. DaimlerChrysler Corp.\",\"cluster_id\":5906464,\"year\":2008,\"quoted_by_cases\":2}},{\"cluster_id\":2523852,\"bluebook\":\"Martegani v. Cirrus Design Corp., 687 F. Supp. 2d 373 (S.D.N.Y. 2010)\",\"url\":\"https://syfert.com/federal/district/cases/687-f-supp-2d-373/martegani-v-cirrus-design-corp\",\"date_filed\":\"2010-01-22\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...examine the issues raised in the action and the time and labor involved in litigating the case.\\nWhite v. DaimlerChrysler Corp.,\\n57 A.D.3d 531, 535 , 871 N.Y.S.2d 170 , 174 (App.Div.2d Dep’t 2008). The Court has done that here.\\nIn…\"},{\"cluster_id\":10415312,\"bluebook\":\"Fernandez v. City Of New York, No. 1:21-cv-00680 (S.D.N.Y. Apr. 29, 2025)\",\"url\":\"https://syfert.com/federal/district/cases/cl-10415312/fernandez-v-city-of-new-york\",\"date_filed\":\"2025-04-29\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...Courts treat contingency-fee agreements as “advisory only,” and the court’s analysis\\nbegins with the “lodestar calculation.” Campbell, 2015 WL 7019831 , at (citing White v.\\nDaimlerChrysler Corp., 871 N.Y.S. 2d 170 , 173 (2d Dep’t 2008);…\"},{\"cluster_id\":2960601,\"bluebook\":\"Rodriguez v. Custodio, No. 08-4966-cv (2d Cir. Feb. 18, 2010)\",\"url\":\"https://syfert.com/federal/circuits/cases/cl-2960601/rodriguez-v-custodio\",\"date_filed\":\"2010-02-18\",\"cited_by\":0,\"snippet\":\"...to fix the amount of such compensation.”); White\\n3 v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 , 173-74 (App. Div. 2d\\n4 Dep’t 2008) (noting that under N.Y. Judiciary Law § 474 , a\\n5 contract between the attorney and the infant guardians…\"},{\"cluster_id\":1259,\"bluebook\":\"Rodriguez v. Custodio, No. 18-3107 (2d Cir. Apr. 6, 2010)\",\"url\":\"https://syfert.com/federal/circuits/cases/cl-1259/rodriguez-v-custodio\",\"date_filed\":\"2010-04-06\",\"cited_by\":0,\"snippet\":\"...to fix the amount of such compensation.”); White\\n3 v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 , 173-74 (App. Div. 2d\\n4 Dep’t 2008) (noting that under N.Y. Judiciary Law § 474 , a\\n5 contract between the attorney and the infant guardians…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "White w/15 \"871 N.Y.S.2d 170\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1304733,
+    "bluebook": "Wagner & Wagner, LLP v. Atkinson, Haskins, Nellis, Brittingham, Gladd & Carwile, P.C., 596 F.3d 84 (2d Cir. 2010)",
+    "url": "https://syfert.com/federal/circuits/cases/596-f-3d-84/wagner-wagner-llp-v-atkinson-haskins-nellis-brittingham-gladd",
+    "date_filed": "2010-02-18",
+    "cited_by": 297,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...to fix the amount of such compensation.”);\nWhite v. DaimlerChrysler Corp.,\n57 A.D.3d 531 , 871 N.Y.S.2d 170 , 173-74 (App. Div.2d Dep’t 2008) (noting that under N.Y. Judiciary Law § 474 , a contract between the attorney and the infant…",
+    "holding": "A party waives appellate review of a magistrate judge's report and recommendation by failing to file timely objections designating the specific issue.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 9858997,
+    "bluebook": "Elmrharri v. Marriott Int'l, Inc., No. 1:20-cv-00325 (S.D.N.Y. Sept. 2, 2020)",
+    "url": "https://syfert.com/federal/district/cases/cl-9858997/elmrharri-v-marriott-international-inc",
+    "date_filed": "2020-09-02",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...23, 2020). “This requirement arises from the court’s duty to protect infants and\nother wards of the court.” White v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 , 173 (2d Dep’t\n2008). The Court considers several factors, including “(1) the…",
+    "passage_origin": {
+     "case_name": "White v. DaimlerChrysler Corp.",
+     "cluster_id": 5906464,
+     "year": 2008,
+     "quoted_by_cases": 2
+    }
+   },
+   {
+    "cluster_id": 2523852,
+    "bluebook": "Martegani v. Cirrus Design Corp., 687 F. Supp. 2d 373 (S.D.N.Y. 2010)",
+    "url": "https://syfert.com/federal/district/cases/687-f-supp-2d-373/martegani-v-cirrus-design-corp",
+    "date_filed": "2010-01-22",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...examine the issues raised in the action and the time and labor involved in litigating the case.\nWhite v. DaimlerChrysler Corp.,\n57 A.D.3d 531, 535 , 871 N.Y.S.2d 170 , 174 (App.Div.2d Dep’t 2008). The Court has done that here.\nIn…"
+   },
+   {
+    "cluster_id": 10415312,
+    "bluebook": "Fernandez v. City Of New York, No. 1:21-cv-00680 (S.D.N.Y. Apr. 29, 2025)",
+    "url": "https://syfert.com/federal/district/cases/cl-10415312/fernandez-v-city-of-new-york",
+    "date_filed": "2025-04-29",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...Courts treat contingency-fee agreements as “advisory only,” and the court’s analysis\nbegins with the “lodestar calculation.” Campbell, 2015 WL 7019831 , at (citing White v.\nDaimlerChrysler Corp., 871 N.Y.S. 2d 170 , 173 (2d Dep’t 2008);…"
+   },
+   {
+    "cluster_id": 2960601,
+    "bluebook": "Rodriguez v. Custodio, No. 08-4966-cv (2d Cir. Feb. 18, 2010)",
+    "url": "https://syfert.com/federal/circuits/cases/cl-2960601/rodriguez-v-custodio",
+    "date_filed": "2010-02-18",
+    "cited_by": 0,
+    "snippet": "...to fix the amount of such compensation.”); White\n3 v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 , 173-74 (App. Div. 2d\n4 Dep’t 2008) (noting that under N.Y. Judiciary Law § 474 , a\n5 contract between the attorney and the infant guardians…"
+   },
+   {
+    "cluster_id": 1259,
+    "bluebook": "Rodriguez v. Custodio, No. 18-3107 (2d Cir. Apr. 6, 2010)",
+    "url": "https://syfert.com/federal/circuits/cases/cl-1259/rodriguez-v-custodio",
+    "date_filed": "2010-04-06",
+    "cited_by": 0,
+    "snippet": "...to fix the amount of such compensation.”); White\n3 v. DaimlerChrysler Corp., 871 N.Y.S.2d 170 , 173-74 (App. Div. 2d\n4 Dep’t 2008) (noting that under N.Y. Judiciary Law § 474 , a\n5 contract between the attorney and the infant guardians…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Coleman w/15 \"940 N.Y.S.2d 170\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Coleman w/15 \\\"940 N.Y.S.2d 170\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":9898294,\"bluebook\":\"Walter v. CSX Transp., Inc., No. 1:19-cv-01583 (W.D.N.Y. May 9, 2022)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9898294/walter-v-csx-transportation-inc\",\"date_filed\":\"2022-05-09\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...State Industrial Code § 23-1.7(b) is a predicate for a Labor Law § 241(6) claim “but\\nit does not apply to every gap or opening,” Coleman v. Crumb Rubber Mfrs., 92 A.D.3d\\n1128, 1130 , 940 N.Y.S.2d 170 , 172 (3d Dep’t 2012). The...\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Coleman w/15 \"940 N.Y.S.2d 170\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 9898294,
+    "bluebook": "Walter v. CSX Transp., Inc., No. 1:19-cv-01583 (W.D.N.Y. May 9, 2022)",
+    "url": "https://syfert.com/federal/district/cases/cl-9898294/walter-v-csx-transportation-inc",
+    "date_filed": "2022-05-09",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...State Industrial Code § 23-1.7(b) is a predicate for a Labor Law § 241(6) claim “but\nit does not apply to every gap or opening,” Coleman v. Crumb Rubber Mfrs., 92 A.D.3d\n1128, 1130 , 940 N.Y.S.2d 170 , 172 (3d Dep’t 2012). The..."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Meade w/15 \"760 N.Y.S.2d 39\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Meade w/15 \\\"760 N.Y.S.2d 39\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1347844,\"bluebook\":\"Vasquez ex rel. Bautista v. GMD Shipyard Corp., 582 F.3d 293 (2d Cir. 2009)\",\"url\":\"https://syfert.com/federal/circuits/cases/582-f-3d-293/vasquez-ex-rel-bautista-v-gmd-shipyard-corp\",\"date_filed\":\"2009-09-15\",\"cited_by\":40,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Meade v. Rock-McGraw, Inc.,\\n307 A.D.2d 156, 159 , 760 N.Y.S.2d 39, 42 (1st Dep’t 2003) (“That the ladder was inadequately secured was due to plaintiffs improper use of it, which would not give rise to a Labor Law violation.”).\\nD.…\"},{\"cluster_id\":2313944,\"bluebook\":\"Fernandez v. CMB Contracting, 487 F. Supp. 2d 281 (E.D.N.Y. 2007)\",\"url\":\"https://syfert.com/federal/district/cases/487-f-supp-2d-281/fernandez-v-cmb-contracting\",\"date_filed\":\"2007-05-16\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...City, Inc.,\\n1 N.Y.3d 280, 284-85 , 771 N.Y.S.2d 484 , 803 N.E.2d 757 (2003);\\nMeade v. Rock-McGraw, Inc.,\\n307 A.D.2d 156, 159 , 760 N.Y.S.2d 39 (1st Dept.2003). “These prerequisites do not exist if adequate safety devices...\",\"passage_origin\":{\"case_name\":\"Robinson v. East Medical Center\",\"cluster_id\":2038141,\"year\":2006,\"quoted_by_cases\":2}},{\"cluster_id\":2372179,\"bluebook\":\"Wojcik v. 42nd Street Dev. Proj., Inc., 386 F. Supp. 2d 442 (S.D.N.Y. 2005)\",\"url\":\"https://syfert.com/federal/district/cases/386-f-supp-2d-442/wojcik-v-42nd-street-development-project-inc\",\"date_filed\":\"2005-08-26\",\"cited_by\":27,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Ambrozewicz,\\n12 A.D.3d 902 , 785 N.Y.S.2d 149 (3rd Dep’t 2004);\\nMeade v. Rock-McGraw, Inc.,\\n307 A.D.2d 156, 159 , 760 N.Y.S.2d 39 (1st Dep’t 2003). Once a plaintiff makes these two showings, the defendant is subject to absolute...\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Meade w/15 \"760 N.Y.S.2d 39\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1347844,
+    "bluebook": "Vasquez ex rel. Bautista v. GMD Shipyard Corp., 582 F.3d 293 (2d Cir. 2009)",
+    "url": "https://syfert.com/federal/circuits/cases/582-f-3d-293/vasquez-ex-rel-bautista-v-gmd-shipyard-corp",
+    "date_filed": "2009-09-15",
+    "cited_by": 40,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Meade v. Rock-McGraw, Inc.,\n307 A.D.2d 156, 159 , 760 N.Y.S.2d 39, 42 (1st Dep’t 2003) (“That the ladder was inadequately secured was due to plaintiffs improper use of it, which would not give rise to a Labor Law violation.”).\nD.…"
+   },
+   {
+    "cluster_id": 2313944,
+    "bluebook": "Fernandez v. CMB Contracting, 487 F. Supp. 2d 281 (E.D.N.Y. 2007)",
+    "url": "https://syfert.com/federal/district/cases/487-f-supp-2d-281/fernandez-v-cmb-contracting",
+    "date_filed": "2007-05-16",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...City, Inc.,\n1 N.Y.3d 280, 284-85 , 771 N.Y.S.2d 484 , 803 N.E.2d 757 (2003);\nMeade v. Rock-McGraw, Inc.,\n307 A.D.2d 156, 159 , 760 N.Y.S.2d 39 (1st Dept.2003). “These prerequisites do not exist if adequate safety devices...",
+    "passage_origin": {
+     "case_name": "Robinson v. East Medical Center",
+     "cluster_id": 2038141,
+     "year": 2006,
+     "quoted_by_cases": 2
+    }
+   },
+   {
+    "cluster_id": 2372179,
+    "bluebook": "Wojcik v. 42nd Street Dev. Proj., Inc., 386 F. Supp. 2d 442 (S.D.N.Y. 2005)",
+    "url": "https://syfert.com/federal/district/cases/386-f-supp-2d-442/wojcik-v-42nd-street-development-project-inc",
+    "date_filed": "2005-08-26",
+    "cited_by": 27,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Ambrozewicz,\n12 A.D.3d 902 , 785 N.Y.S.2d 149 (3rd Dep’t 2004);\nMeade v. Rock-McGraw, Inc.,\n307 A.D.2d 156, 159 , 760 N.Y.S.2d 39 (1st Dep’t 2003). Once a plaintiff makes these two showings, the defendant is subject to absolute..."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "889 N.Y.S.2d 793",
+  "expected_case_name": "Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"889 N.Y.S.2d 793\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5931794,\n            \"case_name\": \"Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp.\",\n            \"citations\": [\n                \"889 N.Y.S.2d 793\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2009-11-13\",\n            \"status\": \"Published\",\n            \"cited_by\": 57,\n            \"url\": \"https://syfert.com/new-york/cases/69-a-d-3d-212/destiny-usa-holdings-llc-v-citigroup-global-markets-realty-corp\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp., 889 N.Y.S.2d 793 (N.Y. App. Div. 4th Dep't 2009)\",\n            \"link_md\": \"[Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp., 889 N.Y.S.2d 793 (N.Y. App. Div. 4th Dep't 2009)](https://syfert.com/new-york/cases/69-a-d-3d-212/destiny-usa-holdings-llc-v-citigroup-global-markets-realty-corp)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 59,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"affirmed in part\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp.\",\n        \"actual\": \"Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "889 N.Y.S.2d 793",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5931794,
+    "case_name": "Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp.",
+    "citations": [
+     "889 N.Y.S.2d 793"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2009-11-13",
+    "status": "Published",
+    "cited_by": 57,
+    "url": "https://syfert.com/new-york/cases/69-a-d-3d-212/destiny-usa-holdings-llc-v-citigroup-global-markets-realty-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp., 889 N.Y.S.2d 793 (N.Y. App. Div. 4th Dep't 2009)",
+    "link_md": "[Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp., 889 N.Y.S.2d 793 (N.Y. App. Div. 4th Dep't 2009)](https://syfert.com/new-york/cases/69-a-d-3d-212/destiny-usa-holdings-llc-v-citigroup-global-markets-realty-corp)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 59,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp.",
+   "actual": "Destiny USA Holdings, LLC v. Citigroup Global Markets Realty Corp.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

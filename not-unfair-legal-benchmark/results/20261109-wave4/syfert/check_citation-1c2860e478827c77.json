@@ -1,0 +1,70 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "503 P.3d 1129",
+  "expected_case_name": "Havens v. Leong"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"503 P.3d 1129\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6444531,\n            \"case_name\": \"Havens v. Leong\",\n            \"citations\": [\n                \"503 P.3d 1129\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"503 P.3d 1128\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6443904,\n                        \"case_name\": \"Sackley v. Gorodezki\"\n                    }\n                }\n            ],\n            \"court\": \"Nevada Supreme Court\",\n            \"date_filed\": \"2022-02-22\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/nevada/cases/503-p-3d-1129/havens-v-leong\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"503 P.3d 1128\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/503%20P.3d\"\n                },\n                {\n                    \"citation\": \"503 P.3d 1129\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/503%20P.3d\"\n                }\n            ],\n            \"bluebook\": \"Havens v. Leong, 503 P.3d 1129 (Nev. 2022)\",\n            \"link_md\": \"[Havens v. Leong, 503 P.3d 1129 (Nev. 2022)](https://syfert.com/nevada/cases/503-p-3d-1129/havens-v-leong)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Havens v. Leong\",\n        \"actual\": \"Havens v. Leong\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "503 P.3d 1129",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6444531,
+    "case_name": "Havens v. Leong",
+    "citations": [
+     "503 P.3d 1129"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "503 P.3d 1128",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6443904,
+       "case_name": "Sackley v. Gorodezki"
+      }
+     }
+    ],
+    "court": "Nevada Supreme Court",
+    "date_filed": "2022-02-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/nevada/cases/503-p-3d-1129/havens-v-leong",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "503 P.3d 1128",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/503%20P.3d"
+     },
+     {
+      "citation": "503 P.3d 1129",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/503%20P.3d"
+     }
+    ],
+    "bluebook": "Havens v. Leong, 503 P.3d 1129 (Nev. 2022)",
+    "link_md": "[Havens v. Leong, 503 P.3d 1129 (Nev. 2022)](https://syfert.com/nevada/cases/503-p-3d-1129/havens-v-leong)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Havens v. Leong",
+   "actual": "Havens v. Leong",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

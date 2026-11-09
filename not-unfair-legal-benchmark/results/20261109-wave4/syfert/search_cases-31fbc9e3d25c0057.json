@@ -1,0 +1,390 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Farkas w/15 \"506 P.3d 323\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Farkas w/15 \\\"506 P.3d 323\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":442328,\"case_name\":\"Farkas, in Re\",\"citations\":[\"745 F.2d 50\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1984-09-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/745-f-2d-50/farkas-in-re\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Farkas, in Re, 745 F.2d 50 (4th Cir. 1984)\",\"link_md\":\"[Farkas, in Re, 745 F.2d 50 (4th Cir. 1984)](https://syfert.com/federal/circuits/cases/745-f-2d-50/farkas-in-re)\",\"match_kind\":\"semantic\",\"similarity\":0.7249},{\"cluster_id\":8452402,\"case_name\":\"Farkas v. United States\",\"citations\":[\"95 F. App'x 355\"],\"court\":\"Federal Circuit\",\"date_filed\":\"2004-04-13\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/95-f-appx-355/farkas-v-united-states\",\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_reporter\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 95 F. App'x 355).\",\"bluebook\":\"Farkas v. United States, 95 F. App'x 355 (Fed. Cir. 2004)\",\"link_md\":\"[Farkas v. United States, 95 F. App'x 355 (Fed. Cir. 2004)](https://syfert.com/federal/circuits/cases/95-f-appx-355/farkas-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7016},{\"cluster_id\":347915,\"case_name\":\"U. S. Ex Rel. Farkas v. Baer\",\"citations\":[\"559 F.2d 1210\"],\"court\":\"Third Circuit\",\"date_filed\":\"1977-06-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/559-f-2d-1210/u-s-ex-rel-farkas-v-baer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"U. S. ex rel. Farkas v. Baer, 559 F.2d 1210 (3d Cir. 1977)\",\"link_md\":\"[U. S. ex rel. Farkas v. Baer, 559 F.2d 1210 (3d Cir. 1977)](https://syfert.com/federal/circuits/cases/559-f-2d-1210/u-s-ex-rel-farkas-v-baer)\",\"match_kind\":\"semantic\",\"similarity\":0.6988},{\"cluster_id\":383188,\"case_name\":\"Farkas v. Thornburgh\",\"citations\":[\"633 F.2d 209\"],\"court\":\"Third Circuit\",\"date_filed\":\"1980-09-19\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/633-f-2d-209/farkas-v-thornburgh\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Farkas v. Thornburgh, 633 F.2d 209 (3d Cir. 1980)\",\"link_md\":\"[Farkas v. Thornburgh, 633 F.2d 209 (3d Cir. 1980)](https://syfert.com/federal/circuits/cases/633-f-2d-209/farkas-v-thornburgh)\",\"match_kind\":\"semantic\",\"similarity\":0.6675},{\"cluster_id\":387540,\"case_name\":\"Farkas v. Thornburgh\",\"citations\":[\"642 F.2d 441\"],\"court\":\"Third Circuit\",\"date_filed\":\"1981-02-17\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/642-f-2d-441/farkas-v-thornburgh\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Farkas v. Thornburgh, 642 F.2d 441 (3d Cir. 1981)\",\"link_md\":\"[Farkas v. Thornburgh, 642 F.2d 441 (3d Cir. 1981)](https://syfert.com/federal/circuits/cases/642-f-2d-441/farkas-v-thornburgh)\",\"match_kind\":\"semantic\",\"similarity\":0.6586},{\"cluster_id\":395980,\"case_name\":\"Werner-Continental, Inc. v. Farkas\",\"citations\":[\"661 F.2d 935\",\"108 L.R.R.M. (BNA) 2811\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1981-06-30\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/661-f-2d-935/werner-continental-inc-v-farkas\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Werner-Cont'l, Inc. v. Farkas, 661 F.2d 935 (6th Cir. 1981)\",\"link_md\":\"[Werner-Cont'l, Inc. v. Farkas, 661 F.2d 935 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-935/werner-continental-inc-v-farkas)\",\"match_kind\":\"semantic\",\"similarity\":0.6383},{\"cluster_id\":5541505,\"case_name\":\"Wolf v. Farkas\",\"citations\":[\"269 A.D. 981\",\"59 N.Y.S.2d 297\",\"1945 N.Y. App. Div. LEXIS 4880\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1945-11-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/269-a-d-981/wolf-v-farkas\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wolf v. Farkas, 269 A.D. 981 (N.Y. App. Div. 1st Dep't 1945)\",\"link_md\":\"[Wolf v. Farkas, 269 A.D. 981 (N.Y. App. Div. 1st Dep't 1945)](https://syfert.com/new-york/cases/269-a-d-981/wolf-v-farkas)\",\"match_kind\":\"semantic\",\"similarity\":0.6348},{\"cluster_id\":5455436,\"case_name\":\"Farkas v. Denier\",\"citations\":[\"219 A.D. 712\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1927-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/219-a-d-712/farkas-v-denier\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Farkas v. Denier, 219 A.D. 712 (N.Y. App. Div. 1927)\",\"link_md\":\"[Farkas v. Denier, 219 A.D. 712 (N.Y. App. Div. 1927)](https://syfert.com/new-york/cases/219-a-d-712/farkas-v-denier)\",\"match_kind\":\"semantic\",\"similarity\":0.6313},{\"cluster_id\":5639753,\"case_name\":\"Farkas v. Farkas\",\"citations\":[\"894 N.E.2d 1193\",\"11 N.Y.3d 759\",\"864 N.Y.S.2d 803\",\"2008 N.Y. LEXIS 2666\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2008-09-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/11-n-y-3d-759/farkas-v-farkas\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Farkas v. Farkas, 894 N.E.2d 1193 (N.Y. 2008)\",\"link_md\":\"[Farkas v. Farkas, 894 N.E.2d 1193 (N.Y. 2008)](https://syfert.com/new-york/cases/11-n-y-3d-759/farkas-v-farkas)\",\"match_kind\":\"semantic\",\"similarity\":0.6271},{\"cluster_id\":375050,\"case_name\":\"Faust v. Watkins\",\"citations\":[\"615 F.2d 1356\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1980-02-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/615-f-2d-1356/faust-v-watkins\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Faust v. Watkins, 615 F.2d 1356 (4th Cir. 1980)\",\"link_md\":\"[Faust v. Watkins, 615 F.2d 1356 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/615-f-2d-1356/faust-v-watkins)\",\"match_kind\":\"semantic\",\"similarity\":0.6207},{\"cluster_id\":4846619,\"case_name\":\"Farkash v. Five Star Travel Inc.\",\"citations\":[],\"court\":\"Second Circuit\",\"date_filed\":\"2021-01-11\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-4846619/farkash-v-five-star-travel-inc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Farkash v. Five Star Travel Inc., No. 19-3572-cv (2d Cir. Jan. 11, 2021)\",\"link_md\":\"[Farkash v. Five Star Travel Inc., No. 19-3572-cv (2d Cir. Jan. 11, 2021)](https://syfert.com/federal/circuits/cases/cl-4846619/farkash-v-five-star-travel-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6086},{\"cluster_id\":496889,\"case_name\":\"Hafko v. Walker\",\"citations\":[\"832 F.2d 1262\",\"1987 U.S. App. LEXIS 14438\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1987-10-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/832-f-2d-1262/hafko-v-walker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hafko v. Walker, 832 F.2d 1262 (5th Cir. 1987)\",\"link_md\":\"[Hafko v. Walker, 832 F.2d 1262 (5th Cir. 1987)](https://syfert.com/federal/circuits/cases/832-f-2d-1262/hafko-v-walker)\",\"match_kind\":\"semantic\",\"similarity\":0.6046},{\"cluster_id\":855785,\"case_name\":\"Janos Farkas v. JP Morgan Chase Bnk, Natl Assn, et\",\"citations\":[\"544 F. App'x 324\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"2013-03-20\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/544-f-appx-324/janos-farkas-v-jp-morgan-chase-bnk-natl-assn-et\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Janos Farkas v. JP Morgan Chase Bnk, 544 F. App'x 324 (5th Cir. 2013)\",\"link_md\":\"[Janos Farkas v. JP Morgan Chase Bnk, 544 F. App'x 324 (5th Cir. 2013)](https://syfert.com/federal/circuits/cases/544-f-appx-324/janos-farkas-v-jp-morgan-chase-bnk-natl-assn-et)\",\"match_kind\":\"semantic\",\"similarity\":0.6033},{\"cluster_id\":373134,\"case_name\":\"Fasick v. Hilton\",\"citations\":[\"612 F.2d 572\"],\"court\":\"Third Circuit\",\"date_filed\":\"1979-11-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/612-f-2d-572/fasick-v-hilton\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fasick v. Hilton, 612 F.2d 572 (3d Cir. 1979)\",\"link_md\":\"[Fasick v. Hilton, 612 F.2d 572 (3d Cir. 1979)](https://syfert.com/federal/circuits/cases/612-f-2d-572/fasick-v-hilton)\",\"match_kind\":\"semantic\",\"similarity\":0.6003},{\"cluster_id\":11022,\"case_name\":\"Csorba v. Varo, Inc\",\"citations\":[\"105 F.3d 652\",\"1996 WL 762730\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1996-12-16\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/105-f-3d-652/csorba-v-varo-inc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Csorba v. Varo, Inc, 105 F.3d 652 (5th Cir. 1996)\",\"link_md\":\"[Csorba v. Varo, Inc, 105 F.3d 652 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/105-f-3d-652/csorba-v-varo-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.5993},{\"cluster_id\":8319545,\"case_name\":\"Farkas v. Sadler\",\"citations\":[\"118 R.I. 938\"],\"court\":\"Supreme Court of Rhode Island\",\"date_filed\":\"1977-05-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/rhode-island/cases/118-r-i-938/farkas-v-sadler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Farkas v. Sadler, 118 R.I. 938 (1977)\",\"link_md\":\"[Farkas v. Sadler, 118 R.I. 938 (1977)](https://syfert.com/rhode-island/cases/118-r-i-938/farkas-v-sadler)\",\"match_kind\":\"semantic\",\"similarity\":0.5975},{\"cluster_id\":375428,\"case_name\":\"Baroco v. Araserv, Inc\",\"citations\":[\"616 F.2d 565\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1980-04-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/616-f-2d-565/baroco-v-araserv-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Baroco v. Araserv, Inc, 616 F.2d 565 (5th Cir. 1980)\",\"link_md\":\"[Baroco v. Araserv, Inc, 616 F.2d 565 (5th Cir. 1980)](https://syfert.com/federal/circuits/cases/616-f-2d-565/baroco-v-araserv-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.5941},{\"cluster_id\":5421426,\"case_name\":\"Geiger v. Farkas\",\"citations\":[\"193 A.D. 945\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1920-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/193-a-d-945/geiger-v-farkas\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Geiger v. Farkas, 193 A.D. 945 (N.Y. App. Div. 1920)\",\"link_md\":\"[Geiger v. Farkas, 193 A.D. 945 (N.Y. App. Div. 1920)](https://syfert.com/new-york/cases/193-a-d-945/geiger-v-farkas)\",\"match_kind\":\"semantic\",\"similarity\":0.591},{\"cluster_id\":10963846,\"case_name\":\"Janet Frisco v. Charleston County Court\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2026-08-31\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-10963846/janet-frisco-v-charleston-county-court\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Janet Frisco v. Charleston Cnty. Court, No. 26-1539 (4th Cir. Aug. 31, 2026)\",\"link_md\":\"[Janet Frisco v. Charleston Cnty. Court, No. 26-1539 (4th Cir. Aug. 31, 2026)](https://syfert.com/federal/circuits/cases/cl-10963846/janet-frisco-v-charleston-county-court)\",\"match_kind\":\"semantic\",\"similarity\":0.5894},{\"cluster_id\":5539153,\"case_name\":\"In re the Arbitration between Farkas & Winkler\",\"citations\":[\"268 A.D. 964\",\"1944 N.Y. App. Div. LEXIS 4421\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1944-12-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/268-a-d-964/in-re-the-arbitration-between-farkas-winkler\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re the Arbitration between Farkas & Winkler, 268 A.D. 964 (N.Y. App. Div. 1st Dep't 1944)\",\"link_md\":\"[In re the Arbitration between Farkas & Winkler, 268 A.D. 964 (N.Y. App. Div. 1st Dep't 1944)](https://syfert.com/new-york/cases/268-a-d-964/in-re-the-arbitration-between-farkas-winkler)\",\"match_kind\":\"semantic\",\"similarity\":0.5872}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Farkas w/15 \"506 P.3d 323\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 442328,
+    "case_name": "Farkas, in Re",
+    "citations": [
+     "745 F.2d 50"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1984-09-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/745-f-2d-50/farkas-in-re",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Farkas, in Re, 745 F.2d 50 (4th Cir. 1984)",
+    "link_md": "[Farkas, in Re, 745 F.2d 50 (4th Cir. 1984)](https://syfert.com/federal/circuits/cases/745-f-2d-50/farkas-in-re)",
+    "match_kind": "semantic",
+    "similarity": 0.7249
+   },
+   {
+    "cluster_id": 8452402,
+    "case_name": "Farkas v. United States",
+    "citations": [
+     "95 F. App'x 355"
+    ],
+    "court": "Federal Circuit",
+    "date_filed": "2004-04-13",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/95-f-appx-355/farkas-v-united-states",
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_reporter",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 95 F. App'x 355).",
+    "bluebook": "Farkas v. United States, 95 F. App'x 355 (Fed. Cir. 2004)",
+    "link_md": "[Farkas v. United States, 95 F. App'x 355 (Fed. Cir. 2004)](https://syfert.com/federal/circuits/cases/95-f-appx-355/farkas-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7016
+   },
+   {
+    "cluster_id": 347915,
+    "case_name": "U. S. Ex Rel. Farkas v. Baer",
+    "citations": [
+     "559 F.2d 1210"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1977-06-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/559-f-2d-1210/u-s-ex-rel-farkas-v-baer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "U. S. ex rel. Farkas v. Baer, 559 F.2d 1210 (3d Cir. 1977)",
+    "link_md": "[U. S. ex rel. Farkas v. Baer, 559 F.2d 1210 (3d Cir. 1977)](https://syfert.com/federal/circuits/cases/559-f-2d-1210/u-s-ex-rel-farkas-v-baer)",
+    "match_kind": "semantic",
+    "similarity": 0.6988
+   },
+   {
+    "cluster_id": 383188,
+    "case_name": "Farkas v. Thornburgh",
+    "citations": [
+     "633 F.2d 209"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1980-09-19",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/633-f-2d-209/farkas-v-thornburgh",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Farkas v. Thornburgh, 633 F.2d 209 (3d Cir. 1980)",
+    "link_md": "[Farkas v. Thornburgh, 633 F.2d 209 (3d Cir. 1980)](https://syfert.com/federal/circuits/cases/633-f-2d-209/farkas-v-thornburgh)",
+    "match_kind": "semantic",
+    "similarity": 0.6675
+   },
+   {
+    "cluster_id": 387540,
+    "case_name": "Farkas v. Thornburgh",
+    "citations": [
+     "642 F.2d 441"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1981-02-17",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/642-f-2d-441/farkas-v-thornburgh",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Farkas v. Thornburgh, 642 F.2d 441 (3d Cir. 1981)",
+    "link_md": "[Farkas v. Thornburgh, 642 F.2d 441 (3d Cir. 1981)](https://syfert.com/federal/circuits/cases/642-f-2d-441/farkas-v-thornburgh)",
+    "match_kind": "semantic",
+    "similarity": 0.6586
+   },
+   {
+    "cluster_id": 395980,
+    "case_name": "Werner-Continental, Inc. v. Farkas",
+    "citations": [
+     "661 F.2d 935",
+     "108 L.R.R.M. (BNA) 2811"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1981-06-30",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/661-f-2d-935/werner-continental-inc-v-farkas",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Werner-Cont'l, Inc. v. Farkas, 661 F.2d 935 (6th Cir. 1981)",
+    "link_md": "[Werner-Cont'l, Inc. v. Farkas, 661 F.2d 935 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-935/werner-continental-inc-v-farkas)",
+    "match_kind": "semantic",
+    "similarity": 0.6383
+   },
+   {
+    "cluster_id": 5541505,
+    "case_name": "Wolf v. Farkas",
+    "citations": [
+     "269 A.D. 981",
+     "59 N.Y.S.2d 297",
+     "1945 N.Y. App. Div. LEXIS 4880"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1945-11-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/269-a-d-981/wolf-v-farkas",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wolf v. Farkas, 269 A.D. 981 (N.Y. App. Div. 1st Dep't 1945)",
+    "link_md": "[Wolf v. Farkas, 269 A.D. 981 (N.Y. App. Div. 1st Dep't 1945)](https://syfert.com/new-york/cases/269-a-d-981/wolf-v-farkas)",
+    "match_kind": "semantic",
+    "similarity": 0.6348
+   },
+   {
+    "cluster_id": 5455436,
+    "case_name": "Farkas v. Denier",
+    "citations": [
+     "219 A.D. 712"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1927-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/219-a-d-712/farkas-v-denier",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Farkas v. Denier, 219 A.D. 712 (N.Y. App. Div. 1927)",
+    "link_md": "[Farkas v. Denier, 219 A.D. 712 (N.Y. App. Div. 1927)](https://syfert.com/new-york/cases/219-a-d-712/farkas-v-denier)",
+    "match_kind": "semantic",
+    "similarity": 0.6313
+   },
+   {
+    "cluster_id": 5639753,
+    "case_name": "Farkas v. Farkas",
+    "citations": [
+     "894 N.E.2d 1193",
+     "11 N.Y.3d 759",
+     "864 N.Y.S.2d 803",
+     "2008 N.Y. LEXIS 2666"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2008-09-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/11-n-y-3d-759/farkas-v-farkas",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Farkas v. Farkas, 894 N.E.2d 1193 (N.Y. 2008)",
+    "link_md": "[Farkas v. Farkas, 894 N.E.2d 1193 (N.Y. 2008)](https://syfert.com/new-york/cases/11-n-y-3d-759/farkas-v-farkas)",
+    "match_kind": "semantic",
+    "similarity": 0.6271
+   },
+   {
+    "cluster_id": 375050,
+    "case_name": "Faust v. Watkins",
+    "citations": [
+     "615 F.2d 1356"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1980-02-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/615-f-2d-1356/faust-v-watkins",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Faust v. Watkins, 615 F.2d 1356 (4th Cir. 1980)",
+    "link_md": "[Faust v. Watkins, 615 F.2d 1356 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/615-f-2d-1356/faust-v-watkins)",
+    "match_kind": "semantic",
+    "similarity": 0.6207
+   },
+   {
+    "cluster_id": 4846619,
+    "case_name": "Farkash v. Five Star Travel Inc.",
+    "citations": [],
+    "court": "Second Circuit",
+    "date_filed": "2021-01-11",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-4846619/farkash-v-five-star-travel-inc",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Farkash v. Five Star Travel Inc., No. 19-3572-cv (2d Cir. Jan. 11, 2021)",
+    "link_md": "[Farkash v. Five Star Travel Inc., No. 19-3572-cv (2d Cir. Jan. 11, 2021)](https://syfert.com/federal/circuits/cases/cl-4846619/farkash-v-five-star-travel-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6086
+   },
+   {
+    "cluster_id": 496889,
+    "case_name": "Hafko v. Walker",
+    "citations": [
+     "832 F.2d 1262",
+     "1987 U.S. App. LEXIS 14438"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1987-10-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/832-f-2d-1262/hafko-v-walker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hafko v. Walker, 832 F.2d 1262 (5th Cir. 1987)",
+    "link_md": "[Hafko v. Walker, 832 F.2d 1262 (5th Cir. 1987)](https://syfert.com/federal/circuits/cases/832-f-2d-1262/hafko-v-walker)",
+    "match_kind": "semantic",
+    "similarity": 0.6046
+   },
+   {
+    "cluster_id": 855785,
+    "case_name": "Janos Farkas v. JP Morgan Chase Bnk, Natl Assn, et",
+    "citations": [
+     "544 F. App'x 324"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "2013-03-20",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/544-f-appx-324/janos-farkas-v-jp-morgan-chase-bnk-natl-assn-et",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Janos Farkas v. JP Morgan Chase Bnk, 544 F. App'x 324 (5th Cir. 2013)",
+    "link_md": "[Janos Farkas v. JP Morgan Chase Bnk, 544 F. App'x 324 (5th Cir. 2013)](https://syfert.com/federal/circuits/cases/544-f-appx-324/janos-farkas-v-jp-morgan-chase-bnk-natl-assn-et)",
+    "match_kind": "semantic",
+    "similarity": 0.6033
+   },
+   {
+    "cluster_id": 373134,
+    "case_name": "Fasick v. Hilton",
+    "citations": [
+     "612 F.2d 572"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1979-11-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/612-f-2d-572/fasick-v-hilton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fasick v. Hilton, 612 F.2d 572 (3d Cir. 1979)",
+    "link_md": "[Fasick v. Hilton, 612 F.2d 572 (3d Cir. 1979)](https://syfert.com/federal/circuits/cases/612-f-2d-572/fasick-v-hilton)",
+    "match_kind": "semantic",
+    "similarity": 0.6003
+   },
+   {
+    "cluster_id": 11022,
+    "case_name": "Csorba v. Varo, Inc",
+    "citations": [
+     "105 F.3d 652",
+     "1996 WL 762730"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1996-12-16",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/105-f-3d-652/csorba-v-varo-inc",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Csorba v. Varo, Inc, 105 F.3d 652 (5th Cir. 1996)",
+    "link_md": "[Csorba v. Varo, Inc, 105 F.3d 652 (5th Cir. 1996)](https://syfert.com/federal/circuits/cases/105-f-3d-652/csorba-v-varo-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.5993
+   },
+   {
+    "cluster_id": 8319545,
+    "case_name": "Farkas v. Sadler",
+    "citations": [
+     "118 R.I. 938"
+    ],
+    "court": "Supreme Court of Rhode Island",
+    "date_filed": "1977-05-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/rhode-island/cases/118-r-i-938/farkas-v-sadler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Farkas v. Sadler, 118 R.I. 938 (1977)",
+    "link_md": "[Farkas v. Sadler, 118 R.I. 938 (1977)](https://syfert.com/rhode-island/cases/118-r-i-938/farkas-v-sadler)",
+    "match_kind": "semantic",
+    "similarity": 0.5975
+   },
+   {
+    "cluster_id": 375428,
+    "case_name": "Baroco v. Araserv, Inc",
+    "citations": [
+     "616 F.2d 565"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1980-04-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/616-f-2d-565/baroco-v-araserv-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Baroco v. Araserv, Inc, 616 F.2d 565 (5th Cir. 1980)",
+    "link_md": "[Baroco v. Araserv, Inc, 616 F.2d 565 (5th Cir. 1980)](https://syfert.com/federal/circuits/cases/616-f-2d-565/baroco-v-araserv-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.5941
+   },
+   {
+    "cluster_id": 5421426,
+    "case_name": "Geiger v. Farkas",
+    "citations": [
+     "193 A.D. 945"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1920-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/193-a-d-945/geiger-v-farkas",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Geiger v. Farkas, 193 A.D. 945 (N.Y. App. Div. 1920)",
+    "link_md": "[Geiger v. Farkas, 193 A.D. 945 (N.Y. App. Div. 1920)](https://syfert.com/new-york/cases/193-a-d-945/geiger-v-farkas)",
+    "match_kind": "semantic",
+    "similarity": 0.591
+   },
+   {
+    "cluster_id": 10963846,
+    "case_name": "Janet Frisco v. Charleston County Court",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2026-08-31",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-10963846/janet-frisco-v-charleston-county-court",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Janet Frisco v. Charleston Cnty. Court, No. 26-1539 (4th Cir. Aug. 31, 2026)",
+    "link_md": "[Janet Frisco v. Charleston Cnty. Court, No. 26-1539 (4th Cir. Aug. 31, 2026)](https://syfert.com/federal/circuits/cases/cl-10963846/janet-frisco-v-charleston-county-court)",
+    "match_kind": "semantic",
+    "similarity": 0.5894
+   },
+   {
+    "cluster_id": 5539153,
+    "case_name": "In re the Arbitration between Farkas & Winkler",
+    "citations": [
+     "268 A.D. 964",
+     "1944 N.Y. App. Div. LEXIS 4421"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1944-12-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/268-a-d-964/in-re-the-arbitration-between-farkas-winkler",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re the Arbitration between Farkas & Winkler, 268 A.D. 964 (N.Y. App. Div. 1st Dep't 1944)",
+    "link_md": "[In re the Arbitration between Farkas & Winkler, 268 A.D. 964 (N.Y. App. Div. 1st Dep't 1944)](https://syfert.com/new-york/cases/268-a-d-964/in-re-the-arbitration-between-farkas-winkler)",
+    "match_kind": "semantic",
+    "similarity": 0.5872
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

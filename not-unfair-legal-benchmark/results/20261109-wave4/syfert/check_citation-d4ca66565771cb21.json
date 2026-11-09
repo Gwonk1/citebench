@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "225 A.D.2d 1114",
+  "expected_case_name": "People v. Perkins"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"225 A.D.2d 1114\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6134476,\n            \"case_name\": \"People v. Perkins\",\n            \"citations\": [\n                \"225 A.D.2d 1114\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"1996-03-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 1,\n            \"url\": \"https://syfert.com/new-york/cases/225-a-d-2d-1114/people-v-perkins\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Perkins, 225 A.D.2d 1114 (N.Y. App. Div. 2d Dep't 1996)\",\n            \"link_md\": \"[People v. Perkins, 225 A.D.2d 1114 (N.Y. App. Div. 2d Dep't 1996)](https://syfert.com/new-york/cases/225-a-d-2d-1114/people-v-perkins)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Perkins\",\n        \"actual\": \"People v. Perkins\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "225 A.D.2d 1114",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6134476,
+    "case_name": "People v. Perkins",
+    "citations": [
+     "225 A.D.2d 1114"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1996-03-18",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/225-a-d-2d-1114/people-v-perkins",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Perkins, 225 A.D.2d 1114 (N.Y. App. Div. 2d Dep't 1996)",
+    "link_md": "[People v. Perkins, 225 A.D.2d 1114 (N.Y. App. Div. 2d Dep't 1996)](https://syfert.com/new-york/cases/225-a-d-2d-1114/people-v-perkins)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Perkins",
+   "actual": "People v. Perkins",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

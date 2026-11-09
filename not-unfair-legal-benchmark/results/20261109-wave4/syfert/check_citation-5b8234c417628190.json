@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "150 A.D.2d 993",
+  "expected_case_name": "Perales v. Bradford National Corp."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"150 A.D.2d 993\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6050488,\n            \"case_name\": \"Perales v. Bradford National Corp.\",\n            \"citations\": [\n                \"150 A.D.2d 993\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"1989-05-25\",\n            \"status\": \"Published\",\n            \"cited_by\": 7,\n            \"url\": \"https://syfert.com/new-york/cases/150-a-d-2d-993/perales-v-bradford-national-corp\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Perales v. Bradford Nat'l Corp., 150 A.D.2d 993 (N.Y. App. Div. 1st Dep't 1989)\",\n            \"link_md\": \"[Perales v. Bradford Nat'l Corp., 150 A.D.2d 993 (N.Y. App. Div. 1st Dep't 1989)](https://syfert.com/new-york/cases/150-a-d-2d-993/perales-v-bradford-national-corp)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Perales v. Bradford National Corp.\",\n        \"actual\": \"Perales v. Bradford National Corp.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "150 A.D.2d 993",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6050488,
+    "case_name": "Perales v. Bradford National Corp.",
+    "citations": [
+     "150 A.D.2d 993"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1989-05-25",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/new-york/cases/150-a-d-2d-993/perales-v-bradford-national-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Perales v. Bradford Nat'l Corp., 150 A.D.2d 993 (N.Y. App. Div. 1st Dep't 1989)",
+    "link_md": "[Perales v. Bradford Nat'l Corp., 150 A.D.2d 993 (N.Y. App. Div. 1st Dep't 1989)](https://syfert.com/new-york/cases/150-a-d-2d-993/perales-v-bradford-national-corp)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Perales v. Bradford National Corp.",
+   "actual": "Perales v. Bradford National Corp.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

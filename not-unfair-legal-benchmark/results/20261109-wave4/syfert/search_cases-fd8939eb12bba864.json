@@ -1,0 +1,410 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Asphalt w/15 \"219 N.W. 23\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Asphalt w/15 \\\"219 N.W. 23\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":9477291,\"case_name\":\"Lopez v. Brooklyn Union Gas Co.\",\"citations\":[\"2024 NY Slip Op 30507(U)\"],\"court\":\"New York Supreme Court, Kings County\",\"date_filed\":\"2024-02-15\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-9477291/lopez-v-brooklyn-union-gas-co\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lopez v. Brooklyn Union Gas Co., 2024 NY Slip Op 30507(U) (N.Y. Sup. Kings 2024)\",\"link_md\":\"[Lopez v. Brooklyn Union Gas Co., 2024 NY Slip Op 30507(U) (N.Y. Sup. Kings 2024)](https://syfert.com/new-york/cases/cl-9477291/lopez-v-brooklyn-union-gas-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6755},{\"cluster_id\":3633776,\"case_name\":\"Cities Service Asphalt Products Company v. Garcia\",\"citations\":[\"14 N.E.2d 200\",\"277 N.Y. 642\",\"1938 N.Y. LEXIS 1105\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1938-03-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/277-n-y-642/cities-service-asphalt-products-company-v-garcia\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cities Serv. Asphalt Prods. Co. v. Garcia, 14 N.E.2d 200 (N.Y. 1938)\",\"link_md\":\"[Cities Serv. Asphalt Prods. Co. v. Garcia, 14 N.E.2d 200 (N.Y. 1938)](https://syfert.com/new-york/cases/277-n-y-642/cities-service-asphalt-products-company-v-garcia)\",\"match_kind\":\"semantic\",\"similarity\":0.674},{\"cluster_id\":8598852,\"case_name\":\"Central Asphalt Paving Co. v. State Road Commission\",\"citations\":[\"7 Ct. Cl. 115\"],\"court\":\"West Virginia Court of Claims\",\"date_filed\":\"1968-07-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/west-virginia/cases/cl-8598852/central-asphalt-paving-co-v-state-road-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cent. Asphalt Paving Co. v. State Road Comm'n, 7 Ct. Cl. 115 (W. Va. Ct. Cl. 1968)\",\"link_md\":\"[Cent. Asphalt Paving Co. v. State Road Comm'n, 7 Ct. Cl. 115 (W. Va. Ct. Cl. 1968)](https://syfert.com/west-virginia/cases/cl-8598852/central-asphalt-paving-co-v-state-road-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.6672},{\"cluster_id\":2503060,\"case_name\":\"WEAVER'S ASPHALT & MAINTENANCE CO., INC. v. Williams\",\"citations\":[\"710 S.E.2d 709\",\"209 N.C. App. 757\",\"2011 N.C. App. LEXIS 441\"],\"court\":\"Court of Appeals of North Carolina\",\"date_filed\":\"2011-03-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/209-n-c-app-757/weavers-asphalt-maintenance-co-inc-v-williams\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Weaver's Asphalt & Maint. Co. v. Williams, 710 S.E.2d 709 (N.C. Ct. App. 2011)\",\"link_md\":\"[Weaver's Asphalt & Maint. Co. v. Williams, 710 S.E.2d 709 (N.C. Ct. App. 2011)](https://syfert.com/north-carolina/cases/209-n-c-app-757/weavers-asphalt-maintenance-co-inc-v-williams)\",\"match_kind\":\"semantic\",\"similarity\":0.6662},{\"cluster_id\":3610115,\"case_name\":\"Uvalde Asphalt Paving Company v. . City of New York\",\"citations\":[\"92 N.E. 1105\",\"198 N.Y. 548\",\"1910 N.Y. LEXIS 899\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1910-03-22\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/198-n-y-548/uvalde-asphalt-paving-company-v-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Uvalde Asphalt Paving Co. v. City of New York, 92 N.E. 1105 (N.Y. 1910)\",\"link_md\":\"[Uvalde Asphalt Paving Co. v. City of New York, 92 N.E. 1105 (N.Y. 1910)](https://syfert.com/new-york/cases/198-n-y-548/uvalde-asphalt-paving-company-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.658},{\"cluster_id\":7438032,\"case_name\":\"Asphalt Paving & Contracting Co. v. City of New York\",\"citations\":[\"152 N.Y.S. 1097\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1915-03-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/152-n-y-s-1097/asphalt-paving-contracting-co-v-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Asphalt Paving & Contracting Co. v. City of New York, 152 N.Y.S. 1097 (N.Y. App. Div. 1915)\",\"link_md\":\"[Asphalt Paving & Contracting Co. v. City of New York, 152 N.Y.S. 1097 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/152-n-y-s-1097/asphalt-paving-contracting-co-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6573},{\"cluster_id\":3635689,\"case_name\":\"The Barber Asphalt Paving Company v. . City of New York\",\"citations\":[\"105 N.E. 1089\",\"210 N.Y. 632\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1914-03-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/210-n-y-632/the-barber-asphalt-paving-company-v-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barber Asphalt Paving Co. v. City of New York, 105 N.E. 1089 (N.Y. 1914)\",\"link_md\":\"[Barber Asphalt Paving Co. v. City of New York, 105 N.E. 1089 (N.Y. 1914)](https://syfert.com/new-york/cases/210-n-y-632/the-barber-asphalt-paving-company-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6548},{\"cluster_id\":3624498,\"case_name\":\"The Asphalt Paving Contr. Co. v. . the City of New York\",\"citations\":[\"113 N.E. 1050\",\"218 N.Y. 686\",\"1916 N.Y. LEXIS 1188\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1916-05-30\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/218-n-y-686/the-asphalt-paving-contr-co-v-the-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Asphalt Paving Contr. Co. v. City of New York, 113 N.E. 1050 (N.Y. 1916)\",\"link_md\":\"[Asphalt Paving Contr. Co. v. City of New York, 113 N.E. 1050 (N.Y. 1916)](https://syfert.com/new-york/cases/218-n-y-686/the-asphalt-paving-contr-co-v-the-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6531},{\"cluster_id\":7623187,\"case_name\":\"Northwestern, Inc. v. Ward Land Clearing & Drainage, Inc.\",\"citations\":[\"500 So. 2d 615\",\"12 Fla. L. Weekly 52\",\"1986 Fla. App. LEXIS 10996\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"1986-12-23\",\"status\":\"Published\",\"cited_by\":3,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/florida/cases/500-so-2d-615/northwestern-inc-v-ward-land-clearing-drainage-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Nw., Inc. v. Ward Land Clearing & Drainage, Inc., 500 So. 2d 615 (Fla. 1st DCA 1986)\",\"link_md\":\"[Nw., Inc. v. Ward Land Clearing & Drainage, Inc., 500 So. 2d 615 (Fla. 1st DCA 1986)](https://syfert.com/florida/cases/500-so-2d-615/northwestern-inc-v-ward-land-clearing-drainage-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6514},{\"cluster_id\":8874482,\"case_name\":\"City of Denver v. Barber Asphalt Pav. Co.\",\"citations\":[\"83 F. 1020\",\"27 C.C.A. 677\",\"1897 U.S. App. LEXIS 2161\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1897-09-27\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/83-f-1020/city-of-denver-v-barber-asphalt-pav-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of Denver v. Barber Asphalt Pav. Co., 83 F. 1020 (8th Cir. 1897)\",\"link_md\":\"[City of Denver v. Barber Asphalt Pav. Co., 83 F. 1020 (8th Cir. 1897)](https://syfert.com/federal/circuits/cases/83-f-1020/city-of-denver-v-barber-asphalt-pav-co)\",\"match_kind\":\"semantic\",\"similarity\":0.651},{\"cluster_id\":3625371,\"case_name\":\"Asphalt Paving and Contr. Co. v. . the City of New York\",\"citations\":[\"104 N.E. 1140\",\"210 N.Y. 605\",\"1914 N.Y. LEXIS 1357\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1914-03-03\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/210-n-y-605/asphalt-paving-and-contr-co-v-the-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Asphalt Paving & Contr. Co. v. City of New York, 104 N.E. 1140 (N.Y. 1914)\",\"link_md\":\"[Asphalt Paving & Contr. Co. v. City of New York, 104 N.E. 1140 (N.Y. 1914)](https://syfert.com/new-york/cases/210-n-y-605/asphalt-paving-and-contr-co-v-the-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6505},{\"cluster_id\":7409104,\"case_name\":\"In re the Appeal By Earle Asphalt Co.\",\"citations\":[\"966 A.2d 460\",\"198 N.J. 143\",\"2009 N.J. LEXIS 1\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2009-01-15\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-jersey/cases/198-n-j-143/in-re-the-appeal-by-earle-asphalt-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re the Appeal By Earle Asphalt Co., 966 A.2d 460 (N.J. 2009)\",\"link_md\":\"[In re the Appeal By Earle Asphalt Co., 966 A.2d 460 (N.J. 2009)](https://syfert.com/new-jersey/cases/198-n-j-143/in-re-the-appeal-by-earle-asphalt-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6495},{\"cluster_id\":5395383,\"case_name\":\"Uvalde Asphalt Paving Co. v. City of New York\",\"citations\":[\"161 A.D. 924\",\"145 N.Y.S. 1127\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1914-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/161-a-d-924/uvalde-asphalt-paving-co-v-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Uvalde Asphalt Paving Co. v. City of New York, 161 A.D. 924 (N.Y. App. Div. 1914)\",\"link_md\":\"[Uvalde Asphalt Paving Co. v. City of New York, 161 A.D. 924 (N.Y. App. Div. 1914)](https://syfert.com/new-york/cases/161-a-d-924/uvalde-asphalt-paving-co-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.647},{\"cluster_id\":5566265,\"case_name\":\"Happel v. Blessing\",\"citations\":[\"37 Misc. 47\",\"74 N.Y.S. 801\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1902-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/37-misc-47/happel-v-blessing\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Happel v. Blessing, 37 Misc. 47 (N.Y. Sup. Ct. 1902)\",\"link_md\":\"[Happel v. Blessing, 37 Misc. 47 (N.Y. Sup. Ct. 1902)](https://syfert.com/new-york/cases/37-misc-47/happel-v-blessing)\",\"match_kind\":\"semantic\",\"similarity\":0.6446},{\"cluster_id\":8598850,\"case_name\":\"Central Asphalt Paving Co. v. State Road Commission\",\"citations\":[\"7 Ct. Cl. 112\"],\"court\":\"West Virginia Court of Claims\",\"date_filed\":\"1968-07-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/west-virginia/cases/cl-8598850/central-asphalt-paving-co-v-state-road-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cent. Asphalt Paving Co. v. State Road Comm'n, 7 Ct. Cl. 112 (W. Va. Ct. Cl. 1968)\",\"link_md\":\"[Cent. Asphalt Paving Co. v. State Road Comm'n, 7 Ct. Cl. 112 (W. Va. Ct. Cl. 1968)](https://syfert.com/west-virginia/cases/cl-8598850/central-asphalt-paving-co-v-state-road-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.6428},{\"cluster_id\":5411474,\"case_name\":\"Eastern Asphalt Paving Co. v. City of New York\",\"citations\":[\"181 A.D. 928\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1917-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/181-a-d-928/eastern-asphalt-paving-co-v-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"E. Asphalt Paving Co. v. City of New York, 181 A.D. 928 (N.Y. App. Div. 1917)\",\"link_md\":\"[E. Asphalt Paving Co. v. City of New York, 181 A.D. 928 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/181-a-d-928/eastern-asphalt-paving-co-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6424},{\"cluster_id\":3600918,\"case_name\":\"Brown v. . German Rock Asphalt Co.\",\"citations\":[\"140 N.E. 695\",\"236 N.Y. 271\",\"1923 N.Y. LEXIS 882\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1923-07-13\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/new-york/cases/236-n-y-271/brown-v-german-rock-asphalt-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Brown v. German Rock Asphalt Co., 140 N.E. 695 (N.Y. 1923)\",\"link_md\":\"[Brown v. German Rock Asphalt Co., 140 N.E. 695 (N.Y. 1923)](https://syfert.com/new-york/cases/236-n-y-271/brown-v-german-rock-asphalt-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6397},{\"cluster_id\":8600907,\"case_name\":\"Thabet v. Department of Highways\",\"citations\":[\"13 Ct. Cl. 203\"],\"court\":\"West Virginia Court of Claims\",\"date_filed\":\"1980-04-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/west-virginia/cases/cl-8600907/thabet-v-department-of-highways\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thabet v. Dep't of Highways, 13 Ct. Cl. 203 (W. Va. Ct. Cl. 1980)\",\"link_md\":\"[Thabet v. Dep't of Highways, 13 Ct. Cl. 203 (W. Va. Ct. Cl. 1980)](https://syfert.com/west-virginia/cases/cl-8600907/thabet-v-department-of-highways)\",\"match_kind\":\"semantic\",\"similarity\":0.6387},{\"cluster_id\":6271084,\"case_name\":\"Barber Asphalt Paving Co. v. Brand\",\"citations\":[\"62 N.Y. Sup. Ct. 606\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1889-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6271084/barber-asphalt-paving-co-v-brand\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Barber Asphalt Paving Co. v. Brand, 62 N.Y. Sup. Ct. 606 (N.Y. Sup. Ct. 1889)\",\"link_md\":\"[Barber Asphalt Paving Co. v. Brand, 62 N.Y. Sup. Ct. 606 (N.Y. Sup. Ct. 1889)](https://syfert.com/new-york/cases/cl-6271084/barber-asphalt-paving-co-v-brand)\",\"match_kind\":\"semantic\",\"similarity\":0.6377},{\"cluster_id\":2548035,\"case_name\":\"Hwy. 21 N. Covington, LLC v. French Market Supply, LLC\",\"citations\":[\"80 So. 3d 71\",\"2010 La.App. 1 Cir. 2217\",\"2011 La. App. Unpub. LEXIS 440\",\"2011 WL 7277438\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2011-07-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/80-so-3d-71/hwy-21-n-covington-llc-v-french-market-supply-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hwy. 21 N. Covington, LLC v. French Mkt. Supply, LLC, 80 So. 3d 71 (La. Ct. App. 2011)\",\"link_md\":\"[Hwy. 21 N. Covington, LLC v. French Mkt. Supply, LLC, 80 So. 3d 71 (La. Ct. App. 2011)](https://syfert.com/louisiana/cases/80-so-3d-71/hwy-21-n-covington-llc-v-french-market-supply-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.6377}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Asphalt w/15 \"219 N.W. 23\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 9477291,
+    "case_name": "Lopez v. Brooklyn Union Gas Co.",
+    "citations": [
+     "2024 NY Slip Op 30507(U)"
+    ],
+    "court": "New York Supreme Court, Kings County",
+    "date_filed": "2024-02-15",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-9477291/lopez-v-brooklyn-union-gas-co",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Lopez v. Brooklyn Union Gas Co., 2024 NY Slip Op 30507(U) (N.Y. Sup. Kings 2024)",
+    "link_md": "[Lopez v. Brooklyn Union Gas Co., 2024 NY Slip Op 30507(U) (N.Y. Sup. Kings 2024)](https://syfert.com/new-york/cases/cl-9477291/lopez-v-brooklyn-union-gas-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6755
+   },
+   {
+    "cluster_id": 3633776,
+    "case_name": "Cities Service Asphalt Products Company v. Garcia",
+    "citations": [
+     "14 N.E.2d 200",
+     "277 N.Y. 642",
+     "1938 N.Y. LEXIS 1105"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1938-03-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/277-n-y-642/cities-service-asphalt-products-company-v-garcia",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cities Serv. Asphalt Prods. Co. v. Garcia, 14 N.E.2d 200 (N.Y. 1938)",
+    "link_md": "[Cities Serv. Asphalt Prods. Co. v. Garcia, 14 N.E.2d 200 (N.Y. 1938)](https://syfert.com/new-york/cases/277-n-y-642/cities-service-asphalt-products-company-v-garcia)",
+    "match_kind": "semantic",
+    "similarity": 0.674
+   },
+   {
+    "cluster_id": 8598852,
+    "case_name": "Central Asphalt Paving Co. v. State Road Commission",
+    "citations": [
+     "7 Ct. Cl. 115"
+    ],
+    "court": "West Virginia Court of Claims",
+    "date_filed": "1968-07-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/west-virginia/cases/cl-8598852/central-asphalt-paving-co-v-state-road-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cent. Asphalt Paving Co. v. State Road Comm'n, 7 Ct. Cl. 115 (W. Va. Ct. Cl. 1968)",
+    "link_md": "[Cent. Asphalt Paving Co. v. State Road Comm'n, 7 Ct. Cl. 115 (W. Va. Ct. Cl. 1968)](https://syfert.com/west-virginia/cases/cl-8598852/central-asphalt-paving-co-v-state-road-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.6672
+   },
+   {
+    "cluster_id": 2503060,
+    "case_name": "WEAVER'S ASPHALT & MAINTENANCE CO., INC. v. Williams",
+    "citations": [
+     "710 S.E.2d 709",
+     "209 N.C. App. 757",
+     "2011 N.C. App. LEXIS 441"
+    ],
+    "court": "Court of Appeals of North Carolina",
+    "date_filed": "2011-03-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/209-n-c-app-757/weavers-asphalt-maintenance-co-inc-v-williams",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Weaver's Asphalt & Maint. Co. v. Williams, 710 S.E.2d 709 (N.C. Ct. App. 2011)",
+    "link_md": "[Weaver's Asphalt & Maint. Co. v. Williams, 710 S.E.2d 709 (N.C. Ct. App. 2011)](https://syfert.com/north-carolina/cases/209-n-c-app-757/weavers-asphalt-maintenance-co-inc-v-williams)",
+    "match_kind": "semantic",
+    "similarity": 0.6662
+   },
+   {
+    "cluster_id": 3610115,
+    "case_name": "Uvalde Asphalt Paving Company v. . City of New York",
+    "citations": [
+     "92 N.E. 1105",
+     "198 N.Y. 548",
+     "1910 N.Y. LEXIS 899"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1910-03-22",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/198-n-y-548/uvalde-asphalt-paving-company-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Uvalde Asphalt Paving Co. v. City of New York, 92 N.E. 1105 (N.Y. 1910)",
+    "link_md": "[Uvalde Asphalt Paving Co. v. City of New York, 92 N.E. 1105 (N.Y. 1910)](https://syfert.com/new-york/cases/198-n-y-548/uvalde-asphalt-paving-company-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.658
+   },
+   {
+    "cluster_id": 7438032,
+    "case_name": "Asphalt Paving & Contracting Co. v. City of New York",
+    "citations": [
+     "152 N.Y.S. 1097"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1915-03-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/152-n-y-s-1097/asphalt-paving-contracting-co-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Asphalt Paving & Contracting Co. v. City of New York, 152 N.Y.S. 1097 (N.Y. App. Div. 1915)",
+    "link_md": "[Asphalt Paving & Contracting Co. v. City of New York, 152 N.Y.S. 1097 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/152-n-y-s-1097/asphalt-paving-contracting-co-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6573
+   },
+   {
+    "cluster_id": 3635689,
+    "case_name": "The Barber Asphalt Paving Company v. . City of New York",
+    "citations": [
+     "105 N.E. 1089",
+     "210 N.Y. 632"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1914-03-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/210-n-y-632/the-barber-asphalt-paving-company-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barber Asphalt Paving Co. v. City of New York, 105 N.E. 1089 (N.Y. 1914)",
+    "link_md": "[Barber Asphalt Paving Co. v. City of New York, 105 N.E. 1089 (N.Y. 1914)](https://syfert.com/new-york/cases/210-n-y-632/the-barber-asphalt-paving-company-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6548
+   },
+   {
+    "cluster_id": 3624498,
+    "case_name": "The Asphalt Paving Contr. Co. v. . the City of New York",
+    "citations": [
+     "113 N.E. 1050",
+     "218 N.Y. 686",
+     "1916 N.Y. LEXIS 1188"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1916-05-30",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/218-n-y-686/the-asphalt-paving-contr-co-v-the-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Asphalt Paving Contr. Co. v. City of New York, 113 N.E. 1050 (N.Y. 1916)",
+    "link_md": "[Asphalt Paving Contr. Co. v. City of New York, 113 N.E. 1050 (N.Y. 1916)](https://syfert.com/new-york/cases/218-n-y-686/the-asphalt-paving-contr-co-v-the-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6531
+   },
+   {
+    "cluster_id": 7623187,
+    "case_name": "Northwestern, Inc. v. Ward Land Clearing & Drainage, Inc.",
+    "citations": [
+     "500 So. 2d 615",
+     "12 Fla. L. Weekly 52",
+     "1986 Fla. App. LEXIS 10996"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "1986-12-23",
+    "status": "Published",
+    "cited_by": 3,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/florida/cases/500-so-2d-615/northwestern-inc-v-ward-land-clearing-drainage-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Nw., Inc. v. Ward Land Clearing & Drainage, Inc., 500 So. 2d 615 (Fla. 1st DCA 1986)",
+    "link_md": "[Nw., Inc. v. Ward Land Clearing & Drainage, Inc., 500 So. 2d 615 (Fla. 1st DCA 1986)](https://syfert.com/florida/cases/500-so-2d-615/northwestern-inc-v-ward-land-clearing-drainage-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6514
+   },
+   {
+    "cluster_id": 8874482,
+    "case_name": "City of Denver v. Barber Asphalt Pav. Co.",
+    "citations": [
+     "83 F. 1020",
+     "27 C.C.A. 677",
+     "1897 U.S. App. LEXIS 2161"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1897-09-27",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/83-f-1020/city-of-denver-v-barber-asphalt-pav-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Denver v. Barber Asphalt Pav. Co., 83 F. 1020 (8th Cir. 1897)",
+    "link_md": "[City of Denver v. Barber Asphalt Pav. Co., 83 F. 1020 (8th Cir. 1897)](https://syfert.com/federal/circuits/cases/83-f-1020/city-of-denver-v-barber-asphalt-pav-co)",
+    "match_kind": "semantic",
+    "similarity": 0.651
+   },
+   {
+    "cluster_id": 3625371,
+    "case_name": "Asphalt Paving and Contr. Co. v. . the City of New York",
+    "citations": [
+     "104 N.E. 1140",
+     "210 N.Y. 605",
+     "1914 N.Y. LEXIS 1357"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1914-03-03",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/210-n-y-605/asphalt-paving-and-contr-co-v-the-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Asphalt Paving & Contr. Co. v. City of New York, 104 N.E. 1140 (N.Y. 1914)",
+    "link_md": "[Asphalt Paving & Contr. Co. v. City of New York, 104 N.E. 1140 (N.Y. 1914)](https://syfert.com/new-york/cases/210-n-y-605/asphalt-paving-and-contr-co-v-the-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6505
+   },
+   {
+    "cluster_id": 7409104,
+    "case_name": "In re the Appeal By Earle Asphalt Co.",
+    "citations": [
+     "966 A.2d 460",
+     "198 N.J. 143",
+     "2009 N.J. LEXIS 1"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2009-01-15",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-jersey/cases/198-n-j-143/in-re-the-appeal-by-earle-asphalt-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re the Appeal By Earle Asphalt Co., 966 A.2d 460 (N.J. 2009)",
+    "link_md": "[In re the Appeal By Earle Asphalt Co., 966 A.2d 460 (N.J. 2009)](https://syfert.com/new-jersey/cases/198-n-j-143/in-re-the-appeal-by-earle-asphalt-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6495
+   },
+   {
+    "cluster_id": 5395383,
+    "case_name": "Uvalde Asphalt Paving Co. v. City of New York",
+    "citations": [
+     "161 A.D. 924",
+     "145 N.Y.S. 1127"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1914-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/161-a-d-924/uvalde-asphalt-paving-co-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Uvalde Asphalt Paving Co. v. City of New York, 161 A.D. 924 (N.Y. App. Div. 1914)",
+    "link_md": "[Uvalde Asphalt Paving Co. v. City of New York, 161 A.D. 924 (N.Y. App. Div. 1914)](https://syfert.com/new-york/cases/161-a-d-924/uvalde-asphalt-paving-co-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.647
+   },
+   {
+    "cluster_id": 5566265,
+    "case_name": "Happel v. Blessing",
+    "citations": [
+     "37 Misc. 47",
+     "74 N.Y.S. 801"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1902-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/37-misc-47/happel-v-blessing",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Happel v. Blessing, 37 Misc. 47 (N.Y. Sup. Ct. 1902)",
+    "link_md": "[Happel v. Blessing, 37 Misc. 47 (N.Y. Sup. Ct. 1902)](https://syfert.com/new-york/cases/37-misc-47/happel-v-blessing)",
+    "match_kind": "semantic",
+    "similarity": 0.6446
+   },
+   {
+    "cluster_id": 8598850,
+    "case_name": "Central Asphalt Paving Co. v. State Road Commission",
+    "citations": [
+     "7 Ct. Cl. 112"
+    ],
+    "court": "West Virginia Court of Claims",
+    "date_filed": "1968-07-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/west-virginia/cases/cl-8598850/central-asphalt-paving-co-v-state-road-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cent. Asphalt Paving Co. v. State Road Comm'n, 7 Ct. Cl. 112 (W. Va. Ct. Cl. 1968)",
+    "link_md": "[Cent. Asphalt Paving Co. v. State Road Comm'n, 7 Ct. Cl. 112 (W. Va. Ct. Cl. 1968)](https://syfert.com/west-virginia/cases/cl-8598850/central-asphalt-paving-co-v-state-road-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.6428
+   },
+   {
+    "cluster_id": 5411474,
+    "case_name": "Eastern Asphalt Paving Co. v. City of New York",
+    "citations": [
+     "181 A.D. 928"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1917-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/181-a-d-928/eastern-asphalt-paving-co-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "E. Asphalt Paving Co. v. City of New York, 181 A.D. 928 (N.Y. App. Div. 1917)",
+    "link_md": "[E. Asphalt Paving Co. v. City of New York, 181 A.D. 928 (N.Y. App. Div. 1917)](https://syfert.com/new-york/cases/181-a-d-928/eastern-asphalt-paving-co-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6424
+   },
+   {
+    "cluster_id": 3600918,
+    "case_name": "Brown v. . German Rock Asphalt Co.",
+    "citations": [
+     "140 N.E. 695",
+     "236 N.Y. 271",
+     "1923 N.Y. LEXIS 882"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1923-07-13",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/new-york/cases/236-n-y-271/brown-v-german-rock-asphalt-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Brown v. German Rock Asphalt Co., 140 N.E. 695 (N.Y. 1923)",
+    "link_md": "[Brown v. German Rock Asphalt Co., 140 N.E. 695 (N.Y. 1923)](https://syfert.com/new-york/cases/236-n-y-271/brown-v-german-rock-asphalt-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6397
+   },
+   {
+    "cluster_id": 8600907,
+    "case_name": "Thabet v. Department of Highways",
+    "citations": [
+     "13 Ct. Cl. 203"
+    ],
+    "court": "West Virginia Court of Claims",
+    "date_filed": "1980-04-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/west-virginia/cases/cl-8600907/thabet-v-department-of-highways",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thabet v. Dep't of Highways, 13 Ct. Cl. 203 (W. Va. Ct. Cl. 1980)",
+    "link_md": "[Thabet v. Dep't of Highways, 13 Ct. Cl. 203 (W. Va. Ct. Cl. 1980)](https://syfert.com/west-virginia/cases/cl-8600907/thabet-v-department-of-highways)",
+    "match_kind": "semantic",
+    "similarity": 0.6387
+   },
+   {
+    "cluster_id": 6271084,
+    "case_name": "Barber Asphalt Paving Co. v. Brand",
+    "citations": [
+     "62 N.Y. Sup. Ct. 606"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1889-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6271084/barber-asphalt-paving-co-v-brand",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Barber Asphalt Paving Co. v. Brand, 62 N.Y. Sup. Ct. 606 (N.Y. Sup. Ct. 1889)",
+    "link_md": "[Barber Asphalt Paving Co. v. Brand, 62 N.Y. Sup. Ct. 606 (N.Y. Sup. Ct. 1889)](https://syfert.com/new-york/cases/cl-6271084/barber-asphalt-paving-co-v-brand)",
+    "match_kind": "semantic",
+    "similarity": 0.6377
+   },
+   {
+    "cluster_id": 2548035,
+    "case_name": "Hwy. 21 N. Covington, LLC v. French Market Supply, LLC",
+    "citations": [
+     "80 So. 3d 71",
+     "2010 La.App. 1 Cir. 2217",
+     "2011 La. App. Unpub. LEXIS 440",
+     "2011 WL 7277438"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2011-07-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/80-so-3d-71/hwy-21-n-covington-llc-v-french-market-supply-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hwy. 21 N. Covington, LLC v. French Mkt. Supply, LLC, 80 So. 3d 71 (La. Ct. App. 2011)",
+    "link_md": "[Hwy. 21 N. Covington, LLC v. French Mkt. Supply, LLC, 80 So. 3d 71 (La. Ct. App. 2011)](https://syfert.com/louisiana/cases/80-so-3d-71/hwy-21-n-covington-llc-v-french-market-supply-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.6377
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

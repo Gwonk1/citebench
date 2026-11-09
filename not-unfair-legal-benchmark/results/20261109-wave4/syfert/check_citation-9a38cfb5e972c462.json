@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "20 N.E. 556",
+  "expected_case_name": "Hussey v. . Coger"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"20 N.E. 556\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3618210,\n            \"case_name\": \"Hussey v. . Coger\",\n            \"citations\": [\n                \"20 N.E. 556\"\n            ],\n            \"court\": \"New York Court of Appeals\",\n            \"date_filed\": \"1889-03-05\",\n            \"status\": \"Published\",\n            \"cited_by\": 66,\n            \"url\": \"https://syfert.com/new-york/cases/112-n-y-614/hussey-v-coger\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Hussey v. Coger, 20 N.E. 556 (N.Y. 1889)\",\n            \"link_md\": \"[Hussey v. Coger, 20 N.E. 556 (N.Y. 1889)](https://syfert.com/new-york/cases/112-n-y-614/hussey-v-coger)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Hussey v. . Coger\",\n        \"actual\": \"Hussey v. . Coger\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "20 N.E. 556",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3618210,
+    "case_name": "Hussey v. . Coger",
+    "citations": [
+     "20 N.E. 556"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1889-03-05",
+    "status": "Published",
+    "cited_by": 66,
+    "url": "https://syfert.com/new-york/cases/112-n-y-614/hussey-v-coger",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Coger, 20 N.E. 556 (N.Y. 1889)",
+    "link_md": "[Hussey v. Coger, 20 N.E. 556 (N.Y. 1889)](https://syfert.com/new-york/cases/112-n-y-614/hussey-v-coger)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Hussey v. . Coger",
+   "actual": "Hussey v. . Coger",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

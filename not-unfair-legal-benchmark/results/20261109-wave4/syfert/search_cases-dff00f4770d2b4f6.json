@@ -1,0 +1,402 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Spencer w/15 \"196 NJ 346\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Spencer w/15 \\\"196 NJ 346\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2327634,\"case_name\":\"State v. Spencer\",\"citations\":[\"35 A.3d 682\",\"209 N.J. 96\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2012-01-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/209-n-j-96/state-v-spencer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Spencer, 35 A.3d 682 (N.J. 2012)\",\"link_md\":\"[State v. Spencer, 35 A.3d 682 (N.J. 2012)](https://syfert.com/new-jersey/cases/209-n-j-96/state-v-spencer)\",\"match_kind\":\"semantic\",\"similarity\":0.6963},{\"cluster_id\":1531024,\"case_name\":\"State v. Spence\",\"citations\":[\"117 A.2d 538\",\"19 N.J. 441\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"1955-10-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/19-n-j-441/state-v-spence\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Spence, 117 A.2d 538 (N.J. 1955)\",\"link_md\":\"[State v. Spence, 117 A.2d 538 (N.J. 1955)](https://syfert.com/new-jersey/cases/19-n-j-441/state-v-spence)\",\"match_kind\":\"semantic\",\"similarity\":0.6868},{\"cluster_id\":2324145,\"case_name\":\"State v. Spencer\",\"citations\":[\"27 A.3d 951\",\"208 N.J. 336\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2011-09-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/208-n-j-336/state-v-spencer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Spencer, 27 A.3d 951 (N.J. 2011)\",\"link_md\":\"[State v. Spencer, 27 A.3d 951 (N.J. 2011)](https://syfert.com/new-jersey/cases/208-n-j-336/state-v-spencer)\",\"match_kind\":\"semantic\",\"similarity\":0.6703},{\"cluster_id\":2085312,\"case_name\":\"State v. Spencer\",\"citations\":[\"973 A.2d 944\",\"199 N.J. 540\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2009-06-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/199-n-j-540/state-v-spencer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Spencer, 973 A.2d 944 (N.J. 2009)\",\"link_md\":\"[State v. Spencer, 973 A.2d 944 (N.J. 2009)](https://syfert.com/new-jersey/cases/199-n-j-540/state-v-spencer)\",\"match_kind\":\"semantic\",\"similarity\":0.662},{\"cluster_id\":2442509,\"case_name\":\"State v. Spencer\",\"citations\":[\"3 A.3d 1227\",\"203 N.J. 437\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2010-09-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/203-n-j-437/state-v-spencer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Spencer, 3 A.3d 1227 (N.J. 2010)\",\"link_md\":\"[State v. Spencer, 3 A.3d 1227 (N.J. 2010)](https://syfert.com/new-jersey/cases/203-n-j-437/state-v-spencer)\",\"match_kind\":\"semantic\",\"similarity\":0.658},{\"cluster_id\":1998899,\"case_name\":\"State v. Spencer\",\"citations\":[\"994 A.2d 1039\",\"202 N.J. 43\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2010-05-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/202-n-j-43/state-v-spencer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Spencer, 994 A.2d 1039 (N.J. 2010)\",\"link_md\":\"[State v. Spencer, 994 A.2d 1039 (N.J. 2010)](https://syfert.com/new-jersey/cases/202-n-j-43/state-v-spencer)\",\"match_kind\":\"semantic\",\"similarity\":0.6523},{\"cluster_id\":1942350,\"case_name\":\"State v. Spencer\",\"citations\":[\"944 A.2d 32\",\"194 N.J. 267\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2008-02-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/194-n-j-267/state-v-spencer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Spencer, 944 A.2d 32 (N.J. 2008)\",\"link_md\":\"[State v. Spencer, 944 A.2d 32 (N.J. 2008)](https://syfert.com/new-jersey/cases/194-n-j-267/state-v-spencer)\",\"match_kind\":\"semantic\",\"similarity\":0.6472},{\"cluster_id\":428131,\"case_name\":\"Spencer (James L.) v. Johnson (Perry)\",\"citations\":[\"722 F.2d 742\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1983-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/722-f-2d-742/spencer-james-l-v-johnson-perry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Spencer (James L.) v. Johnson (Perry), 722 F.2d 742 (6th Cir. 1983)\",\"link_md\":\"[Spencer (James L.) v. Johnson (Perry), 722 F.2d 742 (6th Cir. 1983)](https://syfert.com/federal/circuits/cases/722-f-2d-742/spencer-james-l-v-johnson-perry)\",\"match_kind\":\"semantic\",\"similarity\":0.6252},{\"cluster_id\":1518727,\"case_name\":\"State v. Speare\",\"citations\":[\"214 A.2d 28\",\"45 N.J. 589\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"1965-09-21\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/new-jersey/cases/45-n-j-589/state-v-speare\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Speare, 214 A.2d 28 (N.J. 1965)\",\"link_md\":\"[State v. Speare, 214 A.2d 28 (N.J. 1965)](https://syfert.com/new-jersey/cases/45-n-j-589/state-v-speare)\",\"match_kind\":\"semantic\",\"similarity\":0.6169},{\"cluster_id\":1563410,\"case_name\":\"Sebring v. Cospito\",\"citations\":[\"960 A.2d 745\",\"197 N.J. 13\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2008-11-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/197-n-j-13/sebring-v-cospito\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sebring v. Cospito, 960 A.2d 745 (N.J. 2008)\",\"link_md\":\"[Sebring v. Cospito, 960 A.2d 745 (N.J. 2008)](https://syfert.com/new-jersey/cases/197-n-j-13/sebring-v-cospito)\",\"match_kind\":\"semantic\",\"similarity\":0.6152},{\"cluster_id\":1471247,\"case_name\":\"In re Burroughs\",\"citations\":[\"310 A.2d 117\",\"125 N.J. Super. 221\"],\"court\":\"New Jersey Superior Court App Division\",\"date_filed\":\"1973-10-11\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/new-jersey/cases/125-n-j-super-221/in-re-burroughs\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Burroughs, 310 A.2d 117 (N.J. Super. Ct. App. Div. 1973)\",\"link_md\":\"[In re Burroughs, 310 A.2d 117 (N.J. Super. Ct. App. Div. 1973)](https://syfert.com/new-jersey/cases/125-n-j-super-221/in-re-burroughs)\",\"match_kind\":\"semantic\",\"similarity\":0.614},{\"cluster_id\":1958340,\"case_name\":\"Spiotta v. William H. Wilson, Inc.\",\"citations\":[\"181 A.2d 12\",\"37 N.J. 229\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"1962-05-14\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/new-jersey/cases/37-n-j-229/spiotta-v-william-h-wilson-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Spiotta v. William H. Wilson, Inc., 181 A.2d 12 (N.J. 1962)\",\"link_md\":\"[Spiotta v. William H. Wilson, Inc., 181 A.2d 12 (N.J. 1962)](https://syfert.com/new-jersey/cases/37-n-j-229/spiotta-v-william-h-wilson-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6095},{\"cluster_id\":367555,\"case_name\":\"Spencer v. Spencer\",\"citations\":[\"601 F.2d 582\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1979-06-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/601-f-2d-582/spencer-v-spencer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Spencer v. Spencer, 601 F.2d 582 (4th Cir. 1979)\",\"link_md\":\"[Spencer v. Spencer, 601 F.2d 582 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/601-f-2d-582/spencer-v-spencer)\",\"match_kind\":\"semantic\",\"similarity\":0.6045},{\"cluster_id\":2054403,\"case_name\":\"County of Sussex v. MERRILL LYNCH, PIERCE, FENNER & SMITH, INCORPORATED\",\"citations\":[\"796 A.2d 913\",\"351 N.J. Super. 1\",\"2002 N.J. Super. LEXIS 219\"],\"court\":\"New Jersey Superior Court App Division\",\"date_filed\":\"2002-05-07\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-jersey/cases/351-n-j-super-1/county-of-sussex-v-merrill-lynch-pierce-fenner-smith-incorporated\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cnty. of Sussex v. Merrill Lynch, Pierce, Fenner & Smith, Inc., 796 A.2d 913 (N.J. Super. Ct. App. Div. 2002)\",\"link_md\":\"[Cnty. of Sussex v. Merrill Lynch, Pierce, Fenner & Smith, Inc., 796 A.2d 913 (N.J. Super. Ct. App. Div. 2002)](https://syfert.com/new-jersey/cases/351-n-j-super-1/county-of-sussex-v-merrill-lynch-pierce-fenner-smith-incorporated)\",\"match_kind\":\"semantic\",\"similarity\":0.5992},{\"cluster_id\":2444741,\"case_name\":\"In re spencer/cape May County\",\"citations\":[\"3 A.3d 1228\",\"203 N.J. 437\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2010-09-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/203-n-j-437/in-re-spencercape-may-county\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re spencer/cape May Cnty., 3 A.3d 1228 (N.J. 2010)\",\"link_md\":\"[In re spencer/cape May Cnty., 3 A.3d 1228 (N.J. 2010)](https://syfert.com/new-jersey/cases/203-n-j-437/in-re-spencercape-may-county)\",\"match_kind\":\"semantic\",\"similarity\":0.5985},{\"cluster_id\":2197622,\"case_name\":\"Estate of Spencer v. Gavin\",\"citations\":[\"953 A.2d 764\",\"196 N.J. 346\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2008-07-15\",\"status\":\"Published\",\"cited_by\":8,\"url\":\"https://syfert.com/new-jersey/cases/196-n-j-346/estate-of-spencer-v-gavin\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Est. of Spencer v. Gavin, 953 A.2d 764 (N.J. 2008)\",\"link_md\":\"[Est. of Spencer v. Gavin, 953 A.2d 764 (N.J. 2008)](https://syfert.com/new-jersey/cases/196-n-j-346/estate-of-spencer-v-gavin)\",\"match_kind\":\"semantic\",\"similarity\":0.5981},{\"cluster_id\":404602,\"case_name\":\"Spence v. Johnson\",\"citations\":[\"679 F.2d 888\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-04-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/679-f-2d-888/spence-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Spence v. Johnson, 679 F.2d 888 (4th Cir. 1982)\",\"link_md\":\"[Spence v. Johnson, 679 F.2d 888 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/679-f-2d-888/spence-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.5964},{\"cluster_id\":274913,\"case_name\":\"Harvey J. Spencer v. United States\",\"citations\":[\"373 F.2d 529\",\"1967 U.S. App. LEXIS 7241\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1967-03-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/373-f-2d-529/harvey-j-spencer-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Harvey J. Spencer v. United States, 373 F.2d 529 (5th Cir. 1967)\",\"link_md\":\"[Harvey J. Spencer v. United States, 373 F.2d 529 (5th Cir. 1967)](https://syfert.com/federal/circuits/cases/373-f-2d-529/harvey-j-spencer-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.5926},{\"cluster_id\":2346183,\"case_name\":\"Cafone v. Spiniello Construction Co.\",\"citations\":[\"128 A.2d 753\",\"23 N.J. 258\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"1957-01-28\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-jersey/cases/23-n-j-258/cafone-v-spiniello-construction-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cafone v. Spiniello Constr. Co., 128 A.2d 753 (N.J. 1957)\",\"link_md\":\"[Cafone v. Spiniello Constr. Co., 128 A.2d 753 (N.J. 1957)](https://syfert.com/new-jersey/cases/23-n-j-258/cafone-v-spiniello-construction-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5921},{\"cluster_id\":2326378,\"case_name\":\"State v. SHEPPERSON\",\"citations\":[\"35 A.3d 681\",\"209 N.J. 96\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2012-01-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/209-n-j-96/state-v-shepperson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Shepperson, 35 A.3d 681 (N.J. 2012)\",\"link_md\":\"[State v. Shepperson, 35 A.3d 681 (N.J. 2012)](https://syfert.com/new-jersey/cases/209-n-j-96/state-v-shepperson)\",\"match_kind\":\"semantic\",\"similarity\":0.5917}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Spencer w/15 \"196 NJ 346\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2327634,
+    "case_name": "State v. Spencer",
+    "citations": [
+     "35 A.3d 682",
+     "209 N.J. 96"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2012-01-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/209-n-j-96/state-v-spencer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Spencer, 35 A.3d 682 (N.J. 2012)",
+    "link_md": "[State v. Spencer, 35 A.3d 682 (N.J. 2012)](https://syfert.com/new-jersey/cases/209-n-j-96/state-v-spencer)",
+    "match_kind": "semantic",
+    "similarity": 0.6963
+   },
+   {
+    "cluster_id": 1531024,
+    "case_name": "State v. Spence",
+    "citations": [
+     "117 A.2d 538",
+     "19 N.J. 441"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "1955-10-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/19-n-j-441/state-v-spence",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Spence, 117 A.2d 538 (N.J. 1955)",
+    "link_md": "[State v. Spence, 117 A.2d 538 (N.J. 1955)](https://syfert.com/new-jersey/cases/19-n-j-441/state-v-spence)",
+    "match_kind": "semantic",
+    "similarity": 0.6868
+   },
+   {
+    "cluster_id": 2324145,
+    "case_name": "State v. Spencer",
+    "citations": [
+     "27 A.3d 951",
+     "208 N.J. 336"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2011-09-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/208-n-j-336/state-v-spencer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Spencer, 27 A.3d 951 (N.J. 2011)",
+    "link_md": "[State v. Spencer, 27 A.3d 951 (N.J. 2011)](https://syfert.com/new-jersey/cases/208-n-j-336/state-v-spencer)",
+    "match_kind": "semantic",
+    "similarity": 0.6703
+   },
+   {
+    "cluster_id": 2085312,
+    "case_name": "State v. Spencer",
+    "citations": [
+     "973 A.2d 944",
+     "199 N.J. 540"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2009-06-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/199-n-j-540/state-v-spencer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Spencer, 973 A.2d 944 (N.J. 2009)",
+    "link_md": "[State v. Spencer, 973 A.2d 944 (N.J. 2009)](https://syfert.com/new-jersey/cases/199-n-j-540/state-v-spencer)",
+    "match_kind": "semantic",
+    "similarity": 0.662
+   },
+   {
+    "cluster_id": 2442509,
+    "case_name": "State v. Spencer",
+    "citations": [
+     "3 A.3d 1227",
+     "203 N.J. 437"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2010-09-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/203-n-j-437/state-v-spencer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Spencer, 3 A.3d 1227 (N.J. 2010)",
+    "link_md": "[State v. Spencer, 3 A.3d 1227 (N.J. 2010)](https://syfert.com/new-jersey/cases/203-n-j-437/state-v-spencer)",
+    "match_kind": "semantic",
+    "similarity": 0.658
+   },
+   {
+    "cluster_id": 1998899,
+    "case_name": "State v. Spencer",
+    "citations": [
+     "994 A.2d 1039",
+     "202 N.J. 43"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2010-05-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/202-n-j-43/state-v-spencer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Spencer, 994 A.2d 1039 (N.J. 2010)",
+    "link_md": "[State v. Spencer, 994 A.2d 1039 (N.J. 2010)](https://syfert.com/new-jersey/cases/202-n-j-43/state-v-spencer)",
+    "match_kind": "semantic",
+    "similarity": 0.6523
+   },
+   {
+    "cluster_id": 1942350,
+    "case_name": "State v. Spencer",
+    "citations": [
+     "944 A.2d 32",
+     "194 N.J. 267"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2008-02-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/194-n-j-267/state-v-spencer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Spencer, 944 A.2d 32 (N.J. 2008)",
+    "link_md": "[State v. Spencer, 944 A.2d 32 (N.J. 2008)](https://syfert.com/new-jersey/cases/194-n-j-267/state-v-spencer)",
+    "match_kind": "semantic",
+    "similarity": 0.6472
+   },
+   {
+    "cluster_id": 428131,
+    "case_name": "Spencer (James L.) v. Johnson (Perry)",
+    "citations": [
+     "722 F.2d 742"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1983-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/722-f-2d-742/spencer-james-l-v-johnson-perry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Spencer (James L.) v. Johnson (Perry), 722 F.2d 742 (6th Cir. 1983)",
+    "link_md": "[Spencer (James L.) v. Johnson (Perry), 722 F.2d 742 (6th Cir. 1983)](https://syfert.com/federal/circuits/cases/722-f-2d-742/spencer-james-l-v-johnson-perry)",
+    "match_kind": "semantic",
+    "similarity": 0.6252
+   },
+   {
+    "cluster_id": 1518727,
+    "case_name": "State v. Speare",
+    "citations": [
+     "214 A.2d 28",
+     "45 N.J. 589"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "1965-09-21",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/new-jersey/cases/45-n-j-589/state-v-speare",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Speare, 214 A.2d 28 (N.J. 1965)",
+    "link_md": "[State v. Speare, 214 A.2d 28 (N.J. 1965)](https://syfert.com/new-jersey/cases/45-n-j-589/state-v-speare)",
+    "match_kind": "semantic",
+    "similarity": 0.6169
+   },
+   {
+    "cluster_id": 1563410,
+    "case_name": "Sebring v. Cospito",
+    "citations": [
+     "960 A.2d 745",
+     "197 N.J. 13"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2008-11-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/197-n-j-13/sebring-v-cospito",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sebring v. Cospito, 960 A.2d 745 (N.J. 2008)",
+    "link_md": "[Sebring v. Cospito, 960 A.2d 745 (N.J. 2008)](https://syfert.com/new-jersey/cases/197-n-j-13/sebring-v-cospito)",
+    "match_kind": "semantic",
+    "similarity": 0.6152
+   },
+   {
+    "cluster_id": 1471247,
+    "case_name": "In re Burroughs",
+    "citations": [
+     "310 A.2d 117",
+     "125 N.J. Super. 221"
+    ],
+    "court": "New Jersey Superior Court App Division",
+    "date_filed": "1973-10-11",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/new-jersey/cases/125-n-j-super-221/in-re-burroughs",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Burroughs, 310 A.2d 117 (N.J. Super. Ct. App. Div. 1973)",
+    "link_md": "[In re Burroughs, 310 A.2d 117 (N.J. Super. Ct. App. Div. 1973)](https://syfert.com/new-jersey/cases/125-n-j-super-221/in-re-burroughs)",
+    "match_kind": "semantic",
+    "similarity": 0.614
+   },
+   {
+    "cluster_id": 1958340,
+    "case_name": "Spiotta v. William H. Wilson, Inc.",
+    "citations": [
+     "181 A.2d 12",
+     "37 N.J. 229"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "1962-05-14",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/new-jersey/cases/37-n-j-229/spiotta-v-william-h-wilson-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Spiotta v. William H. Wilson, Inc., 181 A.2d 12 (N.J. 1962)",
+    "link_md": "[Spiotta v. William H. Wilson, Inc., 181 A.2d 12 (N.J. 1962)](https://syfert.com/new-jersey/cases/37-n-j-229/spiotta-v-william-h-wilson-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6095
+   },
+   {
+    "cluster_id": 367555,
+    "case_name": "Spencer v. Spencer",
+    "citations": [
+     "601 F.2d 582"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1979-06-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/601-f-2d-582/spencer-v-spencer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Spencer v. Spencer, 601 F.2d 582 (4th Cir. 1979)",
+    "link_md": "[Spencer v. Spencer, 601 F.2d 582 (4th Cir. 1979)](https://syfert.com/federal/circuits/cases/601-f-2d-582/spencer-v-spencer)",
+    "match_kind": "semantic",
+    "similarity": 0.6045
+   },
+   {
+    "cluster_id": 2054403,
+    "case_name": "County of Sussex v. MERRILL LYNCH, PIERCE, FENNER & SMITH, INCORPORATED",
+    "citations": [
+     "796 A.2d 913",
+     "351 N.J. Super. 1",
+     "2002 N.J. Super. LEXIS 219"
+    ],
+    "court": "New Jersey Superior Court App Division",
+    "date_filed": "2002-05-07",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-jersey/cases/351-n-j-super-1/county-of-sussex-v-merrill-lynch-pierce-fenner-smith-incorporated",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cnty. of Sussex v. Merrill Lynch, Pierce, Fenner & Smith, Inc., 796 A.2d 913 (N.J. Super. Ct. App. Div. 2002)",
+    "link_md": "[Cnty. of Sussex v. Merrill Lynch, Pierce, Fenner & Smith, Inc., 796 A.2d 913 (N.J. Super. Ct. App. Div. 2002)](https://syfert.com/new-jersey/cases/351-n-j-super-1/county-of-sussex-v-merrill-lynch-pierce-fenner-smith-incorporated)",
+    "match_kind": "semantic",
+    "similarity": 0.5992
+   },
+   {
+    "cluster_id": 2444741,
+    "case_name": "In re spencer/cape May County",
+    "citations": [
+     "3 A.3d 1228",
+     "203 N.J. 437"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2010-09-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/203-n-j-437/in-re-spencercape-may-county",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re spencer/cape May Cnty., 3 A.3d 1228 (N.J. 2010)",
+    "link_md": "[In re spencer/cape May Cnty., 3 A.3d 1228 (N.J. 2010)](https://syfert.com/new-jersey/cases/203-n-j-437/in-re-spencercape-may-county)",
+    "match_kind": "semantic",
+    "similarity": 0.5985
+   },
+   {
+    "cluster_id": 2197622,
+    "case_name": "Estate of Spencer v. Gavin",
+    "citations": [
+     "953 A.2d 764",
+     "196 N.J. 346"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2008-07-15",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/new-jersey/cases/196-n-j-346/estate-of-spencer-v-gavin",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Est. of Spencer v. Gavin, 953 A.2d 764 (N.J. 2008)",
+    "link_md": "[Est. of Spencer v. Gavin, 953 A.2d 764 (N.J. 2008)](https://syfert.com/new-jersey/cases/196-n-j-346/estate-of-spencer-v-gavin)",
+    "match_kind": "semantic",
+    "similarity": 0.5981
+   },
+   {
+    "cluster_id": 404602,
+    "case_name": "Spence v. Johnson",
+    "citations": [
+     "679 F.2d 888"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-04-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/679-f-2d-888/spence-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Spence v. Johnson, 679 F.2d 888 (4th Cir. 1982)",
+    "link_md": "[Spence v. Johnson, 679 F.2d 888 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/679-f-2d-888/spence-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.5964
+   },
+   {
+    "cluster_id": 274913,
+    "case_name": "Harvey J. Spencer v. United States",
+    "citations": [
+     "373 F.2d 529",
+     "1967 U.S. App. LEXIS 7241"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1967-03-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/373-f-2d-529/harvey-j-spencer-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Harvey J. Spencer v. United States, 373 F.2d 529 (5th Cir. 1967)",
+    "link_md": "[Harvey J. Spencer v. United States, 373 F.2d 529 (5th Cir. 1967)](https://syfert.com/federal/circuits/cases/373-f-2d-529/harvey-j-spencer-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.5926
+   },
+   {
+    "cluster_id": 2346183,
+    "case_name": "Cafone v. Spiniello Construction Co.",
+    "citations": [
+     "128 A.2d 753",
+     "23 N.J. 258"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "1957-01-28",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-jersey/cases/23-n-j-258/cafone-v-spiniello-construction-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cafone v. Spiniello Constr. Co., 128 A.2d 753 (N.J. 1957)",
+    "link_md": "[Cafone v. Spiniello Constr. Co., 128 A.2d 753 (N.J. 1957)](https://syfert.com/new-jersey/cases/23-n-j-258/cafone-v-spiniello-construction-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5921
+   },
+   {
+    "cluster_id": 2326378,
+    "case_name": "State v. SHEPPERSON",
+    "citations": [
+     "35 A.3d 681",
+     "209 N.J. 96"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2012-01-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/209-n-j-96/state-v-shepperson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Shepperson, 35 A.3d 681 (N.J. 2012)",
+    "link_md": "[State v. Shepperson, 35 A.3d 681 (N.J. 2012)](https://syfert.com/new-jersey/cases/209-n-j-96/state-v-shepperson)",
+    "match_kind": "semantic",
+    "similarity": 0.5917
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

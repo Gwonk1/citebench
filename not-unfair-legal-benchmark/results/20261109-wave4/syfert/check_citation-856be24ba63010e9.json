@@ -1,0 +1,120 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "341 So. 3d 343",
+  "expected_case_name": "MARTIN E. O'BOYLE v. TOWN OF GULF STREAM"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"341 So. 3d 343\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6473617,\n            \"case_name\": \"Martin E. O'Boyle v. Town of Gulf Stream\",\n            \"citations\": [\n                \"341 So. 3d 343\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"341 So. 3d 335\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6473614,\n                        \"case_name\": \"Stopdirtygovernment, LLC v. Town of Gulf Stream\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2022-06-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/341-so-3d-343/martin-e-oboyle-v-town-of-gulf-stream\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"341 So. 3d 335\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/341%20So.3d\"\n                },\n                {\n                    \"citation\": \"341 So. 3d 343\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/341%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Martin E. O'boyle v. Town of Gulf Stream, 341 So. 3d 343 (Fla. 4th DCA 2022)\",\n            \"link_md\": \"[Martin E. O'boyle v. Town of Gulf Stream, 341 So. 3d 343 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/341-so-3d-343/martin-e-oboyle-v-town-of-gulf-stream)\",\n            \"case_name_raw\": \"MARTIN E. O'BOYLE v. TOWN OF GULF STREAM\"\n        },\n        {\n            \"cluster_id\": 6473618,\n            \"case_name\": \"Martin E. O'Boyle v. Town of Gulf Stream\",\n            \"citations\": [\n                \"341 So. 3d 343\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"341 So. 3d 335\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 6473614,\n                        \"case_name\": \"Stopdirtygovernment, LLC v. Town of Gulf Stream\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2022-06-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/341-so-3d-335/martin-e-oboyle-v-town-of-gulf-stream\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"341 So. 3d 335\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/341%20So.3d\"\n                },\n                {\n                    \"citation\": \"341 So. 3d 343\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/341%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Martin E. O'boyle v. Town of Gulf Stream, 341 So. 3d 343 (Fla. 4th DCA 2022)\",\n            \"link_md\": \"[Martin E. O'boyle v. Town of Gulf Stream, 341 So. 3d 343 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/341-so-3d-335/martin-e-oboyle-v-town-of-gulf-stream)\",\n            \"case_name_raw\": \"MARTIN E. O'BOYLE v. TOWN OF GULF STREAM\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"MARTIN E. O'BOYLE v. TOWN OF GULF STREAM\",\n        \"actual\": \"MARTIN E. O'BOYLE v. TOWN OF GULF STREAM\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "341 So. 3d 343",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6473617,
+    "case_name": "Martin E. O'Boyle v. Town of Gulf Stream",
+    "citations": [
+     "341 So. 3d 343"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "341 So. 3d 335",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6473614,
+       "case_name": "Stopdirtygovernment, LLC v. Town of Gulf Stream"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2022-06-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/341-so-3d-343/martin-e-oboyle-v-town-of-gulf-stream",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "341 So. 3d 335",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/341%20So.3d"
+     },
+     {
+      "citation": "341 So. 3d 343",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/341%20So.3d"
+     }
+    ],
+    "bluebook": "Martin E. O'boyle v. Town of Gulf Stream, 341 So. 3d 343 (Fla. 4th DCA 2022)",
+    "link_md": "[Martin E. O'boyle v. Town of Gulf Stream, 341 So. 3d 343 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/341-so-3d-343/martin-e-oboyle-v-town-of-gulf-stream)",
+    "case_name_raw": "MARTIN E. O'BOYLE v. TOWN OF GULF STREAM"
+   },
+   {
+    "cluster_id": 6473618,
+    "case_name": "Martin E. O'Boyle v. Town of Gulf Stream",
+    "citations": [
+     "341 So. 3d 343"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "341 So. 3d 335",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 6473614,
+       "case_name": "Stopdirtygovernment, LLC v. Town of Gulf Stream"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2022-06-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/341-so-3d-335/martin-e-oboyle-v-town-of-gulf-stream",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "341 So. 3d 335",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/341%20So.3d"
+     },
+     {
+      "citation": "341 So. 3d 343",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/341%20So.3d"
+     }
+    ],
+    "bluebook": "Martin E. O'boyle v. Town of Gulf Stream, 341 So. 3d 343 (Fla. 4th DCA 2022)",
+    "link_md": "[Martin E. O'boyle v. Town of Gulf Stream, 341 So. 3d 343 (Fla. 4th DCA 2022)](https://syfert.com/florida/cases/341-so-3d-335/martin-e-oboyle-v-town-of-gulf-stream)",
+    "case_name_raw": "MARTIN E. O'BOYLE v. TOWN OF GULF STREAM"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "MARTIN E. O'BOYLE v. TOWN OF GULF STREAM",
+   "actual": "MARTIN E. O'BOYLE v. TOWN OF GULF STREAM",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

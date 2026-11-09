@@ -1,0 +1,410 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "York w/15 \"892 NYS2d 110\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"York w/15 \\\"892 NYS2d 110\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10341142,\"case_name\":\"Shrader-Miller v. Miller\",\"citations\":[],\"court\":\"Maine Superior\",\"date_filed\":\"2003-07-15\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/maine/cases/cl-10341142/shrader-miller-v-miller\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Shrader-Miller v. Miller, No. YORre-03-044 (Me. Super. Ct July 15, 2003)\",\"link_md\":\"[Shrader-Miller v. Miller, No. YORre-03-044 (Me. Super. Ct July 15, 2003)](https://syfert.com/maine/cases/cl-10341142/shrader-miller-v-miller)\",\"match_kind\":\"semantic\",\"similarity\":0.7003},{\"cluster_id\":6462238,\"case_name\":\"Matter of Schunk v. Town of York\",\"citations\":[\"204 A.D.3d 1480\",\"2022 NY Slip Op 02744\",\"165 N.Y.S.3d 428\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2022-04-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/204-a-d-3d-1480/matter-of-schunk-v-town-of-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Schunk v. Town of York, 204 A.D.3d 1480 (N.Y. App. Div. 4th Dep't 2022)\",\"link_md\":\"[Matter of Schunk v. Town of York, 204 A.D.3d 1480 (N.Y. App. Div. 4th Dep't 2022)](https://syfert.com/new-york/cases/204-a-d-3d-1480/matter-of-schunk-v-town-of-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6966},{\"cluster_id\":476407,\"case_name\":\"City of Yonkers, in Re\",\"citations\":[\"801 F.2d 391\",\"1986 U.S. App. LEXIS 30825\"],\"court\":\"Second Circuit\",\"date_filed\":\"1986-08-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/801-f-2d-391/city-of-yonkers-in-re\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of Yonkers, in Re, 801 F.2d 391 (2d Cir. 1986)\",\"link_md\":\"[City of Yonkers, in Re, 801 F.2d 391 (2d Cir. 1986)](https://syfert.com/federal/circuits/cases/801-f-2d-391/city-of-yonkers-in-re)\",\"match_kind\":\"semantic\",\"similarity\":0.6853},{\"cluster_id\":597925,\"case_name\":\"Bourque v. City of Yonkers\",\"citations\":[\"983 F.2d 1047\",\"1992 U.S. App. LEXIS 33162\",\"1992 WL 370446\"],\"court\":\"Second Circuit\",\"date_filed\":\"1992-11-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/983-f-2d-1047/bourque-v-city-of-yonkers\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bourque v. City of Yonkers, 983 F.2d 1047 (2d Cir. 1992)\",\"link_md\":\"[Bourque v. City of Yonkers, 983 F.2d 1047 (2d Cir. 1992)](https://syfert.com/federal/circuits/cases/983-f-2d-1047/bourque-v-city-of-yonkers)\",\"match_kind\":\"semantic\",\"similarity\":0.6821},{\"cluster_id\":712912,\"case_name\":\"Frances Steiner v. Michael Dowling\",\"citations\":[\"76 F.3d 498\"],\"court\":\"Second Circuit\",\"date_filed\":\"1996-02-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/76-f-3d-498/51-socsecrepser-139a-frances-steiner-on-behalf-of-herself-and-all\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Frances Steiner v. Michael Dowling, 76 F.3d 498 (2d Cir. 1996)\",\"link_md\":\"[Frances Steiner v. Michael Dowling, 76 F.3d 498 (2d Cir. 1996)](https://syfert.com/federal/circuits/cases/76-f-3d-498/51-socsecrepser-139a-frances-steiner-on-behalf-of-herself-and-all)\",\"match_kind\":\"semantic\",\"similarity\":0.6736},{\"cluster_id\":2370829,\"case_name\":\"WEST 914, INC. v. City of York\",\"citations\":[\"965 A.2d 246\",\"600 Pa. 752\",\"2009 Pa. LEXIS 267\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2009-02-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/600-pa-752/west-914-inc-v-city-of-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"WEST 914, INC. v. City of York, 965 A.2d 246 (Pa. 2009)\",\"link_md\":\"[WEST 914, INC. v. City of York, 965 A.2d 246 (Pa. 2009)](https://syfert.com/pennsylvania/cases/600-pa-752/west-914-inc-v-city-of-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6683},{\"cluster_id\":5642912,\"case_name\":\"York v. York\",\"citations\":[\"4 N.E.3d 370\",\"22 N.Y.3d 1051\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2014-01-14\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/22-n-y-3d-1051/york-v-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"York v. York, 4 N.E.3d 370 (N.Y. 2014)\",\"link_md\":\"[York v. York, 4 N.E.3d 370 (N.Y. 2014)](https://syfert.com/new-york/cases/22-n-y-3d-1051/york-v-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6676},{\"cluster_id\":5641016,\"case_name\":\"61 West 62 Owners Corp. v. CGM EMP LLC\",\"citations\":[\"946 N.E.2d 172\",\"16 N.Y.3d 822\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2011-03-31\",\"status\":\"Published\",\"cited_by\":24,\"url\":\"https://syfert.com/new-york/cases/16-n-y-3d-822/61-west-62-owners-corp-v-cgm-emp-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"61 West 62 Owners Corp. v. CGM EMP LLC, 946 N.E.2d 172 (N.Y. 2011)\",\"link_md\":\"[61 West 62 Owners Corp. v. CGM EMP LLC, 946 N.E.2d 172 (N.Y. 2011)](https://syfert.com/new-york/cases/16-n-y-3d-822/61-west-62-owners-corp-v-cgm-emp-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.6616},{\"cluster_id\":1563115,\"case_name\":\"City of York v. Kopp\",\"citations\":[\"960 A.2d 968\",\"2008 WL 5197495\"],\"court\":\"Commonwealth Court of Pennsylvania\",\"date_filed\":\"2008-10-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/960-a-2d-968/city-of-york-v-kopp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of York v. Kopp, 960 A.2d 968 (Pa. Commw. Ct. 2008)\",\"link_md\":\"[City of York v. Kopp, 960 A.2d 968 (Pa. Commw. Ct. 2008)](https://syfert.com/pennsylvania/cases/960-a-2d-968/city-of-york-v-kopp)\",\"match_kind\":\"semantic\",\"similarity\":0.6573},{\"cluster_id\":9361973,\"case_name\":\"Stahl York Ave. Co. v. City of N.Y.\",\"citations\":[\"140 S. Ct. 117\",\"205 L. Ed. 2d 32\"],\"court\":\"Supreme Court\",\"date_filed\":\"2019-10-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/140-s-ct-117/stahl-york-ave-co-v-city-of-ny\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stahl York Ave. Co. v. City of N.Y., 140 S. Ct. 117 (2019)\",\"link_md\":\"[Stahl York Ave. Co. v. City of N.Y., 140 S. Ct. 117 (2019)](https://syfert.com/federal/scotus/cases/140-s-ct-117/stahl-york-ave-co-v-city-of-ny)\",\"match_kind\":\"semantic\",\"similarity\":0.6548},{\"cluster_id\":9104926,\"case_name\":\"City of Yonkers v. United States\",\"citations\":[\"498 U.S. 1064\",\"111 S. Ct. 778\"],\"court\":\"Supreme Court\",\"date_filed\":\"1991-01-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/498-u-s-1064/city-of-yonkers-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (9104926 and its twin 9104925). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of Yonkers v. United States, 498 U.S. 1064 (1991)\",\"link_md\":\"[City of Yonkers v. United States, 498 U.S. 1064 (1991)](https://syfert.com/federal/scotus/cases/498-u-s-1064/city-of-yonkers-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6514,\"twin_clusters\":[9104925]},{\"cluster_id\":437056,\"case_name\":\"York v. Mass. Indem\",\"citations\":[\"735 F.2d 1377\",\"1984 U.S. App. LEXIS 21738\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1984-06-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/735-f-2d-1377/york-v-mass-indem\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"York v. Mass. Indem, 735 F.2d 1377 (11th Cir. 1984)\",\"link_md\":\"[York v. Mass. Indem, 735 F.2d 1377 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/735-f-2d-1377/york-v-mass-indem)\",\"match_kind\":\"semantic\",\"similarity\":0.6506},{\"cluster_id\":5534905,\"case_name\":\"W. A. Brockhurst Co. v. City of Yonkers\",\"citations\":[\"266 A.D. 778\",\"42 N.Y.S.2d 930\",\"1943 N.Y. App. Div. LEXIS 4448\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1943-05-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/266-a-d-778/w-a-brockhurst-co-v-city-of-yonkers\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. A. Brockhurst Co. v. City of Yonkers, 266 A.D. 778 (N.Y. App. Div. 2d Dep't 1943)\",\"link_md\":\"[W. A. Brockhurst Co. v. City of Yonkers, 266 A.D. 778 (N.Y. App. Div. 2d Dep't 1943)](https://syfert.com/new-york/cases/266-a-d-778/w-a-brockhurst-co-v-city-of-yonkers)\",\"match_kind\":\"semantic\",\"similarity\":0.6505},{\"cluster_id\":5646522,\"case_name\":\"People York ex rel. Grafton v. Sposato\",\"citations\":[\"28 N.Y.3d 1167\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2017-02-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/28-n-y-3d-1167/people-york-ex-rel-grafton-v-sposato\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People York ex rel. Grafton v. Sposato, 28 N.Y.3d 1167 (2017)\",\"link_md\":\"[People York ex rel. Grafton v. Sposato, 28 N.Y.3d 1167 (2017)](https://syfert.com/new-york/cases/28-n-y-3d-1167/people-york-ex-rel-grafton-v-sposato)\",\"match_kind\":\"semantic\",\"similarity\":0.6497},{\"cluster_id\":1563827,\"case_name\":\"City of York v. Stough\",\"citations\":[\"960 A.2d 967\",\"2008 WL 5197484\"],\"court\":\"Commonwealth Court of Pennsylvania\",\"date_filed\":\"2008-10-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/960-a-2d-967/city-of-york-v-stough\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"City of York v. Stough, 960 A.2d 967 (Pa. Commw. Ct. 2008)\",\"link_md\":\"[City of York v. Stough, 960 A.2d 967 (Pa. Commw. Ct. 2008)](https://syfert.com/pennsylvania/cases/960-a-2d-967/city-of-york-v-stough)\",\"match_kind\":\"semantic\",\"similarity\":0.6494},{\"cluster_id\":2583656,\"case_name\":\"Yonkers Contracting Co. v. State\",\"citations\":[\"541 N.E.2d 413\",\"74 N.Y.2d 682\",\"543 N.Y.S.2d 384\",\"1989 N.Y. LEXIS 683\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1989-06-01\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/74-n-y-2d-682/yonkers-contracting-co-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Yonkers Contracting Co. v. State, 541 N.E.2d 413 (N.Y. 1989)\",\"link_md\":\"[Yonkers Contracting Co. v. State, 541 N.E.2d 413 (N.Y. 1989)](https://syfert.com/new-york/cases/74-n-y-2d-682/yonkers-contracting-co-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6471},{\"cluster_id\":2592397,\"case_name\":\"SUNNYBROOK REALTY CO., INC. v. State\",\"citations\":[\"176 N.E.2d 203\",\"9 N.Y.2d 960\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1961-05-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/9-n-y-2d-960/sunnybrook-realty-co-inc-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sunnybrook Realty Co. v. State, 176 N.E.2d 203 (N.Y. 1961)\",\"link_md\":\"[Sunnybrook Realty Co. v. State, 176 N.E.2d 203 (N.Y. 1961)](https://syfert.com/new-york/cases/9-n-y-2d-960/sunnybrook-realty-co-inc-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6469},{\"cluster_id\":3598087,\"case_name\":\"Youngs v. . Syracuse, Binghamton and New York Rd. Co.\",\"citations\":[\"108 N.E. 1095\",\"214 N.Y. 673\",\"1915 N.Y. LEXIS 1381\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1915-03-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/214-n-y-673/youngs-v-syracuse-binghamton-and-new-york-rd-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Youngs v. Syracuse, Binghamton & New York Rd. Co., 108 N.E. 1095 (N.Y. 1915)\",\"link_md\":\"[Youngs v. Syracuse, Binghamton & New York Rd. Co., 108 N.E. 1095 (N.Y. 1915)](https://syfert.com/new-york/cases/214-n-y-673/youngs-v-syracuse-binghamton-and-new-york-rd-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6468},{\"cluster_id\":5454213,\"case_name\":\"Yonkers Railroad v. City Of Yonkers\",\"citations\":[\"218 A.D. 748\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1926-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/218-a-d-748/yonkers-railroad-v-city-of-yonkers\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Yonkers R.R. v. City Of Yonkers, 218 A.D. 748 (N.Y. App. Div. 1926)\",\"link_md\":\"[Yonkers R.R. v. City Of Yonkers, 218 A.D. 748 (N.Y. App. Div. 1926)](https://syfert.com/new-york/cases/218-a-d-748/yonkers-railroad-v-city-of-yonkers)\",\"match_kind\":\"semantic\",\"similarity\":0.6429},{\"cluster_id\":668710,\"case_name\":\"York v. Capital Cities/abc\",\"citations\":[\"22 F.3d 1091\",\"1994 U.S. App. LEXIS 7926\",\"1994 WL 126573\"],\"court\":\"Second Circuit\",\"date_filed\":\"1994-03-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/22-f-3d-1091/york-v-capital-citiesabc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"York v. Capital Cities/abc, 22 F.3d 1091 (2d Cir. 1994)\",\"link_md\":\"[York v. Capital Cities/abc, 22 F.3d 1091 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/22-f-3d-1091/york-v-capital-citiesabc)\",\"match_kind\":\"semantic\",\"similarity\":0.6426}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "York w/15 \"892 NYS2d 110\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10341142,
+    "case_name": "Shrader-Miller v. Miller",
+    "citations": [],
+    "court": "Maine Superior",
+    "date_filed": "2003-07-15",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/maine/cases/cl-10341142/shrader-miller-v-miller",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Shrader-Miller v. Miller, No. YORre-03-044 (Me. Super. Ct July 15, 2003)",
+    "link_md": "[Shrader-Miller v. Miller, No. YORre-03-044 (Me. Super. Ct July 15, 2003)](https://syfert.com/maine/cases/cl-10341142/shrader-miller-v-miller)",
+    "match_kind": "semantic",
+    "similarity": 0.7003
+   },
+   {
+    "cluster_id": 6462238,
+    "case_name": "Matter of Schunk v. Town of York",
+    "citations": [
+     "204 A.D.3d 1480",
+     "2022 NY Slip Op 02744",
+     "165 N.Y.S.3d 428"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2022-04-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/204-a-d-3d-1480/matter-of-schunk-v-town-of-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Schunk v. Town of York, 204 A.D.3d 1480 (N.Y. App. Div. 4th Dep't 2022)",
+    "link_md": "[Matter of Schunk v. Town of York, 204 A.D.3d 1480 (N.Y. App. Div. 4th Dep't 2022)](https://syfert.com/new-york/cases/204-a-d-3d-1480/matter-of-schunk-v-town-of-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6966
+   },
+   {
+    "cluster_id": 476407,
+    "case_name": "City of Yonkers, in Re",
+    "citations": [
+     "801 F.2d 391",
+     "1986 U.S. App. LEXIS 30825"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1986-08-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/801-f-2d-391/city-of-yonkers-in-re",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Yonkers, in Re, 801 F.2d 391 (2d Cir. 1986)",
+    "link_md": "[City of Yonkers, in Re, 801 F.2d 391 (2d Cir. 1986)](https://syfert.com/federal/circuits/cases/801-f-2d-391/city-of-yonkers-in-re)",
+    "match_kind": "semantic",
+    "similarity": 0.6853
+   },
+   {
+    "cluster_id": 597925,
+    "case_name": "Bourque v. City of Yonkers",
+    "citations": [
+     "983 F.2d 1047",
+     "1992 U.S. App. LEXIS 33162",
+     "1992 WL 370446"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1992-11-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/983-f-2d-1047/bourque-v-city-of-yonkers",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bourque v. City of Yonkers, 983 F.2d 1047 (2d Cir. 1992)",
+    "link_md": "[Bourque v. City of Yonkers, 983 F.2d 1047 (2d Cir. 1992)](https://syfert.com/federal/circuits/cases/983-f-2d-1047/bourque-v-city-of-yonkers)",
+    "match_kind": "semantic",
+    "similarity": 0.6821
+   },
+   {
+    "cluster_id": 712912,
+    "case_name": "Frances Steiner v. Michael Dowling",
+    "citations": [
+     "76 F.3d 498"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1996-02-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/76-f-3d-498/51-socsecrepser-139a-frances-steiner-on-behalf-of-herself-and-all",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Frances Steiner v. Michael Dowling, 76 F.3d 498 (2d Cir. 1996)",
+    "link_md": "[Frances Steiner v. Michael Dowling, 76 F.3d 498 (2d Cir. 1996)](https://syfert.com/federal/circuits/cases/76-f-3d-498/51-socsecrepser-139a-frances-steiner-on-behalf-of-herself-and-all)",
+    "match_kind": "semantic",
+    "similarity": 0.6736
+   },
+   {
+    "cluster_id": 2370829,
+    "case_name": "WEST 914, INC. v. City of York",
+    "citations": [
+     "965 A.2d 246",
+     "600 Pa. 752",
+     "2009 Pa. LEXIS 267"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2009-02-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/600-pa-752/west-914-inc-v-city-of-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "WEST 914, INC. v. City of York, 965 A.2d 246 (Pa. 2009)",
+    "link_md": "[WEST 914, INC. v. City of York, 965 A.2d 246 (Pa. 2009)](https://syfert.com/pennsylvania/cases/600-pa-752/west-914-inc-v-city-of-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6683
+   },
+   {
+    "cluster_id": 5642912,
+    "case_name": "York v. York",
+    "citations": [
+     "4 N.E.3d 370",
+     "22 N.Y.3d 1051"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2014-01-14",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/22-n-y-3d-1051/york-v-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "York v. York, 4 N.E.3d 370 (N.Y. 2014)",
+    "link_md": "[York v. York, 4 N.E.3d 370 (N.Y. 2014)](https://syfert.com/new-york/cases/22-n-y-3d-1051/york-v-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6676
+   },
+   {
+    "cluster_id": 5641016,
+    "case_name": "61 West 62 Owners Corp. v. CGM EMP LLC",
+    "citations": [
+     "946 N.E.2d 172",
+     "16 N.Y.3d 822"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2011-03-31",
+    "status": "Published",
+    "cited_by": 24,
+    "url": "https://syfert.com/new-york/cases/16-n-y-3d-822/61-west-62-owners-corp-v-cgm-emp-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "61 West 62 Owners Corp. v. CGM EMP LLC, 946 N.E.2d 172 (N.Y. 2011)",
+    "link_md": "[61 West 62 Owners Corp. v. CGM EMP LLC, 946 N.E.2d 172 (N.Y. 2011)](https://syfert.com/new-york/cases/16-n-y-3d-822/61-west-62-owners-corp-v-cgm-emp-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.6616
+   },
+   {
+    "cluster_id": 1563115,
+    "case_name": "City of York v. Kopp",
+    "citations": [
+     "960 A.2d 968",
+     "2008 WL 5197495"
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "2008-10-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/960-a-2d-968/city-of-york-v-kopp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of York v. Kopp, 960 A.2d 968 (Pa. Commw. Ct. 2008)",
+    "link_md": "[City of York v. Kopp, 960 A.2d 968 (Pa. Commw. Ct. 2008)](https://syfert.com/pennsylvania/cases/960-a-2d-968/city-of-york-v-kopp)",
+    "match_kind": "semantic",
+    "similarity": 0.6573
+   },
+   {
+    "cluster_id": 9361973,
+    "case_name": "Stahl York Ave. Co. v. City of N.Y.",
+    "citations": [
+     "140 S. Ct. 117",
+     "205 L. Ed. 2d 32"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2019-10-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/140-s-ct-117/stahl-york-ave-co-v-city-of-ny",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stahl York Ave. Co. v. City of N.Y., 140 S. Ct. 117 (2019)",
+    "link_md": "[Stahl York Ave. Co. v. City of N.Y., 140 S. Ct. 117 (2019)](https://syfert.com/federal/scotus/cases/140-s-ct-117/stahl-york-ave-co-v-city-of-ny)",
+    "match_kind": "semantic",
+    "similarity": 0.6548
+   },
+   {
+    "cluster_id": 9104926,
+    "case_name": "City of Yonkers v. United States",
+    "citations": [
+     "498 U.S. 1064",
+     "111 S. Ct. 778"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1991-01-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/498-u-s-1064/city-of-yonkers-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (9104926 and its twin 9104925). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Yonkers v. United States, 498 U.S. 1064 (1991)",
+    "link_md": "[City of Yonkers v. United States, 498 U.S. 1064 (1991)](https://syfert.com/federal/scotus/cases/498-u-s-1064/city-of-yonkers-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6514,
+    "twin_clusters": [
+     9104925
+    ]
+   },
+   {
+    "cluster_id": 437056,
+    "case_name": "York v. Mass. Indem",
+    "citations": [
+     "735 F.2d 1377",
+     "1984 U.S. App. LEXIS 21738"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1984-06-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/735-f-2d-1377/york-v-mass-indem",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "York v. Mass. Indem, 735 F.2d 1377 (11th Cir. 1984)",
+    "link_md": "[York v. Mass. Indem, 735 F.2d 1377 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/735-f-2d-1377/york-v-mass-indem)",
+    "match_kind": "semantic",
+    "similarity": 0.6506
+   },
+   {
+    "cluster_id": 5534905,
+    "case_name": "W. A. Brockhurst Co. v. City of Yonkers",
+    "citations": [
+     "266 A.D. 778",
+     "42 N.Y.S.2d 930",
+     "1943 N.Y. App. Div. LEXIS 4448"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1943-05-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/266-a-d-778/w-a-brockhurst-co-v-city-of-yonkers",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. A. Brockhurst Co. v. City of Yonkers, 266 A.D. 778 (N.Y. App. Div. 2d Dep't 1943)",
+    "link_md": "[W. A. Brockhurst Co. v. City of Yonkers, 266 A.D. 778 (N.Y. App. Div. 2d Dep't 1943)](https://syfert.com/new-york/cases/266-a-d-778/w-a-brockhurst-co-v-city-of-yonkers)",
+    "match_kind": "semantic",
+    "similarity": 0.6505
+   },
+   {
+    "cluster_id": 5646522,
+    "case_name": "People York ex rel. Grafton v. Sposato",
+    "citations": [
+     "28 N.Y.3d 1167"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2017-02-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/28-n-y-3d-1167/people-york-ex-rel-grafton-v-sposato",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People York ex rel. Grafton v. Sposato, 28 N.Y.3d 1167 (2017)",
+    "link_md": "[People York ex rel. Grafton v. Sposato, 28 N.Y.3d 1167 (2017)](https://syfert.com/new-york/cases/28-n-y-3d-1167/people-york-ex-rel-grafton-v-sposato)",
+    "match_kind": "semantic",
+    "similarity": 0.6497
+   },
+   {
+    "cluster_id": 1563827,
+    "case_name": "City of York v. Stough",
+    "citations": [
+     "960 A.2d 967",
+     "2008 WL 5197484"
+    ],
+    "court": "Commonwealth Court of Pennsylvania",
+    "date_filed": "2008-10-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/960-a-2d-967/city-of-york-v-stough",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of York v. Stough, 960 A.2d 967 (Pa. Commw. Ct. 2008)",
+    "link_md": "[City of York v. Stough, 960 A.2d 967 (Pa. Commw. Ct. 2008)](https://syfert.com/pennsylvania/cases/960-a-2d-967/city-of-york-v-stough)",
+    "match_kind": "semantic",
+    "similarity": 0.6494
+   },
+   {
+    "cluster_id": 2583656,
+    "case_name": "Yonkers Contracting Co. v. State",
+    "citations": [
+     "541 N.E.2d 413",
+     "74 N.Y.2d 682",
+     "543 N.Y.S.2d 384",
+     "1989 N.Y. LEXIS 683"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1989-06-01",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/74-n-y-2d-682/yonkers-contracting-co-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yonkers Contracting Co. v. State, 541 N.E.2d 413 (N.Y. 1989)",
+    "link_md": "[Yonkers Contracting Co. v. State, 541 N.E.2d 413 (N.Y. 1989)](https://syfert.com/new-york/cases/74-n-y-2d-682/yonkers-contracting-co-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6471
+   },
+   {
+    "cluster_id": 2592397,
+    "case_name": "SUNNYBROOK REALTY CO., INC. v. State",
+    "citations": [
+     "176 N.E.2d 203",
+     "9 N.Y.2d 960"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1961-05-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/9-n-y-2d-960/sunnybrook-realty-co-inc-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sunnybrook Realty Co. v. State, 176 N.E.2d 203 (N.Y. 1961)",
+    "link_md": "[Sunnybrook Realty Co. v. State, 176 N.E.2d 203 (N.Y. 1961)](https://syfert.com/new-york/cases/9-n-y-2d-960/sunnybrook-realty-co-inc-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6469
+   },
+   {
+    "cluster_id": 3598087,
+    "case_name": "Youngs v. . Syracuse, Binghamton and New York Rd. Co.",
+    "citations": [
+     "108 N.E. 1095",
+     "214 N.Y. 673",
+     "1915 N.Y. LEXIS 1381"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1915-03-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/214-n-y-673/youngs-v-syracuse-binghamton-and-new-york-rd-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Youngs v. Syracuse, Binghamton & New York Rd. Co., 108 N.E. 1095 (N.Y. 1915)",
+    "link_md": "[Youngs v. Syracuse, Binghamton & New York Rd. Co., 108 N.E. 1095 (N.Y. 1915)](https://syfert.com/new-york/cases/214-n-y-673/youngs-v-syracuse-binghamton-and-new-york-rd-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6468
+   },
+   {
+    "cluster_id": 5454213,
+    "case_name": "Yonkers Railroad v. City Of Yonkers",
+    "citations": [
+     "218 A.D. 748"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1926-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/218-a-d-748/yonkers-railroad-v-city-of-yonkers",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yonkers R.R. v. City Of Yonkers, 218 A.D. 748 (N.Y. App. Div. 1926)",
+    "link_md": "[Yonkers R.R. v. City Of Yonkers, 218 A.D. 748 (N.Y. App. Div. 1926)](https://syfert.com/new-york/cases/218-a-d-748/yonkers-railroad-v-city-of-yonkers)",
+    "match_kind": "semantic",
+    "similarity": 0.6429
+   },
+   {
+    "cluster_id": 668710,
+    "case_name": "York v. Capital Cities/abc",
+    "citations": [
+     "22 F.3d 1091",
+     "1994 U.S. App. LEXIS 7926",
+     "1994 WL 126573"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1994-03-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/22-f-3d-1091/york-v-capital-citiesabc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "York v. Capital Cities/abc, 22 F.3d 1091 (2d Cir. 1994)",
+    "link_md": "[York v. Capital Cities/abc, 22 F.3d 1091 (2d Cir. 1994)](https://syfert.com/federal/circuits/cases/22-f-3d-1091/york-v-capital-citiesabc)",
+    "match_kind": "semantic",
+    "similarity": 0.6426
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

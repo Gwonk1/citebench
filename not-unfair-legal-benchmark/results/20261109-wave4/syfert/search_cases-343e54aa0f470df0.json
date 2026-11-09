@@ -1,0 +1,417 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Coleman w/15 \"940 N.Y.2d 170\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Coleman w/15 \\\"940 N.Y.2d 170\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":139474,\"case_name\":\"Coleman v. Nassau County, New York\",\"citations\":[\"543 U.S. 933\",\"125 S. Ct. 323\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-933/coleman-v-nassau-county-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. Nassau Cnty., 543 U.S. 933 (2004)\",\"link_md\":\"[Coleman v. Nassau Cnty., 543 U.S. 933 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-933/coleman-v-nassau-county-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.7503},{\"cluster_id\":2553644,\"case_name\":\"People v. Coleman\",\"citations\":[\"810 N.E.2d 917\",\"2 N.Y.3d 738\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2004-03-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/2-n-y-3d-738/people-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Coleman, 810 N.E.2d 917 (N.Y. 2004)\",\"link_md\":\"[People v. Coleman, 810 N.E.2d 917 (N.Y. 2004)](https://syfert.com/new-york/cases/2-n-y-3d-738/people-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.7497},{\"cluster_id\":2154611,\"case_name\":\"State v. Coleman\",\"citations\":[\"963 A.2d 845\",\"197 N.J. 475\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2009-01-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/197-n-j-475/state-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Coleman, 963 A.2d 845 (N.J. 2009)\",\"link_md\":\"[State v. Coleman, 963 A.2d 845 (N.J. 2009)](https://syfert.com/new-jersey/cases/197-n-j-475/state-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.7465},{\"cluster_id\":2560529,\"case_name\":\"People v. Coleman\",\"citations\":[\"918 N.E.2d 966\",\"13 N.Y.3d 835\",\"890 N.Y.S.2d 451\",\"2009 N.Y. LEXIS 4239\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2009-10-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/13-n-y-3d-835/people-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Coleman, 918 N.E.2d 966 (N.Y. 2009)\",\"link_md\":\"[People v. Coleman, 918 N.E.2d 966 (N.Y. 2009)](https://syfert.com/new-york/cases/13-n-y-3d-835/people-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.7463},{\"cluster_id\":2557237,\"case_name\":\"People v. Coleman\",\"citations\":[\"817 N.E.2d 829\",\"3 N.Y.3d 672\",\"784 N.Y.S.2d 11\",\"2004 N.Y. LEXIS 2597\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2004-08-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/3-n-y-3d-672/people-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Coleman, 817 N.E.2d 829 (N.Y. 2004)\",\"link_md\":\"[People v. Coleman, 817 N.E.2d 829 (N.Y. 2004)](https://syfert.com/new-york/cases/3-n-y-3d-672/people-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.7452},{\"cluster_id\":117506,\"case_name\":\"Coleman v. United States\",\"citations\":[\"510 U.S. 1184\",\"114 S. Ct. 1234\"],\"court\":\"Supreme Court\",\"date_filed\":\"1994-03-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/510-u-s-1184/coleman-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (117506 and its twin 9143081). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. United States, 510 U.S. 1184 (1994)\",\"link_md\":\"[Coleman v. United States, 510 U.S. 1184 (1994)](https://syfert.com/federal/scotus/cases/510-u-s-1184/coleman-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7443},{\"cluster_id\":8955001,\"case_name\":\"Coleman v. New York\",\"citations\":[\"372 U.S. 972\"],\"court\":\"Supreme Court\",\"date_filed\":\"1963-04-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/372-u-s-972/coleman-v-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. New York, 372 U.S. 972 (1963)\",\"link_md\":\"[Coleman v. New York, 372 U.S. 972 (1963)](https://syfert.com/federal/scotus/cases/372-u-s-972/coleman-v-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.7414},{\"cluster_id\":2558705,\"case_name\":\"People v. Coleman\",\"citations\":[\"902 N.E.2d 443\",\"11 N.Y.3d 923\",\"874 N.Y.S.2d 9\",\"2009 N.Y. LEXIS 519\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2009-01-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/11-n-y-3d-923/people-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Coleman, 902 N.E.2d 443 (N.Y. 2009)\",\"link_md\":\"[People v. Coleman, 902 N.E.2d 443 (N.Y. 2009)](https://syfert.com/new-york/cases/11-n-y-3d-923/people-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.7413},{\"cluster_id\":114792,\"case_name\":\"Coleman v. United States\",\"citations\":[\"510 U.S. 950\",\"114 S. Ct. 395\"],\"court\":\"Supreme Court\",\"date_filed\":\"1993-11-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/510-u-s-950/coleman-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (114792 and its twin 9140816). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. United States, 510 U.S. 950 (1993)\",\"link_md\":\"[Coleman v. United States, 510 U.S. 950 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-950/coleman-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7401},{\"cluster_id\":2274026,\"case_name\":\"Coleman v. United States\",\"citations\":[\"991 A.2d 34\",\"2010 D.C. App. LEXIS 176\",\"2010 WL 1510069\"],\"court\":\"District of Columbia Court of Appeals\",\"date_filed\":\"2010-03-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/district-of-columbia/cases/991-a-2d-34/coleman-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. United States, 991 A.2d 34 (D.C. 2010)\",\"link_md\":\"[Coleman v. United States, 991 A.2d 34 (D.C. 2010)](https://syfert.com/district-of-columbia/cases/991-a-2d-34/coleman-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7383},{\"cluster_id\":2275761,\"case_name\":\"Coleman v. United States\",\"citations\":[\"969 A.2d 895\",\"2009 D.C. App. LEXIS 206\",\"2009 WL 1353556\"],\"court\":\"District of Columbia Court of Appeals\",\"date_filed\":\"2009-04-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/district-of-columbia/cases/969-a-2d-895/coleman-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. United States, 969 A.2d 895 (D.C. 2009)\",\"link_md\":\"[Coleman v. United States, 969 A.2d 895 (D.C. 2009)](https://syfert.com/district-of-columbia/cases/969-a-2d-895/coleman-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7374},{\"cluster_id\":1888589,\"case_name\":\"Com. v. Coleman\",\"citations\":[\"986 A.2d 1250\",\"2009 WL 5462294\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2009-09-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/986-a-2d-1250/com-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Coleman, 986 A.2d 1250 (Pa. Super. Ct. 2009)\",\"link_md\":\"[Com. v. Coleman, 986 A.2d 1250 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/986-a-2d-1250/com-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.7346},{\"cluster_id\":145070,\"case_name\":\"Coleman v. Korman, Chief Judge, United States District Court for the Eastern District of New York\",\"citations\":[\"544 U.S. 1066\",\"125 S. Ct. 2527\",\"161 L. Ed. 2d 1120\",\"73 U.S.L.W. 3694\",\"2005 U.S. LEXIS 4450\"],\"court\":\"Supreme Court\",\"date_filed\":\"2005-05-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/544-u-s-1066/coleman-v-korman-chief-judge-united-states-district-court-for-the\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. Korman, 544 U.S. 1066 (2005)\",\"link_md\":\"[Coleman v. Korman, 544 U.S. 1066 (2005)](https://syfert.com/federal/scotus/cases/544-u-s-1066/coleman-v-korman-chief-judge-united-states-district-court-for-the)\",\"match_kind\":\"semantic\",\"similarity\":0.7321},{\"cluster_id\":142655,\"case_name\":\"Coleman v. Nassau County, New York\",\"citations\":[\"543 U.S. 1178\",\"125 S. Ct. 1375\"],\"court\":\"Supreme Court\",\"date_filed\":\"2005-02-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-1178/coleman-v-nassau-county-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. Nassau Cnty., 543 U.S. 1178 (2005)\",\"link_md\":\"[Coleman v. Nassau Cnty., 543 U.S. 1178 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1178/coleman-v-nassau-county-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.731},{\"cluster_id\":2566163,\"case_name\":\"People v. Coleman\",\"citations\":[\"829 N.E.2d 677\",\"4 N.Y.3d 829\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2005-03-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/4-n-y-3d-829/people-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Coleman, 829 N.E.2d 677 (N.Y. 2005)\",\"link_md\":\"[People v. Coleman, 829 N.E.2d 677 (N.Y. 2005)](https://syfert.com/new-york/cases/4-n-y-3d-829/people-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.7293},{\"cluster_id\":1949455,\"case_name\":\"Com. v. Coleman\",\"citations\":[\"954 A.2d 34\",\"2008 Pa. Super. LEXIS 2167\",\"2008 WL 3833941\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2008-05-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/954-a-2d-34/com-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Coleman, 954 A.2d 34 (Pa. Super. Ct. 2008)\",\"link_md\":\"[Com. v. Coleman, 954 A.2d 34 (Pa. Super. Ct. 2008)](https://syfert.com/pennsylvania/cases/954-a-2d-34/com-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.728},{\"cluster_id\":135856,\"case_name\":\"Coleman v. United States\",\"citations\":[\"541 U.S. 1003\",\"124 S. Ct. 2053\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-04-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/541-u-s-1003/coleman-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (135856 and its twins 9223803, 9223804). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. United States, 541 U.S. 1003 (2004)\",\"link_md\":\"[Coleman v. United States, 541 U.S. 1003 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-1003/coleman-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.727},{\"cluster_id\":116434,\"case_name\":\"Coleman v. United States\",\"citations\":[\"510 U.S. 1077\",\"114 S. Ct. 893\"],\"court\":\"Supreme Court\",\"date_filed\":\"1994-01-18\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/scotus/cases/510-u-s-1077/coleman-v-united-states\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (116434 and its twin 9142157).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. United States, 510 U.S. 1077 (1994)\",\"link_md\":\"[Coleman v. United States, 510 U.S. 1077 (1994)](https://syfert.com/federal/scotus/cases/510-u-s-1077/coleman-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7266},{\"cluster_id\":384008,\"case_name\":\"Coleman v. Johnson\",\"citations\":[\"634 F.2d 621\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1980-09-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/634-f-2d-621/coleman-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coleman v. Johnson, 634 F.2d 621 (4th Cir. 1980)\",\"link_md\":\"[Coleman v. Johnson, 634 F.2d 621 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/634-f-2d-621/coleman-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.7251},{\"cluster_id\":2559956,\"case_name\":\"State v. Coleman\",\"citations\":[\"12 A.3d 210\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2011-01-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/12-a-3d-210/state-v-coleman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Coleman, 12 A.3d 210 (N.J. 2011)\",\"link_md\":\"[State v. Coleman, 12 A.3d 210 (N.J. 2011)](https://syfert.com/new-jersey/cases/12-a-3d-210/state-v-coleman)\",\"match_kind\":\"semantic\",\"similarity\":0.7249}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Coleman w/15 \"940 N.Y.2d 170\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 139474,
+    "case_name": "Coleman v. Nassau County, New York",
+    "citations": [
+     "543 U.S. 933",
+     "125 S. Ct. 323"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-933/coleman-v-nassau-county-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. Nassau Cnty., 543 U.S. 933 (2004)",
+    "link_md": "[Coleman v. Nassau Cnty., 543 U.S. 933 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-933/coleman-v-nassau-county-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.7503
+   },
+   {
+    "cluster_id": 2553644,
+    "case_name": "People v. Coleman",
+    "citations": [
+     "810 N.E.2d 917",
+     "2 N.Y.3d 738"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2004-03-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/2-n-y-3d-738/people-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Coleman, 810 N.E.2d 917 (N.Y. 2004)",
+    "link_md": "[People v. Coleman, 810 N.E.2d 917 (N.Y. 2004)](https://syfert.com/new-york/cases/2-n-y-3d-738/people-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.7497
+   },
+   {
+    "cluster_id": 2154611,
+    "case_name": "State v. Coleman",
+    "citations": [
+     "963 A.2d 845",
+     "197 N.J. 475"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2009-01-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/197-n-j-475/state-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Coleman, 963 A.2d 845 (N.J. 2009)",
+    "link_md": "[State v. Coleman, 963 A.2d 845 (N.J. 2009)](https://syfert.com/new-jersey/cases/197-n-j-475/state-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.7465
+   },
+   {
+    "cluster_id": 2560529,
+    "case_name": "People v. Coleman",
+    "citations": [
+     "918 N.E.2d 966",
+     "13 N.Y.3d 835",
+     "890 N.Y.S.2d 451",
+     "2009 N.Y. LEXIS 4239"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2009-10-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/13-n-y-3d-835/people-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Coleman, 918 N.E.2d 966 (N.Y. 2009)",
+    "link_md": "[People v. Coleman, 918 N.E.2d 966 (N.Y. 2009)](https://syfert.com/new-york/cases/13-n-y-3d-835/people-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.7463
+   },
+   {
+    "cluster_id": 2557237,
+    "case_name": "People v. Coleman",
+    "citations": [
+     "817 N.E.2d 829",
+     "3 N.Y.3d 672",
+     "784 N.Y.S.2d 11",
+     "2004 N.Y. LEXIS 2597"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2004-08-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/3-n-y-3d-672/people-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Coleman, 817 N.E.2d 829 (N.Y. 2004)",
+    "link_md": "[People v. Coleman, 817 N.E.2d 829 (N.Y. 2004)](https://syfert.com/new-york/cases/3-n-y-3d-672/people-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.7452
+   },
+   {
+    "cluster_id": 117506,
+    "case_name": "Coleman v. United States",
+    "citations": [
+     "510 U.S. 1184",
+     "114 S. Ct. 1234"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1994-03-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/510-u-s-1184/coleman-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (117506 and its twin 9143081). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. United States, 510 U.S. 1184 (1994)",
+    "link_md": "[Coleman v. United States, 510 U.S. 1184 (1994)](https://syfert.com/federal/scotus/cases/510-u-s-1184/coleman-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7443
+   },
+   {
+    "cluster_id": 8955001,
+    "case_name": "Coleman v. New York",
+    "citations": [
+     "372 U.S. 972"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1963-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/372-u-s-972/coleman-v-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. New York, 372 U.S. 972 (1963)",
+    "link_md": "[Coleman v. New York, 372 U.S. 972 (1963)](https://syfert.com/federal/scotus/cases/372-u-s-972/coleman-v-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.7414
+   },
+   {
+    "cluster_id": 2558705,
+    "case_name": "People v. Coleman",
+    "citations": [
+     "902 N.E.2d 443",
+     "11 N.Y.3d 923",
+     "874 N.Y.S.2d 9",
+     "2009 N.Y. LEXIS 519"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2009-01-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/11-n-y-3d-923/people-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Coleman, 902 N.E.2d 443 (N.Y. 2009)",
+    "link_md": "[People v. Coleman, 902 N.E.2d 443 (N.Y. 2009)](https://syfert.com/new-york/cases/11-n-y-3d-923/people-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.7413
+   },
+   {
+    "cluster_id": 114792,
+    "case_name": "Coleman v. United States",
+    "citations": [
+     "510 U.S. 950",
+     "114 S. Ct. 395"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1993-11-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/510-u-s-950/coleman-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (114792 and its twin 9140816). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. United States, 510 U.S. 950 (1993)",
+    "link_md": "[Coleman v. United States, 510 U.S. 950 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-950/coleman-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7401
+   },
+   {
+    "cluster_id": 2274026,
+    "case_name": "Coleman v. United States",
+    "citations": [
+     "991 A.2d 34",
+     "2010 D.C. App. LEXIS 176",
+     "2010 WL 1510069"
+    ],
+    "court": "District of Columbia Court of Appeals",
+    "date_filed": "2010-03-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/district-of-columbia/cases/991-a-2d-34/coleman-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. United States, 991 A.2d 34 (D.C. 2010)",
+    "link_md": "[Coleman v. United States, 991 A.2d 34 (D.C. 2010)](https://syfert.com/district-of-columbia/cases/991-a-2d-34/coleman-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7383
+   },
+   {
+    "cluster_id": 2275761,
+    "case_name": "Coleman v. United States",
+    "citations": [
+     "969 A.2d 895",
+     "2009 D.C. App. LEXIS 206",
+     "2009 WL 1353556"
+    ],
+    "court": "District of Columbia Court of Appeals",
+    "date_filed": "2009-04-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/district-of-columbia/cases/969-a-2d-895/coleman-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. United States, 969 A.2d 895 (D.C. 2009)",
+    "link_md": "[Coleman v. United States, 969 A.2d 895 (D.C. 2009)](https://syfert.com/district-of-columbia/cases/969-a-2d-895/coleman-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7374
+   },
+   {
+    "cluster_id": 1888589,
+    "case_name": "Com. v. Coleman",
+    "citations": [
+     "986 A.2d 1250",
+     "2009 WL 5462294"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2009-09-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/986-a-2d-1250/com-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Coleman, 986 A.2d 1250 (Pa. Super. Ct. 2009)",
+    "link_md": "[Com. v. Coleman, 986 A.2d 1250 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/986-a-2d-1250/com-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.7346
+   },
+   {
+    "cluster_id": 145070,
+    "case_name": "Coleman v. Korman, Chief Judge, United States District Court for the Eastern District of New York",
+    "citations": [
+     "544 U.S. 1066",
+     "125 S. Ct. 2527",
+     "161 L. Ed. 2d 1120",
+     "73 U.S.L.W. 3694",
+     "2005 U.S. LEXIS 4450"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2005-05-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/544-u-s-1066/coleman-v-korman-chief-judge-united-states-district-court-for-the",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. Korman, 544 U.S. 1066 (2005)",
+    "link_md": "[Coleman v. Korman, 544 U.S. 1066 (2005)](https://syfert.com/federal/scotus/cases/544-u-s-1066/coleman-v-korman-chief-judge-united-states-district-court-for-the)",
+    "match_kind": "semantic",
+    "similarity": 0.7321
+   },
+   {
+    "cluster_id": 142655,
+    "case_name": "Coleman v. Nassau County, New York",
+    "citations": [
+     "543 U.S. 1178",
+     "125 S. Ct. 1375"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2005-02-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-1178/coleman-v-nassau-county-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. Nassau Cnty., 543 U.S. 1178 (2005)",
+    "link_md": "[Coleman v. Nassau Cnty., 543 U.S. 1178 (2005)](https://syfert.com/federal/scotus/cases/543-u-s-1178/coleman-v-nassau-county-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.731
+   },
+   {
+    "cluster_id": 2566163,
+    "case_name": "People v. Coleman",
+    "citations": [
+     "829 N.E.2d 677",
+     "4 N.Y.3d 829"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2005-03-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/4-n-y-3d-829/people-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Coleman, 829 N.E.2d 677 (N.Y. 2005)",
+    "link_md": "[People v. Coleman, 829 N.E.2d 677 (N.Y. 2005)](https://syfert.com/new-york/cases/4-n-y-3d-829/people-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.7293
+   },
+   {
+    "cluster_id": 1949455,
+    "case_name": "Com. v. Coleman",
+    "citations": [
+     "954 A.2d 34",
+     "2008 Pa. Super. LEXIS 2167",
+     "2008 WL 3833941"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2008-05-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/954-a-2d-34/com-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Coleman, 954 A.2d 34 (Pa. Super. Ct. 2008)",
+    "link_md": "[Com. v. Coleman, 954 A.2d 34 (Pa. Super. Ct. 2008)](https://syfert.com/pennsylvania/cases/954-a-2d-34/com-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.728
+   },
+   {
+    "cluster_id": 135856,
+    "case_name": "Coleman v. United States",
+    "citations": [
+     "541 U.S. 1003",
+     "124 S. Ct. 2053"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-04-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/541-u-s-1003/coleman-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (135856 and its twins 9223803, 9223804). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. United States, 541 U.S. 1003 (2004)",
+    "link_md": "[Coleman v. United States, 541 U.S. 1003 (2004)](https://syfert.com/federal/scotus/cases/541-u-s-1003/coleman-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.727
+   },
+   {
+    "cluster_id": 116434,
+    "case_name": "Coleman v. United States",
+    "citations": [
+     "510 U.S. 1077",
+     "114 S. Ct. 893"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1994-01-18",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/scotus/cases/510-u-s-1077/coleman-v-united-states",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (116434 and its twin 9142157).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. United States, 510 U.S. 1077 (1994)",
+    "link_md": "[Coleman v. United States, 510 U.S. 1077 (1994)](https://syfert.com/federal/scotus/cases/510-u-s-1077/coleman-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7266
+   },
+   {
+    "cluster_id": 384008,
+    "case_name": "Coleman v. Johnson",
+    "citations": [
+     "634 F.2d 621"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1980-09-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/634-f-2d-621/coleman-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coleman v. Johnson, 634 F.2d 621 (4th Cir. 1980)",
+    "link_md": "[Coleman v. Johnson, 634 F.2d 621 (4th Cir. 1980)](https://syfert.com/federal/circuits/cases/634-f-2d-621/coleman-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.7251
+   },
+   {
+    "cluster_id": 2559956,
+    "case_name": "State v. Coleman",
+    "citations": [
+     "12 A.3d 210"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2011-01-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/12-a-3d-210/state-v-coleman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Coleman, 12 A.3d 210 (N.J. 2011)",
+    "link_md": "[State v. Coleman, 12 A.3d 210 (N.J. 2011)](https://syfert.com/new-jersey/cases/12-a-3d-210/state-v-coleman)",
+    "match_kind": "semantic",
+    "similarity": 0.7249
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

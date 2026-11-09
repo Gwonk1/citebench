@@ -1,0 +1,102 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Vulcan w/15 \"932 N.Y.S.2d 68\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Vulcan w/15 \\\"932 N.Y.S.2d 68\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7332941,\"bluebook\":\"Burton v. Label, LLC, 344 F. Supp. 3d 680 (S.D. Ill. 2018)\",\"url\":\"https://syfert.com/federal/district/cases/344-f-supp-3d-680/burton-v-label-llc\",\"date_filed\":\"2018-09-30\",\"cited_by\":23,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Vulcan Power Co. v. Munson , 89 A.D.3d 494 , 932 N.Y.S.2d 68 , 69 (1st Dep't 2011) (\\\"A signer's duty to read and understand that which is signed is not diminished merely because the signer was provided with only a signature page.\\\");…\"},{\"cluster_id\":8338048,\"bluebook\":\"Barclays Capital Inc. v. Giddens (In re Lehman Bros.), 478 B.R. 570 (S.D.N.Y. 2012)\",\"url\":\"https://syfert.com/federal/district/cases/478-b-r-570/barclays-capital-inc-v-giddens-in-re-lehman-bros\",\"date_filed\":\"2012-07-16\",\"cited_by\":32,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...for having failed to read it is conclusively bound by its terms.” (quotation marks omitted; alterations added)); Vulcan Power Co. v. Munson, 89 A.D.3d 494 , 932 N.Y.S.2d 68 , 69 (1st Dep't 2011) (\\\"Defendants' argument that the holding…\"},{\"cluster_id\":9989448,\"bluebook\":\"Decade, S.A.C., LLC, No. 18-11668 (Bankr. D. Del. Jan. 29, 2020)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9989448/decade-sac-llc\",\"date_filed\":\"2020-01-29\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...76 Dasz, 108 A.D.3d at 1085 , 969 N.Y.S.2d at 655 (citing Vulcan Power Co. v. Munson, 89 A.D.3d 494, 495 , 932\\nN.Y.S.2d 68 (N.Y. App. Div. 2011) (“[a] signer’s duty to read and understand that which it signed...\",\"passage_origin\":{\"case_name\":\"Vulcan Power Co. v. Munson\",\"cluster_id\":5971386,\"year\":2011,\"quoted_by_cases\":6}},{\"cluster_id\":9989305,\"bluebook\":\"Carickhoff v. Goodwin, No. 19-50095 (Bankr. D. Del. Jan. 29, 2020)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9989305/carickhoff-v-goodwin\",\"date_filed\":\"2020-01-29\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...76 Dasz, 108 A.D.3d at 1085 , 969 N.Y.S.2d at 655 (citing Vulcan Power Co. v. Munson, 89 A.D.3d 494, 495 , 932\\nN.Y.S.2d 68 (N.Y. App. Div. 2011) (“[a] signer’s duty to read and understand that which it signed...\",\"passage_origin\":{\"case_name\":\"Vulcan Power Co. v. Munson\",\"cluster_id\":5971386,\"year\":2011,\"quoted_by_cases\":6}},{\"cluster_id\":9836667,\"bluebook\":\"Kelwin Inkwel, LLC v. PNC Merch. Servs. Co., L.P., No. 1:17-cv-06255 (E.D.N.Y. Oct. 8, 2019)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9836667/kelwin-inkwel-llc-v-pnc-merchant-services-company-lp\",\"date_filed\":\"2019-10-08\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...2018) (under New York law, plaintiff was bound by entire agreement even though\\nhe was only provided signature page at time of execution); Vulcan Power Co. v. Munson, 932\\nN.Y.S.2d 68 , 69 (N.Y. App. Div. 2011) (“A signer’s duty to read…\",\"passage_origin\":{\"case_name\":\"Vulcan Power Co. v. Munson\",\"cluster_id\":5971386,\"year\":2011,\"quoted_by_cases\":6}},{\"cluster_id\":9403236,\"bluebook\":\"Braga Inv. & Advisory, LLC v. Musa Yenni, No. 2019-0408-PAF (Del. Ch. May 31, 2023)\",\"url\":\"https://syfert.com/delaware/cases/cl-9403236/braga-investment-advisory-llc-v-musa-yenni\",\"date_filed\":\"2023-05-31\",\"cited_by\":0,\"snippet\":\"...2013) (“[A] signer’s duty to read\\nand understand that which it signed is not diminished merely because [the signer] was\\nprovided with only a signature page.” (second alteration in original) (quoting Vulcan Power\\nCo. v. Munson, 932…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Vulcan w/15 \"932 N.Y.S.2d 68\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7332941,
+    "bluebook": "Burton v. Label, LLC, 344 F. Supp. 3d 680 (S.D. Ill. 2018)",
+    "url": "https://syfert.com/federal/district/cases/344-f-supp-3d-680/burton-v-label-llc",
+    "date_filed": "2018-09-30",
+    "cited_by": 23,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Vulcan Power Co. v. Munson , 89 A.D.3d 494 , 932 N.Y.S.2d 68 , 69 (1st Dep't 2011) (\"A signer's duty to read and understand that which is signed is not diminished merely because the signer was provided with only a signature page.\");…"
+   },
+   {
+    "cluster_id": 8338048,
+    "bluebook": "Barclays Capital Inc. v. Giddens (In re Lehman Bros.), 478 B.R. 570 (S.D.N.Y. 2012)",
+    "url": "https://syfert.com/federal/district/cases/478-b-r-570/barclays-capital-inc-v-giddens-in-re-lehman-bros",
+    "date_filed": "2012-07-16",
+    "cited_by": 32,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...for having failed to read it is conclusively bound by its terms.” (quotation marks omitted; alterations added)); Vulcan Power Co. v. Munson, 89 A.D.3d 494 , 932 N.Y.S.2d 68 , 69 (1st Dep't 2011) (\"Defendants' argument that the holding…"
+   },
+   {
+    "cluster_id": 9989448,
+    "bluebook": "Decade, S.A.C., LLC, No. 18-11668 (Bankr. D. Del. Jan. 29, 2020)",
+    "url": "https://syfert.com/federal/district/cases/cl-9989448/decade-sac-llc",
+    "date_filed": "2020-01-29",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...76 Dasz, 108 A.D.3d at 1085 , 969 N.Y.S.2d at 655 (citing Vulcan Power Co. v. Munson, 89 A.D.3d 494, 495 , 932\nN.Y.S.2d 68 (N.Y. App. Div. 2011) (“[a] signer’s duty to read and understand that which it signed...",
+    "passage_origin": {
+     "case_name": "Vulcan Power Co. v. Munson",
+     "cluster_id": 5971386,
+     "year": 2011,
+     "quoted_by_cases": 6
+    }
+   },
+   {
+    "cluster_id": 9989305,
+    "bluebook": "Carickhoff v. Goodwin, No. 19-50095 (Bankr. D. Del. Jan. 29, 2020)",
+    "url": "https://syfert.com/federal/district/cases/cl-9989305/carickhoff-v-goodwin",
+    "date_filed": "2020-01-29",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...76 Dasz, 108 A.D.3d at 1085 , 969 N.Y.S.2d at 655 (citing Vulcan Power Co. v. Munson, 89 A.D.3d 494, 495 , 932\nN.Y.S.2d 68 (N.Y. App. Div. 2011) (“[a] signer’s duty to read and understand that which it signed...",
+    "passage_origin": {
+     "case_name": "Vulcan Power Co. v. Munson",
+     "cluster_id": 5971386,
+     "year": 2011,
+     "quoted_by_cases": 6
+    }
+   },
+   {
+    "cluster_id": 9836667,
+    "bluebook": "Kelwin Inkwel, LLC v. PNC Merch. Servs. Co., L.P., No. 1:17-cv-06255 (E.D.N.Y. Oct. 8, 2019)",
+    "url": "https://syfert.com/federal/district/cases/cl-9836667/kelwin-inkwel-llc-v-pnc-merchant-services-company-lp",
+    "date_filed": "2019-10-08",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...2018) (under New York law, plaintiff was bound by entire agreement even though\nhe was only provided signature page at time of execution); Vulcan Power Co. v. Munson, 932\nN.Y.S.2d 68 , 69 (N.Y. App. Div. 2011) (“A signer’s duty to read…",
+    "passage_origin": {
+     "case_name": "Vulcan Power Co. v. Munson",
+     "cluster_id": 5971386,
+     "year": 2011,
+     "quoted_by_cases": 6
+    }
+   },
+   {
+    "cluster_id": 9403236,
+    "bluebook": "Braga Inv. & Advisory, LLC v. Musa Yenni, No. 2019-0408-PAF (Del. Ch. May 31, 2023)",
+    "url": "https://syfert.com/delaware/cases/cl-9403236/braga-investment-advisory-llc-v-musa-yenni",
+    "date_filed": "2023-05-31",
+    "cited_by": 0,
+    "snippet": "...2013) (“[A] signer’s duty to read\nand understand that which it signed is not diminished merely because [the signer] was\nprovided with only a signature page.” (second alteration in original) (quoting Vulcan Power\nCo. v. Munson, 932…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

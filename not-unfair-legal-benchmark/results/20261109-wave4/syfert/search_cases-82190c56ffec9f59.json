@@ -1,0 +1,74 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Gardner w/15 \"29 NW 19\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Gardner w/15 \\\"29 NW 19\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1720120,\"bluebook\":\"People v. Hoffman, 265 N.W.2d 94 (Mich. Ct. App. 1978)\",\"url\":\"https://syfert.com/michigan/cases/403-mich-850/people-v-hoffman\",\"date_filed\":\"1978-02-07\",\"cited_by\":41,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...The majority’s references to \\\"settled precedent,” i.e., its references to People v Gardner, 62 Mich 307 ; 29 NW 19 (1886), People v White, 68 Mich 648 ; 37 NW 34 (1888), People v Carlton Brown, 23 Mich App 528 ; 179 NW2d 58 (1970), I…\"},{\"cluster_id\":1938393,\"bluebook\":\"People v. Thomas Johnson, 288 N.W.2d 456 (Mich. Ct. App. 1980)\",\"url\":\"https://syfert.com/michigan/cases/94-mich-app-551/people-v-thomas-johnson\",\"date_filed\":\"1980-01-03\",\"cited_by\":7,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...People v Gardner,\\n62 Mich 307 ; 29 NW 19 (1886),\\nPeople v Williams,\\n85 Mich App 258 ; 271\\nNW2d 191 (1978). For the trial court to dismiss the jury on its own motion and impanel a new one without defendant’s consent would have violated…\"},{\"cluster_id\":2193570,\"bluebook\":\"People v. Walters, 311 N.W.2d 461 (Mich. Ct. App. 1981)\",\"url\":\"https://syfert.com/michigan/cases/109-mich-app-734/people-v-walters\",\"date_filed\":\"1981-09-22\",\"cited_by\":8,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...People v Gardner, 62 Mich 307 ; 29 NW 19 (1886), People v Williams, 85 Mich App 258 ; 271 NW2d 191 (1978). For the trial court to dismiss the jury on its own motion and impanel a new one without defendant’s consent would have violated…\"},{\"cluster_id\":8004642,\"bluebook\":\"People v. Vinston, 327 N.W.2d 495 (Mich. Ct. App. 1982)\",\"url\":\"https://syfert.com/michigan/cases/120-mich-app-422/people-v-vinston\",\"date_filed\":\"1982-10-18\",\"cited_by\":1,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...People v Gardner, 62 Mich 307 ; 29 NW 19 (1886); People v Williams, 85 Mich App 258 ; 271 NW2d 191 (1978). For the trial court to dismiss the jury on its own motion and impanel a new one without defendant’s consent would have violated…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Gardner w/15 \"29 NW 19\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1720120,
+    "bluebook": "People v. Hoffman, 265 N.W.2d 94 (Mich. Ct. App. 1978)",
+    "url": "https://syfert.com/michigan/cases/403-mich-850/people-v-hoffman",
+    "date_filed": "1978-02-07",
+    "cited_by": 41,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...The majority’s references to \"settled precedent,” i.e., its references to People v Gardner, 62 Mich 307 ; 29 NW 19 (1886), People v White, 68 Mich 648 ; 37 NW 34 (1888), People v Carlton Brown, 23 Mich App 528 ; 179 NW2d 58 (1970), I…"
+   },
+   {
+    "cluster_id": 1938393,
+    "bluebook": "People v. Thomas Johnson, 288 N.W.2d 456 (Mich. Ct. App. 1980)",
+    "url": "https://syfert.com/michigan/cases/94-mich-app-551/people-v-thomas-johnson",
+    "date_filed": "1980-01-03",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...People v Gardner,\n62 Mich 307 ; 29 NW 19 (1886),\nPeople v Williams,\n85 Mich App 258 ; 271\nNW2d 191 (1978). For the trial court to dismiss the jury on its own motion and impanel a new one without defendant’s consent would have violated…"
+   },
+   {
+    "cluster_id": 2193570,
+    "bluebook": "People v. Walters, 311 N.W.2d 461 (Mich. Ct. App. 1981)",
+    "url": "https://syfert.com/michigan/cases/109-mich-app-734/people-v-walters",
+    "date_filed": "1981-09-22",
+    "cited_by": 8,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...People v Gardner, 62 Mich 307 ; 29 NW 19 (1886), People v Williams, 85 Mich App 258 ; 271 NW2d 191 (1978). For the trial court to dismiss the jury on its own motion and impanel a new one without defendant’s consent would have violated…"
+   },
+   {
+    "cluster_id": 8004642,
+    "bluebook": "People v. Vinston, 327 N.W.2d 495 (Mich. Ct. App. 1982)",
+    "url": "https://syfert.com/michigan/cases/120-mich-app-422/people-v-vinston",
+    "date_filed": "1982-10-18",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...People v Gardner, 62 Mich 307 ; 29 NW 19 (1886); People v Williams, 85 Mich App 258 ; 271 NW2d 191 (1978). For the trial court to dismiss the jury on its own motion and impanel a new one without defendant’s consent would have violated…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,403 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Braman w/15 \"36 AD2d 688\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Braman w/15 \\\"36 AD2d 688\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":319624,\"case_name\":\"Branham v. Malone\",\"citations\":[\"497 F.2d 923\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1974-06-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/497-f-2d-923/branham-v-malone\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Branham v. Malone, 497 F.2d 923 (6th Cir. 1974)\",\"link_md\":\"[Branham v. Malone, 497 F.2d 923 (6th Cir. 1974)](https://syfert.com/federal/circuits/cases/497-f-2d-923/branham-v-malone)\",\"match_kind\":\"semantic\",\"similarity\":0.6476},{\"cluster_id\":2422804,\"case_name\":\"Com. v. Bradham\",\"citations\":[\"11 A.3d 1040\",\"2010 WL 4903275\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2010-08-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/11-a-3d-1040/com-v-bradham\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Bradham, 11 A.3d 1040 (Pa. Super. Ct. 2010)\",\"link_md\":\"[Com. v. Bradham, 11 A.3d 1040 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/11-a-3d-1040/com-v-bradham)\",\"match_kind\":\"semantic\",\"similarity\":0.6294},{\"cluster_id\":425375,\"case_name\":\"Brim v. Plageman\",\"citations\":[\"718 F.2d 1088\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1983-10-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/718-f-2d-1088/brim-v-plageman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Brim v. Plageman, 718 F.2d 1088 (4th Cir. 1983)\",\"link_md\":\"[Brim v. Plageman, 718 F.2d 1088 (4th Cir. 1983)](https://syfert.com/federal/circuits/cases/718-f-2d-1088/brim-v-plageman)\",\"match_kind\":\"semantic\",\"similarity\":0.6269},{\"cluster_id\":1798010,\"case_name\":\"State v. BRINGMAN\",\"citations\":[\"747 N.W.2d 148\",\"2008 S.D. LEXIS 68\",\"2008 WL 1728067\"],\"court\":\"South Dakota Supreme Court\",\"date_filed\":\"2008-03-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/south-dakota/cases/747-n-w-2d-148/state-v-bringman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Bringman, 747 N.W.2d 148 (S.D. 2008)\",\"link_md\":\"[State v. Bringman, 747 N.W.2d 148 (S.D. 2008)](https://syfert.com/south-dakota/cases/747-n-w-2d-148/state-v-bringman)\",\"match_kind\":\"semantic\",\"similarity\":0.6269},{\"cluster_id\":2012602,\"case_name\":\"People v. Brim\",\"citations\":[\"927 N.E.2d 341\",\"365 Ill. App. 3d 1117\",\"2006 Ill. App. LEXIS 8362\",\"339 Ill. Dec. 800\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"2006-06-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/illinois/cases/365-ill-app-3d-1117/people-v-brim\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Brim, 927 N.E.2d 341 (Ill. App. Ct. 3d Dist. 2006)\",\"link_md\":\"[People v. Brim, 927 N.E.2d 341 (Ill. App. Ct. 3d Dist. 2006)](https://syfert.com/illinois/cases/365-ill-app-3d-1117/people-v-brim)\",\"match_kind\":\"semantic\",\"similarity\":0.6257},{\"cluster_id\":465765,\"case_name\":\"Branscome v. City of Paramount\",\"citations\":[\"785 F.2d 314\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1986-02-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/785-f-2d-314/branscome-v-city-of-paramount\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Branscome v. City of Paramount, 785 F.2d 314 (9th Cir. 1986)\",\"link_md\":\"[Branscome v. City of Paramount, 785 F.2d 314 (9th Cir. 1986)](https://syfert.com/federal/circuits/cases/785-f-2d-314/branscome-v-city-of-paramount)\",\"match_kind\":\"semantic\",\"similarity\":0.6202},{\"cluster_id\":5624607,\"case_name\":\"Braman v. Johnson\",\"citations\":[\"26 How. Pr. 27\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1863-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-5624607/braman-v-johnson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Braman v. Johnson, 26 How. Pr. 27 (N.Y. 1863)\",\"link_md\":\"[Braman v. Johnson, 26 How. Pr. 27 (N.Y. 1863)](https://syfert.com/new-york/cases/cl-5624607/braman-v-johnson)\",\"match_kind\":\"semantic\",\"similarity\":0.6189},{\"cluster_id\":5868173,\"case_name\":\"People v. Branham\",\"citations\":[\"12 A.D.2d 903\",\"215 N.Y.S.2d 226\",\"1961 N.Y. App. Div. LEXIS 12791\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1961-02-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/12-a-d-2d-903/people-v-branham\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Branham, 12 A.D.2d 903 (N.Y. App. Div. 1st Dep't 1961)\",\"link_md\":\"[People v. Branham, 12 A.D.2d 903 (N.Y. App. Div. 1st Dep't 1961)](https://syfert.com/new-york/cases/12-a-d-2d-903/people-v-branham)\",\"match_kind\":\"semantic\",\"similarity\":0.6142},{\"cluster_id\":1980215,\"case_name\":\"Com. v. Branford\",\"citations\":[\"959 A.2d 457\",\"2008 WL 4573055\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2008-06-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/959-a-2d-457/com-v-branford\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Branford, 959 A.2d 457 (Pa. Super. Ct. 2008)\",\"link_md\":\"[Com. v. Branford, 959 A.2d 457 (Pa. Super. Ct. 2008)](https://syfert.com/pennsylvania/cases/959-a-2d-457/com-v-branford)\",\"match_kind\":\"semantic\",\"similarity\":0.6138},{\"cluster_id\":2270866,\"case_name\":\"Com. v. Burman\",\"citations\":[\"987 A.2d 158\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2009-12-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/987-a-2d-158/com-v-burman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Burman, 987 A.2d 158 (Pa. 2009)\",\"link_md\":\"[Com. v. Burman, 987 A.2d 158 (Pa. 2009)](https://syfert.com/pennsylvania/cases/987-a-2d-158/com-v-burman)\",\"match_kind\":\"semantic\",\"similarity\":0.6115},{\"cluster_id\":5865653,\"case_name\":\"People v. Branham\",\"citations\":[\"12 A.D.2d 485\",\"214 N.Y.S.2d 676\",\"1960 N.Y. App. Div. LEXIS 6928\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1960-11-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/12-a-d-2d-485/people-v-branham\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Branham, 12 A.D.2d 485 (N.Y. App. Div. 1st Dep't 1960)\",\"link_md\":\"[People v. Branham, 12 A.D.2d 485 (N.Y. App. Div. 1st Dep't 1960)](https://syfert.com/new-york/cases/12-a-d-2d-485/people-v-branham)\",\"match_kind\":\"semantic\",\"similarity\":0.6102},{\"cluster_id\":6017163,\"case_name\":\"People v. Brumant\",\"citations\":[\"99 A.D.3d 1016\",\"952 N.Y.S.2d 469\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2012-10-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/99-a-d-3d-1016/people-v-brumant\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Brumant, 99 A.D.3d 1016 (N.Y. App. Div. 2012)\",\"link_md\":\"[People v. Brumant, 99 A.D.3d 1016 (N.Y. App. Div. 2012)](https://syfert.com/new-york/cases/99-a-d-3d-1016/people-v-brumant)\",\"match_kind\":\"semantic\",\"similarity\":0.6086},{\"cluster_id\":6590680,\"case_name\":\"Burnam v. Macdanniell\",\"citations\":[\"1 Rec. Co. Ct. 62\"],\"court\":\"Suffolk County Court\",\"date_filed\":\"1672-01-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6590680/burnam-v-macdanniell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burnam v. Macdanniell, 1 Rec. Co. Ct. 62 (N.Y. Cnty. Ct. 1672)\",\"link_md\":\"[Burnam v. Macdanniell, 1 Rec. Co. Ct. 62 (N.Y. Cnty. Ct. 1672)](https://syfert.com/new-york/cases/cl-6590680/burnam-v-macdanniell)\",\"match_kind\":\"semantic\",\"similarity\":0.6079},{\"cluster_id\":10226754,\"case_name\":\"Branham v. Lipscomb\",\"citations\":[],\"court\":\"W.D. Virginia\",\"date_filed\":\"2022-12-07\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10226754/branham-v-lipscomb\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Branham v. Lipscomb, No. 6:22-cv-00042 (W.D. Va. Dec. 7, 2022)\",\"link_md\":\"[Branham v. Lipscomb, No. 6:22-cv-00042 (W.D. Va. Dec. 7, 2022)](https://syfert.com/federal/district/cases/cl-10226754/branham-v-lipscomb)\",\"match_kind\":\"semantic\",\"similarity\":0.6078},{\"cluster_id\":2558796,\"case_name\":\"Com. v. Briggman\",\"citations\":[\"16 A.3d 502\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"2011-01-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/16-a-3d-502/com-v-briggman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Briggman, 16 A.3d 502 (Pa. 2011)\",\"link_md\":\"[Com. v. Briggman, 16 A.3d 502 (Pa. 2011)](https://syfert.com/pennsylvania/cases/16-a-3d-502/com-v-briggman)\",\"match_kind\":\"semantic\",\"similarity\":0.6071},{\"cluster_id\":1480939,\"case_name\":\"Com. v. Bragg\",\"citations\":[\"984 A.2d 1008\",\"2009 WL 4691609\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2009-08-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/984-a-2d-1008/com-v-bragg\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Bragg, 984 A.2d 1008 (Pa. Super. Ct. 2009)\",\"link_md\":\"[Com. v. Bragg, 984 A.2d 1008 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/984-a-2d-1008/com-v-bragg)\",\"match_kind\":\"semantic\",\"similarity\":0.6051},{\"cluster_id\":2528585,\"case_name\":\"People v. Zambrana\",\"citations\":[\"953 N.E.2d 84\",\"352 Ill. Dec. 148\",\"377 Ill. App. 3d 1145\",\"2007 Ill. App. LEXIS 2972\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"2007-12-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/illinois/cases/377-ill-app-3d-1145/people-v-zambrana\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Zambrana, 953 N.E.2d 84 (Ill. App. Ct. 1st Dist. 2007)\",\"link_md\":\"[People v. Zambrana, 953 N.E.2d 84 (Ill. App. Ct. 1st Dist. 2007)](https://syfert.com/illinois/cases/377-ill-app-3d-1145/people-v-zambrana)\",\"match_kind\":\"semantic\",\"similarity\":0.6037},{\"cluster_id\":2327894,\"case_name\":\"Com. v. Bressman\",\"citations\":[\"34 A.3d 221\",\"2011 WL 6378539\"],\"court\":\"Superior Court of Pennsylvania\",\"date_filed\":\"2011-09-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/34-a-3d-221/com-v-bressman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Com. v. Bressman, 34 A.3d 221 (Pa. Super. Ct. 2011)\",\"link_md\":\"[Com. v. Bressman, 34 A.3d 221 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/34-a-3d-221/com-v-bressman)\",\"match_kind\":\"semantic\",\"similarity\":0.6036},{\"cluster_id\":7621623,\"case_name\":\"State ex rel. Bradford v. Bagert\",\"citations\":[\"496 So. 2d 1036\",\"1986 La. LEXIS 7676\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1986-11-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/496-so-2d-1036/state-ex-rel-bradford-v-bagert\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Bradford v. Bagert, 496 So. 2d 1036 (La. 1986)\",\"link_md\":\"[State ex rel. Bradford v. Bagert, 496 So. 2d 1036 (La. 1986)](https://syfert.com/louisiana/cases/496-so-2d-1036/state-ex-rel-bradford-v-bagert)\",\"match_kind\":\"semantic\",\"similarity\":0.6031},{\"cluster_id\":2036471,\"case_name\":\"People v. Zambrana\",\"citations\":[\"885 N.E.2d 581\",\"355 Ill. App. 3d 1189\",\"2005 Ill. App. LEXIS 5626\",\"319 Ill. Dec. 310\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"2005-03-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/illinois/cases/355-ill-app-3d-1189/people-v-zambrana\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Zambrana, 885 N.E.2d 581 (Ill. App. Ct. 1st Dist. 2005)\",\"link_md\":\"[People v. Zambrana, 885 N.E.2d 581 (Ill. App. Ct. 1st Dist. 2005)](https://syfert.com/illinois/cases/355-ill-app-3d-1189/people-v-zambrana)\",\"match_kind\":\"semantic\",\"similarity\":0.6028}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Braman w/15 \"36 AD2d 688\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 319624,
+    "case_name": "Branham v. Malone",
+    "citations": [
+     "497 F.2d 923"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1974-06-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/497-f-2d-923/branham-v-malone",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Branham v. Malone, 497 F.2d 923 (6th Cir. 1974)",
+    "link_md": "[Branham v. Malone, 497 F.2d 923 (6th Cir. 1974)](https://syfert.com/federal/circuits/cases/497-f-2d-923/branham-v-malone)",
+    "match_kind": "semantic",
+    "similarity": 0.6476
+   },
+   {
+    "cluster_id": 2422804,
+    "case_name": "Com. v. Bradham",
+    "citations": [
+     "11 A.3d 1040",
+     "2010 WL 4903275"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2010-08-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/11-a-3d-1040/com-v-bradham",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Bradham, 11 A.3d 1040 (Pa. Super. Ct. 2010)",
+    "link_md": "[Com. v. Bradham, 11 A.3d 1040 (Pa. Super. Ct. 2010)](https://syfert.com/pennsylvania/cases/11-a-3d-1040/com-v-bradham)",
+    "match_kind": "semantic",
+    "similarity": 0.6294
+   },
+   {
+    "cluster_id": 425375,
+    "case_name": "Brim v. Plageman",
+    "citations": [
+     "718 F.2d 1088"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1983-10-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/718-f-2d-1088/brim-v-plageman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Brim v. Plageman, 718 F.2d 1088 (4th Cir. 1983)",
+    "link_md": "[Brim v. Plageman, 718 F.2d 1088 (4th Cir. 1983)](https://syfert.com/federal/circuits/cases/718-f-2d-1088/brim-v-plageman)",
+    "match_kind": "semantic",
+    "similarity": 0.6269
+   },
+   {
+    "cluster_id": 1798010,
+    "case_name": "State v. BRINGMAN",
+    "citations": [
+     "747 N.W.2d 148",
+     "2008 S.D. LEXIS 68",
+     "2008 WL 1728067"
+    ],
+    "court": "South Dakota Supreme Court",
+    "date_filed": "2008-03-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/south-dakota/cases/747-n-w-2d-148/state-v-bringman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Bringman, 747 N.W.2d 148 (S.D. 2008)",
+    "link_md": "[State v. Bringman, 747 N.W.2d 148 (S.D. 2008)](https://syfert.com/south-dakota/cases/747-n-w-2d-148/state-v-bringman)",
+    "match_kind": "semantic",
+    "similarity": 0.6269
+   },
+   {
+    "cluster_id": 2012602,
+    "case_name": "People v. Brim",
+    "citations": [
+     "927 N.E.2d 341",
+     "365 Ill. App. 3d 1117",
+     "2006 Ill. App. LEXIS 8362",
+     "339 Ill. Dec. 800"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "2006-06-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/illinois/cases/365-ill-app-3d-1117/people-v-brim",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Brim, 927 N.E.2d 341 (Ill. App. Ct. 3d Dist. 2006)",
+    "link_md": "[People v. Brim, 927 N.E.2d 341 (Ill. App. Ct. 3d Dist. 2006)](https://syfert.com/illinois/cases/365-ill-app-3d-1117/people-v-brim)",
+    "match_kind": "semantic",
+    "similarity": 0.6257
+   },
+   {
+    "cluster_id": 465765,
+    "case_name": "Branscome v. City of Paramount",
+    "citations": [
+     "785 F.2d 314"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1986-02-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/785-f-2d-314/branscome-v-city-of-paramount",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Branscome v. City of Paramount, 785 F.2d 314 (9th Cir. 1986)",
+    "link_md": "[Branscome v. City of Paramount, 785 F.2d 314 (9th Cir. 1986)](https://syfert.com/federal/circuits/cases/785-f-2d-314/branscome-v-city-of-paramount)",
+    "match_kind": "semantic",
+    "similarity": 0.6202
+   },
+   {
+    "cluster_id": 5624607,
+    "case_name": "Braman v. Johnson",
+    "citations": [
+     "26 How. Pr. 27"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1863-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-5624607/braman-v-johnson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Braman v. Johnson, 26 How. Pr. 27 (N.Y. 1863)",
+    "link_md": "[Braman v. Johnson, 26 How. Pr. 27 (N.Y. 1863)](https://syfert.com/new-york/cases/cl-5624607/braman-v-johnson)",
+    "match_kind": "semantic",
+    "similarity": 0.6189
+   },
+   {
+    "cluster_id": 5868173,
+    "case_name": "People v. Branham",
+    "citations": [
+     "12 A.D.2d 903",
+     "215 N.Y.S.2d 226",
+     "1961 N.Y. App. Div. LEXIS 12791"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1961-02-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/12-a-d-2d-903/people-v-branham",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Branham, 12 A.D.2d 903 (N.Y. App. Div. 1st Dep't 1961)",
+    "link_md": "[People v. Branham, 12 A.D.2d 903 (N.Y. App. Div. 1st Dep't 1961)](https://syfert.com/new-york/cases/12-a-d-2d-903/people-v-branham)",
+    "match_kind": "semantic",
+    "similarity": 0.6142
+   },
+   {
+    "cluster_id": 1980215,
+    "case_name": "Com. v. Branford",
+    "citations": [
+     "959 A.2d 457",
+     "2008 WL 4573055"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2008-06-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/959-a-2d-457/com-v-branford",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Branford, 959 A.2d 457 (Pa. Super. Ct. 2008)",
+    "link_md": "[Com. v. Branford, 959 A.2d 457 (Pa. Super. Ct. 2008)](https://syfert.com/pennsylvania/cases/959-a-2d-457/com-v-branford)",
+    "match_kind": "semantic",
+    "similarity": 0.6138
+   },
+   {
+    "cluster_id": 2270866,
+    "case_name": "Com. v. Burman",
+    "citations": [
+     "987 A.2d 158"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2009-12-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/987-a-2d-158/com-v-burman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Burman, 987 A.2d 158 (Pa. 2009)",
+    "link_md": "[Com. v. Burman, 987 A.2d 158 (Pa. 2009)](https://syfert.com/pennsylvania/cases/987-a-2d-158/com-v-burman)",
+    "match_kind": "semantic",
+    "similarity": 0.6115
+   },
+   {
+    "cluster_id": 5865653,
+    "case_name": "People v. Branham",
+    "citations": [
+     "12 A.D.2d 485",
+     "214 N.Y.S.2d 676",
+     "1960 N.Y. App. Div. LEXIS 6928"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1960-11-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/12-a-d-2d-485/people-v-branham",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Branham, 12 A.D.2d 485 (N.Y. App. Div. 1st Dep't 1960)",
+    "link_md": "[People v. Branham, 12 A.D.2d 485 (N.Y. App. Div. 1st Dep't 1960)](https://syfert.com/new-york/cases/12-a-d-2d-485/people-v-branham)",
+    "match_kind": "semantic",
+    "similarity": 0.6102
+   },
+   {
+    "cluster_id": 6017163,
+    "case_name": "People v. Brumant",
+    "citations": [
+     "99 A.D.3d 1016",
+     "952 N.Y.S.2d 469"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2012-10-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/99-a-d-3d-1016/people-v-brumant",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Brumant, 99 A.D.3d 1016 (N.Y. App. Div. 2012)",
+    "link_md": "[People v. Brumant, 99 A.D.3d 1016 (N.Y. App. Div. 2012)](https://syfert.com/new-york/cases/99-a-d-3d-1016/people-v-brumant)",
+    "match_kind": "semantic",
+    "similarity": 0.6086
+   },
+   {
+    "cluster_id": 6590680,
+    "case_name": "Burnam v. Macdanniell",
+    "citations": [
+     "1 Rec. Co. Ct. 62"
+    ],
+    "court": "Suffolk County Court",
+    "date_filed": "1672-01-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6590680/burnam-v-macdanniell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burnam v. Macdanniell, 1 Rec. Co. Ct. 62 (N.Y. Cnty. Ct. 1672)",
+    "link_md": "[Burnam v. Macdanniell, 1 Rec. Co. Ct. 62 (N.Y. Cnty. Ct. 1672)](https://syfert.com/new-york/cases/cl-6590680/burnam-v-macdanniell)",
+    "match_kind": "semantic",
+    "similarity": 0.6079
+   },
+   {
+    "cluster_id": 10226754,
+    "case_name": "Branham v. Lipscomb",
+    "citations": [],
+    "court": "W.D. Virginia",
+    "date_filed": "2022-12-07",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10226754/branham-v-lipscomb",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Branham v. Lipscomb, No. 6:22-cv-00042 (W.D. Va. Dec. 7, 2022)",
+    "link_md": "[Branham v. Lipscomb, No. 6:22-cv-00042 (W.D. Va. Dec. 7, 2022)](https://syfert.com/federal/district/cases/cl-10226754/branham-v-lipscomb)",
+    "match_kind": "semantic",
+    "similarity": 0.6078
+   },
+   {
+    "cluster_id": 2558796,
+    "case_name": "Com. v. Briggman",
+    "citations": [
+     "16 A.3d 502"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2011-01-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/16-a-3d-502/com-v-briggman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Briggman, 16 A.3d 502 (Pa. 2011)",
+    "link_md": "[Com. v. Briggman, 16 A.3d 502 (Pa. 2011)](https://syfert.com/pennsylvania/cases/16-a-3d-502/com-v-briggman)",
+    "match_kind": "semantic",
+    "similarity": 0.6071
+   },
+   {
+    "cluster_id": 1480939,
+    "case_name": "Com. v. Bragg",
+    "citations": [
+     "984 A.2d 1008",
+     "2009 WL 4691609"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2009-08-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/984-a-2d-1008/com-v-bragg",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Bragg, 984 A.2d 1008 (Pa. Super. Ct. 2009)",
+    "link_md": "[Com. v. Bragg, 984 A.2d 1008 (Pa. Super. Ct. 2009)](https://syfert.com/pennsylvania/cases/984-a-2d-1008/com-v-bragg)",
+    "match_kind": "semantic",
+    "similarity": 0.6051
+   },
+   {
+    "cluster_id": 2528585,
+    "case_name": "People v. Zambrana",
+    "citations": [
+     "953 N.E.2d 84",
+     "352 Ill. Dec. 148",
+     "377 Ill. App. 3d 1145",
+     "2007 Ill. App. LEXIS 2972"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "2007-12-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/illinois/cases/377-ill-app-3d-1145/people-v-zambrana",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Zambrana, 953 N.E.2d 84 (Ill. App. Ct. 1st Dist. 2007)",
+    "link_md": "[People v. Zambrana, 953 N.E.2d 84 (Ill. App. Ct. 1st Dist. 2007)](https://syfert.com/illinois/cases/377-ill-app-3d-1145/people-v-zambrana)",
+    "match_kind": "semantic",
+    "similarity": 0.6037
+   },
+   {
+    "cluster_id": 2327894,
+    "case_name": "Com. v. Bressman",
+    "citations": [
+     "34 A.3d 221",
+     "2011 WL 6378539"
+    ],
+    "court": "Superior Court of Pennsylvania",
+    "date_filed": "2011-09-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/34-a-3d-221/com-v-bressman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Com. v. Bressman, 34 A.3d 221 (Pa. Super. Ct. 2011)",
+    "link_md": "[Com. v. Bressman, 34 A.3d 221 (Pa. Super. Ct. 2011)](https://syfert.com/pennsylvania/cases/34-a-3d-221/com-v-bressman)",
+    "match_kind": "semantic",
+    "similarity": 0.6036
+   },
+   {
+    "cluster_id": 7621623,
+    "case_name": "State ex rel. Bradford v. Bagert",
+    "citations": [
+     "496 So. 2d 1036",
+     "1986 La. LEXIS 7676"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1986-11-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/496-so-2d-1036/state-ex-rel-bradford-v-bagert",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Bradford v. Bagert, 496 So. 2d 1036 (La. 1986)",
+    "link_md": "[State ex rel. Bradford v. Bagert, 496 So. 2d 1036 (La. 1986)](https://syfert.com/louisiana/cases/496-so-2d-1036/state-ex-rel-bradford-v-bagert)",
+    "match_kind": "semantic",
+    "similarity": 0.6031
+   },
+   {
+    "cluster_id": 2036471,
+    "case_name": "People v. Zambrana",
+    "citations": [
+     "885 N.E.2d 581",
+     "355 Ill. App. 3d 1189",
+     "2005 Ill. App. LEXIS 5626",
+     "319 Ill. Dec. 310"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "2005-03-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/illinois/cases/355-ill-app-3d-1189/people-v-zambrana",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Zambrana, 885 N.E.2d 581 (Ill. App. Ct. 1st Dist. 2005)",
+    "link_md": "[People v. Zambrana, 885 N.E.2d 581 (Ill. App. Ct. 1st Dist. 2005)](https://syfert.com/illinois/cases/355-ill-app-3d-1189/people-v-zambrana)",
+    "match_kind": "semantic",
+    "similarity": 0.6028
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

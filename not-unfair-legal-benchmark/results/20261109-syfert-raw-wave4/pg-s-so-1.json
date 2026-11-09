@@ -1,0 +1,114 @@
+{
+ "id": "pg-s-so-1",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Espalla v. Mobile County, 73 So. 76."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"party_mismatch\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"73 So. 76\",\n            \"problem\": \"name mismatch: this citation is Terry v. Rich, not Espalla v. Mobile County; fix the name or the citation\",\n            \"suggested\": \"Terry v. Rich, 73 So. 76 (Ala. 1916)\",\n            \"claimed_name\": \"Espalla v. Mobile County\"\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"73 So. 76\",\n            \"volume\": \"73\",\n            \"reporter\": \"So.\",\n            \"page\": \"76\",\n            \"pin\": null,\n            \"cluster_id\": 7448264,\n            \"case\": {\n                \"case_name\": \"Terry v. Rich\",\n                \"case_name_short\": \"Terry\",\n                \"date_filed\": \"1916-11-16\",\n                \"court_id\": \"ala\",\n                \"docket_number\": null,\n                \"citation_count\": 11,\n                \"court_label\": \"Ala.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.75,\n                \"total_events\": 22,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Espalla\",\n                \"rhs\": \"Mobile County\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Espalla\",\n                    \"rhs\": \"Mobile County\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"Terry v. Rich\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/alabama/cases/197-ala-486/terry-v-rich\",\n            \"link_md\": \"[Terry v. Rich](https://syfert.com/alabama/cases/197-ala-486/terry-v-rich)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "party_mismatch": 1
+    },
+    "warnings": [
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "73 So. 76",
+      "problem": "name mismatch: this citation is Terry v. Rich, not Espalla v. Mobile County; fix the name or the citation",
+      "suggested": "Terry v. Rich, 73 So. 76 (Ala. 1916)",
+      "claimed_name": "Espalla v. Mobile County"
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "73 So. 76",
+      "volume": "73",
+      "reporter": "So.",
+      "page": "76",
+      "pin": null,
+      "cluster_id": 7448264,
+      "case": {
+       "case_name": "Terry v. Rich",
+       "case_name_short": "Terry",
+       "date_filed": "1916-11-16",
+       "court_id": "ala",
+       "docket_number": null,
+       "citation_count": 11,
+       "court_label": "Ala."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.75,
+       "total_events": 22,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Espalla",
+       "rhs": "Mobile County"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Espalla",
+        "rhs": "Mobile County"
+       },
+       "verdict": "mismatch",
+       "resolved_name": "Terry v. Rich"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/alabama/cases/197-ala-486/terry-v-rich",
+      "link_md": "[Terry v. Rich](https://syfert.com/alabama/cases/197-ala-486/terry-v-rich)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+cl pg-m-ne-1      References in document: 1 (1 full)
+cl pg-m-ne-2      References in document: 1 (1 full)
+cl pg-m-se2-1      References in document: 1 (1 full)
+cl pg-m-se2-2      References in document: 1 (1 full)
+cl pg-m-so-1      References in document: 1 (1 full)
+cl pg-m-so-2      References in document: 1 (1 full)
+cl pg-m-sw2-1      References in document: 1 (1 full)
+cl pg-m-sw2-2      References in document: 1 (1 full)
+cl pg-m-nys2d-1      References in document: 1 (1 full)
+cl ny-9-1      Parallel citations: 82 A.D.3d 144, 917 N.Y.2d 379
+cl ny-9-2      References in document: 1 (1 full)
+cl ny-9-3      Parallel citations: 82 A.D.3d 421, 918 N.Y.2d 73
+cl ny-9-4      References in document: 1 (1 full)
+cl ny-9-5      Parallel citations: 86 A.D.3d 274, 926 N.Y.2d 532
+cl ny-9-6      References in document: 1 (1 full)
+cl ny-9-7      Parallel citations: 87 A.D.3d 955, 929 N.Y.2d 315
+cl ny-9-8      References in document: 1 (1 full)
+cl ny-9-9      Parallel citations: 89 A.D.3d 494, 932 N.Y.2d 68
+cl ny-9-10      References in document: 1 (1 full)
+cl calls 19
+{
+ "items": 51,
+ "by_class_shape": {
+  "samepage/i/move": 9,
+  "samepage/ii/move": 9,
+  "samepage/ii/stray": 11,
+  "nyseries/i/N.Y.2d-label": 8,
+  "nyseries/ii/N.Y.2d-label": 8,
+  "control/-/-": 6
+ },
+ "by_reporter": {
+  "P.": 6,
+  "S.W.": 3,
+  "N.W.": 2,
+  "A.": 2,
+  "A.2d": 1,
+  "N.E.": 1,
+  "S.E.": 1,
+  "S.E.2d": 3,
+  "P.2d": 3,
+  "So.": 3,
+  "N.E.2d": 1,
+  "S.W.2d": 1,
+  "N.W.2d": 4,
+  "N.Y.S.2d": 20
+ },
+ "drops_by_stage": {
+  "evidence/move": 17,
+  "evidence/stray": 30,
+  "evidence/ny": 5,
+  "evidence/control": 11
+ },
+ "self_check_failures": []
+}

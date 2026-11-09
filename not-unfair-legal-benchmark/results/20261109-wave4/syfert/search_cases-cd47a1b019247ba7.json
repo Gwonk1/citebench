@@ -1,0 +1,460 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Pinder w/15 \"853 N.Y.2d 312\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Pinder w/15 \\\"853 N.Y.2d 312\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":9338340,\"case_name\":\"Pinder v. McDowell\",\"citations\":[\"139 S. Ct. 423\",\"202 L. Ed. 2d 325\"],\"court\":\"Supreme Court\",\"date_filed\":\"2018-10-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/139-s-ct-423/pinder-v-mcdowell\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pinder v. McDowell, 139 S. Ct. 423 (2018)\",\"link_md\":\"[Pinder v. McDowell, 139 S. Ct. 423 (2018)](https://syfert.com/federal/scotus/cases/139-s-ct-423/pinder-v-mcdowell)\",\"match_kind\":\"semantic\",\"similarity\":0.6338},{\"cluster_id\":7349783,\"case_name\":\"Pinder v. Hobbs\",\"citations\":[\"565 U.S. 1069\",\"181 L. Ed. 2d 501\",\"2011 U.S. LEXIS 8585\",\"132 S. Ct. 782\",\"80 U.S.L.W. 3318\"],\"court\":\"Supreme Court\",\"date_filed\":\"2011-11-28\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/scotus/cases/565-u-s-1069/pinder-v-hobbs\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (7349783 and its twin 9244582).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pinder v. Hobbs, 565 U.S. 1069 (2011)\",\"link_md\":\"[Pinder v. Hobbs, 565 U.S. 1069 (2011)](https://syfert.com/federal/scotus/cases/565-u-s-1069/pinder-v-hobbs)\",\"match_kind\":\"semantic\",\"similarity\":0.6299},{\"cluster_id\":7338600,\"case_name\":\"Pinder v. Hobbs\",\"citations\":[\"562 U.S. 907\",\"178 L. Ed. 2d 167\",\"2010 U.S. LEXIS 6850\",\"131 S. Ct. 252\",\"79 U.S.L.W. 3202\"],\"court\":\"Supreme Court\",\"date_filed\":\"2010-10-04\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/scotus/cases/562-u-s-907/pinder-v-hobbs\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (7338600 and its twin 9232593).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pinder v. Hobbs, 562 U.S. 907 (2010)\",\"link_md\":\"[Pinder v. Hobbs, 562 U.S. 907 (2010)](https://syfert.com/federal/scotus/cases/562-u-s-907/pinder-v-hobbs)\",\"match_kind\":\"semantic\",\"similarity\":0.6265},{\"cluster_id\":10584992,\"case_name\":\"Matter of Pineda v. Santana\",\"citations\":[\"238 A.D.3d 558\",\"2025 NY Slip Op 03007\",\"231 N.Y.S.3d 502\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2025-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/238-a-d-3d-558/matter-of-pineda-v-santana\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"238 A.D.3d 558\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/238%20A.D.3d\"},{\"citation\":\"231 N.Y.S.3d 502\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/231%20N.Y.S.3d\"}],\"bluebook\":\"Matter of Pineda v. Santana, 238 A.D.3d 558 (N.Y. App. Div. 1st Dep't 2025)\",\"link_md\":\"[Matter of Pineda v. Santana, 238 A.D.3d 558 (N.Y. App. Div. 1st Dep't 2025)](https://syfert.com/new-york/cases/238-a-d-3d-558/matter-of-pineda-v-santana)\",\"match_kind\":\"semantic\",\"similarity\":0.5955},{\"cluster_id\":5909226,\"case_name\":\"Podlaski v. Long Island Paneling Center of Centereach, Inc.\",\"citations\":[\"58 A.D.3d 825\",\"873 N.Y.S.2d 109\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2009-01-27\",\"status\":\"Published\",\"cited_by\":118,\"url\":\"https://syfert.com/new-york/cases/58-a-d-3d-825/podlaski-v-long-island-paneling-center-of-centereach-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Podlaski v. Long Island Paneling Ctr. of Centereach, Inc., 58 A.D.3d 825 (N.Y. App. Div. 2d Dep't 2009)\",\"link_md\":\"[Podlaski v. Long Island Paneling Ctr. of Centereach, Inc., 58 A.D.3d 825 (N.Y. App. Div. 2d Dep't 2009)](https://syfert.com/new-york/cases/58-a-d-3d-825/podlaski-v-long-island-paneling-center-of-centereach-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.5944},{\"cluster_id\":6181656,\"case_name\":\"Spaulding v. Metropolitan Life Insurance\",\"citations\":[\"271 A.D.2d 317\",\"706 N.Y.S.2d 639\",\"2000 N.Y. App. Div. LEXIS 4392\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2000-04-18\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/new-york/cases/271-a-d-2d-317/spaulding-v-metropolitan-life-insurance\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Spaulding v. Metro. Life Ins., 271 A.D.2d 317 (N.Y. App. Div. 1st Dep't 2000)\",\"link_md\":\"[Spaulding v. Metro. Life Ins., 271 A.D.2d 317 (N.Y. App. Div. 1st Dep't 2000)](https://syfert.com/new-york/cases/271-a-d-2d-317/spaulding-v-metropolitan-life-insurance)\",\"match_kind\":\"semantic\",\"similarity\":0.592},{\"cluster_id\":495698,\"case_name\":\"Appeal of Pendleton (Kenneth)\",\"citations\":[\"831 F.2d 287\"],\"court\":\"Third Circuit\",\"date_filed\":\"1987-09-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/831-f-2d-287/appeal-of-pendleton-kenneth\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Appeal of Pendleton (Kenneth), 831 F.2d 287 (3d Cir. 1987)\",\"link_md\":\"[Appeal of Pendleton (Kenneth), 831 F.2d 287 (3d Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-287/appeal-of-pendleton-kenneth)\",\"match_kind\":\"semantic\",\"similarity\":0.587},{\"cluster_id\":6112566,\"case_name\":\"Gefrard v. E.W. Bliss Co.\",\"citations\":[\"205 A.D.2d 663\",\"614 N.Y.S.2d 300\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1994-06-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/205-a-d-2d-663/gefrard-v-ew-bliss-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gefrard v. E.W. Bliss Co., 205 A.D.2d 663 (N.Y. App. Div. 2d Dep't 1994)\",\"link_md\":\"[Gefrard v. E.W. Bliss Co., 205 A.D.2d 663 (N.Y. App. Div. 2d Dep't 1994)](https://syfert.com/new-york/cases/205-a-d-2d-663/gefrard-v-ew-bliss-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5858},{\"cluster_id\":5855401,\"case_name\":\"Pinder v. Gromet\",\"citations\":[\"9 A.D.2d 683\",\"192 N.Y.S.2d 491\",\"1959 N.Y. App. Div. LEXIS 6814\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1959-10-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/9-a-d-2d-683/pinder-v-gromet\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pinder v. Gromet, 9 A.D.2d 683 (N.Y. App. Div. 2d Dep't 1959)\",\"link_md\":\"[Pinder v. Gromet, 9 A.D.2d 683 (N.Y. App. Div. 2d Dep't 1959)](https://syfert.com/new-york/cases/9-a-d-2d-683/pinder-v-gromet)\",\"match_kind\":\"semantic\",\"similarity\":0.5837},{\"cluster_id\":8403744,\"case_name\":\"Padron v. Granite Broadway Dev. LLC\",\"citations\":[\"209 A.D.3d 536\",\"2022 NY Slip Op 05798\",\"177 N.Y.S.3d 220\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2022-10-18\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/new-york/cases/209-a-d-3d-536/padron-v-granite-broadway-dev-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Padron v. Granite Broadway Dev. LLC, 209 A.D.3d 536 (N.Y. App. Div. 1st Dep't 2022)\",\"link_md\":\"[Padron v. Granite Broadway Dev. LLC, 209 A.D.3d 536 (N.Y. App. Div. 1st Dep't 2022)](https://syfert.com/new-york/cases/209-a-d-3d-536/padron-v-granite-broadway-dev-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.583},{\"cluster_id\":6219566,\"case_name\":\"Dixon v. Marilyn\",\"citations\":[\"295 A.D.2d 308\",\"742 N.Y.S.2d 906\",\"2002 N.Y. App. Div. LEXIS 5730\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2002-06-03\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/new-york/cases/295-a-d-2d-308/dixon-v-marilyn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dixon v. Marilyn, 295 A.D.2d 308 (N.Y. App. Div. 2d Dep't 2002)\",\"link_md\":\"[Dixon v. Marilyn, 295 A.D.2d 308 (N.Y. App. Div. 2d Dep't 2002)](https://syfert.com/new-york/cases/295-a-d-2d-308/dixon-v-marilyn)\",\"match_kind\":\"semantic\",\"similarity\":0.5796},{\"cluster_id\":6213848,\"case_name\":\"Sumner v. Sumner\",\"citations\":[\"289 A.D.2d 129\",\"733 N.Y.S.2d 869\",\"2001 N.Y. App. Div. LEXIS 12276\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2001-12-18\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/new-york/cases/289-a-d-2d-129/sumner-v-sumner\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sumner v. Sumner, 289 A.D.2d 129 (N.Y. App. Div. 1st Dep't 2001)\",\"link_md\":\"[Sumner v. Sumner, 289 A.D.2d 129 (N.Y. App. Div. 1st Dep't 2001)](https://syfert.com/new-york/cases/289-a-d-2d-129/sumner-v-sumner)\",\"match_kind\":\"semantic\",\"similarity\":0.579},{\"cluster_id\":346089,\"case_name\":\"Turner v. American Dredging Co\",\"citations\":[\"556 F.2d 568\"],\"court\":\"Third Circuit\",\"date_filed\":\"1977-05-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/556-f-2d-568/turner-v-american-dredging-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Turner v. Am. Dredging Co, 556 F.2d 568 (3d Cir. 1977)\",\"link_md\":\"[Turner v. Am. Dredging Co, 556 F.2d 568 (3d Cir. 1977)](https://syfert.com/federal/circuits/cases/556-f-2d-568/turner-v-american-dredging-co)\",\"match_kind\":\"semantic\",\"similarity\":0.5781},{\"cluster_id\":5483859,\"case_name\":\"Puritan Steam Laundry Co. v. Robbins\",\"citations\":[\"234 A.D. 897\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1931-12-15\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/234-a-d-897/puritan-steam-laundry-co-v-robbins\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Puritan Steam Laundry Co. v. Robbins, 234 A.D. 897 (N.Y. App. Div. 1931)\",\"link_md\":\"[Puritan Steam Laundry Co. v. Robbins, 234 A.D. 897 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/234-a-d-897/puritan-steam-laundry-co-v-robbins)\",\"match_kind\":\"semantic\",\"similarity\":0.5771},{\"cluster_id\":484410,\"case_name\":\"Taylor (Roger L., Joyce E.) v. Dresser Industries, Inc., Dewrance & Company, Ltd\",\"citations\":[\"813 F.2d 399\"],\"court\":\"Third Circuit\",\"date_filed\":\"1987-02-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/813-f-2d-399/taylor-roger-l-joyce-e-v-dresser-industries-inc-de\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Taylor (Roger L., Joyce E.) v. Dresser Indus., Inc., 813 F.2d 399 (3d Cir. 1987)\",\"link_md\":\"[Taylor (Roger L., Joyce E.) v. Dresser Indus., Inc., 813 F.2d 399 (3d Cir. 1987)](https://syfert.com/federal/circuits/cases/813-f-2d-399/taylor-roger-l-joyce-e-v-dresser-industries-inc-de)\",\"match_kind\":\"semantic\",\"similarity\":0.5763},{\"cluster_id\":530720,\"case_name\":\"Pinehurst Enterprises, Inc. v. Town of Southern Pines\",\"citations\":[\"887 F.2d 1080\",\"1989 U.S. App. LEXIS 14673\",\"1989 WL 117709\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1989-09-28\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/887-f-2d-1080/pinehurst-enterprises-inc-v-town-of-southern-pines\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pinehurst Enter., Inc. v. Town of S. Pines, 887 F.2d 1080 (4th Cir. 1989)\",\"link_md\":\"[Pinehurst Enter., Inc. v. Town of S. Pines, 887 F.2d 1080 (4th Cir. 1989)](https://syfert.com/federal/circuits/cases/887-f-2d-1080/pinehurst-enterprises-inc-v-town-of-southern-pines)\",\"match_kind\":\"semantic\",\"similarity\":0.5747},{\"cluster_id\":10584993,\"case_name\":\"Matter of Pineda v. Reyes\",\"citations\":[\"238 A.D.3d 557\",\"2025 NY Slip Op 03006\",\"231 N.Y.S.3d 502\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2025-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/238-a-d-3d-557/matter-of-pineda-v-reyes\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"238 A.D.3d 557\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/238%20A.D.3d\"},{\"citation\":\"231 N.Y.S.3d 502\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/231%20N.Y.S.3d\"}],\"bluebook\":\"Matter of Pineda v. Reyes, 238 A.D.3d 557 (N.Y. App. Div. 1st Dep't 2025)\",\"link_md\":\"[Matter of Pineda v. Reyes, 238 A.D.3d 557 (N.Y. App. Div. 1st Dep't 2025)](https://syfert.com/new-york/cases/238-a-d-3d-557/matter-of-pineda-v-reyes)\",\"match_kind\":\"semantic\",\"similarity\":0.574},{\"cluster_id\":349709,\"case_name\":\"Independent Pier Co. v. Lind\",\"citations\":[\"564 F.2d 89\"],\"court\":\"Third Circuit\",\"date_filed\":\"1977-09-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/564-f-2d-89/independent-pier-co-v-lind\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Indep. Pier Co. v. Lind, 564 F.2d 89 (3d Cir. 1977)\",\"link_md\":\"[Indep. Pier Co. v. Lind, 564 F.2d 89 (3d Cir. 1977)](https://syfert.com/federal/circuits/cases/564-f-2d-89/independent-pier-co-v-lind)\",\"match_kind\":\"semantic\",\"similarity\":0.5733},{\"cluster_id\":468425,\"case_name\":\"Pendleton v. N.Y.S. Dept. Corr. Serv\",\"citations\":[\"788 F.2d 6\",\"41 Fair Empl. Prac. Cas. (BNA) 584\"],\"court\":\"Second Circuit\",\"date_filed\":\"1986-03-07\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/788-f-2d-6/pendleton-v-nys-dept-corr-serv\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pendleton v. N.Y.S. Dept. Corr. Serv, 788 F.2d 6 (2d Cir. 1986)\",\"link_md\":\"[Pendleton v. N.Y.S. Dept. Corr. Serv, 788 F.2d 6 (2d Cir. 1986)](https://syfert.com/federal/circuits/cases/788-f-2d-6/pendleton-v-nys-dept-corr-serv)\",\"match_kind\":\"semantic\",\"similarity\":0.5728},{\"cluster_id\":6222553,\"case_name\":\"Frazier v. Pioneer Central School District\",\"citations\":[\"298 A.D.2d 875\",\"748 N.Y.S.2d 444\",\"2002 N.Y. App. Div. LEXIS 8929\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2002-10-01\",\"status\":\"Published\",\"cited_by\":8,\"url\":\"https://syfert.com/new-york/cases/298-a-d-2d-875/frazier-v-pioneer-central-school-district\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Frazier v. Pioneer Cent. Sch. Dist., 298 A.D.2d 875 (N.Y. App. Div. 4th Dep't 2002)\",\"link_md\":\"[Frazier v. Pioneer Cent. Sch. Dist., 298 A.D.2d 875 (N.Y. App. Div. 4th Dep't 2002)](https://syfert.com/new-york/cases/298-a-d-2d-875/frazier-v-pioneer-central-school-district)\",\"match_kind\":\"semantic\",\"similarity\":0.5728}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Pinder w/15 \"853 N.Y.2d 312\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 9338340,
+    "case_name": "Pinder v. McDowell",
+    "citations": [
+     "139 S. Ct. 423",
+     "202 L. Ed. 2d 325"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2018-10-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/139-s-ct-423/pinder-v-mcdowell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pinder v. McDowell, 139 S. Ct. 423 (2018)",
+    "link_md": "[Pinder v. McDowell, 139 S. Ct. 423 (2018)](https://syfert.com/federal/scotus/cases/139-s-ct-423/pinder-v-mcdowell)",
+    "match_kind": "semantic",
+    "similarity": 0.6338
+   },
+   {
+    "cluster_id": 7349783,
+    "case_name": "Pinder v. Hobbs",
+    "citations": [
+     "565 U.S. 1069",
+     "181 L. Ed. 2d 501",
+     "2011 U.S. LEXIS 8585",
+     "132 S. Ct. 782",
+     "80 U.S.L.W. 3318"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2011-11-28",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/scotus/cases/565-u-s-1069/pinder-v-hobbs",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (7349783 and its twin 9244582).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pinder v. Hobbs, 565 U.S. 1069 (2011)",
+    "link_md": "[Pinder v. Hobbs, 565 U.S. 1069 (2011)](https://syfert.com/federal/scotus/cases/565-u-s-1069/pinder-v-hobbs)",
+    "match_kind": "semantic",
+    "similarity": 0.6299
+   },
+   {
+    "cluster_id": 7338600,
+    "case_name": "Pinder v. Hobbs",
+    "citations": [
+     "562 U.S. 907",
+     "178 L. Ed. 2d 167",
+     "2010 U.S. LEXIS 6850",
+     "131 S. Ct. 252",
+     "79 U.S.L.W. 3202"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2010-10-04",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/scotus/cases/562-u-s-907/pinder-v-hobbs",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (7338600 and its twin 9232593).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pinder v. Hobbs, 562 U.S. 907 (2010)",
+    "link_md": "[Pinder v. Hobbs, 562 U.S. 907 (2010)](https://syfert.com/federal/scotus/cases/562-u-s-907/pinder-v-hobbs)",
+    "match_kind": "semantic",
+    "similarity": 0.6265
+   },
+   {
+    "cluster_id": 10584992,
+    "case_name": "Matter of Pineda v. Santana",
+    "citations": [
+     "238 A.D.3d 558",
+     "2025 NY Slip Op 03007",
+     "231 N.Y.S.3d 502"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2025-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/238-a-d-3d-558/matter-of-pineda-v-santana",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "238 A.D.3d 558",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/238%20A.D.3d"
+     },
+     {
+      "citation": "231 N.Y.S.3d 502",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/231%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "Matter of Pineda v. Santana, 238 A.D.3d 558 (N.Y. App. Div. 1st Dep't 2025)",
+    "link_md": "[Matter of Pineda v. Santana, 238 A.D.3d 558 (N.Y. App. Div. 1st Dep't 2025)](https://syfert.com/new-york/cases/238-a-d-3d-558/matter-of-pineda-v-santana)",
+    "match_kind": "semantic",
+    "similarity": 0.5955
+   },
+   {
+    "cluster_id": 5909226,
+    "case_name": "Podlaski v. Long Island Paneling Center of Centereach, Inc.",
+    "citations": [
+     "58 A.D.3d 825",
+     "873 N.Y.S.2d 109"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2009-01-27",
+    "status": "Published",
+    "cited_by": 118,
+    "url": "https://syfert.com/new-york/cases/58-a-d-3d-825/podlaski-v-long-island-paneling-center-of-centereach-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Podlaski v. Long Island Paneling Ctr. of Centereach, Inc., 58 A.D.3d 825 (N.Y. App. Div. 2d Dep't 2009)",
+    "link_md": "[Podlaski v. Long Island Paneling Ctr. of Centereach, Inc., 58 A.D.3d 825 (N.Y. App. Div. 2d Dep't 2009)](https://syfert.com/new-york/cases/58-a-d-3d-825/podlaski-v-long-island-paneling-center-of-centereach-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.5944
+   },
+   {
+    "cluster_id": 6181656,
+    "case_name": "Spaulding v. Metropolitan Life Insurance",
+    "citations": [
+     "271 A.D.2d 317",
+     "706 N.Y.S.2d 639",
+     "2000 N.Y. App. Div. LEXIS 4392"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2000-04-18",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/new-york/cases/271-a-d-2d-317/spaulding-v-metropolitan-life-insurance",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Spaulding v. Metro. Life Ins., 271 A.D.2d 317 (N.Y. App. Div. 1st Dep't 2000)",
+    "link_md": "[Spaulding v. Metro. Life Ins., 271 A.D.2d 317 (N.Y. App. Div. 1st Dep't 2000)](https://syfert.com/new-york/cases/271-a-d-2d-317/spaulding-v-metropolitan-life-insurance)",
+    "match_kind": "semantic",
+    "similarity": 0.592
+   },
+   {
+    "cluster_id": 495698,
+    "case_name": "Appeal of Pendleton (Kenneth)",
+    "citations": [
+     "831 F.2d 287"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1987-09-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/831-f-2d-287/appeal-of-pendleton-kenneth",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Appeal of Pendleton (Kenneth), 831 F.2d 287 (3d Cir. 1987)",
+    "link_md": "[Appeal of Pendleton (Kenneth), 831 F.2d 287 (3d Cir. 1987)](https://syfert.com/federal/circuits/cases/831-f-2d-287/appeal-of-pendleton-kenneth)",
+    "match_kind": "semantic",
+    "similarity": 0.587
+   },
+   {
+    "cluster_id": 6112566,
+    "case_name": "Gefrard v. E.W. Bliss Co.",
+    "citations": [
+     "205 A.D.2d 663",
+     "614 N.Y.S.2d 300"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1994-06-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/205-a-d-2d-663/gefrard-v-ew-bliss-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gefrard v. E.W. Bliss Co., 205 A.D.2d 663 (N.Y. App. Div. 2d Dep't 1994)",
+    "link_md": "[Gefrard v. E.W. Bliss Co., 205 A.D.2d 663 (N.Y. App. Div. 2d Dep't 1994)](https://syfert.com/new-york/cases/205-a-d-2d-663/gefrard-v-ew-bliss-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5858
+   },
+   {
+    "cluster_id": 5855401,
+    "case_name": "Pinder v. Gromet",
+    "citations": [
+     "9 A.D.2d 683",
+     "192 N.Y.S.2d 491",
+     "1959 N.Y. App. Div. LEXIS 6814"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1959-10-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/9-a-d-2d-683/pinder-v-gromet",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pinder v. Gromet, 9 A.D.2d 683 (N.Y. App. Div. 2d Dep't 1959)",
+    "link_md": "[Pinder v. Gromet, 9 A.D.2d 683 (N.Y. App. Div. 2d Dep't 1959)](https://syfert.com/new-york/cases/9-a-d-2d-683/pinder-v-gromet)",
+    "match_kind": "semantic",
+    "similarity": 0.5837
+   },
+   {
+    "cluster_id": 8403744,
+    "case_name": "Padron v. Granite Broadway Dev. LLC",
+    "citations": [
+     "209 A.D.3d 536",
+     "2022 NY Slip Op 05798",
+     "177 N.Y.S.3d 220"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2022-10-18",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/new-york/cases/209-a-d-3d-536/padron-v-granite-broadway-dev-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Padron v. Granite Broadway Dev. LLC, 209 A.D.3d 536 (N.Y. App. Div. 1st Dep't 2022)",
+    "link_md": "[Padron v. Granite Broadway Dev. LLC, 209 A.D.3d 536 (N.Y. App. Div. 1st Dep't 2022)](https://syfert.com/new-york/cases/209-a-d-3d-536/padron-v-granite-broadway-dev-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.583
+   },
+   {
+    "cluster_id": 6219566,
+    "case_name": "Dixon v. Marilyn",
+    "citations": [
+     "295 A.D.2d 308",
+     "742 N.Y.S.2d 906",
+     "2002 N.Y. App. Div. LEXIS 5730"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2002-06-03",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/new-york/cases/295-a-d-2d-308/dixon-v-marilyn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dixon v. Marilyn, 295 A.D.2d 308 (N.Y. App. Div. 2d Dep't 2002)",
+    "link_md": "[Dixon v. Marilyn, 295 A.D.2d 308 (N.Y. App. Div. 2d Dep't 2002)](https://syfert.com/new-york/cases/295-a-d-2d-308/dixon-v-marilyn)",
+    "match_kind": "semantic",
+    "similarity": 0.5796
+   },
+   {
+    "cluster_id": 6213848,
+    "case_name": "Sumner v. Sumner",
+    "citations": [
+     "289 A.D.2d 129",
+     "733 N.Y.S.2d 869",
+     "2001 N.Y. App. Div. LEXIS 12276"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2001-12-18",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/new-york/cases/289-a-d-2d-129/sumner-v-sumner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sumner v. Sumner, 289 A.D.2d 129 (N.Y. App. Div. 1st Dep't 2001)",
+    "link_md": "[Sumner v. Sumner, 289 A.D.2d 129 (N.Y. App. Div. 1st Dep't 2001)](https://syfert.com/new-york/cases/289-a-d-2d-129/sumner-v-sumner)",
+    "match_kind": "semantic",
+    "similarity": 0.579
+   },
+   {
+    "cluster_id": 346089,
+    "case_name": "Turner v. American Dredging Co",
+    "citations": [
+     "556 F.2d 568"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1977-05-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/556-f-2d-568/turner-v-american-dredging-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Turner v. Am. Dredging Co, 556 F.2d 568 (3d Cir. 1977)",
+    "link_md": "[Turner v. Am. Dredging Co, 556 F.2d 568 (3d Cir. 1977)](https://syfert.com/federal/circuits/cases/556-f-2d-568/turner-v-american-dredging-co)",
+    "match_kind": "semantic",
+    "similarity": 0.5781
+   },
+   {
+    "cluster_id": 5483859,
+    "case_name": "Puritan Steam Laundry Co. v. Robbins",
+    "citations": [
+     "234 A.D. 897"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1931-12-15",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/234-a-d-897/puritan-steam-laundry-co-v-robbins",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Puritan Steam Laundry Co. v. Robbins, 234 A.D. 897 (N.Y. App. Div. 1931)",
+    "link_md": "[Puritan Steam Laundry Co. v. Robbins, 234 A.D. 897 (N.Y. App. Div. 1931)](https://syfert.com/new-york/cases/234-a-d-897/puritan-steam-laundry-co-v-robbins)",
+    "match_kind": "semantic",
+    "similarity": 0.5771
+   },
+   {
+    "cluster_id": 484410,
+    "case_name": "Taylor (Roger L., Joyce E.) v. Dresser Industries, Inc., Dewrance & Company, Ltd",
+    "citations": [
+     "813 F.2d 399"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1987-02-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/813-f-2d-399/taylor-roger-l-joyce-e-v-dresser-industries-inc-de",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Taylor (Roger L., Joyce E.) v. Dresser Indus., Inc., 813 F.2d 399 (3d Cir. 1987)",
+    "link_md": "[Taylor (Roger L., Joyce E.) v. Dresser Indus., Inc., 813 F.2d 399 (3d Cir. 1987)](https://syfert.com/federal/circuits/cases/813-f-2d-399/taylor-roger-l-joyce-e-v-dresser-industries-inc-de)",
+    "match_kind": "semantic",
+    "similarity": 0.5763
+   },
+   {
+    "cluster_id": 530720,
+    "case_name": "Pinehurst Enterprises, Inc. v. Town of Southern Pines",
+    "citations": [
+     "887 F.2d 1080",
+     "1989 U.S. App. LEXIS 14673",
+     "1989 WL 117709"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1989-09-28",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/887-f-2d-1080/pinehurst-enterprises-inc-v-town-of-southern-pines",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Pinehurst Enter., Inc. v. Town of S. Pines, 887 F.2d 1080 (4th Cir. 1989)",
+    "link_md": "[Pinehurst Enter., Inc. v. Town of S. Pines, 887 F.2d 1080 (4th Cir. 1989)](https://syfert.com/federal/circuits/cases/887-f-2d-1080/pinehurst-enterprises-inc-v-town-of-southern-pines)",
+    "match_kind": "semantic",
+    "similarity": 0.5747
+   },
+   {
+    "cluster_id": 10584993,
+    "case_name": "Matter of Pineda v. Reyes",
+    "citations": [
+     "238 A.D.3d 557",
+     "2025 NY Slip Op 03006",
+     "231 N.Y.S.3d 502"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2025-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/238-a-d-3d-557/matter-of-pineda-v-reyes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "238 A.D.3d 557",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/238%20A.D.3d"
+     },
+     {
+      "citation": "231 N.Y.S.3d 502",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/231%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "Matter of Pineda v. Reyes, 238 A.D.3d 557 (N.Y. App. Div. 1st Dep't 2025)",
+    "link_md": "[Matter of Pineda v. Reyes, 238 A.D.3d 557 (N.Y. App. Div. 1st Dep't 2025)](https://syfert.com/new-york/cases/238-a-d-3d-557/matter-of-pineda-v-reyes)",
+    "match_kind": "semantic",
+    "similarity": 0.574
+   },
+   {
+    "cluster_id": 349709,
+    "case_name": "Independent Pier Co. v. Lind",
+    "citations": [
+     "564 F.2d 89"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1977-09-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/564-f-2d-89/independent-pier-co-v-lind",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Indep. Pier Co. v. Lind, 564 F.2d 89 (3d Cir. 1977)",
+    "link_md": "[Indep. Pier Co. v. Lind, 564 F.2d 89 (3d Cir. 1977)](https://syfert.com/federal/circuits/cases/564-f-2d-89/independent-pier-co-v-lind)",
+    "match_kind": "semantic",
+    "similarity": 0.5733
+   },
+   {
+    "cluster_id": 468425,
+    "case_name": "Pendleton v. N.Y.S. Dept. Corr. Serv",
+    "citations": [
+     "788 F.2d 6",
+     "41 Fair Empl. Prac. Cas. (BNA) 584"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1986-03-07",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/788-f-2d-6/pendleton-v-nys-dept-corr-serv",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pendleton v. N.Y.S. Dept. Corr. Serv, 788 F.2d 6 (2d Cir. 1986)",
+    "link_md": "[Pendleton v. N.Y.S. Dept. Corr. Serv, 788 F.2d 6 (2d Cir. 1986)](https://syfert.com/federal/circuits/cases/788-f-2d-6/pendleton-v-nys-dept-corr-serv)",
+    "match_kind": "semantic",
+    "similarity": 0.5728
+   },
+   {
+    "cluster_id": 6222553,
+    "case_name": "Frazier v. Pioneer Central School District",
+    "citations": [
+     "298 A.D.2d 875",
+     "748 N.Y.S.2d 444",
+     "2002 N.Y. App. Div. LEXIS 8929"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2002-10-01",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/new-york/cases/298-a-d-2d-875/frazier-v-pioneer-central-school-district",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Frazier v. Pioneer Cent. Sch. Dist., 298 A.D.2d 875 (N.Y. App. Div. 4th Dep't 2002)",
+    "link_md": "[Frazier v. Pioneer Cent. Sch. Dist., 298 A.D.2d 875 (N.Y. App. Div. 4th Dep't 2002)](https://syfert.com/new-york/cases/298-a-d-2d-875/frazier-v-pioneer-central-school-district)",
+    "match_kind": "semantic",
+    "similarity": 0.5728
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

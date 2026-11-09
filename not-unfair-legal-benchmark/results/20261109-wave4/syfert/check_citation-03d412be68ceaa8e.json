@@ -1,0 +1,178 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "178 A.D.3d 1430",
+  "expected_case_name": "Matter of Benson v. Smith"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"178 A.D.3d 1430\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4689497,\n            \"case_name\": \"Matter of Benson v. Smith\",\n            \"citations\": [\n                \"178 A.D.3d 1430\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"178 A.D.3d 1429\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4689485,\n                        \"case_name\": \"Matter of Jacob v. McAllister\"\n                    }\n                }\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2019-12-20\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/178-a-d-3d-1430/matter-of-benson-v-smith\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"178 A.D.3d 1429\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/178%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"178 A.D.3d 1430\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/178%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"116 N.Y.S.3d 447\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/116%20N.Y.S.3d\"\n                },\n                {\n                    \"citation\": \"116 N.Y.S.3d 812\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/116%20N.Y.S.3d\"\n                }\n            ],\n            \"bluebook\": \"Matter of Benson v. Smith, 178 A.D.3d 1430 (N.Y. App. Div. 4th Dep't 2019)\",\n            \"link_md\": \"[Matter of Benson v. Smith, 178 A.D.3d 1430 (N.Y. App. Div. 4th Dep't 2019)](https://syfert.com/new-york/cases/178-a-d-3d-1430/matter-of-benson-v-smith)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        },\n        {\n            \"cluster_id\": 4689498,\n            \"case_name\": \"Matter of Benson v. Smith\",\n            \"citations\": [\n                \"178 A.D.3d 1430\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"178 A.D.3d 1429\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4689485,\n                        \"case_name\": \"Matter of Jacob v. McAllister\"\n                    }\n                }\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2019-12-20\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/new-york/cases/178-a-d-3d-1429/matter-of-benson-v-smith\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"178 A.D.3d 1429\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/178%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"178 A.D.3d 1430\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/178%20A.D.3d\"\n                },\n                {\n                    \"citation\": \"116 N.Y.S.3d 447\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/116%20N.Y.S.3d\"\n                },\n                {\n                    \"citation\": \"116 N.Y.S.3d 812\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/116%20N.Y.S.3d\"\n                }\n            ],\n            \"bluebook\": \"Matter of Benson v. Smith, 178 A.D.3d 1430 (N.Y. App. Div. 4th Dep't 2019)\",\n            \"link_md\": \"[Matter of Benson v. Smith, 178 A.D.3d 1430 (N.Y. App. Div. 4th Dep't 2019)](https://syfert.com/new-york/cases/178-a-d-3d-1429/matter-of-benson-v-smith)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Matter of Benson v. Smith\",\n        \"actual\": \"Matter of Benson v. Smith\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "178 A.D.3d 1430",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4689497,
+    "case_name": "Matter of Benson v. Smith",
+    "citations": [
+     "178 A.D.3d 1430"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "178 A.D.3d 1429",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4689485,
+       "case_name": "Matter of Jacob v. McAllister"
+      }
+     }
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2019-12-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/178-a-d-3d-1430/matter-of-benson-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "178 A.D.3d 1429",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/178%20A.D.3d"
+     },
+     {
+      "citation": "178 A.D.3d 1430",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/178%20A.D.3d"
+     },
+     {
+      "citation": "116 N.Y.S.3d 447",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/116%20N.Y.S.3d"
+     },
+     {
+      "citation": "116 N.Y.S.3d 812",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/116%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "Matter of Benson v. Smith, 178 A.D.3d 1430 (N.Y. App. Div. 4th Dep't 2019)",
+    "link_md": "[Matter of Benson v. Smith, 178 A.D.3d 1430 (N.Y. App. Div. 4th Dep't 2019)](https://syfert.com/new-york/cases/178-a-d-3d-1430/matter-of-benson-v-smith)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   },
+   {
+    "cluster_id": 4689498,
+    "case_name": "Matter of Benson v. Smith",
+    "citations": [
+     "178 A.D.3d 1430"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "178 A.D.3d 1429",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4689485,
+       "case_name": "Matter of Jacob v. McAllister"
+      }
+     }
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2019-12-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/178-a-d-3d-1429/matter-of-benson-v-smith",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "178 A.D.3d 1429",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/178%20A.D.3d"
+     },
+     {
+      "citation": "178 A.D.3d 1430",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/178%20A.D.3d"
+     },
+     {
+      "citation": "116 N.Y.S.3d 447",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/116%20N.Y.S.3d"
+     },
+     {
+      "citation": "116 N.Y.S.3d 812",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/116%20N.Y.S.3d"
+     }
+    ],
+    "bluebook": "Matter of Benson v. Smith, 178 A.D.3d 1430 (N.Y. App. Div. 4th Dep't 2019)",
+    "link_md": "[Matter of Benson v. Smith, 178 A.D.3d 1430 (N.Y. App. Div. 4th Dep't 2019)](https://syfert.com/new-york/cases/178-a-d-3d-1429/matter-of-benson-v-smith)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Matter of Benson v. Smith",
+   "actual": "Matter of Benson v. Smith",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

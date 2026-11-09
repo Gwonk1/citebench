@@ -1,0 +1,48 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Barak w/15 \"929 N.Y.S.2d 315\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Barak w/15 \\\"929 N.Y.S.2d 315\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7309212,\"bluebook\":\"Saleem v. Corp. Transp. Grp., 52 F. Supp. 3d 526 (S.D.N.Y. 2014)\",\"url\":\"https://syfert.com/federal/district/cases/52-f-supp-3d-526/saleem-v-corporate-transportation-group-ltd\",\"date_filed\":\"2014-09-16\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See, e.g., Chaouni, 963 N.Y.S.2d 27 ; Barak, 929 N.Y.S.2d 315 ; Holcomb v. TWR Express, Inc., 782 N.Y.S.2d 840 (2d Dep’t 2004); Matter of Jarzabek, 292 A.D.2d 668 , 738 N.Y.S.2d 742 (3d Dep’t 2002...\"},{\"cluster_id\":8718271,\"bluebook\":\"Browning v. Ceva Freight, LLC, 885 F. Supp. 2d 590 (E.D.N.Y. 2012)\",\"url\":\"https://syfert.com/federal/district/cases/885-f-supp-2d-590/browning-v-ceva-freight-llc\",\"date_filed\":\"2012-08-11\",\"cited_by\":24,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":2},\"snippet\":\"...Parisio, 1 A.D.3d 680 , 766 N.Y.S.2d 270 (3d Dep’t 2003); see also Barak v. Chen, 87 A.D.3d 955 , 929 N.Y.S.2d 315 (2nd Dep’t 2011). Here, there are no facts that are in contention.\\nGenerally speaking, the Defendants mainly...\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Barak w/15 \"929 N.Y.S.2d 315\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7309212,
+    "bluebook": "Saleem v. Corp. Transp. Grp., 52 F. Supp. 3d 526 (S.D.N.Y. 2014)",
+    "url": "https://syfert.com/federal/district/cases/52-f-supp-3d-526/saleem-v-corporate-transportation-group-ltd",
+    "date_filed": "2014-09-16",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See, e.g., Chaouni, 963 N.Y.S.2d 27 ; Barak, 929 N.Y.S.2d 315 ; Holcomb v. TWR Express, Inc., 782 N.Y.S.2d 840 (2d Dep’t 2004); Matter of Jarzabek, 292 A.D.2d 668 , 738 N.Y.S.2d 742 (3d Dep’t 2002..."
+   },
+   {
+    "cluster_id": 8718271,
+    "bluebook": "Browning v. Ceva Freight, LLC, 885 F. Supp. 2d 590 (E.D.N.Y. 2012)",
+    "url": "https://syfert.com/federal/district/cases/885-f-supp-2d-590/browning-v-ceva-freight-llc",
+    "date_filed": "2012-08-11",
+    "cited_by": 24,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 2
+    },
+    "snippet": "...Parisio, 1 A.D.3d 680 , 766 N.Y.S.2d 270 (3d Dep’t 2003); see also Barak v. Chen, 87 A.D.3d 955 , 929 N.Y.S.2d 315 (2nd Dep’t 2011). Here, there are no facts that are in contention.\nGenerally speaking, the Defendants mainly..."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

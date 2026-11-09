@@ -1,0 +1,57 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "189 S.W. 62",
+  "expected_case_name": "Van Dyke v. Thompson"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"189 S.W. 62\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 8333439,\n            \"case_name\": \"Van Dyke v. Thompson\",\n            \"citations\": [\n                \"189 S.W. 62\"\n            ],\n            \"court\": \"Tennessee Supreme Court\",\n            \"date_filed\": \"1916-09-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 19,\n            \"url\": \"https://syfert.com/tennessee/cases/136-tenn-136/van-dyke-v-thompson\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"189 S.W. 62\",\n                    \"recovered_from_citing_opinions\": 5,\n                    \"source\": \"harvester_v2_xeric\",\n                    \"confidence\": 0.99,\n                    \"note\": \"Recovered parallel cite: 5 citing opinions confirm this cite (confidence 0.99)\"\n                }\n            ],\n            \"bluebook\": \"Van Dyke v. Thompson, 189 S.W. 62 (Tenn. 1916)\",\n            \"link_md\": \"[Van Dyke v. Thompson, 189 S.W. 62 (Tenn. 1916)](https://syfert.com/tennessee/cases/136-tenn-136/van-dyke-v-thompson)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Van Dyke v. Thompson\",\n        \"actual\": \"Van Dyke v. Thompson\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "189 S.W. 62",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 8333439,
+    "case_name": "Van Dyke v. Thompson",
+    "citations": [
+     "189 S.W. 62"
+    ],
+    "court": "Tennessee Supreme Court",
+    "date_filed": "1916-09-15",
+    "status": "Published",
+    "cited_by": 19,
+    "url": "https://syfert.com/tennessee/cases/136-tenn-136/van-dyke-v-thompson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "189 S.W. 62",
+      "recovered_from_citing_opinions": 5,
+      "source": "harvester_v2_xeric",
+      "confidence": 0.99,
+      "note": "Recovered parallel cite: 5 citing opinions confirm this cite (confidence 0.99)"
+     }
+    ],
+    "bluebook": "Van Dyke v. Thompson, 189 S.W. 62 (Tenn. 1916)",
+    "link_md": "[Van Dyke v. Thompson, 189 S.W. 62 (Tenn. 1916)](https://syfert.com/tennessee/cases/136-tenn-136/van-dyke-v-thompson)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Van Dyke v. Thompson",
+   "actual": "Van Dyke v. Thompson",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

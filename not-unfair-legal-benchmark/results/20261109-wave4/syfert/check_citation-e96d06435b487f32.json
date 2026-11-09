@@ -1,0 +1,207 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "370 So. 3d 960",
+  "expected_case_name": "LONNIE PRINCE  vs STATE OF FLORIDA"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"370 So. 3d 960\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 9444892,\n            \"case_name\": \"Lonnie Prince v. State of Florida\",\n            \"citations\": [\n                \"370 So. 3d 960\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"370 So. 3d 959\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 9444886,\n                        \"case_name\": \"Richard John Stork v. State of Florida\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2023-09-12\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/370-so-3d-960/lonnie-prince-vs-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"370 So. 3d 959\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/370%20So.3d\"\n                },\n                {\n                    \"citation\": \"370 So. 3d 960\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/370%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Lonnie Prince Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)\",\n            \"link_md\": \"[Lonnie Prince Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-960/lonnie-prince-vs-state-of-florida)\",\n            \"case_name_raw\": \"LONNIE PRINCE  vs STATE OF FLORIDA\"\n        },\n        {\n            \"cluster_id\": 9444893,\n            \"case_name\": \"Lonnie Prince v. State of Florida\",\n            \"citations\": [\n                \"370 So. 3d 960\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"370 So. 3d 959\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 9444886,\n                        \"case_name\": \"Richard John Stork v. State of Florida\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2023-09-12\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/370-so-3d-959/lonnie-prince-vs-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"370 So. 3d 959\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/370%20So.3d\"\n                },\n                {\n                    \"citation\": \"370 So. 3d 960\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/370%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Lonnie Prince Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)\",\n            \"link_md\": \"[Lonnie Prince Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-959/lonnie-prince-vs-state-of-florida)\",\n            \"case_name_raw\": \"LONNIE PRINCE  vs STATE OF FLORIDA\"\n        },\n        {\n            \"cluster_id\": 9444894,\n            \"case_name\": \"Javonte Ramsey v. State of Florida\",\n            \"citations\": [\n                \"370 So. 3d 960\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2023-09-12\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/370-so-3d-960/javonte-ramsey-vs-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"370 So. 3d 960\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/370%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Javonte Ramsey Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)\",\n            \"link_md\": \"[Javonte Ramsey Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-960/javonte-ramsey-vs-state-of-florida)\",\n            \"case_name_raw\": \"JAVONTE RAMSEY  vs STATE OF FLORIDA\"\n        },\n        {\n            \"cluster_id\": 9444896,\n            \"case_name\": \"Arnez Ali v. State of Florida\",\n            \"citations\": [\n                \"370 So. 3d 960\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2023-09-12\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/370-so-3d-960/arnez-ali-vs-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"370 So. 3d 960\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/370%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Arnez Ali Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)\",\n            \"link_md\": \"[Arnez Ali Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-960/arnez-ali-vs-state-of-florida)\",\n            \"case_name_raw\": \"ARNEZ ALI  vs STATE OF FLORIDA\"\n        },\n        {\n            \"cluster_id\": 9444897,\n            \"case_name\": \"Keith Lee Williams v. State of Florida\",\n            \"citations\": [\n                \"370 So. 3d 960\"\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2023-09-12\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/370-so-3d-960/keith-lee-williams-vs-state-of-florida\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"370 So. 3d 960\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/370%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"Keith Lee Williams Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)\",\n            \"link_md\": \"[Keith Lee Williams Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-960/keith-lee-williams-vs-state-of-florida)\",\n            \"case_name_raw\": \"KEITH LEE WILLIAMS  vs STATE OF FLORIDA\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"LONNIE PRINCE  vs STATE OF FLORIDA\",\n        \"actual\": \"LONNIE PRINCE  vs STATE OF FLORIDA\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "370 So. 3d 960",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 9444892,
+    "case_name": "Lonnie Prince v. State of Florida",
+    "citations": [
+     "370 So. 3d 960"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "370 So. 3d 959",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 9444886,
+       "case_name": "Richard John Stork v. State of Florida"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2023-09-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/370-so-3d-960/lonnie-prince-vs-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "370 So. 3d 959",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/370%20So.3d"
+     },
+     {
+      "citation": "370 So. 3d 960",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/370%20So.3d"
+     }
+    ],
+    "bluebook": "Lonnie Prince Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)",
+    "link_md": "[Lonnie Prince Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-960/lonnie-prince-vs-state-of-florida)",
+    "case_name_raw": "LONNIE PRINCE  vs STATE OF FLORIDA"
+   },
+   {
+    "cluster_id": 9444893,
+    "case_name": "Lonnie Prince v. State of Florida",
+    "citations": [
+     "370 So. 3d 960"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "370 So. 3d 959",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 9444886,
+       "case_name": "Richard John Stork v. State of Florida"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2023-09-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/370-so-3d-959/lonnie-prince-vs-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "370 So. 3d 959",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/370%20So.3d"
+     },
+     {
+      "citation": "370 So. 3d 960",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/370%20So.3d"
+     }
+    ],
+    "bluebook": "Lonnie Prince Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)",
+    "link_md": "[Lonnie Prince Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-959/lonnie-prince-vs-state-of-florida)",
+    "case_name_raw": "LONNIE PRINCE  vs STATE OF FLORIDA"
+   },
+   {
+    "cluster_id": 9444894,
+    "case_name": "Javonte Ramsey v. State of Florida",
+    "citations": [
+     "370 So. 3d 960"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2023-09-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/370-so-3d-960/javonte-ramsey-vs-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "370 So. 3d 960",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/370%20So.3d"
+     }
+    ],
+    "bluebook": "Javonte Ramsey Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)",
+    "link_md": "[Javonte Ramsey Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-960/javonte-ramsey-vs-state-of-florida)",
+    "case_name_raw": "JAVONTE RAMSEY  vs STATE OF FLORIDA"
+   },
+   {
+    "cluster_id": 9444896,
+    "case_name": "Arnez Ali v. State of Florida",
+    "citations": [
+     "370 So. 3d 960"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2023-09-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/370-so-3d-960/arnez-ali-vs-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "370 So. 3d 960",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/370%20So.3d"
+     }
+    ],
+    "bluebook": "Arnez Ali Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)",
+    "link_md": "[Arnez Ali Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-960/arnez-ali-vs-state-of-florida)",
+    "case_name_raw": "ARNEZ ALI  vs STATE OF FLORIDA"
+   },
+   {
+    "cluster_id": 9444897,
+    "case_name": "Keith Lee Williams v. State of Florida",
+    "citations": [
+     "370 So. 3d 960"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2023-09-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/370-so-3d-960/keith-lee-williams-vs-state-of-florida",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "370 So. 3d 960",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/370%20So.3d"
+     }
+    ],
+    "bluebook": "Keith Lee Williams Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)",
+    "link_md": "[Keith Lee Williams Vs State of Florida, 370 So. 3d 960 (Fla. 5th DCA 2023)](https://syfert.com/florida/cases/370-so-3d-960/keith-lee-williams-vs-state-of-florida)",
+    "case_name_raw": "KEITH LEE WILLIAMS  vs STATE OF FLORIDA"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "LONNIE PRINCE  vs STATE OF FLORIDA",
+   "actual": "LONNIE PRINCE  vs STATE OF FLORIDA",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

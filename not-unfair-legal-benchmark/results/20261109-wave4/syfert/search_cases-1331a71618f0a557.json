@@ -1,0 +1,100 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Benson w/15 \"178 AD3d 1430\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Benson w/15 \\\"178 AD3d 1430\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6622542,\"bluebook\":\"Matter of Shepherd v. Shepherd, 207 A.D.3d 1250 (N.Y. App. Div. 4th Dep't 2022)\",\"url\":\"https://syfert.com/new-york/cases/207-a-d-3d-1250/matter-of-shepherd-v-shepherd\",\"date_filed\":\"2022-07-08\",\"cited_by\":0,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Here, the court's custody determination is supported by a sound and substantial basis in the record ( see Matter of Benson v Smith , 178 AD3d 1430 , 1431 [4th Dept 2019]). Contrary to the mother's contention, joint custody was not…\"},{\"cluster_id\":4896596,\"bluebook\":\"Matter of Smith v. Morrison, 196 A.D.3d 772 (N.Y. App. Div. 3d Dep't 2021)\",\"url\":\"https://syfert.com/new-york/cases/196-a-d-3d-772/matter-of-smith-v-morrison\",\"date_filed\":\"2021-07-01\",\"cited_by\":4,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...second degree and disorderly conduct ( see Penal Law §§ 240.20 [1]; 240.26 [2]; Matter of Benson v Smith , 178 AD3d 1429 , 1430 [2019]; Matter of Sharon D. v Dara K. , 130 AD3d at 1181 ).\\nAarons, Pritzker, Reynolds Fitzgerald and…\"},{\"cluster_id\":4867632,\"bluebook\":\"Matter of McKenzie v. Berkovitch, 192 A.D.3d 1413 (N.Y. App. Div. 3d Dep't 2021)\",\"url\":\"https://syfert.com/new-york/cases/192-a-d-3d-1413/matter-of-mckenzie-v-berkovitch\",\"date_filed\":\"2021-03-25\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Accordingly, absent proof that respondent engaged in the alleged course of conduct, the evidence failed to establish that respondent committed the family offense of harassment in the second degree ( see Family Ct Act §§ 812 [1]; 832;…\"},{\"cluster_id\":10718375,\"bluebook\":\"Matter of Leonard v. Davis, 242 A.D.3d 1510 (N.Y. App. Div. 4th Dep't 2025)\",\"url\":\"https://syfert.com/new-york/cases/242-a-d-3d-1510/matter-of-leonard-v-davis\",\"date_filed\":\"2025-10-03\",\"cited_by\":0,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...a sound and substantial basis in the record ( see Matter of Shepherd v Shepherd , 207 AD3d 1250, 1251 [4th Dept 2022], lv denied 39 NY3d 901 [2022]; Matter of Benson v Smith , 178 AD3d 1430, 1431 [4th Dept 2019]).\\nEntered: October 3,…\"},{\"cluster_id\":9395483,\"bluebook\":\"Crofoot v. Crofoot, 2023 NY Slip Op 02205 (N.Y. App. Div. 4th Dep't 2023)\",\"url\":\"https://syfert.com/new-york/cases/cl-9395483/crofoot-v-crofoot\",\"date_filed\":\"2023-04-28\",\"cited_by\":0,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Thus, the determination to award the parties joint legal custody lacks a sound and substantial basis in the record ( see Matter of Vasquez v Barfield , 81 AD3d 1398, 1399 [4th Dept 2011]; see also Matter of Benson v Smith , 178 AD3d…\"},{\"cluster_id\":10356797,\"bluebook\":\"Matter of Shakema R. v. Mesha B., 236 A.D.3d 1383 (N.Y. App. Div. 4th Dep't 2025)\",\"url\":\"https://syfert.com/new-york/cases/236-a-d-3d-1383/matter-of-shakema-r-v-mesha-b\",\"date_filed\":\"2025-03-14\",\"cited_by\":0,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...it is supported by a sound and substantial basis in the record\\\" ( Matter of Benson v Smith , 178 AD3d 1430 , 1431 [4th Dept 2019] [internal quotation marks omitted]). \\\"In making a custody determination, the court must consider all…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Benson w/15 \"178 AD3d 1430\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6622542,
+    "bluebook": "Matter of Shepherd v. Shepherd, 207 A.D.3d 1250 (N.Y. App. Div. 4th Dep't 2022)",
+    "url": "https://syfert.com/new-york/cases/207-a-d-3d-1250/matter-of-shepherd-v-shepherd",
+    "date_filed": "2022-07-08",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Here, the court's custody determination is supported by a sound and substantial basis in the record ( see Matter of Benson v Smith , 178 AD3d 1430 , 1431 [4th Dept 2019]). Contrary to the mother's contention, joint custody was not…"
+   },
+   {
+    "cluster_id": 4896596,
+    "bluebook": "Matter of Smith v. Morrison, 196 A.D.3d 772 (N.Y. App. Div. 3d Dep't 2021)",
+    "url": "https://syfert.com/new-york/cases/196-a-d-3d-772/matter-of-smith-v-morrison",
+    "date_filed": "2021-07-01",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...second degree and disorderly conduct ( see Penal Law §§ 240.20 [1]; 240.26 [2]; Matter of Benson v Smith , 178 AD3d 1429 , 1430 [2019]; Matter of Sharon D. v Dara K. , 130 AD3d at 1181 ).\nAarons, Pritzker, Reynolds Fitzgerald and…"
+   },
+   {
+    "cluster_id": 4867632,
+    "bluebook": "Matter of McKenzie v. Berkovitch, 192 A.D.3d 1413 (N.Y. App. Div. 3d Dep't 2021)",
+    "url": "https://syfert.com/new-york/cases/192-a-d-3d-1413/matter-of-mckenzie-v-berkovitch",
+    "date_filed": "2021-03-25",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Accordingly, absent proof that respondent engaged in the alleged course of conduct, the evidence failed to establish that respondent committed the family offense of harassment in the second degree ( see Family Ct Act §§ 812 [1]; 832;…"
+   },
+   {
+    "cluster_id": 10718375,
+    "bluebook": "Matter of Leonard v. Davis, 242 A.D.3d 1510 (N.Y. App. Div. 4th Dep't 2025)",
+    "url": "https://syfert.com/new-york/cases/242-a-d-3d-1510/matter-of-leonard-v-davis",
+    "date_filed": "2025-10-03",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...a sound and substantial basis in the record ( see Matter of Shepherd v Shepherd , 207 AD3d 1250, 1251 [4th Dept 2022], lv denied 39 NY3d 901 [2022]; Matter of Benson v Smith , 178 AD3d 1430, 1431 [4th Dept 2019]).\nEntered: October 3,…"
+   },
+   {
+    "cluster_id": 9395483,
+    "bluebook": "Crofoot v. Crofoot, 2023 NY Slip Op 02205 (N.Y. App. Div. 4th Dep't 2023)",
+    "url": "https://syfert.com/new-york/cases/cl-9395483/crofoot-v-crofoot",
+    "date_filed": "2023-04-28",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Thus, the determination to award the parties joint legal custody lacks a sound and substantial basis in the record ( see Matter of Vasquez v Barfield , 81 AD3d 1398, 1399 [4th Dept 2011]; see also Matter of Benson v Smith , 178 AD3d…"
+   },
+   {
+    "cluster_id": 10356797,
+    "bluebook": "Matter of Shakema R. v. Mesha B., 236 A.D.3d 1383 (N.Y. App. Div. 4th Dep't 2025)",
+    "url": "https://syfert.com/new-york/cases/236-a-d-3d-1383/matter-of-shakema-r-v-mesha-b",
+    "date_filed": "2025-03-14",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...it is supported by a sound and substantial basis in the record\" ( Matter of Benson v Smith , 178 AD3d 1430 , 1431 [4th Dept 2019] [internal quotation marks omitted]). \"In making a custody determination, the court must consider all…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "189 N.J. 647",
+  "expected_case_name": "State v. Stokes"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"189 N.J. 647\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2371672,\n            \"case_name\": \"State v. Stokes\",\n            \"citations\": [\n                \"189 N.J. 647\"\n            ],\n            \"court\": \"Supreme Court of New Jersey\",\n            \"date_filed\": \"2007-02-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 4,\n            \"url\": \"https://syfert.com/new-jersey/cases/189-n-j-647/state-v-stokes\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Stokes, 189 N.J. 647 (2007)\",\n            \"link_md\": \"[State v. Stokes, 189 N.J. 647 (2007)](https://syfert.com/new-jersey/cases/189-n-j-647/state-v-stokes)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. Stokes\",\n        \"actual\": \"State v. Stokes\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "189 N.J. 647",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2371672,
+    "case_name": "State v. Stokes",
+    "citations": [
+     "189 N.J. 647"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2007-02-15",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/new-jersey/cases/189-n-j-647/state-v-stokes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Stokes, 189 N.J. 647 (2007)",
+    "link_md": "[State v. Stokes, 189 N.J. 647 (2007)](https://syfert.com/new-jersey/cases/189-n-j-647/state-v-stokes)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. Stokes",
+   "actual": "State v. Stokes",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

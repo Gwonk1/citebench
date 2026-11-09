@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "920 N.Y.S.2d 131",
+  "expected_case_name": "Levin v. Kitsis"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"920 N.Y.S.2d 131\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5956924,\n            \"case_name\": \"Levin v. Kitsis\",\n            \"citations\": [\n                \"920 N.Y.S.2d 131\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2011-03-22\",\n            \"status\": \"Published\",\n            \"cited_by\": 48,\n            \"url\": \"https://syfert.com/new-york/cases/82-a-d-3d-1051/levin-v-kitsis\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Levin v. Kitsis, 920 N.Y.S.2d 131 (N.Y. App. Div. 2d Dep't 2011)\",\n            \"link_md\": \"[Levin v. Kitsis, 920 N.Y.S.2d 131 (N.Y. App. Div. 2d Dep't 2011)](https://syfert.com/new-york/cases/82-a-d-3d-1051/levin-v-kitsis)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 42,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"affirmed in part\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Levin v. Kitsis\",\n        \"actual\": \"Levin v. Kitsis\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "920 N.Y.S.2d 131",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5956924,
+    "case_name": "Levin v. Kitsis",
+    "citations": [
+     "920 N.Y.S.2d 131"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2011-03-22",
+    "status": "Published",
+    "cited_by": 48,
+    "url": "https://syfert.com/new-york/cases/82-a-d-3d-1051/levin-v-kitsis",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Levin v. Kitsis, 920 N.Y.S.2d 131 (N.Y. App. Div. 2d Dep't 2011)",
+    "link_md": "[Levin v. Kitsis, 920 N.Y.S.2d 131 (N.Y. App. Div. 2d Dep't 2011)](https://syfert.com/new-york/cases/82-a-d-3d-1051/levin-v-kitsis)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 42,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Levin v. Kitsis",
+   "actual": "Levin v. Kitsis",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

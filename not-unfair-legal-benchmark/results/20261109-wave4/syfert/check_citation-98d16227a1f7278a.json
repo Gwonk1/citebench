@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "760 N.Y.S.2d 39",
+  "expected_case_name": "Meade v. Rock-Mcgraw, Inc."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"760 N.Y.S.2d 39\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6230761,\n            \"case_name\": \"Meade v. Rock-Mcgraw, Inc.\",\n            \"citations\": [\n                \"760 N.Y.S.2d 39\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2003-06-05\",\n            \"status\": \"Published\",\n            \"cited_by\": 25,\n            \"url\": \"https://syfert.com/new-york/cases/307-a-d-2d-156/meade-v-rock-mcgraw-inc\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Meade v. Rock-Mcgraw, Inc., 760 N.Y.S.2d 39 (N.Y. App. Div. 1st Dep't 2003)\",\n            \"link_md\": \"[Meade v. Rock-Mcgraw, Inc., 760 N.Y.S.2d 39 (N.Y. App. Div. 1st Dep't 2003)](https://syfert.com/new-york/cases/307-a-d-2d-156/meade-v-rock-mcgraw-inc)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 18,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Meade v. Rock-Mcgraw, Inc.\",\n        \"actual\": \"Meade v. Rock-Mcgraw, Inc.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "760 N.Y.S.2d 39",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6230761,
+    "case_name": "Meade v. Rock-Mcgraw, Inc.",
+    "citations": [
+     "760 N.Y.S.2d 39"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2003-06-05",
+    "status": "Published",
+    "cited_by": 25,
+    "url": "https://syfert.com/new-york/cases/307-a-d-2d-156/meade-v-rock-mcgraw-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Meade v. Rock-Mcgraw, Inc., 760 N.Y.S.2d 39 (N.Y. App. Div. 1st Dep't 2003)",
+    "link_md": "[Meade v. Rock-Mcgraw, Inc., 760 N.Y.S.2d 39 (N.Y. App. Div. 1st Dep't 2003)](https://syfert.com/new-york/cases/307-a-d-2d-156/meade-v-rock-mcgraw-inc)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 18,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Meade v. Rock-Mcgraw, Inc.",
+   "actual": "Meade v. Rock-Mcgraw, Inc.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

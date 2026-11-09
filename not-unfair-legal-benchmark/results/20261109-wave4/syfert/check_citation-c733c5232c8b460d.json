@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "887 N.Y.S.2d 615",
+  "expected_case_name": "Wells Fargo Bank, N.A. v. Marchione"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"887 N.Y.S.2d 615\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5931792,\n            \"case_name\": \"Wells Fargo Bank, N.A. v. Marchione\",\n            \"citations\": [\n                \"887 N.Y.S.2d 615\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2009-10-20\",\n            \"status\": \"Published\",\n            \"cited_by\": 42,\n            \"url\": \"https://syfert.com/new-york/cases/69-a-d-3d-204/wells-fargo-bank-na-v-marchione\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Wells Fargo Bank, N.A. v. Marchione, 887 N.Y.S.2d 615 (N.Y. App. Div. 2d Dep't 2009)\",\n            \"link_md\": \"[Wells Fargo Bank, N.A. v. Marchione, 887 N.Y.S.2d 615 (N.Y. App. Div. 2d Dep't 2009)](https://syfert.com/new-york/cases/69-a-d-3d-204/wells-fargo-bank-na-v-marchione)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 42,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Wells Fargo Bank, N.A. v. Marchione\",\n        \"actual\": \"Wells Fargo Bank, N.A. v. Marchione\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "887 N.Y.S.2d 615",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5931792,
+    "case_name": "Wells Fargo Bank, N.A. v. Marchione",
+    "citations": [
+     "887 N.Y.S.2d 615"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2009-10-20",
+    "status": "Published",
+    "cited_by": 42,
+    "url": "https://syfert.com/new-york/cases/69-a-d-3d-204/wells-fargo-bank-na-v-marchione",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Wells Fargo Bank, N.A. v. Marchione, 887 N.Y.S.2d 615 (N.Y. App. Div. 2d Dep't 2009)",
+    "link_md": "[Wells Fargo Bank, N.A. v. Marchione, 887 N.Y.S.2d 615 (N.Y. App. Div. 2d Dep't 2009)](https://syfert.com/new-york/cases/69-a-d-3d-204/wells-fargo-bank-na-v-marchione)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 42,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Wells Fargo Bank, N.A. v. Marchione",
+   "actual": "Wells Fargo Bank, N.A. v. Marchione",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

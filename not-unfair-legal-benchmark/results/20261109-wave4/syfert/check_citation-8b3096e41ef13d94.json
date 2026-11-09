@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "933 N.Y.S.2d 343",
+  "expected_case_name": "Interboro Insurance v. Fatmir"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"933 N.Y.S.2d 343\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5972346,\n            \"case_name\": \"Interboro Insurance v. Fatmir\",\n            \"citations\": [\n                \"933 N.Y.S.2d 343\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2011-11-22\",\n            \"status\": \"Published\",\n            \"cited_by\": 26,\n            \"url\": \"https://syfert.com/new-york/cases/89-a-d-3d-993/interboro-insurance-v-fatmir\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Interboro Ins. v. Fatmir, 933 N.Y.S.2d 343 (N.Y. App. Div. 2d Dep't 2011)\",\n            \"link_md\": \"[Interboro Ins. v. Fatmir, 933 N.Y.S.2d 343 (N.Y. App. Div. 2d Dep't 2011)](https://syfert.com/new-york/cases/89-a-d-3d-993/interboro-insurance-v-fatmir)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 23,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Interboro Insurance v. Fatmir\",\n        \"actual\": \"Interboro Insurance v. Fatmir\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "933 N.Y.S.2d 343",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5972346,
+    "case_name": "Interboro Insurance v. Fatmir",
+    "citations": [
+     "933 N.Y.S.2d 343"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2011-11-22",
+    "status": "Published",
+    "cited_by": 26,
+    "url": "https://syfert.com/new-york/cases/89-a-d-3d-993/interboro-insurance-v-fatmir",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Interboro Ins. v. Fatmir, 933 N.Y.S.2d 343 (N.Y. App. Div. 2d Dep't 2011)",
+    "link_md": "[Interboro Ins. v. Fatmir, 933 N.Y.S.2d 343 (N.Y. App. Div. 2d Dep't 2011)](https://syfert.com/new-york/cases/89-a-d-3d-993/interboro-insurance-v-fatmir)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 23,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Interboro Insurance v. Fatmir",
+   "actual": "Interboro Insurance v. Fatmir",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

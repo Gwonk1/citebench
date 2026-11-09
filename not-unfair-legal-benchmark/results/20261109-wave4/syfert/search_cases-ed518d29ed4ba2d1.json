@@ -1,0 +1,120 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Lugo w/15 \"650 N.Y.S.2d 102\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Lugo w/15 \\\"650 N.Y.S.2d 102\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":734120,\"bluebook\":\"Howard Pearson v. Charles James, 105 F.3d 828 (2d Cir. 1997)\",\"url\":\"https://syfert.com/federal/circuits/cases/105-f-3d-828/howard-pearson-v-charles-james-superintendent-of-collins-correctional\",\"date_filed\":\"1997-01-30\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Lugo, 650 N.Y.S.2d 102, 103 (1st Dep’t 1996) (In resolving conflict between Ayala and contrary decision by New York Court of Appeals, the ruling of the New York Court of Appeals should be followed.); People v. Nieves, 648 N.Y.S.2d 583,…\"},{\"cluster_id\":613588,\"bluebook\":\"Downs v. Lape, 657 F.3d 97 (2d Cir. 2011)\",\"url\":\"https://syfert.com/federal/circuits/cases/657-f-3d-97/downs-v-lape\",\"date_filed\":\"2011-09-14\",\"cited_by\":160,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Lugo, 233 A.D.2d 197 , 650 N.Y.S.2d 102, 103 (1st Dep’t 1996) (same; at closure hearing, “defendant raised none of the arguments he now raises on appeal”); People v. Latta, 222 A.D.2d 303 , 636 N.Y.S.2d 4, 5 (1st Dep’t...\",\"holding\":\"A state court decision based on a firmly established and regularly followed procedural rule constitutes an adequate and independent state ground to preclude federal habeas corpus review.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":776904,\"bluebook\":\"Andrew Brown v. Christopher Artuz, 283 F.3d 492 (2d Cir. 2002)\",\"url\":\"https://syfert.com/federal/circuits/cases/283-f-3d-492/andrew-brown-v-christopher-artuz-superintendent\",\"date_filed\":\"2002-03-13\",\"cited_by\":68,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Lugo,\\n233 A.D.2d 197, 198 , 650 N.Y.S.2d 102, 103 (1st Dep't 1996) (explaining that \\\"where there is a conflict between the decisional law of the [New York] Court of Appeals and that of an intermediate Federal appellate court on a…\",\"holding\":\"A state court adjudication on the merits does not require a specific discussion of arguments or case law to satisfy federal habeas requirements.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":765739,\"bluebook\":\"Thomas Garcia v. Hazel Lewis, 188 F.3d 71 (2d Cir. 1999)\",\"url\":\"https://syfert.com/federal/circuits/cases/188-f-3d-71/thomas-garcia-v-hazel-lewis-superintendent-hale-creek-correctional\",\"date_filed\":\"1999-08-12\",\"cited_by\":253,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Lugo,\\n233 A.D.2d 197, 198 , 650 N.Y.S.2d 102, 103 (1st Dep’t 1996) (“Defendant’s contention that the courtroom was improperly closed during the testimony of an undercover officer is unpreserved because, at the\\nHinton\\nhearing, defendant…\",\"holding\":\"Habeas relief is denied when trial counsel fails to raise a claim at trial that the petitioner later attempts to assert on appeal.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":7056279,\"bluebook\":\"Ayala v. Speckard, 131 F.3d 62 (2d Cir. 1997)\",\"url\":\"https://syfert.com/federal/circuits/cases/131-f-3d-62/ayala-v-speckard\",\"date_filed\":\"1997-12-03\",\"cited_by\":116,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Lugo, 233 A.D.2d 197 , 650 N.Y.S.2d 102 (1st Dep’t 1996); People v. [Robert] Ayala, 232 A.D.2d 312 , 649 N.Y.S.2d 131 (1st Dep’t 1996), aff'd, People v. Ramos, 90 N.Y.2d 490 , 685 N.E.2d 492...\",\"holding\":\"A trial judge is not required to sua sponte consider further alternatives once a limited closure has been selected as an alternative to complete courtroom closure.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\"},{\"cluster_id\":748877,\"bluebook\":\"Steven Ayala v. Hubert Speckard, 131 F.3d 62 (2d Cir. 1997)\",\"url\":\"https://syfert.com/federal/circuits/cases/131-f-3d-62/steven-ayala-v-hubert-speckard-superintendent-of-groveland-correctional\",\"date_filed\":\"1997-12-03\",\"cited_by\":0,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Lugo, 233 A.D.2d 197 , 650 N.Y.S.2d 102 (1st Dep't 1996); People v. [Robert] Ayala, 232 A.D.2d 312 , 649 N.Y.S.2d 131 (1st Dep't 1996), aff'd, People v. Ramos, 90 N.Y.2d 490 , 685 N.E.2d 492...\",\"holding\":\"A trial judge is not required to sua sponte consider additional alternatives to courtroom closure once limited closure is deemed warranted.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Lugo w/15 \"650 N.Y.S.2d 102\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 734120,
+    "bluebook": "Howard Pearson v. Charles James, 105 F.3d 828 (2d Cir. 1997)",
+    "url": "https://syfert.com/federal/circuits/cases/105-f-3d-828/howard-pearson-v-charles-james-superintendent-of-collins-correctional",
+    "date_filed": "1997-01-30",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Lugo, 650 N.Y.S.2d 102, 103 (1st Dep’t 1996) (In resolving conflict between Ayala and contrary decision by New York Court of Appeals, the ruling of the New York Court of Appeals should be followed.); People v. Nieves, 648 N.Y.S.2d 583,…"
+   },
+   {
+    "cluster_id": 613588,
+    "bluebook": "Downs v. Lape, 657 F.3d 97 (2d Cir. 2011)",
+    "url": "https://syfert.com/federal/circuits/cases/657-f-3d-97/downs-v-lape",
+    "date_filed": "2011-09-14",
+    "cited_by": 160,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Lugo, 233 A.D.2d 197 , 650 N.Y.S.2d 102, 103 (1st Dep’t 1996) (same; at closure hearing, “defendant raised none of the arguments he now raises on appeal”); People v. Latta, 222 A.D.2d 303 , 636 N.Y.S.2d 4, 5 (1st Dep’t...",
+    "holding": "A state court decision based on a firmly established and regularly followed procedural rule constitutes an adequate and independent state ground to preclude federal habeas corpus review.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 776904,
+    "bluebook": "Andrew Brown v. Christopher Artuz, 283 F.3d 492 (2d Cir. 2002)",
+    "url": "https://syfert.com/federal/circuits/cases/283-f-3d-492/andrew-brown-v-christopher-artuz-superintendent",
+    "date_filed": "2002-03-13",
+    "cited_by": 68,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Lugo,\n233 A.D.2d 197, 198 , 650 N.Y.S.2d 102, 103 (1st Dep't 1996) (explaining that \"where there is a conflict between the decisional law of the [New York] Court of Appeals and that of an intermediate Federal appellate court on a…",
+    "holding": "A state court adjudication on the merits does not require a specific discussion of arguments or case law to satisfy federal habeas requirements.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 765739,
+    "bluebook": "Thomas Garcia v. Hazel Lewis, 188 F.3d 71 (2d Cir. 1999)",
+    "url": "https://syfert.com/federal/circuits/cases/188-f-3d-71/thomas-garcia-v-hazel-lewis-superintendent-hale-creek-correctional",
+    "date_filed": "1999-08-12",
+    "cited_by": 253,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Lugo,\n233 A.D.2d 197, 198 , 650 N.Y.S.2d 102, 103 (1st Dep’t 1996) (“Defendant’s contention that the courtroom was improperly closed during the testimony of an undercover officer is unpreserved because, at the\nHinton\nhearing, defendant…",
+    "holding": "Habeas relief is denied when trial counsel fails to raise a claim at trial that the petitioner later attempts to assert on appeal.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 7056279,
+    "bluebook": "Ayala v. Speckard, 131 F.3d 62 (2d Cir. 1997)",
+    "url": "https://syfert.com/federal/circuits/cases/131-f-3d-62/ayala-v-speckard",
+    "date_filed": "1997-12-03",
+    "cited_by": 116,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Lugo, 233 A.D.2d 197 , 650 N.Y.S.2d 102 (1st Dep’t 1996); People v. [Robert] Ayala, 232 A.D.2d 312 , 649 N.Y.S.2d 131 (1st Dep’t 1996), aff'd, People v. Ramos, 90 N.Y.2d 490 , 685 N.E.2d 492...",
+    "holding": "A trial judge is not required to sua sponte consider further alternatives once a limited closure has been selected as an alternative to complete courtroom closure.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 748877,
+    "bluebook": "Steven Ayala v. Hubert Speckard, 131 F.3d 62 (2d Cir. 1997)",
+    "url": "https://syfert.com/federal/circuits/cases/131-f-3d-62/steven-ayala-v-hubert-speckard-superintendent-of-groveland-correctional",
+    "date_filed": "1997-12-03",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Lugo, 233 A.D.2d 197 , 650 N.Y.S.2d 102 (1st Dep't 1996); People v. [Robert] Ayala, 232 A.D.2d 312 , 649 N.Y.S.2d 131 (1st Dep't 1996), aff'd, People v. Ramos, 90 N.Y.2d 490 , 685 N.E.2d 492...",
+    "holding": "A trial judge is not required to sua sponte consider additional alternatives to courtroom closure once limited closure is deemed warranted.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

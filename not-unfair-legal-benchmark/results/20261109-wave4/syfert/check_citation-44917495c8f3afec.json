@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "36 So. 898",
+  "expected_case_name": "Lawrence v. Penn Mut. Life Ins."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"36 So. 898\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7251599,\n            \"case_name\": \"Lawrence v. Penn Mut. Life Ins.\",\n            \"citations\": [\n                \"36 So. 898\"\n            ],\n            \"court\": \"Supreme Court of Louisiana\",\n            \"date_filed\": \"1904-06-20\",\n            \"status\": \"Published\",\n            \"cited_by\": 16,\n            \"url\": \"https://syfert.com/louisiana/cases/113-la-87/lawrence-v-penn-mut-life-ins\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Lawrence v. Penn Mut. Life Ins., 36 So. 898 (La. 1904)\",\n            \"link_md\": \"[Lawrence v. Penn Mut. Life Ins., 36 So. 898 (La. 1904)](https://syfert.com/louisiana/cases/113-la-87/lawrence-v-penn-mut-life-ins)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Lawrence v. Penn Mut. Life Ins.\",\n        \"actual\": \"Lawrence v. Penn Mut. Life Ins.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "36 So. 898",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7251599,
+    "case_name": "Lawrence v. Penn Mut. Life Ins.",
+    "citations": [
+     "36 So. 898"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1904-06-20",
+    "status": "Published",
+    "cited_by": 16,
+    "url": "https://syfert.com/louisiana/cases/113-la-87/lawrence-v-penn-mut-life-ins",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lawrence v. Penn Mut. Life Ins., 36 So. 898 (La. 1904)",
+    "link_md": "[Lawrence v. Penn Mut. Life Ins., 36 So. 898 (La. 1904)](https://syfert.com/louisiana/cases/113-la-87/lawrence-v-penn-mut-life-ins)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Lawrence v. Penn Mut. Life Ins.",
+   "actual": "Lawrence v. Penn Mut. Life Ins.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

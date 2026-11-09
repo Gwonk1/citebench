@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Espalla w/15 \"73 So. 76\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Espalla w/15 \\\"73 So. 76\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3230221,\"bluebook\":\"City of Decatur v. Mohns, 180 So. 297 (Ala. 1938)\",\"url\":\"https://syfert.com/alabama/cases/235-ala-640/city-of-decatur-v-mohns\",\"date_filed\":\"1938-03-24\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"KNIGHT, Justice.\\nProceedings for mandamus instituted by F. H. Mohns, appellee here, against the City of Decatur, the mayor and aldermen of said city, the city council- of Decatur, the First National Bank of Birmingham, as the exchange…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Espalla w/15 \"73 So. 76\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3230221,
+    "bluebook": "City of Decatur v. Mohns, 180 So. 297 (Ala. 1938)",
+    "url": "https://syfert.com/alabama/cases/235-ala-640/city-of-decatur-v-mohns",
+    "date_filed": "1938-03-24",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "KNIGHT, Justice.\nProceedings for mandamus instituted by F. H. Mohns, appellee here, against the City of Decatur, the mayor and aldermen of said city, the city council- of Decatur, the First National Bank of Birmingham, as the exchange…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

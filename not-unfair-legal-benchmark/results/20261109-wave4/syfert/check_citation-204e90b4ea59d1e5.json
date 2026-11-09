@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "181 N.J. 546",
+  "expected_case_name": "State v. Cusumano"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"181 N.J. 546\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1476365,\n            \"case_name\": \"State v. Cusumano\",\n            \"citations\": [\n                \"181 N.J. 546\"\n            ],\n            \"court\": \"Supreme Court of New Jersey\",\n            \"date_filed\": \"2004-09-10\",\n            \"status\": \"Published\",\n            \"cited_by\": 7,\n            \"url\": \"https://syfert.com/new-jersey/cases/181-n-j-546/state-v-cusumano\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Cusumano, 181 N.J. 546 (2004)\",\n            \"link_md\": \"[State v. Cusumano, 181 N.J. 546 (2004)](https://syfert.com/new-jersey/cases/181-n-j-546/state-v-cusumano)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. Cusumano\",\n        \"actual\": \"State v. Cusumano\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "181 N.J. 546",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1476365,
+    "case_name": "State v. Cusumano",
+    "citations": [
+     "181 N.J. 546"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2004-09-10",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/new-jersey/cases/181-n-j-546/state-v-cusumano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Cusumano, 181 N.J. 546 (2004)",
+    "link_md": "[State v. Cusumano, 181 N.J. 546 (2004)](https://syfert.com/new-jersey/cases/181-n-j-546/state-v-cusumano)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. Cusumano",
+   "actual": "State v. Cusumano",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Volusia w/15 \"125 So. 813\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Volusia w/15 \\\"125 So. 813\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":3401270,\"bluebook\":\"Chiapetta v. Jordan, 16 So. 2d 641 (Fla. 1943)\",\"url\":\"https://syfert.com/florida/cases/16-so-2d-641/chiapetta-v-jordan\",\"date_filed\":\"1943-11-02\",\"cited_by\":28,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...eliminated from the act where the remainder of the act is within the title and constitutes a workable law. Volusia County v. State, 98 Fla. 1166 , 125 So. 375 , 813; Savannah, etc. R. Co. v. Geiger, 21 Fla. 669 ; Martin v. Dade Muck…\",\"holding\":\"The title of an act may serve as evidence of legislative intent.\",\"holding_ai_generated\":true,\"disposition\":\"petition denied\",\"disposition_source\":\"headnote\"},{\"cluster_id\":4291869,\"bluebook\":\"Devvy Kidd v. Carlos Cascos, No. 03-14-00805-CV (Tex. App.—Austin June 29, 2015)\",\"url\":\"https://syfert.com/texas/cases/cl-4291869/devvy-kidd-v-carlos-cascos-texas-secretary-of-state\",\"date_filed\":\"2015-06-29\",\"cited_by\":0,\"snippet\":\"...899 (1888); Volusia\\nt'\\n~\\nCounty v. State, 98 Fla. 1166 , 125 So. 375 (1929), reb. den., 125 So. 813 (1930);\\n~\\n('P'\\n~ 21\\nF'\\n~\\n~\\nState v. Skaley, 108 Fla. 506 , 146 So. 544 (1933); Hillsborough County v. Temple\\nTerrace Assets Co., 111…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Volusia w/15 \"125 So. 813\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 3401270,
+    "bluebook": "Chiapetta v. Jordan, 16 So. 2d 641 (Fla. 1943)",
+    "url": "https://syfert.com/florida/cases/16-so-2d-641/chiapetta-v-jordan",
+    "date_filed": "1943-11-02",
+    "cited_by": 28,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...eliminated from the act where the remainder of the act is within the title and constitutes a workable law. Volusia County v. State, 98 Fla. 1166 , 125 So. 375 , 813; Savannah, etc. R. Co. v. Geiger, 21 Fla. 669 ; Martin v. Dade Muck…",
+    "holding": "The title of an act may serve as evidence of legislative intent.",
+    "holding_ai_generated": true,
+    "disposition": "petition denied",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 4291869,
+    "bluebook": "Devvy Kidd v. Carlos Cascos, No. 03-14-00805-CV (Tex. App.—Austin June 29, 2015)",
+    "url": "https://syfert.com/texas/cases/cl-4291869/devvy-kidd-v-carlos-cascos-texas-secretary-of-state",
+    "date_filed": "2015-06-29",
+    "cited_by": 0,
+    "snippet": "...899 (1888); Volusia\nt'\n~\nCounty v. State, 98 Fla. 1166 , 125 So. 375 (1929), reb. den., 125 So. 813 (1930);\n~\n('P'\n~ 21\nF'\n~\n~\nState v. Skaley, 108 Fla. 506 , 146 So. 544 (1933); Hillsborough County v. Temple\nTerrace Assets Co., 111…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

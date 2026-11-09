@@ -1,0 +1,86 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "315 S.W.2d 286",
+  "expected_case_name": "State Board of Insurance v. Betts"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"315 S.W.2d 286\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1783524,\n            \"case_name\": \"State Board of Insurance v. Betts\",\n            \"citations\": [\n                \"315 S.W.2d 286\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"315 S.W.2d 279\",\n                    \"this_case\": true\n                }\n            ],\n            \"court\": \"Texas Supreme Court\",\n            \"date_filed\": \"1958-07-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 2,\n            \"url\": \"https://syfert.com/texas/cases/158-tex-612/state-board-of-insurance-v-betts\",\n            \"cited_by_note\": \"CourtListener's citation count summed over this decision's 2 clusters (1783524 and its twin 5314524).\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State Bd. of Ins. v. Betts, 315 S.W.2d 286 (Tex. 1958)\",\n            \"link_md\": \"[State Bd. of Ins. v. Betts, 315 S.W.2d 286 (Tex. 1958)](https://syfert.com/texas/cases/158-tex-612/state-board-of-insurance-v-betts)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 12,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"judgment for plaintiff\",\n            \"disposition_source\": \"headnote\"\n        },\n        {\n            \"cluster_id\": 1783609,\n            \"case_name\": \"State Board of Insurance v. Betts\",\n            \"citations\": [\n                \"315 S.W.2d 286\"\n            ],\n            \"court\": \"Texas Supreme Court\",\n            \"date_filed\": \"1958-07-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 5,\n            \"url\": \"https://syfert.com/texas/cases/158-tex-624/state-board-of-insurance-v-betts\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State Bd. of Ins. v. Betts, 315 S.W.2d 286 (Tex. 1958)\",\n            \"link_md\": \"[State Bd. of Ins. v. Betts, 315 S.W.2d 286 (Tex. 1958)](https://syfert.com/texas/cases/158-tex-624/state-board-of-insurance-v-betts)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 24,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"judgment for defendant\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State Board of Insurance v. Betts\",\n        \"actual\": \"State Board of Insurance v. Betts\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "315 S.W.2d 286",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1783524,
+    "case_name": "State Board of Insurance v. Betts",
+    "citations": [
+     "315 S.W.2d 286"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "315 S.W.2d 279",
+      "this_case": true
+     }
+    ],
+    "court": "Texas Supreme Court",
+    "date_filed": "1958-07-16",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/texas/cases/158-tex-612/state-board-of-insurance-v-betts",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (1783524 and its twin 5314524).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State Bd. of Ins. v. Betts, 315 S.W.2d 286 (Tex. 1958)",
+    "link_md": "[State Bd. of Ins. v. Betts, 315 S.W.2d 286 (Tex. 1958)](https://syfert.com/texas/cases/158-tex-612/state-board-of-insurance-v-betts)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 12,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "judgment for plaintiff",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1783609,
+    "case_name": "State Board of Insurance v. Betts",
+    "citations": [
+     "315 S.W.2d 286"
+    ],
+    "court": "Texas Supreme Court",
+    "date_filed": "1958-07-16",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/texas/cases/158-tex-624/state-board-of-insurance-v-betts",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State Bd. of Ins. v. Betts, 315 S.W.2d 286 (Tex. 1958)",
+    "link_md": "[State Bd. of Ins. v. Betts, 315 S.W.2d 286 (Tex. 1958)](https://syfert.com/texas/cases/158-tex-624/state-board-of-insurance-v-betts)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 24,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "judgment for defendant",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State Board of Insurance v. Betts",
+   "actual": "State Board of Insurance v. Betts",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

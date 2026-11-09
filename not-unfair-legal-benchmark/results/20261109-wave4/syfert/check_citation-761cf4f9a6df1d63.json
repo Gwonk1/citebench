@@ -1,0 +1,52 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "277 S.W.2d 92",
+  "expected_case_name": "Yellow Cab and Baggage Company v. Green"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"277 S.W.2d 92\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1571073,\n            \"case_name\": \"Yellow Cab and Baggage Company v. Green\",\n            \"citations\": [\n                \"277 S.W.2d 92\"\n            ],\n            \"court\": \"Texas Supreme Court\",\n            \"date_filed\": \"1955-03-30\",\n            \"status\": \"Published\",\n            \"cited_by\": 121,\n            \"url\": \"https://syfert.com/texas/cases/154-tex-330/yellow-cab-and-baggage-company-v-green\",\n            \"cited_by_note\": \"CourtListener's citation count summed over this decision's 2 clusters (1571073 and its twin 5314508).\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Yellow Cab & Baggage Co. v. Green, 277 S.W.2d 92 (Tex. 1955)\",\n            \"link_md\": \"[Yellow Cab & Baggage Co. v. Green, 277 S.W.2d 92 (Tex. 1955)](https://syfert.com/texas/cases/154-tex-330/yellow-cab-and-baggage-company-v-green)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 55,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"affirmed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Yellow Cab and Baggage Company v. Green\",\n        \"actual\": \"Yellow Cab and Baggage Company v. Green\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "277 S.W.2d 92",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1571073,
+    "case_name": "Yellow Cab and Baggage Company v. Green",
+    "citations": [
+     "277 S.W.2d 92"
+    ],
+    "court": "Texas Supreme Court",
+    "date_filed": "1955-03-30",
+    "status": "Published",
+    "cited_by": 121,
+    "url": "https://syfert.com/texas/cases/154-tex-330/yellow-cab-and-baggage-company-v-green",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (1571073 and its twin 5314508).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Yellow Cab & Baggage Co. v. Green, 277 S.W.2d 92 (Tex. 1955)",
+    "link_md": "[Yellow Cab & Baggage Co. v. Green, 277 S.W.2d 92 (Tex. 1955)](https://syfert.com/texas/cases/154-tex-330/yellow-cab-and-baggage-company-v-green)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 55,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Yellow Cab and Baggage Company v. Green",
+   "actual": "Yellow Cab and Baggage Company v. Green",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

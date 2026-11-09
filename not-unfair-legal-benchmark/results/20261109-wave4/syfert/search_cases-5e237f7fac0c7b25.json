@@ -1,0 +1,403 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Cota w/15 \"501 P.3d 993\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Cota w/15 \\\"501 P.3d 993\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":138732,\"case_name\":\"Cota-Meza v. United States\",\"citations\":[\"543 U.S. 876\",\"73 U.S.L.W. 3211\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-10-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-876/cota-meza-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (138732 and its twin 9278156). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cota-Meza v. United States, 543 U.S. 876 (2004)\",\"link_md\":\"[Cota-Meza v. United States, 543 U.S. 876 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-876/cota-meza-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6756},{\"cluster_id\":50816,\"case_name\":\"United States v. Sosa\",\"citations\":[],\"court\":\"Fifth Circuit\",\"date_filed\":\"2007-06-20\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-50816/united-states-v-sosa\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Sosa, No. 06-41221 (5th Cir. June 20, 2007)\",\"link_md\":\"[United States v. Sosa, No. 06-41221 (5th Cir. June 20, 2007)](https://syfert.com/federal/circuits/cases/cl-50816/united-states-v-sosa)\",\"match_kind\":\"semantic\",\"similarity\":0.6654},{\"cluster_id\":9033514,\"case_name\":\"Cota v. Los Angeles Unified School District\",\"citations\":[\"453 U.S. 920\",\"101 S. Ct. 3155\",\"69 L. Ed. 2d 1002\",\"1981 U.S. LEXIS 2749\"],\"court\":\"Supreme Court\",\"date_filed\":\"1981-07-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/453-u-s-920/cota-v-los-angeles-unified-school-district\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cota v. Los Angeles Unified Sch. Dist., 453 U.S. 920 (1981)\",\"link_md\":\"[Cota v. Los Angeles Unified Sch. Dist., 453 U.S. 920 (1981)](https://syfert.com/federal/scotus/cases/453-u-s-920/cota-v-los-angeles-unified-school-district)\",\"match_kind\":\"semantic\",\"similarity\":0.6542},{\"cluster_id\":8993322,\"case_name\":\"Lamar Financial Corp. v. Adams\",\"citations\":[\"918 F.2d 564\",\"1990 WL 179785\",\"18 Fed. R. Serv. 3d 1095\",\"1990 U.S. App. LEXIS 21009\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1990-12-07\",\"status\":\"Published\",\"cited_by\":19,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/federal/circuits/cases/918-f-2d-564/lamar-financial-corp-v-adams\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (8993322 and its twin 551318).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lamar Fin. Corp. v. Adams, 918 F.2d 564 (5th Cir. 1990)\",\"link_md\":\"[Lamar Fin. Corp. v. Adams, 918 F.2d 564 (5th Cir. 1990)](https://syfert.com/federal/circuits/cases/918-f-2d-564/lamar-financial-corp-v-adams)\",\"match_kind\":\"semantic\",\"similarity\":0.6526,\"twin_clusters\":[551318]},{\"cluster_id\":40708,\"case_name\":\"Wilson v. Ponchatoula City LA\",\"citations\":[],\"court\":\"Fifth Circuit\",\"date_filed\":\"2006-02-13\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-40708/wilson-v-ponchatoula-city-la\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Wilson v. Ponchatoula City LA, No. 05-30122 (5th Cir. Feb. 13, 2006)\",\"link_md\":\"[Wilson v. Ponchatoula City LA, No. 05-30122 (5th Cir. Feb. 13, 2006)](https://syfert.com/federal/circuits/cases/cl-40708/wilson-v-ponchatoula-city-la)\",\"match_kind\":\"semantic\",\"similarity\":0.652},{\"cluster_id\":5919917,\"case_name\":\"In re Hamilton\",\"citations\":[\"63 A.D.3d 937\",\"880 N.Y.S.2d 539\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2009-06-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/63-a-d-3d-937/in-re-hamilton\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Hamilton, 63 A.D.3d 937 (N.Y. App. Div. 4th Dep't 2009)\",\"link_md\":\"[In re Hamilton, 63 A.D.3d 937 (N.Y. App. Div. 4th Dep't 2009)](https://syfert.com/new-york/cases/63-a-d-3d-937/in-re-hamilton)\",\"match_kind\":\"semantic\",\"similarity\":0.6442},{\"cluster_id\":1400067,\"case_name\":\"Stablein v. Stablein\",\"citations\":[\"368 P.2d 174\",\"59 Wash. 2d 465\",\"1962 Wash. LEXIS 417\"],\"court\":\"Washington Supreme Court\",\"date_filed\":\"1962-01-18\",\"status\":\"Published\",\"cited_by\":13,\"url\":\"https://syfert.com/washington/cases/59-wash-2d-465/stablein-v-stablein\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stablein v. Stablein, 368 P.2d 174 (Wash. 1962)\",\"link_md\":\"[Stablein v. Stablein, 368 P.2d 174 (Wash. 1962)](https://syfert.com/washington/cases/59-wash-2d-465/stablein-v-stablein)\",\"match_kind\":\"semantic\",\"similarity\":0.6426},{\"cluster_id\":10773579,\"case_name\":\"Robbie Dow Goodman v. Lorie Davis\",\"citations\":[],\"court\":\"S.D. Texas\",\"date_filed\":\"2026-01-12\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10773579/robbie-dow-goodman-v-lorie-davis-et-al\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Cobb, No. 2:25-cv-00067 (S.D. Tex. Jan. 12, 2026)\",\"link_md\":\"[Cobb, No. 2:25-cv-00067 (S.D. Tex. Jan. 12, 2026)](https://syfert.com/federal/district/cases/cl-10773579/robbie-dow-goodman-v-lorie-davis-et-al)\",\"match_kind\":\"semantic\",\"similarity\":0.642},{\"cluster_id\":29882,\"case_name\":\"Floyd v. Scott\",\"citations\":[],\"court\":\"Fifth Circuit\",\"date_filed\":\"2002-12-13\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-29882/floyd-v-scott\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Floyd v. Scott, No. 02-50600 (5th Cir. Dec. 13, 2002)\",\"link_md\":\"[Floyd v. Scott, No. 02-50600 (5th Cir. Dec. 13, 2002)](https://syfert.com/federal/circuits/cases/cl-29882/floyd-v-scott)\",\"match_kind\":\"semantic\",\"similarity\":0.6417},{\"cluster_id\":3169769,\"case_name\":\"Norton v. Rocky Mountain Planned Parenthood, Inc\",\"citations\":[\"411 P.3d 162\",\"2016 COA 3\"],\"court\":\"Colorado Court of Appeals\",\"date_filed\":\"2016-01-14\",\"status\":\"Published\",\"cited_by\":511,\"url\":\"https://syfert.com/colorado/cases/411-p-3d-162/norton-v-rocky-mountain-planned-parenthood-inc\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (3169769 and its twin 4247727).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Norton v. Rocky Mountain Planned Parenthood, Inc, 2016 COA 3, 411 P.3d 162\",\"link_md\":\"[Norton v. Rocky Mountain Planned Parenthood, Inc, 2016 COA 3, 411 P.3d 162](https://syfert.com/colorado/cases/411-p-3d-162/norton-v-rocky-mountain-planned-parenthood-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6398},{\"cluster_id\":8752,\"case_name\":\"United States v. Fields\",\"citations\":[],\"court\":\"Fifth Circuit\",\"date_filed\":\"1996-03-07\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-8752/united-states-v-fields\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Fields, No. 95-40028 (5th Cir. Mar. 7, 1996)\",\"link_md\":\"[United States v. Fields, No. 95-40028 (5th Cir. Mar. 7, 1996)](https://syfert.com/federal/circuits/cases/cl-8752/united-states-v-fields)\",\"match_kind\":\"semantic\",\"similarity\":0.6394},{\"cluster_id\":562195,\"case_name\":\"Coty v. Rapides Bank & Trust\",\"citations\":[\"934 F.2d 1261\",\"1991 U.S. App. LEXIS 12713\",\"1991 WL 91607\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1991-05-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/934-f-2d-1261/coty-v-rapides-bank-trust\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Coty v. Rapides Bank & Trust, 934 F.2d 1261 (5th Cir. 1991)\",\"link_md\":\"[Coty v. Rapides Bank & Trust, 934 F.2d 1261 (5th Cir. 1991)](https://syfert.com/federal/circuits/cases/934-f-2d-1261/coty-v-rapides-bank-trust)\",\"match_kind\":\"semantic\",\"similarity\":0.638},{\"cluster_id\":384479,\"case_name\":\"Cotera v. Wainwright\",\"citations\":[\"634 F.2d 1352\",\"1980 U.S. App. LEXIS 11289\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1980-12-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/634-f-2d-1352/cotera-v-wainwright\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cotera v. Wainwright, 634 F.2d 1352 (5th Cir. 1980)\",\"link_md\":\"[Cotera v. Wainwright, 634 F.2d 1352 (5th Cir. 1980)](https://syfert.com/federal/circuits/cases/634-f-2d-1352/cotera-v-wainwright)\",\"match_kind\":\"semantic\",\"similarity\":0.6366},{\"cluster_id\":501060,\"case_name\":\"Darwin Gravitt v. Darlin Bigelow and Gene Borgert\",\"citations\":[\"838 F.2d 470\",\"1988 U.S. App. LEXIS 1405\",\"1988 WL 7437\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1988-02-03\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/838-f-2d-470/darwin-gravitt-v-darlin-bigelow-and-gene-borgert\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darwin Gravitt v. Darlin Bigelow, 838 F.2d 470 (6th Cir. 1988)\",\"link_md\":\"[Darwin Gravitt v. Darlin Bigelow, 838 F.2d 470 (6th Cir. 1988)](https://syfert.com/federal/circuits/cases/838-f-2d-470/darwin-gravitt-v-darlin-bigelow-and-gene-borgert)\",\"match_kind\":\"semantic\",\"similarity\":0.6361},{\"cluster_id\":5828713,\"case_name\":\"National Granite Title Insurance Agency, Inc. v. Cadlerock Properties Joint Venture, LP\",\"citations\":[\"17 A.D.3d 551\",\"793 N.Y.S.2d 157\",\"2005 N.Y. App. Div. LEXIS 4119\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2005-04-18\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/17-a-d-3d-551/national-granite-title-insurance-agency-inc-v-cadlerock-properties-joint\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Nat'l Granite Title Ins. Agency, Inc. v. Cadlerock Props. Jt. Venture, LP, 17 A.D.3d 551 (N.Y. App. Div. 2d Dep't 2005)\",\"link_md\":\"[Nat'l Granite Title Ins. Agency, Inc. v. Cadlerock Props. Jt. Venture, LP, 17 A.D.3d 551 (N.Y. App. Div. 2d Dep't 2005)](https://syfert.com/new-york/cases/17-a-d-3d-551/national-granite-title-insurance-agency-inc-v-cadlerock-properties-joint)\",\"match_kind\":\"semantic\",\"similarity\":0.6354},{\"cluster_id\":579556,\"case_name\":\"John E. Love v. Duke University\",\"citations\":[\"959 F.2d 231\",\"1992 U.S. App. LEXIS 38223\",\"1992 WL 60230\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1992-03-30\",\"status\":\"Unpublished\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/959-f-2d-231/john-e-love-v-duke-university\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"John E. Love v. Duke Univ., 959 F.2d 231 (4th Cir. 1992)\",\"link_md\":\"[John E. Love v. Duke Univ., 959 F.2d 231 (4th Cir. 1992)](https://syfert.com/federal/circuits/cases/959-f-2d-231/john-e-love-v-duke-university)\",\"match_kind\":\"semantic\",\"similarity\":0.6349},{\"cluster_id\":667720,\"case_name\":\"Trail v. Cir\",\"citations\":[\"21 F.3d 1108\",\"1994 WL 171535\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1994-04-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/21-f-3d-1108/trail-v-cir\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Trail v. Cir, 21 F.3d 1108 (5th Cir. 1994)\",\"link_md\":\"[Trail v. Cir, 21 F.3d 1108 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/21-f-3d-1108/trail-v-cir)\",\"match_kind\":\"semantic\",\"similarity\":0.6337},{\"cluster_id\":2651397,\"case_name\":\"United States v. Ricky Copeland\",\"citations\":[\"553 F. App'x 295\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"2014-01-28\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/553-f-appx-295/united-states-v-ricky-copeland\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Ricky Copeland, 553 F. App'x 295 (4th Cir. 2014)\",\"link_md\":\"[United States v. Ricky Copeland, 553 F. App'x 295 (4th Cir. 2014)](https://syfert.com/federal/circuits/cases/553-f-appx-295/united-states-v-ricky-copeland)\",\"match_kind\":\"semantic\",\"similarity\":0.6332},{\"cluster_id\":4984259,\"case_name\":\"Steib v. Joseph Rathborne Land Co.\",\"citations\":[\"164 So. 2d 361\",\"246 La. 376\",\"1964 La. LEXIS 2570\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1964-06-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/246-la-376/steib-v-joseph-rathborne-land-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Steib v. Joseph Rathborne Land Co., 164 So. 2d 361 (La. 1964)\",\"link_md\":\"[Steib v. Joseph Rathborne Land Co., 164 So. 2d 361 (La. 1964)](https://syfert.com/louisiana/cases/246-la-376/steib-v-joseph-rathborne-land-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6328},{\"cluster_id\":9418,\"case_name\":\"Madison v. Vintage Petroleum\",\"citations\":[],\"court\":\"Fifth Circuit\",\"date_filed\":\"1996-05-31\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-9418/madison-v-vintage-petroleum\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Madison v. Vintage Petroleum, No. 95-60573 (5th Cir. May 31, 1996)\",\"link_md\":\"[Madison v. Vintage Petroleum, No. 95-60573 (5th Cir. May 31, 1996)](https://syfert.com/federal/circuits/cases/cl-9418/madison-v-vintage-petroleum)\",\"match_kind\":\"semantic\",\"similarity\":0.6315}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Cota w/15 \"501 P.3d 993\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 138732,
+    "case_name": "Cota-Meza v. United States",
+    "citations": [
+     "543 U.S. 876",
+     "73 U.S.L.W. 3211"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-10-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-876/cota-meza-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (138732 and its twin 9278156). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cota-Meza v. United States, 543 U.S. 876 (2004)",
+    "link_md": "[Cota-Meza v. United States, 543 U.S. 876 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-876/cota-meza-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6756
+   },
+   {
+    "cluster_id": 50816,
+    "case_name": "United States v. Sosa",
+    "citations": [],
+    "court": "Fifth Circuit",
+    "date_filed": "2007-06-20",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-50816/united-states-v-sosa",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Sosa, No. 06-41221 (5th Cir. June 20, 2007)",
+    "link_md": "[United States v. Sosa, No. 06-41221 (5th Cir. June 20, 2007)](https://syfert.com/federal/circuits/cases/cl-50816/united-states-v-sosa)",
+    "match_kind": "semantic",
+    "similarity": 0.6654
+   },
+   {
+    "cluster_id": 9033514,
+    "case_name": "Cota v. Los Angeles Unified School District",
+    "citations": [
+     "453 U.S. 920",
+     "101 S. Ct. 3155",
+     "69 L. Ed. 2d 1002",
+     "1981 U.S. LEXIS 2749"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1981-07-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/453-u-s-920/cota-v-los-angeles-unified-school-district",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cota v. Los Angeles Unified Sch. Dist., 453 U.S. 920 (1981)",
+    "link_md": "[Cota v. Los Angeles Unified Sch. Dist., 453 U.S. 920 (1981)](https://syfert.com/federal/scotus/cases/453-u-s-920/cota-v-los-angeles-unified-school-district)",
+    "match_kind": "semantic",
+    "similarity": 0.6542
+   },
+   {
+    "cluster_id": 8993322,
+    "case_name": "Lamar Financial Corp. v. Adams",
+    "citations": [
+     "918 F.2d 564",
+     "1990 WL 179785",
+     "18 Fed. R. Serv. 3d 1095",
+     "1990 U.S. App. LEXIS 21009"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1990-12-07",
+    "status": "Published",
+    "cited_by": 19,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/federal/circuits/cases/918-f-2d-564/lamar-financial-corp-v-adams",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (8993322 and its twin 551318).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lamar Fin. Corp. v. Adams, 918 F.2d 564 (5th Cir. 1990)",
+    "link_md": "[Lamar Fin. Corp. v. Adams, 918 F.2d 564 (5th Cir. 1990)](https://syfert.com/federal/circuits/cases/918-f-2d-564/lamar-financial-corp-v-adams)",
+    "match_kind": "semantic",
+    "similarity": 0.6526,
+    "twin_clusters": [
+     551318
+    ]
+   },
+   {
+    "cluster_id": 40708,
+    "case_name": "Wilson v. Ponchatoula City LA",
+    "citations": [],
+    "court": "Fifth Circuit",
+    "date_filed": "2006-02-13",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-40708/wilson-v-ponchatoula-city-la",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Wilson v. Ponchatoula City LA, No. 05-30122 (5th Cir. Feb. 13, 2006)",
+    "link_md": "[Wilson v. Ponchatoula City LA, No. 05-30122 (5th Cir. Feb. 13, 2006)](https://syfert.com/federal/circuits/cases/cl-40708/wilson-v-ponchatoula-city-la)",
+    "match_kind": "semantic",
+    "similarity": 0.652
+   },
+   {
+    "cluster_id": 5919917,
+    "case_name": "In re Hamilton",
+    "citations": [
+     "63 A.D.3d 937",
+     "880 N.Y.S.2d 539"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2009-06-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/63-a-d-3d-937/in-re-hamilton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Hamilton, 63 A.D.3d 937 (N.Y. App. Div. 4th Dep't 2009)",
+    "link_md": "[In re Hamilton, 63 A.D.3d 937 (N.Y. App. Div. 4th Dep't 2009)](https://syfert.com/new-york/cases/63-a-d-3d-937/in-re-hamilton)",
+    "match_kind": "semantic",
+    "similarity": 0.6442
+   },
+   {
+    "cluster_id": 1400067,
+    "case_name": "Stablein v. Stablein",
+    "citations": [
+     "368 P.2d 174",
+     "59 Wash. 2d 465",
+     "1962 Wash. LEXIS 417"
+    ],
+    "court": "Washington Supreme Court",
+    "date_filed": "1962-01-18",
+    "status": "Published",
+    "cited_by": 13,
+    "url": "https://syfert.com/washington/cases/59-wash-2d-465/stablein-v-stablein",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stablein v. Stablein, 368 P.2d 174 (Wash. 1962)",
+    "link_md": "[Stablein v. Stablein, 368 P.2d 174 (Wash. 1962)](https://syfert.com/washington/cases/59-wash-2d-465/stablein-v-stablein)",
+    "match_kind": "semantic",
+    "similarity": 0.6426
+   },
+   {
+    "cluster_id": 10773579,
+    "case_name": "Robbie Dow Goodman v. Lorie Davis",
+    "citations": [],
+    "court": "S.D. Texas",
+    "date_filed": "2026-01-12",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10773579/robbie-dow-goodman-v-lorie-davis-et-al",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Cobb, No. 2:25-cv-00067 (S.D. Tex. Jan. 12, 2026)",
+    "link_md": "[Cobb, No. 2:25-cv-00067 (S.D. Tex. Jan. 12, 2026)](https://syfert.com/federal/district/cases/cl-10773579/robbie-dow-goodman-v-lorie-davis-et-al)",
+    "match_kind": "semantic",
+    "similarity": 0.642
+   },
+   {
+    "cluster_id": 29882,
+    "case_name": "Floyd v. Scott",
+    "citations": [],
+    "court": "Fifth Circuit",
+    "date_filed": "2002-12-13",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-29882/floyd-v-scott",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Floyd v. Scott, No. 02-50600 (5th Cir. Dec. 13, 2002)",
+    "link_md": "[Floyd v. Scott, No. 02-50600 (5th Cir. Dec. 13, 2002)](https://syfert.com/federal/circuits/cases/cl-29882/floyd-v-scott)",
+    "match_kind": "semantic",
+    "similarity": 0.6417
+   },
+   {
+    "cluster_id": 3169769,
+    "case_name": "Norton v. Rocky Mountain Planned Parenthood, Inc",
+    "citations": [
+     "411 P.3d 162",
+     "2016 COA 3"
+    ],
+    "court": "Colorado Court of Appeals",
+    "date_filed": "2016-01-14",
+    "status": "Published",
+    "cited_by": 511,
+    "url": "https://syfert.com/colorado/cases/411-p-3d-162/norton-v-rocky-mountain-planned-parenthood-inc",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (3169769 and its twin 4247727).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Norton v. Rocky Mountain Planned Parenthood, Inc, 2016 COA 3, 411 P.3d 162",
+    "link_md": "[Norton v. Rocky Mountain Planned Parenthood, Inc, 2016 COA 3, 411 P.3d 162](https://syfert.com/colorado/cases/411-p-3d-162/norton-v-rocky-mountain-planned-parenthood-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6398
+   },
+   {
+    "cluster_id": 8752,
+    "case_name": "United States v. Fields",
+    "citations": [],
+    "court": "Fifth Circuit",
+    "date_filed": "1996-03-07",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-8752/united-states-v-fields",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Fields, No. 95-40028 (5th Cir. Mar. 7, 1996)",
+    "link_md": "[United States v. Fields, No. 95-40028 (5th Cir. Mar. 7, 1996)](https://syfert.com/federal/circuits/cases/cl-8752/united-states-v-fields)",
+    "match_kind": "semantic",
+    "similarity": 0.6394
+   },
+   {
+    "cluster_id": 562195,
+    "case_name": "Coty v. Rapides Bank & Trust",
+    "citations": [
+     "934 F.2d 1261",
+     "1991 U.S. App. LEXIS 12713",
+     "1991 WL 91607"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1991-05-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/934-f-2d-1261/coty-v-rapides-bank-trust",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Coty v. Rapides Bank & Trust, 934 F.2d 1261 (5th Cir. 1991)",
+    "link_md": "[Coty v. Rapides Bank & Trust, 934 F.2d 1261 (5th Cir. 1991)](https://syfert.com/federal/circuits/cases/934-f-2d-1261/coty-v-rapides-bank-trust)",
+    "match_kind": "semantic",
+    "similarity": 0.638
+   },
+   {
+    "cluster_id": 384479,
+    "case_name": "Cotera v. Wainwright",
+    "citations": [
+     "634 F.2d 1352",
+     "1980 U.S. App. LEXIS 11289"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1980-12-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/634-f-2d-1352/cotera-v-wainwright",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cotera v. Wainwright, 634 F.2d 1352 (5th Cir. 1980)",
+    "link_md": "[Cotera v. Wainwright, 634 F.2d 1352 (5th Cir. 1980)](https://syfert.com/federal/circuits/cases/634-f-2d-1352/cotera-v-wainwright)",
+    "match_kind": "semantic",
+    "similarity": 0.6366
+   },
+   {
+    "cluster_id": 501060,
+    "case_name": "Darwin Gravitt v. Darlin Bigelow and Gene Borgert",
+    "citations": [
+     "838 F.2d 470",
+     "1988 U.S. App. LEXIS 1405",
+     "1988 WL 7437"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1988-02-03",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/838-f-2d-470/darwin-gravitt-v-darlin-bigelow-and-gene-borgert",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Darwin Gravitt v. Darlin Bigelow, 838 F.2d 470 (6th Cir. 1988)",
+    "link_md": "[Darwin Gravitt v. Darlin Bigelow, 838 F.2d 470 (6th Cir. 1988)](https://syfert.com/federal/circuits/cases/838-f-2d-470/darwin-gravitt-v-darlin-bigelow-and-gene-borgert)",
+    "match_kind": "semantic",
+    "similarity": 0.6361
+   },
+   {
+    "cluster_id": 5828713,
+    "case_name": "National Granite Title Insurance Agency, Inc. v. Cadlerock Properties Joint Venture, LP",
+    "citations": [
+     "17 A.D.3d 551",
+     "793 N.Y.S.2d 157",
+     "2005 N.Y. App. Div. LEXIS 4119"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2005-04-18",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/17-a-d-3d-551/national-granite-title-insurance-agency-inc-v-cadlerock-properties-joint",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Nat'l Granite Title Ins. Agency, Inc. v. Cadlerock Props. Jt. Venture, LP, 17 A.D.3d 551 (N.Y. App. Div. 2d Dep't 2005)",
+    "link_md": "[Nat'l Granite Title Ins. Agency, Inc. v. Cadlerock Props. Jt. Venture, LP, 17 A.D.3d 551 (N.Y. App. Div. 2d Dep't 2005)](https://syfert.com/new-york/cases/17-a-d-3d-551/national-granite-title-insurance-agency-inc-v-cadlerock-properties-joint)",
+    "match_kind": "semantic",
+    "similarity": 0.6354
+   },
+   {
+    "cluster_id": 579556,
+    "case_name": "John E. Love v. Duke University",
+    "citations": [
+     "959 F.2d 231",
+     "1992 U.S. App. LEXIS 38223",
+     "1992 WL 60230"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1992-03-30",
+    "status": "Unpublished",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/959-f-2d-231/john-e-love-v-duke-university",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "John E. Love v. Duke Univ., 959 F.2d 231 (4th Cir. 1992)",
+    "link_md": "[John E. Love v. Duke Univ., 959 F.2d 231 (4th Cir. 1992)](https://syfert.com/federal/circuits/cases/959-f-2d-231/john-e-love-v-duke-university)",
+    "match_kind": "semantic",
+    "similarity": 0.6349
+   },
+   {
+    "cluster_id": 667720,
+    "case_name": "Trail v. Cir",
+    "citations": [
+     "21 F.3d 1108",
+     "1994 WL 171535"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1994-04-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/21-f-3d-1108/trail-v-cir",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Trail v. Cir, 21 F.3d 1108 (5th Cir. 1994)",
+    "link_md": "[Trail v. Cir, 21 F.3d 1108 (5th Cir. 1994)](https://syfert.com/federal/circuits/cases/21-f-3d-1108/trail-v-cir)",
+    "match_kind": "semantic",
+    "similarity": 0.6337
+   },
+   {
+    "cluster_id": 2651397,
+    "case_name": "United States v. Ricky Copeland",
+    "citations": [
+     "553 F. App'x 295"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "2014-01-28",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/553-f-appx-295/united-states-v-ricky-copeland",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Ricky Copeland, 553 F. App'x 295 (4th Cir. 2014)",
+    "link_md": "[United States v. Ricky Copeland, 553 F. App'x 295 (4th Cir. 2014)](https://syfert.com/federal/circuits/cases/553-f-appx-295/united-states-v-ricky-copeland)",
+    "match_kind": "semantic",
+    "similarity": 0.6332
+   },
+   {
+    "cluster_id": 4984259,
+    "case_name": "Steib v. Joseph Rathborne Land Co.",
+    "citations": [
+     "164 So. 2d 361",
+     "246 La. 376",
+     "1964 La. LEXIS 2570"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1964-06-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/246-la-376/steib-v-joseph-rathborne-land-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Steib v. Joseph Rathborne Land Co., 164 So. 2d 361 (La. 1964)",
+    "link_md": "[Steib v. Joseph Rathborne Land Co., 164 So. 2d 361 (La. 1964)](https://syfert.com/louisiana/cases/246-la-376/steib-v-joseph-rathborne-land-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6328
+   },
+   {
+    "cluster_id": 9418,
+    "case_name": "Madison v. Vintage Petroleum",
+    "citations": [],
+    "court": "Fifth Circuit",
+    "date_filed": "1996-05-31",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-9418/madison-v-vintage-petroleum",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Madison v. Vintage Petroleum, No. 95-60573 (5th Cir. May 31, 1996)",
+    "link_md": "[Madison v. Vintage Petroleum, No. 95-60573 (5th Cir. May 31, 1996)](https://syfert.com/federal/circuits/cases/cl-9418/madison-v-vintage-petroleum)",
+    "match_kind": "semantic",
+    "similarity": 0.6315
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

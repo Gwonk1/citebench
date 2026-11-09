@@ -1,0 +1,43 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Yellow w/15 \"277 S.W.2d 95\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Yellow w/15 \\\"277 S.W.2d 95\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1565743,\"bluebook\":\"Sledge v. Murphy, 284 S.W.2d 938 (Tex. Civ. App.—Waco 1955)\",\"url\":\"https://syfert.com/texas/cases/284-s-w-2d-938/sledge-v-murphy\",\"date_filed\":\"1955-11-17\",\"cited_by\":7,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...See also Rule 1, T.R.C.P., and Yellow Cab. & Baggage Co. v. Green, Tex.Civ.App., 277 S.W.2d 92 , point p. 95.\\n, Appellant in his brief says substantially that the appellant alleged that the transactions, involved in this matter were…\"},{\"cluster_id\":2859681,\"bluebook\":\"Bryan King & James S. Bumpous/Colorado River Broadcasters, Inc. v. Tolbert Foster/Bryan King & James S. Bumpous, No. 03-93-00314-CV (Tex. App.—Austin Mar. 15, 1995)\",\"url\":\"https://syfert.com/texas/cases/cl-2859681/bryan-king-and-james-s-bumpouscolorado-river-broad\",\"date_filed\":\"1995-03-15\",\"cited_by\":0,\"snippet\":\"...278; Yellow Cab &\\nBaggage Co. v. Green , 277 S.W.2d 92, 94-95 (Tex. 1955); Louisiana & Ark. Ry. , 773 S.W.2d\\nat 599 . In fact, the trial court should refuse to submit unnecessary instructions even if they\\ncorrectly state the law.…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Yellow w/15 \"277 S.W.2d 95\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1565743,
+    "bluebook": "Sledge v. Murphy, 284 S.W.2d 938 (Tex. Civ. App.—Waco 1955)",
+    "url": "https://syfert.com/texas/cases/284-s-w-2d-938/sledge-v-murphy",
+    "date_filed": "1955-11-17",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See also Rule 1, T.R.C.P., and Yellow Cab. & Baggage Co. v. Green, Tex.Civ.App., 277 S.W.2d 92 , point p. 95.\n, Appellant in his brief says substantially that the appellant alleged that the transactions, involved in this matter were…"
+   },
+   {
+    "cluster_id": 2859681,
+    "bluebook": "Bryan King & James S. Bumpous/Colorado River Broadcasters, Inc. v. Tolbert Foster/Bryan King & James S. Bumpous, No. 03-93-00314-CV (Tex. App.—Austin Mar. 15, 1995)",
+    "url": "https://syfert.com/texas/cases/cl-2859681/bryan-king-and-james-s-bumpouscolorado-river-broad",
+    "date_filed": "1995-03-15",
+    "cited_by": 0,
+    "snippet": "...278; Yellow Cab &\nBaggage Co. v. Green , 277 S.W.2d 92, 94-95 (Tex. 1955); Louisiana & Ark. Ry. , 773 S.W.2d\nat 599 . In fact, the trial court should refuse to submit unnecessary instructions even if they\ncorrectly state the law.…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "675 A.2d 1122",
+  "expected_case_name": "Calderon v. Bollegraaf"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"675 A.2d 1122\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 2106658,\n            \"case_name\": \"Calderon v. Bollegraaf\",\n            \"citations\": [\n                \"675 A.2d 1122\"\n            ],\n            \"court\": \"Supreme Court of New Jersey\",\n            \"date_filed\": \"1996-03-20\",\n            \"status\": \"Published\",\n            \"cited_by\": 27,\n            \"url\": \"https://syfert.com/new-jersey/cases/144-n-j-174/calderon-v-bollegraaf\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Calderon v. Bollegraaf, 675 A.2d 1122 (N.J. 1996)\",\n            \"link_md\": \"[Calderon v. Bollegraaf, 675 A.2d 1122 (N.J. 1996)](https://syfert.com/new-jersey/cases/144-n-j-174/calderon-v-bollegraaf)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Calderon v. Bollegraaf\",\n        \"actual\": \"Calderon v. Bollegraaf\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "675 A.2d 1122",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 2106658,
+    "case_name": "Calderon v. Bollegraaf",
+    "citations": [
+     "675 A.2d 1122"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "1996-03-20",
+    "status": "Published",
+    "cited_by": 27,
+    "url": "https://syfert.com/new-jersey/cases/144-n-j-174/calderon-v-bollegraaf",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Calderon v. Bollegraaf, 675 A.2d 1122 (N.J. 1996)",
+    "link_md": "[Calderon v. Bollegraaf, 675 A.2d 1122 (N.J. 1996)](https://syfert.com/new-jersey/cases/144-n-j-174/calderon-v-bollegraaf)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Calderon v. Bollegraaf",
+   "actual": "Calderon v. Bollegraaf",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

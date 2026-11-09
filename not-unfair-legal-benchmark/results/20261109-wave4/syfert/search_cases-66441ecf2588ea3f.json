@@ -1,0 +1,91 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Pinder w/15 \"853 N.Y.S.2d 312\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Pinder w/15 \\\"853 N.Y.S.2d 312\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2473131,\"bluebook\":\"Flaherty v. Massapequa Pub. Schs., 752 F. Supp. 2d 286 (E.D.N.Y. 2010)\",\"url\":\"https://syfert.com/federal/district/cases/752-f-supp-2d-286/flaherty-v-massapequa-public-schools\",\"date_filed\":\"2010-11-09\",\"cited_by\":16,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Pinder v. City of New York,\\n49 A.D.3d 280 , 853 N.Y.S.2d 312 (2008) (explaining that the possibility that an adverse employment decision may be reversed is insufficient to toll the statute of limitations);\\nsee Jamieson v.…\"},{\"cluster_id\":9868038,\"bluebook\":\"Ikedilo v. Statter, No. 1:19-cv-09967 (S.D.N.Y. Aug. 31, 2021)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9868038/ikedilo-v-statter\",\"date_filed\":\"2021-08-31\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...755 F.3d at 24. “As in Ricks, … the mere\\npossibility that the decision [to terminate] might be reversed [is] not enough to label it advisory or\\nineffective for time-bar purposes.” Id; accord Pinder v. City of New York, 853 N.Y.S.2d 312…\"},{\"cluster_id\":8724430,\"bluebook\":\"Thomas v. New York City Dep't of Educ., 938 F. Supp. 2d 334 (E.D.N.Y. 2013)\",\"url\":\"https://syfert.com/federal/district/cases/938-f-supp-2d-334/thomas-v-new-york-city-department-of-education\",\"date_filed\":\"2013-03-29\",\"cited_by\":25,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...employment determination is made and communicated to plaintiff .... ” Tomici, 910 F.Supp.2d at 476 (quoting Pinder v. City of New York, 49 A.D.3d 280 , 853 N.Y.S.2d 312 , 313 (N.Y.App.Div.2008)). Plaintiff was first advised of her…\"},{\"cluster_id\":8721170,\"bluebook\":\"Tomici v. New York City Dep't of Educ., 910 F. Supp. 2d 472 (E.D.N.Y. 2012)\",\"url\":\"https://syfert.com/federal/district/cases/910-f-supp-2d-472/tomici-v-new-york-city-department-of-education\",\"date_filed\":\"2012-12-19\",\"cited_by\":2,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...and the possibility that the determination may be reversed is insufficient to toll the limitations period.” Pinder v. City of New York, 49 A.D.3d 280 , 853 N.Y.S.2d 312 , 313 (1st Dep’t 2008) (emphasis added).\\nA charge filed with the…\"},{\"cluster_id\":2180222,\"bluebook\":\"Murphy v. Pricewaterhousecoopers, LLP, 813 F. Supp. 2d 45 (D.D.C. 2011)\",\"url\":\"https://syfert.com/federal/district/cases/813-f-supp-2d-45/murphy-v-pricewaterhousecoopers-llp\",\"date_filed\":\"2011-09-22\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...A claim of employment discrimination under the NYHRL “accrues on the date than an adverse employment determination is made and communicated to plaintiff.”\\nPinder v. City of New York,\\n49 A.D.3d 280 , 853 N.Y.S.2d 312 , 313 (2008); see…\"},{\"cluster_id\":2663626,\"bluebook\":\"Murphy v. Pricewaterhousecoopers LLP, No. 2005-1054 (D.D.C. Sept. 22, 2011)\",\"url\":\"https://syfert.com/federal/district/cases/cl-2663626/murphy-v-pricewaterhousecoopers-llp\",\"date_filed\":\"2011-09-22\",\"cited_by\":0,\"snippet\":\"...A claim of employment discrimination under the NYHRL “accrues on the date\\nthan an adverse employment determination is made and communicated to plaintiff.”\\nPinder v. City of New York, 853 N.Y.S.2d 312, 313 (App. Div. 2008); see also…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Pinder w/15 \"853 N.Y.S.2d 312\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2473131,
+    "bluebook": "Flaherty v. Massapequa Pub. Schs., 752 F. Supp. 2d 286 (E.D.N.Y. 2010)",
+    "url": "https://syfert.com/federal/district/cases/752-f-supp-2d-286/flaherty-v-massapequa-public-schools",
+    "date_filed": "2010-11-09",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Pinder v. City of New York,\n49 A.D.3d 280 , 853 N.Y.S.2d 312 (2008) (explaining that the possibility that an adverse employment decision may be reversed is insufficient to toll the statute of limitations);\nsee Jamieson v.…"
+   },
+   {
+    "cluster_id": 9868038,
+    "bluebook": "Ikedilo v. Statter, No. 1:19-cv-09967 (S.D.N.Y. Aug. 31, 2021)",
+    "url": "https://syfert.com/federal/district/cases/cl-9868038/ikedilo-v-statter",
+    "date_filed": "2021-08-31",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...755 F.3d at 24. “As in Ricks, … the mere\npossibility that the decision [to terminate] might be reversed [is] not enough to label it advisory or\nineffective for time-bar purposes.” Id; accord Pinder v. City of New York, 853 N.Y.S.2d 312…"
+   },
+   {
+    "cluster_id": 8724430,
+    "bluebook": "Thomas v. New York City Dep't of Educ., 938 F. Supp. 2d 334 (E.D.N.Y. 2013)",
+    "url": "https://syfert.com/federal/district/cases/938-f-supp-2d-334/thomas-v-new-york-city-department-of-education",
+    "date_filed": "2013-03-29",
+    "cited_by": 25,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...employment determination is made and communicated to plaintiff .... ” Tomici, 910 F.Supp.2d at 476 (quoting Pinder v. City of New York, 49 A.D.3d 280 , 853 N.Y.S.2d 312 , 313 (N.Y.App.Div.2008)). Plaintiff was first advised of her…"
+   },
+   {
+    "cluster_id": 8721170,
+    "bluebook": "Tomici v. New York City Dep't of Educ., 910 F. Supp. 2d 472 (E.D.N.Y. 2012)",
+    "url": "https://syfert.com/federal/district/cases/910-f-supp-2d-472/tomici-v-new-york-city-department-of-education",
+    "date_filed": "2012-12-19",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...and the possibility that the determination may be reversed is insufficient to toll the limitations period.” Pinder v. City of New York, 49 A.D.3d 280 , 853 N.Y.S.2d 312 , 313 (1st Dep’t 2008) (emphasis added).\nA charge filed with the…"
+   },
+   {
+    "cluster_id": 2180222,
+    "bluebook": "Murphy v. Pricewaterhousecoopers, LLP, 813 F. Supp. 2d 45 (D.D.C. 2011)",
+    "url": "https://syfert.com/federal/district/cases/813-f-supp-2d-45/murphy-v-pricewaterhousecoopers-llp",
+    "date_filed": "2011-09-22",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...A claim of employment discrimination under the NYHRL “accrues on the date than an adverse employment determination is made and communicated to plaintiff.”\nPinder v. City of New York,\n49 A.D.3d 280 , 853 N.Y.S.2d 312 , 313 (2008); see…"
+   },
+   {
+    "cluster_id": 2663626,
+    "bluebook": "Murphy v. Pricewaterhousecoopers LLP, No. 2005-1054 (D.D.C. Sept. 22, 2011)",
+    "url": "https://syfert.com/federal/district/cases/cl-2663626/murphy-v-pricewaterhousecoopers-llp",
+    "date_filed": "2011-09-22",
+    "cited_by": 0,
+    "snippet": "...A claim of employment discrimination under the NYHRL “accrues on the date\nthan an adverse employment determination is made and communicated to plaintiff.”\nPinder v. City of New York, 853 N.Y.S.2d 312, 313 (App. Div. 2008); see also…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

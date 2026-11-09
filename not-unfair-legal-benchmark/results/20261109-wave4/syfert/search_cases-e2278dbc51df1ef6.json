@@ -1,0 +1,39 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "McCord w/15 \"39 N.W. 318\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"McCord w/15 \\\"39 N.W. 318\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8011726,\"bluebook\":\"Nat'l Bank of Com. v. Chicago, Burlington & N. R.R., 46 N.W. 342 (Minn. 1890)\",\"url\":\"https://syfert.com/minnesota/cases/44-minn-224/national-bank-of-commerce-v-chicago-burlington-northern-railroad\",\"date_filed\":\"1890-08-06\",\"cited_by\":72,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...This rule this court in effect adopted and applied in McCord v. Western Union Telegraph Co., 39 Minn. 181 , ( 39 N. W. Rep. 315 , 318.) It is urged that force is added to this reasoning in view of the fact that bills of lading are…\",\"holding\":\"A carrier is not liable to an innocent indorsee for a bill of lading issued by its agent without the receipt of the goods.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "McCord w/15 \"39 N.W. 318\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8011726,
+    "bluebook": "Nat'l Bank of Com. v. Chicago, Burlington & N. R.R., 46 N.W. 342 (Minn. 1890)",
+    "url": "https://syfert.com/minnesota/cases/44-minn-224/national-bank-of-commerce-v-chicago-burlington-northern-railroad",
+    "date_filed": "1890-08-06",
+    "cited_by": 72,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...This rule this court in effect adopted and applied in McCord v. Western Union Telegraph Co., 39 Minn. 181 , ( 39 N. W. Rep. 315 , 318.) It is urged that force is added to this reasoning in view of the fact that bills of lading are…",
+    "holding": "A carrier is not liable to an innocent indorsee for a bill of lading issued by its agent without the receipt of the goods.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

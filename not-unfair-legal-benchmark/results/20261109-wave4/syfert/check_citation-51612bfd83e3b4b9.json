@@ -1,0 +1,61 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "312 N.W.2d 181",
+  "expected_case_name": "Gutierrez v. Dairyland Insurance"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"312 N.W.2d 181\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1757340,\n            \"case_name\": \"Gutierrez v. Dairyland Insurance\",\n            \"citations\": [\n                \"312 N.W.2d 181\"\n            ],\n            \"court\": \"Michigan Court of Appeals\",\n            \"date_filed\": \"1981-10-06\",\n            \"status\": \"Published\",\n            \"cited_by\": 19,\n            \"url\": \"https://syfert.com/michigan/cases/110-mich-app-126/gutierrez-v-dairyland-insurance\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Gutierrez v. Dairyland Ins., 312 N.W.2d 181 (Mich. Ct. App. 1981)\",\n            \"link_md\": \"[Gutierrez v. Dairyland Ins., 312 N.W.2d 181 (Mich. Ct. App. 1981)](https://syfert.com/michigan/cases/110-mich-app-126/gutierrez-v-dairyland-insurance)\",\n            \"treatment\": {\n                \"flag\": \"red\",\n                \"red\": 2,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": \"Disapproved\",\n                \"strongest_citer\": \"Heard v. State Farm Mutual Automobile Insurance\",\n                \"strongest_date\": \"1982-09-13\",\n                \"strongest_citer_cluster_id\": 1579796,\n                \"scope\": \"Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved.\",\n                \"strongest_citer_source\": \"overruled_by\",\n                \"strongest_citer_published\": true,\n                \"flag_basis\": \"overruled_by\",\n                \"flag_reason\": \"Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved.\",\n                \"flag_evidence\": [\n                    \"citing_events\",\n                    \"overruled_by\",\n                    \"scope\",\n                    \"validated_annotations\"\n                ]\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Gutierrez v. Dairyland Insurance\",\n        \"actual\": \"Gutierrez v. Dairyland Insurance\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "312 N.W.2d 181",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1757340,
+    "case_name": "Gutierrez v. Dairyland Insurance",
+    "citations": [
+     "312 N.W.2d 181"
+    ],
+    "court": "Michigan Court of Appeals",
+    "date_filed": "1981-10-06",
+    "status": "Published",
+    "cited_by": 19,
+    "url": "https://syfert.com/michigan/cases/110-mich-app-126/gutierrez-v-dairyland-insurance",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gutierrez v. Dairyland Ins., 312 N.W.2d 181 (Mich. Ct. App. 1981)",
+    "link_md": "[Gutierrez v. Dairyland Ins., 312 N.W.2d 181 (Mich. Ct. App. 1981)](https://syfert.com/michigan/cases/110-mich-app-126/gutierrez-v-dairyland-insurance)",
+    "treatment": {
+     "flag": "red",
+     "red": 2,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": "Disapproved",
+     "strongest_citer": "Heard v. State Farm Mutual Automobile Insurance",
+     "strongest_date": "1982-09-13",
+     "strongest_citer_cluster_id": 1579796,
+     "scope": "Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved.",
+     "strongest_citer_source": "overruled_by",
+     "strongest_citer_published": true,
+     "flag_basis": "overruled_by",
+     "flag_reason": "Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved.",
+     "flag_evidence": [
+      "citing_events",
+      "overruled_by",
+      "scope",
+      "validated_annotations"
+     ]
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Gutierrez v. Dairyland Insurance",
+   "actual": "Gutierrez v. Dairyland Insurance",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

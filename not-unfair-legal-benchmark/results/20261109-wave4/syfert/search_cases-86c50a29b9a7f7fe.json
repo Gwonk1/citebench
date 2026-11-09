@@ -1,0 +1,411 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "DARREN w/15 \"336 So3d 728\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"DARREN w/15 \\\"336 So3d 728\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1615149,\"case_name\":\"DARAY v. St. Tammany Parish\",\"citations\":[\"23 So. 3d 945\",\"2009 WL 5193946\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2009-12-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/23-so-3d-945/daray-v-st-tammany-parish\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"DARAY v. St. Tammany Par., 23 So. 3d 945 (La. 2009)\",\"link_md\":\"[DARAY v. St. Tammany Par., 23 So. 3d 945 (La. 2009)](https://syfert.com/louisiana/cases/23-so-3d-945/daray-v-st-tammany-parish)\",\"match_kind\":\"semantic\",\"similarity\":0.5787},{\"cluster_id\":5057315,\"case_name\":\"State ex rel. Darensbourg v. State\",\"citations\":[\"85 So. 3d 1270\",\"2012 WL 1513706\",\"2012 La. LEXIS 1167\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2012-04-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/85-so-3d-1270/state-ex-rel-darensbourg-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5057315 and its twin 2549622). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Darensbourg v. State, 85 So. 3d 1270 (La. 2012)\",\"link_md\":\"[State ex rel. Darensbourg v. State, 85 So. 3d 1270 (La. 2012)](https://syfert.com/louisiana/cases/85-so-3d-1270/state-ex-rel-darensbourg-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5785,\"twin_clusters\":[2549622]},{\"cluster_id\":7438134,\"case_name\":\"Damers v. Barker\",\"citations\":[\"152 N.Y.S. 1106\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1915-01-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/152-n-y-s-1106/damers-v-barker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Damers v. Barker, 152 N.Y.S. 1106 (N.Y. App. Div. 1915)\",\"link_md\":\"[Damers v. Barker, 152 N.Y.S. 1106 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/152-n-y-s-1106/damers-v-barker)\",\"match_kind\":\"semantic\",\"similarity\":0.5771},{\"cluster_id\":7847479,\"case_name\":\"State ex rel. Darensbourg v. State\",\"citations\":[\"967 So. 2d 495\",\"2007 La. LEXIS 2521\",\"2007 WL 4118441\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2007-11-09\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/louisiana/cases/967-so-2d-495/state-ex-rel-darensbourg-v-state\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (7847479 and its twin 1846376).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Darensbourg v. State, 967 So. 2d 495 (La. 2007)\",\"link_md\":\"[State ex rel. Darensbourg v. State, 967 So. 2d 495 (La. 2007)](https://syfert.com/louisiana/cases/967-so-2d-495/state-ex-rel-darensbourg-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5759,\"twin_clusters\":[1846376]},{\"cluster_id\":6391351,\"case_name\":\"Brugnetti v. Darnall\",\"citations\":[\"353 A.2d 33\",\"466 Pa. 292\",\"1976 Pa. LEXIS 474\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1976-03-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/466-pa-292/brugnetti-v-darnall\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Brugnetti v. Darnall, 353 A.2d 33 (Pa. 1976)\",\"link_md\":\"[Brugnetti v. Darnall, 353 A.2d 33 (Pa. 1976)](https://syfert.com/pennsylvania/cases/466-pa-292/brugnetti-v-darnall)\",\"match_kind\":\"semantic\",\"similarity\":0.5757},{\"cluster_id\":762679,\"case_name\":\"Darryl Byrd v. Timothy J. Lucas, Esq\",\"citations\":[\"172 F.3d 40\",\"1998 U.S. App. LEXIS 31123\",\"1998 WL 961256\"],\"court\":\"Third Circuit\",\"date_filed\":\"1998-11-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/172-f-3d-40/darryl-byrd-v-timothy-j-lucas-esq\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darryl Byrd v. Timothy J. Lucas, 172 F.3d 40 (3d Cir. 1998)\",\"link_md\":\"[Darryl Byrd v. Timothy J. Lucas, 172 F.3d 40 (3d Cir. 1998)](https://syfert.com/federal/circuits/cases/172-f-3d-40/darryl-byrd-v-timothy-j-lucas-esq)\",\"match_kind\":\"semantic\",\"similarity\":0.572},{\"cluster_id\":7842575,\"case_name\":\"Darty v. Transocean Offshore USA, Inc.\",\"citations\":[\"942 So. 2d 539\",\"2006 La. LEXIS 3278\",\"2006 WL 3539115\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2006-11-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/942-so-2d-539/darty-v-transocean-offshore-usa-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7842575 and its twin 1858161). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darty v. Transocean Offshore USA, Inc., 942 So. 2d 539 (La. 2006)\",\"link_md\":\"[Darty v. Transocean Offshore USA, Inc., 942 So. 2d 539 (La. 2006)](https://syfert.com/louisiana/cases/942-so-2d-539/darty-v-transocean-offshore-usa-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.5695,\"twin_clusters\":[1858161]},{\"cluster_id\":8904737,\"case_name\":\"Home Telephone Co. v. Darley\",\"citations\":[\"489 F.2d 1403\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1974-03-06\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/circuits/cases/489-f-2d-1403/home-telephone-co-v-darley\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Home Tel. Co. v. Darley, 489 F.2d 1403 (5th Cir. 1974)\",\"link_md\":\"[Home Tel. Co. v. Darley, 489 F.2d 1403 (5th Cir. 1974)](https://syfert.com/federal/circuits/cases/489-f-2d-1403/home-telephone-co-v-darley)\",\"match_kind\":\"semantic\",\"similarity\":0.5676},{\"cluster_id\":9972366,\"case_name\":\"Darvin v. Correctional Development Center/Male\",\"citations\":[],\"court\":\"M.D. Tennessee\",\"date_filed\":\"2023-10-12\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9972366/darvin-v-correctional-development-centermale\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Darvin v. Corr. Dev. Ctr./Male, No. 3:23-cv-00373 (M.D. Tenn. Oct. 12, 2023)\",\"link_md\":\"[Darvin v. Corr. Dev. Ctr./Male, No. 3:23-cv-00373 (M.D. Tenn. Oct. 12, 2023)](https://syfert.com/federal/district/cases/cl-9972366/darvin-v-correctional-development-centermale)\",\"match_kind\":\"semantic\",\"similarity\":0.5675},{\"cluster_id\":7842528,\"case_name\":\"Darty v. Transocean Offshore USA, Inc.\",\"citations\":[\"942 So. 2d 525\",\"2006 La. LEXIS 3231\",\"2006 WL 3531689\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2006-11-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/942-so-2d-525/darty-v-transocean-offshore-usa-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7842528 and its twin 1857568). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darty v. Transocean Offshore USA, Inc., 942 So. 2d 525 (La. 2006)\",\"link_md\":\"[Darty v. Transocean Offshore USA, Inc., 942 So. 2d 525 (La. 2006)](https://syfert.com/louisiana/cases/942-so-2d-525/darty-v-transocean-offshore-usa-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.5675,\"twin_clusters\":[1857568]},{\"cluster_id\":5823725,\"case_name\":\"Najac v. Najac\",\"citations\":[\"12 A.D.3d 579\",\"784 N.Y.S.2d 384\",\"2004 N.Y. App. Div. LEXIS 14245\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2004-11-22\",\"status\":\"Published\",\"cited_by\":14,\"url\":\"https://syfert.com/new-york/cases/12-a-d-3d-579/najac-v-najac\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Najac v. Najac, 12 A.D.3d 579 (N.Y. App. Div. 2d Dep't 2004)\",\"link_md\":\"[Najac v. Najac, 12 A.D.3d 579 (N.Y. App. Div. 2d Dep't 2004)](https://syfert.com/new-york/cases/12-a-d-3d-579/najac-v-najac)\",\"match_kind\":\"semantic\",\"similarity\":0.5634},{\"cluster_id\":8315014,\"case_name\":\"People ex rel. Dare v. Gardner\",\"citations\":[\"160 N.Y.S. 962\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1916-09-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/160-n-y-s-962/people-ex-rel-dare-v-gardner\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Dare v. Gardner, 160 N.Y.S. 962 (N.Y. App. Div. 1916)\",\"link_md\":\"[People ex rel. Dare v. Gardner, 160 N.Y.S. 962 (N.Y. App. Div. 1916)](https://syfert.com/new-york/cases/160-n-y-s-962/people-ex-rel-dare-v-gardner)\",\"match_kind\":\"semantic\",\"similarity\":0.562},{\"cluster_id\":9899308,\"case_name\":\"Durden v. DNF Associates LLC\",\"citations\":[],\"court\":\"W.D. New York\",\"date_filed\":\"2023-03-13\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9899308/durden-v-dnf-associates-llc\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Durden v. DNF Assocs. LLC, No. 1:22-cv-00799 (W.D.N.Y. Mar. 13, 2023)\",\"link_md\":\"[Durden v. DNF Assocs. LLC, No. 1:22-cv-00799 (W.D.N.Y. Mar. 13, 2023)](https://syfert.com/federal/district/cases/cl-9899308/durden-v-dnf-associates-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.562},{\"cluster_id\":4123744,\"case_name\":\"Heath v. Blackman\",\"citations\":[\"173 S.E. 300\",\"172 S.C. 158\",\"1934 S.C. LEXIS 55\"],\"court\":\"Supreme Court of South Carolina\",\"date_filed\":\"1934-03-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/south-carolina/cases/172-s-c-158/heath-v-blackman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Heath v. Blackman, 173 S.E. 300 (S.C. 1934)\",\"link_md\":\"[Heath v. Blackman, 173 S.E. 300 (S.C. 1934)](https://syfert.com/south-carolina/cases/172-s-c-158/heath-v-blackman)\",\"match_kind\":\"semantic\",\"similarity\":0.5609},{\"cluster_id\":4115728,\"case_name\":\"Dunbar v. Fant\",\"citations\":[\"176 S.E. 866\",\"174 S.C. 49\",\"1934 S.C. LEXIS 180\"],\"court\":\"Supreme Court of South Carolina\",\"date_filed\":\"1934-11-01\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/south-carolina/cases/174-s-c-49/dunbar-v-fant\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dunbar v. Fant, 176 S.E. 866 (S.C. 1934)\",\"link_md\":\"[Dunbar v. Fant, 176 S.E. 866 (S.C. 1934)](https://syfert.com/south-carolina/cases/174-s-c-49/dunbar-v-fant)\",\"match_kind\":\"semantic\",\"similarity\":0.5605},{\"cluster_id\":10939050,\"case_name\":\"Taylor Hardy v. DermCare Management, LLC\",\"citations\":[],\"court\":\"S.D. Florida\",\"date_filed\":\"2026-07-15\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10939050/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Hardy, No. 0:26-cv-61953 (S.D. Fla. July 15, 2026)\",\"link_md\":\"[Hardy, No. 0:26-cv-61953 (S.D. Fla. July 15, 2026)](https://syfert.com/federal/district/cases/cl-10939050/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated)\",\"match_kind\":\"semantic\",\"similarity\":0.5573},{\"cluster_id\":9541504,\"case_name\":\"Hamilton v. Davis\",\"citations\":[],\"court\":\"E.D. Arkansas\",\"date_filed\":\"2023-09-25\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9541504/hamilton-v-davis\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Hamilton v. Davis, No. 4:23-cv-00799 (E.D. Ark. Sept. 25, 2023)\",\"link_md\":\"[Hamilton v. Davis, No. 4:23-cv-00799 (E.D. Ark. Sept. 25, 2023)](https://syfert.com/federal/district/cases/cl-9541504/hamilton-v-davis)\",\"match_kind\":\"semantic\",\"similarity\":0.5547},{\"cluster_id\":10952760,\"case_name\":\"Taylor Hardy v. DermCare Management, LLC\",\"citations\":[],\"court\":\"E.D. California\",\"date_filed\":\"2026-07-15\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10952760/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Hardy, No. 2:26-cv-02317 (E.D. Cal. July 15, 2026)\",\"link_md\":\"[Hardy, No. 2:26-cv-02317 (E.D. Cal. July 15, 2026)](https://syfert.com/federal/district/cases/cl-10952760/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated)\",\"match_kind\":\"semantic\",\"similarity\":0.5542},{\"cluster_id\":6992371,\"case_name\":\"Thomson v. Huff\",\"citations\":[\"149 F.2d 842\",\"80 U.S. App. D.C. 165\",\"1945 U.S. App. LEXIS 2698\"],\"court\":\"D.C. Circuit\",\"date_filed\":\"1945-06-18\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/federal/circuits/cases/149-f-2d-842/thomson-v-huff\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Thomson v. Huff, 149 F.2d 842 (D.C. Cir. 1945)\",\"link_md\":\"[Thomson v. Huff, 149 F.2d 842 (D.C. Cir. 1945)](https://syfert.com/federal/circuits/cases/149-f-2d-842/thomson-v-huff)\",\"match_kind\":\"semantic\",\"similarity\":0.553},{\"cluster_id\":6258070,\"case_name\":\"Dargin v. Wells\",\"citations\":[\"31 N.Y. Sup. Ct. 661\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1881-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6258070/dargin-v-wells\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dargin v. Wells, 31 N.Y. Sup. Ct. 661 (N.Y. Sup. Ct. 1881)\",\"link_md\":\"[Dargin v. Wells, 31 N.Y. Sup. Ct. 661 (N.Y. Sup. Ct. 1881)](https://syfert.com/new-york/cases/cl-6258070/dargin-v-wells)\",\"match_kind\":\"semantic\",\"similarity\":0.5529}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "DARREN w/15 \"336 So3d 728\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1615149,
+    "case_name": "DARAY v. St. Tammany Parish",
+    "citations": [
+     "23 So. 3d 945",
+     "2009 WL 5193946"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2009-12-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/23-so-3d-945/daray-v-st-tammany-parish",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "DARAY v. St. Tammany Par., 23 So. 3d 945 (La. 2009)",
+    "link_md": "[DARAY v. St. Tammany Par., 23 So. 3d 945 (La. 2009)](https://syfert.com/louisiana/cases/23-so-3d-945/daray-v-st-tammany-parish)",
+    "match_kind": "semantic",
+    "similarity": 0.5787
+   },
+   {
+    "cluster_id": 5057315,
+    "case_name": "State ex rel. Darensbourg v. State",
+    "citations": [
+     "85 So. 3d 1270",
+     "2012 WL 1513706",
+     "2012 La. LEXIS 1167"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2012-04-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/85-so-3d-1270/state-ex-rel-darensbourg-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5057315 and its twin 2549622). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Darensbourg v. State, 85 So. 3d 1270 (La. 2012)",
+    "link_md": "[State ex rel. Darensbourg v. State, 85 So. 3d 1270 (La. 2012)](https://syfert.com/louisiana/cases/85-so-3d-1270/state-ex-rel-darensbourg-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5785,
+    "twin_clusters": [
+     2549622
+    ]
+   },
+   {
+    "cluster_id": 7438134,
+    "case_name": "Damers v. Barker",
+    "citations": [
+     "152 N.Y.S. 1106"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1915-01-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/152-n-y-s-1106/damers-v-barker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Damers v. Barker, 152 N.Y.S. 1106 (N.Y. App. Div. 1915)",
+    "link_md": "[Damers v. Barker, 152 N.Y.S. 1106 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/152-n-y-s-1106/damers-v-barker)",
+    "match_kind": "semantic",
+    "similarity": 0.5771
+   },
+   {
+    "cluster_id": 7847479,
+    "case_name": "State ex rel. Darensbourg v. State",
+    "citations": [
+     "967 So. 2d 495",
+     "2007 La. LEXIS 2521",
+     "2007 WL 4118441"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2007-11-09",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/louisiana/cases/967-so-2d-495/state-ex-rel-darensbourg-v-state",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (7847479 and its twin 1846376).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Darensbourg v. State, 967 So. 2d 495 (La. 2007)",
+    "link_md": "[State ex rel. Darensbourg v. State, 967 So. 2d 495 (La. 2007)](https://syfert.com/louisiana/cases/967-so-2d-495/state-ex-rel-darensbourg-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5759,
+    "twin_clusters": [
+     1846376
+    ]
+   },
+   {
+    "cluster_id": 6391351,
+    "case_name": "Brugnetti v. Darnall",
+    "citations": [
+     "353 A.2d 33",
+     "466 Pa. 292",
+     "1976 Pa. LEXIS 474"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1976-03-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/466-pa-292/brugnetti-v-darnall",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Brugnetti v. Darnall, 353 A.2d 33 (Pa. 1976)",
+    "link_md": "[Brugnetti v. Darnall, 353 A.2d 33 (Pa. 1976)](https://syfert.com/pennsylvania/cases/466-pa-292/brugnetti-v-darnall)",
+    "match_kind": "semantic",
+    "similarity": 0.5757
+   },
+   {
+    "cluster_id": 762679,
+    "case_name": "Darryl Byrd v. Timothy J. Lucas, Esq",
+    "citations": [
+     "172 F.3d 40",
+     "1998 U.S. App. LEXIS 31123",
+     "1998 WL 961256"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1998-11-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/172-f-3d-40/darryl-byrd-v-timothy-j-lucas-esq",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Darryl Byrd v. Timothy J. Lucas, 172 F.3d 40 (3d Cir. 1998)",
+    "link_md": "[Darryl Byrd v. Timothy J. Lucas, 172 F.3d 40 (3d Cir. 1998)](https://syfert.com/federal/circuits/cases/172-f-3d-40/darryl-byrd-v-timothy-j-lucas-esq)",
+    "match_kind": "semantic",
+    "similarity": 0.572
+   },
+   {
+    "cluster_id": 7842575,
+    "case_name": "Darty v. Transocean Offshore USA, Inc.",
+    "citations": [
+     "942 So. 2d 539",
+     "2006 La. LEXIS 3278",
+     "2006 WL 3539115"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2006-11-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/942-so-2d-539/darty-v-transocean-offshore-usa-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7842575 and its twin 1858161). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Darty v. Transocean Offshore USA, Inc., 942 So. 2d 539 (La. 2006)",
+    "link_md": "[Darty v. Transocean Offshore USA, Inc., 942 So. 2d 539 (La. 2006)](https://syfert.com/louisiana/cases/942-so-2d-539/darty-v-transocean-offshore-usa-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.5695,
+    "twin_clusters": [
+     1858161
+    ]
+   },
+   {
+    "cluster_id": 8904737,
+    "case_name": "Home Telephone Co. v. Darley",
+    "citations": [
+     "489 F.2d 1403"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1974-03-06",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/circuits/cases/489-f-2d-1403/home-telephone-co-v-darley",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Home Tel. Co. v. Darley, 489 F.2d 1403 (5th Cir. 1974)",
+    "link_md": "[Home Tel. Co. v. Darley, 489 F.2d 1403 (5th Cir. 1974)](https://syfert.com/federal/circuits/cases/489-f-2d-1403/home-telephone-co-v-darley)",
+    "match_kind": "semantic",
+    "similarity": 0.5676
+   },
+   {
+    "cluster_id": 9972366,
+    "case_name": "Darvin v. Correctional Development Center/Male",
+    "citations": [],
+    "court": "M.D. Tennessee",
+    "date_filed": "2023-10-12",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9972366/darvin-v-correctional-development-centermale",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Darvin v. Corr. Dev. Ctr./Male, No. 3:23-cv-00373 (M.D. Tenn. Oct. 12, 2023)",
+    "link_md": "[Darvin v. Corr. Dev. Ctr./Male, No. 3:23-cv-00373 (M.D. Tenn. Oct. 12, 2023)](https://syfert.com/federal/district/cases/cl-9972366/darvin-v-correctional-development-centermale)",
+    "match_kind": "semantic",
+    "similarity": 0.5675
+   },
+   {
+    "cluster_id": 7842528,
+    "case_name": "Darty v. Transocean Offshore USA, Inc.",
+    "citations": [
+     "942 So. 2d 525",
+     "2006 La. LEXIS 3231",
+     "2006 WL 3531689"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2006-11-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/942-so-2d-525/darty-v-transocean-offshore-usa-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7842528 and its twin 1857568). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Darty v. Transocean Offshore USA, Inc., 942 So. 2d 525 (La. 2006)",
+    "link_md": "[Darty v. Transocean Offshore USA, Inc., 942 So. 2d 525 (La. 2006)](https://syfert.com/louisiana/cases/942-so-2d-525/darty-v-transocean-offshore-usa-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.5675,
+    "twin_clusters": [
+     1857568
+    ]
+   },
+   {
+    "cluster_id": 5823725,
+    "case_name": "Najac v. Najac",
+    "citations": [
+     "12 A.D.3d 579",
+     "784 N.Y.S.2d 384",
+     "2004 N.Y. App. Div. LEXIS 14245"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2004-11-22",
+    "status": "Published",
+    "cited_by": 14,
+    "url": "https://syfert.com/new-york/cases/12-a-d-3d-579/najac-v-najac",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Najac v. Najac, 12 A.D.3d 579 (N.Y. App. Div. 2d Dep't 2004)",
+    "link_md": "[Najac v. Najac, 12 A.D.3d 579 (N.Y. App. Div. 2d Dep't 2004)](https://syfert.com/new-york/cases/12-a-d-3d-579/najac-v-najac)",
+    "match_kind": "semantic",
+    "similarity": 0.5634
+   },
+   {
+    "cluster_id": 8315014,
+    "case_name": "People ex rel. Dare v. Gardner",
+    "citations": [
+     "160 N.Y.S. 962"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1916-09-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/160-n-y-s-962/people-ex-rel-dare-v-gardner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Dare v. Gardner, 160 N.Y.S. 962 (N.Y. App. Div. 1916)",
+    "link_md": "[People ex rel. Dare v. Gardner, 160 N.Y.S. 962 (N.Y. App. Div. 1916)](https://syfert.com/new-york/cases/160-n-y-s-962/people-ex-rel-dare-v-gardner)",
+    "match_kind": "semantic",
+    "similarity": 0.562
+   },
+   {
+    "cluster_id": 9899308,
+    "case_name": "Durden v. DNF Associates LLC",
+    "citations": [],
+    "court": "W.D. New York",
+    "date_filed": "2023-03-13",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9899308/durden-v-dnf-associates-llc",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Durden v. DNF Assocs. LLC, No. 1:22-cv-00799 (W.D.N.Y. Mar. 13, 2023)",
+    "link_md": "[Durden v. DNF Assocs. LLC, No. 1:22-cv-00799 (W.D.N.Y. Mar. 13, 2023)](https://syfert.com/federal/district/cases/cl-9899308/durden-v-dnf-associates-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.562
+   },
+   {
+    "cluster_id": 4123744,
+    "case_name": "Heath v. Blackman",
+    "citations": [
+     "173 S.E. 300",
+     "172 S.C. 158",
+     "1934 S.C. LEXIS 55"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1934-03-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/south-carolina/cases/172-s-c-158/heath-v-blackman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Heath v. Blackman, 173 S.E. 300 (S.C. 1934)",
+    "link_md": "[Heath v. Blackman, 173 S.E. 300 (S.C. 1934)](https://syfert.com/south-carolina/cases/172-s-c-158/heath-v-blackman)",
+    "match_kind": "semantic",
+    "similarity": 0.5609
+   },
+   {
+    "cluster_id": 4115728,
+    "case_name": "Dunbar v. Fant",
+    "citations": [
+     "176 S.E. 866",
+     "174 S.C. 49",
+     "1934 S.C. LEXIS 180"
+    ],
+    "court": "Supreme Court of South Carolina",
+    "date_filed": "1934-11-01",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/south-carolina/cases/174-s-c-49/dunbar-v-fant",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dunbar v. Fant, 176 S.E. 866 (S.C. 1934)",
+    "link_md": "[Dunbar v. Fant, 176 S.E. 866 (S.C. 1934)](https://syfert.com/south-carolina/cases/174-s-c-49/dunbar-v-fant)",
+    "match_kind": "semantic",
+    "similarity": 0.5605
+   },
+   {
+    "cluster_id": 10939050,
+    "case_name": "Taylor Hardy v. DermCare Management, LLC",
+    "citations": [],
+    "court": "S.D. Florida",
+    "date_filed": "2026-07-15",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10939050/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Hardy, No. 0:26-cv-61953 (S.D. Fla. July 15, 2026)",
+    "link_md": "[Hardy, No. 0:26-cv-61953 (S.D. Fla. July 15, 2026)](https://syfert.com/federal/district/cases/cl-10939050/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated)",
+    "match_kind": "semantic",
+    "similarity": 0.5573
+   },
+   {
+    "cluster_id": 9541504,
+    "case_name": "Hamilton v. Davis",
+    "citations": [],
+    "court": "E.D. Arkansas",
+    "date_filed": "2023-09-25",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9541504/hamilton-v-davis",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Hamilton v. Davis, No. 4:23-cv-00799 (E.D. Ark. Sept. 25, 2023)",
+    "link_md": "[Hamilton v. Davis, No. 4:23-cv-00799 (E.D. Ark. Sept. 25, 2023)](https://syfert.com/federal/district/cases/cl-9541504/hamilton-v-davis)",
+    "match_kind": "semantic",
+    "similarity": 0.5547
+   },
+   {
+    "cluster_id": 10952760,
+    "case_name": "Taylor Hardy v. DermCare Management, LLC",
+    "citations": [],
+    "court": "E.D. California",
+    "date_filed": "2026-07-15",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10952760/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Hardy, No. 2:26-cv-02317 (E.D. Cal. July 15, 2026)",
+    "link_md": "[Hardy, No. 2:26-cv-02317 (E.D. Cal. July 15, 2026)](https://syfert.com/federal/district/cases/cl-10952760/taylor-hardy-individually-and-on-behalf-of-all-others-similarly-situated)",
+    "match_kind": "semantic",
+    "similarity": 0.5542
+   },
+   {
+    "cluster_id": 6992371,
+    "case_name": "Thomson v. Huff",
+    "citations": [
+     "149 F.2d 842",
+     "80 U.S. App. D.C. 165",
+     "1945 U.S. App. LEXIS 2698"
+    ],
+    "court": "D.C. Circuit",
+    "date_filed": "1945-06-18",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/federal/circuits/cases/149-f-2d-842/thomson-v-huff",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Thomson v. Huff, 149 F.2d 842 (D.C. Cir. 1945)",
+    "link_md": "[Thomson v. Huff, 149 F.2d 842 (D.C. Cir. 1945)](https://syfert.com/federal/circuits/cases/149-f-2d-842/thomson-v-huff)",
+    "match_kind": "semantic",
+    "similarity": 0.553
+   },
+   {
+    "cluster_id": 6258070,
+    "case_name": "Dargin v. Wells",
+    "citations": [
+     "31 N.Y. Sup. Ct. 661"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1881-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6258070/dargin-v-wells",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Dargin v. Wells, 31 N.Y. Sup. Ct. 661 (N.Y. Sup. Ct. 1881)",
+    "link_md": "[Dargin v. Wells, 31 N.Y. Sup. Ct. 661 (N.Y. Sup. Ct. 1881)](https://syfert.com/new-york/cases/cl-6258070/dargin-v-wells)",
+    "match_kind": "semantic",
+    "similarity": 0.5529
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

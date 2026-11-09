@@ -1,0 +1,51 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "325 A.2d 748",
+  "expected_case_name": "Maryland-National Capital Park & Planning Commission v. Mayor of Rockville"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"325 A.2d 748\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1436297,\n            \"case_name\": \"Maryland-National Capital Park & Planning Commission v. Mayor of Rockville\",\n            \"citations\": [\n                \"325 A.2d 748\"\n            ],\n            \"court\": \"Court of Appeals of Maryland\",\n            \"date_filed\": \"1974-10-24\",\n            \"status\": \"Published\",\n            \"cited_by\": 51,\n            \"url\": \"https://syfert.com/maryland/cases/272-md-550/maryland-national-capital-park-planning-commission-v-mayor-of-rockville\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Maryland-Nat'l Capital Park & Plan. Comm'n v. Mayor of Rockville, 325 A.2d 748 (Md. 1974)\",\n            \"link_md\": \"[Maryland-Nat'l Capital Park & Plan. Comm'n v. Mayor of Rockville, 325 A.2d 748 (Md. 1974)](https://syfert.com/maryland/cases/272-md-550/maryland-national-capital-park-planning-commission-v-mayor-of-rockville)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 5,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Maryland-National Capital Park & Planning Commission v. Mayor of Rockville\",\n        \"actual\": \"Maryland-National Capital Park & Planning Commission v. Mayor of Rockville\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "325 A.2d 748",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1436297,
+    "case_name": "Maryland-National Capital Park & Planning Commission v. Mayor of Rockville",
+    "citations": [
+     "325 A.2d 748"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "1974-10-24",
+    "status": "Published",
+    "cited_by": 51,
+    "url": "https://syfert.com/maryland/cases/272-md-550/maryland-national-capital-park-planning-commission-v-mayor-of-rockville",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Maryland-Nat'l Capital Park & Plan. Comm'n v. Mayor of Rockville, 325 A.2d 748 (Md. 1974)",
+    "link_md": "[Maryland-Nat'l Capital Park & Plan. Comm'n v. Mayor of Rockville, 325 A.2d 748 (Md. 1974)](https://syfert.com/maryland/cases/272-md-550/maryland-national-capital-park-planning-commission-v-mayor-of-rockville)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 5,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Maryland-National Capital Park & Planning Commission v. Mayor of Rockville",
+   "actual": "Maryland-National Capital Park & Planning Commission v. Mayor of Rockville",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

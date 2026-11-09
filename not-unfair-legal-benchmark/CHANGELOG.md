@@ -1,5 +1,120 @@
 # Changelog
 
+## v1.4 — 2026-11-09
+
+343 passages (v1.3 had 292). The 292 v1.3 passages and their gold are unchanged (a rebuild is identical apart from
+the version field).
+
+### Gold: added — two decisions on one first page (new class `samepage`, 29 traps)
+
+Built by `build_wave4.py` from the 2026-11-09 same-first-page corrections (PAGE195). In each, CourtListener files the
+case at a reporter page that is the first page of a different decision, so the case shares a "first page" with
+another case. Citing opinions print a different page for it. Ids `pg-m-*` (move) and `pg-s-*` (stray).
+
+- move (`fix_class: move`, 18): the case's only cite in that reporter is the other decision's page; citing opinions
+  print another page (3+ times in the PAGE195 count) that no case holds. 9 shape (i) and 9 shape (ii):
+  - shape (i): the passage gives the printed page. CourtListener returns NOT FOUND. Graded like a regional shape
+    (i): the printed cite plus the decision date or the court, with no rejection and not the old page on the ANSWER
+    line.
+  - shape (ii): the passage gives CourtListener's page. CourtListener returns AMBIGUOUS and names both cases. The gold
+    is the printed page; the old page may not be on the ANSWER line.
+- stray (`fix_class: stray`, 11, all shape (ii)): CourtListener lists the right page on the case and also a stray one,
+  the other decision's first page in the same volume. The passage gives the stray. CourtListener returns AMBIGUOUS.
+  Shape (i) is no trap here, because CourtListener holds the right page as well.
+
+14 reporters (P., P.2d, N.W., N.W.2d, S.W., S.W.2d, S.E., S.E.2d, A., A.2d, N.E., N.E.2d, So., N.Y.S.2d), decided
+1888-1998, 16 of 29 before 1940. Each gold note names the other case at the old page.
+
+### Gold: added — Appellate Division cites filed as N.Y.2d (new class `nyseries`, 16 traps)
+
+From the 2026-11-09 New York series correction (XREP204, `RELABEL_free` rows). CourtListener files about 14,700
+Appellate Division cites as `<vol> N.Y.2d <page>` with volumes 232-980. N.Y.2d (the Court of Appeals) ended at volume
+100, so these cites are impossible. They are N.Y.S.2d cites, and no other case holds the N.Y.S.2d number. Ids `ny-8-*`
+and `ny-9-*` (N.Y.S.2d volumes 850-933, decided 2008-2011). Two shapes, 8 each:
+
+- shape (i): the passage gives the real cite, e.g. `866 N.Y.S.2d 275`. CourtListener returns NOT FOUND, so a correct
+  cite looks fabricated. Graded like a coverage item: the cite plus the date or the court (`N.Y. App. Div.` with or
+  without the department).
+- shape (ii): the passage gives CourtListener's `N.Y.2d` label. CourtListener returns FOUND and confirms it, and its
+  reply prints the official A.D.2d/A.D.3d cite as a parallel. Either the N.Y.S.2d cite or the official A.D. cite
+  passes (`any_right`); the N.Y.2d label may not be on the ANSWER line.
+
+### Controls: added (6)
+
+`ny-co-1..3`: Appellate Division cases that CourtListener already files correctly under N.Y.S.2d (650 and 760
+N.Y.S.2d). `pg-co-1..3`: ordinary cases in volumes the move traps come from (62 P., 189 S.W.). None of them is in
+PAGE195, PRIM203, XREP204 or an earlier fix ledger. Each has a green flag, a name match, and two or more citing
+opinions that print the cite with the name. The raw CourtListener arm passes all six.
+
+### Evidence
+
+Same standard as v1.2 (`build_regional.py`'s `gather` and `evaluate`, unchanged), checked with the syfert.com MCP
+(`check_citation` and `search_cases`, 2026-11-09). Every item quotes two to four citing opinions that print the gold
+cite within 160 characters after a party word of the name. No citing opinion prints the old cite with that name. The
+decision year falls inside the printed volume's span, and no other cluster sits at the printed cite in the
+CourtListener-derived meta (dated 2026-11-06, before these fixes). `build_wave4.py` adds four checks: CourtListener
+holds the old cite on this case; the other case at a samepage old cite has a different party word; Syfert's Bluebook
+string leads with the printed cite; and the name check matches.
+
+The raw CourtListener arm (`analyze_citations`, saved in `results/20261109-wave4/cl/`) passed none of the 45 traps.
+An item would also have been dropped if CourtListener did not show the error it is built on: for shape (ii), the
+reply must return this case at the old cite; for shape (i), it must not resolve the printed cite to the case. No item
+was dropped on either count. Evidence drops: 17 move, 30 stray, 5 NY, 11 controls (`results/20261109-wave4/drops.jsonl`).
+
+### Classes used and not used
+
+- PAGE195 move-page rows: used (18 of 79 pool rows; 4 dropped as mixed, i.e. some citers print the old page with the
+  name; the A.D.2d, N.J. and N.Y.S.2d strata had no row with two named citing opinions).
+- PAGE195 drop-stray rows: used (11).
+- PRIM203 stray-first-page rows: none survived. 25 reached the evidence step. The So. 3d, A.3d, A.D.3d and P.3d rows
+  are recent short decisions with no citing opinions. For one row (Ocean Petroleum, Co. v. Yanek, 416 Md. 74), citing
+  courts print CourtListener's first-listed page, 5 A.3d 683, with the name 17 times, against PRIM203's 5 A.3d 688.
+- PAGE195 drop-wrong-court rows: not used. Many of them are cites recovered by our own harvester (null CourtListener
+  id), so the error is not CourtListener's.
+- XREP204 `DROP_dup_of_nys` and `HOLD_*` rows: not used. The case already has its N.Y.S.2d cite, or the N.Y.S.2d
+  number belongs to another case. Twin clusters at one key (e.g. Dominguez v. O'Flynn, 951 N.Y.S.2d 452) are skipped.
+
+### Grader
+
+No change. The N.Y.S.2d / A.D. alternatives use `any_right`.
+
+### Limitations
+
+- The nyseries class covers four years (2008-2011) and 850-933 N.Y.S.2d. Only rows with three or more named citing
+  sentences in XREP204's count were drawn, and those are 2007-2014.
+- 16 of 29 samepage decisions are before 1940.
+- Stray shape (ii) items and move shape (ii) items test the same behaviour as the v1.2 class C regional items: an
+  AMBIGUOUS page shared with another case.
+- A single record-format fix in CourtListener (relabelling N.Y.2d > 100 as N.Y.S.2d) would flip the whole nyseries
+  class.
+
+### Review calls (2026-11-09)
+
+- nyseries shape (ii) accepts the official A.D. cite as well as N.Y.S.2d, because a brief citing the case by its
+  official cite is correct and CourtListener prints that cite. Only the impossible N.Y.2d label is a miss.
+- Stray rows are shape (ii) only (see above).
+- Only 1 of the 11 stray cases lists the stray first in CourtListener's citation order; the other 10 list it second.
+  The AMBIGUOUS reply is the same either way.
+- The modern PRIM203 strata (So. 3d, A.3d, P.3d, A.D.3d) gave their slots to the older stray strata. Those strata
+  then took two rows each (N.W.2d three), which is every row they had that passed.
+
+### Scores
+
+Raw Syfert MCP arm on the 51 new items, grader v1.2 rules (`run_syfert.py items/wave4.jsonl`), server
+`syfert-legal-research` 2.0.0, `results/20261109-syfert-raw-wave4`:
+
+| samepage (29) | nyseries (16) | traps (45) | controls (6) | total (51) |
+|---|---|---|---|---|
+| 24 | 8 | 32 | 6 | 38 |
+
+No false positives. The nyseries shape (i) items all pass: the N.Y.S.2d relabel had reached the index. All 8
+shape (ii) items miss, because `check_brief` calls `871 N.Y.2d 170` fabricated ("volume cannot exist") or not
+indexed, and proposes neither the N.Y.S.2d cite at the same volume and page nor the A.D. parallel. The 5 samepage
+misses are shape (ii): the old page now resolves only to the other case. `check_brief` reports a name mismatch and
+offers the other case, not the named case's printed page. As in v1.2 and v1.3, Syfert's index was corrected from
+the evidence the gold rests on, so this arm checks whether the corrections reach the tool. It is not an independent
+comparison.
+
 ## v1.3 — 2026-11-08
 
 292 passages (v1.2 had 250), if wave 3 is accepted as staged.

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "850 N.Y.S.2d 123",
+  "expected_case_name": "Terranova v. New York City Transit Authority"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"850 N.Y.S.2d 123\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5889001,\n            \"case_name\": \"Terranova v. New York City Transit Authority\",\n            \"citations\": [\n                \"850 N.Y.S.2d 123\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2007-12-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 26,\n            \"url\": \"https://syfert.com/new-york/cases/49-a-d-3d-10/terranova-v-new-york-city-transit-authority\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Terranova v. New York City Transit Auth., 850 N.Y.S.2d 123 (N.Y. App. Div. 2d Dep't 2007)\",\n            \"link_md\": \"[Terranova v. New York City Transit Auth., 850 N.Y.S.2d 123 (N.Y. App. Div. 2d Dep't 2007)](https://syfert.com/new-york/cases/49-a-d-3d-10/terranova-v-new-york-city-transit-authority)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 21,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Terranova v. New York City Transit Authority\",\n        \"actual\": \"Terranova v. New York City Transit Authority\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "850 N.Y.S.2d 123",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5889001,
+    "case_name": "Terranova v. New York City Transit Authority",
+    "citations": [
+     "850 N.Y.S.2d 123"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2007-12-18",
+    "status": "Published",
+    "cited_by": 26,
+    "url": "https://syfert.com/new-york/cases/49-a-d-3d-10/terranova-v-new-york-city-transit-authority",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terranova v. New York City Transit Auth., 850 N.Y.S.2d 123 (N.Y. App. Div. 2d Dep't 2007)",
+    "link_md": "[Terranova v. New York City Transit Auth., 850 N.Y.S.2d 123 (N.Y. App. Div. 2d Dep't 2007)](https://syfert.com/new-york/cases/49-a-d-3d-10/terranova-v-new-york-city-transit-authority)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 21,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Terranova v. New York City Transit Authority",
+   "actual": "Terranova v. New York City Transit Authority",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

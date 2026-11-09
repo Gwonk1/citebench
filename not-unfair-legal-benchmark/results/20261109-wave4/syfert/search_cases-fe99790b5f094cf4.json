@@ -1,0 +1,74 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Clayton w/15 \"173 P. 356\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Clayton w/15 \\\"173 P. 356\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4047526,\"bluebook\":\"Great S. Life Ins. Co. v. Brooks, 26 P.2d 430 (Okla. 1933)\",\"url\":\"https://syfert.com/oklahoma/cases/166-okla-123/great-southern-life-ins-co-v-brooks\",\"date_filed\":\"1933-10-31\",\"cited_by\":13,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...insurance policy are for the benefit of the insurer and may be waived by the insurer. National Life Insurance Co. v. Clayton, 70 Okla. 116 , 173 P. 356 ; Bankers Reserve Life Insurance Co. v. Rice, 99 Okla. 184 , 226 P. 324 ; Pacific…\"},{\"cluster_id\":1347395,\"bluebook\":\"Sjoberg v. State Auto. Ins. Ass'n of Des Moines, 48 N.W.2d 452 (N.D. 1951)\",\"url\":\"https://syfert.com/north-dakota/cases/48-n-w-2d-452/sjoberg-v-state-auto-ins-assn-of-des-moines-iowa\",\"date_filed\":\"1951-06-11\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Retail Merchants Ass'n, 38 N.D. 484 , 165 N.W. 545 ; National Life Insurance Co. v. Clayton, 70 Okl. 116 , 173 P. 356 .\\nBishop on Contracts, Enlarged Edition, Sec. 792, p. 309, defines waiver as follows: \\\"`Waiver is where one in…\"},{\"cluster_id\":6852106,\"bluebook\":\"Sjoberg v. State Auto. Ins., 48 N.W.2d 452 (N.D. 1951)\",\"url\":\"https://syfert.com/north-dakota/cases/78-n-d-179/sjoberg-v-state-automobile-insurance\",\"date_filed\":\"1951-06-11\",\"cited_by\":17,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Clayton, 70 Okla 116, 173 Pac 356 .\\nBishop on Contracts, Enlarged Edition, Sec 792, p 309, defines waiver as follows: “Waiver is where one in possession of any right, whether conferred by law or by contract; and of full knowledge of the…\"},{\"cluster_id\":4057252,\"bluebook\":\"Illinois Bankers Life Assur. Co. v. Cutlip, 49 P.2d 1051 (Okla. 1935)\",\"url\":\"https://syfert.com/oklahoma/cases/173-okla-563/illinois-bankers-life-assur-co-v-cutlip\",\"date_filed\":\"1935-09-25\",\"cited_by\":2,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...insurance policy are for the benefit of the insurer and may be waived by the insurer. National Life Insurance Co. v. Clayton, 70 Okla. 116 , 173 P. 356 ; Bankers Reserve Life Insurance Co. v. Rice, 99 Okla. 184 , 226 P. 324 ; Pacific…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Clayton w/15 \"173 P. 356\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4047526,
+    "bluebook": "Great S. Life Ins. Co. v. Brooks, 26 P.2d 430 (Okla. 1933)",
+    "url": "https://syfert.com/oklahoma/cases/166-okla-123/great-southern-life-ins-co-v-brooks",
+    "date_filed": "1933-10-31",
+    "cited_by": 13,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...insurance policy are for the benefit of the insurer and may be waived by the insurer. National Life Insurance Co. v. Clayton, 70 Okla. 116 , 173 P. 356 ; Bankers Reserve Life Insurance Co. v. Rice, 99 Okla. 184 , 226 P. 324 ; Pacific…"
+   },
+   {
+    "cluster_id": 1347395,
+    "bluebook": "Sjoberg v. State Auto. Ins. Ass'n of Des Moines, 48 N.W.2d 452 (N.D. 1951)",
+    "url": "https://syfert.com/north-dakota/cases/48-n-w-2d-452/sjoberg-v-state-auto-ins-assn-of-des-moines-iowa",
+    "date_filed": "1951-06-11",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Retail Merchants Ass'n, 38 N.D. 484 , 165 N.W. 545 ; National Life Insurance Co. v. Clayton, 70 Okl. 116 , 173 P. 356 .\nBishop on Contracts, Enlarged Edition, Sec. 792, p. 309, defines waiver as follows: \"`Waiver is where one in…"
+   },
+   {
+    "cluster_id": 6852106,
+    "bluebook": "Sjoberg v. State Auto. Ins., 48 N.W.2d 452 (N.D. 1951)",
+    "url": "https://syfert.com/north-dakota/cases/78-n-d-179/sjoberg-v-state-automobile-insurance",
+    "date_filed": "1951-06-11",
+    "cited_by": 17,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Clayton, 70 Okla 116, 173 Pac 356 .\nBishop on Contracts, Enlarged Edition, Sec 792, p 309, defines waiver as follows: “Waiver is where one in possession of any right, whether conferred by law or by contract; and of full knowledge of the…"
+   },
+   {
+    "cluster_id": 4057252,
+    "bluebook": "Illinois Bankers Life Assur. Co. v. Cutlip, 49 P.2d 1051 (Okla. 1935)",
+    "url": "https://syfert.com/oklahoma/cases/173-okla-563/illinois-bankers-life-assur-co-v-cutlip",
+    "date_filed": "1935-09-25",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...insurance policy are for the benefit of the insurer and may be waived by the insurer. National Life Insurance Co. v. Clayton, 70 Okla. 116 , 173 P. 356 ; Bankers Reserve Life Insurance Co. v. Rice, 99 Okla. 184 , 226 P. 324 ; Pacific…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

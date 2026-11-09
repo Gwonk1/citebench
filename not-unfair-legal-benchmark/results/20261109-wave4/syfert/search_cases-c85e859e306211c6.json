@@ -1,0 +1,407 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Hussey w/15 \"20 N.E. 554\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Hussey w/15 \\\"20 N.E. 554\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":5520819,\"case_name\":\"W. H. Hussey & Son, Inc. v. A. H. Karl & Bros.\",\"citations\":[\"258 A.D. 782\",\"15 N.Y.S.2d 726\",\"1939 N.Y. App. Div. LEXIS 6883\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1939-11-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/258-a-d-782/w-h-hussey-son-inc-v-a-h-karl-bros\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"W. H. Hussey & Son, Inc. v. A. H. Karl & Bros., 258 A.D. 782 (N.Y. App. Div. 1st Dep't 1939)\",\"link_md\":\"[W. H. Hussey & Son, Inc. v. A. H. Karl & Bros., 258 A.D. 782 (N.Y. App. Div. 1st Dep't 1939)](https://syfert.com/new-york/cases/258-a-d-782/w-h-hussey-son-inc-v-a-h-karl-bros)\",\"match_kind\":\"semantic\",\"similarity\":0.7278},{\"cluster_id\":3595263,\"case_name\":\"Hussey v. City Bank Farmers Trust Company\",\"citations\":[\"185 N.E. 726\",\"261 N.Y. 533\",\"1933 N.Y. LEXIS 1344\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1933-01-17\",\"status\":\"Published\",\"cited_by\":8,\"url\":\"https://syfert.com/new-york/cases/261-n-y-533/hussey-v-city-bank-farmers-trust-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. City Bank Farmers Trust Co., 185 N.E. 726 (N.Y. 1933)\",\"link_md\":\"[Hussey v. City Bank Farmers Trust Co., 185 N.E. 726 (N.Y. 1933)](https://syfert.com/new-york/cases/261-n-y-533/hussey-v-city-bank-farmers-trust-company)\",\"match_kind\":\"semantic\",\"similarity\":0.7258},{\"cluster_id\":5392791,\"case_name\":\"Hussey v. Fitch\",\"citations\":[\"157 A.D. 913\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1913-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/157-a-d-913/hussey-v-fitch\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. Fitch, 157 A.D. 913 (N.Y. App. Div. 1913)\",\"link_md\":\"[Hussey v. Fitch, 157 A.D. 913 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/157-a-d-913/hussey-v-fitch)\",\"match_kind\":\"semantic\",\"similarity\":0.7154},{\"cluster_id\":7613218,\"case_name\":\"State v. Hussey\",\"citations\":[\"475 So. 2d 777\",\"1985 La. LEXIS 9484\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1985-10-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/475-so-2d-777/state-v-hussey\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7613218 and its twin 1773003). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Hussey, 475 So. 2d 777 (La. 1985)\",\"link_md\":\"[State v. Hussey, 475 So. 2d 777 (La. 1985)](https://syfert.com/louisiana/cases/475-so-2d-777/state-v-hussey)\",\"match_kind\":\"semantic\",\"similarity\":0.7141},{\"cluster_id\":5389431,\"case_name\":\"Hussey v. Steeplechase Co.\",\"citations\":[\"152 A.D. 933\",\"137 N.Y.S. 1123\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1912-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/152-a-d-933/hussey-v-steeplechase-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. Steeplechase Co., 152 A.D. 933 (N.Y. App. Div. 1912)\",\"link_md\":\"[Hussey v. Steeplechase Co., 152 A.D. 933 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/152-a-d-933/hussey-v-steeplechase-co)\",\"match_kind\":\"semantic\",\"similarity\":0.7138},{\"cluster_id\":3634442,\"case_name\":\"People Ex Rel. Hussey v. . Woods\",\"citations\":[\"110 N.E. 1047\",\"216 N.Y. 648\",\"1915 N.Y. LEXIS 849\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1915-10-19\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/216-n-y-648/people-ex-rel-hussey-v-woods\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Hussey v. Woods, 110 N.E. 1047 (N.Y. 1915)\",\"link_md\":\"[People ex rel. Hussey v. Woods, 110 N.E. 1047 (N.Y. 1915)](https://syfert.com/new-york/cases/216-n-y-648/people-ex-rel-hussey-v-woods)\",\"match_kind\":\"semantic\",\"similarity\":0.7083},{\"cluster_id\":5951233,\"case_name\":\"Hussey v. Codd\",\"citations\":[\"54 A.D.2d 847\",\"388 N.Y.S.2d 265\",\"1976 N.Y. App. Div. LEXIS 14612\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1976-11-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/54-a-d-2d-847/hussey-v-codd\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. Codd, 54 A.D.2d 847 (N.Y. App. Div. 1st Dep't 1976)\",\"link_md\":\"[Hussey v. Codd, 54 A.D.2d 847 (N.Y. App. Div. 1st Dep't 1976)](https://syfert.com/new-york/cases/54-a-d-2d-847/hussey-v-codd)\",\"match_kind\":\"semantic\",\"similarity\":0.7067},{\"cluster_id\":7423765,\"case_name\":\"People ex rel. Hussey v. Roosevelt\",\"citations\":[\"71 N.Y.S. 1145\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1901-06-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/71-n-y-s-1145/people-ex-rel-hussey-v-roosevelt\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People ex rel. Hussey v. Roosevelt, 71 N.Y.S. 1145 (N.Y. App. Div. 1901)\",\"link_md\":\"[People ex rel. Hussey v. Roosevelt, 71 N.Y.S. 1145 (N.Y. App. Div. 1901)](https://syfert.com/new-york/cases/71-n-y-s-1145/people-ex-rel-hussey-v-roosevelt)\",\"match_kind\":\"semantic\",\"similarity\":0.7062},{\"cluster_id\":6529530,\"case_name\":\"Hussey v. Lord\",\"citations\":[\"4 Mass. 378\"],\"court\":\"Massachusetts Supreme Judicial Court\",\"date_filed\":\"1808-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/massachusetts/cases/cl-6529530/hussey-v-lord\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. Lord, 4 Mass. 378 (1808)\",\"link_md\":\"[Hussey v. Lord, 4 Mass. 378 (1808)](https://syfert.com/massachusetts/cases/cl-6529530/hussey-v-lord)\",\"match_kind\":\"semantic\",\"similarity\":0.7018},{\"cluster_id\":8349611,\"case_name\":\"Hussey v. Metropolitan Exhibition Co.\",\"citations\":[\"19 Jones & S. 510\"],\"court\":\"The Superior Court of New York City\",\"date_filed\":\"1884-12-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-8349611/hussey-v-metropolitan-exhibition-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. Metro. Exhibition Co., 19 Jones & S. 510 (N.Y. Super. Ct. 1884)\",\"link_md\":\"[Hussey v. Metro. Exhibition Co., 19 Jones & S. 510 (N.Y. Super. Ct. 1884)](https://syfert.com/new-york/cases/cl-8349611/hussey-v-metropolitan-exhibition-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6904},{\"cluster_id\":5675633,\"case_name\":\"Hussey v. Petito\",\"citations\":[\"224 N.E.2d 337\",\"18 N.Y.2d 963\",\"277 N.Y.S.2d 826\",\"1966 N.Y. LEXIS 938\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1966-12-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/18-n-y-2d-963/hussey-v-petito\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. Petito, 224 N.E.2d 337 (N.Y. 1966)\",\"link_md\":\"[Hussey v. Petito, 224 N.E.2d 337 (N.Y. 1966)](https://syfert.com/new-york/cases/18-n-y-2d-963/hussey-v-petito)\",\"match_kind\":\"semantic\",\"similarity\":0.6893},{\"cluster_id\":7425065,\"case_name\":\"Hussey v. Tweedie Trading Co.\",\"citations\":[\"125 N.Y.S. 1125\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1910-10-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/125-n-y-s-1125/hussey-v-tweedie-trading-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. Tweedie Trading Co., 125 N.Y.S. 1125 (N.Y. App. Div. 1910)\",\"link_md\":\"[Hussey v. Tweedie Trading Co., 125 N.Y.S. 1125 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/125-n-y-s-1125/hussey-v-tweedie-trading-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6875},{\"cluster_id\":5393603,\"case_name\":\"Heusy v. J. H. Shipway & Brother\",\"citations\":[\"158 A.D. 931\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1913-10-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/158-a-d-931/heusy-v-j-h-shipway-brother\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Heusy v. J. H. Shipway & Brother, 158 A.D. 931 (N.Y. App. Div. 1913)\",\"link_md\":\"[Heusy v. J. H. Shipway & Brother, 158 A.D. 931 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/158-a-d-931/heusy-v-j-h-shipway-brother)\",\"match_kind\":\"semantic\",\"similarity\":0.6857},{\"cluster_id\":97469,\"case_name\":\"Hussey v. United States\",\"citations\":[\"222 U.S. 88\",\"32 S. Ct. 33\",\"56 L. Ed. 106\",\"1911 U.S. LEXIS 1845\",\"47 Ct. Cl. 637\"],\"court\":\"Supreme Court\",\"date_filed\":\"1911-11-20\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/federal/scotus/cases/222-u-s-88/hussey-v-united-states\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (97469 and its twin 8607120).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. United States, 222 U.S. 88 (1911)\",\"link_md\":\"[Hussey v. United States, 222 U.S. 88 (1911)](https://syfert.com/federal/scotus/cases/222-u-s-88/hussey-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6675,\"twin_clusters\":[8607120]},{\"cluster_id\":323447,\"case_name\":\"United States v. Huss\",\"citations\":[\"506 F.2d 1395\"],\"court\":\"Second Circuit\",\"date_filed\":\"1974-11-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/506-f-2d-1395/united-states-v-huss\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Huss, 506 F.2d 1395 (2d Cir. 1974)\",\"link_md\":\"[United States v. Huss, 506 F.2d 1395 (2d Cir. 1974)](https://syfert.com/federal/circuits/cases/506-f-2d-1395/united-states-v-huss)\",\"match_kind\":\"semantic\",\"similarity\":0.6668},{\"cluster_id\":506412,\"case_name\":\"United States v. Hussain (3 Cases)\",\"citations\":[\"847 F.2d 836\"],\"court\":\"Second Circuit\",\"date_filed\":\"1988-03-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/847-f-2d-836/united-states-v-hussain-3-cases\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Hussain (3 Cases), 847 F.2d 836 (2d Cir. 1988)\",\"link_md\":\"[United States v. Hussain (3 Cases), 847 F.2d 836 (2d Cir. 1988)](https://syfert.com/federal/circuits/cases/847-f-2d-836/united-states-v-hussain-3-cases)\",\"match_kind\":\"semantic\",\"similarity\":0.6603},{\"cluster_id\":6265332,\"case_name\":\"Hussey v. Coger\",\"citations\":[\"45 N.Y. Sup. Ct. 644\"],\"court\":\"New York Supreme Court\",\"date_filed\":\"1886-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-6265332/hussey-v-coger\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. Coger, 45 N.Y. Sup. Ct. 644 (N.Y. Sup. Ct. 1886)\",\"link_md\":\"[Hussey v. Coger, 45 N.Y. Sup. Ct. 644 (N.Y. Sup. Ct. 1886)](https://syfert.com/new-york/cases/cl-6265332/hussey-v-coger)\",\"match_kind\":\"semantic\",\"similarity\":0.659},{\"cluster_id\":727952,\"case_name\":\"Hussey v. Intercontinental Hotels\",\"citations\":[\"97 F.3d 1468\",\"1996 WL 536667\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-09-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/97-f-3d-1468/hussey-v-intercontinental-hotels\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hussey v. Intercontinental Hotels, 97 F.3d 1468 (11th Cir. 1996)\",\"link_md\":\"[Hussey v. Intercontinental Hotels, 97 F.3d 1468 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/97-f-3d-1468/hussey-v-intercontinental-hotels)\",\"match_kind\":\"semantic\",\"similarity\":0.656},{\"cluster_id\":342058,\"case_name\":\"Zuch v. John H. Hussey Company\",\"citations\":[\"547 F.2d 1168\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1977-01-11\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/circuits/cases/547-f-2d-1168/zuch-v-john-h-hussey-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Zuch v. John H. Hussey Co., 547 F.2d 1168 (6th Cir. 1977)\",\"link_md\":\"[Zuch v. John H. Hussey Co., 547 F.2d 1168 (6th Cir. 1977)](https://syfert.com/federal/circuits/cases/547-f-2d-1168/zuch-v-john-h-hussey-company)\",\"match_kind\":\"semantic\",\"similarity\":0.6547},{\"cluster_id\":5454747,\"case_name\":\"Bucci v. Hussey\",\"citations\":[\"218 A.D. 819\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1926-12-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/218-a-d-819/bucci-v-hussey\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bucci v. Hussey, 218 A.D. 819 (N.Y. App. Div. 1926)\",\"link_md\":\"[Bucci v. Hussey, 218 A.D. 819 (N.Y. App. Div. 1926)](https://syfert.com/new-york/cases/218-a-d-819/bucci-v-hussey)\",\"match_kind\":\"semantic\",\"similarity\":0.6472}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Hussey w/15 \"20 N.E. 554\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 5520819,
+    "case_name": "W. H. Hussey & Son, Inc. v. A. H. Karl & Bros.",
+    "citations": [
+     "258 A.D. 782",
+     "15 N.Y.S.2d 726",
+     "1939 N.Y. App. Div. LEXIS 6883"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1939-11-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/258-a-d-782/w-h-hussey-son-inc-v-a-h-karl-bros",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "W. H. Hussey & Son, Inc. v. A. H. Karl & Bros., 258 A.D. 782 (N.Y. App. Div. 1st Dep't 1939)",
+    "link_md": "[W. H. Hussey & Son, Inc. v. A. H. Karl & Bros., 258 A.D. 782 (N.Y. App. Div. 1st Dep't 1939)](https://syfert.com/new-york/cases/258-a-d-782/w-h-hussey-son-inc-v-a-h-karl-bros)",
+    "match_kind": "semantic",
+    "similarity": 0.7278
+   },
+   {
+    "cluster_id": 3595263,
+    "case_name": "Hussey v. City Bank Farmers Trust Company",
+    "citations": [
+     "185 N.E. 726",
+     "261 N.Y. 533",
+     "1933 N.Y. LEXIS 1344"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1933-01-17",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/new-york/cases/261-n-y-533/hussey-v-city-bank-farmers-trust-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. City Bank Farmers Trust Co., 185 N.E. 726 (N.Y. 1933)",
+    "link_md": "[Hussey v. City Bank Farmers Trust Co., 185 N.E. 726 (N.Y. 1933)](https://syfert.com/new-york/cases/261-n-y-533/hussey-v-city-bank-farmers-trust-company)",
+    "match_kind": "semantic",
+    "similarity": 0.7258
+   },
+   {
+    "cluster_id": 5392791,
+    "case_name": "Hussey v. Fitch",
+    "citations": [
+     "157 A.D. 913"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1913-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/157-a-d-913/hussey-v-fitch",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Fitch, 157 A.D. 913 (N.Y. App. Div. 1913)",
+    "link_md": "[Hussey v. Fitch, 157 A.D. 913 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/157-a-d-913/hussey-v-fitch)",
+    "match_kind": "semantic",
+    "similarity": 0.7154
+   },
+   {
+    "cluster_id": 7613218,
+    "case_name": "State v. Hussey",
+    "citations": [
+     "475 So. 2d 777",
+     "1985 La. LEXIS 9484"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1985-10-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/475-so-2d-777/state-v-hussey",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7613218 and its twin 1773003). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Hussey, 475 So. 2d 777 (La. 1985)",
+    "link_md": "[State v. Hussey, 475 So. 2d 777 (La. 1985)](https://syfert.com/louisiana/cases/475-so-2d-777/state-v-hussey)",
+    "match_kind": "semantic",
+    "similarity": 0.7141
+   },
+   {
+    "cluster_id": 5389431,
+    "case_name": "Hussey v. Steeplechase Co.",
+    "citations": [
+     "152 A.D. 933",
+     "137 N.Y.S. 1123"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1912-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/152-a-d-933/hussey-v-steeplechase-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Steeplechase Co., 152 A.D. 933 (N.Y. App. Div. 1912)",
+    "link_md": "[Hussey v. Steeplechase Co., 152 A.D. 933 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/152-a-d-933/hussey-v-steeplechase-co)",
+    "match_kind": "semantic",
+    "similarity": 0.7138
+   },
+   {
+    "cluster_id": 3634442,
+    "case_name": "People Ex Rel. Hussey v. . Woods",
+    "citations": [
+     "110 N.E. 1047",
+     "216 N.Y. 648",
+     "1915 N.Y. LEXIS 849"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1915-10-19",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/216-n-y-648/people-ex-rel-hussey-v-woods",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Hussey v. Woods, 110 N.E. 1047 (N.Y. 1915)",
+    "link_md": "[People ex rel. Hussey v. Woods, 110 N.E. 1047 (N.Y. 1915)](https://syfert.com/new-york/cases/216-n-y-648/people-ex-rel-hussey-v-woods)",
+    "match_kind": "semantic",
+    "similarity": 0.7083
+   },
+   {
+    "cluster_id": 5951233,
+    "case_name": "Hussey v. Codd",
+    "citations": [
+     "54 A.D.2d 847",
+     "388 N.Y.S.2d 265",
+     "1976 N.Y. App. Div. LEXIS 14612"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1976-11-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/54-a-d-2d-847/hussey-v-codd",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Codd, 54 A.D.2d 847 (N.Y. App. Div. 1st Dep't 1976)",
+    "link_md": "[Hussey v. Codd, 54 A.D.2d 847 (N.Y. App. Div. 1st Dep't 1976)](https://syfert.com/new-york/cases/54-a-d-2d-847/hussey-v-codd)",
+    "match_kind": "semantic",
+    "similarity": 0.7067
+   },
+   {
+    "cluster_id": 7423765,
+    "case_name": "People ex rel. Hussey v. Roosevelt",
+    "citations": [
+     "71 N.Y.S. 1145"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1901-06-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/71-n-y-s-1145/people-ex-rel-hussey-v-roosevelt",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People ex rel. Hussey v. Roosevelt, 71 N.Y.S. 1145 (N.Y. App. Div. 1901)",
+    "link_md": "[People ex rel. Hussey v. Roosevelt, 71 N.Y.S. 1145 (N.Y. App. Div. 1901)](https://syfert.com/new-york/cases/71-n-y-s-1145/people-ex-rel-hussey-v-roosevelt)",
+    "match_kind": "semantic",
+    "similarity": 0.7062
+   },
+   {
+    "cluster_id": 6529530,
+    "case_name": "Hussey v. Lord",
+    "citations": [
+     "4 Mass. 378"
+    ],
+    "court": "Massachusetts Supreme Judicial Court",
+    "date_filed": "1808-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/massachusetts/cases/cl-6529530/hussey-v-lord",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Lord, 4 Mass. 378 (1808)",
+    "link_md": "[Hussey v. Lord, 4 Mass. 378 (1808)](https://syfert.com/massachusetts/cases/cl-6529530/hussey-v-lord)",
+    "match_kind": "semantic",
+    "similarity": 0.7018
+   },
+   {
+    "cluster_id": 8349611,
+    "case_name": "Hussey v. Metropolitan Exhibition Co.",
+    "citations": [
+     "19 Jones & S. 510"
+    ],
+    "court": "The Superior Court of New York City",
+    "date_filed": "1884-12-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-8349611/hussey-v-metropolitan-exhibition-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Metro. Exhibition Co., 19 Jones & S. 510 (N.Y. Super. Ct. 1884)",
+    "link_md": "[Hussey v. Metro. Exhibition Co., 19 Jones & S. 510 (N.Y. Super. Ct. 1884)](https://syfert.com/new-york/cases/cl-8349611/hussey-v-metropolitan-exhibition-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6904
+   },
+   {
+    "cluster_id": 5675633,
+    "case_name": "Hussey v. Petito",
+    "citations": [
+     "224 N.E.2d 337",
+     "18 N.Y.2d 963",
+     "277 N.Y.S.2d 826",
+     "1966 N.Y. LEXIS 938"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1966-12-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/18-n-y-2d-963/hussey-v-petito",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Petito, 224 N.E.2d 337 (N.Y. 1966)",
+    "link_md": "[Hussey v. Petito, 224 N.E.2d 337 (N.Y. 1966)](https://syfert.com/new-york/cases/18-n-y-2d-963/hussey-v-petito)",
+    "match_kind": "semantic",
+    "similarity": 0.6893
+   },
+   {
+    "cluster_id": 7425065,
+    "case_name": "Hussey v. Tweedie Trading Co.",
+    "citations": [
+     "125 N.Y.S. 1125"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1910-10-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/125-n-y-s-1125/hussey-v-tweedie-trading-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Tweedie Trading Co., 125 N.Y.S. 1125 (N.Y. App. Div. 1910)",
+    "link_md": "[Hussey v. Tweedie Trading Co., 125 N.Y.S. 1125 (N.Y. App. Div. 1910)](https://syfert.com/new-york/cases/125-n-y-s-1125/hussey-v-tweedie-trading-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6875
+   },
+   {
+    "cluster_id": 5393603,
+    "case_name": "Heusy v. J. H. Shipway & Brother",
+    "citations": [
+     "158 A.D. 931"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1913-10-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/158-a-d-931/heusy-v-j-h-shipway-brother",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Heusy v. J. H. Shipway & Brother, 158 A.D. 931 (N.Y. App. Div. 1913)",
+    "link_md": "[Heusy v. J. H. Shipway & Brother, 158 A.D. 931 (N.Y. App. Div. 1913)](https://syfert.com/new-york/cases/158-a-d-931/heusy-v-j-h-shipway-brother)",
+    "match_kind": "semantic",
+    "similarity": 0.6857
+   },
+   {
+    "cluster_id": 97469,
+    "case_name": "Hussey v. United States",
+    "citations": [
+     "222 U.S. 88",
+     "32 S. Ct. 33",
+     "56 L. Ed. 106",
+     "1911 U.S. LEXIS 1845",
+     "47 Ct. Cl. 637"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1911-11-20",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/federal/scotus/cases/222-u-s-88/hussey-v-united-states",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (97469 and its twin 8607120).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. United States, 222 U.S. 88 (1911)",
+    "link_md": "[Hussey v. United States, 222 U.S. 88 (1911)](https://syfert.com/federal/scotus/cases/222-u-s-88/hussey-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6675,
+    "twin_clusters": [
+     8607120
+    ]
+   },
+   {
+    "cluster_id": 323447,
+    "case_name": "United States v. Huss",
+    "citations": [
+     "506 F.2d 1395"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1974-11-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/506-f-2d-1395/united-states-v-huss",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Huss, 506 F.2d 1395 (2d Cir. 1974)",
+    "link_md": "[United States v. Huss, 506 F.2d 1395 (2d Cir. 1974)](https://syfert.com/federal/circuits/cases/506-f-2d-1395/united-states-v-huss)",
+    "match_kind": "semantic",
+    "similarity": 0.6668
+   },
+   {
+    "cluster_id": 506412,
+    "case_name": "United States v. Hussain (3 Cases)",
+    "citations": [
+     "847 F.2d 836"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1988-03-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/847-f-2d-836/united-states-v-hussain-3-cases",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Hussain (3 Cases), 847 F.2d 836 (2d Cir. 1988)",
+    "link_md": "[United States v. Hussain (3 Cases), 847 F.2d 836 (2d Cir. 1988)](https://syfert.com/federal/circuits/cases/847-f-2d-836/united-states-v-hussain-3-cases)",
+    "match_kind": "semantic",
+    "similarity": 0.6603
+   },
+   {
+    "cluster_id": 6265332,
+    "case_name": "Hussey v. Coger",
+    "citations": [
+     "45 N.Y. Sup. Ct. 644"
+    ],
+    "court": "New York Supreme Court",
+    "date_filed": "1886-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-6265332/hussey-v-coger",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Coger, 45 N.Y. Sup. Ct. 644 (N.Y. Sup. Ct. 1886)",
+    "link_md": "[Hussey v. Coger, 45 N.Y. Sup. Ct. 644 (N.Y. Sup. Ct. 1886)](https://syfert.com/new-york/cases/cl-6265332/hussey-v-coger)",
+    "match_kind": "semantic",
+    "similarity": 0.659
+   },
+   {
+    "cluster_id": 727952,
+    "case_name": "Hussey v. Intercontinental Hotels",
+    "citations": [
+     "97 F.3d 1468",
+     "1996 WL 536667"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-09-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/97-f-3d-1468/hussey-v-intercontinental-hotels",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hussey v. Intercontinental Hotels, 97 F.3d 1468 (11th Cir. 1996)",
+    "link_md": "[Hussey v. Intercontinental Hotels, 97 F.3d 1468 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/97-f-3d-1468/hussey-v-intercontinental-hotels)",
+    "match_kind": "semantic",
+    "similarity": 0.656
+   },
+   {
+    "cluster_id": 342058,
+    "case_name": "Zuch v. John H. Hussey Company",
+    "citations": [
+     "547 F.2d 1168"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1977-01-11",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/circuits/cases/547-f-2d-1168/zuch-v-john-h-hussey-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Zuch v. John H. Hussey Co., 547 F.2d 1168 (6th Cir. 1977)",
+    "link_md": "[Zuch v. John H. Hussey Co., 547 F.2d 1168 (6th Cir. 1977)](https://syfert.com/federal/circuits/cases/547-f-2d-1168/zuch-v-john-h-hussey-company)",
+    "match_kind": "semantic",
+    "similarity": 0.6547
+   },
+   {
+    "cluster_id": 5454747,
+    "case_name": "Bucci v. Hussey",
+    "citations": [
+     "218 A.D. 819"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1926-12-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/218-a-d-819/bucci-v-hussey",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bucci v. Hussey, 218 A.D. 819 (N.Y. App. Div. 1926)",
+    "link_md": "[Bucci v. Hussey, 218 A.D. 819 (N.Y. App. Div. 1926)](https://syfert.com/new-york/cases/218-a-d-819/bucci-v-hussey)",
+    "match_kind": "semantic",
+    "similarity": 0.6472
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

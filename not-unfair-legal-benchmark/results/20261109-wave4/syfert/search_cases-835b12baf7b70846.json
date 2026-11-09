@@ -1,0 +1,77 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Walton w/15 \"57 N.E. 92\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Walton w/15 \\\"57 N.E. 92\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4121985,\"bluebook\":\"Montague Corp. v. Burton Lumber Co., 134 S.E. 147 (S.C. 1926)\",\"url\":\"https://syfert.com/south-carolina/cases/136-s-c-40/montague-corporation-v-burton-lumber-co\",\"date_filed\":\"1926-01-11\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...And so we said, in effect, in Walton v. Stafford, 162 N. Y., 558 ; 57 N. E., 92 . It is undoubtedly true that the state of the law on this subject is likely to prove embarrassing to many, such, for instance, as those who find themselves…\"},{\"cluster_id\":8313735,\"bluebook\":\"Weissman v. Greenberg, 157 N.Y.S. 204 (N.Y. App. Term. 1916)\",\"url\":\"https://syfert.com/new-york/cases/157-n-y-s-204/weissman-v-greenberg\",\"date_filed\":\"1916-02-10\",\"cited_by\":0,\"snippet\":\"...to pay that rent, for the entire $187.50, or for the $125 for the month of November (see Walton v. Stafford, 162 N. Y. 558 , 57 N. E. 92 ), or, as seemingly conceded by both sides, if he was liable for such proportion of the November…\"},{\"cluster_id\":8233890,\"bluebook\":\"Brown v. Loewenbach, 258 N.W. 379 (Wis. 1935)\",\"url\":\"https://syfert.com/wisconsin/cases/217-wis-379/brown-v-loewenbach\",\"date_filed\":\"1935-03-05\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...1128, § 181; Walton v. Stafford, 162 N. Y. 558 , 57 N. E. 92 ; Cohen v. Todd, 130 Minn. 227 , 153 N. W. 531 ; Thomas v. Connell, 5 Pa. 13 ; Negley v. Morgan, 46 Pa. 281 ; Bartlett v. Amberg, 92 Ill. App. 377 ; id. 190 Ill. 15 , 60 N. E.…\"},{\"cluster_id\":7433942,\"bluebook\":\"Kaye v. Stern, 144 N.Y.S. 160 (1913)\",\"url\":\"https://syfert.com/new-york/cases/144-n-y-s-160/kaye-v-stern\",\"date_filed\":\"1913-06-06\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...580 , 5 N. E. 571 ; Walton v. Stafford, 162 N. Y. 558 , 57 N. E. 92 . Even if this were so, the defendant by his own promise made himself personally liable for the payment of such rent as accrued\\n• under the terms of the lease for the…\"},{\"cluster_id\":7440422,\"bluebook\":\"Bradkin Realty Co. v. Lesser, 156 N.Y.S. 707 (N.Y. App. Term. 1916)\",\"url\":\"https://syfert.com/new-york/cases/156-n-y-s-707/bradkin-realty-co-v-lesser\",\"date_filed\":\"1916-01-07\",\"cited_by\":0,\"snippet\":\"...the premises on the 1st day of November, 1914, and so in accordance with the doctrine laid down in Walton v. Stafford, 162 N. Y. 558 , 57 N. E. 92 , no rent would be due from the defendant in the absence of an express promise to pay. At…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Walton w/15 \"57 N.E. 92\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4121985,
+    "bluebook": "Montague Corp. v. Burton Lumber Co., 134 S.E. 147 (S.C. 1926)",
+    "url": "https://syfert.com/south-carolina/cases/136-s-c-40/montague-corporation-v-burton-lumber-co",
+    "date_filed": "1926-01-11",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...And so we said, in effect, in Walton v. Stafford, 162 N. Y., 558 ; 57 N. E., 92 . It is undoubtedly true that the state of the law on this subject is likely to prove embarrassing to many, such, for instance, as those who find themselves…"
+   },
+   {
+    "cluster_id": 8313735,
+    "bluebook": "Weissman v. Greenberg, 157 N.Y.S. 204 (N.Y. App. Term. 1916)",
+    "url": "https://syfert.com/new-york/cases/157-n-y-s-204/weissman-v-greenberg",
+    "date_filed": "1916-02-10",
+    "cited_by": 0,
+    "snippet": "...to pay that rent, for the entire $187.50, or for the $125 for the month of November (see Walton v. Stafford, 162 N. Y. 558 , 57 N. E. 92 ), or, as seemingly conceded by both sides, if he was liable for such proportion of the November…"
+   },
+   {
+    "cluster_id": 8233890,
+    "bluebook": "Brown v. Loewenbach, 258 N.W. 379 (Wis. 1935)",
+    "url": "https://syfert.com/wisconsin/cases/217-wis-379/brown-v-loewenbach",
+    "date_filed": "1935-03-05",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...1128, § 181; Walton v. Stafford, 162 N. Y. 558 , 57 N. E. 92 ; Cohen v. Todd, 130 Minn. 227 , 153 N. W. 531 ; Thomas v. Connell, 5 Pa. 13 ; Negley v. Morgan, 46 Pa. 281 ; Bartlett v. Amberg, 92 Ill. App. 377 ; id. 190 Ill. 15 , 60 N. E.…"
+   },
+   {
+    "cluster_id": 7433942,
+    "bluebook": "Kaye v. Stern, 144 N.Y.S. 160 (1913)",
+    "url": "https://syfert.com/new-york/cases/144-n-y-s-160/kaye-v-stern",
+    "date_filed": "1913-06-06",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...580 , 5 N. E. 571 ; Walton v. Stafford, 162 N. Y. 558 , 57 N. E. 92 . Even if this were so, the defendant by his own promise made himself personally liable for the payment of such rent as accrued\n• under the terms of the lease for the…"
+   },
+   {
+    "cluster_id": 7440422,
+    "bluebook": "Bradkin Realty Co. v. Lesser, 156 N.Y.S. 707 (N.Y. App. Term. 1916)",
+    "url": "https://syfert.com/new-york/cases/156-n-y-s-707/bradkin-realty-co-v-lesser",
+    "date_filed": "1916-01-07",
+    "cited_by": 0,
+    "snippet": "...the premises on the 1st day of November, 1914, and so in accordance with the doctrine laid down in Walton v. Stafford, 162 N. Y. 558 , 57 N. E. 92 , no rent would be due from the defendant in the absence of an express promise to pay. At…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

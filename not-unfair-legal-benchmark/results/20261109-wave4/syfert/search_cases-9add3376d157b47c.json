@@ -1,0 +1,61 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Barrett w/15 \"919 N.Y.S.2d 569\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Barrett w/15 \\\"919 N.Y.S.2d 569\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7312258,\"bluebook\":\"Weiner v. McKeefery, 90 F. Supp. 3d 17 (E.D.N.Y. 2015)\",\"url\":\"https://syfert.com/federal/district/cases/90-f-supp-3d-17/weiner-v-mckeefery\",\"date_filed\":\"2015-03-11\",\"cited_by\":34,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Barrett, 82 A.D.3d at 1572 , 919 N.Y.S.2d 569 . Here, the evidence is un-controverted that the decision to arrest and prosecute plaintiff was the product of the independent judgment of the police based\\\" upon their interviews of the…\"},{\"cluster_id\":7323055,\"bluebook\":\"Fiedler v. Incandela, 222 F. Supp. 3d 141 (E.D.N.Y. 2016)\",\"url\":\"https://syfert.com/federal/district/cases/222-f-supp-3d-141/fiedler-v-incandela\",\"date_filed\":\"2016-12-06\",\"cited_by\":33,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...2015) (quoting Barrett v. Watkins, 82 A.D.3d 1569, 1572 , 919 N.Y.S.2d 569 (3d Dep’t 2011)) (internal alteration omitted); see also Arum v. Miller, 273 F.Supp.2d 229, 234 (E.D.N.Y. 2003) (holding that a civilian may be held liable for…\"},{\"cluster_id\":7332612,\"bluebook\":\"Anilao v. Spota, 340 F. Supp. 3d 224 (E.D.N.Y. 2018)\",\"url\":\"https://syfert.com/federal/district/cases/340-f-supp-3d-224/anilao-v-spota\",\"date_filed\":\"2018-11-28\",\"cited_by\":16,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...an active role in the prosecution, such as giving advice and encouragement or importuning the authorities to act.' \\\" Barrett v. Watkins , 82 A.D.3d 1569 , 919 N.Y.S.2d 569 , 572 (3d Dep't 2011) (quoting Viza v. Town of Greece , 94…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Barrett w/15 \"919 N.Y.S.2d 569\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7312258,
+    "bluebook": "Weiner v. McKeefery, 90 F. Supp. 3d 17 (E.D.N.Y. 2015)",
+    "url": "https://syfert.com/federal/district/cases/90-f-supp-3d-17/weiner-v-mckeefery",
+    "date_filed": "2015-03-11",
+    "cited_by": 34,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Barrett, 82 A.D.3d at 1572 , 919 N.Y.S.2d 569 . Here, the evidence is un-controverted that the decision to arrest and prosecute plaintiff was the product of the independent judgment of the police based\" upon their interviews of the…"
+   },
+   {
+    "cluster_id": 7323055,
+    "bluebook": "Fiedler v. Incandela, 222 F. Supp. 3d 141 (E.D.N.Y. 2016)",
+    "url": "https://syfert.com/federal/district/cases/222-f-supp-3d-141/fiedler-v-incandela",
+    "date_filed": "2016-12-06",
+    "cited_by": 33,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2015) (quoting Barrett v. Watkins, 82 A.D.3d 1569, 1572 , 919 N.Y.S.2d 569 (3d Dep’t 2011)) (internal alteration omitted); see also Arum v. Miller, 273 F.Supp.2d 229, 234 (E.D.N.Y. 2003) (holding that a civilian may be held liable for…"
+   },
+   {
+    "cluster_id": 7332612,
+    "bluebook": "Anilao v. Spota, 340 F. Supp. 3d 224 (E.D.N.Y. 2018)",
+    "url": "https://syfert.com/federal/district/cases/340-f-supp-3d-224/anilao-v-spota",
+    "date_filed": "2018-11-28",
+    "cited_by": 16,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...an active role in the prosecution, such as giving advice and encouragement or importuning the authorities to act.' \" Barrett v. Watkins , 82 A.D.3d 1569 , 919 N.Y.S.2d 569 , 572 (3d Dep't 2011) (quoting Viza v. Town of Greece , 94…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

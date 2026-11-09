@@ -1,0 +1,99 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Bowman w/15 \"917 N.Y.S.2d 379\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Bowman w/15 \\\"917 N.Y.S.2d 379\\\"\",\"total\":5,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4996352,\"bluebook\":\"Pulkkinen v. Pulkkinen, 127 So. 3d 738 (Fla. 1st DCA 2013)\",\"url\":\"https://syfert.com/florida/cases/127-so-3d-738/pulkkinen-v-pulkkinen\",\"date_filed\":\"2013-11-26\",\"cited_by\":6,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Bowman, 82 A.D.3d 144, 147 , 917 N.Y.S.2d 379 (N.Y.App.Div.2011). Under the plain language of the FFCCSOA, modification may occur only “in a State with jurisdiction over the nonmovant for the purpose of modification.” § 1738B(i)…\",\"holding\":\"The federal Full Faith and Credit for Child Support Orders Act does not preempt state law requirements that limit a state's subject matter jurisdiction to modify foreign child support orders.\",\"holding_ai_generated\":true,\"disposition\":\"petition granted\",\"disposition_source\":\"headnote\"},{\"cluster_id\":5003609,\"bluebook\":\"Arquette v. Rutter, 150 So. 3d 1259 (Fla. 5th DCA 2014)\",\"url\":\"https://syfert.com/florida/cases/150-so-3d-1259/arquette-v-rutter\",\"date_filed\":\"2014-11-21\",\"cited_by\":2,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...at 743^44 (citing Bowman v. Bowman, 82 A.D.3d 144 , 917 N.Y.S.2d 379 (N.Y.App.Div.2011)). Father is a resident of Florida and, therefore, may not petition to modify the child support order under section 88.6111. Trissler, 987 So.2d at…\",\"holding\":\"A Florida court lacks subject matter jurisdiction to modify a foreign child support order unless specific residency requirements are met or all parties have filed written consent.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":4514723,\"bluebook\":\"Lamancusa v. DOR, 250 So. 3d 812 (Fla. 5th DCA 2018)\",\"url\":\"https://syfert.com/florida/cases/250-so-3d-812/lamancusa-v-dor\",\"date_filed\":\"2018-06-25\",\"cited_by\":2,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...3d at 743 -44 (citing Bowman v. Bowman, 917 N.Y.S.2d 379 , 382 (N.Y. App. Div.\\n4\\n2011)), subject matter jurisdiction was expressly granted to Florida courts under section\\n88.6111(1)(a), Florida Statutes (2013). That section provides…\",\"holding\":\"Florida courts have subject matter jurisdiction to modify the duration of out-of-state child support orders, as statutory restrictions on duration are choice-of-law provisions rather than jurisdictional limits.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":4903082,\"bluebook\":\"Patricia H. Parks Monteith v. George H. Monteith Jr., 2021 ME 40, 255 A.3d 1030\",\"url\":\"https://syfert.com/maine/cases/255-a-3d-1030/patricia-h-parks-monteith-v-george-h-monteith-jr\",\"date_filed\":\"2021-07-27\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Code Ann., Family Law\\n§ 10-350 (a)(1)(i)-(iii); Bowman v. Bowman, 917 N.Y.S.2d 379 , 382 (N.Y. App.\\nDiv. 2011). Notably, a transfer of jurisdiction pursuant to either of these first\\ntwo circumstances does not involve any notice to or…\"},{\"cluster_id\":1043643,\"bluebook\":\"OCS/Pappas v. O'Brien & Bernheim, 2013 VT 11, 193 Vt. 340\",\"url\":\"https://syfert.com/vermont/cases/193-vt-340/ocspappas-v-obrien-and-bernheim-v-pappas\",\"date_filed\":\"2013-03-01\",\"cited_by\":10,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":2},\"snippet\":\"...2008);\\nBowman v. Bowman,\\n917 N.Y.S.2d 379 (App. Div. 2011). This issue was not raised or briefed by either party and we do not decide it here.\\n5\\nThe fact that the UIFSA requirements were not followed does not necessarily mean that the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Bowman w/15 \"917 N.Y.S.2d 379\"",
+  "total": 5,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4996352,
+    "bluebook": "Pulkkinen v. Pulkkinen, 127 So. 3d 738 (Fla. 1st DCA 2013)",
+    "url": "https://syfert.com/florida/cases/127-so-3d-738/pulkkinen-v-pulkkinen",
+    "date_filed": "2013-11-26",
+    "cited_by": 6,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Bowman, 82 A.D.3d 144, 147 , 917 N.Y.S.2d 379 (N.Y.App.Div.2011). Under the plain language of the FFCCSOA, modification may occur only “in a State with jurisdiction over the nonmovant for the purpose of modification.” § 1738B(i)…",
+    "holding": "The federal Full Faith and Credit for Child Support Orders Act does not preempt state law requirements that limit a state's subject matter jurisdiction to modify foreign child support orders.",
+    "holding_ai_generated": true,
+    "disposition": "petition granted",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 5003609,
+    "bluebook": "Arquette v. Rutter, 150 So. 3d 1259 (Fla. 5th DCA 2014)",
+    "url": "https://syfert.com/florida/cases/150-so-3d-1259/arquette-v-rutter",
+    "date_filed": "2014-11-21",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...at 743^44 (citing Bowman v. Bowman, 82 A.D.3d 144 , 917 N.Y.S.2d 379 (N.Y.App.Div.2011)). Father is a resident of Florida and, therefore, may not petition to modify the child support order under section 88.6111. Trissler, 987 So.2d at…",
+    "holding": "A Florida court lacks subject matter jurisdiction to modify a foreign child support order unless specific residency requirements are met or all parties have filed written consent.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 4514723,
+    "bluebook": "Lamancusa v. DOR, 250 So. 3d 812 (Fla. 5th DCA 2018)",
+    "url": "https://syfert.com/florida/cases/250-so-3d-812/lamancusa-v-dor",
+    "date_filed": "2018-06-25",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...3d at 743 -44 (citing Bowman v. Bowman, 917 N.Y.S.2d 379 , 382 (N.Y. App. Div.\n4\n2011)), subject matter jurisdiction was expressly granted to Florida courts under section\n88.6111(1)(a), Florida Statutes (2013). That section provides…",
+    "holding": "Florida courts have subject matter jurisdiction to modify the duration of out-of-state child support orders, as statutory restrictions on duration are choice-of-law provisions rather than jurisdictional limits.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 4903082,
+    "bluebook": "Patricia H. Parks Monteith v. George H. Monteith Jr., 2021 ME 40, 255 A.3d 1030",
+    "url": "https://syfert.com/maine/cases/255-a-3d-1030/patricia-h-parks-monteith-v-george-h-monteith-jr",
+    "date_filed": "2021-07-27",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Code Ann., Family Law\n§ 10-350 (a)(1)(i)-(iii); Bowman v. Bowman, 917 N.Y.S.2d 379 , 382 (N.Y. App.\nDiv. 2011). Notably, a transfer of jurisdiction pursuant to either of these first\ntwo circumstances does not involve any notice to or…"
+   },
+   {
+    "cluster_id": 1043643,
+    "bluebook": "OCS/Pappas v. O'Brien & Bernheim, 2013 VT 11, 193 Vt. 340",
+    "url": "https://syfert.com/vermont/cases/193-vt-340/ocspappas-v-obrien-and-bernheim-v-pappas",
+    "date_filed": "2013-03-01",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 2
+    },
+    "snippet": "...2008);\nBowman v. Bowman,\n917 N.Y.S.2d 379 (App. Div. 2011). This issue was not raised or briefed by either party and we do not decide it here.\n5\nThe fact that the UIFSA requirements were not followed does not necessarily mean that the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

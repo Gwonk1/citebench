@@ -1,0 +1,422 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Ocean w/15 \"5 A3d 688\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Ocean w/15 \\\"5 A3d 688\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":779001,\"case_name\":\"Alistair J. MacPhail v. Oceaneering International, Inc.\",\"citations\":[\"302 F.3d 274\",\"2002 A.M.C. 2129\",\"2002 U.S. App. LEXIS 15782\",\"2002 WL 1800700\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"2002-08-07\",\"status\":\"Published\",\"cited_by\":21,\"url\":\"https://syfert.com/federal/circuits/cases/302-f-3d-274/alistair-j-macphail-v-oceaneering-international-inc\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (779001 and its twin 28455).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Alistair J. MacPhail v. Oceaneering Int'l, Inc., 302 F.3d 274 (5th Cir. 2002)\",\"link_md\":\"[Alistair J. MacPhail v. Oceaneering Int'l, Inc., 302 F.3d 274 (5th Cir. 2002)](https://syfert.com/federal/circuits/cases/302-f-3d-274/alistair-j-macphail-v-oceaneering-international-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6531,\"twin_clusters\":[28455,779001]},{\"cluster_id\":16861,\"case_name\":\"Ali Alkhulaqi v. Ocean Ships Inc\",\"citations\":[\"174 F.3d 197\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1999-02-22\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/174-f-3d-197/ali-alkhulaqi-v-ocean-ships-inc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ali Alkhulaqi v. Ocean Ships Inc, 174 F.3d 197 (5th Cir. 1999)\",\"link_md\":\"[Ali Alkhulaqi v. Ocean Ships Inc, 174 F.3d 197 (5th Cir. 1999)](https://syfert.com/federal/circuits/cases/174-f-3d-197/ali-alkhulaqi-v-ocean-ships-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6394},{\"cluster_id\":11800,\"case_name\":\"Hurysz v. Ocean Ships Inc\",\"citations\":[\"116 F.3d 479\",\"1997 WL 256886\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1997-04-25\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/116-f-3d-479/hurysz-v-ocean-ships-inc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hurysz v. Ocean Ships Inc, 116 F.3d 479 (5th Cir. 1997)\",\"link_md\":\"[Hurysz v. Ocean Ships Inc, 116 F.3d 479 (5th Cir. 1997)](https://syfert.com/federal/circuits/cases/116-f-3d-479/hurysz-v-ocean-ships-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6392},{\"cluster_id\":408794,\"case_name\":\"Atwood Oceanics, Inc. v. Shaffer\",\"citations\":[\"688 F.2d 840\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1982-09-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/688-f-2d-840/atwood-oceanics-inc-v-shaffer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Atwood Oceanics, Inc. v. Shaffer, 688 F.2d 840 (5th Cir. 1982)\",\"link_md\":\"[Atwood Oceanics, Inc. v. Shaffer, 688 F.2d 840 (5th Cir. 1982)](https://syfert.com/federal/circuits/cases/688-f-2d-840/atwood-oceanics-inc-v-shaffer)\",\"match_kind\":\"semantic\",\"similarity\":0.6361},{\"cluster_id\":2499800,\"case_name\":\"Taghadomi v. Extreme Sports Maui\",\"citations\":[\"257 F. Supp. 2d 1262\",\"2002 A.M.C. 2365\",\"2002 U.S. Dist. LEXIS 26506\",\"2002 WL 31939100\"],\"court\":\"D. Hawaii\",\"date_filed\":\"2002-09-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/257-f-supp-2d-1262/taghadomi-v-extreme-sports-maui\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Taghadomi v. Extreme Sports Maui, 257 F. Supp. 2d 1262 (D. Haw. 2002)\",\"link_md\":\"[Taghadomi v. Extreme Sports Maui, 257 F. Supp. 2d 1262 (D. Haw. 2002)](https://syfert.com/federal/district/cases/257-f-supp-2d-1262/taghadomi-v-extreme-sports-maui)\",\"match_kind\":\"semantic\",\"similarity\":0.6301},{\"cluster_id\":1498448,\"case_name\":\"Moyer v. Klosters Rederi\",\"citations\":[\"645 F. Supp. 620\",\"1987 A.M.C. 1404\",\"1986 U.S. Dist. LEXIS 19885\"],\"court\":\"S.D. Florida\",\"date_filed\":\"1986-09-26\",\"status\":\"Published\",\"cited_by\":24,\"url\":\"https://syfert.com/federal/district/cases/645-f-supp-620/moyer-v-klosters-rederi\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Moyer v. Klosters Rederi, 645 F. Supp. 620 (S.D. Fla. 1986)\",\"link_md\":\"[Moyer v. Klosters Rederi, 645 F. Supp. 620 (S.D. Fla. 1986)](https://syfert.com/federal/district/cases/645-f-supp-620/moyer-v-klosters-rederi)\",\"match_kind\":\"semantic\",\"similarity\":0.6279},{\"cluster_id\":8747392,\"case_name\":\"Brown v. Pan Oceanica Shipping Corp.\",\"citations\":[\"182 F. Supp. 730\",\"1960 U.S. Dist. LEXIS 4136\"],\"court\":\"D. Maryland\",\"date_filed\":\"1960-04-06\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/district/cases/182-f-supp-730/brown-v-pan-oceanica-shipping-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Brown v. Pan Oceanica Shipping Corp., 182 F. Supp. 730 (D. Md. 1960)\",\"link_md\":\"[Brown v. Pan Oceanica Shipping Corp., 182 F. Supp. 730 (D. Md. 1960)](https://syfert.com/federal/district/cases/182-f-supp-730/brown-v-pan-oceanica-shipping-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6235},{\"cluster_id\":401695,\"case_name\":\"Central Marine v. Ocean Marine\",\"citations\":[\"673 F.2d 1326\",\"1982 A.M.C. 1816\",\"1982 U.S. App. LEXIS 20338\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1982-04-07\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/673-f-2d-1326/central-marine-v-ocean-marine\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cent. Marine v. Ocean Marine, 673 F.2d 1326 (5th Cir. 1982)\",\"link_md\":\"[Cent. Marine v. Ocean Marine, 673 F.2d 1326 (5th Cir. 1982)](https://syfert.com/federal/circuits/cases/673-f-2d-1326/central-marine-v-ocean-marine)\",\"match_kind\":\"semantic\",\"similarity\":0.6234},{\"cluster_id\":486829,\"case_name\":\"Ocean Marine v. D/b Manhattan Isle\",\"citations\":[\"816 F.2d 675\",\"1987 U.S. App. LEXIS 4838\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1987-04-01\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/816-f-2d-675/ocean-marine-v-db-manhattan-isle\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ocean Marine v. D/b Manhattan Isle, 816 F.2d 675 (5th Cir. 1987)\",\"link_md\":\"[Ocean Marine v. D/b Manhattan Isle, 816 F.2d 675 (5th Cir. 1987)](https://syfert.com/federal/circuits/cases/816-f-2d-675/ocean-marine-v-db-manhattan-isle)\",\"match_kind\":\"semantic\",\"similarity\":0.6229},{\"cluster_id\":8482806,\"case_name\":\"Ocean Innovations, Inc. v. Gulf Coast Floating Docks, Inc.\",\"citations\":[\"484 F. App'x 563\"],\"court\":\"Federal Circuit\",\"date_filed\":\"2012-10-10\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/484-f-appx-563/ocean-innovations-inc-v-gulf-coast-floating-docks-inc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_reporter\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 484 F. App'x 563).\",\"bluebook\":\"Ocean Innovations, Inc. v. Gulf Coast Floating Docks, Inc., 484 F. App'x 563 (Fed. Cir. 2012)\",\"link_md\":\"[Ocean Innovations, Inc. v. Gulf Coast Floating Docks, Inc., 484 F. App'x 563 (Fed. Cir. 2012)](https://syfert.com/federal/circuits/cases/484-f-appx-563/ocean-innovations-inc-v-gulf-coast-floating-docks-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6215},{\"cluster_id\":7308403,\"case_name\":\"Denehy v. Massachusetts Port Authority\",\"citations\":[\"42 F. Supp. 3d 301\",\"2014 U.S. Dist. LEXIS 124627\",\"2014 WL 4402960\"],\"court\":\"D. Massachusetts\",\"date_filed\":\"2014-09-05\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/district/cases/42-f-supp-3d-301/denehy-v-massachusetts-port-authority\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Denehy v. Massachusetts Port Auth., 42 F. Supp. 3d 301 (D. Mass. 2014)\",\"link_md\":\"[Denehy v. Massachusetts Port Auth., 42 F. Supp. 3d 301 (D. Mass. 2014)](https://syfert.com/federal/district/cases/42-f-supp-3d-301/denehy-v-massachusetts-port-authority)\",\"match_kind\":\"semantic\",\"similarity\":0.6162},{\"cluster_id\":274086,\"case_name\":\"The Pure Oil Company v. C. J. Boyne\",\"citations\":[\"370 F.2d 121\",\"10 Fed. R. Serv. 2d 1456\",\"10 A.L.R. Fed. 704\",\"1966 U.S. App. LEXIS 4120\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1966-12-06\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/370-f-2d-121/the-pure-oil-company-v-c-j-boyne-brent-towing-company-inc-v-the-pure\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"The Pure Oil Co. v. C. J. Boyne, 370 F.2d 121 (5th Cir. 1966)\",\"link_md\":\"[The Pure Oil Co. v. C. J. Boyne, 370 F.2d 121 (5th Cir. 1966)](https://syfert.com/federal/circuits/cases/370-f-2d-121/the-pure-oil-company-v-c-j-boyne-brent-towing-company-inc-v-the-pure)\",\"match_kind\":\"semantic\",\"similarity\":0.615},{\"cluster_id\":2494780,\"case_name\":\"Ocean Bank v. BANYAN CORPORATE CENTER II, LLC\",\"citations\":[\"59 So. 3d 1147\",\"2011 WL 2020621\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2011-03-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/59-so-3d-1147/ocean-bank-v-banyan-corporate-center-ii-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ocean Bank v. Banyan Corp. Ctr. II, 59 So. 3d 1147 (Fla. 3d DCA 2011)\",\"link_md\":\"[Ocean Bank v. Banyan Corp. Ctr. II, 59 So. 3d 1147 (Fla. 3d DCA 2011)](https://syfert.com/florida/cases/59-so-3d-1147/ocean-bank-v-banyan-corporate-center-ii-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.615},{\"cluster_id\":2113601,\"case_name\":\"In re Oil Spill by the Oil Rig \\\\Deepwater Horizon\\\\\\\"\\\"\",\"citations\":[\"808 F. Supp. 2d 943\",\"2011 A.M.C. 2220\",\"74 ERC (BNA) 1668\",\"2011 U.S. Dist. LEXIS 96091\",\"2011 WL 3805746\"],\"court\":\"E.D. Louisiana\",\"date_filed\":\"2011-08-26\",\"status\":\"Published\",\"cited_by\":25,\"url\":\"https://syfert.com/federal/district/cases/808-f-supp-2d-943/in-re-oil-spill-by-the-oil-rig-deepwater-horizon\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"In re Oil Spill by the Oil Rig \\\\Deepwater Horizon\\\\\\\"\\\", 808 F. Supp. 2d 943 (E.D. La. 2011)\",\"link_md\":\"[In re Oil Spill by the Oil Rig \\\\Deepwater Horizon\\\\\\\"\\\", 808 F. Supp. 2d 943 (E.D. La. 2011)](https://syfert.com/federal/district/cases/808-f-supp-2d-943/in-re-oil-spill-by-the-oil-rig-deepwater-horizon)\",\"match_kind\":\"semantic\",\"similarity\":0.6149},{\"cluster_id\":11272,\"case_name\":\"Georgia-Pacific Corp v. M/V Anthos\",\"citations\":[\"106 F.3d 398\",\"1997 WL 33495\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1997-01-22\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/106-f-3d-398/georgia-pacific-corp-v-mv-anthos\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Georgia-Pac. Corp v. M/V Anthos, 106 F.3d 398 (5th Cir. 1997)\",\"link_md\":\"[Georgia-Pac. Corp v. M/V Anthos, 106 F.3d 398 (5th Cir. 1997)](https://syfert.com/federal/circuits/cases/106-f-3d-398/georgia-pacific-corp-v-mv-anthos)\",\"match_kind\":\"semantic\",\"similarity\":0.6139},{\"cluster_id\":10957209,\"case_name\":\"Kingman v. Atlantis Submarines Hawaii, LLC\",\"citations\":[],\"court\":\"Hawaii Supreme Court\",\"date_filed\":\"2026-08-24\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/hawaii/cases/cl-10957209/kingman-v-atlantis-submarines-hawaii-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kingman v. Atlantis Submarines Hawaii, LLC, No. SCWC-23-0000575 (Haw. Aug. 24, 2026)\",\"link_md\":\"[Kingman v. Atlantis Submarines Hawaii, LLC, No. SCWC-23-0000575 (Haw. Aug. 24, 2026)](https://syfert.com/hawaii/cases/cl-10957209/kingman-v-atlantis-submarines-hawaii-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.6134},{\"cluster_id\":8419155,\"case_name\":\"Pearl Seas Cruises, LLC v. Lloyd's Register N. Am., Inc.\",\"citations\":[\"136 S. Ct. 64\",\"193 L. Ed. 2d 31\",\"84 U.S.L.W. 3165\",\"2015 U.S. LEXIS 5086\"],\"court\":\"Supreme Court\",\"date_filed\":\"2015-10-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/136-s-ct-64/pearl-seas-cruises-llc-v-lloyds-register-n-am-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pearl Seas Cruises, LLC v. Lloyd's Register N. Am., Inc., 136 S. Ct. 64 (2015)\",\"link_md\":\"[Pearl Seas Cruises, LLC v. Lloyd's Register N. Am., Inc., 136 S. Ct. 64 (2015)](https://syfert.com/federal/scotus/cases/136-s-ct-64/pearl-seas-cruises-llc-v-lloyds-register-n-am-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6119},{\"cluster_id\":2338034,\"case_name\":\"Williamson v. Petroleum Helicopters, Inc.\",\"citations\":[\"32 F. Supp. 2d 456\",\"1999 A.M.C. 1404\",\"1999 U.S. Dist. LEXIS 194\",\"1999 WL 8138\"],\"court\":\"S.D. Texas\",\"date_filed\":\"1999-01-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/32-f-supp-2d-456/williamson-v-petroleum-helicopters-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Williamson v. Petroleum Helicopters, Inc., 32 F. Supp. 2d 456 (S.D. Tex. 1999)\",\"link_md\":\"[Williamson v. Petroleum Helicopters, Inc., 32 F. Supp. 2d 456 (S.D. Tex. 1999)](https://syfert.com/federal/district/cases/32-f-supp-2d-456/williamson-v-petroleum-helicopters-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6107},{\"cluster_id\":7824638,\"case_name\":\"Ocean Energy, Inc. v. Plaquemines Parish Government\",\"citations\":[\"871 So. 2d 331\",\"2004 La. LEXIS 978\",\"2004 WL 903150\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2004-03-26\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/louisiana/cases/871-so-2d-331/ocean-energy-inc-v-plaquemines-parish-government\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ocean Energy, Inc. v. Plaquemines Par. Gov't, 871 So. 2d 331 (La. 2004)\",\"link_md\":\"[Ocean Energy, Inc. v. Plaquemines Par. Gov't, 871 So. 2d 331 (La. 2004)](https://syfert.com/louisiana/cases/871-so-2d-331/ocean-energy-inc-v-plaquemines-parish-government)\",\"match_kind\":\"semantic\",\"similarity\":0.6101},{\"cluster_id\":319949,\"case_name\":\"Carolyn Roberts v. United States\",\"citations\":[\"498 F.2d 520\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1974-06-20\",\"status\":\"Published\",\"cited_by\":104,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/federal/circuits/cases/498-f-2d-520/carolyn-roberts-individually-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Carolyn Roberts v. United States, 498 F.2d 520 (9th Cir. 1974)\",\"link_md\":\"[Carolyn Roberts v. United States, 498 F.2d 520 (9th Cir. 1974)](https://syfert.com/federal/circuits/cases/498-f-2d-520/carolyn-roberts-individually-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.6081}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Ocean w/15 \"5 A3d 688\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 779001,
+    "case_name": "Alistair J. MacPhail v. Oceaneering International, Inc.",
+    "citations": [
+     "302 F.3d 274",
+     "2002 A.M.C. 2129",
+     "2002 U.S. App. LEXIS 15782",
+     "2002 WL 1800700"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "2002-08-07",
+    "status": "Published",
+    "cited_by": 21,
+    "url": "https://syfert.com/federal/circuits/cases/302-f-3d-274/alistair-j-macphail-v-oceaneering-international-inc",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (779001 and its twin 28455).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Alistair J. MacPhail v. Oceaneering Int'l, Inc., 302 F.3d 274 (5th Cir. 2002)",
+    "link_md": "[Alistair J. MacPhail v. Oceaneering Int'l, Inc., 302 F.3d 274 (5th Cir. 2002)](https://syfert.com/federal/circuits/cases/302-f-3d-274/alistair-j-macphail-v-oceaneering-international-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6531,
+    "twin_clusters": [
+     28455,
+     779001
+    ]
+   },
+   {
+    "cluster_id": 16861,
+    "case_name": "Ali Alkhulaqi v. Ocean Ships Inc",
+    "citations": [
+     "174 F.3d 197"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1999-02-22",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/174-f-3d-197/ali-alkhulaqi-v-ocean-ships-inc",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Ali Alkhulaqi v. Ocean Ships Inc, 174 F.3d 197 (5th Cir. 1999)",
+    "link_md": "[Ali Alkhulaqi v. Ocean Ships Inc, 174 F.3d 197 (5th Cir. 1999)](https://syfert.com/federal/circuits/cases/174-f-3d-197/ali-alkhulaqi-v-ocean-ships-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6394
+   },
+   {
+    "cluster_id": 11800,
+    "case_name": "Hurysz v. Ocean Ships Inc",
+    "citations": [
+     "116 F.3d 479",
+     "1997 WL 256886"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1997-04-25",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/116-f-3d-479/hurysz-v-ocean-ships-inc",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Hurysz v. Ocean Ships Inc, 116 F.3d 479 (5th Cir. 1997)",
+    "link_md": "[Hurysz v. Ocean Ships Inc, 116 F.3d 479 (5th Cir. 1997)](https://syfert.com/federal/circuits/cases/116-f-3d-479/hurysz-v-ocean-ships-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6392
+   },
+   {
+    "cluster_id": 408794,
+    "case_name": "Atwood Oceanics, Inc. v. Shaffer",
+    "citations": [
+     "688 F.2d 840"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1982-09-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/688-f-2d-840/atwood-oceanics-inc-v-shaffer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Atwood Oceanics, Inc. v. Shaffer, 688 F.2d 840 (5th Cir. 1982)",
+    "link_md": "[Atwood Oceanics, Inc. v. Shaffer, 688 F.2d 840 (5th Cir. 1982)](https://syfert.com/federal/circuits/cases/688-f-2d-840/atwood-oceanics-inc-v-shaffer)",
+    "match_kind": "semantic",
+    "similarity": 0.6361
+   },
+   {
+    "cluster_id": 2499800,
+    "case_name": "Taghadomi v. Extreme Sports Maui",
+    "citations": [
+     "257 F. Supp. 2d 1262",
+     "2002 A.M.C. 2365",
+     "2002 U.S. Dist. LEXIS 26506",
+     "2002 WL 31939100"
+    ],
+    "court": "D. Hawaii",
+    "date_filed": "2002-09-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/257-f-supp-2d-1262/taghadomi-v-extreme-sports-maui",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Taghadomi v. Extreme Sports Maui, 257 F. Supp. 2d 1262 (D. Haw. 2002)",
+    "link_md": "[Taghadomi v. Extreme Sports Maui, 257 F. Supp. 2d 1262 (D. Haw. 2002)](https://syfert.com/federal/district/cases/257-f-supp-2d-1262/taghadomi-v-extreme-sports-maui)",
+    "match_kind": "semantic",
+    "similarity": 0.6301
+   },
+   {
+    "cluster_id": 1498448,
+    "case_name": "Moyer v. Klosters Rederi",
+    "citations": [
+     "645 F. Supp. 620",
+     "1987 A.M.C. 1404",
+     "1986 U.S. Dist. LEXIS 19885"
+    ],
+    "court": "S.D. Florida",
+    "date_filed": "1986-09-26",
+    "status": "Published",
+    "cited_by": 24,
+    "url": "https://syfert.com/federal/district/cases/645-f-supp-620/moyer-v-klosters-rederi",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Moyer v. Klosters Rederi, 645 F. Supp. 620 (S.D. Fla. 1986)",
+    "link_md": "[Moyer v. Klosters Rederi, 645 F. Supp. 620 (S.D. Fla. 1986)](https://syfert.com/federal/district/cases/645-f-supp-620/moyer-v-klosters-rederi)",
+    "match_kind": "semantic",
+    "similarity": 0.6279
+   },
+   {
+    "cluster_id": 8747392,
+    "case_name": "Brown v. Pan Oceanica Shipping Corp.",
+    "citations": [
+     "182 F. Supp. 730",
+     "1960 U.S. Dist. LEXIS 4136"
+    ],
+    "court": "D. Maryland",
+    "date_filed": "1960-04-06",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/district/cases/182-f-supp-730/brown-v-pan-oceanica-shipping-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Brown v. Pan Oceanica Shipping Corp., 182 F. Supp. 730 (D. Md. 1960)",
+    "link_md": "[Brown v. Pan Oceanica Shipping Corp., 182 F. Supp. 730 (D. Md. 1960)](https://syfert.com/federal/district/cases/182-f-supp-730/brown-v-pan-oceanica-shipping-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6235
+   },
+   {
+    "cluster_id": 401695,
+    "case_name": "Central Marine v. Ocean Marine",
+    "citations": [
+     "673 F.2d 1326",
+     "1982 A.M.C. 1816",
+     "1982 U.S. App. LEXIS 20338"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1982-04-07",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/673-f-2d-1326/central-marine-v-ocean-marine",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cent. Marine v. Ocean Marine, 673 F.2d 1326 (5th Cir. 1982)",
+    "link_md": "[Cent. Marine v. Ocean Marine, 673 F.2d 1326 (5th Cir. 1982)](https://syfert.com/federal/circuits/cases/673-f-2d-1326/central-marine-v-ocean-marine)",
+    "match_kind": "semantic",
+    "similarity": 0.6234
+   },
+   {
+    "cluster_id": 486829,
+    "case_name": "Ocean Marine v. D/b Manhattan Isle",
+    "citations": [
+     "816 F.2d 675",
+     "1987 U.S. App. LEXIS 4838"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1987-04-01",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/816-f-2d-675/ocean-marine-v-db-manhattan-isle",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ocean Marine v. D/b Manhattan Isle, 816 F.2d 675 (5th Cir. 1987)",
+    "link_md": "[Ocean Marine v. D/b Manhattan Isle, 816 F.2d 675 (5th Cir. 1987)](https://syfert.com/federal/circuits/cases/816-f-2d-675/ocean-marine-v-db-manhattan-isle)",
+    "match_kind": "semantic",
+    "similarity": 0.6229
+   },
+   {
+    "cluster_id": 8482806,
+    "case_name": "Ocean Innovations, Inc. v. Gulf Coast Floating Docks, Inc.",
+    "citations": [
+     "484 F. App'x 563"
+    ],
+    "court": "Federal Circuit",
+    "date_filed": "2012-10-10",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/484-f-appx-563/ocean-innovations-inc-v-gulf-coast-floating-docks-inc",
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_reporter",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; cite: 484 F. App'x 563).",
+    "bluebook": "Ocean Innovations, Inc. v. Gulf Coast Floating Docks, Inc., 484 F. App'x 563 (Fed. Cir. 2012)",
+    "link_md": "[Ocean Innovations, Inc. v. Gulf Coast Floating Docks, Inc., 484 F. App'x 563 (Fed. Cir. 2012)](https://syfert.com/federal/circuits/cases/484-f-appx-563/ocean-innovations-inc-v-gulf-coast-floating-docks-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6215
+   },
+   {
+    "cluster_id": 7308403,
+    "case_name": "Denehy v. Massachusetts Port Authority",
+    "citations": [
+     "42 F. Supp. 3d 301",
+     "2014 U.S. Dist. LEXIS 124627",
+     "2014 WL 4402960"
+    ],
+    "court": "D. Massachusetts",
+    "date_filed": "2014-09-05",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/district/cases/42-f-supp-3d-301/denehy-v-massachusetts-port-authority",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Denehy v. Massachusetts Port Auth., 42 F. Supp. 3d 301 (D. Mass. 2014)",
+    "link_md": "[Denehy v. Massachusetts Port Auth., 42 F. Supp. 3d 301 (D. Mass. 2014)](https://syfert.com/federal/district/cases/42-f-supp-3d-301/denehy-v-massachusetts-port-authority)",
+    "match_kind": "semantic",
+    "similarity": 0.6162
+   },
+   {
+    "cluster_id": 274086,
+    "case_name": "The Pure Oil Company v. C. J. Boyne",
+    "citations": [
+     "370 F.2d 121",
+     "10 Fed. R. Serv. 2d 1456",
+     "10 A.L.R. Fed. 704",
+     "1966 U.S. App. LEXIS 4120"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1966-12-06",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/370-f-2d-121/the-pure-oil-company-v-c-j-boyne-brent-towing-company-inc-v-the-pure",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "The Pure Oil Co. v. C. J. Boyne, 370 F.2d 121 (5th Cir. 1966)",
+    "link_md": "[The Pure Oil Co. v. C. J. Boyne, 370 F.2d 121 (5th Cir. 1966)](https://syfert.com/federal/circuits/cases/370-f-2d-121/the-pure-oil-company-v-c-j-boyne-brent-towing-company-inc-v-the-pure)",
+    "match_kind": "semantic",
+    "similarity": 0.615
+   },
+   {
+    "cluster_id": 2494780,
+    "case_name": "Ocean Bank v. BANYAN CORPORATE CENTER II, LLC",
+    "citations": [
+     "59 So. 3d 1147",
+     "2011 WL 2020621"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2011-03-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/59-so-3d-1147/ocean-bank-v-banyan-corporate-center-ii-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ocean Bank v. Banyan Corp. Ctr. II, 59 So. 3d 1147 (Fla. 3d DCA 2011)",
+    "link_md": "[Ocean Bank v. Banyan Corp. Ctr. II, 59 So. 3d 1147 (Fla. 3d DCA 2011)](https://syfert.com/florida/cases/59-so-3d-1147/ocean-bank-v-banyan-corporate-center-ii-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.615
+   },
+   {
+    "cluster_id": 2113601,
+    "case_name": "In re Oil Spill by the Oil Rig \\Deepwater Horizon\\\"\"",
+    "citations": [
+     "808 F. Supp. 2d 943",
+     "2011 A.M.C. 2220",
+     "74 ERC (BNA) 1668",
+     "2011 U.S. Dist. LEXIS 96091",
+     "2011 WL 3805746"
+    ],
+    "court": "E.D. Louisiana",
+    "date_filed": "2011-08-26",
+    "status": "Published",
+    "cited_by": 25,
+    "url": "https://syfert.com/federal/district/cases/808-f-supp-2d-943/in-re-oil-spill-by-the-oil-rig-deepwater-horizon",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "In re Oil Spill by the Oil Rig \\Deepwater Horizon\\\"\", 808 F. Supp. 2d 943 (E.D. La. 2011)",
+    "link_md": "[In re Oil Spill by the Oil Rig \\Deepwater Horizon\\\"\", 808 F. Supp. 2d 943 (E.D. La. 2011)](https://syfert.com/federal/district/cases/808-f-supp-2d-943/in-re-oil-spill-by-the-oil-rig-deepwater-horizon)",
+    "match_kind": "semantic",
+    "similarity": 0.6149
+   },
+   {
+    "cluster_id": 11272,
+    "case_name": "Georgia-Pacific Corp v. M/V Anthos",
+    "citations": [
+     "106 F.3d 398",
+     "1997 WL 33495"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1997-01-22",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/106-f-3d-398/georgia-pacific-corp-v-mv-anthos",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Georgia-Pac. Corp v. M/V Anthos, 106 F.3d 398 (5th Cir. 1997)",
+    "link_md": "[Georgia-Pac. Corp v. M/V Anthos, 106 F.3d 398 (5th Cir. 1997)](https://syfert.com/federal/circuits/cases/106-f-3d-398/georgia-pacific-corp-v-mv-anthos)",
+    "match_kind": "semantic",
+    "similarity": 0.6139
+   },
+   {
+    "cluster_id": 10957209,
+    "case_name": "Kingman v. Atlantis Submarines Hawaii, LLC",
+    "citations": [],
+    "court": "Hawaii Supreme Court",
+    "date_filed": "2026-08-24",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/hawaii/cases/cl-10957209/kingman-v-atlantis-submarines-hawaii-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kingman v. Atlantis Submarines Hawaii, LLC, No. SCWC-23-0000575 (Haw. Aug. 24, 2026)",
+    "link_md": "[Kingman v. Atlantis Submarines Hawaii, LLC, No. SCWC-23-0000575 (Haw. Aug. 24, 2026)](https://syfert.com/hawaii/cases/cl-10957209/kingman-v-atlantis-submarines-hawaii-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.6134
+   },
+   {
+    "cluster_id": 8419155,
+    "case_name": "Pearl Seas Cruises, LLC v. Lloyd's Register N. Am., Inc.",
+    "citations": [
+     "136 S. Ct. 64",
+     "193 L. Ed. 2d 31",
+     "84 U.S.L.W. 3165",
+     "2015 U.S. LEXIS 5086"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2015-10-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/136-s-ct-64/pearl-seas-cruises-llc-v-lloyds-register-n-am-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pearl Seas Cruises, LLC v. Lloyd's Register N. Am., Inc., 136 S. Ct. 64 (2015)",
+    "link_md": "[Pearl Seas Cruises, LLC v. Lloyd's Register N. Am., Inc., 136 S. Ct. 64 (2015)](https://syfert.com/federal/scotus/cases/136-s-ct-64/pearl-seas-cruises-llc-v-lloyds-register-n-am-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6119
+   },
+   {
+    "cluster_id": 2338034,
+    "case_name": "Williamson v. Petroleum Helicopters, Inc.",
+    "citations": [
+     "32 F. Supp. 2d 456",
+     "1999 A.M.C. 1404",
+     "1999 U.S. Dist. LEXIS 194",
+     "1999 WL 8138"
+    ],
+    "court": "S.D. Texas",
+    "date_filed": "1999-01-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/32-f-supp-2d-456/williamson-v-petroleum-helicopters-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Williamson v. Petroleum Helicopters, Inc., 32 F. Supp. 2d 456 (S.D. Tex. 1999)",
+    "link_md": "[Williamson v. Petroleum Helicopters, Inc., 32 F. Supp. 2d 456 (S.D. Tex. 1999)](https://syfert.com/federal/district/cases/32-f-supp-2d-456/williamson-v-petroleum-helicopters-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6107
+   },
+   {
+    "cluster_id": 7824638,
+    "case_name": "Ocean Energy, Inc. v. Plaquemines Parish Government",
+    "citations": [
+     "871 So. 2d 331",
+     "2004 La. LEXIS 978",
+     "2004 WL 903150"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2004-03-26",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/louisiana/cases/871-so-2d-331/ocean-energy-inc-v-plaquemines-parish-government",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ocean Energy, Inc. v. Plaquemines Par. Gov't, 871 So. 2d 331 (La. 2004)",
+    "link_md": "[Ocean Energy, Inc. v. Plaquemines Par. Gov't, 871 So. 2d 331 (La. 2004)](https://syfert.com/louisiana/cases/871-so-2d-331/ocean-energy-inc-v-plaquemines-parish-government)",
+    "match_kind": "semantic",
+    "similarity": 0.6101
+   },
+   {
+    "cluster_id": 319949,
+    "case_name": "Carolyn Roberts v. United States",
+    "citations": [
+     "498 F.2d 520"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1974-06-20",
+    "status": "Published",
+    "cited_by": 104,
+    "disposition": "reversed",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/federal/circuits/cases/498-f-2d-520/carolyn-roberts-individually-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Carolyn Roberts v. United States, 498 F.2d 520 (9th Cir. 1974)",
+    "link_md": "[Carolyn Roberts v. United States, 498 F.2d 520 (9th Cir. 1974)](https://syfert.com/federal/circuits/cases/498-f-2d-520/carolyn-roberts-individually-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.6081
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

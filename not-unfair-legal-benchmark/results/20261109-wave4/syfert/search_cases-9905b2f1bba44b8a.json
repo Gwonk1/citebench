@@ -1,0 +1,453 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "MBIA w/15 \"928 N.Y.2d 229\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"MBIA w/15 \\\"928 N.Y.2d 229\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1689537,\"case_name\":\"Michigan Road Builders Ass'n, Inc. v. Milliken\",\"citations\":[\"654 F. Supp. 3\",\"1986 U.S. Dist. LEXIS 29461\"],\"court\":\"E.D. Michigan\",\"date_filed\":\"1986-02-10\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/federal/district/cases/654-f-supp-3/michigan-road-builders-assn-inc-v-milliken\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Michigan Road Builders Ass'n v. Milliken, 654 F. Supp. 3 (E.D. Mich. 1986)\",\"link_md\":\"[Michigan Road Builders Ass'n v. Milliken, 654 F. Supp. 3 (E.D. Mich. 1986)](https://syfert.com/federal/district/cases/654-f-supp-3/michigan-road-builders-assn-inc-v-milliken)\",\"match_kind\":\"semantic\",\"similarity\":0.6109},{\"cluster_id\":559279,\"case_name\":\"Mabry v. New York State\",\"citations\":[\"930 F.2d 911\",\"1991 U.S. App. LEXIS 7306\",\"1991 WL 52597\"],\"court\":\"Second Circuit\",\"date_filed\":\"1991-03-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/930-f-2d-911/mabry-v-new-york-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mabry v. New York State, 930 F.2d 911 (2d Cir. 1991)\",\"link_md\":\"[Mabry v. New York State, 930 F.2d 911 (2d Cir. 1991)](https://syfert.com/federal/circuits/cases/930-f-2d-911/mabry-v-new-york-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6068},{\"cluster_id\":2334817,\"case_name\":\"New Jersey Division of Youth and Family Services v. MB\",\"citations\":[\"950 A.2d 906\",\"195 N.J. 518\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2008-05-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/195-n-j-518/new-jersey-division-of-youth-and-family-services-v\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"New Jersey Div. of Youth & Fam. Servs. v. MB, 950 A.2d 906 (N.J. 2008)\",\"link_md\":\"[New Jersey Div. of Youth & Fam. Servs. v. MB, 950 A.2d 906 (N.J. 2008)](https://syfert.com/new-jersey/cases/195-n-j-518/new-jersey-division-of-youth-and-family-services-v)\",\"match_kind\":\"semantic\",\"similarity\":0.5964},{\"cluster_id\":7309179,\"case_name\":\"Grenier v. Town of Shrewsbury\",\"citations\":[\"52 F. Supp. 3d 149\",\"2014 U.S. Dist. LEXIS 136269\",\"2014 WL 5151260\"],\"court\":\"D. Massachusetts\",\"date_filed\":\"2014-09-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/52-f-supp-3d-149/grenier-v-town-of-shrewsbury\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Grenier v. Town of Shrewsbury, 52 F. Supp. 3d 149 (D. Mass. 2014)\",\"link_md\":\"[Grenier v. Town of Shrewsbury, 52 F. Supp. 3d 149 (D. Mass. 2014)](https://syfert.com/federal/district/cases/52-f-supp-3d-149/grenier-v-town-of-shrewsbury)\",\"match_kind\":\"semantic\",\"similarity\":0.5872},{\"cluster_id\":885680,\"case_name\":\"State v. Vainio\",\"citations\":[\"35 P.3d 948\",\"2001 MT 220\",\"306 Mont. 439\",\"2001 Mont. LEXIS 475\"],\"court\":\"Montana Supreme Court\",\"date_filed\":\"2001-11-07\",\"status\":\"Published\",\"cited_by\":8,\"url\":\"https://syfert.com/montana/cases/306-mont-439/state-v-vainio\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Vainio, 2001 MT 220, 35 P.3d 948\",\"link_md\":\"[State v. Vainio, 2001 MT 220, 35 P.3d 948](https://syfert.com/montana/cases/306-mont-439/state-v-vainio)\",\"match_kind\":\"semantic\",\"similarity\":0.5865},{\"cluster_id\":10849727,\"case_name\":\"Aberbach-Marolda v. Cherner\",\"citations\":[\"248 A.D.3d 848\",\"2026 NY Slip Op 02087\",\"248 A.D.3d 849\",\"248 A.D.3d 850\",\"248 A.D.3d 851\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2026-04-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-10849727/aberbach-marolda-v-cherner\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"248 A.D.3d 848\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d\"},{\"citation\":\"248 A.D.3d 849\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d\"},{\"citation\":\"248 A.D.3d 850\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d\"},{\"citation\":\"248 A.D.3d 851\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d\"}],\"bluebook\":\"Aberbach-Marolda v. Cherner, 248 A.D.3d 848 (N.Y. App. Div. 2d Dep't 2026)\",\"link_md\":\"[Aberbach-Marolda v. Cherner, 248 A.D.3d 848 (N.Y. App. Div. 2d Dep't 2026)](https://syfert.com/new-york/cases/cl-10849727/aberbach-marolda-v-cherner)\",\"match_kind\":\"semantic\",\"similarity\":0.5848},{\"cluster_id\":1940544,\"case_name\":\"Bob Meyer Communities, Inc. v. Stone Harbor Lakes, LLC\",\"citations\":[\"962 A.2d 529\",\"197 N.J. 258\"],\"court\":\"Supreme Court of New Jersey\",\"date_filed\":\"2008-12-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-jersey/cases/197-n-j-258/bob-meyer-communities-inc-v-stone-harbor-lakes-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bob Meyer Communities, Inc. v. Stone Harbor Lakes, LLC, 962 A.2d 529 (N.J. 2008)\",\"link_md\":\"[Bob Meyer Communities, Inc. v. Stone Harbor Lakes, LLC, 962 A.2d 529 (N.J. 2008)](https://syfert.com/new-jersey/cases/197-n-j-258/bob-meyer-communities-inc-v-stone-harbor-lakes-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.583},{\"cluster_id\":10376915,\"case_name\":\"High Maine, LLC v. Town of Kittery\",\"citations\":[\"327 A.3d 58\",\"2024 ME 76\"],\"court\":\"Supreme Judicial Court of Maine\",\"date_filed\":\"2024-11-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/maine/cases/327-a-3d-58/high-maine-llc-v-town-of-kittery\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"citation_provenance\":[{\"citation\":\"327 A.3d 58\",\"recovered_from_citing_opinions\":0,\"source\":\"name_year_recovery\",\"via\":\"gapfill\",\"method\":\"leagle_volume_listing\",\"confidence\":0.9,\"note\":\"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\"evidence_url\":\"https://www.leagle.com/decisions/browse/series/volume/327%20A.3d\"}],\"bluebook\":\"High Maine, LLC v. Town of Kittery, 2024 ME 76, 327 A.3d 58\",\"link_md\":\"[High Maine, LLC v. Town of Kittery, 2024 ME 76, 327 A.3d 58](https://syfert.com/maine/cases/327-a-3d-58/high-maine-llc-v-town-of-kittery)\",\"match_kind\":\"semantic\",\"similarity\":0.5829},{\"cluster_id\":4514975,\"case_name\":\"Matter of Pilot Travel Ctrs., LLC v. Town Bd. of Town of Bath\",\"citations\":[\"2018 NY Slip Op 5082\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2018-07-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-4514975/matter-of-pilot-travel-ctrs-llc-v-town-bd-of-town-of-bath\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Pilot Travel Ctrs., LLC v. Town Bd. of Town of Bath, 2018 NY Slip Op 5082 (N.Y. App. Div. 4th Dep't 2018)\",\"link_md\":\"[Matter of Pilot Travel Ctrs., LLC v. Town Bd. of Town of Bath, 2018 NY Slip Op 5082 (N.Y. App. Div. 4th Dep't 2018)](https://syfert.com/new-york/cases/cl-4514975/matter-of-pilot-travel-ctrs-llc-v-town-bd-of-town-of-bath)\",\"match_kind\":\"semantic\",\"similarity\":0.5776},{\"cluster_id\":8358591,\"case_name\":\"Abdow v. Massachusetts Bay Transportation Authority\",\"citations\":[\"33 Mass. L. Rptr. 126\"],\"court\":\"Massachusetts Superior Court\",\"date_filed\":\"2015-10-16\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/massachusetts/cases/cl-8358591/abdow-v-massachusetts-bay-transportation-authority\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Abdow v. Massachusetts Bay Transp. Auth., 33 Mass. L. Rptr. 126 (Mass. Super. Ct. 2015)\",\"link_md\":\"[Abdow v. Massachusetts Bay Transp. Auth., 33 Mass. L. Rptr. 126 (Mass. Super. Ct. 2015)](https://syfert.com/massachusetts/cases/cl-8358591/abdow-v-massachusetts-bay-transportation-authority)\",\"match_kind\":\"semantic\",\"similarity\":0.5775},{\"cluster_id\":8000187,\"case_name\":\"Michigan State Chamber of Commerce v. State\",\"citations\":[\"417 Mich. 1101\",\"1983 Mich. LEXIS 1383\"],\"court\":\"Michigan Supreme Court\",\"date_filed\":\"1983-01-19\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/michigan/cases/417-mich-1101/michigan-state-chamber-of-commerce-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Michigan State Chamber of Com. v. State, 417 Mich. 1101 (1983)\",\"link_md\":\"[Michigan State Chamber of Com. v. State, 417 Mich. 1101 (1983)](https://syfert.com/michigan/cases/417-mich-1101/michigan-state-chamber-of-commerce-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.5775},{\"cluster_id\":7331437,\"case_name\":\"Samele v. Zucker\",\"citations\":[\"324 F. Supp. 3d 313\"],\"court\":\"E.D. New York\",\"date_filed\":\"2018-08-02\",\"status\":\"Published\",\"cited_by\":8,\"url\":\"https://syfert.com/federal/district/cases/324-f-supp-3d-313/samele-v-zucker\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Samele v. Zucker, 324 F. Supp. 3d 313 (E.D.N.Y. 2018)\",\"link_md\":\"[Samele v. Zucker, 324 F. Supp. 3d 313 (E.D.N.Y. 2018)](https://syfert.com/federal/district/cases/324-f-supp-3d-313/samele-v-zucker)\",\"match_kind\":\"semantic\",\"similarity\":0.5768},{\"cluster_id\":2389052,\"case_name\":\"Palm v. SISTERS OF CHARITY HEALTH, SYSTEMS\",\"citations\":[\"537 F. Supp. 2d 228\",\"2008 U.S. Dist. LEXIS 18031\",\"2008 WL 624864\"],\"court\":\"D. Maine\",\"date_filed\":\"2008-03-07\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/district/cases/537-f-supp-2d-228/palm-v-sisters-of-charity-health-systems\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Palm v. Sisters of Charity Health, Sys., 537 F. Supp. 2d 228 (D. Me. 2008)\",\"link_md\":\"[Palm v. Sisters of Charity Health, Sys., 537 F. Supp. 2d 228 (D. Me. 2008)](https://syfert.com/federal/district/cases/537-f-supp-2d-228/palm-v-sisters-of-charity-health-systems)\",\"match_kind\":\"semantic\",\"similarity\":0.5753},{\"cluster_id\":10702908,\"case_name\":\"Murphy v. Lash\",\"citations\":[],\"court\":\"New Mexico Court of Appeals\",\"date_filed\":\"2023-10-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-mexico/cases/cl-10702908/murphy-v-lash\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Murphy v. Lash, No. A-1-CA-39628 (N.M. Ct. App. Oct. 26, 2023)\",\"link_md\":\"[Murphy v. Lash, No. A-1-CA-39628 (N.M. Ct. App. Oct. 26, 2023)](https://syfert.com/new-mexico/cases/cl-10702908/murphy-v-lash)\",\"match_kind\":\"semantic\",\"similarity\":0.5748},{\"cluster_id\":10341220,\"case_name\":\"Drinkwater v. Town of Milford\",\"citations\":[],\"court\":\"Maine Superior\",\"date_filed\":\"2003-04-18\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/maine/cases/cl-10341220/drinkwater-v-town-of-milford\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Drinkwater v. Town of Milford, No. PENap-02-08 (Me. Super. Ct Apr. 18, 2003)\",\"link_md\":\"[Drinkwater v. Town of Milford, No. PENap-02-08 (Me. Super. Ct Apr. 18, 2003)](https://syfert.com/maine/cases/cl-10341220/drinkwater-v-town-of-milford)\",\"match_kind\":\"semantic\",\"similarity\":0.574},{\"cluster_id\":3216394,\"case_name\":\"Steven M Gursten v. Attorney Grievance Commission\",\"citations\":[],\"court\":\"Michigan Supreme Court\",\"date_filed\":\"2016-06-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/michigan/cases/cl-3216394/steven-m-gursten-v-attorney-grievance-commission\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (3216394 and its twin 3216830). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Steven M Gursten v. Attorney Grievance Comm'n, No. 152816 (Mich. June 22, 2016)\",\"link_md\":\"[Steven M Gursten v. Attorney Grievance Comm'n, No. 152816 (Mich. June 22, 2016)](https://syfert.com/michigan/cases/cl-3216394/steven-m-gursten-v-attorney-grievance-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.5736,\"twin_clusters\":[3216830,3216394]},{\"cluster_id\":1462362,\"case_name\":\"Cornelius v. La Croix\",\"citations\":[\"575 F. Supp. 1392\",\"1983 U.S. Dist. LEXIS 11319\"],\"court\":\"E.D. Wisconsin\",\"date_filed\":\"1983-11-29\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/district/cases/575-f-supp-1392/cornelius-v-la-croix\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cornelius v. La Croix, 575 F. Supp. 1392 (E.D. Wis. 1983)\",\"link_md\":\"[Cornelius v. La Croix, 575 F. Supp. 1392 (E.D. Wis. 1983)](https://syfert.com/federal/district/cases/575-f-supp-1392/cornelius-v-la-croix)\",\"match_kind\":\"semantic\",\"similarity\":0.5734},{\"cluster_id\":9840773,\"case_name\":\"Lee v. Rausch, Sturm, Israel, Enerson & Hornik, LLP\",\"citations\":[],\"court\":\"E.D. New York\",\"date_filed\":\"2022-01-21\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-9840773/lee-v-rausch-sturm-israel-enerson-hornik-llp\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Lee v. Rausch, Sturm, Israel, Enerson & Hornik, LLP, No. 2:21-cv-05649 (E.D.N.Y. Jan. 21, 2022)\",\"link_md\":\"[Lee v. Rausch, Sturm, Israel, Enerson & Hornik, LLP, No. 2:21-cv-05649 (E.D.N.Y. Jan. 21, 2022)](https://syfert.com/federal/district/cases/cl-9840773/lee-v-rausch-sturm-israel-enerson-hornik-llp)\",\"match_kind\":\"semantic\",\"similarity\":0.5721},{\"cluster_id\":10345146,\"case_name\":\"Dubois v. Town of Arundel\",\"citations\":[],\"court\":\"Maine Superior\",\"date_filed\":\"2018-02-01\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/maine/cases/cl-10345146/dubois-v-town-of-arundel\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Dubois v. Town of Arundel, No. YORap-17-0025 (Me. Super. Ct Feb. 1, 2018)\",\"link_md\":\"[Dubois v. Town of Arundel, No. YORap-17-0025 (Me. Super. Ct Feb. 1, 2018)](https://syfert.com/maine/cases/cl-10345146/dubois-v-town-of-arundel)\",\"match_kind\":\"semantic\",\"similarity\":0.5721},{\"cluster_id\":1467884,\"case_name\":\"M.B.E. Inc. v. Minority Business Opportunity Commission\",\"citations\":[\"485 A.2d 152\",\"1984 D.C. App. LEXIS 558\"],\"court\":\"District of Columbia Court of Appeals\",\"date_filed\":\"1984-11-19\",\"status\":\"Published\",\"cited_by\":11,\"url\":\"https://syfert.com/district-of-columbia/cases/485-a-2d-152/mbe-inc-v-minority-business-opportunity-commission\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"M.B.E. Inc. v. Minority Bus. Opportunity Comm'n, 485 A.2d 152 (D.C. 1984)\",\"link_md\":\"[M.B.E. Inc. v. Minority Bus. Opportunity Comm'n, 485 A.2d 152 (D.C. 1984)](https://syfert.com/district-of-columbia/cases/485-a-2d-152/mbe-inc-v-minority-business-opportunity-commission)\",\"match_kind\":\"semantic\",\"similarity\":0.572}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "MBIA w/15 \"928 N.Y.2d 229\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1689537,
+    "case_name": "Michigan Road Builders Ass'n, Inc. v. Milliken",
+    "citations": [
+     "654 F. Supp. 3",
+     "1986 U.S. Dist. LEXIS 29461"
+    ],
+    "court": "E.D. Michigan",
+    "date_filed": "1986-02-10",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/federal/district/cases/654-f-supp-3/michigan-road-builders-assn-inc-v-milliken",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Michigan Road Builders Ass'n v. Milliken, 654 F. Supp. 3 (E.D. Mich. 1986)",
+    "link_md": "[Michigan Road Builders Ass'n v. Milliken, 654 F. Supp. 3 (E.D. Mich. 1986)](https://syfert.com/federal/district/cases/654-f-supp-3/michigan-road-builders-assn-inc-v-milliken)",
+    "match_kind": "semantic",
+    "similarity": 0.6109
+   },
+   {
+    "cluster_id": 559279,
+    "case_name": "Mabry v. New York State",
+    "citations": [
+     "930 F.2d 911",
+     "1991 U.S. App. LEXIS 7306",
+     "1991 WL 52597"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1991-03-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/930-f-2d-911/mabry-v-new-york-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mabry v. New York State, 930 F.2d 911 (2d Cir. 1991)",
+    "link_md": "[Mabry v. New York State, 930 F.2d 911 (2d Cir. 1991)](https://syfert.com/federal/circuits/cases/930-f-2d-911/mabry-v-new-york-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6068
+   },
+   {
+    "cluster_id": 2334817,
+    "case_name": "New Jersey Division of Youth and Family Services v. MB",
+    "citations": [
+     "950 A.2d 906",
+     "195 N.J. 518"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2008-05-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/195-n-j-518/new-jersey-division-of-youth-and-family-services-v",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "New Jersey Div. of Youth & Fam. Servs. v. MB, 950 A.2d 906 (N.J. 2008)",
+    "link_md": "[New Jersey Div. of Youth & Fam. Servs. v. MB, 950 A.2d 906 (N.J. 2008)](https://syfert.com/new-jersey/cases/195-n-j-518/new-jersey-division-of-youth-and-family-services-v)",
+    "match_kind": "semantic",
+    "similarity": 0.5964
+   },
+   {
+    "cluster_id": 7309179,
+    "case_name": "Grenier v. Town of Shrewsbury",
+    "citations": [
+     "52 F. Supp. 3d 149",
+     "2014 U.S. Dist. LEXIS 136269",
+     "2014 WL 5151260"
+    ],
+    "court": "D. Massachusetts",
+    "date_filed": "2014-09-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/52-f-supp-3d-149/grenier-v-town-of-shrewsbury",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Grenier v. Town of Shrewsbury, 52 F. Supp. 3d 149 (D. Mass. 2014)",
+    "link_md": "[Grenier v. Town of Shrewsbury, 52 F. Supp. 3d 149 (D. Mass. 2014)](https://syfert.com/federal/district/cases/52-f-supp-3d-149/grenier-v-town-of-shrewsbury)",
+    "match_kind": "semantic",
+    "similarity": 0.5872
+   },
+   {
+    "cluster_id": 885680,
+    "case_name": "State v. Vainio",
+    "citations": [
+     "35 P.3d 948",
+     "2001 MT 220",
+     "306 Mont. 439",
+     "2001 Mont. LEXIS 475"
+    ],
+    "court": "Montana Supreme Court",
+    "date_filed": "2001-11-07",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/montana/cases/306-mont-439/state-v-vainio",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Vainio, 2001 MT 220, 35 P.3d 948",
+    "link_md": "[State v. Vainio, 2001 MT 220, 35 P.3d 948](https://syfert.com/montana/cases/306-mont-439/state-v-vainio)",
+    "match_kind": "semantic",
+    "similarity": 0.5865
+   },
+   {
+    "cluster_id": 10849727,
+    "case_name": "Aberbach-Marolda v. Cherner",
+    "citations": [
+     "248 A.D.3d 848",
+     "2026 NY Slip Op 02087",
+     "248 A.D.3d 849",
+     "248 A.D.3d 850",
+     "248 A.D.3d 851"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2026-04-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-10849727/aberbach-marolda-v-cherner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "248 A.D.3d 848",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d"
+     },
+     {
+      "citation": "248 A.D.3d 849",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d"
+     },
+     {
+      "citation": "248 A.D.3d 850",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d"
+     },
+     {
+      "citation": "248 A.D.3d 851",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/248%20A.D.3d"
+     }
+    ],
+    "bluebook": "Aberbach-Marolda v. Cherner, 248 A.D.3d 848 (N.Y. App. Div. 2d Dep't 2026)",
+    "link_md": "[Aberbach-Marolda v. Cherner, 248 A.D.3d 848 (N.Y. App. Div. 2d Dep't 2026)](https://syfert.com/new-york/cases/cl-10849727/aberbach-marolda-v-cherner)",
+    "match_kind": "semantic",
+    "similarity": 0.5848
+   },
+   {
+    "cluster_id": 1940544,
+    "case_name": "Bob Meyer Communities, Inc. v. Stone Harbor Lakes, LLC",
+    "citations": [
+     "962 A.2d 529",
+     "197 N.J. 258"
+    ],
+    "court": "Supreme Court of New Jersey",
+    "date_filed": "2008-12-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-jersey/cases/197-n-j-258/bob-meyer-communities-inc-v-stone-harbor-lakes-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bob Meyer Communities, Inc. v. Stone Harbor Lakes, LLC, 962 A.2d 529 (N.J. 2008)",
+    "link_md": "[Bob Meyer Communities, Inc. v. Stone Harbor Lakes, LLC, 962 A.2d 529 (N.J. 2008)](https://syfert.com/new-jersey/cases/197-n-j-258/bob-meyer-communities-inc-v-stone-harbor-lakes-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.583
+   },
+   {
+    "cluster_id": 10376915,
+    "case_name": "High Maine, LLC v. Town of Kittery",
+    "citations": [
+     "327 A.3d 58",
+     "2024 ME 76"
+    ],
+    "court": "Supreme Judicial Court of Maine",
+    "date_filed": "2024-11-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/maine/cases/327-a-3d-58/high-maine-llc-v-town-of-kittery",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "327 A.3d 58",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/327%20A.3d"
+     }
+    ],
+    "bluebook": "High Maine, LLC v. Town of Kittery, 2024 ME 76, 327 A.3d 58",
+    "link_md": "[High Maine, LLC v. Town of Kittery, 2024 ME 76, 327 A.3d 58](https://syfert.com/maine/cases/327-a-3d-58/high-maine-llc-v-town-of-kittery)",
+    "match_kind": "semantic",
+    "similarity": 0.5829
+   },
+   {
+    "cluster_id": 4514975,
+    "case_name": "Matter of Pilot Travel Ctrs., LLC v. Town Bd. of Town of Bath",
+    "citations": [
+     "2018 NY Slip Op 5082"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2018-07-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-4514975/matter-of-pilot-travel-ctrs-llc-v-town-bd-of-town-of-bath",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Pilot Travel Ctrs., LLC v. Town Bd. of Town of Bath, 2018 NY Slip Op 5082 (N.Y. App. Div. 4th Dep't 2018)",
+    "link_md": "[Matter of Pilot Travel Ctrs., LLC v. Town Bd. of Town of Bath, 2018 NY Slip Op 5082 (N.Y. App. Div. 4th Dep't 2018)](https://syfert.com/new-york/cases/cl-4514975/matter-of-pilot-travel-ctrs-llc-v-town-bd-of-town-of-bath)",
+    "match_kind": "semantic",
+    "similarity": 0.5776
+   },
+   {
+    "cluster_id": 8358591,
+    "case_name": "Abdow v. Massachusetts Bay Transportation Authority",
+    "citations": [
+     "33 Mass. L. Rptr. 126"
+    ],
+    "court": "Massachusetts Superior Court",
+    "date_filed": "2015-10-16",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/massachusetts/cases/cl-8358591/abdow-v-massachusetts-bay-transportation-authority",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Abdow v. Massachusetts Bay Transp. Auth., 33 Mass. L. Rptr. 126 (Mass. Super. Ct. 2015)",
+    "link_md": "[Abdow v. Massachusetts Bay Transp. Auth., 33 Mass. L. Rptr. 126 (Mass. Super. Ct. 2015)](https://syfert.com/massachusetts/cases/cl-8358591/abdow-v-massachusetts-bay-transportation-authority)",
+    "match_kind": "semantic",
+    "similarity": 0.5775
+   },
+   {
+    "cluster_id": 8000187,
+    "case_name": "Michigan State Chamber of Commerce v. State",
+    "citations": [
+     "417 Mich. 1101",
+     "1983 Mich. LEXIS 1383"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1983-01-19",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/michigan/cases/417-mich-1101/michigan-state-chamber-of-commerce-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Michigan State Chamber of Com. v. State, 417 Mich. 1101 (1983)",
+    "link_md": "[Michigan State Chamber of Com. v. State, 417 Mich. 1101 (1983)](https://syfert.com/michigan/cases/417-mich-1101/michigan-state-chamber-of-commerce-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.5775
+   },
+   {
+    "cluster_id": 7331437,
+    "case_name": "Samele v. Zucker",
+    "citations": [
+     "324 F. Supp. 3d 313"
+    ],
+    "court": "E.D. New York",
+    "date_filed": "2018-08-02",
+    "status": "Published",
+    "cited_by": 8,
+    "url": "https://syfert.com/federal/district/cases/324-f-supp-3d-313/samele-v-zucker",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Samele v. Zucker, 324 F. Supp. 3d 313 (E.D.N.Y. 2018)",
+    "link_md": "[Samele v. Zucker, 324 F. Supp. 3d 313 (E.D.N.Y. 2018)](https://syfert.com/federal/district/cases/324-f-supp-3d-313/samele-v-zucker)",
+    "match_kind": "semantic",
+    "similarity": 0.5768
+   },
+   {
+    "cluster_id": 2389052,
+    "case_name": "Palm v. SISTERS OF CHARITY HEALTH, SYSTEMS",
+    "citations": [
+     "537 F. Supp. 2d 228",
+     "2008 U.S. Dist. LEXIS 18031",
+     "2008 WL 624864"
+    ],
+    "court": "D. Maine",
+    "date_filed": "2008-03-07",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/district/cases/537-f-supp-2d-228/palm-v-sisters-of-charity-health-systems",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Palm v. Sisters of Charity Health, Sys., 537 F. Supp. 2d 228 (D. Me. 2008)",
+    "link_md": "[Palm v. Sisters of Charity Health, Sys., 537 F. Supp. 2d 228 (D. Me. 2008)](https://syfert.com/federal/district/cases/537-f-supp-2d-228/palm-v-sisters-of-charity-health-systems)",
+    "match_kind": "semantic",
+    "similarity": 0.5753
+   },
+   {
+    "cluster_id": 10702908,
+    "case_name": "Murphy v. Lash",
+    "citations": [],
+    "court": "New Mexico Court of Appeals",
+    "date_filed": "2023-10-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-mexico/cases/cl-10702908/murphy-v-lash",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Murphy v. Lash, No. A-1-CA-39628 (N.M. Ct. App. Oct. 26, 2023)",
+    "link_md": "[Murphy v. Lash, No. A-1-CA-39628 (N.M. Ct. App. Oct. 26, 2023)](https://syfert.com/new-mexico/cases/cl-10702908/murphy-v-lash)",
+    "match_kind": "semantic",
+    "similarity": 0.5748
+   },
+   {
+    "cluster_id": 10341220,
+    "case_name": "Drinkwater v. Town of Milford",
+    "citations": [],
+    "court": "Maine Superior",
+    "date_filed": "2003-04-18",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/maine/cases/cl-10341220/drinkwater-v-town-of-milford",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Drinkwater v. Town of Milford, No. PENap-02-08 (Me. Super. Ct Apr. 18, 2003)",
+    "link_md": "[Drinkwater v. Town of Milford, No. PENap-02-08 (Me. Super. Ct Apr. 18, 2003)](https://syfert.com/maine/cases/cl-10341220/drinkwater-v-town-of-milford)",
+    "match_kind": "semantic",
+    "similarity": 0.574
+   },
+   {
+    "cluster_id": 3216394,
+    "case_name": "Steven M Gursten v. Attorney Grievance Commission",
+    "citations": [],
+    "court": "Michigan Supreme Court",
+    "date_filed": "2016-06-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/michigan/cases/cl-3216394/steven-m-gursten-v-attorney-grievance-commission",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (3216394 and its twin 3216830). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Steven M Gursten v. Attorney Grievance Comm'n, No. 152816 (Mich. June 22, 2016)",
+    "link_md": "[Steven M Gursten v. Attorney Grievance Comm'n, No. 152816 (Mich. June 22, 2016)](https://syfert.com/michigan/cases/cl-3216394/steven-m-gursten-v-attorney-grievance-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.5736,
+    "twin_clusters": [
+     3216830,
+     3216394
+    ]
+   },
+   {
+    "cluster_id": 1462362,
+    "case_name": "Cornelius v. La Croix",
+    "citations": [
+     "575 F. Supp. 1392",
+     "1983 U.S. Dist. LEXIS 11319"
+    ],
+    "court": "E.D. Wisconsin",
+    "date_filed": "1983-11-29",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/district/cases/575-f-supp-1392/cornelius-v-la-croix",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cornelius v. La Croix, 575 F. Supp. 1392 (E.D. Wis. 1983)",
+    "link_md": "[Cornelius v. La Croix, 575 F. Supp. 1392 (E.D. Wis. 1983)](https://syfert.com/federal/district/cases/575-f-supp-1392/cornelius-v-la-croix)",
+    "match_kind": "semantic",
+    "similarity": 0.5734
+   },
+   {
+    "cluster_id": 9840773,
+    "case_name": "Lee v. Rausch, Sturm, Israel, Enerson & Hornik, LLP",
+    "citations": [],
+    "court": "E.D. New York",
+    "date_filed": "2022-01-21",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-9840773/lee-v-rausch-sturm-israel-enerson-hornik-llp",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Lee v. Rausch, Sturm, Israel, Enerson & Hornik, LLP, No. 2:21-cv-05649 (E.D.N.Y. Jan. 21, 2022)",
+    "link_md": "[Lee v. Rausch, Sturm, Israel, Enerson & Hornik, LLP, No. 2:21-cv-05649 (E.D.N.Y. Jan. 21, 2022)](https://syfert.com/federal/district/cases/cl-9840773/lee-v-rausch-sturm-israel-enerson-hornik-llp)",
+    "match_kind": "semantic",
+    "similarity": 0.5721
+   },
+   {
+    "cluster_id": 10345146,
+    "case_name": "Dubois v. Town of Arundel",
+    "citations": [],
+    "court": "Maine Superior",
+    "date_filed": "2018-02-01",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/maine/cases/cl-10345146/dubois-v-town-of-arundel",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Dubois v. Town of Arundel, No. YORap-17-0025 (Me. Super. Ct Feb. 1, 2018)",
+    "link_md": "[Dubois v. Town of Arundel, No. YORap-17-0025 (Me. Super. Ct Feb. 1, 2018)](https://syfert.com/maine/cases/cl-10345146/dubois-v-town-of-arundel)",
+    "match_kind": "semantic",
+    "similarity": 0.5721
+   },
+   {
+    "cluster_id": 1467884,
+    "case_name": "M.B.E. Inc. v. Minority Business Opportunity Commission",
+    "citations": [
+     "485 A.2d 152",
+     "1984 D.C. App. LEXIS 558"
+    ],
+    "court": "District of Columbia Court of Appeals",
+    "date_filed": "1984-11-19",
+    "status": "Published",
+    "cited_by": 11,
+    "url": "https://syfert.com/district-of-columbia/cases/485-a-2d-152/mbe-inc-v-minority-business-opportunity-commission",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "M.B.E. Inc. v. Minority Bus. Opportunity Comm'n, 485 A.2d 152 (D.C. 1984)",
+    "link_md": "[M.B.E. Inc. v. Minority Bus. Opportunity Comm'n, 485 A.2d 152 (D.C. 1984)](https://syfert.com/district-of-columbia/cases/485-a-2d-152/mbe-inc-v-minority-business-opportunity-commission)",
+    "match_kind": "semantic",
+    "similarity": 0.572
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

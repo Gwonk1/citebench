@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Calderon w/15 \"675 A.2d 1121\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Calderon w/15 \\\"675 A.2d 1121\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2106658,\"bluebook\":\"Calderon v. Bollegraaf, 675 A.2d 1122 (N.J. 1996)\",\"url\":\"https://syfert.com/new-jersey/cases/144-n-j-174/calderon-v-bollegraaf\",\"date_filed\":\"1996-03-20\",\"cited_by\":27,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"144 N.J. 174 (1996)\\n675 A.2d 1121\\nCALDERON\\nv.\\nBOLLEGRAAF\\nThe Supreme Court of New Jersey.\\nMarch 20, 1996.\\nPetitions for Certification\\nDenied.\\n285 N.J. Super. 623 667 A.2d 1111\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Calderon w/15 \"675 A.2d 1121\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2106658,
+    "bluebook": "Calderon v. Bollegraaf, 675 A.2d 1122 (N.J. 1996)",
+    "url": "https://syfert.com/new-jersey/cases/144-n-j-174/calderon-v-bollegraaf",
+    "date_filed": "1996-03-20",
+    "cited_by": 27,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "144 N.J. 174 (1996)\n675 A.2d 1121\nCALDERON\nv.\nBOLLEGRAAF\nThe Supreme Court of New Jersey.\nMarch 20, 1996.\nPetitions for Certification\nDenied.\n285 N.J. Super. 623 667 A.2d 1111"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

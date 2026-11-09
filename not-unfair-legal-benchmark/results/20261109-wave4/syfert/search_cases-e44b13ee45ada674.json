@@ -1,0 +1,100 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Southern w/15 \"43 So. 378\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Southern w/15 \\\"43 So. 378\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1099459,\"bluebook\":\"IMAC Energy, Inc. v. Tittle, 590 So. 2d 163 (Ala. 1991)\",\"url\":\"https://syfert.com/alabama/cases/590-so-2d-163/imac-energy-inc-v-tittle\",\"date_filed\":\"1991-08-02\",\"cited_by\":19,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...damages. IMAC contends that a jury cannot award an amount exceeding the amount actually claimed in the plaintiff's complaint. Southern Ry. v. McGowan , 149 Ala. 440 , 43 So. 378 (1907). However, this Court has more recently held that a…\"},{\"cluster_id\":3227367,\"bluebook\":\"Kent v. Lindsey, 10 So. 2d 54 (Ala. Ct. App. 1942)\",\"url\":\"https://syfert.com/alabama/cases/30-ala-app-582/kent-v-lindsey\",\"date_filed\":\"1942-10-06\",\"cited_by\":9,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"RICE, Judge.\\nAppellant sued appellee for damages for personal injuries and injury or damage to the automobile in which the plaintiff, appellant, was riding, and which was owned by. the plaintiff. The occasion of the suit was a collision…\"},{\"cluster_id\":1933991,\"bluebook\":\"Johnson v. Nora, 87 So. 2d 757 (La. Ct. App. 1956)\",\"url\":\"https://syfert.com/louisiana/cases/87-so-2d-757/johnson-v-nora\",\"date_filed\":\"1956-05-21\",\"cited_by\":10,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...1037 , 158 So. 378 ; Froelicher v. Southern Marine Works, 118 La. 1077 , 43 So. 882 .\\nWe find no difficulty in concluding that plaintiffs are entitled to relief from unnecessary noise and disturbances, particularly during the late hours…\"},{\"cluster_id\":3251532,\"bluebook\":\"MacKey v. Hall Auto Co., 176 So. 318 (Ala. Ct. App. 1937)\",\"url\":\"https://syfert.com/alabama/cases/27-ala-app-557/mackey-v-hall-auto-co\",\"date_filed\":\"1937-10-05\",\"cited_by\":7,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"SAMFORD, Judge.\\nThe original suit was in statutory detinue under chapter 282 of the Code of 1923 (section 7389 et seq.), and was brought by the plaintiff against J. A. C. Mackey and R. H. Mackey as defendants, claiming specific personal…\"},{\"cluster_id\":3226899,\"bluebook\":\"Birmingham Coca-Cola Bottling Co. v. Sellers, 39 So. 2d 706 (Ala. Ct. App. 1949)\",\"url\":\"https://syfert.com/alabama/cases/34-ala-app-355/birmingham-coca-cola-bottling-co-v-sellers\",\"date_filed\":\"1949-02-22\",\"cited_by\":7,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"HARWOOD, Judge.\\nThe appellee, Ethel Sellers, filed her complaint against the “Coca-Cola Bottling Company of Birmingham, a corporation,” charging negligence in the bottling and selling of a beverage known as Coca-Cola containing a…\"},{\"cluster_id\":1778184,\"bluebook\":\"Foreman v. Dorsey Trailers, Inc., 54 So. 2d 499 (Ala. 1951)\",\"url\":\"https://syfert.com/alabama/cases/256-ala-253/foreman-v-dorsey-trailers-inc\",\"date_filed\":\"1951-10-11\",\"cited_by\":20,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...only a knowledge of the dangerous condition, but also an appreciation of the risk resulting or which may follow. Southern Ry. Co. v. McGowan, 149 Ala. 440 (6), 43 So. 378 .” Johnson v. Louisville and Nashville R. R. Co., 255 Ala. 581 ,…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Southern w/15 \"43 So. 378\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1099459,
+    "bluebook": "IMAC Energy, Inc. v. Tittle, 590 So. 2d 163 (Ala. 1991)",
+    "url": "https://syfert.com/alabama/cases/590-so-2d-163/imac-energy-inc-v-tittle",
+    "date_filed": "1991-08-02",
+    "cited_by": 19,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...damages. IMAC contends that a jury cannot award an amount exceeding the amount actually claimed in the plaintiff's complaint. Southern Ry. v. McGowan , 149 Ala. 440 , 43 So. 378 (1907). However, this Court has more recently held that a…"
+   },
+   {
+    "cluster_id": 3227367,
+    "bluebook": "Kent v. Lindsey, 10 So. 2d 54 (Ala. Ct. App. 1942)",
+    "url": "https://syfert.com/alabama/cases/30-ala-app-582/kent-v-lindsey",
+    "date_filed": "1942-10-06",
+    "cited_by": 9,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "RICE, Judge.\nAppellant sued appellee for damages for personal injuries and injury or damage to the automobile in which the plaintiff, appellant, was riding, and which was owned by. the plaintiff. The occasion of the suit was a collision…"
+   },
+   {
+    "cluster_id": 1933991,
+    "bluebook": "Johnson v. Nora, 87 So. 2d 757 (La. Ct. App. 1956)",
+    "url": "https://syfert.com/louisiana/cases/87-so-2d-757/johnson-v-nora",
+    "date_filed": "1956-05-21",
+    "cited_by": 10,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...1037 , 158 So. 378 ; Froelicher v. Southern Marine Works, 118 La. 1077 , 43 So. 882 .\nWe find no difficulty in concluding that plaintiffs are entitled to relief from unnecessary noise and disturbances, particularly during the late hours…"
+   },
+   {
+    "cluster_id": 3251532,
+    "bluebook": "MacKey v. Hall Auto Co., 176 So. 318 (Ala. Ct. App. 1937)",
+    "url": "https://syfert.com/alabama/cases/27-ala-app-557/mackey-v-hall-auto-co",
+    "date_filed": "1937-10-05",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "SAMFORD, Judge.\nThe original suit was in statutory detinue under chapter 282 of the Code of 1923 (section 7389 et seq.), and was brought by the plaintiff against J. A. C. Mackey and R. H. Mackey as defendants, claiming specific personal…"
+   },
+   {
+    "cluster_id": 3226899,
+    "bluebook": "Birmingham Coca-Cola Bottling Co. v. Sellers, 39 So. 2d 706 (Ala. Ct. App. 1949)",
+    "url": "https://syfert.com/alabama/cases/34-ala-app-355/birmingham-coca-cola-bottling-co-v-sellers",
+    "date_filed": "1949-02-22",
+    "cited_by": 7,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "HARWOOD, Judge.\nThe appellee, Ethel Sellers, filed her complaint against the “Coca-Cola Bottling Company of Birmingham, a corporation,” charging negligence in the bottling and selling of a beverage known as Coca-Cola containing a…"
+   },
+   {
+    "cluster_id": 1778184,
+    "bluebook": "Foreman v. Dorsey Trailers, Inc., 54 So. 2d 499 (Ala. 1951)",
+    "url": "https://syfert.com/alabama/cases/256-ala-253/foreman-v-dorsey-trailers-inc",
+    "date_filed": "1951-10-11",
+    "cited_by": 20,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...only a knowledge of the dangerous condition, but also an appreciation of the risk resulting or which may follow. Southern Ry. Co. v. McGowan, 149 Ala. 440 (6), 43 So. 378 .” Johnson v. Louisville and Nashville R. R. Co., 255 Ala. 581 ,…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

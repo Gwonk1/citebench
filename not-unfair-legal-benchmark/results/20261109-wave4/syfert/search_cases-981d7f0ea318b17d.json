@@ -1,0 +1,73 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Parks w/15 \"249 S.E.2d 672\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Parks w/15 \\\"249 S.E.2d 672\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":597229,\"bluebook\":\"Russell Lee Jones v. Truett Goodwin, 982 F.2d 464 (11th Cir. 1993)\",\"url\":\"https://syfert.com/federal/circuits/cases/982-f-2d-464/russell-lee-jones-v-truett-goodwin-warden\",\"date_filed\":\"1993-01-15\",\"cited_by\":47,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...666 , 362 S.E.2d 211, 213 (1987) (quoting Parks v. State, 147 Ga.App. 617 , 249 S.E.2d 672 , 673 (1978)); cf. Fed.R.Evid. 404(a) (West 1991) (“Evidence of a person’s character or a trait of character is not admissible for the purpose of…\",\"passage_origin\":{\"case_name\":\"Henson v. Triumph Trucking, Inc.\",\"cluster_id\":2611844,\"year\":1994,\"quoted_by_cases\":17}},{\"cluster_id\":1060964,\"bluebook\":\"State v. Sheline, 955 S.W.2d 42 (Tenn. 1997)\",\"url\":\"https://syfert.com/tennessee/cases/955-s-w-2d-42/state-v-sheline\",\"date_filed\":\"1997-10-20\",\"cited_by\":55,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...572 , 617 P.2d 1214 (1980);\\nParks v. State,\\n147 Ga.App. 617 , 249 S.E.2d 672 (1978).\\nThe rule also requires that the pattern consist of sexual behavior so distinctive and so closely resembling the defendant’s version that it tends to…\",\"holding\":\"A defendant's constitutional right to confront and cross-examine witnesses does not grant an absolute right to present irrelevant evidence.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":4646795,\"bluebook\":\"State of Tennessee v. Brandon Robert Vandenburg, No. M2017-01882-CCA-R3-CD (Tenn. Crim. App. Aug. 8, 2019)\",\"url\":\"https://syfert.com/tennessee/cases/cl-4646795/state-of-tennessee-v-brandon-robert-vandenburg\",\"date_filed\":\"2019-08-08\",\"cited_by\":0,\"snippet\":\"...1980); Parks v. State, 249 S.E.2d 672 (Ga. Ct. App. 1978)). “Rule 412 is a rule of\\nrelevance and is written as a rule of exclusion.” Brown, 29 S.W.3d at 430 . Admissibility\\nof evidence under Rule 412 is a decision that is left to the…\",\"passage_origin\":{\"case_name\":\"State v. Brown\",\"cluster_id\":1060657,\"year\":2000,\"quoted_by_cases\":2}}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Parks w/15 \"249 S.E.2d 672\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 597229,
+    "bluebook": "Russell Lee Jones v. Truett Goodwin, 982 F.2d 464 (11th Cir. 1993)",
+    "url": "https://syfert.com/federal/circuits/cases/982-f-2d-464/russell-lee-jones-v-truett-goodwin-warden",
+    "date_filed": "1993-01-15",
+    "cited_by": 47,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...666 , 362 S.E.2d 211, 213 (1987) (quoting Parks v. State, 147 Ga.App. 617 , 249 S.E.2d 672 , 673 (1978)); cf. Fed.R.Evid. 404(a) (West 1991) (“Evidence of a person’s character or a trait of character is not admissible for the purpose of…",
+    "passage_origin": {
+     "case_name": "Henson v. Triumph Trucking, Inc.",
+     "cluster_id": 2611844,
+     "year": 1994,
+     "quoted_by_cases": 17
+    }
+   },
+   {
+    "cluster_id": 1060964,
+    "bluebook": "State v. Sheline, 955 S.W.2d 42 (Tenn. 1997)",
+    "url": "https://syfert.com/tennessee/cases/955-s-w-2d-42/state-v-sheline",
+    "date_filed": "1997-10-20",
+    "cited_by": 55,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...572 , 617 P.2d 1214 (1980);\nParks v. State,\n147 Ga.App. 617 , 249 S.E.2d 672 (1978).\nThe rule also requires that the pattern consist of sexual behavior so distinctive and so closely resembling the defendant’s version that it tends to…",
+    "holding": "A defendant's constitutional right to confront and cross-examine witnesses does not grant an absolute right to present irrelevant evidence.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 4646795,
+    "bluebook": "State of Tennessee v. Brandon Robert Vandenburg, No. M2017-01882-CCA-R3-CD (Tenn. Crim. App. Aug. 8, 2019)",
+    "url": "https://syfert.com/tennessee/cases/cl-4646795/state-of-tennessee-v-brandon-robert-vandenburg",
+    "date_filed": "2019-08-08",
+    "cited_by": 0,
+    "snippet": "...1980); Parks v. State, 249 S.E.2d 672 (Ga. Ct. App. 1978)). “Rule 412 is a rule of\nrelevance and is written as a rule of exclusion.” Brown, 29 S.W.3d at 430 . Admissibility\nof evidence under Rule 412 is a decision that is left to the…",
+    "passage_origin": {
+     "case_name": "State v. Brown",
+     "cluster_id": 1060657,
+     "year": 2000,
+     "quoted_by_cases": 2
+    }
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

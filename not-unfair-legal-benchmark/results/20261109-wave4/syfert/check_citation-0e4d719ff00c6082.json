@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "103 So. 845",
+  "expected_case_name": "Union Ins. Soc. of Canton v. Sudduth"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"103 So. 845\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3224500,\n            \"case_name\": \"Union Ins. Soc. of Canton v. Sudduth\",\n            \"citations\": [\n                \"103 So. 845\"\n            ],\n            \"court\": \"Supreme Court of Alabama\",\n            \"date_filed\": \"1925-03-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 20,\n            \"url\": \"https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n            \"link_md\": \"[Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)](https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Union Ins. Soc. of Canton v. Sudduth\",\n        \"actual\": \"Union Ins. Soc. of Canton v. Sudduth\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "103 So. 845",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3224500,
+    "case_name": "Union Ins. Soc. of Canton v. Sudduth",
+    "citations": [
+     "103 So. 845"
+    ],
+    "court": "Supreme Court of Alabama",
+    "date_filed": "1925-03-19",
+    "status": "Published",
+    "cited_by": 20,
+    "url": "https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+    "link_md": "[Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)](https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Union Ins. Soc. of Canton v. Sudduth",
+   "actual": "Union Ins. Soc. of Canton v. Sudduth",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

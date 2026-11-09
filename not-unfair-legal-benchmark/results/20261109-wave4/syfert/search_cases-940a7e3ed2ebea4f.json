@@ -1,0 +1,431 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "TERRY w/15 \"304 So. 3d 301\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"TERRY w/15 \\\"304 So. 3d 301\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2494147,\"case_name\":\"State v. Terry\",\"citations\":[\"66 So. 3d 88\",\"2011 WL 3339868\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2011-04-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/66-so-3d-88/state-v-terry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Terry, 66 So. 3d 88 (La. Ct. App. 2011)\",\"link_md\":\"[State v. Terry, 66 So. 3d 88 (La. Ct. App. 2011)](https://syfert.com/louisiana/cases/66-so-3d-88/state-v-terry)\",\"match_kind\":\"semantic\",\"similarity\":0.6984},{\"cluster_id\":1626203,\"case_name\":\"Terry v. Department of Police\",\"citations\":[\"25 So. 3d 142\",\"2010 WL 396151\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2010-01-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/25-so-3d-142/terry-v-department-of-police\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terry v. Dep't of Police, 25 So. 3d 142 (La. 2010)\",\"link_md\":\"[Terry v. Dep't of Police, 25 So. 3d 142 (La. 2010)](https://syfert.com/louisiana/cases/25-so-3d-142/terry-v-department-of-police)\",\"match_kind\":\"semantic\",\"similarity\":0.6808},{\"cluster_id\":1106174,\"case_name\":\"Terry v. CITY OF INDEPENDENCE, PARISH\",\"citations\":[\"584 So. 2d 1165\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1991-09-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/584-so-2d-1165/terry-v-city-of-independence-parish\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terry v. City of Indep., Par., 584 So. 2d 1165 (La. 1991)\",\"link_md\":\"[Terry v. City of Indep., Par., 584 So. 2d 1165 (La. 1991)](https://syfert.com/louisiana/cases/584-so-2d-1165/terry-v-city-of-independence-parish)\",\"match_kind\":\"semantic\",\"similarity\":0.6686},{\"cluster_id\":7754168,\"case_name\":\"State v. Terry\",\"citations\":[\"661 So. 2d 494\",\"1995 La. LEXIS 2508\",\"1995 WL 608902\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1995-10-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/661-so-2d-494/state-v-terry\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7754168 and its twin 1142847). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Terry, 661 So. 2d 494 (La. 1995)\",\"link_md\":\"[State v. Terry, 661 So. 2d 494 (La. 1995)](https://syfert.com/louisiana/cases/661-so-2d-494/state-v-terry)\",\"match_kind\":\"semantic\",\"similarity\":0.6637,\"twin_clusters\":[1142847]},{\"cluster_id\":5050690,\"case_name\":\"State v. Terry\",\"citations\":[\"61 So. 3d 671\",\"2011 La. LEXIS 885\",\"2011 WL 2417193\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2011-04-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/61-so-3d-671/state-v-terry\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5050690 and its twin 2497584). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Terry, 61 So. 3d 671 (La. 2011)\",\"link_md\":\"[State v. Terry, 61 So. 3d 671 (La. 2011)](https://syfert.com/louisiana/cases/61-so-3d-671/state-v-terry)\",\"match_kind\":\"semantic\",\"similarity\":0.6473,\"twin_clusters\":[2497584]},{\"cluster_id\":4949179,\"case_name\":\"Terry Terrace Condominium Owners Ass'n v. Terry Terrace Apartments, LLC\",\"citations\":[\"159 Wash. App. 1018\"],\"court\":\"Court of Appeals of Washington\",\"date_filed\":\"2011-01-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/washington/cases/159-wash-app-1018/terry-terrace-condominium-owners-assn-v-terry-terrace-apartments-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terry Terrace Condo. Owners Ass'n v. Terry Terrace Apts., LLC, 159 Wash. App. 1018 (Wash. Ct. App. 2011)\",\"link_md\":\"[Terry Terrace Condo. Owners Ass'n v. Terry Terrace Apts., LLC, 159 Wash. App. 1018 (Wash. Ct. App. 2011)](https://syfert.com/washington/cases/159-wash-app-1018/terry-terrace-condominium-owners-assn-v-terry-terrace-apartments-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.637},{\"cluster_id\":542620,\"case_name\":\"Terry v. Jackson\",\"citations\":[\"904 F.2d 701\",\"1990 U.S. App. LEXIS 8391\",\"1990 WL 76822\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1990-05-23\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/904-f-2d-701/terry-v-jackson\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terry v. Jackson, 904 F.2d 701 (4th Cir. 1990)\",\"link_md\":\"[Terry v. Jackson, 904 F.2d 701 (4th Cir. 1990)](https://syfert.com/federal/circuits/cases/904-f-2d-701/terry-v-jackson)\",\"match_kind\":\"semantic\",\"similarity\":0.6334},{\"cluster_id\":7824075,\"case_name\":\"Terry v. Red River Center Corp.\",\"citations\":[\"869 So. 2d 856\",\"2004 La. LEXIS 940\",\"2004 WL 816883\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2004-03-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/869-so-2d-856/terry-v-red-river-center-corp\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7824075 and its twin 1601499). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terry v. Red River Ctr. Corp., 869 So. 2d 856 (La. 2004)\",\"link_md\":\"[Terry v. Red River Ctr. Corp., 869 So. 2d 856 (La. 2004)](https://syfert.com/louisiana/cases/869-so-2d-856/terry-v-red-river-center-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6318,\"twin_clusters\":[1601499]},{\"cluster_id\":7660161,\"case_name\":\"Terry v. City of Independence, Parish of Tangipahoa\",\"citations\":[\"584 So. 2d 1165\",\"1991 La. LEXIS 2446\",\"1991 WL 185673\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1991-09-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/584-so-2d-1165/terry-v-city-of-independence-parish-of-tangipahoa\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terry v. City of Indep., 584 So. 2d 1165 (La. 1991)\",\"link_md\":\"[Terry v. City of Indep., 584 So. 2d 1165 (La. 1991)](https://syfert.com/louisiana/cases/584-so-2d-1165/terry-v-city-of-independence-parish-of-tangipahoa)\",\"match_kind\":\"semantic\",\"similarity\":0.6314},{\"cluster_id\":5491970,\"case_name\":\"Pine v. Terry\",\"citations\":[\"240 A.D. 788\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1933-08-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/240-a-d-788/pine-v-terry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pine v. Terry, 240 A.D. 788 (N.Y. App. Div. 1933)\",\"link_md\":\"[Pine v. Terry, 240 A.D. 788 (N.Y. App. Div. 1933)](https://syfert.com/new-york/cases/240-a-d-788/pine-v-terry)\",\"match_kind\":\"semantic\",\"similarity\":0.6279},{\"cluster_id\":7845961,\"case_name\":\"Terry v. Terry\",\"citations\":[\"959 So. 2d 486\",\"2007 La. LEXIS 1540\",\"2007 WL 2107902\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2007-06-22\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/louisiana/cases/959-so-2d-486/terry-v-terry\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terry v. Terry, 959 So. 2d 486 (La. 2007)\",\"link_md\":\"[Terry v. Terry, 959 So. 2d 486 (La. 2007)](https://syfert.com/louisiana/cases/959-so-2d-486/terry-v-terry)\",\"match_kind\":\"semantic\",\"similarity\":0.6274},{\"cluster_id\":603181,\"case_name\":\"James E. Terry v. Karen Boggs, Public Defender Gregory Beckwith, Attorney\",\"citations\":[\"989 F.2d 495\",\"1993 WL 84569\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1993-03-25\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/989-f-2d-495/james-e-terry-v-karen-boggs-public-defender-gregor\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"James E. Terry v. Karen Boggs, 989 F.2d 495 (4th Cir. 1993)\",\"link_md\":\"[James E. Terry v. Karen Boggs, 989 F.2d 495 (4th Cir. 1993)](https://syfert.com/federal/circuits/cases/989-f-2d-495/james-e-terry-v-karen-boggs-public-defender-gregor)\",\"match_kind\":\"semantic\",\"similarity\":0.6269},{\"cluster_id\":7824688,\"case_name\":\"State v. Terrick\",\"citations\":[\"871 So. 2d 346\",\"2004 La. LEXIS 1015\",\"2004 WL 1113348\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2004-03-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/871-so-2d-346/state-v-terrick\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7824688 and its twin 1771382). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Terrick, 871 So. 2d 346 (La. 2004)\",\"link_md\":\"[State v. Terrick, 871 So. 2d 346 (La. 2004)](https://syfert.com/louisiana/cases/871-so-2d-346/state-v-terrick)\",\"match_kind\":\"semantic\",\"similarity\":0.6215,\"twin_clusters\":[1771382]},{\"cluster_id\":1291163,\"case_name\":\"Terry v. Ricci\",\"citations\":[\"552 U.S. 1024\",\"128 S. Ct. 616\"],\"court\":\"Supreme Court\",\"date_filed\":\"2007-11-13\",\"status\":\"Published\",\"cited_by\":10,\"url\":\"https://syfert.com/federal/scotus/cases/552-u-s-1024/terry-v-ricci\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terry v. Ricci, 552 U.S. 1024 (2007)\",\"link_md\":\"[Terry v. Ricci, 552 U.S. 1024 (2007)](https://syfert.com/federal/scotus/cases/552-u-s-1024/terry-v-ricci)\",\"match_kind\":\"semantic\",\"similarity\":0.6192},{\"cluster_id\":5047241,\"case_name\":\"State v. Thomas\",\"citations\":[\"5 So. 3d 149\",\"2009 La. LEXIS 1428\",\"2009 WL 1039397\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2009-04-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/5-so-3d-149/state-v-thomas\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5047241 and its twin 1635422). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Thomas, 5 So. 3d 149 (La. 2009)\",\"link_md\":\"[State v. Thomas, 5 So. 3d 149 (La. 2009)](https://syfert.com/louisiana/cases/5-so-3d-149/state-v-thomas)\",\"match_kind\":\"semantic\",\"similarity\":0.6177,\"twin_clusters\":[1635422]},{\"cluster_id\":1575090,\"case_name\":\"Johnson v. Terrel\",\"citations\":[\"17 So. 3d 401\",\"2009 WL 3243805\",\"2009 La. LEXIS 3786\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2009-09-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/17-so-3d-401/johnson-v-terrel\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (1575090 and its twin 5008569). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Johnson v. Terrel, 17 So. 3d 401 (La. 2009)\",\"link_md\":\"[Johnson v. Terrel, 17 So. 3d 401 (La. 2009)](https://syfert.com/louisiana/cases/17-so-3d-401/johnson-v-terrel)\",\"match_kind\":\"semantic\",\"similarity\":0.6172},{\"cluster_id\":813577,\"case_name\":\"Roger Terry, Jr. v. M. Middleton\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2012-12-13\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-813577/roger-terry-jr-v-m-middleton\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Roger Terry, Jr. v. M. Middleton, No. 12-7329 (4th Cir. Dec. 13, 2012)\",\"link_md\":\"[Roger Terry, Jr. v. M. Middleton, No. 12-7329 (4th Cir. Dec. 13, 2012)](https://syfert.com/federal/circuits/cases/cl-813577/roger-terry-jr-v-m-middleton)\",\"match_kind\":\"semantic\",\"similarity\":0.6158},{\"cluster_id\":623656,\"case_name\":\"Randolph Watterson v. Duane Terrell\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2012-02-27\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-623656/randolph-watterson-v-duane-terrell\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Randolph Watterson v. Duane Terrell, No. 11-7373 (4th Cir. Feb. 27, 2012)\",\"link_md\":\"[Randolph Watterson v. Duane Terrell, No. 11-7373 (4th Cir. Feb. 27, 2012)](https://syfert.com/federal/circuits/cases/cl-623656/randolph-watterson-v-duane-terrell)\",\"match_kind\":\"semantic\",\"similarity\":0.6157},{\"cluster_id\":5046353,\"case_name\":\"Terrance v. Baton Rouge General Medical Center\",\"citations\":[\"46 So. 3d 1271\",\"2010 La. LEXIS 2322\",\"2010 WL 4292303\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2010-10-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/46-so-3d-1271/terrance-v-baton-rouge-general-medical-center\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5046353 and its twin 2536353). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terrance v. Baton Rouge Gen. Med. Ctr., 46 So. 3d 1271 (La. 2010)\",\"link_md\":\"[Terrance v. Baton Rouge Gen. Med. Ctr., 46 So. 3d 1271 (La. 2010)](https://syfert.com/louisiana/cases/46-so-3d-1271/terrance-v-baton-rouge-general-medical-center)\",\"match_kind\":\"semantic\",\"similarity\":0.6141,\"twin_clusters\":[2536353]},{\"cluster_id\":7601626,\"case_name\":\"Terra Development Corp. v. Southland Dragway, Inc.\",\"citations\":[\"444 So. 2d 1225\",\"1984 La. LEXIS 8138\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1984-01-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/444-so-2d-1225/terra-development-corp-v-southland-dragway-inc\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7601626 and its twin 1094315). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Terra Dev. Corp. v. Southland Dragway, Inc., 444 So. 2d 1225 (La. 1984)\",\"link_md\":\"[Terra Dev. Corp. v. Southland Dragway, Inc., 444 So. 2d 1225 (La. 1984)](https://syfert.com/louisiana/cases/444-so-2d-1225/terra-development-corp-v-southland-dragway-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6138}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "TERRY w/15 \"304 So. 3d 301\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2494147,
+    "case_name": "State v. Terry",
+    "citations": [
+     "66 So. 3d 88",
+     "2011 WL 3339868"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2011-04-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/66-so-3d-88/state-v-terry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Terry, 66 So. 3d 88 (La. Ct. App. 2011)",
+    "link_md": "[State v. Terry, 66 So. 3d 88 (La. Ct. App. 2011)](https://syfert.com/louisiana/cases/66-so-3d-88/state-v-terry)",
+    "match_kind": "semantic",
+    "similarity": 0.6984
+   },
+   {
+    "cluster_id": 1626203,
+    "case_name": "Terry v. Department of Police",
+    "citations": [
+     "25 So. 3d 142",
+     "2010 WL 396151"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2010-01-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/25-so-3d-142/terry-v-department-of-police",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terry v. Dep't of Police, 25 So. 3d 142 (La. 2010)",
+    "link_md": "[Terry v. Dep't of Police, 25 So. 3d 142 (La. 2010)](https://syfert.com/louisiana/cases/25-so-3d-142/terry-v-department-of-police)",
+    "match_kind": "semantic",
+    "similarity": 0.6808
+   },
+   {
+    "cluster_id": 1106174,
+    "case_name": "Terry v. CITY OF INDEPENDENCE, PARISH",
+    "citations": [
+     "584 So. 2d 1165"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1991-09-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/584-so-2d-1165/terry-v-city-of-independence-parish",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terry v. City of Indep., Par., 584 So. 2d 1165 (La. 1991)",
+    "link_md": "[Terry v. City of Indep., Par., 584 So. 2d 1165 (La. 1991)](https://syfert.com/louisiana/cases/584-so-2d-1165/terry-v-city-of-independence-parish)",
+    "match_kind": "semantic",
+    "similarity": 0.6686
+   },
+   {
+    "cluster_id": 7754168,
+    "case_name": "State v. Terry",
+    "citations": [
+     "661 So. 2d 494",
+     "1995 La. LEXIS 2508",
+     "1995 WL 608902"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1995-10-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/661-so-2d-494/state-v-terry",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7754168 and its twin 1142847). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Terry, 661 So. 2d 494 (La. 1995)",
+    "link_md": "[State v. Terry, 661 So. 2d 494 (La. 1995)](https://syfert.com/louisiana/cases/661-so-2d-494/state-v-terry)",
+    "match_kind": "semantic",
+    "similarity": 0.6637,
+    "twin_clusters": [
+     1142847
+    ]
+   },
+   {
+    "cluster_id": 5050690,
+    "case_name": "State v. Terry",
+    "citations": [
+     "61 So. 3d 671",
+     "2011 La. LEXIS 885",
+     "2011 WL 2417193"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2011-04-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/61-so-3d-671/state-v-terry",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5050690 and its twin 2497584). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Terry, 61 So. 3d 671 (La. 2011)",
+    "link_md": "[State v. Terry, 61 So. 3d 671 (La. 2011)](https://syfert.com/louisiana/cases/61-so-3d-671/state-v-terry)",
+    "match_kind": "semantic",
+    "similarity": 0.6473,
+    "twin_clusters": [
+     2497584
+    ]
+   },
+   {
+    "cluster_id": 4949179,
+    "case_name": "Terry Terrace Condominium Owners Ass'n v. Terry Terrace Apartments, LLC",
+    "citations": [
+     "159 Wash. App. 1018"
+    ],
+    "court": "Court of Appeals of Washington",
+    "date_filed": "2011-01-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/washington/cases/159-wash-app-1018/terry-terrace-condominium-owners-assn-v-terry-terrace-apartments-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terry Terrace Condo. Owners Ass'n v. Terry Terrace Apts., LLC, 159 Wash. App. 1018 (Wash. Ct. App. 2011)",
+    "link_md": "[Terry Terrace Condo. Owners Ass'n v. Terry Terrace Apts., LLC, 159 Wash. App. 1018 (Wash. Ct. App. 2011)](https://syfert.com/washington/cases/159-wash-app-1018/terry-terrace-condominium-owners-assn-v-terry-terrace-apartments-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.637
+   },
+   {
+    "cluster_id": 542620,
+    "case_name": "Terry v. Jackson",
+    "citations": [
+     "904 F.2d 701",
+     "1990 U.S. App. LEXIS 8391",
+     "1990 WL 76822"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1990-05-23",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/904-f-2d-701/terry-v-jackson",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Terry v. Jackson, 904 F.2d 701 (4th Cir. 1990)",
+    "link_md": "[Terry v. Jackson, 904 F.2d 701 (4th Cir. 1990)](https://syfert.com/federal/circuits/cases/904-f-2d-701/terry-v-jackson)",
+    "match_kind": "semantic",
+    "similarity": 0.6334
+   },
+   {
+    "cluster_id": 7824075,
+    "case_name": "Terry v. Red River Center Corp.",
+    "citations": [
+     "869 So. 2d 856",
+     "2004 La. LEXIS 940",
+     "2004 WL 816883"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2004-03-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/869-so-2d-856/terry-v-red-river-center-corp",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7824075 and its twin 1601499). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terry v. Red River Ctr. Corp., 869 So. 2d 856 (La. 2004)",
+    "link_md": "[Terry v. Red River Ctr. Corp., 869 So. 2d 856 (La. 2004)](https://syfert.com/louisiana/cases/869-so-2d-856/terry-v-red-river-center-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6318,
+    "twin_clusters": [
+     1601499
+    ]
+   },
+   {
+    "cluster_id": 7660161,
+    "case_name": "Terry v. City of Independence, Parish of Tangipahoa",
+    "citations": [
+     "584 So. 2d 1165",
+     "1991 La. LEXIS 2446",
+     "1991 WL 185673"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1991-09-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/584-so-2d-1165/terry-v-city-of-independence-parish-of-tangipahoa",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terry v. City of Indep., 584 So. 2d 1165 (La. 1991)",
+    "link_md": "[Terry v. City of Indep., 584 So. 2d 1165 (La. 1991)](https://syfert.com/louisiana/cases/584-so-2d-1165/terry-v-city-of-independence-parish-of-tangipahoa)",
+    "match_kind": "semantic",
+    "similarity": 0.6314
+   },
+   {
+    "cluster_id": 5491970,
+    "case_name": "Pine v. Terry",
+    "citations": [
+     "240 A.D. 788"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1933-08-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/240-a-d-788/pine-v-terry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pine v. Terry, 240 A.D. 788 (N.Y. App. Div. 1933)",
+    "link_md": "[Pine v. Terry, 240 A.D. 788 (N.Y. App. Div. 1933)](https://syfert.com/new-york/cases/240-a-d-788/pine-v-terry)",
+    "match_kind": "semantic",
+    "similarity": 0.6279
+   },
+   {
+    "cluster_id": 7845961,
+    "case_name": "Terry v. Terry",
+    "citations": [
+     "959 So. 2d 486",
+     "2007 La. LEXIS 1540",
+     "2007 WL 2107902"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2007-06-22",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/louisiana/cases/959-so-2d-486/terry-v-terry",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terry v. Terry, 959 So. 2d 486 (La. 2007)",
+    "link_md": "[Terry v. Terry, 959 So. 2d 486 (La. 2007)](https://syfert.com/louisiana/cases/959-so-2d-486/terry-v-terry)",
+    "match_kind": "semantic",
+    "similarity": 0.6274
+   },
+   {
+    "cluster_id": 603181,
+    "case_name": "James E. Terry v. Karen Boggs, Public Defender Gregory Beckwith, Attorney",
+    "citations": [
+     "989 F.2d 495",
+     "1993 WL 84569"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1993-03-25",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/989-f-2d-495/james-e-terry-v-karen-boggs-public-defender-gregor",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "James E. Terry v. Karen Boggs, 989 F.2d 495 (4th Cir. 1993)",
+    "link_md": "[James E. Terry v. Karen Boggs, 989 F.2d 495 (4th Cir. 1993)](https://syfert.com/federal/circuits/cases/989-f-2d-495/james-e-terry-v-karen-boggs-public-defender-gregor)",
+    "match_kind": "semantic",
+    "similarity": 0.6269
+   },
+   {
+    "cluster_id": 7824688,
+    "case_name": "State v. Terrick",
+    "citations": [
+     "871 So. 2d 346",
+     "2004 La. LEXIS 1015",
+     "2004 WL 1113348"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2004-03-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/871-so-2d-346/state-v-terrick",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7824688 and its twin 1771382). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Terrick, 871 So. 2d 346 (La. 2004)",
+    "link_md": "[State v. Terrick, 871 So. 2d 346 (La. 2004)](https://syfert.com/louisiana/cases/871-so-2d-346/state-v-terrick)",
+    "match_kind": "semantic",
+    "similarity": 0.6215,
+    "twin_clusters": [
+     1771382
+    ]
+   },
+   {
+    "cluster_id": 1291163,
+    "case_name": "Terry v. Ricci",
+    "citations": [
+     "552 U.S. 1024",
+     "128 S. Ct. 616"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2007-11-13",
+    "status": "Published",
+    "cited_by": 10,
+    "url": "https://syfert.com/federal/scotus/cases/552-u-s-1024/terry-v-ricci",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terry v. Ricci, 552 U.S. 1024 (2007)",
+    "link_md": "[Terry v. Ricci, 552 U.S. 1024 (2007)](https://syfert.com/federal/scotus/cases/552-u-s-1024/terry-v-ricci)",
+    "match_kind": "semantic",
+    "similarity": 0.6192
+   },
+   {
+    "cluster_id": 5047241,
+    "case_name": "State v. Thomas",
+    "citations": [
+     "5 So. 3d 149",
+     "2009 La. LEXIS 1428",
+     "2009 WL 1039397"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2009-04-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/5-so-3d-149/state-v-thomas",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5047241 and its twin 1635422). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Thomas, 5 So. 3d 149 (La. 2009)",
+    "link_md": "[State v. Thomas, 5 So. 3d 149 (La. 2009)](https://syfert.com/louisiana/cases/5-so-3d-149/state-v-thomas)",
+    "match_kind": "semantic",
+    "similarity": 0.6177,
+    "twin_clusters": [
+     1635422
+    ]
+   },
+   {
+    "cluster_id": 1575090,
+    "case_name": "Johnson v. Terrel",
+    "citations": [
+     "17 So. 3d 401",
+     "2009 WL 3243805",
+     "2009 La. LEXIS 3786"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2009-09-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/17-so-3d-401/johnson-v-terrel",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (1575090 and its twin 5008569). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Johnson v. Terrel, 17 So. 3d 401 (La. 2009)",
+    "link_md": "[Johnson v. Terrel, 17 So. 3d 401 (La. 2009)](https://syfert.com/louisiana/cases/17-so-3d-401/johnson-v-terrel)",
+    "match_kind": "semantic",
+    "similarity": 0.6172
+   },
+   {
+    "cluster_id": 813577,
+    "case_name": "Roger Terry, Jr. v. M. Middleton",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2012-12-13",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-813577/roger-terry-jr-v-m-middleton",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Roger Terry, Jr. v. M. Middleton, No. 12-7329 (4th Cir. Dec. 13, 2012)",
+    "link_md": "[Roger Terry, Jr. v. M. Middleton, No. 12-7329 (4th Cir. Dec. 13, 2012)](https://syfert.com/federal/circuits/cases/cl-813577/roger-terry-jr-v-m-middleton)",
+    "match_kind": "semantic",
+    "similarity": 0.6158
+   },
+   {
+    "cluster_id": 623656,
+    "case_name": "Randolph Watterson v. Duane Terrell",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2012-02-27",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-623656/randolph-watterson-v-duane-terrell",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Randolph Watterson v. Duane Terrell, No. 11-7373 (4th Cir. Feb. 27, 2012)",
+    "link_md": "[Randolph Watterson v. Duane Terrell, No. 11-7373 (4th Cir. Feb. 27, 2012)](https://syfert.com/federal/circuits/cases/cl-623656/randolph-watterson-v-duane-terrell)",
+    "match_kind": "semantic",
+    "similarity": 0.6157
+   },
+   {
+    "cluster_id": 5046353,
+    "case_name": "Terrance v. Baton Rouge General Medical Center",
+    "citations": [
+     "46 So. 3d 1271",
+     "2010 La. LEXIS 2322",
+     "2010 WL 4292303"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2010-10-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/46-so-3d-1271/terrance-v-baton-rouge-general-medical-center",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5046353 and its twin 2536353). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terrance v. Baton Rouge Gen. Med. Ctr., 46 So. 3d 1271 (La. 2010)",
+    "link_md": "[Terrance v. Baton Rouge Gen. Med. Ctr., 46 So. 3d 1271 (La. 2010)](https://syfert.com/louisiana/cases/46-so-3d-1271/terrance-v-baton-rouge-general-medical-center)",
+    "match_kind": "semantic",
+    "similarity": 0.6141,
+    "twin_clusters": [
+     2536353
+    ]
+   },
+   {
+    "cluster_id": 7601626,
+    "case_name": "Terra Development Corp. v. Southland Dragway, Inc.",
+    "citations": [
+     "444 So. 2d 1225",
+     "1984 La. LEXIS 8138"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1984-01-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/444-so-2d-1225/terra-development-corp-v-southland-dragway-inc",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7601626 and its twin 1094315). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Terra Dev. Corp. v. Southland Dragway, Inc., 444 So. 2d 1225 (La. 1984)",
+    "link_md": "[Terra Dev. Corp. v. Southland Dragway, Inc., 444 So. 2d 1225 (La. 1984)](https://syfert.com/louisiana/cases/444-so-2d-1225/terra-development-corp-v-southland-dragway-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6138
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

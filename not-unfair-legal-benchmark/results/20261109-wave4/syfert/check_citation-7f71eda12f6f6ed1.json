@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "109 P.2d 1113",
+  "expected_case_name": "State Ex Rel. Dussault v. Kilburn"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"109 P.2d 1113\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3563985,\n            \"case_name\": \"State Ex Rel. Dussault v. Kilburn\",\n            \"citations\": [\n                \"109 P.2d 1113\"\n            ],\n            \"court\": \"Montana Supreme Court\",\n            \"date_filed\": \"1941-02-05\",\n            \"status\": \"Published\",\n            \"cited_by\": 32,\n            \"url\": \"https://syfert.com/montana/cases/111-mont-400/state-ex-rel-dussault-v-kilburn\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State ex rel. Dussault v. Kilburn, 109 P.2d 1113 (Mont. 1941)\",\n            \"link_md\": \"[State ex rel. Dussault v. Kilburn, 109 P.2d 1113 (Mont. 1941)](https://syfert.com/montana/cases/111-mont-400/state-ex-rel-dussault-v-kilburn)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State Ex Rel. Dussault v. Kilburn\",\n        \"actual\": \"State Ex Rel. Dussault v. Kilburn\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "109 P.2d 1113",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3563985,
+    "case_name": "State Ex Rel. Dussault v. Kilburn",
+    "citations": [
+     "109 P.2d 1113"
+    ],
+    "court": "Montana Supreme Court",
+    "date_filed": "1941-02-05",
+    "status": "Published",
+    "cited_by": 32,
+    "url": "https://syfert.com/montana/cases/111-mont-400/state-ex-rel-dussault-v-kilburn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Dussault v. Kilburn, 109 P.2d 1113 (Mont. 1941)",
+    "link_md": "[State ex rel. Dussault v. Kilburn, 109 P.2d 1113 (Mont. 1941)](https://syfert.com/montana/cases/111-mont-400/state-ex-rel-dussault-v-kilburn)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State Ex Rel. Dussault v. Kilburn",
+   "actual": "State Ex Rel. Dussault v. Kilburn",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

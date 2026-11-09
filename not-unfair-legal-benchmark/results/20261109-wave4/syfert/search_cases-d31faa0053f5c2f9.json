@@ -1,0 +1,433 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Union w/15 \"103 So. 815\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Union w/15 \\\"103 So. 815\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8711359,\"case_name\":\"Stieber v. Signal Delivery Service, Inc.\",\"citations\":[\"787 F. Supp. 131\",\"142 L.R.R.M. (BNA) 2217\",\"1991 U.S. Dist. LEXIS 19819\",\"1992 WL 49855\"],\"court\":\"N.D. Ohio\",\"date_filed\":\"1991-03-18\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/district/cases/787-f-supp-131/stieber-v-signal-delivery-service-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stieber v. Signal Delivery Serv., Inc., 787 F. Supp. 131 (N.D. Ohio 1991)\",\"link_md\":\"[Stieber v. Signal Delivery Serv., Inc., 787 F. Supp. 131 (N.D. Ohio 1991)](https://syfert.com/federal/district/cases/787-f-supp-131/stieber-v-signal-delivery-service-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.7086},{\"cluster_id\":2416900,\"case_name\":\"Strunk v. Hahn\",\"citations\":[\"797 S.W.2d 536\",\"136 L.R.R.M. (BNA) 2185\",\"1990 Mo. App. LEXIS 1271\",\"1990 WL 120169\"],\"court\":\"Missouri Court of Appeals\",\"date_filed\":\"1990-08-20\",\"status\":\"Published\",\"cited_by\":17,\"url\":\"https://syfert.com/missouri/cases/797-s-w-2d-536/strunk-v-hahn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Strunk v. Hahn, 797 S.W.2d 536 (Mo. Ct. App. 1990)\",\"link_md\":\"[Strunk v. Hahn, 797 S.W.2d 536 (Mo. Ct. App. 1990)](https://syfert.com/missouri/cases/797-s-w-2d-536/strunk-v-hahn)\",\"match_kind\":\"semantic\",\"similarity\":0.7067},{\"cluster_id\":8989477,\"case_name\":\"Ackley v. Local Union 337, International Brotherhood of Teamsters\",\"citations\":[\"910 F.2d 1295\",\"135 L.R.R.M. (BNA) 2201\",\"1990 U.S. App. LEXIS 12642\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1990-08-01\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/circuits/cases/910-f-2d-1295/ackley-v-local-union-337-international-brotherhood-of-teamsters\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (8989477 and its twin 546251).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Ackley v. Local Union 337, 910 F.2d 1295 (6th Cir. 1990)\",\"link_md\":\"[Ackley v. Local Union 337, 910 F.2d 1295 (6th Cir. 1990)](https://syfert.com/federal/circuits/cases/910-f-2d-1295/ackley-v-local-union-337-international-brotherhood-of-teamsters)\",\"match_kind\":\"semantic\",\"similarity\":0.7017,\"twin_clusters\":[546251]},{\"cluster_id\":8897256,\"case_name\":\"Schoen v. Lodge 34, International Association of Machinists & Aerospace Workers\",\"citations\":[\"590 F. Supp. 193\",\"1984 U.S. Dist. LEXIS 15194\"],\"court\":\"E.D. Wisconsin\",\"date_filed\":\"1984-07-06\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/district/cases/590-f-supp-193/schoen-v-lodge-34-international-association-of-machinists-aerospace\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Schoen v. Lodge 34, 590 F. Supp. 193 (E.D. Wis. 1984)\",\"link_md\":\"[Schoen v. Lodge 34, 590 F. Supp. 193 (E.D. Wis. 1984)](https://syfert.com/federal/district/cases/590-f-supp-193/schoen-v-lodge-34-international-association-of-machinists-aerospace)\",\"match_kind\":\"semantic\",\"similarity\":0.7012},{\"cluster_id\":8803459,\"case_name\":\"Orphan v. Furnco Construction Corp.\",\"citations\":[\"325 F. Supp. 1220\",\"77 L.R.R.M. (BNA) 2126\",\"1971 U.S. Dist. LEXIS 13713\"],\"court\":\"N.D. Illinois\",\"date_filed\":\"1971-04-16\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/federal/district/cases/325-f-supp-1220/orphan-v-furnco-construction-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Orphan v. Furnco Constr. Corp., 325 F. Supp. 1220 (N.D. Ill. 1971)\",\"link_md\":\"[Orphan v. Furnco Constr. Corp., 325 F. Supp. 1220 (N.D. Ill. 1971)](https://syfert.com/federal/district/cases/325-f-supp-1220/orphan-v-furnco-construction-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.7008},{\"cluster_id\":8901684,\"case_name\":\"Andrews v. Hi-Way Dispatch, Inc.\",\"citations\":[\"631 F. Supp. 840\",\"1986 U.S. Dist. LEXIS 29159\"],\"court\":\"N.D. Indiana\",\"date_filed\":\"1986-02-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/631-f-supp-840/andrews-v-hi-way-dispatch-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Andrews v. Hi-Way Dispatch, Inc., 631 F. Supp. 840 (N.D. Ind. 1986)\",\"link_md\":\"[Andrews v. Hi-Way Dispatch, Inc., 631 F. Supp. 840 (N.D. Ind. 1986)](https://syfert.com/federal/district/cases/631-f-supp-840/andrews-v-hi-way-dispatch-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6985},{\"cluster_id\":8959006,\"case_name\":\"Hogan v. Brotherhood of Railway, Airline & Steamship Clerks, Freight Handlers, Express & Station Employees\",\"citations\":[\"817 F.2d 248\",\"125 L.R.R.M. (BNA) 2238\",\"1987 U.S. App. LEXIS 8301\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1987-03-10\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/817-f-2d-248/hogan-v-brotherhood-of-railway-airline-steamship-clerks-freight\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (8959006 and its twin 487420).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Hogan v. Bhd. of Ry., 817 F.2d 248 (4th Cir. 1987)\",\"link_md\":\"[Hogan v. Bhd. of Ry., 817 F.2d 248 (4th Cir. 1987)](https://syfert.com/federal/circuits/cases/817-f-2d-248/hogan-v-brotherhood-of-railway-airline-steamship-clerks-freight)\",\"match_kind\":\"semantic\",\"similarity\":0.6975,\"twin_clusters\":[487420]},{\"cluster_id\":574698,\"case_name\":\"Willie J. Walton v. American Steel Container and Local 100a United Food & Commercial Workers International Union, Afl-Cio, Clc\",\"citations\":[\"952 F.2d 405\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1992-02-04\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/952-f-2d-405/willie-j-walton-v-american-steel-container-and-loc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Willie J. Walton v. Am. Steel Container & Local 100a United Food & Com. Workers Int'l Union, Afl-Cio, Clc, 952 F.2d 405 (7th Cir. 1992)\",\"link_md\":\"[Willie J. Walton v. Am. Steel Container & Local 100a United Food & Com. Workers Int'l Union, Afl-Cio, Clc, 952 F.2d 405 (7th Cir. 1992)](https://syfert.com/federal/circuits/cases/952-f-2d-405/willie-j-walton-v-american-steel-container-and-loc)\",\"match_kind\":\"semantic\",\"similarity\":0.6968},{\"cluster_id\":7018590,\"case_name\":\"Mississippi Valley Electric Co. v. Local 130 of the International Brotherhood of Electrical Workers\",\"citations\":[\"278 F.2d 764\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1960-05-10\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/federal/circuits/cases/278-f-2d-764/mississippi-valley-electric-co-v-local-130-of-the-international\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mississippi Valley Elec. Co. v. Local 130 of the Int'l Bhd. of Elec. Workers, 278 F.2d 764 (5th Cir. 1960)\",\"link_md\":\"[Mississippi Valley Elec. Co. v. Local 130 of the Int'l Bhd. of Elec. Workers, 278 F.2d 764 (5th Cir. 1960)](https://syfert.com/federal/circuits/cases/278-f-2d-764/mississippi-valley-electric-co-v-local-130-of-the-international)\",\"match_kind\":\"semantic\",\"similarity\":0.6964},{\"cluster_id\":360533,\"case_name\":\"L. D. Price v. Southern Pacific Transportation Company\",\"citations\":[\"586 F.2d 750\",\"100 L.R.R.M. (BNA) 2671\",\"1978 U.S. App. LEXIS 7480\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"1978-11-24\",\"status\":\"Published\",\"cited_by\":1,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/federal/circuits/cases/586-f-2d-750/l-d-price-v-southern-pacific-transportation-company\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"L. D. Price v. S. Pac. Transp. Co., 586 F.2d 750 (9th Cir. 1978)\",\"link_md\":\"[L. D. Price v. S. Pac. Transp. Co., 586 F.2d 750 (9th Cir. 1978)](https://syfert.com/federal/circuits/cases/586-f-2d-750/l-d-price-v-southern-pacific-transportation-company)\",\"match_kind\":\"semantic\",\"similarity\":0.6938},{\"cluster_id\":258186,\"case_name\":\"International Union of Electrical v. National Labor Relations Board\",\"citations\":[\"307 F.2d 679\"],\"court\":\"D.C. Circuit\",\"date_filed\":\"1962-12-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/307-f-2d-679/international-union-of-electrical-radio-and-machine-workers-afl-cio\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Int'l Union of Elec. v. Nat'l Labor Relations Bd., 307 F.2d 679 (D.C. Cir. 1962)\",\"link_md\":\"[Int'l Union of Elec. v. Nat'l Labor Relations Bd., 307 F.2d 679 (D.C. Cir. 1962)](https://syfert.com/federal/circuits/cases/307-f-2d-679/international-union-of-electrical-radio-and-machine-workers-afl-cio)\",\"match_kind\":\"semantic\",\"similarity\":0.6938},{\"cluster_id\":606712,\"case_name\":\"Patrick Souter and Hope Souter v. International Union, United Automobile, Aerospace and Agricultural Implement Workers of America, Local 72\",\"citations\":[\"993 F.2d 595\",\"143 L.R.R.M. (BNA) 2269\",\"1993 U.S. App. LEXIS 10890\",\"1993 WL 150404\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1993-05-11\",\"status\":\"Published\",\"cited_by\":37,\"url\":\"https://syfert.com/federal/circuits/cases/993-f-2d-595/patrick-souter-and-hope-souter-v-international-union-united-automobile\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Patrick Souter v. Int'l Union, 993 F.2d 595 (7th Cir. 1993)\",\"link_md\":\"[Patrick Souter v. Int'l Union, 993 F.2d 595 (7th Cir. 1993)](https://syfert.com/federal/circuits/cases/993-f-2d-595/patrick-souter-and-hope-souter-v-international-union-united-automobile)\",\"match_kind\":\"semantic\",\"similarity\":0.6936},{\"cluster_id\":330014,\"case_name\":\"General Drivers and Helpers Union v. Young and Hay Transportation Company\",\"citations\":[\"522 F.2d 562\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1975-10-03\",\"status\":\"Published\",\"cited_by\":15,\"url\":\"https://syfert.com/federal/circuits/cases/522-f-2d-562/general-drivers-and-helpers-union-local-no-554-affiliated-with-the\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Gen. Drivers & Helpers Union v. Young & Hay Transp, 522 F.2d 562 (8th Cir. 1975)\",\"link_md\":\"[Gen. Drivers & Helpers Union v. Young & Hay Transp, 522 F.2d 562 (8th Cir. 1975)](https://syfert.com/federal/circuits/cases/522-f-2d-562/general-drivers-and-helpers-union-local-no-554-affiliated-with-the)\",\"match_kind\":\"semantic\",\"similarity\":0.6935},{\"cluster_id\":1363052,\"case_name\":\"Kobielnik v. INTERN. BROTH. OF TEAM., ETC.\",\"citations\":[\"470 F. Supp. 125\",\"101 L.R.R.M. (BNA) 2541\"],\"court\":\"E.D. Pennsylvania\",\"date_filed\":\"1979-04-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/470-f-supp-125/kobielnik-v-intern-broth-of-team-etc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kobielnik v. Intern. Broth. of Team., 470 F. Supp. 125 (E.D. Pa. 1979)\",\"link_md\":\"[Kobielnik v. Intern. Broth. of Team., 470 F. Supp. 125 (E.D. Pa. 1979)](https://syfert.com/federal/district/cases/470-f-supp-125/kobielnik-v-intern-broth-of-team-etc)\",\"match_kind\":\"semantic\",\"similarity\":0.6928},{\"cluster_id\":430965,\"case_name\":\"Melvin Smith v. Babcock & Wilcox Company, Refractories Division, Augusta, Georgia\",\"citations\":[\"726 F.2d 1562\",\"115 L.R.R.M. (BNA) 3349\",\"1984 U.S. App. LEXIS 24466\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1984-03-16\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/circuits/cases/726-f-2d-1562/melvin-smith-v-babcock-wilcox-company-refractories-division-augusta\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Melvin Smith v. Babcock & Wilcox Co., 726 F.2d 1562 (11th Cir. 1984)\",\"link_md\":\"[Melvin Smith v. Babcock & Wilcox Co., 726 F.2d 1562 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/726-f-2d-1562/melvin-smith-v-babcock-wilcox-company-refractories-division-augusta)\",\"match_kind\":\"semantic\",\"similarity\":0.6927},{\"cluster_id\":8964055,\"case_name\":\"Grant v. Burlington Industries\",\"citations\":[\"832 F.2d 76\",\"126 L.R.R.M. (BNA) 2486\",\"1987 U.S. App. LEXIS 14251\"],\"court\":\"Seventh Circuit\",\"date_filed\":\"1987-09-24\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/federal/circuits/cases/832-f-2d-76/grant-v-burlington-industries\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (8964055 and its twin 496658).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Grant v. Burlington Indus., 832 F.2d 76 (7th Cir. 1987)\",\"link_md\":\"[Grant v. Burlington Indus., 832 F.2d 76 (7th Cir. 1987)](https://syfert.com/federal/circuits/cases/832-f-2d-76/grant-v-burlington-industries)\",\"match_kind\":\"semantic\",\"similarity\":0.6923,\"twin_clusters\":[496658]},{\"cluster_id\":7038606,\"case_name\":\"Winston v. General Drivers, Warehousemen & Helpers, Local Union No. 89\",\"citations\":[\"93 F.3d 251\",\"1996 WL 473850\",\"153 L.R.R.M. (BNA) 2069\",\"1996 U.S. App. LEXIS 21473\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1996-08-22\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/federal/circuits/cases/93-f-3d-251/winston-v-general-drivers-warehousemen-helpers-local-union-no-89\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (7038606 and its twin 724896).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Winston v. Gen. Drivers, 93 F.3d 251 (6th Cir. 1996)\",\"link_md\":\"[Winston v. Gen. Drivers, 93 F.3d 251 (6th Cir. 1996)](https://syfert.com/federal/circuits/cases/93-f-3d-251/winston-v-general-drivers-warehousemen-helpers-local-union-no-89)\",\"match_kind\":\"semantic\",\"similarity\":0.6923,\"twin_clusters\":[724896]},{\"cluster_id\":339376,\"case_name\":\"John W.. Trail v. International Brotherhood Of Teamsters, Chauffeurs, Warehousemen And Helpers Of America\",\"citations\":[\"542 F.2d 961\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1976-10-15\",\"status\":\"Published\",\"cited_by\":9,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\",\"url\":\"https://syfert.com/federal/circuits/cases/542-f-2d-961/john-w-trail-v-international-brotherhood-of-teamsters-chauffeurs\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"John W.. Trail v. Int'l Bhd. Of Teamsters, Chauffeurs, Warehousemen & Helpers Of Am., 542 F.2d 961 (6th Cir. 1976)\",\"link_md\":\"[John W.. Trail v. Int'l Bhd. Of Teamsters, Chauffeurs, Warehousemen & Helpers Of Am., 542 F.2d 961 (6th Cir. 1976)](https://syfert.com/federal/circuits/cases/542-f-2d-961/john-w-trail-v-international-brotherhood-of-teamsters-chauffeurs)\",\"match_kind\":\"semantic\",\"similarity\":0.6918},{\"cluster_id\":1814364,\"case_name\":\"Besedich v. Missile & Space Division of LTV Aerospace Corp.\",\"citations\":[\"433 F. Supp. 954\"],\"court\":\"E.D. Michigan\",\"date_filed\":\"1977-06-07\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/federal/district/cases/433-f-supp-954/besedich-v-missile-space-division-of-ltv-aerospace-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Besedich v. Missile & Space Div. of LTV Aerospace Corp., 433 F. Supp. 954 (E.D. Mich. 1977)\",\"link_md\":\"[Besedich v. Missile & Space Div. of LTV Aerospace Corp., 433 F. Supp. 954 (E.D. Mich. 1977)](https://syfert.com/federal/district/cases/433-f-supp-954/besedich-v-missile-space-division-of-ltv-aerospace-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6915},{\"cluster_id\":1454645,\"case_name\":\"Frenza v. Sheet Metal Workers' International Ass'n\",\"citations\":[\"567 F. Supp. 580\",\"113 L.R.R.M. (BNA) 2619\",\"1983 U.S. Dist. LEXIS 19083\"],\"court\":\"E.D. Michigan\",\"date_filed\":\"1983-02-22\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/federal/district/cases/567-f-supp-580/frenza-v-sheet-metal-workers-international-assn\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Frenza v. Sheet Metal Workers' Int'l Ass'n, 567 F. Supp. 580 (E.D. Mich. 1983)\",\"link_md\":\"[Frenza v. Sheet Metal Workers' Int'l Ass'n, 567 F. Supp. 580 (E.D. Mich. 1983)](https://syfert.com/federal/district/cases/567-f-supp-580/frenza-v-sheet-metal-workers-international-assn)\",\"match_kind\":\"semantic\",\"similarity\":0.6893}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Union w/15 \"103 So. 815\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8711359,
+    "case_name": "Stieber v. Signal Delivery Service, Inc.",
+    "citations": [
+     "787 F. Supp. 131",
+     "142 L.R.R.M. (BNA) 2217",
+     "1991 U.S. Dist. LEXIS 19819",
+     "1992 WL 49855"
+    ],
+    "court": "N.D. Ohio",
+    "date_filed": "1991-03-18",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/district/cases/787-f-supp-131/stieber-v-signal-delivery-service-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stieber v. Signal Delivery Serv., Inc., 787 F. Supp. 131 (N.D. Ohio 1991)",
+    "link_md": "[Stieber v. Signal Delivery Serv., Inc., 787 F. Supp. 131 (N.D. Ohio 1991)](https://syfert.com/federal/district/cases/787-f-supp-131/stieber-v-signal-delivery-service-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.7086
+   },
+   {
+    "cluster_id": 2416900,
+    "case_name": "Strunk v. Hahn",
+    "citations": [
+     "797 S.W.2d 536",
+     "136 L.R.R.M. (BNA) 2185",
+     "1990 Mo. App. LEXIS 1271",
+     "1990 WL 120169"
+    ],
+    "court": "Missouri Court of Appeals",
+    "date_filed": "1990-08-20",
+    "status": "Published",
+    "cited_by": 17,
+    "url": "https://syfert.com/missouri/cases/797-s-w-2d-536/strunk-v-hahn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Strunk v. Hahn, 797 S.W.2d 536 (Mo. Ct. App. 1990)",
+    "link_md": "[Strunk v. Hahn, 797 S.W.2d 536 (Mo. Ct. App. 1990)](https://syfert.com/missouri/cases/797-s-w-2d-536/strunk-v-hahn)",
+    "match_kind": "semantic",
+    "similarity": 0.7067
+   },
+   {
+    "cluster_id": 8989477,
+    "case_name": "Ackley v. Local Union 337, International Brotherhood of Teamsters",
+    "citations": [
+     "910 F.2d 1295",
+     "135 L.R.R.M. (BNA) 2201",
+     "1990 U.S. App. LEXIS 12642"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1990-08-01",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/circuits/cases/910-f-2d-1295/ackley-v-local-union-337-international-brotherhood-of-teamsters",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (8989477 and its twin 546251).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Ackley v. Local Union 337, 910 F.2d 1295 (6th Cir. 1990)",
+    "link_md": "[Ackley v. Local Union 337, 910 F.2d 1295 (6th Cir. 1990)](https://syfert.com/federal/circuits/cases/910-f-2d-1295/ackley-v-local-union-337-international-brotherhood-of-teamsters)",
+    "match_kind": "semantic",
+    "similarity": 0.7017,
+    "twin_clusters": [
+     546251
+    ]
+   },
+   {
+    "cluster_id": 8897256,
+    "case_name": "Schoen v. Lodge 34, International Association of Machinists & Aerospace Workers",
+    "citations": [
+     "590 F. Supp. 193",
+     "1984 U.S. Dist. LEXIS 15194"
+    ],
+    "court": "E.D. Wisconsin",
+    "date_filed": "1984-07-06",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/district/cases/590-f-supp-193/schoen-v-lodge-34-international-association-of-machinists-aerospace",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Schoen v. Lodge 34, 590 F. Supp. 193 (E.D. Wis. 1984)",
+    "link_md": "[Schoen v. Lodge 34, 590 F. Supp. 193 (E.D. Wis. 1984)](https://syfert.com/federal/district/cases/590-f-supp-193/schoen-v-lodge-34-international-association-of-machinists-aerospace)",
+    "match_kind": "semantic",
+    "similarity": 0.7012
+   },
+   {
+    "cluster_id": 8803459,
+    "case_name": "Orphan v. Furnco Construction Corp.",
+    "citations": [
+     "325 F. Supp. 1220",
+     "77 L.R.R.M. (BNA) 2126",
+     "1971 U.S. Dist. LEXIS 13713"
+    ],
+    "court": "N.D. Illinois",
+    "date_filed": "1971-04-16",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/federal/district/cases/325-f-supp-1220/orphan-v-furnco-construction-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Orphan v. Furnco Constr. Corp., 325 F. Supp. 1220 (N.D. Ill. 1971)",
+    "link_md": "[Orphan v. Furnco Constr. Corp., 325 F. Supp. 1220 (N.D. Ill. 1971)](https://syfert.com/federal/district/cases/325-f-supp-1220/orphan-v-furnco-construction-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.7008
+   },
+   {
+    "cluster_id": 8901684,
+    "case_name": "Andrews v. Hi-Way Dispatch, Inc.",
+    "citations": [
+     "631 F. Supp. 840",
+     "1986 U.S. Dist. LEXIS 29159"
+    ],
+    "court": "N.D. Indiana",
+    "date_filed": "1986-02-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/631-f-supp-840/andrews-v-hi-way-dispatch-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Andrews v. Hi-Way Dispatch, Inc., 631 F. Supp. 840 (N.D. Ind. 1986)",
+    "link_md": "[Andrews v. Hi-Way Dispatch, Inc., 631 F. Supp. 840 (N.D. Ind. 1986)](https://syfert.com/federal/district/cases/631-f-supp-840/andrews-v-hi-way-dispatch-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6985
+   },
+   {
+    "cluster_id": 8959006,
+    "case_name": "Hogan v. Brotherhood of Railway, Airline & Steamship Clerks, Freight Handlers, Express & Station Employees",
+    "citations": [
+     "817 F.2d 248",
+     "125 L.R.R.M. (BNA) 2238",
+     "1987 U.S. App. LEXIS 8301"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1987-03-10",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/817-f-2d-248/hogan-v-brotherhood-of-railway-airline-steamship-clerks-freight",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (8959006 and its twin 487420).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Hogan v. Bhd. of Ry., 817 F.2d 248 (4th Cir. 1987)",
+    "link_md": "[Hogan v. Bhd. of Ry., 817 F.2d 248 (4th Cir. 1987)](https://syfert.com/federal/circuits/cases/817-f-2d-248/hogan-v-brotherhood-of-railway-airline-steamship-clerks-freight)",
+    "match_kind": "semantic",
+    "similarity": 0.6975,
+    "twin_clusters": [
+     487420
+    ]
+   },
+   {
+    "cluster_id": 574698,
+    "case_name": "Willie J. Walton v. American Steel Container and Local 100a United Food & Commercial Workers International Union, Afl-Cio, Clc",
+    "citations": [
+     "952 F.2d 405"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1992-02-04",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/952-f-2d-405/willie-j-walton-v-american-steel-container-and-loc",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Willie J. Walton v. Am. Steel Container & Local 100a United Food & Com. Workers Int'l Union, Afl-Cio, Clc, 952 F.2d 405 (7th Cir. 1992)",
+    "link_md": "[Willie J. Walton v. Am. Steel Container & Local 100a United Food & Com. Workers Int'l Union, Afl-Cio, Clc, 952 F.2d 405 (7th Cir. 1992)](https://syfert.com/federal/circuits/cases/952-f-2d-405/willie-j-walton-v-american-steel-container-and-loc)",
+    "match_kind": "semantic",
+    "similarity": 0.6968
+   },
+   {
+    "cluster_id": 7018590,
+    "case_name": "Mississippi Valley Electric Co. v. Local 130 of the International Brotherhood of Electrical Workers",
+    "citations": [
+     "278 F.2d 764"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1960-05-10",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/federal/circuits/cases/278-f-2d-764/mississippi-valley-electric-co-v-local-130-of-the-international",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mississippi Valley Elec. Co. v. Local 130 of the Int'l Bhd. of Elec. Workers, 278 F.2d 764 (5th Cir. 1960)",
+    "link_md": "[Mississippi Valley Elec. Co. v. Local 130 of the Int'l Bhd. of Elec. Workers, 278 F.2d 764 (5th Cir. 1960)](https://syfert.com/federal/circuits/cases/278-f-2d-764/mississippi-valley-electric-co-v-local-130-of-the-international)",
+    "match_kind": "semantic",
+    "similarity": 0.6964
+   },
+   {
+    "cluster_id": 360533,
+    "case_name": "L. D. Price v. Southern Pacific Transportation Company",
+    "citations": [
+     "586 F.2d 750",
+     "100 L.R.R.M. (BNA) 2671",
+     "1978 U.S. App. LEXIS 7480"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "1978-11-24",
+    "status": "Published",
+    "cited_by": 1,
+    "disposition": "affirmed",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/federal/circuits/cases/586-f-2d-750/l-d-price-v-southern-pacific-transportation-company",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "L. D. Price v. S. Pac. Transp. Co., 586 F.2d 750 (9th Cir. 1978)",
+    "link_md": "[L. D. Price v. S. Pac. Transp. Co., 586 F.2d 750 (9th Cir. 1978)](https://syfert.com/federal/circuits/cases/586-f-2d-750/l-d-price-v-southern-pacific-transportation-company)",
+    "match_kind": "semantic",
+    "similarity": 0.6938
+   },
+   {
+    "cluster_id": 258186,
+    "case_name": "International Union of Electrical v. National Labor Relations Board",
+    "citations": [
+     "307 F.2d 679"
+    ],
+    "court": "D.C. Circuit",
+    "date_filed": "1962-12-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/307-f-2d-679/international-union-of-electrical-radio-and-machine-workers-afl-cio",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Int'l Union of Elec. v. Nat'l Labor Relations Bd., 307 F.2d 679 (D.C. Cir. 1962)",
+    "link_md": "[Int'l Union of Elec. v. Nat'l Labor Relations Bd., 307 F.2d 679 (D.C. Cir. 1962)](https://syfert.com/federal/circuits/cases/307-f-2d-679/international-union-of-electrical-radio-and-machine-workers-afl-cio)",
+    "match_kind": "semantic",
+    "similarity": 0.6938
+   },
+   {
+    "cluster_id": 606712,
+    "case_name": "Patrick Souter and Hope Souter v. International Union, United Automobile, Aerospace and Agricultural Implement Workers of America, Local 72",
+    "citations": [
+     "993 F.2d 595",
+     "143 L.R.R.M. (BNA) 2269",
+     "1993 U.S. App. LEXIS 10890",
+     "1993 WL 150404"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1993-05-11",
+    "status": "Published",
+    "cited_by": 37,
+    "url": "https://syfert.com/federal/circuits/cases/993-f-2d-595/patrick-souter-and-hope-souter-v-international-union-united-automobile",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Patrick Souter v. Int'l Union, 993 F.2d 595 (7th Cir. 1993)",
+    "link_md": "[Patrick Souter v. Int'l Union, 993 F.2d 595 (7th Cir. 1993)](https://syfert.com/federal/circuits/cases/993-f-2d-595/patrick-souter-and-hope-souter-v-international-union-united-automobile)",
+    "match_kind": "semantic",
+    "similarity": 0.6936
+   },
+   {
+    "cluster_id": 330014,
+    "case_name": "General Drivers and Helpers Union v. Young and Hay Transportation Company",
+    "citations": [
+     "522 F.2d 562"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1975-10-03",
+    "status": "Published",
+    "cited_by": 15,
+    "url": "https://syfert.com/federal/circuits/cases/522-f-2d-562/general-drivers-and-helpers-union-local-no-554-affiliated-with-the",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Gen. Drivers & Helpers Union v. Young & Hay Transp, 522 F.2d 562 (8th Cir. 1975)",
+    "link_md": "[Gen. Drivers & Helpers Union v. Young & Hay Transp, 522 F.2d 562 (8th Cir. 1975)](https://syfert.com/federal/circuits/cases/522-f-2d-562/general-drivers-and-helpers-union-local-no-554-affiliated-with-the)",
+    "match_kind": "semantic",
+    "similarity": 0.6935
+   },
+   {
+    "cluster_id": 1363052,
+    "case_name": "Kobielnik v. INTERN. BROTH. OF TEAM., ETC.",
+    "citations": [
+     "470 F. Supp. 125",
+     "101 L.R.R.M. (BNA) 2541"
+    ],
+    "court": "E.D. Pennsylvania",
+    "date_filed": "1979-04-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/470-f-supp-125/kobielnik-v-intern-broth-of-team-etc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kobielnik v. Intern. Broth. of Team., 470 F. Supp. 125 (E.D. Pa. 1979)",
+    "link_md": "[Kobielnik v. Intern. Broth. of Team., 470 F. Supp. 125 (E.D. Pa. 1979)](https://syfert.com/federal/district/cases/470-f-supp-125/kobielnik-v-intern-broth-of-team-etc)",
+    "match_kind": "semantic",
+    "similarity": 0.6928
+   },
+   {
+    "cluster_id": 430965,
+    "case_name": "Melvin Smith v. Babcock & Wilcox Company, Refractories Division, Augusta, Georgia",
+    "citations": [
+     "726 F.2d 1562",
+     "115 L.R.R.M. (BNA) 3349",
+     "1984 U.S. App. LEXIS 24466"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1984-03-16",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/circuits/cases/726-f-2d-1562/melvin-smith-v-babcock-wilcox-company-refractories-division-augusta",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Melvin Smith v. Babcock & Wilcox Co., 726 F.2d 1562 (11th Cir. 1984)",
+    "link_md": "[Melvin Smith v. Babcock & Wilcox Co., 726 F.2d 1562 (11th Cir. 1984)](https://syfert.com/federal/circuits/cases/726-f-2d-1562/melvin-smith-v-babcock-wilcox-company-refractories-division-augusta)",
+    "match_kind": "semantic",
+    "similarity": 0.6927
+   },
+   {
+    "cluster_id": 8964055,
+    "case_name": "Grant v. Burlington Industries",
+    "citations": [
+     "832 F.2d 76",
+     "126 L.R.R.M. (BNA) 2486",
+     "1987 U.S. App. LEXIS 14251"
+    ],
+    "court": "Seventh Circuit",
+    "date_filed": "1987-09-24",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/federal/circuits/cases/832-f-2d-76/grant-v-burlington-industries",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (8964055 and its twin 496658).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Grant v. Burlington Indus., 832 F.2d 76 (7th Cir. 1987)",
+    "link_md": "[Grant v. Burlington Indus., 832 F.2d 76 (7th Cir. 1987)](https://syfert.com/federal/circuits/cases/832-f-2d-76/grant-v-burlington-industries)",
+    "match_kind": "semantic",
+    "similarity": 0.6923,
+    "twin_clusters": [
+     496658
+    ]
+   },
+   {
+    "cluster_id": 7038606,
+    "case_name": "Winston v. General Drivers, Warehousemen & Helpers, Local Union No. 89",
+    "citations": [
+     "93 F.3d 251",
+     "1996 WL 473850",
+     "153 L.R.R.M. (BNA) 2069",
+     "1996 U.S. App. LEXIS 21473"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1996-08-22",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/federal/circuits/cases/93-f-3d-251/winston-v-general-drivers-warehousemen-helpers-local-union-no-89",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (7038606 and its twin 724896).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Winston v. Gen. Drivers, 93 F.3d 251 (6th Cir. 1996)",
+    "link_md": "[Winston v. Gen. Drivers, 93 F.3d 251 (6th Cir. 1996)](https://syfert.com/federal/circuits/cases/93-f-3d-251/winston-v-general-drivers-warehousemen-helpers-local-union-no-89)",
+    "match_kind": "semantic",
+    "similarity": 0.6923,
+    "twin_clusters": [
+     724896
+    ]
+   },
+   {
+    "cluster_id": 339376,
+    "case_name": "John W.. Trail v. International Brotherhood Of Teamsters, Chauffeurs, Warehousemen And Helpers Of America",
+    "citations": [
+     "542 F.2d 961"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1976-10-15",
+    "status": "Published",
+    "cited_by": 9,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote",
+    "url": "https://syfert.com/federal/circuits/cases/542-f-2d-961/john-w-trail-v-international-brotherhood-of-teamsters-chauffeurs",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "John W.. Trail v. Int'l Bhd. Of Teamsters, Chauffeurs, Warehousemen & Helpers Of Am., 542 F.2d 961 (6th Cir. 1976)",
+    "link_md": "[John W.. Trail v. Int'l Bhd. Of Teamsters, Chauffeurs, Warehousemen & Helpers Of Am., 542 F.2d 961 (6th Cir. 1976)](https://syfert.com/federal/circuits/cases/542-f-2d-961/john-w-trail-v-international-brotherhood-of-teamsters-chauffeurs)",
+    "match_kind": "semantic",
+    "similarity": 0.6918
+   },
+   {
+    "cluster_id": 1814364,
+    "case_name": "Besedich v. Missile & Space Division of LTV Aerospace Corp.",
+    "citations": [
+     "433 F. Supp. 954"
+    ],
+    "court": "E.D. Michigan",
+    "date_filed": "1977-06-07",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/federal/district/cases/433-f-supp-954/besedich-v-missile-space-division-of-ltv-aerospace-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Besedich v. Missile & Space Div. of LTV Aerospace Corp., 433 F. Supp. 954 (E.D. Mich. 1977)",
+    "link_md": "[Besedich v. Missile & Space Div. of LTV Aerospace Corp., 433 F. Supp. 954 (E.D. Mich. 1977)](https://syfert.com/federal/district/cases/433-f-supp-954/besedich-v-missile-space-division-of-ltv-aerospace-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6915
+   },
+   {
+    "cluster_id": 1454645,
+    "case_name": "Frenza v. Sheet Metal Workers' International Ass'n",
+    "citations": [
+     "567 F. Supp. 580",
+     "113 L.R.R.M. (BNA) 2619",
+     "1983 U.S. Dist. LEXIS 19083"
+    ],
+    "court": "E.D. Michigan",
+    "date_filed": "1983-02-22",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/federal/district/cases/567-f-supp-580/frenza-v-sheet-metal-workers-international-assn",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Frenza v. Sheet Metal Workers' Int'l Ass'n, 567 F. Supp. 580 (E.D. Mich. 1983)",
+    "link_md": "[Frenza v. Sheet Metal Workers' Int'l Ass'n, 567 F. Supp. 580 (E.D. Mich. 1983)](https://syfert.com/federal/district/cases/567-f-supp-580/frenza-v-sheet-metal-workers-international-assn)",
+    "match_kind": "semantic",
+    "similarity": 0.6893
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

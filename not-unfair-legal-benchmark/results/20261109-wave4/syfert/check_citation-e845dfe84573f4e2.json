@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "295 S.W. 1004",
+  "expected_case_name": "City of Bowling Green v. Kirby"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"295 S.W. 1004\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3444426,\n            \"case_name\": \"City of Bowling Green v. Kirby\",\n            \"citations\": [\n                \"295 S.W. 1004\"\n            ],\n            \"court\": \"Court of Appeals of Kentucky (pre-1976)\",\n            \"date_filed\": \"1927-06-24\",\n            \"status\": \"Published\",\n            \"cited_by\": 60,\n            \"url\": \"https://syfert.com/kentucky/cases/220-ky-839/city-of-bowling-green-v-kirby\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"City of Bowling Green v. Kirby, 295 S.W. 1004 (Ky. Ct. App. 1927)\",\n            \"link_md\": \"[City of Bowling Green v. Kirby, 295 S.W. 1004 (Ky. Ct. App. 1927)](https://syfert.com/kentucky/cases/220-ky-839/city-of-bowling-green-v-kirby)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 2,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"City of Bowling Green v. Kirby\",\n        \"actual\": \"City of Bowling Green v. Kirby\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "295 S.W. 1004",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3444426,
+    "case_name": "City of Bowling Green v. Kirby",
+    "citations": [
+     "295 S.W. 1004"
+    ],
+    "court": "Court of Appeals of Kentucky (pre-1976)",
+    "date_filed": "1927-06-24",
+    "status": "Published",
+    "cited_by": 60,
+    "url": "https://syfert.com/kentucky/cases/220-ky-839/city-of-bowling-green-v-kirby",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "City of Bowling Green v. Kirby, 295 S.W. 1004 (Ky. Ct. App. 1927)",
+    "link_md": "[City of Bowling Green v. Kirby, 295 S.W. 1004 (Ky. Ct. App. 1927)](https://syfert.com/kentucky/cases/220-ky-839/city-of-bowling-green-v-kirby)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 2,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "City of Bowling Green v. Kirby",
+   "actual": "City of Bowling Green v. Kirby",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

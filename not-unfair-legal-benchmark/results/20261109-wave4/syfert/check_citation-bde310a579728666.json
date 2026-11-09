@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "105 N.W. 938",
+  "expected_case_name": "State v. Foster"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"105 N.W. 938\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 6848304,\n            \"case_name\": \"State v. Foster\",\n            \"citations\": [\n                \"105 N.W. 938\"\n            ],\n            \"court\": \"North Dakota Supreme Court\",\n            \"date_filed\": \"1905-11-24\",\n            \"status\": \"Published\",\n            \"cited_by\": 19,\n            \"url\": \"https://syfert.com/north-dakota/cases/14-n-d-561/state-v-foster\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"State v. Foster, 105 N.W. 938 (N.D. 1905)\",\n            \"link_md\": \"[State v. Foster, 105 N.W. 938 (N.D. 1905)](https://syfert.com/north-dakota/cases/14-n-d-561/state-v-foster)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"State v. Foster\",\n        \"actual\": \"State v. Foster\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "105 N.W. 938",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 6848304,
+    "case_name": "State v. Foster",
+    "citations": [
+     "105 N.W. 938"
+    ],
+    "court": "North Dakota Supreme Court",
+    "date_filed": "1905-11-24",
+    "status": "Published",
+    "cited_by": 19,
+    "url": "https://syfert.com/north-dakota/cases/14-n-d-561/state-v-foster",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Foster, 105 N.W. 938 (N.D. 1905)",
+    "link_md": "[State v. Foster, 105 N.W. 938 (N.D. 1905)](https://syfert.com/north-dakota/cases/14-n-d-561/state-v-foster)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "State v. Foster",
+   "actual": "State v. Foster",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

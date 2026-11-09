@@ -1,0 +1,408 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Serrano w/15 \"650 NYS2d 95\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Serrano w/15 \\\"650 NYS2d 95\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":537827,\"case_name\":\"Serrano v. United States\",\"citations\":[\"898 F.2d 137\",\"1990 U.S. App. LEXIS 4202\",\"1990 WL 26585\"],\"court\":\"Second Circuit\",\"date_filed\":\"1990-02-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/898-f-2d-137/serrano-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano v. United States, 898 F.2d 137 (2d Cir. 1990)\",\"link_md\":\"[Serrano v. United States, 898 F.2d 137 (2d Cir. 1990)](https://syfert.com/federal/circuits/cases/898-f-2d-137/serrano-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.8078},{\"cluster_id\":114343,\"case_name\":\"Serrano v. United States\",\"citations\":[\"510 U.S. 914\",\"114 S. Ct. 302\"],\"court\":\"Supreme Court\",\"date_filed\":\"1993-10-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/510-u-s-914/serrano-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (114343 and its twin 9140404). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano v. United States, 510 U.S. 914 (1993)\",\"link_md\":\"[Serrano v. United States, 510 U.S. 914 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-914/serrano-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7754},{\"cluster_id\":130118,\"case_name\":\"Serrano v. United States\",\"citations\":[\"538 U.S. 1068\",\"123 S. Ct. 2241\"],\"court\":\"Supreme Court\",\"date_filed\":\"2003-05-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/538-u-s-1068/serrano-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (130118 and its twins 9210407, 9210408). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano v. United States, 538 U.S. 1068 (2003)\",\"link_md\":\"[Serrano v. United States, 538 U.S. 1068 (2003)](https://syfert.com/federal/scotus/cases/538-u-s-1068/serrano-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7714},{\"cluster_id\":523675,\"case_name\":\"United States v. Serrano\",\"citations\":[\"875 F.2d 857\",\"1989 WL 51084\"],\"court\":\"Second Circuit\",\"date_filed\":\"1989-04-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/875-f-2d-857/united-states-v-serrano\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Serrano, 875 F.2d 857 (2d Cir. 1989)\",\"link_md\":\"[United States v. Serrano, 875 F.2d 857 (2d Cir. 1989)](https://syfert.com/federal/circuits/cases/875-f-2d-857/united-states-v-serrano)\",\"match_kind\":\"semantic\",\"similarity\":0.76},{\"cluster_id\":7970747,\"case_name\":\"Serrano v. State\",\"citations\":[\"171 A.3d 617\",\"456 Md. 92\"],\"court\":\"Court of Appeals of Maryland\",\"date_filed\":\"2017-10-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/maryland/cases/456-md-92/serrano-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7970747 and its twin 8260628). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano v. State, 171 A.3d 617 (Md. 2017)\",\"link_md\":\"[Serrano v. State, 171 A.3d 617 (Md. 2017)](https://syfert.com/maryland/cases/456-md-92/serrano-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.7563},{\"cluster_id\":456138,\"case_name\":\"United States v. Serrano\",\"citations\":[\"768 F.2d 1351\",\"1985 U.S. App. LEXIS 20748\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1985-07-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/768-f-2d-1351/united-states-v-serrano\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Serrano, 768 F.2d 1351 (11th Cir. 1985)\",\"link_md\":\"[United States v. Serrano, 768 F.2d 1351 (11th Cir. 1985)](https://syfert.com/federal/circuits/cases/768-f-2d-1351/united-states-v-serrano)\",\"match_kind\":\"semantic\",\"similarity\":0.7536},{\"cluster_id\":8975392,\"case_name\":\"Serrano v. United States\",\"citations\":[\"395 U.S. 917\"],\"court\":\"Supreme Court\",\"date_filed\":\"1969-05-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/395-u-s-917/serrano-v-united-states\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano v. United States, 395 U.S. 917 (1969)\",\"link_md\":\"[Serrano v. United States, 395 U.S. 917 (1969)](https://syfert.com/federal/scotus/cases/395-u-s-917/serrano-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7449},{\"cluster_id\":720303,\"case_name\":\"United States v. Serrano\",\"citations\":[\"86 F.3d 1168\",\"1996 WL 281703\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1996-05-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/86-f-3d-1168/united-states-v-serrano\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Serrano, 86 F.3d 1168 (11th Cir. 1996)\",\"link_md\":\"[United States v. Serrano, 86 F.3d 1168 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/86-f-3d-1168/united-states-v-serrano)\",\"match_kind\":\"semantic\",\"similarity\":0.7428},{\"cluster_id\":12041,\"case_name\":\"United States v. Serrano\",\"citations\":[\"114 F.3d 1184\",\"1997 WL 255622\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1997-05-12\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/114-f-3d-1184/united-states-v-serrano\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Serrano, 114 F.3d 1184 (5th Cir. 1997)\",\"link_md\":\"[United States v. Serrano, 114 F.3d 1184 (5th Cir. 1997)](https://syfert.com/federal/circuits/cases/114-f-3d-1184/united-states-v-serrano)\",\"match_kind\":\"semantic\",\"similarity\":0.7413},{\"cluster_id\":6059045,\"case_name\":\"Serrano v. Cuttita\",\"citations\":[\"159 A.D.2d 330\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1990-03-16\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/new-york/cases/159-a-d-2d-330/serrano-v-cuttita\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano v. Cuttita, 159 A.D.2d 330 (N.Y. App. Div. 1st Dep't 1990)\",\"link_md\":\"[Serrano v. Cuttita, 159 A.D.2d 330 (N.Y. App. Div. 1st Dep't 1990)](https://syfert.com/new-york/cases/159-a-d-2d-330/serrano-v-cuttita)\",\"match_kind\":\"semantic\",\"similarity\":0.7407},{\"cluster_id\":668173,\"case_name\":\"United States v. Serrano\",\"citations\":[\"21 F.3d 1125\",\"1994 WL 164191\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1994-04-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/21-f-3d-1125/united-states-v-serrano\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Serrano, 21 F.3d 1125 (11th Cir. 1994)\",\"link_md\":\"[United States v. Serrano, 21 F.3d 1125 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/21-f-3d-1125/united-states-v-serrano)\",\"match_kind\":\"semantic\",\"similarity\":0.7392},{\"cluster_id\":8940257,\"case_name\":\"Serrano v. Fay\",\"citations\":[\"352 U.S. 929\"],\"court\":\"Supreme Court\",\"date_filed\":\"1956-12-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/352-u-s-929/serrano-v-fay\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano v. Fay, 352 U.S. 929 (1956)\",\"link_md\":\"[Serrano v. Fay, 352 U.S. 929 (1956)](https://syfert.com/federal/scotus/cases/352-u-s-929/serrano-v-fay)\",\"match_kind\":\"semantic\",\"similarity\":0.7303},{\"cluster_id\":528755,\"case_name\":\"United States v. Serrano\",\"citations\":[\"884 F.2d 584\",\"1989 WL 91010\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1989-08-08\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/884-f-2d-584/united-states-v-serrano\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Serrano, 884 F.2d 584 (11th Cir. 1989)\",\"link_md\":\"[United States v. Serrano, 884 F.2d 584 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/884-f-2d-584/united-states-v-serrano)\",\"match_kind\":\"semantic\",\"similarity\":0.7288},{\"cluster_id\":15955,\"case_name\":\"United States v. Serrano\",\"citations\":[\"161 F.3d 8\",\"1998 WL 723851\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1998-10-08\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/161-f-3d-8/united-states-v-serrano\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Serrano, 161 F.3d 8 (5th Cir. 1998)\",\"link_md\":\"[United States v. Serrano, 161 F.3d 8 (5th Cir. 1998)](https://syfert.com/federal/circuits/cases/161-f-3d-8/united-states-v-serrano)\",\"match_kind\":\"semantic\",\"similarity\":0.727},{\"cluster_id\":333114,\"case_name\":\"United States v. Serrano\",\"citations\":[\"529 F.2d 1351\"],\"court\":\"Fifth Circuit\",\"date_filed\":\"1976-03-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/529-f-2d-1351/united-states-v-serrano\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"United States v. Serrano, 529 F.2d 1351 (5th Cir. 1976)\",\"link_md\":\"[United States v. Serrano, 529 F.2d 1351 (5th Cir. 1976)](https://syfert.com/federal/circuits/cases/529-f-2d-1351/united-states-v-serrano)\",\"match_kind\":\"semantic\",\"similarity\":0.7249},{\"cluster_id\":118619,\"case_name\":\"Arce Serrano v. United States\",\"citations\":[\"535 U.S. 910\",\"122 S. Ct. 1214\"],\"court\":\"Supreme Court\",\"date_filed\":\"2002-03-04\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/535-u-s-910/arce-serrano-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (118619 and its twins 9200643, 9200644). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arce Serrano v. United States, 535 U.S. 910 (2002)\",\"link_md\":\"[Arce Serrano v. United States, 535 U.S. 910 (2002)](https://syfert.com/federal/scotus/cases/535-u-s-910/arce-serrano-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7236},{\"cluster_id\":140237,\"case_name\":\"Serrano-Luviano v. United States\",\"citations\":[\"543 U.S. 993\",\"125 S. Ct. 510\"],\"court\":\"Supreme Court\",\"date_filed\":\"2004-11-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/543-u-s-993/serrano-luviano-v-united-states\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (140237 and its twin 9279516). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano-Luviano v. United States, 543 U.S. 993 (2004)\",\"link_md\":\"[Serrano-Luviano v. United States, 543 U.S. 993 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-993/serrano-luviano-v-united-states)\",\"match_kind\":\"semantic\",\"similarity\":0.7232},{\"cluster_id\":2560599,\"case_name\":\"Serrano v. 432 Park S. Realty Co., LLC\",\"citations\":[\"13 N.Y.3d 711\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"2009-11-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/13-n-y-3d-711/serrano-v-432-park-s-realty-co-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano v. 432 Park S. Realty Co., 13 N.Y.3d 711 (2009)\",\"link_md\":\"[Serrano v. 432 Park S. Realty Co., 13 N.Y.3d 711 (2009)](https://syfert.com/new-york/cases/13-n-y-3d-711/serrano-v-432-park-s-realty-co-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.7175},{\"cluster_id\":1991910,\"case_name\":\"Serrano v. Fischer\",\"citations\":[\"546 U.S. 1182\",\"126 S. Ct. 1357\",\"164 L. Ed. 2d 68\",\"74 U.S.L.W. 3472\",\"2006 U.S. LEXIS 1312\"],\"court\":\"Supreme Court\",\"date_filed\":\"2006-02-21\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/126-s-ct-1357/serrano-v-fischer\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (1991910 and its twin 9257515). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Serrano v. Fischer, 546 U.S. 1182 (2006)\",\"link_md\":\"[Serrano v. Fischer, 546 U.S. 1182 (2006)](https://syfert.com/federal/scotus/cases/126-s-ct-1357/serrano-v-fischer)\",\"match_kind\":\"semantic\",\"similarity\":0.7175},{\"cluster_id\":6064575,\"case_name\":\"Argenti v. Serrano\",\"citations\":[\"164 A.D.2d 816\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1990-08-22\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/164-a-d-2d-816/argenti-v-serrano\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Argenti v. Serrano, 164 A.D.2d 816 (N.Y. App. Div. 1st Dep't 1990)\",\"link_md\":\"[Argenti v. Serrano, 164 A.D.2d 816 (N.Y. App. Div. 1st Dep't 1990)](https://syfert.com/new-york/cases/164-a-d-2d-816/argenti-v-serrano)\",\"match_kind\":\"semantic\",\"similarity\":0.7164}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Serrano w/15 \"650 NYS2d 95\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 537827,
+    "case_name": "Serrano v. United States",
+    "citations": [
+     "898 F.2d 137",
+     "1990 U.S. App. LEXIS 4202",
+     "1990 WL 26585"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1990-02-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/898-f-2d-137/serrano-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano v. United States, 898 F.2d 137 (2d Cir. 1990)",
+    "link_md": "[Serrano v. United States, 898 F.2d 137 (2d Cir. 1990)](https://syfert.com/federal/circuits/cases/898-f-2d-137/serrano-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.8078
+   },
+   {
+    "cluster_id": 114343,
+    "case_name": "Serrano v. United States",
+    "citations": [
+     "510 U.S. 914",
+     "114 S. Ct. 302"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1993-10-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/510-u-s-914/serrano-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (114343 and its twin 9140404). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano v. United States, 510 U.S. 914 (1993)",
+    "link_md": "[Serrano v. United States, 510 U.S. 914 (1993)](https://syfert.com/federal/scotus/cases/510-u-s-914/serrano-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7754
+   },
+   {
+    "cluster_id": 130118,
+    "case_name": "Serrano v. United States",
+    "citations": [
+     "538 U.S. 1068",
+     "123 S. Ct. 2241"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2003-05-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/538-u-s-1068/serrano-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (130118 and its twins 9210407, 9210408). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano v. United States, 538 U.S. 1068 (2003)",
+    "link_md": "[Serrano v. United States, 538 U.S. 1068 (2003)](https://syfert.com/federal/scotus/cases/538-u-s-1068/serrano-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7714
+   },
+   {
+    "cluster_id": 523675,
+    "case_name": "United States v. Serrano",
+    "citations": [
+     "875 F.2d 857",
+     "1989 WL 51084"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1989-04-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/875-f-2d-857/united-states-v-serrano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Serrano, 875 F.2d 857 (2d Cir. 1989)",
+    "link_md": "[United States v. Serrano, 875 F.2d 857 (2d Cir. 1989)](https://syfert.com/federal/circuits/cases/875-f-2d-857/united-states-v-serrano)",
+    "match_kind": "semantic",
+    "similarity": 0.76
+   },
+   {
+    "cluster_id": 7970747,
+    "case_name": "Serrano v. State",
+    "citations": [
+     "171 A.3d 617",
+     "456 Md. 92"
+    ],
+    "court": "Court of Appeals of Maryland",
+    "date_filed": "2017-10-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/maryland/cases/456-md-92/serrano-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7970747 and its twin 8260628). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano v. State, 171 A.3d 617 (Md. 2017)",
+    "link_md": "[Serrano v. State, 171 A.3d 617 (Md. 2017)](https://syfert.com/maryland/cases/456-md-92/serrano-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.7563
+   },
+   {
+    "cluster_id": 456138,
+    "case_name": "United States v. Serrano",
+    "citations": [
+     "768 F.2d 1351",
+     "1985 U.S. App. LEXIS 20748"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1985-07-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/768-f-2d-1351/united-states-v-serrano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Serrano, 768 F.2d 1351 (11th Cir. 1985)",
+    "link_md": "[United States v. Serrano, 768 F.2d 1351 (11th Cir. 1985)](https://syfert.com/federal/circuits/cases/768-f-2d-1351/united-states-v-serrano)",
+    "match_kind": "semantic",
+    "similarity": 0.7536
+   },
+   {
+    "cluster_id": 8975392,
+    "case_name": "Serrano v. United States",
+    "citations": [
+     "395 U.S. 917"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1969-05-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/395-u-s-917/serrano-v-united-states",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano v. United States, 395 U.S. 917 (1969)",
+    "link_md": "[Serrano v. United States, 395 U.S. 917 (1969)](https://syfert.com/federal/scotus/cases/395-u-s-917/serrano-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7449
+   },
+   {
+    "cluster_id": 720303,
+    "case_name": "United States v. Serrano",
+    "citations": [
+     "86 F.3d 1168",
+     "1996 WL 281703"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1996-05-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/86-f-3d-1168/united-states-v-serrano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Serrano, 86 F.3d 1168 (11th Cir. 1996)",
+    "link_md": "[United States v. Serrano, 86 F.3d 1168 (11th Cir. 1996)](https://syfert.com/federal/circuits/cases/86-f-3d-1168/united-states-v-serrano)",
+    "match_kind": "semantic",
+    "similarity": 0.7428
+   },
+   {
+    "cluster_id": 12041,
+    "case_name": "United States v. Serrano",
+    "citations": [
+     "114 F.3d 1184",
+     "1997 WL 255622"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1997-05-12",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/114-f-3d-1184/united-states-v-serrano",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Serrano, 114 F.3d 1184 (5th Cir. 1997)",
+    "link_md": "[United States v. Serrano, 114 F.3d 1184 (5th Cir. 1997)](https://syfert.com/federal/circuits/cases/114-f-3d-1184/united-states-v-serrano)",
+    "match_kind": "semantic",
+    "similarity": 0.7413
+   },
+   {
+    "cluster_id": 6059045,
+    "case_name": "Serrano v. Cuttita",
+    "citations": [
+     "159 A.D.2d 330"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1990-03-16",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/new-york/cases/159-a-d-2d-330/serrano-v-cuttita",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano v. Cuttita, 159 A.D.2d 330 (N.Y. App. Div. 1st Dep't 1990)",
+    "link_md": "[Serrano v. Cuttita, 159 A.D.2d 330 (N.Y. App. Div. 1st Dep't 1990)](https://syfert.com/new-york/cases/159-a-d-2d-330/serrano-v-cuttita)",
+    "match_kind": "semantic",
+    "similarity": 0.7407
+   },
+   {
+    "cluster_id": 668173,
+    "case_name": "United States v. Serrano",
+    "citations": [
+     "21 F.3d 1125",
+     "1994 WL 164191"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1994-04-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/21-f-3d-1125/united-states-v-serrano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Serrano, 21 F.3d 1125 (11th Cir. 1994)",
+    "link_md": "[United States v. Serrano, 21 F.3d 1125 (11th Cir. 1994)](https://syfert.com/federal/circuits/cases/21-f-3d-1125/united-states-v-serrano)",
+    "match_kind": "semantic",
+    "similarity": 0.7392
+   },
+   {
+    "cluster_id": 8940257,
+    "case_name": "Serrano v. Fay",
+    "citations": [
+     "352 U.S. 929"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1956-12-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/352-u-s-929/serrano-v-fay",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano v. Fay, 352 U.S. 929 (1956)",
+    "link_md": "[Serrano v. Fay, 352 U.S. 929 (1956)](https://syfert.com/federal/scotus/cases/352-u-s-929/serrano-v-fay)",
+    "match_kind": "semantic",
+    "similarity": 0.7303
+   },
+   {
+    "cluster_id": 528755,
+    "case_name": "United States v. Serrano",
+    "citations": [
+     "884 F.2d 584",
+     "1989 WL 91010"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1989-08-08",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/884-f-2d-584/united-states-v-serrano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Serrano, 884 F.2d 584 (11th Cir. 1989)",
+    "link_md": "[United States v. Serrano, 884 F.2d 584 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/884-f-2d-584/united-states-v-serrano)",
+    "match_kind": "semantic",
+    "similarity": 0.7288
+   },
+   {
+    "cluster_id": 15955,
+    "case_name": "United States v. Serrano",
+    "citations": [
+     "161 F.3d 8",
+     "1998 WL 723851"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1998-10-08",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/161-f-3d-8/united-states-v-serrano",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Serrano, 161 F.3d 8 (5th Cir. 1998)",
+    "link_md": "[United States v. Serrano, 161 F.3d 8 (5th Cir. 1998)](https://syfert.com/federal/circuits/cases/161-f-3d-8/united-states-v-serrano)",
+    "match_kind": "semantic",
+    "similarity": 0.727
+   },
+   {
+    "cluster_id": 333114,
+    "case_name": "United States v. Serrano",
+    "citations": [
+     "529 F.2d 1351"
+    ],
+    "court": "Fifth Circuit",
+    "date_filed": "1976-03-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/529-f-2d-1351/united-states-v-serrano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "United States v. Serrano, 529 F.2d 1351 (5th Cir. 1976)",
+    "link_md": "[United States v. Serrano, 529 F.2d 1351 (5th Cir. 1976)](https://syfert.com/federal/circuits/cases/529-f-2d-1351/united-states-v-serrano)",
+    "match_kind": "semantic",
+    "similarity": 0.7249
+   },
+   {
+    "cluster_id": 118619,
+    "case_name": "Arce Serrano v. United States",
+    "citations": [
+     "535 U.S. 910",
+     "122 S. Ct. 1214"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2002-03-04",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/535-u-s-910/arce-serrano-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (118619 and its twins 9200643, 9200644). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arce Serrano v. United States, 535 U.S. 910 (2002)",
+    "link_md": "[Arce Serrano v. United States, 535 U.S. 910 (2002)](https://syfert.com/federal/scotus/cases/535-u-s-910/arce-serrano-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7236
+   },
+   {
+    "cluster_id": 140237,
+    "case_name": "Serrano-Luviano v. United States",
+    "citations": [
+     "543 U.S. 993",
+     "125 S. Ct. 510"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2004-11-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/543-u-s-993/serrano-luviano-v-united-states",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (140237 and its twin 9279516). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano-Luviano v. United States, 543 U.S. 993 (2004)",
+    "link_md": "[Serrano-Luviano v. United States, 543 U.S. 993 (2004)](https://syfert.com/federal/scotus/cases/543-u-s-993/serrano-luviano-v-united-states)",
+    "match_kind": "semantic",
+    "similarity": 0.7232
+   },
+   {
+    "cluster_id": 2560599,
+    "case_name": "Serrano v. 432 Park S. Realty Co., LLC",
+    "citations": [
+     "13 N.Y.3d 711"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "2009-11-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/13-n-y-3d-711/serrano-v-432-park-s-realty-co-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano v. 432 Park S. Realty Co., 13 N.Y.3d 711 (2009)",
+    "link_md": "[Serrano v. 432 Park S. Realty Co., 13 N.Y.3d 711 (2009)](https://syfert.com/new-york/cases/13-n-y-3d-711/serrano-v-432-park-s-realty-co-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.7175
+   },
+   {
+    "cluster_id": 1991910,
+    "case_name": "Serrano v. Fischer",
+    "citations": [
+     "546 U.S. 1182",
+     "126 S. Ct. 1357",
+     "164 L. Ed. 2d 68",
+     "74 U.S.L.W. 3472",
+     "2006 U.S. LEXIS 1312"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2006-02-21",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/126-s-ct-1357/serrano-v-fischer",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (1991910 and its twin 9257515). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Serrano v. Fischer, 546 U.S. 1182 (2006)",
+    "link_md": "[Serrano v. Fischer, 546 U.S. 1182 (2006)](https://syfert.com/federal/scotus/cases/126-s-ct-1357/serrano-v-fischer)",
+    "match_kind": "semantic",
+    "similarity": 0.7175
+   },
+   {
+    "cluster_id": 6064575,
+    "case_name": "Argenti v. Serrano",
+    "citations": [
+     "164 A.D.2d 816"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1990-08-22",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/164-a-d-2d-816/argenti-v-serrano",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Argenti v. Serrano, 164 A.D.2d 816 (N.Y. App. Div. 1st Dep't 1990)",
+    "link_md": "[Argenti v. Serrano, 164 A.D.2d 816 (N.Y. App. Div. 1st Dep't 1990)](https://syfert.com/new-york/cases/164-a-d-2d-816/argenti-v-serrano)",
+    "match_kind": "semantic",
+    "similarity": 0.7164
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

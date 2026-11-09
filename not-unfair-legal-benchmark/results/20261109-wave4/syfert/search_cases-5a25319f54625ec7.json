@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Gordon w/15 \"120 S.E.2d 518\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Gordon w/15 \\\"120 S.E.2d 518\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1655829,\"bluebook\":\"Hipp v. Kennesaw Life & Accident Ins. Co., 301 F. Supp. 92 (D.S.C. 1968)\",\"url\":\"https://syfert.com/federal/district/cases/301-f-supp-92/hipp-v-kennesaw-life-accident-insurance-company\",\"date_filed\":\"1968-11-05\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...2d 204 ; Gordon v. Fidelity & Cas. Co. (1961) 238 S.C. 438, 446-450 , 120 S.E.2d 518 ; and Dukes v. Life Ins. Co. of Va. (1937) 184 S.C. 500, 504-508 , 193 S.E. 36 .\\n3\\n. In its motion for directed verdict, defendant set forth three…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Gordon w/15 \"120 S.E.2d 518\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1655829,
+    "bluebook": "Hipp v. Kennesaw Life & Accident Ins. Co., 301 F. Supp. 92 (D.S.C. 1968)",
+    "url": "https://syfert.com/federal/district/cases/301-f-supp-92/hipp-v-kennesaw-life-accident-insurance-company",
+    "date_filed": "1968-11-05",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2d 204 ; Gordon v. Fidelity & Cas. Co. (1961) 238 S.C. 438, 446-450 , 120 S.E.2d 518 ; and Dukes v. Life Ins. Co. of Va. (1937) 184 S.C. 500, 504-508 , 193 S.E. 36 .\n3\n. In its motion for directed verdict, defendant set forth three…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

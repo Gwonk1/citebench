@@ -1,0 +1,120 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "359 So. 3d 859",
+  "expected_case_name": "3003 INDIAN CREEK RR, LLC v. ALFREDO ARIAS"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"359 So. 3d 859\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 9392473,\n            \"case_name\": \"3003 Indian Creek RR, LLC v. Alfredo Arias\",\n            \"citations\": [\n                \"359 So. 3d 859\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"359 So. 3d 858\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 9392464,\n                        \"case_name\": \"Larry L. Bland v. The State of Florida\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2023-04-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/359-so-3d-859/3003-indian-creek-rr-llc-v-alfredo-arias\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"359 So. 3d 858\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/359%20So.3d\"\n                },\n                {\n                    \"citation\": \"359 So. 3d 859\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/359%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"3003 Indian Creek RR, LLC v. Alfredo Arias, 359 So. 3d 859 (Fla. 3d DCA 2023)\",\n            \"link_md\": \"[3003 Indian Creek RR, LLC v. Alfredo Arias, 359 So. 3d 859 (Fla. 3d DCA 2023)](https://syfert.com/florida/cases/359-so-3d-859/3003-indian-creek-rr-llc-v-alfredo-arias)\",\n            \"case_name_raw\": \"3003 INDIAN CREEK RR, LLC v. ALFREDO ARIAS\"\n        },\n        {\n            \"cluster_id\": 9392474,\n            \"case_name\": \"3003 Indian Creek RR, LLC v. Alfredo Arias\",\n            \"citations\": [\n                \"359 So. 3d 859\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"359 So. 3d 858\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 9392464,\n                        \"case_name\": \"Larry L. Bland v. The State of Florida\"\n                    }\n                }\n            ],\n            \"court\": \"District Court of Appeal of Florida\",\n            \"date_filed\": \"2023-04-19\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/florida/cases/359-so-3d-858/3003-indian-creek-rr-llc-v-alfredo-arias\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"359 So. 3d 858\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/359%20So.3d\"\n                },\n                {\n                    \"citation\": \"359 So. 3d 859\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/359%20So.3d\"\n                }\n            ],\n            \"bluebook\": \"3003 Indian Creek RR, LLC v. Alfredo Arias, 359 So. 3d 859 (Fla. 3d DCA 2023)\",\n            \"link_md\": \"[3003 Indian Creek RR, LLC v. Alfredo Arias, 359 So. 3d 859 (Fla. 3d DCA 2023)](https://syfert.com/florida/cases/359-so-3d-858/3003-indian-creek-rr-llc-v-alfredo-arias)\",\n            \"case_name_raw\": \"3003 INDIAN CREEK RR, LLC v. ALFREDO ARIAS\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"3003 INDIAN CREEK RR, LLC v. ALFREDO ARIAS\",\n        \"actual\": \"3003 INDIAN CREEK RR, LLC v. ALFREDO ARIAS\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "359 So. 3d 859",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 9392473,
+    "case_name": "3003 Indian Creek RR, LLC v. Alfredo Arias",
+    "citations": [
+     "359 So. 3d 859"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "359 So. 3d 858",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 9392464,
+       "case_name": "Larry L. Bland v. The State of Florida"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2023-04-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/359-so-3d-859/3003-indian-creek-rr-llc-v-alfredo-arias",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "359 So. 3d 858",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/359%20So.3d"
+     },
+     {
+      "citation": "359 So. 3d 859",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/359%20So.3d"
+     }
+    ],
+    "bluebook": "3003 Indian Creek RR, LLC v. Alfredo Arias, 359 So. 3d 859 (Fla. 3d DCA 2023)",
+    "link_md": "[3003 Indian Creek RR, LLC v. Alfredo Arias, 359 So. 3d 859 (Fla. 3d DCA 2023)](https://syfert.com/florida/cases/359-so-3d-859/3003-indian-creek-rr-llc-v-alfredo-arias)",
+    "case_name_raw": "3003 INDIAN CREEK RR, LLC v. ALFREDO ARIAS"
+   },
+   {
+    "cluster_id": 9392474,
+    "case_name": "3003 Indian Creek RR, LLC v. Alfredo Arias",
+    "citations": [
+     "359 So. 3d 859"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "359 So. 3d 858",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 9392464,
+       "case_name": "Larry L. Bland v. The State of Florida"
+      }
+     }
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2023-04-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/359-so-3d-858/3003-indian-creek-rr-llc-v-alfredo-arias",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "359 So. 3d 858",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/359%20So.3d"
+     },
+     {
+      "citation": "359 So. 3d 859",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/359%20So.3d"
+     }
+    ],
+    "bluebook": "3003 Indian Creek RR, LLC v. Alfredo Arias, 359 So. 3d 859 (Fla. 3d DCA 2023)",
+    "link_md": "[3003 Indian Creek RR, LLC v. Alfredo Arias, 359 So. 3d 859 (Fla. 3d DCA 2023)](https://syfert.com/florida/cases/359-so-3d-858/3003-indian-creek-rr-llc-v-alfredo-arias)",
+    "case_name_raw": "3003 INDIAN CREEK RR, LLC v. ALFREDO ARIAS"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "3003 INDIAN CREEK RR, LLC v. ALFREDO ARIAS",
+   "actual": "3003 INDIAN CREEK RR, LLC v. ALFREDO ARIAS",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "866 N.Y.S.2d 275",
+  "expected_case_name": "Caldwell v. American Package Co."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"866 N.Y.S.2d 275\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 5905664,\n            \"case_name\": \"Caldwell v. American Package Co.\",\n            \"citations\": [\n                \"866 N.Y.S.2d 275\"\n            ],\n            \"court\": \"Appellate Division of the Supreme Court of New York\",\n            \"date_filed\": \"2008-10-21\",\n            \"status\": \"Published\",\n            \"cited_by\": 25,\n            \"url\": \"https://syfert.com/new-york/cases/57-a-d-3d-15/caldwell-v-american-package-co\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Caldwell v. Am. Package Co., 866 N.Y.S.2d 275 (N.Y. App. Div. 2d Dep't 2008)\",\n            \"link_md\": \"[Caldwell v. Am. Package Co., 866 N.Y.S.2d 275 (N.Y. App. Div. 2d Dep't 2008)](https://syfert.com/new-york/cases/57-a-d-3d-15/caldwell-v-american-package-co)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 7,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Caldwell v. American Package Co.\",\n        \"actual\": \"Caldwell v. American Package Co.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "866 N.Y.S.2d 275",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 5905664,
+    "case_name": "Caldwell v. American Package Co.",
+    "citations": [
+     "866 N.Y.S.2d 275"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2008-10-21",
+    "status": "Published",
+    "cited_by": 25,
+    "url": "https://syfert.com/new-york/cases/57-a-d-3d-15/caldwell-v-american-package-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Caldwell v. Am. Package Co., 866 N.Y.S.2d 275 (N.Y. App. Div. 2d Dep't 2008)",
+    "link_md": "[Caldwell v. Am. Package Co., 866 N.Y.S.2d 275 (N.Y. App. Div. 2d Dep't 2008)](https://syfert.com/new-york/cases/57-a-d-3d-15/caldwell-v-american-package-co)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 7,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Caldwell v. American Package Co.",
+   "actual": "Caldwell v. American Package Co.",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

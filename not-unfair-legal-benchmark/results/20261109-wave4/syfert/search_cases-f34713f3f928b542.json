@@ -1,0 +1,90 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Betts w/15 \"315 S.W.2d 286\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Betts w/15 \\\"315 S.W.2d 286\\\"\",\"total\":6,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1775488,\"bluebook\":\"Turner v. Pruitt, 342 S.W.2d 422 (Tex. 1961)\",\"url\":\"https://syfert.com/texas/cases/161-tex-532/turner-v-pruitt\",\"date_filed\":\"1961-01-25\",\"cited_by\":99,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Betts, 158 Texas 612 , 315 S.W. 2d 279, 286 (District Judge required to expunge orders from docket) ; Crane v. Tunks, 160 Texas 182 , 328 S.W. 2d 434 (District Judge required to amend order of discovery) ; Southland Greyhound Lines v.…\",\"holding\":\"Judges are immune from tort liability for acts or omissions performed in the course of judicial proceedings over which the court has jurisdiction.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":1743452,\"bluebook\":\"El Paso Elec. Co. v. Texas Dep't of Ins., 937 S.W.2d 432 (Tex. 1997)\",\"url\":\"https://syfert.com/texas/cases/937-s-w-2d-432/el-paso-electric-co-v-texas-department-of-insurance\",\"date_filed\":\"1997-02-21\",\"cited_by\":36,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...to set the receiver’s compensation. See Tex.Ins.Code art. 21.28, § 2(a); State Bd. of Ins. v. Betts, 158 Tex. 624 , 315 S.W.2d 286 , 287 (1958). Nevertheless, I reject the majority’s conclusion that the conduct of First Service’s…\",\"holding\":\"An insurance receiver performing public regulatory functions acts as a state agency for purposes of recovering attorney fees under Chapter 105.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":5203729,\"bluebook\":\"Langdeau v. Jones, 364 S.W.2d 297 (Tex. Civ. App.—Dallas 1963)\",\"url\":\"https://syfert.com/texas/cases/364-s-w-2d-297/langdeau-v-jones\",\"date_filed\":\"1963-01-11\",\"cited_by\":1,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Insurance v. Betts (1958), 158 Tex. 612 , 315 S.W.2d 279 , and State Board of Insurance, et al. v. Betts (1958), 158 Tex. 624 , 315 S.W.2d 286 it is held that the statutory provision is mandatory that the liquidator designated by the…\"},{\"cluster_id\":4358973,\"bluebook\":\"Untitled Texas Attorney Gen. Opinion, No. WW-746 (Tex. Att'y Gen. July 2, 1959)\",\"url\":\"https://syfert.com/texas/cases/cl-4358973/untitled-texas-attorney-general-opinion\",\"date_filed\":\"1959-07-02\",\"cited_by\":0,\"snippet\":\"...Betts, 315 S.W.2d 286\\n(1958) on an orininal action of mandamus brst by the State Board\\nof Insurance an; the Insurance Commissioner,~prayIng that a dis-\\ntrict judge be instructed to expunge an order entered by him pur-\\nporting to…\"},{\"cluster_id\":2859396,\"bluebook\":\"El Paso Elec. Co. Coopers & Lybrand Kemp, Smith, Duncan & Hammond, P.C. Maury Page Kemp & Jean Jones Kemp v. State, 903 S.W.2d 133 (Tex. App.—Austin 1995)\",\"url\":\"https://syfert.com/texas/cases/903-s-w-2d-133/el-paso-electric-company-coopers-lybrand-kemp-smith-duncan-hammond\",\"date_filed\":\"1995-07-19\",\"cited_by\":3,\"treatment\":{\"flag\":\"red\",\"red\":0,\"yellow\":0},\"snippet\":\"...624 , 315 S.W.2d 286 (1958);\\nState Bd. of Ins. v. Betts,\\n158 Tex. 612 , 315 S.W.2d 279 (1958);\\nState Bd. of Ins. v. Betts,\\n158 Tex. 83 , 308 S.W.2d 846 (1958). Moreover, SBI acknowledges that while a receivership is\\ncreated by court…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Betts w/15 \"315 S.W.2d 286\"",
+  "total": 6,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1775488,
+    "bluebook": "Turner v. Pruitt, 342 S.W.2d 422 (Tex. 1961)",
+    "url": "https://syfert.com/texas/cases/161-tex-532/turner-v-pruitt",
+    "date_filed": "1961-01-25",
+    "cited_by": 99,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Betts, 158 Texas 612 , 315 S.W. 2d 279, 286 (District Judge required to expunge orders from docket) ; Crane v. Tunks, 160 Texas 182 , 328 S.W. 2d 434 (District Judge required to amend order of discovery) ; Southland Greyhound Lines v.…",
+    "holding": "Judges are immune from tort liability for acts or omissions performed in the course of judicial proceedings over which the court has jurisdiction.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 1743452,
+    "bluebook": "El Paso Elec. Co. v. Texas Dep't of Ins., 937 S.W.2d 432 (Tex. 1997)",
+    "url": "https://syfert.com/texas/cases/937-s-w-2d-432/el-paso-electric-co-v-texas-department-of-insurance",
+    "date_filed": "1997-02-21",
+    "cited_by": 36,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...to set the receiver’s compensation. See Tex.Ins.Code art. 21.28, § 2(a); State Bd. of Ins. v. Betts, 158 Tex. 624 , 315 S.W.2d 286 , 287 (1958). Nevertheless, I reject the majority’s conclusion that the conduct of First Service’s…",
+    "holding": "An insurance receiver performing public regulatory functions acts as a state agency for purposes of recovering attorney fees under Chapter 105.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 5203729,
+    "bluebook": "Langdeau v. Jones, 364 S.W.2d 297 (Tex. Civ. App.—Dallas 1963)",
+    "url": "https://syfert.com/texas/cases/364-s-w-2d-297/langdeau-v-jones",
+    "date_filed": "1963-01-11",
+    "cited_by": 1,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Insurance v. Betts (1958), 158 Tex. 612 , 315 S.W.2d 279 , and State Board of Insurance, et al. v. Betts (1958), 158 Tex. 624 , 315 S.W.2d 286 it is held that the statutory provision is mandatory that the liquidator designated by the…"
+   },
+   {
+    "cluster_id": 4358973,
+    "bluebook": "Untitled Texas Attorney Gen. Opinion, No. WW-746 (Tex. Att'y Gen. July 2, 1959)",
+    "url": "https://syfert.com/texas/cases/cl-4358973/untitled-texas-attorney-general-opinion",
+    "date_filed": "1959-07-02",
+    "cited_by": 0,
+    "snippet": "...Betts, 315 S.W.2d 286\n(1958) on an orininal action of mandamus brst by the State Board\nof Insurance an; the Insurance Commissioner,~prayIng that a dis-\ntrict judge be instructed to expunge an order entered by him pur-\nporting to…"
+   },
+   {
+    "cluster_id": 2859396,
+    "bluebook": "El Paso Elec. Co. Coopers & Lybrand Kemp, Smith, Duncan & Hammond, P.C. Maury Page Kemp & Jean Jones Kemp v. State, 903 S.W.2d 133 (Tex. App.—Austin 1995)",
+    "url": "https://syfert.com/texas/cases/903-s-w-2d-133/el-paso-electric-company-coopers-lybrand-kemp-smith-duncan-hammond",
+    "date_filed": "1995-07-19",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "red",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...624 , 315 S.W.2d 286 (1958);\nState Bd. of Ins. v. Betts,\n158 Tex. 612 , 315 S.W.2d 279 (1958);\nState Bd. of Ins. v. Betts,\n158 Tex. 83 , 308 S.W.2d 846 (1958). Moreover, SBI acknowledges that while a receivership is\ncreated by court…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

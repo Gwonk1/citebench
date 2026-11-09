@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "162 A. 379",
+  "expected_case_name": "Campbell v. Campbell"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"162 A. 379\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4215491,\n            \"case_name\": \"Campbell v. Campbell\",\n            \"citations\": [\n                \"162 A. 379\"\n            ],\n            \"court\": \"Supreme Court of Vermont\",\n            \"date_filed\": \"1932-10-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 27,\n            \"url\": \"https://syfert.com/vermont/cases/104-vt-468/campbell-v-campbell\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Campbell v. Campbell, 162 A. 379 (Vt. 1932)\",\n            \"link_md\": \"[Campbell v. Campbell, 162 A. 379 (Vt. 1932)](https://syfert.com/vermont/cases/104-vt-468/campbell-v-campbell)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 1,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Campbell v. Campbell\",\n        \"actual\": \"Campbell v. Campbell\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "162 A. 379",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4215491,
+    "case_name": "Campbell v. Campbell",
+    "citations": [
+     "162 A. 379"
+    ],
+    "court": "Supreme Court of Vermont",
+    "date_filed": "1932-10-18",
+    "status": "Published",
+    "cited_by": 27,
+    "url": "https://syfert.com/vermont/cases/104-vt-468/campbell-v-campbell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Campbell v. Campbell, 162 A. 379 (Vt. 1932)",
+    "link_md": "[Campbell v. Campbell, 162 A. 379 (Vt. 1932)](https://syfert.com/vermont/cases/104-vt-468/campbell-v-campbell)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Campbell v. Campbell",
+   "actual": "Campbell v. Campbell",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

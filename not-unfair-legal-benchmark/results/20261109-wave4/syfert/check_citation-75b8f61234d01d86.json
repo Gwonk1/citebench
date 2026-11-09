@@ -1,0 +1,52 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "234 S.W.2d 398",
+  "expected_case_name": "Sawyer v. City of San Antonio"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"234 S.W.2d 398\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1506859,\n            \"case_name\": \"Sawyer v. City of San Antonio\",\n            \"citations\": [\n                \"234 S.W.2d 398\"\n            ],\n            \"court\": \"Texas Supreme Court\",\n            \"date_filed\": \"1950-11-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 38,\n            \"url\": \"https://syfert.com/texas/cases/149-tex-408/sawyer-v-city-of-san-antonio\",\n            \"cited_by_note\": \"CourtListener's citation count summed over this decision's 2 clusters (1506859 and its twin 5314497).\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Sawyer v. City of San Antonio, 234 S.W.2d 398 (Tex. 1950)\",\n            \"link_md\": \"[Sawyer v. City of San Antonio, 234 S.W.2d 398 (Tex. 1950)](https://syfert.com/texas/cases/149-tex-408/sawyer-v-city-of-san-antonio)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 14,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            },\n            \"disposition\": \"reversed\",\n            \"disposition_source\": \"headnote\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Sawyer v. City of San Antonio\",\n        \"actual\": \"Sawyer v. City of San Antonio\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "234 S.W.2d 398",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1506859,
+    "case_name": "Sawyer v. City of San Antonio",
+    "citations": [
+     "234 S.W.2d 398"
+    ],
+    "court": "Texas Supreme Court",
+    "date_filed": "1950-11-15",
+    "status": "Published",
+    "cited_by": 38,
+    "url": "https://syfert.com/texas/cases/149-tex-408/sawyer-v-city-of-san-antonio",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (1506859 and its twin 5314497).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sawyer v. City of San Antonio, 234 S.W.2d 398 (Tex. 1950)",
+    "link_md": "[Sawyer v. City of San Antonio, 234 S.W.2d 398 (Tex. 1950)](https://syfert.com/texas/cases/149-tex-408/sawyer-v-city-of-san-antonio)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 14,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    },
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Sawyer v. City of San Antonio",
+   "actual": "Sawyer v. City of San Antonio",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

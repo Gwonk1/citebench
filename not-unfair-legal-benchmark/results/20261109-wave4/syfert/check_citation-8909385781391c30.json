@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "130 S.E. 45",
+  "expected_case_name": "Kelly Springfield Tire Co. v. Lester"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"130 S.E. 45\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3932543,\n            \"case_name\": \"Kelly Springfield Tire Co. v. Lester\",\n            \"citations\": [\n                \"130 S.E. 45\"\n            ],\n            \"court\": \"Supreme Court of North Carolina\",\n            \"date_filed\": \"1925-11-04\",\n            \"status\": \"Published\",\n            \"cited_by\": 35,\n            \"url\": \"https://syfert.com/north-carolina/cases/190-n-c-411/kelly-springfield-tire-co-v-lester\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Kelly Springfield Tire Co. v. Lester, 130 S.E. 45 (N.C. 1925)\",\n            \"link_md\": \"[Kelly Springfield Tire Co. v. Lester, 130 S.E. 45 (N.C. 1925)](https://syfert.com/north-carolina/cases/190-n-c-411/kelly-springfield-tire-co-v-lester)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 3,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Kelly Springfield Tire Co. v. Lester\",\n        \"actual\": \"Kelly Springfield Tire Co. v. Lester\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "130 S.E. 45",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3932543,
+    "case_name": "Kelly Springfield Tire Co. v. Lester",
+    "citations": [
+     "130 S.E. 45"
+    ],
+    "court": "Supreme Court of North Carolina",
+    "date_filed": "1925-11-04",
+    "status": "Published",
+    "cited_by": 35,
+    "url": "https://syfert.com/north-carolina/cases/190-n-c-411/kelly-springfield-tire-co-v-lester",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kelly Springfield Tire Co. v. Lester, 130 S.E. 45 (N.C. 1925)",
+    "link_md": "[Kelly Springfield Tire Co. v. Lester, 130 S.E. 45 (N.C. 1925)](https://syfert.com/north-carolina/cases/190-n-c-411/kelly-springfield-tire-co-v-lester)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 3,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Kelly Springfield Tire Co. v. Lester",
+   "actual": "Kelly Springfield Tire Co. v. Lester",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

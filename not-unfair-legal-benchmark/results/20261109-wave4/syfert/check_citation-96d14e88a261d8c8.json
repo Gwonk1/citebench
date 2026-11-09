@@ -1,0 +1,49 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "249 S.E.2d 672",
+  "expected_case_name": "Parks v. State"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"249 S.E.2d 672\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 1248058,\n            \"case_name\": \"Parks v. State\",\n            \"citations\": [\n                \"249 S.E.2d 672\"\n            ],\n            \"court\": \"Court of Appeals of Georgia\",\n            \"date_filed\": \"1978-10-18\",\n            \"status\": \"Published\",\n            \"cited_by\": 20,\n            \"url\": \"https://syfert.com/georgia/cases/147-ga-app-617/parks-v-state\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Parks v. State, 249 S.E.2d 672 (Ga. Ct. App. 1978)\",\n            \"link_md\": \"[Parks v. State, 249 S.E.2d 672 (Ga. Ct. App. 1978)](https://syfert.com/georgia/cases/147-ga-app-617/parks-v-state)\",\n            \"treatment\": {\n                \"flag\": \"green\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 5,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Parks v. State\",\n        \"actual\": \"Parks v. State\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+ "json": {
+  "citation_checked": "249 S.E.2d 672",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 1248058,
+    "case_name": "Parks v. State",
+    "citations": [
+     "249 S.E.2d 672"
+    ],
+    "court": "Court of Appeals of Georgia",
+    "date_filed": "1978-10-18",
+    "status": "Published",
+    "cited_by": 20,
+    "url": "https://syfert.com/georgia/cases/147-ga-app-617/parks-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Parks v. State, 249 S.E.2d 672 (Ga. Ct. App. 1978)",
+    "link_md": "[Parks v. State, 249 S.E.2d 672 (Ga. Ct. App. 1978)](https://syfert.com/georgia/cases/147-ga-app-617/parks-v-state)",
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0,
+     "green": 5,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Parks v. State",
+   "actual": "Parks v. State",
+   "verdict": "match",
+   "similarity": 1
+  },
+  "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+ }
+}

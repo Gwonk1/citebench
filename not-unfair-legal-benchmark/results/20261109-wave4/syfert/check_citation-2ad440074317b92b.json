@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "143 So. 928",
+  "expected_case_name": "Malpeli v. Tidwell"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"143 So. 928\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 3222746,\n            \"case_name\": \"Malpeli v. Tidwell\",\n            \"citations\": [\n                \"143 So. 928\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"143 So. 926\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 3221779,\n                        \"case_name\": \"Buford v. State\"\n                    }\n                }\n            ],\n            \"court\": \"Alabama Court of Appeals\",\n            \"date_filed\": \"1932-08-11\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/alabama/cases/25-ala-app-656/malpeli-v-tidwell\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"Malpeli v. Tidwell, 143 So. 928 (Ala. Ct. App. 1932)\",\n            \"link_md\": \"[Malpeli v. Tidwell, 143 So. 928 (Ala. Ct. App. 1932)](https://syfert.com/alabama/cases/25-ala-app-656/malpeli-v-tidwell)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Malpeli v. Tidwell\",\n        \"actual\": \"Malpeli v. Tidwell\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "143 So. 928",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 3222746,
+    "case_name": "Malpeli v. Tidwell",
+    "citations": [
+     "143 So. 928"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "143 So. 926",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 3221779,
+       "case_name": "Buford v. State"
+      }
+     }
+    ],
+    "court": "Alabama Court of Appeals",
+    "date_filed": "1932-08-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/alabama/cases/25-ala-app-656/malpeli-v-tidwell",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Malpeli v. Tidwell, 143 So. 928 (Ala. Ct. App. 1932)",
+    "link_md": "[Malpeli v. Tidwell, 143 So. 928 (Ala. Ct. App. 1932)](https://syfert.com/alabama/cases/25-ala-app-656/malpeli-v-tidwell)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Malpeli v. Tidwell",
+   "actual": "Malpeli v. Tidwell",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

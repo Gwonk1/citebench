@@ -1,0 +1,107 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "U-Haul w/15 \"277 S.E.2d 497\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"U-Haul w/15 \\\"277 S.E.2d 497\\\"\",\"total\":8,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2502627,\"bluebook\":\"Rosenberg v. Falling Water, Inc., 709 S.E.2d 227 (Ga. 2011)\",\"url\":\"https://syfert.com/georgia/cases/289-ga-57/rosenberg-v-falling-water-inc\",\"date_filed\":\"2011-03-18\",\"cited_by\":14,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...See OCGA § 9-3-96; compare U-Haul Co. of W. Ga., 247 Ga. at 567, 277 S.E.2d 497 (if statute of limitation expired on claims held by original owner for damage to building, claims are not revived when building is sold to subsequent…\"},{\"cluster_id\":8243218,\"bluebook\":\"KSSR Props., LLC v. Bellsouth Telecomm., LLC, No. 21-12873 (11th Cir. Sept. 22, 2022)\",\"url\":\"https://syfert.com/federal/circuits/cases/cl-8243218/kssr-properties-llc-v-bellsouth-telecommunications-llc\",\"date_filed\":\"2022-09-22\",\"cited_by\":0,\"status\":\"Unpublished\",\"snippet\":\"...Georgia law calculates the date of accrual based on “when\\nthe plaintiff could first have maintained his action to a successful\\nresult.” U-Haul Co. of W. Georgia v. Abreu & Robeson, Inc., 277\\nS.E.2d 497 , 499 (Ga. 1981) (internal…\",\"passage_origin\":{\"case_name\":\"U-Haul Co. v. Abreu & Robeson, Inc.\",\"cluster_id\":1309663,\"year\":1981,\"quoted_by_cases\":10}},{\"cluster_id\":8971637,\"bluebook\":\"St. Joseph Hosp. v. Celotex Corp., 854 F.2d 426 (11th Cir. 1988)\",\"url\":\"https://syfert.com/federal/circuits/cases/854-f-2d-426/st-joseph-hospital-v-celotex-corp\",\"date_filed\":\"1988-09-06\",\"cited_by\":3,\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (8971637 and its twin 510194).\",\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...See Mercer, 832 F.2d at 1235-36 ; U-Haul Co. of W. Georgia v. Abreu & Robeson, Inc., 247 Ga. 565 , 277 S.E.2d 497 , 499 (1981).\\n. On June 20, 1988 Mercer University filed a motion for reconsideration in the Supreme Court of Georgia,…\"},{\"cluster_id\":8964109,\"bluebook\":\"Corp. of Mercer Univ. v. Nat'l Gypsum Co., 832 F.2d 1233 (11th Cir. 1987)\",\"url\":\"https://syfert.com/federal/circuits/cases/832-f-2d-1233/corporation-of-mercer-university-v-national-gypsum-co\",\"date_filed\":\"1987-11-23\",\"cited_by\":2,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Mercer finds support for its position in the language of U-Haul Co. of Western Georgia v. Abreu & Robeson, Inc., 247 Ga. 565 , 277 S.E.2d 497 (1981). In that case, the Georgia Supreme Court held that a cause of action against architects…\"},{\"cluster_id\":496864,\"bluebook\":\"Corp. of Mercer Univ. v. Nat'l Gypsum Co., 832 F.2d 1233 (11th Cir. 1987)\",\"url\":\"https://syfert.com/federal/circuits/cases/832-f-2d-1233/prodliabrepcchp-11603-the-corporation-of-mercer-university-v\",\"date_filed\":\"1987-11-23\",\"cited_by\":1,\"snippet\":\"...11\\nMercer finds support for its position in the language of U-Haul Co. of Western Georgia v. Abreu & Robeson, Inc., 247 Ga. 565 , 277 S.E.2d 497 (1981). In that case, the Georgia Supreme Court held that a cause of action against…\"},{\"cluster_id\":1452807,\"bluebook\":\"Morgan v. Sears, Roebuck & Co., 700 F. Supp. 1574 (N.D. Ga. 1989)\",\"url\":\"https://syfert.com/federal/district/cases/700-f-supp-1574/morgan-v-sears-roebuck-and-co\",\"date_filed\":\"1989-01-06\",\"cited_by\":14,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...U-Haul Co. of Western Georgia v. Abreu & Robeson, Inc.,\\n247 Ga. 565 , 277 S.E.2d 497 (1981). For a tort, this is when the injury occurs.\\nEverhart v. Rich’s,\\n229 Ga. 798 , 194 S.E.2d 425 (1972). Georgia law thus bars application of the…\"},{\"cluster_id\":2357606,\"bluebook\":\"Morgan v. Sears, Roebuck & Co., 693 F. Supp. 1154 (N.D. Ga. 1988)\",\"url\":\"https://syfert.com/federal/district/cases/693-f-supp-1154/morgan-v-sears-roebuck-and-co\",\"date_filed\":\"1988-07-28\",\"cited_by\":0,\"snippet\":\"...U-Haul Co. of Western Georgia v. Abreu & Robeson, Inc.,\\n247 Ga. 565 , 277 S.E.2d 497 (1981). For a tort, this is when the injury occurs.\\nEverhart v. Rich’s,\\n229 Ga. 798 , 194 S.E.2d 425 (1972). Georgia law thus bars application of the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "U-Haul w/15 \"277 S.E.2d 497\"",
+  "total": 8,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2502627,
+    "bluebook": "Rosenberg v. Falling Water, Inc., 709 S.E.2d 227 (Ga. 2011)",
+    "url": "https://syfert.com/georgia/cases/289-ga-57/rosenberg-v-falling-water-inc",
+    "date_filed": "2011-03-18",
+    "cited_by": 14,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See OCGA § 9-3-96; compare U-Haul Co. of W. Ga., 247 Ga. at 567, 277 S.E.2d 497 (if statute of limitation expired on claims held by original owner for damage to building, claims are not revived when building is sold to subsequent…"
+   },
+   {
+    "cluster_id": 8243218,
+    "bluebook": "KSSR Props., LLC v. Bellsouth Telecomm., LLC, No. 21-12873 (11th Cir. Sept. 22, 2022)",
+    "url": "https://syfert.com/federal/circuits/cases/cl-8243218/kssr-properties-llc-v-bellsouth-telecommunications-llc",
+    "date_filed": "2022-09-22",
+    "cited_by": 0,
+    "status": "Unpublished",
+    "snippet": "...Georgia law calculates the date of accrual based on “when\nthe plaintiff could first have maintained his action to a successful\nresult.” U-Haul Co. of W. Georgia v. Abreu & Robeson, Inc., 277\nS.E.2d 497 , 499 (Ga. 1981) (internal…",
+    "passage_origin": {
+     "case_name": "U-Haul Co. v. Abreu & Robeson, Inc.",
+     "cluster_id": 1309663,
+     "year": 1981,
+     "quoted_by_cases": 10
+    }
+   },
+   {
+    "cluster_id": 8971637,
+    "bluebook": "St. Joseph Hosp. v. Celotex Corp., 854 F.2d 426 (11th Cir. 1988)",
+    "url": "https://syfert.com/federal/circuits/cases/854-f-2d-426/st-joseph-hospital-v-celotex-corp",
+    "date_filed": "1988-09-06",
+    "cited_by": 3,
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (8971637 and its twin 510194).",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...See Mercer, 832 F.2d at 1235-36 ; U-Haul Co. of W. Georgia v. Abreu & Robeson, Inc., 247 Ga. 565 , 277 S.E.2d 497 , 499 (1981).\n. On June 20, 1988 Mercer University filed a motion for reconsideration in the Supreme Court of Georgia,…"
+   },
+   {
+    "cluster_id": 8964109,
+    "bluebook": "Corp. of Mercer Univ. v. Nat'l Gypsum Co., 832 F.2d 1233 (11th Cir. 1987)",
+    "url": "https://syfert.com/federal/circuits/cases/832-f-2d-1233/corporation-of-mercer-university-v-national-gypsum-co",
+    "date_filed": "1987-11-23",
+    "cited_by": 2,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Mercer finds support for its position in the language of U-Haul Co. of Western Georgia v. Abreu & Robeson, Inc., 247 Ga. 565 , 277 S.E.2d 497 (1981). In that case, the Georgia Supreme Court held that a cause of action against architects…"
+   },
+   {
+    "cluster_id": 496864,
+    "bluebook": "Corp. of Mercer Univ. v. Nat'l Gypsum Co., 832 F.2d 1233 (11th Cir. 1987)",
+    "url": "https://syfert.com/federal/circuits/cases/832-f-2d-1233/prodliabrepcchp-11603-the-corporation-of-mercer-university-v",
+    "date_filed": "1987-11-23",
+    "cited_by": 1,
+    "snippet": "...11\nMercer finds support for its position in the language of U-Haul Co. of Western Georgia v. Abreu & Robeson, Inc., 247 Ga. 565 , 277 S.E.2d 497 (1981). In that case, the Georgia Supreme Court held that a cause of action against…"
+   },
+   {
+    "cluster_id": 1452807,
+    "bluebook": "Morgan v. Sears, Roebuck & Co., 700 F. Supp. 1574 (N.D. Ga. 1989)",
+    "url": "https://syfert.com/federal/district/cases/700-f-supp-1574/morgan-v-sears-roebuck-and-co",
+    "date_filed": "1989-01-06",
+    "cited_by": 14,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...U-Haul Co. of Western Georgia v. Abreu & Robeson, Inc.,\n247 Ga. 565 , 277 S.E.2d 497 (1981). For a tort, this is when the injury occurs.\nEverhart v. Rich’s,\n229 Ga. 798 , 194 S.E.2d 425 (1972). Georgia law thus bars application of the…"
+   },
+   {
+    "cluster_id": 2357606,
+    "bluebook": "Morgan v. Sears, Roebuck & Co., 693 F. Supp. 1154 (N.D. Ga. 1988)",
+    "url": "https://syfert.com/federal/district/cases/693-f-supp-1154/morgan-v-sears-roebuck-and-co",
+    "date_filed": "1988-07-28",
+    "cited_by": 0,
+    "snippet": "...U-Haul Co. of Western Georgia v. Abreu & Robeson, Inc.,\n247 Ga. 565 , 277 S.E.2d 497 (1981). For a tort, this is when the injury occurs.\nEverhart v. Rich’s,\n229 Ga. 798 , 194 S.E.2d 425 (1972). Georgia law thus bars application of the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

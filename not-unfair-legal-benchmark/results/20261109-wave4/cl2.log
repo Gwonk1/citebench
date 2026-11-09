@@ -1,0 +1,36 @@
+cl ny-co-3      Parallel citations: 307 A.D.2d 156, 760 N.Y.S.2d 39
+cl calls 1
+{
+ "items": 51,
+ "by_class_shape": {
+  "samepage/i/move": 14,
+  "samepage/ii/move": 4,
+  "samepage/ii/stray": 11,
+  "nyseries/i/N.Y.2d-label": 9,
+  "nyseries/ii/N.Y.2d-label": 7,
+  "control/-/-": 6
+ },
+ "by_reporter": {
+  "P.": 6,
+  "S.W.": 3,
+  "N.W.": 2,
+  "A.": 2,
+  "A.2d": 1,
+  "N.E.": 1,
+  "S.E.": 1,
+  "S.E.2d": 3,
+  "P.2d": 3,
+  "So.": 3,
+  "N.E.2d": 1,
+  "S.W.2d": 1,
+  "N.W.2d": 4,
+  "N.Y.S.2d": 20
+ },
+ "drops_by_stage": {
+  "evidence/move": 17,
+  "evidence/stray": 30,
+  "evidence/ny": 5,
+  "evidence/control": 11
+ },
+ "self_check_failures": []
+}

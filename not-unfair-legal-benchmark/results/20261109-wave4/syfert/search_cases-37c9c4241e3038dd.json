@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Stokes w/15 \"189 N.J. 646\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Stokes w/15 \\\"189 N.J. 646\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":2371672,\"bluebook\":\"State v. Stokes, 917 A.2d 787 (N.J. 2007)\",\"url\":\"https://syfert.com/new-jersey/cases/189-n-j-647/state-v-stokes\",\"date_filed\":\"2007-02-15\",\"cited_by\":4,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"917 A.2d 787 (2007)\\n189 N.J. 646\\nSTATE\\nv.\\nSTOKES.\\nSupreme Court of New Jersey.\\nFebruary 15, 2007.\\nPetition for certification. Denied.\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Stokes w/15 \"189 N.J. 646\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 2371672,
+    "bluebook": "State v. Stokes, 917 A.2d 787 (N.J. 2007)",
+    "url": "https://syfert.com/new-jersey/cases/189-n-j-647/state-v-stokes",
+    "date_filed": "2007-02-15",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "917 A.2d 787 (2007)\n189 N.J. 646\nSTATE\nv.\nSTOKES.\nSupreme Court of New Jersey.\nFebruary 15, 2007.\nPetition for certification. Denied."
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

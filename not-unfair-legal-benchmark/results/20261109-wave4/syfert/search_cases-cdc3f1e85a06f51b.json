@@ -1,0 +1,35 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Woodward w/15 \"189 AD3d 2107\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Woodward w/15 \\\"189 AD3d 2107\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":10274994,\"bluebook\":\"People v. Lewis, 232 A.D.3d 1316 (N.Y. App. Div. 4th Dep't 2024)\",\"url\":\"https://syfert.com/new-york/cases/232-a-d-3d-1316/people-v-lewis\",\"date_filed\":\"2024-11-15\",\"cited_by\":0,\"treatment\":{\"flag\":\"neutral\",\"red\":0,\"yellow\":0},\"snippet\":\"...Inasmuch as defendant does not raise any contentions regarding the resentence, we dismiss the appeal ( see generally People v Parrilla , 227 AD3d 1419 , 1419-1420 [4th\\nDept 2024]; People v Woodward , 189 AD3d 2107 , 2107-2108 [4th Dept…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Woodward w/15 \"189 AD3d 2107\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 10274994,
+    "bluebook": "People v. Lewis, 232 A.D.3d 1316 (N.Y. App. Div. 4th Dep't 2024)",
+    "url": "https://syfert.com/new-york/cases/232-a-d-3d-1316/people-v-lewis",
+    "date_filed": "2024-11-15",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Inasmuch as defendant does not raise any contentions regarding the resentence, we dismiss the appeal ( see generally People v Parrilla , 227 AD3d 1419 , 1419-1420 [4th\nDept 2024]; People v Woodward , 189 AD3d 2107 , 2107-2108 [4th Dept…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

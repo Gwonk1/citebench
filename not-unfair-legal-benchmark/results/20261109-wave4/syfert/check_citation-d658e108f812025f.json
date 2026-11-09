@@ -1,0 +1,48 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "29 N.W. 19",
+  "expected_case_name": "People v. Gardner"
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"29 N.W. 19\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 7980010,\n            \"case_name\": \"People v. Gardner\",\n            \"citations\": [\n                \"29 N.W. 19\"\n            ],\n            \"court\": \"Michigan Supreme Court\",\n            \"date_filed\": \"1886-07-01\",\n            \"status\": \"Published\",\n            \"cited_by\": 26,\n            \"url\": \"https://syfert.com/michigan/cases/62-mich-307/people-v-gardner\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"bluebook\": \"People v. Gardner, 29 N.W. 19 (Mich. 1886)\",\n            \"link_md\": \"[People v. Gardner, 29 N.W. 19 (Mich. 1886)](https://syfert.com/michigan/cases/62-mich-307/people-v-gardner)\",\n            \"treatment\": {\n                \"flag\": \"neutral\",\n                \"red\": 0,\n                \"yellow\": 0,\n                \"green\": 0,\n                \"procedural\": 0,\n                \"strongest_signal\": null,\n                \"strongest_citer\": \"\",\n                \"strongest_date\": null\n            }\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"People v. Gardner\",\n        \"actual\": \"People v. Gardner\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "29 N.W. 19",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 7980010,
+    "case_name": "People v. Gardner",
+    "citations": [
+     "29 N.W. 19"
+    ],
+    "court": "Michigan Supreme Court",
+    "date_filed": "1886-07-01",
+    "status": "Published",
+    "cited_by": 26,
+    "url": "https://syfert.com/michigan/cases/62-mich-307/people-v-gardner",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Gardner, 29 N.W. 19 (Mich. 1886)",
+    "link_md": "[People v. Gardner, 29 N.W. 19 (Mich. 1886)](https://syfert.com/michigan/cases/62-mich-307/people-v-gardner)",
+    "treatment": {
+     "flag": "neutral",
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "procedural": 0,
+     "strongest_signal": null,
+     "strongest_citer": "",
+     "strongest_date": null
+    }
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "People v. Gardner",
+   "actual": "People v. Gardner",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

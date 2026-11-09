@@ -1,0 +1,80 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Carter w/15 \"650 N.Y.S.2d 32\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Carter w/15 \\\"650 N.Y.S.2d 32\\\"\",\"total\":4,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":9859043,\"bluebook\":\"Parneros v. Barnes & Noble, Inc., 332 F.R.D. 482 (S.D.N.Y. 2020)\",\"url\":\"https://syfert.com/federal/district/cases/332-f-r-d-482/parneros-v-barnes-noble-inc\",\"date_filed\":\"2020-09-03\",\"cited_by\":0,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...2014); Carter v. Visconti, 233 A.D.2d 473, 474 , 650 N.Y.S.2d 32,\\n33 (2d Dep’t. 1996) (the absolute defense applies as long as the publication is “substantially\\ntrue”). New York courts hold that “[a] statement is substantially true if…\",\"passage_origin\":{\"case_name\":\"Franklin v. Daily Holdings, Inc.\",\"cluster_id\":3154209,\"year\":2015,\"quoted_by_cases\":13}},{\"cluster_id\":2469784,\"bluebook\":\"Boehner v. Heise, 734 F. Supp. 2d 389 (S.D.N.Y. 2010)\",\"url\":\"https://syfert.com/federal/district/cases/734-f-supp-2d-389/boehner-v-heise\",\"date_filed\":\"2010-08-12\",\"cited_by\":20,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Murtha,\\n286 A.D.2d 421 , 730 N.Y.S.2d 243 (2d\\nDep’t 2001);\\nCarter v. Visconti,\\n233 A.D.2d 473, 474 , 650 N.Y.S.2d 32 (2d Dep’t 1996). The test of whether a statement is substantially true is “whether the libel as...\"},{\"cluster_id\":8727418,\"bluebook\":\"Morgalo v. Blades, 964 F. Supp. 2d 199 (D.P.R. 2013)\",\"url\":\"https://syfert.com/federal/district/cases/964-f-supp-2d-199/morgalo-v-blades\",\"date_filed\":\"2013-05-16\",\"cited_by\":0,\"snippet\":\"...Lagarenne, 299 A.D.2d 608 , 750 N.Y.S.2d 172, 173-74 (App.Div.2002) (applying substantial truth test in mixed libel and slander case); Carter v. Visconti, 233 A.D.2d 473 , 650 N.Y.S.2d 32, 33 (App.Div. 1996) (same in pure slander case...\"},{\"cluster_id\":2297727,\"bluebook\":\"Jewell v. NYP Holdings, Inc., 23 F. Supp. 2d 348 (S.D.N.Y. 1998)\",\"url\":\"https://syfert.com/federal/district/cases/23-f-supp-2d-348/jewell-v-nyp-holdings-inc\",\"date_filed\":\"1998-10-01\",\"cited_by\":52,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Peekskill Star Corp.,\\n83 A.D.2d 294, 297 , 445 N.Y.S.2d 156, 159 (2d Dep’t 1981));\\nsee also Carter v. Visconti\\n233 A.D.2d 473, 474 , 650 N.Y.S.2d 32, 33 (2d Dep’t 1996),\\nleave to appeal denied,\\n89 N.Y.2d...\",\"holding\":\"A statement is substantially true if it would not have a different effect on the mind of the reader from that which the pleaded truth would have produced.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed in part\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"hint\":\"hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Carter w/15 \"650 N.Y.S.2d 32\"",
+  "total": 4,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 9859043,
+    "bluebook": "Parneros v. Barnes & Noble, Inc., 332 F.R.D. 482 (S.D.N.Y. 2020)",
+    "url": "https://syfert.com/federal/district/cases/332-f-r-d-482/parneros-v-barnes-noble-inc",
+    "date_filed": "2020-09-03",
+    "cited_by": 0,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...2014); Carter v. Visconti, 233 A.D.2d 473, 474 , 650 N.Y.S.2d 32,\n33 (2d Dep’t. 1996) (the absolute defense applies as long as the publication is “substantially\ntrue”). New York courts hold that “[a] statement is substantially true if…",
+    "passage_origin": {
+     "case_name": "Franklin v. Daily Holdings, Inc.",
+     "cluster_id": 3154209,
+     "year": 2015,
+     "quoted_by_cases": 13
+    }
+   },
+   {
+    "cluster_id": 2469784,
+    "bluebook": "Boehner v. Heise, 734 F. Supp. 2d 389 (S.D.N.Y. 2010)",
+    "url": "https://syfert.com/federal/district/cases/734-f-supp-2d-389/boehner-v-heise",
+    "date_filed": "2010-08-12",
+    "cited_by": 20,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Murtha,\n286 A.D.2d 421 , 730 N.Y.S.2d 243 (2d\nDep’t 2001);\nCarter v. Visconti,\n233 A.D.2d 473, 474 , 650 N.Y.S.2d 32 (2d Dep’t 1996). The test of whether a statement is substantially true is “whether the libel as..."
+   },
+   {
+    "cluster_id": 8727418,
+    "bluebook": "Morgalo v. Blades, 964 F. Supp. 2d 199 (D.P.R. 2013)",
+    "url": "https://syfert.com/federal/district/cases/964-f-supp-2d-199/morgalo-v-blades",
+    "date_filed": "2013-05-16",
+    "cited_by": 0,
+    "snippet": "...Lagarenne, 299 A.D.2d 608 , 750 N.Y.S.2d 172, 173-74 (App.Div.2002) (applying substantial truth test in mixed libel and slander case); Carter v. Visconti, 233 A.D.2d 473 , 650 N.Y.S.2d 32, 33 (App.Div. 1996) (same in pure slander case..."
+   },
+   {
+    "cluster_id": 2297727,
+    "bluebook": "Jewell v. NYP Holdings, Inc., 23 F. Supp. 2d 348 (S.D.N.Y. 1998)",
+    "url": "https://syfert.com/federal/district/cases/23-f-supp-2d-348/jewell-v-nyp-holdings-inc",
+    "date_filed": "1998-10-01",
+    "cited_by": 52,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Peekskill Star Corp.,\n83 A.D.2d 294, 297 , 445 N.Y.S.2d 156, 159 (2d Dep’t 1981));\nsee also Carter v. Visconti\n233 A.D.2d 473, 474 , 650 N.Y.S.2d 32, 33 (2d Dep’t 1996),\nleave to appeal denied,\n89 N.Y.2d...",
+    "holding": "A statement is substantially true if it would not have a different effect on the mind of the reader from that which the pleaded truth would have produced.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed in part",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "hint": "hits marked passage_origin are quoting an earlier case; cite the origin for the proposition.",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

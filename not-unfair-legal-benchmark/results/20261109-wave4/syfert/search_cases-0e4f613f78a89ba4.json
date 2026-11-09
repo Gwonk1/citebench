@@ -1,0 +1,31 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "McGovern w/15 \"870 N.Y.S.2d 618\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"McGovern w/15 \\\"870 N.Y.S.2d 618\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":9879565,\"bluebook\":\"Lomanto v. Agbelusi, No. 1:22-cv-07349 (S.D.N.Y. Nov. 17, 2022)\",\"url\":\"https://syfert.com/federal/district/cases/cl-9879565/lomanto-v-agbelusi\",\"date_filed\":\"2022-11-17\",\"cited_by\":0,\"status\":\"Unknown\",\"snippet\":\"...See McGovern v. McGovern, 58\\nA.D.3d 911, 915 , 870 N.Y.S.2d 618, 622 (2009) (“While not determinative, the wishes of an\\nalmost 14–year–old child are certainly entitled to great weight.”).\\nMoreover, Petitioner’s suggestion that the…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "McGovern w/15 \"870 N.Y.S.2d 618\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 9879565,
+    "bluebook": "Lomanto v. Agbelusi, No. 1:22-cv-07349 (S.D.N.Y. Nov. 17, 2022)",
+    "url": "https://syfert.com/federal/district/cases/cl-9879565/lomanto-v-agbelusi",
+    "date_filed": "2022-11-17",
+    "cited_by": 0,
+    "status": "Unknown",
+    "snippet": "...See McGovern v. McGovern, 58\nA.D.3d 911, 915 , 870 N.Y.S.2d 618, 622 (2009) (“While not determinative, the wishes of an\nalmost 14–year–old child are certainly entitled to great weight.”).\nMoreover, Petitioner’s suggestion that the…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

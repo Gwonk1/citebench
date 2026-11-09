@@ -1,0 +1,175 @@
+{
+ "id": "pg-m-ne-1",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Vail v. Reynolds, 23 N.E. 801."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"party_mismatch\": 1,\n        \"likely_misprint\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.\",\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"23 N.E. 801\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"problem\": \"Likely misprint, not a fabricated case: The page is off by one digit (the first): the citation prints 801, the case is at 301. Vail v. . Reynolds is reported at 23 N.E. 301 (same volume 23 of N.E.). It was decided 1890-01-14, within the years volume 23 of N.E. covers (1889-1890), and the name given names that case. The citation as printed (23 N.E. 801) is wrong; cite 23 N.E. 301.\",\n            \"replace_with\": \"Vail v. Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n            \"fix\": {\n                \"from\": \"23 N.E. 801\",\n                \"to\": \"23 N.E. 301\"\n            },\n            \"suggested\": \"Vail v. Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n            \"did_you_mean\": \"Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n            \"misprint\": {\n                \"printed\": \"23 N.E. 801\",\n                \"real\": \"23 N.E. 301\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 3621861,\n                \"case_name\": \"Vail v. . Reynolds\",\n                \"bluebook\": \"Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n                \"cite_as\": \"Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n                \"date_filed\": \"1890-01-14\",\n                \"url\": \"https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds\",\n                \"link_md\": \"[Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)](https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds)\",\n                \"note\": \"The page is off by one digit (the first): the citation prints 801, the case is at 301. Vail v. . Reynolds is reported at 23 N.E. 301 (same volume 23 of N.E.). It was decided 1890-01-14, within the years volume 23 of N.E. covers (1889-1890), and the name given names that case. The citation as printed (23 N.E. 801) is wrong; cite 23 N.E. 301.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"case\": {\n                \"cluster_id\": 3621861,\n                \"case_name\": \"Vail v. . Reynolds\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"23 N.E. 801\",\n            \"volume\": \"23\",\n            \"reporter\": \"N.E.\",\n            \"page\": \"801\",\n            \"pin\": null,\n            \"cluster_id\": 3637558,\n            \"case\": {\n                \"case_name\": \"Vosburgh v. . Diefendorf\",\n                \"case_name_short\": \"Vosburgh\",\n                \"date_filed\": \"1890-02-25\",\n                \"court_id\": \"ny\",\n                \"docket_number\": null,\n                \"citation_count\": 94,\n                \"court_label\": \"N.Y.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 1.885,\n                \"total_events\": 119,\n                \"distinct_courts\": 27,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"In re Hopper-Morgan Co.\",\n                \"top_pos_court\": \"nynd\",\n                \"top_pos_date\": \"1907-10-26\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies.\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": 0,\n                \"max_yellow\": 0,\n                \"bad_props\": 0\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Vail\",\n                \"rhs\": \"Reynolds\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Vail\",\n                    \"rhs\": \"Reynolds\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"Vosburgh v. . Diefendorf\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/new-york/cases/119-n-y-357/vosburgh-v-diefendorf\",\n            \"link_md\": \"[Vosburgh v. . Diefendorf](https://syfert.com/new-york/cases/119-n-y-357/vosburgh-v-diefendorf)\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"misprint\": {\n                \"printed\": \"23 N.E. 801\",\n                \"real\": \"23 N.E. 301\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 3621861,\n                \"case_name\": \"Vail v. . Reynolds\",\n                \"bluebook\": \"Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n                \"cite_as\": \"Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n                \"date_filed\": \"1890-01-14\",\n                \"url\": \"https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds\",\n                \"link_md\": \"[Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)](https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds)\",\n                \"note\": \"The page is off by one digit (the first): the citation prints 801, the case is at 301. Vail v. . Reynolds is reported at 23 N.E. 301 (same volume 23 of N.E.). It was decided 1890-01-14, within the years volume 23 of N.E. covers (1889-1890), and the name given names that case. The citation as printed (23 N.E. 801) is wrong; cite 23 N.E. 301.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"suggested_citation\": {\n                \"cluster_id\": 3621861,\n                \"case_name\": \"Vail v. . Reynolds\",\n                \"citation\": \"23 N.E. 301\",\n                \"bluebook\": \"Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n                \"cite_as\": \"Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)\",\n                \"date_filed\": \"1890-01-14\",\n                \"url\": \"https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds\",\n                \"link_md\": \"[Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)](https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds)\"\n            },\n            \"unindexed_advice\": \"Likely misprint: The page is off by one digit (the first): the citation prints 801, the case is at 301. Vail v. . Reynolds is reported at 23 N.E. 301 (same volume 23 of N.E.). It was decided 1890-01-14, within the years volume 23 of N.E. covers (1889-1890), and the name given names that case. The citation as printed (23 N.E. 801) is wrong; cite 23 N.E. 301.\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "party_mismatch": 1,
+     "likely_misprint": 1
+    },
+    "warnings": [
+     "1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.",
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "23 N.E. 801",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "problem": "Likely misprint, not a fabricated case: The page is off by one digit (the first): the citation prints 801, the case is at 301. Vail v. . Reynolds is reported at 23 N.E. 301 (same volume 23 of N.E.). It was decided 1890-01-14, within the years volume 23 of N.E. covers (1889-1890), and the name given names that case. The citation as printed (23 N.E. 801) is wrong; cite 23 N.E. 301.",
+      "replace_with": "Vail v. Reynolds, 23 N.E. 301 (N.Y. 1890)",
+      "fix": {
+       "from": "23 N.E. 801",
+       "to": "23 N.E. 301"
+      },
+      "suggested": "Vail v. Reynolds, 23 N.E. 301 (N.Y. 1890)",
+      "did_you_mean": "Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)",
+      "misprint": {
+       "printed": "23 N.E. 801",
+       "real": "23 N.E. 301",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 3621861,
+       "case_name": "Vail v. . Reynolds",
+       "bluebook": "Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)",
+       "cite_as": "Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)",
+       "date_filed": "1890-01-14",
+       "url": "https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds",
+       "link_md": "[Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)](https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds)",
+       "note": "The page is off by one digit (the first): the citation prints 801, the case is at 301. Vail v. . Reynolds is reported at 23 N.E. 301 (same volume 23 of N.E.). It was decided 1890-01-14, within the years volume 23 of N.E. covers (1889-1890), and the name given names that case. The citation as printed (23 N.E. 801) is wrong; cite 23 N.E. 301.",
+       "via": [
+        "name"
+       ]
+      },
+      "case": {
+       "cluster_id": 3621861,
+       "case_name": "Vail v. . Reynolds"
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "23 N.E. 801",
+      "volume": "23",
+      "reporter": "N.E.",
+      "page": "801",
+      "pin": null,
+      "cluster_id": 3637558,
+      "case": {
+       "case_name": "Vosburgh v. . Diefendorf",
+       "case_name_short": "Vosburgh",
+       "date_filed": "1890-02-25",
+       "court_id": "ny",
+       "docket_number": null,
+       "citation_count": 94,
+       "court_label": "N.Y."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 1.885,
+       "total_events": 119,
+       "distinct_courts": 27,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "In re Hopper-Morgan Co.",
+       "top_pos_court": "nynd",
+       "top_pos_date": "1907-10-26",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: it matches none of the 1 proposition(s) other courts quote this case for, so only the case-level flag applies."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": 0,
+       "max_yellow": 0,
+       "bad_props": 0
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Vail",
+       "rhs": "Reynolds"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Vail",
+        "rhs": "Reynolds"
+       },
+       "verdict": "mismatch",
+       "resolved_name": "Vosburgh v. . Diefendorf"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/new-york/cases/119-n-y-357/vosburgh-v-diefendorf",
+      "link_md": "[Vosburgh v. . Diefendorf](https://syfert.com/new-york/cases/119-n-y-357/vosburgh-v-diefendorf)",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "misprint": {
+       "printed": "23 N.E. 801",
+       "real": "23 N.E. 301",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 3621861,
+       "case_name": "Vail v. . Reynolds",
+       "bluebook": "Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)",
+       "cite_as": "Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)",
+       "date_filed": "1890-01-14",
+       "url": "https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds",
+       "link_md": "[Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)](https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds)",
+       "note": "The page is off by one digit (the first): the citation prints 801, the case is at 301. Vail v. . Reynolds is reported at 23 N.E. 301 (same volume 23 of N.E.). It was decided 1890-01-14, within the years volume 23 of N.E. covers (1889-1890), and the name given names that case. The citation as printed (23 N.E. 801) is wrong; cite 23 N.E. 301.",
+       "via": [
+        "name"
+       ]
+      },
+      "suggested_citation": {
+       "cluster_id": 3621861,
+       "case_name": "Vail v. . Reynolds",
+       "citation": "23 N.E. 301",
+       "bluebook": "Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)",
+       "cite_as": "Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)",
+       "date_filed": "1890-01-14",
+       "url": "https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds",
+       "link_md": "[Vail v. . Reynolds, 23 N.E. 301 (N.Y. 1890)](https://syfert.com/new-york/cases/118-n-y-297/vail-v-reynolds)"
+      },
+      "unindexed_advice": "Likely misprint: The page is off by one digit (the first): the citation prints 801, the case is at 301. Vail v. . Reynolds is reported at 23 N.E. 301 (same volume 23 of N.E.). It was decided 1890-01-14, within the years volume 23 of N.E. covers (1889-1890), and the name given names that case. The citation as printed (23 N.E. 801) is wrong; cite 23 N.E. 301."
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

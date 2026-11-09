@@ -1,0 +1,431 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "LONNIE w/15 \"370 So. 3d 960\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"LONNIE w/15 \\\"370 So. 3d 960\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1884445,\"case_name\":\"Lu v. Lien\",\"citations\":[\"968 So. 2d 1026\",\"2007 WL 4097431\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2007-11-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/968-so-2d-1026/lu-v-lien\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lu v. Lien, 968 So. 2d 1026 (Fla. 2d DCA 2007)\",\"link_md\":\"[Lu v. Lien, 968 So. 2d 1026 (Fla. 2d DCA 2007)](https://syfert.com/florida/cases/968-so-2d-1026/lu-v-lien)\",\"match_kind\":\"semantic\",\"similarity\":0.6533},{\"cluster_id\":1090662,\"case_name\":\"Lanier v. State\",\"citations\":[\"965 So. 2d 1152\",\"2007 WL 3145094\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2007-10-05\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/florida/cases/965-so-2d-1152/lanier-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lanier v. State, 965 So. 2d 1152 (Fla. 3d DCA 2007)\",\"link_md\":\"[Lanier v. State, 965 So. 2d 1152 (Fla. 3d DCA 2007)](https://syfert.com/florida/cases/965-so-2d-1152/lanier-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6351},{\"cluster_id\":1681147,\"case_name\":\"Linn v. State\",\"citations\":[\"966 So. 2d 390\",\"2007 WL 3046506\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2007-10-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/966-so-2d-390/linn-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Linn v. State, 966 So. 2d 390 (Fla. 1st DCA 2007)\",\"link_md\":\"[Linn v. State, 966 So. 2d 390 (Fla. 1st DCA 2007)](https://syfert.com/florida/cases/966-so-2d-390/linn-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6338},{\"cluster_id\":4273942,\"case_name\":\"Lonnie Lynn Johnson v. State\",\"citations\":[],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"2015-08-06\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/texas/cases/cl-4273942/lonnie-lynn-johnson-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lonnie Lynn Johnson v. State, No. 12-15-00186-CR (Tex. App.—Tyler Aug. 6, 2015)\",\"link_md\":\"[Lonnie Lynn Johnson v. State, No. 12-15-00186-CR (Tex. App.—Tyler Aug. 6, 2015)](https://syfert.com/texas/cases/cl-4273942/lonnie-lynn-johnson-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6336},{\"cluster_id\":1682660,\"case_name\":\"Lannes v. Lannes\",\"citations\":[\"957 So. 2d 142\",\"2007 WL 1795963\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2007-05-18\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/957-so-2d-142/lannes-v-lannes\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lannes v. Lannes, 957 So. 2d 142 (La. 2007)\",\"link_md\":\"[Lannes v. Lannes, 957 So. 2d 142 (La. 2007)](https://syfert.com/louisiana/cases/957-so-2d-142/lannes-v-lannes)\",\"match_kind\":\"semantic\",\"similarity\":0.629},{\"cluster_id\":5054388,\"case_name\":\"State ex rel. Laneheart v. State\",\"citations\":[\"76 So. 3d 1171\",\"2011 La. LEXIS 2958\",\"2011 WL 6961487\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2011-12-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/76-so-3d-1171/state-ex-rel-laneheart-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5054388 and its twin 2485469). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Laneheart v. State, 76 So. 3d 1171 (La. 2011)\",\"link_md\":\"[State ex rel. Laneheart v. State, 76 So. 3d 1171 (La. 2011)](https://syfert.com/louisiana/cases/76-so-3d-1171/state-ex-rel-laneheart-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6252,\"twin_clusters\":[2485469]},{\"cluster_id\":1641900,\"case_name\":\"Sonnier v. CONNER LLC.\",\"citations\":[\"6 So. 3d 773\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2009-04-03\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/6-so-3d-773/sonnier-v-conner-llc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sonnier v. CONNER LLC., 6 So. 3d 773 (La. 2009)\",\"link_md\":\"[Sonnier v. CONNER LLC., 6 So. 3d 773 (La. 2009)](https://syfert.com/louisiana/cases/6-so-3d-773/sonnier-v-conner-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.6176},{\"cluster_id\":1727548,\"case_name\":\"Lanier v. State\",\"citations\":[\"970 So. 2d 342\",\"2007 WL 4097340\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"2007-11-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/970-so-2d-342/lanier-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lanier v. State, 970 So. 2d 342 (Fla. 2007)\",\"link_md\":\"[Lanier v. State, 970 So. 2d 342 (Fla. 2007)](https://syfert.com/florida/cases/970-so-2d-342/lanier-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6164},{\"cluster_id\":2547375,\"case_name\":\"Lingoni v. Hibernia National Bank\",\"citations\":[\"36 So. 3d 255\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2010-05-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/36-so-3d-255/lingoni-v-hibernia-national-bank\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lingoni v. Hibernia Nat'l Bank, 36 So. 3d 255 (La. 2010)\",\"link_md\":\"[Lingoni v. Hibernia Nat'l Bank, 36 So. 3d 255 (La. 2010)](https://syfert.com/louisiana/cases/36-so-3d-255/lingoni-v-hibernia-national-bank)\",\"match_kind\":\"semantic\",\"similarity\":0.6158},{\"cluster_id\":5050948,\"case_name\":\"State ex rel. Scott v. State\",\"citations\":[\"62 So. 3d 72\",\"2011 La. LEXIS 955\",\"2011 WL 2431055\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2011-04-25\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/62-so-3d-72/state-ex-rel-scott-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5050948 and its twin 2496497). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Scott v. State, 62 So. 3d 72 (La. 2011)\",\"link_md\":\"[State ex rel. Scott v. State, 62 So. 3d 72 (La. 2011)](https://syfert.com/louisiana/cases/62-so-3d-72/state-ex-rel-scott-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6134,\"twin_clusters\":[2496497]},{\"cluster_id\":1090626,\"case_name\":\"Lanier v. State\",\"citations\":[\"965 So. 2d 823\",\"2007 WL 2484941\"],\"court\":\"Supreme Court of Florida\",\"date_filed\":\"2007-08-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/965-so-2d-823/lanier-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lanier v. State, 965 So. 2d 823 (Fla. 2007)\",\"link_md\":\"[Lanier v. State, 965 So. 2d 823 (Fla. 2007)](https://syfert.com/florida/cases/965-so-2d-823/lanier-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6123},{\"cluster_id\":7597619,\"case_name\":\"State v. Williams\",\"citations\":[\"435 So. 2d 449\",\"1983 La. LEXIS 10897\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1983-06-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/435-so-2d-449/state-v-williams\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7597619 and its twin 1732115). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Williams, 435 So. 2d 449 (La. 1983)\",\"link_md\":\"[State v. Williams, 435 So. 2d 449 (La. 1983)](https://syfert.com/louisiana/cases/435-so-2d-449/state-v-williams)\",\"match_kind\":\"semantic\",\"similarity\":0.6116,\"twin_clusters\":[1732115]},{\"cluster_id\":2493158,\"case_name\":\"STATE EX REL. MESHELL v. State\",\"citations\":[\"62 So. 3d 107\",\"2011 WL 2437801\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2011-04-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/62-so-3d-107/state-ex-rel-meshell-v-state\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Meshell v. State, 62 So. 3d 107 (La. 2011)\",\"link_md\":\"[State ex rel. Meshell v. State, 62 So. 3d 107 (La. 2011)](https://syfert.com/louisiana/cases/62-so-3d-107/state-ex-rel-meshell-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6089},{\"cluster_id\":5057300,\"case_name\":\"State ex rel. Laurent v. State\",\"citations\":[\"85 So. 3d 1267\",\"2012 WL 1507213\",\"2012 La. LEXIS 1132\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2012-04-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/85-so-3d-1267/state-ex-rel-laurent-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5057300 and its twin 2551055). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Laurent v. State, 85 So. 3d 1267 (La. 2012)\",\"link_md\":\"[State ex rel. Laurent v. State, 85 So. 3d 1267 (La. 2012)](https://syfert.com/louisiana/cases/85-so-3d-1267/state-ex-rel-laurent-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6073,\"twin_clusters\":[2551055]},{\"cluster_id\":2492215,\"case_name\":\"Lalla v. Lalla\",\"citations\":[\"68 So. 3d 1029\",\"2011 WL 3629013\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2011-08-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/68-so-3d-1029/lalla-v-lalla\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Lalla v. Lalla, 68 So. 3d 1029 (La. 2011)\",\"link_md\":\"[Lalla v. Lalla, 68 So. 3d 1029 (La. 2011)](https://syfert.com/louisiana/cases/68-so-3d-1029/lalla-v-lalla)\",\"match_kind\":\"semantic\",\"similarity\":0.6063},{\"cluster_id\":4985842,\"case_name\":\"State ex rel. Luna v. State\",\"citations\":[\"1 So. 3d 470\",\"2009 La. LEXIS 1372\",\"2009 WL 511864\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2009-02-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/1-so-3d-470/state-ex-rel-luna-v-state\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (4985842 and its twin 1600862). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. Luna v. State, 1 So. 3d 470 (La. 2009)\",\"link_md\":\"[State ex rel. Luna v. State, 1 So. 3d 470 (La. 2009)](https://syfert.com/louisiana/cases/1-so-3d-470/state-ex-rel-luna-v-state)\",\"match_kind\":\"semantic\",\"similarity\":0.6055,\"twin_clusters\":[1600862]},{\"cluster_id\":2492760,\"case_name\":\"Luna v. Phan\",\"citations\":[\"75 So. 3d 280\",\"2011 WL 5926167\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2011-10-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/75-so-3d-280/luna-v-phan\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Luna v. Phan, 75 So. 3d 280 (Fla. 2d DCA 2011)\",\"link_md\":\"[Luna v. Phan, 75 So. 3d 280 (Fla. 2d DCA 2011)](https://syfert.com/florida/cases/75-so-3d-280/luna-v-phan)\",\"match_kind\":\"semantic\",\"similarity\":0.6055},{\"cluster_id\":5050808,\"case_name\":\"State ex rel. L.L.\",\"citations\":[\"62 So. 3d 109\",\"2011 La. LEXIS 1137\",\"2011 WL 2437817\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2011-04-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/62-so-3d-109/state-ex-rel-ll\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (5050808 and its twin 2496013). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State ex rel. L.L., 62 So. 3d 109 (La. 2011)\",\"link_md\":\"[State ex rel. L.L., 62 So. 3d 109 (La. 2011)](https://syfert.com/louisiana/cases/62-so-3d-109/state-ex-rel-ll)\",\"match_kind\":\"semantic\",\"similarity\":0.6054,\"twin_clusters\":[2496013]},{\"cluster_id\":1106952,\"case_name\":\"Bernard v. BP America Production Co.\",\"citations\":[\"981 So. 2d 73\",\"170 Oil & Gas Rep. 689\",\"7 La.App. 3 Cir. 1249\",\"2008 La. App. LEXIS 492\",\"2008 WL 867110\"],\"court\":\"Louisiana Court of Appeal\",\"date_filed\":\"2008-04-02\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/louisiana/cases/981-so-2d-73/bernard-v-bp-america-production-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bernard v. BP Am. Prod. Co., 981 So. 2d 73 (La. Ct. App. 2008)\",\"link_md\":\"[Bernard v. BP Am. Prod. Co., 981 So. 2d 73 (La. Ct. App. 2008)](https://syfert.com/louisiana/cases/981-so-2d-73/bernard-v-bp-america-production-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6052},{\"cluster_id\":1153878,\"case_name\":\"Darden v. Lennox Industries, Inc.\",\"citations\":[\"977 So. 2d 916\",\"2008 WL 1321113\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2008-03-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/977-so-2d-916/darden-v-lennox-industries-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Darden v. Lennox Indus., Inc., 977 So. 2d 916 (La. 2008)\",\"link_md\":\"[Darden v. Lennox Indus., Inc., 977 So. 2d 916 (La. 2008)](https://syfert.com/louisiana/cases/977-so-2d-916/darden-v-lennox-industries-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6051}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "LONNIE w/15 \"370 So. 3d 960\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1884445,
+    "case_name": "Lu v. Lien",
+    "citations": [
+     "968 So. 2d 1026",
+     "2007 WL 4097431"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2007-11-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/968-so-2d-1026/lu-v-lien",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lu v. Lien, 968 So. 2d 1026 (Fla. 2d DCA 2007)",
+    "link_md": "[Lu v. Lien, 968 So. 2d 1026 (Fla. 2d DCA 2007)](https://syfert.com/florida/cases/968-so-2d-1026/lu-v-lien)",
+    "match_kind": "semantic",
+    "similarity": 0.6533
+   },
+   {
+    "cluster_id": 1090662,
+    "case_name": "Lanier v. State",
+    "citations": [
+     "965 So. 2d 1152",
+     "2007 WL 3145094"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2007-10-05",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/florida/cases/965-so-2d-1152/lanier-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lanier v. State, 965 So. 2d 1152 (Fla. 3d DCA 2007)",
+    "link_md": "[Lanier v. State, 965 So. 2d 1152 (Fla. 3d DCA 2007)](https://syfert.com/florida/cases/965-so-2d-1152/lanier-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6351
+   },
+   {
+    "cluster_id": 1681147,
+    "case_name": "Linn v. State",
+    "citations": [
+     "966 So. 2d 390",
+     "2007 WL 3046506"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2007-10-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/966-so-2d-390/linn-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Linn v. State, 966 So. 2d 390 (Fla. 1st DCA 2007)",
+    "link_md": "[Linn v. State, 966 So. 2d 390 (Fla. 1st DCA 2007)](https://syfert.com/florida/cases/966-so-2d-390/linn-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6338
+   },
+   {
+    "cluster_id": 4273942,
+    "case_name": "Lonnie Lynn Johnson v. State",
+    "citations": [],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "2015-08-06",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/texas/cases/cl-4273942/lonnie-lynn-johnson-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lonnie Lynn Johnson v. State, No. 12-15-00186-CR (Tex. App.—Tyler Aug. 6, 2015)",
+    "link_md": "[Lonnie Lynn Johnson v. State, No. 12-15-00186-CR (Tex. App.—Tyler Aug. 6, 2015)](https://syfert.com/texas/cases/cl-4273942/lonnie-lynn-johnson-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6336
+   },
+   {
+    "cluster_id": 1682660,
+    "case_name": "Lannes v. Lannes",
+    "citations": [
+     "957 So. 2d 142",
+     "2007 WL 1795963"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2007-05-18",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/957-so-2d-142/lannes-v-lannes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lannes v. Lannes, 957 So. 2d 142 (La. 2007)",
+    "link_md": "[Lannes v. Lannes, 957 So. 2d 142 (La. 2007)](https://syfert.com/louisiana/cases/957-so-2d-142/lannes-v-lannes)",
+    "match_kind": "semantic",
+    "similarity": 0.629
+   },
+   {
+    "cluster_id": 5054388,
+    "case_name": "State ex rel. Laneheart v. State",
+    "citations": [
+     "76 So. 3d 1171",
+     "2011 La. LEXIS 2958",
+     "2011 WL 6961487"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2011-12-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/76-so-3d-1171/state-ex-rel-laneheart-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5054388 and its twin 2485469). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Laneheart v. State, 76 So. 3d 1171 (La. 2011)",
+    "link_md": "[State ex rel. Laneheart v. State, 76 So. 3d 1171 (La. 2011)](https://syfert.com/louisiana/cases/76-so-3d-1171/state-ex-rel-laneheart-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6252,
+    "twin_clusters": [
+     2485469
+    ]
+   },
+   {
+    "cluster_id": 1641900,
+    "case_name": "Sonnier v. CONNER LLC.",
+    "citations": [
+     "6 So. 3d 773"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2009-04-03",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/6-so-3d-773/sonnier-v-conner-llc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sonnier v. CONNER LLC., 6 So. 3d 773 (La. 2009)",
+    "link_md": "[Sonnier v. CONNER LLC., 6 So. 3d 773 (La. 2009)](https://syfert.com/louisiana/cases/6-so-3d-773/sonnier-v-conner-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.6176
+   },
+   {
+    "cluster_id": 1727548,
+    "case_name": "Lanier v. State",
+    "citations": [
+     "970 So. 2d 342",
+     "2007 WL 4097340"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "2007-11-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/970-so-2d-342/lanier-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lanier v. State, 970 So. 2d 342 (Fla. 2007)",
+    "link_md": "[Lanier v. State, 970 So. 2d 342 (Fla. 2007)](https://syfert.com/florida/cases/970-so-2d-342/lanier-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6164
+   },
+   {
+    "cluster_id": 2547375,
+    "case_name": "Lingoni v. Hibernia National Bank",
+    "citations": [
+     "36 So. 3d 255"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2010-05-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/36-so-3d-255/lingoni-v-hibernia-national-bank",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lingoni v. Hibernia Nat'l Bank, 36 So. 3d 255 (La. 2010)",
+    "link_md": "[Lingoni v. Hibernia Nat'l Bank, 36 So. 3d 255 (La. 2010)](https://syfert.com/louisiana/cases/36-so-3d-255/lingoni-v-hibernia-national-bank)",
+    "match_kind": "semantic",
+    "similarity": 0.6158
+   },
+   {
+    "cluster_id": 5050948,
+    "case_name": "State ex rel. Scott v. State",
+    "citations": [
+     "62 So. 3d 72",
+     "2011 La. LEXIS 955",
+     "2011 WL 2431055"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2011-04-25",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/62-so-3d-72/state-ex-rel-scott-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5050948 and its twin 2496497). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Scott v. State, 62 So. 3d 72 (La. 2011)",
+    "link_md": "[State ex rel. Scott v. State, 62 So. 3d 72 (La. 2011)](https://syfert.com/louisiana/cases/62-so-3d-72/state-ex-rel-scott-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6134,
+    "twin_clusters": [
+     2496497
+    ]
+   },
+   {
+    "cluster_id": 1090626,
+    "case_name": "Lanier v. State",
+    "citations": [
+     "965 So. 2d 823",
+     "2007 WL 2484941"
+    ],
+    "court": "Supreme Court of Florida",
+    "date_filed": "2007-08-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/965-so-2d-823/lanier-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lanier v. State, 965 So. 2d 823 (Fla. 2007)",
+    "link_md": "[Lanier v. State, 965 So. 2d 823 (Fla. 2007)](https://syfert.com/florida/cases/965-so-2d-823/lanier-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6123
+   },
+   {
+    "cluster_id": 7597619,
+    "case_name": "State v. Williams",
+    "citations": [
+     "435 So. 2d 449",
+     "1983 La. LEXIS 10897"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1983-06-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/435-so-2d-449/state-v-williams",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7597619 and its twin 1732115). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Williams, 435 So. 2d 449 (La. 1983)",
+    "link_md": "[State v. Williams, 435 So. 2d 449 (La. 1983)](https://syfert.com/louisiana/cases/435-so-2d-449/state-v-williams)",
+    "match_kind": "semantic",
+    "similarity": 0.6116,
+    "twin_clusters": [
+     1732115
+    ]
+   },
+   {
+    "cluster_id": 2493158,
+    "case_name": "STATE EX REL. MESHELL v. State",
+    "citations": [
+     "62 So. 3d 107",
+     "2011 WL 2437801"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2011-04-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/62-so-3d-107/state-ex-rel-meshell-v-state",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Meshell v. State, 62 So. 3d 107 (La. 2011)",
+    "link_md": "[State ex rel. Meshell v. State, 62 So. 3d 107 (La. 2011)](https://syfert.com/louisiana/cases/62-so-3d-107/state-ex-rel-meshell-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6089
+   },
+   {
+    "cluster_id": 5057300,
+    "case_name": "State ex rel. Laurent v. State",
+    "citations": [
+     "85 So. 3d 1267",
+     "2012 WL 1507213",
+     "2012 La. LEXIS 1132"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2012-04-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/85-so-3d-1267/state-ex-rel-laurent-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5057300 and its twin 2551055). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Laurent v. State, 85 So. 3d 1267 (La. 2012)",
+    "link_md": "[State ex rel. Laurent v. State, 85 So. 3d 1267 (La. 2012)](https://syfert.com/louisiana/cases/85-so-3d-1267/state-ex-rel-laurent-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6073,
+    "twin_clusters": [
+     2551055
+    ]
+   },
+   {
+    "cluster_id": 2492215,
+    "case_name": "Lalla v. Lalla",
+    "citations": [
+     "68 So. 3d 1029",
+     "2011 WL 3629013"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2011-08-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/68-so-3d-1029/lalla-v-lalla",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Lalla v. Lalla, 68 So. 3d 1029 (La. 2011)",
+    "link_md": "[Lalla v. Lalla, 68 So. 3d 1029 (La. 2011)](https://syfert.com/louisiana/cases/68-so-3d-1029/lalla-v-lalla)",
+    "match_kind": "semantic",
+    "similarity": 0.6063
+   },
+   {
+    "cluster_id": 4985842,
+    "case_name": "State ex rel. Luna v. State",
+    "citations": [
+     "1 So. 3d 470",
+     "2009 La. LEXIS 1372",
+     "2009 WL 511864"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2009-02-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/1-so-3d-470/state-ex-rel-luna-v-state",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (4985842 and its twin 1600862). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. Luna v. State, 1 So. 3d 470 (La. 2009)",
+    "link_md": "[State ex rel. Luna v. State, 1 So. 3d 470 (La. 2009)](https://syfert.com/louisiana/cases/1-so-3d-470/state-ex-rel-luna-v-state)",
+    "match_kind": "semantic",
+    "similarity": 0.6055,
+    "twin_clusters": [
+     1600862
+    ]
+   },
+   {
+    "cluster_id": 2492760,
+    "case_name": "Luna v. Phan",
+    "citations": [
+     "75 So. 3d 280",
+     "2011 WL 5926167"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2011-10-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/75-so-3d-280/luna-v-phan",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Luna v. Phan, 75 So. 3d 280 (Fla. 2d DCA 2011)",
+    "link_md": "[Luna v. Phan, 75 So. 3d 280 (Fla. 2d DCA 2011)](https://syfert.com/florida/cases/75-so-3d-280/luna-v-phan)",
+    "match_kind": "semantic",
+    "similarity": 0.6055
+   },
+   {
+    "cluster_id": 5050808,
+    "case_name": "State ex rel. L.L.",
+    "citations": [
+     "62 So. 3d 109",
+     "2011 La. LEXIS 1137",
+     "2011 WL 2437817"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2011-04-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/62-so-3d-109/state-ex-rel-ll",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (5050808 and its twin 2496013). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State ex rel. L.L., 62 So. 3d 109 (La. 2011)",
+    "link_md": "[State ex rel. L.L., 62 So. 3d 109 (La. 2011)](https://syfert.com/louisiana/cases/62-so-3d-109/state-ex-rel-ll)",
+    "match_kind": "semantic",
+    "similarity": 0.6054,
+    "twin_clusters": [
+     2496013
+    ]
+   },
+   {
+    "cluster_id": 1106952,
+    "case_name": "Bernard v. BP America Production Co.",
+    "citations": [
+     "981 So. 2d 73",
+     "170 Oil & Gas Rep. 689",
+     "7 La.App. 3 Cir. 1249",
+     "2008 La. App. LEXIS 492",
+     "2008 WL 867110"
+    ],
+    "court": "Louisiana Court of Appeal",
+    "date_filed": "2008-04-02",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/louisiana/cases/981-so-2d-73/bernard-v-bp-america-production-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bernard v. BP Am. Prod. Co., 981 So. 2d 73 (La. Ct. App. 2008)",
+    "link_md": "[Bernard v. BP Am. Prod. Co., 981 So. 2d 73 (La. Ct. App. 2008)](https://syfert.com/louisiana/cases/981-so-2d-73/bernard-v-bp-america-production-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6052
+   },
+   {
+    "cluster_id": 1153878,
+    "case_name": "Darden v. Lennox Industries, Inc.",
+    "citations": [
+     "977 So. 2d 916",
+     "2008 WL 1321113"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2008-03-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/977-so-2d-916/darden-v-lennox-industries-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Darden v. Lennox Indus., Inc., 977 So. 2d 916 (La. 2008)",
+    "link_md": "[Darden v. Lennox Indus., Inc., 977 So. 2d 916 (La. 2008)](https://syfert.com/louisiana/cases/977-so-2d-916/darden-v-lennox-industries-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6051
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

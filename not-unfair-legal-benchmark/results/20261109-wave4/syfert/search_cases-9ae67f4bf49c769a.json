@@ -1,0 +1,407 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Rhoades w/15 \"399 N.E.2d 909\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Rhoades w/15 \\\"399 N.E.2d 909\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":7737320,\"case_name\":\"Rhoads v. Heffner\",\"citations\":[\"1 Walk. 377\",\"1881 Pa. LEXIS 253\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1881-03-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/pennsylvania/cases/cl-7737320/rhoads-v-heffner\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 3 clusters (7737320 and its twins 7737321, 7737322). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rhoads v. Heffner, 1 Walk. 377 (Pa. 1881)\",\"link_md\":\"[Rhoads v. Heffner, 1 Walk. 377 (Pa. 1881)](https://syfert.com/pennsylvania/cases/cl-7737320/rhoads-v-heffner)\",\"match_kind\":\"semantic\",\"similarity\":0.7032,\"twin_clusters\":[7737322,7737321]},{\"cluster_id\":7414951,\"case_name\":\"Rhoades v. Freeman\",\"citations\":[\"52 N.Y.S. 1149\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1898-05-10\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/52-n-y-s-1149/rhoades-v-freeman\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rhoades v. Freeman, 52 N.Y.S. 1149 (N.Y. App. Div. 1898)\",\"link_md\":\"[Rhoades v. Freeman, 52 N.Y.S. 1149 (N.Y. App. Div. 1898)](https://syfert.com/new-york/cases/52-n-y-s-1149/rhoades-v-freeman)\",\"match_kind\":\"semantic\",\"similarity\":0.6837},{\"cluster_id\":395868,\"case_name\":\"West v. Rhoades\",\"citations\":[\"661 F.2d 929\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1981-05-29\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/661-f-2d-929/west-v-rhoades\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"West v. Rhoades, 661 F.2d 929 (4th Cir. 1981)\",\"link_md\":\"[West v. Rhoades, 661 F.2d 929 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-929/west-v-rhoades)\",\"match_kind\":\"semantic\",\"similarity\":0.6826},{\"cluster_id\":461716,\"case_name\":\"Bankers Trust v. Rhoades\",\"citations\":[\"779 F.2d 36\"],\"court\":\"Second Circuit\",\"date_filed\":\"1985-09-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/779-f-2d-36/bankers-trust-v-rhoades\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Bankers Trust v. Rhoades, 779 F.2d 36 (2d Cir. 1985)\",\"link_md\":\"[Bankers Trust v. Rhoades, 779 F.2d 36 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/779-f-2d-36/bankers-trust-v-rhoades)\",\"match_kind\":\"semantic\",\"similarity\":0.6815},{\"cluster_id\":371527,\"case_name\":\"Rhoades v. Arbogast\",\"citations\":[\"609 F.2d 503\"],\"court\":\"Third Circuit\",\"date_filed\":\"1979-10-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/609-f-2d-503/rhoades-v-arbogast\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rhoades v. Arbogast, 609 F.2d 503 (3d Cir. 1979)\",\"link_md\":\"[Rhoades v. Arbogast, 609 F.2d 503 (3d Cir. 1979)](https://syfert.com/federal/circuits/cases/609-f-2d-503/rhoades-v-arbogast)\",\"match_kind\":\"semantic\",\"similarity\":0.6812},{\"cluster_id\":8382389,\"case_name\":\"Rhoades v. Secor\",\"citations\":[\"91 Ohio St. (N.S.) 431\"],\"court\":\"Ohio Supreme Court\",\"date_filed\":\"1915-02-16\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/ohio/cases/cl-8382389/rhoades-v-secor\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rhoades v. Secor, 91 Ohio St. (N.S.) 431 (Ohio 1915)\",\"link_md\":\"[Rhoades v. Secor, 91 Ohio St. (N.S.) 431 (Ohio 1915)](https://syfert.com/ohio/cases/cl-8382389/rhoades-v-secor)\",\"match_kind\":\"semantic\",\"similarity\":0.6806},{\"cluster_id\":348104,\"case_name\":\"Reed v. Rhodes\",\"citations\":[\"559 F.2d 1220\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1977-07-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/559-f-2d-1220/reed-v-rhodes\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Reed v. Rhodes, 559 F.2d 1220 (6th Cir. 1977)\",\"link_md\":\"[Reed v. Rhodes, 559 F.2d 1220 (6th Cir. 1977)](https://syfert.com/federal/circuits/cases/559-f-2d-1220/reed-v-rhodes)\",\"match_kind\":\"semantic\",\"similarity\":0.6755},{\"cluster_id\":7756203,\"case_name\":\"Rhoads v. McDonald\",\"citations\":[\"666 So. 2d 315\",\"1996 La. LEXIS 154\",\"1996 WL 15633\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"1996-01-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/666-so-2d-315/rhoads-v-mcdonald\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rhoads v. McDonald, 666 So. 2d 315 (La. 1996)\",\"link_md\":\"[Rhoads v. McDonald, 666 So. 2d 315 (La. 1996)](https://syfert.com/louisiana/cases/666-so-2d-315/rhoads-v-mcdonald)\",\"match_kind\":\"semantic\",\"similarity\":0.6724},{\"cluster_id\":3634227,\"case_name\":\"Matter of Rhoades v. Miller Bros. Constr. Co., Inc.\",\"citations\":[\"200 N.E. 298\",\"270 N.Y. 518\",\"1936 N.Y. LEXIS 1589\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1936-01-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/270-n-y-518/matter-of-rhoades-v-miller-bros-constr-co-inc\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Rhoades v. Miller Bros. Constr. Co., Inc., 200 N.E. 298 (N.Y. 1936)\",\"link_md\":\"[Matter of Rhoades v. Miller Bros. Constr. Co., Inc., 200 N.E. 298 (N.Y. 1936)](https://syfert.com/new-york/cases/270-n-y-518/matter-of-rhoades-v-miller-bros-constr-co-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.672},{\"cluster_id\":5372713,\"case_name\":\"Sanford v. Rhoads\",\"citations\":[\"127 A.D. 922\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1908-06-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/127-a-d-922/sanford-v-rhoads\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Sanford v. Rhoads, 127 A.D. 922 (N.Y. App. Div. 1908)\",\"link_md\":\"[Sanford v. Rhoads, 127 A.D. 922 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/127-a-d-922/sanford-v-rhoads)\",\"match_kind\":\"semantic\",\"similarity\":0.6711},{\"cluster_id\":2505196,\"case_name\":\"State v. Rhodes\",\"citations\":[\"725 S.E.2d 922\",\"221 N.C. App. 246\"],\"court\":\"Court of Appeals of North Carolina\",\"date_filed\":\"2012-06-05\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/north-carolina/cases/221-n-c-app-246/state-v-rhodes\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"State v. Rhodes, 725 S.E.2d 922 (N.C. Ct. App. 2012)\",\"link_md\":\"[State v. Rhodes, 725 S.E.2d 922 (N.C. Ct. App. 2012)](https://syfert.com/north-carolina/cases/221-n-c-app-246/state-v-rhodes)\",\"match_kind\":\"semantic\",\"similarity\":0.67},{\"cluster_id\":3631298,\"case_name\":\"Porter v. . Rhoades\",\"citations\":[\"63 N.E. 1122\",\"170 N.Y. 583\",\"1902 N.Y. LEXIS 1131\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1902-03-07\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/170-n-y-583/porter-v-rhoades\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Porter v. Rhoades, 63 N.E. 1122 (N.Y. 1902)\",\"link_md\":\"[Porter v. Rhoades, 63 N.E. 1122 (N.Y. 1902)](https://syfert.com/new-york/cases/170-n-y-583/porter-v-rhoades)\",\"match_kind\":\"semantic\",\"similarity\":0.6661},{\"cluster_id\":398451,\"case_name\":\"Reed v. Rhodes\",\"citations\":[\"667 F.2d 1027\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1981-10-14\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/667-f-2d-1027/reed-v-rhodes\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Reed v. Rhodes, 667 F.2d 1027 (6th Cir. 1981)\",\"link_md\":\"[Reed v. Rhodes, 667 F.2d 1027 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/667-f-2d-1027/reed-v-rhodes)\",\"match_kind\":\"semantic\",\"similarity\":0.6643},{\"cluster_id\":7343131,\"case_name\":\"Rhoades v. Idaho\",\"citations\":[\"562 U.S. 1258\",\"179 L. Ed. 2d 477\",\"2011 U.S. LEXIS 1820\",\"131 S. Ct. 1571\",\"79 U.S.L.W. 3492\"],\"court\":\"Supreme Court\",\"date_filed\":\"2011-02-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/scotus/cases/562-u-s-1258/rhoades-v-idaho\",\"cited_by_note\":\"CourtListener records no citations for any of this decision's 2 clusters (7343131 and its twin 9236111). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rhoades v. Idaho, 562 U.S. 1258 (2011)\",\"link_md\":\"[Rhoades v. Idaho, 562 U.S. 1258 (2011)](https://syfert.com/federal/scotus/cases/562-u-s-1258/rhoades-v-idaho)\",\"match_kind\":\"semantic\",\"similarity\":0.6581},{\"cluster_id\":322148,\"case_name\":\"Schroeder v. Rhodes\",\"citations\":[\"503 F.2d 1404\"],\"court\":\"Sixth Circuit\",\"date_filed\":\"1974-09-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/503-f-2d-1404/schroeder-v-rhodes\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Schroeder v. Rhodes, 503 F.2d 1404 (6th Cir. 1974)\",\"link_md\":\"[Schroeder v. Rhodes, 503 F.2d 1404 (6th Cir. 1974)](https://syfert.com/federal/circuits/cases/503-f-2d-1404/schroeder-v-rhodes)\",\"match_kind\":\"semantic\",\"similarity\":0.6535},{\"cluster_id\":2498001,\"case_name\":\"Rhoden v. Rhoden\",\"citations\":[\"61 So. 3d 1119\",\"2011 WL 2043591\"],\"court\":\"District Court of Appeal of Florida\",\"date_filed\":\"2011-05-20\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/florida/cases/61-so-3d-1119/rhoden-v-rhoden\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Rhoden v. Rhoden, 61 So. 3d 1119 (Fla. 1st DCA 2011)\",\"link_md\":\"[Rhoden v. Rhoden, 61 So. 3d 1119 (Fla. 1st DCA 2011)](https://syfert.com/florida/cases/61-so-3d-1119/rhoden-v-rhoden)\",\"match_kind\":\"semantic\",\"similarity\":0.648},{\"cluster_id\":307269,\"case_name\":\"Paul Rhodes v. Vaughn Germain\",\"citations\":[\"471 F.2d 26\",\"1972 U.S. App. LEXIS 6135\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1972-12-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/471-f-2d-26/paul-rhodes-v-vaughn-germain\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Paul Rhodes v. Vaughn Germain, 471 F.2d 26 (8th Cir. 1972)\",\"link_md\":\"[Paul Rhodes v. Vaughn Germain, 471 F.2d 26 (8th Cir. 1972)](https://syfert.com/federal/circuits/cases/471-f-2d-26/paul-rhodes-v-vaughn-germain)\",\"match_kind\":\"semantic\",\"similarity\":0.6468},{\"cluster_id\":7966294,\"case_name\":\"Fisher v. Rhoades Construction Co.\",\"citations\":[\"375 P.2d 771\",\"190 Kan. 633\"],\"court\":\"Supreme Court of Kansas\",\"date_filed\":\"1962-12-19\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/kansas/cases/190-kan-633/fisher-v-rhoades-construction-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Fisher v. Rhoades Constr. Co., 375 P.2d 771 (Kan. 1962)\",\"link_md\":\"[Fisher v. Rhoades Constr. Co., 375 P.2d 771 (Kan. 1962)](https://syfert.com/kansas/cases/190-kan-633/fisher-v-rhoades-construction-co)\",\"match_kind\":\"semantic\",\"similarity\":0.643},{\"cluster_id\":287509,\"case_name\":\"Paul E. Rhodes v. Norval Houston\",\"citations\":[\"418 F.2d 1309\",\"1969 U.S. App. LEXIS 9821\"],\"court\":\"Eighth Circuit\",\"date_filed\":\"1969-12-04\",\"status\":\"Published\",\"cited_by\":28,\"url\":\"https://syfert.com/federal/circuits/cases/418-f-2d-1309/paul-e-rhodes-v-norval-houston-paul-e-rhodes-v-clarence-a-h-meyer\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Paul E. Rhodes v. Norval Houston, 418 F.2d 1309 (8th Cir. 1969)\",\"link_md\":\"[Paul E. Rhodes v. Norval Houston, 418 F.2d 1309 (8th Cir. 1969)](https://syfert.com/federal/circuits/cases/418-f-2d-1309/paul-e-rhodes-v-norval-houston-paul-e-rhodes-v-clarence-a-h-meyer)\",\"match_kind\":\"semantic\",\"similarity\":0.6424},{\"cluster_id\":8462783,\"case_name\":\"Hager v. Ese\",\"citations\":[\"137 F. App'x 979\"],\"court\":\"Ninth Circuit\",\"date_filed\":\"2005-06-30\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/137-f-appx-979/hager-v-ese\",\"precedential_status\":\"Unpublished\",\"status_source\":\"inferred_text\",\"status_note\":\"CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not appropriate for publication | cite: 137 F. App'x 979).\",\"bluebook\":\"Hager v. Ese, 137 F. App'x 979 (9th Cir. 2005)\",\"link_md\":\"[Hager v. Ese, 137 F. App'x 979 (9th Cir. 2005)](https://syfert.com/federal/circuits/cases/137-f-appx-979/hager-v-ese)\",\"match_kind\":\"semantic\",\"similarity\":0.6422}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Rhoades w/15 \"399 N.E.2d 909\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 7737320,
+    "case_name": "Rhoads v. Heffner",
+    "citations": [
+     "1 Walk. 377",
+     "1881 Pa. LEXIS 253"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1881-03-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/cl-7737320/rhoads-v-heffner",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 3 clusters (7737320 and its twins 7737321, 7737322). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rhoads v. Heffner, 1 Walk. 377 (Pa. 1881)",
+    "link_md": "[Rhoads v. Heffner, 1 Walk. 377 (Pa. 1881)](https://syfert.com/pennsylvania/cases/cl-7737320/rhoads-v-heffner)",
+    "match_kind": "semantic",
+    "similarity": 0.7032,
+    "twin_clusters": [
+     7737322,
+     7737321
+    ]
+   },
+   {
+    "cluster_id": 7414951,
+    "case_name": "Rhoades v. Freeman",
+    "citations": [
+     "52 N.Y.S. 1149"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1898-05-10",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/52-n-y-s-1149/rhoades-v-freeman",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rhoades v. Freeman, 52 N.Y.S. 1149 (N.Y. App. Div. 1898)",
+    "link_md": "[Rhoades v. Freeman, 52 N.Y.S. 1149 (N.Y. App. Div. 1898)](https://syfert.com/new-york/cases/52-n-y-s-1149/rhoades-v-freeman)",
+    "match_kind": "semantic",
+    "similarity": 0.6837
+   },
+   {
+    "cluster_id": 395868,
+    "case_name": "West v. Rhoades",
+    "citations": [
+     "661 F.2d 929"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1981-05-29",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/661-f-2d-929/west-v-rhoades",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "West v. Rhoades, 661 F.2d 929 (4th Cir. 1981)",
+    "link_md": "[West v. Rhoades, 661 F.2d 929 (4th Cir. 1981)](https://syfert.com/federal/circuits/cases/661-f-2d-929/west-v-rhoades)",
+    "match_kind": "semantic",
+    "similarity": 0.6826
+   },
+   {
+    "cluster_id": 461716,
+    "case_name": "Bankers Trust v. Rhoades",
+    "citations": [
+     "779 F.2d 36"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1985-09-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/779-f-2d-36/bankers-trust-v-rhoades",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Bankers Trust v. Rhoades, 779 F.2d 36 (2d Cir. 1985)",
+    "link_md": "[Bankers Trust v. Rhoades, 779 F.2d 36 (2d Cir. 1985)](https://syfert.com/federal/circuits/cases/779-f-2d-36/bankers-trust-v-rhoades)",
+    "match_kind": "semantic",
+    "similarity": 0.6815
+   },
+   {
+    "cluster_id": 371527,
+    "case_name": "Rhoades v. Arbogast",
+    "citations": [
+     "609 F.2d 503"
+    ],
+    "court": "Third Circuit",
+    "date_filed": "1979-10-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/609-f-2d-503/rhoades-v-arbogast",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rhoades v. Arbogast, 609 F.2d 503 (3d Cir. 1979)",
+    "link_md": "[Rhoades v. Arbogast, 609 F.2d 503 (3d Cir. 1979)](https://syfert.com/federal/circuits/cases/609-f-2d-503/rhoades-v-arbogast)",
+    "match_kind": "semantic",
+    "similarity": 0.6812
+   },
+   {
+    "cluster_id": 8382389,
+    "case_name": "Rhoades v. Secor",
+    "citations": [
+     "91 Ohio St. (N.S.) 431"
+    ],
+    "court": "Ohio Supreme Court",
+    "date_filed": "1915-02-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/ohio/cases/cl-8382389/rhoades-v-secor",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rhoades v. Secor, 91 Ohio St. (N.S.) 431 (Ohio 1915)",
+    "link_md": "[Rhoades v. Secor, 91 Ohio St. (N.S.) 431 (Ohio 1915)](https://syfert.com/ohio/cases/cl-8382389/rhoades-v-secor)",
+    "match_kind": "semantic",
+    "similarity": 0.6806
+   },
+   {
+    "cluster_id": 348104,
+    "case_name": "Reed v. Rhodes",
+    "citations": [
+     "559 F.2d 1220"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1977-07-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/559-f-2d-1220/reed-v-rhodes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Reed v. Rhodes, 559 F.2d 1220 (6th Cir. 1977)",
+    "link_md": "[Reed v. Rhodes, 559 F.2d 1220 (6th Cir. 1977)](https://syfert.com/federal/circuits/cases/559-f-2d-1220/reed-v-rhodes)",
+    "match_kind": "semantic",
+    "similarity": 0.6755
+   },
+   {
+    "cluster_id": 7756203,
+    "case_name": "Rhoads v. McDonald",
+    "citations": [
+     "666 So. 2d 315",
+     "1996 La. LEXIS 154",
+     "1996 WL 15633"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "1996-01-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/666-so-2d-315/rhoads-v-mcdonald",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rhoads v. McDonald, 666 So. 2d 315 (La. 1996)",
+    "link_md": "[Rhoads v. McDonald, 666 So. 2d 315 (La. 1996)](https://syfert.com/louisiana/cases/666-so-2d-315/rhoads-v-mcdonald)",
+    "match_kind": "semantic",
+    "similarity": 0.6724
+   },
+   {
+    "cluster_id": 3634227,
+    "case_name": "Matter of Rhoades v. Miller Bros. Constr. Co., Inc.",
+    "citations": [
+     "200 N.E. 298",
+     "270 N.Y. 518",
+     "1936 N.Y. LEXIS 1589"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1936-01-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/270-n-y-518/matter-of-rhoades-v-miller-bros-constr-co-inc",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Rhoades v. Miller Bros. Constr. Co., Inc., 200 N.E. 298 (N.Y. 1936)",
+    "link_md": "[Matter of Rhoades v. Miller Bros. Constr. Co., Inc., 200 N.E. 298 (N.Y. 1936)](https://syfert.com/new-york/cases/270-n-y-518/matter-of-rhoades-v-miller-bros-constr-co-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.672
+   },
+   {
+    "cluster_id": 5372713,
+    "case_name": "Sanford v. Rhoads",
+    "citations": [
+     "127 A.D. 922"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1908-06-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/127-a-d-922/sanford-v-rhoads",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Sanford v. Rhoads, 127 A.D. 922 (N.Y. App. Div. 1908)",
+    "link_md": "[Sanford v. Rhoads, 127 A.D. 922 (N.Y. App. Div. 1908)](https://syfert.com/new-york/cases/127-a-d-922/sanford-v-rhoads)",
+    "match_kind": "semantic",
+    "similarity": 0.6711
+   },
+   {
+    "cluster_id": 2505196,
+    "case_name": "State v. Rhodes",
+    "citations": [
+     "725 S.E.2d 922",
+     "221 N.C. App. 246"
+    ],
+    "court": "Court of Appeals of North Carolina",
+    "date_filed": "2012-06-05",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/north-carolina/cases/221-n-c-app-246/state-v-rhodes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "State v. Rhodes, 725 S.E.2d 922 (N.C. Ct. App. 2012)",
+    "link_md": "[State v. Rhodes, 725 S.E.2d 922 (N.C. Ct. App. 2012)](https://syfert.com/north-carolina/cases/221-n-c-app-246/state-v-rhodes)",
+    "match_kind": "semantic",
+    "similarity": 0.67
+   },
+   {
+    "cluster_id": 3631298,
+    "case_name": "Porter v. . Rhoades",
+    "citations": [
+     "63 N.E. 1122",
+     "170 N.Y. 583",
+     "1902 N.Y. LEXIS 1131"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1902-03-07",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/170-n-y-583/porter-v-rhoades",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Porter v. Rhoades, 63 N.E. 1122 (N.Y. 1902)",
+    "link_md": "[Porter v. Rhoades, 63 N.E. 1122 (N.Y. 1902)](https://syfert.com/new-york/cases/170-n-y-583/porter-v-rhoades)",
+    "match_kind": "semantic",
+    "similarity": 0.6661
+   },
+   {
+    "cluster_id": 398451,
+    "case_name": "Reed v. Rhodes",
+    "citations": [
+     "667 F.2d 1027"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1981-10-14",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/667-f-2d-1027/reed-v-rhodes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Reed v. Rhodes, 667 F.2d 1027 (6th Cir. 1981)",
+    "link_md": "[Reed v. Rhodes, 667 F.2d 1027 (6th Cir. 1981)](https://syfert.com/federal/circuits/cases/667-f-2d-1027/reed-v-rhodes)",
+    "match_kind": "semantic",
+    "similarity": 0.6643
+   },
+   {
+    "cluster_id": 7343131,
+    "case_name": "Rhoades v. Idaho",
+    "citations": [
+     "562 U.S. 1258",
+     "179 L. Ed. 2d 477",
+     "2011 U.S. LEXIS 1820",
+     "131 S. Ct. 1571",
+     "79 U.S.L.W. 3492"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "2011-02-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/scotus/cases/562-u-s-1258/rhoades-v-idaho",
+    "cited_by_note": "CourtListener records no citations for any of this decision's 2 clusters (7343131 and its twin 9236111). Its count follows its own reporter-cite links, which a recent or re-filed decision often lacks, so 0 is not evidence that no court cites it: get_citing_cases, or search_cases on the citation, shows the opinions that do.",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rhoades v. Idaho, 562 U.S. 1258 (2011)",
+    "link_md": "[Rhoades v. Idaho, 562 U.S. 1258 (2011)](https://syfert.com/federal/scotus/cases/562-u-s-1258/rhoades-v-idaho)",
+    "match_kind": "semantic",
+    "similarity": 0.6581
+   },
+   {
+    "cluster_id": 322148,
+    "case_name": "Schroeder v. Rhodes",
+    "citations": [
+     "503 F.2d 1404"
+    ],
+    "court": "Sixth Circuit",
+    "date_filed": "1974-09-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/503-f-2d-1404/schroeder-v-rhodes",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Schroeder v. Rhodes, 503 F.2d 1404 (6th Cir. 1974)",
+    "link_md": "[Schroeder v. Rhodes, 503 F.2d 1404 (6th Cir. 1974)](https://syfert.com/federal/circuits/cases/503-f-2d-1404/schroeder-v-rhodes)",
+    "match_kind": "semantic",
+    "similarity": 0.6535
+   },
+   {
+    "cluster_id": 2498001,
+    "case_name": "Rhoden v. Rhoden",
+    "citations": [
+     "61 So. 3d 1119",
+     "2011 WL 2043591"
+    ],
+    "court": "District Court of Appeal of Florida",
+    "date_filed": "2011-05-20",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/florida/cases/61-so-3d-1119/rhoden-v-rhoden",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Rhoden v. Rhoden, 61 So. 3d 1119 (Fla. 1st DCA 2011)",
+    "link_md": "[Rhoden v. Rhoden, 61 So. 3d 1119 (Fla. 1st DCA 2011)](https://syfert.com/florida/cases/61-so-3d-1119/rhoden-v-rhoden)",
+    "match_kind": "semantic",
+    "similarity": 0.648
+   },
+   {
+    "cluster_id": 307269,
+    "case_name": "Paul Rhodes v. Vaughn Germain",
+    "citations": [
+     "471 F.2d 26",
+     "1972 U.S. App. LEXIS 6135"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1972-12-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/471-f-2d-26/paul-rhodes-v-vaughn-germain",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Paul Rhodes v. Vaughn Germain, 471 F.2d 26 (8th Cir. 1972)",
+    "link_md": "[Paul Rhodes v. Vaughn Germain, 471 F.2d 26 (8th Cir. 1972)](https://syfert.com/federal/circuits/cases/471-f-2d-26/paul-rhodes-v-vaughn-germain)",
+    "match_kind": "semantic",
+    "similarity": 0.6468
+   },
+   {
+    "cluster_id": 7966294,
+    "case_name": "Fisher v. Rhoades Construction Co.",
+    "citations": [
+     "375 P.2d 771",
+     "190 Kan. 633"
+    ],
+    "court": "Supreme Court of Kansas",
+    "date_filed": "1962-12-19",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/kansas/cases/190-kan-633/fisher-v-rhoades-construction-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Fisher v. Rhoades Constr. Co., 375 P.2d 771 (Kan. 1962)",
+    "link_md": "[Fisher v. Rhoades Constr. Co., 375 P.2d 771 (Kan. 1962)](https://syfert.com/kansas/cases/190-kan-633/fisher-v-rhoades-construction-co)",
+    "match_kind": "semantic",
+    "similarity": 0.643
+   },
+   {
+    "cluster_id": 287509,
+    "case_name": "Paul E. Rhodes v. Norval Houston",
+    "citations": [
+     "418 F.2d 1309",
+     "1969 U.S. App. LEXIS 9821"
+    ],
+    "court": "Eighth Circuit",
+    "date_filed": "1969-12-04",
+    "status": "Published",
+    "cited_by": 28,
+    "url": "https://syfert.com/federal/circuits/cases/418-f-2d-1309/paul-e-rhodes-v-norval-houston-paul-e-rhodes-v-clarence-a-h-meyer",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Paul E. Rhodes v. Norval Houston, 418 F.2d 1309 (8th Cir. 1969)",
+    "link_md": "[Paul E. Rhodes v. Norval Houston, 418 F.2d 1309 (8th Cir. 1969)](https://syfert.com/federal/circuits/cases/418-f-2d-1309/paul-e-rhodes-v-norval-houston-paul-e-rhodes-v-clarence-a-h-meyer)",
+    "match_kind": "semantic",
+    "similarity": 0.6424
+   },
+   {
+    "cluster_id": 8462783,
+    "case_name": "Hager v. Ese",
+    "citations": [
+     "137 F. App'x 979"
+    ],
+    "court": "Ninth Circuit",
+    "date_filed": "2005-06-30",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/137-f-appx-979/hager-v-ese",
+    "precedential_status": "Unpublished",
+    "status_source": "inferred_text",
+    "status_note": "CourtListener's label corrected from the record (overrides CourtListener 'Published'; text: not appropriate for publication | cite: 137 F. App'x 979).",
+    "bluebook": "Hager v. Ese, 137 F. App'x 979 (9th Cir. 2005)",
+    "link_md": "[Hager v. Ese, 137 F. App'x 979 (9th Cir. 2005)](https://syfert.com/federal/circuits/cases/137-f-appx-979/hager-v-ese)",
+    "match_kind": "semantic",
+    "similarity": 0.6422
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

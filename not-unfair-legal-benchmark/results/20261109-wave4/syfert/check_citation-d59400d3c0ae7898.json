@@ -1,0 +1,239 @@
+{
+ "tool": "check_citation",
+ "args": {
+  "citation": "250 A.3d 1160",
+  "expected_case_name": "Commonwealth v. Ford, D."
+ },
+ "is_error": false,
+ "text": "{\n    \"citation_checked\": \"250 A.3d 1160\",\n    \"found\": true,\n    \"matches\": [\n        {\n            \"cluster_id\": 4864024,\n            \"case_name\": \"Commonwealth v. Ford, D.\",\n            \"citations\": [\n                \"250 A.3d 1160\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"250 A.3d 1159\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4864021,\n                        \"case_name\": \"Commonwealth v. Williams, M.\"\n                    }\n                }\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"2021-03-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-ford-d\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"250 A.3d 1159\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/250%20A.3d\"\n                },\n                {\n                    \"citation\": \"250 A.3d 1160\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/250%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Commonwealth v. Ford, D., 250 A.3d 1160 (Pa. 2021)\",\n            \"link_md\": \"[Commonwealth v. Ford, D., 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-ford-d)\"\n        },\n        {\n            \"cluster_id\": 4864025,\n            \"case_name\": \"Commonwealth v. Ford, D.\",\n            \"citations\": [\n                \"250 A.3d 1160\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"250 A.3d 1159\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4864021,\n                        \"case_name\": \"Commonwealth v. Williams, M.\"\n                    }\n                }\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"2021-03-15\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/250-a-3d-1159/commonwealth-v-ford-d\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"250 A.3d 1159\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/250%20A.3d\"\n                },\n                {\n                    \"citation\": \"250 A.3d 1160\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/250%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Commonwealth v. Ford, D., 250 A.3d 1160 (Pa. 2021)\",\n            \"link_md\": \"[Commonwealth v. Ford, D., 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1159/commonwealth-v-ford-d)\"\n        },\n        {\n            \"cluster_id\": 4864593,\n            \"case_name\": \"Commonwealth V. Nickens v. IV\",\n            \"citations\": [\n                \"250 A.3d 1160\"\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"2021-03-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-nickens-v-iv\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"250 A.3d 1160\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/250%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Commonwealth V. Nickens v. IV, 250 A.3d 1160 (Pa. 2021)\",\n            \"link_md\": \"[Commonwealth V. Nickens v. IV, 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-nickens-v-iv)\",\n            \"case_name_raw\": \"Commonwealth v. Nickens v. IV\"\n        },\n        {\n            \"cluster_id\": 4864596,\n            \"case_name\": \"Commonwealth v. Ellis, K., Pet\",\n            \"citations\": [\n                \"250 A.3d 1160\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"250 A.3d 1162\",\n                    \"this_case\": true\n                }\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"2021-03-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/250-a-3d-1162/commonwealth-v-ellis-k-pet\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"250 A.3d 1160\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/250%20A.3d\"\n                },\n                {\n                    \"citation\": \"250 A.3d 1162\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/250%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Commonwealth v. Ellis, K., 250 A.3d 1160 (Pa. 2021)\",\n            \"link_md\": \"[Commonwealth v. Ellis, K., 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1162/commonwealth-v-ellis-k-pet)\"\n        },\n        {\n            \"cluster_id\": 4864597,\n            \"case_name\": \"Commonwealth v. Ellis, K., Pet\",\n            \"citations\": [\n                \"250 A.3d 1160\"\n            ],\n            \"other_pages_filed\": [\n                {\n                    \"citation\": \"250 A.3d 1162\",\n                    \"this_case\": false,\n                    \"first_page_of\": {\n                        \"cluster_id\": 4864596,\n                        \"case_name\": \"Commonwealth v. Ellis, K., Pet\"\n                    }\n                }\n            ],\n            \"court\": \"Supreme Court of Pennsylvania\",\n            \"date_filed\": \"2021-03-16\",\n            \"status\": \"Published\",\n            \"cited_by\": 0,\n            \"url\": \"https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-ellis-k-pet\",\n            \"precedential_status\": \"Published\",\n            \"status_source\": \"courtlistener\",\n            \"citation_provenance\": [\n                {\n                    \"citation\": \"250 A.3d 1160\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/250%20A.3d\"\n                },\n                {\n                    \"citation\": \"250 A.3d 1162\",\n                    \"recovered_from_citing_opinions\": 0,\n                    \"source\": \"name_year_recovery\",\n                    \"via\": \"gapfill\",\n                    \"method\": \"leagle_volume_listing\",\n                    \"confidence\": 0.9,\n                    \"note\": \"Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it\",\n                    \"evidence_url\": \"https://www.leagle.com/decisions/browse/series/volume/250%20A.3d\"\n                }\n            ],\n            \"bluebook\": \"Commonwealth v. Ellis, K., 250 A.3d 1160 (Pa. 2021)\",\n            \"link_md\": \"[Commonwealth v. Ellis, K., 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-ellis-k-pet)\"\n        }\n    ],\n    \"verdict\": \"found\",\n    \"name_check\": {\n        \"expected\": \"Commonwealth v. Ford, D.\",\n        \"actual\": \"Commonwealth v. Ford, D.\",\n        \"verdict\": \"match\",\n        \"similarity\": 1\n    }\n}",
+ "json": {
+  "citation_checked": "250 A.3d 1160",
+  "found": true,
+  "matches": [
+   {
+    "cluster_id": 4864024,
+    "case_name": "Commonwealth v. Ford, D.",
+    "citations": [
+     "250 A.3d 1160"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "250 A.3d 1159",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4864021,
+       "case_name": "Commonwealth v. Williams, M."
+      }
+     }
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2021-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-ford-d",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "250 A.3d 1159",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.3d"
+     },
+     {
+      "citation": "250 A.3d 1160",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.3d"
+     }
+    ],
+    "bluebook": "Commonwealth v. Ford, D., 250 A.3d 1160 (Pa. 2021)",
+    "link_md": "[Commonwealth v. Ford, D., 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-ford-d)"
+   },
+   {
+    "cluster_id": 4864025,
+    "case_name": "Commonwealth v. Ford, D.",
+    "citations": [
+     "250 A.3d 1160"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "250 A.3d 1159",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4864021,
+       "case_name": "Commonwealth v. Williams, M."
+      }
+     }
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2021-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/250-a-3d-1159/commonwealth-v-ford-d",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "250 A.3d 1159",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.3d"
+     },
+     {
+      "citation": "250 A.3d 1160",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.3d"
+     }
+    ],
+    "bluebook": "Commonwealth v. Ford, D., 250 A.3d 1160 (Pa. 2021)",
+    "link_md": "[Commonwealth v. Ford, D., 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1159/commonwealth-v-ford-d)"
+   },
+   {
+    "cluster_id": 4864593,
+    "case_name": "Commonwealth V. Nickens v. IV",
+    "citations": [
+     "250 A.3d 1160"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2021-03-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-nickens-v-iv",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "250 A.3d 1160",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.3d"
+     }
+    ],
+    "bluebook": "Commonwealth V. Nickens v. IV, 250 A.3d 1160 (Pa. 2021)",
+    "link_md": "[Commonwealth V. Nickens v. IV, 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-nickens-v-iv)",
+    "case_name_raw": "Commonwealth v. Nickens v. IV"
+   },
+   {
+    "cluster_id": 4864596,
+    "case_name": "Commonwealth v. Ellis, K., Pet",
+    "citations": [
+     "250 A.3d 1160"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "250 A.3d 1162",
+      "this_case": true
+     }
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2021-03-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/250-a-3d-1162/commonwealth-v-ellis-k-pet",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "250 A.3d 1160",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.3d"
+     },
+     {
+      "citation": "250 A.3d 1162",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.3d"
+     }
+    ],
+    "bluebook": "Commonwealth v. Ellis, K., 250 A.3d 1160 (Pa. 2021)",
+    "link_md": "[Commonwealth v. Ellis, K., 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1162/commonwealth-v-ellis-k-pet)"
+   },
+   {
+    "cluster_id": 4864597,
+    "case_name": "Commonwealth v. Ellis, K., Pet",
+    "citations": [
+     "250 A.3d 1160"
+    ],
+    "other_pages_filed": [
+     {
+      "citation": "250 A.3d 1162",
+      "this_case": false,
+      "first_page_of": {
+       "cluster_id": 4864596,
+       "case_name": "Commonwealth v. Ellis, K., Pet"
+      }
+     }
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "2021-03-16",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-ellis-k-pet",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "citation_provenance": [
+     {
+      "citation": "250 A.3d 1160",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.3d"
+     },
+     {
+      "citation": "250 A.3d 1162",
+      "recovered_from_citing_opinions": 0,
+      "source": "name_year_recovery",
+      "via": "gapfill",
+      "method": "leagle_volume_listing",
+      "confidence": 0.9,
+      "note": "Reporter citation from Leagle's volume listing (reporter pagination from the advance sheets and bound volumes), matched to this case by court, decision date and name (gap-fill, confidence 0.90); CourtListener carries no reporter cite for it",
+      "evidence_url": "https://www.leagle.com/decisions/browse/series/volume/250%20A.3d"
+     }
+    ],
+    "bluebook": "Commonwealth v. Ellis, K., 250 A.3d 1160 (Pa. 2021)",
+    "link_md": "[Commonwealth v. Ellis, K., 250 A.3d 1160 (Pa. 2021)](https://syfert.com/pennsylvania/cases/250-a-3d-1160/commonwealth-v-ellis-k-pet)"
+   }
+  ],
+  "verdict": "found",
+  "name_check": {
+   "expected": "Commonwealth v. Ford, D.",
+   "actual": "Commonwealth v. Ford, D.",
+   "verdict": "match",
+   "similarity": 1
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Maryland-National w/15 \"325 A.2d 740\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Maryland-National w/15 \\\"325 A.2d 740\\\"\",\"total\":2,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1520508,\"bluebook\":\"Md.-Nat'l Cap. P. & P. Comm'n v. Crawford, 511 A.2d 1079 (Md. 1986)\",\"url\":\"https://syfert.com/maryland/cases/307-md-1/md-natl-cap-p-p-commn-v-crawford\",\"date_filed\":\"1986-07-16\",\"cited_by\":72,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...at 575 , 325 A.2d 740 . Later, in National Asphalt v. Prince Geo's Co., 292 Md. 75 , 437 A.2d 651 (1981), this Court held that, by enacting the employment discrimination provisions in the Human Relations Commission Article of the Code,…\",\"holding\":\"A trial court may order a stay when both administrative and independent judicial remedies are available for a claim of employment discrimination.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":7965602,\"bluebook\":\"Maryland-Nat'l Capital Park v. Crawford, 511 A.2d 1079 (Md. 1986)\",\"url\":\"https://syfert.com/maryland/cases/307-md-1/maryland-national-capital-park-v-crawford\",\"date_filed\":\"1986-07-16\",\"cited_by\":29,\"snippet\":\"...at 575 , 325 A.2d 740 . Later, in National Asphalt v. Prince Geo’s Co., 292 Md. 75 , 437 A.2d 651 (1981), this Court held that, by enacting the employment discrimination provisions in the Human Relations Commission Article of the Code,…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Maryland-National w/15 \"325 A.2d 740\"",
+  "total": 2,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1520508,
+    "bluebook": "Md.-Nat'l Cap. P. & P. Comm'n v. Crawford, 511 A.2d 1079 (Md. 1986)",
+    "url": "https://syfert.com/maryland/cases/307-md-1/md-natl-cap-p-p-commn-v-crawford",
+    "date_filed": "1986-07-16",
+    "cited_by": 72,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...at 575 , 325 A.2d 740 . Later, in National Asphalt v. Prince Geo's Co., 292 Md. 75 , 437 A.2d 651 (1981), this Court held that, by enacting the employment discrimination provisions in the Human Relations Commission Article of the Code,…",
+    "holding": "A trial court may order a stay when both administrative and independent judicial remedies are available for a claim of employment discrimination.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 7965602,
+    "bluebook": "Maryland-Nat'l Capital Park v. Crawford, 511 A.2d 1079 (Md. 1986)",
+    "url": "https://syfert.com/maryland/cases/307-md-1/maryland-national-capital-park-v-crawford",
+    "date_filed": "1986-07-16",
+    "cited_by": 29,
+    "snippet": "...at 575 , 325 A.2d 740 . Later, in National Asphalt v. Prince Geo’s Co., 292 Md. 75 , 437 A.2d 651 (1981), this Court held that, by enacting the employment discrimination provisions in the Human Relations Commission Article of the Code,…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

@@ -1,0 +1,406 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Nonnon w/15 \"932 NYS2d 428\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Nonnon w/15 \\\"932 NYS2d 428\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":6045731,\"case_name\":\"Arthur at the Westchester, Inc. v. Westchester Mall, LLC\",\"citations\":[\"104 A.D.3d 471\",\"960 N.Y.S.2d 417\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2013-03-12\",\"status\":\"Published\",\"cited_by\":2,\"url\":\"https://syfert.com/new-york/cases/104-a-d-3d-471/arthur-at-the-westchester-inc-v-westchester-mall-llc\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (6045731 and its twin 6045735).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Arthur at the Westchester, Inc. v. Westchester Mall, LLC, 104 A.D.3d 471 (N.Y. App. Div. 1st Dep't 2013)\",\"link_md\":\"[Arthur at the Westchester, Inc. v. Westchester Mall, LLC, 104 A.D.3d 471 (N.Y. App. Div. 1st Dep't 2013)](https://syfert.com/new-york/cases/104-a-d-3d-471/arthur-at-the-westchester-inc-v-westchester-mall-llc)\",\"match_kind\":\"semantic\",\"similarity\":0.6482,\"twin_clusters\":[6045735]},{\"cluster_id\":2750977,\"case_name\":\"Clement v. New York City Transit Authority\",\"citations\":[\"122 A.D.3d 448\",\"997 N.Y.S.2d 18\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2014-11-13\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/122-a-d-3d-448/clement-v-new-york-city-transit-authority\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clement v. New York City Transit Auth., 122 A.D.3d 448 (N.Y. App. Div. 1st Dep't 2014)\",\"link_md\":\"[Clement v. New York City Transit Auth., 122 A.D.3d 448 (N.Y. App. Div. 1st Dep't 2014)](https://syfert.com/new-york/cases/122-a-d-3d-448/clement-v-new-york-city-transit-authority)\",\"match_kind\":\"semantic\",\"similarity\":0.6463},{\"cluster_id\":6169227,\"case_name\":\"Burstein v. City of New York\",\"citations\":[\"259 A.D.2d 579\",\"686 N.Y.S.2d 492\",\"1999 N.Y. App. Div. LEXIS 2459\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1999-03-15\",\"status\":\"Published\",\"cited_by\":6,\"url\":\"https://syfert.com/new-york/cases/259-a-d-2d-579/burstein-v-city-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Burstein v. City of New York, 259 A.D.2d 579 (N.Y. App. Div. 2d Dep't 1999)\",\"link_md\":\"[Burstein v. City of New York, 259 A.D.2d 579 (N.Y. App. Div. 2d Dep't 1999)](https://syfert.com/new-york/cases/259-a-d-2d-579/burstein-v-city-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6445},{\"cluster_id\":9487704,\"case_name\":\"Comfort Living Furniture Inc. v. McDonald Design Furniture Inc.\",\"citations\":[\"2024 NY Slip Op 30905(U)\"],\"court\":\"New York Supreme Court, Kings County\",\"date_filed\":\"2024-03-19\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-9487704/comfort-living-furniture-inc-v-mcdonald-design-furniture-inc\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Comfort Living Furniture Inc. v. McDonald Design Furniture Inc., 2024 NY Slip Op 30905(U) (N.Y. Sup. Kings 2024)\",\"link_md\":\"[Comfort Living Furniture Inc. v. McDonald Design Furniture Inc., 2024 NY Slip Op 30905(U) (N.Y. Sup. Kings 2024)](https://syfert.com/new-york/cases/cl-9487704/comfort-living-furniture-inc-v-mcdonald-design-furniture-inc)\",\"match_kind\":\"semantic\",\"similarity\":0.6426},{\"cluster_id\":5387841,\"case_name\":\"Cooper v. Hedden Construction Co.\",\"citations\":[\"150 A.D. 698\",\"135 N.Y.S. 746\",\"1912 N.Y. App. Div. LEXIS 7195\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1912-05-31\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/150-a-d-698/cooper-v-hedden-construction-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Cooper v. Hedden Constr. Co., 150 A.D. 698 (N.Y. App. Div. 1912)\",\"link_md\":\"[Cooper v. Hedden Constr. Co., 150 A.D. 698 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/150-a-d-698/cooper-v-hedden-construction-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6386},{\"cluster_id\":6154215,\"case_name\":\"Kurzner v. Sutton Owners Corp.\",\"citations\":[\"245 A.D.2d 101\",\"666 N.Y.S.2d 135\",\"1997 N.Y. App. Div. LEXIS 12925\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1997-12-11\",\"status\":\"Published\",\"cited_by\":4,\"url\":\"https://syfert.com/new-york/cases/245-a-d-2d-101/kurzner-v-sutton-owners-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kurzner v. Sutton Owners Corp., 245 A.D.2d 101 (N.Y. App. Div. 1st Dep't 1997)\",\"link_md\":\"[Kurzner v. Sutton Owners Corp., 245 A.D.2d 101 (N.Y. App. Div. 1st Dep't 1997)](https://syfert.com/new-york/cases/245-a-d-2d-101/kurzner-v-sutton-owners-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6371},{\"cluster_id\":4429924,\"case_name\":\"Matter of Pastor\",\"citations\":[\"2017 NY Slip Op 6729\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2017-09-28\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-4429924/matter-of-pastor\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Matter of Pastor, 2017 NY Slip Op 6729 (N.Y. App. Div. 1st Dep't 2017)\",\"link_md\":\"[Matter of Pastor, 2017 NY Slip Op 6729 (N.Y. App. Div. 1st Dep't 2017)](https://syfert.com/new-york/cases/cl-4429924/matter-of-pastor)\",\"match_kind\":\"semantic\",\"similarity\":0.6358},{\"cluster_id\":4466799,\"case_name\":\"Jimerson v. State of New York\",\"citations\":[\"2018 NY Slip Op 1014\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2018-02-09\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-4466799/jimerson-v-state-of-new-york\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Jimerson v. State of New York, 2018 NY Slip Op 1014 (N.Y. App. Div. 4th Dep't 2018)\",\"link_md\":\"[Jimerson v. State of New York, 2018 NY Slip Op 1014 (N.Y. App. Div. 4th Dep't 2018)](https://syfert.com/new-york/cases/cl-4466799/jimerson-v-state-of-new-york)\",\"match_kind\":\"semantic\",\"similarity\":0.6351},{\"cluster_id\":5686101,\"case_name\":\"Eagle v. Paterson\",\"citations\":[\"442 N.E.2d 56\",\"57 N.Y.2d 831\",\"455 N.Y.S.2d 759\",\"1982 N.Y. LEXIS 3730\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1982-10-07\",\"status\":\"Published\",\"cited_by\":49,\"url\":\"https://syfert.com/new-york/cases/57-n-y-2d-831/eagle-v-paterson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Eagle v. Paterson, 442 N.E.2d 56 (N.Y. 1982)\",\"link_md\":\"[Eagle v. Paterson, 442 N.E.2d 56 (N.Y. 1982)](https://syfert.com/new-york/cases/57-n-y-2d-831/eagle-v-paterson)\",\"match_kind\":\"semantic\",\"similarity\":0.6345},{\"cluster_id\":10852778,\"case_name\":\"People v. Torres\",\"citations\":[\"2026 NY Slip Op 26063\"],\"court\":\"Appellate Terms of the Supreme Court of New York\",\"date_filed\":\"2026-04-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-10852778/people-v-torres\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Torres, 2026 NY Slip Op 26063 (N.Y. App. Term. 2026)\",\"link_md\":\"[People v. Torres, 2026 NY Slip Op 26063 (N.Y. App. Term. 2026)](https://syfert.com/new-york/cases/cl-10852778/people-v-torres)\",\"match_kind\":\"semantic\",\"similarity\":0.6336},{\"cluster_id\":3913707,\"case_name\":\"Biggs v. . Asheville\",\"citations\":[\"151 S.E. 199\",\"198 N.C. 271\",\"1930 N.C. LEXIS 321\"],\"court\":\"Supreme Court of North Carolina\",\"date_filed\":\"1930-01-22\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/north-carolina/cases/198-n-c-271/biggs-v-asheville\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Biggs v. Asheville, 151 S.E. 199 (N.C. 1930)\",\"link_md\":\"[Biggs v. Asheville, 151 S.E. 199 (N.C. 1930)](https://syfert.com/north-carolina/cases/198-n-c-271/biggs-v-asheville)\",\"match_kind\":\"semantic\",\"similarity\":0.633},{\"cluster_id\":10713462,\"case_name\":\"UFH Apts. Inc. v. Vyskovsky\",\"citations\":[\"2025 NY Slip Op 25228\"],\"court\":\"NYC Civil Court, New York\",\"date_filed\":\"2025-10-14\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/cl-10713462/ufh-apts-inc-v-vyskovsky\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"UFH Apts. Inc. v. Vyskovsky, 2025 NY Slip Op 25228 (Civ. Ct. NYC, NY Cty. 2025)\",\"link_md\":\"[UFH Apts. Inc. v. Vyskovsky, 2025 NY Slip Op 25228 (Civ. Ct. NYC, NY Cty. 2025)](https://syfert.com/new-york/cases/cl-10713462/ufh-apts-inc-v-vyskovsky)\",\"match_kind\":\"semantic\",\"similarity\":0.6326},{\"cluster_id\":6387044,\"case_name\":\"Pennington v. Klemanski\",\"citations\":[\"123 A. 491\",\"278 Pa. 591\",\"1924 Pa. LEXIS 453\"],\"court\":\"Supreme Court of Pennsylvania\",\"date_filed\":\"1924-01-07\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/pennsylvania/cases/278-pa-591/pennington-v-klemanski\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Pennington v. Klemanski, 123 A. 491 (Pa. 1924)\",\"link_md\":\"[Pennington v. Klemanski, 123 A. 491 (Pa. 1924)](https://syfert.com/pennsylvania/cases/278-pa-591/pennington-v-klemanski)\",\"match_kind\":\"semantic\",\"similarity\":0.6311},{\"cluster_id\":4375733,\"case_name\":\"People v. Sauri (Josefina)\",\"citations\":[],\"court\":\"Appellate Terms of the Supreme Court of New York\",\"date_filed\":\"2017-03-13\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-4375733/people-v-sauri-josefina\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Sauri (Josefina), No. 2017 NYSlipOp 50303(U) (N.Y. App. Term. Mar. 13, 2017)\",\"link_md\":\"[People v. Sauri (Josefina), No. 2017 NYSlipOp 50303(U) (N.Y. App. Term. Mar. 13, 2017)](https://syfert.com/new-york/cases/cl-4375733/people-v-sauri-josefina)\",\"match_kind\":\"semantic\",\"similarity\":0.6308},{\"cluster_id\":6200381,\"case_name\":\"Metropolitan Transportation Authority v. 2 Broadway L. L. C.\",\"citations\":[\"279 A.D.2d 315\",\"720 N.Y.S.2d 12\",\"2001 N.Y. App. Div. LEXIS 425\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"2001-01-16\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/new-york/cases/279-a-d-2d-315/metropolitan-transportation-authority-v-2-broadway-l-l-c\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Metro. Transp. Auth. v. 2 Broadway L. L. C., 279 A.D.2d 315 (N.Y. App. Div. 1st Dep't 2001)\",\"link_md\":\"[Metro. Transp. Auth. v. 2 Broadway L. L. C., 279 A.D.2d 315 (N.Y. App. Div. 1st Dep't 2001)](https://syfert.com/new-york/cases/279-a-d-2d-315/metropolitan-transportation-authority-v-2-broadway-l-l-c)\",\"match_kind\":\"semantic\",\"similarity\":0.6308},{\"cluster_id\":8712049,\"case_name\":\"Kuboosh v. Allied Stores Corp.\",\"citations\":[\"79 F. Supp. 205\",\"1948 U.S. Dist. LEXIS 2260\"],\"court\":\"S.D. New York\",\"date_filed\":\"1948-03-31\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/district/cases/79-f-supp-205/kuboosh-v-allied-stores-corp\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Kuboosh v. Allied Stores Corp., 79 F. Supp. 205 (S.D.N.Y. 1948)\",\"link_md\":\"[Kuboosh v. Allied Stores Corp., 79 F. Supp. 205 (S.D.N.Y. 1948)](https://syfert.com/federal/district/cases/79-f-supp-205/kuboosh-v-allied-stores-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.6306},{\"cluster_id\":6316741,\"case_name\":\"De Paso v. Cooper\",\"citations\":[\"43 Misc. 2d 160\",\"250 N.Y.S.2d 556\",\"1964 N.Y. Misc. LEXIS 1781\"],\"court\":\"New York County Courts\",\"date_filed\":\"1964-05-11\",\"status\":\"Published\",\"cited_by\":3,\"url\":\"https://syfert.com/new-york/cases/43-misc-2d-160/de-paso-v-cooper\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"De Paso v. Cooper, 43 Misc. 2d 160 (N.Y. Cnty. Ct. 1964)\",\"link_md\":\"[De Paso v. Cooper, 43 Misc. 2d 160 (N.Y. Cnty. Ct. 1964)](https://syfert.com/new-york/cases/43-misc-2d-160/de-paso-v-cooper)\",\"match_kind\":\"semantic\",\"similarity\":0.6302},{\"cluster_id\":4761468,\"case_name\":\"People v. Pinkney (Antoine)\",\"citations\":[],\"court\":\"Appellate Terms of the Supreme Court of New York\",\"date_filed\":\"2020-06-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/cl-4761468/people-v-pinkney-antoine\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"People v. Pinkney (Antoine), No. 2020 NYSlipOp 50682(U) (N.Y. App. Term. June 11, 2020)\",\"link_md\":\"[People v. Pinkney (Antoine), No. 2020 NYSlipOp 50682(U) (N.Y. App. Term. June 11, 2020)](https://syfert.com/new-york/cases/cl-4761468/people-v-pinkney-antoine)\",\"match_kind\":\"semantic\",\"similarity\":0.63},{\"cluster_id\":7423052,\"case_name\":\"Village of Fayetteville v. Syracuse & Suburban Railroad\",\"citations\":[\"70 N.Y.S. 1151\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1901-03-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/70-n-y-s-1151/village-of-fayetteville-v-syracuse-suburban-railroad\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Vill. of Fayetteville v. Syracuse & Suburban R.R., 70 N.Y.S. 1151 (N.Y. App. Div. 1901)\",\"link_md\":\"[Vill. of Fayetteville v. Syracuse & Suburban R.R., 70 N.Y.S. 1151 (N.Y. App. Div. 1901)](https://syfert.com/new-york/cases/70-n-y-s-1151/village-of-fayetteville-v-syracuse-suburban-railroad)\",\"match_kind\":\"semantic\",\"similarity\":0.6291},{\"cluster_id\":628155,\"case_name\":\"Donnelly v. Bk of New York Co\",\"citations\":[\"2 F.3d 403\",\"1993 U.S. App. LEXIS 28910\",\"1993 WL 306249\"],\"court\":\"Second Circuit\",\"date_filed\":\"1993-07-02\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/2-f-3d-403/donnelly-v-bk-of-new-york-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Donnelly v. Bk of New York Co, 2 F.3d 403 (2d Cir. 1993)\",\"link_md\":\"[Donnelly v. Bk of New York Co, 2 F.3d 403 (2d Cir. 1993)](https://syfert.com/federal/circuits/cases/2-f-3d-403/donnelly-v-bk-of-new-york-co)\",\"match_kind\":\"semantic\",\"similarity\":0.629}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Nonnon w/15 \"932 NYS2d 428\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 6045731,
+    "case_name": "Arthur at the Westchester, Inc. v. Westchester Mall, LLC",
+    "citations": [
+     "104 A.D.3d 471",
+     "960 N.Y.S.2d 417"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2013-03-12",
+    "status": "Published",
+    "cited_by": 2,
+    "url": "https://syfert.com/new-york/cases/104-a-d-3d-471/arthur-at-the-westchester-inc-v-westchester-mall-llc",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (6045731 and its twin 6045735).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Arthur at the Westchester, Inc. v. Westchester Mall, LLC, 104 A.D.3d 471 (N.Y. App. Div. 1st Dep't 2013)",
+    "link_md": "[Arthur at the Westchester, Inc. v. Westchester Mall, LLC, 104 A.D.3d 471 (N.Y. App. Div. 1st Dep't 2013)](https://syfert.com/new-york/cases/104-a-d-3d-471/arthur-at-the-westchester-inc-v-westchester-mall-llc)",
+    "match_kind": "semantic",
+    "similarity": 0.6482,
+    "twin_clusters": [
+     6045735
+    ]
+   },
+   {
+    "cluster_id": 2750977,
+    "case_name": "Clement v. New York City Transit Authority",
+    "citations": [
+     "122 A.D.3d 448",
+     "997 N.Y.S.2d 18"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2014-11-13",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/122-a-d-3d-448/clement-v-new-york-city-transit-authority",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Clement v. New York City Transit Auth., 122 A.D.3d 448 (N.Y. App. Div. 1st Dep't 2014)",
+    "link_md": "[Clement v. New York City Transit Auth., 122 A.D.3d 448 (N.Y. App. Div. 1st Dep't 2014)](https://syfert.com/new-york/cases/122-a-d-3d-448/clement-v-new-york-city-transit-authority)",
+    "match_kind": "semantic",
+    "similarity": 0.6463
+   },
+   {
+    "cluster_id": 6169227,
+    "case_name": "Burstein v. City of New York",
+    "citations": [
+     "259 A.D.2d 579",
+     "686 N.Y.S.2d 492",
+     "1999 N.Y. App. Div. LEXIS 2459"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1999-03-15",
+    "status": "Published",
+    "cited_by": 6,
+    "url": "https://syfert.com/new-york/cases/259-a-d-2d-579/burstein-v-city-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Burstein v. City of New York, 259 A.D.2d 579 (N.Y. App. Div. 2d Dep't 1999)",
+    "link_md": "[Burstein v. City of New York, 259 A.D.2d 579 (N.Y. App. Div. 2d Dep't 1999)](https://syfert.com/new-york/cases/259-a-d-2d-579/burstein-v-city-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6445
+   },
+   {
+    "cluster_id": 9487704,
+    "case_name": "Comfort Living Furniture Inc. v. McDonald Design Furniture Inc.",
+    "citations": [
+     "2024 NY Slip Op 30905(U)"
+    ],
+    "court": "New York Supreme Court, Kings County",
+    "date_filed": "2024-03-19",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-9487704/comfort-living-furniture-inc-v-mcdonald-design-furniture-inc",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Comfort Living Furniture Inc. v. McDonald Design Furniture Inc., 2024 NY Slip Op 30905(U) (N.Y. Sup. Kings 2024)",
+    "link_md": "[Comfort Living Furniture Inc. v. McDonald Design Furniture Inc., 2024 NY Slip Op 30905(U) (N.Y. Sup. Kings 2024)](https://syfert.com/new-york/cases/cl-9487704/comfort-living-furniture-inc-v-mcdonald-design-furniture-inc)",
+    "match_kind": "semantic",
+    "similarity": 0.6426
+   },
+   {
+    "cluster_id": 5387841,
+    "case_name": "Cooper v. Hedden Construction Co.",
+    "citations": [
+     "150 A.D. 698",
+     "135 N.Y.S. 746",
+     "1912 N.Y. App. Div. LEXIS 7195"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1912-05-31",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/150-a-d-698/cooper-v-hedden-construction-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Cooper v. Hedden Constr. Co., 150 A.D. 698 (N.Y. App. Div. 1912)",
+    "link_md": "[Cooper v. Hedden Constr. Co., 150 A.D. 698 (N.Y. App. Div. 1912)](https://syfert.com/new-york/cases/150-a-d-698/cooper-v-hedden-construction-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6386
+   },
+   {
+    "cluster_id": 6154215,
+    "case_name": "Kurzner v. Sutton Owners Corp.",
+    "citations": [
+     "245 A.D.2d 101",
+     "666 N.Y.S.2d 135",
+     "1997 N.Y. App. Div. LEXIS 12925"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1997-12-11",
+    "status": "Published",
+    "cited_by": 4,
+    "url": "https://syfert.com/new-york/cases/245-a-d-2d-101/kurzner-v-sutton-owners-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kurzner v. Sutton Owners Corp., 245 A.D.2d 101 (N.Y. App. Div. 1st Dep't 1997)",
+    "link_md": "[Kurzner v. Sutton Owners Corp., 245 A.D.2d 101 (N.Y. App. Div. 1st Dep't 1997)](https://syfert.com/new-york/cases/245-a-d-2d-101/kurzner-v-sutton-owners-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6371
+   },
+   {
+    "cluster_id": 4429924,
+    "case_name": "Matter of Pastor",
+    "citations": [
+     "2017 NY Slip Op 6729"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2017-09-28",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-4429924/matter-of-pastor",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Matter of Pastor, 2017 NY Slip Op 6729 (N.Y. App. Div. 1st Dep't 2017)",
+    "link_md": "[Matter of Pastor, 2017 NY Slip Op 6729 (N.Y. App. Div. 1st Dep't 2017)](https://syfert.com/new-york/cases/cl-4429924/matter-of-pastor)",
+    "match_kind": "semantic",
+    "similarity": 0.6358
+   },
+   {
+    "cluster_id": 4466799,
+    "case_name": "Jimerson v. State of New York",
+    "citations": [
+     "2018 NY Slip Op 1014"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2018-02-09",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-4466799/jimerson-v-state-of-new-york",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Jimerson v. State of New York, 2018 NY Slip Op 1014 (N.Y. App. Div. 4th Dep't 2018)",
+    "link_md": "[Jimerson v. State of New York, 2018 NY Slip Op 1014 (N.Y. App. Div. 4th Dep't 2018)](https://syfert.com/new-york/cases/cl-4466799/jimerson-v-state-of-new-york)",
+    "match_kind": "semantic",
+    "similarity": 0.6351
+   },
+   {
+    "cluster_id": 5686101,
+    "case_name": "Eagle v. Paterson",
+    "citations": [
+     "442 N.E.2d 56",
+     "57 N.Y.2d 831",
+     "455 N.Y.S.2d 759",
+     "1982 N.Y. LEXIS 3730"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1982-10-07",
+    "status": "Published",
+    "cited_by": 49,
+    "url": "https://syfert.com/new-york/cases/57-n-y-2d-831/eagle-v-paterson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Eagle v. Paterson, 442 N.E.2d 56 (N.Y. 1982)",
+    "link_md": "[Eagle v. Paterson, 442 N.E.2d 56 (N.Y. 1982)](https://syfert.com/new-york/cases/57-n-y-2d-831/eagle-v-paterson)",
+    "match_kind": "semantic",
+    "similarity": 0.6345
+   },
+   {
+    "cluster_id": 10852778,
+    "case_name": "People v. Torres",
+    "citations": [
+     "2026 NY Slip Op 26063"
+    ],
+    "court": "Appellate Terms of the Supreme Court of New York",
+    "date_filed": "2026-04-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-10852778/people-v-torres",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Torres, 2026 NY Slip Op 26063 (N.Y. App. Term. 2026)",
+    "link_md": "[People v. Torres, 2026 NY Slip Op 26063 (N.Y. App. Term. 2026)](https://syfert.com/new-york/cases/cl-10852778/people-v-torres)",
+    "match_kind": "semantic",
+    "similarity": 0.6336
+   },
+   {
+    "cluster_id": 3913707,
+    "case_name": "Biggs v. . Asheville",
+    "citations": [
+     "151 S.E. 199",
+     "198 N.C. 271",
+     "1930 N.C. LEXIS 321"
+    ],
+    "court": "Supreme Court of North Carolina",
+    "date_filed": "1930-01-22",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/north-carolina/cases/198-n-c-271/biggs-v-asheville",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Biggs v. Asheville, 151 S.E. 199 (N.C. 1930)",
+    "link_md": "[Biggs v. Asheville, 151 S.E. 199 (N.C. 1930)](https://syfert.com/north-carolina/cases/198-n-c-271/biggs-v-asheville)",
+    "match_kind": "semantic",
+    "similarity": 0.633
+   },
+   {
+    "cluster_id": 10713462,
+    "case_name": "UFH Apts. Inc. v. Vyskovsky",
+    "citations": [
+     "2025 NY Slip Op 25228"
+    ],
+    "court": "NYC Civil Court, New York",
+    "date_filed": "2025-10-14",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/cl-10713462/ufh-apts-inc-v-vyskovsky",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "UFH Apts. Inc. v. Vyskovsky, 2025 NY Slip Op 25228 (Civ. Ct. NYC, NY Cty. 2025)",
+    "link_md": "[UFH Apts. Inc. v. Vyskovsky, 2025 NY Slip Op 25228 (Civ. Ct. NYC, NY Cty. 2025)](https://syfert.com/new-york/cases/cl-10713462/ufh-apts-inc-v-vyskovsky)",
+    "match_kind": "semantic",
+    "similarity": 0.6326
+   },
+   {
+    "cluster_id": 6387044,
+    "case_name": "Pennington v. Klemanski",
+    "citations": [
+     "123 A. 491",
+     "278 Pa. 591",
+     "1924 Pa. LEXIS 453"
+    ],
+    "court": "Supreme Court of Pennsylvania",
+    "date_filed": "1924-01-07",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/pennsylvania/cases/278-pa-591/pennington-v-klemanski",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Pennington v. Klemanski, 123 A. 491 (Pa. 1924)",
+    "link_md": "[Pennington v. Klemanski, 123 A. 491 (Pa. 1924)](https://syfert.com/pennsylvania/cases/278-pa-591/pennington-v-klemanski)",
+    "match_kind": "semantic",
+    "similarity": 0.6311
+   },
+   {
+    "cluster_id": 4375733,
+    "case_name": "People v. Sauri (Josefina)",
+    "citations": [],
+    "court": "Appellate Terms of the Supreme Court of New York",
+    "date_filed": "2017-03-13",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-4375733/people-v-sauri-josefina",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Sauri (Josefina), No. 2017 NYSlipOp 50303(U) (N.Y. App. Term. Mar. 13, 2017)",
+    "link_md": "[People v. Sauri (Josefina), No. 2017 NYSlipOp 50303(U) (N.Y. App. Term. Mar. 13, 2017)](https://syfert.com/new-york/cases/cl-4375733/people-v-sauri-josefina)",
+    "match_kind": "semantic",
+    "similarity": 0.6308
+   },
+   {
+    "cluster_id": 6200381,
+    "case_name": "Metropolitan Transportation Authority v. 2 Broadway L. L. C.",
+    "citations": [
+     "279 A.D.2d 315",
+     "720 N.Y.S.2d 12",
+     "2001 N.Y. App. Div. LEXIS 425"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "2001-01-16",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/new-york/cases/279-a-d-2d-315/metropolitan-transportation-authority-v-2-broadway-l-l-c",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Metro. Transp. Auth. v. 2 Broadway L. L. C., 279 A.D.2d 315 (N.Y. App. Div. 1st Dep't 2001)",
+    "link_md": "[Metro. Transp. Auth. v. 2 Broadway L. L. C., 279 A.D.2d 315 (N.Y. App. Div. 1st Dep't 2001)](https://syfert.com/new-york/cases/279-a-d-2d-315/metropolitan-transportation-authority-v-2-broadway-l-l-c)",
+    "match_kind": "semantic",
+    "similarity": 0.6308
+   },
+   {
+    "cluster_id": 8712049,
+    "case_name": "Kuboosh v. Allied Stores Corp.",
+    "citations": [
+     "79 F. Supp. 205",
+     "1948 U.S. Dist. LEXIS 2260"
+    ],
+    "court": "S.D. New York",
+    "date_filed": "1948-03-31",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/district/cases/79-f-supp-205/kuboosh-v-allied-stores-corp",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Kuboosh v. Allied Stores Corp., 79 F. Supp. 205 (S.D.N.Y. 1948)",
+    "link_md": "[Kuboosh v. Allied Stores Corp., 79 F. Supp. 205 (S.D.N.Y. 1948)](https://syfert.com/federal/district/cases/79-f-supp-205/kuboosh-v-allied-stores-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.6306
+   },
+   {
+    "cluster_id": 6316741,
+    "case_name": "De Paso v. Cooper",
+    "citations": [
+     "43 Misc. 2d 160",
+     "250 N.Y.S.2d 556",
+     "1964 N.Y. Misc. LEXIS 1781"
+    ],
+    "court": "New York County Courts",
+    "date_filed": "1964-05-11",
+    "status": "Published",
+    "cited_by": 3,
+    "url": "https://syfert.com/new-york/cases/43-misc-2d-160/de-paso-v-cooper",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "De Paso v. Cooper, 43 Misc. 2d 160 (N.Y. Cnty. Ct. 1964)",
+    "link_md": "[De Paso v. Cooper, 43 Misc. 2d 160 (N.Y. Cnty. Ct. 1964)](https://syfert.com/new-york/cases/43-misc-2d-160/de-paso-v-cooper)",
+    "match_kind": "semantic",
+    "similarity": 0.6302
+   },
+   {
+    "cluster_id": 4761468,
+    "case_name": "People v. Pinkney (Antoine)",
+    "citations": [],
+    "court": "Appellate Terms of the Supreme Court of New York",
+    "date_filed": "2020-06-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/cl-4761468/people-v-pinkney-antoine",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "People v. Pinkney (Antoine), No. 2020 NYSlipOp 50682(U) (N.Y. App. Term. June 11, 2020)",
+    "link_md": "[People v. Pinkney (Antoine), No. 2020 NYSlipOp 50682(U) (N.Y. App. Term. June 11, 2020)](https://syfert.com/new-york/cases/cl-4761468/people-v-pinkney-antoine)",
+    "match_kind": "semantic",
+    "similarity": 0.63
+   },
+   {
+    "cluster_id": 7423052,
+    "case_name": "Village of Fayetteville v. Syracuse & Suburban Railroad",
+    "citations": [
+     "70 N.Y.S. 1151"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1901-03-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/70-n-y-s-1151/village-of-fayetteville-v-syracuse-suburban-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Vill. of Fayetteville v. Syracuse & Suburban R.R., 70 N.Y.S. 1151 (N.Y. App. Div. 1901)",
+    "link_md": "[Vill. of Fayetteville v. Syracuse & Suburban R.R., 70 N.Y.S. 1151 (N.Y. App. Div. 1901)](https://syfert.com/new-york/cases/70-n-y-s-1151/village-of-fayetteville-v-syracuse-suburban-railroad)",
+    "match_kind": "semantic",
+    "similarity": 0.6291
+   },
+   {
+    "cluster_id": 628155,
+    "case_name": "Donnelly v. Bk of New York Co",
+    "citations": [
+     "2 F.3d 403",
+     "1993 U.S. App. LEXIS 28910",
+     "1993 WL 306249"
+    ],
+    "court": "Second Circuit",
+    "date_filed": "1993-07-02",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/2-f-3d-403/donnelly-v-bk-of-new-york-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Donnelly v. Bk of New York Co, 2 F.3d 403 (2d Cir. 1993)",
+    "link_md": "[Donnelly v. Bk of New York Co, 2 F.3d 403 (2d Cir. 1993)](https://syfert.com/federal/circuits/cases/2-f-3d-403/donnelly-v-bk-of-new-york-co)",
+    "match_kind": "semantic",
+    "similarity": 0.629
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}

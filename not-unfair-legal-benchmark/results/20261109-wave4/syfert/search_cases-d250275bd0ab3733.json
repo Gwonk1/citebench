@@ -1,0 +1,39 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Kupperschmidt w/15 \"143 NE 256\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Kupperschmidt w/15 \\\"143 NE 256\\\"\",\"total\":1,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":8596231,\"bluebook\":\"United States v. Scoles, 14 C.M.A. 14 (1963)\",\"url\":\"https://syfert.com/federal/specialty/cases/14-c-m-a-14/united-states-v-scoles\",\"date_filed\":\"1963-05-10\",\"cited_by\":57,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...great care and caution.” [Emphasis supplied.]\\nSee also United States v Allums, 5 USCMA 435 , 18 CMR 59 , and People v Kupperschmidt, 237 NY 463 , 143 NE 256 , 32 ALR 447 (1924).\\nThere is no universally accepted definition of the term…\",\"holding\":\"Requiring an accused to appear in fatigue uniforms without military necessity and failing to instruct members regarding accomplice testimony constitutes reversible error.\",\"holding_ai_generated\":true,\"disposition\":\"reversed\",\"disposition_source\":\"headnote\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Kupperschmidt w/15 \"143 NE 256\"",
+  "total": 1,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 8596231,
+    "bluebook": "United States v. Scoles, 14 C.M.A. 14 (1963)",
+    "url": "https://syfert.com/federal/specialty/cases/14-c-m-a-14/united-states-v-scoles",
+    "date_filed": "1963-05-10",
+    "cited_by": 57,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...great care and caution.” [Emphasis supplied.]\nSee also United States v Allums, 5 USCMA 435 , 18 CMR 59 , and People v Kupperschmidt, 237 NY 463 , 143 NE 256 , 32 ALR 447 (1924).\nThere is no universally accepted definition of the term…",
+    "holding": "Requiring an accused to appear in fatigue uniforms without military necessity and failing to instruct members regarding accomplice testimony constitutes reversible error.",
+    "holding_ai_generated": true,
+    "disposition": "reversed",
+    "disposition_source": "headnote"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

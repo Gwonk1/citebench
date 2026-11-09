@@ -1,0 +1,65 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Maryland-National w/15 \"325 A.2d 748\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"query\":\"Maryland-National w/15 \\\"325 A.2d 748\\\"\",\"total\":3,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":1538787,\"bluebook\":\"Purifoy v. Mercantile-Safe Deposit & Trust Co., 327 A.2d 483 (Md. 1974)\",\"url\":\"https://syfert.com/maryland/cases/273-md-58/purifoy-v-mercantile-safe-deposit-trust-co\",\"date_filed\":\"1974-11-07\",\"cited_by\":38,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Maryland-National Capital Park & Planning Commission v. Mayor & Council of Rockville,\\n272 Md. 562 , 325 A. 2d 748 (1974). Thus, where statutory language is plain and free from ambiguity and expresses a definite and sensible meaning,…\",\"holding\":\"An amendment to the adoption statute applies retrospectively to trust instruments executed before the amendment if the adoption occurred after the effective date of the statute.\",\"holding_ai_generated\":true,\"disposition\":\"affirmed\",\"disposition_source\":\"headnote\"},{\"cluster_id\":7972408,\"bluebook\":\"Rupinski v. Biel, 406 A.2d 684 (Md. Ct. Spec. App. 1979)\",\"url\":\"https://syfert.com/maryland/cases/43-md-app-635/rupinski-v-biel\",\"date_filed\":\"1979-10-17\",\"cited_by\":3,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...399 , 354 A.2d 817 (1976); Maryland-National Capital Park & Planning Comm. v. Rockville, 272 Md. 550 , 325 A.2d 748 (1974).\\nWe have been unable to find any cases in this state interpreting or applying the meaning of the word “vacated”…\"},{\"cluster_id\":1904247,\"bluebook\":\"Baltimore Cnty. v. Penn, 503 A.2d 257 (Md. Ct. Spec. App. 1986)\",\"url\":\"https://syfert.com/maryland/cases/66-md-app-199/baltimore-county-v-penn\",\"date_filed\":\"1986-01-17\",\"cited_by\":4,\"treatment\":{\"flag\":\"green\",\"red\":0,\"yellow\":0},\"snippet\":\"...Maryland-National Capital Park and Planning Commission v. Rockville,\\n272 Md. 550 , 325 A.2d 748 (1974). Section 20-22.1 by its very language manifests an intention to afford preferential treatment to police officers and firefighters;…\"}],\"_source\":\"xeric\",\"tier\":\"pro\",\"compact\":true,\"compact_note\":\"compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest.\"}",
+ "json": {
+  "query": "Maryland-National w/15 \"325 A.2d 748\"",
+  "total": 3,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 1538787,
+    "bluebook": "Purifoy v. Mercantile-Safe Deposit & Trust Co., 327 A.2d 483 (Md. 1974)",
+    "url": "https://syfert.com/maryland/cases/273-md-58/purifoy-v-mercantile-safe-deposit-trust-co",
+    "date_filed": "1974-11-07",
+    "cited_by": 38,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Maryland-National Capital Park & Planning Commission v. Mayor & Council of Rockville,\n272 Md. 562 , 325 A. 2d 748 (1974). Thus, where statutory language is plain and free from ambiguity and expresses a definite and sensible meaning,…",
+    "holding": "An amendment to the adoption statute applies retrospectively to trust instruments executed before the amendment if the adoption occurred after the effective date of the statute.",
+    "holding_ai_generated": true,
+    "disposition": "affirmed",
+    "disposition_source": "headnote"
+   },
+   {
+    "cluster_id": 7972408,
+    "bluebook": "Rupinski v. Biel, 406 A.2d 684 (Md. Ct. Spec. App. 1979)",
+    "url": "https://syfert.com/maryland/cases/43-md-app-635/rupinski-v-biel",
+    "date_filed": "1979-10-17",
+    "cited_by": 3,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...399 , 354 A.2d 817 (1976); Maryland-National Capital Park & Planning Comm. v. Rockville, 272 Md. 550 , 325 A.2d 748 (1974).\nWe have been unable to find any cases in this state interpreting or applying the meaning of the word “vacated”…"
+   },
+   {
+    "cluster_id": 1904247,
+    "bluebook": "Baltimore Cnty. v. Penn, 503 A.2d 257 (Md. Ct. Spec. App. 1986)",
+    "url": "https://syfert.com/maryland/cases/66-md-app-199/baltimore-county-v-penn",
+    "date_filed": "1986-01-17",
+    "cited_by": 4,
+    "treatment": {
+     "flag": "green",
+     "red": 0,
+     "yellow": 0
+    },
+    "snippet": "...Maryland-National Capital Park and Planning Commission v. Rockville,\n272 Md. 550 , 325 A.2d 748 (1974). Section 20-22.1 by its very language manifests an intention to afford preferential treatment to police officers and firefighters;…"
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "compact": true,
+  "compact_note": "compact=true: each row carries bluebook (name, reporter cite, court, year) in place of case_name, citations and court; call get_case or get_treatment for the rest."
+ }
+}

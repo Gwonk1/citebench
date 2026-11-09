@@ -1,0 +1,396 @@
+{
+ "tool": "search_cases",
+ "args": {
+  "q": "Clayton w/15 \"173 P. 456\"",
+  "compact": true,
+  "per_page": 20
+ },
+ "is_error": false,
+ "text": "{\"notice\":\"NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.\",\"text_matches\":0,\"query\":\"Clayton w/15 \\\"173 P. 456\\\"\",\"total\":0,\"page\":1,\"per_page\":20,\"results\":[{\"cluster_id\":4159171,\"case_name\":\"Townsend v. Scurlock\",\"citations\":[\"99 S.W. 123\",\"44 Tex. Civ. App. 141\"],\"court\":\"Court of Appeals of Texas\",\"date_filed\":\"1906-11-03\",\"status\":\"Published\",\"cited_by\":5,\"url\":\"https://syfert.com/texas/cases/44-tex-civ-app-141/townsend-v-scurlock\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Townsend v. Scurlock, 99 S.W. 123 (Tex. App. 1906)\",\"link_md\":\"[Townsend v. Scurlock, 99 S.W. 123 (Tex. App. 1906)](https://syfert.com/texas/cases/44-tex-civ-app-141/townsend-v-scurlock)\",\"match_kind\":\"semantic\",\"similarity\":0.6824},{\"cluster_id\":10177383,\"case_name\":\"Clayton v. Mitchell\",\"citations\":[],\"court\":\"M.D. Georgia\",\"date_filed\":\"2024-06-20\",\"status\":\"Unknown\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/district/cases/cl-10177383/clayton-v-mitchell\",\"precedential_status\":\"Unknown\",\"status_source\":null,\"bluebook\":\"Clayton v. Mitchell, No. 5:21-cv-00335 (M.D. Ga. June 20, 2024)\",\"link_md\":\"[Clayton v. Mitchell, No. 5:21-cv-00335 (M.D. Ga. June 20, 2024)](https://syfert.com/federal/district/cases/cl-10177383/clayton-v-mitchell)\",\"match_kind\":\"semantic\",\"similarity\":0.6779},{\"cluster_id\":999974,\"case_name\":\"Clayton v. Fuji Copian Corp\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"1999-10-05\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-999974/clayton-v-fuji-copian-corp\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clayton v. Fuji Copian Corp, No. 99-1722 (4th Cir. Oct. 5, 1999)\",\"link_md\":\"[Clayton v. Fuji Copian Corp, No. 99-1722 (4th Cir. Oct. 5, 1999)](https://syfert.com/federal/circuits/cases/cl-999974/clayton-v-fuji-copian-corp)\",\"match_kind\":\"semantic\",\"similarity\":0.676},{\"cluster_id\":147245,\"case_name\":\"Clayton v. Dickens\",\"citations\":[],\"court\":\"Fourth Circuit\",\"date_filed\":\"2010-05-26\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/cl-147245/clayton-v-dickens\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clayton v. Dickens, No. 10-1187 (4th Cir. May 26, 2010)\",\"link_md\":\"[Clayton v. Dickens, No. 10-1187 (4th Cir. May 26, 2010)](https://syfert.com/federal/circuits/cases/cl-147245/clayton-v-dickens)\",\"match_kind\":\"semantic\",\"similarity\":0.6679},{\"cluster_id\":5399822,\"case_name\":\"House v. Clayton\",\"citations\":[\"167 A.D. 907\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1915-02-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/167-a-d-907/house-v-clayton\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"House v. Clayton, 167 A.D. 907 (N.Y. App. Div. 1915)\",\"link_md\":\"[House v. Clayton, 167 A.D. 907 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/167-a-d-907/house-v-clayton)\",\"match_kind\":\"semantic\",\"similarity\":0.6634},{\"cluster_id\":519957,\"case_name\":\"Clayton v. Anderson Electric\",\"citations\":[\"869 F.2d 1501\",\"1989 WL 17523\"],\"court\":\"Eleventh Circuit\",\"date_filed\":\"1989-02-23\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/869-f-2d-1501/clayton-v-anderson-electric\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clayton v. Anderson Elec., 869 F.2d 1501 (11th Cir. 1989)\",\"link_md\":\"[Clayton v. Anderson Elec., 869 F.2d 1501 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/869-f-2d-1501/clayton-v-anderson-electric)\",\"match_kind\":\"semantic\",\"similarity\":0.649},{\"cluster_id\":3624561,\"case_name\":\"Clay v. Brown\",\"citations\":[\"191 N.E. 556\",\"264 N.Y. 543\",\"1934 N.Y. LEXIS 1579\"],\"court\":\"New York Court of Appeals\",\"date_filed\":\"1934-04-17\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/new-york/cases/264-n-y-543/clay-v-brown\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clay v. Brown, 191 N.E. 556 (N.Y. 1934)\",\"link_md\":\"[Clay v. Brown, 191 N.E. 556 (N.Y. 1934)](https://syfert.com/new-york/cases/264-n-y-543/clay-v-brown)\",\"match_kind\":\"semantic\",\"similarity\":0.6461},{\"cluster_id\":7437083,\"case_name\":\"House v. Clayton\",\"citations\":[\"150 N.Y.S. 1090\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1914-11-27\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/150-n-y-s-1090/house-v-clayton\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"House v. Clayton, 150 N.Y.S. 1090 (N.Y. App. Div. 1914)\",\"link_md\":\"[House v. Clayton, 150 N.Y.S. 1090 (N.Y. App. Div. 1914)](https://syfert.com/new-york/cases/150-n-y-s-1090/house-v-clayton)\",\"match_kind\":\"semantic\",\"similarity\":0.6438},{\"cluster_id\":5722737,\"case_name\":\"Clayton v. Farrar Lumber Co.\",\"citations\":[\"45 S.E. 723\",\"119 Ga. 37\",\"1903 Ga. LEXIS 13\"],\"court\":\"Supreme Court of Georgia\",\"date_filed\":\"1903-11-14\",\"status\":\"Published\",\"cited_by\":17,\"url\":\"https://syfert.com/georgia/cases/119-ga-37/clayton-v-farrar-lumber-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clayton v. Farrar Lumber Co., 45 S.E. 723 (Ga. 1903)\",\"link_md\":\"[Clayton v. Farrar Lumber Co., 45 S.E. 723 (Ga. 1903)](https://syfert.com/georgia/cases/119-ga-37/clayton-v-farrar-lumber-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6436},{\"cluster_id\":3372388,\"case_name\":\"Benoit v. Adams\",\"citations\":[\"1997 Conn. Super. Ct. 9790\"],\"court\":\"Connecticut Superior Court\",\"date_filed\":\"1997-08-12\",\"status\":\"Unpublished\",\"cited_by\":0,\"url\":\"https://syfert.com/connecticut/cases/1997-conn-super-ct-9790/benoit-v-adams-no-lpl-cv-92-0122352s-aug-12-1997\",\"precedential_status\":\"Unpublished\",\"status_source\":\"courtlistener\",\"bluebook\":\"Benoit v. Adams, 1997 Conn. Super. Ct. 9790 (Conn. Super. Ct. 1997)\",\"link_md\":\"[Benoit v. Adams, 1997 Conn. Super. Ct. 9790 (Conn. Super. Ct. 1997)](https://syfert.com/connecticut/cases/1997-conn-super-ct-9790/benoit-v-adams-no-lpl-cv-92-0122352s-aug-12-1997)\",\"match_kind\":\"semantic\",\"similarity\":0.6427},{\"cluster_id\":8840891,\"case_name\":\"Canoe Creek Coal Co. v. Christinson\",\"citations\":[\"281 F. 559\",\"1922 U.S. Dist. LEXIS 1501\"],\"court\":\"W.D. Kentucky\",\"date_filed\":\"1922-05-01\",\"status\":\"Published\",\"cited_by\":7,\"url\":\"https://syfert.com/federal/district/cases/cl-8840891/canoe-creek-coal-co-v-christinson\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Canoe Creek Coal Co. v. Christinson, 281 F. 559 (W.D. Ky. 1922)\",\"link_md\":\"[Canoe Creek Coal Co. v. Christinson, 281 F. 559 (W.D. Ky. 1922)](https://syfert.com/federal/district/cases/cl-8840891/canoe-creek-coal-co-v-christinson)\",\"match_kind\":\"semantic\",\"similarity\":0.6427},{\"cluster_id\":7437653,\"case_name\":\"House v. Clayton\",\"citations\":[\"151 N.Y.S. 1122\"],\"court\":\"Appellate Division of the Supreme Court of New York\",\"date_filed\":\"1915-02-26\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/new-york/cases/151-n-y-s-1122/house-v-clayton\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"House v. Clayton, 151 N.Y.S. 1122 (N.Y. App. Div. 1915)\",\"link_md\":\"[House v. Clayton, 151 N.Y.S. 1122 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/151-n-y-s-1122/house-v-clayton)\",\"match_kind\":\"semantic\",\"similarity\":0.6418},{\"cluster_id\":105617,\"case_name\":\"Safeway Stores, Inc. v. Vance\",\"citations\":[\"355 U.S. 389\",\"78 S. Ct. 358\",\"2 L. Ed. 2d 350\",\"1958 U.S. LEXIS 1829\",\"1958 Trade Cas. (CCH) 68,916\"],\"court\":\"Supreme Court\",\"date_filed\":\"1958-01-20\",\"status\":\"Published\",\"cited_by\":19,\"url\":\"https://syfert.com/federal/scotus/cases/355-u-s-389/safeway-stores-inc-v-vance\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Safeway Stores, Inc. v. Vance, 355 U.S. 389 (1958)\",\"link_md\":\"[Safeway Stores, Inc. v. Vance, 355 U.S. 389 (1958)](https://syfert.com/federal/scotus/cases/355-u-s-389/safeway-stores-inc-v-vance)\",\"match_kind\":\"semantic\",\"similarity\":0.6409},{\"cluster_id\":7825013,\"case_name\":\"Clayton v. Illinois Central Railroad\",\"citations\":[\"872 So. 2d 500\",\"2004 La. LEXIS 1564\",\"2004 WL 1240365\"],\"court\":\"Supreme Court of Louisiana\",\"date_filed\":\"2004-04-30\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/louisiana/cases/872-so-2d-500/clayton-v-illinois-central-railroad\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clayton v. Illinois Cent. R.R., 872 So. 2d 500 (La. 2004)\",\"link_md\":\"[Clayton v. Illinois Cent. R.R., 872 So. 2d 500 (La. 2004)](https://syfert.com/louisiana/cases/872-so-2d-500/clayton-v-illinois-central-railroad)\",\"match_kind\":\"semantic\",\"similarity\":0.6408},{\"cluster_id\":7091871,\"case_name\":\"B. Claflin Co. v. Kelly\",\"citations\":[\"66 Ill. App. 348\"],\"court\":\"Appellate Court of Illinois\",\"date_filed\":\"1896-06-11\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/illinois/cases/66-ill-app-348/b-claflin-co-v-kelly\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"B. Claflin Co. v. Kelly, 66 Ill. App. 348 (Ill. App. Ct. 1896)\",\"link_md\":\"[B. Claflin Co. v. Kelly, 66 Ill. App. 348 (Ill. App. Ct. 1896)](https://syfert.com/illinois/cases/66-ill-app-348/b-claflin-co-v-kelly)\",\"match_kind\":\"semantic\",\"similarity\":0.6384},{\"cluster_id\":471427,\"case_name\":\"Clay v. Valley Forge Ins. Co\",\"citations\":[\"792 F.2d 1117\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1986-06-17\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/792-f-2d-1117/clay-v-valley-forge-ins-co\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clay v. Valley Forge Ins. Co, 792 F.2d 1117 (4th Cir. 1986)\",\"link_md\":\"[Clay v. Valley Forge Ins. Co, 792 F.2d 1117 (4th Cir. 1986)](https://syfert.com/federal/circuits/cases/792-f-2d-1117/clay-v-valley-forge-ins-co)\",\"match_kind\":\"semantic\",\"similarity\":0.6377},{\"cluster_id\":253242,\"case_name\":\"Mcelhenney Co., Inc. v. Western Auto Supply Company\",\"citations\":[\"287 F.2d 524\",\"1960 U.S. App. LEXIS 3417\",\"1960 Trade Cas. (CCH) 69,850\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1960-11-02\",\"status\":\"Published\",\"cited_by\":1,\"url\":\"https://syfert.com/federal/circuits/cases/287-f-2d-524/mcelhenney-co-inc-v-western-auto-supply-company\",\"cited_by_note\":\"CourtListener's citation count summed over this decision's 2 clusters (253242 and its twin 7019667).\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Mcelhenney Co. v. W. Auto Supply Co., 287 F.2d 524 (4th Cir. 1960)\",\"link_md\":\"[Mcelhenney Co. v. W. Auto Supply Co., 287 F.2d 524 (4th Cir. 1960)](https://syfert.com/federal/circuits/cases/287-f-2d-524/mcelhenney-co-inc-v-western-auto-supply-company)\",\"match_kind\":\"semantic\",\"similarity\":0.6374},{\"cluster_id\":1269479,\"case_name\":\"Long & Foster Real Estate, Inc. v. Clay\",\"citations\":[\"343 S.E.2d 297\",\"231 Va. 170\",\"1986 Va. LEXIS 142\"],\"court\":\"Supreme Court of Virginia\",\"date_filed\":\"1986-04-25\",\"status\":\"Published\",\"cited_by\":9,\"url\":\"https://syfert.com/virginia/cases/231-va-170/long-foster-real-estate-inc-v-clay\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Long & Foster Real Est., Inc. v. Clay, 343 S.E.2d 297 (Va. 1986)\",\"link_md\":\"[Long & Foster Real Est., Inc. v. Clay, 343 S.E.2d 297 (Va. 1986)](https://syfert.com/virginia/cases/231-va-170/long-foster-real-estate-inc-v-clay)\",\"match_kind\":\"semantic\",\"similarity\":0.6362},{\"cluster_id\":404353,\"case_name\":\"Clayton v. Hicks\",\"citations\":[\"679 F.2d 878\"],\"court\":\"Fourth Circuit\",\"date_filed\":\"1982-05-12\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/federal/circuits/cases/679-f-2d-878/clayton-v-hicks\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Clayton v. Hicks, 679 F.2d 878 (4th Cir. 1982)\",\"link_md\":\"[Clayton v. Hicks, 679 F.2d 878 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/679-f-2d-878/clayton-v-hicks)\",\"match_kind\":\"semantic\",\"similarity\":0.6357},{\"cluster_id\":8359588,\"case_name\":\"Stone v. Cannon\",\"citations\":[\"17 Miss. 595\"],\"court\":\"Mississippi Supreme Court\",\"date_filed\":\"1848-01-15\",\"status\":\"Published\",\"cited_by\":0,\"url\":\"https://syfert.com/mississippi/cases/cl-8359588/stone-v-cannon\",\"precedential_status\":\"Published\",\"status_source\":\"courtlistener\",\"bluebook\":\"Stone v. Cannon, 17 Miss. 595 (1848)\",\"link_md\":\"[Stone v. Cannon, 17 Miss. 595 (1848)](https://syfert.com/mississippi/cases/cl-8359588/stone-v-cannon)\",\"match_kind\":\"semantic\",\"similarity\":0.6344}],\"_source\":\"xeric\",\"tier\":\"pro\",\"semantic_fallback\":true,\"semantic_note\":\"The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it.\"}",
+ "json": {
+  "notice": "NO OPINION HOLDS THESE WORDS: the text search found nothing, so the rows below are ranked by MEANING, not by word match (match_kind semantic; similarity = cosine to the whole opinion). None of them is known to contain the words searched for. Read them as leads (get_case), not as a hit; a quotation must be verified with verify_quote.",
+  "text_matches": 0,
+  "query": "Clayton w/15 \"173 P. 456\"",
+  "total": 0,
+  "page": 1,
+  "per_page": 20,
+  "results": [
+   {
+    "cluster_id": 4159171,
+    "case_name": "Townsend v. Scurlock",
+    "citations": [
+     "99 S.W. 123",
+     "44 Tex. Civ. App. 141"
+    ],
+    "court": "Court of Appeals of Texas",
+    "date_filed": "1906-11-03",
+    "status": "Published",
+    "cited_by": 5,
+    "url": "https://syfert.com/texas/cases/44-tex-civ-app-141/townsend-v-scurlock",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Townsend v. Scurlock, 99 S.W. 123 (Tex. App. 1906)",
+    "link_md": "[Townsend v. Scurlock, 99 S.W. 123 (Tex. App. 1906)](https://syfert.com/texas/cases/44-tex-civ-app-141/townsend-v-scurlock)",
+    "match_kind": "semantic",
+    "similarity": 0.6824
+   },
+   {
+    "cluster_id": 10177383,
+    "case_name": "Clayton v. Mitchell",
+    "citations": [],
+    "court": "M.D. Georgia",
+    "date_filed": "2024-06-20",
+    "status": "Unknown",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/district/cases/cl-10177383/clayton-v-mitchell",
+    "precedential_status": "Unknown",
+    "status_source": null,
+    "bluebook": "Clayton v. Mitchell, No. 5:21-cv-00335 (M.D. Ga. June 20, 2024)",
+    "link_md": "[Clayton v. Mitchell, No. 5:21-cv-00335 (M.D. Ga. June 20, 2024)](https://syfert.com/federal/district/cases/cl-10177383/clayton-v-mitchell)",
+    "match_kind": "semantic",
+    "similarity": 0.6779
+   },
+   {
+    "cluster_id": 999974,
+    "case_name": "Clayton v. Fuji Copian Corp",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "1999-10-05",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-999974/clayton-v-fuji-copian-corp",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Clayton v. Fuji Copian Corp, No. 99-1722 (4th Cir. Oct. 5, 1999)",
+    "link_md": "[Clayton v. Fuji Copian Corp, No. 99-1722 (4th Cir. Oct. 5, 1999)](https://syfert.com/federal/circuits/cases/cl-999974/clayton-v-fuji-copian-corp)",
+    "match_kind": "semantic",
+    "similarity": 0.676
+   },
+   {
+    "cluster_id": 147245,
+    "case_name": "Clayton v. Dickens",
+    "citations": [],
+    "court": "Fourth Circuit",
+    "date_filed": "2010-05-26",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/cl-147245/clayton-v-dickens",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Clayton v. Dickens, No. 10-1187 (4th Cir. May 26, 2010)",
+    "link_md": "[Clayton v. Dickens, No. 10-1187 (4th Cir. May 26, 2010)](https://syfert.com/federal/circuits/cases/cl-147245/clayton-v-dickens)",
+    "match_kind": "semantic",
+    "similarity": 0.6679
+   },
+   {
+    "cluster_id": 5399822,
+    "case_name": "House v. Clayton",
+    "citations": [
+     "167 A.D. 907"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1915-02-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/167-a-d-907/house-v-clayton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "House v. Clayton, 167 A.D. 907 (N.Y. App. Div. 1915)",
+    "link_md": "[House v. Clayton, 167 A.D. 907 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/167-a-d-907/house-v-clayton)",
+    "match_kind": "semantic",
+    "similarity": 0.6634
+   },
+   {
+    "cluster_id": 519957,
+    "case_name": "Clayton v. Anderson Electric",
+    "citations": [
+     "869 F.2d 1501",
+     "1989 WL 17523"
+    ],
+    "court": "Eleventh Circuit",
+    "date_filed": "1989-02-23",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/869-f-2d-1501/clayton-v-anderson-electric",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Clayton v. Anderson Elec., 869 F.2d 1501 (11th Cir. 1989)",
+    "link_md": "[Clayton v. Anderson Elec., 869 F.2d 1501 (11th Cir. 1989)](https://syfert.com/federal/circuits/cases/869-f-2d-1501/clayton-v-anderson-electric)",
+    "match_kind": "semantic",
+    "similarity": 0.649
+   },
+   {
+    "cluster_id": 3624561,
+    "case_name": "Clay v. Brown",
+    "citations": [
+     "191 N.E. 556",
+     "264 N.Y. 543",
+     "1934 N.Y. LEXIS 1579"
+    ],
+    "court": "New York Court of Appeals",
+    "date_filed": "1934-04-17",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/new-york/cases/264-n-y-543/clay-v-brown",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Clay v. Brown, 191 N.E. 556 (N.Y. 1934)",
+    "link_md": "[Clay v. Brown, 191 N.E. 556 (N.Y. 1934)](https://syfert.com/new-york/cases/264-n-y-543/clay-v-brown)",
+    "match_kind": "semantic",
+    "similarity": 0.6461
+   },
+   {
+    "cluster_id": 7437083,
+    "case_name": "House v. Clayton",
+    "citations": [
+     "150 N.Y.S. 1090"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1914-11-27",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/150-n-y-s-1090/house-v-clayton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "House v. Clayton, 150 N.Y.S. 1090 (N.Y. App. Div. 1914)",
+    "link_md": "[House v. Clayton, 150 N.Y.S. 1090 (N.Y. App. Div. 1914)](https://syfert.com/new-york/cases/150-n-y-s-1090/house-v-clayton)",
+    "match_kind": "semantic",
+    "similarity": 0.6438
+   },
+   {
+    "cluster_id": 5722737,
+    "case_name": "Clayton v. Farrar Lumber Co.",
+    "citations": [
+     "45 S.E. 723",
+     "119 Ga. 37",
+     "1903 Ga. LEXIS 13"
+    ],
+    "court": "Supreme Court of Georgia",
+    "date_filed": "1903-11-14",
+    "status": "Published",
+    "cited_by": 17,
+    "url": "https://syfert.com/georgia/cases/119-ga-37/clayton-v-farrar-lumber-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Clayton v. Farrar Lumber Co., 45 S.E. 723 (Ga. 1903)",
+    "link_md": "[Clayton v. Farrar Lumber Co., 45 S.E. 723 (Ga. 1903)](https://syfert.com/georgia/cases/119-ga-37/clayton-v-farrar-lumber-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6436
+   },
+   {
+    "cluster_id": 3372388,
+    "case_name": "Benoit v. Adams",
+    "citations": [
+     "1997 Conn. Super. Ct. 9790"
+    ],
+    "court": "Connecticut Superior Court",
+    "date_filed": "1997-08-12",
+    "status": "Unpublished",
+    "cited_by": 0,
+    "url": "https://syfert.com/connecticut/cases/1997-conn-super-ct-9790/benoit-v-adams-no-lpl-cv-92-0122352s-aug-12-1997",
+    "precedential_status": "Unpublished",
+    "status_source": "courtlistener",
+    "bluebook": "Benoit v. Adams, 1997 Conn. Super. Ct. 9790 (Conn. Super. Ct. 1997)",
+    "link_md": "[Benoit v. Adams, 1997 Conn. Super. Ct. 9790 (Conn. Super. Ct. 1997)](https://syfert.com/connecticut/cases/1997-conn-super-ct-9790/benoit-v-adams-no-lpl-cv-92-0122352s-aug-12-1997)",
+    "match_kind": "semantic",
+    "similarity": 0.6427
+   },
+   {
+    "cluster_id": 8840891,
+    "case_name": "Canoe Creek Coal Co. v. Christinson",
+    "citations": [
+     "281 F. 559",
+     "1922 U.S. Dist. LEXIS 1501"
+    ],
+    "court": "W.D. Kentucky",
+    "date_filed": "1922-05-01",
+    "status": "Published",
+    "cited_by": 7,
+    "url": "https://syfert.com/federal/district/cases/cl-8840891/canoe-creek-coal-co-v-christinson",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Canoe Creek Coal Co. v. Christinson, 281 F. 559 (W.D. Ky. 1922)",
+    "link_md": "[Canoe Creek Coal Co. v. Christinson, 281 F. 559 (W.D. Ky. 1922)](https://syfert.com/federal/district/cases/cl-8840891/canoe-creek-coal-co-v-christinson)",
+    "match_kind": "semantic",
+    "similarity": 0.6427
+   },
+   {
+    "cluster_id": 7437653,
+    "case_name": "House v. Clayton",
+    "citations": [
+     "151 N.Y.S. 1122"
+    ],
+    "court": "Appellate Division of the Supreme Court of New York",
+    "date_filed": "1915-02-26",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/new-york/cases/151-n-y-s-1122/house-v-clayton",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "House v. Clayton, 151 N.Y.S. 1122 (N.Y. App. Div. 1915)",
+    "link_md": "[House v. Clayton, 151 N.Y.S. 1122 (N.Y. App. Div. 1915)](https://syfert.com/new-york/cases/151-n-y-s-1122/house-v-clayton)",
+    "match_kind": "semantic",
+    "similarity": 0.6418
+   },
+   {
+    "cluster_id": 105617,
+    "case_name": "Safeway Stores, Inc. v. Vance",
+    "citations": [
+     "355 U.S. 389",
+     "78 S. Ct. 358",
+     "2 L. Ed. 2d 350",
+     "1958 U.S. LEXIS 1829",
+     "1958 Trade Cas. (CCH) 68,916"
+    ],
+    "court": "Supreme Court",
+    "date_filed": "1958-01-20",
+    "status": "Published",
+    "cited_by": 19,
+    "url": "https://syfert.com/federal/scotus/cases/355-u-s-389/safeway-stores-inc-v-vance",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Safeway Stores, Inc. v. Vance, 355 U.S. 389 (1958)",
+    "link_md": "[Safeway Stores, Inc. v. Vance, 355 U.S. 389 (1958)](https://syfert.com/federal/scotus/cases/355-u-s-389/safeway-stores-inc-v-vance)",
+    "match_kind": "semantic",
+    "similarity": 0.6409
+   },
+   {
+    "cluster_id": 7825013,
+    "case_name": "Clayton v. Illinois Central Railroad",
+    "citations": [
+     "872 So. 2d 500",
+     "2004 La. LEXIS 1564",
+     "2004 WL 1240365"
+    ],
+    "court": "Supreme Court of Louisiana",
+    "date_filed": "2004-04-30",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/louisiana/cases/872-so-2d-500/clayton-v-illinois-central-railroad",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Clayton v. Illinois Cent. R.R., 872 So. 2d 500 (La. 2004)",
+    "link_md": "[Clayton v. Illinois Cent. R.R., 872 So. 2d 500 (La. 2004)](https://syfert.com/louisiana/cases/872-so-2d-500/clayton-v-illinois-central-railroad)",
+    "match_kind": "semantic",
+    "similarity": 0.6408
+   },
+   {
+    "cluster_id": 7091871,
+    "case_name": "B. Claflin Co. v. Kelly",
+    "citations": [
+     "66 Ill. App. 348"
+    ],
+    "court": "Appellate Court of Illinois",
+    "date_filed": "1896-06-11",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/illinois/cases/66-ill-app-348/b-claflin-co-v-kelly",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "B. Claflin Co. v. Kelly, 66 Ill. App. 348 (Ill. App. Ct. 1896)",
+    "link_md": "[B. Claflin Co. v. Kelly, 66 Ill. App. 348 (Ill. App. Ct. 1896)](https://syfert.com/illinois/cases/66-ill-app-348/b-claflin-co-v-kelly)",
+    "match_kind": "semantic",
+    "similarity": 0.6384
+   },
+   {
+    "cluster_id": 471427,
+    "case_name": "Clay v. Valley Forge Ins. Co",
+    "citations": [
+     "792 F.2d 1117"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1986-06-17",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/792-f-2d-1117/clay-v-valley-forge-ins-co",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Clay v. Valley Forge Ins. Co, 792 F.2d 1117 (4th Cir. 1986)",
+    "link_md": "[Clay v. Valley Forge Ins. Co, 792 F.2d 1117 (4th Cir. 1986)](https://syfert.com/federal/circuits/cases/792-f-2d-1117/clay-v-valley-forge-ins-co)",
+    "match_kind": "semantic",
+    "similarity": 0.6377
+   },
+   {
+    "cluster_id": 253242,
+    "case_name": "Mcelhenney Co., Inc. v. Western Auto Supply Company",
+    "citations": [
+     "287 F.2d 524",
+     "1960 U.S. App. LEXIS 3417",
+     "1960 Trade Cas. (CCH) 69,850"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1960-11-02",
+    "status": "Published",
+    "cited_by": 1,
+    "url": "https://syfert.com/federal/circuits/cases/287-f-2d-524/mcelhenney-co-inc-v-western-auto-supply-company",
+    "cited_by_note": "CourtListener's citation count summed over this decision's 2 clusters (253242 and its twin 7019667).",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Mcelhenney Co. v. W. Auto Supply Co., 287 F.2d 524 (4th Cir. 1960)",
+    "link_md": "[Mcelhenney Co. v. W. Auto Supply Co., 287 F.2d 524 (4th Cir. 1960)](https://syfert.com/federal/circuits/cases/287-f-2d-524/mcelhenney-co-inc-v-western-auto-supply-company)",
+    "match_kind": "semantic",
+    "similarity": 0.6374
+   },
+   {
+    "cluster_id": 1269479,
+    "case_name": "Long & Foster Real Estate, Inc. v. Clay",
+    "citations": [
+     "343 S.E.2d 297",
+     "231 Va. 170",
+     "1986 Va. LEXIS 142"
+    ],
+    "court": "Supreme Court of Virginia",
+    "date_filed": "1986-04-25",
+    "status": "Published",
+    "cited_by": 9,
+    "url": "https://syfert.com/virginia/cases/231-va-170/long-foster-real-estate-inc-v-clay",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Long & Foster Real Est., Inc. v. Clay, 343 S.E.2d 297 (Va. 1986)",
+    "link_md": "[Long & Foster Real Est., Inc. v. Clay, 343 S.E.2d 297 (Va. 1986)](https://syfert.com/virginia/cases/231-va-170/long-foster-real-estate-inc-v-clay)",
+    "match_kind": "semantic",
+    "similarity": 0.6362
+   },
+   {
+    "cluster_id": 404353,
+    "case_name": "Clayton v. Hicks",
+    "citations": [
+     "679 F.2d 878"
+    ],
+    "court": "Fourth Circuit",
+    "date_filed": "1982-05-12",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/federal/circuits/cases/679-f-2d-878/clayton-v-hicks",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Clayton v. Hicks, 679 F.2d 878 (4th Cir. 1982)",
+    "link_md": "[Clayton v. Hicks, 679 F.2d 878 (4th Cir. 1982)](https://syfert.com/federal/circuits/cases/679-f-2d-878/clayton-v-hicks)",
+    "match_kind": "semantic",
+    "similarity": 0.6357
+   },
+   {
+    "cluster_id": 8359588,
+    "case_name": "Stone v. Cannon",
+    "citations": [
+     "17 Miss. 595"
+    ],
+    "court": "Mississippi Supreme Court",
+    "date_filed": "1848-01-15",
+    "status": "Published",
+    "cited_by": 0,
+    "url": "https://syfert.com/mississippi/cases/cl-8359588/stone-v-cannon",
+    "precedential_status": "Published",
+    "status_source": "courtlistener",
+    "bluebook": "Stone v. Cannon, 17 Miss. 595 (1848)",
+    "link_md": "[Stone v. Cannon, 17 Miss. 595 (1848)](https://syfert.com/mississippi/cases/cl-8359588/stone-v-cannon)",
+    "match_kind": "semantic",
+    "similarity": 0.6344
+   }
+  ],
+  "_source": "xeric",
+  "tier": "pro",
+  "semantic_fallback": true,
+  "semantic_note": "The text search found no opinion containing those words, so these rows are the closest opinions by MEANING (same filters). Ranked by MEANING, not by matching words: similarity is the cosine between the query and the whole opinion (a document-level embedding), so a row can be on point without sharing a word with the query, and one only partly on point (one issue of many) may rank low or not at all. No snippet is shown because nothing matched textually: read the opinion (get_case) before relying on it."
+ }
+}
