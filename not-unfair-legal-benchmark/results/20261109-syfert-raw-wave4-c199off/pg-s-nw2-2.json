@@ -1,0 +1,117 @@
+{
+ "id": "pg-s-nw2-2",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "State v. Tierney, 584 N.W.2d 449."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"party_mismatch\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"584 N.W.2d 449\",\n            \"problem\": \"name mismatch: this citation is State v. Butzke, not State v. Tierney; fix the name or the citation\",\n            \"suggested\": \"State v. Butzke, 584 N.W.2d 449 (Neb. Ct. App. 1998)\",\n            \"claimed_name\": \"State v. Tierney\"\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"584 N.W.2d 449\",\n            \"volume\": \"584\",\n            \"reporter\": \"N.W.2d\",\n            \"page\": \"449\",\n            \"pin\": null,\n            \"cluster_id\": 1235470,\n            \"case\": {\n                \"case_name\": \"State v. Butzke\",\n                \"case_name_short\": \"Butzke\",\n                \"date_filed\": \"1998-07-21\",\n                \"court_id\": \"nebctapp\",\n                \"docket_number\": \"A-97-436\",\n                \"citation_count\": 11,\n                \"court_label\": \"Neb. Ct. App.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 1.776,\n                \"total_events\": 15,\n                \"distinct_courts\": 4,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"State v. Puls\",\n                \"top_pos_court\": \"nebctapp\",\n                \"top_pos_date\": \"2004-12-21\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"State\",\n                \"rhs\": \"Tierney\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"State\",\n                    \"rhs\": \"Tierney\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"State v. Butzke\",\n                \"wrong_side\": \"rhs\",\n                \"note\": \"Only the sovereign side of the name fits this case; Tierney is not named in it (State v. Butzke), in its captions or its opinion text.\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/nebraska/cases/7-neb-ct-app-360/state-v-butzke\",\n            \"link_md\": \"[State v. Butzke](https://syfert.com/nebraska/cases/7-neb-ct-app-360/state-v-butzke)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "party_mismatch": 1
+    },
+    "warnings": [
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "584 N.W.2d 449",
+      "problem": "name mismatch: this citation is State v. Butzke, not State v. Tierney; fix the name or the citation",
+      "suggested": "State v. Butzke, 584 N.W.2d 449 (Neb. Ct. App. 1998)",
+      "claimed_name": "State v. Tierney"
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "584 N.W.2d 449",
+      "volume": "584",
+      "reporter": "N.W.2d",
+      "page": "449",
+      "pin": null,
+      "cluster_id": 1235470,
+      "case": {
+       "case_name": "State v. Butzke",
+       "case_name_short": "Butzke",
+       "date_filed": "1998-07-21",
+       "court_id": "nebctapp",
+       "docket_number": "A-97-436",
+       "citation_count": 11,
+       "court_label": "Neb. Ct. App."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 1.776,
+       "total_events": 15,
+       "distinct_courts": 4,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "State v. Puls",
+       "top_pos_court": "nebctapp",
+       "top_pos_date": "2004-12-21",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "State",
+       "rhs": "Tierney"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "State",
+        "rhs": "Tierney"
+       },
+       "verdict": "mismatch",
+       "resolved_name": "State v. Butzke",
+       "wrong_side": "rhs",
+       "note": "Only the sovereign side of the name fits this case; Tierney is not named in it (State v. Butzke), in its captions or its opinion text."
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/nebraska/cases/7-neb-ct-app-360/state-v-butzke",
+      "link_md": "[State v. Butzke](https://syfert.com/nebraska/cases/7-neb-ct-app-360/state-v-butzke)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

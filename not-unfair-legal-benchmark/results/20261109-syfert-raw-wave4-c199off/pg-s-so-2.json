@@ -1,0 +1,174 @@
+{
+ "id": "pg-s-so-2",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 815."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"party_mismatch\": 1,\n        \"likely_misprint\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.\",\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"103 So. 815\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"problem\": \"Likely misprint, not a fabricated case: The page is off by one digit (the second): the citation prints 815, the case is at 845. Union Ins. Soc. of Canton v. Sudduth is reported at 103 So. 845 (same volume 103 of So.). It was decided 1925-03-19, within the years volume 103 of So. covers (1924-1925), and the name given names that case. The citation as printed (103 So. 815) is wrong; cite 103 So. 845.\",\n            \"replace_with\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n            \"fix\": {\n                \"from\": \"103 So. 815\",\n                \"to\": \"103 So. 845\"\n            },\n            \"suggested\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n            \"did_you_mean\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n            \"misprint\": {\n                \"printed\": \"103 So. 815\",\n                \"real\": \"103 So. 845\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 3224500,\n                \"case_name\": \"Union Ins. Soc. of Canton v. Sudduth\",\n                \"bluebook\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n                \"cite_as\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n                \"date_filed\": \"1925-03-19\",\n                \"url\": \"https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth\",\n                \"link_md\": \"[Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)](https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth)\",\n                \"note\": \"The page is off by one digit (the second): the citation prints 815, the case is at 845. Union Ins. Soc. of Canton v. Sudduth is reported at 103 So. 845 (same volume 103 of So.). It was decided 1925-03-19, within the years volume 103 of So. covers (1924-1925), and the name given names that case. The citation as printed (103 So. 815) is wrong; cite 103 So. 845.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"case\": {\n                \"cluster_id\": 3224500,\n                \"case_name\": \"Union Ins. Soc. of Canton v. Sudduth\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"103 So. 815\",\n            \"volume\": \"103\",\n            \"reporter\": \"So.\",\n            \"page\": \"815\",\n            \"pin\": null,\n            \"cluster_id\": 3546458,\n            \"case\": {\n                \"case_name\": \"Mitchell v. State\",\n                \"case_name_short\": null,\n                \"date_filed\": \"1925-04-20\",\n                \"court_id\": \"miss\",\n                \"docket_number\": \"No. 24861.\",\n                \"citation_count\": 1,\n                \"court_label\": \"Miss.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.226,\n                \"total_events\": 2,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Union Ins. Soc. of Canton\",\n                \"rhs\": \"Sudduth\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Union Ins. Soc. of Canton\",\n                    \"rhs\": \"Sudduth\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"Mitchell v. State\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/mississippi/cases/139-miss-108/mitchell-v-state\",\n            \"link_md\": \"[Mitchell v. State](https://syfert.com/mississippi/cases/139-miss-108/mitchell-v-state)\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"misprint\": {\n                \"printed\": \"103 So. 815\",\n                \"real\": \"103 So. 845\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 3224500,\n                \"case_name\": \"Union Ins. Soc. of Canton v. Sudduth\",\n                \"bluebook\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n                \"cite_as\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n                \"date_filed\": \"1925-03-19\",\n                \"url\": \"https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth\",\n                \"link_md\": \"[Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)](https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth)\",\n                \"note\": \"The page is off by one digit (the second): the citation prints 815, the case is at 845. Union Ins. Soc. of Canton v. Sudduth is reported at 103 So. 845 (same volume 103 of So.). It was decided 1925-03-19, within the years volume 103 of So. covers (1924-1925), and the name given names that case. The citation as printed (103 So. 815) is wrong; cite 103 So. 845.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"suggested_citation\": {\n                \"cluster_id\": 3224500,\n                \"case_name\": \"Union Ins. Soc. of Canton v. Sudduth\",\n                \"citation\": \"103 So. 845\",\n                \"bluebook\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n                \"cite_as\": \"Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)\",\n                \"date_filed\": \"1925-03-19\",\n                \"url\": \"https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth\",\n                \"link_md\": \"[Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)](https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth)\"\n            },\n            \"unindexed_advice\": \"Likely misprint: The page is off by one digit (the second): the citation prints 815, the case is at 845. Union Ins. Soc. of Canton v. Sudduth is reported at 103 So. 845 (same volume 103 of So.). It was decided 1925-03-19, within the years volume 103 of So. covers (1924-1925), and the name given names that case. The citation as printed (103 So. 815) is wrong; cite 103 So. 845.\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "party_mismatch": 1,
+     "likely_misprint": 1
+    },
+    "warnings": [
+     "1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.",
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "103 So. 815",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "problem": "Likely misprint, not a fabricated case: The page is off by one digit (the second): the citation prints 815, the case is at 845. Union Ins. Soc. of Canton v. Sudduth is reported at 103 So. 845 (same volume 103 of So.). It was decided 1925-03-19, within the years volume 103 of So. covers (1924-1925), and the name given names that case. The citation as printed (103 So. 815) is wrong; cite 103 So. 845.",
+      "replace_with": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+      "fix": {
+       "from": "103 So. 815",
+       "to": "103 So. 845"
+      },
+      "suggested": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+      "did_you_mean": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+      "misprint": {
+       "printed": "103 So. 815",
+       "real": "103 So. 845",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 3224500,
+       "case_name": "Union Ins. Soc. of Canton v. Sudduth",
+       "bluebook": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+       "cite_as": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+       "date_filed": "1925-03-19",
+       "url": "https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth",
+       "link_md": "[Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)](https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth)",
+       "note": "The page is off by one digit (the second): the citation prints 815, the case is at 845. Union Ins. Soc. of Canton v. Sudduth is reported at 103 So. 845 (same volume 103 of So.). It was decided 1925-03-19, within the years volume 103 of So. covers (1924-1925), and the name given names that case. The citation as printed (103 So. 815) is wrong; cite 103 So. 845.",
+       "via": [
+        "name"
+       ]
+      },
+      "case": {
+       "cluster_id": 3224500,
+       "case_name": "Union Ins. Soc. of Canton v. Sudduth"
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "103 So. 815",
+      "volume": "103",
+      "reporter": "So.",
+      "page": "815",
+      "pin": null,
+      "cluster_id": 3546458,
+      "case": {
+       "case_name": "Mitchell v. State",
+       "case_name_short": null,
+       "date_filed": "1925-04-20",
+       "court_id": "miss",
+       "docket_number": "No. 24861.",
+       "citation_count": 1,
+       "court_label": "Miss."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.226,
+       "total_events": 2,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Union Ins. Soc. of Canton",
+       "rhs": "Sudduth"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Union Ins. Soc. of Canton",
+        "rhs": "Sudduth"
+       },
+       "verdict": "mismatch",
+       "resolved_name": "Mitchell v. State"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/mississippi/cases/139-miss-108/mitchell-v-state",
+      "link_md": "[Mitchell v. State](https://syfert.com/mississippi/cases/139-miss-108/mitchell-v-state)",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "misprint": {
+       "printed": "103 So. 815",
+       "real": "103 So. 845",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 3224500,
+       "case_name": "Union Ins. Soc. of Canton v. Sudduth",
+       "bluebook": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+       "cite_as": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+       "date_filed": "1925-03-19",
+       "url": "https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth",
+       "link_md": "[Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)](https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth)",
+       "note": "The page is off by one digit (the second): the citation prints 815, the case is at 845. Union Ins. Soc. of Canton v. Sudduth is reported at 103 So. 845 (same volume 103 of So.). It was decided 1925-03-19, within the years volume 103 of So. covers (1924-1925), and the name given names that case. The citation as printed (103 So. 815) is wrong; cite 103 So. 845.",
+       "via": [
+        "name"
+       ]
+      },
+      "suggested_citation": {
+       "cluster_id": 3224500,
+       "case_name": "Union Ins. Soc. of Canton v. Sudduth",
+       "citation": "103 So. 845",
+       "bluebook": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+       "cite_as": "Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)",
+       "date_filed": "1925-03-19",
+       "url": "https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth",
+       "link_md": "[Union Ins. Soc. of Canton v. Sudduth, 103 So. 845 (Ala. 1925)](https://syfert.com/alabama/cases/212-ala-649/union-ins-soc-of-canton-v-sudduth)"
+      },
+      "unindexed_advice": "Likely misprint: The page is off by one digit (the second): the citation prints 815, the case is at 845. Union Ins. Soc. of Canton v. Sudduth is reported at 103 So. 845 (same volume 103 of So.). It was decided 1925-03-19, within the years volume 103 of So. covers (1924-1925), and the name given names that case. The citation as printed (103 So. 815) is wrong; cite 103 So. 845."
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

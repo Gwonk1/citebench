@@ -1,0 +1,106 @@
+{
+ "id": "ny-9-1",
+ "class": "nyseries",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Bowman v. Bowman, 917 N.Y.2d 379."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 0,\n        \"unresolved\": 1,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [\n        \"1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"917 N.Y.2d 379\",\n            \"problem\": \"No case is indexed at page 379 of 917 N.Y.2d. No opinion in the corpus prints this citation. Partially indexed volume (decisions of 2011) (we index ~31% of it): a miss is some evidence, not proof; verify by name.\",\n            \"suggested\": null,\n            \"verdict\": \"not_indexed\",\n            \"verdict_evidence\": \"coverage\"\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"917 N.Y.2d 379\",\n            \"volume\": \"917\",\n            \"reporter\": \"N.Y.2d\",\n            \"page\": \"379\",\n            \"pin\": null,\n            \"cluster_id\": null,\n            \"did_you_mean\": [],\n            \"name_search\": \"no_volume_band\",\n            \"recent_candidate\": {\n                \"cluster_id\": 11045926,\n                \"case_name\": \"Center for Gestalt Development, Inc. v. Charles Bowman\",\n                \"date_filed\": \"2026-10-26\",\n                \"court_id\": \"ca7\",\n                \"court\": \"Seventh Circuit\",\n                \"docket_number\": \"25-3336\",\n                \"status\": \"Published\",\n                \"url\": \"/caselaw/case.php?id=11045926\",\n                \"treatment_status\": \"Recent (filed Oct. 26, 2026, via CourtListener): not yet in treatment analysis\",\n                \"note\": \"A recent opinion of this name is held (filed Oct. 26, 2026, No. 25-3336), with no reporter cite yet: this cite to it is NOT verified. No treatment flag exists for it.\",\n                \"treatment\": null,\n                \"recent_overlay\": true,\n                \"precedential_status\": \"Published\",\n                \"status_source\": \"courtlistener\"\n            },\n            \"claimed\": {\n                \"lhs\": \"Bowman\",\n                \"rhs\": \"Bowman\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": null,\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"verdict\": \"not_indexed\",\n            \"verdict_evidence\": \"coverage\",\n            \"unindexed_advice\": \"No case is indexed at page 379 of 917 N.Y.2d. No opinion in the corpus prints this citation. Partially indexed volume (decisions of 2011) (we index ~31% of it): a miss is some evidence, not proof; verify by name.\",\n            \"volume_coverage\": {\n                \"first_pages\": 75,\n                \"coverage_pct\": 31,\n                \"year_lo\": 2011,\n                \"year_hi\": 2011\n            },\n            \"corpus_check\": \"ran\",\n            \"volume_check\": {\n                \"cited\": 917,\n                \"highest_indexed\": 100,\n                \"highest_indexed_year\": 2003,\n                \"volumes_per_year\": 2,\n                \"threshold\": 151,\n                \"verdict\": \"within_range\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 0,
+     "unresolved": 1,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [
+     "1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps."
+    ],
+    "corrections": [
+     {
+      "raw": "917 N.Y.2d 379",
+      "problem": "No case is indexed at page 379 of 917 N.Y.2d. No opinion in the corpus prints this citation. Partially indexed volume (decisions of 2011) (we index ~31% of it): a miss is some evidence, not proof; verify by name.",
+      "suggested": null,
+      "verdict": "not_indexed",
+      "verdict_evidence": "coverage"
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "917 N.Y.2d 379",
+      "volume": "917",
+      "reporter": "N.Y.2d",
+      "page": "379",
+      "pin": null,
+      "cluster_id": null,
+      "did_you_mean": [],
+      "name_search": "no_volume_band",
+      "recent_candidate": {
+       "cluster_id": 11045926,
+       "case_name": "Center for Gestalt Development, Inc. v. Charles Bowman",
+       "date_filed": "2026-10-26",
+       "court_id": "ca7",
+       "court": "Seventh Circuit",
+       "docket_number": "25-3336",
+       "status": "Published",
+       "url": "/caselaw/case.php?id=11045926",
+       "treatment_status": "Recent (filed Oct. 26, 2026, via CourtListener): not yet in treatment analysis",
+       "note": "A recent opinion of this name is held (filed Oct. 26, 2026, No. 25-3336), with no reporter cite yet: this cite to it is NOT verified. No treatment flag exists for it.",
+       "treatment": null,
+       "recent_overlay": true,
+       "precedential_status": "Published",
+       "status_source": "courtlistener"
+      },
+      "claimed": {
+       "lhs": "Bowman",
+       "rhs": "Bowman"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": null,
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "verdict": "not_indexed",
+      "verdict_evidence": "coverage",
+      "unindexed_advice": "No case is indexed at page 379 of 917 N.Y.2d. No opinion in the corpus prints this citation. Partially indexed volume (decisions of 2011) (we index ~31% of it): a miss is some evidence, not proof; verify by name.",
+      "volume_coverage": {
+       "first_pages": 75,
+       "coverage_pct": 31,
+       "year_lo": 2011,
+       "year_hi": 2011
+      },
+      "corpus_check": "ran",
+      "volume_check": {
+       "cited": 917,
+       "highest_indexed": 100,
+       "highest_indexed_year": 2003,
+       "volumes_per_year": 2,
+       "threshold": 151,
+       "verdict": "within_range"
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

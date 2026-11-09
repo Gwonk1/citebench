@@ -1,0 +1,103 @@
+{
+ "id": "pg-m-p2-1",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "State ex rel. Dussault v. Kilburn, 109 P.2d 1113."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"109 P.2d 1113\",\n            \"volume\": \"109\",\n            \"reporter\": \"P.2d\",\n            \"page\": \"1113\",\n            \"pin\": null,\n            \"cluster_id\": 3563985,\n            \"case\": {\n                \"case_name\": \"State Ex Rel. Dussault v. Kilburn\",\n                \"case_name_short\": \"Kilburn\",\n                \"date_filed\": \"1941-02-05\",\n                \"court_id\": \"mont\",\n                \"docket_number\": \"No. 8,089.\",\n                \"citation_count\": 32,\n                \"court_label\": \"Mont.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.956,\n                \"total_events\": 41,\n                \"distinct_courts\": 19,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"State ex rel. Dussault\",\n                \"rhs\": \"Kilburn\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"State ex rel. Dussault\",\n                    \"rhs\": \"Kilburn\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"State Ex Rel. Dussault v. Kilburn\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/montana/cases/111-mont-400/state-ex-rel-dussault-v-kilburn\",\n            \"link_md\": \"[State Ex Rel. Dussault v. Kilburn](https://syfert.com/montana/cases/111-mont-400/state-ex-rel-dussault-v-kilburn)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "109 P.2d 1113",
+      "volume": "109",
+      "reporter": "P.2d",
+      "page": "1113",
+      "pin": null,
+      "cluster_id": 3563985,
+      "case": {
+       "case_name": "State Ex Rel. Dussault v. Kilburn",
+       "case_name_short": "Kilburn",
+       "date_filed": "1941-02-05",
+       "court_id": "mont",
+       "docket_number": "No. 8,089.",
+       "citation_count": 32,
+       "court_label": "Mont."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.956,
+       "total_events": 41,
+       "distinct_courts": 19,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "State ex rel. Dussault",
+       "rhs": "Kilburn"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "State ex rel. Dussault",
+        "rhs": "Kilburn"
+       },
+       "verdict": "match",
+       "resolved_name": "State Ex Rel. Dussault v. Kilburn"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/montana/cases/111-mont-400/state-ex-rel-dussault-v-kilburn",
+      "link_md": "[State Ex Rel. Dussault v. Kilburn](https://syfert.com/montana/cases/111-mont-400/state-ex-rel-dussault-v-kilburn)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

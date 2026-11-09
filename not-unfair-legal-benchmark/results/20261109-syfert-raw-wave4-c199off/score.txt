@@ -1,0 +1,22 @@
+raw Syfert MCP tool arm, grader v1.4, server syfert-legal-research 2.0.0, 51 answers in results/20261109-syfert-raw-wave4-c199off
+class         pass  miss     n
+nyseries         8     8    16
+samepage        24     5    29
+traps           32    13    45
+control          6     0     6   (false positives: 0)
+total           38    13    51
+no ANSWER line: 0; no saved answer (not counted above): 0
+
+miss pg-m-se2-1       samepage     missing 249 S.E.2d 672
+miss pg-m-so-1        samepage     missing 54 So. 493
+miss pg-m-sw2-1       samepage     missing 20 S.W.2d 611
+miss pg-s-nw2-2       samepage     missing 584 N.W.2d 461
+miss pg-s-so-1        samepage     missing 73 So. 761
+miss ny-8-2           nyseries     missing 871 N.Y.S.2d 170 / 57 A.D.3d 531
+miss ny-8-4           nyseries     missing 853 N.Y.S.2d 312 / 49 A.D.3d 280
+miss ny-8-6           nyseries     missing 854 N.Y.S.2d 115 / 49 A.D.3d 403
+miss ny-9-1           nyseries     missing 917 N.Y.S.2d 379 / 82 A.D.3d 144
+miss ny-9-3           nyseries     missing 918 N.Y.S.2d 73 / 82 A.D.3d 421
+miss ny-9-5           nyseries     missing 926 N.Y.S.2d 532 / 86 A.D.3d 274
+miss ny-9-7           nyseries     missing 929 N.Y.S.2d 315 / 87 A.D.3d 955
+miss ny-9-9           nyseries     missing 932 N.Y.S.2d 68 / 89 A.D.3d 494

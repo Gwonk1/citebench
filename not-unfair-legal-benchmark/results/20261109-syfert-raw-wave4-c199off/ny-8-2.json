@@ -1,0 +1,92 @@
+{
+ "id": "ny-8-2",
+ "class": "nyseries",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "White v. DaimlerChrysler Corp., 871 N.Y.2d 170."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 0,\n        \"unresolved\": 1,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"volume_beyond_index\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.\",\n        \"1 citation(s) name a volume the reporter cannot have reached yet (verdict strong, verdict_evidence volume_beyond_index, cites[].volume_check): FABRICATED CITATION. Remove or replace each before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"871 N.Y.2d 170\",\n            \"problem\": \"Volume 871 cannot exist: the highest N.Y.2d volume indexed is 100 (2003), and at about 2 volumes a year the reporter cannot have passed volume 151 by 2026, so \\\"871 N.Y.2d 170\\\" is a fabricated citation, not a case too new for the index. No case is indexed at page 170 of 871 N.Y.2d. No opinion in the corpus prints this citation. Partially indexed volume (decisions of 2008) (we index ~63% of it): a miss is some evidence, not proof; verify by name.\",\n            \"suggested\": null,\n            \"verdict\": \"strong\",\n            \"verdict_evidence\": \"volume_beyond_index\"\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"871 N.Y.2d 170\",\n            \"volume\": \"871\",\n            \"reporter\": \"N.Y.2d\",\n            \"page\": \"170\",\n            \"pin\": null,\n            \"cluster_id\": null,\n            \"did_you_mean\": [],\n            \"name_search\": \"no_volume_band\",\n            \"claimed\": {\n                \"lhs\": \"White\",\n                \"rhs\": \"DaimlerChrysler Corp.\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": null,\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"verdict\": \"strong\",\n            \"verdict_evidence\": \"volume_beyond_index\",\n            \"unindexed_advice\": \"Volume 871 cannot exist: the highest N.Y.2d volume indexed is 100 (2003), and at about 2 volumes a year the reporter cannot have passed volume 151 by 2026, so \\\"871 N.Y.2d 170\\\" is a fabricated citation, not a case too new for the index. No case is indexed at page 170 of 871 N.Y.2d. No opinion in the corpus prints this citation. Partially indexed volume (decisions of 2008) (we index ~63% of it): a miss is some evidence, not proof; verify by name.\",\n            \"volume_coverage\": {\n                \"first_pages\": 129,\n                \"coverage_pct\": 63,\n                \"year_lo\": 2008,\n                \"year_hi\": 2008\n            },\n            \"corpus_check\": \"ran\",\n            \"volume_check\": {\n                \"cited\": 871,\n                \"highest_indexed\": 100,\n                \"highest_indexed_year\": 2003,\n                \"volumes_per_year\": 2,\n                \"threshold\": 151,\n                \"verdict\": \"beyond_range\"\n            }\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 0,
+     "unresolved": 1,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0,
+     "volume_beyond_index": 1
+    },
+    "warnings": [
+     "1 citation(s) not found in the corpus. Check any did_you_mean suggestions. Recent cases, about 2020 on, may be coverage gaps.",
+     "1 citation(s) name a volume the reporter cannot have reached yet (verdict strong, verdict_evidence volume_beyond_index, cites[].volume_check): FABRICATED CITATION. Remove or replace each before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "871 N.Y.2d 170",
+      "problem": "Volume 871 cannot exist: the highest N.Y.2d volume indexed is 100 (2003), and at about 2 volumes a year the reporter cannot have passed volume 151 by 2026, so \"871 N.Y.2d 170\" is a fabricated citation, not a case too new for the index. No case is indexed at page 170 of 871 N.Y.2d. No opinion in the corpus prints this citation. Partially indexed volume (decisions of 2008) (we index ~63% of it): a miss is some evidence, not proof; verify by name.",
+      "suggested": null,
+      "verdict": "strong",
+      "verdict_evidence": "volume_beyond_index"
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "871 N.Y.2d 170",
+      "volume": "871",
+      "reporter": "N.Y.2d",
+      "page": "170",
+      "pin": null,
+      "cluster_id": null,
+      "did_you_mean": [],
+      "name_search": "no_volume_band",
+      "claimed": {
+       "lhs": "White",
+       "rhs": "DaimlerChrysler Corp."
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": null,
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "verdict": "strong",
+      "verdict_evidence": "volume_beyond_index",
+      "unindexed_advice": "Volume 871 cannot exist: the highest N.Y.2d volume indexed is 100 (2003), and at about 2 volumes a year the reporter cannot have passed volume 151 by 2026, so \"871 N.Y.2d 170\" is a fabricated citation, not a case too new for the index. No case is indexed at page 170 of 871 N.Y.2d. No opinion in the corpus prints this citation. Partially indexed volume (decisions of 2008) (we index ~63% of it): a miss is some evidence, not proof; verify by name.",
+      "volume_coverage": {
+       "first_pages": 129,
+       "coverage_pct": 63,
+       "year_lo": 2008,
+       "year_hi": 2008
+      },
+      "corpus_check": "ran",
+      "volume_check": {
+       "cited": 871,
+       "highest_indexed": 100,
+       "highest_indexed_year": 2003,
+       "volumes_per_year": 2,
+       "threshold": 151,
+       "verdict": "beyond_range"
+      }
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

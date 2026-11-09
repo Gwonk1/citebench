@@ -1,0 +1,114 @@
+{
+ "id": "pg-m-so-1",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Thompson v. Collier, 54 So. 164."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 1,\n        \"procedural\": 0,\n        \"party_mismatch\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"54 So. 164\",\n            \"problem\": \"name mismatch: this citation is Ex parte Davis, not Thompson v. Collier; fix the name or the citation\",\n            \"suggested\": \"Ex parte Davis, 54 So. 164 (Ala. 1910)\",\n            \"claimed_name\": \"Thompson v. Collier\"\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"54 So. 164\",\n            \"volume\": \"54\",\n            \"reporter\": \"So.\",\n            \"page\": \"164\",\n            \"pin\": null,\n            \"cluster_id\": 7445170,\n            \"case\": {\n                \"case_name\": \"Ex parte Davis\",\n                \"case_name_short\": \"Ex parte Davis\",\n                \"date_filed\": \"1910-11-24\",\n                \"court_id\": \"ala\",\n                \"docket_number\": null,\n                \"citation_count\": 3,\n                \"court_label\": \"Ala.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"neutral\",\n                \"score\": 0.392,\n                \"total_events\": 6,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": null,\n                \"top_pos_court\": null,\n                \"top_pos_date\": null,\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"Thompson\",\n                \"rhs\": \"Collier\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Thompson\",\n                    \"rhs\": \"Collier\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"Ex parte Davis\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/alabama/cases/170-ala-114/ex-parte-davis\",\n            \"link_md\": \"[Ex parte Davis](https://syfert.com/alabama/cases/170-ala-114/ex-parte-davis)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    }\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 1,
+     "procedural": 0,
+     "party_mismatch": 1
+    },
+    "warnings": [
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "54 So. 164",
+      "problem": "name mismatch: this citation is Ex parte Davis, not Thompson v. Collier; fix the name or the citation",
+      "suggested": "Ex parte Davis, 54 So. 164 (Ala. 1910)",
+      "claimed_name": "Thompson v. Collier"
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "54 So. 164",
+      "volume": "54",
+      "reporter": "So.",
+      "page": "164",
+      "pin": null,
+      "cluster_id": 7445170,
+      "case": {
+       "case_name": "Ex parte Davis",
+       "case_name_short": "Ex parte Davis",
+       "date_filed": "1910-11-24",
+       "court_id": "ala",
+       "docket_number": null,
+       "citation_count": 3,
+       "court_label": "Ala."
+      },
+      "treatment": {
+       "flag_color": "neutral",
+       "score": 0.392,
+       "total_events": 6,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": null,
+       "top_pos_court": null,
+       "top_pos_date": null,
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "Thompson",
+       "rhs": "Collier"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "Thompson",
+        "rhs": "Collier"
+       },
+       "verdict": "mismatch",
+       "resolved_name": "Ex parte Davis"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/alabama/cases/170-ala-114/ex-parte-davis",
+      "link_md": "[Ex parte Davis](https://syfert.com/alabama/cases/170-ala-114/ex-parte-davis)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "id": "ny-co-2",
+ "class": "control",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "People v. Lugo, 650 N.Y.S.2d 102."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"650 N.Y.S.2d 102\",\n            \"volume\": \"650\",\n            \"reporter\": \"N.Y.S.2d\",\n            \"page\": \"102\",\n            \"pin\": null,\n            \"cluster_id\": 6141851,\n            \"case\": {\n                \"case_name\": \"People v. Lugo\",\n                \"case_name_short\": \"Lugo\",\n                \"date_filed\": \"1996-11-19\",\n                \"court_id\": \"nyappdiv\",\n                \"docket_number\": null,\n                \"citation_count\": 18,\n                \"court_label\": \"N.Y. App. Div. 1st Dep't\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 11.276,\n                \"total_events\": 22,\n                \"distinct_courts\": 2,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Thomas Garcia v. Hazel Lewis, Superintendent, Hale Creek Correctional Facility\",\n                \"top_pos_court\": \"ca2\",\n                \"top_pos_date\": \"1999-08-12\",\n                \"top_quote_norm\": \"defendant's contention that the courtroom was improperly closed during the testimony of an undercover officer is unpreserved because, at the hinton hearing, defendant raised none of the arguments he now raises on appeal.\",\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": {\n                \"lhs\": \"People\",\n                \"rhs\": \"Lugo\"\n            },\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"People\",\n                    \"rhs\": \"Lugo\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"People v. Lugo\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/new-york/cases/233-a-d-2d-197/people-v-lugo\",\n            \"link_md\": \"[People v. Lugo](https://syfert.com/new-york/cases/233-a-d-2d-197/people-v-lugo)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "650 N.Y.S.2d 102",
+      "volume": "650",
+      "reporter": "N.Y.S.2d",
+      "page": "102",
+      "pin": null,
+      "cluster_id": 6141851,
+      "case": {
+       "case_name": "People v. Lugo",
+       "case_name_short": "Lugo",
+       "date_filed": "1996-11-19",
+       "court_id": "nyappdiv",
+       "docket_number": null,
+       "citation_count": 18,
+       "court_label": "N.Y. App. Div. 1st Dep't"
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 11.276,
+       "total_events": 22,
+       "distinct_courts": 2,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Thomas Garcia v. Hazel Lewis, Superintendent, Hale Creek Correctional Facility",
+       "top_pos_court": "ca2",
+       "top_pos_date": "1999-08-12",
+       "top_quote_norm": "defendant's contention that the courtroom was improperly closed during the testimony of an undercover officer is unpreserved because, at the hinton hearing, defendant raised none of the arguments he now raises on appeal.",
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": {
+       "lhs": "People",
+       "rhs": "Lugo"
+      },
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "People",
+        "rhs": "Lugo"
+       },
+       "verdict": "match",
+       "resolved_name": "People v. Lugo"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/new-york/cases/233-a-d-2d-197/people-v-lugo",
+      "link_md": "[People v. Lugo](https://syfert.com/new-york/cases/233-a-d-2d-197/people-v-lugo)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

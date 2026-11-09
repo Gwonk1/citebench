@@ -1,0 +1,174 @@
+{
+ "id": "pg-s-p2-2",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "In re the Marriage of Staudt, 700 P.2d 179."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 0,\n        \"yellow\": 0,\n        \"green\": 1,\n        \"neutral\": 0,\n        \"procedural\": 0,\n        \"party_mismatch\": 1,\n        \"likely_misprint\": 1\n    },\n    \"warnings\": [\n        \"1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.\",\n        \"1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing.\"\n    ],\n    \"corrections\": [\n        {\n            \"raw\": \"700 P.2d 179\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"problem\": \"Likely misprint, not a fabricated case: The page is off by one digit (the third): the citation prints 179, the case is at 175. In re the Marriage of Staudt is reported at 700 P.2d 175 (same volume 700 of P.2d). It was decided 1985-05-23, within the years volume 700 of P.2d covers (1985-1985), and the name given names that case. The citation as printed (700 P.2d 179) is wrong; cite 700 P.2d 175.\",\n            \"replace_with\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n            \"fix\": {\n                \"from\": \"700 P.2d 179\",\n                \"to\": \"700 P.2d 175\"\n            },\n            \"suggested\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n            \"did_you_mean\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n            \"misprint\": {\n                \"printed\": \"700 P.2d 179\",\n                \"real\": \"700 P.2d 175\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 878869,\n                \"case_name\": \"In re the Marriage of Staudt\",\n                \"bluebook\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n                \"cite_as\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n                \"date_filed\": \"1985-05-23\",\n                \"url\": \"https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt\",\n                \"link_md\": \"[In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)](https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt)\",\n                \"note\": \"The page is off by one digit (the third): the citation prints 179, the case is at 175. In re the Marriage of Staudt is reported at 700 P.2d 175 (same volume 700 of P.2d). It was decided 1985-05-23, within the years volume 700 of P.2d covers (1985-1985), and the name given names that case. The citation as printed (700 P.2d 179) is wrong; cite 700 P.2d 175.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"case\": {\n                \"cluster_id\": 878869,\n                \"case_name\": \"In re the Marriage of Staudt\"\n            }\n        }\n    ],\n    \"corrections_note\": \"Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.\",\n    \"cites\": [\n        {\n            \"raw\": \"700 P.2d 179\",\n            \"volume\": \"700\",\n            \"reporter\": \"P.2d\",\n            \"page\": \"179\",\n            \"pin\": null,\n            \"caption\": \"In re the Marriage of Staudt\",\n            \"cluster_id\": 878868,\n            \"case\": {\n                \"case_name\": \"Carruthers v. Board of Horse Racing\",\n                \"case_name_short\": \"Carruthers\",\n                \"date_filed\": \"1985-05-23\",\n                \"court_id\": \"mont\",\n                \"docket_number\": \"84-515\",\n                \"citation_count\": 7,\n                \"court_label\": \"Mont.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"green\",\n                \"score\": 1.363,\n                \"total_events\": 15,\n                \"distinct_courts\": 1,\n                \"top_neg_label\": null,\n                \"top_neg_court\": null,\n                \"top_neg_date\": null,\n                \"top_pos_label\": \"Terry v. Board of Regents of Higher Education\",\n                \"top_pos_court\": \"mont\",\n                \"top_pos_date\": \"1986-02-18\",\n                \"top_quote_norm\": null,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\"\n            },\n            \"top_neg_cluster_id\": null,\n            \"neg_citers\": [],\n            \"top_neg_court_label\": \"\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [],\n            \"claimed\": null,\n            \"overruled_by\": null,\n            \"scope\": null,\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"In re the Marriage of Staudt\",\n                    \"rhs\": \"\"\n                },\n                \"verdict\": \"mismatch\",\n                \"resolved_name\": \"Carruthers v. Board of Horse Racing\",\n                \"via\": \"caption\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/montana/cases/216-mont-184/carruthers-v-board-of-horse-racing\",\n            \"link_md\": \"[Carruthers v. Board of Horse Racing](https://syfert.com/montana/cases/216-mont-184/carruthers-v-board-of-horse-racing)\",\n            \"verdict\": \"likely_misprint\",\n            \"verdict_evidence\": \"misprint_page\",\n            \"misprint\": {\n                \"printed\": \"700 P.2d 179\",\n                \"real\": \"700 P.2d 175\",\n                \"kind\": \"page\",\n                \"edit\": \"digit\",\n                \"cluster_id\": 878869,\n                \"case_name\": \"In re the Marriage of Staudt\",\n                \"bluebook\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n                \"cite_as\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n                \"date_filed\": \"1985-05-23\",\n                \"url\": \"https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt\",\n                \"link_md\": \"[In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)](https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt)\",\n                \"note\": \"The page is off by one digit (the third): the citation prints 179, the case is at 175. In re the Marriage of Staudt is reported at 700 P.2d 175 (same volume 700 of P.2d). It was decided 1985-05-23, within the years volume 700 of P.2d covers (1985-1985), and the name given names that case. The citation as printed (700 P.2d 179) is wrong; cite 700 P.2d 175.\",\n                \"via\": [\n                    \"name\"\n                ]\n            },\n            \"suggested_citation\": {\n                \"cluster_id\": 878869,\n                \"case_name\": \"In re the Marriage of Staudt\",\n                \"citation\": \"700 P.2d 175\",\n                \"bluebook\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n                \"cite_as\": \"In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)\",\n                \"date_filed\": \"1985-05-23\",\n                \"url\": \"https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt\",\n                \"link_md\": \"[In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)](https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt)\"\n            },\n            \"unindexed_advice\": \"Likely misprint: The page is off by one digit (the third): the citation prints 179, the case is at 175. In re the Marriage of Staudt is reported at 700 P.2d 175 (same volume 700 of P.2d). It was decided 1985-05-23, within the years volume 700 of P.2d covers (1985-1985), and the name given names that case. The citation as printed (700 P.2d 179) is wrong; cite 700 P.2d 175.\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 0,
+     "yellow": 0,
+     "green": 1,
+     "neutral": 0,
+     "procedural": 0,
+     "party_mismatch": 1,
+     "likely_misprint": 1
+    },
+    "warnings": [
+     "1 citation(s) are likely MISPRINTS of a real case: the case the brief names is reported one digit (volume or page) or one reporter series away (verdict likely_misprint; cites[].misprint, corrections replace_with). Correct the citation. This is not a hallucination signal.",
+     "1 citation(s) resolve to a DIFFERENT case than the brief claims. Possible hallucination, the Mata v. Avianca pattern. Fix before filing."
+    ],
+    "corrections": [
+     {
+      "raw": "700 P.2d 179",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "problem": "Likely misprint, not a fabricated case: The page is off by one digit (the third): the citation prints 179, the case is at 175. In re the Marriage of Staudt is reported at 700 P.2d 175 (same volume 700 of P.2d). It was decided 1985-05-23, within the years volume 700 of P.2d covers (1985-1985), and the name given names that case. The citation as printed (700 P.2d 179) is wrong; cite 700 P.2d 175.",
+      "replace_with": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+      "fix": {
+       "from": "700 P.2d 179",
+       "to": "700 P.2d 175"
+      },
+      "suggested": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+      "did_you_mean": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+      "misprint": {
+       "printed": "700 P.2d 179",
+       "real": "700 P.2d 175",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 878869,
+       "case_name": "In re the Marriage of Staudt",
+       "bluebook": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+       "cite_as": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+       "date_filed": "1985-05-23",
+       "url": "https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt",
+       "link_md": "[In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)](https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt)",
+       "note": "The page is off by one digit (the third): the citation prints 179, the case is at 175. In re the Marriage of Staudt is reported at 700 P.2d 175 (same volume 700 of P.2d). It was decided 1985-05-23, within the years volume 700 of P.2d covers (1985-1985), and the name given names that case. The citation as printed (700 P.2d 179) is wrong; cite 700 P.2d 175.",
+       "via": [
+        "name"
+       ]
+      },
+      "case": {
+       "cluster_id": 878869,
+       "case_name": "In re the Marriage of Staudt"
+      }
+     }
+    ],
+    "corrections_note": "Paste replace_with in place of brief_quote (or raw); re-run check_brief on the revised text.",
+    "cites": [
+     {
+      "raw": "700 P.2d 179",
+      "volume": "700",
+      "reporter": "P.2d",
+      "page": "179",
+      "pin": null,
+      "caption": "In re the Marriage of Staudt",
+      "cluster_id": 878868,
+      "case": {
+       "case_name": "Carruthers v. Board of Horse Racing",
+       "case_name_short": "Carruthers",
+       "date_filed": "1985-05-23",
+       "court_id": "mont",
+       "docket_number": "84-515",
+       "citation_count": 7,
+       "court_label": "Mont."
+      },
+      "treatment": {
+       "flag_color": "green",
+       "score": 1.363,
+       "total_events": 15,
+       "distinct_courts": 1,
+       "top_neg_label": null,
+       "top_neg_court": null,
+       "top_neg_date": null,
+       "top_pos_label": "Terry v. Board of Regents of Higher Education",
+       "top_pos_court": "mont",
+       "top_pos_date": "1986-02-18",
+       "top_quote_norm": null,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases)."
+      },
+      "top_neg_cluster_id": null,
+      "neg_citers": [],
+      "top_neg_court_label": "",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [],
+      "claimed": null,
+      "overruled_by": null,
+      "scope": null,
+      "party_check": {
+       "claimed": {
+        "lhs": "In re the Marriage of Staudt",
+        "rhs": ""
+       },
+       "verdict": "mismatch",
+       "resolved_name": "Carruthers v. Board of Horse Racing",
+       "via": "caption"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/montana/cases/216-mont-184/carruthers-v-board-of-horse-racing",
+      "link_md": "[Carruthers v. Board of Horse Racing](https://syfert.com/montana/cases/216-mont-184/carruthers-v-board-of-horse-racing)",
+      "verdict": "likely_misprint",
+      "verdict_evidence": "misprint_page",
+      "misprint": {
+       "printed": "700 P.2d 179",
+       "real": "700 P.2d 175",
+       "kind": "page",
+       "edit": "digit",
+       "cluster_id": 878869,
+       "case_name": "In re the Marriage of Staudt",
+       "bluebook": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+       "cite_as": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+       "date_filed": "1985-05-23",
+       "url": "https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt",
+       "link_md": "[In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)](https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt)",
+       "note": "The page is off by one digit (the third): the citation prints 179, the case is at 175. In re the Marriage of Staudt is reported at 700 P.2d 175 (same volume 700 of P.2d). It was decided 1985-05-23, within the years volume 700 of P.2d covers (1985-1985), and the name given names that case. The citation as printed (700 P.2d 179) is wrong; cite 700 P.2d 175.",
+       "via": [
+        "name"
+       ]
+      },
+      "suggested_citation": {
+       "cluster_id": 878869,
+       "case_name": "In re the Marriage of Staudt",
+       "citation": "700 P.2d 175",
+       "bluebook": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+       "cite_as": "In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)",
+       "date_filed": "1985-05-23",
+       "url": "https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt",
+       "link_md": "[In re the Marriage of Staudt, 700 P.2d 175 (Mont. 1985)](https://syfert.com/montana/cases/216-mont-196/in-re-the-marriage-of-staudt)"
+      },
+      "unindexed_advice": "Likely misprint: The page is off by one digit (the third): the citation prints 179, the case is at 175. In re the Marriage of Staudt is reported at 700 P.2d 175 (same volume 700 of P.2d). It was decided 1985-05-23, within the years volume 700 of P.2d covers (1985-1985), and the name given names that case. The citation as printed (700 P.2d 179) is wrong; cite 700 P.2d 175."
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}

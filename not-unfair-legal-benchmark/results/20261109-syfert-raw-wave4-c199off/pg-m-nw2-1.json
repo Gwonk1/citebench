@@ -1,0 +1,170 @@
+{
+ "id": "pg-m-nw2-1",
+ "class": "samepage",
+ "calls": [
+  {
+   "tool": "check_brief",
+   "args": {
+    "text": "Gutierrez v. Dairyland Insurance, 312 N.W.2d 181."
+   },
+   "is_error": false,
+   "text": "{\n    \"mode\": \"defend\",\n    \"stats\": {\n        \"extracted\": 1,\n        \"resolved\": 1,\n        \"unresolved\": 0,\n        \"red\": 1,\n        \"yellow\": 0,\n        \"green\": 0,\n        \"neutral\": 0,\n        \"procedural\": 0\n    },\n    \"warnings\": [\n        \"1 cited case(s) carry RED treatment flags. Confirm they are still good law before relying on them.\",\n        \"RED scope: Gutierrez v. Dairyland Insurance \u2014 Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved.\"\n    ],\n    \"corrections\": [],\n    \"cites\": [\n        {\n            \"raw\": \"312 N.W.2d 181\",\n            \"volume\": \"312\",\n            \"reporter\": \"N.W.2d\",\n            \"page\": \"181\",\n            \"pin\": null,\n            \"cluster_id\": 1757340,\n            \"case\": {\n                \"case_name\": \"Gutierrez v. Dairyland Insurance\",\n                \"case_name_short\": \"Gutierrez\",\n                \"date_filed\": \"1981-10-06\",\n                \"court_id\": \"michctapp\",\n                \"docket_number\": \"Docket 50996\",\n                \"citation_count\": 19,\n                \"court_label\": \"Mich. Ct. App.\"\n            },\n            \"treatment\": {\n                \"flag_color\": \"red\",\n                \"score\": -1.826,\n                \"total_events\": 26,\n                \"distinct_courts\": 5,\n                \"top_neg_label\": \"Heard v. State Farm Mutual Automobile Insurance\",\n                \"top_neg_court\": \"mich\",\n                \"top_neg_date\": \"1982-09-13\",\n                \"top_pos_label\": \"Rajhel v. Automobile Club Insurance\",\n                \"top_pos_court\": \"michctapp\",\n                \"top_pos_date\": \"1985-07-08\",\n                \"top_quote_norm\": null,\n                \"top_neg_source\": \"overruled_by\",\n                \"top_neg_published\": true,\n                \"proposition_note\": \"No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).\",\n                \"strongest_signal\": \"Disapproved\",\n                \"strongest_citer\": \"Heard v. State Farm Mutual Automobile Insurance\",\n                \"strongest_date\": \"1982-09-13\",\n                \"strongest_citer_cluster_id\": 1579796,\n                \"strongest_citer_published\": true,\n                \"strongest_citer_source\": \"overruled_by\",\n                \"flag_basis\": \"overruled_by\",\n                \"flag_reason\": \"Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved.\",\n                \"flag_evidence\": [\n                    \"citing_events\",\n                    \"overruled_by\",\n                    \"scope\",\n                    \"validated_annotations\"\n                ]\n            },\n            \"top_neg_cluster_id\": 1579796,\n            \"neg_citers\": {\n                \"heard v. state farm mutual automobile insurance\": {\n                    \"cid\": 1579796,\n                    \"court\": \"mich\"\n                }\n            },\n            \"top_neg_court_label\": \"Mich.\",\n            \"g_cite\": {\n                \"max_red\": null,\n                \"max_yellow\": null,\n                \"bad_props\": null\n            },\n            \"ammo\": [],\n            \"ammo_props\": [],\n            \"under_fire\": null,\n            \"replacements\": [\n                {\n                    \"neighbor_cluster_id\": 2125306,\n                    \"neighbor_name\": \"Kalin\",\n                    \"n\": 8,\n                    \"flag_color\": \"green\",\n                    \"score\": 14.548,\n                    \"total_events\": 107,\n                    \"year\": 1982,\n                    \"url\": \"https://syfert.com/michigan/cases/112-mich-app-497/kalin-v-detroit-automobile-inter-insurance-exchange\",\n                    \"link_md\": \"[Kalin](https://syfert.com/michigan/cases/112-mich-app-497/kalin-v-detroit-automobile-inter-insurance-exchange)\"\n                },\n                {\n                    \"neighbor_cluster_id\": 1825479,\n                    \"neighbor_name\": \"Shinabarger\",\n                    \"n\": 7,\n                    \"flag_color\": \"green\",\n                    \"score\": 11.934,\n                    \"total_events\": 194,\n                    \"year\": 1979,\n                    \"url\": \"https://syfert.com/michigan/cases/407-mich-895/shinabarger-v-citizens-mutual-insurance\",\n                    \"link_md\": \"[Shinabarger](https://syfert.com/michigan/cases/407-mich-895/shinabarger-v-citizens-mutual-insurance)\"\n                },\n                {\n                    \"neighbor_cluster_id\": 2186365,\n                    \"neighbor_name\": null,\n                    \"n\": 7,\n                    \"flag_color\": \"green\",\n                    \"score\": 6.97,\n                    \"total_events\": 309,\n                    \"year\": 1981,\n                    \"url\": \"https://syfert.com/michigan/cases/411-mich-633/miller-v-auto-owners-insurance-company\"\n                }\n            ],\n            \"claimed\": {\n                \"lhs\": \"Gutierrez\",\n                \"rhs\": \"Dairyland Insurance\"\n            },\n            \"overruled_by\": {\n                \"overruler_cluster_id\": 1579796,\n                \"overruler_name\": \"Heard v. State Farm Mutual Automobile Insurance\",\n                \"overruler_date\": \"1982-09-13\",\n                \"verb\": \"disapproved\",\n                \"n_winner\": 1,\n                \"share\": 1,\n                \"url\": \"https://syfert.com/michigan/cases/414-mich-139/heard-v-state-farm-mutual-automobile-insurance\",\n                \"link_md\": \"[Heard v. State Farm Mutual Automobile Insurance](https://syfert.com/michigan/cases/414-mich-139/heard-v-state-farm-mutual-automobile-insurance)\"\n            },\n            \"scope\": \"Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved.\",\n            \"party_check\": {\n                \"claimed\": {\n                    \"lhs\": \"Gutierrez\",\n                    \"rhs\": \"Dairyland Insurance\"\n                },\n                \"verdict\": \"match\",\n                \"resolved_name\": \"Gutierrez v. Dairyland Insurance\"\n            },\n            \"quote_check\": null,\n            \"quote_origin\": null,\n            \"quote_checks\": [],\n            \"url\": \"https://syfert.com/michigan/cases/110-mich-app-126/gutierrez-v-dairyland-insurance\",\n            \"link_md\": \"[Gutierrez v. Dairyland Insurance](https://syfert.com/michigan/cases/110-mich-app-126/gutierrez-v-dairyland-insurance)\"\n        }\n    ],\n    \"statutes\": {\n        \"stats\": {\n            \"extracted\": 0,\n            \"verified\": 0,\n            \"not_found\": 0\n        },\n        \"findings\": [],\n        \"warnings\": [],\n        \"note\": \"No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\\\"rule 12\\\") is deliberately not treated as a citation.\"\n    },\n    \"feedback_hint\": \"A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged.\"\n}",
+   "json": {
+    "mode": "defend",
+    "stats": {
+     "extracted": 1,
+     "resolved": 1,
+     "unresolved": 0,
+     "red": 1,
+     "yellow": 0,
+     "green": 0,
+     "neutral": 0,
+     "procedural": 0
+    },
+    "warnings": [
+     "1 cited case(s) carry RED treatment flags. Confirm they are still good law before relying on them.",
+     "RED scope: Gutierrez v. Dairyland Insurance \u2014 Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved."
+    ],
+    "corrections": [],
+    "cites": [
+     {
+      "raw": "312 N.W.2d 181",
+      "volume": "312",
+      "reporter": "N.W.2d",
+      "page": "181",
+      "pin": null,
+      "cluster_id": 1757340,
+      "case": {
+       "case_name": "Gutierrez v. Dairyland Insurance",
+       "case_name_short": "Gutierrez",
+       "date_filed": "1981-10-06",
+       "court_id": "michctapp",
+       "docket_number": "Docket 50996",
+       "citation_count": 19,
+       "court_label": "Mich. Ct. App."
+      },
+      "treatment": {
+       "flag_color": "red",
+       "score": -1.826,
+       "total_events": 26,
+       "distinct_courts": 5,
+       "top_neg_label": "Heard v. State Farm Mutual Automobile Insurance",
+       "top_neg_court": "mich",
+       "top_neg_date": "1982-09-13",
+       "top_pos_label": "Rajhel v. Automobile Club Insurance",
+       "top_pos_court": "michctapp",
+       "top_pos_date": "1985-07-08",
+       "top_quote_norm": null,
+       "top_neg_source": "overruled_by",
+       "top_neg_published": true,
+       "proposition_note": "No proposition-level signal for this use: no proposition data for this case (propositions cover passages other courts quote from frequently cited cases).",
+       "strongest_signal": "Disapproved",
+       "strongest_citer": "Heard v. State Farm Mutual Automobile Insurance",
+       "strongest_date": "1982-09-13",
+       "strongest_citer_cluster_id": 1579796,
+       "strongest_citer_published": true,
+       "strongest_citer_source": "overruled_by",
+       "flag_basis": "overruled_by",
+       "flag_reason": "Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved.",
+       "flag_evidence": [
+        "citing_events",
+        "overruled_by",
+        "scope",
+        "validated_annotations"
+       ]
+      },
+      "top_neg_cluster_id": 1579796,
+      "neg_citers": {
+       "heard v. state farm mutual automobile insurance": {
+        "cid": 1579796,
+        "court": "mich"
+       }
+      },
+      "top_neg_court_label": "Mich.",
+      "g_cite": {
+       "max_red": null,
+       "max_yellow": null,
+       "bad_props": null
+      },
+      "ammo": [],
+      "ammo_props": [],
+      "under_fire": null,
+      "replacements": [
+       {
+        "neighbor_cluster_id": 2125306,
+        "neighbor_name": "Kalin",
+        "n": 8,
+        "flag_color": "green",
+        "score": 14.548,
+        "total_events": 107,
+        "year": 1982,
+        "url": "https://syfert.com/michigan/cases/112-mich-app-497/kalin-v-detroit-automobile-inter-insurance-exchange",
+        "link_md": "[Kalin](https://syfert.com/michigan/cases/112-mich-app-497/kalin-v-detroit-automobile-inter-insurance-exchange)"
+       },
+       {
+        "neighbor_cluster_id": 1825479,
+        "neighbor_name": "Shinabarger",
+        "n": 7,
+        "flag_color": "green",
+        "score": 11.934,
+        "total_events": 194,
+        "year": 1979,
+        "url": "https://syfert.com/michigan/cases/407-mich-895/shinabarger-v-citizens-mutual-insurance",
+        "link_md": "[Shinabarger](https://syfert.com/michigan/cases/407-mich-895/shinabarger-v-citizens-mutual-insurance)"
+       },
+       {
+        "neighbor_cluster_id": 2186365,
+        "neighbor_name": null,
+        "n": 7,
+        "flag_color": "green",
+        "score": 6.97,
+        "total_events": 309,
+        "year": 1981,
+        "url": "https://syfert.com/michigan/cases/411-mich-633/miller-v-auto-owners-insurance-company"
+       }
+      ],
+      "claimed": {
+       "lhs": "Gutierrez",
+       "rhs": "Dairyland Insurance"
+      },
+      "overruled_by": {
+       "overruler_cluster_id": 1579796,
+       "overruler_name": "Heard v. State Farm Mutual Automobile Insurance",
+       "overruler_date": "1982-09-13",
+       "verb": "disapproved",
+       "n_winner": 1,
+       "share": 1,
+       "url": "https://syfert.com/michigan/cases/414-mich-139/heard-v-state-farm-mutual-automobile-insurance",
+       "link_md": "[Heard v. State Farm Mutual Automobile Insurance](https://syfert.com/michigan/cases/414-mich-139/heard-v-state-farm-mutual-automobile-insurance)"
+      },
+      "scope": "Disapproved by Heard v. State Farm Mutual Automobile Insurance: 1 citing opinion says disapproved.",
+      "party_check": {
+       "claimed": {
+        "lhs": "Gutierrez",
+        "rhs": "Dairyland Insurance"
+       },
+       "verdict": "match",
+       "resolved_name": "Gutierrez v. Dairyland Insurance"
+      },
+      "quote_check": null,
+      "quote_origin": null,
+      "quote_checks": [],
+      "url": "https://syfert.com/michigan/cases/110-mich-app-126/gutierrez-v-dairyland-insurance",
+      "link_md": "[Gutierrez v. Dairyland Insurance](https://syfert.com/michigan/cases/110-mich-app-126/gutierrez-v-dairyland-insurance)"
+     }
+    ],
+    "statutes": {
+     "stats": {
+      "extracted": 0,
+      "verified": 0,
+      "not_found": 0
+     },
+     "findings": [],
+     "warnings": [],
+     "note": "No statute, regulation or court-rule citation was recognised in this document. Recognition covers the citation forms the site links inside opinions; a bare short form that names no code (\"rule 12\") is deliberately not treated as a citation."
+    },
+    "feedback_hint": "A red or green flag that the evidence contradicts can be reported with suggest_treatment (red or green + a one-line reason, for human review); nothing else is logged."
+   }
+  }
+ ]
+}
