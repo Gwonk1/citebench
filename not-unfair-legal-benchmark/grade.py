@@ -4,6 +4,9 @@
 # right / any_right / any_of are read over the whole answer. wrong, absent and
 # forbid_vendor are read on the ANSWER line only, so an answer may name the bad
 # form while explaining the correction ("Fla. 1st DCA, not Fla. Dist. Ct. App.").
+# v1.4.1 (2026-11-10): a wrong form on the ANSWER line that the line itself marks as
+# wrong ("(1969) is not the decision year", "3d Cir., not 3rd Cir.") is not punished,
+# provided the corrected form is on that line too.
 # A treatment verdict (gold.verdict_line) must appear on the ANSWER line and may
 # not be negated ("has not been overruled" is not "overruled"). When there is no
 # ANSWER line the last non-empty line is graded instead and the per-item result
@@ -105,6 +108,27 @@ def _positive_hit(text, phrase):
         start = i + len(phrase)
 
 
+# v1.4.1: a wrong form on the ANSWER line is forgiven when the line itself marks it as wrong
+# ("the year written (1969) is not the decision year ... decided in 1956", "3d Cir., not 3rd Cir.").
+_DISOWN_BEFORE = re.compile(r"(?:\bnot|\binstead of|\brather than|\bwritten as|\bprinted as|\bwritten|\bprinted)[ (\"']*$")
+_DISOWN_AFTER = re.compile(r"^[)\"']*,? (?:is|was) (?:not\b|wrong\b|incorrect\b|a misprint\b|a typo\b)")
+
+
+def _all_disowned(text, phrase):
+    """Every occurrence of phrase in text is explicitly marked as the wrong form."""
+    start, seen = 0, False
+    while True:
+        i = text.find(phrase, start)
+        if i < 0:
+            return seen
+        before = text[max(0, i - 48):i]
+        after = text[i + len(phrase):i + len(phrase) + 24]
+        if not (_DISOWN_BEFORE.search(before) or _DISOWN_AFTER.search(after)):
+            return False
+        seen = True
+        start = i + len(phrase)
+
+
 NO_ANSWER = "no answer from the tool"
 
 
@@ -182,14 +206,16 @@ def grade_item(answer, gold, passage=None):
     if matched:
         held.append(matched)
     if wrongs:
+        # forgiveness needs the corrected form on the same line
+        corrected = any(r in line for r in held + any_of)
         rest = line
         for r in held:
             rest = rest.replace(r, "")
         for w in wrongs:
             if any(w in r for r in held):
-                if w in rest:
+                if w in rest and not (corrected and _all_disowned(rest, w)):
                     return fail("answer line also has " + w)
-            elif w in line:
+            elif w in line and not (corrected and _all_disowned(line, w)):
                 return fail("answer line has " + w)
     return ok()
 

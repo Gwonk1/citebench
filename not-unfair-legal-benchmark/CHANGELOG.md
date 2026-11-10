@@ -1,5 +1,21 @@
 # Changelog
 
+## Grader fix — 2026-11-10 (passages and gold unchanged, still v1.4)
+
+`grade.py`: a `wrong` form on the ANSWER line is no longer punished when the line itself marks it as the wrong form
+and also carries the corrected form. Example (item `dt-md-6`): "The year written with this citation (1969) is not the
+decision year: Globe Indemnity Co. v. Victill Corp. was decided in 1956." was failed for containing 1969. Recognised
+markers: "not X", "instead of X", "rather than X", "written/printed (as) X", "X is/was not ...", "X is/was
+wrong/incorrect/a misprint/a typo". Every occurrence of the wrong form on the line must be so marked; a line that
+asserts the wrong form anywhere ("(Md. 1969), decided 1956") still fails, and so does a line holding only the wrong
+form. Tests added in `test_grade.py`; every item's self-check still passes.
+
+Effect on saved answer files (old grader vs new, all files under `results/`): no change in any arm except the raw
+Syfert arm on the wave-3 date items: `20261108-syfert-raw-wave3` 41 -> 42 of 42 (`dt-md-6`), and the pre-fix run
+`20261108-syfert-raw-wave3-pre` 32 -> 42 (ten date items whose answer line quoted the wrong year while correcting
+it). The raw Syfert arm on the full set is 323 of 343 under this grader (322 before). Scores quoted in earlier
+entries were computed with the grader of their day.
+
 ## v1.4 — 2026-11-09
 
 343 passages (v1.3 had 292). The 292 v1.3 passages and their gold are unchanged (a rebuild is identical apart from

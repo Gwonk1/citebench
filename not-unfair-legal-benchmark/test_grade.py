@@ -220,3 +220,19 @@ if __name__ == "__main__":
             print("FAIL", name, "-", e)
     print(f"{len(tests) - failed} passed, {failed} failed")
     raise SystemExit(1 if failed else 0)
+
+
+def test_wrong_form_disowned_on_answer_line_is_allowed():
+    # v1.4.1: dt-md-6. The tool corrects the year and quotes the wrong one while doing so.
+    gold = {"right": ["119 A.2d 423"], "any_of": ["1956"], "verdict_line": True, "wrong": ["1969"]}
+    line = ("119 A.2d 423\nANSWER: The year written with this citation (1969) is not the decision year: "
+            "Globe Indemnity Co. v. Victill Corp. was decided in 1956.")
+    assert grade.grade_item(line, gold)["passed"] is True
+    assert grade.grade_item("119 A.2d 423\nANSWER: decided 1956, not 1969", gold)["passed"] is True
+    # the wrong form asserted, or only partly disowned, still fails
+    assert grade.grade_item("119 A.2d 423\nANSWER: 119 A.2d 423 (Md. 1969), decided 1956", gold)["passed"] is False
+    assert grade.grade_item("119 A.2d 423\nANSWER: not 1969 but 1956; cite as (Md. 1969)", gold)["passed"] is False
+    assert grade.grade_item("119 A.2d 423\nANSWER: correct as written, 1969 is the decision year, not 1956", gold)["passed"] is False
+    gold = {"right": ["3d Cir."], "wrong": ["3rd Cir."]}
+    assert grade.grade_item("ANSWER: 3d Cir., not 3rd Cir.", gold)["passed"] is True
+    assert grade.grade_item("ANSWER: 3rd Cir.", gold)["passed"] is False
